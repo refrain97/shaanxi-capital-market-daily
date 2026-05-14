@@ -1,0 +1,1537 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西资本市场日报库</title>
+  <link rel="preload" as="image" href="assets/previews/listed-2026-05-13.webp" type="image/webp" fetchpriority="high">
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #667085;
+      --subtle: #8a94a6;
+      --line: #d8dee8;
+      --line-soft: #e8edf4;
+      --paper: #ffffff;
+      --wash: #f5f7fa;
+      --band: #edf2f7;
+      --navy: #16324f;
+      --blue: #2f6fbd;
+      --teal: #17746f;
+      --amber: #b26b18;
+      --red: #ba3f36;
+      --green: #257a52;
+      --shadow: 0 18px 42px rgba(25, 36, 58, .10);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    html,
+    body {
+      overflow-x: hidden;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--wash);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .top-strip {
+      background: #0f243c;
+      color: #dce7f5;
+      border-bottom: 1px solid rgba(255, 255, 255, .10);
+    }
+
+    .nav {
+      width: min(1180px, calc(100% - 40px));
+      min-height: 64px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .brand strong {
+      color: #fff;
+      font-size: 19px;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+
+    .brand span {
+      color: #afbfce;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .nav-links a {
+      min-height: 36px;
+      padding: 9px 12px;
+      border-radius: 6px;
+      color: #d8e4f2;
+      font-size: 14px;
+    }
+
+    .nav-links a:hover { background: rgba(255, 255, 255, .10); }
+
+    .hero {
+      background: linear-gradient(115deg, #0f243c 0%, #16324f 52%, #1b5f73 100%);
+      color: #fff;
+    }
+
+    .hero-inner {
+      width: min(1180px, calc(100% - 40px));
+      min-height: 430px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, .75fr);
+      gap: 36px;
+      align-items: center;
+      padding: 48px 0 42px;
+    }
+
+    .hero-inner > * { min-width: 0; }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 6px 10px;
+      border: 1px solid rgba(255, 255, 255, .22);
+      border-radius: 6px;
+      color: #d9e5f0;
+      font-size: 13px;
+      background: rgba(255, 255, 255, .08);
+    }
+
+    h1 {
+      margin: 18px 0 0;
+      max-width: 760px;
+      font-size: clamp(38px, 6vw, 72px);
+      line-height: 1.04;
+      letter-spacing: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .hero-copy {
+      max-width: 660px;
+      margin: 18px 0 0;
+      color: #d7e3f0;
+      font-size: 18px;
+      line-height: 1.7;
+      overflow-wrap: anywhere;
+    }
+
+    .mobile-break { display: none; }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 11px 16px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--paper);
+      color: var(--ink);
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .button.primary {
+      border-color: #fff;
+      background: #fff;
+      color: #0f243c;
+    }
+
+    .button.ghost {
+      border-color: rgba(255, 255, 255, .30);
+      background: rgba(255, 255, 255, .08);
+      color: #fff;
+    }
+
+    .button:hover { filter: brightness(.98); }
+
+    .hero-panel {
+      align-self: stretch;
+      display: grid;
+      align-content: end;
+      gap: 12px;
+    }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .metric {
+      min-height: 112px;
+      padding: 18px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .92);
+      color: var(--ink);
+      box-shadow: var(--shadow);
+    }
+
+    .metric b {
+      display: block;
+      font-size: 34px;
+      line-height: 1;
+      color: #0f243c;
+    }
+
+    .metric span {
+      display: block;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .band {
+      padding: 48px 0;
+      border-bottom: 1px solid var(--line-soft);
+      content-visibility: auto;
+      contain-intrinsic-size: 900px;
+    }
+
+    .band.alt { background: #fff; }
+
+    .wrap {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 28px;
+      line-height: 1.18;
+      letter-spacing: 0;
+      color: var(--ink);
+    }
+
+    .section-head p {
+      margin: 8px 0 0;
+      max-width: 680px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.65;
+    }
+
+    .segmented {
+      display: flex;
+      gap: 8px;
+      padding: 5px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      flex-wrap: wrap;
+    }
+
+    .segmented button {
+      min-height: 34px;
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--muted);
+      padding: 8px 12px;
+      font: inherit;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .segmented button.active {
+      background: #16324f;
+      color: #fff;
+    }
+
+    .featured-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(320px, .75fr);
+      gap: 22px;
+      align-items: start;
+    }
+
+    .lead-report {
+      min-height: 340px;
+      border-radius: 8px;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 260px;
+      align-items: start;
+      background: #fff;
+      border: 1px solid var(--line);
+      box-shadow: 0 12px 30px rgba(25, 36, 58, .08);
+    }
+
+    .lead-content { padding: 26px; }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 5px 8px;
+      border-radius: 5px;
+      color: #334155;
+      background: #eef2f7;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .tag.blue { background: #eaf2ff; color: var(--blue); }
+    .tag.teal { background: #e6f5f2; color: var(--teal); }
+    .tag.amber { background: #fff1dc; color: var(--amber); }
+    .tag.red { background: #fff0ed; color: var(--red); }
+
+    .report-title {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.22;
+      letter-spacing: 0;
+    }
+
+    .report-summary {
+      margin: 16px 0 0;
+      color: #475467;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    .fact-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin: 24px 0;
+    }
+
+    .fact {
+      min-height: 82px;
+      border: 1px solid var(--line-soft);
+      border-radius: 8px;
+      padding: 14px;
+      background: #f8fafc;
+    }
+
+    .fact b {
+      display: block;
+      font-size: 22px;
+      color: var(--navy);
+    }
+
+    .fact span {
+      display: block;
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .lead-image {
+      align-self: start;
+      height: 340px;
+      min-height: 0;
+      background: #dfe6ef;
+      overflow: hidden;
+    }
+
+    .lead-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+
+    picture {
+      display: contents;
+    }
+
+    .side-stack {
+      display: grid;
+      gap: 14px;
+    }
+
+    .compact-report {
+      min-height: 198px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 116px minmax(0, 1fr);
+    }
+
+    .compact-media {
+      background: #e9eef5;
+      overflow: hidden;
+    }
+
+    .compact-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+
+    .compact-body {
+      padding: 18px;
+      min-width: 0;
+    }
+
+    .compact-body h3 {
+      margin: 0;
+      font-size: 19px;
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+
+    .compact-body p {
+      margin: 10px 0 14px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    .text-link {
+      color: var(--blue);
+      font-weight: 800;
+      font-size: 14px;
+    }
+
+    .text-link:hover { text-decoration: underline; }
+
+    .channel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+    }
+
+    .channel-card {
+      min-height: 328px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .channel-top {
+      min-height: 120px;
+      padding: 22px;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .channel-top.listed { background: #16324f; }
+    .channel-top.private { background: #17746f; }
+    .channel-top.ma { background: #8f5b18; }
+    .channel-top.tender { background: #2f5f8f; }
+
+    .channel-top small {
+      color: rgba(255, 255, 255, .72);
+      font-weight: 700;
+    }
+
+    .channel-top h3 {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+
+    .channel-body {
+      padding: 20px 22px 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      flex: 1;
+    }
+
+    .channel-body p {
+      margin: 0;
+      color: #475467;
+      font-size: 15px;
+      line-height: 1.65;
+    }
+
+    .mini-facts {
+      display: grid;
+      gap: 8px;
+      margin-top: auto;
+    }
+
+    .mini-facts div {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 9px 0;
+      border-top: 1px solid var(--line-soft);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .mini-facts strong {
+      color: var(--ink);
+      text-align: right;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(240px, 1fr) auto;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .search {
+      width: 100%;
+      min-height: 44px;
+      padding: 11px 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+      font-size: 15px;
+    }
+
+    .archive-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .archive-row {
+      display: grid;
+      grid-template-columns: 148px minmax(0, 1fr) 150px;
+      gap: 18px;
+      align-items: center;
+      min-height: 106px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .date-block {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .date-block strong {
+      display: block;
+      margin-bottom: 3px;
+      color: var(--ink);
+      font-size: 22px;
+      line-height: 1;
+    }
+
+    .archive-main h3 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+
+    .archive-main p {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    .archive-actions {
+      display: grid;
+      gap: 8px;
+    }
+
+    .archive-actions .button {
+      min-height: 38px;
+      padding: 9px 12px;
+      font-size: 13px;
+    }
+
+    .fixed-link {
+      background: #0f243c;
+      color: #fff;
+    }
+
+    .fixed-link .wrap {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(320px, .75fr);
+      gap: 34px;
+      align-items: center;
+      padding: 42px 0;
+    }
+
+    .fixed-link h2 { color: #fff; }
+
+    .fixed-link p {
+      margin: 10px 0 0;
+      color: #c5d2e2;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .contact-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .contact-item {
+      display: grid;
+      grid-template-columns: 72px minmax(0, 1fr);
+      gap: 12px;
+      align-items: center;
+      padding: 12px;
+      border: 1px solid rgba(255, 255, 255, .14);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .06);
+    }
+
+    .contact-item span {
+      color: #9eb0c4;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .contact-item strong,
+    .contact-item a {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+
+    .empty-state {
+      display: none;
+      padding: 28px;
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      color: var(--muted);
+      background: #fff;
+      text-align: center;
+    }
+
+    .site-footer {
+      padding: 24px 0 34px;
+      color: var(--subtle);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    @media (max-width: 980px) {
+      .hero-inner,
+      .featured-grid,
+      .fixed-link .wrap {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-panel { align-content: start; }
+
+      .lead-report {
+        grid-template-columns: 1fr;
+      }
+
+      .lead-image {
+        height: 210px;
+        min-height: 0;
+        order: -1;
+      }
+
+      .channel-grid {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+    @media (max-width: 720px) {
+      .nav {
+        width: min(100% - 28px, 1180px);
+        min-height: 58px;
+      }
+
+      .brand {
+        display: block;
+      }
+
+      .brand strong,
+      .brand span {
+        display: block;
+      }
+
+      .brand span { margin-top: 3px; }
+
+      .nav-links { display: none; }
+
+      .hero-inner,
+      .wrap {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .hero {
+        background: linear-gradient(145deg, #0f243c 0%, #16324f 58%, #1b5f73 100%);
+      }
+
+      .hero-inner {
+        min-height: 0;
+        padding: 26px 0;
+        gap: 24px;
+      }
+
+      h1 {
+        font-size: 34px;
+        line-height: 1.12;
+      }
+
+      .mobile-break { display: block; }
+
+      .hero-copy {
+        font-size: 16px;
+        line-height: 1.65;
+        max-width: calc(100vw - 28px);
+        word-break: break-all;
+      }
+
+      .metric-grid,
+      .fact-list {
+        grid-template-columns: 1fr;
+      }
+
+      .metric { min-height: 92px; }
+
+      .band { padding: 34px 0; }
+
+      .hero-panel { display: none; }
+
+      .section-head {
+        display: block;
+      }
+
+      .segmented {
+        margin-top: 16px;
+      }
+
+      .lead-content,
+      .channel-body,
+      .channel-top {
+        padding: 20px;
+      }
+
+      .report-title { font-size: 25px; }
+
+      .compact-report {
+        grid-template-columns: 94px minmax(0, 1fr);
+        min-height: 180px;
+      }
+
+      .toolbar {
+        grid-template-columns: 1fr;
+      }
+
+      .archive-row {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      .archive-actions {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .fixed-link .wrap {
+        padding: 34px 0;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .archive-actions {
+        grid-template-columns: 1fr;
+      }
+
+      .compact-report {
+        grid-template-columns: 1fr;
+      }
+
+      .compact-media {
+        height: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-strip">
+    <nav class="nav" aria-label="日报库导航">
+      <a class="brand" href="#">
+        <strong>陕西资本市场日报库</strong>
+      </a>
+      <div class="nav-links">
+        <a href="#latest">最新日报</a>
+        <a href="#channels">日报频道</a>
+        <a href="#archive">历史归档</a>
+        <a href="#contact">联系我们</a>
+      </div>
+    </nav>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <span class="eyebrow">2026-05-14 更新</span>
+        <h1>一个入口，<br class="mobile-break">集中查看所有日报</h1>
+        <p class="hero-copy">
+          聚合陕西上市公司公告、证券私募动态、收并购市场观察和金融招投标项目清单，适合日常查阅、微信转发和历史归档。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#latest">查看最新日报</a>
+          <a class="button ghost" href="#archive">浏览历史归档</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="日报库概览">
+        <div class="metric-grid">
+          <div class="metric">
+            <b>4</b>
+            <span>个日报频道已纳入入口页</span>
+          </div>
+          <div class="metric">
+            <b>21</b>
+            <span>份现有日报/看板可直接打开</span>
+          </div>
+          <div class="metric">
+            <b>3</b>
+            <span>种内容形态：网页正文、Markdown 与图片看板</span>
+          </div>
+          <div class="metric">
+            <b>1</b>
+            <span>个固定入口，适合微信和移动端传播</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="latest" class="band alt">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>最新日报</h2>
+          </div>
+        </div>
+
+        <div class="featured-grid">
+          <article class="lead-report">
+            <div class="lead-content">
+              <div class="tag-row">
+                <span class="tag blue">上市公司公告</span>
+                <span class="tag red">风险波动</span>
+                <span class="tag">2026-05-13</span>
+              </div>
+              <h3 class="report-title">陕西上市公司公告早报</h3>
+              <p class="report-summary">
+                今日命中 72 条公告，覆盖 43 家公司，主线为源杰高估值风险、ST兴化/ST金花异常波动、广电网络诉讼仲裁、供销大集股权收购、盘龙药业激励与员工持股。
+              </p>
+              <div class="fact-list">
+                <div class="fact"><b>72</b><span>条公告命中</span></div>
+                <div class="fact"><b>5,010.87万</b><span>广电网络新增涉案金额</span></div>
+                <div class="fact"><b>9,977.76万</b><span>供销大集成交价</span></div>
+              </div>
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-13-publish.html">打开日报</a>
+            </div>
+            <a class="lead-image" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-13-publish.html" aria-label="打开陕西上市公司公告早报">
+              <picture>
+                <source srcset="assets/previews/listed-2026-05-13.webp" type="image/webp">
+                <img src="assets/previews/listed-2026-05-13.jpg" alt="陕西上市公司公告早报预览" width="542" height="936" decoding="async" loading="eager" fetchpriority="high">
+              </picture>
+            </a>
+          </article>
+
+          <div class="side-stack">
+            <article class="compact-report">
+              <a class="compact-media" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-13-publish.html" aria-label="打开证券私募行业动态日报">
+                <picture>
+                  <source srcset="assets/previews/private-2026-05-13.webp" type="image/webp">
+                  <img src="assets/previews/private-2026-05-13.jpg" alt="证券私募行业动态日报预览" width="357" height="520" loading="lazy" decoding="async">
+                </picture>
+              </a>
+              <div class="compact-body">
+                <div class="tag-row">
+                  <span class="tag teal">证券私募</span>
+                  <span class="tag">2026-05-13</span>
+                </div>
+                <h3>证券私募行业动态日报</h3>
+                <p>全国新增/注销为 0，陕西今年注销 1 家，办公地在陕西的管理人今年新备案产品累计 20 只。</p>
+                <a class="text-link" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-13-publish.html">打开日报</a>
+              </div>
+            </article>
+
+            <article class="compact-report">
+              <a class="compact-media" href="陕西省收并购日报v1/outputs/2026年5月13日陕西辖区收并购事件详细案例看板.png" aria-label="打开陕西辖区收并购市场动态观察图">
+                <picture>
+                  <source srcset="assets/previews/ma-2026-05-13.webp" type="image/webp">
+                  <img src="assets/previews/ma-2026-05-13.jpg" alt="陕西辖区收并购事件详细案例看板预览" width="217" height="520" loading="lazy" decoding="async">
+                </picture>
+              </a>
+              <div class="compact-body">
+                <div class="tag-row">
+                  <span class="tag amber">收并购</span>
+                  <span class="tag">2026-05-13</span>
+                </div>
+                <h3>陕西辖区收并购市场动态观察</h3>
+                <p>今日未发现新增可确认主表案例，沿用 5 月 12 日累计看板，继续跟踪京投发展/西安奇芯光电等事项。</p>
+                <a class="text-link" href="陕西省收并购日报v1/outputs/2026年5月13日陕西辖区收并购事件详细案例看板.png">打开图片</a>
+              </div>
+            </article>
+
+            <article class="compact-report">
+              <a class="compact-media" href="陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-13.png" aria-label="打开陕西金融类招投标项目观察图">
+                <picture>
+                  <source srcset="assets/previews/tender-2026-05-13.webp" type="image/webp">
+                  <img src="assets/previews/tender-2026-05-13.jpg" alt="陕西金融类招投标项目清单预览" width="304" height="520" loading="lazy" decoding="async">
+                </picture>
+              </a>
+              <div class="compact-body">
+                <div class="tag-row">
+                  <span class="tag blue">金融招投标</span>
+                  <span class="tag">2026-05-13</span>
+                </div>
+                <h3>陕西金融类招投标项目观察</h3>
+                <p>今日未发现新增可确认项目，累计确认 2026 年发布机会仍为 5 条。</p>
+                <a class="text-link" href="陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-13.png">打开图片</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="channels" class="band alt">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>日报频道</h2>
+            <p>四个频道独立更新，入口页负责聚合、导读和历史检索，方便按主题快速查看。</p>
+          </div>
+        </div>
+
+        <div class="channel-grid">
+          <article class="channel-card">
+            <div class="channel-top listed">
+              <small>Channel 01</small>
+              <h3>陕西上市公司公告早报</h3>
+            </div>
+            <div class="channel-body">
+              <p>面向辖区 A 股上市公司公告，突出交易风险、股权管理、分红回购、监管事项和次日跟踪清单。</p>
+              <div class="mini-facts">
+                <div><span>最新日期</span><strong>2026-05-13</strong></div>
+                <div><span>历史数量</span><strong>6 期</strong></div>
+                <div><span>内容形态</span><strong>HTML + Markdown</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="channel-card">
+            <div class="channel-top private">
+              <small>Channel 02</small>
+              <h3>证券私募行业动态日报</h3>
+            </div>
+            <div class="channel-body">
+              <p>基于协会公示信息，整理全国证券私募管理人新增退出、陕西辖区动态和新产品备案情况。</p>
+              <div class="mini-facts">
+                <div><span>最新日期</span><strong>2026-05-13</strong></div>
+                <div><span>陕西基数</span><strong>84 家</strong></div>
+                <div><span>内容形态</span><strong>HTML + Markdown</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="channel-card">
+            <div class="channel-top ma">
+              <small>Channel 03</small>
+              <h3>陕西辖区收并购市场动态看板</h3>
+            </div>
+            <div class="channel-body">
+              <p>把辖区收并购案例沉淀成可视化长图，用于阶段复盘、领导汇报和专题研究。</p>
+              <div class="mini-facts">
+                <div><span>最新观察</span><strong>2026-05-13</strong></div>
+                <div><span>图片尺寸</span><strong>1800 × 4300</strong></div>
+                <div><span>内容形态</span><strong>PNG 看板</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="channel-card">
+            <div class="channel-top tender">
+              <small>Channel 04</small>
+              <h3>陕西金融类招投标项目清单</h3>
+            </div>
+            <div class="channel-body">
+              <p>跟踪陕西地区证券公司、投行、固收投研或相关金融机构可能参与的业务机会。</p>
+              <div class="mini-facts">
+                <div><span>最新观察</span><strong>2026-05-13</strong></div>
+                <div><span>累计机会</span><strong>5 条</strong></div>
+                <div><span>内容形态</span><strong>HTML + PNG</strong></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="archive" class="band alt">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>历史归档</h2>
+            <p>当前先用轻量搜索和频道筛选支撑回看，等内容量上来后再补标签、全文检索和订阅提醒。</p>
+          </div>
+        </div>
+
+        <div class="toolbar">
+          <input class="search" type="search" id="searchInput" placeholder="搜索标题、频道或关键词" aria-label="搜索历史日报">
+          <div class="segmented" aria-label="频道筛选">
+            <button class="active" type="button" data-filter="all">全部</button>
+            <button type="button" data-filter="listed">上市公司</button>
+            <button type="button" data-filter="private">证券私募</button>
+            <button type="button" data-filter="ma">收并购</button>
+            <button type="button" data-filter="tender">金融招投标</button>
+          </div>
+        </div>
+
+        <div class="archive-list" id="archiveList">
+          <article class="archive-row" data-type="listed" data-search="陕西上市公司公告早报 2026-05-14 上市公司 公告 早报">
+            <div class="date-block">
+              <strong>05-14</strong>
+              2026 · 星期四
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag blue">上市公司公告</span>
+                <span class="tag">公告早报</span>
+              </div>
+              <h3>陕西上市公司公告早报｜2026年5月14日</h3>
+              <p>陕西辖区上市公司公告早报，突出交易风险、诉讼仲裁、股权收购、激励计划和固定披露清单。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-14-publish.html">HTML</a>
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-14.md">Markdown</a>
+              <a class="button" href="陕西省上市公司日报v1/outputs/2026年5月14日陕西上市公司早报.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="private" data-search="证券私募行业动态日报 2026-05-14 管理人 注销 产品备案 陕西">
+            <div class="date-block">
+              <strong>05-14</strong>
+              2026 · 星期四
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag teal">证券私募</span>
+                <span class="tag">协会公示</span>
+              </div>
+              <h3>证券私募行业动态日报（2026-05-14）</h3>
+              <p>证券私募管理人新增、退出注销、陕西辖区动态和产品备案跟踪。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-14-publish.html">HTML</a>
+              <a class="button" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-14.md">Markdown</a>
+              <a class="button" href="陕西省证券私募日报v1/outputs/2026年5月14日证券私募行业动态日报.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="ma" data-search="陕西省收并购日报 2026-05-14 收购 并购 市场动态 案例">
+            <div class="date-block">
+              <strong>05-14</strong>
+              2026 · 星期四
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag amber">收并购</span>
+                <span class="tag">日报底稿</span>
+              </div>
+              <h3>陕西省收并购日报（2026-05-14）</h3>
+              <p>陕西辖区收并购事件日报底稿和详细案例看板。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省收并购日报v1/outputs/shaanxi-ma-daily-2026-05-14.md">Markdown</a>
+              <a class="button" href="陕西省收并购日报v1/outputs/2026年5月14日陕西辖区收并购事件详细案例看板.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="tender" data-search="陕西金融类招投标项目清单 2026-05-14 债券承销 主承销商 金融机构">
+            <div class="date-block">
+              <strong>05-14</strong>
+              2026 · 星期四
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag blue">金融招投标</span>
+                <span class="tag">项目机会</span>
+              </div>
+              <h3>陕西金融类招投标项目清单（2026-05-14）</h3>
+              <p>陕西地区金融类招投标项目机会、发布主体和结果回溯清单。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-14-publish.html">HTML</a>
+              <a class="button" href="陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-14.md">Markdown</a>
+              <a class="button" href="陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-14.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="listed" data-search="陕西上市公司公告早报 2026-05-13 上市公司 公告 早报">
+            <div class="date-block">
+              <strong>05-13</strong>
+              2026 · 星期三
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag blue">上市公司公告</span>
+                <span class="tag">公告早报</span>
+              </div>
+              <h3>陕西上市公司公告早报｜2026年5月13日</h3>
+              <p>陕西辖区上市公司公告早报，突出交易风险、诉讼仲裁、股权收购、激励计划和固定披露清单。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-13-publish.html">HTML</a>
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-13.md">Markdown</a>
+              <a class="button" href="陕西省上市公司日报v1/outputs/2026年5月13日陕西上市公司早报.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="private" data-search="证券私募行业动态日报 2026-05-13 管理人 注销 产品备案 陕西">
+            <div class="date-block">
+              <strong>05-13</strong>
+              2026 · 星期三
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag teal">证券私募</span>
+                <span class="tag">协会公示</span>
+              </div>
+              <h3>证券私募行业动态日报（2026-05-13）</h3>
+              <p>证券私募管理人新增、退出注销、陕西辖区动态和产品备案跟踪。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-13-publish.html">HTML</a>
+              <a class="button" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-13.md">Markdown</a>
+              <a class="button" href="陕西省证券私募日报v1/outputs/2026年5月13日证券私募行业动态日报.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="ma" data-search="陕西省收并购日报 2026-05-13 收购 并购 市场动态 案例">
+            <div class="date-block">
+              <strong>05-13</strong>
+              2026 · 星期三
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag amber">收并购</span>
+                <span class="tag">日报底稿</span>
+              </div>
+              <h3>陕西省收并购日报（2026-05-13）</h3>
+              <p>陕西辖区收并购事件日报底稿和详细案例看板。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省收并购日报v1/outputs/shaanxi-ma-daily-2026-05-13.md">Markdown</a>
+              <a class="button" href="陕西省收并购日报v1/outputs/2026年5月13日陕西辖区收并购事件详细案例看板.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="tender" data-search="陕西金融类招投标项目清单 2026-05-13 债券承销 主承销商 金融机构">
+            <div class="date-block">
+              <strong>05-13</strong>
+              2026 · 星期三
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag blue">金融招投标</span>
+                <span class="tag">项目机会</span>
+              </div>
+              <h3>陕西金融类招投标项目清单（2026-05-13）</h3>
+              <p>陕西地区金融类招投标项目机会、发布主体和结果回溯清单。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-13-publish.html">HTML</a>
+              <a class="button" href="陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-13.md">Markdown</a>
+              <a class="button" href="陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-13.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="listed" data-search="陕西上市公司公告早报 2026-05-12 上市公司 公告 早报">
+            <div class="date-block">
+              <strong>05-12</strong>
+              2026 · 星期二
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag blue">上市公司公告</span>
+                <span class="tag">公告早报</span>
+              </div>
+              <h3>陕西上市公司公告早报｜2026年5月12日</h3>
+              <p>陕西辖区上市公司公告早报，保留网页正文、Markdown 底稿和发布图片。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-12-publish.html">HTML</a>
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-12.md">Markdown</a>
+              <a class="button" href="陕西省上市公司日报v1/outputs/2026年5月12日陕西上市公司早报.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="private" data-search="证券私募行业动态日报 2026-05-12 管理人 注销 产品备案 陕西">
+            <div class="date-block">
+              <strong>05-12</strong>
+              2026 · 星期二
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag teal">证券私募</span>
+                <span class="tag">协会公示</span>
+              </div>
+              <h3>证券私募行业动态日报（2026-05-12）</h3>
+              <p>证券私募管理人新增、退出注销、陕西辖区动态和产品备案跟踪。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-12-publish.html">HTML</a>
+              <a class="button" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-12.md">Markdown</a>
+              <a class="button" href="陕西省证券私募日报v1/outputs/2026年5月12日证券私募行业动态日报.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="ma" data-search="陕西省收并购日报 2026-05-12 收购 并购 市场动态 案例">
+            <div class="date-block">
+              <strong>05-12</strong>
+              2026 · 星期二
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag amber">收并购</span>
+                <span class="tag">日报底稿</span>
+              </div>
+              <h3>陕西省收并购日报（2026-05-12）</h3>
+              <p>陕西辖区收并购事件日报底稿和详细案例看板。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省收并购日报v1/outputs/shaanxi-ma-daily-2026-05-12.md">Markdown</a>
+              <a class="button" href="陕西省收并购日报v1/outputs/2026年5月12日陕西辖区收并购事件详细案例看板.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="tender" data-search="陕西金融类招投标项目清单 2026-05-12 债券承销 主承销商 金融机构">
+            <div class="date-block">
+              <strong>05-12</strong>
+              2026 · 星期二
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag blue">金融招投标</span>
+                <span class="tag">项目机会</span>
+              </div>
+              <h3>陕西金融类招投标项目清单（2026-05-12）</h3>
+              <p>陕西地区金融类招投标项目机会、发布主体和结果回溯清单。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-12-publish.html">HTML</a>
+              <a class="button" href="陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-12.md">Markdown</a>
+              <a class="button" href="陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-12.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="listed" data-search="陕西上市公司公告早报 2026-05-11 上市公司 公告 早报">
+            <div class="date-block">
+              <strong>05-11</strong>
+              2026 · 星期一
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag blue">上市公司公告</span>
+                <span class="tag">公告早报</span>
+              </div>
+              <h3>陕西上市公司公告早报｜2026年5月11日</h3>
+              <p>陕西辖区上市公司公告早报，保留网页正文、Markdown 底稿和发布图片。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-11-publish.html">HTML</a>
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-11.md">Markdown</a>
+              <a class="button" href="陕西省上市公司日报v1/outputs/2026年5月11日陕西上市公司早报.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="private" data-search="证券私募行业动态日报 2026-05-11 管理人 注销 产品备案 陕西">
+            <div class="date-block">
+              <strong>05-11</strong>
+              2026 · 星期一
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag teal">证券私募</span>
+                <span class="tag">协会公示</span>
+              </div>
+              <h3>证券私募行业动态日报（2026-05-11）</h3>
+              <p>证券私募管理人新增、退出注销、陕西辖区动态和产品备案跟踪。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-11-publish.html">HTML</a>
+              <a class="button" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-11.md">Markdown</a>
+              <a class="button" href="陕西省证券私募日报v1/outputs/2026年5月11日证券私募行业动态日报.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="ma" data-search="陕西省收并购日报 2026-05-11 收购 并购 市场动态 案例">
+            <div class="date-block">
+              <strong>05-11</strong>
+              2026 · 星期一
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag amber">收并购</span>
+                <span class="tag">日报底稿</span>
+              </div>
+              <h3>陕西省收并购日报（2026-05-11）</h3>
+              <p>陕西辖区收并购事件日报底稿和详细案例看板。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省收并购日报v1/outputs/shaanxi-ma-daily-2026-05-11.md">Markdown</a>
+              <a class="button" href="陕西省收并购日报v1/outputs/2026年5月11日陕西辖区收并购事件详细案例看板.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="tender" data-search="陕西金融类招投标项目清单 2026-05-11 债券承销 主承销商 金融机构">
+            <div class="date-block">
+              <strong>05-11</strong>
+              2026 · 星期一
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag blue">金融招投标</span>
+                <span class="tag">项目机会</span>
+              </div>
+              <h3>陕西金融类招投标项目清单（2026-05-11）</h3>
+              <p>陕西地区金融类招投标项目机会、发布主体和结果回溯清单。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-11.md">Markdown</a>
+              <a class="button" href="陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-11.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="listed" data-search="陕西上市公司公告早报 2026-05-08 上市公司 公告 早报">
+            <div class="date-block">
+              <strong>05-08</strong>
+              2026 · 星期五
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag blue">上市公司公告</span>
+                <span class="tag">公告早报</span>
+              </div>
+              <h3>陕西上市公司公告早报｜2026年5月8日</h3>
+              <p>陕西辖区上市公司公告早报，保留网页正文、Markdown 底稿和发布图片。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-08-publish.html">HTML</a>
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-08.md">Markdown</a>
+              <a class="button" href="陕西省上市公司日报v1/outputs/2026年5月8日陕西上市公司早报.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="private" data-search="证券私募行业动态日报 2026-05-08 管理人 注销 产品备案 陕西">
+            <div class="date-block">
+              <strong>05-08</strong>
+              2026 · 星期五
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag teal">证券私募</span>
+                <span class="tag">协会公示</span>
+              </div>
+              <h3>证券私募行业动态日报（2026-05-08）</h3>
+              <p>证券私募管理人新增、退出注销、陕西辖区动态和产品备案跟踪。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-08-publish.html">HTML</a>
+              <a class="button" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-08.md">Markdown</a>
+              <a class="button" href="陕西省证券私募日报v1/outputs/2026年5月8日证券私募行业动态日报.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="listed" data-search="陕西上市公司公告早报 2026-05-07 上市公司 公告 早报">
+            <div class="date-block">
+              <strong>05-07</strong>
+              2026 · 星期四
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag blue">上市公司公告</span>
+                <span class="tag">公告早报</span>
+              </div>
+              <h3>陕西上市公司公告早报｜2026年5月7日</h3>
+              <p>陕西辖区上市公司公告早报，保留网页正文、Markdown 底稿和发布图片。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-07-publish.html">HTML</a>
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-07.md">Markdown</a>
+              <a class="button" href="陕西省上市公司日报v1/outputs/2026年5月7日陕西上市公司早报.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="private" data-search="证券私募行业动态日报 2026-05-07 管理人 注销 产品备案 陕西">
+            <div class="date-block">
+              <strong>05-07</strong>
+              2026 · 星期四
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag teal">证券私募</span>
+                <span class="tag">协会公示</span>
+              </div>
+              <h3>证券私募行业动态日报（2026-05-07）</h3>
+              <p>证券私募管理人新增、退出注销、陕西辖区动态和产品备案跟踪。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-07-publish.html">HTML</a>
+              <a class="button" href="陕西省证券私募日报v1/outputs/security-private-fund-daily-2026-05-07.md">Markdown</a>
+              <a class="button" href="陕西省证券私募日报v1/outputs/2026年5月7日证券私募行业动态日报.png">PNG</a>
+            </div>
+          </article>
+
+          <article class="archive-row" data-type="listed" data-search="陕西上市公司公告早报 2026-05-06 上市公司 公告 早报">
+            <div class="date-block">
+              <strong>05-06</strong>
+              2026 · 星期三
+            </div>
+            <div class="archive-main">
+              <div class="tag-row">
+                <span class="tag blue">上市公司公告</span>
+                <span class="tag">公告早报</span>
+              </div>
+              <h3>陕西上市公司公告早报｜2026年5月6日</h3>
+              <p>陕西辖区上市公司公告早报，保留网页正文、Markdown 底稿和发布图片。</p>
+            </div>
+            <div class="archive-actions">
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-06-publish.html">HTML</a>
+              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-06.md">Markdown</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="empty-state" id="emptyState">没有匹配的日报。</div>
+      </div>
+    </section>
+
+    <section id="contact" class="fixed-link">
+      <div class="wrap">
+        <div>
+          <h2>客户联系</h2>
+          <p>
+            本日报由华泰证券西安锦业路证券营业部（西北分公司机构业务中心）整理发布。如需了解陕西资本市场日报、上市公司公告跟踪、私募行业动态、收并购与金融招投标项目观察，欢迎随时联系。
+          </p>
+        </div>
+        <div class="contact-list" aria-label="客户联系信息">
+          <div class="contact-item">
+            <span>单位</span>
+            <strong>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）</strong>
+          </div>
+          <div class="contact-item">
+            <span>联系人</span>
+            <strong>机构业务中心</strong>
+          </div>
+          <div class="contact-item">
+            <span>邮箱</span>
+            <a href="mailto:wangyue021243@htsc.com">wangyue021243@htsc.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      内容来自公开信息整理，仅供交流参考，不构成投资建议。
+    </div>
+  </footer>
+
+  <script>
+    const filterButtons = Array.from(document.querySelectorAll("[data-filter]"));
+    const searchInput = document.querySelector("#searchInput");
+    const rows = Array.from(document.querySelectorAll(".archive-row"));
+    const emptyState = document.querySelector("#emptyState");
+    let activeFilter = "all";
+
+    function updateArchive() {
+      const keyword = searchInput.value.trim().toLowerCase();
+      let visibleCount = 0;
+
+      rows.forEach((row) => {
+        const typeMatch = activeFilter === "all" || row.dataset.type === activeFilter;
+        const textMatch = !keyword || row.dataset.search.toLowerCase().includes(keyword);
+        const isVisible = typeMatch && textMatch;
+        row.style.display = isVisible ? "grid" : "none";
+        if (isVisible) visibleCount += 1;
+      });
+
+      emptyState.style.display = visibleCount ? "none" : "block";
+    }
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        activeFilter = button.dataset.filter;
+        filterButtons.forEach((item) => item.classList.toggle("active", item === button));
+        updateArchive();
+      });
+    });
+
+    searchInput.addEventListener("input", updateArchive);
+  </script>
+</body>
+</html>

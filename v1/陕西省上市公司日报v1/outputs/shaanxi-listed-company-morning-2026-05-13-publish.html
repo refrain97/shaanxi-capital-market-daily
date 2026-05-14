@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西上市公司公告早报｜2026年5月13日</title>
+  <style>
+    :root {
+      --navy: #10243d;
+      --ink: #1d2733;
+      --muted: #667085;
+      --line: #d8dee8;
+      --soft: #f4f7fb;
+      --risk: #c2412f;
+      --risk-bg: #fff0ec;
+      --good: #16835a;
+      --good-bg: #eaf7f0;
+      --watch: #a16207;
+      --watch-bg: #fff7df;
+      --blue-bg: #eaf1fb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #e9eef5;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      color: var(--ink);
+    }
+    .page {
+      width: 1242px;
+      height: 2060px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: hidden;
+      position: relative;
+    }
+    .topbar {
+      background: var(--navy);
+      color: #fff;
+      padding: 36px 54px 26px;
+      display: grid;
+      grid-template-columns: 1.42fr 1fr;
+      gap: 28px;
+      align-items: end;
+    }
+    h1 {
+      margin: 0;
+      font-size: 54px;
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      margin-top: 14px;
+      font-size: 22px;
+      color: #d8e3f3;
+      line-height: 1.45;
+    }
+    .source {
+      text-align: right;
+      font-size: 20px;
+      line-height: 1.5;
+      color: #c8d5e6;
+    }
+    .source strong {
+      color: #fff;
+      font-size: 28px;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .content { padding: 16px 42px 12px; }
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    .kpi {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 16px;
+      min-height: 70px;
+    }
+    .kpi .num {
+      font-size: 31px;
+      line-height: 1;
+      font-weight: 800;
+      color: var(--navy);
+    }
+    .kpi .label {
+      margin-top: 8px;
+      font-size: 16.2px;
+      line-height: 1.25;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .section {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+    }
+    .section.wide { grid-column: 1 / -1; }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background: #f7f9fc;
+      border-bottom: 1px solid var(--line);
+      font-weight: 800;
+      font-size: 21px;
+      color: var(--navy);
+    }
+    .section-title .no {
+      display: inline-grid;
+      place-items: center;
+      min-width: 42px;
+      height: 28px;
+      border-radius: 5px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 18px;
+    }
+    .body { padding: 9px 14px 10px; }
+    .chips {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 15.6px;
+      line-height: 1.35;
+      background: #fff;
+      min-height: 88px;
+    }
+    .chip b {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 3px;
+      color: var(--navy);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 15.3px;
+      line-height: 1.28;
+    }
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 700;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+    td {
+      padding: 5px 8px;
+      border-bottom: 1px solid #edf1f6;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: 0; }
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .tag.risk { background: var(--risk-bg); color: var(--risk); }
+    .tag.good { background: var(--good-bg); color: var(--good); }
+    .tag.watch { background: var(--watch-bg); color: var(--watch); }
+    .tag.info { background: var(--blue-bg); color: var(--navy); }
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+    .tile {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 94px;
+      background: #fff;
+    }
+    .tile b {
+      display: block;
+      font-size: 17px;
+      color: var(--navy);
+      margin-bottom: 5px;
+    }
+    .tile span {
+      font-size: 14.2px;
+      line-height: 1.3;
+      color: #344054;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .subhead {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--navy);
+      margin: 0 0 7px;
+    }
+    .fixed-list { display: grid; gap: 6px; }
+    .fixed-item {
+      border: 1px solid #e5ebf3;
+      border-radius: 6px;
+      padding: 6px 9px;
+      font-size: 14.5px;
+      line-height: 1.27;
+      background: #fff;
+    }
+    .fixed-item b { color: var(--navy); margin-right: 5px; }
+    .follow {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 8px;
+    }
+    .follow div {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 78px;
+      background: #fcfdff;
+      font-size: 13.8px;
+      line-height: 1.27;
+    }
+    .follow b {
+      display: block;
+      font-size: 16px;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+    .note {
+      margin: 0 42px;
+      border-top: 1px solid var(--line);
+      padding-top: 9px;
+      color: var(--muted);
+      font-size: 14.8px;
+      line-height: 1.35;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .note span:first-child { flex: 1.2; }
+    .note span:last-child { flex: 1; text-align: right; }
+    .strong { font-weight: 800; color: var(--ink); }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div>
+        <h1>陕西上市公司公告早报</h1>
+        <div class="subtitle">2026年5月13日｜风险、诉讼、收购与激励</div>
+      </div>
+      <div class="source">
+        <strong>覆盖 85 家上市公司</strong>
+        沪市42家｜深市37家｜北交所6家<br>
+        名单来源：陕西证监局｜公告源：巨潮资讯 CNINFO
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="kpis">
+        <div class="kpi"><div class="num">72条</div><div class="label">今日公告：逐公司检索覆盖43家公司</div></div>
+        <div class="kpi"><div class="num">4项</div><div class="label">风险事项：源杰、ST兴化、ST金花、广电网络</div></div>
+        <div class="kpi"><div class="num">9,977.76万</div><div class="label">供销大集竞拍国投农产品60%股权</div></div>
+        <div class="kpi"><div class="num">37.35万</div><div class="label">盘龙期权与员工持股计划同规模推出</div></div>
+      </div>
+
+      <div class="grid">
+        <section class="section">
+          <div class="section-title"><span class="no">01</span>今日业务机会</div>
+          <div class="body chips">
+            <div class="chip"><b>交易风险提示</b>源杰科技年内涨幅169.63%、滚动市盈率417.85倍；ST兴化、ST金花连续3日跌幅偏离达12%。</div>
+            <div class="chip"><b>诉讼仲裁跟踪</b>广电网络新增诉讼仲裁36笔，累计涉案5,010.87万元，未结案件35笔。</div>
+            <div class="chip"><b>并购与产业整合</b>供销大集竞拍国投农产品60%股权，成交9,977.76万元，仍需总社授权单位批准。</div>
+            <div class="chip"><b>激励与资本运作</b>盘龙药业期权和员工持股计划同步推出；铂力特首次出售已回购股份57,707股。</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><span class="no">02</span>重大事项与风险公告</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:20%"><col style="width:57%"><col style="width:23%"></colgroup>
+              <thead><tr><th>公司</th><th>事项</th><th>业务判断</th></tr></thead>
+              <tbody>
+                <tr><td>源杰科技</td><td>1月5日至5月12日股价累计涨 <b>169.63%</b>；滚动市盈率 <b>417.85倍</b>，行业均值60.14倍</td><td><span class="tag risk">高估值</span></td></tr>
+                <tr><td>ST兴化</td><td>5月8日、11日、12日连续3日跌幅偏离值超 <b>12%</b>，叠加立案、差错更正和退市风险提示</td><td><span class="tag risk">高风险</span></td></tr>
+                <tr><td>ST金花</td><td>连续3日跌幅偏离达 <b>12%</b>；2025年度内控审计被出具否定意见，已实施其他风险警示</td><td><span class="tag risk">ST观察</span></td></tr>
+                <tr><td>广电网络</td><td>新增诉讼仲裁 <b>36笔</b>、金额 <b>5,010.87万元</b>；被告类案件20笔、金额4,118.18万元</td><td><span class="tag watch">损益不确定</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">03</span>上市公司动态</div>
+          <div class="body tiles">
+            <div class="tile"><b>供销大集</b><span>竞拍国投农产品60%股权，已支付保证金2,993.32万元并签署附生效条件合同。</span></div>
+            <div class="tile"><b>盘龙药业</b><span>股票期权37.35万份、行权价31.11元；员工持股计划37.35万股、受让价15.56元。</span></div>
+            <div class="tile"><b>铂力特</b><span>首次出售已回购股份57,707股，均价96.1884元/股，成交金额555.07万元。</span></div>
+            <div class="tile"><b>彩虹股份 / 达刚控股</b><span>年度股东会通过利润分配、担保、融资、董事补选等固定议案。</span></div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">04</span>股东变动与资本运作</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:16%"><col style="width:44%"><col style="width:40%"></colgroup>
+              <thead><tr><th>公司</th><th>关键数字</th><th>业务关注</th></tr></thead>
+              <tbody>
+                <tr><td>供销大集</td><td>60%股权成交价 <b>9,977.76万元</b>；标的2025年营收5.61亿元、净利630.98万元</td><td>标的收入占供销大集2025年收入29.75%，看审批、交割和现金流修复。</td></tr>
+                <tr><td>盘龙药业</td><td>股票期权 <b>37.35万份</b>，占总股本0.35%；行权价 <b>31.11元/份</b>，激励对象60人</td><td>考核绑定2026-2028年归母净利增长5%、10%、15%及新药/NDA进度。</td></tr>
+                <tr><td>盘龙药业</td><td>员工持股计划不超 <b>37.35万股</b>，受让价 <b>15.56元/股</b>，分40%、30%、30%解锁</td><td>资金来源为员工自筹，需经股东会审议，关注过户与费用摊销。</td></tr>
+                <tr><td>铂力特</td><td>出售回购股份 <b>57,707股</b>，均价96.1884元/股，金额 <b>555.07万元</b></td><td>计划出售上限229.1909万股，当前回购专户仍持有223.4202万股。</td></tr>
+                <tr><td>广电网络</td><td>新增未结案件35笔、金额 <b>4,933.77万元</b>；单笔千万元以上案件1笔、金额2,893.54万元</td><td>关注预计负债、法院生效文书和期后利润影响。</td></tr>
+                <tr><td>彩虹股份</td><td>年度股东会出席股东856人，代表表决权股份 <b>26.60亿股</b>，占比74.12%</td><td>利润分配、担保额度、变更独董和补选董事等议案均通过。</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">05</span>年报 / 季报 / 业绩固定披露清单</div>
+          <div class="body two-col">
+            <div>
+              <p class="subhead">A. 股东会、业绩说明会与固定披露</p>
+              <div class="fixed-list">
+                <div class="fixed-item"><b>集体接待日</b>西安奕材、爱科赛博、广电网络、建设机械、陕西煤业、隆基绿能等披露2025年度业绩说明会安排。</div>
+                <div class="fixed-item"><b>股东会资料</b>三达膜、斯瑞新材、广电网络、建设机械、陕建股份披露2025年年度股东会会议资料。</div>
+                <div class="fixed-item"><b>股东会结果</b>彩虹股份、达刚控股披露年度股东会决议，均未出现否决议案。</div>
+                <div class="fixed-item"><b>陕西煤业</b>第四届董事会第七次会议通过出售证券类相关资产议案。</div>
+              </div>
+            </div>
+            <div>
+              <p class="subhead">B. 需延续跟踪的业务线索</p>
+              <div class="fixed-list">
+                <div class="fixed-item"><b>盘龙药业</b>控股股东谢晓林直接持股3,718.9932万股，占34.99%，提议增加激励和员工持股临时提案。</div>
+                <div class="fixed-item"><b>供销大集</b>标的公司2025年经营现金流-7,710.42万元，交割后需看业务整合和资金占用清理。</div>
+                <div class="fixed-item"><b>ST兴化 / ST金花</b>异常波动均发生在5月8日、11日、12日，需连续观察风险警示后的市场反馈。</div>
+                <div class="fixed-item"><b>铂力特</b>出售回购股份资金计入资本公积，用于补充日常经营流动资金。</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">06</span>今日重点跟踪公司</div>
+          <div class="body follow">
+            <div><b>源杰科技</b>股价高涨幅、高估值和一季度盈利兑现之间的匹配度。</div>
+            <div><b>ST兴化 / ST金花</b>异常波动、立案、差错更正、内控否定意见和风险警示进展。</div>
+            <div><b>广电网络</b>36笔诉讼仲裁后续审理、预计负债和利润影响。</div>
+            <div><b>供销大集</b>60%股权收购审批、交割、同业竞争安排和标的现金流改善。</div>
+            <div><b>盘龙药业</b>期权和员工持股计划股东会审议、授予/过户和考核达成难度。</div>
+            <div><b>铂力特</b>回购股份后续出售节奏、交易窗口合规和二级市场反馈。</div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="note">
+      <span>资料来源：陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》、巨潮资讯公告原文。仅作公告信息整理，不构成投资建议。</span>
+      <span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://shaanxi-capital-market-daily.vercel.app/v1/</span>
+    </footer>
+  </main>
+</body>
+</html>

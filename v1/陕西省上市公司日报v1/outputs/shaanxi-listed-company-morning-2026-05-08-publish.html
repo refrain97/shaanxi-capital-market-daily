@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西上市公司公告早报｜2026年5月8日</title>
+  <style>
+    :root {
+      --navy: #0f243f;
+      --ink: #1d2733;
+      --muted: #667085;
+      --line: #d8dee8;
+      --soft: #f4f7fb;
+      --risk: #c2412f;
+      --risk-bg: #fff0ec;
+      --good: #16835a;
+      --good-bg: #eaf7f0;
+      --watch: #a16207;
+      --watch-bg: #fff7df;
+      --blue-bg: #eaf1fb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #e9eef5;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      color: var(--ink);
+    }
+    .page {
+      width: 1242px;
+      height: 2060px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: hidden;
+      position: relative;
+    }
+    .topbar {
+      background: var(--navy);
+      color: #fff;
+      padding: 38px 54px 28px;
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 28px;
+      align-items: end;
+    }
+    h1 {
+      margin: 0;
+      font-size: 54px;
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      margin-top: 16px;
+      font-size: 22px;
+      color: #d8e3f3;
+      line-height: 1.5;
+    }
+    .source {
+      text-align: right;
+      font-size: 20px;
+      line-height: 1.55;
+      color: #c8d5e6;
+    }
+    .source strong {
+      color: #fff;
+      font-size: 28px;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .content { padding: 18px 42px 14px; }
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .kpi {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 11px 16px;
+      min-height: 72px;
+    }
+    .kpi .num {
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 800;
+      color: var(--navy);
+    }
+    .kpi .label {
+      margin-top: 8px;
+      font-size: 17px;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .section {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+    }
+    .section.wide { grid-column: 1 / -1; }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background: #f7f9fc;
+      border-bottom: 1px solid var(--line);
+      font-weight: 800;
+      font-size: 21px;
+      color: var(--navy);
+    }
+    .section-title .no {
+      display: inline-grid;
+      place-items: center;
+      min-width: 42px;
+      height: 28px;
+      border-radius: 5px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 18px;
+    }
+    .body { padding: 9px 14px 10px; }
+    .chips {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 16px;
+      line-height: 1.36;
+      background: #fff;
+    }
+    .chip b {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 3px;
+      color: var(--navy);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 700;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+    td {
+      padding: 5px 8px;
+      border-bottom: 1px solid #edf1f6;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: 0; }
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 15px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .tag.risk { background: var(--risk-bg); color: var(--risk); }
+    .tag.good { background: var(--good-bg); color: var(--good); }
+    .tag.watch { background: var(--watch-bg); color: var(--watch); }
+    .tag.info { background: var(--blue-bg); color: var(--navy); }
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+    .tile {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 72px;
+      background: #fff;
+    }
+    .tile b {
+      display: block;
+      font-size: 18px;
+      color: var(--navy);
+      margin-bottom: 5px;
+    }
+    .tile span {
+      font-size: 15px;
+      line-height: 1.34;
+      color: #344054;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .subhead {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--navy);
+      margin: 0 0 7px;
+      padding-left: 4px;
+    }
+    .fixed-list { display: grid; gap: 6px; }
+    .fixed-item {
+      border: 1px solid #e5ebf3;
+      border-radius: 6px;
+      padding: 6px 9px;
+      font-size: 15.6px;
+      line-height: 1.3;
+      background: #fff;
+    }
+    .fixed-item b { color: var(--navy); margin-right: 5px; }
+    .follow {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+    }
+    .follow div {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 76px;
+      background: #fcfdff;
+      font-size: 14.8px;
+      line-height: 1.3;
+    }
+    .follow b {
+      display: block;
+      font-size: 17px;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+    .note {
+      margin: 0 42px;
+      border-top: 1px solid var(--line);
+      padding-top: 9px;
+      color: var(--muted);
+      font-size: 16px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .strong { font-weight: 800; color: var(--ink); }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div>
+        <h1>陕西上市公司公告早报</h1>
+        <div class="subtitle">2026年5月8日</div>
+      </div>
+      <div class="source">
+        <strong>覆盖 85 家上市公司</strong>
+        沪市42家｜深市37家｜北交所6家<br>
+        名单来源：陕西证监局｜公告源：巨潮资讯 CNINFO
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="kpis">
+        <div class="kpi"><div class="num">26条</div><div class="label">今日公告：覆盖陕西17家公司</div></div>
+        <div class="kpi"><div class="num">3家</div><div class="label">交易异常：ST兴化、西部材料、ST金花</div></div>
+        <div class="kpi"><div class="num">3项</div><div class="label">融资/质押：金叶、宝钛、天地源</div></div>
+        <div class="kpi"><div class="num">2项</div><div class="label">经营线索：中国西电、陕西煤业</div></div>
+      </div>
+
+      <div class="grid">
+        <section class="section">
+          <div class="section-title"><span class="no">01</span>今日业务机会</div>
+          <div class="body chips">
+            <div class="chip"><b>IR / 风险提示</b>ST兴化、ST金花连续下跌；西部材料短期上涨后估值显著高于行业。</div>
+            <div class="chip"><b>融资担保管理</b>陕西金叶售后回租3,500万元；宝钛股份临时补流1亿元。</div>
+            <div class="chip"><b>股权质押跟踪</b>天地源控股股东新增质押2,000万股，质押后累计1.37亿股。</div>
+            <div class="chip"><b>经营服务线索</b>中国西电中标15.8307亿元；陕西煤业披露4月煤炭和发电数据。</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><span class="no">02</span>重大事项与风险公告</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:22%"><col style="width:52%"><col style="width:26%"></colgroup>
+              <thead><tr><th>公司</th><th>事项</th><th>业务判断</th></tr></thead>
+              <tbody>
+                <tr><td>ST兴化</td><td>连续2个交易日跌幅偏离值超 <span class="strong">12%</span>；此前已披露立案、会计差错更正及退市风险提示</td><td><span class="tag risk">高风险</span></td></tr>
+                <tr><td>西部材料</td><td>连续3日涨幅偏离超20%；静态市盈率 <span class="strong">347.00</span>，高于行业32.37倍</td><td><span class="tag risk">高估值</span></td></tr>
+                <tr><td>ST金花</td><td>连续3日跌幅偏离达12%；因2025年度内控否定意见被实施其他风险警示</td><td><span class="tag risk">ST观察</span></td></tr>
+                <tr><td>陕西金叶</td><td>实际担保余额 <span class="strong">19.28亿元</span>，约占最近一期归母净资产124.25%</td><td><span class="tag watch">担保压力</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">03</span>上市公司动态</div>
+          <div class="body tiles">
+            <div class="tile"><b>中国西电</b><span>下属12家子公司中标国家电网项目，总中标金额15.8307亿元。</span></div>
+            <div class="tile"><b>陕西煤业</b><span>4月煤炭产量1,563万吨，同比+9.74%；自产煤销量同比+5.39%。</span></div>
+            <div class="tile"><b>北元集团</b><span>证券简称5月13日起变更为“北元化工”，证券代码保持601568不变。</span></div>
+            <div class="tile"><b>宝钛股份</b><span>聘任冯军宁、王勤波、李巍、郑亚波为副总经理，同步调整部分组织机构名称。</span></div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">04</span>股东变动与资本运作</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:16%"><col style="width:43%"><col style="width:41%"></colgroup>
+              <thead><tr><th>公司</th><th>关键数字</th><th>业务关注</th></tr></thead>
+              <tbody>
+                <tr><td>陕西金叶</td><td>售后回租融资 <b>3,500万元</b>，期限36个月；年度授信及担保额度不超 <b>40亿元</b></td><td>单笔不大，但担保余额占归母净资产124.25%，看融资滚续。</td></tr>
+                <tr><td>宝钛股份</td><td>拟用不超 <b>1亿元</b> 闲置募集资金临时补流，期限不超12个月</td><td>截至3月31日募集资金账户余额1.55亿元，需关注归还节奏。</td></tr>
+                <tr><td>天地源</td><td>高新地产质押 <b>2,000万股</b>；累计质押 <b>1.37亿股</b>，占总股本15.85%</td><td>资金用途为自身生产经营，质押期限至2028年6月13日。</td></tr>
+                <tr><td>ST金花</td><td>已减持回购股份 <b>373.2782万股</b>，均价8.69元/股，金额 <b>3,244.88万元</b></td><td>回购专户仍持有1,682.48万股，占总股本4.51%。</td></tr>
+                <tr><td>陕西能源</td><td>IPO募集资金总额 <b>72.00亿元</b>、净额 <b>68.35亿元</b>；保荐总结称持续督导期无重大处理事项</td><td>进入持续督导收尾信息披露，关注募投项目后续披露。</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">05</span>年报 / 季报 / 业绩固定披露清单</div>
+          <div class="body two-col">
+            <div>
+              <p class="subhead">A. 经营数据与订单</p>
+              <div class="fixed-list">
+                <div class="fixed-item"><b>中国西电</b>中标金额15.8307亿元；2025年度营业收入 <b>237.5642亿元</b>。</div>
+                <div class="fixed-item"><b>陕西煤业</b>4月总发电量24.92亿千瓦时，同比+9.83%；售电量23.31亿千瓦时，同比+9.90%。</div>
+                <div class="fixed-item"><b>西部材料</b>2025年营收32.31亿元，同比+9.67%；净利1.03亿元，同比-34.48%。</div>
+                <div class="fixed-item"><b>西部材料</b>2026年一季度营收6.03亿元，同比-20.04%；净利919.68万元，同比-71.40%。</div>
+              </div>
+            </div>
+            <div>
+              <p class="subhead">B. 会议、简称与治理</p>
+              <div class="fixed-list">
+                <div class="fixed-item"><b>北元集团</b>证券简称将于5月13日起变更为“北元化工”，代码不变。</div>
+                <div class="fixed-item"><b>爱科赛博</b>将于5月15日15:00-16:00召开2025年度暨2026年一季度业绩说明会。</div>
+                <div class="fixed-item"><b>盘龙药业 / ST标准</b>披露2025年年度业绩说明会安排，适合纳入投关跟踪。</div>
+                <div class="fixed-item"><b>隆基绿能 / 凯立新材 / 瑞联新材</b>披露年度股东会会议资料，属于固定披露清单。</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">06</span>今日重点跟踪公司</div>
+          <div class="body follow">
+            <div><b>ST兴化</b>立案调查、会计差错更正、退市风险提示和异常波动后的股价反馈。</div>
+            <div><b>西部材料</b>估值偏离、短期涨幅、2026年一季度利润下滑和控股股东减持后的市场预期。</div>
+            <div><b>ST金花</b>内控否定意见整改、其他风险警示、回购股份剩余减持额度。</div>
+            <div><b>陕西金叶 / 天地源</b>融资租赁、担保余额、控股股东质押率和资金用途。</div>
+            <div><b>宝钛 / 西电 / 陕煤</b>补流资金归还、中标合同签署、煤炭与发电月度趋势。</div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="note">
+      <span>资料来源：陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》、巨潮资讯公告原文。</span>
+      <span>仅作公告信息整理，不构成投资建议。</span>
+    </footer>
+  </main>
+</body>
+</html>

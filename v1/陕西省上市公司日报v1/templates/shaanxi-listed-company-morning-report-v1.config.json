@@ -1,0 +1,124 @@
+{
+  "name": "陕西上市公司公告早报",
+  "version": "v1",
+  "outputNaming": {
+    "png": "YYYY年M月D日陕西上市公司早报.png",
+    "duplicateSuffix": "_v2"
+  },
+  "companyUniverse": {
+    "source": "陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》",
+    "dynamic": true,
+    "baselineDate": "2026-03-31",
+    "baselineTotal": 85,
+    "markets": {
+      "SH": 42,
+      "SZ": 37,
+      "BJ": 6
+    },
+    "rule": "Do not hard-code the company count. Before each report, check for the latest Shaanxi CSRC company list and recompute total and market distribution."
+  },
+  "announcementSources": [
+    {
+      "name": "巨潮资讯 CNINFO",
+      "queryApi": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "pdfHost": "https://static.cninfo.com.cn/finalpage/",
+      "primaryQueryMethod": "company_by_company",
+      "stockParamFormat": "secCode,orgId",
+      "doNotUseAsSoleMethod": "full_market_pagination_then_local_filter"
+    }
+  ],
+  "retrievalPolicy": {
+    "defaultScript": "scripts/fetch_cninfo_shaanxi_announcements.py",
+    "primaryMethod": "Query every company in the Shaanxi company universe with CNINFO stock=<secCode>,<orgId> and paginate per company.",
+    "dedupeKey": [
+      "announcementId",
+      "secCode",
+      "announcementTitle"
+    ],
+    "minimumBackfillNaturalDays": 5,
+    "zeroResultPolicy": {
+      "mayPublishNoAnnouncementOnlyAfterSecondPass": true,
+      "requiredChecks": [
+        "rerun company-by-company search with at least 5 natural days of backfill",
+        "sample at least 3 high-activity companies with single-company CNINFO queries",
+        "cross-check CNINFO web or exchange disclosure pages by date and Shaanxi keywords"
+      ]
+    },
+    "mustReport": [
+      "announcementCount",
+      "coveredCompanyCount",
+      "dateDistribution",
+      "errorCount"
+    ]
+  },
+  "layout": {
+    "width": 1242,
+    "height": 2060,
+    "method": "HTML/CSS render + Chrome headless screenshot",
+    "template": "v1/01-shaanxi-listed-company-morning-report/templates/shaanxi-listed-company-morning-report-v1.template.html"
+  },
+  "sections": [
+    "01 今日业务机会",
+    "02 重大事项与风险公告",
+    "03 上市公司动态",
+    "04 股东变动与资本运作",
+    "05 年报 / 季报 / 业绩固定披露清单",
+    "06 今日重点跟踪公司"
+  ],
+  "numericExtractionRules": {
+    "shareholderChanges": [
+      "减持股数",
+      "减持比例",
+      "减持均价",
+      "估算金额",
+      "持股比例变动前后"
+    ],
+    "capitalOperations": [
+      "募集资金总额",
+      "募集资金净额",
+      "剩余募集资金",
+      "永久补流金额",
+      "回购注销股数",
+      "回购价格",
+      "回购资金总额",
+      "质押股数",
+      "累计质押比例",
+      "担保金额",
+      "累计担保余额",
+      "担保余额占净资产比例",
+      "募集资金现金管理超额金额",
+      "股权激励归属股数"
+    ],
+    "dividends": [
+      "每股派息",
+      "每10股派息",
+      "拟派现金红利总额",
+      "分红基数",
+      "归母净利润",
+      "分红比例",
+      "股权登记日",
+      "除息日",
+      "现金红利发放日"
+    ],
+    "periodicReports": [
+      "营业收入",
+      "营业收入同比",
+      "归母净利润",
+      "归母净利润同比",
+      "经营活动现金流量净额"
+    ]
+  },
+  "ima": {
+    "knowledgeBaseName": "公告检索",
+    "requiredAfterPngExport": true,
+    "uploadVerify": "search_knowledge",
+    "duplicateNameStrategy": "_v2",
+    "finalResponseMustInclude": [
+      "uploadStatus",
+      "knowledgeBaseName",
+      "uploadedFileName",
+      "searchVerified"
+    ]
+  },
+  "disclaimer": "仅作公告信息整理，不构成投资建议。"
+}

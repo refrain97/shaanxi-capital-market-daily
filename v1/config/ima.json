@@ -1,0 +1,38 @@
+{
+  "defaultKnowledgeBaseName": "公告检索",
+  "defaultKnowledgeBaseId": "WFRa_8s9eTeZR-uXPO4mm9EUAbWmE6RycX6fDtASJeA=",
+  "dailyPngUploads": [
+    {
+      "channel": "listed",
+      "label": "陕西上市公司公告早报",
+      "pathTemplate": "v1/陕西省上市公司日报v1/outputs/{zh_date}陕西上市公司早报.png",
+      "nameTemplate": "{zh_date}陕西上市公司早报.png",
+      "recordTemplate": "v1/陕西省上市公司日报v1/outputs/ima-upload-{date}.json",
+      "keyword": "陕西上市公司早报"
+    },
+    {
+      "channel": "private",
+      "label": "证券私募行业动态日报",
+      "pathTemplate": "v1/陕西省证券私募日报v1/outputs/{zh_date}证券私募行业动态日报.png",
+      "nameTemplate": "{zh_date}证券私募行业动态日报.png",
+      "recordTemplate": "v1/陕西省证券私募日报v1/outputs/ima-upload-security-private-fund-{date}.json",
+      "keyword": "证券私募行业动态日报"
+    },
+    {
+      "channel": "ma",
+      "label": "陕西辖区收并购事件详细案例看板",
+      "pathTemplate": "v1/陕西省收并购日报v1/outputs/{zh_date}陕西辖区收并购事件详细案例看板.png",
+      "nameTemplate": "{zh_date}陕西辖区收并购事件详细案例看板.png",
+      "recordTemplate": "v1/陕西省收并购日报v1/outputs/ima-upload-shaanxi-ma-cases-{date}.json",
+      "keyword": "陕西辖区收并购"
+    },
+    {
+      "channel": "tender",
+      "label": "陕西金融类招投标项目清单",
+      "pathTemplate": "v1/陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-{date}.png",
+      "nameTemplate": "{zh_date}陕西金融类招投标项目清单.png",
+      "recordTemplate": "v1/陕西省金融招投标项目v1/outputs/ima-upload-shaanxi-finance-tender-projects-{date}.json",
+      "keyword": "陕西金融类招投标项目清单"
+    }
+  ]
+}

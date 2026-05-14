@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西上市公司公告早报｜2026年5月11日</title>
+  <style>
+    :root {
+      --navy: #10243d;
+      --ink: #1d2733;
+      --muted: #667085;
+      --line: #d8dee8;
+      --soft: #f4f7fb;
+      --risk: #c2412f;
+      --risk-bg: #fff0ec;
+      --good: #16835a;
+      --good-bg: #eaf7f0;
+      --watch: #a16207;
+      --watch-bg: #fff7df;
+      --blue-bg: #eaf1fb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #e9eef5;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      color: var(--ink);
+    }
+    .page {
+      width: 1242px;
+      height: 2060px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: hidden;
+      position: relative;
+    }
+    .topbar {
+      background: var(--navy);
+      color: #fff;
+      padding: 36px 54px 26px;
+      display: grid;
+      grid-template-columns: 1.42fr 1fr;
+      gap: 28px;
+      align-items: end;
+    }
+    h1 {
+      margin: 0;
+      font-size: 54px;
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      margin-top: 14px;
+      font-size: 22px;
+      color: #d8e3f3;
+      line-height: 1.45;
+    }
+    .source {
+      text-align: right;
+      font-size: 20px;
+      line-height: 1.5;
+      color: #c8d5e6;
+    }
+    .source strong {
+      color: #fff;
+      font-size: 28px;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .content { padding: 16px 42px 12px; }
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    .kpi {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 16px;
+      min-height: 70px;
+    }
+    .kpi .num {
+      font-size: 31px;
+      line-height: 1;
+      font-weight: 800;
+      color: var(--navy);
+    }
+    .kpi .label {
+      margin-top: 8px;
+      font-size: 16.5px;
+      line-height: 1.25;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .section {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+    }
+    .section.wide { grid-column: 1 / -1; }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background: #f7f9fc;
+      border-bottom: 1px solid var(--line);
+      font-weight: 800;
+      font-size: 21px;
+      color: var(--navy);
+    }
+    .section-title .no {
+      display: inline-grid;
+      place-items: center;
+      min-width: 42px;
+      height: 28px;
+      border-radius: 5px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 18px;
+    }
+    .body { padding: 9px 14px 10px; }
+    .chips {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 15.8px;
+      line-height: 1.35;
+      background: #fff;
+      min-height: 88px;
+    }
+    .chip b {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 3px;
+      color: var(--navy);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 15.6px;
+      line-height: 1.28;
+    }
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 700;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+    td {
+      padding: 5px 8px;
+      border-bottom: 1px solid #edf1f6;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: 0; }
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .tag.risk { background: var(--risk-bg); color: var(--risk); }
+    .tag.good { background: var(--good-bg); color: var(--good); }
+    .tag.watch { background: var(--watch-bg); color: var(--watch); }
+    .tag.info { background: var(--blue-bg); color: var(--navy); }
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+    .tile {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 86px;
+      background: #fff;
+    }
+    .tile b {
+      display: block;
+      font-size: 17px;
+      color: var(--navy);
+      margin-bottom: 5px;
+    }
+    .tile span {
+      font-size: 14.6px;
+      line-height: 1.32;
+      color: #344054;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .fixed-list { display: grid; gap: 6px; }
+    .fixed-item {
+      border: 1px solid #e5ebf3;
+      border-radius: 6px;
+      padding: 6px 9px;
+      font-size: 15px;
+      line-height: 1.28;
+      background: #fff;
+    }
+    .fixed-item b { color: var(--navy); margin-right: 5px; }
+    .follow {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 8px;
+    }
+    .follow div {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 78px;
+      background: #fcfdff;
+      font-size: 14px;
+      line-height: 1.28;
+    }
+    .follow b {
+      display: block;
+      font-size: 16px;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+    .note {
+      margin: 0 42px;
+      border-top: 1px solid var(--line);
+      padding-top: 9px;
+      color: var(--muted);
+      font-size: 16px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .strong { font-weight: 800; color: var(--ink); }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div>
+        <h1>陕西上市公司公告早报</h1>
+        <div class="subtitle">2026年5月11日｜补漏增强版：5月9日至5月11日重点公告</div>
+      </div>
+      <div class="source">
+        <strong>覆盖 85 家上市公司</strong>
+        沪市42家｜深市37家｜北交所6家<br>
+        名单来源：陕西证监局｜公告源：巨潮资讯 CNINFO
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="kpis">
+        <div class="kpi"><div class="num">110条</div><div class="label">回溯公告：5月1日至5月11日，覆盖50家公司</div></div>
+        <div class="kpi"><div class="num">47条</div><div class="label">重点窗口：5月9日至5月11日，覆盖21家公司</div></div>
+        <div class="kpi"><div class="num">2条</div><div class="label">5月11日新增：隆基担保、炼石异常波动</div></div>
+        <div class="kpi"><div class="num">12项</div><div class="label">高价值事项：监管、质押、减持、募集资金</div></div>
+      </div>
+
+      <div class="grid">
+        <section class="section">
+          <div class="section-title"><span class="no">01</span>今日业务机会</div>
+          <div class="body chips">
+            <div class="chip"><b>监管整改</b>爱科赛博披露陕西证监局责令改正整改报告；烽火电子收到独董及审计委员会督促函。</div>
+            <div class="chip"><b>融资担保</b>隆基绿能4月新增担保16.003854亿元；国际医学、康惠股份控股股东新增质押。</div>
+            <div class="chip"><b>资本运作</b>*ST西旅定增问询回复更新；铂力特追认闲置募集资金现金管理超额1亿元。</div>
+            <div class="chip"><b>权益激励</b>三达膜减持完成；康拓医疗权益变动触及1%刻度；易点天下限制性股票归属。</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><span class="no">02</span>重大事项与风险公告</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:20%"><col style="width:57%"><col style="width:23%"></colgroup>
+              <thead><tr><th>公司</th><th>事项</th><th>业务判断</th></tr></thead>
+              <tbody>
+                <tr><td>爱科赛博</td><td>陕西证监局责令改正事项披露整改报告，财务差错更正及内控措施称已完成</td><td><span class="tag risk">监管整改</span></td></tr>
+                <tr><td>炼石航空</td><td>5月6日至8日连续3日涨幅偏离值累计 <b>20.11%</b></td><td><span class="tag watch">交易异动</span></td></tr>
+                <tr><td>ST标准</td><td>连续3日跌幅偏离值累计 <b>12%</b>，股票已因内控否定意见被实施其他风险警示</td><td><span class="tag risk">ST风险</span></td></tr>
+                <tr><td>烽火电子</td><td>收到独董及董事会审计委员会督促函，要求做好监管、审计和投资者沟通</td><td><span class="tag watch">治理关注</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">03</span>上市公司动态</div>
+          <div class="body tiles">
+            <div class="tile"><b>隆基绿能</b><span>4月新增担保160,038.54万元；累计担保2,451,313.04万元，占净资产45.16%。</span></div>
+            <div class="tile"><b>*ST西旅</b><span>向特定对象发行股票审核问询回复及募集说明书更新，仍需深交所审核和证监会注册。</span></div>
+            <div class="tile"><b>西安奕材</b><span>调整第二届董事会非独立董事候选人，并披露年度股东会通知、会议资料和业绩说明会安排。</span></div>
+            <div class="tile"><b>三人行</b><span>实控人与部分一致行动人解除一致行动关系；解除后核心一致行动人合计持股45.88%。</span></div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">04</span>股东变动与资本运作</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:16%"><col style="width:44%"><col style="width:40%"></colgroup>
+              <thead><tr><th>公司</th><th>关键数字</th><th>业务关注</th></tr></thead>
+              <tbody>
+                <tr><td>国际医学</td><td>控股股东质押 <b>2,427万股</b>；合计质押占其持股 <b>74.92%</b>、占总股本22.48%</td><td>未来半年到期质押1.048亿股，对应融资2.85亿元。</td></tr>
+                <tr><td>康惠股份</td><td>控股股东新增质押 <b>350万股</b>；累计质押1,480万股，占其持股 <b>67.35%</b></td><td>质押率偏高，关注2027年到期两笔融资滚续。</td></tr>
+                <tr><td>三达膜</td><td>清源中国减持 <b>996.036万股</b>，占总股本3%，金额 <b>1.8016亿元</b></td><td>减持计划实施完毕，当前持股21.81%。</td></tr>
+                <tr><td>康拓医疗</td><td>西安合赢减持 <b>95,058股</b>，一致行动人合计持股由54.05%降至53.93%</td><td>权益变动触及1%刻度，控股权未变化。</td></tr>
+                <tr><td>铂力特</td><td>4月9日至30日母公司现金管理超审议额度 <b>1亿元</b>，已追认</td><td>募集资金内控事项，关注保荐核查和流程整改。</td></tr>
+                <tr><td>易点天下</td><td>104名激励对象拟归属限制性股票 <b>678.4211万股</b>，授予价9.33元/股</td><td>股权激励进入归属期，同时有数量和价格调整事项。</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">05</span>年报 / 季报 / 业绩固定披露清单</div>
+          <div class="body two-col">
+            <div class="fixed-list">
+              <div class="fixed-item"><b>股东会资料</b>西安奕材、华秦科技、炬光科技、宝钛股份、中再资环、ST标准等披露2025年年度股东会会议资料。</div>
+              <div class="fixed-item"><b>股东会结果</b>西高院、三人行、陕鼓动力、科隆新材披露2025年年度股东会决议或法律意见书。</div>
+              <div class="fixed-item"><b>业绩说明会</b>西安奕材、爱科赛博、广电网络披露2025年度暨2026年一季度业绩说明会安排。</div>
+            </div>
+            <div class="fixed-list">
+              <div class="fixed-item"><b>限制性股票</b>易点天下首次授予部分第一个归属期条件成就，拟归属678.4211万股。</div>
+              <div class="fixed-item"><b>简称变更延续</b>北元集团证券简称变更为“北元化工”事项进入实施窗口，代码601568不变。</div>
+              <div class="fixed-item"><b>经营线索延续</b>中国西电15.8307亿元中标、陕西煤业4月运营数据仍列入后续跟踪。</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">06</span>今日重点跟踪公司</div>
+          <div class="body follow">
+            <div><b>隆基绿能</b>高负债主体担保、海外履约担保和担保额度使用节奏。</div>
+            <div><b>爱科赛博</b>监管整改、专项核查审计和内控有效性。</div>
+            <div><b>*ST西旅</b>定增审核问询回复、募集说明书更新和注册进度。</div>
+            <div><b>国际医学 / 康惠</b>控股股东高质押率、到期融资和补充质押风险。</div>
+            <div><b>炼石 / ST标准</b>异常波动后的股价反馈和已披露风险变化。</div>
+            <div><b>铂力特 / 三达膜</b>募集资金现金管理追认、减持完成后的后续安排。</div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="note">
+      <span>资料来源：陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》、巨潮资讯公告原文；本版按逐公司检索补漏复核。</span>
+      <span>仅作公告信息整理，不构成投资建议。</span>
+    </footer>
+  </main>
+</body>
+</html>

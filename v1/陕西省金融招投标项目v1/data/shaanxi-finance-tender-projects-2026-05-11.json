@@ -1,0 +1,264 @@
+{
+  "reportDate": "2026-05-11",
+  "timezone": "Asia/Shanghai",
+  "title": "陕西金融类招投标项目清单",
+  "scope": {
+    "region": "陕西省",
+    "windowStart": "2026-01-01",
+    "windowEnd": "2026-05-11",
+    "include": [
+      "债券主承销商/承销商遴选",
+      "公司债、中期票据、债务融资工具、科创债、海外债发行服务",
+      "ABS/资产证券化计划管理人或承销服务",
+      "标准化债券、固收投资相关第三方服务机构、投资顾问、投研顾问、交易或风控支持服务",
+      "证券公司可作为主投标人的财务顾问/融资顾问服务"
+    ],
+    "exclude": [
+      "家具、宣传品、办公用品、食材、保洁、物业、安保等普通采购",
+      "工程施工、设备采购、系统集成等非证券公司主业项目",
+      "律师、审计、担保机构等证券公司通常不能作为主投标人的单独采购"
+    ]
+  },
+  "summary": {
+    "confirmedPublishedIn2026": 5,
+    "withCandidateOrResultSignal": 3,
+    "crossYearCarryForward": 2,
+    "officialSiteUsed": "http://bulletin.sntba.com/",
+    "note": "已沿相关公告回溯中标结果；对第三方平台脱敏或会员正文未公开的信息，标注为待回源核验。"
+  },
+  "opportunities": [
+    {
+      "id": "SX-STB-2026-001",
+      "publishDate": "2026-01-04",
+      "projectName": "陕西长安汇通资本管理有限公司为投资一揽子标准化债券项目聘请第三方服务机构项目",
+      "buyer": "陕西长安汇通资本管理有限公司",
+      "location": "陕西省西安市",
+      "opportunityType": "标准化债券投资第三方服务机构",
+      "projectScale": "一揽子标准化债券投资项目；具体规模未取得可核验正文",
+      "stage": "项目需求/招标公告线索；已检索到2026-02-02中标结果公示线索",
+      "deadlineOrOpening": null,
+      "winnerStatus": "结果页可见标题，正文图片/会员内容未完整取得；中标单位暂未公开可核验",
+      "winningOrCandidateUnits": [],
+      "securitiesCompanyFit": "标题未写承销，但服务对象为标准化债券投资，证券公司及具备固收投研、债券投资顾问、交易风控支持能力的机构存在投标适配性，应进入可投复核池。",
+      "sourceReliability": "第三方结果线索；需回源陕西采购与招标网图片正文",
+      "missedReason": "前版检索词偏向发行承销，未覆盖标准化债券投资服务、第三方服务机构、投顾/投研服务等场景词；且未建立陕西国资资本平台采购人白名单。",
+      "sources": [
+        {
+          "name": "招标网中标结果线索",
+          "url": "https://shaanxi.zhaobiao.cn/succeed_v_fe20f1812e128fca75da1a8950017c75.html"
+        }
+      ]
+    },
+    {
+      "id": "SX-STB-2026-002",
+      "publishDate": "2026-01-21",
+      "projectName": "陕西金资基金管理有限公司发行科创债选定主承销商项目",
+      "buyer": "陕西金资基金管理有限公司",
+      "location": "陕西省西安市",
+      "opportunityType": "科创债主承销商",
+      "projectScale": "总注册规模不超过15亿元；一标段上交所非公开发行科技创新公司债不超过5亿元；二标段交易商协会定向债务融资工具不超过10亿元",
+      "stage": "中标结果公示；结果发布时间2026-03-02",
+      "deadlineOrOpening": "2026-02-12 09:00",
+      "winnerStatus": "已披露入围中标人；最终承销费率按中标投标人报价平均值执行",
+      "winningOrCandidateUnits": [
+        {
+          "section": "一标段",
+          "name": "国泰海通证券股份有限公司",
+          "quote": "年承销费率1.63‰"
+        },
+        {
+          "section": "一标段",
+          "name": "招商证券股份有限公司",
+          "quote": "年承销费率1.63‰"
+        },
+        {
+          "section": "一标段",
+          "name": "东吴证券股份有限公司",
+          "quote": "年承销费率1.63‰"
+        },
+        {
+          "section": "二标段",
+          "name": "长安银行股份有限公司西安长安区支行",
+          "quote": "年承销费率1.015‰"
+        },
+        {
+          "section": "二标段",
+          "name": "上海浦东发展银行股份有限公司西安分行",
+          "quote": "年承销费率1.015‰"
+        },
+        {
+          "section": "二标段",
+          "name": "重庆银行股份有限公司西安分行",
+          "quote": "年承销费率1.015‰"
+        },
+        {
+          "section": "二标段",
+          "name": "中国光大银行股份有限公司西安分行",
+          "quote": "年承销费率1.015‰"
+        }
+      ],
+      "securitiesCompanyFit": "一标段明确要求经营证券期货业务许可证；二标段要求交易商协会主承销资格，证券公司可投。",
+      "sourceReliability": "公告正文可核验；结果由十环招标网转载公开正文核验",
+      "sources": [
+        {
+          "name": "中招联合招标采购平台",
+          "url": "https://www.365trade.com.cn/zfwzb/788330.jhtml"
+        },
+        {
+          "name": "十环招标网索引",
+          "url": "https://bid.10huan.com/2026/2/index_11.html"
+        }
+      ]
+    },
+    {
+      "id": "SX-STB-2026-003",
+      "publishDate": "2026-01-27",
+      "projectName": "陕西西咸新区沣西发展集团有限公司发行2026海外债券承销商采购项目",
+      "buyer": "陕西西咸新区沣西发展集团有限公司",
+      "location": "陕西省西咸新区",
+      "opportunityType": "海外债券承销商",
+      "projectScale": "未公开",
+      "stage": "中标通知",
+      "deadlineOrOpening": null,
+      "winnerStatus": "第三方页面显示中标人脱敏",
+      "winningOrCandidateUnits": [
+        {
+          "rank": "winner",
+          "name": "页面脱敏，未公开",
+          "quote": "承销费年化率0.28%"
+        }
+      ],
+      "securitiesCompanyFit": "海外债承销服务，证券公司/投行类机构可投。",
+      "sourceReliability": "第三方补充线索，需回源核验",
+      "sources": [
+        {
+          "name": "金融招标网",
+          "url": "https://www.jinrongzhaobiao.com/news-c529c4314e711264248e7dbf635c9de3/"
+        }
+      ]
+    },
+    {
+      "id": "SX-STB-2026-004",
+      "publishDate": "2026-02-26",
+      "projectName": "西安工业投资集团有限公司中期票据发行承销商遴选项目",
+      "buyer": "西安工业投资集团有限公司",
+      "location": "陕西省西安市",
+      "opportunityType": "中期票据发行承销商",
+      "projectScale": "发行规模约10亿元",
+      "stage": "中标结果公示；结果发布时间2026-03-30",
+      "deadlineOrOpening": "2026-03-19 09:30",
+      "winnerStatus": "已披露中标人及中标费率",
+      "winningOrCandidateUnits": [
+        {
+          "rank": "winner",
+          "name": "招商银行股份有限公司西安分行、东吴证券股份有限公司",
+          "quote": "中标费率0.06%"
+        },
+        {
+          "rank": "winner",
+          "name": "上海浦东发展银行股份有限公司西安分行、中国民生银行股份有限公司西安分行",
+          "quote": "中标费率0.06%"
+        }
+      ],
+      "securitiesCompanyFit": "要求交易商协会非金融企业债务融资工具银行类或非银行类主承销商资格，证券公司可投。",
+      "sourceReliability": "招采通招标公告及中标结果正文可核验",
+      "sources": [
+        {
+          "name": "招采通",
+          "url": "https://zct.xacin.com.cn/bidding/view/2026941544879230976"
+        }
+      ]
+    },
+    {
+      "id": "SX-STB-2026-005",
+      "publishDate": "2026-03-26",
+      "projectName": "选聘2026年产投公司债券发行主承销商项目",
+      "buyer": "西安未央城建产业投资有限责任公司",
+      "location": "陕西省西安市未央区",
+      "opportunityType": "公司债券发行主承销商",
+      "projectScale": "未公开；按报价反推含税包干费率区间0.20%-0.26%/年",
+      "stage": "中标结果公示；结果发布时间2026-04-21",
+      "deadlineOrOpening": "候选公示结束2026-04-20",
+      "winnerStatus": "已披露中标人及中标价",
+      "winningOrCandidateUnits": [
+        {
+          "rank": "winner",
+          "name": "国金证券股份有限公司（含联合体成员：华鑫证券有限责任公司）",
+          "quote": "12500000.00元；含税包干费率0.25%/年",
+          "projectLead": "李锋"
+        },
+        {
+          "rank": "candidate-2",
+          "name": "东吴证券股份有限公司",
+          "quote": "10000000.00元；含税包干费率0.20%/年",
+          "projectLead": "贝一飞"
+        },
+        {
+          "rank": "candidate-3",
+          "name": "平安证券股份有限公司",
+          "quote": "13000000.00元；含税包干费率0.26%/年",
+          "projectLead": "程曾汉"
+        }
+      ],
+      "securitiesCompanyFit": "债券发行主承销商选聘，证券公司可投。",
+      "sourceReliability": "招采通候选人及中标结果正文可核验",
+      "sources": [
+        {
+          "name": "招采通",
+          "url": "https://zct.xacin.com.cn/bidding/view/2044729547018080256"
+        }
+      ]
+    }
+  ],
+  "crossYearCarryForward": [
+    {
+      "publishDate": "2025-11-25",
+      "projectName": "2026 年西咸集团债券主承销商选聘项目",
+      "buyer": "陕西西咸新区发展集团有限公司",
+      "stage": "中标候选人公示",
+      "reasonForCarryForward": "发布时间不在2026年，但项目名称与服务期指向2026年债券主承销商。",
+      "winningOrCandidateUnits": [
+        {"rank": 1, "name": "长安银行股份有限公司西咸新区分行", "quote": "年承销费率0.14"},
+        {"rank": 2, "name": "西部证券股份有限公司", "quote": "年承销费率0.15"},
+        {"rank": 3, "name": "国金证券股份有限公司", "quote": "年承销费率0.14"},
+        {"rank": 4, "name": "德意志银行（中国）有限公司", "quote": "年承销费率0.14"},
+        {"rank": 5, "name": "东兴证券股份有限公司", "quote": "年承销费率0.14"},
+        {"rank": 6, "name": "中国银河证券股份有限公司", "quote": "年承销费率0.14"},
+        {"rank": 7, "name": "西安银行股份有限公司", "quote": "年承销费率0.15"},
+        {"rank": 8, "name": "长江证券股份有限公司", "quote": "年承销费率0.14"},
+        {"rank": 9, "name": "长城证券股份有限公司", "quote": "年承销费率0.14"}
+      ],
+      "sources": [
+        {
+          "name": "全国公共资源交易平台（陕西省·西咸新区）",
+          "url": "https://ggzyjy.xixianxinqu.gov.cn/jydt/001001/001001017/001001017003/20251125/f97b4e15-c82f-4157-a1b7-9dd0c94fa8be.html"
+        }
+      ]
+    },
+    {
+      "publishDate": "2025-12-19",
+      "projectName": "2026年西安市雁塔区城市发展投资控股集团有限公司公司债券发行承销商招标项目",
+      "buyer": "西安市雁塔区城市发展投资控股集团有限公司",
+      "stage": "中标候选人公示",
+      "reasonForCarryForward": "发布时间不在2026年，但属于2026年公司债承销业务。",
+      "winningOrCandidateUnits": [
+        {
+          "rank": 1,
+          "name": "开源证券股份有限公司（含联合体：财达证券股份有限公司、甬兴证券有限公司）",
+          "quote": "费率0.18%"
+        }
+      ],
+      "sources": [
+        {
+          "name": "标标达商机网索引",
+          "url": "https://www.bbda.com/orgBidList/k38537_p1"
+        }
+      ]
+    }
+  ],
+  "excludedExamples": [
+    "长安银行西安莲湖区支行业务宣传品供应商入围采购项目",
+    "浙商银行西安分行辖属机构保洁服务采购",
+    "食材供应、客房用品、教材采购、工程车辆、设备采购、工程施工、安保服务等"
+  ]
+}
