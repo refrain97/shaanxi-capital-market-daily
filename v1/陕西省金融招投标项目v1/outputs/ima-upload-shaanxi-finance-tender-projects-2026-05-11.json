@@ -1,0 +1,28 @@
+{
+  "uploadStatus": "success",
+  "knowledgeBaseName": "公告检索",
+  "knowledgeBaseId": "WFRa_8s9eTeZR-uXPO4mm9EUAbWmE6RycX6fDtASJeA=",
+  "recommendedFileName": "2026年5月11日陕西金融类招投标项目清单.png",
+  "uploadedFileName": "2026年5月11日陕西金融类招投标项目清单.png",
+  "mediaId": "img_2ba8b3a1c5db398497ee0bc27d25605c_7b37039608590a00c32e0d3e72efb4677453274147926671",
+  "localFile": "v1/陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-11.png",
+  "markdownFile": "v1/陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-11.md",
+  "dataFile": "v1/陕西省金融招投标项目v1/data/shaanxi-finance-tender-projects-2026-05-11.json",
+  "imageFile": "v1/陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-11.png",
+  "keywords": [
+    "陕西证券公司可投项目",
+    "陕西债券承销招标",
+    "陕西主承销商选聘",
+    "陕西资产证券化顾问",
+    "陕西融资顾问",
+    "陕西标准化债券第三方服务"
+  ],
+  "verificationQuery": "2026年5月11日陕西金融类招投标项目清单.png",
+  "verificationStatus": {
+    "fullFileNameSearch": "hit",
+    "dateKeywordSearch": "hit"
+  },
+  "imageGeneratedAt": "2026-05-11T00:00:00+08:00",
+  "uploadedAt": "2026-05-11T17:12:24+08:00",
+  "notes": "已通过本机 ~/.workbuddy/skills/腾讯ima/knowledge-base 流程上传至 IMA 公告检索知识库，并完成完整文件名和日期关键词检索验证。本期按证券公司可投口径确认2026年发布机会5条，已补入长安汇通资本标准化债券第三方服务项目。"
+}

@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西上市公司公告早报｜2026年5月12日</title>
+  <style>
+    :root {
+      --navy: #10243d;
+      --ink: #1d2733;
+      --muted: #667085;
+      --line: #d8dee8;
+      --soft: #f4f7fb;
+      --risk: #c2412f;
+      --risk-bg: #fff0ec;
+      --good: #16835a;
+      --good-bg: #eaf7f0;
+      --watch: #a16207;
+      --watch-bg: #fff7df;
+      --blue-bg: #eaf1fb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #e9eef5;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      color: var(--ink);
+    }
+    .page {
+      width: 1242px;
+      height: 2060px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: hidden;
+      position: relative;
+    }
+    .topbar {
+      background: var(--navy);
+      color: #fff;
+      padding: 36px 54px 26px;
+      display: grid;
+      grid-template-columns: 1.42fr 1fr;
+      gap: 28px;
+      align-items: end;
+    }
+    h1 {
+      margin: 0;
+      font-size: 54px;
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      margin-top: 14px;
+      font-size: 22px;
+      color: #d8e3f3;
+      line-height: 1.45;
+    }
+    .source {
+      text-align: right;
+      font-size: 20px;
+      line-height: 1.5;
+      color: #c8d5e6;
+    }
+    .source strong {
+      color: #fff;
+      font-size: 28px;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .content { padding: 16px 42px 12px; }
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    .kpi {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 16px;
+      min-height: 70px;
+    }
+    .kpi .num {
+      font-size: 31px;
+      line-height: 1;
+      font-weight: 800;
+      color: var(--navy);
+    }
+    .kpi .label {
+      margin-top: 8px;
+      font-size: 16.5px;
+      line-height: 1.25;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .section {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+    }
+    .section.wide { grid-column: 1 / -1; }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background: #f7f9fc;
+      border-bottom: 1px solid var(--line);
+      font-weight: 800;
+      font-size: 21px;
+      color: var(--navy);
+    }
+    .section-title .no {
+      display: inline-grid;
+      place-items: center;
+      min-width: 42px;
+      height: 28px;
+      border-radius: 5px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 18px;
+    }
+    .body { padding: 9px 14px 10px; }
+    .chips {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 15.8px;
+      line-height: 1.35;
+      background: #fff;
+      min-height: 88px;
+    }
+    .chip b {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 3px;
+      color: var(--navy);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 15.6px;
+      line-height: 1.28;
+    }
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 700;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+    td {
+      padding: 5px 8px;
+      border-bottom: 1px solid #edf1f6;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: 0; }
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .tag.risk { background: var(--risk-bg); color: var(--risk); }
+    .tag.good { background: var(--good-bg); color: var(--good); }
+    .tag.watch { background: var(--watch-bg); color: var(--watch); }
+    .tag.info { background: var(--blue-bg); color: var(--navy); }
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+    .tile {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 86px;
+      background: #fff;
+    }
+    .tile b {
+      display: block;
+      font-size: 17px;
+      color: var(--navy);
+      margin-bottom: 5px;
+    }
+    .tile span {
+      font-size: 14.6px;
+      line-height: 1.32;
+      color: #344054;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .fixed-list { display: grid; gap: 6px; }
+    .fixed-item {
+      border: 1px solid #e5ebf3;
+      border-radius: 6px;
+      padding: 6px 9px;
+      font-size: 15px;
+      line-height: 1.28;
+      background: #fff;
+    }
+    .fixed-item b { color: var(--navy); margin-right: 5px; }
+    .follow {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 8px;
+    }
+    .follow div {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 78px;
+      background: #fcfdff;
+      font-size: 14px;
+      line-height: 1.28;
+    }
+    .follow b {
+      display: block;
+      font-size: 16px;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+    .note {
+      margin: 0 42px;
+      border-top: 1px solid var(--line);
+      padding-top: 9px;
+      color: var(--muted);
+      font-size: 16px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .strong { font-weight: 800; color: var(--ink); }
+  </style>
+
+  <style>
+    .follow div { min-height: 360px; }
+    .note { position: absolute; left: 0; right: 0; bottom: 22px; background: #fff; }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div>
+        <h1>陕西上市公司公告早报</h1>
+        <div class="subtitle">2026年5月12日｜逐公司 CNINFO 检索：5月12日主窗口 + 5月7日至5月12日回溯复核</div>
+      </div>
+      <div class="source">
+        <strong>覆盖 85 家上市公司</strong>
+        沪市42家｜深市37家｜北交所6家<br>
+        名单来源：陕西证监局｜公告源：巨潮资讯 CNINFO
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="kpis">
+        <div class="kpi"><div class="num">26条</div><div class="label">5月12日主窗口公告，覆盖19家公司</div></div>
+        <div class="kpi"><div class="num">131条</div><div class="label">5月7日至5月12日回溯公告，覆盖58家公司</div></div>
+        <div class="kpi"><div class="num">8项</div><div class="label">重点事项：担保、质押、预重整、划转、权益分派</div></div>
+        <div class="kpi"><div class="num">0个</div><div class="label">逐公司接口错误；公告 PDF 关键数字已抽取</div></div>
+      </div>
+
+      <div class="grid">
+        <section class="section">
+          <div class="section-title"><span class="no">01</span>今日业务机会</div>
+          <div class="body chips">
+            <div class="chip"><b>股东增持</b>ST兴化股东兴化集团拟6个月内增持4000万至7000万元，资金来源为自有资金。</div>
+            <div class="chip"><b>权益分派</b>源杰科技实施每股派0.70元、每股转增0.45股，合计派现5997.08万元。</div>
+            <div class="chip"><b>资产整合</b>航发动力拟将本部航空发动机生产制造相关资产组无偿划转至全资子公司西安红旗。</div>
+            <div class="chip"><b>投资者沟通</b>瑞联新材、康拓医疗、高铁电气、三达膜等披露陕西辖区集体接待日安排。</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><span class="no">02</span>重大事项与风险公告</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:20%"><col style="width:57%"><col style="width:23%"></colgroup>
+              <thead><tr><th>公司</th><th>事项</th><th>业务判断</th></tr></thead>
+              <tbody>
+                <tr><td>康惠股份</td><td>控股子公司陕西友帮获法院决定进入预重整，预重整期限5个月</td><td><span class="tag risk">重整风险</span></td></tr>
+                <tr><td>炬光科技</td><td>5月7日、8日、11日连续3日收盘价涨幅偏离值累计超过 <b>30%</b></td><td><span class="tag watch">交易异动</span></td></tr>
+                <tr><td>西安饮食</td><td>控股股东西旅集团新增质押3280万股，为3亿元流动资金贷款提供质押担保</td><td><span class="tag risk">质押关注</span></td></tr>
+                <tr><td>陕建股份</td><td>4月新增对外担保20.93亿元，多数被担保人资产负债率超过70%</td><td><span class="tag watch">高担保</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">03</span>上市公司动态</div>
+          <div class="body tiles">
+            <div class="tile"><b>航发动力</b><span>筹划本部航空发动机生产制造相关资产组无偿划转至西安红旗，相关业务、人员一并转入。</span></div>
+            <div class="tile"><b>康惠股份</b><span>陕西友帮2026年3月末资产1.24亿元、负债4.39亿元、净资产-3.15亿元。</span></div>
+            <div class="tile"><b>炬光科技</b><span>异常波动核查称不存在应披露未披露重大事项，控股股东及实控人未买卖股票。</span></div>
+            <div class="tile"><b>源杰科技</b><span>股权登记日5月16日，现金红利发放日及除权除息日5月19日，转增后总股本预计1.2450亿股。</span></div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">04</span>股东变动与资本运作</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:16%"><col style="width:44%"><col style="width:40%"></colgroup>
+              <thead><tr><th>公司</th><th>关键数字</th><th>业务关注</th></tr></thead>
+              <tbody>
+                <tr><td>陕建股份</td><td>4月对14家子公司提供担保 <b>20.93亿元</b>；累计担保余额 <b>345.72亿元</b></td><td>公司及控股子公司对外担保总额超过最近一期经审计归母净资产100%，无逾期担保。</td></tr>
+                <tr><td>西安饮食</td><td>西旅集团本次质押 <b>3280万股</b>，质押后累计 <b>8880万股</b>，占其持股49.98%</td><td>控股股东及一致行动人合计质押1.480992亿股，占合计持股61.59%、总股本25.81%。</td></tr>
+                <tr><td>ST兴化</td><td>兴化集团拟增持 <b>4000万至7000万元</b>；当前持股2.2247亿股，占17.43%</td><td>延长集团与兴化集团合计持股57.23%，实际控制人仍为陕西省国资委。</td></tr>
+                <tr><td>源杰科技</td><td>每股派0.70元、每股转增0.45股，合计派现 <b>5997.08万元</b></td><td>回购专户27.5169万股不参与分配，差异化分红对除权参考价影响小于1%。</td></tr>
+                <tr><td>航发动力</td><td>划转标的为本部航空发动机生产制造相关资产组，具体范围仍待专项审计和协议确定</td><td>事项不构成重大资产重组，仍需董事会、股东会、职代会及国防科工局、国资审批。</td></tr>
+                <tr><td>康惠股份</td><td>公司为陕西友帮贷款提供担保余额 <b>5021.32万元</b>，直接资金支持 <b>2.72亿元</b></td><td>若进入正式重整，担保履约、长期股权投资和其他应收款回收均存在不确定性。</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">05</span>年报 / 季报 / 业绩固定披露清单</div>
+          <div class="body two-col">
+            <div class="fixed-list">
+              <div class="fixed-item"><b>权益分派</b>源杰科技披露2025年年度权益分派实施公告及差异化分红法律意见书。</div>
+              <div class="fixed-item"><b>会议资料</b>康惠股份、宝光股份等披露2025年年度股东会会议资料或相关议案文件。</div>
+              <div class="fixed-item"><b>业绩说明会</b>瑞联新材、康拓医疗、高铁电气、三达膜、中熔电气、达刚控股等参加陕西辖区集体接待日。</div>
+            </div>
+            <div class="fixed-list">
+              <div class="fixed-item"><b>保荐变更</b>康拓医疗披露变更持续督导保荐代表人，纳入日常资本市场服务跟踪。</div>
+              <div class="fixed-item"><b>工商变更</b>达刚控股全资子公司完成工商变更登记，未构成重大事项但保留底稿。</div>
+              <div class="fixed-item"><b>固定事项</b>多家公司披露年度股东会、说明会或接待日公告，避免淹没重大风险事项。</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">06</span>今日重点跟踪公司</div>
+          <div class="body follow">
+            <div><b>陕建股份</b>高负债子公司融资需求、担保额度使用节奏和净资产占比。</div>
+            <div><b>西安饮食</b>西旅集团质押解除安排、曲江文控3亿元贷款和一致行动人质押率。</div>
+            <div><b>康惠股份</b>陕西友帮预重整投资人引入、正式重整申请和担保履约风险。</div>
+            <div><b>航发动力</b>资产组划转范围、人员转移、股东会和国资/国防科工审批。</div>
+            <div><b>炬光科技</b>异常波动后的股价反馈、产业催化和新增订单披露。</div>
+            <div><b>ST兴化 / 源杰</b>增持计划执行、权益分派除权交易和后续公告。</div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="note">
+      <span>资料来源：陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》、巨潮资讯公告原文；本版复用稳定 V1 版式。</span>
+      <span>仅作公告信息整理，不构成投资建议。</span>
+    </footer>
+  </main>
+</body>
+</html>

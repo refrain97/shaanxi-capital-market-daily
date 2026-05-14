@@ -1,0 +1,29 @@
+{
+  "uploadStatus": "success",
+  "knowledgeBaseName": "公告检索",
+  "knowledgeBaseId": "WFRa_8s9eTeZR-uXPO4mm9EUAbWmE6RycX6fDtASJeA=",
+  "recommendedFileName": "2026年5月12日陕西上市公司早报.png",
+  "uploadedFileName": "2026年5月12日陕西上市公司早报.png",
+  "mediaId": "img_2ba8b3a1c5db398497ee0bc27d25605c_b6b446d35b4952b1e6babf5ec046904d7453274147926671",
+  "localFile": "v1/陕西省上市公司日报v1/outputs/2026年5月12日陕西上市公司早报.png",
+  "imageFile": "v1/陕西省上市公司日报v1/outputs/2026年5月12日陕西上市公司早报.png",
+  "addKnowledgeResponse": {
+    "code": 0,
+    "msg": "success",
+    "data": {
+      "media_id": "img_2ba8b3a1c5db398497ee0bc27d25605c_b6b446d35b4952b1e6babf5ec046904d7453274147926671"
+    },
+    "request_id": "4f6812d5f7909611ea8c9f9209428a69"
+  },
+  "searchVerified": {
+    "exactFileName": true,
+    "dateKeyword": true
+  },
+  "usedDuplicateSuffix": false,
+  "verificationQuery": "2026年5月12日陕西上市公司早报.png",
+  "uploadedAt": "2026-05-12T00:37:06.761Z",
+  "verificationStatus": {
+    "fullFileNameSearch": "hit",
+    "dateKeywordSearch": "hit"
+  }
+}

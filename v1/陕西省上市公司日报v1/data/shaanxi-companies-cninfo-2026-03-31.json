@@ -1,0 +1,682 @@
+[
+  {
+    "code": "000516",
+    "market": "SZ",
+    "name": "国际医学",
+    "company": "西安国际医学投资股份有限公司",
+    "orgId": "gssz0000516",
+    "cninfoName": "国际医学"
+  },
+  {
+    "code": "000561",
+    "market": "SZ",
+    "name": "烽火电子",
+    "company": "陕西烽火电子股份有限公司",
+    "orgId": "gssz0000561",
+    "cninfoName": "烽火电子"
+  },
+  {
+    "code": "000563",
+    "market": "SZ",
+    "name": "陕国投A",
+    "company": "陕西省国际信托股份有限公司",
+    "orgId": "gssz0000563",
+    "cninfoName": "陕国投Ａ"
+  },
+  {
+    "code": "000564",
+    "market": "SZ",
+    "name": "供销大集",
+    "company": "供销大集集团股份有限公司",
+    "orgId": "gssz0000564",
+    "cninfoName": "供销大集"
+  },
+  {
+    "code": "000610",
+    "market": "SZ",
+    "name": "西安旅游",
+    "company": "西安旅游股份有限公司",
+    "orgId": "gssz0000610",
+    "cninfoName": "*ST西旅"
+  },
+  {
+    "code": "000697",
+    "market": "SZ",
+    "name": "ST炼石",
+    "company": "炼石航空科技股份有限公司",
+    "orgId": "gssz0000697",
+    "cninfoName": "炼石航空"
+  },
+  {
+    "code": "000721",
+    "market": "SZ",
+    "name": "西安饮食",
+    "company": "西安饮食股份有限公司",
+    "orgId": "gssz0000721",
+    "cninfoName": "西安饮食"
+  },
+  {
+    "code": "000768",
+    "market": "SZ",
+    "name": "中航西飞",
+    "company": "中航西安飞机工业集团股份有限公司",
+    "orgId": "gssz0000768",
+    "cninfoName": "中航西飞"
+  },
+  {
+    "code": "000812",
+    "market": "SZ",
+    "name": "陕西金叶",
+    "company": "陕西金叶科教集团股份有限公司",
+    "orgId": "gssz0000812",
+    "cninfoName": "陕西金叶"
+  },
+  {
+    "code": "000837",
+    "market": "SZ",
+    "name": "秦川机床",
+    "company": "秦川机床工具集团股份公司",
+    "orgId": "gssz0000837",
+    "cninfoName": "秦川机床"
+  },
+  {
+    "code": "001231",
+    "market": "SZ",
+    "name": "农心科技",
+    "company": "农心作物科技股份有限公司",
+    "orgId": "9900047224",
+    "cninfoName": "农心科技"
+  },
+  {
+    "code": "001286",
+    "market": "SZ",
+    "name": "陕西能源",
+    "company": "陕西能源投资股份有限公司",
+    "orgId": "9900048369",
+    "cninfoName": "陕西能源"
+  },
+  {
+    "code": "001299",
+    "market": "SZ",
+    "name": "美能能源",
+    "company": "陕西美能清洁能源集团股份有限公司",
+    "orgId": "gfbj0838794",
+    "cninfoName": "美能能源"
+  },
+  {
+    "code": "002109",
+    "market": "SZ",
+    "name": "兴化股份",
+    "company": "陕西兴化化学股份有限公司",
+    "orgId": "9900002009",
+    "cninfoName": "ST兴化"
+  },
+  {
+    "code": "002149",
+    "market": "SZ",
+    "name": "西部材料",
+    "company": "西部金属材料股份有限公司",
+    "orgId": "9900003403",
+    "cninfoName": "西部材料"
+  },
+  {
+    "code": "002267",
+    "market": "SZ",
+    "name": "陕天然气",
+    "company": "陕西省天然气股份有限公司",
+    "orgId": "9900005096",
+    "cninfoName": "陕天然气"
+  },
+  {
+    "code": "002673",
+    "market": "SZ",
+    "name": "西部证券",
+    "company": "西部证券股份有限公司",
+    "orgId": "qsgn0000644",
+    "cninfoName": "西部证券"
+  },
+  {
+    "code": "002799",
+    "market": "SZ",
+    "name": "环球印务",
+    "company": "西安环球印务股份有限公司",
+    "orgId": "9900023953",
+    "cninfoName": "环球印务"
+  },
+  {
+    "code": "002864",
+    "market": "SZ",
+    "name": "盘龙药业",
+    "company": "陕西盘龙药业集团股份有限公司",
+    "orgId": "9900034531",
+    "cninfoName": "盘龙药业"
+  },
+  {
+    "code": "003009",
+    "market": "SZ",
+    "name": "中天火箭",
+    "company": "陕西中天火箭技术股份有限公司",
+    "orgId": "9900039724",
+    "cninfoName": "中天火箭"
+  },
+  {
+    "code": "300103",
+    "market": "SZ",
+    "name": "达刚控股",
+    "company": "达刚控股集团股份有限公司",
+    "orgId": "9900012936",
+    "cninfoName": "达刚控股"
+  },
+  {
+    "code": "300140",
+    "market": "SZ",
+    "name": "节能环境",
+    "company": "中节能环境保护股份有限公司",
+    "orgId": "9900015168",
+    "cninfoName": "节能环境"
+  },
+  {
+    "code": "300164",
+    "market": "SZ",
+    "name": "通源石油",
+    "company": "通源石油科技集团股份有限公司",
+    "orgId": "9900016228",
+    "cninfoName": "通源石油"
+  },
+  {
+    "code": "300397",
+    "market": "SZ",
+    "name": "天和防务",
+    "company": "西安天和防务技术股份有限公司",
+    "orgId": "9900022197",
+    "cninfoName": "天和防务"
+  },
+  {
+    "code": "300487",
+    "market": "SZ",
+    "name": "蓝晓科技",
+    "company": "西安蓝晓科技新材料股份有限公司",
+    "orgId": "9900023808",
+    "cninfoName": "蓝晓科技"
+  },
+  {
+    "code": "300581",
+    "market": "SZ",
+    "name": "晨曦航空",
+    "company": "西安晨曦航空科技股份有限公司",
+    "orgId": "9900030082",
+    "cninfoName": "晨曦航空"
+  },
+  {
+    "code": "300775",
+    "market": "SZ",
+    "name": "三角防务",
+    "company": "西安三角防务股份有限公司",
+    "orgId": "gfbj0836582",
+    "cninfoName": "三角防务"
+  },
+  {
+    "code": "300831",
+    "market": "SZ",
+    "name": "派瑞股份",
+    "company": "西安派瑞功率半导体变流技术股份有限公司",
+    "orgId": "9900038312",
+    "cninfoName": "派瑞股份"
+  },
+  {
+    "code": "300861",
+    "market": "SZ",
+    "name": "美畅股份",
+    "company": "杨凌美畅新材料股份有限公司",
+    "orgId": "gfbj0872859",
+    "cninfoName": "美畅股份"
+  },
+  {
+    "code": "301031",
+    "market": "SZ",
+    "name": "中熔电气",
+    "company": "西安中熔电气股份有限公司",
+    "orgId": "gfbj0839450",
+    "cninfoName": "中熔电气"
+  },
+  {
+    "code": "301171",
+    "market": "SZ",
+    "name": "易点天下",
+    "company": "易点天下网络科技股份有限公司",
+    "orgId": "9900026920",
+    "cninfoName": "易点天下"
+  },
+  {
+    "code": "301231",
+    "market": "SZ",
+    "name": "荣信文化",
+    "company": "荣信教育文化产业发展股份有限公司",
+    "orgId": "gfbj0833632",
+    "cninfoName": "荣信文化"
+  },
+  {
+    "code": "301306",
+    "market": "SZ",
+    "name": "西测测试",
+    "company": "西安西测测试技术股份有限公司",
+    "orgId": "9900052404",
+    "cninfoName": "西测测试"
+  },
+  {
+    "code": "301357",
+    "market": "SZ",
+    "name": "北方长龙",
+    "company": "北方长龙新材料技术股份有限公司",
+    "orgId": "9900046528",
+    "cninfoName": "北方长龙"
+  },
+  {
+    "code": "301517",
+    "market": "SZ",
+    "name": "陕西华达",
+    "company": "陕西华达科技股份有限公司",
+    "orgId": "9900023075",
+    "cninfoName": "陕西华达"
+  },
+  {
+    "code": "301589",
+    "market": "SZ",
+    "name": "诺瓦星云",
+    "company": "西安诺瓦星云科技股份有限公司",
+    "orgId": "9900053191",
+    "cninfoName": "诺瓦星云"
+  },
+  {
+    "code": "302132",
+    "market": "SZ",
+    "name": "中航成飞",
+    "company": "中航成飞股份有限公司",
+    "orgId": "9900013408",
+    "cninfoName": "中航成飞"
+  },
+  {
+    "code": "600080",
+    "market": "SH",
+    "name": "金花股份",
+    "company": "金花企业(集团)股份有限公司",
+    "orgId": "gssh0600080",
+    "cninfoName": "ST金花"
+  },
+  {
+    "code": "600217",
+    "market": "SH",
+    "name": "中再资环",
+    "company": "中再资源环境股份有限公司",
+    "orgId": "gssh0600217",
+    "cninfoName": "中再资环"
+  },
+  {
+    "code": "600248",
+    "market": "SH",
+    "name": "陕建股份",
+    "company": "陕西建工集团股份有限公司",
+    "orgId": "gssh0600248",
+    "cninfoName": "陕建股份"
+  },
+  {
+    "code": "600302",
+    "market": "SH",
+    "name": "标准股份",
+    "company": "西安标准工业股份有限公司",
+    "orgId": "gssh0600302",
+    "cninfoName": "ST标准"
+  },
+  {
+    "code": "600343",
+    "market": "SH",
+    "name": "航天动力",
+    "company": "陕西航天动力高科技股份有限公司",
+    "orgId": "gssh0600343",
+    "cninfoName": "航天动力"
+  },
+  {
+    "code": "600379",
+    "market": "SH",
+    "name": "宝光股份",
+    "company": "陕西宝光真空电器股份有限公司",
+    "orgId": "gssh0600379",
+    "cninfoName": "宝光股份"
+  },
+  {
+    "code": "600455",
+    "market": "SH",
+    "name": "博通股份",
+    "company": "西安博通资讯股份有限公司",
+    "orgId": "gssh0600455",
+    "cninfoName": "博通股份"
+  },
+  {
+    "code": "600456",
+    "market": "SH",
+    "name": "宝钛股份",
+    "company": "宝鸡钛业股份有限公司",
+    "orgId": "gssh0600456",
+    "cninfoName": "宝钛股份"
+  },
+  {
+    "code": "600665",
+    "market": "SH",
+    "name": "天地源",
+    "company": "天地源股份有限公司",
+    "orgId": "gssh0600665",
+    "cninfoName": "天地源"
+  },
+  {
+    "code": "600706",
+    "market": "SH",
+    "name": "曲江文旅",
+    "company": "西安曲江文化旅游股份有限公司",
+    "orgId": "gssh0600706",
+    "cninfoName": "曲江文旅"
+  },
+  {
+    "code": "600707",
+    "market": "SH",
+    "name": "彩虹股份",
+    "company": "彩虹显示器件股份有限公司",
+    "orgId": "gssh0600707",
+    "cninfoName": "彩虹股份"
+  },
+  {
+    "code": "600831",
+    "market": "SH",
+    "name": "广电网络",
+    "company": "陕西广电网络传媒(集团)股份有限公司",
+    "orgId": "gssh0600831",
+    "cninfoName": "广电网络"
+  },
+  {
+    "code": "600893",
+    "market": "SH",
+    "name": "航发动力",
+    "company": "中国航发动力股份有限公司",
+    "orgId": "gssh0600893",
+    "cninfoName": "航发动力"
+  },
+  {
+    "code": "600928",
+    "market": "SH",
+    "name": "西安银行",
+    "company": "西安银行股份有限公司",
+    "orgId": "9900027168",
+    "cninfoName": "西安银行"
+  },
+  {
+    "code": "600984",
+    "market": "SH",
+    "name": "建设机械",
+    "company": "陕西建设机械股份有限公司",
+    "orgId": "gssh0600984",
+    "cninfoName": "建设机械"
+  },
+  {
+    "code": "601012",
+    "market": "SH",
+    "name": "隆基绿能",
+    "company": "隆基绿能科技股份有限公司",
+    "orgId": "9900022338",
+    "cninfoName": "隆基绿能"
+  },
+  {
+    "code": "601015",
+    "market": "SH",
+    "name": "陕西黑猫",
+    "company": "陕西黑猫焦化股份有限公司",
+    "orgId": "9900022940",
+    "cninfoName": "陕西黑猫"
+  },
+  {
+    "code": "601179",
+    "market": "SH",
+    "name": "中国西电",
+    "company": "中国西电电气股份有限公司",
+    "orgId": "9900010350",
+    "cninfoName": "中国西电"
+  },
+  {
+    "code": "601225",
+    "market": "SH",
+    "name": "陕西煤业",
+    "company": "陕西煤业股份有限公司",
+    "orgId": "9900023204",
+    "cninfoName": "陕西煤业"
+  },
+  {
+    "code": "601369",
+    "market": "SH",
+    "name": "陕鼓动力",
+    "company": "西安陕鼓动力股份有限公司",
+    "orgId": "9900012093",
+    "cninfoName": "陕鼓动力"
+  },
+  {
+    "code": "601568",
+    "market": "SH",
+    "name": "北元集团",
+    "company": "陕西北元化工集团股份有限公司",
+    "orgId": "9900039743",
+    "cninfoName": "北元集团"
+  },
+  {
+    "code": "601958",
+    "market": "SH",
+    "name": "金钼股份",
+    "company": "金堆城钼业股份有限公司",
+    "orgId": "9900004461",
+    "cninfoName": "金钼股份"
+  },
+  {
+    "code": "603139",
+    "market": "SH",
+    "name": "康惠股份",
+    "company": "陕西康惠制药股份有限公司",
+    "orgId": "9900030778",
+    "cninfoName": "康惠股份"
+  },
+  {
+    "code": "603402",
+    "market": "SH",
+    "name": "陕西旅游",
+    "company": "陕西旅游文化产业股份有限公司",
+    "orgId": "gfbj0870432",
+    "cninfoName": "陕西旅游"
+  },
+  {
+    "code": "605033",
+    "market": "SH",
+    "name": "美邦股份",
+    "company": "陕西美邦药业集团股份有限公司",
+    "orgId": "9900047435",
+    "cninfoName": "美邦股份"
+  },
+  {
+    "code": "605168",
+    "market": "SH",
+    "name": "三人行",
+    "company": "三人行传媒集团股份有限公司",
+    "orgId": "gfbj0832288",
+    "cninfoName": "三人行"
+  },
+  {
+    "code": "688101",
+    "market": "SH",
+    "name": "三达膜",
+    "company": "三达膜环境技术股份有限公司",
+    "orgId": "9900026794",
+    "cninfoName": "三达膜"
+  },
+  {
+    "code": "688102",
+    "market": "SH",
+    "name": "斯瑞新材",
+    "company": "陕西斯瑞新材料股份有限公司",
+    "orgId": "9900041727",
+    "cninfoName": "斯瑞新材"
+  },
+  {
+    "code": "688122",
+    "market": "SH",
+    "name": "西部超导",
+    "company": "西部超导材料科技股份有限公司",
+    "orgId": "9900026771",
+    "cninfoName": "西部超导"
+  },
+  {
+    "code": "688150",
+    "market": "SH",
+    "name": "莱特光电",
+    "company": "陕西莱特光电材料股份有限公司",
+    "orgId": "gfbj0835249",
+    "cninfoName": "莱特光电"
+  },
+  {
+    "code": "688167",
+    "market": "SH",
+    "name": "炬光科技",
+    "company": "西安炬光科技股份有限公司",
+    "orgId": "gfbj0835243",
+    "cninfoName": "炬光科技"
+  },
+  {
+    "code": "688269",
+    "market": "SH",
+    "name": "凯立新材",
+    "company": "西安凯立新材料股份有限公司",
+    "orgId": "gfbj0834893",
+    "cninfoName": "凯立新材"
+  },
+  {
+    "code": "688281",
+    "market": "SH",
+    "name": "华秦科技",
+    "company": "陕西华秦科技实业股份有限公司",
+    "orgId": "9900051575",
+    "cninfoName": "华秦科技"
+  },
+  {
+    "code": "688285",
+    "market": "SH",
+    "name": "高铁电气",
+    "company": "中铁高铁电气装备股份有限公司",
+    "orgId": "gfbj0873023",
+    "cninfoName": "高铁电气"
+  },
+  {
+    "code": "688314",
+    "market": "SH",
+    "name": "康拓医疗",
+    "company": "西安康拓医疗技术股份有限公司",
+    "orgId": "9900044536",
+    "cninfoName": "康拓医疗"
+  },
+  {
+    "code": "688333",
+    "market": "SH",
+    "name": "铂力特",
+    "company": "西安铂力特增材技术股份有限公司",
+    "orgId": "9900039046",
+    "cninfoName": "铂力特"
+  },
+  {
+    "code": "688334",
+    "market": "SH",
+    "name": "西高院",
+    "company": "西安高压电器研究院股份有限公司",
+    "orgId": "9900056273",
+    "cninfoName": "西高院"
+  },
+  {
+    "code": "688498",
+    "market": "SH",
+    "name": "源杰科技",
+    "company": "陕西源杰半导体科技股份有限公司",
+    "orgId": "9900052124",
+    "cninfoName": "源杰科技"
+  },
+  {
+    "code": "688550",
+    "market": "SH",
+    "name": "瑞联新材",
+    "company": "西安瑞联新材料股份有限公司",
+    "orgId": "gfbj0835406",
+    "cninfoName": "瑞联新材"
+  },
+  {
+    "code": "688719",
+    "market": "SH",
+    "name": "爱科赛博",
+    "company": "西安爱科赛博电气股份有限公司",
+    "orgId": "9900031471",
+    "cninfoName": "爱科赛博"
+  },
+  {
+    "code": "688783",
+    "market": "SH",
+    "name": "西安奕材-U",
+    "company": "西安奕斯伟材料科技股份有限公司",
+    "orgId": "9900061680",
+    "cninfoName": "西安奕材"
+  },
+  {
+    "code": "688813",
+    "market": "SH",
+    "name": "泰金新能",
+    "company": "西安泰金新能科技股份有限公司",
+    "orgId": "9900061070",
+    "cninfoName": "泰金新能"
+  },
+  {
+    "code": "920098",
+    "market": "BJ",
+    "name": "科隆新材",
+    "company": "陕西科隆新材料科技股份有限公司",
+    "orgId": "gfbj0834351",
+    "cninfoName": "科隆新材"
+  },
+  {
+    "code": "920519",
+    "market": "BJ",
+    "name": "万德股份",
+    "company": "西安万德能源化学股份有限公司",
+    "orgId": "gfbj0836419",
+    "cninfoName": "万德股份"
+  },
+  {
+    "code": "920564",
+    "market": "BJ",
+    "name": "天润科技",
+    "company": "陕西天润科技股份有限公司",
+    "orgId": "gfbj0430564",
+    "cninfoName": "天润科技"
+  },
+  {
+    "code": "920576",
+    "market": "BJ",
+    "name": "天力复合",
+    "company": "西安天力金属复合材料股份有限公司",
+    "orgId": "gfbj0873576",
+    "cninfoName": "天力复合"
+  },
+  {
+    "code": "920599",
+    "market": "BJ",
+    "name": "同力股份",
+    "company": "陕西同力重工股份有限公司",
+    "orgId": "9900021933",
+    "cninfoName": "同力股份"
+  },
+  {
+    "code": "920640",
+    "market": "BJ",
+    "name": "富士达",
+    "company": "中航富士达科技股份有限公司",
+    "orgId": "gfbj0835640",
+    "cninfoName": "富士达"
+  }
+]

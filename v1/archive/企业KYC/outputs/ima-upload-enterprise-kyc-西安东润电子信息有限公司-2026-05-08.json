@@ -1,0 +1,19 @@
+{
+  "uploadStatus": "success",
+  "knowledgeBaseName": "企业kyc",
+  "knowledgeBaseId": "48g7eRMH99G4imy6jPm8CqQb9tDWR2E-MYJmIxerg1Q=",
+  "uploadedFileName": "西安东润电子信息有限公司_KYC_2026-05-08.md",
+  "mediaId": "markdown_fa0259f7e06cea12abc2f33b10dc3d11_340b14e99dd526287be5d7e3852ffd0f7458095550705830",
+  "fileSize": 18448,
+  "searchVerified": {
+    "exactFileName": true,
+    "companyKeyword": true,
+    "dateKeyword": true
+  },
+  "usedDuplicateSuffix": false,
+  "verifiedQueries": [
+    "西安东润电子信息有限公司_KYC_2026-05-08.md",
+    "西安东润电子信息有限公司",
+    "2026-05-08 西安东润"
+  ]
+}

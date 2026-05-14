@@ -1,0 +1,21 @@
+{
+  "uploadStatus": "success",
+  "knowledgeBaseName": "公告检索",
+  "knowledgeBaseId": "WFRa_8s9eTeZR-uXPO4mm9EUAbWmE6RycX6fDtASJeA=",
+  "uploadedFileName": "2026年5月11日陕西上市公司早报.png",
+  "mediaId": "img_2ba8b3a1c5db398497ee0bc27d25605c_2b12d51682c448ca10521d6a79c1a4ec7453274147926671",
+  "addKnowledgeResponse": {
+    "code": 0,
+    "msg": "success",
+    "data": {
+      "media_id": "img_2ba8b3a1c5db398497ee0bc27d25605c_2b12d51682c448ca10521d6a79c1a4ec7453274147926671"
+    },
+    "request_id": "8a7f13013c74fea0c16b9eb25af37bb1"
+  },
+  "searchVerified": {
+    "exactFileName": true,
+    "dateKeyword": true
+  },
+  "usedDuplicateSuffix": false,
+  "verificationQuery": "2026年5月11日陕西上市公司早报.png"
+}

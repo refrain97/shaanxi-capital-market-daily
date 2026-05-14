@@ -1,0 +1,126 @@
+{
+  "name": "陕西辖区收并购市场动态看板",
+  "version": "v1",
+  "defaultObservationWindow": {
+    "startRule": "currentYear-01-01",
+    "endRule": "productionDate"
+  },
+  "scope": {
+    "region": "陕西辖区",
+    "includeIfAny": [
+      "陕西辖区上市公司作为收购方、出售方、重组方或资产处置方",
+      "陕西注册或经营主体作为被收购标的、被投资项目公司或交易对手方",
+      "外地上市公司收购陕西硬科技、产业链或项目公司资产",
+      "陕西上市公司控制或参股项目公司发生股权转让、引资或挂牌处置"
+    ],
+    "excludeFromMainAmount": [
+      "纯融资事件",
+      "价格待定的意向协议",
+      "停牌筹划但未披露方案",
+      "已终止且未披露最终交易作价的重组"
+    ]
+  },
+  "companyDimensions": [
+    "已上市公司",
+    "拟上市与辅导企业",
+    "上市后备企业",
+    "活跃非上市公司"
+  ],
+  "statusTags": [
+    {
+      "name": "已完成/工商变更",
+      "countInDisclosedAmount": true
+    },
+    {
+      "name": "已签协议/董事会通过",
+      "countInDisclosedAmount": true
+    },
+    {
+      "name": "挂牌/推进中",
+      "countInDisclosedAmount": true
+    },
+    {
+      "name": "意向/筹划/停牌",
+      "countInDisclosedAmount": false
+    },
+    {
+      "name": "终止",
+      "countInDisclosedAmount": false
+    }
+  ],
+  "sourcePriority": [
+    "上市公司公告原文",
+    "监管或交易所披露",
+    "可信财经媒体转引公告",
+    "公司官网、地方媒体、投融资数据库线索"
+  ],
+  "workingPaperFields": [
+    "序号",
+    "日期",
+    "陕西关联主体",
+    "四类维度",
+    "交易方向",
+    "标的/对手方",
+    "收购方/受让方",
+    "交易类型/轮次",
+    "股权比例",
+    "金额",
+    "隐含估值/定价口径",
+    "状态",
+    "产业方向",
+    "交易意义",
+    "后续跟踪",
+    "来源"
+  ],
+  "outputFiles": {
+    "briefMarkdown": "shaanxi_ma_events_YYYY_ytd.md",
+    "detailedMarkdown": "shaanxi_ma_events_YYYY_ytd_detailed.md",
+    "renderer": "v1/03-shaanxi-ma-market-watch/scripts/render_shaanxi_ma_cases.py",
+    "workingPng": "shaanxi_ma_cases_YYYY_detailed.png",
+    "publishPng": "陕西辖区收并购事件详细案例看板.png"
+  },
+  "image": {
+    "method": "deterministic Python/PIL rendering",
+    "width": 1800,
+    "height": 3850,
+    "font": "/System/Library/Fonts/PingFang.ttc",
+    "sections": [
+      "顶部统计和四类企业维度",
+      "逐笔并购案例卡片"
+    ],
+    "hiddenByDefault": [
+      "结构性结论",
+      "下一步扩表建议"
+    ],
+    "doNotUse": "AI-generated text image for final publish version"
+  },
+  "ima": {
+    "knowledgeBaseName": "公告检索",
+    "publishFileName": "陕西辖区收并购事件详细案例看板.png",
+    "duplicateSuffix": "_v2",
+    "uploadScript": "v1/scripts/upload_ima_png.cjs",
+    "apiScript": "~/.workbuddy/skills-marketplace/skills/ima-skills/ima_api.cjs",
+    "preflightScript": "~/.workbuddy/skills/腾讯ima/knowledge-base/scripts/preflight-check.cjs",
+    "cosUploadScript": "~/.workbuddy/skills/腾讯ima/knowledge-base/scripts/cos-upload.cjs",
+    "credentialSources": [
+      "IMA_OPENAPI_CLIENTID / IMA_OPENAPI_APIKEY",
+      "~/.config/ima/client_id / ~/.config/ima/api_key"
+    ],
+    "verifyQueries": [
+      "陕西辖区收并购事件详细案例看板.png",
+      "陕西辖区收并购"
+    ],
+    "knowledgeBaseFieldCompatibility": [
+      "kb_name/kb_id",
+      "name/id"
+    ]
+  },
+  "finalResponseMustInclude": [
+    "sopPath",
+    "imagePath",
+    "imaUploadStatus",
+    "knowledgeBaseName",
+    "uploadedFileName",
+    "searchVerified"
+  ]
+}

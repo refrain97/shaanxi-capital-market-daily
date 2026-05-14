@@ -1,0 +1,29 @@
+{
+  "uploadStatus": "success",
+  "knowledgeBaseName": "公告检索",
+  "knowledgeBaseId": "WFRa_8s9eTeZR-uXPO4mm9EUAbWmE6RycX6fDtASJeA=",
+  "recommendedFileName": "2026年5月12日陕西辖区收并购事件详细案例看板_v2.png",
+  "uploadedFileName": "2026年5月12日陕西辖区收并购事件详细案例看板_v2.png",
+  "mediaId": "img_2ba8b3a1c5db398497ee0bc27d25605c_8a803e00fc5f8ec63c368467c415f73f7453274147926671",
+  "localFile": "v1/陕西省收并购日报v1/outputs/2026年5月12日陕西辖区收并购事件详细案例看板.png",
+  "imageFile": "v1/陕西省收并购日报v1/outputs/2026年5月12日陕西辖区收并购事件详细案例看板.png",
+  "addKnowledgeResponse": {
+    "code": 0,
+    "msg": "success",
+    "data": {
+      "media_id": "img_2ba8b3a1c5db398497ee0bc27d25605c_8a803e00fc5f8ec63c368467c415f73f7453274147926671"
+    },
+    "request_id": "6fe27828068f28f8188f71cb9dd8ffc5"
+  },
+  "searchVerified": {
+    "exactFileName": true,
+    "dateKeyword": true
+  },
+  "usedDuplicateSuffix": false,
+  "verificationQuery": "2026年5月12日陕西辖区收并购事件详细案例看板_v2.png",
+  "uploadedAt": "2026-05-12T00:54:06.367Z",
+  "verificationStatus": {
+    "fullFileNameSearch": "hit",
+    "dateKeywordSearch": "hit"
+  }
+}

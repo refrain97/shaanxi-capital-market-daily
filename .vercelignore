@@ -1,0 +1,23 @@
+# Local Vercel metadata
+.vercel/
+
+# Git and local system files
+.git/
+.DS_Store
+
+# Runtime secrets and local caches
+.env
+.env.*
+node_modules/
+.npm-cache/
+.openclaw-weixin-qr-session.json
+
+# Source-only workflow files not needed by the public static site
+docs/
+v1/docs/
+v1/scripts/
+v1/config/
+v1/**/data/
+v1/**/scripts/
+v1/**/templates/
+v1/**/outputs/ima-upload*.json
