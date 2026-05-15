@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西上市公司公告早报｜2026年5月15日</title>
+  <style>
+    :root {
+      --navy: #10243d;
+      --ink: #1d2733;
+      --muted: #667085;
+      --line: #d8dee8;
+      --soft: #f4f7fb;
+      --risk: #c2412f;
+      --risk-bg: #fff0ec;
+      --good: #16835a;
+      --good-bg: #eaf7f0;
+      --watch: #a16207;
+      --watch-bg: #fff7df;
+      --blue-bg: #eaf1fb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #e9eef5;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      color: var(--ink);
+    }
+    .page {
+      width: 1242px;
+      height: 2060px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: hidden;
+      position: relative;
+    }
+    .topbar {
+      background: var(--navy);
+      color: #fff;
+      padding: 36px 54px 26px;
+      display: grid;
+      grid-template-columns: 1.42fr 1fr;
+      gap: 28px;
+      align-items: end;
+    }
+    h1 {
+      margin: 0;
+      font-size: 54px;
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      margin-top: 14px;
+      font-size: 22px;
+      color: #d8e3f3;
+      line-height: 1.45;
+    }
+    .source {
+      text-align: right;
+      font-size: 20px;
+      line-height: 1.5;
+      color: #c8d5e6;
+    }
+    .source strong {
+      color: #fff;
+      font-size: 28px;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .content { padding: 16px 42px 12px; }
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    .kpi {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 16px;
+      min-height: 70px;
+    }
+    .kpi .num {
+      font-size: 31px;
+      line-height: 1;
+      font-weight: 800;
+      color: var(--navy);
+    }
+    .kpi .label {
+      margin-top: 8px;
+      font-size: 16.2px;
+      line-height: 1.25;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .section {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+    }
+    .section.wide { grid-column: 1 / -1; }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background: #f7f9fc;
+      border-bottom: 1px solid var(--line);
+      font-weight: 800;
+      font-size: 21px;
+      color: var(--navy);
+    }
+    .section-title .no {
+      display: inline-grid;
+      place-items: center;
+      min-width: 42px;
+      height: 28px;
+      border-radius: 5px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 18px;
+    }
+    .body { padding: 9px 14px 10px; }
+    .chips {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 15.6px;
+      line-height: 1.35;
+      background: #fff;
+      min-height: 88px;
+    }
+    .chip b {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 3px;
+      color: var(--navy);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 15.3px;
+      line-height: 1.28;
+    }
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 700;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+    td {
+      padding: 5px 8px;
+      border-bottom: 1px solid #edf1f6;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: 0; }
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .tag.risk { background: var(--risk-bg); color: var(--risk); }
+    .tag.good { background: var(--good-bg); color: var(--good); }
+    .tag.watch { background: var(--watch-bg); color: var(--watch); }
+    .tag.info { background: var(--blue-bg); color: var(--navy); }
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+    .tile {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 94px;
+      background: #fff;
+    }
+    .tile b {
+      display: block;
+      font-size: 17px;
+      color: var(--navy);
+      margin-bottom: 5px;
+    }
+    .tile span {
+      font-size: 14.2px;
+      line-height: 1.3;
+      color: #344054;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .subhead {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--navy);
+      margin: 0 0 7px;
+    }
+    .fixed-list { display: grid; gap: 6px; }
+    .fixed-item {
+      border: 1px solid #e5ebf3;
+      border-radius: 6px;
+      padding: 6px 9px;
+      font-size: 14.5px;
+      line-height: 1.27;
+      background: #fff;
+    }
+    .fixed-item b { color: var(--navy); margin-right: 5px; }
+    .follow {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 8px;
+    }
+    .follow div {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 78px;
+      background: #fcfdff;
+      font-size: 13.8px;
+      line-height: 1.27;
+    }
+    .follow b {
+      display: block;
+      font-size: 16px;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+    .note {
+      margin: 0 42px;
+      border-top: 1px solid var(--line);
+      padding-top: 9px;
+      color: var(--muted);
+      font-size: 14.8px;
+      line-height: 1.35;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .note span:first-child { flex: 1.2; }
+    .note span:last-child { flex: 1; text-align: right; }
+    .strong { font-weight: 800; color: var(--ink); }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div>
+        <h1>陕西上市公司公告早报</h1>
+        <div class="subtitle">2026年5月15日｜治理风险、资产进展、回购与质押</div>
+      </div>
+      <div class="source">
+        <strong>覆盖 85 家上市公司</strong>
+        沪市42家｜深市37家｜北交所6家<br>
+        名单来源：陕西证监局｜公告源：巨潮资讯 CNINFO
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="kpis">
+        <div class="kpi"><div class="num">23条</div><div class="label">逐公司检索覆盖12家公司，原文PDF均已抽取</div></div>
+        <div class="kpi"><div class="num">12%</div><div class="label">ST标准三日涨幅偏离值累计达到异常波动标准</div></div>
+        <div class="kpi"><div class="num">800万美元</div><div class="label">易点天下已收到Bidease第一批股权转让款</div></div>
+        <div class="kpi"><div class="num">4.8442亿股</div><div class="label">国际医学控股股东及一致行动人解除后累计质押</div></div>
+      </div>
+
+      <div class="grid">
+        <section class="section">
+          <div class="section-title"><span class="no">01</span>今日业务机会</div>
+          <div class="body chips">
+            <div class="chip"><b>治理合规跟踪</b>源杰科技副总经理涉刑拘留并被解聘；ST炼石董事长离任，王虎代行董事长职责。</div>
+            <div class="chip"><b>风险警示沟通</b>ST标准异动叠加2025年亏损、内控否定意见和控制权公开征集转让不确定性。</div>
+            <div class="chip"><b>资产交易进展</b>易点天下已收800万美元；达刚控股27,976万元股权转让款结清但利息违约金未结清。</div>
+            <div class="chip"><b>市值管理与质押</b>达刚首次回购3.33万股；国际医学解除质押1,881万股后质押比例仍处高位。</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><span class="no">02</span>重大事项与风险公告</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:20%"><col style="width:57%"><col style="width:23%"></colgroup>
+              <thead><tr><th>公司</th><th>事项</th><th>业务判断</th></tr></thead>
+              <tbody>
+                <tr><td>源杰科技</td><td>副总经理陈文君因涉嫌刑事犯罪被公安机关刑事拘留，公司5月14日董事会解聘其副总经理职务</td><td><span class="tag risk">治理风险</span></td></tr>
+                <tr><td>ST标准</td><td>三日收盘涨幅偏离值累计12%；2025年归母净利润<b>-14,387.65万元</b>，内控否定意见</td><td><span class="tag risk">ST观察</span></td></tr>
+                <tr><td>ST炼石</td><td>董事长熊辉然辞任且不再任职，王虎代行董事长职责，李铁军候选董事待6月2日股东会审议</td><td><span class="tag watch">治理重塑</span></td></tr>
+                <tr><td>国际医学</td><td>控股股东解除质押<b>1,881万股</b>，解除后控股股东及一致行动人仍质押4.8442亿股</td><td><span class="tag watch">高质押</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">03</span>上市公司动态</div>
+          <div class="body tiles">
+            <div class="tile"><b>易点天下</b><span>Bidease第一批25.1%股权转让完成，已收800万美元，剩余9.9%股权对应400万美元。</span></div>
+            <div class="tile"><b>达刚控股</b><span>首次回购33,300股，成交额291,042元；回购方案总额2,000万至4,000万元。</span></div>
+            <div class="tile"><b>烽火电子</b><span>长岭科技98.3950%股权已过户，配套募资净额8.70亿元，进入整合和承诺期。</span></div>
+            <div class="tile"><b>瑞联新材</b><span>年度股东会192名股东及代理人出席，代表表决权8,290.85万股，占47.6912%。</span></div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">04</span>股东变动与资本运作</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:16%"><col style="width:44%"><col style="width:40%"></colgroup>
+              <thead><tr><th>公司</th><th>关键数字</th><th>业务关注</th></tr></thead>
+              <tbody>
+                <tr><td>易点天下</td><td>原持Bidease Group <b>35%</b>；已收第一批25.1%股权转让款800万美元，剩余9.9%作价400万美元</td><td>6月15日前是否行权决定退出是否完全落袋，关注投资收益确认。</td></tr>
+                <tr><td>达刚控股</td><td>众德环保52%股权交易作价<b>27,976万元</b>，股权转让款已结清，利息和违约金尚未结清</td><td>资产出售尾款风险转为利息违约金回收风险。</td></tr>
+                <tr><td>达刚控股</td><td>首次回购<b>33,300股</b>，最高8.85元/股，最低8.69元/股，成交额29.10万元</td><td>距离2,000万至4,000万元方案区间仍小，关注后续执行和专项贷款使用。</td></tr>
+                <tr><td>国际医学</td><td>世纪新元解除质押1,881万股后仍质押<b>47,096万股</b>，占其持股76.45%</td><td>质押比例边际下降但仍高，需看滚续、偿还和控制权稳定。</td></tr>
+                <tr><td>烽火电子</td><td>购买资产新增股份<b>146,840,727股</b>；配套融资114,249,034股，发行价7.79元/股</td><td>重组实施完成后，核心转向长岭科技并表贡献和募资投向落地。</td></tr>
+                <tr><td>ST标准</td><td>控股股东拟公开征集转让不超过<b>27.77%</b>且不低于控制权变更比例股份</td><td>国资审批和最终受让方仍不确定，需与内控整改同步跟踪。</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">05</span>股东会、会议材料与固定披露清单</div>
+          <div class="body two-col">
+            <div>
+              <p class="subhead">A. 固定披露与治理事项</p>
+              <div class="fixed-list">
+                <div class="fixed-item"><b>瑞联新材</b>年度股东会通过利润分配、担保、授信、现金管理、蒲城项目和中期分红授权等议案。</div>
+                <div class="fixed-item"><b>中国西电</b>披露5月20日年度股东会会议资料，含利润分配及2026年中期分红规划、预算和投资计划。</div>
+                <div class="fixed-item"><b>西安银行</b>年度股东会会议材料包含2025年度利润分配、关联交易、可转债和金融债授权延期等议案。</div>
+                <div class="fixed-item"><b>ST炼石</b>同步发布市值管理、舆情管理、信息披露暂缓与豁免、董高离职等制度。</div>
+              </div>
+            </div>
+            <div>
+              <p class="subhead">B. 需延续跟踪的业务线索</p>
+              <div class="fixed-list">
+                <div class="fixed-item"><b>源杰科技</b>涉刑拘留高管持股308,625股，后续减持约束和客户沟通需关注。</div>
+                <div class="fixed-item"><b>ST标准</b>若下一年度内控仍被否定或无法表示意见，可能触发退市风险警示。</div>
+                <div class="fixed-item"><b>烽火电子</b>独立财务顾问确认标的交割和配套融资完成，下一步看业绩承诺。</div>
+                <div class="fixed-item"><b>国际医学</b>公司称控股股东质押不存在平仓风险，不会导致控制权变更。</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">06</span>今日重点跟踪公司</div>
+          <div class="body follow">
+            <div><b>源杰科技</b>公安机关进展、销售营销条线衔接和后续补充披露。</div>
+            <div><b>ST标准</b>控制权公开征集转让方案审批、内控整改和退市风险。</div>
+            <div><b>ST炼石</b>6月2日临时股东会补选董事及新任董事长选举。</div>
+            <div><b>易点天下</b>Bidease剩余9.9%股权6月15日前是否行权及尾款收取。</div>
+            <div><b>达刚控股</b>回购执行进度、西安大可利息和违约金支付。</div>
+            <div><b>烽火电子</b>长岭科技并表、募集资金使用和业绩承诺实现。</div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="note">
+      <span>资料来源：陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》、巨潮资讯公告原文。仅作公告信息整理，不构成投资建议。</span>
+      <span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://shaanxi-capital-market-daily.vercel.app/v1/</span>
+    </footer>
+  </main>
+</body>
+</html>
