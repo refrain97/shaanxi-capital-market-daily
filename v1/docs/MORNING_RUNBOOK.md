@@ -55,13 +55,13 @@ bash v1/scripts/publish_v1_to_vercel.sh
 - “最新日报”标题下不保留说明句。
 - 主日报图片以缩略预览为主，不做过长的大图展示。
 - 底部使用客户联系区：华泰证券西安锦业路证券营业部（西北分公司机构业务中心），联系人为机构业务中心，邮箱 `wangyue021243@htsc.com`。
-- 四个频道的发布 PNG 生成后都必须加来源标识：`华泰证券西安锦业路证券营业部（西北分公司机构业务中心）` 和网页地址 `https://shaanxi-capital-market-daily.vercel.app/v1/`。可直接运行 `python3 v1/scripts/brand_v1_png.py <PNG路径>`；`upload_daily_ima.sh` 在上传前也会自动补一次。
+- 四个频道的发布 PNG 生成后都必须加来源标识：`华泰证券西安锦业路证券营业部（西北分公司机构业务中心）` 和网页地址 `https://refrain97.github.io/shaanxi-capital-market-daily/v1/`。可直接运行 `python3 v1/scripts/brand_v1_png.py <PNG路径>`；`upload_daily_ima.sh` 在上传前也会自动补一次。
 
 6. 最终回复必须包含：
 
 - 四个频道的处理结果：已生成 / 沿用模板改日期 / 需要人工确认。
 - ima 上传结果：成功数量、跳过数量、缺失数量；正常日缺失应为 0。
-- 网页发布地址：`https://shaanxi-capital-market-daily.vercel.app`
+- 网页发布地址：`https://refrain97.github.io/shaanxi-capital-market-daily`
 - 本地新增或修改的关键文件。
 
 ## 一键收尾命令

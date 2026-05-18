@@ -80,6 +80,31 @@ def link_for(report: Report, preferred: tuple[str, ...]) -> str:
     return report.links[0][1] if report.links else "#archive"
 
 
+def listed_kpis(report: Report) -> tuple[tuple[str, str], ...]:
+    html_path = next((ROOT / url for label, url in report.links if label == "HTML"), None)
+    if not html_path or not html_path.exists():
+        return (
+            (f"{report.day:%m-%d}", "最新日期"),
+            (str(len(report.links)), "种可打开格式"),
+            ("V1", "已入库发布"),
+        )
+    content = html_path.read_text(encoding="utf-8")
+    kpis = re.findall(
+        r'<div class="kpi">\s*<div class="num">(.*?)</div>\s*<div class="label">(.*?)</div>\s*</div>',
+        content,
+        re.S,
+    )
+    cleaned = tuple(
+        (re.sub(r"<.*?>", "", num).strip(), re.sub(r"<.*?>", "", label).strip())
+        for num, label in kpis
+    )
+    return cleaned[:4] or (
+        (f"{report.day:%m-%d}", "最新日期"),
+        (str(len(report.links)), "种可打开格式"),
+        ("V1", "已入库发布"),
+    )
+
+
 def render_latest_card(report: Report, *, lead: bool = False) -> str:
     channel_names = {
         "listed": "陕西上市公司公告早报",
@@ -99,6 +124,18 @@ def render_latest_card(report: Report, *, lead: bool = False) -> str:
     title = channel_names[report.channel]
     summary = report.summary
     if lead:
+        if report.channel == "listed":
+            facts = listed_kpis(report)
+        else:
+            facts = (
+                (f"{report.day:%m-%d}", "最新日期"),
+                (str(len(report.links)), "种可打开格式"),
+                ("V1", "已入库发布"),
+            )
+        facts_html = "\n".join(
+            f'                <div class="fact"><b>{html.escape(num)}</b><span>{html.escape(label)}</span></div>'
+            for num, label in facts
+        )
         return f"""          <article class="lead-report">
             <div class="lead-content">
               <div class="tag-row">
@@ -108,9 +145,7 @@ def render_latest_card(report: Report, *, lead: bool = False) -> str:
               <h3 class="report-title">{html.escape(title)}</h3>
               <p class="report-summary">{html.escape(summary)}</p>
               <div class="fact-list">
-                <div class="fact"><b>{report.day:%m-%d}</b><span>最新日期</span></div>
-                <div class="fact"><b>{len(report.links)}</b><span>种可打开格式</span></div>
-                <div class="fact"><b>V1</b><span>已入库发布</span></div>
+{facts_html}
               </div>
               <a class="button" href="{html.escape(link)}">{action_text}</a>
             </div>

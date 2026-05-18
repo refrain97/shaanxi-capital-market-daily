@@ -205,7 +205,7 @@ V1 图片结构：
 - HTML：`v1/陕西省证券私募日报v1/outputs/security-private-fund-daily-YYYY-MM-DD-publish.html`
 - PNG：`v1/陕西省证券私募日报v1/outputs/YYYY年M月D日证券私募行业动态日报.png`
 
-HTML 页脚和最终 PNG 都必须包含来源标识：`华泰证券西安锦业路证券营业部（西北分公司机构业务中心）` 和 `https://shaanxi-capital-market-daily.vercel.app/v1/`。导出 PNG 后执行：
+HTML 页脚和最终 PNG 都必须包含来源标识：`华泰证券西安锦业路证券营业部（西北分公司机构业务中心）` 和 `https://refrain97.github.io/shaanxi-capital-market-daily/v1/`。导出 PNG 后执行：
 
 ```bash
 python3 v1/scripts/brand_v1_png.py "v1/陕西省证券私募日报v1/outputs/YYYY年M月D日证券私募行业动态日报.png"

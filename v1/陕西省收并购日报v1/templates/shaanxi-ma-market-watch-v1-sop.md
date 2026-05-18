@@ -226,7 +226,7 @@ sips -g pixelWidth -g pixelHeight v1/陕西省收并购日报v1/outputs/YYYY年M
 python3 v1/scripts/brand_v1_png.py "v1/陕西省收并购日报v1/outputs/YYYY年M月D日陕西辖区收并购事件详细案例看板.png"
 ```
 
-标识内容固定为：`华泰证券西安锦业路证券营业部（西北分公司机构业务中心）` 和 `https://shaanxi-capital-market-daily.vercel.app/v1/`。上传 ima 前，`v1/scripts/upload_daily_ima.sh` 也会自动补一次。
+标识内容固定为：`华泰证券西安锦业路证券营业部（西北分公司机构业务中心）` 和 `https://refrain97.github.io/shaanxi-capital-market-daily/v1/`。上传 ima 前，`v1/scripts/upload_daily_ima.sh` 也会自动补一次。
 
 ### 打开检查
 

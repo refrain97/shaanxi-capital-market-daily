@@ -260,6 +260,137 @@
     .note span:first-child { flex: 1.2; }
     .note span:last-child { flex: 1; text-align: right; }
     .strong { font-weight: 800; color: var(--ink); }
+    /* Responsive listed-company publish page */
+    .note {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 22px;
+      background: #fff;
+    }
+
+    @media (max-width: 720px) {
+      body { background: #fff; }
+
+      .page {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        margin: 0;
+        overflow: visible;
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        align-items: start;
+        padding: 24px 18px 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+        line-height: 1.12;
+      }
+
+      .subtitle {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      .source {
+        text-align: left;
+        font-size: 15px;
+      }
+
+      .source strong { font-size: 20px; }
+
+      .content { padding: 14px 14px 22px; }
+
+      .kpis,
+      .grid,
+      .chips,
+      .tiles,
+      .two-col,
+      .follow {
+        grid-template-columns: 1fr;
+      }
+
+      .section.wide { grid-column: auto; }
+
+      .kpi { min-height: 0; }
+      .kpi .num { font-size: 27px; }
+      .kpi .label {
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      .section-title {
+        align-items: flex-start;
+        padding: 10px 12px;
+        font-size: 18px;
+        line-height: 1.28;
+      }
+
+      .section-title .no {
+        min-width: 36px;
+        height: 26px;
+        font-size: 16px;
+      }
+
+      .body { padding: 10px; }
+
+      .chip,
+      .tile,
+      .follow div {
+        min-height: 0;
+      }
+
+      colgroup,
+      thead { display: none; }
+
+      table,
+      tbody,
+      tr,
+      td {
+        display: block;
+        width: 100%;
+      }
+
+      table { font-size: 14px; }
+
+      tr {
+        padding: 8px 0;
+        border-bottom: 1px solid #edf1f6;
+      }
+
+      tr:last-child { border-bottom: 0; }
+
+      td {
+        padding: 3px 0;
+        border-bottom: 0;
+      }
+
+      td:first-child {
+        color: var(--navy);
+        font-weight: 800;
+      }
+
+      .note {
+        position: static;
+        margin: 0 14px 22px;
+        padding-top: 12px;
+        display: grid;
+        gap: 8px;
+        font-size: 13px;
+        line-height: 1.45;
+      }
+
+      .note span:first-child,
+      .note span:last-child {
+        flex: auto;
+        text-align: left;
+      }
+    }
   </style>
 </head>
 <body>
@@ -379,7 +510,7 @@
 
     <footer class="note">
       <span>资料来源：陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》、巨潮资讯公告原文。仅作公告信息整理，不构成投资建议。</span>
-      <span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://shaanxi-capital-market-daily.vercel.app/v1/</span>
+      <span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://refrain97.github.io/shaanxi-capital-market-daily/v1/</span>
     </footer>
   </main>
 </body>
