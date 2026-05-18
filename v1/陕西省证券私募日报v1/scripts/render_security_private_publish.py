@@ -84,11 +84,12 @@ def render(report: dict[str, Any]) -> str:
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>证券私募行业动态日报｜{report_date}</title>
 <style>
 * {{ box-sizing: border-box; }}
 html, body {{ margin: 0; padding: 0; background: #f2f4f7; color: #172033; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", Arial, sans-serif; }}
-.sheet {{ width: 1242px; height: 1810px; margin: 0 auto; background: #f7f8fa; padding: 42px 54px 34px; overflow: hidden; }}
+.sheet {{ width: min(1242px, 100%); min-height: 1810px; margin: 0 auto; background: #f7f8fa; padding: 42px 54px 34px; overflow: visible; }}
 .header {{ border-bottom: 4px solid #1f3a5f; padding-bottom: 18px; display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end; }}
 .kicker {{ font-size: 23px; color: #667085; margin-bottom: 8px; }}
 h1 {{ margin: 0; font-size: 53px; line-height: 1.08; letter-spacing: 0; color: #111827; }}
@@ -126,6 +127,51 @@ td.name {{ font-weight: 700; color: #111827; }}
 .product-table th:nth-child(6), .product-table td:nth-child(6) {{ width: 10%; }}
 .footer {{ margin-top: 16px; color: #667085; font-size: 15px; line-height: 1.45; border-top: 1px solid #d8dde6; padding-top: 12px; }}
 .source {{ margin-top: 6px; font-size: 14px; color: #7b8494; }}
+@media (max-width: 760px) {{
+  html, body {{ background: #f7f8fa; }}
+  .sheet {{ min-height: 0; padding: 22px 16px 28px; }}
+  .sheet > * {{ max-width: 100%; }}
+  .header {{ display: block; padding-bottom: 14px; }}
+  .kicker {{ font-size: 15px; margin-bottom: 7px; }}
+  h1 {{ font-size: 32px; line-height: 1.15; }}
+  .datebox {{ text-align: left; margin-top: 12px; }}
+  .datebox .date {{ font-size: 22px; }}
+  .datebox .range {{ font-size: 13px; margin-top: 4px; }}
+  .kpis {{ grid-template-columns: 1fr; gap: 8px; margin: 16px 0 12px; }}
+  .kpi {{ min-height: 82px; padding: 12px; border-radius: 6px; }}
+  .kpi .label {{ font-size: 13px; }}
+  .kpi .value {{ font-size: 30px; }}
+  .kpi .value span {{ font-size: 15px; }}
+  .section {{ margin-top: 14px; padding-top: 13px; }}
+  .section-title {{ display: block; margin-bottom: 8px; }}
+  h2 {{ font-size: 20px; line-height: 1.25; }}
+  .meta {{ margin-top: 5px; font-size: 12px; }}
+  .summary-grid {{ grid-template-columns: 1fr; gap: 8px; }}
+  .note {{ min-height: 0; padding: 11px 12px; font-size: 14px; line-height: 1.55; border-radius: 6px; }}
+  .note, td, .kpi .label {{ overflow-wrap: anywhere; word-break: break-all; }}
+  table, thead, tbody, tr, th, td {{ display: block; width: 100% !important; }}
+  table {{ border: 0; background: transparent; }}
+  thead {{ position: absolute; width: 1px !important; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }}
+  tr {{ margin-bottom: 10px; background: #fff; border: 1px solid #d8dde6; border-radius: 6px; overflow: hidden; }}
+  td {{ display: grid; grid-template-columns: 94px 1fr; gap: 10px; min-height: 34px; padding: 9px 10px; font-size: 13px; line-height: 1.35; border-bottom: 1px solid #edf0f5; }}
+  td::before {{ color: #667085; font-weight: 700; }}
+  .cancel-table td:nth-child(1)::before {{ content: "管理人"; }}
+  .cancel-table td:nth-child(2)::before {{ content: "注销日期"; }}
+  .cancel-table td:nth-child(3)::before {{ content: "注销类型"; }}
+  .cancel-table td:nth-child(4)::before {{ content: "产品数量"; }}
+  .cancel-table td:nth-child(5)::before {{ content: "注册资本"; }}
+  .cancel-table td:nth-child(6)::before {{ content: "实缴资本"; }}
+  .product-table td:nth-child(1)::before {{ content: "产品名称"; }}
+  .product-table td:nth-child(2)::before {{ content: "管理人"; }}
+  .product-table td:nth-child(3)::before {{ content: "托管人"; }}
+  .product-table td:nth-child(4)::before {{ content: "备案日期"; }}
+  .product-table td:nth-child(5)::before {{ content: "成立日期"; }}
+  .product-table td:nth-child(6)::before {{ content: "基金编号"; }}
+  .empty {{ display: block; padding: 14px; text-align: left; }}
+  .empty::before {{ content: ""; display: none; }}
+  .footer {{ margin-top: 14px; font-size: 12px; line-height: 1.55; }}
+  .source {{ font-size: 11px; overflow-wrap: anywhere; }}
+}}
 </style>
 </head>
 <body>
