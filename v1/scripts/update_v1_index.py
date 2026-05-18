@@ -72,6 +72,12 @@ def preview_path(channel: str, day: date, ext: str) -> str:
     return f"assets/previews/{channel}-{day:%Y-%m-%d}.{ext}"
 
 
+def preview_srcset(channel: str, day: date, ext: str) -> str:
+    base = f"assets/previews/{channel}-{day:%Y-%m-%d}.{ext}"
+    retina = f"assets/previews/{channel}-{day:%Y-%m-%d}@2x.{ext}"
+    return f"{base} 1x, {retina} 2x"
+
+
 def link_for(report: Report, preferred: tuple[str, ...]) -> str:
     links = dict(report.links)
     for label in preferred:
@@ -151,16 +157,16 @@ def render_latest_card(report: Report, *, lead: bool = False) -> str:
             </div>
             <a class="lead-image" href="{html.escape(link)}" aria-label="打开{html.escape(title)}">
               <picture>
-                <source srcset="{preview_path(report.channel, report.day, 'webp')}" type="image/webp">
-                <img src="{preview_path(report.channel, report.day, 'jpg')}" alt="{html.escape(title)}预览" width="542" height="936" decoding="async" loading="eager" fetchpriority="high">
+                <source srcset="{preview_srcset(report.channel, report.day, 'webp')}" type="image/webp">
+                <img src="{preview_path(report.channel, report.day, 'jpg')}" srcset="{preview_srcset(report.channel, report.day, 'jpg')}" alt="{html.escape(title)}预览" width="620" height="1071" decoding="async" loading="eager" fetchpriority="high">
               </picture>
             </a>
           </article>"""
     return f"""            <article class="compact-report">
               <a class="compact-media" href="{html.escape(link)}" aria-label="打开{html.escape(title)}">
                 <picture>
-                  <source srcset="{preview_path(report.channel, report.day, 'webp')}" type="image/webp">
-                  <img src="{preview_path(report.channel, report.day, 'jpg')}" alt="{html.escape(title)}预览" width="357" height="520" loading="lazy" decoding="async">
+                  <source srcset="{preview_srcset(report.channel, report.day, 'webp')}" type="image/webp">
+                  <img src="{preview_path(report.channel, report.day, 'jpg')}" srcset="{preview_srcset(report.channel, report.day, 'jpg')}" alt="{html.escape(title)}预览" width="420" height="610" loading="lazy" decoding="async">
                 </picture>
               </a>
               <div class="compact-body">
@@ -424,8 +430,12 @@ def main() -> None:
     )
     if "listed" in latest:
         updated = re.sub(
-            r'(<link rel="preload" as="image" href=")assets/previews/listed-\d{4}-\d{2}-\d{2}\.webp(" type="image/webp" fetchpriority="high">)',
-            rf"\g<1>{preview_path('listed', latest['listed'].day, 'webp')}\2",
+            r'<link rel="preload" as="image" href="assets/previews/listed-\d{4}-\d{2}-\d{2}\.webp"(?: imagesrcset="[^"]+")? type="image/webp" fetchpriority="high">',
+            (
+                f'<link rel="preload" as="image" href="{preview_path("listed", latest["listed"].day, "webp")}" '
+                f'imagesrcset="{preview_srcset("listed", latest["listed"].day, "webp")}" '
+                'type="image/webp" fetchpriority="high">'
+            ),
             updated,
             count=1,
         )
