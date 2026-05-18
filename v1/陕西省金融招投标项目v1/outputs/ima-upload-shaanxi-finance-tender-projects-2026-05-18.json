@@ -3,23 +3,23 @@
   "knowledgeBaseName": "公告检索",
   "knowledgeBaseId": "WFRa_8s9eTeZR-uXPO4mm9EUAbWmE6RycX6fDtASJeA=",
   "recommendedFileName": "2026年5月18日陕西金融类招投标项目清单.png",
-  "uploadedFileName": "2026年5月18日陕西金融类招投标项目清单.png",
-  "mediaId": "img_2ba8b3a1c5db398497ee0bc27d25605c_2974c74c4ac98c1083b32077f8146abc7453274147926671",
+  "uploadedFileName": "2026年5月18日陕西金融类招投标项目清单_20260518095036.png",
+  "mediaId": "img_2ba8b3a1c5db398497ee0bc27d25605c_067f8eb70b6a1b36ed3bfe216e34e7927453274147926671",
   "localFile": "v1/陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-18.png",
   "imageFile": "v1/陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-2026-05-18.png",
   "addKnowledgeResponse": {
     "code": 0,
     "msg": "success",
     "data": {
-      "media_id": "img_2ba8b3a1c5db398497ee0bc27d25605c_2974c74c4ac98c1083b32077f8146abc7453274147926671"
+      "media_id": "img_2ba8b3a1c5db398497ee0bc27d25605c_067f8eb70b6a1b36ed3bfe216e34e7927453274147926671"
     },
-    "request_id": "aed3fb17781045daa0349d19b0eb3f7f"
+    "request_id": "f572ddcd6c4355ec7b6bb4d96f76a6b9"
   },
   "searchVerified": {
     "exactFileName": false,
     "dateKeyword": true
   },
-  "usedDuplicateSuffix": false,
-  "verificationQuery": "2026年5月18日陕西金融类招投标项目清单.png",
-  "uploadedAt": "2026-05-18T00:41:41.411Z"
+  "usedDuplicateSuffix": true,
+  "verificationQuery": "2026年5月18日陕西金融类招投标项目清单_20260518095036.png",
+  "uploadedAt": "2026-05-18T01:50:40.786Z"
 }
