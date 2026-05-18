@@ -255,6 +255,7 @@ def render_html(day: date, items: list[dict[str, object]], universe_count: int) 
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>陕西上市公司公告早报｜{zh_day(day)}</title>
 <style>{style}</style>
 </head>
@@ -272,7 +273,7 @@ def render_html(day: date, items: list[dict[str, object]], universe_count: int) 
 <section class="section wide"><div class="section-title"><span class="no">06</span>今日重点跟踪公司</div><div class="body follow">{follow_rows}</div></section>
 </div>
 </section>
-<footer class="note"><span>资料来源：陕西证监局辖区上市公司基本情况表、巨潮资讯公告原文。</span><span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://shaanxi-capital-market-daily.vercel.app/v1/</span></footer>
+<footer class="note"><span>资料来源：陕西证监局辖区上市公司基本情况表、巨潮资讯公告原文。</span><span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://refrain97.github.io/shaanxi-capital-market-daily/v1/</span></footer>
 </main>
 </body>
 </html>"""

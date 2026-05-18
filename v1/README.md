@@ -107,7 +107,7 @@ Codex 执行清单：`v1/docs/MORNING_RUNBOOK.md`。
 - 首屏徽标只保留 `YYYY-MM-DD 更新`，不要恢复 `V1 archive` 或流程说明字样。
 - 最新日报标题下不放说明句；主日报预览图保持缩略展示，避免在网页端和手机端过长。
 - 页面底部保留客户联系信息：华泰证券西安锦业路证券营业部（西北分公司机构业务中心），联系人为机构业务中心，邮箱 `wangyue021243@htsc.com`。
-- 所有 V1 发布 PNG 生成后必须加来源标识：`华泰证券西安锦业路证券营业部（西北分公司机构业务中心）` 和网页地址 `https://shaanxi-capital-market-daily.vercel.app/v1/`。统一执行脚本为 `python3 v1/scripts/brand_v1_png.py <PNG路径>`；`upload_daily_ima.sh` 上传前会自动执行一次。
+- 所有 V1 发布 PNG 生成后必须加来源标识：`华泰证券西安锦业路证券营业部（西北分公司机构业务中心）` 和网页地址 `https://refrain97.github.io/shaanxi-capital-market-daily/v1/`。统一执行脚本为 `python3 v1/scripts/brand_v1_png.py <PNG路径>`；`upload_daily_ima.sh` 上传前会自动执行一次。
 
 确认当天最新日报区已更新后，从仓库根目录执行：
 
@@ -132,5 +132,5 @@ bash v1/scripts/run_morning_v1.sh --date YYYY-MM-DD --finalize
 发布地址固定为：
 
 ```text
-https://shaanxi-capital-market-daily.vercel.app
+https://refrain97.github.io/shaanxi-capital-market-daily
 ```

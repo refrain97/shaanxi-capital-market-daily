@@ -28,7 +28,7 @@ bash v1/scripts/publish_v1_to_vercel.sh
 部署完成后访问根域名，会自动进入 `/v1/`：
 
 ```text
-https://shaanxi-capital-market-daily.vercel.app
+https://refrain97.github.io/shaanxi-capital-market-daily
 ```
 
 ## 整包迁移

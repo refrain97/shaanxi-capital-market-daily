@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 ORG_TEXT = "华泰证券西安锦业路证券营业部（西北分公司机构业务中心）"
-SITE_TEXT = "https://shaanxi-capital-market-daily.vercel.app/v1/"
+SITE_TEXT = "https://refrain97.github.io/shaanxi-capital-market-daily/v1/"
 FONT_PATH = "/System/Library/Fonts/PingFang.ttc"
 
 

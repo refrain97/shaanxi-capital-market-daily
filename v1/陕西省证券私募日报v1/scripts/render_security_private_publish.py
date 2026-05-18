@@ -176,7 +176,7 @@ td.name {{ font-weight: 700; color: #111827; }}
 
   <footer class="footer">
     资料来源：中国证券投资基金业协会私募基金管理人分类查询公示、已注销私募基金管理人公示、私募基金公示。仅作公开信息整理，不构成投资建议。
-    <div class="source">华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://shaanxi-capital-market-daily.vercel.app/v1/</div>
+    <div class="source">华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://refrain97.github.io/shaanxi-capital-market-daily/v1/</div>
     <div class="source">数据文件：v1/陕西省证券私募日报v1/data/security-private-fund-daily-{report_date}.json</div>
   </footer>
 </main>

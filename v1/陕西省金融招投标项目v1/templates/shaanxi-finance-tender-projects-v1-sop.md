@@ -233,7 +233,7 @@
 - 页面优先竖版长图，保证表格字段可读；若项目较多，可拆为主图和明细图。
 - 图中不得放未经核验的推断中标单位；未知字段写“未披露”或“待回源核验”。
 - 色彩和版式以清晰、稳重为主，避免营销化表达；重点突出“可投机会、主体、阶段、结果”。
-- 图片底部必须加入来源标识：`华泰证券西安锦业路证券营业部（西北分公司机构业务中心）` 和 `https://shaanxi-capital-market-daily.vercel.app/v1/`。生成 PNG 后执行：
+- 图片底部必须加入来源标识：`华泰证券西安锦业路证券营业部（西北分公司机构业务中心）` 和 `https://refrain97.github.io/shaanxi-capital-market-daily/v1/`。生成 PNG 后执行：
 
 ```bash
 python3 v1/scripts/brand_v1_png.py "v1/陕西省金融招投标项目v1/outputs/shaanxi-finance-tender-projects-YYYY-MM-DD.png"

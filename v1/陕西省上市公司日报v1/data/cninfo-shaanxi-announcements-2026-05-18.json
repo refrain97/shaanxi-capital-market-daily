@@ -1,0 +1,15 @@
+{
+  "2026-05-18~2026-05-18": [],
+  "_summary": {
+    "startDate": "2026-05-18",
+    "endDate": "2026-05-18",
+    "companyUniverseCount": 85,
+    "announcementCount": 0,
+    "coveredCompanyCount": 0,
+    "dateDistribution": {},
+    "errorCount": 0,
+    "errors": [],
+    "queryMethod": "company_by_company_cninfo_stock_code_orgId",
+    "warning": "If announcementCount is 0, do not publish a no-announcement report until the SOP second-pass verification is complete."
+  }
+}

@@ -21,4 +21,4 @@ npm_config_cache="$repo_root/.npm-cache" npx vercel --prod
 
 echo
 echo "Published:"
-echo "https://shaanxi-capital-market-daily.vercel.app"
+echo "https://refrain97.github.io/shaanxi-capital-market-daily"
