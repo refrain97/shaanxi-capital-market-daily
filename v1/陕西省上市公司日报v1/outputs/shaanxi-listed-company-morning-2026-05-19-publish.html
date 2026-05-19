@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西上市公司公告早报｜2026年5月19日</title>
+  <style>
+    :root {
+      --navy: #10243d;
+      --ink: #1d2733;
+      --muted: #667085;
+      --line: #d8dee8;
+      --soft: #f4f7fb;
+      --risk: #c2412f;
+      --risk-bg: #fff0ec;
+      --good: #16835a;
+      --good-bg: #eaf7f0;
+      --watch: #a16207;
+      --watch-bg: #fff7df;
+      --blue-bg: #eaf1fb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #e9eef5;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      color: var(--ink);
+    }
+    .page {
+      width: 1242px;
+      height: 2060px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: hidden;
+      position: relative;
+    }
+    .topbar {
+      background: var(--navy);
+      color: #fff;
+      padding: 36px 54px 26px;
+      display: grid;
+      grid-template-columns: 1.42fr 1fr;
+      gap: 28px;
+      align-items: end;
+    }
+    h1 {
+      margin: 0;
+      font-size: 54px;
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      margin-top: 14px;
+      font-size: 22px;
+      color: #d8e3f3;
+      line-height: 1.45;
+    }
+    .source {
+      text-align: right;
+      font-size: 20px;
+      line-height: 1.5;
+      color: #c8d5e6;
+    }
+    .source strong {
+      color: #fff;
+      font-size: 28px;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .content { padding: 16px 42px 12px; }
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+    .kpi {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 16px;
+      min-height: 70px;
+    }
+    .kpi .num {
+      font-size: 31px;
+      line-height: 1;
+      font-weight: 800;
+      color: var(--navy);
+    }
+    .kpi .label {
+      margin-top: 8px;
+      font-size: 16.2px;
+      line-height: 1.25;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .section {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+    }
+    .section.wide { grid-column: 1 / -1; }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background: #f7f9fc;
+      border-bottom: 1px solid var(--line);
+      font-weight: 800;
+      font-size: 21px;
+      color: var(--navy);
+    }
+    .section-title .no {
+      display: inline-grid;
+      place-items: center;
+      min-width: 42px;
+      height: 28px;
+      border-radius: 5px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 18px;
+    }
+    .body { padding: 9px 14px 10px; }
+    .chips {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 15.6px;
+      line-height: 1.35;
+      background: #fff;
+      min-height: 88px;
+    }
+    .chip b {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 3px;
+      color: var(--navy);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 15.3px;
+      line-height: 1.28;
+    }
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 700;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+    td {
+      padding: 5px 8px;
+      border-bottom: 1px solid #edf1f6;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: 0; }
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .tag.risk { background: var(--risk-bg); color: var(--risk); }
+    .tag.good { background: var(--good-bg); color: var(--good); }
+    .tag.watch { background: var(--watch-bg); color: var(--watch); }
+    .tag.info { background: var(--blue-bg); color: var(--navy); }
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+    .tile {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 94px;
+      background: #fff;
+    }
+    .tile b {
+      display: block;
+      font-size: 17px;
+      color: var(--navy);
+      margin-bottom: 5px;
+    }
+    .tile span {
+      font-size: 14.2px;
+      line-height: 1.3;
+      color: #344054;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .subhead {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--navy);
+      margin: 0 0 7px;
+    }
+    .fixed-list { display: grid; gap: 6px; }
+    .fixed-item {
+      border: 1px solid #e5ebf3;
+      border-radius: 6px;
+      padding: 6px 9px;
+      font-size: 14.5px;
+      line-height: 1.27;
+      background: #fff;
+    }
+    .fixed-item b { color: var(--navy); margin-right: 5px; }
+    .follow {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 8px;
+    }
+    .follow div {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 78px;
+      background: #fcfdff;
+      font-size: 13.8px;
+      line-height: 1.27;
+    }
+    .follow b {
+      display: block;
+      font-size: 16px;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+    .note {
+      margin: 0 42px;
+      border-top: 1px solid var(--line);
+      padding-top: 9px;
+      color: var(--muted);
+      font-size: 14.8px;
+      line-height: 1.35;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .note span:first-child { flex: 1.2; }
+    .note span:last-child { flex: 1; text-align: right; }
+    .strong { font-weight: 800; color: var(--ink); }
+    /* Responsive listed-company publish page */
+    .note {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 22px;
+      background: #fff;
+    }
+
+    @media (max-width: 720px) {
+      body { background: #fff; }
+
+      .page {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        margin: 0;
+        overflow: visible;
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        align-items: start;
+        padding: 24px 18px 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+        line-height: 1.12;
+      }
+
+      .subtitle {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      .source {
+        text-align: left;
+        font-size: 15px;
+      }
+
+      .source strong { font-size: 20px; }
+
+      .content { padding: 14px 14px 22px; }
+
+      .kpis,
+      .grid,
+      .chips,
+      .tiles,
+      .two-col,
+      .follow {
+        grid-template-columns: 1fr;
+      }
+
+      .section.wide { grid-column: auto; }
+
+      .kpi { min-height: 0; }
+      .kpi .num { font-size: 27px; }
+      .kpi .label {
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      .section-title {
+        align-items: flex-start;
+        padding: 10px 12px;
+        font-size: 18px;
+        line-height: 1.28;
+      }
+
+      .section-title .no {
+        min-width: 36px;
+        height: 26px;
+        font-size: 16px;
+      }
+
+      .body { padding: 10px; }
+
+      .chip,
+      .tile,
+      .follow div {
+        min-height: 0;
+      }
+
+      colgroup,
+      thead { display: none; }
+
+      table,
+      tbody,
+      tr,
+      td {
+        display: block;
+        width: 100%;
+      }
+
+      table { font-size: 14px; }
+
+      tr {
+        padding: 8px 0;
+        border-bottom: 1px solid #edf1f6;
+      }
+
+      tr:last-child { border-bottom: 0; }
+
+      td {
+        padding: 3px 0;
+        border-bottom: 0;
+      }
+
+      td:first-child {
+        color: var(--navy);
+        font-weight: 800;
+      }
+
+      .note {
+        position: static;
+        margin: 0 14px 22px;
+        padding-top: 12px;
+        display: grid;
+        gap: 8px;
+        font-size: 13px;
+        line-height: 1.45;
+      }
+
+      .note span:first-child,
+      .note span:last-child {
+        flex: auto;
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div>
+        <h1>陕西上市公司公告早报</h1>
+        <div class="subtitle">2026年5月19日｜激励授予、减持归属、司法拍卖过户与担保质押</div>
+      </div>
+      <div class="source">
+        <strong>覆盖 85 家上市公司</strong>
+        沪市42家｜深市37家｜北交所6家<br>
+        名单来源：陕西证监局｜公告源：巨潮资讯 CNINFO
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="kpis">
+        <div class="kpi"><div class="num">33条</div><div class="label">5月19日逐公司检索公告，接口错误0条</div></div>
+        <div class="kpi"><div class="num">16家</div><div class="label">公告覆盖公司，PDF原文均已下载抽取</div></div>
+        <div class="kpi"><div class="num">339.83万股</div><div class="label">华秦科技限制性股票首次授予</div></div>
+        <div class="kpi"><div class="num">17,585,141股</div><div class="label">曲江文旅控股股东拍卖股份完成过户</div></div>
+      </div>
+
+      <div class="grid">
+        <section class="section">
+          <div class="section-title"><span class="no">01</span>今日业务机会</div>
+          <div class="body chips">
+            <div class="chip"><b>股权激励 / 人才稳定</b>华秦科技向98名对象授予3,398,250股，授予价42.52元/股；炬光科技39人完成555,074股归属。</div>
+            <div class="chip"><b>股东减持 / 股份处置</b>炬光科技4名股东、董高拟减持不超过32,429股；曲江文旅控股股东司法拍卖17,585,141股已过户。</div>
+            <div class="chip"><b>融资担保 / 抵押授信</b>陕西金叶3,000万元短贷由房产抵押及子公司保证，实际担保余额18.93亿元、占净资产121.97%。</div>
+            <div class="chip"><b>质押风险 / 股东融资</b>供销大集湖南新合作新增质押44,135,548股，累计质押占其持股100.00%。</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><span class="no">02</span>重大事项与风险公告</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:20%"><col style="width:57%"><col style="width:23%"></colgroup>
+              <thead><tr><th>公司</th><th>事项</th><th>业务判断</th></tr></thead>
+              <tbody>
+                <tr><td>曲江文旅</td><td>控股股东17,585,141股司法拍卖股份已过户，持股比例由32.91%降至26.02%</td><td><span class="tag risk">股东处置</span></td></tr>
+                <tr><td>陕西金叶</td><td>实际担保余额189,296.60万元，占最近一期经审计归母净资产121.97%</td><td><span class="tag risk">高担保余额</span></td></tr>
+                <tr><td>供销大集</td><td>湖南新合作解除质押1,407.83万股、新增质押4,413.55万股，累计质押100%</td><td><span class="tag watch">质押融资</span></td></tr>
+                <tr><td>炬光科技</td><td>4名股东、董事或高管拟集中竞价减持不超过32,429股，占总股本约0.0361%</td><td><span class="tag info">小额减持</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">03</span>上市公司动态</div>
+          <div class="body tiles">
+            <div class="tile"><b>华秦科技</b><span>首次授予98人、3,398,250股第二类限制性股票，授予价格42.52元/股。</span></div>
+            <div class="tile"><b>炬光科技</b><span>资产收购相关激励完成555,074股归属，股票来源为二级市场回购股份。</span></div>
+            <div class="tile"><b>西高院</b><span>每股派0.205元，合计派发现金红利64,898,790.53元。</span></div>
+            <div class="tile"><b>三角防务</b><span>三角转债第五年付息，每10张派25元，登记日5月22日、付息日5月25日。</span></div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">04</span>股东变动与资本运作</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:16%"><col style="width:44%"><col style="width:40%"></colgroup>
+              <thead><tr><th>公司</th><th>关键数字</th><th>业务关注</th></tr></thead>
+              <tbody>
+                <tr><td>华秦科技</td><td>授予<b>3,398,250股</b>、<b>98人</b>、<b>42.52元/股</b>；总量<b>3,780,000股</b>不变，预留调至<b>381,750股</b></td><td>关注归属考核、费用摊销和核心人员覆盖。</td></tr>
+                <tr><td>炬光科技</td><td>拟减持合计不超过<b>32,429股</b>；另完成激励归属<b>555,074股</b>，实际归属<b>39人</b></td><td>小额减持与激励兑现并行，关注6月10日后执行情况。</td></tr>
+                <tr><td>曲江文旅</td><td>拍卖过户<b>17,585,141股</b>，占总股本<b>6.89%</b>；控股股东持股降至<b>66,357,732股</b></td><td>控制权未变，关注成交确认书、受让方锁定和剩余股份状态。</td></tr>
+                <tr><td>陕西金叶</td><td><b>3,000万元</b>一年期短贷；实际担保余额<b>189,296.60万元</b>，占净资产<b>121.97%</b></td><td>关注授信使用、抵押资产覆盖和担保额度消耗。</td></tr>
+                <tr><td>供销大集</td><td>湖南新合作新增质押<b>44,135,548股</b>；控股股东及一致行动人累计质押<b>1,411,038,284股</b></td><td>湖南新合作100%质押，需跟踪债务清偿和补充质押风险。</td></tr>
+                <tr><td>斯瑞新材</td><td>首次授予第二个行权期可行权<b>7,040,800份</b>，行权价格<b>9.66元/股</b></td><td>行权期2026-05-22至2028-04-21，关注摊薄与员工持股变化。</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">05</span>股东会、会议材料与固定披露清单</div>
+          <div class="body two-col">
+            <div>
+              <p class="subhead">A. 定期分红、付息与会议材料</p>
+              <div class="fixed-list">
+                <div class="fixed-item"><b>西高院</b>以316,579,466股为基数，每股派0.205元，现金红利总额6,489.88万元。</div>
+                <div class="fixed-item"><b>三角防务</b>三角转债第五年利率2.50%，每10张派25元，下一付息期利率3.00%。</div>
+                <div class="fixed-item"><b>铂力特 / 天地源</b>披露2025年年度股东会会议资料，属固定会议文件。</div>
+                <div class="fixed-item"><b>宝钛股份 / 中熔电气</b>披露年度股东会决议及法律意见书，治理事项落地。</div>
+              </div>
+            </div>
+            <div>
+              <p class="subhead">B. 需延续跟踪的业务线索</p>
+              <div class="fixed-list">
+                <div class="fixed-item"><b>华秦科技</b>激励计划由授予进入执行期，后续看归属条件和股份支付费用。</div>
+                <div class="fixed-item"><b>炬光科技</b>资产收购相关激励归属与小额减持同步出现，观察核心人员稳定。</div>
+                <div class="fixed-item"><b>陕西金叶</b>累计担保余额已超过净资产，关注2025年度股东会前额度使用。</div>
+                <div class="fixed-item"><b>供销大集</b>一致行动人质押比例高，跟踪质权人、用途和质押到期安排。</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">06</span>今日重点跟踪公司</div>
+          <div class="body follow">
+            <div><b>华秦科技</b>339.825万股首次授予后的归属考核、费用和核心技术人员覆盖。</div>
+            <div><b>炬光科技</b>6月10日后32,429股减持计划执行和555,074股归属后流通安排。</div>
+            <div><b>曲江文旅</b>司法拍卖成交确认书、受让方锁定期及控股股东剩余股份状态。</div>
+            <div><b>陕西金叶</b>3,000万元短贷、40亿元额度使用和18.93亿元担保余额变化。</div>
+            <div><b>供销大集</b>湖南新合作100%质押及一致行动人整体质押比例。</div>
+            <div><b>西高院/斯瑞/三角</b>分红到账、期权行权和可转债付息三个固定节点。</div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="note">
+      <span>资料来源：陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》、巨潮资讯公告原文。仅作公告信息整理，不构成投资建议。</span>
+      <span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://refrain97.github.io/shaanxi-capital-market-daily/v1/</span>
+    </footer>
+  </main>
+</body>
+</html>
