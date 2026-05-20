@@ -696,32 +696,6 @@
       line-height: 1.55;
     }
 
-    .analytics-demo {
-      padding: 14px 0 22px;
-      background: #fff;
-      border-top: 1px solid var(--line-soft);
-      color: #475467;
-      font-size: 13px;
-      line-height: 1.55;
-    }
-
-    .analytics-demo .wrap {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-
-    .analytics-demo strong {
-      color: var(--ink);
-      font-size: 14px;
-    }
-
-    .analytics-demo span {
-      color: var(--muted);
-    }
-
     @media (max-width: 980px) {
       .hero-inner,
       .featured-grid,
@@ -852,10 +826,6 @@
         padding: 34px 0;
       }
 
-      .analytics-demo .wrap {
-        display: grid;
-        gap: 6px;
-      }
     }
 
     @media (max-width: 420px) {
@@ -873,6 +843,9 @@
       }
     }
   </style>
+<!-- V1_ANALYTICS_HEAD_START -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="ff2a4678-af6a-4b80-a4ff-15d3a9a62ebd" data-domains="refrain97.github.io,shaanxi-capital-market-daily.vercel.app"></script>
+  <!-- V1_ANALYTICS_HEAD_END -->
 </head>
 <body>
   <div class="top-strip">
@@ -949,7 +922,10 @@
                 <div class="fact"><b>30.07亿元</b><span>铂力特2022定增实际募集资金净额</span></div>
                 <div class="fact"><b>1.52亿元</b><span>三人行年度现金分红总额</span></div>
               </div>
-              <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-20-publish.html">打开日报</a>
+              <div class="hero-actions">
+                <a class="button" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-20-publish.html">打开日报</a>
+                <button class="button" type="button" data-share-url="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-20-publish.html?from=share-copy&amp;report=listed-2026-05-20" data-share-report="listed-2026-05-20">复制分享链接</button>
+              </div>
             </div>
             <a class="lead-image" href="陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-2026-05-20-publish.html" aria-label="打开陕西上市公司公告早报">
               <picture>
@@ -1879,14 +1855,6 @@
     </div>
   </footer>
 
-  <aside class="analytics-demo" aria-label="访问统计样本">
-    <div class="wrap">
-      <strong>访问统计样本</strong>
-      <span>本页面本机打开次数：<b id="sampleViewCount">-</b></span>
-      <span>本次访问时间：<b id="sampleViewTime">-</b></span>
-    </div>
-  </aside>
-
   <script>
     const filterButtons = Array.from(document.querySelectorAll("[data-filter]"));
     const searchInput = document.querySelector("#searchInput");
@@ -1918,24 +1886,94 @@
     });
 
     searchInput.addEventListener("input", updateArchive);
-
-    const sampleViewCount = document.querySelector("#sampleViewCount");
-    const sampleViewTime = document.querySelector("#sampleViewTime");
-    const analyticsSampleKey = "shaanxiDailyAnalyticsSampleViews";
-    try {
-      const sampleViews = Number(localStorage.getItem(analyticsSampleKey) || "0") + 1;
-      localStorage.setItem(analyticsSampleKey, String(sampleViews));
-      sampleViewCount.textContent = String(sampleViews);
-    } catch {
-      sampleViewCount.textContent = "本地不可用";
-    }
-    sampleViewTime.textContent = new Intl.DateTimeFormat("zh-CN", {
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-      hour: "2-digit",
-      minute: "2-digit"
-    }).format(new Date());
   </script>
+<!-- V1_ANALYTICS_BODY_START -->
+  <script>
+    (() => {
+      const analytics = {
+        track(eventName, properties = {}) {
+          if (!window.umami || typeof window.umami.track !== "function") return;
+          window.umami.track(eventName, {
+            path: window.location.pathname,
+            title: document.title,
+            ...properties
+          });
+        }
+      };
+
+      function cleanUrl(value) {
+        return String(value || "").split("?")[0].toLowerCase();
+      }
+
+      function assetType(url) {
+        const clean = cleanUrl(url);
+        if (clean.endsWith(".html")) return "html";
+        if (clean.endsWith(".md")) return "markdown";
+        if (clean.endsWith(".png")) return "png";
+        if (clean.endsWith(".jpg") || clean.endsWith(".jpeg") || clean.endsWith(".webp")) return "image";
+        if (clean.startsWith("#")) return "anchor";
+        return "link";
+      }
+
+      function channel(url) {
+        if (url.includes("上市公司")) return "listed";
+        if (url.includes("证券私募")) return "private";
+        if (url.includes("收并购")) return "ma";
+        if (url.includes("金融招投标")) return "tender";
+        return "site";
+      }
+
+      document.addEventListener("click", (event) => {
+        const shareButton = event.target.closest("[data-share-url]");
+        if (shareButton) {
+          const shareUrl = new URL(shareButton.dataset.shareUrl, window.location.href).toString();
+          navigator.clipboard?.writeText(shareUrl);
+          analytics.track("share_copy", {
+            report: shareButton.dataset.shareReport || "",
+            target_url: shareUrl
+          });
+          return;
+        }
+
+        const filterButton = event.target.closest("[data-filter]");
+        if (filterButton) {
+          analytics.track("filter_archive", {
+            filter: filterButton.dataset.filter || ""
+          });
+          return;
+        }
+
+        const link = event.target.closest("a[href]");
+        if (!link) return;
+
+        const href = link.getAttribute("href") || "";
+        const type = assetType(href);
+        if (type === "anchor") {
+          analytics.track("nav_click", {
+            label: link.textContent.trim() || link.getAttribute("aria-label") || "",
+            target_url: href
+          });
+          return;
+        }
+
+        analytics.track(type === "html" ? "open_report" : "download_asset", {
+          channel: channel(href),
+          asset_type: type,
+          label: link.textContent.trim() || link.getAttribute("aria-label") || "",
+          target_url: new URL(href, window.location.href).toString()
+        });
+      });
+
+      const searchInput = document.querySelector("#searchInput");
+      if (searchInput) {
+        searchInput.addEventListener("change", () => {
+          analytics.track("search_archive", {
+            keyword: searchInput.value.trim()
+          });
+        });
+      }
+    })();
+  </script>
+  <!-- V1_ANALYTICS_BODY_END -->
 </body>
 </html>

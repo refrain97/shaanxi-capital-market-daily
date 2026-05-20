@@ -23,6 +23,7 @@ cd "$repo_root"
 echo "==> Refreshing V1 archive index"
 python3 v1/scripts/generate_v1_previews.py
 python3 v1/scripts/update_v1_index.py
+python3 v1/scripts/inject_analytics.py
 
 echo "==> Validating Vercel config"
 python3 -m json.tool vercel.json >/dev/null

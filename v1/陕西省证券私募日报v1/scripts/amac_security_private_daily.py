@@ -54,7 +54,7 @@ def parse_args() -> argparse.Namespace:
     today = dt.date.today().isoformat()
     parser = argparse.ArgumentParser(description="Generate AMAC securities private fund daily report.")
     parser.add_argument("--date", default=today, help="Report date, YYYY-MM-DD. Default: today.")
-    parser.add_argument("--since", help="Start date, YYYY-MM-DD. Default: same as --date.")
+    parser.add_argument("--since", help="Legacy option, kept for compatibility. National daily metrics use --date; year-to-date metrics start from Jan 1.")
     parser.add_argument("--shaanxi-since", help="Shaanxi section start date. Default: Jan 1 of report year.")
     parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR), help="Directory for markdown report.")
     parser.add_argument("--data-dir", default=str(DEFAULT_DATA_DIR), help="Directory for raw JSON.")
@@ -563,17 +563,48 @@ def product_rows(rows: list[dict[str, Any]]) -> list[list[str]]:
     return result
 
 
+def top_locations(rows: list[dict[str, Any]], limit: int = 3) -> str:
+    counts: dict[str, int] = {}
+    for row in rows:
+        location = row.get("regAdrAgg") or row.get("registerProvince") or row.get("officeAdrAgg") or row.get("officeProvince")
+        if not location:
+            continue
+        province = str(location).split()[0].split("省")[0]
+        if province and not province.endswith(("市", "区")) and "省" in str(location):
+            province = f"{province}省"
+        counts[province or str(location)] = counts.get(province or str(location), 0) + 1
+    top = sorted(counts.items(), key=lambda item: (-item[1], item[0]))[:limit]
+    return "、".join(f"{name}{count}家" for name, count in top)
+
+
+def notable_exit_summary(rows: list[dict[str, Any]], limit: int = 3) -> str:
+    if not rows:
+        return "暂无达到重点阈值的退出样本"
+    parts = []
+    for row in rows[:limit]:
+        detail = row.get("detail", {})
+        parts.append(f"{strip_markup(row.get('orgName', ''))}产品{detail.get('productCount', 0)}只")
+    return "、".join(parts)
+
+
 def generate_report(report: dict[str, Any]) -> str:
     report_date = report["reportDate"]
     start = report["startDate"]
     end = report["endDate"]
+    year_start = report.get("yearStartDate", f"{report_date[:4]}-01-01")
     national_add = report["nationalAdditions"]
     national_highlight_add = report["nationalHighlightAdditions"]
     national_notable_cancel = report["nationalNotableCancellations"]
     national_cancel_total = report["nationalCancellationTotal"]
+    national_year_add = report.get("nationalYearAdditions", national_add)
+    national_year_highlight_add = report.get("nationalYearHighlightAdditions", national_highlight_add)
+    national_year_notable_cancel = report.get("nationalYearNotableCancellations", national_notable_cancel)
+    national_year_cancel_total = report.get("nationalYearCancellationTotal", national_cancel_total)
     shaanxi_add = report["shaanxiAdditions"]
     shaanxi_cancel = report["shaanxiCancellations"]
     products = report["shaanxiOfficeProducts"]
+    year_location_text = top_locations(national_year_add) or "新增机构地域分布较为分散"
+    year_exit_text = notable_exit_summary(national_year_notable_cancel)
 
     lines = [
         f"# 证券私募行业动态日报（{report_date}）",
@@ -584,14 +615,16 @@ def generate_report(report: dict[str, Any]) -> str:
         "",
         "## 一、全国证券私募管理人新增及退出",
         "",
-        f"- 新增证券私募管理人：{len(national_add)} 家；其中识别出重点团队/规模线索：{len(national_highlight_add)} 家",
-        f"- 退出/注销证券私募管理人：{national_cancel_total} 家；其中按产品数量/资本代理指标列为重点：{len(national_notable_cancel)} 家",
+        f"- 今日新增证券私募管理人：{len(national_add)} 家；其中识别出重点团队/规模线索：{len(national_highlight_add)} 家",
+        f"- 今日退出/注销证券私募管理人：{national_cancel_total} 家；其中按产品数量/资本代理指标列为重点：{len(national_notable_cancel)} 家",
+        f"- 今年以来（{year_start} 至 {end}）：累计新增证券私募管理人 {len(national_year_add)} 家，其中重点团队/规模线索 {len(national_year_highlight_add)} 家；已确认退出/注销 {national_year_cancel_total} 家，其中重点退出/注销 {len(national_year_notable_cancel)} 家。",
+        f"- 情况说明：今年新增机构主要分布为 {year_location_text}；重点退出/注销样本包括 {year_exit_text}。",
         "",
-        "### 重点新增管理人",
+        "### 今日重点新增管理人",
         "",
         md_table(["管理人", "登记日期", "登记编号", "注册地", "办公地", "团队背景"], manager_rows(national_highlight_add)),
         "",
-        "### 重点退出/注销管理人",
+        "### 今日重点退出/注销管理人",
         "",
         md_table(["管理人", "注销日期", "注销类型", "产品数量", "注册资本(万元)", "实缴资本(万元)", "注销原因"], cancelled_rows(national_notable_cancel)),
         "",
@@ -630,21 +663,28 @@ def generate_report(report: dict[str, Any]) -> str:
             9,
             f"- 提示：本次注销详情确认达到上限，已确认前 {report['cancelDetailChecked']} 条注销记录；如需完整长窗口结果，请提高 `--max-cancel-details` 后重跑。",
         )
+    if report.get("yearCancelDetailLimitHit"):
+        lines.insert(
+            10,
+            f"- 提示：今年以来注销详情确认达到上限，已确认前 {report['yearCancelDetailChecked']} 条注销记录中的证券私募样本；如需完整累计退出数，请提高 `--max-cancel-details` 后重跑。",
+        )
     return "\n".join(lines)
 
 
 def main() -> int:
     args = parse_args()
     end_date = to_date(args.date)
-    start_date = to_date(args.since or args.date)
+    start_date = end_date
+    year_start_date = dt.date(end_date.year, 1, 1)
     shaanxi_start_date = to_date(args.shaanxi_since or f"{end_date.year}-01-01")
-    if start_date > end_date:
+    if args.since and to_date(args.since) > end_date:
         raise SystemExit("--since cannot be later than --date")
     if shaanxi_start_date > end_date:
         raise SystemExit("--shaanxi-since cannot be later than --date")
 
     start = start_date.isoformat()
     end = end_date.isoformat()
+    year_start = year_start_date.isoformat()
     shaanxi_start = shaanxi_start_date.isoformat()
 
     additions = fetch_manager_additions(start, end)
@@ -665,6 +705,33 @@ def main() -> int:
         detail = enrich_cancelled(row)
         if detail["detail"].get("managerType") == SECURITY_MANAGER_TYPE:
             enriched_cancelled.append(detail)
+
+    if year_start_date == start_date:
+        enriched_year_additions = enriched_additions
+        enriched_year_cancelled = enriched_cancelled
+        year_cancel_detail_limit_hit = cancel_detail_limit_hit
+        year_cancel_detail_total = len(cancelled)
+        year_cancelled_for_detail = cancelled_for_detail
+    else:
+        year_additions = fetch_manager_additions(year_start, end)
+        enriched_year_additions = []
+        for idx, row in enumerate(year_additions, 1):
+            print(f"Enriching year-to-date new manager {idx}/{len(year_additions)}: {row.get('managerName', '')}", file=sys.stderr)
+            time.sleep(args.sleep)
+            enriched_year_additions.append(enrich_manager(row))
+
+        year_cancelled = fetch_cancelled_in_window(year_start_date, end_date, args.max_cancel_pages)
+        enriched_year_cancelled = []
+        year_cancel_detail_limit_hit = len(year_cancelled) > args.max_cancel_details
+        year_cancel_detail_total = len(year_cancelled)
+        year_cancelled_for_detail = year_cancelled[: args.max_cancel_details]
+        for idx, row in enumerate(year_cancelled_for_detail, 1):
+            if idx == 1 or idx % 25 == 0 or idx == len(year_cancelled_for_detail):
+                print(f"Checking year-to-date cancelled manager detail {idx}/{len(year_cancelled_for_detail)}", file=sys.stderr)
+            time.sleep(args.sleep)
+            detail = enrich_cancelled(row)
+            if detail["detail"].get("managerType") == SECURITY_MANAGER_TYPE:
+                enriched_year_cancelled.append(detail)
 
     shaanxi_managers = fetch_shaanxi_security_managers()
     manager_ids = {manager_id_from_url(item.get("url", "")) for item in shaanxi_managers}
@@ -698,17 +765,28 @@ def main() -> int:
         row for row in enriched_cancelled
         if is_notable_cancelled(row, args.notable_product_threshold, args.notable_capital_threshold)
     ]
+    national_year_highlight_additions = [row for row in enriched_year_additions if is_notable_addition(row)]
+    national_year_notable_cancelled = [
+        row for row in enriched_year_cancelled
+        if is_notable_cancelled(row, args.notable_product_threshold, args.notable_capital_threshold)
+    ]
 
     report = {
         "reportDate": args.date,
         "startDate": start,
         "endDate": end,
+        "yearStartDate": year_start,
         "shaanxiStartDate": shaanxi_start,
         "nationalAdditions": enriched_additions,
         "nationalHighlightAdditions": national_highlight_additions,
         "nationalCancellations": enriched_cancelled,
         "nationalCancellationTotal": len(enriched_cancelled),
         "nationalNotableCancellations": national_notable_cancelled,
+        "nationalYearAdditions": enriched_year_additions,
+        "nationalYearHighlightAdditions": national_year_highlight_additions,
+        "nationalYearCancellations": enriched_year_cancelled,
+        "nationalYearCancellationTotal": len(enriched_year_cancelled),
+        "nationalYearNotableCancellations": national_year_notable_cancelled,
         "shaanxiAdditions": enriched_shaanxi_additions,
         "shaanxiCancellations": enriched_shaanxi_cancelled,
         "shaanxiOfficeManagerCount": len(shaanxi_managers),
@@ -716,6 +794,9 @@ def main() -> int:
         "cancelDetailChecked": len(cancelled_for_detail),
         "cancelDetailTotalInWindow": len(cancelled),
         "cancelDetailLimitHit": cancel_detail_limit_hit,
+        "yearCancelDetailChecked": len(year_cancelled_for_detail),
+        "yearCancelDetailTotalInWindow": year_cancel_detail_total,
+        "yearCancelDetailLimitHit": year_cancel_detail_limit_hit,
         "raw": {
             "shaanxiOfficeManagers": shaanxi_managers,
             "allSecurityProductsInWindow": products,
@@ -741,6 +822,8 @@ def main() -> int:
         f"national_highlight_add={len(report['nationalHighlightAdditions'])}, "
         f"national_cancel={report['nationalCancellationTotal']}, "
         f"national_notable_cancel={len(report['nationalNotableCancellations'])}, "
+        f"national_year_add={len(report['nationalYearAdditions'])}, "
+        f"national_year_cancel={report['nationalYearCancellationTotal']}, "
         f"shaanxi_add={len(report['shaanxiAdditions'])}, "
         f"shaanxi_cancel={len(report['shaanxiCancellations'])}, "
         f"shaanxi_products={len(report['shaanxiOfficeProducts'])}"

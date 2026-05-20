@@ -175,3 +175,11 @@ bash v1/scripts/run_morning_v1.sh --date YYYY-MM-DD --finalize
 ```text
 https://refrain97.github.io/shaanxi-capital-market-daily/v1/
 ```
+
+## 正式访问统计
+
+当前 V1 已接入正式统计注入流程，统计配置在 `v1/config/analytics.json`，注入脚本为 `v1/scripts/inject_analytics.py`。现在配置仍是未启用状态；填入 Umami Website ID 并启用后，可以统计首页访问、单篇 HTML 日报访问、打开日报、下载 Markdown/PNG、复制分享链接、历史归档筛选和搜索等行为。
+
+趋势看板样板页：`v1/analytics-dashboard-sample.html`。
+
+详细设计见：`v1/docs/ANALYTICS_PLAN.md`。

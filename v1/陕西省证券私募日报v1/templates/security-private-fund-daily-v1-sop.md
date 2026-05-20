@@ -106,19 +106,19 @@
 ```bash
 python3 v1/陕西省证券私募日报v1/scripts/amac_security_private_daily.py \
   --date YYYY-MM-DD \
-  --since YYYY-01-01 \
   --shaanxi-since YYYY-01-01 \
   --max-cancel-pages 3 \
   --max-cancel-details 60 \
   --max-product-pages 220
 ```
 
+全国板块 KPI 为“报告日当天”口径；脚本会自动追加 `YYYY-01-01` 至报告日的全国累计新增、累计退出/注销和重点样本说明。
+
 示例：
 
 ```bash
 python3 v1/陕西省证券私募日报v1/scripts/amac_security_private_daily.py \
   --date 2026-05-07 \
-  --since 2026-01-01 \
   --shaanxi-since 2026-01-01 \
   --max-cancel-pages 3 \
   --max-cancel-details 60 \

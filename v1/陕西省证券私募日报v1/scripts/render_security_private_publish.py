@@ -60,19 +60,43 @@ def row_cancel(item: dict[str, Any]) -> str:
     )
 
 
+def top_locations(rows: list[dict[str, Any]], limit: int = 3) -> str:
+    counts: dict[str, int] = {}
+    for row in rows:
+        location = row.get("regAdrAgg") or row.get("registerProvince") or row.get("officeAdrAgg") or row.get("officeProvince")
+        if not location:
+            continue
+        name = str(location).split()[0]
+        counts[name] = counts.get(name, 0) + 1
+    top = sorted(counts.items(), key=lambda item: (-item[1], item[0]))[:limit]
+    return "、".join(f"{clean(name)}{count}家" for name, count in top)
+
+
+def top_exits_text(rows: list[dict[str, Any]], limit: int = 3) -> str:
+    return "、".join(
+        f"{clean(item.get('orgName'))}产品{clean((item.get('detail') or {}).get('productCount', 0))}只"
+        for item in rows[:limit]
+    )
+
+
 def render(report: dict[str, Any]) -> str:
     report_date = report["reportDate"]
     start = report["startDate"]
     end = report["endDate"]
+    year_start = report.get("yearStartDate", f"{report_date[:4]}-01-01")
     shaanxi_start = report["shaanxiStartDate"]
     products = report["shaanxiOfficeProducts"]
     shaanxi_cancel = report["shaanxiCancellations"]
     notable_cancel = report["nationalNotableCancellations"]
+    year_additions = report.get("nationalYearAdditions", report["nationalAdditions"])
+    year_highlight_additions = report.get("nationalYearHighlightAdditions", report["nationalHighlightAdditions"])
+    year_cancel_total = report.get("nationalYearCancellationTotal", report["nationalCancellationTotal"])
+    year_notable_cancel = report.get("nationalYearNotableCancellations", notable_cancel)
 
-    top_exits = "、".join(
-        f"{clean(item.get('orgName'))}产品{clean((item.get('detail') or {}).get('productCount', 0))}只"
-        for item in notable_cancel[:3]
-    ) or "暂无达到重点阈值的退出样本"
+    today_top_exits = top_exits_text(notable_cancel) or "暂无达到重点阈值的退出样本"
+    year_top_exits = top_exits_text(year_notable_cancel) or "暂无达到重点阈值的退出样本"
+    year_locations = top_locations(year_additions) or "新增样本数量较少，地域分布暂不明显"
+    year_limit_note = "年内注销详情已达到确认上限，累计退出数为已确认样本。" if report.get("yearCancelDetailLimitHit") else ""
     cancel_rows = "\n".join(row_cancel(item) for item in shaanxi_cancel) or (
         "<tr><td colspan=\"6\" class=\"empty\">本统计窗口内暂无陕西证券私募退出/注销样本。</td></tr>"
     )
@@ -188,17 +212,19 @@ td.name {{ font-weight: 700; color: #111827; }}
   </header>
 
   <section class="kpis">
-    <div class="kpi"><div class="label">全国今年新增证券私募</div><div class="value">{len(report['nationalAdditions'])}<span>家</span></div></div>
-    <div class="kpi"><div class="label">全国重点退出/注销</div><div class="value">{len(notable_cancel)}<span>家</span></div></div>
+    <div class="kpi"><div class="label">全国今日新增证券私募</div><div class="value">{len(report['nationalAdditions'])}<span>家</span></div></div>
+    <div class="kpi"><div class="label">全国今日重点退出/注销</div><div class="value">{len(notable_cancel)}<span>家</span></div></div>
     <div class="kpi"><div class="label">陕西今年退出/注销</div><div class="value">{len(shaanxi_cancel)}<span>家</span></div></div>
     <div class="kpi"><div class="label">陕西今年新备案产品</div><div class="value">{len(products)}<span>只</span></div></div>
   </section>
 
   <section class="section">
-    <div class="section-title"><h2>一、全国证券私募管理人重点变化</h2><div class="meta">今年以来</div></div>
+    <div class="section-title"><h2>一、全国证券私募管理人重点变化</h2><div class="meta">今日及今年以来</div></div>
     <div class="summary-grid">
-      <div class="note"><strong>新增：</strong>今年以来新增证券私募管理人{len(report['nationalAdditions'])}家，脚本识别{len(report['nationalHighlightAdditions'])}家具备团队履历、人员或规模线索；新增机构仍以上海、北京、深圳为主。</div>
-      <div class="note"><strong>退出/注销：</strong>今年以来已确认证券私募退出/注销{report['nationalCancellationTotal']}家，按产品数量/资本代理指标筛出重点{len(notable_cancel)}家。{top_exits}。</div>
+      <div class="note"><strong>今日新增：</strong>新增证券私募管理人{len(report['nationalAdditions'])}家，其中识别出重点团队/规模线索{len(report['nationalHighlightAdditions'])}家。</div>
+      <div class="note"><strong>今日退出/注销：</strong>确认证券私募退出/注销{report['nationalCancellationTotal']}家，按产品数量/资本代理指标筛出重点{len(notable_cancel)}家。{today_top_exits}。</div>
+      <div class="note"><strong>今年累计：</strong>{year_start}至{end}，全国新增证券私募管理人{len(year_additions)}家，识别重点团队/规模线索{len(year_highlight_additions)}家；已确认退出/注销{year_cancel_total}家，重点退出/注销{len(year_notable_cancel)}家。{year_limit_note}</div>
+      <div class="note"><strong>情况说明：</strong>今年新增机构主要分布为{year_locations}；重点退出/注销样本包括{year_top_exits}。</div>
     </div>
   </section>
 

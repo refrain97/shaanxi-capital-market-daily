@@ -86,6 +86,10 @@ def link_for(report: Report, preferred: tuple[str, ...]) -> str:
     return report.links[0][1] if report.links else "#archive"
 
 
+def report_id(report: Report) -> str:
+    return f"{report.channel}-{report.day:%Y-%m-%d}"
+
+
 def listed_kpis(report: Report) -> tuple[tuple[str, str], ...]:
     html_path = next((ROOT / url for label, url in report.links if label == "HTML"), None)
     if not html_path or not html_path.exists():
@@ -126,6 +130,7 @@ def render_latest_card(report: Report, *, lead: bool = False) -> str:
     }
     preferred = ("HTML", "PNG", "Markdown") if report.channel != "ma" else ("PNG", "Markdown")
     link = link_for(report, preferred)
+    share_link = f"{link}?from=share-copy&report={report_id(report)}"
     action_text = "打开图片" if report.channel == "ma" else "打开日报"
     title = channel_names[report.channel]
     summary = report.summary
@@ -153,7 +158,10 @@ def render_latest_card(report: Report, *, lead: bool = False) -> str:
               <div class="fact-list">
 {facts_html}
               </div>
-              <a class="button" href="{html.escape(link)}">{action_text}</a>
+              <div class="hero-actions">
+                <a class="button" href="{html.escape(link)}">{action_text}</a>
+                <button class="button" type="button" data-share-url="{html.escape(share_link)}" data-share-report="{html.escape(report_id(report))}">复制分享链接</button>
+              </div>
             </div>
             <a class="lead-image" href="{html.escape(link)}" aria-label="打开{html.escape(title)}">
               <picture>

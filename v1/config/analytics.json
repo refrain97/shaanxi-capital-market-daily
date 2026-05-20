@@ -1,0 +1,10 @@
+{
+  "provider": "umami",
+  "enabled": true,
+  "script_url": "https://cloud.umami.is/script.js",
+  "website_id": "ff2a4678-af6a-4b80-a4ff-15d3a9a62ebd",
+  "track_domains": [
+    "refrain97.github.io",
+    "shaanxi-capital-market-daily.vercel.app"
+  ]
+}
