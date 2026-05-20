@@ -42,11 +42,17 @@ bash v1/scripts/run_morning_v1.sh --date YYYY-MM-DD
 bash v1/scripts/upload_daily_ima.sh --date YYYY-MM-DD
 ```
 
-5. 刷新网页归档并发布到 Vercel：
+5. 刷新网页归档，发布到 Vercel，并同步发布到 GitHub Pages：
 
 ```bash
-bash v1/scripts/publish_v1_to_vercel.sh
+bash v1/scripts/publish_v1_to_vercel.sh --date YYYY-MM-DD
 ```
+
+发布脚本必须完成三段校验，任何一段失败都不得回复“已发布”：
+
+- `v1/scripts/update_v1_index.py` 生成的 `v1/index.html` 必须包含 `YYYY-MM-DD 更新`。
+- Vercel 部署成功后，必须执行 `v1/scripts/publish_v1_to_github_pages.sh --date YYYY-MM-DD`，把打包后的静态站同步到 `gh-pages` 分支；GitHub Pages 当前读取 `gh-pages`，不能只推 `main`。
+- `publish_v1_to_github_pages.sh` 必须直接请求 `https://refrain97.github.io/shaanxi-capital-market-daily/v1/`，确认线上页面包含 `YYYY-MM-DD 更新`。未确认前，最终回复只能写“Pages 未确认”，不能写“已发布”。
 
 网页入口页更新要求：
 
@@ -61,7 +67,7 @@ bash v1/scripts/publish_v1_to_vercel.sh
 
 - 四个频道的处理结果：已生成 / 沿用模板改日期 / 需要人工确认。
 - ima 上传结果：成功数量、跳过数量、缺失数量；正常日缺失应为 0。
-- 网页发布地址：`https://refrain97.github.io/shaanxi-capital-market-daily`
+- 网页发布地址和实测结果：`https://refrain97.github.io/shaanxi-capital-market-daily/v1/` 必须已返回当天 `YYYY-MM-DD 更新`。
 - 本地新增或修改的关键文件。
 
 ## 一键收尾命令

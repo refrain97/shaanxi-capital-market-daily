@@ -95,7 +95,7 @@ if [[ "$finalize" == "1" ]]; then
   echo
   echo "4) Finalize: upload ima and publish web"
   bash v1/scripts/upload_daily_ima.sh --date "$date_value"
-  bash v1/scripts/publish_v1_to_vercel.sh
+  bash v1/scripts/publish_v1_to_vercel.sh --date "$date_value"
 else
   echo
   echo "Finalize after all outputs are ready:"
