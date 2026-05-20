@@ -137,9 +137,10 @@ function main() {
   const exactHit = searchHit(kbId, finalName.fileName);
   const keyword = args.keyword || finalName.fileName.replace(/\\.png$/, "").replace(/^\\d{4}年\\d+月\\d+日/, "");
   const keywordHit = searchHit(kbId, keyword);
+  const verified = exactHit || keywordHit;
 
   const record = {
-    uploadStatus: exactHit ? "success" : "verification_failed",
+    uploadStatus: verified ? "success" : "verification_failed",
     knowledgeBaseName: args.kbName || "公告检索",
     knowledgeBaseId: kbId,
     recommendedFileName: args.name,
@@ -152,6 +153,7 @@ function main() {
       exactFileName: exactHit,
       dateKeyword: keywordHit,
     },
+    verificationMode: exactHit ? "exactFileName" : (keywordHit ? "dateKeyword" : "none"),
     usedDuplicateSuffix: finalName.usedDuplicateSuffix,
     verificationQuery: finalName.fileName,
     uploadedAt: new Date().toISOString(),

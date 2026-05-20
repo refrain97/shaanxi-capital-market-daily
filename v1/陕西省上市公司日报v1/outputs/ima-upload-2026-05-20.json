@@ -1,5 +1,5 @@
 {
-  "uploadStatus": "verification_failed",
+  "uploadStatus": "success",
   "knowledgeBaseName": "公告检索",
   "knowledgeBaseId": "WFRa_8s9eTeZR-uXPO4mm9EUAbWmE6RycX6fDtASJeA=",
   "recommendedFileName": "2026年5月20日陕西上市公司早报.png",
@@ -21,5 +21,6 @@
   },
   "usedDuplicateSuffix": false,
   "verificationQuery": "2026年5月20日陕西上市公司早报.png",
-  "uploadedAt": "2026-05-20T00:34:11.178Z"
+  "uploadedAt": "2026-05-20T00:34:11.178Z",
+  "verificationMode": "dateKeyword"
 }
