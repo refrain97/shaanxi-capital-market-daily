@@ -54,7 +54,8 @@ git worktree remove "$worktree_dir"
 echo "==> Verifying live GitHub Pages date"
 expected="${date_value} 更新"
 for attempt in {1..12}; do
-  if curl -fsSL -H "Cache-Control: no-cache" "${pages_url}?verify=${date_value}-${attempt}" | grep -Fq "$expected"; then
+  page_html="$(curl -fsSL -H "Cache-Control: no-cache" "${pages_url}?verify=${date_value}-${attempt}")"
+  if grep -Fq "$expected" <<<"$page_html"; then
     echo "GitHub Pages verified: $pages_url contains '$expected'"
     exit 0
   fi
