@@ -107,8 +107,8 @@
 python3 v1/陕西省证券私募日报v1/scripts/amac_security_private_daily.py \
   --date YYYY-MM-DD \
   --shaanxi-since YYYY-01-01 \
-  --max-cancel-pages 3 \
-  --max-cancel-details 60 \
+  --max-cancel-pages 80 \
+  --max-cancel-details 600 \
   --max-product-pages 220
 ```
 
@@ -120,8 +120,8 @@ python3 v1/陕西省证券私募日报v1/scripts/amac_security_private_daily.py 
 python3 v1/陕西省证券私募日报v1/scripts/amac_security_private_daily.py \
   --date 2026-05-07 \
   --shaanxi-since 2026-01-01 \
-  --max-cancel-pages 3 \
-  --max-cancel-details 60 \
+  --max-cancel-pages 80 \
+  --max-cancel-details 600 \
   --max-product-pages 220
 ```
 

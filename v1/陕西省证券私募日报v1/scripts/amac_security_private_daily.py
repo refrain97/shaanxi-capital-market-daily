@@ -59,7 +59,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR), help="Directory for markdown report.")
     parser.add_argument("--data-dir", default=str(DEFAULT_DATA_DIR), help="Directory for raw JSON.")
     parser.add_argument("--max-cancel-pages", type=int, default=80, help="Safety cap for cancelled manager pages.")
-    parser.add_argument("--max-cancel-details", type=int, default=300, help="Safety cap for cancelled manager detail pages.")
+    parser.add_argument("--max-cancel-details", type=int, default=600, help="Safety cap for cancelled manager detail pages.")
     parser.add_argument("--max-product-pages", type=int, default=220, help="Safety cap for product pages.")
     parser.add_argument("--notable-product-threshold", type=int, default=5, help="Cancelled manager product-count proxy for notable exits.")
     parser.add_argument("--notable-capital-threshold", type=float, default=5000, help="Registered/paid capital proxy in RMB 10k for notable exits.")
