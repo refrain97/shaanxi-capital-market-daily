@@ -12,6 +12,10 @@ node_modules/
 .npm-cache/
 .openclaw-weixin-qr-session.json
 
+# Generated deployment/package artifacts
+dist/
+packages/
+
 # Source-only workflow files not needed by the public static site
 docs/
 v1/docs/
