@@ -93,12 +93,10 @@ def report_id(report: Report) -> str:
 def listed_kpis(report: Report) -> tuple[tuple[str, str], ...]:
     html_path = next((ROOT / url for label, url in report.links if label == "HTML"), None)
     if not html_path or not html_path.exists():
-        return (
-            (f"{report.day:%m-%d}", "最新日期"),
-            (str(len(report.links)), "种可打开格式"),
-            ("V1", "已入库发布"),
-        )
+        raise SystemExit(f"Missing listed-company HTML for latest card: {html_path}")
     content = html_path.read_text(encoding="utf-8")
+    if 'data-template="listed-v1-official"' not in content and "topbar" not in content:
+        raise SystemExit(f"Listed-company HTML is not the official V1 template: {html_path}")
     kpis = re.findall(
         r'<div class="kpi">\s*<div class="num">(.*?)</div>\s*<div class="label">(.*?)</div>\s*</div>',
         content,
@@ -108,11 +106,12 @@ def listed_kpis(report: Report) -> tuple[tuple[str, str], ...]:
         (re.sub(r"<.*?>", "", num).strip(), re.sub(r"<.*?>", "", label).strip())
         for num, label in kpis
     )
-    return cleaned[:4] or (
-        (f"{report.day:%m-%d}", "最新日期"),
-        (str(len(report.links)), "种可打开格式"),
-        ("V1", "已入库发布"),
-    )
+    if len(cleaned) < 4:
+        raise SystemExit(
+            "Listed-company latest card requires 4 official KPI blocks with "
+            f"class='label'. Found {len(cleaned)} in {html_path}."
+        )
+    return cleaned[:4]
 
 
 def render_latest_card(report: Report, *, lead: bool = False) -> str:

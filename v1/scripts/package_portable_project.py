@@ -27,6 +27,7 @@ EXCLUDED_NAMES = {
     "__pycache__",
     "dist",
     "node_modules",
+    "output",
     "packages",
 }
 

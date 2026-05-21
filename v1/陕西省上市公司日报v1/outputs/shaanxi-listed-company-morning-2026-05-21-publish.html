@@ -1,10 +1,550 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>陕西上市公司公告早报｜2026年5月21日</title><style>
-*{box-sizing:border-box}body{margin:0;background:#f3f5f7;color:#182033;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Arial,sans-serif}.page{width:1242px;min-height:2060px;margin:0 auto;background:#f8f9fb;padding:46px 54px 36px}.top{display:flex;justify-content:space-between;gap:24px;align-items:flex-end;border-bottom:4px solid #1f3a5f;padding-bottom:20px}h1{font-size:54px;line-height:1.08;margin:0;color:#111827;letter-spacing:0}.date{font-size:30px;font-weight:800;color:#1f3a5f;text-align:right}.source{font-size:18px;line-height:1.45;color:#667085;text-align:right;margin-top:8px}.lead{font-size:26px;line-height:1.48;margin:28px 0 22px;padding:20px 24px;background:#fff;border-left:7px solid #8f1d21;border-radius:8px;border-top:1px solid #d9dee8;border-right:1px solid #d9dee8;border-bottom:1px solid #d9dee8}.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:18px 0 20px}.kpi{background:#fff;border:1px solid #d9dee8;border-radius:8px;padding:16px}.num{font-size:40px;font-weight:850;color:#111827}.lab{font-size:18px;color:#667085;margin-top:6px;line-height:1.3}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:#fff;border:1px solid #d9dee8;border-radius:8px;padding:20px 22px;min-height:230px}.card h2{font-size:28px;line-height:1.2;margin:0 0 12px;color:#111827}.card p{font-size:21px;line-height:1.55;margin:0;color:#25324a}.track{margin-top:18px;background:#eef3f8;border:1px solid #cfd8e5;border-radius:8px;padding:18px 22px}.track h2{margin:0 0 10px;font-size:26px}.track p{font-size:20px;line-height:1.5;margin:0}.footer{margin-top:24px;border-top:1px solid #d9dee8;padding-top:14px;color:#667085;font-size:16px;line-height:1.5;display:flex;justify-content:space-between;gap:24px}
-</style>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西上市公司公告早报｜2026年5月21日</title>
+  <style>
+    :root {
+      --navy: #0f243f;
+      --ink: #1d2733;
+      --muted: #667085;
+      --line: #d8dee8;
+      --soft: #f4f7fb;
+      --risk: #c2412f;
+      --risk-bg: #fff0ec;
+      --good: #16835a;
+      --good-bg: #eaf7f0;
+      --watch: #a16207;
+      --watch-bg: #fff7df;
+      --blue-bg: #eaf1fb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #e9eef5;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      color: var(--ink);
+    }
+
+    .page {
+      width: 1242px;
+      height: 2060px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .topbar {
+      background: var(--navy);
+      color: #fff;
+      padding: 38px 54px 28px;
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 28px;
+      align-items: end;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 54px;
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin-top: 16px;
+      font-size: 22px;
+      color: #d8e3f3;
+      line-height: 1.5;
+    }
+
+    .source {
+      text-align: right;
+      font-size: 20px;
+      line-height: 1.55;
+      color: #c8d5e6;
+    }
+
+    .source strong {
+      color: #fff;
+      font-size: 28px;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .content {
+      padding: 18px 42px 14px;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .kpi {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 11px 16px;
+      min-height: 72px;
+    }
+
+    .kpi .num {
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 800;
+      color: var(--navy);
+    }
+
+    .kpi .label {
+      margin-top: 8px;
+      font-size: 17px;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .section {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .section.wide { grid-column: 1 / -1; }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background: #f7f9fc;
+      border-bottom: 1px solid var(--line);
+      font-weight: 800;
+      font-size: 21px;
+      color: var(--navy);
+    }
+
+    .section-title .no {
+      display: inline-grid;
+      place-items: center;
+      min-width: 42px;
+      height: 28px;
+      border-radius: 5px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .body { padding: 9px 14px 10px; }
+
+    .chips {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 16px;
+      line-height: 1.36;
+      background: #fff;
+    }
+
+    .chip b {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 3px;
+      color: var(--navy);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 700;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+
+    td {
+      padding: 5px 8px;
+      border-bottom: 1px solid #edf1f6;
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 15px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .tag.risk { background: var(--risk-bg); color: var(--risk); }
+    .tag.good { background: var(--good-bg); color: var(--good); }
+    .tag.watch { background: var(--watch-bg); color: var(--watch); }
+    .tag.info { background: var(--blue-bg); color: var(--navy); }
+
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .tile {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 72px;
+      background: #fff;
+    }
+
+    .tile b {
+      display: block;
+      font-size: 18px;
+      color: var(--navy);
+      margin-bottom: 5px;
+    }
+
+    .tile span {
+      font-size: 15px;
+      line-height: 1.34;
+      color: #344054;
+    }
+
+    .mini-list {
+      display: grid;
+      gap: 7px;
+      font-size: 17px;
+      line-height: 1.35;
+    }
+
+    .mini-list div {
+      padding: 7px 9px;
+      border: 1px solid #edf1f6;
+      border-radius: 6px;
+      background: #fcfdff;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .subhead {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--navy);
+      margin: 0 0 7px;
+      padding-left: 4px;
+    }
+
+    .fixed-list {
+      display: grid;
+      gap: 6px;
+    }
+
+    .fixed-item {
+      border: 1px solid #e5ebf3;
+      border-radius: 6px;
+      padding: 6px 9px;
+      font-size: 15.6px;
+      line-height: 1.3;
+      background: #fff;
+    }
+
+    .fixed-item b {
+      color: var(--navy);
+      margin-right: 5px;
+    }
+
+    .follow {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+    }
+
+    .follow div {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 76px;
+      background: #fcfdff;
+      font-size: 14.8px;
+      line-height: 1.3;
+    }
+
+    .follow b {
+      display: block;
+      font-size: 17px;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+
+    .note {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 22px;
+      margin: 0 42px;
+      border-top: 1px solid var(--line);
+      padding-top: 9px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 16px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .small { font-size: 15.5px; color: var(--muted); }
+    .strong { font-weight: 800; color: var(--ink); }
+
+    @media (max-width: 720px) {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        margin: 0;
+        overflow: visible;
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        align-items: start;
+        padding: 24px 18px 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+        line-height: 1.12;
+      }
+
+      .subtitle {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      .source {
+        text-align: left;
+        font-size: 15px;
+      }
+
+      .source strong {
+        font-size: 20px;
+      }
+
+      .content {
+        padding: 14px 14px 22px;
+      }
+
+      .kpis,
+      .grid,
+      .chips,
+      .tiles,
+      .two-col,
+      .follow {
+        grid-template-columns: 1fr;
+      }
+
+      .section.wide {
+        grid-column: auto;
+      }
+
+      .kpi {
+        min-height: 0;
+      }
+
+      .kpi .num {
+        font-size: 27px;
+      }
+
+      .kpi .label {
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      .section-title {
+        align-items: flex-start;
+        padding: 10px 12px;
+        font-size: 18px;
+        line-height: 1.28;
+      }
+
+      .section-title .no {
+        min-width: 36px;
+        height: 26px;
+        font-size: 16px;
+      }
+
+      .body {
+        padding: 10px;
+      }
+
+      .chip,
+      .tile,
+      .follow div {
+        min-height: 0;
+      }
+
+      colgroup,
+      thead {
+        display: none;
+      }
+
+      table,
+      tbody,
+      tr,
+      td {
+        display: block;
+        width: 100%;
+      }
+
+      table {
+        font-size: 14px;
+      }
+
+      tr {
+        padding: 8px 0;
+        border-bottom: 1px solid #edf1f6;
+      }
+
+      tr:last-child {
+        border-bottom: 0;
+      }
+
+      td {
+        padding: 3px 0;
+        border-bottom: 0;
+      }
+
+      td:first-child {
+        color: var(--navy);
+        font-weight: 800;
+      }
+
+      .note {
+        position: static;
+        margin: 0 14px 22px;
+        padding-top: 12px;
+        display: grid;
+        gap: 8px;
+        font-size: 13px;
+        line-height: 1.45;
+      }
+    }
+  </style>
 <!-- V1_ANALYTICS_HEAD_START -->
   <script defer src="https://cloud.umami.is/script.js" data-website-id="ff2a4678-af6a-4b80-a4ff-15d3a9a62ebd" data-domains="refrain97.github.io,shaanxi-capital-market-daily.vercel.app"></script>
   <!-- V1_ANALYTICS_HEAD_END -->
-</head><body><main class="page"><header class="top"><div><h1>陕西上市公司公告早报</h1></div><div><div class="date">2026年5月21日</div><div class="source">覆盖85家公司｜CNINFO逐公司检索<br>公告23条｜覆盖13家公司｜PDF原文23份</div></div></header><div class="lead">今日主线：交易风险提示、股东股份质押/解押、股份协议内部流转、回购股份减持与股权激励归属、年度股东会密集落地。</div><section class="kpis"><div class="kpi"><div class="num">23条</div><div class="lab">今日公告</div></div><div class="kpi"><div class="num">13家</div><div class="lab">覆盖公司</div></div><div class="kpi"><div class="num">0错</div><div class="lab">CNINFO接口错误</div></div><div class="kpi"><div class="num">23份</div><div class="lab">PDF原文抽取</div></div></section><section class="grid"><section class="card"><h2>01 今日业务机会</h2><p>康拓医疗触发严重异常波动；ST金花完成回购股份减持并换届；易点天下回购股份用于激励；炼石航空一致行动人内部归集股份。</p></section><section class="card"><h2>02 重大事项与风险公告</h2><p>康拓医疗30个交易日跌幅偏离值累计超过70%；公司称生产经营正常、无应披露未披露重大事项，5月20日收盘价42.47元/股。</p></section><section class="card"><h2>03 股东质押与解押</h2><p>天地源控股股东新增质押6,000万股，累计质押1.97亿股，占总股本22.80%；国际医学控股股东解除质押1,500万股，解除后世纪新元仍质押4.5596亿股。</p></section><section class="card"><h2>04 股份处置与激励</h2><p>ST金花减持已回购股份3,732,782股，金额3,244.88万元；易点天下735,400股回购股份完成限制性股票归属，授予价格9.33元/股，总股本不变。</p></section><section class="card"><h2>05 协议转让与持股结构</h2><p>炼石航空一致行动人内部协议转让12,117,726股，占总股本0.87%，价格10.63元/股，价款1.288亿元；引领资本直接持股升至8.13%。</p></section><section class="card"><h2>06 股东会执行清单</h2><p>康惠股份授信、担保、反担保和简易程序再融资授权通过；莱特光电通过利润分配、中期分红授权和担保额度；中国西电通过利润分配及2026年中期分红规划。</p></section></section><section class="track"><h2>明日跟踪</h2><p>康拓医疗严重异常波动；天地源/国际医学质押滚续；ST金花剩余回购股份用途；易点天下激励后续归属；炼石航空协议转让确认与过户；康惠股份、莱特光电、中国西电等股东会授权执行。</p></section><footer class="footer"><span>资料来源：巨潮资讯CNINFO公告原文、本地PDF抽取文本。</span><span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://refrain97.github.io/shaanxi-capital-market-daily/v1/</span></footer></main>
+</head>
+<body>
+  <main class="page" data-template="listed-v1-official">
+    <header class="topbar">
+      <div>
+        <h1>陕西上市公司公告早报</h1>
+        <div class="subtitle">2026年5月21日｜交易风险、股权质押、回购减持、激励归属与股东会执行</div>
+      </div>
+      <div class="source">
+        <strong>覆盖 85 家上市公司</strong>
+        沪市42家｜深市37家｜北交所6家<br>
+        名单来源：陕西证监局｜公告源：巨潮资讯 CNINFO
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="kpis">
+        <div class="kpi"><div class="num">23条</div><div class="label">5月21日逐公司检索公告，接口错误0条</div></div><div class="kpi"><div class="num">13家</div><div class="label">覆盖公司，PDF原文23份已下载抽取</div></div><div class="kpi"><div class="num">6,000万股</div><div class="label">天地源控股股东新增质押股数</div></div><div class="kpi"><div class="num">1.288亿元</div><div class="label">炼石航空一致行动人内部协议受让价款</div></div>
+      </div>
+
+      <div class="grid">
+        <section class="section">
+          <div class="section-title"><span class="no">01</span>今日业务机会</div>
+          <div class="body chips"><div class="chip"><b>康拓医疗</b>康拓医疗公告称，公司股票交易连续30个交易日内（2026年4月3日至2026年5月20日）日收盘价格跌幅偏离值累计超过70%，属于科创板股票交易严重异常波动情形。公司自查并向控股股东…</div>
+<div class="chip"><b>天地源</b>天地源控股股东西安高新技术产业开发区房地产开发有限公司持有公司497,000,938股，占总股本57.52%。本次向陕西省国际信托股份有限公司质押60,000,000股无限售流通股，…</div>
+<div class="chip"><b>国际医学</b>国际医学公告，控股股东陕西世纪新元商业管理有限公司于2026年5月19日办理部分解除质押，解除股份15,000,000股，占其所持股份2.43%、占公司总股本0.67%，质权人为国都…</div>
+<div class="chip"><b>ST金花</b>ST金花披露集中竞价减持已回购股份结果：公司2024年2月23日至2024年5月22日累计回购20,557,582股，占总股本5.51%；本轮计划减持不超过7,465,405股，占总…</div></div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><span class="no">02</span>重大事项与风险公告</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:20%"><col style="width:57%"><col style="width:23%"></colgroup>
+              <thead><tr><th>公司</th><th>事项</th><th>业务判断</th></tr></thead>
+              <tbody><tr><td>康拓医疗</td><td>康拓医疗公告称，公司股票交易连续30个交易日内（2026年4月3日至2026年5月20日）日收盘价格跌幅偏离值累计超过70%，属于科创板股票交易严重异常波动情形。公司自查并向控股股东、实际控制人胡立人核实，除已披露事项外不…</td><td><span class="tag watch">重点跟踪</span></td></tr><tr><td>天地源</td><td>天地源控股股东西安高新技术产业开发区房地产开发有限公司持有公司497,000,938股，占总股本57.52%。本次向陕西省国际信托股份有限公司质押60,000,000股无限售流通股，质押起始日为2026年5月19日，到期日…</td><td><span class="tag watch">重点跟踪</span></td></tr><tr><td>国际医学</td><td>国际医学公告，控股股东陕西世纪新元商业管理有限公司于2026年5月19日办理部分解除质押，解除股份15,000,000股，占其所持股份2.43%、占公司总股本0.67%，质权人为国都证券股份有限公司。本次解除后，世纪新元累…</td><td><span class="tag watch">重点跟踪</span></td></tr><tr><td>ST金花</td><td>ST金花披露集中竞价减持已回购股份结果：公司2024年2月23日至2024年5月22日累计回购20,557,582股，占总股本5.51%；本轮计划减持不超过7,465,405股，占总股本2%。截至公告日，公司通过集中竞价减…</td><td><span class="tag watch">重点跟踪</span></td></tr></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">03</span>上市公司动态</div>
+          <div class="body tiles"><div class="tile"><b>ST金花</b><span>ST金花披露集中竞价减持已回购股份结果：公司2024年2月23日至2024年5月22日累计回购20,557,582股，占总股本5.51%；本轮计划减持…</span></div><div class="tile"><b>易点天下</b><span>易点天下2025年限制性股票激励计划首次授予部分第一个归属期第一批次登记完成。本次归属日为2026年5月20日，归属股票735,400股，归属人数4人…</span></div><div class="tile"><b>炼石航空</b><span>炼石航空公告，四川发展引领资本管理有限公司拟通过协议转让方式，受让申万菱信基金-引领资本1号大股东增持单一资产管理计划持有的12,117,726股，占…</span></div><div class="tile"><b>股东会密集落地｜分红、担保、授信、简易程序再融资授权进入执行观察</b><span>今日莱特光电、陕西旅游、康惠股份、中国西电、ST标准、ST金花等多家公司披露年度股东会决议。康惠股份股东会通过2026年度向金融机构申请综合授信额度及…</span></div></div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">04</span>股东变动与资本运作</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:16%"><col style="width:43%"><col style="width:41%"></colgroup>
+              <thead><tr><th>公司</th><th>关键数字</th><th>业务关注</th></tr></thead>
+              <tbody><tr><td>天地源</td><td>497,000,938股；57.52%；60,000,000股；2026年</td><td>地产平台控股股东质押融资值得持续观察，重点看后续是否继续质押、是否涉及债券偿付或项目资金周转压力。</td></tr><tr><td>国际医学</td><td>2026年；19日；15,000,000股；2.43%</td><td>解押是边际改善，但控股股东质押比例仍高，后续要看是否继续解押或滚续。</td></tr><tr><td>ST金花</td><td>2024年；23日；2024年；22日</td><td>ST金花今天同时完成“回购股份处置+董事会换届”，建议跟踪剩余回购专户股份用途、后续市值维护安排和新管理层经营修复节奏。</td></tr><tr><td>易点天下</td><td>2025年；2026年；20日；735,400股</td><td>这是回购股份用途落地和激励兑现节点，后续看剩余定向发行部分归属、费用摊销和员工激励效果。</td></tr><tr><td>炼石航空</td><td>12,117,726股；0.87%；10.63元/股；101,339,078股</td><td>本质是持股层级压缩与一致行动内部归集，不改变控制权，但要跟踪深交所确认、过户完成和锁定期约束。</td></tr></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">05</span>股东会、业绩与固定披露清单</div>
+          <div class="body two-col">
+            <div><p class="subhead">A. 股权、质押与激励</p><div class="fixed-list"><div class="fixed-item"><b>康拓医疗</b>康拓医疗公告称，公司股票交易连续30个交易日内（2026年4月3日至2026年5月20日）日收盘价格跌幅偏离值累计超过70%，属于科创板股票交易严重异常波动情形。公司自查并向…</div><div class="fixed-item"><b>国际医学</b>国际医学公告，控股股东陕西世纪新元商业管理有限公司于2026年5月19日办理部分解除质押，解除股份15,000,000股，占其所持股份2.43%、占公司总股本0.67%，质权…</div><div class="fixed-item"><b>易点天下</b>易点天下2025年限制性股票激励计划首次授予部分第一个归属期第一批次登记完成。本次归属日为2026年5月20日，归属股票735,400股，归属人数4人，股票来源为回购股份，上…</div></div></div>
+            <div><p class="subhead">B. 治理、股东会与后续执行</p><div class="fixed-list"><div class="fixed-item"><b>天地源</b>天地源控股股东西安高新技术产业开发区房地产开发有限公司持有公司497,000,938股，占总股本57.52%。本次向陕西省国际信托股份有限公司质押60,000,000股无限售…</div><div class="fixed-item"><b>ST金花</b>ST金花披露集中竞价减持已回购股份结果：公司2024年2月23日至2024年5月22日累计回购20,557,582股，占总股本5.51%；本轮计划减持不超过7,465,405…</div><div class="fixed-item"><b>炼石航空</b>炼石航空公告，四川发展引领资本管理有限公司拟通过协议转让方式，受让申万菱信基金-引领资本1号大股东增持单一资产管理计划持有的12,117,726股，占炼石航空总股本0.87%…</div></div></div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">06</span>今日重点跟踪公司</div>
+          <div class="body follow"><div><b>康拓医疗</b>严重异常波动后续交易风险、是否补充披露或收到监管关注。</div><div><b>天地源/国际医学</b>控股股东质押、解押、滚续和资金用途变化。</div><div><b>ST金花</b>剩余16,824,800股回购专户股份用途、ST风险化解和新一届管理层动作。</div><div><b>易点天下</b>股权激励后续归属、定向发行部分和费用摊销影响。</div><div><b>炼石航空</b>深交所协议转让确认、中登过户和锁定期履行。</div><div><b>康惠股份/莱特光电/中国西电/陕西旅游</b>分红、担保、授信、再融资授权等股东会后续执行公告。</div></div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="note">
+      <span>资料来源：陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》、巨潮资讯公告原文及本地PDF抽取文本。仅作公告信息整理，不构成投资建议。</span>
+      <span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://refrain97.github.io/shaanxi-capital-market-daily/v1/</span>
+    </footer>
+  </main>
 <!-- V1_ANALYTICS_BODY_START -->
   <script>
     (() => {
@@ -93,4 +633,5 @@
     })();
   </script>
   <!-- V1_ANALYTICS_BODY_END -->
-</body></html>
+</body>
+</html>

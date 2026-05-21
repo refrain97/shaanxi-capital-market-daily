@@ -14,6 +14,7 @@ node_modules/
 
 # Generated deployment/package artifacts
 dist/
+output/
 packages/
 
 # Source-only workflow files not needed by the public static site

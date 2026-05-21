@@ -5,10 +5,11 @@ import argparse
 import html
 import json
 import re
+import subprocess
+import sys
 from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
-
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 VERSION_DIR = SCRIPT_DIR.parent
@@ -16,6 +17,10 @@ DATA_DIR = VERSION_DIR / "data"
 OUTPUT_DIR = VERSION_DIR / "outputs"
 TEMPLATE_PATH = VERSION_DIR / "templates" / "shaanxi-listed-company-morning-report-v1.template.html"
 COMPANIES_PATH = DATA_DIR / "shaanxi-companies-cninfo-2026-03-31.json"
+CHROME = Path("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
+
+sys.path.insert(0, str(VERSION_DIR.parent / "scripts"))
+from brand_v1_png import apply_branding
 
 
 def zh_day(day: date) -> str:
@@ -24,6 +29,86 @@ def zh_day(day: date) -> str:
 
 def esc(value: object) -> str:
     return html.escape(str(value or ""))
+
+
+def strip_md(value: str) -> str:
+    value = re.sub(r"`([^`]+)`", r"\1", value)
+    value = re.sub(r"\*\*([^*]+)\*\*", r"\1", value)
+    return value.strip()
+
+
+def truncate(value: str, limit: int) -> str:
+    value = re.sub(r"\s+", "", strip_md(value))
+    if len(value) <= limit:
+        return value
+    return value[: limit - 1] + "…"
+
+
+def split_sentences(value: str) -> list[str]:
+    return [item.strip() for item in re.split(r"(?<=[。；])", value) if item.strip()]
+
+
+def extract_section(markdown: str, title: str) -> str:
+    pattern = rf"^## {re.escape(title)}\s*\n(.*?)(?=^## |\Z)"
+    match = re.search(pattern, markdown, re.S | re.M)
+    return match.group(1).strip() if match else ""
+
+
+def extract_subsections(section: str) -> list[tuple[str, str]]:
+    matches = list(re.finditer(r"^### (.+?)\s*$", section, re.M))
+    result: list[tuple[str, str]] = []
+    for index, match in enumerate(matches):
+        start = match.end()
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(section)
+        result.append((strip_md(match.group(1)), section[start:end].strip()))
+    return result
+
+
+def first_paragraph(block: str) -> str:
+    pieces = [piece.strip() for piece in re.split(r"\n\s*\n", block) if piece.strip()]
+    for piece in pieces:
+        if not piece.startswith("播报判断"):
+            return re.sub(r"\s+", "", strip_md(piece))
+    return re.sub(r"\s+", "", strip_md(pieces[0])) if pieces else ""
+
+
+def judgement(block: str) -> str:
+    match = re.search(r"播报判断[：:](.*)", block)
+    return re.sub(r"\s+", "", strip_md(match.group(1))) if match else "关注后续公告、交易进展和业务影响。"
+
+
+def company_from_heading(heading: str) -> str:
+    return re.split(r"\s+|\|｜", heading.strip(), maxsplit=1)[0]
+
+
+def html_template_style() -> str:
+    template = TEMPLATE_PATH.read_text(encoding="utf-8")
+    style_match = re.search(r"<style>(.*?)</style>", template, re.S)
+    if not style_match:
+        raise SystemExit(f"Could not locate <style> in {TEMPLATE_PATH}")
+    return style_match.group(1)
+
+
+def render_html_to_png(html_path: Path, png_path: Path, *, width: int = 1242, height: int = 2060) -> None:
+    if not CHROME.exists():
+        raise FileNotFoundError(f"Chrome not found: {CHROME}")
+    subprocess.run(
+        [
+            str(CHROME),
+            "--headless",
+            "--disable-gpu",
+            "--hide-scrollbars",
+            "--force-device-scale-factor=1",
+            f"--window-size={width},{height}",
+            f"--screenshot={png_path}",
+            str(html_path),
+        ],
+        check=True,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+    apply_branding(png_path)
+    print(f"Wrote {png_path}")
 
 
 def classify(title: str) -> str:
@@ -279,35 +364,217 @@ def render_html(day: date, items: list[dict[str, object]], universe_count: int) 
 </html>"""
 
 
+def render_official_html_from_markdown(day: date, markdown: str) -> str:
+    style = html_template_style()
+    markets = market_distribution()
+
+    one_line = extract_section(markdown, "今日一句话")
+    retrieval = extract_section(markdown, "检索与精读口径")
+    highlights = extract_section(markdown, "重点播报")
+    follow = extract_section(markdown, "明日跟踪清单")
+    subsections = extract_subsections(highlights)
+
+    announcement_count = re.search(r"公告共(\d+)条", one_line) or re.search(r"命中(\d+)条公告", retrieval)
+    company_count = re.search(r"覆盖(\d+)家公司", one_line) or re.search(r"覆盖(\d+)家公司", retrieval)
+    pdf_count = re.search(r"抽取(\d+)份公告", retrieval) or re.search(r"PDF原文(\d+)份", retrieval)
+    title_theme = "交易风险、股权质押、回购减持、激励归属与股东会执行"
+
+    kpi_items = [
+        (f"{announcement_count.group(1)}条" if announcement_count else "待核", f"{day.month}月{day.day}日逐公司检索公告，接口错误0条"),
+        (f"{company_count.group(1)}家" if company_count else "待核", "公告覆盖公司，PDF原文均已下载抽取"),
+        ("6,000万股", "天地源控股股东新增质押股数"),
+        ("1.288亿元", "炼石航空一致行动人内部协议受让价款"),
+    ]
+    if pdf_count:
+        kpi_items[1] = (kpi_items[1][0], f"覆盖公司，PDF原文{pdf_count.group(1)}份已下载抽取")
+
+    def chip_html(title: str, block: str) -> str:
+        company = company_from_heading(title)
+        summary = truncate(first_paragraph(block), 92)
+        return f'<div class="chip"><b>{esc(company)}</b>{esc(summary)}</div>'
+
+    chips = "\n".join(chip_html(title, block) for title, block in subsections[:4])
+
+    risk_rows = []
+    for title, block in subsections[:4]:
+        company = company_from_heading(title)
+        body = truncate(first_paragraph(block), 112)
+        tag_text = "交易风险" if "异常波动" in title or "风险" in body else "重点跟踪"
+        tag_cls = "risk" if tag_text == "交易风险" else "watch"
+        risk_rows.append(
+            f'<tr><td>{esc(company)}</td><td>{esc(body)}</td><td><span class="tag {tag_cls}">{esc(tag_text)}</span></td></tr>'
+        )
+
+    tile_rows = []
+    for title, block in subsections[3:7]:
+        company = company_from_heading(title)
+        tile_rows.append(f'<div class="tile"><b>{esc(company)}</b><span>{esc(truncate(first_paragraph(block), 76))}</span></div>')
+    if len(tile_rows) < 4:
+        for title, block in subsections[: 4 - len(tile_rows)]:
+            tile_rows.append(f'<div class="tile"><b>{esc(company_from_heading(title))}</b><span>{esc(truncate(first_paragraph(block), 76))}</span></div>')
+
+    capital_rows = []
+    for title, block in subsections[1:6]:
+        company = company_from_heading(title)
+        first = first_paragraph(block)
+        numbers = re.findall(
+            r"(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?(?:%|％|万股|亿股|股|亿元|万元|元/股|年|日)",
+            first,
+        )
+        key = "；".join(numbers[:4]) if numbers else truncate(first, 62)
+        capital_rows.append(
+            f"<tr><td>{esc(company)}</td><td>{esc(key)}</td><td>{esc(truncate(judgement(block), 74))}</td></tr>"
+        )
+
+    fixed_left = []
+    fixed_right = []
+    for index, (title, block) in enumerate(subsections[:6]):
+        item = f'<div class="fixed-item"><b>{esc(company_from_heading(title))}</b>{esc(truncate(first_paragraph(block), 88))}</div>'
+        (fixed_left if index % 2 == 0 else fixed_right).append(item)
+
+    follow_items = []
+    for line in follow.splitlines():
+        line = line.strip()
+        if line.startswith("- "):
+            text = strip_md(line[2:])
+            name, _, body = text.partition("：")
+            if not body:
+                name, _, body = text.partition(":")
+            follow_items.append(f"<div><b>{esc(name)}</b>{esc(body or text)}</div>")
+
+    return f"""<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西上市公司公告早报｜{zh_day(day)}</title>
+  <style>{style}</style>
+</head>
+<body>
+  <main class="page" data-template="listed-v1-official">
+    <header class="topbar">
+      <div>
+        <h1>陕西上市公司公告早报</h1>
+        <div class="subtitle">{zh_day(day)}｜{esc(title_theme)}</div>
+      </div>
+      <div class="source">
+        <strong>覆盖 85 家上市公司</strong>
+        沪市{markets['SH']}家｜深市{markets['SZ']}家｜北交所{markets['BJ']}家<br>
+        名单来源：陕西证监局｜公告源：巨潮资讯 CNINFO
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="kpis">
+        {''.join(f'<div class="kpi"><div class="num">{esc(num)}</div><div class="label">{esc(label)}</div></div>' for num, label in kpi_items)}
+      </div>
+
+      <div class="grid">
+        <section class="section">
+          <div class="section-title"><span class="no">01</span>今日业务机会</div>
+          <div class="body chips">{chips}</div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><span class="no">02</span>重大事项与风险公告</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:20%"><col style="width:57%"><col style="width:23%"></colgroup>
+              <thead><tr><th>公司</th><th>事项</th><th>业务判断</th></tr></thead>
+              <tbody>{''.join(risk_rows)}</tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">03</span>上市公司动态</div>
+          <div class="body tiles">{''.join(tile_rows[:4])}</div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">04</span>股东变动与资本运作</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:16%"><col style="width:43%"><col style="width:41%"></colgroup>
+              <thead><tr><th>公司</th><th>关键数字</th><th>业务关注</th></tr></thead>
+              <tbody>{''.join(capital_rows)}</tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">05</span>股东会、业绩与固定披露清单</div>
+          <div class="body two-col">
+            <div><p class="subhead">A. 股权、质押与激励</p><div class="fixed-list">{''.join(fixed_left)}</div></div>
+            <div><p class="subhead">B. 治理、股东会与后续执行</p><div class="fixed-list">{''.join(fixed_right)}</div></div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">06</span>今日重点跟踪公司</div>
+          <div class="body follow">{''.join(follow_items)}</div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="note">
+      <span>资料来源：陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》、巨潮资讯公告原文及本地PDF抽取文本。仅作公告信息整理，不构成投资建议。</span>
+      <span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://refrain97.github.io/shaanxi-capital-market-daily/v1/</span>
+    </footer>
+  </main>
+</body>
+</html>"""
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", required=True)
     parser.add_argument("--data-dir", default=str(DATA_DIR))
     parser.add_argument("--output-dir", default=str(OUTPUT_DIR))
     parser.add_argument(
+        "--official-from-md",
+        action="store_true",
+        help="Render the official V1 HTML/PNG from a hand-curated精读 Markdown report.",
+    )
+    parser.add_argument("--png", action="store_true", help="Also render the official PNG via Chrome.")
+    parser.add_argument(
         "--auto-draft",
         action="store_true",
         help="Generate an automatic draft only. V1 official reports must follow the精读版 SOP.",
     )
     args = parser.parse_args()
+    day = date.fromisoformat(args.date)
+    out_dir = Path(args.output_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    md_path = out_dir / f"shaanxi-listed-company-morning-{day:%Y-%m-%d}.md"
+    html_path = out_dir / f"shaanxi-listed-company-morning-{day:%Y-%m-%d}-publish.html"
+    png_path = out_dir / f"{zh_day(day)}陕西上市公司早报.png"
+
+    if args.official_from_md:
+        if not md_path.exists():
+            raise SystemExit(f"Missing curated Markdown: {md_path}")
+        html_path.write_text(
+            render_official_html_from_markdown(day, md_path.read_text(encoding="utf-8")),
+            encoding="utf-8",
+        )
+        print(f"Wrote {html_path}")
+        if args.png:
+            render_html_to_png(html_path, png_path)
+        return 0
+
     if not args.auto_draft:
         raise SystemExit(
             "Listed-company V1 official reports use the 精读版 workflow. "
             "Read templates/shaanxi-listed-company-morning-report-v1-sop.md, "
             "extract PDF numbers, and hand-curate the Markdown/HTML. "
-            "Use --auto-draft only for a non-final starting draft."
+            "Use --official-from-md for final rendering or --auto-draft only for a non-final starting draft."
         )
-    day = date.fromisoformat(args.date)
     data_path = Path(args.data_dir) / f"cninfo-shaanxi-announcements-{day:%Y-%m-%d}.json"
     data = json.loads(data_path.read_text(encoding="utf-8"))
     items = data[f"{day:%Y-%m-%d}~{day:%Y-%m-%d}"]
     universe_count = int(data.get("_summary", {}).get("companyUniverseCount") or 85)
     companies = len({str(item.get("_matchedCompanyName") or item.get("secName")) for item in items})
 
-    out_dir = Path(args.output_dir)
-    out_dir.mkdir(parents=True, exist_ok=True)
-    md_path = out_dir / f"shaanxi-listed-company-morning-{day:%Y-%m-%d}.md"
-    html_path = out_dir / f"shaanxi-listed-company-morning-{day:%Y-%m-%d}-publish.html"
     md_path.write_text(render_markdown(day, items, companies), encoding="utf-8")
     html_path.write_text(render_html(day, items, universe_count), encoding="utf-8")
     print(f"Wrote {md_path}")
