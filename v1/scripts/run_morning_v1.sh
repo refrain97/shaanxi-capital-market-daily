@@ -76,6 +76,7 @@ day = date.fromisoformat(sys.argv[1])
 zh = f"{day.year}年{day.month}月{day.day}日"
 items = [
     ("listed markdown", root / f"v1/陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-{day:%Y-%m-%d}.md"),
+    ("listed curated json", root / f"v1/陕西省上市公司日报v1/data/curated/listed-official-{day:%Y-%m-%d}.json"),
     ("listed html", root / f"v1/陕西省上市公司日报v1/outputs/shaanxi-listed-company-morning-{day:%Y-%m-%d}-publish.html"),
     ("listed png", root / f"v1/陕西省上市公司日报v1/outputs/{zh}陕西上市公司早报.png"),
     ("private markdown", root / f"v1/陕西省证券私募日报v1/outputs/security-private-fund-daily-{day:%Y-%m-%d}.md"),
@@ -94,6 +95,7 @@ PY
 if [[ "$finalize" == "1" ]]; then
   echo
   echo "4) Finalize: upload ima and publish web"
+  python3 v1/scripts/validate_v1_outputs.py --date "$date_value"
   bash v1/scripts/upload_daily_ima.sh --date "$date_value"
   bash v1/scripts/publish_v1_to_vercel.sh --date "$date_value"
 else

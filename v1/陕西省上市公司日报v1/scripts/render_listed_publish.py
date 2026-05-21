@@ -551,23 +551,18 @@ def main() -> int:
     png_path = out_dir / f"{zh_day(day)}陕西上市公司早报.png"
 
     if args.official_from_md:
-        if not md_path.exists():
-            raise SystemExit(f"Missing curated Markdown: {md_path}")
-        html_path.write_text(
-            render_official_html_from_markdown(day, md_path.read_text(encoding="utf-8")),
-            encoding="utf-8",
+        raise SystemExit(
+            "--official-from-md is disabled for final V1 publishing because it can drift into "
+            "auto-extracted copy. Use scripts/render_listed_official_from_json.py with "
+            "data/curated/listed-official-YYYY-MM-DD.json."
         )
-        print(f"Wrote {html_path}")
-        if args.png:
-            render_html_to_png(html_path, png_path)
-        return 0
 
     if not args.auto_draft:
         raise SystemExit(
             "Listed-company V1 official reports use the 精读版 workflow. "
             "Read templates/shaanxi-listed-company-morning-report-v1-sop.md, "
             "extract PDF numbers, and hand-curate the Markdown/HTML. "
-            "Use --official-from-md for final rendering or --auto-draft only for a non-final starting draft."
+            "Use render_listed_official_from_json.py for final rendering or --auto-draft only for a non-final starting draft."
         )
     data_path = Path(args.data_dir) / f"cninfo-shaanxi-announcements-{day:%Y-%m-%d}.json"
     data = json.loads(data_path.read_text(encoding="utf-8"))

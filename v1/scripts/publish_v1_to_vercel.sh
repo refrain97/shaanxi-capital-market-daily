@@ -21,7 +21,7 @@ done
 cd "$repo_root"
 
 echo "==> Refreshing V1 archive index"
-python3 v1/scripts/generate_v1_previews.py
+python3 v1/scripts/generate_v1_previews.py --date "$date_value"
 python3 v1/scripts/update_v1_index.py
 python3 v1/scripts/inject_analytics.py
 python3 v1/scripts/validate_v1_outputs.py --date "$date_value"

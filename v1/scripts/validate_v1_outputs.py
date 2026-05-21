@@ -35,6 +35,7 @@ def validate_listed(day: date) -> None:
     html_path = outputs / f"shaanxi-listed-company-morning-{day:%Y-%m-%d}-publish.html"
     png_path = outputs / f"{zh_day(day)}陕西上市公司早报.png"
     json_path = data / f"cninfo-shaanxi-announcements-{day:%Y-%m-%d}.json"
+    curated_path = data / "curated" / f"listed-official-{day:%Y-%m-%d}.json"
     pdf_dir = data / f"pdfs-{day:%Y-%m-%d}"
     text_dir = data / f"pdf-text-{day:%Y-%m-%d}"
 
@@ -43,6 +44,7 @@ def validate_listed(day: date) -> None:
         ("listed HTML", html_path),
         ("listed PNG", png_path),
         ("listed CNINFO JSON", json_path),
+        ("listed curated official JSON", curated_path),
         ("listed PDF dir", pdf_dir),
         ("listed PDF text dir", text_dir),
     ):
@@ -51,6 +53,21 @@ def validate_listed(day: date) -> None:
     md = md_path.read_text(encoding="utf-8")
     html = html_path.read_text(encoding="utf-8")
     data_json = json.loads(json_path.read_text(encoding="utf-8"))
+    curated = json.loads(curated_path.read_text(encoding="utf-8"))
+    if curated.get("template") != "listed-v1-official" or curated.get("date") != f"{day:%Y-%m-%d}":
+        fail("listed curated JSON has wrong template or date")
+    for key, expected_len in (
+        ("kpis", 4),
+        ("opportunities", 4),
+        ("risk_rows", 4),
+        ("tiles", 4),
+        ("capital_rows", 5),
+        ("fixed_columns", 2),
+        ("follow_items", 6),
+    ):
+        value = curated.get(key)
+        if not isinstance(value, list) or len(value) != expected_len:
+            fail(f"listed curated JSON field {key} must contain {expected_len} items")
     day_key = f"{day:%Y-%m-%d}~{day:%Y-%m-%d}"
     items = data_json.get(day_key, [])
     if not isinstance(items, list) or not items:
@@ -96,6 +113,9 @@ def validate_listed(day: date) -> None:
     )
     if len(kpis) != 4:
         fail(f"listed HTML requires exactly 4 official KPI blocks, found {len(kpis)}")
+    for item in curated["kpis"]:
+        if str(item["num"]) not in html or str(item["label"]) not in html:
+            fail(f"listed HTML does not include curated KPI: {item}")
 
 
 def validate_index(day: date) -> None:

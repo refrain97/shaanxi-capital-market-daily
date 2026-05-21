@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 from datetime import date
 from pathlib import Path
 
@@ -51,7 +52,10 @@ def save_preview(source: Path, target_stem: str, *, width: int, quality: int = 8
 
 
 def main() -> int:
-    today = date.today()
+    parser = argparse.ArgumentParser(description="Generate V1 homepage preview images.")
+    parser.add_argument("--date", default=date.today().isoformat())
+    args = parser.parse_args()
+    today = date.fromisoformat(args.date)
     values = {
         "listed": (
             ROOT / "陕西省上市公司日报v1" / "outputs" / f"{zh_day(today)}陕西上市公司早报.png",

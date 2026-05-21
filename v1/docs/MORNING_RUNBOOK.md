@@ -83,7 +83,9 @@ bash v1/scripts/run_morning_v1.sh --date YYYY-MM-DD --finalize
 ## 注意
 
 - 低频频道没有新增时，仍需生成当日日期图片并上传 ima；内容沿用上一期模板/累计看板，不改变事实内容，不新增事件。
-- 上市公司公告早报 V1 以 2026-05-08、2026-05-11、2026-05-13 三版为样例基准；正式稿必须下载/抽取高价值公告 PDF 原文、提取数字、写“今日一句话 / 重点播报 / 明日跟踪清单 / 播报收尾”，并按六栏精读图版呈现。
+- 上市公司公告早报 V1 以 2026-05-20/2026-05-21 六栏精读图版为固定发布格式；正式稿必须下载/抽取高价值公告 PDF 原文、提取数字、写“今日一句话 / 重点播报 / 明日跟踪清单 / 播报收尾”，再将精读结果填入 `v1/陕西省上市公司日报v1/data/curated/listed-official-YYYY-MM-DD.json`。
+- 上市公司 HTML/PNG 只能由 `python3 v1/陕西省上市公司日报v1/scripts/render_listed_official_from_json.py --date YYYY-MM-DD --png` 生成；不得用自动草稿或 Markdown 自动抽取稿发布。
+- 发布前必须通过 `python3 v1/scripts/validate_v1_outputs.py --date YYYY-MM-DD` 和 `python3 v1/scripts/check_v1_responsive.py`。校验不通过时，不得上传 ima、不得发布 Vercel/Pages。
 - ima 已有同名文件时，上传脚本会沿用现有去重逻辑生成带后缀的文件名。
 - `v1/scripts/update_v1_index.py` 只负责历史归档；最新日报首屏文案仍由 Codex 在生成当天内容后更新。
 
