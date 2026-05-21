@@ -73,6 +73,11 @@ def validate_listed(day: date) -> None:
         fail("listed HTML is not rendered by the official V1 renderer")
     if 'class="lab"' in html:
         fail("listed HTML contains simplified-template KPI class 'lab'")
+    main_html = html.split('<!-- V1_ANALYTICS_BODY_START -->', 1)[0]
+    if "…" in main_html:
+        fail("listed HTML contains auto-truncated ellipsis; use a hand-curated 精读版 layout")
+    if "2026年；" in main_html or "2025年；" in main_html:
+        fail("listed HTML appears to contain mechanically extracted year tokens as key numbers")
     for title in (
         "01</span>今日业务机会",
         "02</span>重大事项与风险公告",
