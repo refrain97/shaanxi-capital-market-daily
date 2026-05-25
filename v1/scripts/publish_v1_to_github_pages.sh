@@ -29,7 +29,7 @@ cd "$repo_root"
 echo "==> Packaging static site for GitHub Pages"
 python3 v1/scripts/package_portable_project.py
 
-if [[ "${GITHUB_PAGES_PUBLISH_MODE:-api}" == "api" ]]; then
+if [[ "${GITHUB_PAGES_PUBLISH_MODE:-git}" == "api" ]]; then
   echo "==> Publishing gh-pages via GitHub API"
   python3 v1/scripts/publish_v1_to_github_pages_api.py \
     --dist "$repo_root/dist/shaanxi-capital-market-daily" \

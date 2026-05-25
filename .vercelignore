@@ -9,6 +9,9 @@
 .env
 .env.*
 node_modules/
+.venv/
+.vercel-cli/
+.npm-bootstrap/
 .npm-cache/
 .openclaw-weixin-qr-session.json
 

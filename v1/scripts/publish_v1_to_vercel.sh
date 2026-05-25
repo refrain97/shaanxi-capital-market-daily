@@ -44,7 +44,7 @@ else
   echo "Vercel CLI not found. Install it with npm, or run: node .npm-bootstrap/package/bin/npm-cli.js install --prefix .vercel-cli vercel" >&2
   exit 1
 fi
-npm_config_cache="$repo_root/.npm-cache" "${vercel_cmd[@]}" --prod
+npm_config_cache="$repo_root/.npm-cache" "${vercel_cmd[@]}" --prod --yes
 
 echo "==> Deploying static V1 archive to GitHub Pages"
 bash v1/scripts/publish_v1_to_github_pages.sh --date "$date_value"
