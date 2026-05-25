@@ -79,34 +79,35 @@ def render_bar_chart(draw: ImageDraw.ImageDraw, origin: tuple[int, int], counts:
     ]
     x, y = origin
     max_value = max(counts.values()) if counts else 1
-    chart_w = 760
-    row_h = 86
+    chart_w = 610
+    row_h = 50
     for idx, (key, label, color) in enumerate(labels):
         yy = y + idx * row_h
         value = counts.get(key, 0)
-        text(draw, (x, yy + 6), label, 24, "ink", 1)
-        draw.rounded_rectangle((x + 130, yy + 10, x + 130 + chart_w, yy + 42), radius=12, fill="#edf2f7")
+        text(draw, (x, yy + 5), label, 22, "ink", 1)
+        draw.rounded_rectangle((x + 116, yy + 9, x + 116 + chart_w, yy + 35), radius=10, fill="#edf2f7")
         width = int(chart_w * value / max_value)
-        draw.rounded_rectangle((x + 130, yy + 10, x + 130 + width, yy + 42), radius=12, fill=COLORS[color])
-        text(draw, (x + 130 + chart_w + 22, yy + 6), f"{value}期", 24, "ink", 1)
-        text(draw, (x + 130, yy + 50), "归档入口已接入打开/下载跳转统计", 17, "muted", 0)
+        draw.rounded_rectangle((x + 116, yy + 9, x + 116 + width, yy + 35), radius=10, fill=COLORS[color])
+        text(draw, (x + 116 + chart_w + 18, yy + 5), f"{value}期", 22, "ink", 1)
 
 
-def render_flow(draw: ImageDraw.ImageDraw, x: int, y: int) -> None:
-    steps = [
-        ("首页/分享链接", "用户点击"),
-        ("/api/track", "服务端记录"),
-        ("Umami", "事件入库"),
-        ("日报文件", "302打开"),
-    ]
-    for idx, (title, sub) in enumerate(steps):
-        sx = x + idx * 275
-        draw.rounded_rectangle((sx, y, sx + 220, y + 118), radius=16, fill="#f8fafc", outline=COLORS["line"], width=2)
-        text(draw, (sx + 22, y + 24), title, 25, "ink", 1)
-        text(draw, (sx + 22, y + 68), sub, 18, "muted", 0)
-        if idx < len(steps) - 1:
-            draw.line((sx + 232, y + 58, sx + 266, y + 58), fill=COLORS["muted"], width=4)
-            draw.polygon([(sx + 266, y + 58), (sx + 254, y + 50), (sx + 254, y + 66)], fill=COLORS["muted"])
+def simple_box(
+    draw: ImageDraw.ImageDraw,
+    box: tuple[int, int, int, int],
+    number: str,
+    title: str,
+    lines: list[str],
+    color: str,
+) -> None:
+    x1, y1, x2, y2 = box
+    draw.rounded_rectangle(box, radius=18, fill=COLORS["paper"], outline=COLORS["line"], width=2)
+    draw.ellipse((x1 + 28, y1 + 28, x1 + 82, y1 + 82), fill=COLORS[color])
+    text(draw, (x1 + 46, y1 + 37), number, 24, "#ffffff", 1)
+    text(draw, (x1 + 104, y1 + 30), title, 30, "ink", 1)
+    yy = y1 + 92
+    for line in lines:
+        text(draw, (x1 + 42, yy), line, 22, "muted", 0)
+        yy += 38
 
 
 def main() -> int:
@@ -128,37 +129,49 @@ def main() -> int:
     }
     preview_total = sum(path.stat().st_size for path in (ROOT / "assets" / "previews").glob(f"*{day:%Y-%m-%d}*.webp"))
 
-    img = Image.new("RGB", (1400, 1640), COLORS["bg"])
+    img = Image.new("RGB", (1200, 1120), COLORS["bg"])
     draw = ImageDraw.Draw(img)
-    draw.rectangle((0, 0, 1400, 176), fill=COLORS["navy"])
-    text(draw, (72, 42), "V1 打开记录与统计覆盖看板", 48, "#ffffff", 1)
-    text(draw, (74, 106), f"{day:%Y-%m-%d}｜首页链接已接入 Vercel 服务端跳转统计 + Umami 前端统计", 24, "#d8e4f2", 0)
+    draw.rectangle((0, 0, 1200, 150), fill=COLORS["navy"])
+    text(draw, (64, 36), "打开记录怎么用", 48, "#ffffff", 1)
+    text(draw, (66, 98), f"{day:%Y-%m-%d}｜一句话：从网页入口打开日报，就能记录；直接发原始图片，记录不到。", 23, "#d8e4f2", 0)
 
-    card(draw, (72, 220, 392, 392), "归档日报", f"{len(reports)}期", "四个频道历史入口", "blue")
-    card(draw, (416, 220, 736, 392), "可统计链接", f"{tracked_links}个", "首页/归档/分享入口", "teal")
-    card(draw, (760, 220, 1080, 392), "服务端事件", "2类", "打开日报 / 下载资产", "amber")
-    card(draw, (1104, 220, 1328, 392), "今日预览", f"{preview_total / 1024:.0f}KB", "WebP 预览总量", "green")
+    simple_box(
+        draw,
+        (64, 190, 1136, 360),
+        "1",
+        "现在能记录什么？",
+        [
+            "打开 HTML 日报、打开 PNG 图片、打开 Markdown、复制分享链接。",
+            f"目前首页和归档里已有 {tracked_links} 个可统计入口。"
+        ],
+        "blue",
+    )
+    simple_box(
+        draw,
+        (64, 386, 1136, 556),
+        "2",
+        "在哪里看数据？",
+        [
+            "到 Umami 后台看：访问人数、打开次数、热门日报、来源渠道。",
+            "事件名称主要是：open_report、download_asset、share_copy。"
+        ],
+        "teal",
+    )
+    simple_box(
+        draw,
+        (64, 582, 1136, 752),
+        "3",
+        "什么情况记录不到？",
+        [
+            "别人如果绕过首页，直接打开原始 .png 或 .md 文件，网页代码不会运行。",
+            "所以对外统一发 Vercel 首页或“复制分享链接”。"
+        ],
+        "amber",
+    )
 
-    draw.rounded_rectangle((72, 430, 1328, 870), radius=18, fill=COLORS["paper"], outline=COLORS["line"], width=2)
-    text(draw, (104, 466), "频道归档覆盖", 30, "ink", 1)
-    text(draw, (104, 508), "每个归档按钮现在都会优先经过 /api/track，再跳转到真实日报文件。", 20, "muted", 0)
-    render_bar_chart(draw, (104, 570), counts)
-
-    draw.rounded_rectangle((72, 912, 1328, 1138), radius=18, fill=COLORS["paper"], outline=COLORS["line"], width=2)
-    text(draw, (104, 948), "打开记录链路", 30, "ink", 1)
-    render_flow(draw, 104, 1000)
-
-    draw.rounded_rectangle((72, 1180, 1328, 1516), radius=18, fill=COLORS["paper"], outline=COLORS["line"], width=2)
-    text(draw, (104, 1216), "今日发布资源体积", 30, "ink", 1)
-    y = 1272
-    for label, path in latest_pngs.items():
-        draw.rounded_rectangle((104, y, 1296, y + 48), radius=10, fill="#f8fafc", outline="#e8edf4", width=1)
-        text(draw, (128, y + 10), label, 22, "ink", 1)
-        text(draw, (1090, y + 10), fmt_size(path), 22, "muted", 1)
-        y += 62
-
-    text(draw, (104, 1548), "说明：真实访客、打开次数、来源渠道会进入 Umami 后台；本图展示的是当前工程侧已接入的统计覆盖与今日资源状态。", 18, "muted", 0)
-    text(draw, (104, 1582), "建议后续统一使用 Vercel 首页/分享链接作为对外入口，GitHub Pages 可继续作为静态备份。", 18, "muted", 0)
+    draw.rounded_rectangle((64, 786, 1136, 1068), radius=18, fill=COLORS["paper"], outline=COLORS["line"], width=2)
+    text(draw, (96, 812), f"当前覆盖：{len(reports)} 期归档日报", 28, "ink", 1)
+    render_bar_chart(draw, (96, 862), counts)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out = OUT_DIR / f"v1-open-record-dashboard-{day:%Y-%m-%d}.png"
