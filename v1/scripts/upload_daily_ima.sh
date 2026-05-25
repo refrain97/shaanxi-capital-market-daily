@@ -26,6 +26,19 @@ done
 
 cd "$repo_root"
 
+if ! auth_check=$(node v1/scripts/upload_ima_png.cjs \
+  --check-auth \
+  --kb "$(python3 - "$config_path" <<'PY'
+import json
+import sys
+from pathlib import Path
+print(json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))["defaultKnowledgeBaseId"])
+PY
+)" 2>&1); then
+  echo "$auth_check" >&2
+  exit 1
+fi
+
 python3 - "$config_path" "$date_value" <<'PY' > /tmp/v1_ima_upload_plan.tsv
 import json
 import sys

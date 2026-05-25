@@ -1,24 +1,34 @@
 #!/usr/bin/env node
 
 const fs = require("fs");
+const os = require("os");
 const path = require("path");
 const { spawnSync } = require("child_process");
 
-const skillRoot = "/Users/wangyue/.workbuddy/skills-marketplace/skills/ima-skills";
+const skillRoot =
+  process.env.IMA_SKILL_ROOT ||
+  path.join(os.homedir(), ".workbuddy/skills-marketplace/skills/ima-skills");
 const imaApiPath = path.join(skillRoot, "ima_api.cjs");
 const preflightPath = path.join(skillRoot, "knowledge-base/scripts/preflight-check.cjs");
 const cosUploadPath = path.join(skillRoot, "knowledge-base/scripts/cos-upload.cjs");
 
 function parseArgs(argv) {
   const args = {};
-  for (let i = 2; i < argv.length; i += 2) {
+  for (let i = 2; i < argv.length;) {
     const key = argv[i];
+    if (key === "--check-auth") {
+      args["check-auth"] = "1";
+      i += 1;
+      continue;
+    }
     const value = argv[i + 1];
     if (!key || !key.startsWith("--") || value === undefined) {
       throw new Error(`Bad argument near ${key || "(end)"}`);
     }
     args[key.slice(2)] = value;
+    i += 2;
   }
+  if (args["check-auth"]) return args;
   for (const key of ["file", "name", "record", "kb"]) {
     if (!args[key]) throw new Error(`Missing --${key}`);
   }
@@ -37,6 +47,13 @@ function api(apiPath, body) {
   const raw = run("node", [imaApiPath, apiPath, JSON.stringify(body)]);
   const parsed = JSON.parse(raw || "{}");
   if (parsed.code !== 0) {
+    if (parsed.code === 200002 || /auth failed/i.test(String(parsed.msg || ""))) {
+      throw new Error(
+        `IMA API ${apiPath} auth failed: ${raw}\n` +
+          "Please refresh the IMA OpenAPI Client ID / API Key at https://ima.qq.com/agent-interface " +
+          "and save them to ~/.config/ima/client_id and ~/.config/ima/api_key."
+      );
+    }
     throw new Error(`IMA API ${apiPath} failed: ${raw}`);
   }
   return parsed;
@@ -67,6 +84,12 @@ function searchHit(kbId, query) {
 
 function main() {
   const args = parseArgs(process.argv);
+  if (args["check-auth"]) {
+    if (!args.kb) throw new Error("Missing --kb");
+    api("openapi/wiki/v1/get_knowledge_base", { ids: [args.kb] });
+    process.stdout.write("IMA auth check: ok");
+    return;
+  }
   const filePath = path.resolve(args.file);
   const kbId = args.kb;
   const recordPath = path.resolve(args.record);

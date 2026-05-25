@@ -2,7 +2,11 @@
 .env
 .env.*
 node_modules/
+.venv/
 .vercel/
+.vercel-cli/
+.npm-bootstrap/
 .npm-cache/
 dist/
 packages/
+.vercel

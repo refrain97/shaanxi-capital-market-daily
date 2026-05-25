@@ -34,7 +34,17 @@ echo "==> Current local changes"
 git status --short
 
 echo "==> Deploying static V1 archive to Vercel production"
-npm_config_cache="$repo_root/.npm-cache" npx vercel --prod
+if command -v vercel >/dev/null 2>&1; then
+  vercel_cmd=(vercel)
+elif command -v npx >/dev/null 2>&1; then
+  vercel_cmd=(npx vercel)
+elif [[ -x "$repo_root/.vercel-cli/node_modules/.bin/vercel" ]]; then
+  vercel_cmd=("$repo_root/.vercel-cli/node_modules/.bin/vercel")
+else
+  echo "Vercel CLI not found. Install it with npm, or run: node .npm-bootstrap/package/bin/npm-cli.js install --prefix .vercel-cli vercel" >&2
+  exit 1
+fi
+npm_config_cache="$repo_root/.npm-cache" "${vercel_cmd[@]}" --prod
 
 echo "==> Deploying static V1 archive to GitHub Pages"
 bash v1/scripts/publish_v1_to_github_pages.sh --date "$date_value"
