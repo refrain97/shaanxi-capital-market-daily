@@ -23,7 +23,13 @@ TEAL = "#116a73"
 LINE = "#dfd8cc"
 CARD_BORDER = "#e4ded4"
 WHITE = "#ffffff"
-FONT_PATH = "/System/Library/Fonts/PingFang.ttc"
+FONT_CANDIDATES = [
+    "/System/Library/Fonts/PingFang.ttc",
+    "/System/Library/Fonts/STHeiti Medium.ttc",
+    "/System/Library/Fonts/STHeiti Light.ttc",
+    "/Library/Fonts/Arial Unicode.ttf",
+]
+FONT_PATH = next((path for path in FONT_CANDIDATES if Path(path).exists()), FONT_CANDIDATES[-1])
 OUTPUT_DIR = Path(__file__).resolve().parents[1] / "outputs"
 V1_SCRIPTS_DIR = Path(__file__).resolve().parents[2] / "scripts"
 WORK_OUTPUT_PATH = OUTPUT_DIR / "shaanxi_ma_cases_2026_detailed.png"

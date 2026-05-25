@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西上市公司公告早报｜2026年5月25日</title>
+  <style>
+    :root {
+      --navy: #0f243f;
+      --ink: #1d2733;
+      --muted: #667085;
+      --line: #d8dee8;
+      --soft: #f4f7fb;
+      --risk: #c2412f;
+      --risk-bg: #fff0ec;
+      --good: #16835a;
+      --good-bg: #eaf7f0;
+      --watch: #a16207;
+      --watch-bg: #fff7df;
+      --blue-bg: #eaf1fb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #e9eef5;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      color: var(--ink);
+    }
+
+    .page {
+      width: 1242px;
+      height: 2060px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .topbar {
+      background: var(--navy);
+      color: #fff;
+      padding: 38px 54px 28px;
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 28px;
+      align-items: end;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 54px;
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin-top: 16px;
+      font-size: 22px;
+      color: #d8e3f3;
+      line-height: 1.5;
+    }
+
+    .source {
+      text-align: right;
+      font-size: 20px;
+      line-height: 1.55;
+      color: #c8d5e6;
+    }
+
+    .source strong {
+      color: #fff;
+      font-size: 28px;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .content {
+      padding: 18px 42px 14px;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .kpi {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 11px 16px;
+      min-height: 72px;
+    }
+
+    .kpi .num {
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 800;
+      color: var(--navy);
+    }
+
+    .kpi .label {
+      margin-top: 8px;
+      font-size: 17px;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .section {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .section.wide { grid-column: 1 / -1; }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background: #f7f9fc;
+      border-bottom: 1px solid var(--line);
+      font-weight: 800;
+      font-size: 21px;
+      color: var(--navy);
+    }
+
+    .section-title .no {
+      display: inline-grid;
+      place-items: center;
+      min-width: 42px;
+      height: 28px;
+      border-radius: 5px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .body { padding: 9px 14px 10px; }
+
+    .chips {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 16px;
+      line-height: 1.36;
+      background: #fff;
+    }
+
+    .chip b {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 3px;
+      color: var(--navy);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 700;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+
+    td {
+      padding: 5px 8px;
+      border-bottom: 1px solid #edf1f6;
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 15px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .tag.risk { background: var(--risk-bg); color: var(--risk); }
+    .tag.good { background: var(--good-bg); color: var(--good); }
+    .tag.watch { background: var(--watch-bg); color: var(--watch); }
+    .tag.info { background: var(--blue-bg); color: var(--navy); }
+
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .tile {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 72px;
+      background: #fff;
+    }
+
+    .tile b {
+      display: block;
+      font-size: 18px;
+      color: var(--navy);
+      margin-bottom: 5px;
+    }
+
+    .tile span {
+      font-size: 15px;
+      line-height: 1.34;
+      color: #344054;
+    }
+
+    .mini-list {
+      display: grid;
+      gap: 7px;
+      font-size: 17px;
+      line-height: 1.35;
+    }
+
+    .mini-list div {
+      padding: 7px 9px;
+      border: 1px solid #edf1f6;
+      border-radius: 6px;
+      background: #fcfdff;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .subhead {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--navy);
+      margin: 0 0 7px;
+      padding-left: 4px;
+    }
+
+    .fixed-list {
+      display: grid;
+      gap: 6px;
+    }
+
+    .fixed-item {
+      border: 1px solid #e5ebf3;
+      border-radius: 6px;
+      padding: 6px 9px;
+      font-size: 15.6px;
+      line-height: 1.3;
+      background: #fff;
+    }
+
+    .fixed-item b {
+      color: var(--navy);
+      margin-right: 5px;
+    }
+
+    .follow {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+    }
+
+    .follow div {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 76px;
+      background: #fcfdff;
+      font-size: 14.8px;
+      line-height: 1.3;
+    }
+
+    .follow b {
+      display: block;
+      font-size: 17px;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+
+    .note {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 22px;
+      margin: 0 42px;
+      border-top: 1px solid var(--line);
+      padding-top: 9px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 16px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .small { font-size: 15.5px; color: var(--muted); }
+    .strong { font-weight: 800; color: var(--ink); }
+
+    @media (max-width: 720px) {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        margin: 0;
+        overflow: visible;
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        align-items: start;
+        padding: 24px 18px 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+        line-height: 1.12;
+      }
+
+      .subtitle {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      .source {
+        text-align: left;
+        font-size: 15px;
+      }
+
+      .source strong {
+        font-size: 20px;
+      }
+
+      .content {
+        padding: 14px 14px 22px;
+      }
+
+      .kpis,
+      .grid,
+      .chips,
+      .tiles,
+      .two-col,
+      .follow {
+        grid-template-columns: 1fr;
+      }
+
+      .section.wide {
+        grid-column: auto;
+      }
+
+      .kpi {
+        min-height: 0;
+      }
+
+      .kpi .num {
+        font-size: 27px;
+      }
+
+      .kpi .label {
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      .section-title {
+        align-items: flex-start;
+        padding: 10px 12px;
+        font-size: 18px;
+        line-height: 1.28;
+      }
+
+      .section-title .no {
+        min-width: 36px;
+        height: 26px;
+        font-size: 16px;
+      }
+
+      .body {
+        padding: 10px;
+      }
+
+      .chip,
+      .tile,
+      .follow div {
+        min-height: 0;
+      }
+
+      colgroup,
+      thead {
+        display: none;
+      }
+
+      table,
+      tbody,
+      tr,
+      td {
+        display: block;
+        width: 100%;
+      }
+
+      table {
+        font-size: 14px;
+      }
+
+      tr {
+        padding: 8px 0;
+        border-bottom: 1px solid #edf1f6;
+      }
+
+      tr:last-child {
+        border-bottom: 0;
+      }
+
+      td {
+        padding: 3px 0;
+        border-bottom: 0;
+      }
+
+      td:first-child {
+        color: var(--navy);
+        font-weight: 800;
+      }
+
+      .note {
+        position: static;
+        margin: 0 14px 22px;
+        padding-top: 12px;
+        display: grid;
+        gap: 8px;
+        font-size: 13px;
+        line-height: 1.45;
+      }
+    }
+  </style>
+<!-- V1_ANALYTICS_HEAD_START -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="ff2a4678-af6a-4b80-a4ff-15d3a9a62ebd" data-domains="refrain97.github.io,shaanxi-capital-market-daily.vercel.app"></script>
+  <!-- V1_ANALYTICS_HEAD_END -->
+</head>
+<body>
+  <main class="page" data-template="listed-v1-official">
+    <header class="topbar">
+      <div>
+        <h1>陕西上市公司公告早报</h1>
+        <div class="subtitle">2026年5月25日｜晨曦航空业绩说明会、订单波动、应收催收与控制权问答</div>
+      </div>
+      <div class="source">
+        <strong>覆盖 85 家上市公司</strong>
+        沪市42家｜深市37家｜北交所6家<br>
+        名单来源：陕西证监局｜公告源：巨潮资讯 CNINFO
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="kpis">
+        <div class="kpi"><div class="num">1条</div><div class="label">5月25日CNINFO逐公司检索公告，接口错误0条</div></div>
+        <div class="kpi"><div class="num">1家</div><div class="label">公告覆盖公司，1份PDF原文已下载抽取</div></div>
+        <div class="kpi"><div class="num">13,001.33万元</div><div class="label">晨曦航空披露2025年度营业收入</div></div>
+        <div class="kpi"><div class="num">-7,288.12万元</div><div class="label">晨曦航空披露2025年度归母净利润</div></div>
+      </div>
+
+      <div class="grid">
+        <section class="section">
+          <div class="section-title"><span class="no">01</span>今日业务机会</div>
+          <div class="body chips">
+            <div class="chip"><b>投资者关系 / 业绩说明会</b>晨曦航空披露2025年度网上业绩说明会记录，管理层回应减持、经营、订单、应收账款和技术路线等问题。</div>
+            <div class="chip"><b>经营跟踪 / 订单波动</b>公司回复目前经营正常，在手订单各年度存在一定波动，目前生产经营没有重大不确定性。</div>
+            <div class="chip"><b>应收账款 / 催收动作</b>针对应收款坏账比例较高问题，公司称现阶段已经加大应收账款催收力度，后续关注回款和减值变化。</div>
+            <div class="chip"><b>技术迭代 / 并购赋能</b>公司称将持续发展直升机、传动、发动机主机、微电子和工业仿真软件等基础专业，并以技术为粘合剂通过并购赋能发展。</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><span class="no">02</span>重大事项与风险公告</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:20%"><col style="width:57%"><col style="width:23%"></colgroup>
+              <thead><tr><th>公司</th><th>事项</th><th>业务判断</th></tr></thead>
+              <tbody>
+                <tr><td>晨曦航空</td><td>2025年度营业收入13,001.33万元，同比下降7.48%；归母净利润-7,288.12万元，同比下降174.14%。</td><td><span class="tag risk">业绩承压</span></td></tr>
+                <tr><td>晨曦航空</td><td>公司称目前经营正常，在手订单各年度存在一定波动，目前生产经营没有重大不确定性。</td><td><span class="tag watch">订单波动</span></td></tr>
+                <tr><td>晨曦航空</td><td>公司回应应收款坏账比例较高问题，称现阶段已经加大应收账款催收力度。</td><td><span class="tag watch">回款跟踪</span></td></tr>
+                <tr><td>晨曦航空</td><td>控股股东汇聚科技目前持股比例36.73%，公司称已披露减持计划不会导致控制权变更。</td><td><span class="tag info">控制权问答</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">03</span>上市公司动态</div>
+          <div class="body tiles">
+            <div class="tile"><b>晨曦航空：经营状态</b><span>业绩说明会回复显示，公司目前经营正常，在手订单存在年度波动，未披露生产经营重大不确定性。</span></div>
+            <div class="tile"><b>晨曦航空：主业方向</b><span>主营研发、生产、销售航空机电产品及相关技术服务，涉及航空惯性导航、航空发动机电子及无人机领域。</span></div>
+            <div class="tile"><b>晨曦航空：产品与技术</b><span>公司提及综合导航系统融合卫星、大气等导航传感信息，惯性导航仍为不可替代的自主导航方案。</span></div>
+            <div class="tile"><b>晨曦航空：直升机项目</b><span>公司称直升机研发中心项目中原理初代样机已经过初步试验，尚未经过鉴定验收，暂未应用民用无人机领域。</span></div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">04</span>股东变动与资本运作</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:16%"><col style="width:44%"><col style="width:40%"></colgroup>
+              <thead><tr><th>公司</th><th>关键数字</th><th>业务关注</th></tr></thead>
+              <tbody>
+                <tr><td>晨曦航空</td><td>2025年度营业收入<b>13,001.33万元</b>，上年同期<b>14,052.77万元</b>，同比下降<b>7.48%</b></td><td>收入继续承压，后续重点看航空电子、航空动力及航空器三大业务方向的新订单和交付节奏。</td></tr>
+                <tr><td>晨曦航空</td><td>2025年度归母净利润<b>-7,288.12万元</b>，上年同期<b>-2,658.51万元</b>，同比下降<b>174.14%</b></td><td>亏损扩大后，回款、费用控制、产品毛利修复和主机配套升级进度是经营改善观察点。</td></tr>
+                <tr><td>晨曦航空</td><td>业绩说明会时间为<b>2026年5月22日15:00-17:00</b>，记录披露日期为<b>2026年5月25日</b></td><td>该公告属于投资者关系记录，不构成交易、融资、担保、分红或并购事项的新增正式公告。</td></tr>
+                <tr><td>晨曦航空</td><td>控股股东汇聚科技被问及持股比例<b>36.73%</b>及继续减持后的控制权风险</td><td>公司称目前已披露减持计划不会导致控制权变更，后续仍需跟踪股东减持计划和权益变动公告。</td></tr>
+                <tr><td>晨曦航空</td><td>本日CNINFO逐公司检索陕西上市公司<b>85家</b>，命中公告<b>1条</b>，PDF原文<b>4页</b></td><td>今日无重大资产重组、再融资、分红、担保、质押等高价值公告命中，正式图版以经营问答跟踪为主。</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">05</span>股东会、治理与固定披露清单</div>
+          <div class="body two-col">
+            <div>
+              <p class="subhead">A. 经营、订单与回款</p>
+              <div class="fixed-list"><div class="fixed-item"><b>经营正常</b>公司回复目前经营正常，在手订单各年度存在一定波动，目前生产经营没有重大不确定性。</div><div class="fixed-item"><b>应收催收</b>公司针对应收款坏账比例较高问题回复称，现阶段已经加大应收账款催收力度。</div><div class="fixed-item"><b>主业产品</b>主要产品和服务涉及航空惯性导航、航空发动机电子及无人机领域。</div><div class="fixed-item"><b>客户与替代</b>公司称定型产品不可随意替代，并会随主机产品变更升级需求配套升级。</div></div>
+            </div>
+            <div>
+              <p class="subhead">B. 技术、股东与后续披露</p>
+              <div class="fixed-list"><div class="fixed-item"><b>导航路线</b>公司称惯性导航不依赖外部通讯，具备自主导航能力，是不可替代的自主导航方案。</div><div class="fixed-item"><b>直升机项目</b>原理初代样机已初步试验，尚未经过鉴定验收，暂未应用民用无人机领域。</div><div class="fixed-item"><b>减持披露</b>股东减持属自主决策事项，公司收到告知文件后将依法依规履行信息披露义务。</div><div class="fixed-item"><b>控制权</b>公司回复就目前已披露减持计划不会导致公司控制权变更。</div></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">06</span>今日重点跟踪公司</div>
+          <div class="body follow">
+            <div><b>晨曦航空</b>后续股东减持告知、权益变动、控制权稳定性及二级市场交易风险。</div>
+            <div><b>晨曦航空</b>2026年订单、交付、回款、应收账款减值和经营现金流改善情况。</div>
+            <div><b>晨曦航空</b>航空发动机电子业务配套升级、自研发动机及直升机迭代升级进展。</div>
+            <div><b>晨曦航空</b>微电子、工业AI软件、复合材料和工业仿真软件等基础专业的商业化兑现。</div>
+            <div><b>晨曦航空</b>直升机研发中心项目原理样机后续鉴定验收及民用无人机应用可能性。</div>
+            <div><b>陕西上市公司池</b>继续逐公司监控再融资、并购、质押、担保、分红和重大合同等高价值公告。</div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="note">
+      <span>资料来源：陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》、巨潮资讯公告原文及本地PDF抽取文本。仅作公告信息整理，不构成投资建议。</span>
+      <span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://refrain97.github.io/shaanxi-capital-market-daily/v1/</span>
+    </footer>
+  </main>
+<!-- V1_ANALYTICS_BODY_START -->
+  <script>
+    (() => {
+      const analytics = {
+        track(eventName, properties = {}) {
+          if (!window.umami || typeof window.umami.track !== "function") return;
+          window.umami.track(eventName, {
+            path: window.location.pathname,
+            title: document.title,
+            ...properties
+          });
+        }
+      };
+
+      function cleanUrl(value) {
+        return String(value || "").split("?")[0].toLowerCase();
+      }
+
+      function assetType(url) {
+        const clean = cleanUrl(url);
+        if (clean.endsWith(".html")) return "html";
+        if (clean.endsWith(".md")) return "markdown";
+        if (clean.endsWith(".png")) return "png";
+        if (clean.endsWith(".jpg") || clean.endsWith(".jpeg") || clean.endsWith(".webp")) return "image";
+        if (clean.startsWith("#")) return "anchor";
+        return "link";
+      }
+
+      function channel(url) {
+        if (url.includes("上市公司")) return "listed";
+        if (url.includes("证券私募")) return "private";
+        if (url.includes("收并购")) return "ma";
+        if (url.includes("金融招投标")) return "tender";
+        return "site";
+      }
+
+      document.addEventListener("click", (event) => {
+        const shareButton = event.target.closest("[data-share-url]");
+        if (shareButton) {
+          const shareUrl = new URL(shareButton.dataset.shareUrl, window.location.href).toString();
+          navigator.clipboard?.writeText(shareUrl);
+          analytics.track("share_copy", {
+            report: shareButton.dataset.shareReport || "",
+            target_url: shareUrl
+          });
+          return;
+        }
+
+        const filterButton = event.target.closest("[data-filter]");
+        if (filterButton) {
+          analytics.track("filter_archive", {
+            filter: filterButton.dataset.filter || ""
+          });
+          return;
+        }
+
+        const link = event.target.closest("a[href]");
+        if (!link) return;
+
+        const href = link.getAttribute("href") || "";
+        const type = assetType(href);
+        if (type === "anchor") {
+          analytics.track("nav_click", {
+            label: link.textContent.trim() || link.getAttribute("aria-label") || "",
+            target_url: href
+          });
+          return;
+        }
+
+        analytics.track(type === "html" ? "open_report" : "download_asset", {
+          channel: channel(href),
+          asset_type: type,
+          label: link.textContent.trim() || link.getAttribute("aria-label") || "",
+          target_url: new URL(href, window.location.href).toString()
+        });
+      });
+
+      const searchInput = document.querySelector("#searchInput");
+      if (searchInput) {
+        searchInput.addEventListener("change", () => {
+          analytics.track("search_archive", {
+            keyword: searchInput.value.trim()
+          });
+        });
+      }
+    })();
+  </script>
+  <!-- V1_ANALYTICS_BODY_END -->
+</body>
+</html>

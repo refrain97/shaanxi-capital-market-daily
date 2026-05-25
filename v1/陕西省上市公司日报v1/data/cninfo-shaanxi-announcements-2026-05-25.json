@@ -1,0 +1,47 @@
+{
+  "2026-05-25~2026-05-25": [
+    {
+      "id": null,
+      "secCode": "300581",
+      "secName": "晨曦航空",
+      "orgId": "9900030082",
+      "announcementId": "1225328114",
+      "announcementTitle": "300581晨曦航空投资者关系管理信息20260525",
+      "announcementTime": 1779683530000,
+      "adjunctUrl": "finalpage/2026-05-25/1225328114.PDF",
+      "adjunctSize": 130,
+      "adjunctType": "PDF",
+      "storageTime": null,
+      "columnId": "01010415||01010419||160213||160217||251310||251314",
+      "pageColumn": "SZCY",
+      "announcementType": "012001",
+      "associateAnnouncement": null,
+      "important": null,
+      "batchNum": null,
+      "announcementContent": "",
+      "orgName": null,
+      "tileSecName": "晨曦航空",
+      "shortTitle": "300581晨曦航空投资者关系管理信息20260525",
+      "announcementTypeName": null,
+      "secNameList": null,
+      "_matchedCompanyCode": "300581",
+      "_matchedCompanyName": "晨曦航空",
+      "_companyMarket": "SZ",
+      "_queryStock": "300581,9900030082"
+    }
+  ],
+  "_summary": {
+    "startDate": "2026-05-25",
+    "endDate": "2026-05-25",
+    "companyUniverseCount": 85,
+    "announcementCount": 1,
+    "coveredCompanyCount": 1,
+    "dateDistribution": {
+      "2026-05-25": 1
+    },
+    "errorCount": 0,
+    "errors": [],
+    "queryMethod": "company_by_company_cninfo_stock_code_orgId",
+    "warning": "If announcementCount is 0, do not publish a no-announcement report until the SOP second-pass verification is complete."
+  }
+}
