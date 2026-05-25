@@ -6,10 +6,12 @@ import re
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
+from urllib.parse import urlencode
 
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = ROOT / "index.html"
+TRACK_ENDPOINT = "https://shaanxi-capital-market-daily.vercel.app/api/track"
 
 WEEKDAYS = "一二三四五六日"
 
@@ -76,6 +78,37 @@ def preview_srcset(channel: str, day: date, ext: str) -> str:
     return f"assets/previews/{channel}-{day:%Y-%m-%d}.{ext}"
 
 
+def asset_type(url: str) -> str:
+    clean = url.split("?", 1)[0].split("#", 1)[0].lower()
+    if clean.endswith(".html"):
+        return "html"
+    if clean.endswith(".png"):
+        return "png"
+    if clean.endswith(".md"):
+        return "markdown"
+    if clean.endswith((".jpg", ".jpeg", ".webp")):
+        return "image"
+    return "page"
+
+
+def track_url(report: Report, url: str, *, source: str) -> str:
+    if not url or url.startswith("#") or url.startswith("http://") or url.startswith("https://"):
+        return url
+    kind = asset_type(url)
+    event = "server_open_report" if kind in {"html", "page"} else "server_download_asset"
+    params = urlencode(
+        {
+            "u": f"/v1/{url}",
+            "event": event,
+            "channel": report.channel,
+            "asset": kind,
+            "report": report_id(report),
+            "source": source,
+        }
+    )
+    return f"{TRACK_ENDPOINT}?{params}"
+
+
 def link_for(report: Report, preferred: tuple[str, ...]) -> str:
     links = dict(report.links)
     for label in preferred:
@@ -126,8 +159,9 @@ def render_latest_card(report: Report, *, lead: bool = False) -> str:
         "tender": '<span class="tag blue">金融招投标</span>',
     }
     preferred = ("HTML", "PNG", "Markdown") if report.channel != "ma" else ("PNG", "Markdown")
-    link = link_for(report, preferred)
-    share_link = f"{link}?from=share-copy&report={report_id(report)}"
+    direct_link = link_for(report, preferred)
+    link = track_url(report, direct_link, source="latest")
+    share_link = track_url(report, direct_link, source="share-copy")
     action_text = "打开图片" if report.channel == "ma" else "打开日报"
     title = channel_names[report.channel]
     summary = report.summary
@@ -361,7 +395,7 @@ def render_report(report: Report) -> str:
         for class_name, label in report.tags
     )
     actions = "\n".join(
-        f'              <a class="button" href="{html.escape(url)}">{html.escape(label)}</a>'
+        f'              <a class="button" href="{html.escape(track_url(report, url, source="archive"))}">{html.escape(label)}</a>'
         for label, url in report.links
     )
     return f"""          <article class="archive-row" data-type="{report.channel}" data-search="{html.escape(report.search)}">

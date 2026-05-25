@@ -28,7 +28,11 @@
 
 统计配置：`v1/config/analytics.json`
 
+服务端跳转统计：`api/track.js`
+
 发布脚本 `v1/scripts/publish_v1_to_vercel.sh` 已在刷新首页后自动执行统计注入，避免每日更新首页后丢失统计代码。
+
+首页和归档链接会优先生成到 `https://shaanxi-capital-market-daily.vercel.app/api/track?...`。该接口先向 Umami Cloud `/api/send` 发送 `server_open_report` 或 `server_download_asset` 事件，再 302 跳转到真实日报文件。因此，从首页点击打开 HTML、PNG、Markdown 都可以被服务端记录；直接把原始 `.png` 或 `.md` 文件地址发给别人仍然无法执行统计，建议分享时使用首页的“复制分享链接”。
 
 趋势看板样板：`v1/analytics-dashboard-sample.html`
 
