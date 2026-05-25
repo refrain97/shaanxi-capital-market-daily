@@ -32,11 +32,10 @@
 
     .page {
       width: 1242px;
-      height: 2060px;
+      min-height: 2060px;
       margin: 0 auto;
       background: #fff;
-      overflow: hidden;
-      position: relative;
+      overflow: visible;
     }
 
     .topbar {
@@ -79,7 +78,7 @@
     }
 
     .content {
-      padding: 18px 42px 14px;
+      padding: 18px 42px 12px;
     }
 
     .kpis {
@@ -309,16 +308,13 @@
     }
 
     .note {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 22px;
-      margin: 0 42px;
+      margin: 10px 42px 22px;
       border-top: 1px solid var(--line);
       padding-top: 9px;
       background: #fff;
       color: var(--muted);
       font-size: 16px;
+      line-height: 1.42;
       display: flex;
       justify-content: space-between;
       gap: 20px;

@@ -239,7 +239,7 @@ def render_png(html_path: Path, png_path: Path) -> None:
             "--disable-gpu",
             "--hide-scrollbars",
             "--force-device-scale-factor=1",
-            "--window-size=1242,2060",
+            "--window-size=1242,2180",
             f"--screenshot={png_path}",
             str(html_path),
         ],

@@ -60,26 +60,26 @@ def main() -> int:
         "listed": (
             ROOT / "陕西省上市公司日报v1" / "outputs" / f"{zh_day(today)}陕西上市公司早报.png",
             f"listed-{today:%Y-%m-%d}",
-            620,
-            86,
+            520,
+            78,
         ),
         "private": (
             ROOT / "陕西省证券私募日报v1" / "outputs" / f"{zh_day(today)}证券私募行业动态日报.png",
             f"private-{today:%Y-%m-%d}",
-            420,
-            84,
+            360,
+            78,
         ),
         "ma": (
             ROOT / "陕西省收并购日报v1" / "outputs" / f"{zh_day(today)}陕西辖区收并购事件详细案例看板.png",
             f"ma-{today:%Y-%m-%d}",
-            420,
-            84,
+            360,
+            78,
         ),
         "tender": (
             ROOT / "陕西省金融招投标项目v1" / "outputs" / f"shaanxi-finance-tender-projects-{today:%Y-%m-%d}.png",
             f"tender-{today:%Y-%m-%d}",
-            420,
-            84,
+            360,
+            78,
         ),
     }
     for source, stem, width, quality in values.values():

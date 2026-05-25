@@ -73,9 +73,7 @@ def preview_path(channel: str, day: date, ext: str) -> str:
 
 
 def preview_srcset(channel: str, day: date, ext: str) -> str:
-    base = f"assets/previews/{channel}-{day:%Y-%m-%d}.{ext}"
-    retina = f"assets/previews/{channel}-{day:%Y-%m-%d}@2x.{ext}"
-    return f"{base} 1x, {retina} 2x"
+    return f"assets/previews/{channel}-{day:%Y-%m-%d}.{ext}"
 
 
 def link_for(report: Report, preferred: tuple[str, ...]) -> str:
@@ -440,7 +438,6 @@ def main() -> None:
             r'<link rel="preload" as="image" href="assets/previews/listed-\d{4}-\d{2}-\d{2}\.webp"(?: imagesrcset="[^"]+")? type="image/webp" fetchpriority="high">',
             (
                 f'<link rel="preload" as="image" href="{preview_path("listed", latest["listed"].day, "webp")}" '
-                f'imagesrcset="{preview_srcset("listed", latest["listed"].day, "webp")}" '
                 'type="image/webp" fetchpriority="high">'
             ),
             updated,
