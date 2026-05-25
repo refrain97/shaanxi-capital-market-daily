@@ -4,12 +4,17 @@ set -euo pipefail
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 repo_root="$(cd "$script_dir/../.." && pwd)"
 date_value="$(date +%F)"
+start_date_value=""
 finalize="0"
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --date)
       date_value="$2"
+      shift 2
+      ;;
+    --start-date)
+      start_date_value="$2"
       shift 2
       ;;
     --finalize)
@@ -25,20 +30,54 @@ done
 
 cd "$repo_root"
 
+if [[ -z "$start_date_value" ]]; then
+  start_date_value="$(python3 - "$date_value" <<'PY'
+from datetime import date, timedelta
+import sys
+
+day = date.fromisoformat(sys.argv[1])
+cursor = day - timedelta(days=1)
+while cursor.weekday() >= 5:
+    cursor -= timedelta(days=1)
+print(cursor.isoformat())
+PY
+)"
+fi
+
 echo "V1 Shaanxi Capital Market Dynamics date: $date_value"
+echo "Report retrieval window: $start_date_value -> $date_value"
 echo
 echo "1) Data scripts that can run directly"
 
 listed_dir="v1/陕西省上市公司日报v1"
 listed_data="$listed_dir/data/cninfo-shaanxi-announcements-$date_value.json"
-if [[ -f "$listed_data" ]]; then
+listed_needs_fetch="1"
+if [[ -f "$listed_data" ]] && python3 - "$listed_data" "$start_date_value" "$date_value" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+path = Path(sys.argv[1])
+expected_start = sys.argv[2]
+expected_end = sys.argv[3]
+data = json.loads(path.read_text(encoding="utf-8"))
+summary = data.get("_summary", {})
+if summary.get("startDate") == expected_start and summary.get("endDate") == expected_end:
+    raise SystemExit(0)
+raise SystemExit(1)
+PY
+then
+  listed_needs_fetch="0"
+fi
+
+if [[ "$listed_needs_fetch" == "0" ]]; then
   echo "ok listed data: $listed_data"
 else
-  echo "run listed CNINFO fetch"
+  echo "run listed CNINFO fetch ($start_date_value -> $date_value)"
   (
     cd "$listed_dir"
     python3 scripts/fetch_cninfo_shaanxi_announcements.py \
-      --start-date "$date_value" \
+      --start-date "$start_date_value" \
       --end-date "$date_value" \
       --output "data/cninfo-shaanxi-announcements-$date_value.json"
   ) || echo "warn listed CNINFO fetch needs manual retry/check"

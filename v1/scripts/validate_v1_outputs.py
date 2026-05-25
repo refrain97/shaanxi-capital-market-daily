@@ -68,7 +68,10 @@ def validate_listed(day: date) -> None:
         value = curated.get(key)
         if not isinstance(value, list) or len(value) != expected_len:
             fail(f"listed curated JSON field {key} must contain {expected_len} items")
-    day_key = f"{day:%Y-%m-%d}~{day:%Y-%m-%d}"
+    summary = data_json.get("_summary", {})
+    start_date = summary.get("startDate", f"{day:%Y-%m-%d}")
+    end_date = summary.get("endDate", f"{day:%Y-%m-%d}")
+    day_key = f"{start_date}~{end_date}"
     items = data_json.get(day_key, [])
     if not isinstance(items, list) or not items:
         fail(f"listed CNINFO JSON has no announcement list for {day_key}")

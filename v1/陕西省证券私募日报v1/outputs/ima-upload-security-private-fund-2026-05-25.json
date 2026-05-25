@@ -3,24 +3,24 @@
   "knowledgeBaseName": "公告检索",
   "knowledgeBaseId": "WFRa_8s9eTeZR-uXPO4mm9EUAbWmE6RycX6fDtASJeA=",
   "recommendedFileName": "2026年5月25日证券私募行业动态日报.png",
-  "uploadedFileName": "2026年5月25日证券私募行业动态日报.png",
-  "mediaId": "img_2ba8b3a1c5db398497ee0bc27d25605c_335fa8d26ad041992a55a399f46c54947453274147926671",
+  "uploadedFileName": "2026年5月25日证券私募行业动态日报_20260525200240.png",
+  "mediaId": "img_2ba8b3a1c5db398497ee0bc27d25605c_7c18dae6642d42f342c02d4a503cd3c67453274147926671",
   "localFile": "v1/陕西省证券私募日报v1/outputs/2026年5月25日证券私募行业动态日报.png",
   "imageFile": "v1/陕西省证券私募日报v1/outputs/2026年5月25日证券私募行业动态日报.png",
   "addKnowledgeResponse": {
     "code": 0,
     "msg": "success",
     "data": {
-      "media_id": "img_2ba8b3a1c5db398497ee0bc27d25605c_335fa8d26ad041992a55a399f46c54947453274147926671"
+      "media_id": "img_2ba8b3a1c5db398497ee0bc27d25605c_7c18dae6642d42f342c02d4a503cd3c67453274147926671"
     },
-    "request_id": "76c41a90a0b57443fa6782f98b0fd167"
+    "request_id": "1ae5a01048144979db9e36fe27b2682d"
   },
   "searchVerified": {
     "exactFileName": false,
     "dateKeyword": true
   },
   "verificationMode": "dateKeyword",
-  "usedDuplicateSuffix": false,
-  "verificationQuery": "2026年5月25日证券私募行业动态日报.png",
-  "uploadedAt": "2026-05-25T05:51:12.971Z"
+  "usedDuplicateSuffix": true,
+  "verificationQuery": "2026年5月25日证券私募行业动态日报_20260525200240.png",
+  "uploadedAt": "2026-05-25T12:02:43.520Z"
 }
