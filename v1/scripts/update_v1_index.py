@@ -92,6 +92,7 @@ def asset_type(url: str) -> str:
 
 
 def track_url(report: Report, url: str, *, source: str) -> str:
+    return url
     if not url or url.startswith("#") or url.startswith("http://") or url.startswith("https://"):
         return url
     kind = asset_type(url)

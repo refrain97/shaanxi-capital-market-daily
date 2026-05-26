@@ -31,6 +31,10 @@ function normalizePath(value) {
   }
 }
 
+function redirectLocation(path) {
+  return encodeURI(path || "/v1/");
+}
+
 function assetType(pathname) {
   const clean = pathname.split("?")[0].split("#")[0].toLowerCase();
   if (clean.endsWith(".html")) return "html";
@@ -115,6 +119,6 @@ module.exports = async function track(req, res) {
   res.setHeader("Cache-Control", "no-store, max-age=0");
   res.setHeader("X-Robots-Tag", "noindex");
   res.statusCode = 302;
-  res.setHeader("Location", targetPath);
+  res.setHeader("Location", redirectLocation(targetPath));
   res.end();
 };
