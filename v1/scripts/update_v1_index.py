@@ -6,12 +6,10 @@ import re
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
-from urllib.parse import urlencode
 
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = ROOT / "index.html"
-TRACK_ENDPOINT = "https://shaanxi-capital-market-daily.vercel.app/api/track"
 
 WEEKDAYS = "一二三四五六日"
 
@@ -92,22 +90,9 @@ def asset_type(url: str) -> str:
 
 
 def track_url(report: Report, url: str, *, source: str) -> str:
+    # Keep report links as static assets. Client-side analytics can fail without
+    # blocking navigation; server-side redirect tracking must stay optional.
     return url
-    if not url or url.startswith("#") or url.startswith("http://") or url.startswith("https://"):
-        return url
-    kind = asset_type(url)
-    event = "server_open_report" if kind in {"html", "page"} else "server_download_asset"
-    params = urlencode(
-        {
-            "u": f"/v1/{url}",
-            "event": event,
-            "channel": report.channel,
-            "asset": kind,
-            "report": report_id(report),
-            "source": source,
-        }
-    )
-    return f"{TRACK_ENDPOINT}?{params}"
 
 
 def link_for(report: Report, preferred: tuple[str, ...]) -> str:
