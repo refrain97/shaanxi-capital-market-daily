@@ -210,6 +210,12 @@ def main() -> int:
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(json.dumps(summary, ensure_ascii=False, indent=2))
+    if errors and len(errors) >= len(companies) and not items:
+        print(
+            "CNINFO fetch failed for every company; refusing to treat this as a valid no-announcement run.",
+            file=sys.stderr,
+        )
+        return 3
     return 0 if not errors else 2
 
 

@@ -14,6 +14,7 @@ import json
 import random
 import re
 import socket
+import ssl
 import sys
 import time
 import urllib.error
@@ -131,8 +132,22 @@ def post_json(path: str, payload: dict[str, Any], page: int = 0, referer: str = 
 def get_text(url: str) -> str:
     headers = {"User-Agent": "Mozilla/5.0", "Referer": BASE}
     request = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return response.read().decode("utf-8", errors="replace")
+    last_error: Exception | None = None
+    for attempt in range(8):
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                return response.read().decode("utf-8", errors="replace")
+        except (
+            urllib.error.URLError,
+            TimeoutError,
+            socket.timeout,
+            ssl.SSLError,
+            http.client.RemoteDisconnected,
+            http.client.IncompleteRead,
+        ) as exc:
+            last_error = exc
+            time.sleep(1.0 * (attempt + 1))
+    raise RuntimeError(f"AMAC detail request failed after retries: {url} {last_error}") from last_error
 
 
 def fetch_all(path: str, payload: dict[str, Any], referer: str, max_pages: int = 80) -> list[dict[str, Any]]:

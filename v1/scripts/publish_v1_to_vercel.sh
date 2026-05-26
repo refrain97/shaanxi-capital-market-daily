@@ -20,15 +20,21 @@ done
 
 cd "$repo_root"
 
+if [[ -x "$repo_root/.venv/bin/python" ]]; then
+  PYTHON_BIN="$repo_root/.venv/bin/python"
+else
+  PYTHON_BIN="${PYTHON_BIN:-python3}"
+fi
+
 echo "==> Refreshing V1 archive index"
-python3 v1/scripts/generate_v1_previews.py --date "$date_value"
-python3 v1/scripts/update_v1_index.py
-python3 v1/scripts/inject_analytics.py
-python3 v1/scripts/validate_v1_outputs.py --date "$date_value"
-python3 v1/scripts/check_v1_responsive.py
+"$PYTHON_BIN" v1/scripts/generate_v1_previews.py --date "$date_value"
+"$PYTHON_BIN" v1/scripts/update_v1_index.py
+"$PYTHON_BIN" v1/scripts/inject_analytics.py
+"$PYTHON_BIN" v1/scripts/validate_v1_outputs.py --date "$date_value"
+"$PYTHON_BIN" v1/scripts/check_v1_responsive.py
 
 echo "==> Validating Vercel config"
-python3 -m json.tool vercel.json >/dev/null
+"$PYTHON_BIN" -m json.tool vercel.json >/dev/null
 
 echo "==> Current local changes"
 git status --short

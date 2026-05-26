@@ -26,12 +26,18 @@ done
 
 cd "$repo_root"
 
+if [[ -x "$repo_root/.venv/bin/python" ]]; then
+  PYTHON_BIN="$repo_root/.venv/bin/python"
+else
+  PYTHON_BIN="${PYTHON_BIN:-python3}"
+fi
+
 echo "==> Packaging static site for GitHub Pages"
-python3 v1/scripts/package_portable_project.py
+"$PYTHON_BIN" v1/scripts/package_portable_project.py
 
 if [[ "${GITHUB_PAGES_PUBLISH_MODE:-git}" == "api" ]]; then
   echo "==> Publishing gh-pages via GitHub API"
-  python3 v1/scripts/publish_v1_to_github_pages_api.py \
+  "$PYTHON_BIN" v1/scripts/publish_v1_to_github_pages_api.py \
     --dist "$repo_root/dist/shaanxi-capital-market-daily" \
     --date "$date_value"
   echo "==> Verifying live GitHub Pages date"

@@ -26,9 +26,15 @@ done
 
 cd "$repo_root"
 
+if [[ -x "$repo_root/.venv/bin/python" ]]; then
+  PYTHON_BIN="$repo_root/.venv/bin/python"
+else
+  PYTHON_BIN="${PYTHON_BIN:-python3}"
+fi
+
 if ! auth_check=$(node v1/scripts/upload_ima_png.cjs \
   --check-auth \
-  --kb "$(python3 - "$config_path" <<'PY'
+  --kb "$("$PYTHON_BIN" - "$config_path" <<'PY'
 import json
 import sys
 from pathlib import Path
@@ -39,7 +45,7 @@ PY
   exit 1
 fi
 
-python3 - "$config_path" "$date_value" <<'PY' > /tmp/v1_ima_upload_plan.tsv
+"$PYTHON_BIN" - "$config_path" "$date_value" <<'PY' > /tmp/v1_ima_upload_plan.tsv
 import json
 import sys
 from datetime import date
@@ -89,7 +95,7 @@ while IFS=$'\t' read -r channel label file_path upload_name record_path keyword;
   fi
 
   echo "branding: $label -> $file_path"
-  python3 v1/scripts/brand_v1_png.py "$file_path" >/dev/null
+  "$PYTHON_BIN" v1/scripts/brand_v1_png.py "$file_path" >/dev/null
 
   if [[ "$force" != "1" && -f "$record_path" ]] && grep -q '"uploadStatus": "success"' "$record_path"; then
     echo "skip uploaded: $label -> $record_path"

@@ -7,6 +7,12 @@ date_value="$(date +%F)"
 start_date_value=""
 finalize="0"
 
+if [[ -x "$repo_root/.venv/bin/python" ]]; then
+  PYTHON_BIN="$repo_root/.venv/bin/python"
+else
+  PYTHON_BIN="${PYTHON_BIN:-python3}"
+fi
+
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --date)
@@ -31,7 +37,7 @@ done
 cd "$repo_root"
 
 if [[ -z "$start_date_value" ]]; then
-  start_date_value="$(python3 - "$date_value" <<'PY'
+  start_date_value="$("$PYTHON_BIN" - "$date_value" <<'PY'
 from datetime import date, timedelta
 import sys
 
@@ -52,7 +58,7 @@ echo "1) Data scripts that can run directly"
 listed_dir="v1/陕西省上市公司日报v1"
 listed_data="$listed_dir/data/cninfo-shaanxi-announcements-$date_value.json"
 listed_needs_fetch="1"
-if [[ -f "$listed_data" ]] && python3 - "$listed_data" "$start_date_value" "$date_value" <<'PY'
+if [[ -f "$listed_data" ]] && "$PYTHON_BIN" - "$listed_data" "$start_date_value" "$date_value" <<'PY'
 import json
 import sys
 from pathlib import Path
@@ -62,7 +68,14 @@ expected_start = sys.argv[2]
 expected_end = sys.argv[3]
 data = json.loads(path.read_text(encoding="utf-8"))
 summary = data.get("_summary", {})
-if summary.get("startDate") == expected_start and summary.get("endDate") == expected_end:
+error_count = int(summary.get("errorCount") or 0)
+company_count = int(summary.get("companyUniverseCount") or 0)
+if (
+    summary.get("startDate") == expected_start
+    and summary.get("endDate") == expected_end
+    and error_count == 0
+    and not (company_count and error_count >= company_count)
+):
     raise SystemExit(0)
 raise SystemExit(1)
 PY
@@ -76,11 +89,14 @@ else
   echo "run listed CNINFO fetch ($start_date_value -> $date_value)"
   (
     cd "$listed_dir"
-    python3 scripts/fetch_cninfo_shaanxi_announcements.py \
+    "$PYTHON_BIN" scripts/fetch_cninfo_shaanxi_announcements.py \
       --start-date "$start_date_value" \
       --end-date "$date_value" \
       --output "data/cninfo-shaanxi-announcements-$date_value.json"
-  ) || echo "warn listed CNINFO fetch needs manual retry/check"
+  ) || {
+    echo "error listed CNINFO fetch failed; stop before producing an incomplete daily report" >&2
+    exit 1
+  }
 fi
 
 private_dir="v1/陕西省证券私募日报v1"
@@ -90,11 +106,14 @@ if [[ -f "$private_data" ]]; then
   echo "ok private data: $private_data"
 else
   echo "run AMAC private-fund data script"
-  python3 "$private_dir/scripts/amac_security_private_daily.py" --date "$date_value" || echo "warn AMAC script needs manual retry/check"
+  "$PYTHON_BIN" "$private_dir/scripts/amac_security_private_daily.py" --date "$date_value" --sleep 0.3 || {
+    echo "error AMAC private-fund data script failed; stop before producing an incomplete daily report" >&2
+    exit 1
+  }
 fi
 if [[ -f "$private_data" && ! -f "$private_html" ]]; then
   echo "render private-fund publish HTML"
-  python3 "$private_dir/scripts/render_security_private_publish.py" --date "$date_value"
+  "$PYTHON_BIN" "$private_dir/scripts/render_security_private_publish.py" --date "$date_value"
 fi
 
 echo
@@ -105,7 +124,7 @@ echo "Runbook: v1/docs/MORNING_RUNBOOK.md"
 
 echo
 echo "3) Current output check"
-python3 - "$date_value" <<'PY'
+"$PYTHON_BIN" - "$date_value" <<'PY'
 from datetime import date
 from pathlib import Path
 import sys
@@ -134,7 +153,6 @@ PY
 if [[ "$finalize" == "1" ]]; then
   echo
   echo "4) Finalize: upload ima and publish web"
-  python3 v1/scripts/validate_v1_outputs.py --date "$date_value"
   bash v1/scripts/upload_daily_ima.sh --date "$date_value"
   bash v1/scripts/publish_v1_to_vercel.sh --date "$date_value"
 else
