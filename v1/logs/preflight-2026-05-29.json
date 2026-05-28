@@ -1,0 +1,164 @@
+{
+  "date": "2026-05-29",
+  "checkedAt": "2026-05-29T03:32:22",
+  "environment": {
+    "http_proxy": "",
+    "https_proxy": "",
+    "all_proxy": ""
+  },
+  "proxy": {
+    "ok": true,
+    "returncode": 0,
+    "stdout": "<dictionary> {\n  ExceptionsList : <array> {\n    0 : 127.0.0.1\n    1 : 192.168.0.0/16\n    2 : 10.0.0.0/8\n    3 : 172.16.0.0/12\n    4 : localhost\n    5 : *.local\n    6 : *.crashlytics.com\n    7 : <local>\n  }\n  FTPPassive : 1\n  HTTPEnable : 1\n  HTTPPort : 7890\n  HTTPProxy : 127.0.0.1\n  HTTPSEnable : 1\n  HTTPSPort : 7890\n  HTTPSProxy : 127.0.0.1\n  ProxyAutoConfigEnable : 0\n  ProxyAutoDiscoveryEnable : 0\n  SOCKSEnable : 1\n  SOCKSPort : 7890\n  SOCKSProxy : 127.0.0.1\n}",
+    "stderr": "",
+    "elapsedSec": 0.008
+  },
+  "dns": {
+    "cninfo": {
+      "ok": true,
+      "host": "www.cninfo.com.cn",
+      "ips": [
+        "58.216.32.181",
+        "58.216.32.184",
+        "58.216.32.185",
+        "58.216.32.193",
+        "58.216.32.197",
+        "58.216.32.199"
+      ],
+      "fakeIps": [],
+      "usesFakeIp": false
+    },
+    "cninfo_static": {
+      "ok": true,
+      "host": "static.cninfo.com.cn",
+      "ips": [
+        "58.216.32.181",
+        "58.216.32.184",
+        "58.216.32.185",
+        "58.216.32.193",
+        "58.216.32.197",
+        "58.216.32.199"
+      ],
+      "fakeIps": [],
+      "usesFakeIp": false
+    },
+    "amac": {
+      "ok": true,
+      "host": "gs.amac.org.cn",
+      "ips": [
+        "222.218.85.98",
+        "240e:978:2608:d01:70::21",
+        "240e:978:30a:6:40::10",
+        "58.216.6.12",
+        "58.42.59.230"
+      ],
+      "fakeIps": [],
+      "usesFakeIp": false
+    },
+    "github_pages": {
+      "ok": true,
+      "host": "refrain97.github.io",
+      "ips": [
+        "185.199.108.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.111.153",
+        "2606:50c0:8000::153",
+        "2606:50c0:8001::153",
+        "2606:50c0:8002::153",
+        "2606:50c0:8003::153"
+      ],
+      "fakeIps": [],
+      "usesFakeIp": false
+    },
+    "vercel": {
+      "ok": true,
+      "host": "shaanxi-capital-market-daily.vercel.app",
+      "ips": [
+        "2a03:2880:f134:183:face:b00c:0:25de",
+        "31.13.95.37"
+      ],
+      "fakeIps": [],
+      "usesFakeIp": false
+    }
+  },
+  "checks": {
+    "cninfo_index": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "HTTP/1.1 200 200\nDate: Thu, 28 May 2026 19:32:23 GMT\nContent-Type: text/html;charset=utf-8\nConnection: keep-alive\nServer: openresty\nSet-Cookie: JSESSIONID=A0E3B0F8225C0A334EABE984798CDE2C; Path=/new; HttpOnly\nSet-Cookie: JSESSIONID=A0E3B0F8225C0A334EABE984798CDE2C;Path=/new;HttpOnly\nContent-Language: en-US\nVary: Accept-Encoding\nContent-Security-Policy: default-src *;style-src 'self' 'unsafe-inline' *.cninfo.com.cn *.szse.cn ;script-src 'self' 'unsafe-inline' 'unsafe-eval' *.cninfo.com.cn *.szse.cn;img-src * *.cninfo.com.cn *.szse.cn data:;worker-src * *.cninfo.com.cn *.szse.cn blob:;font-src 'self' *.cninfo.com.cn *.szse.cn data:;\nAccess-Control-Allow-Credentials: true\nAccess-Control-Allow-Headers: X-Requested-With\nAccess-Control-Allow-Methods: GET, POST, OPTIONS\nX-CCDN-Origin-Time: 26\nvia: CHN-JSchangzhou-CT8-CACHE19[59],CHN-JSchangzhou-CT8-CACHE16[57,TCP_MISS,59],CHN-GDdongguan-GLOBAL1-CACHE48[30],CHN-GDdongguan-GLOBAL1-CACHE120[26,TCP_MISS,28]\nx-hcs-proxy-type: 0\nX-CCDN-CacheTTL: 0\nX-CCDN-REQ-ID-46B1: 062861c723126b691d1ef33f20529409\nAge: 1",
+      "stderr": "",
+      "elapsedSec": 0.236,
+      "label": "cninfo_index",
+      "required": true
+    },
+    "cninfo_query": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"classifiedAnnouncements\":null,\"totalSecurities\":0,\"totalAnnouncement\":2598,\"totalRecordNum\":2598,\"announcements\":[{\"id\":null,\"secCode\":\"06082\",\"secName\":\"壁仞科技\",\"orgId\":\"9900063682\",\"announcementId\":\"1224916959\",\"announcementTitle\":\"澄清公告\",\"announcementTime\":1767366267000,\"adjunctUrl\":\"finalpage/2026-01-02/1224916959.PDF\",\"adjunctSize\":1163,\"adjunctType\":\"PDF\",\"storageTime\":null,\"columnId\":\"250501\",\"pageColumn\":\"HKZB\",\"announcementType\":\"01010517||0101051701\",\"associateAnnouncement\":null,\"important\":null,\"batchNum\":null,\"announcementContent\":\"\",\"orgName\":null,\"tileSecName\":\"壁仞科技\",\"shortTitle\":\"澄清公告\",\"announcementTypeName\":null,\"secNameList\":null}],\"categoryList\":null,\"hasMore\":true,\"totalpages\":2598}",
+      "stderr": "",
+      "elapsedSec": 0.195,
+      "label": "cninfo_query",
+      "required": true
+    },
+    "amac": {
+      "ok": true,
+      "mode": "module_fallback",
+      "direct": {
+        "ok": false,
+        "returncode": 22,
+        "stdout": "",
+        "stderr": "curl: (22) The requested URL returned error: 400",
+        "elapsedSec": 0.142,
+        "label": "amac_api_direct",
+        "required": false
+      },
+      "module": {
+        "ok": true,
+        "returncode": 0,
+        "stdout": "{\"rows\": 20, \"totalElements\": 24959}",
+        "stderr": "",
+        "elapsedSec": 1.903
+      }
+    },
+    "vercel_site": {
+      "ok": false,
+      "returncode": 35,
+      "stdout": "",
+      "stderr": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to shaanxi-capital-market-daily.vercel.app:443",
+      "elapsedSec": 1.118,
+      "label": "vercel_site",
+      "required": true
+    },
+    "github_pages_site": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "HTTP/2 200 \nserver: GitHub.com\ncontent-type: text/html; charset=utf-8\nlast-modified: Thu, 28 May 2026 05:44:13 GMT\naccess-control-allow-origin: *\nstrict-transport-security: max-age=31556952\netag: \"6a17d62d-19841\"\nexpires: Thu, 28 May 2026 19:42:27 GMT\ncache-control: max-age=600\nx-proxy-cache: MISS\nx-github-request-id: B84C:367196:C31F69:C83F70:6A18984B\naccept-ranges: bytes\ndate: Thu, 28 May 2026 19:32:28 GMT\nvia: 1.1 varnish\nage: 0\nx-served-by: cache-sjc10078-SJC\nx-cache: MISS\nx-cache-hits: 0\nx-timer: S1779996748.887674,VS0,VE114\nvary: Accept-Encoding\nx-fastly-request-id: c424da73c141eba2c701fd672c0fc3a5ae4d1a05\ncontent-length: 104513",
+      "stderr": "",
+      "elapsedSec": 1.108,
+      "label": "github_pages_site",
+      "required": true
+    },
+    "git_origin_gh_pages": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "e9b7ec8baf35f30c28d38706ead55b84d2f9fe0c\trefs/heads/gh-pages",
+      "stderr": "",
+      "elapsedSec": 6.81
+    },
+    "vercel_cli": {
+      "ok": true
+    },
+    "chrome": {
+      "ok": true
+    }
+  },
+  "summary": {
+    "ok": false,
+    "failures": [
+      "vercel_site"
+    ],
+    "fakeDnsHosts": [],
+    "note": "AMAC direct access may fail on proxy fake-ip networks; ok if amac mode is direct, module_fallback, or curl_resolve."
+  }
+}

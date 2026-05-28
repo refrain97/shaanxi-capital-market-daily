@@ -23,26 +23,32 @@
 ## Codex 执行顺序
 
 1. 读取本文件和 `v1/README.md`，确认日期、四个频道和低频频道观察规则。
-2. 先运行可自动化的数据脚本。日报统计窗口不是自然日当天，而是“上一交易日收盘后至本次运行日”。周二至周五默认从前一自然日开始；周一必须覆盖上周五、周六、周日至周一运行时点。脚本会自动计算该窗口，也可用 `--start-date YYYY-MM-DD` 手工指定：
+2. 先运行统一体检脚本，确认本机网络、代理/DNS、CNINFO、AMAC、Vercel、GitHub Pages/Git 权限、Chrome 等关键依赖。体检日志写入 `v1/logs/preflight-YYYY-MM-DD.json`；若 AMAC 直连失败但脚本 fallback 成功，属于可继续运行的已知本机 fake-ip 场景：
+
+```bash
+python3 v1/scripts/preflight_v1_network.py --date YYYY-MM-DD --write-log
+```
+
+3. 再运行可自动化的数据脚本。日报统计窗口不是自然日当天，而是“上一交易日收盘后至本次运行日”。周二至周五默认从前一自然日开始；周一必须覆盖上周五、周六、周日至周一运行时点。脚本会自动计算该窗口，也可用 `--start-date YYYY-MM-DD` 手工指定：
 
 ```bash
 bash v1/scripts/run_morning_v1.sh --date YYYY-MM-DD
 ```
 
-3. 逐个频道按 SOP 生成：
+4. 逐个频道按 SOP 生成：
 
 - 上市公司公告早报：读取 CNINFO 数据后，必须按精读版 SOP 制作 Markdown、发布 HTML、发布 PNG；自动标题分类稿只能作为候选草稿，不能作为正式稿。
 - 证券私募日报：运行 AMAC 数据脚本，生成 Markdown、发布 HTML、发布 PNG。
 - 收并购日报：先观察新增/进展；有增量则更新 Markdown 和案例看板 PNG；无增量也要生成当日观察 Markdown，并沿用累计看板模板只更新日期，输出当日 PNG。
 - 金融招投标清单：先观察新增/结果回溯；有增量则更新 Markdown、HTML 和 PNG；无增量也要生成当日观察 Markdown，并沿用上一期发布模板只更新日期，输出当日 HTML 和 PNG。
 
-4. 所有四个频道的当日 PNG 就绪后，上传到 ima：
+5. 所有四个频道的当日 PNG 就绪后，上传到 ima：
 
 ```bash
 bash v1/scripts/upload_daily_ima.sh --date YYYY-MM-DD
 ```
 
-5. 刷新网页归档，发布到 Vercel，并同步发布到 GitHub Pages：
+6. 刷新网页归档，发布到 Vercel，并同步发布到 GitHub Pages：
 
 ```bash
 bash v1/scripts/publish_v1_to_vercel.sh --date YYYY-MM-DD
@@ -52,7 +58,7 @@ bash v1/scripts/publish_v1_to_vercel.sh --date YYYY-MM-DD
 
 - `v1/scripts/update_v1_index.py` 生成的 `v1/index.html` 必须包含 `YYYY-MM-DD 更新`。
 - Vercel 部署成功后，必须执行 `v1/scripts/publish_v1_to_github_pages.sh --date YYYY-MM-DD`，把打包后的静态站同步到 `gh-pages` 分支；GitHub Pages 当前读取 `gh-pages`，不能只推 `main`。
-- `publish_v1_to_github_pages.sh` 必须直接请求 `https://refrain97.github.io/shaanxi-capital-market-daily/v1/`，确认线上页面包含 `YYYY-MM-DD 更新`。未确认前，最终回复只能写“Pages 未确认”，不能写“已发布”。
+- `publish_v1_to_github_pages.sh` 必须等待 GitHub Pages latest build 变为 `built`，再直接请求 `https://refrain97.github.io/shaanxi-capital-market-daily/v1/`，确认线上页面包含 `YYYY-MM-DD 更新`。未确认前，最终回复只能写“Pages 未确认”，不能写“已发布”。
 
 网页入口页更新要求：
 
@@ -63,9 +69,10 @@ bash v1/scripts/publish_v1_to_vercel.sh --date YYYY-MM-DD
 - 底部使用客户联系区：华泰证券西安锦业路证券营业部（西北分公司机构业务中心），联系人为机构业务中心，邮箱 `wangyue021243@htsc.com`。
 - 四个频道的发布 PNG 生成后都必须加来源标识：`华泰证券西安锦业路证券营业部（西北分公司机构业务中心）` 和网页地址 `https://refrain97.github.io/shaanxi-capital-market-daily/v1/`。可直接运行 `python3 v1/scripts/brand_v1_png.py <PNG路径>`；`upload_daily_ima.sh` 在上传前也会自动补一次。
 
-6. 最终回复必须包含：
+7. 最终回复必须包含：
 
 - 四个频道的处理结果：已生成 / 沿用模板改日期 / 需要人工确认。
+- 体检结果：是否存在 fake-ip DNS、AMAC 使用 direct 还是 fallback、体检日志路径。
 - ima 上传结果：成功数量、跳过数量、缺失数量；正常日缺失应为 0。
 - 网页发布地址和实测结果：`https://refrain97.github.io/shaanxi-capital-market-daily/v1/` 必须已返回当天 `YYYY-MM-DD 更新`。
 - 本地新增或修改的关键文件。
@@ -83,6 +90,8 @@ bash v1/scripts/run_morning_v1.sh --date YYYY-MM-DD --finalize
 ## 注意
 
 - 低频频道没有新增时，仍需生成当日日期图片并上传 ima；内容沿用上一期模板/累计看板，不改变事实内容，不新增事件。
+- 不要把 AMAC 直连 `Empty reply from server` 直接判断为对方网站故障；先看 `preflight_v1_network.py` 的 fake-ip 和 AMAC fallback 结果。本机代理 fake-ip 场景下，AMAC 可通过脚本内 DoH/`curl --resolve` fallback 跑通。
+- GitHub Pages 不要只等固定 2 分钟；必须以 latest build API 状态和线上首页日期为准。Pages 构建中时继续等待，构建失败时才报失败。
 - 上市公司公告早报 V1 以 2026-05-20/2026-05-21 六栏精读图版为固定发布格式；正式稿必须下载/抽取高价值公告 PDF 原文、提取数字、写“今日一句话 / 重点播报 / 明日跟踪清单 / 播报收尾”，再将精读结果填入 `v1/陕西省上市公司日报v1/data/curated/listed-official-YYYY-MM-DD.json`。
 - 上市公司 HTML/PNG 只能由 `python3 v1/陕西省上市公司日报v1/scripts/render_listed_official_from_json.py --date YYYY-MM-DD --png` 生成；不得用自动草稿或 Markdown 自动抽取稿发布。
 - 发布前必须通过 `python3 v1/scripts/validate_v1_outputs.py --date YYYY-MM-DD` 和 `python3 v1/scripts/check_v1_responsive.py`。校验不通过时，不得上传 ima、不得发布 Vercel/Pages。

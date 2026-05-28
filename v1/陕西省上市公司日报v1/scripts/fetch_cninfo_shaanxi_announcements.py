@@ -9,8 +9,10 @@ from __future__ import annotations
 
 import argparse
 import json
+import http.client
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from collections import Counter
@@ -41,6 +43,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--page-size", type=int, default=30)
     parser.add_argument("--sleep", type=float, default=0.08, help="公司之间请求间隔秒数。")
     parser.add_argument("--timeout", type=float, default=20)
+    parser.add_argument("--retries", type=int, default=3, help="Transient network retries per CNINFO request.")
     return parser.parse_args()
 
 
@@ -54,19 +57,28 @@ def load_companies(path: Path) -> list[dict[str, Any]]:
     return companies
 
 
-def post_cninfo(params: dict[str, str], timeout: float) -> dict[str, Any]:
+def post_cninfo(params: dict[str, str], timeout: float, retries: int) -> dict[str, Any]:
     data = urllib.parse.urlencode(params).encode("utf-8")
-    req = urllib.request.Request(
-        CNINFO_QUERY_URL,
-        data=data,
-        headers={
-            "User-Agent": "Mozilla/5.0",
-            "Referer": REFERER,
-            "Content-Type": "application/x-www-form-urlencoded",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=timeout) as response:
-        return json.loads(response.read().decode("utf-8"))
+    last_error: BaseException | None = None
+    for attempt in range(1, retries + 1):
+        req = urllib.request.Request(
+            CNINFO_QUERY_URL,
+            data=data,
+            headers={
+                "User-Agent": "Mozilla/5.0",
+                "Referer": REFERER,
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except (urllib.error.URLError, TimeoutError, http.client.RemoteDisconnected, json.JSONDecodeError) as exc:
+            last_error = exc
+            if attempt >= retries:
+                break
+            time.sleep(0.6 * attempt)
+    raise RuntimeError(f"CNINFO request failed after {retries} attempts: {last_error!r}") from last_error
 
 
 def fetch_company(
@@ -75,6 +87,7 @@ def fetch_company(
     end_date: str,
     page_size: int,
     timeout: float,
+    retries: int,
 ) -> list[dict[str, Any]]:
     page = 1
     results: list[dict[str, Any]] = []
@@ -97,7 +110,7 @@ def fetch_company(
             "sortType": "",
             "isHLtitle": "true",
         }
-        payload = post_cninfo(params, timeout)
+        payload = post_cninfo(params, timeout, retries)
         announcements = payload.get("announcements") or []
         total = int(payload.get("totalRecordNum") or 0)
 
@@ -164,6 +177,7 @@ def main() -> int:
                     args.end_date,
                     args.page_size,
                     args.timeout,
+                    args.retries,
                 )
             )
         except Exception as exc:  # noqa: BLE001 - record and continue for daily work.

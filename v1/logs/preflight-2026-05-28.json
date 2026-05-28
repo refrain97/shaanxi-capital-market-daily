@@ -1,0 +1,156 @@
+{
+  "date": "2026-05-28",
+  "checkedAt": "2026-05-28T14:02:23",
+  "environment": {
+    "http_proxy": "",
+    "https_proxy": "",
+    "all_proxy": ""
+  },
+  "proxy": {
+    "ok": true,
+    "returncode": 0,
+    "stdout": "<dictionary> {\n  ExceptionsList : <array> {\n    0 : 127.0.0.1\n    1 : 192.168.0.0/16\n    2 : 10.0.0.0/8\n    3 : 172.16.0.0/12\n    4 : localhost\n    5 : *.local\n    6 : *.crashlytics.com\n    7 : <local>\n  }\n  FTPPassive : 1\n  HTTPEnable : 1\n  HTTPPort : 7890\n  HTTPProxy : 127.0.0.1\n  HTTPSEnable : 1\n  HTTPSPort : 7890\n  HTTPSProxy : 127.0.0.1\n  ProxyAutoConfigEnable : 0\n  ProxyAutoDiscoveryEnable : 0\n  SOCKSEnable : 1\n  SOCKSPort : 7890\n  SOCKSProxy : 127.0.0.1\n}",
+    "stderr": "",
+    "elapsedSec": 0.009
+  },
+  "dns": {
+    "cninfo": {
+      "ok": true,
+      "host": "www.cninfo.com.cn",
+      "ips": [
+        "198.18.0.100"
+      ],
+      "fakeIps": [
+        "198.18.0.100"
+      ],
+      "usesFakeIp": true
+    },
+    "cninfo_static": {
+      "ok": true,
+      "host": "static.cninfo.com.cn",
+      "ips": [
+        "198.18.0.111"
+      ],
+      "fakeIps": [
+        "198.18.0.111"
+      ],
+      "usesFakeIp": true
+    },
+    "amac": {
+      "ok": true,
+      "host": "gs.amac.org.cn",
+      "ips": [
+        "198.18.0.101"
+      ],
+      "fakeIps": [
+        "198.18.0.101"
+      ],
+      "usesFakeIp": true
+    },
+    "github_pages": {
+      "ok": true,
+      "host": "refrain97.github.io",
+      "ips": [
+        "198.18.0.108"
+      ],
+      "fakeIps": [
+        "198.18.0.108"
+      ],
+      "usesFakeIp": true
+    },
+    "vercel": {
+      "ok": true,
+      "host": "shaanxi-capital-market-daily.vercel.app",
+      "ips": [
+        "198.18.0.109"
+      ],
+      "fakeIps": [
+        "198.18.0.109"
+      ],
+      "usesFakeIp": true
+    }
+  },
+  "checks": {
+    "cninfo_index": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "HTTP/1.1 200 200\nDate: Thu, 28 May 2026 06:02:23 GMT\nContent-Type: text/html;charset=utf-8\nConnection: keep-alive\nServer: openresty\nSet-Cookie: JSESSIONID=3D6697B0C0FBFF6F7CDF76CBDBC48438; Path=/new; HttpOnly\nSet-Cookie: JSESSIONID=3D6697B0C0FBFF6F7CDF76CBDBC48438;Path=/new;HttpOnly\nContent-Language: en-US\nVary: Accept-Encoding\nContent-Security-Policy: default-src *;style-src 'self' 'unsafe-inline' *.cninfo.com.cn *.szse.cn ;script-src 'self' 'unsafe-inline' 'unsafe-eval' *.cninfo.com.cn *.szse.cn;img-src * *.cninfo.com.cn *.szse.cn data:;worker-src * *.cninfo.com.cn *.szse.cn blob:;font-src 'self' *.cninfo.com.cn *.szse.cn data:;\nAccess-Control-Allow-Credentials: true\nAccess-Control-Allow-Headers: X-Requested-With\nAccess-Control-Allow-Methods: GET, POST, OPTIONS\nSet-Cookie: SF_cookie_4=17470996; path=/\nX-CCDN-Origin-Time: 82\nAge: 1\nvia: CHN-JSchangzhou-CT8-CACHE27[119],CHN-JSchangzhou-CT8-CACHE16[115,TCP_MISS,116],CHN-JSwuxi-GLOBAL2-CACHE106[92],CHN-JSwuxi-GLOBAL2-CACHE120[82,TCP_MISS,91]\nx-hcs-proxy-type: 0\nX-CCDN-CacheTTL: 0\nX-CCDN-REQ-ID-46B1: 49f2f4403d7348497a05ef833e978311",
+      "stderr": "",
+      "elapsedSec": 0.213,
+      "label": "cninfo_index",
+      "required": true
+    },
+    "cninfo_query": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"classifiedAnnouncements\":null,\"totalSecurities\":0,\"totalAnnouncement\":2598,\"totalRecordNum\":2598,\"announcements\":[{\"id\":null,\"secCode\":\"06082\",\"secName\":\"壁仞科技\",\"orgId\":\"9900063682\",\"announcementId\":\"1224916959\",\"announcementTitle\":\"澄清公告\",\"announcementTime\":1767366267000,\"adjunctUrl\":\"finalpage/2026-01-02/1224916959.PDF\",\"adjunctSize\":1163,\"adjunctType\":\"PDF\",\"storageTime\":null,\"columnId\":\"250501\",\"pageColumn\":\"HKZB\",\"announcementType\":\"01010517||0101051701\",\"associateAnnouncement\":null,\"important\":null,\"batchNum\":null,\"announcementContent\":\"\",\"orgName\":null,\"tileSecName\":\"壁仞科技\",\"shortTitle\":\"澄清公告\",\"announcementTypeName\":null,\"secNameList\":null}],\"categoryList\":null,\"hasMore\":true,\"totalpages\":2598}",
+      "stderr": "",
+      "elapsedSec": 0.211,
+      "label": "cninfo_query",
+      "required": true
+    },
+    "amac": {
+      "ok": true,
+      "mode": "module_fallback",
+      "direct": {
+        "ok": false,
+        "returncode": 52,
+        "stdout": "",
+        "stderr": "curl: (52) Empty reply from server",
+        "elapsedSec": 5.136,
+        "label": "amac_api_direct",
+        "required": false
+      },
+      "module": {
+        "ok": true,
+        "returncode": 0,
+        "stdout": "{\"rows\": 20, \"totalElements\": 24959}",
+        "stderr": "",
+        "elapsedSec": 19.379
+      }
+    },
+    "vercel_site": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "HTTP/2 200 \naccept-ranges: bytes\naccess-control-allow-origin: *\nage: 2106\ncache-control: public, max-age=0, must-revalidate\ncontent-disposition: inline; filename=\"v1\"\ncontent-type: text/html; charset=utf-8\ndate: Thu, 28 May 2026 06:02:50 GMT\netag: \"d4e650ddd3f767192737bde748a0a28c\"\nlast-modified: Thu, 28 May 2026 05:27:43 GMT\nreferrer-policy: strict-origin-when-cross-origin\nserver: Vercel\nstrict-transport-security: max-age=63072000; includeSubDomains; preload\nx-content-type-options: nosniff\nx-vercel-cache: HIT\nx-vercel-id: sfo1::2hls7-1779948170252-cd8fe98fb5d5\ncontent-length: 104513",
+      "stderr": "",
+      "elapsedSec": 1.87,
+      "label": "vercel_site",
+      "required": true
+    },
+    "github_pages_site": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "HTTP/2 200 \nserver: GitHub.com\ncontent-type: text/html; charset=utf-8\nlast-modified: Thu, 28 May 2026 05:44:13 GMT\naccess-control-allow-origin: *\nstrict-transport-security: max-age=31556952\netag: \"6a17d62d-19841\"\nexpires: Thu, 28 May 2026 06:07:26 GMT\ncache-control: max-age=600\nx-proxy-cache: MISS\nx-github-request-id: 3F08:3FB235:468820:4895D7:6A17D946\naccept-ranges: bytes\nage: 325\ndate: Thu, 28 May 2026 06:02:51 GMT\nvia: 1.1 varnish\nx-served-by: cache-sjc1000128-SJC\nx-cache: HIT\nx-cache-hits: 0\nx-timer: S1779948171.179618,VS0,VE1\nvary: Accept-Encoding\nx-fastly-request-id: 93a10dfd12638c5cbdee9fce8c74ad616ae72305\ncontent-length: 104513",
+      "stderr": "",
+      "elapsedSec": 0.918,
+      "label": "github_pages_site",
+      "required": true
+    },
+    "git_origin_gh_pages": {
+      "ok": true,
+      "returncode": 0,
+      "stdout": "e9b7ec8baf35f30c28d38706ead55b84d2f9fe0c\trefs/heads/gh-pages",
+      "stderr": "",
+      "elapsedSec": 3.047
+    },
+    "vercel_cli": {
+      "ok": true
+    },
+    "chrome": {
+      "ok": true
+    }
+  },
+  "summary": {
+    "ok": true,
+    "failures": [],
+    "fakeDnsHosts": [
+      "cninfo",
+      "cninfo_static",
+      "amac",
+      "github_pages",
+      "vercel"
+    ],
+    "note": "AMAC direct access may fail on proxy fake-ip networks; ok if amac mode is direct, module_fallback, or curl_resolve."
+  }
+}

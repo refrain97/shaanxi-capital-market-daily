@@ -6,6 +6,8 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import time
+import urllib.error
 import urllib.request
 from datetime import date
 from pathlib import Path
@@ -25,6 +27,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--date", required=True, help="Report date, YYYY-MM-DD.")
     parser.add_argument("--json", type=Path, help="CNINFO announcement JSON path.")
     parser.add_argument("--timeout", type=float, default=30)
+    parser.add_argument("--retries", type=int, default=3)
     return parser.parse_args()
 
 
@@ -40,16 +43,29 @@ def item_date_key(payload: dict[str, Any]) -> str:
     return f"{summary.get('startDate')}~{summary.get('endDate')}"
 
 
-def download(url: str, target: Path, timeout: float) -> None:
-    request = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": "Mozilla/5.0",
-            "Referer": "https://www.cninfo.com.cn/",
-        },
-    )
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        target.write_bytes(response.read())
+def download(url: str, target: Path, timeout: float, retries: int) -> None:
+    last_error: BaseException | None = None
+    for attempt in range(1, retries + 1):
+        request = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0",
+                "Referer": "https://www.cninfo.com.cn/",
+            },
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                data = response.read()
+            if not data:
+                raise RuntimeError("empty PDF response")
+            target.write_bytes(data)
+            return
+        except (urllib.error.URLError, TimeoutError, RuntimeError) as exc:
+            last_error = exc
+            if attempt >= retries:
+                break
+            time.sleep(0.8 * attempt)
+    raise RuntimeError(f"download failed after {retries} attempts: {last_error!r}") from last_error
 
 
 def extract_text(pdf_path: Path) -> str:
@@ -86,7 +102,7 @@ def main() -> int:
         url = adjunct_url if adjunct_url.startswith("http") else BASE_URL + adjunct_url
         try:
             if not pdf_path.exists() or pdf_path.stat().st_size == 0:
-                download(url, pdf_path, args.timeout)
+                download(url, pdf_path, args.timeout, args.retries)
             text = extract_text(pdf_path)
             text_path.write_text(text, encoding="utf-8")
             print(f"{index}/{len(items)} {pdf_path.name} text_chars={len(text)}")

@@ -22,3 +22,12 @@
 - 二次问题1：AMAC 年内注销明细共501条，长时间请求时出现一次 SSL EOF 断连。修复：详情页请求加入8次退避重试，并将总流程 AMAC 明细请求间隔调为0.3秒。
 - 二次问题2：`--finalize` 在发布脚本更新首页前先校验首页日期，导致“首页未更新”的假失败。修复：去掉 finalize 入口的提前校验，由发布脚本在生成预览和更新首页后统一校验。
 - 今日补跑窗口：上市公司公告按 2026-05-25 至 2026-05-26；后续日报口径仍按上一交易日至当日，周一覆盖上周五、六、日。
+
+## 2026-05-28 自动化稳定性复盘
+
+- 主因1：本机网络处在代理 fake-ip 模式，多个关键域名解析到 `198.18.0.0/15`，AMAC 直连表现为 `RemoteDisconnected` / `Empty reply from server`。这不是 AMAC 登录或账号问题。
+- 修复1：新增 `v1/scripts/preflight_v1_network.py`，开跑前记录 DNS、代理、CNINFO、AMAC、Vercel、GitHub Pages/Git 和 Chrome 体检结果。AMAC 体检复用正式脚本 fallback，直连失败但 fallback 成功时允许继续运行。
+- 主因2：GitHub Pages 发布已经 push 到 `gh-pages`，但 Pages build 超过原脚本等待窗口；脚本过早把 CDN 未刷新判定为失败。
+- 修复2：`publish_v1_to_github_pages.sh` 改为查询 latest Pages build，等待 `built` 后再验证线上首页日期，默认最多等待 60 次、每次 10 秒。
+- 修复3：CNINFO 逐公司请求和 PDF 下载加入请求级重试，降低单次网络抖动导致整日报失败的概率。
+- 2026-05-28 体检结果：存在 fake-ip DNS，AMAC 使用 `module_fallback` 跑通；Vercel 与 GitHub Pages 最终均验证 `2026-05-28 更新`。

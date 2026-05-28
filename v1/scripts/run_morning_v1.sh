@@ -53,6 +53,12 @@ fi
 echo "V1 Shaanxi Capital Market Dynamics date: $date_value"
 echo "Report retrieval window: $start_date_value -> $date_value"
 echo
+echo "0) Network and deployment preflight"
+"$PYTHON_BIN" v1/scripts/preflight_v1_network.py --date "$date_value" --write-log || {
+  echo "error V1 preflight failed; stop before producing or publishing an incomplete daily report" >&2
+  exit 1
+}
+echo
 echo "1) Data scripts that can run directly"
 
 listed_dir="v1/陕西省上市公司日报v1"
