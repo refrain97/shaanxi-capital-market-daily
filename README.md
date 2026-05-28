@@ -32,15 +32,15 @@ python3 v1/scripts/package_portable_project.py
 
 ## 免费 GitHub Pages 部署
 
-本目录已经内置 GitHub Pages Actions 配置：`.github/workflows/pages.yml`。把 `shaanxi-capital-market-daily/` 作为仓库根目录推送到 GitHub 后，进入仓库的 `Settings` -> `Pages`，将 `Build and deployment` 的 `Source` 设为 `GitHub Actions`。
+当前发布链路使用 `gh-pages` 分支托管静态站。把 `shaanxi-capital-market-daily/` 作为仓库根目录推送到 GitHub 后，进入仓库的 `Settings` -> `Pages`，将 `Build and deployment` 的 `Source` 设为 `Deploy from a branch`，分支选择 `gh-pages`、目录选择 `/`。
 
-第一次推送 `main` 分支后，Actions 会自动运行：
+日常发布脚本会先运行：
 
 ```bash
 python3 v1/scripts/package_portable_project.py
 ```
 
-并把 `dist/shaanxi-capital-market-daily/` 发布到 GitHub Pages。发布地址通常是：
+然后把 `dist/shaanxi-capital-market-daily/` 同步到 `gh-pages` 分支并等待线上首页出现当日日期。发布地址通常是：
 
 ```text
 https://你的GitHub用户名.github.io/仓库名/
