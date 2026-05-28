@@ -10,11 +10,13 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import http.client
+import ipaddress
 import json
 import random
 import re
 import socket
 import ssl
+import subprocess
 import sys
 import time
 import urllib.error
@@ -30,6 +32,17 @@ except ImportError as exc:  # pragma: no cover - friendly runtime error
 
 
 BASE = "https://gs.amac.org.cn"
+AMAC_HOST = urllib.parse.urlparse(BASE).hostname or "gs.amac.org.cn"
+AMAC_DOH_URLS = [
+    f"https://dns.alidns.com/resolve?name={AMAC_HOST}&type=A",
+    f"https://cloudflare-dns.com/dns-query?name={AMAC_HOST}&type=A",
+]
+AMAC_FALLBACK_IPS = [
+    "116.163.31.218",
+    "101.71.88.61",
+    "116.162.168.167",
+    "211.95.142.138",
+]
 API_BASE = f"{BASE}/amac-infodisc/api"
 MANAGER_REFERER = f"{BASE}/amac-infodisc/res/pof/manager/managerList.html"
 FUND_REFERER = f"{BASE}/amac-infodisc/res/pof/fund/index.html"
@@ -49,6 +62,9 @@ STATUS_MAP = {
     300: "协会注销",
     500: "12个月无在管注销",
 }
+_ORIGINAL_GETADDRINFO = socket.getaddrinfo
+_AMAC_IPS: list[str] | None = None
+_AMAC_PREFERRED_IP: str | None = None
 
 
 def parse_args() -> argparse.Namespace:
@@ -95,48 +111,147 @@ def endpoint(path: str, page: int, size: int = PAGE_SIZE) -> str:
     return f"{API_BASE}{path}?{urllib.parse.urlencode(params)}"
 
 
+def is_fake_ip(value: str) -> bool:
+    try:
+        ip = ipaddress.ip_address(value)
+    except ValueError:
+        return False
+    return ip in ipaddress.ip_network("198.18.0.0/15")
+
+
+def resolve_amac_ips() -> list[str]:
+    global _AMAC_IPS
+    if _AMAC_IPS is not None:
+        return _AMAC_IPS
+
+    ips: list[str] = []
+    try:
+        for doh_url in AMAC_DOH_URLS:
+            request = urllib.request.Request(
+                doh_url,
+                headers={
+                    "Accept": "application/dns-json",
+                    "User-Agent": "Mozilla/5.0",
+                },
+            )
+            with urllib.request.urlopen(request, timeout=10) as response:
+                data = json.loads(response.read().decode("utf-8"))
+            for answer in data.get("Answer") or []:
+                if answer.get("type") == 1:
+                    value = str(answer.get("data", ""))
+                    if value and not is_fake_ip(value) and value not in ips:
+                        ips.append(value)
+    except Exception:
+        pass
+
+    try:
+        for item in _ORIGINAL_GETADDRINFO(AMAC_HOST, 443, proto=socket.IPPROTO_TCP):
+            value = item[4][0]
+            if value and not is_fake_ip(value) and value not in ips:
+                ips.append(value)
+    except Exception:
+        pass
+
+    for value in AMAC_FALLBACK_IPS:
+        if value not in ips:
+            ips.append(value)
+
+    _AMAC_IPS = ips
+    return ips
+
+
+def amac_ip_for_attempt(attempt: int) -> str | None:
+    ips = resolve_amac_ips()
+    if not ips:
+        return None
+    if _AMAC_PREFERRED_IP in ips:
+        ordered = [_AMAC_PREFERRED_IP] + [ip for ip in ips if ip != _AMAC_PREFERRED_IP]
+        return ordered[attempt % len(ordered)]
+    return ips[attempt % len(ips)]
+
+
+def remember_amac_ip(ip: str | None) -> None:
+    global _AMAC_PREFERRED_IP
+    if ip:
+        _AMAC_PREFERRED_IP = ip
+
+
+def curl_fetch(url: str, headers: dict[str, str], body: bytes | None = None, ip: str | None = None) -> str:
+    cmd = [
+        "curl",
+        "-sS",
+        "--fail",
+        "--connect-timeout",
+        "8",
+        "--max-time",
+        "30",
+    ]
+    if ip:
+        cmd.extend(["--resolve", f"{AMAC_HOST}:443:{ip}"])
+    for key, value in headers.items():
+        cmd.extend(["-H", f"{key}: {value}"])
+    if body is not None:
+        cmd.extend(["--data-binary", "@-"])
+    cmd.append(url)
+    result = subprocess.run(
+        cmd,
+        input=body,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        check=False,
+    )
+    if result.returncode != 0:
+        detail = result.stderr.decode("utf-8", errors="replace").strip()
+        raise RuntimeError(f"curl failed rc={result.returncode} ip={ip or 'system'}: {detail}")
+    return result.stdout.decode("utf-8", errors="replace")
+
+
 def post_json(path: str, payload: dict[str, Any], page: int = 0, referer: str = MANAGER_REFERER) -> dict[str, Any]:
-    url = endpoint(path, page)
     body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     headers = {
         "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Cache-Control": "no-cache",
+        "Connection": "close",
         "Content-Type": "application/json",
         "Origin": BASE,
         "Referer": referer,
         "User-Agent": "Mozilla/5.0",
         "X-Requested-With": "XMLHttpRequest",
     }
-    request = urllib.request.Request(url, data=body, headers=headers, method="POST")
     last_error: Exception | None = None
-    for attempt in range(4):
+    last_url = ""
+    for attempt in range(10):
+        url = endpoint(path, page)
+        last_url = url
+        ip = amac_ip_for_attempt(attempt)
         try:
-            with urllib.request.urlopen(request, timeout=30) as response:
-                return json.loads(response.read().decode("utf-8"))
-        except urllib.error.HTTPError as exc:
-            detail = exc.read().decode("utf-8", errors="replace")
-            last_error = RuntimeError(f"AMAC request failed {exc.code}: {url} {detail}")
-            if exc.code not in (500, 502, 503, 504):
-                raise last_error from exc
+            data = json.loads(curl_fetch(url, headers, body=body, ip=ip))
+            remember_amac_ip(ip)
+            return data
         except (
             urllib.error.URLError,
             TimeoutError,
             socket.timeout,
             http.client.RemoteDisconnected,
             http.client.IncompleteRead,
+            RuntimeError,
+            json.JSONDecodeError,
         ) as exc:
-            last_error = exc
-        time.sleep(0.8 * (attempt + 1))
-    raise RuntimeError(f"AMAC request failed after retries: {url} {last_error}") from last_error
+            last_error = RuntimeError(f"{type(exc).__name__} via ip={ip or 'system'}: {exc}")
+        time.sleep(min(2.0 * (attempt + 1), 20.0))
+    raise RuntimeError(f"AMAC request failed after retries: {last_url} {last_error}") from last_error
 
 
 def get_text(url: str) -> str:
     headers = {"User-Agent": "Mozilla/5.0", "Referer": BASE}
-    request = urllib.request.Request(url, headers=headers)
     last_error: Exception | None = None
     for attempt in range(8):
+        ip = amac_ip_for_attempt(attempt)
         try:
-            with urllib.request.urlopen(request, timeout=30) as response:
-                return response.read().decode("utf-8", errors="replace")
+            text = curl_fetch(url, headers, ip=ip)
+            remember_amac_ip(ip)
+            return text
         except (
             urllib.error.URLError,
             TimeoutError,
@@ -144,8 +259,9 @@ def get_text(url: str) -> str:
             ssl.SSLError,
             http.client.RemoteDisconnected,
             http.client.IncompleteRead,
+            RuntimeError,
         ) as exc:
-            last_error = exc
+            last_error = RuntimeError(f"{type(exc).__name__} via ip={ip or 'system'}: {exc}")
             time.sleep(1.0 * (attempt + 1))
     raise RuntimeError(f"AMAC detail request failed after retries: {url} {last_error}") from last_error
 
