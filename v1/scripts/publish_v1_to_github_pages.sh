@@ -71,7 +71,7 @@ if not token:
     print("GitHub Pages API token unavailable; skip build-status wait.")
     raise SystemExit(0)
 
-url = "https://api.github.com/repos/refrain97/shaanxi-capital-market-daily/pages"
+url = "https://api.github.com/repos/refrain97/shaanxi-capital-market-daily/pages/builds/latest"
 headers = {
     "Accept": "application/vnd.github+json",
     "Authorization": f"Bearer {token}",
@@ -92,9 +92,9 @@ for attempt in range(1, attempts + 1):
         raise SystemExit(0)
 
     status = str(page.get("status") or "")
-    source = page.get("source") or {}
-    branch = source.get("branch") if isinstance(source, dict) else ""
-    print(f"GitHub Pages status: {status or 'unknown'} source={branch or 'unknown'} attempt {attempt}/{attempts}")
+    commit = str(page.get("commit") or "")
+    short_commit = commit[:7] if commit else "unknown"
+    print(f"GitHub Pages build status: {status or 'unknown'} commit={short_commit} attempt {attempt}/{attempts}")
     if status == "built":
         raise SystemExit(0)
     if status in {"errored", "error", "failed"}:
