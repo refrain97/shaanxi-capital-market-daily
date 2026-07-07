@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>V2 每小时自动化时刻表</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f6f4;
+      --panel: #ffffff;
+      --line: #d9e0df;
+      --line-strong: #bcc9c7;
+      --text: #1f2729;
+      --muted: #657175;
+      --green: #23725e;
+      --green-soft: #e7f2ee;
+      --amber: #9b6417;
+      --amber-soft: #f7ead6;
+      --red: #aa4037;
+      --red-soft: #f7e4e1;
+      --blue: #315f9e;
+      --blue-soft: #e9eff8;
+      --gray-soft: #eef1f1;
+      --radius: 8px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", sans-serif;
+      letter-spacing: 0;
+    }
+
+    .page {
+      min-height: 100vh;
+      padding: 22px;
+    }
+
+    .shell {
+      max-width: 1480px;
+      margin: 0 auto;
+      display: grid;
+      gap: 14px;
+    }
+
+    .topbar {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 16px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: start;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      line-height: 1.2;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 12px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .icon-button {
+      width: 38px;
+      height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--text);
+      display: inline-grid;
+      place-items: center;
+      cursor: pointer;
+    }
+
+    .icon-button:hover { border-color: var(--line-strong); }
+    .icon-button svg { width: 18px; height: 18px; }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--gray-soft);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 760;
+      white-space: nowrap;
+    }
+
+    .badge.good { background: var(--green-soft); color: var(--green); border-color: #b9d9cf; }
+    .badge.warn { background: var(--amber-soft); color: var(--amber); border-color: #e4c895; }
+    .badge.bad { background: var(--red-soft); color: var(--red); border-color: #e1b2ad; }
+    .badge.info { background: var(--blue-soft); color: var(--blue); border-color: #c6d5ec; }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(150px, 1fr));
+      gap: 10px;
+    }
+
+    .metric {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 12px;
+      min-height: 76px;
+    }
+
+    .metric-label {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
+
+    .metric-value {
+      font-size: 22px;
+      font-weight: 820;
+      line-height: 1.2;
+    }
+
+    .board {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .board-head {
+      min-height: 50px;
+      padding: 13px 16px;
+      border-bottom: 1px solid var(--line);
+      background: #fafbfa;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .board-title {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      min-width: 1120px;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th,
+    td {
+      border-bottom: 1px solid #e8ecef;
+      padding: 11px 10px;
+      text-align: left;
+      vertical-align: top;
+      line-height: 1.5;
+    }
+
+    th {
+      color: var(--muted);
+      background: #fbfcfc;
+      font-weight: 760;
+      white-space: nowrap;
+    }
+
+    tbody tr:last-child td { border-bottom: 0; }
+    tbody tr.is-next { background: #fffaf0; }
+    tbody tr.is-done { background: #fbfffd; }
+
+    .time {
+      font-size: 20px;
+      font-weight: 840;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .stage {
+      font-weight: 780;
+      margin-bottom: 4px;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .action {
+      font-weight: 760;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .empty-link {
+      color: var(--muted);
+      font-weight: 650;
+    }
+
+    .footnote {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+      padding: 12px 16px 14px;
+      border-top: 1px solid var(--line);
+      background: #fbfcfc;
+    }
+
+    @media (max-width: 900px) {
+      .page { padding: 14px; }
+      .topbar { grid-template-columns: 1fr; }
+      .toolbar { justify-content: flex-start; }
+      .summary { grid-template-columns: repeat(2, minmax(140px, 1fr)); }
+    }
+
+    @media (max-width: 520px) {
+      .summary { grid-template-columns: 1fr; }
+      h1 { font-size: 21px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="shell">
+      <section class="topbar" aria-labelledby="pageTitle">
+        <div>
+          <h1 id="pageTitle">V2 每小时自动化时刻表</h1>
+          <div class="meta" id="metaLine">读取中</div>
+        </div>
+        <div class="toolbar">
+          <span class="badge info" id="sessionBadge">08:30-15:30</span>
+          <button class="icon-button" id="refreshButton" title="刷新数据" aria-label="刷新数据">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12a9 9 0 0 1-15 6.7" />
+              <path d="M3 12A9 9 0 0 1 18 5.3" />
+              <path d="M18 2v4h-4" />
+              <path d="M6 22v-4h4" />
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <section class="summary" aria-label="运行概览">
+        <div class="metric">
+          <div class="metric-label">下一时点</div>
+          <div class="metric-value" id="nextSlot">-</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">已更新</div>
+          <div class="metric-value" id="doneCount">-</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">待运行</div>
+          <div class="metric-value" id="pendingCount">-</div>
+        </div>
+        <div class="metric">
+          <div class="metric-label">需要拍板</div>
+          <div class="metric-value" id="decisionCount">-</div>
+        </div>
+      </section>
+
+      <section class="board" aria-labelledby="scheduleTitle">
+        <div class="board-head">
+          <h2 class="board-title" id="scheduleTitle">自动化运行表</h2>
+          <span class="badge" id="permissionBadge">shadow only</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>时间</th>
+                <th>自动化节点</th>
+                <th>状态</th>
+                <th>检查范围</th>
+                <th>运行结果</th>
+                <th>需要操作</th>
+                <th>风险/复核</th>
+                <th>记录</th>
+              </tr>
+            </thead>
+            <tbody id="scheduleRows">
+              <tr><td colspan="8">读取中</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="footnote" id="footnote"></div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const fallbackSlots = [
+      { time: "08:30", stage: "盘前框架预测", status: "not_started", scope: "隔夜数据、持仓、昨日复盘、风险预算", result: "未开始", action: "未开始", risk: "未开始", file: "" },
+      { time: "09:30", stage: "开盘确认", status: "not_started", scope: "开盘强弱、主线确认、异常波动", result: "未开始", action: "未开始", risk: "未开始", file: "" },
+      { time: "10:30", stage: "第一小时复核", status: "not_started", scope: "成交放大、板块轮动、持仓相对强弱", result: "未开始", action: "未开始", risk: "未开始", file: "" },
+      { time: "11:30", stage: "午前复核", status: "not_started", scope: "上午信号汇总、午后风险点", result: "未开始", action: "未开始", risk: "未开始", file: "" },
+      { time: "13:30", stage: "午后开盘复核", status: "not_started", scope: "午后资金方向、主线延续或切换", result: "未开始", action: "未开始", risk: "未开始", file: "" },
+      { time: "14:30", stage: "尾盘预案", status: "not_started", scope: "尾盘减仓/加仓/不动的条件", result: "未开始", action: "未开始", risk: "未开始", file: "" },
+      { time: "15:30", stage: "收盘复盘", status: "not_started", scope: "全天结论、明日观察、因子表现", result: "未开始", action: "未开始", risk: "未开始", file: "" }
+    ];
+
+    const fallbackState = {
+      automation_schedule: {
+        date: "2026-07-07",
+        session: "08:30-15:30",
+        last_updated: "等待自动化",
+        refresh_seconds: 60,
+        permission: "数据观察 / shadow only",
+        note: "自动化运行后，只更新对应时间行。",
+        slots: fallbackSlots
+      }
+    };
+
+    const $ = (id) => document.getElementById(id);
+
+    function escapeHTML(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function statusText(status) {
+      return {
+        done: "已更新",
+        running: "运行中",
+        not_started: "未开始",
+        pending: "待运行",
+        skipped: "已跳过",
+        blocked: "异常"
+      }[status] || "未开始";
+    }
+
+    function statusTone(status) {
+      return {
+        done: "good",
+        running: "warn",
+        not_started: "",
+        pending: "info",
+        skipped: "warn",
+        blocked: "bad"
+      }[status] || "";
+    }
+
+    function fileLink(path) {
+      if (!path) return '<span class="empty-link">未生成</span>';
+      return `<a href="${escapeHTML(path)}" target="_blank" rel="noreferrer">打开记录</a>`;
+    }
+
+    function normalizeSchedule(state) {
+      if (state?.automation_schedule?.slots?.length) return state.automation_schedule;
+      const cadence = state?.automation?.cadence || fallbackSlots.map((slot) => slot.time);
+      return {
+        ...fallbackState.automation_schedule,
+        date: state?.meta?.date || fallbackState.automation_schedule.date,
+        last_updated: state?.meta?.last_updated || fallbackState.automation_schedule.last_updated,
+        permission: state?.meta?.decision_permission || fallbackState.automation_schedule.permission,
+        slots: cadence.map((time) => fallbackSlots.find((slot) => slot.time === time) || {
+          time,
+          stage: "自动化运行",
+          status: "not_started",
+          scope: "等待配置",
+          result: "未开始",
+          action: "未开始",
+          risk: "未开始",
+          file: ""
+        })
+      };
+    }
+
+    function nextSlot(slots) {
+      return slots.find((slot) => slot.status !== "done" && slot.status !== "skipped") || slots[slots.length - 1];
+    }
+
+    function render(schedule) {
+      const slots = schedule.slots || [];
+      const done = slots.filter((slot) => slot.status === "done").length;
+      const decision = slots.filter((slot) => slot.need_user_confirm).length;
+      const pending = slots.length - done;
+      const next = nextSlot(slots);
+
+      $("metaLine").innerHTML = [
+        `日期：${escapeHTML(schedule.date || "-")}`,
+        `更新时间：${escapeHTML(schedule.last_updated || "-")}`,
+        `自动刷新：${escapeHTML(schedule.refresh_seconds || 60)} 秒`
+      ].join("<span>｜</span>");
+      $("sessionBadge").textContent = schedule.session || "08:30-15:30";
+      $("permissionBadge").textContent = schedule.permission || "shadow only";
+      $("permissionBadge").className = "badge info";
+      $("nextSlot").textContent = next ? `${next.time} ${next.stage}` : "-";
+      $("doneCount").textContent = `${done}/${slots.length}`;
+      $("pendingCount").textContent = `${pending}`;
+      $("decisionCount").textContent = `${decision}`;
+
+      $("scheduleRows").innerHTML = slots.map((slot) => {
+        const rowClass = slot.status === "done" ? "is-done" : slot === next ? "is-next" : "";
+        return `
+          <tr class="${rowClass}">
+            <td><div class="time">${escapeHTML(slot.time)}</div></td>
+            <td>
+              <div class="stage">${escapeHTML(slot.stage)}</div>
+              <div class="muted">${escapeHTML(slot.owner || "V2自动化")}</div>
+            </td>
+            <td><span class="badge ${statusTone(slot.status)}">${statusText(slot.status)}</span></td>
+            <td>${escapeHTML(slot.scope || "-")}</td>
+            <td>${escapeHTML(slot.result || statusText(slot.status))}</td>
+            <td><div class="action">${escapeHTML(slot.action || "未开始")}</div></td>
+            <td>${escapeHTML(slot.risk || "未开始")}</td>
+            <td>${fileLink(slot.file)}</td>
+          </tr>
+        `;
+      }).join("");
+
+      $("footnote").textContent = schedule.note || "每个时点运行后，只覆盖该行的状态、结果、需要操作、风险复核和记录链接。";
+    }
+
+    async function loadState() {
+      try {
+        const response = await fetch(`data/dashboard_state.json?ts=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        render(normalizeSchedule(data));
+      } catch (error) {
+        render(fallbackState.automation_schedule);
+        console.warn("dashboard_state.json 读取失败，使用内置占位时刻表。", error);
+      }
+    }
+
+    $("refreshButton").addEventListener("click", loadState);
+    loadState();
+    setInterval(loadState, 60000);
+  </script>
+</body>
+</html>

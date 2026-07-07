@@ -1,0 +1,96 @@
+{
+  "automation_schedule": {
+    "date": "2026-07-07",
+    "session": "08:30-15:30",
+    "last_updated": "2026-07-07 00:00:00",
+    "refresh_seconds": 60,
+    "permission": "数据观察 / shadow only",
+    "note": "每个时点运行后，只覆盖该行的状态、结果、需要操作、风险复核和记录链接；未运行时保持未开始。",
+    "slots": [
+      {
+        "time": "08:30",
+        "stage": "盘前框架预测",
+        "owner": "V2总控",
+        "status": "not_started",
+        "scope": "隔夜宏观、外围市场、昨日复盘、持仓暴露、今日风险预算",
+        "result": "未开始",
+        "action": "未开始",
+        "risk": "未开始",
+        "need_user_confirm": false,
+        "file": ""
+      },
+      {
+        "time": "09:30",
+        "stage": "开盘确认",
+        "owner": "V2总控",
+        "status": "not_started",
+        "scope": "开盘强弱、主线确认、持仓跳空、异常波动",
+        "result": "未开始",
+        "action": "未开始",
+        "risk": "未开始",
+        "need_user_confirm": false,
+        "file": ""
+      },
+      {
+        "time": "10:30",
+        "stage": "第一小时复核",
+        "owner": "V2总控",
+        "status": "not_started",
+        "scope": "成交放大、板块轮动、持仓相对强弱、候选方向变化",
+        "result": "未开始",
+        "action": "未开始",
+        "risk": "未开始",
+        "need_user_confirm": false,
+        "file": ""
+      },
+      {
+        "time": "11:30",
+        "stage": "午前复核",
+        "owner": "V2总控",
+        "status": "not_started",
+        "scope": "上午信号汇总、午后可能变化、是否需要预案",
+        "result": "未开始",
+        "action": "未开始",
+        "risk": "未开始",
+        "need_user_confirm": false,
+        "file": ""
+      },
+      {
+        "time": "13:30",
+        "stage": "午后开盘复核",
+        "owner": "V2总控",
+        "status": "not_started",
+        "scope": "午后资金方向、主线延续或切换、早盘结论是否失效",
+        "result": "未开始",
+        "action": "未开始",
+        "risk": "未开始",
+        "need_user_confirm": false,
+        "file": ""
+      },
+      {
+        "time": "14:30",
+        "stage": "尾盘预案",
+        "owner": "V2总控",
+        "status": "not_started",
+        "scope": "尾盘加减仓条件、持仓风险、次日隔夜风险",
+        "result": "未开始",
+        "action": "未开始",
+        "risk": "未开始",
+        "need_user_confirm": false,
+        "file": ""
+      },
+      {
+        "time": "15:30",
+        "stage": "收盘复盘",
+        "owner": "V2总控",
+        "status": "not_started",
+        "scope": "全天结论、因子表现、持仓影响、明日观察清单",
+        "result": "未开始",
+        "action": "未开始",
+        "risk": "未开始",
+        "need_user_confirm": false,
+        "file": ""
+      }
+    ]
+  }
+}
