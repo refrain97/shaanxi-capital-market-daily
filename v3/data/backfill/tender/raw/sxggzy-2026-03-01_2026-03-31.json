@@ -1,0 +1,274 @@
+{
+  "schemaVersion": "0.1",
+  "source": {
+    "sourceId": "tender-sx-public-resource",
+    "name": "全国公共资源交易平台（陕西省）",
+    "url": "https://www.sxggzyjy.cn/",
+    "authority": "official",
+    "sourceType": "public_resource",
+    "adapter": "sxggzy_fulltext_v1",
+    "searchEndpoint": "https://www.sxggzyjy.cn/inteligentsearch_new/rest/esinteligentsearch/getFullTextDataNew",
+    "searchCategory": "001",
+    "scanIntervalMinutes": 60,
+    "stages": [
+      "announcement",
+      "change",
+      "candidate",
+      "award",
+      "termination"
+    ],
+    "status": "configured"
+  },
+  "from": "2026-03-01",
+  "to": "2026-03-31",
+  "retrievedAt": "2026-07-13T04:58:41.230Z",
+  "queries": [
+    {
+      "keyword": "公司债",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 3,
+      "fetchedCount": 3
+    },
+    {
+      "keyword": "企业债",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "中期票据",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "债务融资工具",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "资产证券化",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "ABS",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "REITs",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "标准化债券",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "主承销商",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "联席主承销商",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "承销团",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "受托管理人",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "财务顾问",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "融资顾问",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "投资顾问",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "上市辅导",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "债券承销",
+      "from": "2026-03-01",
+      "to": "2026-03-31",
+      "totalCount": 0,
+      "fetchedCount": 0
+    }
+  ],
+  "records": [
+    {
+      "infotype": "News",
+      "danweiguid": "",
+      "diqu": "",
+      "recommend": "0",
+      "title": "【西咸新区·西咸新区（本级）】陕西省西咸新区沣西新城开发建设（集团）有限公司2026年非公开发行<em style='color:red'>公司</em><em style='color:red'>债券承销</em>商采购项目终止公告",
+      "_score": 212289.66,
+      "content": "(招标编号:SHZB2026007)一、内容 :各投标人：因本项目范围发生调整，现终止本次招标，特此公告。二、联系方式招 标 人:陕西省西咸新区沣西新城开发建设（集团）有限公司地 址:陕西省西咸新区沣西新城秦皇大道南段尚业路总部经济园5号楼联 系 人:岳超电话:029-38021731招标代理机构:陕西世豪项目管理有限公司地 址:陕西省西安市高新区锦业路绿地中心A座1208室联 系 人:孙思雨、邹建强、石拓电话:15691903320电子邮件:xianshihao111@163.com",
+      "farenrole": "",
+      "highlight": {
+        "title": "【西咸新区·西咸新区（本级）】陕西省西咸新区沣西新城开发建设（集团）有限公司2026年非公开发行<em style='color:red'>公司</em><em style='color:red'>债券承销</em>商采购项目终止公告"
+      },
+      "score": 212289.66,
+      "titletype": "Text",
+      "istop": "0",
+      "danweitype": "",
+      "zuzhijigoucode": "",
+      "syscollectguid": "c7552806-e19b-4473-8ac5-33fe23805573",
+      "id": "0010010120052cac3918-cd50-4908-b2b7-68d3e9e0f77c_001",
+      "sysscore": 0,
+      "currentdanweiguid": "",
+      "categorynum": "001001012005",
+      "strcomment": "",
+      "infoid": "2cac3918-cd50-4908-b2b7-68d3e9e0f77c",
+      "author": "",
+      "zhuanzai": "公共资源交易平台",
+      "sysclicktimes": 0,
+      "ordernum": "0",
+      "espriority": 0,
+      "webdate": "2026-03-30 18:23:02",
+      "deleted": false,
+      "customtitle": "",
+      "syscategory": "001",
+      "categoryname": "废标/终止公告",
+      "linkurl": "/jydt/001001/001001012/001001012005/20260330/2cac3918-cd50-4908-b2b7-68d3e9e0f77c.html",
+      "infodate": "2026-03-30 18:23:07",
+      "referencetype": "4",
+      "xiaqucode": "",
+      "matchedKeywords": [
+        "公司债"
+      ]
+    },
+    {
+      "infotype": "News",
+      "danweiguid": "",
+      "diqu": "",
+      "recommend": "0",
+      "title": "【西安市·西安市本级】西安投融资担保有限<em style='color:red'>公司</em><em style='color:red'>债权</em>处置公告",
+      "_score": 308532.97,
+      "content": "西安投融资担保有限公司向我中心提出申请，对其持有的赵卫强、陕西亿海建筑装饰工程有限公司的不良债权（见附件）进行处置，挂牌价为人民币942059元。 公告期自2026年3月26日至2026年4月1日,保证金为30万元人民币，公告期内由本中心受理该项事宜的有关咨询。 报名须知：自即日起至2026年4月1日下午18时前为网上报名截止时间,意向受让人必须在网上报名截止时间内上传审核资料，2026年4月1日下午18时前为保证金交纳截止时间。 一、意向受让人需要登录网站（http://sxggzyjy.xa.gov.cn/），点击首页的电子交易平台（陕西权益类交易系统.企业端）进行报名，按时足额交纳保证金（以到达西安市公共资源交易中心指定账户为准）后确定竞买资格，在竞价开始即可进行竞买报价。 二、未注册的企业需要登录网站（http://sxggzyjy.xa.gov.cn/）选择城市（西安），进入西安市公共资源交易中心页面服务指南下载专区查看《西安市公共资源交易平台实物资产交易（企业端）注册操作手册》进行注册，网上注册报名有疑问的企业，请拨029-86510152，86510153转80710，80753进行咨询。 三、网上不支持第三方（如微信、支付宝等）交纳保证金，意向受让人交纳保证金需要与本企业名称开户单位结算账户交纳为准，保证金交纳方必须和项目报名方信息一致。 四、已报名的意向受让人请按照系统生成的子账号及显示金额通过网银转账的方式交纳保证金，并点击“保证金查询”确认到账情况，不接受线下现场交纳。 查看标的联系人：雷先生&nbsp; 18691632632 看标日期：公告期工作日内 请认真阅读《网络竞价方案》，标的物以实物现状为准，本中心不承担本标的瑕疵担保责任。凡已提交相关有效证件且在规定时间内提交交易保证金的意向竞买人即表示其对该标的现状及瑕疵无异议，视为对本标的的实物现状的确认，责任自负。 联系人：孙先生&nbsp; 李女士 电&nbsp; 话：029-86510152，86510153转80710，80753 地&nbsp; 址：西安市未央区文景北路16号白桦林国际B座 &nbsp; 西安市公共资源交易中心 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2026年3月26日",
+      "farenrole": "",
+      "highlight": {
+        "title": "【西安市·西安市本级】西安投融资担保有限<em style='color:red'>公司</em><em style='color:red'>债权</em>处置公告"
+      },
+      "score": 308532.97,
+      "titletype": "Text",
+      "istop": "0",
+      "danweitype": "",
+      "zuzhijigoucode": "",
+      "syscollectguid": "c7552806-e19b-4473-8ac5-33fe23805573",
+      "id": "001001003001e208c27c-8b8d-4e29-9c92-3ce364b1914b_001",
+      "sysscore": 0,
+      "currentdanweiguid": "",
+      "categorynum": "001001003001",
+      "strcomment": "",
+      "infoid": "e208c27c-8b8d-4e29-9c92-3ce364b1914b",
+      "author": "",
+      "zhuanzai": "公共资源交易平台",
+      "sysclicktimes": 0,
+      "ordernum": "0",
+      "espriority": 0,
+      "webdate": "2026-03-25 14:23:00",
+      "deleted": false,
+      "customtitle": "",
+      "syscategory": "001",
+      "categoryname": "交易公告",
+      "linkurl": "/jydt/001001/001001003/001001003001/20260325/e208c27c-8b8d-4e29-9c92-3ce364b1914b.html",
+      "infodate": "2026-03-26 09:28:54",
+      "referencetype": "4",
+      "xiaqucode": "",
+      "matchedKeywords": [
+        "公司债"
+      ]
+    },
+    {
+      "infotype": "News",
+      "danweiguid": "",
+      "diqu": "",
+      "recommend": "0",
+      "title": "[国企采购采购公告]陕西省西咸新区沣西新城开发建设（集团）有限公司2026年非公开发行<em style='color:red'>公司</em><em style='color:red'>债券承销</em>商采购项目招标公告",
+      "_score": 192143.22,
+      "content": "项目所在地区：陕西省一、招标条件本陕西省西咸新区沣西新城开发建设（集团）有限公司2026年非公开发行公司债券承销商采购项目,项目出资比例为自筹资金100.00%。招标人为陕西省西咸新区沣西新城开发建设（集团）有限公司。招标代理机构为陕西世豪项目管理有限公司，项目已具备招标条件，现对该项目进行公开招标。二、项目概况和招标范围规模：承销商负责沣西集团2026年非公开发行公司债券的发行申请材料的编制，配合发行人进行报批，负责债券发行审批的沟通协调，承销发行本次公司债券；协调各相关中介机构开展与本次债券申报、发行相关的各项工作等。 范围：本招标项目划分为1个标段，本次招标为其中的：（001）陕西省西咸新区沣西新城开发建设（集团）有限公司2026年非公开发行公司债券承销商采购项目三、投标人资格要求：1.投标人须具备合法有效的营业执照；2.具有中国证券监督管理委员会颁发的《经营证券期货业务许可证》；3.项目负责人具有证券从业资格（须提供中国证券业协会登记的人员从业基本信息截图，且登记公司为投标人）；4.投标人不得在“中国执行信息公开网”网站被列为失信被执行人；5.投标人不得在全国企业信用信息公示系统被列为严重违法失信名单；本项目不接受联合体投标。四、招标文件的获取凡有意参加投标的投标人请于本项目招标公告发布之日起，于2026年03月11日17时00分前在全国公共资源交易平台（陕西省·西咸新区）申请确认并下载获取招标文件电子版。五、投标文件的递交投标文件递交截止时间为2026年03月31日09时30分，通过全国公共资源交易平台（陕西省·西咸新区）上传电子投标文件。投标文件递交方式：网上递交。投标现场地址：全国公共资源交易平台（陕西省·西咸新区（xxxq.sxggzyjy.cn）电子上传文件递交六、开标时间及地点开标时间：2026年03月31日09时30分开标地点：本项目采用不见面开标，投标人在全国公共资源交易平台（陕西省·西咸新区）递交电子版投标文件，无须现场递交纸质版投标文件。并通过全国公共资源交易平台（陕西省·西咸新区）不见面开标系统参加开标会议。参与不见面开标的各投标人应当仔细阅读系统操作手册，并按照交易流程进行不见面开标活动，请在开标前按照操作手册调试好网络环境及电脑，未按规定程序操作导致的一切后果由各投标人自行承担。逾期上传的或者未上传指定地点的投标文件，招标人不予受理。七、其他1.本次招标公告同时在《全国公共资源交易平台（陕西省·西咸新区）》《陕西采购与招标网/陕西采购与招标公共服务平台》上发布；2.单位负责人为同一人或者存在控股、管理关系的不同投标单位，不得同时参加本 招标项目同一标段投标。八、监督部门：沣西新城开发建设（集团）有限公司审计内控部九、联系方式招 标 人：陕西省西咸新区沣西新城开发建设（集团）有限公司地 址：陕西省西咸新区沣西新城秦皇大道南段尚业路总部经济园5号楼联 系 人：岳超电 话：029-38021731招标代理机构：陕西世豪项目管理有限公司地 址：陕西省西安市高新区锦业路绿地中心A座1208室联 系 人：孙思雨、邹建强、石拓&nbsp;&nbsp;&nbsp;电 话：15691903320",
+      "farenrole": "",
+      "highlight": {
+        "title": "[国企采购采购公告]陕西省西咸新区沣西新城开发建设（集团）有限公司2026年非公开发行<em style='color:red'>公司</em><em style='color:red'>债券承销</em>商采购项目招标公告"
+      },
+      "score": 192143.22,
+      "titletype": "Text",
+      "istop": "0",
+      "danweitype": "",
+      "zuzhijigoucode": "",
+      "syscollectguid": "c7552806-e19b-4473-8ac5-33fe23805573",
+      "id": "00100101200166faf9ef-772b-4509-9eb8-56c2c8f9c3eb_001",
+      "sysscore": 0,
+      "currentdanweiguid": "",
+      "categorynum": "001001012001",
+      "strcomment": "",
+      "infoid": "66faf9ef-772b-4509-9eb8-56c2c8f9c3eb",
+      "author": "",
+      "zhuanzai": "公共资源交易平台",
+      "sysclicktimes": 0,
+      "ordernum": "0",
+      "espriority": 0,
+      "webdate": "2026-03-06 10:12:00",
+      "deleted": false,
+      "customtitle": "",
+      "syscategory": "001",
+      "categoryname": "招标公告",
+      "linkurl": "/jydt/001001/001001012/001001012001/20260306/66faf9ef-772b-4509-9eb8-56c2c8f9c3eb.html",
+      "infodate": "2026-03-06 10:12:00",
+      "referencetype": "4",
+      "xiaqucode": "",
+      "matchedKeywords": [
+        "公司债"
+      ]
+    }
+  ]
+}

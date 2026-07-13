@@ -1,7 +1,7 @@
 {
   "schemaVersion": "0.1",
-  "runId": "tender-live-2026-07-13T06-28-44",
-  "generatedAt": "2026-07-12T22:28:44.967Z",
+  "runId": "tender-live-2026-07-13T12-02-06",
+  "generatedAt": "2026-07-13T04:02:06.615Z",
   "scanIntervalMinutes": 60,
   "sourceRuns": [
     {
@@ -13,91 +13,91 @@
           "keyword": "主承销商",
           "httpStatus": 200,
           "totalCount": 73,
-          "elapsedMs": 149
+          "elapsedMs": 248
         },
         {
           "keyword": "联席主承销商",
           "httpStatus": 200,
           "totalCount": 0,
-          "elapsedMs": 36
+          "elapsedMs": 71
         },
         {
           "keyword": "承销团",
           "httpStatus": 200,
           "totalCount": 0,
-          "elapsedMs": 64
+          "elapsedMs": 129
         },
         {
           "keyword": "受托管理人",
           "httpStatus": 200,
           "totalCount": 0,
-          "elapsedMs": 43
+          "elapsedMs": 75
         },
         {
           "keyword": "财务顾问",
           "httpStatus": 200,
           "totalCount": 1,
-          "elapsedMs": 46
+          "elapsedMs": 77
         },
         {
           "keyword": "融资顾问",
           "httpStatus": 200,
           "totalCount": 0,
-          "elapsedMs": 40
+          "elapsedMs": 59
         },
         {
           "keyword": "投资顾问",
           "httpStatus": 200,
           "totalCount": 0,
-          "elapsedMs": 35
+          "elapsedMs": 60
         },
         {
           "keyword": "上市辅导",
           "httpStatus": 200,
           "totalCount": 0,
-          "elapsedMs": 39
+          "elapsedMs": 65
         },
         {
           "keyword": "债券承销",
           "httpStatus": 200,
           "totalCount": 19,
-          "elapsedMs": 75
+          "elapsedMs": 98
         },
         {
           "keyword": "公司债",
           "httpStatus": 200,
           "totalCount": 152,
-          "elapsedMs": 132
+          "elapsedMs": 107
         },
         {
           "keyword": "企业债",
           "httpStatus": 200,
           "totalCount": 11,
-          "elapsedMs": 77
+          "elapsedMs": 73
         },
         {
           "keyword": "中期票据",
           "httpStatus": 200,
           "totalCount": 19,
-          "elapsedMs": 66
+          "elapsedMs": 105
         },
         {
           "keyword": "资产证券化",
           "httpStatus": 200,
           "totalCount": 0,
-          "elapsedMs": 43
+          "elapsedMs": 54
         },
         {
           "keyword": "ABS",
           "httpStatus": 200,
           "totalCount": 3,
-          "elapsedMs": 58
+          "elapsedMs": 55
         },
         {
           "keyword": "REITs",
           "httpStatus": 200,
           "totalCount": 0,
-          "elapsedMs": 36
+          "elapsedMs": 44
         }
       ],
       "recordCount": 75
@@ -110,14 +110,14 @@
       "contentType": "text/html",
       "contentBytes": 78464,
       "contentHash": "045c4a657c165ffad248713201f3156ef33850ce7fd32803b18e3d094b912ec0",
-      "elapsedMs": 60,
+      "elapsedMs": 1238,
       "adapter": "homepage_probe"
     },
     {
       "sourceId": "tender-sx-bidding-service",
       "status": "FAIL_NETWORK",
       "error": "fetch failed",
-      "elapsedMs": 5007,
+      "elapsedMs": 5012,
       "adapter": "homepage_probe"
     },
     {
@@ -130,420 +130,420 @@
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 1,
-          "elapsedMs": 436
+          "elapsedMs": 702
         },
         {
           "keyword": "联席主承销商",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 1,
-          "elapsedMs": 378
+          "elapsedMs": 744
         },
         {
           "keyword": "承销团",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 1,
-          "elapsedMs": 281
+          "elapsedMs": 616
         },
         {
           "keyword": "受托管理人",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 365
+          "elapsedMs": 548
         },
         {
           "keyword": "财务顾问",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 372
+          "elapsedMs": 556
         },
         {
           "keyword": "融资顾问",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 271
+          "elapsedMs": 435
         },
         {
           "keyword": "投资顾问",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 428
+          "elapsedMs": 440
         },
         {
           "keyword": "上市辅导",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 286
+          "elapsedMs": 460
         },
         {
           "keyword": "债券承销",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 1,
-          "elapsedMs": 263
+          "elapsedMs": 586
         },
         {
           "keyword": "公司债",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 345
+          "elapsedMs": 800
         },
         {
           "keyword": "企业债",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 300
+          "elapsedMs": 439
         },
         {
           "keyword": "中期票据",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 380
+          "elapsedMs": 520
         },
         {
           "keyword": "资产证券化",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 320
+          "elapsedMs": 400
         },
         {
           "keyword": "ABS",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 206
+          "elapsedMs": 400
         },
         {
           "keyword": "REITs",
           "stage": "announcement",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 95
+          "elapsedMs": 647
         },
         {
           "keyword": "主承销商",
           "stage": "change",
           "httpStatus": 200,
           "recordCount": 1,
-          "elapsedMs": 247
+          "elapsedMs": 443
         },
         {
           "keyword": "联席主承销商",
           "stage": "change",
           "httpStatus": 200,
           "recordCount": 1,
-          "elapsedMs": 249
+          "elapsedMs": 540
         },
         {
           "keyword": "承销团",
           "stage": "change",
           "httpStatus": 200,
           "recordCount": 1,
-          "elapsedMs": 294
-        },
-        {
-          "keyword": "受托管理人",
-          "stage": "change",
-          "httpStatus": 200,
-          "recordCount": 0,
-          "elapsedMs": 544
-        },
-        {
-          "keyword": "财务顾问",
-          "stage": "change",
-          "httpStatus": 200,
-          "recordCount": 0,
           "elapsedMs": 354
         },
         {
+          "keyword": "受托管理人",
+          "stage": "change",
+          "httpStatus": 200,
+          "recordCount": 0,
+          "elapsedMs": 500
+        },
+        {
+          "keyword": "财务顾问",
+          "stage": "change",
+          "httpStatus": 200,
+          "recordCount": 0,
+          "elapsedMs": 460
+        },
+        {
           "keyword": "融资顾问",
           "stage": "change",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 179
+          "elapsedMs": 650
         },
         {
           "keyword": "投资顾问",
           "stage": "change",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 192
+          "elapsedMs": 527
         },
         {
           "keyword": "上市辅导",
           "stage": "change",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 346
+          "elapsedMs": 643
         },
         {
           "keyword": "债券承销",
           "stage": "change",
           "httpStatus": 200,
           "recordCount": 1,
-          "elapsedMs": 142
+          "elapsedMs": 775
         },
         {
           "keyword": "公司债",
           "stage": "change",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 370
+          "elapsedMs": 827
         },
         {
           "keyword": "企业债",
           "stage": "change",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 226
+          "elapsedMs": 754
         },
         {
           "keyword": "中期票据",
           "stage": "change",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 459
+          "elapsedMs": 385
         },
         {
           "keyword": "资产证券化",
           "stage": "change",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 337
+          "elapsedMs": 548
         },
         {
           "keyword": "ABS",
           "stage": "change",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 165
+          "elapsedMs": 135
         },
         {
           "keyword": "REITs",
           "stage": "change",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 99
+          "elapsedMs": 118
         },
         {
           "keyword": "主承销商",
           "stage": "candidate",
           "httpStatus": 200,
           "recordCount": 1,
-          "elapsedMs": 280
+          "elapsedMs": 835
         },
         {
           "keyword": "联席主承销商",
           "stage": "candidate",
           "httpStatus": 200,
           "recordCount": 1,
-          "elapsedMs": 479
+          "elapsedMs": 419
         },
         {
           "keyword": "承销团",
           "stage": "candidate",
           "httpStatus": 200,
           "recordCount": 1,
-          "elapsedMs": 229
+          "elapsedMs": 374
         },
         {
           "keyword": "受托管理人",
           "stage": "candidate",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 489
+          "elapsedMs": 508
         },
         {
           "keyword": "财务顾问",
           "stage": "candidate",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 306
+          "elapsedMs": 608
         },
         {
           "keyword": "融资顾问",
           "stage": "candidate",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 215
+          "elapsedMs": 597
         },
         {
           "keyword": "投资顾问",
           "stage": "candidate",
-          "httpStatus": 200,
-          "recordCount": 0,
-          "elapsedMs": 226
-        },
-        {
-          "keyword": "上市辅导",
-          "stage": "candidate",
-          "httpStatus": 200,
-          "recordCount": 0,
-          "elapsedMs": 267
-        },
-        {
-          "keyword": "债券承销",
-          "stage": "candidate",
-          "httpStatus": 200,
-          "recordCount": 0,
-          "elapsedMs": 155
-        },
-        {
-          "keyword": "公司债",
-          "stage": "candidate",
-          "httpStatus": 200,
-          "recordCount": 0,
-          "elapsedMs": 469
-        },
-        {
-          "keyword": "企业债",
-          "stage": "candidate",
-          "httpStatus": 200,
-          "recordCount": 0,
-          "elapsedMs": 238
-        },
-        {
-          "keyword": "中期票据",
-          "stage": "candidate",
-          "httpStatus": 200,
-          "recordCount": 0,
-          "elapsedMs": 337
-        },
-        {
-          "keyword": "资产证券化",
-          "stage": "candidate",
-          "httpStatus": 200,
-          "recordCount": 0,
-          "elapsedMs": 239
-        },
-        {
-          "keyword": "ABS",
-          "stage": "candidate",
-          "httpStatus": 200,
-          "recordCount": 0,
-          "elapsedMs": 140
-        },
-        {
-          "keyword": "REITs",
-          "stage": "candidate",
-          "httpStatus": 200,
-          "recordCount": 0,
-          "elapsedMs": 179
-        },
-        {
-          "keyword": "主承销商",
-          "stage": "award",
-          "httpStatus": 200,
-          "recordCount": 1,
-          "elapsedMs": 248
-        },
-        {
-          "keyword": "联席主承销商",
-          "stage": "award",
-          "httpStatus": 200,
-          "recordCount": 1,
-          "elapsedMs": 322
-        },
-        {
-          "keyword": "承销团",
-          "stage": "award",
           "httpStatus": 200,
           "recordCount": 0,
           "elapsedMs": 293
         },
         {
+          "keyword": "上市辅导",
+          "stage": "candidate",
+          "httpStatus": 200,
+          "recordCount": 0,
+          "elapsedMs": 350
+        },
+        {
+          "keyword": "债券承销",
+          "stage": "candidate",
+          "httpStatus": 200,
+          "recordCount": 0,
+          "elapsedMs": 318
+        },
+        {
+          "keyword": "公司债",
+          "stage": "candidate",
+          "httpStatus": 200,
+          "recordCount": 0,
+          "elapsedMs": 452
+        },
+        {
+          "keyword": "企业债",
+          "stage": "candidate",
+          "httpStatus": 200,
+          "recordCount": 0,
+          "elapsedMs": 385
+        },
+        {
+          "keyword": "中期票据",
+          "stage": "candidate",
+          "httpStatus": 200,
+          "recordCount": 0,
+          "elapsedMs": 423
+        },
+        {
+          "keyword": "资产证券化",
+          "stage": "candidate",
+          "httpStatus": 200,
+          "recordCount": 0,
+          "elapsedMs": 497
+        },
+        {
+          "keyword": "ABS",
+          "stage": "candidate",
+          "httpStatus": 200,
+          "recordCount": 0,
+          "elapsedMs": 344
+        },
+        {
+          "keyword": "REITs",
+          "stage": "candidate",
+          "httpStatus": 200,
+          "recordCount": 0,
+          "elapsedMs": 166
+        },
+        {
+          "keyword": "主承销商",
+          "stage": "award",
+          "httpStatus": 200,
+          "recordCount": 1,
+          "elapsedMs": 410
+        },
+        {
+          "keyword": "联席主承销商",
+          "stage": "award",
+          "httpStatus": 200,
+          "recordCount": 1,
+          "elapsedMs": 516
+        },
+        {
+          "keyword": "承销团",
+          "stage": "award",
+          "httpStatus": 200,
+          "recordCount": 0,
+          "elapsedMs": 368
+        },
+        {
           "keyword": "受托管理人",
           "stage": "award",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 283
+          "elapsedMs": 387
         },
         {
           "keyword": "财务顾问",
           "stage": "award",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 242
+          "elapsedMs": 422
         },
         {
           "keyword": "融资顾问",
           "stage": "award",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 272
+          "elapsedMs": 1220
         },
         {
           "keyword": "投资顾问",
           "stage": "award",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 263
+          "elapsedMs": 532
         },
         {
           "keyword": "上市辅导",
           "stage": "award",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 253
+          "elapsedMs": 437
         },
         {
           "keyword": "债券承销",
           "stage": "award",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 260
+          "elapsedMs": 312
         },
         {
           "keyword": "公司债",
           "stage": "award",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 285
+          "elapsedMs": 486
         },
         {
           "keyword": "企业债",
           "stage": "award",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 277
+          "elapsedMs": 388
         },
         {
           "keyword": "中期票据",
           "stage": "award",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 374
+          "elapsedMs": 584
         },
         {
           "keyword": "资产证券化",
           "stage": "award",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 231
+          "elapsedMs": 919
         },
         {
           "keyword": "ABS",
           "stage": "award",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 153
+          "elapsedMs": 352
         },
         {
           "keyword": "REITs",
           "stage": "award",
           "httpStatus": 200,
           "recordCount": 0,
-          "elapsedMs": 97
+          "elapsedMs": 149
         }
       ],
       "recordCount": 6
@@ -574,7 +574,7 @@
       "stage": "change",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-06-18T00:00:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中国招标投标公共服务平台 · 债券承销",
@@ -597,7 +597,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-10-31T17:41:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "招标公告",
@@ -620,7 +620,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-12-19T16:50:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "合同公示",
@@ -643,7 +643,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-12-21T19:12:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "合同公示",
@@ -666,7 +666,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-06-19T16:42:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "合同公示",
@@ -689,7 +689,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-06-13T19:05:37+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -712,7 +712,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-06-06T17:45:59+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "采购公告",
@@ -735,7 +735,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2021-02-07T12:23:07+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "采购公告",
@@ -760,7 +760,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-07-09T15:51:18+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -783,7 +783,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-07-06T17:27:15+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标候选人公示",
@@ -806,7 +806,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-07-02T00:00:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中国招标投标公共服务平台 · 联席主承销商",
@@ -829,7 +829,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-06-26T00:00:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中国招标投标公共服务平台 · 联席主承销商",
@@ -852,7 +852,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-06-15T08:20:05+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2026-07-06T10:00:00+08:00",
       "openingAt": null,
       "category": "招标公告",
@@ -861,8 +861,8 @@
       "projectFingerprint": "a689df1f159474345bd8a44e",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -165,
-      "remainingHours": -165,
+      "remainingHoursAtDiscovery": -171,
+      "remainingHours": -171,
       "contentHash": "2c246d7f17b8056a88b736786b5225a0769aa4b6ad0467c37974f2652dfd18d2"
     },
     {
@@ -875,7 +875,7 @@
       "stage": "terminated",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-06-10T00:00:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中国招标投标公共服务平台 · 联席主承销商",
@@ -898,7 +898,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-06-02T14:50:06+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2026-06-24T10:00:00+08:00",
       "openingAt": "2026-06-24T10:00:00+08:00",
       "category": "中国招标投标公共服务平台 · 债券承销",
@@ -908,8 +908,8 @@
       "contentHash": "62bba9b7be54d1cb9330506a660a56b15aed3edb3d8bcc3bd23d7928bff83dae",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -453,
-      "remainingHours": -453
+      "remainingHoursAtDiscovery": -459,
+      "remainingHours": -459
     },
     {
       "recordId": "tender-national-bulletin:8a9494759dbedf91019e879e2ae33eed",
@@ -921,7 +921,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-06-02T00:00:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中国招标投标公共服务平台 · 承销团",
@@ -944,7 +944,7 @@
       "stage": "change",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-05-21T09:53:07+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2026-06-09T10:00:00+08:00",
       "openingAt": null,
       "category": "更正公告",
@@ -953,8 +953,8 @@
       "projectFingerprint": "d8a18e13512970b10566ecb7",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -813,
-      "remainingHours": -813,
+      "remainingHoursAtDiscovery": -819,
+      "remainingHours": -819,
       "contentHash": "eda2875d5f4ac1805d45d046e3c70a26e928943416746bccdd5f719b0d8f8be3"
     },
     {
@@ -967,7 +967,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-05-20T08:15:57+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2026-06-09T10:00:00+08:00",
       "openingAt": null,
       "category": "招标公告",
@@ -976,8 +976,8 @@
       "projectFingerprint": "d8a18e13512970b10566ecb7",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -813,
-      "remainingHours": -813,
+      "remainingHoursAtDiscovery": -819,
+      "remainingHours": -819,
       "contentHash": "ffbfbf6dbb85b87203d19cf45ed1872295b067e469e7e30012964d82b1801fdf"
     },
     {
@@ -990,7 +990,7 @@
       "stage": "terminated",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-03-30T18:23:02+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "废标/终止公告",
@@ -1013,7 +1013,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-03-06T10:12:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2026-03-31T09:30:00+08:00",
       "openingAt": "2026-03-31T09:30:00+08:00",
       "category": "招标公告",
@@ -1022,8 +1022,8 @@
       "projectFingerprint": "991fd3db554d4b0098ec947a",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -2493,
-      "remainingHours": -2493,
+      "remainingHoursAtDiscovery": -2499,
+      "remainingHours": -2499,
       "contentHash": "27594f5d12158bc95cd3f08b33eba7cf3c42c9b41d41d2b90f710f3610e5d3c8"
     },
     {
@@ -1036,7 +1036,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-12-01T16:25:30+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -1059,10 +1059,10 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-11-25T11:22:58+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
-      "category": "中标结果公示",
+      "category": "中标候选人公示",
       "region": "公共资源交易平台",
       "contentExcerpt": "（招标编号：SXZM-2025052） 公示结束时间：2025 年 11 月 27 日一、评标情况标段(包)[001]2026 年西咸集团债券主承销商选聘项目:1、中标候选人基本情况中标候选人第 1 名：长安银行股份有限公司西咸新区分行，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 2 名：西部证券股份有限公司，其他类型投标报价：年承销费率：0.15，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 3 名：国金证券股份有限公司，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 4 名：德意志银行（中国）有限公司，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 5 名：东兴证券股份有限公司，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 6 名：中国银河证券股份有限公司，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 7 名：西安银行股份有限公司，其他类型投标报价：年承销费率：0.15，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 8 名：长江证券股份有限公司，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 9 名：长城证券股份有限公司，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；2、中标候选人按照招标文件要求承诺的项目负责人情况中标候选人(长安银行股份有限公司西咸新区分行)的项目负责人：//;中标候选人(西部证券股份有限公司)的项目负责人：//;中标候选人(国金证券股份有限公司)的项目负责人：//;中标候选人(德意志银行（中国）有限公司)的项目负责人：//;中标候选人(东兴证券股份有限公司)的项目负责人：//;中标候选人(中国银河证券股份有限公司)的项目负责人：//;中标候选人(西安银行股份有限公司)的项目负责人：//;中标候选人(长江证券股份有限公司)的项目负责人：//;中标候选人(长城证券股份有限公司)的项目负责人：//;3、中标候选人响应招标文件要求的资格能力条件中标候选人(长安银行股份有限公司西咸新区分行)的资格能力条件：符合招标文件要求;中标候选人(西部证券股份有限公司)的资格能力条件：符合招标文件要求;中标候选人(国金证券股份有限公司)的资格能力条件：符合招标文件要求;中标候选人(德意志银行（中国）有限公司)的资格能力条件：符合招标文件要求;中标候选人(东兴证券股份有限公司)的资格能力条件：符合招标文件要求;中标候选人(中国银河证券股份有限公司)的资格能力条件：符合招标文件要求;中标候选人(西安银行股份有限公司)的资格能力条件：符合招标文件要求;中标候选人(长江证券股份有限公司)的资格能力条件：符合招标文件要求;中标候选人(长城证券股份有限公司)的资格能力条件：符合招标文件要求;4、中标候选人的评标情况中标候选人(长安银行股份有限公司西咸新区分行)的评标情况：排名第一;中标候选人(西部证券股份有限公司)的评标情况：排名第二;中标候选人(国金证券股份有限公司)的评标情况：排名第三;中标候选人(德意志银行（中国）有限公司)的评标情况：排名第四;中标候选人(东兴证券股份有限公司)的评标情况：排名第五;中标候选人(中国银河证券股份有限公司)的评标情况：排名第六;中标候选人(西安银行股份有限公司)的评标情况：排名第七;中标候选人(长江证券股份有限公司)的评标情况：排名第八;中标候选人(长城证券股份有限公司)的评标情况：排名第九;二、提出异议的渠道和方式以上中标候选人，经评标委员会审定，并予以公示，如有异议，请于公示截止时间前，以书面形式并加盖公章向招标代理机构或招标人反映。三、其他1.服务期限以各类债券实际存续期为准，服务有效期 3 年（申报发行 1 年+发行有效期 2年） 2.本项目所有中标单位的最终签约合同价，统一以本次中标单位所报",
       "projectFingerprint": "8ec98c270e851b869b7d54b1",
@@ -1082,7 +1082,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-10-17T10:01:12+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -1105,7 +1105,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-10-14T09:55:56+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -1128,7 +1128,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-09-29T09:34:38+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -1151,10 +1151,10 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-09-26T11:39:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
-      "category": "中标候选人公示",
+      "category": "中标结果公示",
       "region": "公共资源交易平台",
       "contentExcerpt": "（招标编号：SHZB2025040）公示结束时间： 2025年09月28日 一、评标情况 标段(包)[001]陕西省西咸新区沣西新城开发建设（集团）有限公司非公开发行公司债券主承销商采购: 1、中标候选人基本情况 中标候选人第1名：西部证券股份有限公司，年承销费率：0.2%，工期/交货期/服务期：期限不超过5年； 中标候选人第2名：兴业证券股份有限公司，年承销费率：0.2%，工期/ 交货期/服务期：期限不超过5年； 中标候选人第3名：西南证券股份有限公司，年承销费率：0.2%，工期/交货期/服务期：期限不超过5年； 2、中标候选人按照招标文件要求承诺的项目负责人情况 中标候选人(西部证券股份有限公司)的项目负责人：邱晨，证券从业资格，S0800121060029； 中标候选人(兴业证券股份有限公司)的项目负责人：卓溪，证券从业资格，S0190122030169；中标候选人(西南证券股份有限公司)的项目负责人：皮明君，证券从业资格，S1250121060010； 3、中标候选人响应招标文件要求的资格能力条件 中标候选人(西部证券股份有限公司)的资格能力条件：满足招标文件要求； 中标候选人(兴业证券股份有限公司)的资格能力条件：满足招标文件要求； 中标候选人(西南证券股份有限公司)的资格能力条件：满足招标文件要求； 4、中标候选人的评标情况中标候选人(西部证券股份有限公司)的评标情况:综合评审，排名第一:中标候选人(兴业证券股份有限公司)的评标情况:综合评审，排名第二:中标候选人(西南证券股份有限公司)的评标情况:综合评审，排名第三;二、提出异议的渠道和方式 以上中标候选人，经评标委员会审定，并予以公示，如有异议，请于公示截止时间前以书面形式并加盖公章向招标代理机构或招标人反映。 三、其他 本次中标候选人公示同时在《全国公共资源交易平台（陕西省·西咸新区）》《陕西采购与招标网/陕西采购与招标公共服务平台》》上发布。 四、监督部门 本招标项目的监督部门为沣西新城开发建设(集团)有限公司审计内控部。 五、联系方式 招 标 人：陕西省西咸新区沣西新城开发建设（集团）有限公司 地 址：陕西省西咸新区沣西新城秦皇大道南段尚业路总部经济园 5 号楼 联 系 人：胡工电 话：029-38021730 电子邮件：/ 招标代理机构：陕西世豪项目管理有限公司 地 址： 陕西省西安市高新区锦业路绿地中心A座1208室 联 系 人： 孙思雨、邹建强、石拓 电 话： 15691903320 电子邮件： xianshihao111@163.com",
       "projectFingerprint": "9360eb02920889acb73df6fb",
@@ -1174,7 +1174,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-09-18T15:42:13+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2025-10-13T13:30:00+08:00",
       "openingAt": "2025-10-13T13:30:00+08:00",
       "category": "招标公告",
@@ -1183,8 +1183,8 @@
       "projectFingerprint": "61a1ac2ccaacb0b0635ee0ea",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -6545,
-      "remainingHours": -6545,
+      "remainingHoursAtDiscovery": -6551,
+      "remainingHours": -6551,
       "contentHash": "4d6a3f64891cad07522b05a8453345240e626c2907de5770e779a39b8532a1f3"
     },
     {
@@ -1197,7 +1197,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-09-17T09:02:58+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2025-10-13T09:30:00+08:00",
       "openingAt": "2025-10-13T09:30:00+08:00",
       "category": "招标公告",
@@ -1206,8 +1206,8 @@
       "projectFingerprint": "921c33b03d9dd3f4f3a76eb9",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -6549,
-      "remainingHours": -6549,
+      "remainingHoursAtDiscovery": -6555,
+      "remainingHours": -6555,
       "contentHash": "653e6ff5d13bcb3212b87b9c7e6fb0d9babd02358ba68be79c91f268123db5a0"
     },
     {
@@ -1220,7 +1220,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-09-04T08:59:44+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2025-09-25T09:30:00+08:00",
       "openingAt": "2025-09-25T09:30:00+08:00",
       "category": "招标公告",
@@ -1229,8 +1229,8 @@
       "projectFingerprint": "e98c7f407573dcfbd5d1f746",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -6981,
-      "remainingHours": -6981,
+      "remainingHoursAtDiscovery": -6987,
+      "remainingHours": -6987,
       "contentHash": "ca9aa265e32e42827e9b4ef28bd793b304fe7f15d86f38e36ac1569b328dbbbb"
     },
     {
@@ -1243,7 +1243,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-09-01T09:39:56+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2025-09-15T09:00:00+08:00",
       "openingAt": "2025-09-15T09:00:00+08:00",
       "category": "招标公告",
@@ -1252,8 +1252,8 @@
       "projectFingerprint": "f4adade18e4c9f1f44c76f12",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -7222,
-      "remainingHours": -7222,
+      "remainingHoursAtDiscovery": -7228,
+      "remainingHours": -7228,
       "contentHash": "19d774681fc7d2f3bffe160f1c415bb3cc0569195793d9db2989b3b9d15c0476"
     },
     {
@@ -1266,7 +1266,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-08-29T17:19:07+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2025-09-15T09:00:00+08:00",
       "openingAt": "2025-09-15T09:00:00+08:00",
       "category": "招标公告",
@@ -1275,8 +1275,8 @@
       "projectFingerprint": "f4adade18e4c9f1f44c76f12",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -7222,
-      "remainingHours": -7222,
+      "remainingHoursAtDiscovery": -7228,
+      "remainingHours": -7228,
       "contentHash": "1a6b54c5b3bf3d81a3f3d87fc0b94b90d712eabf3286f3d3c351f487a1bfd185"
     },
     {
@@ -1289,7 +1289,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-06-30T17:43:09+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -1312,10 +1312,10 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-06-27T14:37:43+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
-      "category": "中标候选人公示",
+      "category": "中标结果公示",
       "region": "公共资源交易平台",
       "contentExcerpt": "公示结束时间：2025年06月29日一、评标情况标段(包)[001]2025 年西咸集团新注册私募公司债券新增主承销商项目:1、中标候选人基本情况中标候选人第 1 名：联储证券股份有限公司，费率：0.106%，质量：满足招标文件要求，工 期/交货期/服务期：1095 天；中标候选人第 2 名：中天证券股份有限公司，费率：0.106%，质量：满足招标文件要求，工 期/交货期/服务期：1095 天；中标候选人第 3 名：大同证券有限责任公司，费率：0.106%，质量：满足招标文件要求，工 期/交货期/服务期：1095 天；中标候选人第 4 名：恒泰长财证券有限责任公司，费率：0.106%，质量：满足招标文件要求， 工期/交货期/服务期：1095 天；中标候选人第 5 名：中天国富证券有限公司，费率：0.106%，质量：满足招标文件要求，工 期/交货期/服务期：1095 天；中标候选人第 6 名：国联民生证券承销保荐有限公司，费率：0.106%，质量：满足招标文件 要求，工期/交货期/服务期：1095 天；中标候选人第 7 名：国海证券股份有限公司，费率：0.106%，质量：满足招标文件要求，工 期/交货期/服务期：1095 天；中标候选人第 8 名：华鑫证券有限责任公司，费率：0.106%，质量：满足招标文件要求，工 期/交货期/服务期：1095 天；2、中标候选人按照招标文件要求承诺的项目负责人情况中标候选人(联储证券股份有限公司)的项目负责人：//;中标候选人(中天证券股份有限公司)的项目负责人：//;中标候选人(大同证券有限责任公司)的项目负责人：//;中标候选人(恒泰长财证券有限责任公司)的项目负责人：//;中标候选人(中天国富证券有限公司)的项目负责人：//;中标候选人(国联民生证券承销保荐有限公司)的项目负责人：//;中标候选人(国海证券股份有限公司)的项目负责人：//;中标候选人(华鑫证券有限责任公司)的项目负责人：//;3、中标候选人响应招标文件要求的资格能力条件中标候选人(联储证券股份有限公司)的资格能力条件：满足招标文件要求;中标候选人(中天证券股份有限公司)的资格能力条件：满足招标文件要求;中标候选人(大同证券有限责任公司)的资格能力条件：满足招标文件要求;中标候选人(恒泰长财证券有限责任公司)的资格能力条件：满足招标文件要求;中标候选人(中天国富证券有限公司)的资格能力条件：满足招标文件要求;中标候选人(国联民生证券承销保荐有限公司)的资格能力条件：满足招标文件要求;中标候选人(国海证券股份有限公司)的资格能力条件：满足招标文件要求;中标候选人(华鑫证券有限责任公司)的资格能力条件：满足招标文件要求;4、中标候选人的评标情况中标候选人(联储证券股份有限公司)的评标情况：排名第一;中标候选人(中天证券股份有限公司)的评标情况：排名第二;中标候选人(大同证券有限责任公司)的评标情况：排名第三;中标候选人(恒泰长财证券有限责任公司)的评标情况：排名第四;中标候选人(中天国富证券有限公司)的评标情况：排名第五;中标候选人(国联民生证券承销保荐有限公司)的评标情况：排名第六;中标候选人(国海证券股份有限公司)的评标情况：排名第七;中标候选人(华鑫证券有限责任公司)的评标情况：排名第八;二、提出异议的渠道和方式以上中标候选人，经评标委员会审定，并予以公示，如有异议，请于公示截止时间前，以书面形式并加盖公章向招标代理机构或招标人反映。三、其他服务期限以各类债券实际存续期为准，服务有效期3年(申报发行1年+发行有效期2年)四、监督部门本招标项目的监督部门为陕西西咸新区发展集团有限公司企业管理中心。五、联系方式招 标 人：陕西西咸新区发展集团有限公司地 址：陕西省西咸新区沣新路沣业大厦联 系 人：李森电 话：029-33186282电子邮件：/ 招标代理机构：陕西正明项目管理有限公司地 址： 陕西省西安市雁塔区科技二路 71 号竹园天寰国际 1807 室联 系 人： 樊睿、刘晨星电 话： 029-88811335电子邮件： sxzmxmgl@163.com",
       "projectFingerprint": "37f31eae8f65e3cf6b6dd984",
@@ -1335,7 +1335,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-01-10T15:16:30+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -1358,7 +1358,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-12-31T16:58:06+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2025-01-10T09:30:00+08:00",
       "openingAt": "2025-01-10T09:30:00+08:00",
       "category": "招标公告",
@@ -1367,8 +1367,8 @@
       "projectFingerprint": "35bac6f53b2b4cd9a08db3e7",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -13173,
-      "remainingHours": -13173,
+      "remainingHoursAtDiscovery": -13179,
+      "remainingHours": -13179,
       "contentHash": "ce27b8ba4b54bf5fcef78db1ca94acb663281653b71fb4e6d74c5c90b2508533"
     },
     {
@@ -1381,7 +1381,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-08-26T15:54:48+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -1404,10 +1404,10 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-08-20T15:03:47+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
-      "category": "中标结果公示",
+      "category": "中标候选人公示",
       "region": "公共资源交易平台",
       "contentExcerpt": "（招标编号：LZBC2024-1213） 公示结束时间：2024 年 08 月 23 日 一、评标情况标段(包)[001]泾河集团 2024 年度第二批私募公司债券承销服务: 1、中标候选人基本情况中标候选人第1名：联合体：西部证券股份有限公司（牵头人）、 国金证券股份有限公司（成员）、华鑫证券有限责任公司（成员），投标报价：975.000000 万元，质量：/，工期/交货期/服务期：0 天；中标候选人第 2 名：兴业证券股份有限公司，投标报价：1000.000000 万元，质量：/，工期/交货期/服务期：0 天；中标候选人第 3 名：财通证券股份有限公司，投标报价：1000.000000 万元，质量：/，工期/交货期/服务期：0 天； 2、中标候选人按照招标文件要求承诺的项目负责人情况 中标候选人(联合体：西部证券股份有限公司（牵头人）、 国金证券股份有限公司（成员）、华鑫证券有限责任公司（成员）)的项目负责人：//; 中标候选人(兴业证券股份有限公司)的项目负责人：//; 中标候选人(财通证券股份有限公司)的项目负责人：//; 3、中标候选人响应招标文件要求的资格能力条件 中标候选人(联合体：西部证券股份有限公司（牵头人）、 国金证券股份有限公司（成员）、华鑫证券有限责任公司（成员）)的资格能力条件：满足竞争性磋商文件要求; 中标候选人(兴业证券股份有限公司)的资格能力条件：满足竞争性磋商文件要求; 中标候选人(财通证券股份有限公司)的资格能力条件：满足竞争性磋商文件要求; 4、中标候选人的评标情况 中标候选人(联合体：西部证券股份有限公司（牵头人）、 国金证券股份有限公司（成员）、华鑫证券有限责任公司（成员）)的评标情况：/; 中标候选人(兴业证券股份有限公司)的评标情况：/; 中标候选人(财通证券股份有限公司)的评标情况：/;二、提出异议的渠道和方式如有异议，请在公示期内向招标代理机构提出书面意见，逾期不予受理。提交异议应包下列内容：（一）提出异议人的名称、地址及有效联系方式；（二）异议事项的基本事实；（三）相关请求及主张；（四）有效线索和相关证明材料。异议书必须由其法定代表人或者授权代表签字并加盖单位公章（授权代表需提供法定代表人授权书及身份证）。招标代理机构：龙寰项目管理咨询有限公司；电 话：029-88228899 转 631。三、其他 联合体：西部证券股份有限公司（牵头人）、 国金证券股份有限公司（成员）、华鑫证券有限责任公司（成员） 承销费率：0.195%/年,服务标准：响应招标文件要求兴业证券股份有限公司 承销费率：0.20%/年,服务标准：响应招标文件要求财通证券股份有限公司 承销费率：0.20%/年,服务标准：/四、监督部门 本招标项目的监督部门为为陕西省西咸新区泾河新城开发建设（集团）有限公司相关职能部门。五、联系方式 招 标 人：陕西省西咸新区泾河新城开发建设（集团）有限公司 地 址：陕西省西咸新区泾河新城泾河大道中段产业孵化中心 联 系 人：赵飞 电 话：029-36385618 电子邮件：/ 招标代理机构：龙寰项目管理咨询有限公司 地 址： 西安市太白南路 181 号西部电子社区 A 座 A 区 501 室 联 系 人： 谢朵、王申午、张波 电 话： 029-88228899 转 631 电子邮件： sxlhzb003@163.com",
       "projectFingerprint": "452e3f5f225495d17b17d537",
@@ -1427,7 +1427,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-08-06T17:21:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2024-08-19T14:00:00+08:00",
       "openingAt": "2024-08-19T14:00:00+08:00",
       "category": "招标公告",
@@ -1436,8 +1436,8 @@
       "projectFingerprint": "8ccd99c779ae8a94553e1875",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -16625,
-      "remainingHours": -16625,
+      "remainingHoursAtDiscovery": -16631,
+      "remainingHours": -16631,
       "contentHash": "97f9b812978d350798cffa0c55297b4cfb85d32d61a2a7693fbe297d6e85d456"
     },
     {
@@ -1450,7 +1450,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-03-19T09:02:29+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -1473,10 +1473,10 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-03-15T14:51:53+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
-      "category": "中标结果公示",
+      "category": "中标候选人公示",
       "region": "公共资源交易平台",
       "contentExcerpt": "（招标编号：LZBC2024-273 ）公示结束时间：2024 年 03 月 18 日 一、评标情况标段(包)[001]泾河集团 2024 年度私募公司债券承销服务项目: 1、中标候选人基本情况中标候选人第 1 名：联合体：西部证券股份有限公司（牵头人）、开源证券股份有限公司（成员）、华鑫证券有限责任公司（成员）、中邮证券有限责任公司（成员），投标报价：1170.00万元，质量：/，工期/交货期/服务期：0 天；中标候选人第 2 名：联合体：中国银河证券股份有限公司（牵头人）、海通证券股份有限公司（成员），投标报价：900.00 万元，质量：/，工期/交货期/服务期：0 天；中标候选人第 3 名：财信证券股份有限公司，投标报价：1380.00 万元，质量：/，工期/交货期/服务期：0 天； 2、中标候选人按照招标文件要求承诺的项目负责人情况 中标候选人（联合体：西部证券股份有限公司（牵头人）、开源证券股份有限公司（成员）、华鑫证券有限责任公司（成员）、中邮证券有限责任公司（成员））的项目负责人：//； 中标候选人（联合体：中国银河证券股份有限公司（牵头人）、海通证券股份有限公司）（成员））的项目负责人：//； 中标候选人（财信证券股份有限公司）的项目负责人：//； 3、中标候选人响应招标文件要求的资格能力条件 中标候选人（联合体：西部证券股份有限公司（牵头人）、开源证券股份有限公司（成员）、华鑫证券有限责任公司（成员）、中邮证券有限责任公司（成员））的资格能力条件：满足竞争性磋商文件要求； 中标候选人（联合体：中国银河证券股份有限公司（牵头人）、海通证券股份有限公司（成员））的资格能力条件：满足竞争性磋商文件要求； 中标候选人（财信证券股份有限公司）的资格能力条件：满足竞争性磋商文件要求； 4、中标候选人的评标情况 中标候选人（联合体：西部证券股份有限公司（牵头人）、开源证券股份有限公司（成员）、华鑫证券有限责任公司（成员）、中邮证券有限责任公司（成员））的评标情况：/； 中标候选人（联合体：中国银河证券股份有限公司（牵头人）、海通证券股份有限公司（成员））的评标情况：/； 中标候选人（财信证券股份有限公司）的评标情况：/；二、提出异议的渠道和方式如有异议，请在公示期内向招标代理机构提出书面意见，逾期不予受理。提交异议应包下列内容：（一）提出异议人的名称、地址及有效联系方式；（二）异议事项的基本事实；（三）相关请求及主张；（四）有效线索和相关证明材料。异议书必须由其法定代表人或者授权代表签字并加盖单位公章（授权代表需提供法定代表人授权书及身份证）。招标代理机构：龙寰项目管理咨询有限公司；电 话：029-88228899 转 631。三、其他 联合体：西部证券股份有限公司（牵头人）、开源证券股份有限公司（成员）、华鑫证券有限责任公司（成员）、中邮证券有限责任公司（成员） 承销费率：0.195%/年,服务标准：响应招标文件要求联合体：中国银河证券股份有限公司（牵头人）、海通证券股份有限公司（成员） 承销费率：0.15%/年,服务标准：按行业及监管要求全面服务财信证券股份有限公司 承销费率：0.23%/年,服务标准：如期完成债券发行及存续期管理工作四、监督部门 本招标项目的监督部门为陕西省西咸新区泾河新城开发建设（集团）有限公司相关职能部门。五、联系方式 招 标 人：陕西省西咸新区泾河新城开发建设（集团）有限公司 地 址：陕西省西咸新区泾河新城泾河大道中段产业孵化中心 联 系 人：赵飞 电 话：029-36385618 电子邮件：/ 招标代理机构：龙寰项目管理咨询有限公司 地 址： 西安市太白南路 181 号西部电子社区 A 座 A 区 501 室 联 系 人： 谢朵、王申午、张波 电 话： 029-88228899-631 电子邮件： sxlhzb003@163.com",
       "projectFingerprint": "6504323555fbf2ab6bb896a5",
@@ -1496,7 +1496,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-03-01T18:07:50+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2024-03-14T09:30:00+08:00",
       "openingAt": "2024-03-14T09:30:00+08:00",
       "category": "招标公告",
@@ -1505,8 +1505,8 @@
       "projectFingerprint": "0ecb6d28ed199a13865bc476",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -20421,
-      "remainingHours": -20421,
+      "remainingHoursAtDiscovery": -20427,
+      "remainingHours": -20427,
       "contentHash": "a85ca1faf75260da1213356ef9c843d9e7a10f759215cc1c712db375fc9d8b17"
     },
     {
@@ -1519,7 +1519,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-07-03T14:56:59+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -1542,7 +1542,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-06-30T13:57:21+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标候选人公示",
@@ -1565,7 +1565,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-06-30T13:53:21+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标候选人公示",
@@ -1588,7 +1588,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-06-02T14:44:41+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2023-06-25T09:00:00+08:00",
       "openingAt": null,
       "category": "招标公告",
@@ -1597,8 +1597,8 @@
       "projectFingerprint": "55178dea145b6c329279efe7",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -26734,
-      "remainingHours": -26734,
+      "remainingHoursAtDiscovery": -26740,
+      "remainingHours": -26740,
       "contentHash": "320149191ca35ce32a1d98161ad391ee9fd8ef548052590b464eb683a5f62ce9"
     },
     {
@@ -1611,7 +1611,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-05-30T09:57:09+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -1634,7 +1634,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-05-25T14:30:29+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": "2023-05-24T09:30:00+08:00",
       "category": "结果公告",
@@ -1657,7 +1657,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-05-25T10:18:36+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标候选人公示",
@@ -1680,7 +1680,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-05-12T16:38:17+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2023-05-24T09:30:00+08:00",
       "openingAt": "2023-05-24T09:30:00+08:00",
       "category": "采购公告",
@@ -1689,8 +1689,8 @@
       "projectFingerprint": "eec94dcc33e6b61571e880e5",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -27501,
-      "remainingHours": -27501,
+      "remainingHoursAtDiscovery": -27507,
+      "remainingHours": -27507,
       "contentHash": "2ce9adab97386fb596a5a049cebef070170ec1671b173e90af7d08686daa1e9b"
     },
     {
@@ -1703,7 +1703,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-04-28T17:41:51+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2023-05-22T14:00:00+08:00",
       "openingAt": "2023-05-22T14:00:00+08:00",
       "category": "采购公告",
@@ -1712,8 +1712,8 @@
       "projectFingerprint": "b53a11093a43fa4260f68bfa",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -27545,
-      "remainingHours": -27545,
+      "remainingHoursAtDiscovery": -27551,
+      "remainingHours": -27551,
       "contentHash": "d7cabd94996ed456b162cce00f8b441ffdb07986f5bad6eb1916be5fa497e1b8"
     },
     {
@@ -1726,7 +1726,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-03-29T10:03:16+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -1749,7 +1749,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-03-28T10:38:28+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -1772,7 +1772,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-03-16T00:10:39+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2023-03-27T09:30:00+08:00",
       "openingAt": "2023-03-27T09:30:00+08:00",
       "category": "采购公告",
@@ -1781,8 +1781,8 @@
       "projectFingerprint": "d07a9cda7f199157bc733e36",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -28893,
-      "remainingHours": -28893,
+      "remainingHoursAtDiscovery": -28899,
+      "remainingHours": -28899,
       "contentHash": "decea08087e8365931c4b38c7054884b5fe96778b2e34ccfb4bf92283c4afeda"
     },
     {
@@ -1795,7 +1795,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2022-10-28T08:46:31+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2022-11-18T09:30:00+08:00",
       "openingAt": "2022-11-18T09:30:00+08:00",
       "category": "采购公告",
@@ -1804,8 +1804,8 @@
       "projectFingerprint": "29a439808528b82882dd308c",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -31989,
-      "remainingHours": -31989,
+      "remainingHoursAtDiscovery": -31995,
+      "remainingHours": -31995,
       "contentHash": "cbbec2cda918064aee3ddd06da22e8818296935cc6a7b10c669416de5dbf89bf"
     },
     {
@@ -1818,7 +1818,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2022-02-23T10:02:47+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -1841,7 +1841,7 @@
       "stage": "change",
       "eligibilityStatus": "eligible",
       "publishedAt": "2022-02-11T14:59:50+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2022-02-22T09:30:00+08:00",
       "openingAt": null,
       "category": "更正公告",
@@ -1850,8 +1850,8 @@
       "projectFingerprint": "689dab9d106963048e914bb2",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -38445,
-      "remainingHours": -38445,
+      "remainingHoursAtDiscovery": -38451,
+      "remainingHours": -38451,
       "contentHash": "e354508fb5ca0730ce701a4fa9e52cfedb37c092037426b421d8d94af45c21e9"
     },
     {
@@ -1864,7 +1864,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2022-01-30T17:36:46+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2022-02-18T09:30:00+08:00",
       "openingAt": null,
       "category": "采购公告",
@@ -1873,8 +1873,8 @@
       "projectFingerprint": "d7fabc190a13a8db522cc1a0",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -38541,
-      "remainingHours": -38541,
+      "remainingHoursAtDiscovery": -38547,
+      "remainingHours": -38547,
       "contentHash": "ec0f9fa376914c537ff29cb46ef275f7da8636b1df147d1bf0b1d037e85ab572"
     },
     {
@@ -1887,7 +1887,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2021-03-10T17:36:51+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2021-03-22T14:00:00+08:00",
       "openingAt": null,
       "category": "采购公告",
@@ -1896,8 +1896,8 @@
       "projectFingerprint": "fdd2f97bc0f1436c52b0a3d0",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -46529,
-      "remainingHours": -46529,
+      "remainingHoursAtDiscovery": -46535,
+      "remainingHours": -46535,
       "contentHash": "cedec3c4596012ba86edbd1b115225952fcabbf1fd449faa91bb7b2dbcce2f2b"
     },
     {
@@ -1910,7 +1910,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2020-07-31T18:55:31+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -1933,7 +1933,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2020-07-20T19:28:01+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2020-07-31T14:00:00+08:00",
       "openingAt": null,
       "category": "采购公告",
@@ -1942,8 +1942,8 @@
       "projectFingerprint": "5ba4527d356e6af322df00dc",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -52145,
-      "remainingHours": -52145,
+      "remainingHoursAtDiscovery": -52151,
+      "remainingHours": -52151,
       "contentHash": "682a9a20d394e8d8f16b5d1eab1d21297162e55443e1d4fe08f32d5ae2eeaab9"
     },
     {
@@ -1956,7 +1956,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2020-07-03T16:51:28+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2020-07-14T09:30:00+08:00",
       "openingAt": null,
       "category": "采购公告",
@@ -1965,8 +1965,8 @@
       "projectFingerprint": "2bb2ad4bda638ed7eaf5edfb",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -52557,
-      "remainingHours": -52557,
+      "remainingHoursAtDiscovery": -52563,
+      "remainingHours": -52563,
       "contentHash": "beb1072bf347a80147d216c618a24fb2f088451c53fe406968c0c79c94a58656"
     },
     {
@@ -1979,7 +1979,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2018-10-25T11:00:14+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2018-11-16T14:00:00+08:00",
       "openingAt": "2018-11-16T14:00:00+08:00",
       "category": "采购公告",
@@ -1988,8 +1988,8 @@
       "projectFingerprint": "53eaf236af366c697b30bcd2",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -67097,
-      "remainingHours": -67097,
+      "remainingHoursAtDiscovery": -67103,
+      "remainingHours": -67103,
       "contentHash": "fa7980bf97f2786a2691cf5fde7303e4b3e912a4b6502ac71158ac85cc5da309"
     }
   ],
@@ -2004,7 +2004,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-07-09T15:51:18+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -2027,7 +2027,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-07-06T17:27:15+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标候选人公示",
@@ -2050,7 +2050,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-07-02T00:00:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中国招标投标公共服务平台 · 联席主承销商",
@@ -2073,7 +2073,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-06-26T00:00:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中国招标投标公共服务平台 · 联席主承销商",
@@ -2096,7 +2096,7 @@
       "stage": "change",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-06-18T00:00:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中国招标投标公共服务平台 · 债券承销",
@@ -2119,7 +2119,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-06-15T08:20:05+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2026-07-06T10:00:00+08:00",
       "openingAt": null,
       "category": "招标公告",
@@ -2128,8 +2128,8 @@
       "projectFingerprint": "a689df1f159474345bd8a44e",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -165,
-      "remainingHours": -165,
+      "remainingHoursAtDiscovery": -171,
+      "remainingHours": -171,
       "contentHash": "2c246d7f17b8056a88b736786b5225a0769aa4b6ad0467c37974f2652dfd18d2"
     },
     {
@@ -2142,7 +2142,7 @@
       "stage": "terminated",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-06-10T00:00:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中国招标投标公共服务平台 · 联席主承销商",
@@ -2165,7 +2165,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-06-02T14:50:06+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2026-06-24T10:00:00+08:00",
       "openingAt": "2026-06-24T10:00:00+08:00",
       "category": "中国招标投标公共服务平台 · 债券承销",
@@ -2175,8 +2175,8 @@
       "contentHash": "62bba9b7be54d1cb9330506a660a56b15aed3edb3d8bcc3bd23d7928bff83dae",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -453,
-      "remainingHours": -453
+      "remainingHoursAtDiscovery": -459,
+      "remainingHours": -459
     },
     {
       "recordId": "tender-national-bulletin:8a9494759dbedf91019e879e2ae33eed",
@@ -2188,7 +2188,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-06-02T00:00:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中国招标投标公共服务平台 · 承销团",
@@ -2211,7 +2211,7 @@
       "stage": "change",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-05-21T09:53:07+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2026-06-09T10:00:00+08:00",
       "openingAt": null,
       "category": "更正公告",
@@ -2220,8 +2220,8 @@
       "projectFingerprint": "d8a18e13512970b10566ecb7",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -813,
-      "remainingHours": -813,
+      "remainingHoursAtDiscovery": -819,
+      "remainingHours": -819,
       "contentHash": "eda2875d5f4ac1805d45d046e3c70a26e928943416746bccdd5f719b0d8f8be3"
     },
     {
@@ -2234,7 +2234,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-05-20T08:15:57+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2026-06-09T10:00:00+08:00",
       "openingAt": null,
       "category": "招标公告",
@@ -2243,8 +2243,8 @@
       "projectFingerprint": "d8a18e13512970b10566ecb7",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -813,
-      "remainingHours": -813,
+      "remainingHoursAtDiscovery": -819,
+      "remainingHours": -819,
       "contentHash": "ffbfbf6dbb85b87203d19cf45ed1872295b067e469e7e30012964d82b1801fdf"
     },
     {
@@ -2257,7 +2257,7 @@
       "stage": "terminated",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-03-30T18:23:02+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "废标/终止公告",
@@ -2280,7 +2280,7 @@
       "stage": "pending",
       "eligibilityStatus": "excluded",
       "publishedAt": "2026-03-25T14:23:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2026-04-01T18:59:00+08:00",
       "openingAt": null,
       "category": "交易公告",
@@ -2289,8 +2289,8 @@
       "projectFingerprint": "920f20074761e2f16170f4b8",
       "classification": "excluded",
       "alertStatus": "none",
-      "remainingHoursAtDiscovery": -2460,
-      "remainingHours": -2460,
+      "remainingHoursAtDiscovery": -2466,
+      "remainingHours": -2466,
       "contentHash": "030e5bdfbf76a8c66d78d74d21196062c47e4c6357f67214e98dced862310bf7"
     },
     {
@@ -2303,7 +2303,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2026-03-06T10:12:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2026-03-31T09:30:00+08:00",
       "openingAt": "2026-03-31T09:30:00+08:00",
       "category": "招标公告",
@@ -2312,8 +2312,8 @@
       "projectFingerprint": "991fd3db554d4b0098ec947a",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -2493,
-      "remainingHours": -2493,
+      "remainingHoursAtDiscovery": -2499,
+      "remainingHours": -2499,
       "contentHash": "27594f5d12158bc95cd3f08b33eba7cf3c42c9b41d41d2b90f710f3610e5d3c8"
     },
     {
@@ -2326,7 +2326,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-12-01T16:25:30+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -2349,10 +2349,10 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-11-25T11:22:58+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
-      "category": "中标结果公示",
+      "category": "中标候选人公示",
       "region": "公共资源交易平台",
       "contentExcerpt": "（招标编号：SXZM-2025052） 公示结束时间：2025 年 11 月 27 日一、评标情况标段(包)[001]2026 年西咸集团债券主承销商选聘项目:1、中标候选人基本情况中标候选人第 1 名：长安银行股份有限公司西咸新区分行，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 2 名：西部证券股份有限公司，其他类型投标报价：年承销费率：0.15，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 3 名：国金证券股份有限公司，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 4 名：德意志银行（中国）有限公司，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 5 名：东兴证券股份有限公司，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 6 名：中国银河证券股份有限公司，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 7 名：西安银行股份有限公司，其他类型投标报价：年承销费率：0.15，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 8 名：长江证券股份有限公司，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；中标候选人第 9 名：长城证券股份有限公司，其他类型投标报价：年承销费率：0.14，质量：满足招标文件要求，工期/交货期/服务期：1095 天；2、中标候选人按照招标文件要求承诺的项目负责人情况中标候选人(长安银行股份有限公司西咸新区分行)的项目负责人：//;中标候选人(西部证券股份有限公司)的项目负责人：//;中标候选人(国金证券股份有限公司)的项目负责人：//;中标候选人(德意志银行（中国）有限公司)的项目负责人：//;中标候选人(东兴证券股份有限公司)的项目负责人：//;中标候选人(中国银河证券股份有限公司)的项目负责人：//;中标候选人(西安银行股份有限公司)的项目负责人：//;中标候选人(长江证券股份有限公司)的项目负责人：//;中标候选人(长城证券股份有限公司)的项目负责人：//;3、中标候选人响应招标文件要求的资格能力条件中标候选人(长安银行股份有限公司西咸新区分行)的资格能力条件：符合招标文件要求;中标候选人(西部证券股份有限公司)的资格能力条件：符合招标文件要求;中标候选人(国金证券股份有限公司)的资格能力条件：符合招标文件要求;中标候选人(德意志银行（中国）有限公司)的资格能力条件：符合招标文件要求;中标候选人(东兴证券股份有限公司)的资格能力条件：符合招标文件要求;中标候选人(中国银河证券股份有限公司)的资格能力条件：符合招标文件要求;中标候选人(西安银行股份有限公司)的资格能力条件：符合招标文件要求;中标候选人(长江证券股份有限公司)的资格能力条件：符合招标文件要求;中标候选人(长城证券股份有限公司)的资格能力条件：符合招标文件要求;4、中标候选人的评标情况中标候选人(长安银行股份有限公司西咸新区分行)的评标情况：排名第一;中标候选人(西部证券股份有限公司)的评标情况：排名第二;中标候选人(国金证券股份有限公司)的评标情况：排名第三;中标候选人(德意志银行（中国）有限公司)的评标情况：排名第四;中标候选人(东兴证券股份有限公司)的评标情况：排名第五;中标候选人(中国银河证券股份有限公司)的评标情况：排名第六;中标候选人(西安银行股份有限公司)的评标情况：排名第七;中标候选人(长江证券股份有限公司)的评标情况：排名第八;中标候选人(长城证券股份有限公司)的评标情况：排名第九;二、提出异议的渠道和方式以上中标候选人，经评标委员会审定，并予以公示，如有异议，请于公示截止时间前，以书面形式并加盖公章向招标代理机构或招标人反映。三、其他1.服务期限以各类债券实际存续期为准，服务有效期 3 年（申报发行 1 年+发行有效期 2年） 2.本项目所有中标单位的最终签约合同价，统一以本次中标单位所报",
       "projectFingerprint": "8ec98c270e851b869b7d54b1",
@@ -2372,7 +2372,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-10-31T17:41:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "招标公告",
@@ -2395,7 +2395,7 @@
       "stage": "award",
       "eligibilityStatus": "excluded",
       "publishedAt": "2025-10-17T16:15:39+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -2418,7 +2418,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-10-17T10:01:12+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -2441,7 +2441,7 @@
       "stage": "candidate",
       "eligibilityStatus": "excluded",
       "publishedAt": "2025-10-14T12:03:53+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标候选人公示",
@@ -2464,7 +2464,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-10-14T09:55:56+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -2487,7 +2487,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-09-29T09:34:38+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -2510,7 +2510,7 @@
       "stage": "award",
       "eligibilityStatus": "excluded",
       "publishedAt": "2025-09-28T17:18:06+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -2533,10 +2533,10 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-09-26T11:39:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
-      "category": "中标候选人公示",
+      "category": "中标结果公示",
       "region": "公共资源交易平台",
       "contentExcerpt": "（招标编号：SHZB2025040）公示结束时间： 2025年09月28日 一、评标情况 标段(包)[001]陕西省西咸新区沣西新城开发建设（集团）有限公司非公开发行公司债券主承销商采购: 1、中标候选人基本情况 中标候选人第1名：西部证券股份有限公司，年承销费率：0.2%，工期/交货期/服务期：期限不超过5年； 中标候选人第2名：兴业证券股份有限公司，年承销费率：0.2%，工期/ 交货期/服务期：期限不超过5年； 中标候选人第3名：西南证券股份有限公司，年承销费率：0.2%，工期/交货期/服务期：期限不超过5年； 2、中标候选人按照招标文件要求承诺的项目负责人情况 中标候选人(西部证券股份有限公司)的项目负责人：邱晨，证券从业资格，S0800121060029； 中标候选人(兴业证券股份有限公司)的项目负责人：卓溪，证券从业资格，S0190122030169；中标候选人(西南证券股份有限公司)的项目负责人：皮明君，证券从业资格，S1250121060010； 3、中标候选人响应招标文件要求的资格能力条件 中标候选人(西部证券股份有限公司)的资格能力条件：满足招标文件要求； 中标候选人(兴业证券股份有限公司)的资格能力条件：满足招标文件要求； 中标候选人(西南证券股份有限公司)的资格能力条件：满足招标文件要求； 4、中标候选人的评标情况中标候选人(西部证券股份有限公司)的评标情况:综合评审，排名第一:中标候选人(兴业证券股份有限公司)的评标情况:综合评审，排名第二:中标候选人(西南证券股份有限公司)的评标情况:综合评审，排名第三;二、提出异议的渠道和方式 以上中标候选人，经评标委员会审定，并予以公示，如有异议，请于公示截止时间前以书面形式并加盖公章向招标代理机构或招标人反映。 三、其他 本次中标候选人公示同时在《全国公共资源交易平台（陕西省·西咸新区）》《陕西采购与招标网/陕西采购与招标公共服务平台》》上发布。 四、监督部门 本招标项目的监督部门为沣西新城开发建设(集团)有限公司审计内控部。 五、联系方式 招 标 人：陕西省西咸新区沣西新城开发建设（集团）有限公司 地 址：陕西省西咸新区沣西新城秦皇大道南段尚业路总部经济园 5 号楼 联 系 人：胡工电 话：029-38021730 电子邮件：/ 招标代理机构：陕西世豪项目管理有限公司 地 址： 陕西省西安市高新区锦业路绿地中心A座1208室 联 系 人： 孙思雨、邹建强、石拓 电 话： 15691903320 电子邮件： xianshihao111@163.com",
       "projectFingerprint": "9360eb02920889acb73df6fb",
@@ -2556,7 +2556,7 @@
       "stage": "candidate",
       "eligibilityStatus": "excluded",
       "publishedAt": "2025-09-25T15:36:35+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标候选人公示",
@@ -2579,7 +2579,7 @@
       "stage": "award",
       "eligibilityStatus": "excluded",
       "publishedAt": "2025-09-22T11:54:33+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -2602,7 +2602,7 @@
       "stage": "award",
       "eligibilityStatus": "excluded",
       "publishedAt": "2025-09-22T11:47:36+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -2625,7 +2625,7 @@
       "stage": "award",
       "eligibilityStatus": "excluded",
       "publishedAt": "2025-09-18T17:17:16+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -2648,7 +2648,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-09-18T15:42:13+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2025-10-13T13:30:00+08:00",
       "openingAt": "2025-10-13T13:30:00+08:00",
       "category": "招标公告",
@@ -2657,8 +2657,8 @@
       "projectFingerprint": "61a1ac2ccaacb0b0635ee0ea",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -6545,
-      "remainingHours": -6545,
+      "remainingHoursAtDiscovery": -6551,
+      "remainingHours": -6551,
       "contentHash": "4d6a3f64891cad07522b05a8453345240e626c2907de5770e779a39b8532a1f3"
     },
     {
@@ -2671,7 +2671,7 @@
       "stage": "candidate",
       "eligibilityStatus": "excluded",
       "publishedAt": "2025-09-17T16:43:51+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标候选人公示",
@@ -2694,7 +2694,7 @@
       "stage": "candidate",
       "eligibilityStatus": "excluded",
       "publishedAt": "2025-09-17T16:38:25+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标候选人公示",
@@ -2717,7 +2717,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-09-17T09:02:58+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2025-10-13T09:30:00+08:00",
       "openingAt": "2025-10-13T09:30:00+08:00",
       "category": "招标公告",
@@ -2726,8 +2726,8 @@
       "projectFingerprint": "921c33b03d9dd3f4f3a76eb9",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -6549,
-      "remainingHours": -6549,
+      "remainingHoursAtDiscovery": -6555,
+      "remainingHours": -6555,
       "contentHash": "653e6ff5d13bcb3212b87b9c7e6fb0d9babd02358ba68be79c91f268123db5a0"
     },
     {
@@ -2740,7 +2740,7 @@
       "stage": "change",
       "eligibilityStatus": "excluded",
       "publishedAt": "2025-09-10T17:34:03+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "更正公告",
@@ -2763,7 +2763,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-09-04T08:59:44+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2025-09-25T09:30:00+08:00",
       "openingAt": "2025-09-25T09:30:00+08:00",
       "category": "招标公告",
@@ -2772,8 +2772,8 @@
       "projectFingerprint": "e98c7f407573dcfbd5d1f746",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -6981,
-      "remainingHours": -6981,
+      "remainingHoursAtDiscovery": -6987,
+      "remainingHours": -6987,
       "contentHash": "ca9aa265e32e42827e9b4ef28bd793b304fe7f15d86f38e36ac1569b328dbbbb"
     },
     {
@@ -2786,7 +2786,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-09-01T09:39:56+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2025-09-15T09:00:00+08:00",
       "openingAt": "2025-09-15T09:00:00+08:00",
       "category": "招标公告",
@@ -2795,8 +2795,8 @@
       "projectFingerprint": "f4adade18e4c9f1f44c76f12",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -7222,
-      "remainingHours": -7222,
+      "remainingHoursAtDiscovery": -7228,
+      "remainingHours": -7228,
       "contentHash": "19d774681fc7d2f3bffe160f1c415bb3cc0569195793d9db2989b3b9d15c0476"
     },
     {
@@ -2809,7 +2809,7 @@
       "stage": "terminated",
       "eligibilityStatus": "excluded",
       "publishedAt": "2025-08-29T18:11:33+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "废标/终止公告",
@@ -2832,7 +2832,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-08-29T17:19:07+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2025-09-15T09:00:00+08:00",
       "openingAt": "2025-09-15T09:00:00+08:00",
       "category": "招标公告",
@@ -2841,8 +2841,8 @@
       "projectFingerprint": "f4adade18e4c9f1f44c76f12",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -7222,
-      "remainingHours": -7222,
+      "remainingHoursAtDiscovery": -7228,
+      "remainingHours": -7228,
       "contentHash": "1a6b54c5b3bf3d81a3f3d87fc0b94b90d712eabf3286f3d3c351f487a1bfd185"
     },
     {
@@ -2855,7 +2855,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-06-30T17:43:09+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -2878,10 +2878,10 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-06-27T14:37:43+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
-      "category": "中标候选人公示",
+      "category": "中标结果公示",
       "region": "公共资源交易平台",
       "contentExcerpt": "公示结束时间：2025年06月29日一、评标情况标段(包)[001]2025 年西咸集团新注册私募公司债券新增主承销商项目:1、中标候选人基本情况中标候选人第 1 名：联储证券股份有限公司，费率：0.106%，质量：满足招标文件要求，工 期/交货期/服务期：1095 天；中标候选人第 2 名：中天证券股份有限公司，费率：0.106%，质量：满足招标文件要求，工 期/交货期/服务期：1095 天；中标候选人第 3 名：大同证券有限责任公司，费率：0.106%，质量：满足招标文件要求，工 期/交货期/服务期：1095 天；中标候选人第 4 名：恒泰长财证券有限责任公司，费率：0.106%，质量：满足招标文件要求， 工期/交货期/服务期：1095 天；中标候选人第 5 名：中天国富证券有限公司，费率：0.106%，质量：满足招标文件要求，工 期/交货期/服务期：1095 天；中标候选人第 6 名：国联民生证券承销保荐有限公司，费率：0.106%，质量：满足招标文件 要求，工期/交货期/服务期：1095 天；中标候选人第 7 名：国海证券股份有限公司，费率：0.106%，质量：满足招标文件要求，工 期/交货期/服务期：1095 天；中标候选人第 8 名：华鑫证券有限责任公司，费率：0.106%，质量：满足招标文件要求，工 期/交货期/服务期：1095 天；2、中标候选人按照招标文件要求承诺的项目负责人情况中标候选人(联储证券股份有限公司)的项目负责人：//;中标候选人(中天证券股份有限公司)的项目负责人：//;中标候选人(大同证券有限责任公司)的项目负责人：//;中标候选人(恒泰长财证券有限责任公司)的项目负责人：//;中标候选人(中天国富证券有限公司)的项目负责人：//;中标候选人(国联民生证券承销保荐有限公司)的项目负责人：//;中标候选人(国海证券股份有限公司)的项目负责人：//;中标候选人(华鑫证券有限责任公司)的项目负责人：//;3、中标候选人响应招标文件要求的资格能力条件中标候选人(联储证券股份有限公司)的资格能力条件：满足招标文件要求;中标候选人(中天证券股份有限公司)的资格能力条件：满足招标文件要求;中标候选人(大同证券有限责任公司)的资格能力条件：满足招标文件要求;中标候选人(恒泰长财证券有限责任公司)的资格能力条件：满足招标文件要求;中标候选人(中天国富证券有限公司)的资格能力条件：满足招标文件要求;中标候选人(国联民生证券承销保荐有限公司)的资格能力条件：满足招标文件要求;中标候选人(国海证券股份有限公司)的资格能力条件：满足招标文件要求;中标候选人(华鑫证券有限责任公司)的资格能力条件：满足招标文件要求;4、中标候选人的评标情况中标候选人(联储证券股份有限公司)的评标情况：排名第一;中标候选人(中天证券股份有限公司)的评标情况：排名第二;中标候选人(大同证券有限责任公司)的评标情况：排名第三;中标候选人(恒泰长财证券有限责任公司)的评标情况：排名第四;中标候选人(中天国富证券有限公司)的评标情况：排名第五;中标候选人(国联民生证券承销保荐有限公司)的评标情况：排名第六;中标候选人(国海证券股份有限公司)的评标情况：排名第七;中标候选人(华鑫证券有限责任公司)的评标情况：排名第八;二、提出异议的渠道和方式以上中标候选人，经评标委员会审定，并予以公示，如有异议，请于公示截止时间前，以书面形式并加盖公章向招标代理机构或招标人反映。三、其他服务期限以各类债券实际存续期为准，服务有效期3年(申报发行1年+发行有效期2年)四、监督部门本招标项目的监督部门为陕西西咸新区发展集团有限公司企业管理中心。五、联系方式招 标 人：陕西西咸新区发展集团有限公司地 址：陕西省西咸新区沣新路沣业大厦联 系 人：李森电 话：029-33186282电子邮件：/ 招标代理机构：陕西正明项目管理有限公司地 址： 陕西省西安市雁塔区科技二路 71 号竹园天寰国际 1807 室联 系 人： 樊睿、刘晨星电 话： 029-88811335电子邮件： sxzmxmgl@163.com",
       "projectFingerprint": "37f31eae8f65e3cf6b6dd984",
@@ -2901,7 +2901,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2025-01-10T15:16:30+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -2924,7 +2924,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-12-31T16:58:06+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2025-01-10T09:30:00+08:00",
       "openingAt": "2025-01-10T09:30:00+08:00",
       "category": "招标公告",
@@ -2933,8 +2933,8 @@
       "projectFingerprint": "35bac6f53b2b4cd9a08db3e7",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -13173,
-      "remainingHours": -13173,
+      "remainingHoursAtDiscovery": -13179,
+      "remainingHours": -13179,
       "contentHash": "ce27b8ba4b54bf5fcef78db1ca94acb663281653b71fb4e6d74c5c90b2508533"
     },
     {
@@ -2947,7 +2947,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-12-19T16:50:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "合同公示",
@@ -2970,7 +2970,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-08-26T15:54:48+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -2993,10 +2993,10 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-08-20T15:03:47+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
-      "category": "中标结果公示",
+      "category": "中标候选人公示",
       "region": "公共资源交易平台",
       "contentExcerpt": "（招标编号：LZBC2024-1213） 公示结束时间：2024 年 08 月 23 日 一、评标情况标段(包)[001]泾河集团 2024 年度第二批私募公司债券承销服务: 1、中标候选人基本情况中标候选人第1名：联合体：西部证券股份有限公司（牵头人）、 国金证券股份有限公司（成员）、华鑫证券有限责任公司（成员），投标报价：975.000000 万元，质量：/，工期/交货期/服务期：0 天；中标候选人第 2 名：兴业证券股份有限公司，投标报价：1000.000000 万元，质量：/，工期/交货期/服务期：0 天；中标候选人第 3 名：财通证券股份有限公司，投标报价：1000.000000 万元，质量：/，工期/交货期/服务期：0 天； 2、中标候选人按照招标文件要求承诺的项目负责人情况 中标候选人(联合体：西部证券股份有限公司（牵头人）、 国金证券股份有限公司（成员）、华鑫证券有限责任公司（成员）)的项目负责人：//; 中标候选人(兴业证券股份有限公司)的项目负责人：//; 中标候选人(财通证券股份有限公司)的项目负责人：//; 3、中标候选人响应招标文件要求的资格能力条件 中标候选人(联合体：西部证券股份有限公司（牵头人）、 国金证券股份有限公司（成员）、华鑫证券有限责任公司（成员）)的资格能力条件：满足竞争性磋商文件要求; 中标候选人(兴业证券股份有限公司)的资格能力条件：满足竞争性磋商文件要求; 中标候选人(财通证券股份有限公司)的资格能力条件：满足竞争性磋商文件要求; 4、中标候选人的评标情况 中标候选人(联合体：西部证券股份有限公司（牵头人）、 国金证券股份有限公司（成员）、华鑫证券有限责任公司（成员）)的评标情况：/; 中标候选人(兴业证券股份有限公司)的评标情况：/; 中标候选人(财通证券股份有限公司)的评标情况：/;二、提出异议的渠道和方式如有异议，请在公示期内向招标代理机构提出书面意见，逾期不予受理。提交异议应包下列内容：（一）提出异议人的名称、地址及有效联系方式；（二）异议事项的基本事实；（三）相关请求及主张；（四）有效线索和相关证明材料。异议书必须由其法定代表人或者授权代表签字并加盖单位公章（授权代表需提供法定代表人授权书及身份证）。招标代理机构：龙寰项目管理咨询有限公司；电 话：029-88228899 转 631。三、其他 联合体：西部证券股份有限公司（牵头人）、 国金证券股份有限公司（成员）、华鑫证券有限责任公司（成员） 承销费率：0.195%/年,服务标准：响应招标文件要求兴业证券股份有限公司 承销费率：0.20%/年,服务标准：响应招标文件要求财通证券股份有限公司 承销费率：0.20%/年,服务标准：/四、监督部门 本招标项目的监督部门为为陕西省西咸新区泾河新城开发建设（集团）有限公司相关职能部门。五、联系方式 招 标 人：陕西省西咸新区泾河新城开发建设（集团）有限公司 地 址：陕西省西咸新区泾河新城泾河大道中段产业孵化中心 联 系 人：赵飞 电 话：029-36385618 电子邮件：/ 招标代理机构：龙寰项目管理咨询有限公司 地 址： 西安市太白南路 181 号西部电子社区 A 座 A 区 501 室 联 系 人： 谢朵、王申午、张波 电 话： 029-88228899 转 631 电子邮件： sxlhzb003@163.com",
       "projectFingerprint": "452e3f5f225495d17b17d537",
@@ -3016,7 +3016,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-08-06T17:21:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2024-08-19T14:00:00+08:00",
       "openingAt": "2024-08-19T14:00:00+08:00",
       "category": "招标公告",
@@ -3025,8 +3025,8 @@
       "projectFingerprint": "8ccd99c779ae8a94553e1875",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -16625,
-      "remainingHours": -16625,
+      "remainingHoursAtDiscovery": -16631,
+      "remainingHours": -16631,
       "contentHash": "97f9b812978d350798cffa0c55297b4cfb85d32d61a2a7693fbe297d6e85d456"
     },
     {
@@ -3039,7 +3039,7 @@
       "stage": "pending",
       "eligibilityStatus": "excluded",
       "publishedAt": "2024-06-26T09:01:05+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "交易公告",
@@ -3062,7 +3062,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-03-19T09:02:29+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -3085,10 +3085,10 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-03-15T14:51:53+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
-      "category": "中标结果公示",
+      "category": "中标候选人公示",
       "region": "公共资源交易平台",
       "contentExcerpt": "（招标编号：LZBC2024-273 ）公示结束时间：2024 年 03 月 18 日 一、评标情况标段(包)[001]泾河集团 2024 年度私募公司债券承销服务项目: 1、中标候选人基本情况中标候选人第 1 名：联合体：西部证券股份有限公司（牵头人）、开源证券股份有限公司（成员）、华鑫证券有限责任公司（成员）、中邮证券有限责任公司（成员），投标报价：1170.00万元，质量：/，工期/交货期/服务期：0 天；中标候选人第 2 名：联合体：中国银河证券股份有限公司（牵头人）、海通证券股份有限公司（成员），投标报价：900.00 万元，质量：/，工期/交货期/服务期：0 天；中标候选人第 3 名：财信证券股份有限公司，投标报价：1380.00 万元，质量：/，工期/交货期/服务期：0 天； 2、中标候选人按照招标文件要求承诺的项目负责人情况 中标候选人（联合体：西部证券股份有限公司（牵头人）、开源证券股份有限公司（成员）、华鑫证券有限责任公司（成员）、中邮证券有限责任公司（成员））的项目负责人：//； 中标候选人（联合体：中国银河证券股份有限公司（牵头人）、海通证券股份有限公司）（成员））的项目负责人：//； 中标候选人（财信证券股份有限公司）的项目负责人：//； 3、中标候选人响应招标文件要求的资格能力条件 中标候选人（联合体：西部证券股份有限公司（牵头人）、开源证券股份有限公司（成员）、华鑫证券有限责任公司（成员）、中邮证券有限责任公司（成员））的资格能力条件：满足竞争性磋商文件要求； 中标候选人（联合体：中国银河证券股份有限公司（牵头人）、海通证券股份有限公司（成员））的资格能力条件：满足竞争性磋商文件要求； 中标候选人（财信证券股份有限公司）的资格能力条件：满足竞争性磋商文件要求； 4、中标候选人的评标情况 中标候选人（联合体：西部证券股份有限公司（牵头人）、开源证券股份有限公司（成员）、华鑫证券有限责任公司（成员）、中邮证券有限责任公司（成员））的评标情况：/； 中标候选人（联合体：中国银河证券股份有限公司（牵头人）、海通证券股份有限公司（成员））的评标情况：/； 中标候选人（财信证券股份有限公司）的评标情况：/；二、提出异议的渠道和方式如有异议，请在公示期内向招标代理机构提出书面意见，逾期不予受理。提交异议应包下列内容：（一）提出异议人的名称、地址及有效联系方式；（二）异议事项的基本事实；（三）相关请求及主张；（四）有效线索和相关证明材料。异议书必须由其法定代表人或者授权代表签字并加盖单位公章（授权代表需提供法定代表人授权书及身份证）。招标代理机构：龙寰项目管理咨询有限公司；电 话：029-88228899 转 631。三、其他 联合体：西部证券股份有限公司（牵头人）、开源证券股份有限公司（成员）、华鑫证券有限责任公司（成员）、中邮证券有限责任公司（成员） 承销费率：0.195%/年,服务标准：响应招标文件要求联合体：中国银河证券股份有限公司（牵头人）、海通证券股份有限公司（成员） 承销费率：0.15%/年,服务标准：按行业及监管要求全面服务财信证券股份有限公司 承销费率：0.23%/年,服务标准：如期完成债券发行及存续期管理工作四、监督部门 本招标项目的监督部门为陕西省西咸新区泾河新城开发建设（集团）有限公司相关职能部门。五、联系方式 招 标 人：陕西省西咸新区泾河新城开发建设（集团）有限公司 地 址：陕西省西咸新区泾河新城泾河大道中段产业孵化中心 联 系 人：赵飞 电 话：029-36385618 电子邮件：/ 招标代理机构：龙寰项目管理咨询有限公司 地 址： 西安市太白南路 181 号西部电子社区 A 座 A 区 501 室 联 系 人： 谢朵、王申午、张波 电 话： 029-88228899-631 电子邮件： sxlhzb003@163.com",
       "projectFingerprint": "6504323555fbf2ab6bb896a5",
@@ -3108,7 +3108,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2024-03-01T18:07:50+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2024-03-14T09:30:00+08:00",
       "openingAt": "2024-03-14T09:30:00+08:00",
       "category": "招标公告",
@@ -3117,8 +3117,8 @@
       "projectFingerprint": "0ecb6d28ed199a13865bc476",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -20421,
-      "remainingHours": -20421,
+      "remainingHoursAtDiscovery": -20427,
+      "remainingHours": -20427,
       "contentHash": "a85ca1faf75260da1213356ef9c843d9e7a10f759215cc1c712db375fc9d8b17"
     },
     {
@@ -3131,7 +3131,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-12-21T19:12:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "合同公示",
@@ -3154,7 +3154,7 @@
       "stage": "pending",
       "eligibilityStatus": "excluded",
       "publishedAt": "2023-10-20T09:01:13+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "交易公告",
@@ -3177,7 +3177,7 @@
       "stage": "announcement",
       "eligibilityStatus": "excluded",
       "publishedAt": "2023-09-27T15:33:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "合同公示",
@@ -3200,7 +3200,7 @@
       "stage": "announcement",
       "eligibilityStatus": "excluded",
       "publishedAt": "2023-09-27T15:33:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "合同公示",
@@ -3223,7 +3223,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-07-03T14:56:59+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标结果公示",
@@ -3246,7 +3246,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-06-30T13:57:21+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标候选人公示",
@@ -3269,7 +3269,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-06-30T13:53:21+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标候选人公示",
@@ -3292,7 +3292,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-06-19T16:42:00+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "合同公示",
@@ -3315,7 +3315,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-06-13T19:05:37+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -3338,7 +3338,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-06-06T17:45:59+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "采购公告",
@@ -3361,7 +3361,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-06-02T14:44:41+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2023-06-25T09:00:00+08:00",
       "openingAt": null,
       "category": "招标公告",
@@ -3370,8 +3370,8 @@
       "projectFingerprint": "55178dea145b6c329279efe7",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -26734,
-      "remainingHours": -26734,
+      "remainingHoursAtDiscovery": -26740,
+      "remainingHours": -26740,
       "contentHash": "320149191ca35ce32a1d98161ad391ee9fd8ef548052590b464eb683a5f62ce9"
     },
     {
@@ -3384,7 +3384,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-05-30T09:57:09+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -3407,7 +3407,7 @@
       "stage": "award",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-05-25T14:30:29+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": "2023-05-24T09:30:00+08:00",
       "category": "结果公告",
@@ -3430,7 +3430,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-05-25T10:18:36+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "中标候选人公示",
@@ -3453,7 +3453,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-05-12T16:38:17+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2023-05-24T09:30:00+08:00",
       "openingAt": "2023-05-24T09:30:00+08:00",
       "category": "采购公告",
@@ -3462,8 +3462,8 @@
       "projectFingerprint": "eec94dcc33e6b61571e880e5",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -27501,
-      "remainingHours": -27501,
+      "remainingHoursAtDiscovery": -27507,
+      "remainingHours": -27507,
       "contentHash": "2ce9adab97386fb596a5a049cebef070170ec1671b173e90af7d08686daa1e9b"
     },
     {
@@ -3476,7 +3476,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-04-28T17:41:51+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2023-05-22T14:00:00+08:00",
       "openingAt": "2023-05-22T14:00:00+08:00",
       "category": "采购公告",
@@ -3485,8 +3485,8 @@
       "projectFingerprint": "b53a11093a43fa4260f68bfa",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -27545,
-      "remainingHours": -27545,
+      "remainingHoursAtDiscovery": -27551,
+      "remainingHours": -27551,
       "contentHash": "d7cabd94996ed456b162cce00f8b441ffdb07986f5bad6eb1916be5fa497e1b8"
     },
     {
@@ -3499,7 +3499,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-03-29T10:03:16+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -3522,7 +3522,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-03-28T10:38:28+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -3545,7 +3545,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2023-03-16T00:10:39+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2023-03-27T09:30:00+08:00",
       "openingAt": "2023-03-27T09:30:00+08:00",
       "category": "采购公告",
@@ -3554,8 +3554,8 @@
       "projectFingerprint": "d07a9cda7f199157bc733e36",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -28893,
-      "remainingHours": -28893,
+      "remainingHoursAtDiscovery": -28899,
+      "remainingHours": -28899,
       "contentHash": "decea08087e8365931c4b38c7054884b5fe96778b2e34ccfb4bf92283c4afeda"
     },
     {
@@ -3568,7 +3568,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2022-10-28T08:46:31+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2022-11-18T09:30:00+08:00",
       "openingAt": "2022-11-18T09:30:00+08:00",
       "category": "采购公告",
@@ -3577,8 +3577,8 @@
       "projectFingerprint": "29a439808528b82882dd308c",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -31989,
-      "remainingHours": -31989,
+      "remainingHoursAtDiscovery": -31995,
+      "remainingHours": -31995,
       "contentHash": "cbbec2cda918064aee3ddd06da22e8818296935cc6a7b10c669416de5dbf89bf"
     },
     {
@@ -3591,7 +3591,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2022-02-23T10:02:47+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -3614,7 +3614,7 @@
       "stage": "change",
       "eligibilityStatus": "eligible",
       "publishedAt": "2022-02-11T14:59:50+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2022-02-22T09:30:00+08:00",
       "openingAt": null,
       "category": "更正公告",
@@ -3623,8 +3623,8 @@
       "projectFingerprint": "689dab9d106963048e914bb2",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -38445,
-      "remainingHours": -38445,
+      "remainingHoursAtDiscovery": -38451,
+      "remainingHours": -38451,
       "contentHash": "e354508fb5ca0730ce701a4fa9e52cfedb37c092037426b421d8d94af45c21e9"
     },
     {
@@ -3637,7 +3637,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2022-01-30T17:36:46+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2022-02-18T09:30:00+08:00",
       "openingAt": null,
       "category": "采购公告",
@@ -3646,8 +3646,8 @@
       "projectFingerprint": "d7fabc190a13a8db522cc1a0",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -38541,
-      "remainingHours": -38541,
+      "remainingHoursAtDiscovery": -38547,
+      "remainingHours": -38547,
       "contentHash": "ec0f9fa376914c537ff29cb46ef275f7da8636b1df147d1bf0b1d037e85ab572"
     },
     {
@@ -3660,7 +3660,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2021-03-10T17:36:51+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2021-03-22T14:00:00+08:00",
       "openingAt": null,
       "category": "采购公告",
@@ -3669,8 +3669,8 @@
       "projectFingerprint": "fdd2f97bc0f1436c52b0a3d0",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -46529,
-      "remainingHours": -46529,
+      "remainingHoursAtDiscovery": -46535,
+      "remainingHours": -46535,
       "contentHash": "cedec3c4596012ba86edbd1b115225952fcabbf1fd449faa91bb7b2dbcce2f2b"
     },
     {
@@ -3683,7 +3683,7 @@
       "stage": "announcement",
       "eligibilityStatus": "excluded",
       "publishedAt": "2021-03-02T09:51:46+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -3706,7 +3706,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2021-02-07T12:23:07+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "采购公告",
@@ -3729,7 +3729,7 @@
       "stage": "candidate",
       "eligibilityStatus": "eligible",
       "publishedAt": "2020-07-31T18:55:31+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -3752,7 +3752,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2020-07-20T19:28:01+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2020-07-31T14:00:00+08:00",
       "openingAt": null,
       "category": "采购公告",
@@ -3761,8 +3761,8 @@
       "projectFingerprint": "5ba4527d356e6af322df00dc",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -52145,
-      "remainingHours": -52145,
+      "remainingHoursAtDiscovery": -52151,
+      "remainingHours": -52151,
       "contentHash": "682a9a20d394e8d8f16b5d1eab1d21297162e55443e1d4fe08f32d5ae2eeaab9"
     },
     {
@@ -3775,7 +3775,7 @@
       "stage": "terminated",
       "eligibilityStatus": "excluded",
       "publishedAt": "2020-07-14T17:40:06+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "废标/终止公告",
@@ -3798,7 +3798,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2020-07-03T16:51:28+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2020-07-14T09:30:00+08:00",
       "openingAt": null,
       "category": "采购公告",
@@ -3807,8 +3807,8 @@
       "projectFingerprint": "2bb2ad4bda638ed7eaf5edfb",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -52557,
-      "remainingHours": -52557,
+      "remainingHoursAtDiscovery": -52563,
+      "remainingHours": -52563,
       "contentHash": "beb1072bf347a80147d216c618a24fb2f088451c53fe406968c0c79c94a58656"
     },
     {
@@ -3821,7 +3821,7 @@
       "stage": "candidate",
       "eligibilityStatus": "excluded",
       "publishedAt": "2018-11-29T11:31:20+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": null,
       "openingAt": null,
       "category": "结果公告",
@@ -3844,7 +3844,7 @@
       "stage": "announcement",
       "eligibilityStatus": "eligible",
       "publishedAt": "2018-10-25T11:00:14+08:00",
-      "discoveredAt": "2026-07-12T22:28:44.967Z",
+      "discoveredAt": "2026-07-13T04:02:06.615Z",
       "deadlineAt": "2018-11-16T14:00:00+08:00",
       "openingAt": "2018-11-16T14:00:00+08:00",
       "category": "采购公告",
@@ -3853,8 +3853,8 @@
       "projectFingerprint": "53eaf236af366c697b30bcd2",
       "classification": "history",
       "alertStatus": "miss_review",
-      "remainingHoursAtDiscovery": -67097,
-      "remainingHours": -67097,
+      "remainingHoursAtDiscovery": -67103,
+      "remainingHours": -67103,
       "contentHash": "fa7980bf97f2786a2691cf5fde7303e4b3e912a4b6502ac71158ac85cc5da309"
     }
   ],

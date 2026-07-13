@@ -38,8 +38,10 @@ const hash = (value) => crypto.createHash("sha256").update(value).digest("hex");
 
 function projectFingerprint(title) {
   const normalized = stripHtml(title)
-    .replace(/[\[【（(]?(招标公告|采购公告|中标候选人公示|中标结果公告|中标公示|成交公示|变更公告|更正公告|终止公告|废标公告)[\]】）)]?/g, "")
-    .replace(/二次|重新招标|[-—_·，。、“”'"\s]/g, "")
+    .replace(/^[【\[][^】\]]+[】\]]/g, "")
+    .replace(/陕铁集团/g, "陕西省铁路集团有限公司")
+    .replace(/国企采购采购公告|交易公告|公开招标公告|竞争性磋商公告|招标公告|采购公告|中标候选人公示|中标结果公告|中标结果公示|中标公告|中标公示|成交结果公告|成交公示|变更公告|更正公告|终止公告|废标公告/g, "")
+    .replace(/二次|重新招标|[\[\]【】（）()\-—_·，。、“”'"\s]/g, "")
     .toLowerCase();
   return hash(normalized).slice(0, 24);
 }

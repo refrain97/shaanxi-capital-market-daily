@@ -94,7 +94,31 @@ CREATE TABLE IF NOT EXISTS event_timeline (
   UNIQUE(event_id, occurred_at, label)
 );
 
+CREATE TABLE IF NOT EXISTS event_candidates (
+  candidate_id TEXT PRIMARY KEY,
+  channel TEXT NOT NULL,
+  primary_entity_id TEXT REFERENCES entities(entity_id),
+  event_key_seed TEXT NOT NULL,
+  title TEXT NOT NULL,
+  published_at TEXT,
+  rm_category TEXT,
+  rm_subcategory TEXT,
+  business_priority TEXT,
+  novelty_status TEXT NOT NULL,
+  normalization_status TEXT NOT NULL,
+  payload_hash TEXT NOT NULL,
+  payload_json TEXT NOT NULL,
+  updated_at TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS candidate_sources (
+  candidate_id TEXT NOT NULL REFERENCES event_candidates(candidate_id),
+  source_id TEXT NOT NULL REFERENCES sources(source_id),
+  PRIMARY KEY(candidate_id, source_id)
+);
+
 CREATE INDEX IF NOT EXISTS idx_events_channel_published ON events(channel, published_at DESC);
 CREATE INDEX IF NOT EXISTS idx_events_entity_published ON events(primary_entity_id, published_at DESC);
 CREATE INDEX IF NOT EXISTS idx_events_deadline ON events(deadline_at);
 CREATE INDEX IF NOT EXISTS idx_snapshots_dataset ON raw_snapshots(dataset, captured_at DESC);
+CREATE INDEX IF NOT EXISTS idx_candidates_channel_status ON event_candidates(channel, normalization_status);

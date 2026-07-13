@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "0.1",
+  "source": {
+    "sourceId": "tender-sx-public-resource",
+    "name": "全国公共资源交易平台（陕西省）",
+    "url": "https://www.sxggzyjy.cn/",
+    "authority": "official",
+    "sourceType": "public_resource",
+    "adapter": "sxggzy_fulltext_v1",
+    "searchEndpoint": "https://www.sxggzyjy.cn/inteligentsearch_new/rest/esinteligentsearch/getFullTextDataNew",
+    "searchCategory": "001",
+    "scanIntervalMinutes": 60,
+    "stages": [
+      "announcement",
+      "change",
+      "candidate",
+      "award",
+      "termination"
+    ],
+    "status": "configured"
+  },
+  "from": "2026-02-01",
+  "to": "2026-02-28",
+  "retrievedAt": "2026-07-13T04:58:41.230Z",
+  "queries": [
+    {
+      "keyword": "公司债",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "企业债",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "中期票据",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "债务融资工具",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "资产证券化",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "ABS",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "REITs",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "标准化债券",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "主承销商",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "联席主承销商",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "承销团",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "受托管理人",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "财务顾问",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "融资顾问",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "投资顾问",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "上市辅导",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "债券承销",
+      "from": "2026-02-01",
+      "to": "2026-02-28",
+      "totalCount": 0,
+      "fetchedCount": 0
+    }
+  ],
+  "records": []
+}

@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "0.1",
+  "source": {
+    "sourceId": "tender-sx-public-resource",
+    "name": "全国公共资源交易平台（陕西省）",
+    "url": "https://www.sxggzyjy.cn/",
+    "authority": "official",
+    "sourceType": "public_resource",
+    "adapter": "sxggzy_fulltext_v1",
+    "searchEndpoint": "https://www.sxggzyjy.cn/inteligentsearch_new/rest/esinteligentsearch/getFullTextDataNew",
+    "searchCategory": "001",
+    "scanIntervalMinutes": 60,
+    "stages": [
+      "announcement",
+      "change",
+      "candidate",
+      "award",
+      "termination"
+    ],
+    "status": "configured"
+  },
+  "from": "2026-07-01",
+  "to": "2026-07-13",
+  "retrievedAt": "2026-07-13T04:58:41.230Z",
+  "queries": [
+    {
+      "keyword": "公司债",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 2,
+      "fetchedCount": 2
+    },
+    {
+      "keyword": "企业债",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "中期票据",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "债务融资工具",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "资产证券化",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "ABS",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "REITs",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "标准化债券",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "主承销商",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 2,
+      "fetchedCount": 2
+    },
+    {
+      "keyword": "联席主承销商",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "承销团",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "受托管理人",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "财务顾问",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "融资顾问",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "投资顾问",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "上市辅导",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "债券承销",
+      "from": "2026-07-01",
+      "to": "2026-07-13",
+      "totalCount": 0,
+      "fetchedCount": 0
+    }
+  ],
+  "records": [
+    {
+      "infotype": "News",
+      "danweiguid": "",
+      "diqu": "",
+      "recommend": "0",
+      "title": "延安市东新区投资开发建设有限公司发行非公开公司债选聘<em style='color:red'>主承销</em><em style='color:red'>商</em>(二次）中标公示",
+      "_score": 519313.38,
+      "content": "一、中标人信息：   标段&nbsp;(包)[001]延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商（二次）:   中标人：五矿证券有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中标费率：2.5‰   二、其他：   /   三、监督部门   本招标项目的监督部门为延安市东新区投资开发建设有限公司审计法务部。   四、联系方式   招 标 人：延安市东新区投资开发建设有限公司   地 &nbsp;&nbsp;&nbsp;址：延安高新区黄蒿湾方塔片区东区办四楼   联&nbsp;系 人：薛晓燕   电 &nbsp;&nbsp;&nbsp;话：18992190168   电子邮件：/        &nbsp;        &nbsp;   招标代理机构：致君项目管理有限公司   地 &nbsp;&nbsp;&nbsp;址： 延安市新区盛世花园&nbsp;2&nbsp;号楼&nbsp;10&nbsp;楼   联&nbsp;系&nbsp;人： 毛敏   电 &nbsp;&nbsp;&nbsp;话：&nbsp;0911-8807999   电子邮件： 871471754@qq.com        &nbsp;        &nbsp;   ",
+      "farenrole": "",
+      "highlight": {
+        "title": "延安市东新区投资开发建设有限公司发行非公开公司债选聘<em style='color:red'>主承销</em><em style='color:red'>商</em>(二次）中标公示"
+      },
+      "score": 519313.38,
+      "titletype": "Text",
+      "istop": "0",
+      "danweitype": "",
+      "zuzhijigoucode": "",
+      "syscollectguid": "c7552806-e19b-4473-8ac5-33fe23805573",
+      "id": "0010010120026bbbe6fe-71d7-4712-9f88-54fd4a6c7cd4_001",
+      "sysscore": 0,
+      "currentdanweiguid": "",
+      "categorynum": "001001012002",
+      "strcomment": "",
+      "infoid": "6bbbe6fe-71d7-4712-9f88-54fd4a6c7cd4",
+      "author": "",
+      "zhuanzai": "公共资源交易平台",
+      "sysclicktimes": 0,
+      "ordernum": "0",
+      "espriority": 0,
+      "webdate": "2026-07-09 15:51:18",
+      "deleted": false,
+      "customtitle": "",
+      "syscategory": "001",
+      "categoryname": "中标结果公示",
+      "linkurl": "/jydt/001001/001001012/001001012002/20260709/6bbbe6fe-71d7-4712-9f88-54fd4a6c7cd4.html",
+      "infodate": "2026-07-09 16:49:22",
+      "referencetype": "4",
+      "xiaqucode": "",
+      "matchedKeywords": [
+        "公司债",
+        "主承销商"
+      ]
+    },
+    {
+      "infotype": "News",
+      "danweiguid": "",
+      "diqu": "",
+      "recommend": "0",
+      "title": "[中标候选人公示]延安市东新区投资开发建设有限公司发行非公开公司债选聘<em style='color:red'>主承销</em><em style='color:red'>商</em>(二次）中标候选人公示",
+      "_score": 428503.88,
+      "content": "一、评标情况标段&nbsp;(包)[001]延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商（二次）:1、中标候选人基本情况中标候选人第&nbsp;1&nbsp;名：五矿证券有限公司，费率：2.5‰，质量：投标人中标后所提供的服务以保障招标人顺利发行非公开公司债项目为目的，设计产品方案，组织项目工作团队，制作申报材料，满足国家有关监管机构的要求，组织销售机构进行市场询价，发行利率、发行期限合理，并尽可能降低发行成本，且余额包销。及时、准确、充分的完成申报材料及申报方案并主动反馈相关信息意见的回复。，工期/交货期/服务期：2555&nbsp;天；中标候选人第&nbsp;2&nbsp;名：东吴证券股份有限公司，费率：1.5‰，质量：投标人中标后所提供的服务以保障招标人顺利发行非公开公司债项目为目的，设计产品方案，组织项目工作团队，制作申报材料，满足国家有关监管机构的要求，组织销售机构进行市场询价，发行利率、发行期限合理，并尽可能降低发行成本，且余额包销。及时、准确、充分的完成申报材料及申报方案并主动反馈相关信息意见的回复。，工期/交货期/服务期：2555&nbsp;天；中标候选人第&nbsp;3&nbsp;名：国投证劵股份有限公司，费率：2.57‰，质量：投标人中标后所提供的服务以保障招标人顺利发行非公开公司债项目为目的，设计产品方案，组织项目工作团队，制作申报材料，满足国家有关监管机构的要求，组织销售机构进行市场询价，发行利率、发行期限合理，并尽可能降低发行成本，且余额包销。及时、准确、充分的完成申报材料及申报方案并主动反馈相关信息意见的回复。，工期/交货期/服务期：2555&nbsp;天；2、中标候选人按照招标文件要求承诺的项目负责人情况中标候选人&nbsp;(五矿证券有限公司)的项目负责人：////;中标候选人&nbsp;(东吴证券股份有限公司)的项目负责人：////;中标候选人&nbsp;(国投证劵股份有限公司)的项目负责人：////;3、中标候选人响应招标文件要求的资格能力条件中标候选人&nbsp;(五矿证券有限公司)的资格能力条件：符合招标文件要求;中标候选人&nbsp;(东吴证券股份有限公司)的资格能力条件：符合招标文件要求;中标候选人&nbsp;(国投证劵股份有限公司)的资格能力条件：响应招标文件要求;4、中标候选人的评标情况中标候选人&nbsp;(五矿证券有限公司)的评标情况：详见评标报告;中标候选人&nbsp;(东吴证券股份有限公司)的评标情况：详见评标报告;中标候选人&nbsp;(国投证劵股份有限公司)的评标情况：详见评标报告;二、提出异议的渠道和方式如有异议在公示期内向招标人或招标代理机构提出，并提交书面材料（书面材料应当包括下列内容：1、质疑人的名称、地址以及联系方式；2、被质疑人的名称地址及联系方式；3、质疑事项的基本事实；4、相关请求及主张；5、有效线索及相关证明材料。书面材料必须由法定代表人或授权代表签字并加盖单位公章三、其他1.本次中标候选人公示在《陕西采购与招标网》《全国公共资源交易网（陕西省&nbsp;·延安）》上同时发布。2.评审专家名单：张明艳、杨慧慧、王清利、马伟、高凌（招标人代表）四、监督部门本招标项目的监督部门为延安市东新区投资开发建设有限公司审计法务部。五、联系方式招 标 人：延安市东新区投资开发建设有限公司地 &nbsp;&nbsp;&nbsp;址：延安高新区黄蒿湾方塔片区东区办四楼联&nbsp;系 人：薛晓燕电 &nbsp;&nbsp;&nbsp;话：18992190168电子邮件：/&nbsp;&nbsp;招标代理机构：致君项目管理有限公司地 &nbsp;&nbsp;&nbsp;址： 延安市新区盛世花园&nbsp;2&nbsp;号楼&nbsp;10&nbsp;楼联&nbsp;系&nbsp;人： 毛敏电 &nbsp;&nbsp;&nbsp;话：&nbsp;0911-8807999",
+      "farenrole": "",
+      "highlight": {
+        "title": "[中标候选人公示]延安市东新区投资开发建设有限公司发行非公开公司债选聘<em style='color:red'>主承销</em><em style='color:red'>商</em>(二次）中标候选人公示"
+      },
+      "score": 428503.88,
+      "titletype": "Text",
+      "istop": "0",
+      "danweitype": "",
+      "zuzhijigoucode": "",
+      "syscollectguid": "c7552806-e19b-4473-8ac5-33fe23805573",
+      "id": "0010010120046ad84dec-3ae2-4acb-a901-cc41722885c6_001",
+      "sysscore": 0,
+      "currentdanweiguid": "",
+      "categorynum": "001001012004",
+      "strcomment": "",
+      "infoid": "6ad84dec-3ae2-4acb-a901-cc41722885c6",
+      "author": "",
+      "zhuanzai": "公共资源交易平台",
+      "sysclicktimes": 0,
+      "ordernum": "0",
+      "espriority": 0,
+      "webdate": "2026-07-06 17:27:15",
+      "deleted": false,
+      "customtitle": "",
+      "syscategory": "001",
+      "categoryname": "中标候选人公示",
+      "linkurl": "/jydt/001001/001001012/001001012004/20260706/6ad84dec-3ae2-4acb-a901-cc41722885c6.html",
+      "infodate": "2026-07-06 17:27:15",
+      "referencetype": "4",
+      "xiaqucode": "",
+      "matchedKeywords": [
+        "公司债",
+        "主承销商"
+      ]
+    }
+  ]
+}

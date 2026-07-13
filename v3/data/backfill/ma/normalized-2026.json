@@ -1,0 +1,1834 @@
+{
+  "schemaVersion": "0.1",
+  "channel": "ma",
+  "novelty": "backfill",
+  "period": {
+    "startDate": "2026-01-01",
+    "endDate": "2026-07-13"
+  },
+  "generatedAt": "2026-07-13T05:01:16.414050+00:00",
+  "status": "DEDUPED_TIMELINES_BODY_REVIEW_PENDING",
+  "limits": [
+    "当前项目按上市公司主体初聚类，交易标的仍需公告正文确认",
+    "不在117主体公告范围内的场外并购另行回补"
+  ],
+  "summary": {
+    "announcementCandidateCount": 55,
+    "projectCandidateCount": 8,
+    "milestoneCount": 17,
+    "supportingDocumentCount": 34,
+    "sourceGapProjectCount": 3
+  },
+  "sources": [
+    {
+      "sourceRecordId": "src-cninfo-1224926245",
+      "announcementId": "1224926245",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "关于筹划重大资产重组暨签署《支付现金购买资产意向协议》的提示性公告",
+      "publishedAt": "2026-01-08T19:32:10+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-01-08/1224926245.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1224947367",
+      "announcementId": "1224947367",
+      "entityId": "listed-301517-sz",
+      "canonicalName": "陕西华达",
+      "securityCode": "301517.SZ",
+      "universeTier": "L1",
+      "title": "关于发行股份购买资产并募集配套资金暨关联交易事项的进展公告",
+      "publishedAt": "2026-01-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-01-24/1224947367.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1224969862",
+      "announcementId": "1224969862",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "关于筹划重大资产重组的进展公告",
+      "publishedAt": "2026-02-06T15:44:09+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-02-06/1224969862.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1224975960",
+      "announcementId": "1224975960",
+      "entityId": "listed-002185-sz",
+      "canonicalName": "华天科技",
+      "securityCode": "002185.SZ",
+      "universeTier": "L3",
+      "title": "董事会关于本次交易是否构成重大资产重组、重组上市及关联交易的说明",
+      "publishedAt": "2026-02-11T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975960.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1224975961",
+      "announcementId": "1224975961",
+      "entityId": "listed-002185-sz",
+      "canonicalName": "华天科技",
+      "securityCode": "002185.SZ",
+      "universeTier": "L3",
+      "title": "董事会关于本次交易符合《上市公司监管指引第9号——上市公司筹划和实施重大资产重组的监管要求》第四条规定的说明",
+      "publishedAt": "2026-02-11T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975961.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1224975963",
+      "announcementId": "1224975963",
+      "entityId": "listed-002185-sz",
+      "canonicalName": "华天科技",
+      "securityCode": "002185.SZ",
+      "universeTier": "L3",
+      "title": "董事会关于本次交易相关主体不存在《上市公司监管指引第7号——上市公司重大资产重组相关股票异常交易监管》第十二条及《深圳证券交易所上市公司自律监管指引第8号——重大资产重组》第三十条规定的不得参与任何上市公司重大资产重组情形的说明",
+      "publishedAt": "2026-02-11T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975963.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1224975964",
+      "announcementId": "1224975964",
+      "entityId": "listed-002185-sz",
+      "canonicalName": "华天科技",
+      "securityCode": "002185.SZ",
+      "universeTier": "L3",
+      "title": "董事会关于本次交易符合《上市公司重大资产重组管理办法》第十一条、第四十三条、第四十四条规定的说明",
+      "publishedAt": "2026-02-11T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975964.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1224975974",
+      "announcementId": "1224975974",
+      "entityId": "listed-002185-sz",
+      "canonicalName": "华天科技",
+      "securityCode": "002185.SZ",
+      "universeTier": "L3",
+      "title": "华泰联合证券有限责任公司关于天水华天科技股份有限公司本次交易不构成《上市公司重大资产重组管理办法》第十三条规定的重组上市情形的核查意见",
+      "publishedAt": "2026-02-11T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975974.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1224981638",
+      "announcementId": "1224981638",
+      "entityId": "listed-301517-sz",
+      "canonicalName": "陕西华达",
+      "securityCode": "301517.SZ",
+      "universeTier": "L1",
+      "title": "关于终止发行股份购买资产并募集配套资金暨关联交易事项的公告",
+      "publishedAt": "2026-02-13T18:06:08+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-02-13/1224981638.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1224981640",
+      "announcementId": "1224981640",
+      "entityId": "listed-301517-sz",
+      "canonicalName": "陕西华达",
+      "securityCode": "301517.SZ",
+      "universeTier": "L1",
+      "title": "关于召开终止发行股份购买资产并募集配套资金暨关联交易事项投资者说明会的公告",
+      "publishedAt": "2026-02-13T18:06:08+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-02-13/1224981640.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1224999429",
+      "announcementId": "1224999429",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "关于筹划重大资产重组的进展公告",
+      "publishedAt": "2026-03-06T18:02:29+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-06/1224999429.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225001005",
+      "announcementId": "1225001005",
+      "entityId": "listed-002185-sz",
+      "canonicalName": "华天科技",
+      "securityCode": "002185.SZ",
+      "universeTier": "L3",
+      "title": "本次重大资产重组涉及的拟购买资产最近两年及一期的财务报告和审计报告",
+      "publishedAt": "2026-03-10T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225001005.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225001648",
+      "announcementId": "1225001648",
+      "entityId": "listed-002185-sz",
+      "canonicalName": "华天科技",
+      "securityCode": "002185.SZ",
+      "universeTier": "L3",
+      "title": "本次重大资产重组涉及的拟购买资产的评估报告及评估说明，或者估值报告",
+      "publishedAt": "2026-03-10T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-10/1225001648.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225044808",
+      "announcementId": "1225044808",
+      "entityId": "listed-000564-sz",
+      "canonicalName": "供销大集",
+      "securityCode": "000564.SZ",
+      "universeTier": "L1",
+      "title": "关于发行股份购买资产部分股份解除限售的提示性公告",
+      "publishedAt": "2026-03-28T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044808.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225044809",
+      "announcementId": "1225044809",
+      "entityId": "listed-000564-sz",
+      "canonicalName": "供销大集",
+      "securityCode": "000564.SZ",
+      "universeTier": "L1",
+      "title": "国泰海通证券股份有限公司关于供销大集集团股份有限公司发行股份购买资产暨关联交易之部分限售股份解除限售上市流通的核查意见",
+      "publishedAt": "2026-03-28T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044809.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225044810",
+      "announcementId": "1225044810",
+      "entityId": "listed-000564-sz",
+      "canonicalName": "供销大集",
+      "securityCode": "000564.SZ",
+      "universeTier": "L1",
+      "title": "国信证券股份有限公司关于供销大集集团股份有限公司发行股份购买资产暨关联交易之部分限售股份上市流通的核查意见",
+      "publishedAt": "2026-03-28T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044810.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225077588",
+      "announcementId": "1225077588",
+      "entityId": "listed-300140-sz",
+      "canonicalName": "节能环境",
+      "securityCode": "300140.SZ",
+      "universeTier": "L1",
+      "title": "关于中节能环境保护股份有限公司重大资产重组业绩承诺期届满业绩承诺资产减值测试报告的审核报告",
+      "publishedAt": "2026-04-03T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-03/1225077588.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225078665",
+      "announcementId": "1225078665",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "关于筹划重大资产重组的进展公告",
+      "publishedAt": "2026-04-03T16:00:29+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-03/1225078665.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225083180",
+      "announcementId": "1225083180",
+      "entityId": "listed-002246-sz",
+      "canonicalName": "北化股份",
+      "securityCode": "002246.SZ",
+      "universeTier": "L3",
+      "title": "中信建投证券股份有限公司关于北方化学工业股份有限公司发行股份购买资产并募集配套资金暨关联交易之使用部分闲置募集资金进行现金管理的核查意见",
+      "publishedAt": "2026-04-08T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-08/1225083180.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225083181",
+      "announcementId": "1225083181",
+      "entityId": "listed-002246-sz",
+      "canonicalName": "北化股份",
+      "securityCode": "002246.SZ",
+      "universeTier": "L3",
+      "title": "中信建投证券股份有限公司关于北方化学工业股份有限公司发行股份购买资产并募集配套资金暨关联交易之2025年度募集资金存放、管理与使用情况的专项核查报告",
+      "publishedAt": "2026-04-08T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-08/1225083181.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225170969",
+      "announcementId": "1225170969",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "重大资产重组报告书",
+      "publishedAt": "2026-04-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170969.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225170970",
+      "announcementId": "1225170970",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "重大资产重组报告书(草案)摘要",
+      "publishedAt": "2026-04-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170970.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225170981",
+      "announcementId": "1225170981",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "董事会关于本次交易构成重大资产重组、不构成重组上市的说明",
+      "publishedAt": "2026-04-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170981.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225170982",
+      "announcementId": "1225170982",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "董事会关于本次交易相关主体不存在《上市公司监管指引第7号——上市公司重大资产重组相关股票异常交易监管》第十二条及《深圳证券交易所上市公司自律监管指引第8号——重大资产重组》第三十条规定的不得参与任何上市公司重大资产重组情形的说明",
+      "publishedAt": "2026-04-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170982.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225170983",
+      "announcementId": "1225170983",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "董事会关于本次交易符合《上市公司重大资产重组管理办法》第十一条及不适用第四十三条、第四十四条规定的说明",
+      "publishedAt": "2026-04-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170983.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225170985",
+      "announcementId": "1225170985",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "董事会关于本次交易符合《上市公司监管指引第9号——上市公司筹划和实施重大资产重组的监管要求》第四条规定的说明",
+      "publishedAt": "2026-04-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170985.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225170987",
+      "announcementId": "1225170987",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "董事会关于本次交易符合《创业板上市公司持续监管办法（试行）》第十八条以及《深圳证券交易所上市公司重大资产重组审核规则》第八条规定的说明",
+      "publishedAt": "2026-04-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170987.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225171008",
+      "announcementId": "1225171008",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "长江证券承销保荐有限公司关于本次交易符合《上市公司重大资产重组管理办法》第十一条及不适用第四十三条、第四十四条规定的核查意见",
+      "publishedAt": "2026-04-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171008.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225171009",
+      "announcementId": "1225171009",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "长江证券承销保荐有限公司 关于本次交易构成重大资产重组、不构成重组上市的核查意见",
+      "publishedAt": "2026-04-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171009.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225171012",
+      "announcementId": "1225171012",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "关于本次交易相关主体不存在《上市公司监管指引第7号 ——上市公司重大资产重组相关股票异常交易监管》第十二条及《深圳证券交易所上市公司自律监管指引第8号——重大资产重组》第三十条规定的不得参与任何上市公司重大资产重组情形的核查意见",
+      "publishedAt": "2026-04-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171012.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225171013",
+      "announcementId": "1225171013",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "长江证券承销保荐有限公司关于本次交易符合《上市公司监管指引第9号——上市公司筹划和实施重大资产重组的监管要求》第四条规定的核查意见",
+      "publishedAt": "2026-04-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171013.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225171015",
+      "announcementId": "1225171015",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "长江证券承销保荐有限公司关于本次交易符合《创业板上市公司持续监管办法（试行）》第十八条和《深圳证券交易所上市公司重大资产重组审核规则》第八条规定的核查意见",
+      "publishedAt": "2026-04-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171015.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225171019",
+      "announcementId": "1225171019",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "关于2025年年度股东会暂不审议重大资产重组相关议案的公告",
+      "publishedAt": "2026-04-24T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171019.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225250590",
+      "announcementId": "1225250590",
+      "entityId": "listed-302132-sz",
+      "canonicalName": "中航成飞",
+      "securityCode": "302132.SZ",
+      "universeTier": "L1",
+      "title": "中信证券股份有限公司关于中航成飞股份有限公司发行股份购买资产暨关联交易2025年度业绩承诺实现情况的核查意见",
+      "publishedAt": "2026-04-29T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250590.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225291887",
+      "announcementId": "1225291887",
+      "entityId": "listed-302132-sz",
+      "canonicalName": "中航成飞",
+      "securityCode": "302132.SZ",
+      "universeTier": "L1",
+      "title": "中信证券股份有限公司关于中航成飞股份有限公司发行股份购买资产暨关联交易2025年度持续督导意见",
+      "publishedAt": "2026-05-11T19:13:20+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-11/1225291887.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225301710",
+      "announcementId": "1225301710",
+      "entityId": "listed-000564-sz",
+      "canonicalName": "供销大集",
+      "securityCode": "000564.SZ",
+      "universeTier": "L1",
+      "title": "供销大集集团股份有限公司拟收购股权所涉及的国投农产品供应链（北京）有限公司股东全部权益价值评估项目资产评估报告",
+      "publishedAt": "2026-05-13T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-13/1225301710.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225324765",
+      "announcementId": "1225324765",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "关于筹划重大资产重组的进展公告",
+      "publishedAt": "2026-05-22T15:48:08+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-22/1225324765.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225347474",
+      "announcementId": "1225347474",
+      "entityId": "listed-300140-sz",
+      "canonicalName": "节能环境",
+      "securityCode": "300140.SZ",
+      "universeTier": "L1",
+      "title": "2026-36 关于拟参与关联方重大资产重组的提示性公告",
+      "publishedAt": "2026-06-02T20:20:10+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-02/1225347474.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225361934",
+      "announcementId": "1225361934",
+      "entityId": "listed-002185-sz",
+      "canonicalName": "华天科技",
+      "securityCode": "002185.SZ",
+      "universeTier": "L3",
+      "title": "华天科技关于实施2025年度利润分配后发行股份购买资产的股份发行价格及发行数量调整公告",
+      "publishedAt": "2026-06-11T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-11/1225361934.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225366234",
+      "announcementId": "1225366234",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "北方长龙新材料技术股份有限公司关于深圳证券交易所《关于对北方长龙新材料技术股份有限公司的并购重组问询函》的回复公告",
+      "publishedAt": "2026-06-12T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366234.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225366235",
+      "announcementId": "1225366235",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "江苏天健华辰资产评估有限公司关于对北方长龙新材料技术股份有限公司的并购重组问询函的回复",
+      "publishedAt": "2026-06-12T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366235.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225366236",
+      "announcementId": "1225366236",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "立信会计师事务所（特殊普通合伙）关于深圳证券交易所《关于对北方长龙新材料技术股份有限公司的并购重组问询函》的回复",
+      "publishedAt": "2026-06-12T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366236.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225366239",
+      "announcementId": "1225366239",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "长江证券承销保荐有限公司关于深圳证券交易所《关于对北方长龙新材料技术股份有限公司的并购重组问询函》的回复之核查意见",
+      "publishedAt": "2026-06-12T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366239.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225366240",
+      "announcementId": "1225366240",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "重大资产重组报告书（修订稿）",
+      "publishedAt": "2026-06-12T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225366241",
+      "announcementId": "1225366241",
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "universeTier": "L1",
+      "title": "重大资产重组报告书(草案)摘要（修订稿）",
+      "publishedAt": "2026-06-12T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366241.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225392075",
+      "announcementId": "1225392075",
+      "entityId": "listed-601369-sh",
+      "canonicalName": "陕鼓动力",
+      "securityCode": "601369.SH",
+      "universeTier": "L1",
+      "title": "西安陕鼓动力股份有限公司关于筹划发行股份购买资产暨关联交易事项的停牌公告",
+      "publishedAt": "2026-06-27T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392075.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225403518",
+      "announcementId": "1225403518",
+      "entityId": "listed-300140-sz",
+      "canonicalName": "节能环境",
+      "securityCode": "300140.SZ",
+      "universeTier": "L1",
+      "title": "2026-37-关于拟参与关联方重大资产重组的进展公告",
+      "publishedAt": "2026-07-01T18:38:29+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-01/1225403518.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225407847",
+      "announcementId": "1225407847",
+      "entityId": "listed-601369-sh",
+      "canonicalName": "陕鼓动力",
+      "securityCode": "601369.SH",
+      "universeTier": "L1",
+      "title": "西安陕鼓动力股份有限公司关于筹划发行股份购买资产暨关联交易事项的停牌进展公告",
+      "publishedAt": "2026-07-04T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-04/1225407847.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225420065",
+      "announcementId": "1225420065",
+      "entityId": "listed-601369-sh",
+      "canonicalName": "陕鼓动力",
+      "securityCode": "601369.SH",
+      "universeTier": "L1",
+      "title": "西安陕鼓动力股份有限公司董事会关于本次交易构成关联交易但预计不构成重大资产重组且不构成重组上市的说明",
+      "publishedAt": "2026-07-11T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420065.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225420066",
+      "announcementId": "1225420066",
+      "entityId": "listed-601369-sh",
+      "canonicalName": "陕鼓动力",
+      "securityCode": "601369.SH",
+      "universeTier": "L1",
+      "title": "西安陕鼓动力股份有限公司董事会关于本次交易符合《上市公司监管指引第9号—上市公司筹划和实施重大资产重组的监管要求》第四条规定的说明",
+      "publishedAt": "2026-07-11T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420066.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225420069",
+      "announcementId": "1225420069",
+      "entityId": "listed-601369-sh",
+      "canonicalName": "陕鼓动力",
+      "securityCode": "601369.SH",
+      "universeTier": "L1",
+      "title": "西安陕鼓动力股份有限公司董事会关于本次交易符合《上市公司重大资产重组管理办法》第十一条、第四十三条和第四十四条规定的说明",
+      "publishedAt": "2026-07-11T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420069.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225420076",
+      "announcementId": "1225420076",
+      "entityId": "listed-601369-sh",
+      "canonicalName": "陕鼓动力",
+      "securityCode": "601369.SH",
+      "universeTier": "L1",
+      "title": "西安陕鼓动力股份有限公司董事会关于本次交易相关主体不存在《上市公司监管指引第7号—上市公司重大资产重组相关股票异常交易监管》第十二条规定情形的说明",
+      "publishedAt": "2026-07-11T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420076.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225420081",
+      "announcementId": "1225420081",
+      "entityId": "listed-601369-sh",
+      "canonicalName": "陕鼓动力",
+      "securityCode": "601369.SH",
+      "universeTier": "L1",
+      "title": "西安陕鼓动力股份有限公司关于发行股份购买资产暨关联交易事项的一般风险提示暨公司股票复牌的提示性公告",
+      "publishedAt": "2026-07-11T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420081.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225420091",
+      "announcementId": "1225420091",
+      "entityId": "listed-601369-sh",
+      "canonicalName": "陕鼓动力",
+      "securityCode": "601369.SH",
+      "universeTier": "L1",
+      "title": "西安陕鼓动力股份有限公司发行股份购买资产暨关联交易预案",
+      "publishedAt": "2026-07-11T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420091.PDF",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-cninfo-1225420102",
+      "announcementId": "1225420102",
+      "entityId": "listed-601369-sh",
+      "canonicalName": "陕鼓动力",
+      "securityCode": "601369.SH",
+      "universeTier": "L1",
+      "title": "西安陕鼓动力股份有限公司发行股份购买资产暨关联交易预案（摘要）",
+      "publishedAt": "2026-07-11T00:00:00+08:00",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420102.PDF",
+      "sourceQuality": "official"
+    }
+  ],
+  "projects": [
+    {
+      "candidateId": "ma-backfill-listed-000564-sz",
+      "eventKeySeed": "ma:listed-000564-sz:2026",
+      "primaryEntityId": "listed-000564-sz",
+      "companyName": "供销大集",
+      "title": "供销大集 2026年并购重组事项",
+      "firstPublishedAt": "2026-03-28T00:00:00+08:00",
+      "latestPublishedAt": "2026-05-13T00:00:00+08:00",
+      "latestStage": "source_gap",
+      "milestoneCount": 0,
+      "supportingDocumentCount": 4,
+      "sourceRecordIds": [
+        "src-cninfo-1225044808",
+        "src-cninfo-1225044809",
+        "src-cninfo-1225044810",
+        "src-cninfo-1225301710"
+      ],
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "source_gap_primary_announcement_missing",
+      "milestones": [],
+      "documents": [
+        {
+          "candidateId": "listed-ann-1225044808",
+          "at": "2026-03-28T00:00:00+08:00",
+          "title": "关于发行股份购买资产部分股份解除限售的提示性公告",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225044808"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044808.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225044810",
+          "at": "2026-03-28T00:00:00+08:00",
+          "title": "国信证券股份有限公司关于供销大集集团股份有限公司发行股份购买资产暨关联交易之部分限售股份上市流通的核查意见",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225044810"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044810.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225044809",
+          "at": "2026-03-28T00:00:00+08:00",
+          "title": "国泰海通证券股份有限公司关于供销大集集团股份有限公司发行股份购买资产暨关联交易之部分限售股份解除限售上市流通的核查意见",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225044809"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044809.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225301710",
+          "at": "2026-05-13T00:00:00+08:00",
+          "title": "供销大集集团股份有限公司拟收购股权所涉及的国投农产品供应链（北京）有限公司股东全部权益价值评估项目资产评估报告",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225301710"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-05-13/1225301710.PDF"
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "ma-backfill-listed-002185-sz",
+      "eventKeySeed": "ma:listed-002185-sz:2026",
+      "primaryEntityId": "listed-002185-sz",
+      "companyName": "华天科技",
+      "title": "华天科技 2026年并购重组事项",
+      "firstPublishedAt": "2026-02-11T00:00:00+08:00",
+      "latestPublishedAt": "2026-06-11T00:00:00+08:00",
+      "latestStage": "in_progress",
+      "milestoneCount": 1,
+      "supportingDocumentCount": 7,
+      "sourceRecordIds": [
+        "src-cninfo-1224975960",
+        "src-cninfo-1224975961",
+        "src-cninfo-1224975963",
+        "src-cninfo-1224975964",
+        "src-cninfo-1224975974",
+        "src-cninfo-1225001005",
+        "src-cninfo-1225001648",
+        "src-cninfo-1225361934"
+      ],
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "timeline_grouped_pdf_review_pending",
+      "milestones": [
+        {
+          "candidateId": "listed-ann-1225361934",
+          "at": "2026-06-11T00:00:00+08:00",
+          "title": "华天科技关于实施2025年度利润分配后发行股份购买资产的股份发行价格及发行数量调整公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1225361934"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-11/1225361934.PDF"
+          ]
+        }
+      ],
+      "documents": [
+        {
+          "candidateId": "listed-ann-1224975974",
+          "at": "2026-02-11T00:00:00+08:00",
+          "title": "华泰联合证券有限责任公司关于天水华天科技股份有限公司本次交易不构成《上市公司重大资产重组管理办法》第十三条规定的重组上市情形的核查意见",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1224975974"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975974.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1224975960",
+          "at": "2026-02-11T00:00:00+08:00",
+          "title": "董事会关于本次交易是否构成重大资产重组、重组上市及关联交易的说明",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1224975960"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975960.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1224975963",
+          "at": "2026-02-11T00:00:00+08:00",
+          "title": "董事会关于本次交易相关主体不存在《上市公司监管指引第7号——上市公司重大资产重组相关股票异常交易监管》第十二条及《深圳证券交易所上市公司自律监管指引第8号——重大资产重组》第三十条规定的不得参与任何上市公司重大资产重组情形的说明",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1224975963"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975963.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1224975961",
+          "at": "2026-02-11T00:00:00+08:00",
+          "title": "董事会关于本次交易符合《上市公司监管指引第9号——上市公司筹划和实施重大资产重组的监管要求》第四条规定的说明",
+          "role": "supporting_document",
+          "stage": "planning",
+          "sourceRecordIds": [
+            "src-cninfo-1224975961"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975961.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1224975964",
+          "at": "2026-02-11T00:00:00+08:00",
+          "title": "董事会关于本次交易符合《上市公司重大资产重组管理办法》第十一条、第四十三条、第四十四条规定的说明",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1224975964"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-02-11/1224975964.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225001005",
+          "at": "2026-03-10T00:00:00+08:00",
+          "title": "本次重大资产重组涉及的拟购买资产最近两年及一期的财务报告和审计报告",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225001005"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-03-10/1225001005.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225001648",
+          "at": "2026-03-10T00:00:00+08:00",
+          "title": "本次重大资产重组涉及的拟购买资产的评估报告及评估说明，或者估值报告",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225001648"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-03-10/1225001648.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225361934",
+          "at": "2026-06-11T00:00:00+08:00",
+          "title": "华天科技关于实施2025年度利润分配后发行股份购买资产的股份发行价格及发行数量调整公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1225361934"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-11/1225361934.PDF"
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "ma-backfill-listed-002246-sz",
+      "eventKeySeed": "ma:listed-002246-sz:2026",
+      "primaryEntityId": "listed-002246-sz",
+      "companyName": "北化股份",
+      "title": "北化股份 2026年并购重组事项",
+      "firstPublishedAt": "2026-04-08T00:00:00+08:00",
+      "latestPublishedAt": "2026-04-08T00:00:00+08:00",
+      "latestStage": "source_gap",
+      "milestoneCount": 0,
+      "supportingDocumentCount": 2,
+      "sourceRecordIds": [
+        "src-cninfo-1225083180",
+        "src-cninfo-1225083181"
+      ],
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "source_gap_primary_announcement_missing",
+      "milestones": [],
+      "documents": [
+        {
+          "candidateId": "listed-ann-1225083181",
+          "at": "2026-04-08T00:00:00+08:00",
+          "title": "中信建投证券股份有限公司关于北方化学工业股份有限公司发行股份购买资产并募集配套资金暨关联交易之2025年度募集资金存放、管理与使用情况的专项核查报告",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225083181"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-08/1225083181.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225083180",
+          "at": "2026-04-08T00:00:00+08:00",
+          "title": "中信建投证券股份有限公司关于北方化学工业股份有限公司发行股份购买资产并募集配套资金暨关联交易之使用部分闲置募集资金进行现金管理的核查意见",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225083180"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-08/1225083180.PDF"
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "ma-backfill-listed-300140-sz",
+      "eventKeySeed": "ma:listed-300140-sz:2026",
+      "primaryEntityId": "listed-300140-sz",
+      "companyName": "节能环境",
+      "title": "节能环境 2026年并购重组事项",
+      "firstPublishedAt": "2026-04-03T00:00:00+08:00",
+      "latestPublishedAt": "2026-07-01T18:38:29+08:00",
+      "latestStage": "in_progress",
+      "milestoneCount": 2,
+      "supportingDocumentCount": 1,
+      "sourceRecordIds": [
+        "src-cninfo-1225077588",
+        "src-cninfo-1225347474",
+        "src-cninfo-1225403518"
+      ],
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "timeline_grouped_pdf_review_pending",
+      "milestones": [
+        {
+          "candidateId": "listed-ann-1225347474",
+          "at": "2026-06-02T20:20:10+08:00",
+          "title": "2026-36 关于拟参与关联方重大资产重组的提示性公告",
+          "role": "milestone",
+          "stage": "planning",
+          "sourceRecordIds": [
+            "src-cninfo-1225347474"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-02/1225347474.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225403518",
+          "at": "2026-07-01T18:38:29+08:00",
+          "title": "2026-37-关于拟参与关联方重大资产重组的进展公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1225403518"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-07-01/1225403518.PDF"
+          ]
+        }
+      ],
+      "documents": [
+        {
+          "candidateId": "listed-ann-1225077588",
+          "at": "2026-04-03T00:00:00+08:00",
+          "title": "关于中节能环境保护股份有限公司重大资产重组业绩承诺期届满业绩承诺资产减值测试报告的审核报告",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225077588"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-03/1225077588.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225347474",
+          "at": "2026-06-02T20:20:10+08:00",
+          "title": "2026-36 关于拟参与关联方重大资产重组的提示性公告",
+          "role": "milestone",
+          "stage": "planning",
+          "sourceRecordIds": [
+            "src-cninfo-1225347474"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-02/1225347474.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225403518",
+          "at": "2026-07-01T18:38:29+08:00",
+          "title": "2026-37-关于拟参与关联方重大资产重组的进展公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1225403518"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-07-01/1225403518.PDF"
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "ma-backfill-listed-301357-sz",
+      "eventKeySeed": "ma:listed-301357-sz:2026",
+      "primaryEntityId": "listed-301357-sz",
+      "companyName": "北方长龙",
+      "title": "北方长龙 2026年并购重组事项",
+      "firstPublishedAt": "2026-01-08T19:32:10+08:00",
+      "latestPublishedAt": "2026-06-12T00:00:00+08:00",
+      "latestStage": "plan_disclosed",
+      "milestoneCount": 9,
+      "supportingDocumentCount": 13,
+      "sourceRecordIds": [
+        "src-cninfo-1224926245",
+        "src-cninfo-1224969862",
+        "src-cninfo-1224999429",
+        "src-cninfo-1225078665",
+        "src-cninfo-1225170969",
+        "src-cninfo-1225170970",
+        "src-cninfo-1225170981",
+        "src-cninfo-1225170982",
+        "src-cninfo-1225170983",
+        "src-cninfo-1225170985",
+        "src-cninfo-1225170987",
+        "src-cninfo-1225171008",
+        "src-cninfo-1225171009",
+        "src-cninfo-1225171012",
+        "src-cninfo-1225171013",
+        "src-cninfo-1225171015",
+        "src-cninfo-1225171019",
+        "src-cninfo-1225324765",
+        "src-cninfo-1225366234",
+        "src-cninfo-1225366235",
+        "src-cninfo-1225366236",
+        "src-cninfo-1225366239",
+        "src-cninfo-1225366240",
+        "src-cninfo-1225366241"
+      ],
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "timeline_grouped_pdf_review_pending",
+      "milestones": [
+        {
+          "candidateId": "listed-ann-1224926245",
+          "at": "2026-01-08T19:32:10+08:00",
+          "title": "关于筹划重大资产重组暨签署《支付现金购买资产意向协议》的提示性公告",
+          "role": "milestone",
+          "stage": "planning",
+          "sourceRecordIds": [
+            "src-cninfo-1224926245"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-01-08/1224926245.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1224969862",
+          "at": "2026-02-06T15:44:09+08:00",
+          "title": "关于筹划重大资产重组的进展公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1224969862"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-02-06/1224969862.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1224999429",
+          "at": "2026-03-06T18:02:29+08:00",
+          "title": "关于筹划重大资产重组的进展公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1224999429"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-03-06/1224999429.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225078665",
+          "at": "2026-04-03T16:00:29+08:00",
+          "title": "关于筹划重大资产重组的进展公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1225078665"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-03/1225078665.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225171019",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "关于2025年年度股东会暂不审议重大资产重组相关议案的公告",
+          "role": "milestone",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225171019"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171019.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225170969",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "重大资产重组报告书",
+          "role": "milestone",
+          "stage": "plan_disclosed",
+          "sourceRecordIds": [
+            "src-cninfo-1225170969"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170969.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225324765",
+          "at": "2026-05-22T15:48:08+08:00",
+          "title": "关于筹划重大资产重组的进展公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1225324765"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-05-22/1225324765.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225366234",
+          "at": "2026-06-12T00:00:00+08:00",
+          "title": "北方长龙新材料技术股份有限公司关于深圳证券交易所《关于对北方长龙新材料技术股份有限公司的并购重组问询函》的回复公告",
+          "role": "milestone",
+          "stage": "inquiry_response",
+          "sourceRecordIds": [
+            "src-cninfo-1225366234"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366234.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225366240",
+          "at": "2026-06-12T00:00:00+08:00",
+          "title": "重大资产重组报告书（修订稿）",
+          "role": "milestone",
+          "stage": "plan_disclosed",
+          "sourceRecordIds": [
+            "src-cninfo-1225366240"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF"
+          ]
+        }
+      ],
+      "documents": [
+        {
+          "candidateId": "listed-ann-1224926245",
+          "at": "2026-01-08T19:32:10+08:00",
+          "title": "关于筹划重大资产重组暨签署《支付现金购买资产意向协议》的提示性公告",
+          "role": "milestone",
+          "stage": "planning",
+          "sourceRecordIds": [
+            "src-cninfo-1224926245"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-01-08/1224926245.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1224969862",
+          "at": "2026-02-06T15:44:09+08:00",
+          "title": "关于筹划重大资产重组的进展公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1224969862"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-02-06/1224969862.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1224999429",
+          "at": "2026-03-06T18:02:29+08:00",
+          "title": "关于筹划重大资产重组的进展公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1224999429"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-03-06/1224999429.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225078665",
+          "at": "2026-04-03T16:00:29+08:00",
+          "title": "关于筹划重大资产重组的进展公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1225078665"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-03/1225078665.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225171019",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "关于2025年年度股东会暂不审议重大资产重组相关议案的公告",
+          "role": "milestone",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225171019"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171019.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225171012",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "关于本次交易相关主体不存在《上市公司监管指引第7号 ——上市公司重大资产重组相关股票异常交易监管》第十二条及《深圳证券交易所上市公司自律监管指引第8号——重大资产重组》第三十条规定的不得参与任何上市公司重大资产重组情形的核查意见",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225171012"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171012.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225170981",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "董事会关于本次交易构成重大资产重组、不构成重组上市的说明",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225170981"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170981.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225170982",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "董事会关于本次交易相关主体不存在《上市公司监管指引第7号——上市公司重大资产重组相关股票异常交易监管》第十二条及《深圳证券交易所上市公司自律监管指引第8号——重大资产重组》第三十条规定的不得参与任何上市公司重大资产重组情形的说明",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225170982"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170982.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225170985",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "董事会关于本次交易符合《上市公司监管指引第9号——上市公司筹划和实施重大资产重组的监管要求》第四条规定的说明",
+          "role": "supporting_document",
+          "stage": "planning",
+          "sourceRecordIds": [
+            "src-cninfo-1225170985"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170985.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225170983",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "董事会关于本次交易符合《上市公司重大资产重组管理办法》第十一条及不适用第四十三条、第四十四条规定的说明",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225170983"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170983.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225170987",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "董事会关于本次交易符合《创业板上市公司持续监管办法（试行）》第十八条以及《深圳证券交易所上市公司重大资产重组审核规则》第八条规定的说明",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225170987"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170987.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225170969",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "重大资产重组报告书",
+          "role": "milestone",
+          "stage": "plan_disclosed",
+          "sourceRecordIds": [
+            "src-cninfo-1225170969"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170969.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225170970",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "重大资产重组报告书(草案)摘要",
+          "role": "milestone",
+          "stage": "plan_disclosed",
+          "sourceRecordIds": [
+            "src-cninfo-1225170970"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225170970.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225171009",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "长江证券承销保荐有限公司 关于本次交易构成重大资产重组、不构成重组上市的核查意见",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225171009"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171009.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225171013",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "长江证券承销保荐有限公司关于本次交易符合《上市公司监管指引第9号——上市公司筹划和实施重大资产重组的监管要求》第四条规定的核查意见",
+          "role": "supporting_document",
+          "stage": "planning",
+          "sourceRecordIds": [
+            "src-cninfo-1225171013"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171013.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225171008",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "长江证券承销保荐有限公司关于本次交易符合《上市公司重大资产重组管理办法》第十一条及不适用第四十三条、第四十四条规定的核查意见",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225171008"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171008.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225171015",
+          "at": "2026-04-24T00:00:00+08:00",
+          "title": "长江证券承销保荐有限公司关于本次交易符合《创业板上市公司持续监管办法（试行）》第十八条和《深圳证券交易所上市公司重大资产重组审核规则》第八条规定的核查意见",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225171015"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-24/1225171015.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225324765",
+          "at": "2026-05-22T15:48:08+08:00",
+          "title": "关于筹划重大资产重组的进展公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1225324765"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-05-22/1225324765.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225366234",
+          "at": "2026-06-12T00:00:00+08:00",
+          "title": "北方长龙新材料技术股份有限公司关于深圳证券交易所《关于对北方长龙新材料技术股份有限公司的并购重组问询函》的回复公告",
+          "role": "milestone",
+          "stage": "inquiry_response",
+          "sourceRecordIds": [
+            "src-cninfo-1225366234"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366234.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225366235",
+          "at": "2026-06-12T00:00:00+08:00",
+          "title": "江苏天健华辰资产评估有限公司关于对北方长龙新材料技术股份有限公司的并购重组问询函的回复",
+          "role": "supporting_document",
+          "stage": "inquiry_response",
+          "sourceRecordIds": [
+            "src-cninfo-1225366235"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366235.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225366236",
+          "at": "2026-06-12T00:00:00+08:00",
+          "title": "立信会计师事务所（特殊普通合伙）关于深圳证券交易所《关于对北方长龙新材料技术股份有限公司的并购重组问询函》的回复",
+          "role": "supporting_document",
+          "stage": "inquiry_response",
+          "sourceRecordIds": [
+            "src-cninfo-1225366236"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366236.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225366241",
+          "at": "2026-06-12T00:00:00+08:00",
+          "title": "重大资产重组报告书(草案)摘要（修订稿）",
+          "role": "milestone",
+          "stage": "plan_disclosed",
+          "sourceRecordIds": [
+            "src-cninfo-1225366241"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366241.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225366240",
+          "at": "2026-06-12T00:00:00+08:00",
+          "title": "重大资产重组报告书（修订稿）",
+          "role": "milestone",
+          "stage": "plan_disclosed",
+          "sourceRecordIds": [
+            "src-cninfo-1225366240"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225366239",
+          "at": "2026-06-12T00:00:00+08:00",
+          "title": "长江证券承销保荐有限公司关于深圳证券交易所《关于对北方长龙新材料技术股份有限公司的并购重组问询函》的回复之核查意见",
+          "role": "supporting_document",
+          "stage": "inquiry_response",
+          "sourceRecordIds": [
+            "src-cninfo-1225366239"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366239.PDF"
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "ma-backfill-listed-301517-sz",
+      "eventKeySeed": "ma:listed-301517-sz:2026",
+      "primaryEntityId": "listed-301517-sz",
+      "companyName": "陕西华达",
+      "title": "陕西华达 2026年并购重组事项",
+      "firstPublishedAt": "2026-01-24T00:00:00+08:00",
+      "latestPublishedAt": "2026-02-13T18:06:08+08:00",
+      "latestStage": "terminated",
+      "milestoneCount": 2,
+      "supportingDocumentCount": 1,
+      "sourceRecordIds": [
+        "src-cninfo-1224947367",
+        "src-cninfo-1224981638",
+        "src-cninfo-1224981640"
+      ],
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "timeline_grouped_pdf_review_pending",
+      "milestones": [
+        {
+          "candidateId": "listed-ann-1224947367",
+          "at": "2026-01-24T00:00:00+08:00",
+          "title": "关于发行股份购买资产并募集配套资金暨关联交易事项的进展公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1224947367"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-01-24/1224947367.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1224981638",
+          "at": "2026-02-13T18:06:08+08:00",
+          "title": "关于终止发行股份购买资产并募集配套资金暨关联交易事项的公告",
+          "role": "milestone",
+          "stage": "terminated",
+          "sourceRecordIds": [
+            "src-cninfo-1224981638"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-02-13/1224981638.PDF"
+          ]
+        }
+      ],
+      "documents": [
+        {
+          "candidateId": "listed-ann-1224947367",
+          "at": "2026-01-24T00:00:00+08:00",
+          "title": "关于发行股份购买资产并募集配套资金暨关联交易事项的进展公告",
+          "role": "milestone",
+          "stage": "in_progress",
+          "sourceRecordIds": [
+            "src-cninfo-1224947367"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-01-24/1224947367.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1224981640",
+          "at": "2026-02-13T18:06:08+08:00",
+          "title": "关于召开终止发行股份购买资产并募集配套资金暨关联交易事项投资者说明会的公告",
+          "role": "supporting_document",
+          "stage": "terminated",
+          "sourceRecordIds": [
+            "src-cninfo-1224981640"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-02-13/1224981640.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1224981638",
+          "at": "2026-02-13T18:06:08+08:00",
+          "title": "关于终止发行股份购买资产并募集配套资金暨关联交易事项的公告",
+          "role": "milestone",
+          "stage": "terminated",
+          "sourceRecordIds": [
+            "src-cninfo-1224981638"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-02-13/1224981638.PDF"
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "ma-backfill-listed-302132-sz",
+      "eventKeySeed": "ma:listed-302132-sz:2026",
+      "primaryEntityId": "listed-302132-sz",
+      "companyName": "中航成飞",
+      "title": "中航成飞 2026年并购重组事项",
+      "firstPublishedAt": "2026-04-29T00:00:00+08:00",
+      "latestPublishedAt": "2026-05-11T19:13:20+08:00",
+      "latestStage": "source_gap",
+      "milestoneCount": 0,
+      "supportingDocumentCount": 2,
+      "sourceRecordIds": [
+        "src-cninfo-1225250590",
+        "src-cninfo-1225291887"
+      ],
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "source_gap_primary_announcement_missing",
+      "milestones": [],
+      "documents": [
+        {
+          "candidateId": "listed-ann-1225250590",
+          "at": "2026-04-29T00:00:00+08:00",
+          "title": "中信证券股份有限公司关于中航成飞股份有限公司发行股份购买资产暨关联交易2025年度业绩承诺实现情况的核查意见",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225250590"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-04-29/1225250590.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225291887",
+          "at": "2026-05-11T19:13:20+08:00",
+          "title": "中信证券股份有限公司关于中航成飞股份有限公司发行股份购买资产暨关联交易2025年度持续督导意见",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225291887"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-05-11/1225291887.PDF"
+          ]
+        }
+      ]
+    },
+    {
+      "candidateId": "ma-backfill-listed-601369-sh",
+      "eventKeySeed": "ma:listed-601369-sh:2026",
+      "primaryEntityId": "listed-601369-sh",
+      "companyName": "陕鼓动力",
+      "title": "陕鼓动力 2026年并购重组事项",
+      "firstPublishedAt": "2026-06-27T00:00:00+08:00",
+      "latestPublishedAt": "2026-07-11T00:00:00+08:00",
+      "latestStage": "plan_disclosed",
+      "milestoneCount": 3,
+      "supportingDocumentCount": 4,
+      "sourceRecordIds": [
+        "src-cninfo-1225392075",
+        "src-cninfo-1225407847",
+        "src-cninfo-1225420065",
+        "src-cninfo-1225420066",
+        "src-cninfo-1225420069",
+        "src-cninfo-1225420076",
+        "src-cninfo-1225420081",
+        "src-cninfo-1225420091",
+        "src-cninfo-1225420102"
+      ],
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "timeline_grouped_pdf_review_pending",
+      "milestones": [
+        {
+          "candidateId": "listed-ann-1225392075",
+          "at": "2026-06-27T00:00:00+08:00",
+          "title": "西安陕鼓动力股份有限公司关于筹划发行股份购买资产暨关联交易事项的停牌公告",
+          "role": "milestone",
+          "stage": "planning",
+          "sourceRecordIds": [
+            "src-cninfo-1225392075"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392075.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225407847",
+          "at": "2026-07-04T00:00:00+08:00",
+          "title": "西安陕鼓动力股份有限公司关于筹划发行股份购买资产暨关联交易事项的停牌进展公告",
+          "role": "milestone",
+          "stage": "planning",
+          "sourceRecordIds": [
+            "src-cninfo-1225407847"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-07-04/1225407847.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225420091",
+          "at": "2026-07-11T00:00:00+08:00",
+          "title": "西安陕鼓动力股份有限公司发行股份购买资产暨关联交易预案",
+          "role": "milestone",
+          "stage": "plan_disclosed",
+          "sourceRecordIds": [
+            "src-cninfo-1225420091"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420091.PDF"
+          ]
+        }
+      ],
+      "documents": [
+        {
+          "candidateId": "listed-ann-1225392075",
+          "at": "2026-06-27T00:00:00+08:00",
+          "title": "西安陕鼓动力股份有限公司关于筹划发行股份购买资产暨关联交易事项的停牌公告",
+          "role": "milestone",
+          "stage": "planning",
+          "sourceRecordIds": [
+            "src-cninfo-1225392075"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392075.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225407847",
+          "at": "2026-07-04T00:00:00+08:00",
+          "title": "西安陕鼓动力股份有限公司关于筹划发行股份购买资产暨关联交易事项的停牌进展公告",
+          "role": "milestone",
+          "stage": "planning",
+          "sourceRecordIds": [
+            "src-cninfo-1225407847"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-07-04/1225407847.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225420081",
+          "at": "2026-07-11T00:00:00+08:00",
+          "title": "西安陕鼓动力股份有限公司关于发行股份购买资产暨关联交易事项的一般风险提示暨公司股票复牌的提示性公告",
+          "role": "milestone",
+          "stage": "plan_disclosed",
+          "sourceRecordIds": [
+            "src-cninfo-1225420081"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420081.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225420091",
+          "at": "2026-07-11T00:00:00+08:00",
+          "title": "西安陕鼓动力股份有限公司发行股份购买资产暨关联交易预案",
+          "role": "milestone",
+          "stage": "plan_disclosed",
+          "sourceRecordIds": [
+            "src-cninfo-1225420091"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420091.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225420102",
+          "at": "2026-07-11T00:00:00+08:00",
+          "title": "西安陕鼓动力股份有限公司发行股份购买资产暨关联交易预案（摘要）",
+          "role": "milestone",
+          "stage": "plan_disclosed",
+          "sourceRecordIds": [
+            "src-cninfo-1225420102"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420102.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225420065",
+          "at": "2026-07-11T00:00:00+08:00",
+          "title": "西安陕鼓动力股份有限公司董事会关于本次交易构成关联交易但预计不构成重大资产重组且不构成重组上市的说明",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225420065"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420065.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225420076",
+          "at": "2026-07-11T00:00:00+08:00",
+          "title": "西安陕鼓动力股份有限公司董事会关于本次交易相关主体不存在《上市公司监管指引第7号—上市公司重大资产重组相关股票异常交易监管》第十二条规定情形的说明",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225420076"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420076.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225420066",
+          "at": "2026-07-11T00:00:00+08:00",
+          "title": "西安陕鼓动力股份有限公司董事会关于本次交易符合《上市公司监管指引第9号—上市公司筹划和实施重大资产重组的监管要求》第四条规定的说明",
+          "role": "supporting_document",
+          "stage": "planning",
+          "sourceRecordIds": [
+            "src-cninfo-1225420066"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420066.PDF"
+          ]
+        },
+        {
+          "candidateId": "listed-ann-1225420069",
+          "at": "2026-07-11T00:00:00+08:00",
+          "title": "西安陕鼓动力股份有限公司董事会关于本次交易符合《上市公司重大资产重组管理办法》第十一条、第四十三条和第四十四条规定的说明",
+          "role": "supporting_document",
+          "stage": "supporting_document",
+          "sourceRecordIds": [
+            "src-cninfo-1225420069"
+          ],
+          "sourceUrls": [
+            "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420069.PDF"
+          ]
+        }
+      ]
+    }
+  ]
+}

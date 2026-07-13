@@ -558,6 +558,13 @@ main:focus { outline: none; }
 .entity-latest { margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--line); color: #4f5b55; font-size: 9px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .quality-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.backfill-panel { margin-bottom: 18px; }
+.backfill-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+.backfill-item { min-height: 116px; padding: 16px 18px; display: grid; grid-template-columns: 1fr auto; gap: 14px; border-right: 1px solid var(--line); border-top: 1px solid var(--line); }
+.backfill-item span { color: var(--muted); font-size: 9px; }
+.backfill-item strong { display: block; margin-top: 6px; font-size: 14px; }
+.backfill-item p { margin: 7px 0 0; color: var(--muted); font-size: 9px; line-height: 1.55; }
+.backfill-item b { align-self: start; font-size: 9px; }
 .provider-list { display: grid; }
 .provider-row { padding: 16px 18px; display: grid; grid-template-columns: 1fr auto; gap: 14px; border-bottom: 1px solid var(--line); }
 .provider-row:last-child { border-bottom: 0; }

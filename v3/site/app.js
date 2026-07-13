@@ -9,6 +9,7 @@ const ANNUAL_INTELLIGENCE_URL = "../data/annual/2026.json";
 const LISTED_TAXONOMY_URL = "../config/listed-business-taxonomy.json";
 const LISTED_UNIVERSE_URL = "../data/listed/universe.json";
 const EVENT_STORE_SUMMARY_URL = "../data/runtime/event-store-summary.json";
+const BACKFILL_COVERAGE_URL = "../data/backfill/coverage-2026.json";
 const WATCH_STORAGE_KEY = "shaanxi-v3-watch-items-v1";
 
 const labels = {
@@ -77,6 +78,7 @@ const state = {
   listedTaxonomy: null,
   listedUniverse: null,
   eventStore: null,
+  backfillCoverage: null,
   dealsTab: "projects",
   dealsStage: "all",
   dealsQuery: "",
@@ -873,7 +875,17 @@ function renderQuality() {
   const groups = [["Schema必填", 11], ["唯一ID与引用", 7], ["收藏与跟踪", 7], ["上市日报与财务", 8], ["招投标监控", 15], ["Provider与主体池", 4]];
   const store = state.eventStore;
   const storePanel = store ? `<div class="kpi-grid" style="margin-bottom:18px"><div class="kpi"><span class="kpi-top"><span>统一事件</span>${icon("database")}</span><strong class="kpi-value">${store.counts.events}</strong></div><div class="kpi"><span class="kpi-top"><span>事件版本</span>${icon("history")}</span><strong class="kpi-value">${store.counts.event_versions}</strong></div><div class="kpi"><span class="kpi-top"><span>时间线节点</span>${icon("git-commit-horizontal")}</span><strong class="kpi-value">${store.counts.event_timeline}</strong></div><div class="kpi"><span class="kpi-top"><span>原始快照</span>${icon("archive")}</span><strong class="kpi-value">${store.counts.raw_snapshots}</strong></div><div class="kpi"><span class="kpi-top"><span>事件库状态</span>${icon("badge-check")}</span><strong class="kpi-value">${esc(store.status)}</strong></div></div>` : "";
-  $("#view-quality").innerHTML = `${pageHeading("QUALITY CENTER", "质量中心", "来源健康、约束覆盖和回溯状态。", `快照 ${currentSnapshot().qualityResult}`)}${storePanel}<div class="quality-grid"><section class="panel"><div class="panel-head"><h2>数据源健康</h2><span>当前运行记录</span></div><div class="provider-list">${providerRows}</div></section><section class="panel"><div class="panel-head"><h2>自动校验覆盖</h2><span>事件库与页面验证器</span></div><div class="rule-list">${groups.map(([name, count]) => `<div class="rule-row"><span>${name}</span><span class="rule-meter"><i style="width:100%"></i></span><strong>${count}项</strong></div>`).join("")}</div></section></div><div class="audit-note">${icon("info")}<div><strong>数据状态声明</strong><br>${esc(state.data.meta.note)} AMAC年内注销详情存在600条核验上限，因此私募累计口径标记为降级；页面没有把受限累计描述为完整统计。统一事件库已启用事件键去重、版本留痕和原始快照哈希。</div></div><div class="data-table-wrap" style="margin-top:18px"><table class="data-table"><thead><tr><th>事件</th><th>来源</th><th>来源等级</th><th>核验状态</th><th>检查时间</th></tr></thead><tbody>${state.data.events.map((event) => { const source = state.data.sources.find((item) => item.sourceRecordId === event.sourceRecordIds[0]); return `<tr data-event-id="${event.eventId}"><td class="event-cell"><strong>${esc(event.title)}</strong></td><td>${esc(source.sourceName)}</td><td>${esc(source.sourceQuality)}</td><td>${qualityBadge(event.qualityStatus)}</td><td>${shortDateTime(event.lastCheckedAt)}</td></tr>`; }).join("")}</tbody></table></div>`;
+  const coverage = state.backfillCoverage;
+  const coverageRows = coverage ? [
+    ["上市公司", "117个主体已解析", "公告正文与港股完整性复核中", coverage.channels.listed],
+    ["证券私募", "年度备案已回收", "协会注销累计查询存在上限", coverage.channels.private_fund],
+    ["金融招投标", `${coverage.channels.tender.projectCount || 0}个项目已归并`, `${coverage.channels.tender.announcementMissingCount || 0}个公告首发缺口待复盘`, coverage.channels.tender],
+    ["收并购", `${coverage.channels.ma.projectCandidateCount || 0}条主体项目链`, "支持文件已剥离，交易标的待正文确认", coverage.channels.ma],
+    ["拟上市与融资", `${coverage.channels.equity_financing.aTierProfileCount || 0}家A档已建档`, "逐企融资扫描进行中", coverage.channels.equity_financing],
+    ["国企动态", `${coverage.channels.soe.recordCount || 0}条现存记录已回收`, "1至6月仍需按官网重扫", coverage.channels.soe]
+  ] : [];
+  const coveragePanel = coverage ? `<section class="panel backfill-panel"><div class="panel-head"><h2>2026年度回补</h2><span>${esc(coverage.startDate)} 起 · 候选层不计入正式年度事件</span></div><div class="backfill-grid">${coverageRows.map(([name, value, note, channel]) => { const review = /PENDING|PARTIAL|LIMITED|REVIEW/.test(channel.status); return `<div class="backfill-item"><div><span>${esc(name)}</span><strong>${esc(value)}</strong><p>${esc(note)}</p></div><b class="${review ? "status-review" : "status-pass"}">${review ? "进行中" : "已入库"}</b></div>`; }).join("")}</div></section>` : "";
+  $("#view-quality").innerHTML = `${pageHeading("QUALITY CENTER", "质量中心", "来源健康、约束覆盖和回溯状态。", `快照 ${currentSnapshot().qualityResult}`)}${storePanel}${coveragePanel}<div class="quality-grid"><section class="panel"><div class="panel-head"><h2>数据源健康</h2><span>当前运行记录</span></div><div class="provider-list">${providerRows}</div></section><section class="panel"><div class="panel-head"><h2>自动校验覆盖</h2><span>事件库与页面验证器</span></div><div class="rule-list">${groups.map(([name, count]) => `<div class="rule-row"><span>${name}</span><span class="rule-meter"><i style="width:100%"></i></span><strong>${count}项</strong></div>`).join("")}</div></section></div><div class="audit-note">${icon("info")}<div><strong>数据状态声明</strong><br>${esc(state.data.meta.note)} 回补资料先进入候选层，经正文复核、同事项归并和来源核验后才可升级为正式事件。AMAC累计查询、HKEX完整性以及国企历史缺口始终显式保留。</div></div><div class="data-table-wrap" style="margin-top:18px"><table class="data-table"><thead><tr><th>事件</th><th>来源</th><th>来源等级</th><th>核验状态</th><th>检查时间</th></tr></thead><tbody>${state.data.events.map((event) => { const source = state.data.sources.find((item) => item.sourceRecordId === event.sourceRecordIds[0]); return `<tr data-event-id="${event.eventId}"><td class="event-cell"><strong>${esc(event.title)}</strong></td><td>${esc(source.sourceName)}</td><td>${esc(source.sourceQuality)}</td><td>${qualityBadge(event.qualityStatus)}</td><td>${shortDateTime(event.lastCheckedAt)}</td></tr>`; }).join("")}</tbody></table></div>`;
 }
 
 function watchEditor(event) {
@@ -1083,7 +1095,7 @@ function bindGlobalEvents() {
 
 async function init() {
   try {
-    const [response, tenderResponse, runtimeResponse, privateResponse, maResponse, preIpoResponse, relationshipsResponse, annualResponse, taxonomyResponse, universeResponse, eventStoreResponse] = await Promise.all([fetch(DATA_URL, { cache: "no-store" }), fetch(TENDER_SOURCES_URL, { cache: "no-store" }), fetch(TENDER_RUNTIME_URL, { cache: "no-store" }), fetch(PRIVATE_FUND_URL, { cache: "no-store" }), fetch(MA_PROJECTS_URL, { cache: "no-store" }), fetch(PRE_IPO_URL, { cache: "no-store" }), fetch(RELATIONSHIPS_URL, { cache: "no-store" }), fetch(ANNUAL_INTELLIGENCE_URL, { cache: "no-store" }), fetch(LISTED_TAXONOMY_URL, { cache: "no-store" }), fetch(LISTED_UNIVERSE_URL, { cache: "no-store" }), fetch(EVENT_STORE_SUMMARY_URL, { cache: "no-store" })]);
+    const [response, tenderResponse, runtimeResponse, privateResponse, maResponse, preIpoResponse, relationshipsResponse, annualResponse, taxonomyResponse, universeResponse, eventStoreResponse, backfillResponse] = await Promise.all([fetch(DATA_URL, { cache: "no-store" }), fetch(TENDER_SOURCES_URL, { cache: "no-store" }), fetch(TENDER_RUNTIME_URL, { cache: "no-store" }), fetch(PRIVATE_FUND_URL, { cache: "no-store" }), fetch(MA_PROJECTS_URL, { cache: "no-store" }), fetch(PRE_IPO_URL, { cache: "no-store" }), fetch(RELATIONSHIPS_URL, { cache: "no-store" }), fetch(ANNUAL_INTELLIGENCE_URL, { cache: "no-store" }), fetch(LISTED_TAXONOMY_URL, { cache: "no-store" }), fetch(LISTED_UNIVERSE_URL, { cache: "no-store" }), fetch(EVENT_STORE_SUMMARY_URL, { cache: "no-store" }), fetch(BACKFILL_COVERAGE_URL, { cache: "no-store" })]);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.data = await response.json();
     state.tenderRegistry = tenderResponse.ok ? await tenderResponse.json() : null;
@@ -1096,6 +1108,7 @@ async function init() {
     state.listedTaxonomy = taxonomyResponse.ok ? await taxonomyResponse.json() : null;
     state.listedUniverse = universeResponse.ok ? await universeResponse.json() : null;
     state.eventStore = eventStoreResponse.ok ? await eventStoreResponse.json() : null;
+    state.backfillCoverage = backfillResponse.ok ? await backfillResponse.json() : null;
     loadWatchItems();
     bindGlobalEvents();
     updateRunContext();

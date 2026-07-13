@@ -19,6 +19,12 @@ INPUTS = {
     "pre_ipo": "data/pre-ipo/latest.json",
     "private_fund": "data/private-fund/snapshots/latest.json",
     "tender": "data/tender/scans/latest.json",
+    "listed_backfill": "data/backfill/listed/normalized-2026.json",
+    "private_backfill": "data/backfill/private-fund/normalized-2026.json",
+    "tender_backfill": "data/backfill/tender/merged-2026.json",
+    "ma_backfill": "data/backfill/ma/normalized-2026.json",
+    "equity_backfill": "data/backfill/equity-financing/normalized-2026.json",
+    "soe_backfill": "data/backfill/soe/normalized-2026.json",
 }
 
 
@@ -113,6 +119,26 @@ class Store:
                 (timeline_id, event_id, item.get("at"), item.get("label") or "节点", item.get("stageAfter"), canonical(item.get("sourceIds") or [])),
             )
 
+    def candidate(self, item: dict[str, Any], channel: str, source_ids: Iterable[str]) -> None:
+        candidate_id = str(item["candidateId"])
+        payload = canonical(item)
+        payload_hash = hashlib.sha256(payload.encode("utf-8")).hexdigest()
+        self.db.execute(
+            """INSERT INTO event_candidates VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+               ON CONFLICT(candidate_id) DO UPDATE SET primary_entity_id=excluded.primary_entity_id,
+               event_key_seed=excluded.event_key_seed, title=excluded.title,
+               published_at=excluded.published_at, rm_category=excluded.rm_category,
+               rm_subcategory=excluded.rm_subcategory, business_priority=excluded.business_priority,
+               novelty_status=excluded.novelty_status, normalization_status=excluded.normalization_status,
+               payload_hash=excluded.payload_hash, payload_json=excluded.payload_json, updated_at=excluded.updated_at""",
+            (candidate_id, channel, item.get("primaryEntityId"), item.get("eventKeySeed") or candidate_id,
+             item["title"], item.get("publishedAt"), item.get("rmCategory"), item.get("rmSubcategory"),
+             item.get("businessPriority"), item.get("noveltyStatus") or "backfill",
+             item.get("normalizationStatus") or "pending", payload_hash, payload, self.seen_at),
+        )
+        for source_id in source_ids:
+            self.db.execute("INSERT OR IGNORE INTO candidate_sources VALUES (?, ?)", (candidate_id, source_id))
+
 
 def import_dashboard(store: Store, data: dict[str, Any]) -> int:
     for entity in data.get("entities", []):
@@ -206,6 +232,82 @@ def import_tender(store: Store, data: dict[str, Any]) -> int:
     return len(groups)
 
 
+def import_listed_backfill(store: Store, data: dict[str, Any], universe: dict[str, Any]) -> int:
+    for entity in universe.get("entities", []):
+        known = {"entityId", "canonicalName", "universeTier", "inclusionReason"}
+        store.entity(entity["entityId"], "listed_company", entity["canonicalName"], status="active", universeTier=entity.get("universeTier"), inclusionReason=entity.get("inclusionReason"), **{k: v for k, v in entity.items() if k not in known})
+    for source in data.get("sources", []):
+        store.source(source["sourceRecordId"], {"sourceType": "official_announcement", "sourceName": "巨潮资讯", **source})
+    for item in data.get("candidates", []):
+        store.candidate({"candidateId": item["eventCandidateId"], **item}, "listed", item.get("sourceRecordIds", []))
+    return len(data.get("candidates", []))
+
+
+def import_private_backfill(store: Store, data: dict[str, Any]) -> int:
+    count = 0
+    for kind, items in (("new_fund_filing", data.get("products", [])), ("manager_registration", data.get("newManagers", [])), ("manager_cancellation", data.get("cancellations", []))):
+        for item in items:
+            manager_name = item.get("managerName") or "未知管理人"
+            entity_id = f"private-{digest(manager_name, 18)}"
+            store.entity(entity_id, "private_fund_manager", manager_name, status="tracked")
+            identity = item.get("fundNo") or item.get("registerNo") or item.get("orgCode") or digest(item, 16)
+            candidate_id = f"private-backfill-{kind}-{identity}"
+            source_id = f"src-{candidate_id}"
+            published_at = item.get("filingDate") or item.get("registerDate") or item.get("cancelDate")
+            title = item.get("fundName") or f"{manager_name}{'登记' if kind == 'manager_registration' else '注销'}"
+            store.source(source_id, {"sourceType": "amac_public_record", "sourceName": "中国证券投资基金业协会", "sourceUrl": item.get("sourceUrl"), "title": title, "publishedAt": published_at, "sourceQuality": "official"})
+            store.candidate({"candidateId": candidate_id, "primaryEntityId": entity_id, "eventKeySeed": f"{kind}:{identity}", "title": title, "publishedAt": published_at, "noveltyStatus": "backfill", "normalizationStatus": "source_verified_diff_pending", "record": item}, "private_fund", [source_id])
+            count += 1
+    return count
+
+
+def import_tender_backfill(store: Store, data: dict[str, Any]) -> int:
+    source_ids_by_record: dict[str, str] = {}
+    for record in data.get("records", []):
+        source_id = f"src-tender-backfill-{digest(record['recordId'], 20)}"
+        source_ids_by_record[record["recordId"]] = source_id
+        store.source(source_id, {"sourceType": "official_tender_notice", "sourceName": record.get("sourceId"), "sourceUrl": record.get("sourceUrl"), "title": record.get("title"), "publishedAt": record.get("publishedAt"), "fetchedAt": record.get("discoveredAt"), "sourceQuality": record.get("sourceQuality"), "discoveryMode": "backfill"})
+    for project in data.get("projects", []):
+        source_ids = [source_ids_by_record[record_id] for record_id in project.get("sourceRecordIds", []) if record_id in source_ids_by_record]
+        store.candidate({"candidateId": project["candidateId"], "eventKeySeed": f"tender:{project['projectFingerprint']}", "title": project["title"], "publishedAt": project.get("firstPublishedAt"), "rmCategory": "金融招投标", "rmSubcategory": project.get("latestStage"), "businessPriority": "focus", "noveltyStatus": "backfill", "normalizationStatus": project.get("normalizationStatus"), "project": project}, "tender", source_ids)
+    return len(data.get("projects", []))
+
+
+def import_ma_backfill(store: Store, data: dict[str, Any]) -> int:
+    for source in data.get("sources", []):
+        store.source(source["sourceRecordId"], {"sourceType": "official_announcement", "sourceName": "巨潮资讯", **source})
+    for project in data.get("projects", []):
+        store.candidate({"candidateId": project["candidateId"], "primaryEntityId": project.get("primaryEntityId"), "eventKeySeed": project.get("eventKeySeed"), "title": project["title"], "publishedAt": project.get("firstPublishedAt"), "rmCategory": "资本运作", "rmSubcategory": "并购重组", "businessPriority": "focus", "noveltyStatus": "backfill", "normalizationStatus": project.get("normalizationStatus"), "project": project}, "ma", project.get("sourceRecordIds", []))
+    return len(data.get("projects", []))
+
+
+def import_equity_backfill(store: Store, data: dict[str, Any]) -> int:
+    count = 0
+    for item in data.get("milestones", []):
+        if not item.get("sourceUrl"):
+            continue
+        source_ids: list[str] = []
+        source_id = f"src-preipo-backfill-{digest(item['sourceUrl'], 20)}"
+        store.source(source_id, {"sourceType": "listing_progress", "sourceName": "上市后备或交易所公开资料", "sourceUrl": item["sourceUrl"], "title": item["title"], "publishedAt": item.get("publishedAt"), "sourceQuality": item.get("sourceQuality")})
+        source_ids.append(source_id)
+        store.candidate({"candidateId": item["candidateId"], "primaryEntityId": item.get("primaryEntityId"), "eventKeySeed": f"preipo:{item.get('primaryEntityId')}:{item.get('eventType')}:{item.get('publishedAt')}", "title": f"{item.get('enterpriseName')}：{item.get('title')}", "publishedAt": item.get("publishedAt"), "rmCategory": "拟上市与股权融资", "rmSubcategory": item.get("eventType"), "businessPriority": "focus" if item.get("eventType") in {"hearing", "listed"} else "standard", "noveltyStatus": "backfill", "normalizationStatus": item.get("normalizationStatus"), "milestone": item}, "pre_ipo", source_ids)
+        count += 1
+    for financing in data.get("financingRecords", []):
+        source_id = f"src-equity-backfill-{digest(financing.get('sourceUrl'), 20)}"
+        store.source(source_id, {"sourceType": "financing_disclosure", "sourceName": "企业或投资机构公开信息", "sourceUrl": financing.get("sourceUrl"), "title": financing["financingId"], "publishedAt": financing.get("announcedAt"), "sourceQuality": financing.get("sourceQuality")})
+        store.candidate({"candidateId": f"equity-backfill-{financing['financingId']}", "primaryEntityId": financing.get("enterpriseId"), "eventKeySeed": financing["financingId"], "title": f"股权融资：{financing.get('round')}", "publishedAt": financing.get("announcedAt"), "rmCategory": "拟上市与股权融资", "rmSubcategory": "股权融资", "businessPriority": "focus", "noveltyStatus": "backfill", "normalizationStatus": financing.get("verificationStatus"), "financing": financing}, "equity_financing", [source_id])
+        count += 1
+    return count
+
+
+def import_soe_backfill(store: Store, data: dict[str, Any]) -> int:
+    for item in data.get("records", []):
+        source_id = f"src-{item['candidateId']}"
+        store.source(source_id, {"sourceType": "sasac_or_group_site", "sourceName": item.get("sourceName"), "sourceUrl": item.get("sourceUrl"), "title": item["title"], "publishedAt": item.get("publishedAt"), "sourceQuality": item.get("sourceQuality")})
+        store.candidate({"candidateId": item["candidateId"], "eventKeySeed": f"soe:{digest(item.get('sourceUrl'), 20)}", "title": item["title"], "publishedAt": item.get("publishedAt"), "rmCategory": "国企动态", "rmSubcategory": item.get("category"), "businessPriority": "focus" if item.get("category") in {"资本金融", "项目资产"} else "standard", "noveltyStatus": "backfill", "normalizationStatus": item.get("normalizationStatus"), "record": item}, "soe", [source_id])
+    return len(data.get("records", []))
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build or update the V3 persistent event store.")
     parser.add_argument("--db", default=str(DEFAULT_DB))
@@ -220,20 +322,31 @@ def main() -> int:
         connection.executescript((ROOT / "storage/schema.sql").read_text(encoding="utf-8"))
         connection.execute("INSERT INTO ingest_runs(run_id, started_at, status) VALUES (?, ?, 'RUNNING')", (run_id, seen_at))
         store = Store(connection, seen_at)
+        connection.execute("DELETE FROM candidate_sources")
+        connection.execute("DELETE FROM event_candidates")
         datasets = {name: load(path) for name, path in INPUTS.items()}
         for name, relative in INPUTS.items():
             payload = datasets[name]
             content_hash = digest(payload)
             snapshot_id = f"raw-{name}-{content_hash[:20]}"
-            data_as_of = payload.get("meta", {}).get("asOf") if name == "dashboard" else payload.get("asOf") or payload.get("generatedAt")
+            data_as_of = payload.get("meta", {}).get("asOf") if name == "dashboard" else payload.get("asOf") or payload.get("endDate") or payload.get("generatedAt")
             connection.execute("INSERT OR IGNORE INTO raw_snapshots VALUES (?, ?, ?, ?, ?, ?, ?)", (snapshot_id, name, relative, content_hash, data_as_of, seen_at, canonical(payload)))
+        universe = load("data/listed/universe.json")
         event_count = sum((import_dashboard(store, datasets["dashboard"]), import_ma(store, datasets["ma_projects"]), import_pre_ipo(store, datasets["pre_ipo"]), import_private(store, datasets["private_fund"]), import_tender(store, datasets["tender"])))
+        candidate_count = sum((
+            import_listed_backfill(store, datasets["listed_backfill"], universe),
+            import_private_backfill(store, datasets["private_backfill"]),
+            import_tender_backfill(store, datasets["tender_backfill"]),
+            import_ma_backfill(store, datasets["ma_backfill"]),
+            import_equity_backfill(store, datasets["equity_backfill"]),
+            import_soe_backfill(store, datasets["soe_backfill"]),
+        ))
         connection.execute("INSERT OR REPLACE INTO metadata VALUES ('schema_version', '1')")
         connection.execute("INSERT OR REPLACE INTO metadata VALUES ('last_successful_run', ?)", (run_id,))
         connection.execute("UPDATE ingest_runs SET finished_at=?, status='PASS', dataset_count=?, event_count=? WHERE run_id=?", (now_iso(), len(datasets), event_count, run_id))
         connection.commit()
-        counts = {table: connection.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in ("raw_snapshots", "entities", "sources", "events", "event_versions", "event_timeline")}
-        summary = {"schemaVersion": "1", "runId": run_id, "status": "PASS", "database": str(db_path.relative_to(ROOT)), "counts": counts, "channelCounts": dict(connection.execute("SELECT channel, COUNT(*) FROM events GROUP BY channel ORDER BY channel")), "generatedAt": now_iso()}
+        counts = {table: connection.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in ("raw_snapshots", "entities", "sources", "events", "event_versions", "event_timeline", "event_candidates")}
+        summary = {"schemaVersion": "1", "runId": run_id, "status": "PASS", "database": str(db_path.relative_to(ROOT)), "counts": counts, "channelCounts": dict(connection.execute("SELECT channel, COUNT(*) FROM events GROUP BY channel ORDER BY channel")), "candidateChannelCounts": dict(connection.execute("SELECT channel, COUNT(*) FROM event_candidates GROUP BY channel ORDER BY channel")), "importedCandidateCount": candidate_count, "generatedAt": now_iso()}
         (ROOT / "data/runtime/event-store-summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(json.dumps(summary, ensure_ascii=False, indent=2))
         return 0

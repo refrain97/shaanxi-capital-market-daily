@@ -14,6 +14,7 @@ DATA_FILES = (
     "config/listed-business-taxonomy.json",
     "config/tender-sources.json",
     "data/annual/2026.json",
+    "data/backfill/coverage-2026.json",
     "data/listed/universe.json",
     "data/ma-projects/latest.json",
     "data/pre-ipo/latest.json",

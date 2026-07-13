@@ -20,14 +20,19 @@ def main() -> int:
         foreign_keys = connection.execute("PRAGMA foreign_key_check").fetchall()
         if foreign_keys:
             errors.append(f"foreign key violations: {len(foreign_keys)}")
-        counts = {table: connection.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in ("raw_snapshots", "entities", "sources", "events", "event_versions", "event_timeline")}
-        if counts["raw_snapshots"] < 5:
-            errors.append("all five source datasets must have immutable snapshots")
+        counts = {table: connection.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0] for table in ("raw_snapshots", "entities", "sources", "events", "event_versions", "event_timeline", "event_candidates")}
+        if counts["raw_snapshots"] < 7:
+            errors.append("current and backfill source datasets must have immutable snapshots")
         if counts["events"] < 100:
             errors.append("event migration is unexpectedly incomplete")
         missing_versions = connection.execute("SELECT COUNT(*) FROM events e LEFT JOIN event_versions v ON v.event_id=e.event_id WHERE v.event_id IS NULL").fetchone()[0]
         if missing_versions:
             errors.append(f"events without versions: {missing_versions}")
+        if counts["event_candidates"] < 2700:
+            errors.append("historical candidate migration is unexpectedly incomplete")
+        missing_candidate_sources = connection.execute("SELECT COUNT(*) FROM event_candidates c LEFT JOIN candidate_sources s ON s.candidate_id=c.candidate_id WHERE s.candidate_id IS NULL").fetchone()[0]
+        if missing_candidate_sources:
+            errors.append(f"candidates without sources: {missing_candidate_sources}")
         duplicate_keys = connection.execute("SELECT COUNT(*) FROM (SELECT event_key FROM events GROUP BY event_key HAVING COUNT(*) > 1)").fetchone()[0]
         if duplicate_keys:
             errors.append(f"duplicate event keys: {duplicate_keys}")

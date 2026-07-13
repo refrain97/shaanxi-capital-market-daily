@@ -14,7 +14,8 @@ if (universe.counts.L3 !== 18 || tierCount("L3") !== 18) errors.push("LST-UNI-00
 if (new Set(codes).size !== codes.length) errors.push("LST-UNI-005: security codes must be unique across tiers");
 if (universe.entities.some((item) => ["比亚迪", "海格通信"].includes(item.canonicalName))) errors.push("LST-UNI-006: excluded companies entered universe");
 if (universe.entities.filter((item) => item.universeTier === "L3" && item.inclusionReason === "持股大于10%").some((item) => !(item.relatedHoldingPct > 10))) errors.push("LST-UNI-007: holding-only L3 inclusion must be strictly above 10%");
-if (universe.retrievalCoverage.cninfoCompanyCount !== 85 || !universe.retrievalCoverage.note.includes("只覆盖L1")) errors.push("LST-UNI-008: retrieval coverage must remain distinct from complete universe");
+if (universe.retrievalCoverage.resolvedSubjectCount !== 117 || universe.entities.some((item) => !item.cninfoOrgId || !item.cninfoQueryCode)) errors.push("LST-UNI-008: all 117 subjects require resolved announcement identifiers");
+if (!universe.retrievalCoverage.note.includes("HKEX")) errors.push("LST-UNI-009: HKEX completeness review boundary must remain visible");
 
 if (errors.length) {
   console.error(`Listed universe validation failed (${errors.length})`);

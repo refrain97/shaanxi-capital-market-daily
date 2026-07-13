@@ -51,6 +51,10 @@ L3 = [
 
 
 def main() -> None:
+    existing_by_code: dict[str, dict[str, Any]] = {}
+    if OUTPUT.exists():
+        existing = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        existing_by_code = {item["securityCode"]: item for item in existing.get("entities", [])}
     l1_raw: list[dict[str, Any]] = json.loads(L1_PATH.read_text(encoding="utf-8"))
     l1 = [{
         "entityId": f"listed-{item['code']}-{item['market'].lower()}",
@@ -61,6 +65,7 @@ def main() -> None:
         "inclusionReason": "陕西辖区A股",
         "sourceAsOf": "2026-03-31",
         "cninfoOrgId": item["orgId"],
+        "cninfoQueryCode": item["code"],
     } for item in l1_raw]
     l2 = [{
         "entityId": f"listed-{code.lower().replace('.', '-')}",
@@ -72,6 +77,8 @@ def main() -> None:
         "officeAddress": address,
         "sourceAsOf": "2026-07-13",
         "sourceType": "Wind筛选+iFinD上市状态复核",
+        "cninfoOrgId": existing_by_code.get(code, {}).get("cninfoOrgId"),
+        "cninfoQueryCode": existing_by_code.get(code, {}).get("cninfoQueryCode"),
     } for code, name, reason, address in L2]
     l3 = [{
         "entityId": f"listed-{code.lower().replace('.', '-')}",
@@ -83,6 +90,8 @@ def main() -> None:
         "relatedHoldingPct": holding,
         "sourceAsOf": "2026-06-16",
         "sourceType": "西安关联上市公司线索池",
+        "cninfoOrgId": existing_by_code.get(code, {}).get("cninfoOrgId"),
+        "cninfoQueryCode": existing_by_code.get(code, {}).get("cninfoQueryCode"),
     } for code, name, reason, holding in L3]
     entities = l1 + l2 + l3
     codes = [item["securityCode"] for item in entities]
@@ -96,9 +105,10 @@ def main() -> None:
         "counts": {"total": len(entities), "L1": len(l1), "L2": len(l2), "L3": len(l3)},
         "retrievalCoverage": {
             "cninfoCompanyCount": len(l1),
-            "hkexCompanyCount": 0,
-            "l3CninfoCompanyCount": 0,
-            "note": "当前CNINFO日抓取仍只覆盖L1；L2和L3已进入跟踪池但尚未接入日公告适配器。"
+            "hkexCompanyCount": sum(bool(item.get("cninfoOrgId")) for item in l2),
+            "l3CninfoCompanyCount": sum(bool(item.get("cninfoOrgId")) for item in l3),
+            "resolvedSubjectCount": sum(bool(item.get("cninfoOrgId")) for item in entities),
+            "note": "117家主体均已解析巨潮证券主数据标识；港股公告仍需以HKEX披露易作最终完整性复核。"
         },
         "excluded": [
             {"canonicalName": "比亚迪", "reason": "用户明确排除"},
