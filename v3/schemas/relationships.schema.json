@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "relationships.schema.json",
+  "title": "V3 evidence relationship network",
+  "type": "object",
+  "required": ["schemaVersion", "asOf", "summary", "nodes", "edges"],
+  "properties": {
+    "schemaVersion": {"const": "0.1"},
+    "asOf": {"type": "string", "minLength": 10},
+    "summary": {"type": "object", "required": ["nodeCount", "edgeCount", "nodeTypeCounts", "relationTypeCounts"]},
+    "nodes": {"type": "array", "items": {"type": "object", "required": ["nodeId", "nodeType", "name"]}},
+    "edges": {"type": "array", "items": {"type": "object", "required": ["edgeId", "sourceNodeId", "targetNodeId", "relationType", "evidenceType"]}}
+  }
+}

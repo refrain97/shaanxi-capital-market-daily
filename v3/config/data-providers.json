@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "0.1",
+  "timezone": "Asia/Shanghai",
+  "providers": [
+    {
+      "id": "wind_codex",
+      "enabled": true,
+      "skillRoot": "~/.codex/skills/wind-mcp-skill",
+      "cli": "scripts/cli.mjs",
+      "roles": [
+        "listed_universe",
+        "hk_universe",
+        "equity_holders",
+        "company_basicinfo",
+        "financial_data"
+      ],
+      "preflight": {
+        "serverType": "stock_data",
+        "toolName": "get_stock_basicinfo",
+        "params": {
+          "question": "600519.SH公司基本档案"
+        }
+      }
+    },
+    {
+      "id": "ifind_codex",
+      "enabled": true,
+      "skillRoot": "~/.codex/skills/ifind-finance-data",
+      "entry": "call-node.js",
+      "roles": [
+        "cross_check",
+        "hk_universe",
+        "equity_holders",
+        "announcements",
+        "news_discovery"
+      ],
+      "preflight": {
+        "serverType": "stock",
+        "toolName": "get_stock_info",
+        "params": {
+          "query": "贵州茅台上市时间"
+        }
+      }
+    }
+  ],
+  "rules": {
+    "secretsAllowedInRepo": false,
+    "preflightRequiresRealCall": true,
+    "preflightPerSlot": true,
+    "silentProviderFallback": false,
+    "alternateRootsRequireIndependentPreflight": true,
+    "providerConflictRequiresReview": true,
+    "officialEvidenceHasFinalPriority": true
+  }
+}

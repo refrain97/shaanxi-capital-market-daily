@@ -1,0 +1,1230 @@
+{
+  "schemaVersion": "0.1",
+  "asOf": "2026-07-13",
+  "counts": {
+    "total": 117,
+    "L1": 85,
+    "L2": 14,
+    "L3": 18
+  },
+  "retrievalCoverage": {
+    "cninfoCompanyCount": 85,
+    "hkexCompanyCount": 0,
+    "l3CninfoCompanyCount": 0,
+    "note": "当前CNINFO日抓取仍只覆盖L1；L2和L3已进入跟踪池但尚未接入日公告适配器。"
+  },
+  "excluded": [
+    {
+      "canonicalName": "比亚迪",
+      "reason": "用户明确排除"
+    },
+    {
+      "canonicalName": "海格通信",
+      "reason": "用户明确排除"
+    }
+  ],
+  "entities": [
+    {
+      "entityId": "listed-000516-sz",
+      "canonicalName": "国际医学",
+      "securityCode": "000516.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssz0000516"
+    },
+    {
+      "entityId": "listed-000561-sz",
+      "canonicalName": "烽火电子",
+      "securityCode": "000561.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssz0000561"
+    },
+    {
+      "entityId": "listed-000563-sz",
+      "canonicalName": "陕国投A",
+      "securityCode": "000563.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssz0000563"
+    },
+    {
+      "entityId": "listed-000564-sz",
+      "canonicalName": "供销大集",
+      "securityCode": "000564.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssz0000564"
+    },
+    {
+      "entityId": "listed-000610-sz",
+      "canonicalName": "西安旅游",
+      "securityCode": "000610.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssz0000610"
+    },
+    {
+      "entityId": "listed-000697-sz",
+      "canonicalName": "ST炼石",
+      "securityCode": "000697.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssz0000697"
+    },
+    {
+      "entityId": "listed-000721-sz",
+      "canonicalName": "西安饮食",
+      "securityCode": "000721.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssz0000721"
+    },
+    {
+      "entityId": "listed-000768-sz",
+      "canonicalName": "中航西飞",
+      "securityCode": "000768.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssz0000768"
+    },
+    {
+      "entityId": "listed-000812-sz",
+      "canonicalName": "陕西金叶",
+      "securityCode": "000812.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssz0000812"
+    },
+    {
+      "entityId": "listed-000837-sz",
+      "canonicalName": "秦川机床",
+      "securityCode": "000837.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssz0000837"
+    },
+    {
+      "entityId": "listed-001231-sz",
+      "canonicalName": "农心科技",
+      "securityCode": "001231.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900047224"
+    },
+    {
+      "entityId": "listed-001286-sz",
+      "canonicalName": "陕西能源",
+      "securityCode": "001286.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900048369"
+    },
+    {
+      "entityId": "listed-001299-sz",
+      "canonicalName": "美能能源",
+      "securityCode": "001299.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0838794"
+    },
+    {
+      "entityId": "listed-002109-sz",
+      "canonicalName": "兴化股份",
+      "securityCode": "002109.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900002009"
+    },
+    {
+      "entityId": "listed-002149-sz",
+      "canonicalName": "西部材料",
+      "securityCode": "002149.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900003403"
+    },
+    {
+      "entityId": "listed-002267-sz",
+      "canonicalName": "陕天然气",
+      "securityCode": "002267.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900005096"
+    },
+    {
+      "entityId": "listed-002673-sz",
+      "canonicalName": "西部证券",
+      "securityCode": "002673.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "qsgn0000644"
+    },
+    {
+      "entityId": "listed-002799-sz",
+      "canonicalName": "环球印务",
+      "securityCode": "002799.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900023953"
+    },
+    {
+      "entityId": "listed-002864-sz",
+      "canonicalName": "盘龙药业",
+      "securityCode": "002864.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900034531"
+    },
+    {
+      "entityId": "listed-003009-sz",
+      "canonicalName": "中天火箭",
+      "securityCode": "003009.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900039724"
+    },
+    {
+      "entityId": "listed-300103-sz",
+      "canonicalName": "达刚控股",
+      "securityCode": "300103.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900012936"
+    },
+    {
+      "entityId": "listed-300140-sz",
+      "canonicalName": "节能环境",
+      "securityCode": "300140.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900015168"
+    },
+    {
+      "entityId": "listed-300164-sz",
+      "canonicalName": "通源石油",
+      "securityCode": "300164.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900016228"
+    },
+    {
+      "entityId": "listed-300397-sz",
+      "canonicalName": "天和防务",
+      "securityCode": "300397.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900022197"
+    },
+    {
+      "entityId": "listed-300487-sz",
+      "canonicalName": "蓝晓科技",
+      "securityCode": "300487.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900023808"
+    },
+    {
+      "entityId": "listed-300581-sz",
+      "canonicalName": "晨曦航空",
+      "securityCode": "300581.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900030082"
+    },
+    {
+      "entityId": "listed-300775-sz",
+      "canonicalName": "三角防务",
+      "securityCode": "300775.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0836582"
+    },
+    {
+      "entityId": "listed-300831-sz",
+      "canonicalName": "派瑞股份",
+      "securityCode": "300831.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900038312"
+    },
+    {
+      "entityId": "listed-300861-sz",
+      "canonicalName": "美畅股份",
+      "securityCode": "300861.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0872859"
+    },
+    {
+      "entityId": "listed-301031-sz",
+      "canonicalName": "中熔电气",
+      "securityCode": "301031.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0839450"
+    },
+    {
+      "entityId": "listed-301171-sz",
+      "canonicalName": "易点天下",
+      "securityCode": "301171.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900026920"
+    },
+    {
+      "entityId": "listed-301231-sz",
+      "canonicalName": "荣信文化",
+      "securityCode": "301231.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0833632"
+    },
+    {
+      "entityId": "listed-301306-sz",
+      "canonicalName": "西测测试",
+      "securityCode": "301306.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900052404"
+    },
+    {
+      "entityId": "listed-301357-sz",
+      "canonicalName": "北方长龙",
+      "securityCode": "301357.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900046528"
+    },
+    {
+      "entityId": "listed-301517-sz",
+      "canonicalName": "陕西华达",
+      "securityCode": "301517.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900023075"
+    },
+    {
+      "entityId": "listed-301589-sz",
+      "canonicalName": "诺瓦星云",
+      "securityCode": "301589.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900053191"
+    },
+    {
+      "entityId": "listed-302132-sz",
+      "canonicalName": "中航成飞",
+      "securityCode": "302132.SZ",
+      "market": "SZ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900013408"
+    },
+    {
+      "entityId": "listed-600080-sh",
+      "canonicalName": "金花股份",
+      "securityCode": "600080.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600080"
+    },
+    {
+      "entityId": "listed-600217-sh",
+      "canonicalName": "中再资环",
+      "securityCode": "600217.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600217"
+    },
+    {
+      "entityId": "listed-600248-sh",
+      "canonicalName": "陕建股份",
+      "securityCode": "600248.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600248"
+    },
+    {
+      "entityId": "listed-600302-sh",
+      "canonicalName": "标准股份",
+      "securityCode": "600302.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600302"
+    },
+    {
+      "entityId": "listed-600343-sh",
+      "canonicalName": "航天动力",
+      "securityCode": "600343.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600343"
+    },
+    {
+      "entityId": "listed-600379-sh",
+      "canonicalName": "宝光股份",
+      "securityCode": "600379.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600379"
+    },
+    {
+      "entityId": "listed-600455-sh",
+      "canonicalName": "博通股份",
+      "securityCode": "600455.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600455"
+    },
+    {
+      "entityId": "listed-600456-sh",
+      "canonicalName": "宝钛股份",
+      "securityCode": "600456.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600456"
+    },
+    {
+      "entityId": "listed-600665-sh",
+      "canonicalName": "天地源",
+      "securityCode": "600665.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600665"
+    },
+    {
+      "entityId": "listed-600706-sh",
+      "canonicalName": "曲江文旅",
+      "securityCode": "600706.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600706"
+    },
+    {
+      "entityId": "listed-600707-sh",
+      "canonicalName": "彩虹股份",
+      "securityCode": "600707.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600707"
+    },
+    {
+      "entityId": "listed-600831-sh",
+      "canonicalName": "广电网络",
+      "securityCode": "600831.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600831"
+    },
+    {
+      "entityId": "listed-600893-sh",
+      "canonicalName": "航发动力",
+      "securityCode": "600893.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600893"
+    },
+    {
+      "entityId": "listed-600928-sh",
+      "canonicalName": "西安银行",
+      "securityCode": "600928.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900027168"
+    },
+    {
+      "entityId": "listed-600984-sh",
+      "canonicalName": "建设机械",
+      "securityCode": "600984.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gssh0600984"
+    },
+    {
+      "entityId": "listed-601012-sh",
+      "canonicalName": "隆基绿能",
+      "securityCode": "601012.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900022338"
+    },
+    {
+      "entityId": "listed-601015-sh",
+      "canonicalName": "陕西黑猫",
+      "securityCode": "601015.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900022940"
+    },
+    {
+      "entityId": "listed-601179-sh",
+      "canonicalName": "中国西电",
+      "securityCode": "601179.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900010350"
+    },
+    {
+      "entityId": "listed-601225-sh",
+      "canonicalName": "陕西煤业",
+      "securityCode": "601225.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900023204"
+    },
+    {
+      "entityId": "listed-601369-sh",
+      "canonicalName": "陕鼓动力",
+      "securityCode": "601369.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900012093"
+    },
+    {
+      "entityId": "listed-601568-sh",
+      "canonicalName": "北元集团",
+      "securityCode": "601568.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900039743"
+    },
+    {
+      "entityId": "listed-601958-sh",
+      "canonicalName": "金钼股份",
+      "securityCode": "601958.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900004461"
+    },
+    {
+      "entityId": "listed-603139-sh",
+      "canonicalName": "康惠股份",
+      "securityCode": "603139.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900030778"
+    },
+    {
+      "entityId": "listed-603402-sh",
+      "canonicalName": "陕西旅游",
+      "securityCode": "603402.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0870432"
+    },
+    {
+      "entityId": "listed-605033-sh",
+      "canonicalName": "美邦股份",
+      "securityCode": "605033.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900047435"
+    },
+    {
+      "entityId": "listed-605168-sh",
+      "canonicalName": "三人行",
+      "securityCode": "605168.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0832288"
+    },
+    {
+      "entityId": "listed-688101-sh",
+      "canonicalName": "三达膜",
+      "securityCode": "688101.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900026794"
+    },
+    {
+      "entityId": "listed-688102-sh",
+      "canonicalName": "斯瑞新材",
+      "securityCode": "688102.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900041727"
+    },
+    {
+      "entityId": "listed-688122-sh",
+      "canonicalName": "西部超导",
+      "securityCode": "688122.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900026771"
+    },
+    {
+      "entityId": "listed-688150-sh",
+      "canonicalName": "莱特光电",
+      "securityCode": "688150.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0835249"
+    },
+    {
+      "entityId": "listed-688167-sh",
+      "canonicalName": "炬光科技",
+      "securityCode": "688167.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0835243"
+    },
+    {
+      "entityId": "listed-688269-sh",
+      "canonicalName": "凯立新材",
+      "securityCode": "688269.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0834893"
+    },
+    {
+      "entityId": "listed-688281-sh",
+      "canonicalName": "华秦科技",
+      "securityCode": "688281.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900051575"
+    },
+    {
+      "entityId": "listed-688285-sh",
+      "canonicalName": "高铁电气",
+      "securityCode": "688285.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0873023"
+    },
+    {
+      "entityId": "listed-688314-sh",
+      "canonicalName": "康拓医疗",
+      "securityCode": "688314.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900044536"
+    },
+    {
+      "entityId": "listed-688333-sh",
+      "canonicalName": "铂力特",
+      "securityCode": "688333.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900039046"
+    },
+    {
+      "entityId": "listed-688334-sh",
+      "canonicalName": "西高院",
+      "securityCode": "688334.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900056273"
+    },
+    {
+      "entityId": "listed-688498-sh",
+      "canonicalName": "源杰科技",
+      "securityCode": "688498.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900052124"
+    },
+    {
+      "entityId": "listed-688550-sh",
+      "canonicalName": "瑞联新材",
+      "securityCode": "688550.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0835406"
+    },
+    {
+      "entityId": "listed-688719-sh",
+      "canonicalName": "爱科赛博",
+      "securityCode": "688719.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900031471"
+    },
+    {
+      "entityId": "listed-688783-sh",
+      "canonicalName": "西安奕材-U",
+      "securityCode": "688783.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900061680"
+    },
+    {
+      "entityId": "listed-688813-sh",
+      "canonicalName": "泰金新能",
+      "securityCode": "688813.SH",
+      "market": "SH",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900061070"
+    },
+    {
+      "entityId": "listed-920098-bj",
+      "canonicalName": "科隆新材",
+      "securityCode": "920098.BJ",
+      "market": "BJ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0834351"
+    },
+    {
+      "entityId": "listed-920519-bj",
+      "canonicalName": "万德股份",
+      "securityCode": "920519.BJ",
+      "market": "BJ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0836419"
+    },
+    {
+      "entityId": "listed-920564-bj",
+      "canonicalName": "天润科技",
+      "securityCode": "920564.BJ",
+      "market": "BJ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0430564"
+    },
+    {
+      "entityId": "listed-920576-bj",
+      "canonicalName": "天力复合",
+      "securityCode": "920576.BJ",
+      "market": "BJ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0873576"
+    },
+    {
+      "entityId": "listed-920599-bj",
+      "canonicalName": "同力股份",
+      "securityCode": "920599.BJ",
+      "market": "BJ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "9900021933"
+    },
+    {
+      "entityId": "listed-920640-bj",
+      "canonicalName": "富士达",
+      "securityCode": "920640.BJ",
+      "market": "BJ",
+      "universeTier": "L1",
+      "inclusionReason": "陕西辖区A股",
+      "sourceAsOf": "2026-03-31",
+      "cninfoOrgId": "gfbj0835640"
+    },
+    {
+      "entityId": "listed-0438-hk",
+      "canonicalName": "彩虹新能源",
+      "securityCode": "0438.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "陕西办公地",
+      "officeAddress": "陕西省咸阳市高新技术产业开发区星火大道3号C6",
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-2335-hk",
+      "canonicalName": "麦科医药-B",
+      "securityCode": "2335.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "陕西办公地",
+      "officeAddress": "陕西省西安市长安区协同创新港6号楼",
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-2418-hk",
+      "canonicalName": "德银天下",
+      "securityCode": "2418.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "陕西办公地",
+      "officeAddress": "陕西省西安市经济技术开发区泾渭新城西金路西段29号",
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-1354-hk",
+      "canonicalName": "经发物业",
+      "securityCode": "1354.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "陕西办公地",
+      "officeAddress": "陕西省西安市经济技术开发区凤城二路51号",
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-8227-hk",
+      "canonicalName": "海天天线",
+      "securityCode": "8227.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "陕西办公地",
+      "officeAddress": "陕西省西安市高新技术产业开发区硕士路25号",
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-2233-hk",
+      "canonicalName": "西部水泥",
+      "securityCode": "2233.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "陕西办公地",
+      "officeAddress": "陕西省西安市长安区航天基地神舟四路336号",
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-6162-hk",
+      "canonicalName": "天瑞汽车内饰",
+      "securityCode": "6162.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "陕西办公地",
+      "officeAddress": "陕西省西安市经济技术开发区泾渭新城渭华路北段6号",
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-1771-hk",
+      "canonicalName": "新丰泰集团",
+      "securityCode": "1771.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "陕西办公地",
+      "officeAddress": "陕西省西安市浐灞生态区北辰大道欧亚一路1555号",
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-8631-hk",
+      "canonicalName": "申港控股",
+      "securityCode": "8631.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "陕西办公地",
+      "officeAddress": "陕西省西安市灞桥区长乐东路华夏世纪广场A座2301室",
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-2367-hk",
+      "canonicalName": "巨子生物",
+      "securityCode": "2367.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "陕西办公地",
+      "officeAddress": "陕西省西安市长安区上林苑七路1855号",
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-0162-hk",
+      "canonicalName": "世纪金花",
+      "securityCode": "0162.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "主要业务在陕西",
+      "officeAddress": null,
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-0620-hk",
+      "canonicalName": "大唐西市",
+      "securityCode": "0620.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "主要业务在陕西",
+      "officeAddress": null,
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-0346-hk",
+      "canonicalName": "延长石油国际",
+      "securityCode": "0346.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "主要业务在陕西",
+      "officeAddress": null,
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-0997-hk",
+      "canonicalName": "普汇中金国际",
+      "securityCode": "0997.HK",
+      "market": "HK",
+      "universeTier": "L2",
+      "inclusionReason": "主要业务在陕西",
+      "officeAddress": null,
+      "sourceAsOf": "2026-07-13",
+      "sourceType": "Wind筛选+iFinD上市状态复核"
+    },
+    {
+      "entityId": "listed-002185-sz",
+      "canonicalName": "华天科技",
+      "securityCode": "002185.SZ",
+      "market": "SZ",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-600089-sh",
+      "canonicalName": "特变电工",
+      "securityCode": "600089.SH",
+      "market": "SH",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-600212-sh",
+      "canonicalName": "绿能慧充",
+      "securityCode": "600212.SH",
+      "market": "SH",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-600184-sh",
+      "canonicalName": "光电股份",
+      "securityCode": "600184.SH",
+      "market": "SH",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-002140-sz",
+      "canonicalName": "东华科技",
+      "securityCode": "002140.SZ",
+      "market": "SZ",
+      "universeTier": "L3",
+      "inclusionReason": "强且持股大于10%",
+      "relatedHoldingPct": 20.79,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-002246-sz",
+      "canonicalName": "北化股份",
+      "securityCode": "002246.SZ",
+      "market": "SZ",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-603650-sh",
+      "canonicalName": "彤程新材",
+      "securityCode": "603650.SH",
+      "market": "SH",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-300527-sz",
+      "canonicalName": "ST应急",
+      "securityCode": "300527.SZ",
+      "market": "SZ",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-600879-sh",
+      "canonicalName": "航天电子",
+      "securityCode": "600879.SH",
+      "market": "SH",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-000737-sz",
+      "canonicalName": "北方铜业",
+      "securityCode": "000737.SZ",
+      "market": "SZ",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-600771-sh",
+      "canonicalName": "广誉远",
+      "securityCode": "600771.SH",
+      "market": "SH",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-300110-sz",
+      "canonicalName": "华仁药业",
+      "securityCode": "300110.SZ",
+      "market": "SZ",
+      "universeTier": "L3",
+      "inclusionReason": "强且持股大于10%",
+      "relatedHoldingPct": 20.0,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-000659-sz",
+      "canonicalName": "珠海中富",
+      "securityCode": "000659.SZ",
+      "market": "SZ",
+      "universeTier": "L3",
+      "inclusionReason": "强且持股大于10%",
+      "relatedHoldingPct": 15.71,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-002022-sz",
+      "canonicalName": "科华生物",
+      "securityCode": "002022.SZ",
+      "market": "SZ",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-301586-sz",
+      "canonicalName": "佳力奇",
+      "securityCode": "301586.SZ",
+      "market": "SZ",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-688750-sh",
+      "canonicalName": "金天钛业",
+      "securityCode": "688750.SH",
+      "market": "SH",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-300739-sz",
+      "canonicalName": "明阳电路",
+      "securityCode": "300739.SZ",
+      "market": "SZ",
+      "universeTier": "L3",
+      "inclusionReason": "强",
+      "relatedHoldingPct": null,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    },
+    {
+      "entityId": "listed-603226-sh",
+      "canonicalName": "菲林格尔",
+      "securityCode": "603226.SH",
+      "market": "SH",
+      "universeTier": "L3",
+      "inclusionReason": "持股大于10%",
+      "relatedHoldingPct": 14.0,
+      "sourceAsOf": "2026-06-16",
+      "sourceType": "西安关联上市公司线索池"
+    }
+  ]
+}

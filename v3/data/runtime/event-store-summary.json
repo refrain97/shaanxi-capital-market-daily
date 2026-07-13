@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1",
+  "runId": "event-store-20260713T033654Z",
+  "status": "PASS",
+  "database": "data/runtime/event-store.sqlite3",
+  "counts": {
+    "raw_snapshots": 5,
+    "entities": 116,
+    "sources": 110,
+    "events": 198,
+    "event_versions": 198,
+    "event_timeline": 238
+  },
+  "channelCounts": {
+    "equity_financing": 3,
+    "listed": 10,
+    "ma": 27,
+    "pre_ipo": 85,
+    "private_fund": 3,
+    "soe": 1,
+    "tender": 69
+  },
+  "generatedAt": "2026-07-13T03:36:54.369891+00:00"
+}

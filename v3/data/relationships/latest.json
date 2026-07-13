@@ -1,0 +1,3290 @@
+{
+  "schemaVersion": "0.1",
+  "asOf": "2026-07-12T11:00:00+08:00",
+  "summary": {
+    "nodeCount": 266,
+    "edgeCount": 128,
+    "nodeTypeCounts": {
+      "custodian": 1,
+      "event": 18,
+      "investor": 2,
+      "listed_company": 10,
+      "ma_project": 25,
+      "person": 50,
+      "preipo_enterprise": 81,
+      "private_manager": 22,
+      "private_product": 1,
+      "shareholder": 53,
+      "soe_group": 3
+    },
+    "relationTypeCounts": {
+      "custodied_by": 1,
+      "executive": 50,
+      "has_event": 18,
+      "invested_in": 2,
+      "linked_ma_project": 3,
+      "manages": 1,
+      "shareholder_of": 53
+    }
+  },
+  "nodes": [
+    {
+      "nodeId": "custodian-a5bb3d4ca575a0",
+      "nodeType": "custodian",
+      "name": "中信证券股份有限公司",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "evt-20260709-kanghui-related-project",
+      "nodeType": "event",
+      "name": "康惠股份子公司拟承接5,059.92万元关联项目",
+      "status": "action_window",
+      "channel": "listed",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260710-machinery-meeting",
+      "nodeType": "event",
+      "name": "建设机械临时股东会将审议核销与薪酬事项",
+      "status": "action_window",
+      "channel": "listed",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260707-rainbow-ma",
+      "nodeType": "event",
+      "name": "彩虹股份拟收购虹阳显示33.4204%少数股权",
+      "status": "action_window",
+      "channel": "ma",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260709-rainbow-forecast",
+      "nodeType": "event",
+      "name": "彩虹股份预计上半年归母净利润同比下降75.66%-78.76%",
+      "status": "risk",
+      "channel": "listed",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260709-aikosai-inquiry",
+      "nodeType": "event",
+      "name": "爱科赛博年报问询回复披露亏损与内控整改",
+      "status": "risk",
+      "channel": "listed",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260710-panlong-catalogue",
+      "nodeType": "event",
+      "name": "盘龙药业两项产品进入国家基本药物目录",
+      "status": "watch",
+      "channel": "listed",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260708-luge-product",
+      "nodeType": "event",
+      "name": "禄格永兴2号完成私募证券基金备案",
+      "status": "active",
+      "channel": "private_fund",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260709-meichang-forecast",
+      "nodeType": "event",
+      "name": "美畅股份预计上半年归母净利同比增长248%-272%",
+      "status": "watch",
+      "channel": "listed",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260302-jiatai-cancel",
+      "nodeType": "event",
+      "name": "西安嘉泰基金管理有限公司主动注销",
+      "status": "completed",
+      "channel": "private_fund",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260710-bank-litigation",
+      "nodeType": "event",
+      "name": "西安银行7.3亿元借款纠纷进入执行受理",
+      "status": "progressing",
+      "channel": "listed",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260710-bank-director",
+      "nodeType": "event",
+      "name": "西安银行董事侯博任职资格获监管核准",
+      "status": "progressing",
+      "channel": "listed",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260710-energy-reduction",
+      "nodeType": "event",
+      "name": "长安汇通拟减持陕西能源不超过2%股份",
+      "status": "action_window",
+      "channel": "listed",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260709-shaanxi-construction-dividend",
+      "nodeType": "event",
+      "name": "陕建股份实施2025年度现金分红",
+      "status": "action_window",
+      "channel": "listed",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260709-water-vpp",
+      "nodeType": "event",
+      "name": "陕西水务发展签约略阳城市级虚拟电厂项目",
+      "status": "watch",
+      "channel": "soe",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260617-social-fund",
+      "nodeType": "event",
+      "name": "陕西社保科创基金在西安签约",
+      "status": "watch",
+      "channel": "equity_financing",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260121-jinzi-tender",
+      "nodeType": "event",
+      "name": "陕西金资基金科创债主承销商项目已完成招标",
+      "status": "completed",
+      "channel": "tender",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260611-maikeaote-hearing",
+      "nodeType": "event",
+      "name": "陕西麦科奥特完成港交所主板上市",
+      "status": "completed",
+      "channel": "equity_financing",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "evt-20260627-shaangu-ma",
+      "nodeType": "event",
+      "name": "陕鼓动力筹划收购秦风气体36.06%少数股权",
+      "status": "progressing",
+      "channel": "ma",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "investor-29d5f1f2288240",
+      "nodeType": "investor",
+      "name": "西安高新金融控股集团",
+      "sourceScope": "official_investor"
+    },
+    {
+      "nodeId": "investor-9a258004e3757f",
+      "nodeType": "investor",
+      "name": "陕西省科创母基金直投份额",
+      "sourceScope": "official_investor"
+    },
+    {
+      "nodeId": "ent-kanghui",
+      "nodeType": "listed_company",
+      "name": "康惠股份",
+      "region": "陕西",
+      "securityCode": "603139.SH",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "ent-construction-machinery",
+      "nodeType": "listed_company",
+      "name": "建设机械",
+      "region": "陕西",
+      "securityCode": "600984.SH",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "ent-rainbow",
+      "nodeType": "listed_company",
+      "name": "彩虹股份",
+      "region": "陕西",
+      "securityCode": "600707.SH",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "ent-aikosai",
+      "nodeType": "listed_company",
+      "name": "爱科赛博",
+      "region": "陕西",
+      "securityCode": "688719.SH",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "ent-panlong",
+      "nodeType": "listed_company",
+      "name": "盘龙药业",
+      "region": "陕西",
+      "securityCode": "002864.SZ",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "ent-meichang",
+      "nodeType": "listed_company",
+      "name": "美畅股份",
+      "region": "陕西",
+      "securityCode": "300861.SZ",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "ent-xian-bank",
+      "nodeType": "listed_company",
+      "name": "西安银行",
+      "region": "陕西",
+      "securityCode": "600928.SH",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "ent-shaanxi-construction",
+      "nodeType": "listed_company",
+      "name": "陕建股份",
+      "region": "陕西",
+      "securityCode": "600248.SH",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "ent-shaanxi-energy",
+      "nodeType": "listed_company",
+      "name": "陕西能源",
+      "region": "陕西",
+      "securityCode": "001286.SZ",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "ent-shaangu",
+      "nodeType": "listed_company",
+      "name": "陕鼓动力",
+      "region": "陕西",
+      "securityCode": "601369.SH",
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "ma-3df45d2a93e2c022",
+      "nodeType": "ma_project",
+      "name": "世纪金花出售西安亿鑫物业100%股权",
+      "stage": "in_progress",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-40f1fe5672e1af96",
+      "nodeType": "ma_project",
+      "name": "京投发展筹划收购西安奇芯光电股权",
+      "stage": "planning",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-28acc60627a1958e",
+      "nodeType": "ma_project",
+      "name": "供销大集收购国投农产品60%股权",
+      "stage": "completed",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-08946af858afaff1",
+      "nodeType": "ma_project",
+      "name": "北方长龙收购顺义科技51%股权",
+      "stage": "signed_or_approved",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-087d7b42a43da903",
+      "nodeType": "ma_project",
+      "name": "华天科技收购华羿微电100%股份",
+      "stage": "in_progress",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-e5d61ffd5a2aa72f",
+      "nodeType": "ma_project",
+      "name": "大唐黄金收购宁陕两家项目公司",
+      "stage": "signed_or_approved",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-50e68cae8cfcd070",
+      "nodeType": "ma_project",
+      "name": "天地源挂牌转让深宝水电51%股权",
+      "stage": "in_progress",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-b742611082c3d76b",
+      "nodeType": "ma_project",
+      "name": "天地源筹划出售房地产开发资产及负债",
+      "stage": "planning",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-rainbow-hongyang-minority-2026",
+      "nodeType": "ma_project",
+      "name": "彩虹股份拟收购虹阳显示33.4204%少数股权",
+      "stage": "signed_or_approved",
+      "sourceStatus": "official",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-83a64ad6de4fa755",
+      "nodeType": "ma_project",
+      "name": "恒天海龙拟收购群健航空不少于40%股权",
+      "stage": "planning",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-9d3063c2c32f9b55",
+      "nodeType": "ma_project",
+      "name": "招商局置地体系内收购西安项目公司",
+      "stage": "signed_or_approved",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-cef51041540e02c8",
+      "nodeType": "ma_project",
+      "name": "汉朔科技控股西安超嗨网络",
+      "stage": "completed",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-dd6b657107378ce4",
+      "nodeType": "ma_project",
+      "name": "炼石航空收购并增资成都天科航空",
+      "stage": "signed_or_approved",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-9e1bf53772f2b2e4",
+      "nodeType": "ma_project",
+      "name": "紫光国芯完成15%股份协议转让",
+      "stage": "completed",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-1809b8def9c6e061",
+      "nodeType": "ma_project",
+      "name": "美能能源拟收购上海立成90%股权",
+      "stage": "signed_or_approved",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-f8ebe0b467f22d7c",
+      "nodeType": "ma_project",
+      "name": "节能铁汉拟收购西安启源装备控股权",
+      "stage": "planning",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-94e7858014bd72be",
+      "nodeType": "ma_project",
+      "name": "西安招商花园城引入深圳海越锦",
+      "stage": "in_progress",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-629b484005035fba",
+      "nodeType": "ma_project",
+      "name": "西安旅游转让红土创新等参股股权",
+      "stage": "completed",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-eda69557ead20559",
+      "nodeType": "ma_project",
+      "name": "金利华电拟收购中科西光82.50%股权",
+      "stage": "signed_or_approved",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-d2c8431a2cb30745",
+      "nodeType": "ma_project",
+      "name": "金钼股份收购金沙钼业24%股权",
+      "stage": "completed",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-09269b9b645db39a",
+      "nodeType": "ma_project",
+      "name": "陕西华达终止收购华经微电子",
+      "stage": "terminated",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-0499bc3e8c10df13",
+      "nodeType": "ma_project",
+      "name": "陕鼓动力收购秦风气体36.06%股权",
+      "stage": "signed_or_approved",
+      "sourceStatus": "official",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-fbfca3462a01f40d",
+      "nodeType": "ma_project",
+      "name": "顶固集创收购西安思丹德51.5488%股权",
+      "stage": "signed_or_approved",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-fdb76cacc4b040cb",
+      "nodeType": "ma_project",
+      "name": "飞亚达拟收购陕西长空齿轮100%股权",
+      "stage": "signed_or_approved",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "ma-7c72291683eda655",
+      "nodeType": "ma_project",
+      "name": "飞沃科技拟收购西安创航60%股权",
+      "stage": "signed_or_approved",
+      "sourceStatus": "needs_source_backfill",
+      "sourceScope": "ma_project"
+    },
+    {
+      "nodeId": "person-c10e37c9a7f67f",
+      "nodeType": "person",
+      "name": "任路",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-fae31b59fbe7f5",
+      "nodeType": "person",
+      "name": "余岩",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-722deaa42d9404",
+      "nodeType": "person",
+      "name": "侯洋",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-c5389631b314c4",
+      "nodeType": "person",
+      "name": "元向煌",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-e0a3c39a7408a9",
+      "nodeType": "person",
+      "name": "冯天磊",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-e24576e364b3d9",
+      "nodeType": "person",
+      "name": "冯泽昕",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-a51dc14b9be3b0",
+      "nodeType": "person",
+      "name": "刘建武",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-bcab7c0cd7f343",
+      "nodeType": "person",
+      "name": "刘瑞",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-895805828fb44e",
+      "nodeType": "person",
+      "name": "刘皙",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-88820db9ad91da",
+      "nodeType": "person",
+      "name": "刘腾腾",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-37d2b8fa6d2629",
+      "nodeType": "person",
+      "name": "吴竹林",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-f31f3731c8d168",
+      "nodeType": "person",
+      "name": "唐敏子",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-017b35ef4ec944",
+      "nodeType": "person",
+      "name": "屈科成",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-e611ce99bbd7f3",
+      "nodeType": "person",
+      "name": "岳洁东",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-9789f4b0c86bca",
+      "nodeType": "person",
+      "name": "张学义",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-f822da15e5ff57",
+      "nodeType": "person",
+      "name": "张戈",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-f5648469199616",
+      "nodeType": "person",
+      "name": "张曌",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-b6f8dd82557d33",
+      "nodeType": "person",
+      "name": "张涛",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-6b694f0a80ec75",
+      "nodeType": "person",
+      "name": "张蕊",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-191fab1851b4d2",
+      "nodeType": "person",
+      "name": "徐志友",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-c83cfbae7361b4",
+      "nodeType": "person",
+      "name": "曹宇",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-b4bc8e46fac409",
+      "nodeType": "person",
+      "name": "曹琳",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-5c9fa370104d00",
+      "nodeType": "person",
+      "name": "李宝",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-707efe683394b2",
+      "nodeType": "person",
+      "name": "李正",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-99e11c50492a34",
+      "nodeType": "person",
+      "name": "林楠",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-d67f2093c2a0ff",
+      "nodeType": "person",
+      "name": "梁滨",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-a41626c6d7c1ab",
+      "nodeType": "person",
+      "name": "樊磊",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-7dd83f4f833e32",
+      "nodeType": "person",
+      "name": "江曼",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-71b877272c2c13",
+      "nodeType": "person",
+      "name": "王佳仪",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-e87f057432b8ce",
+      "nodeType": "person",
+      "name": "王刚",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-fcc08c54a3186d",
+      "nodeType": "person",
+      "name": "王国林",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-feb4c60bc8f4e1",
+      "nodeType": "person",
+      "name": "王峰",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-abb7851a90bdfe",
+      "nodeType": "person",
+      "name": "王志文",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-9de746c55a01d6",
+      "nodeType": "person",
+      "name": "王拓",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-d4a4cf5e4ac2cc",
+      "nodeType": "person",
+      "name": "王睿",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-251927b0e79598",
+      "nodeType": "person",
+      "name": "王震海",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-2d826bd72d5907",
+      "nodeType": "person",
+      "name": "耿爱强",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-f03b81479be6fb",
+      "nodeType": "person",
+      "name": "胡政一",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-3d7a13e1f59c8b",
+      "nodeType": "person",
+      "name": "胡瀚月",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-d00e2c7c4767eb",
+      "nodeType": "person",
+      "name": "蔡晶磊",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-354baef556999c",
+      "nodeType": "person",
+      "name": "赵彤彤",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-697ee9b8017fd2",
+      "nodeType": "person",
+      "name": "赵江",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-e46928aa1dedbc",
+      "nodeType": "person",
+      "name": "迟东东",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-cd277bafa1ccb5",
+      "nodeType": "person",
+      "name": "迟珍珍",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-2b3eae5c9b1525",
+      "nodeType": "person",
+      "name": "郝若淇",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-9400ec91a00685",
+      "nodeType": "person",
+      "name": "阎娟娟",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-cf811c06262783",
+      "nodeType": "person",
+      "name": "韦轲",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-206ddd966d31c2",
+      "nodeType": "person",
+      "name": "韩愿望",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-15f947bad242fa",
+      "nodeType": "person",
+      "name": "韩瑞杰",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "person-d29e10f57de04b",
+      "nodeType": "person",
+      "name": "黄应栋",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "preipo-671f6f82dd992af0",
+      "nodeType": "preipo_enterprise",
+      "name": "博瑞集信（西安）电子科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-dac1fffc9385af12",
+      "nodeType": "preipo_enterprise",
+      "name": "宝鸡宝钛装备科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-db264f49ced449a3",
+      "nodeType": "preipo_enterprise",
+      "name": "宝鸡西工钛科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-91d4ae664729e7c6",
+      "nodeType": "preipo_enterprise",
+      "name": "宝鸡赛孚石油机械股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-18a43392284c2e21",
+      "nodeType": "preipo_enterprise",
+      "name": "思安新能源股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-9e0d4868bd9eda38",
+      "nodeType": "preipo_enterprise",
+      "name": "拓尔微电子股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-d7a9afd3d55282d8",
+      "nodeType": "preipo_enterprise",
+      "name": "旬阳领盛新材料科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-e7704fe1c23e5b09",
+      "nodeType": "preipo_enterprise",
+      "name": "永辉彩食鲜股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-bd4fcc67af5802b3",
+      "nodeType": "preipo_enterprise",
+      "name": "渭南木王智能科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-c66b0d7e5819eb72",
+      "nodeType": "preipo_enterprise",
+      "name": "维度（西安）生物医疗科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-cd2c4da31140c62d",
+      "nodeType": "preipo_enterprise",
+      "name": "芯派科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-bcfe1d94ef38c414",
+      "nodeType": "preipo_enterprise",
+      "name": "西北铁道电子股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-b81319bc990e086f",
+      "nodeType": "preipo_enterprise",
+      "name": "西安东风机电股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-5863e38362cf4a9e",
+      "nodeType": "preipo_enterprise",
+      "name": "西安中核核仪器股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-564592ab81296fac",
+      "nodeType": "preipo_enterprise",
+      "name": "西安中科微精光子科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-00ad6bf6ff0cfe4e",
+      "nodeType": "preipo_enterprise",
+      "name": "西安中科立德红外科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-e91d531d76905418",
+      "nodeType": "preipo_enterprise",
+      "name": "西安中科西光航天科技集团有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-3303f38d4ccb1fa7",
+      "nodeType": "preipo_enterprise",
+      "name": "西安兴航航空科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-9e53e54dafaba02d",
+      "nodeType": "preipo_enterprise",
+      "name": "西安吉利电子新材料股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-6987134ff9060824",
+      "nodeType": "preipo_enterprise",
+      "name": "西安和其光电科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-f8e8cb01a61112d2",
+      "nodeType": "preipo_enterprise",
+      "name": "西安唐晶量子科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-8959e76bb3df774c",
+      "nodeType": "preipo_enterprise",
+      "name": "西安因诺航空科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-a9125cd3d190f7c9",
+      "nodeType": "preipo_enterprise",
+      "name": "西安大医集团股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-d3cbb782a24fb253",
+      "nodeType": "preipo_enterprise",
+      "name": "西安奇点能源股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-c7a81c31d59523ba",
+      "nodeType": "preipo_enterprise",
+      "name": "西安奇芯光电科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-7631869a460f8479",
+      "nodeType": "preipo_enterprise",
+      "name": "西安安森智能仪器股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-b2e99714ef64df8f",
+      "nodeType": "preipo_enterprise",
+      "name": "西安宏星电子浆料科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-ef005e1a5d6e25f5",
+      "nodeType": "preipo_enterprise",
+      "name": "西安思摩威新材料有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-5a54c205ed05d7ac",
+      "nodeType": "preipo_enterprise",
+      "name": "西安新通药物研究股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-2284609c5110d83e",
+      "nodeType": "preipo_enterprise",
+      "name": "西安晟昕科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-f884cf851b6d4d76",
+      "nodeType": "preipo_enterprise",
+      "name": "西安智多晶科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-174036ec67494af2",
+      "nodeType": "preipo_enterprise",
+      "name": "西安欣创电子技术有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-cd1933800c73d397",
+      "nodeType": "preipo_enterprise",
+      "name": "西安欧中材料科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-cae71a7074217116",
+      "nodeType": "preipo_enterprise",
+      "name": "西安汉唐分析检测有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-22ceda6987d99819",
+      "nodeType": "preipo_enterprise",
+      "name": "西安洛科电子科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-e98bd2a7612f6a34",
+      "nodeType": "preipo_enterprise",
+      "name": "西安爱德华测量设备股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-9734c94ff9c22c08",
+      "nodeType": "preipo_enterprise",
+      "name": "西安爱生技术集团有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-d3e8971a8580d093",
+      "nodeType": "preipo_enterprise",
+      "name": "西安知象光电科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-db1d93642afb0409",
+      "nodeType": "preipo_enterprise",
+      "name": "西安秦泰汽车排放技术有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-715057afabd0d7e7",
+      "nodeType": "preipo_enterprise",
+      "name": "西安紫光国芯半导体股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-39220e7008734e4a",
+      "nodeType": "preipo_enterprise",
+      "name": "西安羚控电子科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-ea0d2a2ab3d620ab",
+      "nodeType": "preipo_enterprise",
+      "name": "西安翔腾微电子科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-713b16c935560498",
+      "nodeType": "preipo_enterprise",
+      "name": "西安聚能超导磁体科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-24220d833eba5450",
+      "nodeType": "preipo_enterprise",
+      "name": "西安航天民芯科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-f3e4bd87b002d369",
+      "nodeType": "preipo_enterprise",
+      "name": "西安艾力特电子股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-2deeffdbf33e1321",
+      "nodeType": "preipo_enterprise",
+      "name": "西安蓝深新材料科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-7902637fc8856484",
+      "nodeType": "preipo_enterprise",
+      "name": "西安西部新锆科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-85d7154b8b898b30",
+      "nodeType": "preipo_enterprise",
+      "name": "西安赛富乐斯半导体科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-3548723db569966b",
+      "nodeType": "preipo_enterprise",
+      "name": "西安赛隆增材技术股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-1a527718b796454c",
+      "nodeType": "preipo_enterprise",
+      "name": "西安超晶科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-7c212a37efe8ce82",
+      "nodeType": "preipo_enterprise",
+      "name": "西安鑫垚陶瓷复合材料股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-eda4e70e84a36d8c",
+      "nodeType": "preipo_enterprise",
+      "name": "西安钢研功能材料股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-f55b871f961a8426",
+      "nodeType": "preipo_enterprise",
+      "name": "西安青松光电技术有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-e4785e82bb0be7cf",
+      "nodeType": "preipo_enterprise",
+      "name": "西部宝德科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-c4ceb139ff4a32ea",
+      "nodeType": "preipo_enterprise",
+      "name": "质子汽车科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-eeb1d050260e4bb9",
+      "nodeType": "preipo_enterprise",
+      "name": "赛尔通信服务技术股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-bc2205f036323aac",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西中科启航科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-b12542b616942864",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西亚成微电子股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-8509a9df97be267e",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西交控科技发展集团股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-03c9c9e517aaeb04",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西佰傲再生医学有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-8ee3a0600808ff35",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西信泰航空技术股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-1e9beea3ec83b79e",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西卫峰核电子有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-99ca171950fdc5bd",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西嘉禾生物科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-f7d7a1873feece00",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西天回航天技术有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-c06208fcd231ed41",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西天成航空材料股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-6b2bc47221d7f662",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西太合智能钻探有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-dfb75740b3627f2b",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西星邑空间技术有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-a4a1228165bf8807",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西智拓固相增材制造技术有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-d1b12c8cb65db386",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西欣晟绿能新材料有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-821ee770a95c591b",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西欧卡电子智能科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-f79824d4b0764f6b",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西瑞科新材料股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-961cfe4d9b2f0074",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西石羊农业科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-0d865e92ee3e56af",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西聚泰新材料科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-5bc503fa10f8c014",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西诺贝特自动化科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-bac8bf38fcf19dcd",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西迪泰克新材料有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-9dbabf5299b69676",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西量维生物工程有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-f485394ab25dc025",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西驭腾能源环保科技股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "ent-maikeaote",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西麦科奥特医药科技股份有限公司",
+      "region": "陕西",
+      "securityCode": "02335.HK",
+      "sourceScope": "preipo",
+      "reserveTier": "graduated",
+      "listingStage": "listed_hk"
+    },
+    {
+      "nodeId": "preipo-026708b81345c1b6",
+      "nodeType": "preipo_enterprise",
+      "name": "陕西鼎益科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-5a1390468bc44a40",
+      "nodeType": "preipo_enterprise",
+      "name": "领充新能源科技有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "preipo-e977127f8b49f239",
+      "nodeType": "preipo_enterprise",
+      "name": "龙腾半导体股份有限公司",
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "securityCode": null,
+      "sourceScope": "preipo"
+    },
+    {
+      "nodeId": "1903261107103383",
+      "nodeType": "private_manager",
+      "name": "五牛（海南）私募基金管理合伙企业（有限合伙）",
+      "registerNo": "P1069852",
+      "rank": 18,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "2107141320103302",
+      "nodeType": "private_manager",
+      "name": "共青城瀛岳私募基金管理有限公司",
+      "registerNo": "P1072644",
+      "rank": 14,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "1609091201100265",
+      "nodeType": "private_manager",
+      "name": "海南天辉私募基金管理有限公司",
+      "registerNo": "P1060527",
+      "rank": 7,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "101000031013",
+      "nodeType": "private_manager",
+      "name": "深圳乾元资始私募证券基金管理有限公司",
+      "registerNo": "P1020814",
+      "rank": 3,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "101000007655",
+      "nodeType": "private_manager",
+      "name": "深圳市滨利投资管理有限公司",
+      "registerNo": "P1006086",
+      "rank": 12,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "1809181551101419",
+      "nodeType": "private_manager",
+      "name": "西咸新区旷特投资管理有限公司",
+      "registerNo": "P1069468",
+      "rank": 10,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "1709111805102816",
+      "nodeType": "private_manager",
+      "name": "西安博成基金管理有限公司",
+      "registerNo": "P1067542",
+      "rank": 4,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "ent-xian-jiatai",
+      "nodeType": "private_manager",
+      "name": "西安嘉泰基金管理有限公司",
+      "region": "陕西",
+      "securityCode": null,
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "2009181331107731",
+      "nodeType": "private_manager",
+      "name": "西安天勤汇理私募基金管理有限公司",
+      "registerNo": "P1071793",
+      "rank": 17,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "1811231117101176",
+      "nodeType": "private_manager",
+      "name": "西安景弘基金管理有限公司",
+      "registerNo": "P1070133",
+      "rank": 5,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "1703241729101117",
+      "nodeType": "private_manager",
+      "name": "西安江岳私募基金管理有限公司",
+      "registerNo": "P1064313",
+      "rank": 6,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "1703131611108607",
+      "nodeType": "private_manager",
+      "name": "西安沣相投资管理有限公司",
+      "registerNo": "P1062559",
+      "rank": 20,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "101000051182",
+      "nodeType": "private_manager",
+      "name": "西安玖润投资管理有限公司",
+      "registerNo": "P1033308",
+      "rank": 8,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "1704131628105857",
+      "nodeType": "private_manager",
+      "name": "西安蒙特卡罗基金管理有限公司",
+      "registerNo": "P1066586",
+      "rank": 2,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "1707261443105960",
+      "nodeType": "private_manager",
+      "name": "西安蒲公英基金管理有限公司",
+      "registerNo": "P1065652",
+      "rank": 16,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "101000014030",
+      "nodeType": "private_manager",
+      "name": "西安蓝鲸私募基金管理有限公司",
+      "registerNo": "P1008048",
+      "rank": 9,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "2008111918106744",
+      "nodeType": "private_manager",
+      "name": "陕西九和岛基金管理有限公司",
+      "registerNo": "P1071318",
+      "rank": 1,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "2007071048106707",
+      "nodeType": "private_manager",
+      "name": "陕西佑仓资产管理有限公司",
+      "registerNo": "P1071381",
+      "rank": 19,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "101000015685",
+      "nodeType": "private_manager",
+      "name": "陕西德盈私募基金管理有限公司",
+      "registerNo": "P1009868",
+      "rank": 15,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "101000007176",
+      "nodeType": "private_manager",
+      "name": "陕西景唐投资管理有限公司",
+      "registerNo": "P1005988",
+      "rank": 11,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "ent-luge",
+      "nodeType": "private_manager",
+      "name": "陕西禄格私募基金管理有限公司",
+      "region": "陕西",
+      "securityCode": null,
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "2012101805104621",
+      "nodeType": "private_manager",
+      "name": "陕西禄格私募基金管理有限公司",
+      "registerNo": "P1072306",
+      "rank": 13,
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "fund-sbpv13",
+      "nodeType": "private_product",
+      "name": "禄格永兴2号私募证券投资基金",
+      "fundNo": "SBPV13",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-be0d151393b7fc",
+      "nodeType": "shareholder",
+      "name": "任秋平",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-722deaa42d9404",
+      "nodeType": "shareholder",
+      "name": "侯洋",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-c5389631b314c4",
+      "nodeType": "shareholder",
+      "name": "元向煌",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-a68d891ee3d8f9",
+      "nodeType": "shareholder",
+      "name": "元向辉",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-1a69962a106b50",
+      "nodeType": "shareholder",
+      "name": "关天荣",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-e24576e364b3d9",
+      "nodeType": "shareholder",
+      "name": "冯泽昕",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-a51dc14b9be3b0",
+      "nodeType": "shareholder",
+      "name": "刘建武",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-e6ed39a7693317",
+      "nodeType": "shareholder",
+      "name": "刘清",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-bcab7c0cd7f343",
+      "nodeType": "shareholder",
+      "name": "刘瑞",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-895805828fb44e",
+      "nodeType": "shareholder",
+      "name": "刘皙",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-37d2b8fa6d2629",
+      "nodeType": "shareholder",
+      "name": "吴竹林",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-e611ce99bbd7f3",
+      "nodeType": "shareholder",
+      "name": "岳洁东",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-4340fd74e14f8f",
+      "nodeType": "shareholder",
+      "name": "张亦卓",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-b6f8dd82557d33",
+      "nodeType": "shareholder",
+      "name": "张涛",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-03338e5e36a19d",
+      "nodeType": "shareholder",
+      "name": "张瀚",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-e60cc0b06172c9",
+      "nodeType": "shareholder",
+      "name": "慧盛（北京）资本管理有限公司",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-6997dcb5b1a5dc",
+      "nodeType": "shareholder",
+      "name": "成毛毛",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-b4bc8e46fac409",
+      "nodeType": "shareholder",
+      "name": "曹琳",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-5b23a21a85184b",
+      "nodeType": "shareholder",
+      "name": "李娜",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-5c9fa370104d00",
+      "nodeType": "shareholder",
+      "name": "李宝",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-707efe683394b2",
+      "nodeType": "shareholder",
+      "name": "李正",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-2848fcafc4ffaa",
+      "nodeType": "shareholder",
+      "name": "杨淑华",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-d67f2093c2a0ff",
+      "nodeType": "shareholder",
+      "name": "梁滨",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-a41626c6d7c1ab",
+      "nodeType": "shareholder",
+      "name": "樊磊",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-dfad623e7f9e18",
+      "nodeType": "shareholder",
+      "name": "毛喆",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-57d69cadb1dd05",
+      "nodeType": "shareholder",
+      "name": "洪楷",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-90a3f2a4251acc",
+      "nodeType": "shareholder",
+      "name": "深圳朴信金融服务有限公司",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-e87f057432b8ce",
+      "nodeType": "shareholder",
+      "name": "王刚",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-fcc08c54a3186d",
+      "nodeType": "shareholder",
+      "name": "王国林",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-e1583c47a1d396",
+      "nodeType": "shareholder",
+      "name": "王平钢",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-9de746c55a01d6",
+      "nodeType": "shareholder",
+      "name": "王拓",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-71d546f0754bdd",
+      "nodeType": "shareholder",
+      "name": "王海洋",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-251927b0e79598",
+      "nodeType": "shareholder",
+      "name": "王震海",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-2d826bd72d5907",
+      "nodeType": "shareholder",
+      "name": "耿爱强",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-f03b81479be6fb",
+      "nodeType": "shareholder",
+      "name": "胡政一",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-d00e2c7c4767eb",
+      "nodeType": "shareholder",
+      "name": "蔡晶磊",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-7b15cafb59536b",
+      "nodeType": "shareholder",
+      "name": "西咸新区旷特量化科技有限公司",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-c62340df6b4849",
+      "nodeType": "shareholder",
+      "name": "西安德志投资管理有限公司",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-2ba3c806638634",
+      "nodeType": "shareholder",
+      "name": "西安柒佰嘉沧企业管理咨询有限公司",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-2e0a7e3f505328",
+      "nodeType": "shareholder",
+      "name": "西安沛霖长野科技有限公司",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-320e6930532cd3",
+      "nodeType": "shareholder",
+      "name": "西安津宽电子科技合伙企业（有限合伙）",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-ef7919115d040c",
+      "nodeType": "shareholder",
+      "name": "西安炎晟科技有限责任公司",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-14bbafeacc49dc",
+      "nodeType": "shareholder",
+      "name": "西安牛角工贸有限公司",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-2e797bd05f5706",
+      "nodeType": "shareholder",
+      "name": "西安韬远实业有限公司",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-697ee9b8017fd2",
+      "nodeType": "shareholder",
+      "name": "赵江",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-e46928aa1dedbc",
+      "nodeType": "shareholder",
+      "name": "迟东东",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-d57c24fa3de537",
+      "nodeType": "shareholder",
+      "name": "陕西九和岛投资合伙企业（有限合伙）",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-264c8c60105665",
+      "nodeType": "shareholder",
+      "name": "陕西金和云峰商业服务合伙企业(有限合伙)",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-b4e873fc18f355",
+      "nodeType": "shareholder",
+      "name": "青岛易梵海投资管理有限责任公司",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-430dd9bf99eb42",
+      "nodeType": "shareholder",
+      "name": "韩宁",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-15f947bad242fa",
+      "nodeType": "shareholder",
+      "name": "韩瑞杰",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-da007f60554f5e",
+      "nodeType": "shareholder",
+      "name": "高梦瑶",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "holder-d29e10f57de04b",
+      "nodeType": "shareholder",
+      "name": "黄应栋",
+      "sourceScope": "amac"
+    },
+    {
+      "nodeId": "ent-changan-huitong",
+      "nodeType": "soe_group",
+      "name": "长安汇通集团有限责任公司",
+      "region": "陕西",
+      "securityCode": null,
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "ent-shaanxi-water",
+      "nodeType": "soe_group",
+      "name": "陕西水务发展集团有限公司",
+      "region": "陕西",
+      "securityCode": null,
+      "sourceScope": "dashboard"
+    },
+    {
+      "nodeId": "ent-shaanxi-jinzi",
+      "nodeType": "soe_group",
+      "name": "陕西金资基金管理有限公司",
+      "region": "陕西",
+      "securityCode": null,
+      "sourceScope": "dashboard"
+    }
+  ],
+  "edges": [
+    {
+      "edgeId": "rel-0402378ba44914",
+      "sourceNodeId": "fund-sbpv13",
+      "targetNodeId": "custodian-a5bb3d4ca575a0",
+      "relationType": "custodied_by",
+      "evidenceType": "amac_fund_filing",
+      "at": "2026-07-08",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607080903108151.html"
+    },
+    {
+      "edgeId": "rel-55b75414150d81",
+      "sourceNodeId": "101000007176",
+      "targetNodeId": "person-9de746c55a01d6",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007176.html",
+      "role": "法定代表人 董事长 总经理 执行董事"
+    },
+    {
+      "edgeId": "rel-895a3edcbd16de",
+      "sourceNodeId": "101000007176",
+      "targetNodeId": "person-f822da15e5ff57",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007176.html",
+      "role": "合规风控负责人 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-2e56e22b86f793",
+      "sourceNodeId": "101000007655",
+      "targetNodeId": "person-354baef556999c",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007655.html",
+      "role": "副总经理"
+    },
+    {
+      "edgeId": "rel-d9f4c9c985ae0d",
+      "sourceNodeId": "101000007655",
+      "targetNodeId": "person-7dd83f4f833e32",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007655.html",
+      "role": "合规风控负责人"
+    },
+    {
+      "edgeId": "rel-34f54c2a1c61e4",
+      "sourceNodeId": "101000007655",
+      "targetNodeId": "person-d67f2093c2a0ff",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007655.html",
+      "role": "法定代表人 总经理 执行董事 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-2d3902b59afff6",
+      "sourceNodeId": "101000014030",
+      "targetNodeId": "person-a41626c6d7c1ab",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000014030.html",
+      "role": "法定代表人 总经理 信息填报负责人 总经理"
+    },
+    {
+      "edgeId": "rel-d31c9d426fa1a6",
+      "sourceNodeId": "101000014030",
+      "targetNodeId": "person-b6f8dd82557d33",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000014030.html",
+      "role": "副总经理"
+    },
+    {
+      "edgeId": "rel-fc044093f10bef",
+      "sourceNodeId": "101000014030",
+      "targetNodeId": "person-c83cfbae7361b4",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000014030.html",
+      "role": "合规风控负责人 风控总监"
+    },
+    {
+      "edgeId": "rel-f8fcc9a889d581",
+      "sourceNodeId": "101000015685",
+      "targetNodeId": "person-d29e10f57de04b",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000015685.html",
+      "role": "法定代表人 总经理 执行董事"
+    },
+    {
+      "edgeId": "rel-2196b1b0f4f26e",
+      "sourceNodeId": "101000015685",
+      "targetNodeId": "person-f31f3731c8d168",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000015685.html",
+      "role": "合规风控负责人 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-c5cffde63c7917",
+      "sourceNodeId": "101000031013",
+      "targetNodeId": "person-5c9fa370104d00",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000031013.html",
+      "role": "法定代表人 总经理"
+    },
+    {
+      "edgeId": "rel-9902dcca7fea32",
+      "sourceNodeId": "101000031013",
+      "targetNodeId": "person-707efe683394b2",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000031013.html",
+      "role": "副董事长"
+    },
+    {
+      "edgeId": "rel-188f2167ff8af4",
+      "sourceNodeId": "101000031013",
+      "targetNodeId": "person-722deaa42d9404",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000031013.html",
+      "role": "董事长"
+    },
+    {
+      "edgeId": "rel-69ab23101bddc4",
+      "sourceNodeId": "101000031013",
+      "targetNodeId": "person-abb7851a90bdfe",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000031013.html",
+      "role": "合规风控负责人 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-5a33cc76906c7d",
+      "sourceNodeId": "101000051182",
+      "targetNodeId": "person-3d7a13e1f59c8b",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000051182.html",
+      "role": "合规风控负责人"
+    },
+    {
+      "edgeId": "rel-64c9e74ab69f81",
+      "sourceNodeId": "101000051182",
+      "targetNodeId": "person-b4bc8e46fac409",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000051182.html",
+      "role": "法定代表人 总经理 执行董事 信息填报负责人 投资总监"
+    },
+    {
+      "edgeId": "rel-b425e6102798b1",
+      "sourceNodeId": "1609091201100265",
+      "targetNodeId": "person-895805828fb44e",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1609091201100265.html",
+      "role": "法定代表人 执行董事"
+    },
+    {
+      "edgeId": "rel-73154eec927c0d",
+      "sourceNodeId": "1609091201100265",
+      "targetNodeId": "person-cf811c06262783",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1609091201100265.html",
+      "role": "合规风控负责人 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-cc31855d8bb1d8",
+      "sourceNodeId": "1703131611108607",
+      "targetNodeId": "person-e0a3c39a7408a9",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703131611108607.html",
+      "role": "合规风控负责人"
+    },
+    {
+      "edgeId": "rel-b6ce709ea81cb4",
+      "sourceNodeId": "1703131611108607",
+      "targetNodeId": "person-fae31b59fbe7f5",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703131611108607.html",
+      "role": "法定代表人 总经理 执行董事 信息填报负责人 基金经理"
+    },
+    {
+      "edgeId": "rel-6f92908d87f94b",
+      "sourceNodeId": "1703241729101117",
+      "targetNodeId": "person-6b694f0a80ec75",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703241729101117.html",
+      "role": "合规风控负责人 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-3818f2b504ae0f",
+      "sourceNodeId": "1703241729101117",
+      "targetNodeId": "person-e87f057432b8ce",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703241729101117.html",
+      "role": "法定代表人 总经理"
+    },
+    {
+      "edgeId": "rel-844f954edb4103",
+      "sourceNodeId": "1703241729101117",
+      "targetNodeId": "person-fcc08c54a3186d",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703241729101117.html",
+      "role": "董事长"
+    },
+    {
+      "edgeId": "rel-ec70d09050e5f5",
+      "sourceNodeId": "1704131628105857",
+      "targetNodeId": "person-9400ec91a00685",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1704131628105857.html",
+      "role": "合规风控负责人 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-8d86cdf2016483",
+      "sourceNodeId": "1704131628105857",
+      "targetNodeId": "person-c5389631b314c4",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1704131628105857.html",
+      "role": "副总经理"
+    },
+    {
+      "edgeId": "rel-6f372f5d2d7548",
+      "sourceNodeId": "1704131628105857",
+      "targetNodeId": "person-e46928aa1dedbc",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1704131628105857.html",
+      "role": "法定代表人 执行董事"
+    },
+    {
+      "edgeId": "rel-6dc6f2e7b47414",
+      "sourceNodeId": "1707261443105960",
+      "targetNodeId": "person-206ddd966d31c2",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1707261443105960.html",
+      "role": "法定代表人 总经理 执行董事"
+    },
+    {
+      "edgeId": "rel-328f7d79aae8d3",
+      "sourceNodeId": "1707261443105960",
+      "targetNodeId": "person-71b877272c2c13",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1707261443105960.html",
+      "role": "副总经理"
+    },
+    {
+      "edgeId": "rel-ff0cbb82055c6c",
+      "sourceNodeId": "1707261443105960",
+      "targetNodeId": "person-d4a4cf5e4ac2cc",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1707261443105960.html",
+      "role": "合规风控负责人 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-e19b88a0b34f76",
+      "sourceNodeId": "1707261443105960",
+      "targetNodeId": "person-f5648469199616",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1707261443105960.html",
+      "role": "副总经理"
+    },
+    {
+      "edgeId": "rel-52b1fbf93f903c",
+      "sourceNodeId": "1709111805102816",
+      "targetNodeId": "person-37d2b8fa6d2629",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1709111805102816.html",
+      "role": "法定代表人 总经理"
+    },
+    {
+      "edgeId": "rel-58bc78ade062b0",
+      "sourceNodeId": "1709111805102816",
+      "targetNodeId": "person-cd277bafa1ccb5",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1709111805102816.html",
+      "role": "合规风控负责人 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-ec1231c4c68b69",
+      "sourceNodeId": "1809181551101419",
+      "targetNodeId": "person-2b3eae5c9b1525",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1809181551101419.html",
+      "role": "副总经理"
+    },
+    {
+      "edgeId": "rel-32f2dd6c408118",
+      "sourceNodeId": "1809181551101419",
+      "targetNodeId": "person-88820db9ad91da",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1809181551101419.html",
+      "role": "法定代表人 董事长 总经理 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-6b325107ff0492",
+      "sourceNodeId": "1809181551101419",
+      "targetNodeId": "person-99e11c50492a34",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1809181551101419.html",
+      "role": "合规风控负责人"
+    },
+    {
+      "edgeId": "rel-b341df40aec6d3",
+      "sourceNodeId": "1811231117101176",
+      "targetNodeId": "person-017b35ef4ec944",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1811231117101176.html",
+      "role": "合规风控负责人 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-8525bc04df49d6",
+      "sourceNodeId": "1811231117101176",
+      "targetNodeId": "person-15f947bad242fa",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1811231117101176.html",
+      "role": "董事长"
+    },
+    {
+      "edgeId": "rel-edd10c4f52a7a0",
+      "sourceNodeId": "1811231117101176",
+      "targetNodeId": "person-feb4c60bc8f4e1",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1811231117101176.html",
+      "role": "法定代表人 总经理"
+    },
+    {
+      "edgeId": "rel-f8c7c03017fec3",
+      "sourceNodeId": "1903261107103383",
+      "targetNodeId": "person-a51dc14b9be3b0",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1903261107103383.html",
+      "role": "执行事务合伙人（委派代表） 合伙人 信息填报负责人 首席执行官,基金经理首席投资官投决会主席"
+    },
+    {
+      "edgeId": "rel-9c4c60dff679ef",
+      "sourceNodeId": "1903261107103383",
+      "targetNodeId": "person-e24576e364b3d9",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1903261107103383.html",
+      "role": "合规风控负责人 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-ac9674a0a2ef71",
+      "sourceNodeId": "2007071048106707",
+      "targetNodeId": "person-697ee9b8017fd2",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2007071048106707.html",
+      "role": "法定代表人 总经理 执行董事 信息填报负责人 投资总监"
+    },
+    {
+      "edgeId": "rel-a2ca96fcc403d4",
+      "sourceNodeId": "2007071048106707",
+      "targetNodeId": "person-c10e37c9a7f67f",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2007071048106707.html",
+      "role": "合规风控负责人"
+    },
+    {
+      "edgeId": "rel-ebdface99bff3d",
+      "sourceNodeId": "2008111918106744",
+      "targetNodeId": "person-251927b0e79598",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2008111918106744.html",
+      "role": "法定代表人 总经理 信息填报负责人 基金经理"
+    },
+    {
+      "edgeId": "rel-ad49e051d78070",
+      "sourceNodeId": "2008111918106744",
+      "targetNodeId": "person-bcab7c0cd7f343",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2008111918106744.html",
+      "role": "副总经理 合规风控负责人"
+    },
+    {
+      "edgeId": "rel-b19910017a5ef1",
+      "sourceNodeId": "2009181331107731",
+      "targetNodeId": "person-9789f4b0c86bca",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2009181331107731.html",
+      "role": "合规风控负责人"
+    },
+    {
+      "edgeId": "rel-1446745f1c1ed7",
+      "sourceNodeId": "2009181331107731",
+      "targetNodeId": "person-f03b81479be6fb",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2009181331107731.html",
+      "role": "法定代表人 总经理 执行董事 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-d57a5987e90c03",
+      "sourceNodeId": "2012101805104621",
+      "targetNodeId": "person-191fab1851b4d2",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2012101805104621.html",
+      "role": "合规风控负责人"
+    },
+    {
+      "edgeId": "rel-ed115c6b039d30",
+      "sourceNodeId": "2012101805104621",
+      "targetNodeId": "person-2d826bd72d5907",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2012101805104621.html",
+      "role": "法定代表人 总经理 执行董事 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-ca4140566d4dd7",
+      "sourceNodeId": "2107141320103302",
+      "targetNodeId": "person-d00e2c7c4767eb",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2107141320103302.html",
+      "role": "合规风控负责人 信息填报负责人"
+    },
+    {
+      "edgeId": "rel-d5c7a15d9be794",
+      "sourceNodeId": "2107141320103302",
+      "targetNodeId": "person-e611ce99bbd7f3",
+      "relationType": "executive",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2107141320103302.html",
+      "role": "法定代表人 总经理 执行董事"
+    },
+    {
+      "edgeId": "rel-b5afcfa72cc67b",
+      "sourceNodeId": "ent-aikosai",
+      "targetNodeId": "evt-20260709-aikosai-inquiry",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-07-09",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-9dbd79a84bca40",
+      "sourceNodeId": "ent-changan-huitong",
+      "targetNodeId": "evt-20260617-social-fund",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-06-17",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-cda799c81d43f1",
+      "sourceNodeId": "ent-construction-machinery",
+      "targetNodeId": "evt-20260710-machinery-meeting",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-07-10",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-7ae4d706d62b66",
+      "sourceNodeId": "ent-kanghui",
+      "targetNodeId": "evt-20260709-kanghui-related-project",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-07-09",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-ab32bd43a70d21",
+      "sourceNodeId": "ent-luge",
+      "targetNodeId": "evt-20260708-luge-product",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-07-08",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-80e7c45400beed",
+      "sourceNodeId": "ent-maikeaote",
+      "targetNodeId": "evt-20260611-maikeaote-hearing",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-06-11",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-81f773ab6cb0d1",
+      "sourceNodeId": "ent-meichang",
+      "targetNodeId": "evt-20260709-meichang-forecast",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-07-09",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-8613aece7bcdef",
+      "sourceNodeId": "ent-panlong",
+      "targetNodeId": "evt-20260710-panlong-catalogue",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-07-10",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-24cf57fba57783",
+      "sourceNodeId": "ent-rainbow",
+      "targetNodeId": "evt-20260707-rainbow-ma",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-07-07",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-0c6bdc856b4dfa",
+      "sourceNodeId": "ent-rainbow",
+      "targetNodeId": "evt-20260709-rainbow-forecast",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-07-09",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-571d7774164d4f",
+      "sourceNodeId": "ent-shaangu",
+      "targetNodeId": "evt-20260627-shaangu-ma",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-06-27",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-fdcb5fa1a0b72b",
+      "sourceNodeId": "ent-shaanxi-construction",
+      "targetNodeId": "evt-20260709-shaanxi-construction-dividend",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-07-09",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-ffe0f0a6edd158",
+      "sourceNodeId": "ent-shaanxi-energy",
+      "targetNodeId": "evt-20260710-energy-reduction",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-07-10",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-5802bd6c6713a9",
+      "sourceNodeId": "ent-shaanxi-jinzi",
+      "targetNodeId": "evt-20260121-jinzi-tender",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-01-21",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-0356e0e86c57de",
+      "sourceNodeId": "ent-shaanxi-water",
+      "targetNodeId": "evt-20260709-water-vpp",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-07-09",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-e5e581ea882273",
+      "sourceNodeId": "ent-xian-bank",
+      "targetNodeId": "evt-20260710-bank-director",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-07-10",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-27537dbe683d29",
+      "sourceNodeId": "ent-xian-bank",
+      "targetNodeId": "evt-20260710-bank-litigation",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-07-10",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-127992c1dfc45a",
+      "sourceNodeId": "ent-xian-jiatai",
+      "targetNodeId": "evt-20260302-jiatai-cancel",
+      "relationType": "has_event",
+      "evidenceType": "normalized_event",
+      "at": "2026-03-02",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-6117ce09fca3e8",
+      "sourceNodeId": "investor-29d5f1f2288240",
+      "targetNodeId": "ent-maikeaote",
+      "relationType": "invested_in",
+      "evidenceType": "official_investor",
+      "at": "2026-06-24",
+      "sourceUrl": "https://www.ca-ht.com/show/1273",
+      "round": "IPO基石投资",
+      "amountText": "2.5亿元"
+    },
+    {
+      "edgeId": "rel-66cd7dbc74fba5",
+      "sourceNodeId": "investor-9a258004e3757f",
+      "targetNodeId": "ent-maikeaote",
+      "relationType": "invested_in",
+      "evidenceType": "official_investor",
+      "at": "2026-06-24",
+      "sourceUrl": "https://www.ca-ht.com/show/1273",
+      "round": "IPO基石投资",
+      "amountText": "2.5亿元"
+    },
+    {
+      "edgeId": "rel-d5dd817672dbdb",
+      "sourceNodeId": "preipo-715057afabd0d7e7",
+      "targetNodeId": "ma-9e1bf53772f2b2e4",
+      "relationType": "linked_ma_project",
+      "evidenceType": "project_timeline",
+      "at": "2026-05-11",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-c3c063e1321df2",
+      "sourceNodeId": "preipo-c7a81c31d59523ba",
+      "targetNodeId": "ma-40f1fe5672e1af96",
+      "relationType": "linked_ma_project",
+      "evidenceType": "project_timeline",
+      "at": "2026-05-12",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-750e8d289d38a5",
+      "sourceNodeId": "preipo-e91d531d76905418",
+      "targetNodeId": "ma-eda69557ead20559",
+      "relationType": "linked_ma_project",
+      "evidenceType": "project_timeline",
+      "at": "2026-05-20",
+      "sourceUrl": null
+    },
+    {
+      "edgeId": "rel-82746408e521f7",
+      "sourceNodeId": "2012101805104621",
+      "targetNodeId": "fund-sbpv13",
+      "relationType": "manages",
+      "evidenceType": "amac_fund_filing",
+      "at": "2026-07-08",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607080903108151.html"
+    },
+    {
+      "edgeId": "rel-3a0bddb799581b",
+      "sourceNodeId": "holder-03338e5e36a19d",
+      "targetNodeId": "2007071048106707",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2007071048106707.html",
+      "ratio": "40%"
+    },
+    {
+      "edgeId": "rel-ec4fe5aab1d9b2",
+      "sourceNodeId": "holder-14bbafeacc49dc",
+      "targetNodeId": "1703241729101117",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703241729101117.html",
+      "ratio": "10%"
+    },
+    {
+      "edgeId": "rel-4aa9abb0cc35e2",
+      "sourceNodeId": "holder-15f947bad242fa",
+      "targetNodeId": "1811231117101176",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1811231117101176.html",
+      "ratio": "95%"
+    },
+    {
+      "edgeId": "rel-a9090d0efc761e",
+      "sourceNodeId": "holder-1a69962a106b50",
+      "targetNodeId": "101000007655",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007655.html",
+      "ratio": "28.18%"
+    },
+    {
+      "edgeId": "rel-31ab80a1af906e",
+      "sourceNodeId": "holder-251927b0e79598",
+      "targetNodeId": "2008111918106744",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2008111918106744.html",
+      "ratio": "35%"
+    },
+    {
+      "edgeId": "rel-c077b0cf098e1b",
+      "sourceNodeId": "holder-264c8c60105665",
+      "targetNodeId": "2012101805104621",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2012101805104621.html",
+      "ratio": "40%"
+    },
+    {
+      "edgeId": "rel-c88f6458568b71",
+      "sourceNodeId": "holder-2848fcafc4ffaa",
+      "targetNodeId": "1709111805102816",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1709111805102816.html",
+      "ratio": "3%"
+    },
+    {
+      "edgeId": "rel-3ddd4f2a8ecd3b",
+      "sourceNodeId": "holder-2ba3c806638634",
+      "targetNodeId": "1703131611108607",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703131611108607.html",
+      "ratio": "31.5%"
+    },
+    {
+      "edgeId": "rel-4c5381c886b756",
+      "sourceNodeId": "holder-2d826bd72d5907",
+      "targetNodeId": "2012101805104621",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2012101805104621.html",
+      "ratio": "51%"
+    },
+    {
+      "edgeId": "rel-1f56cae2743ce3",
+      "sourceNodeId": "holder-2e0a7e3f505328",
+      "targetNodeId": "1703131611108607",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703131611108607.html",
+      "ratio": "58.5%"
+    },
+    {
+      "edgeId": "rel-89804ba6190ec6",
+      "sourceNodeId": "holder-2e797bd05f5706",
+      "targetNodeId": "2012101805104621",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2012101805104621.html",
+      "ratio": "9%"
+    },
+    {
+      "edgeId": "rel-3a69fcf332bde7",
+      "sourceNodeId": "holder-320e6930532cd3",
+      "targetNodeId": "1809181551101419",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1809181551101419.html",
+      "ratio": "25.65%"
+    },
+    {
+      "edgeId": "rel-4265cb508b4140",
+      "sourceNodeId": "holder-37d2b8fa6d2629",
+      "targetNodeId": "1709111805102816",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1709111805102816.html",
+      "ratio": "45%"
+    },
+    {
+      "edgeId": "rel-47312f1a976119",
+      "sourceNodeId": "holder-430dd9bf99eb42",
+      "targetNodeId": "101000051182",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000051182.html",
+      "ratio": "3%"
+    },
+    {
+      "edgeId": "rel-7233f33edf3d63",
+      "sourceNodeId": "holder-4340fd74e14f8f",
+      "targetNodeId": "1903261107103383",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1903261107103383.html",
+      "ratio": "10%"
+    },
+    {
+      "edgeId": "rel-7bf1c99e4358ce",
+      "sourceNodeId": "holder-57d69cadb1dd05",
+      "targetNodeId": "101000051182",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000051182.html",
+      "ratio": "28%"
+    },
+    {
+      "edgeId": "rel-c912cc539039cc",
+      "sourceNodeId": "holder-5b23a21a85184b",
+      "targetNodeId": "101000015685",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000015685.html",
+      "ratio": "50%"
+    },
+    {
+      "edgeId": "rel-5743bd15bb4115",
+      "sourceNodeId": "holder-5c9fa370104d00",
+      "targetNodeId": "101000031013",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000031013.html",
+      "ratio": "25%"
+    },
+    {
+      "edgeId": "rel-1865890cf23df1",
+      "sourceNodeId": "holder-697ee9b8017fd2",
+      "targetNodeId": "2007071048106707",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2007071048106707.html",
+      "ratio": "60%"
+    },
+    {
+      "edgeId": "rel-fbb58b996f0868",
+      "sourceNodeId": "holder-6997dcb5b1a5dc",
+      "targetNodeId": "101000007176",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007176.html",
+      "ratio": "17%"
+    },
+    {
+      "edgeId": "rel-13eb26f8d8a1d7",
+      "sourceNodeId": "holder-707efe683394b2",
+      "targetNodeId": "101000031013",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000031013.html",
+      "ratio": "25%"
+    },
+    {
+      "edgeId": "rel-8d81d92d4ea09c",
+      "sourceNodeId": "holder-71d546f0754bdd",
+      "targetNodeId": "101000015685",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000015685.html",
+      "ratio": "5%"
+    },
+    {
+      "edgeId": "rel-c007995e992c9d",
+      "sourceNodeId": "holder-722deaa42d9404",
+      "targetNodeId": "101000031013",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000031013.html",
+      "ratio": "50%"
+    },
+    {
+      "edgeId": "rel-67ca9f5f79b1d7",
+      "sourceNodeId": "holder-7b15cafb59536b",
+      "targetNodeId": "1809181551101419",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1809181551101419.html",
+      "ratio": "37.17%"
+    },
+    {
+      "edgeId": "rel-3961af3533986c",
+      "sourceNodeId": "holder-895805828fb44e",
+      "targetNodeId": "1609091201100265",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1609091201100265.html",
+      "ratio": "5%"
+    },
+    {
+      "edgeId": "rel-bf1970f7505d62",
+      "sourceNodeId": "holder-90a3f2a4251acc",
+      "targetNodeId": "1707261443105960",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1707261443105960.html",
+      "ratio": "100%"
+    },
+    {
+      "edgeId": "rel-779d9e71e00a23",
+      "sourceNodeId": "holder-9de746c55a01d6",
+      "targetNodeId": "101000007176",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007176.html",
+      "ratio": "34%"
+    },
+    {
+      "edgeId": "rel-712b8b71e5bc38",
+      "sourceNodeId": "holder-a41626c6d7c1ab",
+      "targetNodeId": "101000014030",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000014030.html",
+      "ratio": "93.33%"
+    },
+    {
+      "edgeId": "rel-2e085d87f9a794",
+      "sourceNodeId": "holder-a51dc14b9be3b0",
+      "targetNodeId": "1903261107103383",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1903261107103383.html",
+      "ratio": "87%"
+    },
+    {
+      "edgeId": "rel-3635d39097dbe8",
+      "sourceNodeId": "holder-a68d891ee3d8f9",
+      "targetNodeId": "1704131628105857",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1704131628105857.html",
+      "ratio": "42%"
+    },
+    {
+      "edgeId": "rel-402bcf5fad7ebf",
+      "sourceNodeId": "holder-b4bc8e46fac409",
+      "targetNodeId": "101000051182",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000051182.html",
+      "ratio": "50%"
+    },
+    {
+      "edgeId": "rel-19faeaee4e7056",
+      "sourceNodeId": "holder-b4e873fc18f355",
+      "targetNodeId": "1809181551101419",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1809181551101419.html",
+      "ratio": "14.87%"
+    },
+    {
+      "edgeId": "rel-5b35abc45c582c",
+      "sourceNodeId": "holder-b6f8dd82557d33",
+      "targetNodeId": "101000014030",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000014030.html",
+      "ratio": "6.67%"
+    },
+    {
+      "edgeId": "rel-d4594026ae9f18",
+      "sourceNodeId": "holder-bcab7c0cd7f343",
+      "targetNodeId": "2008111918106744",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2008111918106744.html",
+      "ratio": "5%"
+    },
+    {
+      "edgeId": "rel-be41478e01dc64",
+      "sourceNodeId": "holder-be0d151393b7fc",
+      "targetNodeId": "2009181331107731",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2009181331107731.html",
+      "ratio": "30%"
+    },
+    {
+      "edgeId": "rel-966956835b4ade",
+      "sourceNodeId": "holder-c5389631b314c4",
+      "targetNodeId": "1704131628105857",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1704131628105857.html",
+      "ratio": "21%"
+    },
+    {
+      "edgeId": "rel-bae4b5cbb45c9a",
+      "sourceNodeId": "holder-c62340df6b4849",
+      "targetNodeId": "1709111805102816",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1709111805102816.html",
+      "ratio": "6%"
+    },
+    {
+      "edgeId": "rel-9f836e5537b1bd",
+      "sourceNodeId": "holder-d00e2c7c4767eb",
+      "targetNodeId": "2107141320103302",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2107141320103302.html",
+      "ratio": "5%"
+    },
+    {
+      "edgeId": "rel-ad1ed896395dee",
+      "sourceNodeId": "holder-d29e10f57de04b",
+      "targetNodeId": "101000015685",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000015685.html",
+      "ratio": "45%"
+    },
+    {
+      "edgeId": "rel-aaefffae717c51",
+      "sourceNodeId": "holder-d57c24fa3de537",
+      "targetNodeId": "2008111918106744",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2008111918106744.html",
+      "ratio": "60%"
+    },
+    {
+      "edgeId": "rel-d816f798e59e9e",
+      "sourceNodeId": "holder-d67f2093c2a0ff",
+      "targetNodeId": "101000007655",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007655.html",
+      "ratio": "53.64%"
+    },
+    {
+      "edgeId": "rel-b3e24112df43e2",
+      "sourceNodeId": "holder-da007f60554f5e",
+      "targetNodeId": "1811231117101176",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1811231117101176.html",
+      "ratio": "5%"
+    },
+    {
+      "edgeId": "rel-0dfeafff0222a5",
+      "sourceNodeId": "holder-dfad623e7f9e18",
+      "targetNodeId": "101000007176",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007176.html",
+      "ratio": "30%"
+    },
+    {
+      "edgeId": "rel-17e23fcfa3e768",
+      "sourceNodeId": "holder-e1583c47a1d396",
+      "targetNodeId": "101000007655",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007655.html",
+      "ratio": "9.09%"
+    },
+    {
+      "edgeId": "rel-f1019c6fc24f2f",
+      "sourceNodeId": "holder-e24576e364b3d9",
+      "targetNodeId": "1903261107103383",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1903261107103383.html",
+      "ratio": "3%"
+    },
+    {
+      "edgeId": "rel-a66f2857335817",
+      "sourceNodeId": "holder-e46928aa1dedbc",
+      "targetNodeId": "1704131628105857",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1704131628105857.html",
+      "ratio": "7%"
+    },
+    {
+      "edgeId": "rel-f618f937d18dbe",
+      "sourceNodeId": "holder-e60cc0b06172c9",
+      "targetNodeId": "1609091201100265",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1609091201100265.html",
+      "ratio": "70%"
+    },
+    {
+      "edgeId": "rel-305b4c0c9cf7b3",
+      "sourceNodeId": "holder-e611ce99bbd7f3",
+      "targetNodeId": "2107141320103302",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2107141320103302.html",
+      "ratio": "95%"
+    },
+    {
+      "edgeId": "rel-2ae7a37cad93ca",
+      "sourceNodeId": "holder-e6ed39a7693317",
+      "targetNodeId": "1609091201100265",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1609091201100265.html",
+      "ratio": "5%"
+    },
+    {
+      "edgeId": "rel-eba0b853b1c285",
+      "sourceNodeId": "holder-e87f057432b8ce",
+      "targetNodeId": "1703241729101117",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703241729101117.html",
+      "ratio": "10%"
+    },
+    {
+      "edgeId": "rel-76f9535b8db767",
+      "sourceNodeId": "holder-ef7919115d040c",
+      "targetNodeId": "1703131611108607",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703131611108607.html",
+      "ratio": "10%"
+    },
+    {
+      "edgeId": "rel-74a14f855cfbb1",
+      "sourceNodeId": "holder-f03b81479be6fb",
+      "targetNodeId": "2009181331107731",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2009181331107731.html",
+      "ratio": "70%"
+    },
+    {
+      "edgeId": "rel-c435623c4fda8a",
+      "sourceNodeId": "holder-fcc08c54a3186d",
+      "targetNodeId": "1703241729101117",
+      "relationType": "shareholder_of",
+      "evidenceType": "amac_manager_detail",
+      "at": "2026-07-10",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703241729101117.html",
+      "ratio": "10%"
+    }
+  ]
+}

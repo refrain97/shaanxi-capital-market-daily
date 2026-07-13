@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "0.1",
+  "updatedAt": "2026-07-13",
+  "priorityMeaning": "业务重点用于RM跟进优先级，不等同于新闻重要性。",
+  "categories": [
+    {
+      "name": "资本运作",
+      "targetObjects": ["董秘办", "财务", "投融资负责人"],
+      "tags": [
+        {"name": "定增/再融资", "businessPriority": "focus", "keywords": ["定向增发", "向特定对象发行", "再融资"]},
+        {"name": "可转债", "businessPriority": "focus", "keywords": ["可转换公司债券", "可转债"]},
+        {"name": "并购重组", "businessPriority": "focus", "keywords": ["重大资产重组", "发行股份购买资产", "收购股权", "并购重组"]},
+        {"name": "分拆上市", "businessPriority": "focus", "keywords": ["分拆上市", "分拆所属子公司"]},
+        {"name": "股份回购", "businessPriority": "focus", "keywords": ["股份回购", "回购股份", "回购公司股份"]},
+        {"name": "募投补流", "businessPriority": "standard", "keywords": ["募投项目", "补充流动资金", "募集资金用途"]}
+      ]
+    },
+    {
+      "name": "股东服务",
+      "targetObjects": ["控股股东", "5%以上股东", "董秘办"],
+      "tags": [
+        {"name": "减持", "businessPriority": "focus", "keywords": ["减持股份", "减持计划", "减持进展"]},
+        {"name": "增持", "businessPriority": "focus", "keywords": ["增持股份", "增持计划", "增持进展"]},
+        {"name": "质押冻结", "businessPriority": "focus", "keywords": ["股份质押", "解除质押", "股份冻结", "轮候冻结"]},
+        {"name": "权益变动", "businessPriority": "focus", "keywords": ["权益变动", "简式权益变动", "详式权益变动"]},
+        {"name": "转让拍卖", "businessPriority": "focus", "keywords": ["协议转让", "司法拍卖", "公开拍卖", "股份转让"]},
+        {"name": "限售解禁", "businessPriority": "focus", "keywords": ["解除限售", "限售股份上市流通", "限售解禁"]}
+      ]
+    },
+    {
+      "name": "激励与员工",
+      "targetObjects": ["董秘办", "人力", "财务", "激励对象"],
+      "tags": [
+        {"name": "股权激励", "businessPriority": "focus", "keywords": ["股权激励计划", "限制性股票激励", "股票期权激励"]},
+        {"name": "员工持股", "businessPriority": "focus", "keywords": ["员工持股计划"]},
+        {"name": "授予归属", "businessPriority": "focus", "keywords": ["首次授予", "预留授予", "归属结果", "归属条件"]},
+        {"name": "行权", "businessPriority": "focus", "keywords": ["行权条件", "自主行权", "行权结果"]},
+        {"name": "回购注销", "businessPriority": "focus", "keywords": ["回购注销", "注销限制性股票"]}
+      ]
+    },
+    {
+      "name": "资金与财务",
+      "targetObjects": ["财务负责人", "资金部", "董秘办"],
+      "tags": [
+        {"name": "现金管理", "businessPriority": "focus", "keywords": ["现金管理", "委托理财", "结构性存款"]},
+        {"name": "融资租赁", "businessPriority": "standard", "keywords": ["融资租赁"]},
+        {"name": "授信贷款", "businessPriority": "standard", "keywords": ["授信额度", "银行贷款", "借款"]},
+        {"name": "担保", "businessPriority": "standard", "keywords": ["对外担保", "担保额度"]},
+        {"name": "关联资金", "businessPriority": "standard", "keywords": ["关联资金", "资金占用", "财务资助"]}
+      ]
+    },
+    {
+      "name": "治理关系",
+      "targetObjects": ["董秘办", "证券事务代表", "管理层"],
+      "tags": [
+        {"name": "董监高", "businessPriority": "focus", "keywords": ["董事任职", "监事任职", "高级管理人员", "董事辞职", "监事辞职", "高管辞职"]},
+        {"name": "董秘证代", "businessPriority": "focus", "keywords": ["董事会秘书", "证券事务代表"]},
+        {"name": "财务负责人", "businessPriority": "focus", "keywords": ["财务负责人", "财务总监"]},
+        {"name": "章程治理", "businessPriority": "standard", "keywords": ["公司章程", "股东大会", "董事会会议", "治理制度"]},
+        {"name": "内控整改", "businessPriority": "standard", "keywords": ["内部控制", "内控整改"]}
+      ]
+    },
+    {
+      "name": "风险沟通",
+      "targetObjects": ["董秘", "合规风控", "控股股东", "财务"],
+      "tags": [
+        {"name": "监管问询", "businessPriority": "standard", "keywords": ["问询函", "监管函", "关注函"]},
+        {"name": "立案处罚", "businessPriority": "standard", "keywords": ["立案调查", "行政处罚"]},
+        {"name": "风险警示", "businessPriority": "standard", "keywords": ["风险警示", "退市风险"]},
+        {"name": "诉讼仲裁", "businessPriority": "standard", "keywords": ["重大诉讼", "诉讼进展", "仲裁"]},
+        {"name": "债务违约", "businessPriority": "standard", "keywords": ["债务违约", "逾期债务"]},
+        {"name": "异常波动", "businessPriority": "standard", "keywords": ["异常波动", "严重异常波动"]}
+      ]
+    },
+    {
+      "name": "业绩与分红",
+      "targetObjects": ["董秘", "投资者关系", "财务"],
+      "tags": [
+        {"name": "定期报告", "businessPriority": "standard", "keywords": ["年度报告", "半年度报告", "季度报告"]},
+        {"name": "业绩预告", "businessPriority": "standard", "keywords": ["业绩预告", "业绩快报"]},
+        {"name": "分红", "businessPriority": "standard", "keywords": ["利润分配", "现金分红", "权益分派"]},
+        {"name": "经营数据", "businessPriority": "standard", "keywords": ["主要经营数据", "产销数据"]},
+        {"name": "IR说明会", "businessPriority": "standard", "keywords": ["业绩说明会", "投资者说明会", "投资者关系活动"]}
+      ]
+    },
+    {
+      "name": "经营与产业",
+      "targetObjects": ["董秘", "业务负责人", "财务"],
+      "tags": [
+        {"name": "重大合同", "businessPriority": "standard", "keywords": ["重大合同", "中标项目", "签订合同"]},
+        {"name": "对外投资", "businessPriority": "focus", "keywords": ["对外投资", "设立子公司", "投资设立", "增资子公司"]},
+        {"name": "产能项目", "businessPriority": "standard", "keywords": ["产能建设", "建设项目", "生产线"]},
+        {"name": "停产检修", "businessPriority": "standard", "keywords": ["停产检修", "停产整顿", "临时停产"]},
+        {"name": "资质许可", "businessPriority": "standard", "keywords": ["资质许可", "获得认证", "药品目录", "注册证"]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "private-fund-snapshot.schema.json",
+  "title": "V3 Shaanxi Securities Private Fund Snapshot",
+  "type": "object",
+  "required": ["schemaVersion", "snapshotId", "asOf", "summary", "rankingMethod", "topManagers", "newProducts", "custodianSummary", "personnelChanges", "locationObservations", "businessTaxonomy", "source"],
+  "properties": {
+    "schemaVersion": {"const": "0.1"},
+    "snapshotId": {"type": "string"},
+    "asOf": {"type": "string", "format": "date-time"},
+    "summary": {
+      "type": "object",
+      "required": ["managerCount", "ytdProductCount", "newProductCount", "topManagerCount", "personnelCoveredCount", "personnelComparisonStatus"]
+    },
+    "rankingMethod": {"type": "object", "required": ["formula", "purpose"]},
+    "topManagers": {"type": "array", "minItems": 20, "maxItems": 20},
+    "newProducts": {"type": "array"},
+    "custodianSummary": {"type": "array"},
+    "personnelChanges": {"type": "array"},
+    "locationObservations": {"type": "array"},
+    "businessTaxonomy": {"type": "array", "minItems": 6, "maxItems": 6},
+    "source": {"type": "object", "required": ["name", "managerListUrl", "fundListUrl", "capturedAt"]}
+  },
+  "additionalProperties": true
+}

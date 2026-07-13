@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "pre-ipo.schema.json",
+  "title": "V3 Shaanxi Pre-IPO Enterprise Profiles",
+  "type": "object",
+  "required": ["schemaVersion", "asOf", "reserveYear", "reserveTotalCount", "tierCounts", "profiles", "financingRecords", "source"],
+  "properties": {
+    "schemaVersion": {"const": "0.1"},
+    "reserveTotalCount": {"const": 530},
+    "tierCounts": {"type": "object", "required": ["A", "B", "C"]},
+    "profiles": {"type": "array", "minItems": 81},
+    "financingRecords": {"type": "array"}
+  }
+}

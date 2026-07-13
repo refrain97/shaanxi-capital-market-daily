@@ -1,0 +1,239 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.example/v3/dashboard-data.schema.json",
+  "title": "Shaanxi Capital Market Intelligence V3 dashboard data",
+  "type": "object",
+  "required": ["meta", "providers", "entities", "sources", "evidence", "events", "signals", "leads", "watchItems", "listedDaily", "financialReports", "tenderMonitor", "snapshots"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["schemaVersion", "asOf", "timezone", "sampleStatus"],
+      "properties": {
+        "schemaVersion": {"const": "0.5"},
+        "asOf": {"type": "string", "format": "date"},
+        "timezone": {"const": "Asia/Shanghai"},
+        "sampleStatus": {"enum": ["normalized_from_v1", "production"]}
+      }
+    },
+    "providers": {"type": "array", "items": {"$ref": "#/$defs/providerRun"}},
+    "entities": {"type": "array", "items": {"$ref": "#/$defs/entity"}},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+    "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+    "events": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "signals": {"type": "array", "items": {"$ref": "#/$defs/signal"}},
+    "leads": {"type": "array", "items": {"$ref": "#/$defs/lead"}},
+    "watchItems": {"type": "array", "items": {"$ref": "#/$defs/watchItem"}},
+    "listedDaily": {"$ref": "#/$defs/listedDaily"},
+    "financialReports": {"type": "array", "items": {"$ref": "#/$defs/financialReport"}},
+    "tenderMonitor": {"$ref": "#/$defs/tenderMonitor"},
+    "snapshots": {"type": "array", "items": {"$ref": "#/$defs/snapshot"}}
+  },
+  "$defs": {
+    "providerRun": {
+      "type": "object",
+      "required": ["providerId", "status", "checkedAt", "affectedChannels"],
+      "properties": {
+        "providerId": {"type": "string"},
+        "status": {"enum": ["PASS", "DEGRADED", "FAIL_AUTH", "FAIL_NETWORK", "FAIL_QUOTA", "FAIL_SCHEMA"]},
+        "checkedAt": {"type": "string", "format": "date-time"},
+        "affectedChannels": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "entity": {
+      "type": "object",
+      "required": ["entityId", "entityType", "canonicalName", "aliases", "region", "status"],
+      "properties": {
+        "entityId": {"type": "string", "minLength": 3},
+        "entityType": {"type": "string"},
+        "canonicalName": {"type": "string", "minLength": 2},
+        "aliases": {"type": "array", "items": {"type": "string"}},
+        "region": {"type": "string"},
+        "status": {"enum": ["active", "inactive", "cancelled", "unknown"]},
+        "universeTier": {"enum": ["L1", "L2", "L3"]}
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["sourceRecordId", "sourceType", "sourceName", "url", "title", "publishedAt", "fetchedAt", "sourceQuality"],
+      "properties": {
+        "sourceRecordId": {"type": "string"},
+        "sourceQuality": {"enum": ["official", "authoritative", "secondary", "discovery_only"]}
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["evidenceId", "sourceRecordId", "factPath", "value", "verificationStatus"],
+      "properties": {
+        "verificationStatus": {"enum": ["verified", "cross_checked", "pending", "conflict"]}
+      }
+    },
+    "event": {
+      "type": "object",
+      "required": ["eventId", "eventKey", "channel", "eventType", "primaryEntityId", "title", "summary", "publishedAt", "discoveredAt", "lastCheckedAt", "eventStatus", "noveltyStatus", "qualityStatus", "sourceRecordIds", "evidenceIds", "business", "timeline"],
+      "properties": {
+        "channel": {"enum": ["listed", "private_fund", "equity_financing", "ma", "tender", "soe"]},
+        "noveltyStatus": {"enum": ["new", "progress", "backfill", "unchanged"]},
+        "qualityStatus": {"enum": ["verified", "cross_checked", "pending", "conflict"]},
+        "deadlineAt": {"type": ["string", "null"]},
+        "sourceRecordIds": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "evidenceIds": {"type": "array", "items": {"type": "string"}},
+        "timeline": {"type": "array", "minItems": 1}
+      }
+    },
+    "signal": {
+      "type": "object",
+      "required": ["signalId", "eventId", "headline", "whyItMatters", "primaryBusiness", "priority", "signalStatus", "actionable", "reasoning"],
+      "properties": {
+        "priority": {"enum": ["high", "medium", "low"]},
+        "signalStatus": {"enum": ["today_new", "action_window", "risk", "data_update", "result_progress", "backfill", "watch", "miss_review"]}
+      }
+    },
+    "lead": {
+      "type": "object",
+      "required": ["leadId", "signalId", "targetEntityId", "businessType", "rationale", "nextAction", "leadStatus", "confidence"]
+    },
+    "watchItem": {
+      "type": "object",
+      "required": ["watchId", "eventId", "entityId", "watchStatus", "priority", "tags", "business", "note", "nextReviewAt", "createdAt", "updatedAt", "stateHistory"],
+      "properties": {
+        "watchId": {"type": "string", "minLength": 3},
+        "eventId": {"type": "string", "minLength": 3},
+        "entityId": {"type": "string", "minLength": 3},
+        "watchStatus": {"enum": ["saved", "to_review", "following", "waiting", "resolved", "closed"]},
+        "priority": {"enum": ["high", "medium", "low"]},
+        "tags": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "business": {"type": "string"},
+        "note": {"type": "string"},
+        "nextReviewAt": {"type": ["string", "null"], "format": "date-time"},
+        "createdAt": {"type": "string", "format": "date-time"},
+        "updatedAt": {"type": "string", "format": "date-time"},
+        "stateHistory": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["status", "at"],
+            "properties": {
+              "status": {"enum": ["saved", "to_review", "following", "waiting", "resolved", "closed"]},
+              "at": {"type": "string", "format": "date-time"}
+            }
+          }
+        }
+      }
+    },
+    "listedDailyItem": {
+      "type": "object",
+      "required": ["dailyItemId", "eventId", "entityId", "sourceRecordIds", "rmCategory", "rmSubcategory", "businessPriority", "targetObjects", "importance", "effective", "inclusionReason"],
+      "properties": {
+        "dailyItemId": {"type": "string", "minLength": 3},
+        "eventId": {"type": "string", "minLength": 3},
+        "entityId": {"type": "string", "minLength": 3},
+        "sourceRecordIds": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+        "rmCategory": {"enum": ["资本运作", "股东服务", "激励与员工", "资金与财务", "治理关系", "风险沟通", "业绩与分红", "经营与产业"]},
+        "rmSubcategory": {"enum": ["定增/再融资", "可转债", "并购重组", "分拆上市", "股份回购", "募投补流", "减持", "增持", "质押冻结", "权益变动", "转让拍卖", "限售解禁", "股权激励", "员工持股", "授予归属", "行权", "回购注销", "现金管理", "融资租赁", "授信贷款", "担保", "关联资金", "董监高", "董秘证代", "财务负责人", "章程治理", "内控整改", "监管问询", "立案处罚", "风险警示", "诉讼仲裁", "债务违约", "异常波动", "定期报告", "业绩预告", "分红", "经营数据", "IR说明会", "重大合同", "对外投资", "产能项目", "停产检修", "资质许可"]},
+        "businessPriority": {"enum": ["focus", "standard"]},
+        "targetObjects": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 2}},
+        "importance": {"enum": ["important", "normal"]},
+        "effective": {"const": true},
+        "inclusionReason": {"type": "string", "minLength": 4}
+      }
+    },
+    "listedDaily": {
+      "type": "object",
+      "required": ["reportDate", "windowStart", "windowEnd", "universeCount", "retrievedUniverseCount", "universeTierCounts", "universeDataUrl", "announcementCount", "coveredCompanyCount", "effectiveEventCount", "retrievalErrorCount", "queryMethod", "sourceStatus", "items"],
+      "properties": {
+        "reportDate": {"type": "string", "format": "date"},
+        "windowStart": {"type": "string", "format": "date"},
+        "windowEnd": {"type": "string", "format": "date"},
+        "universeCount": {"type": "integer", "minimum": 1},
+        "retrievedUniverseCount": {"type": "integer", "minimum": 0},
+        "universeTierCounts": {
+          "type": "object",
+          "required": ["L1", "L2", "L3"],
+          "properties": {"L1": {"type": "integer", "minimum": 0}, "L2": {"type": "integer", "minimum": 0}, "L3": {"type": "integer", "minimum": 0}}
+        },
+        "universeDataUrl": {"type": "string", "minLength": 3},
+        "announcementCount": {"type": "integer", "minimum": 0},
+        "coveredCompanyCount": {"type": "integer", "minimum": 0},
+        "effectiveEventCount": {"type": "integer", "minimum": 0},
+        "retrievalErrorCount": {"type": "integer", "minimum": 0},
+        "queryMethod": {"type": "string", "minLength": 3},
+        "sourceStatus": {"enum": ["PASS", "DEGRADED", "FAIL"]},
+        "items": {"type": "array", "items": {"$ref": "#/$defs/listedDailyItem"}}
+      }
+    },
+    "financialReport": {
+      "type": "object",
+      "required": ["financialReportId", "eventId", "entityId", "period", "disclosureType", "currency", "sourceRecordIds", "revenue", "revenueYoY", "netProfitLower", "netProfitUpper", "netProfitYoYLower", "netProfitYoYUpper", "adjustedNetProfitLower", "adjustedNetProfitUpper", "adjustedNetProfitYoYLower", "adjustedNetProfitYoYUpper", "operatingCashFlow", "grossMargin", "netMargin", "dividendPerShare", "dividendTotal", "businessMix", "anomalies", "auditStatus"],
+      "properties": {
+        "financialReportId": {"type": "string", "minLength": 3},
+        "eventId": {"type": "string", "minLength": 3},
+        "entityId": {"type": "string", "minLength": 3},
+        "period": {"type": "string", "minLength": 3},
+        "disclosureType": {"enum": ["annual_report", "quarterly_report", "performance_forecast", "performance_flash", "annual_report_inquiry", "dividend_implementation"]},
+        "currency": {"enum": ["CNY", "HKD", "USD"]},
+        "sourceRecordIds": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+        "revenue": {"type": ["number", "null"]},
+        "revenueYoY": {"type": ["number", "null"]},
+        "netProfitLower": {"type": ["number", "null"]},
+        "netProfitUpper": {"type": ["number", "null"]},
+        "netProfitYoYLower": {"type": ["number", "null"]},
+        "netProfitYoYUpper": {"type": ["number", "null"]},
+        "adjustedNetProfitLower": {"type": ["number", "null"]},
+        "adjustedNetProfitUpper": {"type": ["number", "null"]},
+        "adjustedNetProfitYoYLower": {"type": ["number", "null"]},
+        "adjustedNetProfitYoYUpper": {"type": ["number", "null"]},
+        "operatingCashFlow": {"type": ["number", "null"]},
+        "grossMargin": {"type": ["number", "null"]},
+        "netMargin": {"type": ["number", "null"]},
+        "dividendPerShare": {"type": ["number", "null"]},
+        "dividendTotal": {"type": ["number", "null"]},
+        "businessMix": {"type": "array", "items": {"type": "string"}},
+        "anomalies": {"type": "array", "items": {"type": "string"}},
+        "auditStatus": {"enum": ["audited", "unaudited", "inquiry_followup", "implemented"]}
+      }
+    },
+    "tenderMonitor": {
+      "type": "object",
+      "required": ["asOf", "mode", "scanIntervalMinutes", "schedulerEnabled", "schedulerStatus", "sourceRegistryFile", "activeOpportunityEventIds", "projects", "findings", "scanRuns"],
+      "properties": {
+        "asOf": {"type": "string", "format": "date-time"},
+        "mode": {"enum": ["prototype", "production"]},
+        "scanIntervalMinutes": {"type": "integer", "minimum": 30, "maximum": 60},
+        "schedulerEnabled": {"type": "boolean"},
+        "schedulerStatus": {"enum": ["not_enabled", "running", "degraded", "failed"]},
+        "sourceRegistryFile": {"type": "string"},
+        "activeOpportunityEventIds": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "projects": {"type": "array", "items": {"$ref": "#/$defs/tenderProject"}},
+        "findings": {"type": "array", "items": {"$ref": "#/$defs/tenderFinding"}},
+        "scanRuns": {"type": "array", "items": {"$ref": "#/$defs/tenderScanRun"}}
+      }
+    },
+    "tenderProject": {
+      "type": "object",
+      "required": ["tenderProjectId", "eventId", "projectCode", "procurementEntityId", "serviceType", "stage", "eligibilityStatus", "sourceQuality", "fitRationale", "qualificationRequirements", "publishedAt", "discoveredAt", "deadlineAt", "remainingHoursAtDiscovery", "firstDiscoveryStage", "alertStatus", "missReview"],
+      "properties": {
+        "stage": {"enum": ["pending", "announcement", "registration", "bidding", "closed_waiting", "candidate", "award", "contract", "completed", "terminated"]},
+        "eligibilityStatus": {"enum": ["eligible", "pending", "excluded"]},
+        "sourceQuality": {"enum": ["official", "authoritative", "secondary", "discovery_only"]},
+        "alertStatus": {"enum": ["immediate", "review", "history", "miss_review", "none"]}
+      }
+    },
+    "tenderFinding": {
+      "type": "object",
+      "required": ["findingId", "title", "purchaser", "stage", "eligibilityStatus", "sourceQuality", "discoveredAt", "publishedAt", "deadlineAt", "classification", "alertStatus", "decision", "nextAction"]
+    },
+    "tenderScanRun": {
+      "type": "object",
+      "required": ["tenderScanRunId", "runMode", "startedAt", "finishedAt", "sourceScope", "candidateCount", "activeOpportunityCount", "resultFindingCount", "excludedCount", "status", "note"]
+    },
+    "snapshot": {
+      "type": "object",
+      "required": ["snapshotId", "date", "slot", "generatedAt", "dataCutoffAt", "newEventIds", "updatedEventIds", "activeSignalIds", "leadIds", "qualityResult"],
+      "properties": {
+        "slot": {"enum": ["morning", "closing"]},
+        "qualityResult": {"enum": ["PASS", "PASS_WITH_REVIEW", "DEGRADED", "FAIL"]}
+      }
+    }
+  }
+}

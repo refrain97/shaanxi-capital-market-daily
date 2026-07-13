@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "0.1",
+  "year": 2026,
+  "asOf": "2026-07-12T11:00:00+08:00",
+  "metrics": {
+    "normalizedEvents": 18,
+    "listedDailyItems": 10,
+    "maProjects": 25,
+    "maActiveProjects": 19,
+    "privateManagers": 82,
+    "privateYtdProducts": 27,
+    "reserveEnterprises": 530,
+    "aTierProfiles": 80,
+    "verifiedFinancing": 1,
+    "tenderScannedRecords": 81,
+    "activeTenderOpportunities": 0
+  },
+  "monthlySeries": {
+    "events": [
+      {
+        "month": "2026-01",
+        "count": 1
+      },
+      {
+        "month": "2026-02",
+        "count": 0
+      },
+      {
+        "month": "2026-03",
+        "count": 1
+      },
+      {
+        "month": "2026-04",
+        "count": 0
+      },
+      {
+        "month": "2026-05",
+        "count": 0
+      },
+      {
+        "month": "2026-06",
+        "count": 3
+      },
+      {
+        "month": "2026-07",
+        "count": 13
+      },
+      {
+        "month": "2026-08",
+        "count": 0
+      },
+      {
+        "month": "2026-09",
+        "count": 0
+      },
+      {
+        "month": "2026-10",
+        "count": 0
+      },
+      {
+        "month": "2026-11",
+        "count": 0
+      },
+      {
+        "month": "2026-12",
+        "count": 0
+      }
+    ],
+    "maMilestones": [
+      {
+        "month": "2026-01",
+        "count": 3
+      },
+      {
+        "month": "2026-02",
+        "count": 3
+      },
+      {
+        "month": "2026-03",
+        "count": 6
+      },
+      {
+        "month": "2026-04",
+        "count": 4
+      },
+      {
+        "month": "2026-05",
+        "count": 12
+      },
+      {
+        "month": "2026-06",
+        "count": 9
+      },
+      {
+        "month": "2026-07",
+        "count": 3
+      },
+      {
+        "month": "2026-08",
+        "count": 0
+      },
+      {
+        "month": "2026-09",
+        "count": 0
+      },
+      {
+        "month": "2026-10",
+        "count": 0
+      },
+      {
+        "month": "2026-11",
+        "count": 0
+      },
+      {
+        "month": "2026-12",
+        "count": 0
+      }
+    ],
+    "reserveMilestones": [
+      {
+        "month": "2026-01",
+        "count": 0
+      },
+      {
+        "month": "2026-02",
+        "count": 0
+      },
+      {
+        "month": "2026-03",
+        "count": 0
+      },
+      {
+        "month": "2026-04",
+        "count": 0
+      },
+      {
+        "month": "2026-05",
+        "count": 0
+      },
+      {
+        "month": "2026-06",
+        "count": 80
+      },
+      {
+        "month": "2026-07",
+        "count": 0
+      },
+      {
+        "month": "2026-08",
+        "count": 0
+      },
+      {
+        "month": "2026-09",
+        "count": 0
+      },
+      {
+        "month": "2026-10",
+        "count": 0
+      },
+      {
+        "month": "2026-11",
+        "count": 0
+      },
+      {
+        "month": "2026-12",
+        "count": 0
+      }
+    ],
+    "privateFilings": [
+      {
+        "month": "2026-01",
+        "count": 0
+      },
+      {
+        "month": "2026-02",
+        "count": 0
+      },
+      {
+        "month": "2026-03",
+        "count": 0
+      },
+      {
+        "month": "2026-04",
+        "count": 0
+      },
+      {
+        "month": "2026-05",
+        "count": 0
+      },
+      {
+        "month": "2026-06",
+        "count": 0
+      },
+      {
+        "month": "2026-07",
+        "count": 1
+      },
+      {
+        "month": "2026-08",
+        "count": 0
+      },
+      {
+        "month": "2026-09",
+        "count": 0
+      },
+      {
+        "month": "2026-10",
+        "count": 0
+      },
+      {
+        "month": "2026-11",
+        "count": 0
+      },
+      {
+        "month": "2026-12",
+        "count": 0
+      }
+    ],
+    "financing": [
+      {
+        "month": "2026-01",
+        "count": 0
+      },
+      {
+        "month": "2026-02",
+        "count": 0
+      },
+      {
+        "month": "2026-03",
+        "count": 0
+      },
+      {
+        "month": "2026-04",
+        "count": 0
+      },
+      {
+        "month": "2026-05",
+        "count": 0
+      },
+      {
+        "month": "2026-06",
+        "count": 1
+      },
+      {
+        "month": "2026-07",
+        "count": 0
+      },
+      {
+        "month": "2026-08",
+        "count": 0
+      },
+      {
+        "month": "2026-09",
+        "count": 0
+      },
+      {
+        "month": "2026-10",
+        "count": 0
+      },
+      {
+        "month": "2026-11",
+        "count": 0
+      },
+      {
+        "month": "2026-12",
+        "count": 0
+      }
+    ]
+  },
+  "dataBoundaries": [
+    "各指标保持独立业务口径，不相加生成总事件数。",
+    "证券私募全年备案数来自V1 AMAC快照；月序列仅统计已进入V3差异记录的备案。",
+    "上市后备530家为名录总量；逐家档案当前覆盖A档80家。",
+    "招投标扫描数是扫描记录，不等于有效机会。"
+  ]
+}

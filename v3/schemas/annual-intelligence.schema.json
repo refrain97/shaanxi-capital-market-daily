@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "annual-intelligence.schema.json",
+  "title": "V3 annual intelligence metrics",
+  "type": "object",
+  "required": ["schemaVersion", "year", "asOf", "metrics", "monthlySeries", "dataBoundaries"],
+  "properties": {
+    "schemaVersion": {"const": "0.1"},
+    "year": {"const": 2026},
+    "asOf": {"type": "string", "minLength": 10},
+    "metrics": {"type": "object"},
+    "monthlySeries": {"type": "object"},
+    "dataBoundaries": {"type": "array", "minItems": 4, "items": {"type": "string"}}
+  }
+}
