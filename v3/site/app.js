@@ -8,6 +8,8 @@ const RELATIONSHIPS_URL = "../data/relationships/latest.json";
 const ANNUAL_INTELLIGENCE_URL = "../data/annual/2026.json";
 const LISTED_TAXONOMY_URL = "../config/listed-business-taxonomy.json";
 const LISTED_UNIVERSE_URL = "../data/listed/universe.json";
+const LISTED_WORKSPACE_URL = "../data/listed/workspace-2026.json";
+const PRIVATE_FUND_WORKSPACE_URL = "../data/private-fund/workspace-2026.json";
 const EVENT_STORE_SUMMARY_URL = "../data/runtime/event-store-summary.json";
 const BACKFILL_COVERAGE_URL = "../data/backfill/coverage-2026.json";
 const WATCH_STORAGE_KEY = "shaanxi-v3-watch-items-v1";
@@ -66,11 +68,16 @@ const state = {
   listedPeriod: "all",
   listedCompareIds: ["ent-meichang", "ent-rainbow", "ent-aikosai"],
   listedCompanyId: null,
+  listedWorkspace: null,
+  listedWorkspaceStatus: "active",
+  listedWorkspaceLimit: 60,
   tenderRegistry: null,
   tenderRuntime: null,
   tenderTab: "opportunities",
   privateFund: null,
-  privateTab: "today",
+  privateTab: "filings",
+  privateWorkspace: null,
+  privateOpenQuarters: new Set(["Q3"]),
   maProjects: null,
   preIpo: null,
   relationships: null,
@@ -296,6 +303,7 @@ function renderDashboard() {
 
 function renderListed() {
   const daily = state.data.listedDaily;
+  const workspace = state.listedWorkspace;
   const tabs = [
     ["daily", "最新日报", "完整有效动态"],
     ["important", "重点事项", "业务重点与重大内容"],
@@ -303,14 +311,24 @@ function renderListed() {
     ["company", "公司跟踪", "事件与复核"]
   ];
   const tabBar = `<div class="workspace-tabs" role="tablist">${tabs.map(([value, label, sub]) => `<button class="${state.listedTab === value ? "active" : ""}" data-listed-tab="${value}" role="tab" aria-selected="${state.listedTab === value}"><strong>${label}</strong><span>${sub}</span></button>`).join("")}</div>`;
-  const content = state.listedTab === "financial" ? renderListedFinancial() : state.listedTab === "company" ? renderListedCompany() : renderListedDaily(state.listedTab === "important");
-  $("#view-listed").innerHTML = `${pageHeading("LISTED COMPANY DESK", "上市公司工作台", "完整日报、重点业务、财务披露与公司跟踪使用同一事件底座。", `完整池 ${daily.universeCount} 家<br>本次检索 ${daily.retrievedUniverseCount} 家 · ${daily.announcementCount} 份公告`)}${tabBar}${content}`;
+  const content = state.listedTab === "financial" ? renderListedFinancial() : state.listedTab === "company" ? renderListedCompany() : state.listedTab === "important" ? renderListedImportantWorkspace() : renderListedDaily(false);
+  const retrieved = workspace?.universe.retrievedSubjectCount ?? daily.retrievedUniverseCount;
+  const announcementCount = workspace?.universe.announcementCount ?? daily.announcementCount;
+  $("#view-listed").innerHTML = `${pageHeading("LISTED COMPANY DESK", "上市公司工作台", "117家统一检索，重点业务事项持续跟踪，明确结束后进入归档。", `检索目标 ${daily.universeCount} 家<br>实际返回 ${retrieved} 家 · 年内公告 ${announcementCount} 份`)}${tabBar}${content}`;
   bindListedControls();
 }
 
 function listedKpis() {
   const daily = state.data.listedDaily;
-  return `<div class="kpi-grid listed-kpis"><div class="kpi"><span class="kpi-top"><span>完整跟踪池</span>${icon("layers-3")}</span><strong class="kpi-value">${daily.universeCount}<span class="kpi-delta">L1+L2+L3</span></strong></div><div class="kpi"><span class="kpi-top"><span>本次实际检索</span>${icon("scan-search")}</span><strong class="kpi-value">${daily.retrievedUniverseCount}<span class="kpi-delta">当前仅L1</span></strong></div><div class="kpi"><span class="kpi-top"><span>原始公告</span>${icon("files")}</span><strong class="kpi-value">${daily.announcementCount}<span class="kpi-delta">份PDF</span></strong></div><div class="kpi"><span class="kpi-top"><span>有效事项</span>${icon("list-checks")}</span><strong class="kpi-value">${daily.effectiveEventCount}<span class="kpi-delta">已归并</span></strong></div><div class="kpi"><span class="kpi-top"><span>检索错误</span>${icon("shield-check")}</span><strong class="kpi-value">${daily.retrievalErrorCount}<span class="kpi-delta">${daily.sourceStatus}</span></strong></div></div><div class="listed-universe-strip"><div><strong>L1 · ${daily.universeTierCounts.L1}</strong><span>陕西辖区A股</span></div><div><strong>L2 · ${daily.universeTierCounts.L2}</strong><span>陕西港股</span></div><div><strong>L3 · ${daily.universeTierCounts.L3}</strong><span>强线索或持股&gt;10%</span></div><p>${icon("triangle-alert")}L2和L3已进入完整跟踪池，但当前日报公告抓取仍只覆盖L1的${daily.retrievedUniverseCount}家。</p></div>`;
+  const workspace = state.listedWorkspace;
+  const universe = workspace?.universe;
+  const targetCount = universe?.targetCount ?? daily.universeCount;
+  const retrievedCount = universe?.retrievedSubjectCount ?? daily.retrievedUniverseCount;
+  const announcements = universe?.announcementCount ?? daily.announcementCount;
+  const focusMatters = universe?.matterCount ?? daily.effectiveEventCount;
+  const tierMap = Object.fromEntries((universe?.tierStats || []).map((item) => [item.tier, item]));
+  const tierCounts = daily.universeTierCounts;
+  return `<div class="kpi-grid listed-kpis"><div class="kpi"><span class="kpi-top"><span>检索目标</span>${icon("layers-3")}</span><strong class="kpi-value">${targetCount}<span class="kpi-delta">L1+L2+L3</span></strong></div><div class="kpi"><span class="kpi-top"><span>实际返回主体</span>${icon("scan-search")}</span><strong class="kpi-value">${retrievedCount}<span class="kpi-delta">${retrievedCount}/${targetCount}</span></strong></div><div class="kpi"><span class="kpi-top"><span>年内原始公告</span>${icon("files")}</span><strong class="kpi-value">${announcements}<span class="kpi-delta">官方来源</span></strong></div><div class="kpi"><span class="kpi-top"><span>重点归并事项</span>${icon("list-checks")}</span><strong class="kpi-value">${focusMatters}<span class="kpi-delta">去重后</span></strong></div><div class="kpi"><span class="kpi-top"><span>检索完整率</span>${icon("shield-check")}</span><strong class="kpi-value">${Math.round(retrievedCount / targetCount * 100)}%<span class="kpi-delta">主体有结果</span></strong></div></div><div class="listed-universe-strip"><div><strong>L1 · ${tierMap.L1?.subjectCount ?? tierCounts.L1}</strong><span>${tierMap.L1?.announcementCount ?? "--"}份公告</span></div><div><strong>L2 · ${tierMap.L2?.subjectCount ?? tierCounts.L2}</strong><span>${tierMap.L2?.announcementCount ?? "--"}份公告</span></div><div><strong>L3 · ${tierMap.L3?.subjectCount ?? tierCounts.L3}</strong><span>${tierMap.L3?.announcementCount ?? "--"}份公告</span></div><p>${icon("circle-check-big")}117家均有检索返回；L2港股继续用港交所披露易做最终完整性复核。</p></div>`;
 }
 
 function getListedDailyItems(importantOnly = false) {
@@ -332,6 +350,40 @@ function renderListedDaily(importantOnly) {
   const categories = state.listedTaxonomy?.categories.map((item) => item.name) || ["资本运作", "股东服务", "激励与员工", "资金与财务", "治理关系", "风险沟通", "业绩与分红", "经营与产业"];
   const toolbar = `<div class="toolbar listed-toolbar" data-filter-kind="listed"><label class="search-field">${icon("search")}<input type="search" data-listed-filter="query" value="${esc(state.listedFilters.query)}" placeholder="搜索公司、代码、二级标签或跟进对象"></label><select data-listed-filter="category">${option("all", "全部RM分类", state.listedFilters.category)}${categories.map((value) => option(value, value, state.listedFilters.category)).join("")}</select>${importantOnly ? "" : `<select data-listed-filter="importance">${option("all", "全部事项", state.listedFilters.importance)}${option("business_focus", "业务重点", state.listedFilters.importance)}${option("important", "内容重要", state.listedFilters.importance)}${option("normal", "一般有效事项", state.listedFilters.importance)}</select>`}</div>`;
   return `${listedKpis()}<div class="listed-context"><span>${importantOnly ? "双轴重点筛选" : "完整日报口径"}</span><strong>${items.length} 个有效事项</strong><p>${importantOnly ? "业务重点严格按确认的21个二级标签；内容重要性继续独立判断风险、业绩异常和重大经营事项。" : "公告先归并为唯一事项，再分别标注一级业务、二级标签、业务重点和内容重要性。"}</p></div>${toolbar}<div class="listed-daily-list">${items.map(listedDailyRow).join("") || emptyState("当前筛选无有效事项")}</div>`;
+}
+
+function getListedWorkspaceMatters() {
+  const workspace = state.listedWorkspace;
+  if (!workspace) return [];
+  let items = workspace.matters.filter((item) => item.workspaceStatus === state.listedWorkspaceStatus);
+  const filters = state.listedFilters;
+  if (filters.category !== "all") items = items.filter((item) => item.rmCategory === filters.category);
+  if (filters.query) {
+    const query = filters.query.toLowerCase();
+    items = items.filter((item) => `${item.companyName}${item.securityCode}${item.title}${item.rmCategory}${item.rmSubcategory}${item.targetObjects.join("")}`.toLowerCase().includes(query));
+  }
+  return items;
+}
+
+function renderListedImportantWorkspace() {
+  const workspace = state.listedWorkspace;
+  if (!workspace) return `${listedKpis()}${emptyState("重点公告年度数据加载失败")}`;
+  const items = getListedWorkspaceMatters();
+  const visible = items.slice(0, state.listedWorkspaceLimit);
+  const categories = state.listedTaxonomy?.categories.map((item) => item.name) || [];
+  const activeCount = workspace.universe.activeMatterCount;
+  const archivedCount = workspace.universe.archivedMatterCount;
+  const statusSwitch = `<div class="workspace-status-switch" role="group" aria-label="重点事项状态"><button class="${state.listedWorkspaceStatus === "active" ? "active" : ""}" data-listed-workspace-status="active">${icon("radio-tower")}持续观察 <strong>${activeCount}</strong></button><button class="${state.listedWorkspaceStatus === "archived" ? "active" : ""}" data-listed-workspace-status="archived">${icon("archive")}已结束归档 <strong>${archivedCount}</strong></button></div>`;
+  const toolbar = `<div class="toolbar listed-toolbar"><label class="search-field">${icon("search")}<input type="search" data-listed-filter="query" value="${esc(state.listedFilters.query)}" placeholder="搜索公司、代码、重点标签或公告"></label><select data-listed-filter="category">${option("all", "全部8类业务", state.listedFilters.category)}${categories.map((value) => option(value, value, state.listedFilters.category)).join("")}</select></div>`;
+  const rows = visible.map(listedWorkspaceRow).join("");
+  const more = visible.length < items.length ? `<button class="load-more" data-listed-load-more>${icon("chevrons-down")}再显示 ${Math.min(60, items.length - visible.length)} 项</button>` : "";
+  return `${listedKpis()}<div class="listed-context"><span>2026重点公告库</span><strong>${workspace.universe.focusCandidateCount}份重点公告归并为${workspace.universe.matterCount}个事项</strong><p>同公司、同业务标签、同日公告合并展示；主公告在前，意见书等作为附件。当前为标题归类，正文核验后再转正式事件。</p></div>${statusSwitch}${toolbar}<div class="listed-workspace-list">${rows || emptyState("当前筛选没有重点事项")}</div>${more}`;
+}
+
+function listedWorkspaceRow(item) {
+  const primary = item.sources[0];
+  const status = item.workspaceStatus === "archived" ? '<span class="badge gray">已归档</span>' : '<span class="badge green">持续观察</span>';
+  return `<article class="listed-workspace-row"><div class="listed-date"><strong>${dateLabel(item.publishedAt)}</strong><span>${esc(item.universeTier)}</span></div><div class="listed-event"><div class="signal-meta">${status}<span>${esc(item.rmCategory)} · ${esc(item.rmSubcategory)}</span><span>${esc(item.securityCode)}</span></div><h3>${esc(item.companyName)}｜${esc(item.title)}</h3><p>${esc(item.statusReason)} · 跟进对象：${esc(item.targetObjects.join("、"))}</p><small>${item.sourceCount}份相关公告 · ${item.normalizationStatus === "title_classified_pdf_pending" ? "正文待核验" : "已核验"}</small></div><div class="listed-workspace-action"><strong>${item.sourceCount > 1 ? `主公告 + ${item.sourceCount - 1}附件` : "主公告"}</strong>${primary?.url ? `<a href="${esc(primary.url)}" target="_blank" rel="noreferrer">查看原文 ${icon("external-link")}</a>` : ""}</div></article>`;
 }
 
 function listedDailyRow(item) {
@@ -523,7 +575,8 @@ function renderTender() {
 function privateFundKpis() {
   const item = state.privateFund;
   const summary = item.summary;
-  return `<div class="kpi-grid private-kpis"><div class="kpi"><span class="kpi-top"><span>陕西口径管理人</span>${icon("building-2")}</span><strong class="kpi-value">${summary.managerCount}<span class="kpi-delta">注册或办公地</span></strong></div><div class="kpi"><span class="kpi-top"><span>年内备案产品</span>${icon("files")}</span><strong class="kpi-value">${summary.ytdProductCount}<span class="kpi-delta">AMAC公示</span></strong></div><div class="kpi"><span class="kpi-top"><span>本次新增识别</span>${icon("sparkles")}</span><strong class="kpi-value">${summary.newProductCount}<span class="kpi-delta">较${item.previousSnapshotDate.slice(5)}</span></strong></div><div class="kpi"><span class="kpi-top"><span>前20人员覆盖</span>${icon("user-check")}</span><strong class="kpi-value">${summary.personnelCoveredCount}/${summary.topManagerCount}<span class="kpi-delta">详情已回源</span></strong></div><div class="kpi"><span class="kpi-top"><span>异地办公观察</span>${icon("map-pinned")}</span><strong class="kpi-value">${summary.locationObservationCount}<span class="kpi-delta">非迁入结论</span></strong></div></div>`;
+  const annual = state.privateWorkspace?.summary;
+  return `<div class="kpi-grid private-kpis"><div class="kpi"><span class="kpi-top"><span>陕西口径管理人</span>${icon("building-2")}</span><strong class="kpi-value">${summary.managerCount}<span class="kpi-delta">注册或办公地</span></strong></div><div class="kpi"><span class="kpi-top"><span>2026备案产品</span>${icon("files")}</span><strong class="kpi-value">${annual?.productCount ?? summary.ytdProductCount}<span class="kpi-delta">AMAC公示</span></strong></div><div class="kpi"><span class="kpi-top"><span>年内备案管理人</span>${icon("briefcase-business")}</span><strong class="kpi-value">${annual?.managerCount ?? "--"}<span class="kpi-delta">有新产品</span></strong></div><div class="kpi"><span class="kpi-top"><span>前20人员覆盖</span>${icon("user-check")}</span><strong class="kpi-value">${summary.personnelCoveredCount}/${summary.topManagerCount}<span class="kpi-delta">详情已回源</span></strong></div><div class="kpi"><span class="kpi-top"><span>公开托管机构</span>${icon("network")}</span><strong class="kpi-value">${annual?.custodianCount ?? item.custodianSummary.length}<span class="kpi-delta">年内产品口径</span></strong></div></div>`;
 }
 
 function renderPrivate() {
@@ -533,20 +586,31 @@ function renderPrivate() {
     return;
   }
   const tabs = [
-    ["today", "今日动态", `${data.summary.newProductCount}项新增`],
+    ["filings", "年度备案", `${state.privateWorkspace?.summary.productCount || data.summary.ytdProductCount}只产品`],
     ["ranking", "活跃前20", "公式可解释"],
     ["people", "人员跟踪", `${data.summary.personnelCoveredCount}/${data.summary.topManagerCount}覆盖`],
     ["relations", "关系与异动", `${data.custodianSummary.length}家托管人`]
   ];
   const tabBar = `<div class="workspace-tabs" role="tablist">${tabs.map(([value, label, sub]) => `<button class="${state.privateTab === value ? "active" : ""}" data-private-tab="${value}" role="tab" aria-selected="${state.privateTab === value}"><strong>${label}</strong><span>${sub}</span></button>`).join("")}</div>`;
-  const views = { today: renderPrivateToday, ranking: renderPrivateRanking, people: renderPrivatePeople, relations: renderPrivateRelations };
-  $("#view-private").innerHTML = `${pageHeading("PRIVATE FUND INTELLIGENCE", "证券私募情报台", "新备案先发现，活跃度可解释，人员与公开托管关系可回源；疑似变化不越过证据边界。", `数据时点 ${data.sourceReportDate}<br>AMAC详情 ${data.summary.personnelCoveredCount}/${data.summary.topManagerCount}`)}${tabBar}${privateFundKpis()}${views[state.privateTab]()}`;
+  const views = { filings: renderPrivateFilings, ranking: renderPrivateRanking, people: renderPrivatePeople, relations: renderPrivateRelations };
+  $("#view-private").innerHTML = `${pageHeading("PRIVATE FUND INTELLIGENCE", "证券私募情报台", "全年备案按季度查看，活跃度、人员和公开托管关系保持同一管理人口径。", `年度数据至 ${state.privateWorkspace?.asOf || data.sourceReportDate}<br>AMAC详情 ${data.summary.personnelCoveredCount}/${data.summary.topManagerCount}`)}${tabBar}${privateFundKpis()}${views[state.privateTab]()}`;
 }
 
-function renderPrivateToday() {
-  const data = state.privateFund;
-  const rows = data.newProducts.map((item) => `<article class="private-new-row"><div class="private-new-date"><strong>${dateLabel(item.filingDate)}</strong><span>备案</span></div><div><div class="signal-meta"><span class="badge green">新备案</span>${item.reactivationCandidate ? '<span class="badge amber">重新活跃候选</span>' : ""}<span>${esc(item.fundNo)}</span></div><h3>${esc(item.fundName)}</h3><p>${esc(item.managerName)} · 托管人 ${esc(item.custodian)}</p><small>${esc(item.reactivationReason || "该管理人年内已有其他产品备案。")}</small></div><div class="private-new-action"><strong>${esc(item.businessFit.map((code) => data.businessTaxonomy.find((type) => type.code === code)?.name || code).join(" / "))}</strong><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer">AMAC公示 ${icon("external-link")}</a></div></article>`).join("");
-  return `<div class="private-context"><span>${icon("shield-check")}证据口径</span><strong>“重新活跃候选”不等于“壳已启用”</strong><p>只说明年内此前未见备案、本次出现首只产品。确认壳体复活需要更长产品历史、人员或工商状态变化共同支持。</p></div><section class="panel private-section"><div class="panel-head"><h2>本次新增备案</h2><span>${data.previousSnapshotDate} → ${data.sourceReportDate}</span></div><div class="private-new-list">${rows || emptyState("本次没有新增备案产品")}</div></section>`;
+function renderPrivateFilings() {
+  const workspace = state.privateWorkspace;
+  if (!workspace) return emptyState("年度备案数据加载失败");
+  const summary = workspace.summary;
+  const maxMonth = Math.max(...workspace.monthlySeries.map((item) => item.count), 1);
+  const monthBars = workspace.monthlySeries.map((item) => `<div class="private-month"><span>${item.month}月</span><i><b style="height:${Math.max(item.count / maxMonth * 100, item.count ? 12 : 0)}%"></b></i><strong>${item.count}</strong></div>`).join("");
+  const leaders = `<div class="private-summary-leaders"><div><span>备案最多管理人</span><strong>${esc(summary.topManager?.name || "--")}</strong><em>${summary.topManager?.count || 0}只</em></div><div><span>备案最多托管人</span><strong>${esc(summary.topCustodian?.name || "--")}</strong><em>${summary.topCustodian?.count || 0}只</em></div><div><span>最近备案日期</span><strong>${esc(summary.latestFilingDate || "--")}</strong><em>${summary.activeQuarterCount}个季度有备案</em></div></div>`;
+  const quarters = workspace.quarters.map(privateQuarterSection).join("");
+  return `<div class="private-context"><span>${icon("calendar-range")}2026年度口径</span><strong>${summary.productCount}只产品 · ${summary.managerCount}家管理人</strong><p>按协会备案日归入季度；季度数量可相加，管理人和托管机构跨季度去重后进入年度汇总。</p></div><section class="panel private-year-summary"><div class="panel-head"><h2>年度备案节奏</h2><span>截至 ${workspace.asOf}</span></div><div class="private-year-body"><div class="private-month-chart">${monthBars}</div>${leaders}</div></section><div class="private-quarter-list">${quarters}</div>`;
+}
+
+function privateQuarterSection(quarter) {
+  const open = state.privateOpenQuarters.has(quarter.quarter);
+  const products = quarter.products.map((item) => `<article class="private-quarter-product"><div><strong>${dateLabel(item.filingDate)}</strong><span>${esc(item.fundNo)}</span></div><div><h3>${esc(item.fundName)}</h3><p>${esc(item.managerName)}</p></div><div><span>托管人</span><strong>${esc(item.custodian)}</strong></div><a href="${esc(item.sourceUrl)}" target="_blank" rel="noreferrer" title="查看AMAC公示" aria-label="查看AMAC公示">${icon("external-link")}</a></article>`).join("");
+  return `<section class="private-quarter ${open ? "open" : ""}"><button class="private-quarter-head" data-private-quarter="${quarter.quarter}" aria-expanded="${open}"><span class="private-quarter-code">${quarter.quarter}</span><span><strong>${quarter.label}</strong><small>${quarter.dateRange}</small></span><span class="private-quarter-metrics"><b>${quarter.productCount}</b>只产品 · ${quarter.managerCount}家管理人 · ${quarter.custodianCount}家托管人</span>${icon(open ? "chevron-up" : "chevron-down")}</button>${open ? `<div class="private-quarter-products">${products || emptyState("本季度暂无备案产品")}</div>` : ""}</section>`;
 }
 
 function renderPrivateRanking() {
@@ -1046,6 +1110,9 @@ function bindGlobalEvents() {
     if (watchTarget) { event.stopPropagation(); toggleWatch(watchTarget.dataset.watchEvent); return; }
     const listedTab = event.target.closest("[data-listed-tab]");
     if (listedTab) { state.listedTab = listedTab.dataset.listedTab; renderListed(); refreshIcons(); window.scrollTo({ top: 0, behavior: "smooth" }); return; }
+    const listedWorkspaceStatus = event.target.closest("[data-listed-workspace-status]");
+    if (listedWorkspaceStatus) { state.listedWorkspaceStatus = listedWorkspaceStatus.dataset.listedWorkspaceStatus; state.listedWorkspaceLimit = 60; renderListed(); refreshIcons(); return; }
+    if (event.target.closest("[data-listed-load-more]")) { state.listedWorkspaceLimit += 60; renderListed(); refreshIcons(); return; }
     const financialMode = event.target.closest("[data-financial-mode]");
     if (financialMode) { state.listedFinancialMode = financialMode.dataset.financialMode; renderListed(); refreshIcons(); return; }
     const compareEntity = event.target.closest("[data-compare-entity]");
@@ -1060,6 +1127,13 @@ function bindGlobalEvents() {
     if (tenderTab) { state.tenderTab = tenderTab.dataset.tenderTab; renderTender(); refreshIcons(); window.scrollTo({ top: 0, behavior: "smooth" }); return; }
     const privateTab = event.target.closest("[data-private-tab]");
     if (privateTab) { state.privateTab = privateTab.dataset.privateTab; renderPrivate(); refreshIcons(); window.scrollTo({ top: 0, behavior: "smooth" }); return; }
+    const privateQuarter = event.target.closest("[data-private-quarter]");
+    if (privateQuarter) {
+      const quarter = privateQuarter.dataset.privateQuarter;
+      if (state.privateOpenQuarters.has(quarter)) state.privateOpenQuarters.delete(quarter);
+      else state.privateOpenQuarters.add(quarter);
+      renderPrivate(); refreshIcons(); return;
+    }
     const privateManager = event.target.closest("[data-private-manager]");
     if (privateManager) { openPrivateManager(privateManager.dataset.privateManager); return; }
     const dealsTab = event.target.closest("[data-deals-tab]");
@@ -1095,7 +1169,7 @@ function bindGlobalEvents() {
 
 async function init() {
   try {
-    const [response, tenderResponse, runtimeResponse, privateResponse, maResponse, preIpoResponse, relationshipsResponse, annualResponse, taxonomyResponse, universeResponse, eventStoreResponse, backfillResponse] = await Promise.all([fetch(DATA_URL, { cache: "no-store" }), fetch(TENDER_SOURCES_URL, { cache: "no-store" }), fetch(TENDER_RUNTIME_URL, { cache: "no-store" }), fetch(PRIVATE_FUND_URL, { cache: "no-store" }), fetch(MA_PROJECTS_URL, { cache: "no-store" }), fetch(PRE_IPO_URL, { cache: "no-store" }), fetch(RELATIONSHIPS_URL, { cache: "no-store" }), fetch(ANNUAL_INTELLIGENCE_URL, { cache: "no-store" }), fetch(LISTED_TAXONOMY_URL, { cache: "no-store" }), fetch(LISTED_UNIVERSE_URL, { cache: "no-store" }), fetch(EVENT_STORE_SUMMARY_URL, { cache: "no-store" }), fetch(BACKFILL_COVERAGE_URL, { cache: "no-store" })]);
+    const [response, tenderResponse, runtimeResponse, privateResponse, maResponse, preIpoResponse, relationshipsResponse, annualResponse, taxonomyResponse, universeResponse, eventStoreResponse, backfillResponse, listedWorkspaceResponse, privateWorkspaceResponse] = await Promise.all([fetch(DATA_URL, { cache: "no-store" }), fetch(TENDER_SOURCES_URL, { cache: "no-store" }), fetch(TENDER_RUNTIME_URL, { cache: "no-store" }), fetch(PRIVATE_FUND_URL, { cache: "no-store" }), fetch(MA_PROJECTS_URL, { cache: "no-store" }), fetch(PRE_IPO_URL, { cache: "no-store" }), fetch(RELATIONSHIPS_URL, { cache: "no-store" }), fetch(ANNUAL_INTELLIGENCE_URL, { cache: "no-store" }), fetch(LISTED_TAXONOMY_URL, { cache: "no-store" }), fetch(LISTED_UNIVERSE_URL, { cache: "no-store" }), fetch(EVENT_STORE_SUMMARY_URL, { cache: "no-store" }), fetch(BACKFILL_COVERAGE_URL, { cache: "no-store" }), fetch(LISTED_WORKSPACE_URL, { cache: "no-store" }), fetch(PRIVATE_FUND_WORKSPACE_URL, { cache: "no-store" })]);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.data = await response.json();
     state.tenderRegistry = tenderResponse.ok ? await tenderResponse.json() : null;
@@ -1109,6 +1183,8 @@ async function init() {
     state.listedUniverse = universeResponse.ok ? await universeResponse.json() : null;
     state.eventStore = eventStoreResponse.ok ? await eventStoreResponse.json() : null;
     state.backfillCoverage = backfillResponse.ok ? await backfillResponse.json() : null;
+    state.listedWorkspace = listedWorkspaceResponse.ok ? await listedWorkspaceResponse.json() : null;
+    state.privateWorkspace = privateWorkspaceResponse.ok ? await privateWorkspaceResponse.json() : null;
     loadWatchItems();
     bindGlobalEvents();
     updateRunContext();

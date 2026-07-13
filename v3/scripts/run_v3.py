@@ -61,6 +61,8 @@ def main() -> int:
             run_step("build_phase5", [python, "v3/scripts/build_phase5_data.py"]),
             run_step("build_phase6", [python, "v3/scripts/build_phase6_data.py"]),
             run_step("validate_backfill", [python, "v3/scripts/validate_backfill_2026.py"]),
+            run_step("build_workspace_data", [python, "v3/scripts/build_workspace_data.py"]),
+            run_step("validate_workspace_data", [python, "v3/scripts/validate_workspace_data.py"]),
             run_step("build_event_store", [python, "v3/scripts/build_event_store.py"]),
             run_step("validate_event_store", [python, "v3/scripts/validate_event_store.py"]),
             run_step("validate_dashboard", ["node", "v3/scripts/validate_data.mjs"]),
