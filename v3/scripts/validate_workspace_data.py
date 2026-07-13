@@ -24,6 +24,15 @@ def main() -> int:
     assert universe["activeMatterCount"] + universe["archivedMatterCount"] == len(listed["matters"])
     assert all(item["workspaceStatus"] in {"active", "archived"} for item in listed["matters"])
     assert all(item["sources"] and item["sourceCount"] == len(item["sources"]) for item in listed["matters"])
+    deep_read = listed.get("deepRead")
+    assert deep_read and deep_read["deepReadItemCount"] == len(deep_read["items"])
+    assert deep_read["latestReportDate"] == max(item["reportDate"] for item in deep_read["items"])
+    assert deep_read["backfillGap"]["status"] == "pending_pdf_deep_read"
+    assert all(item["readStatus"] == "v1_pdf_deep_read" for item in deep_read["items"])
+    assert all(item["summary"] and item["businessJudgement"] for item in deep_read["items"])
+    assert all(item["sourceCount"] == len(item["sources"]) for item in deep_read["items"])
+    assert all(isinstance(item["verifiedNumbers"], list) for item in deep_read["items"])
+    assert all(isinstance(item["followTargets"], list) for item in deep_read["items"])
 
     quarters = private["quarters"]
     assert [item["quarter"] for item in quarters] == ["Q1", "Q2", "Q3", "Q4"]
@@ -33,6 +42,7 @@ def main() -> int:
     print(json.dumps({
         "listedRetrieved": universe["retrievedSubjectCount"],
         "listedMatters": universe["matterCount"],
+        "listedDeepReads": deep_read["deepReadItemCount"],
         "privateProducts": private["summary"]["productCount"],
         "status": "PASS",
     }, ensure_ascii=False))

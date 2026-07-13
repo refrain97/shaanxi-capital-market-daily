@@ -305,16 +305,16 @@ function renderListed() {
   const daily = state.data.listedDaily;
   const workspace = state.listedWorkspace;
   const tabs = [
-    ["daily", "最新日报", "完整有效动态"],
-    ["important", "重点事项", "业务重点与重大内容"],
+    ["daily", "最新精读日报", "PDF正文与关键数字"],
+    ["important", "重点跟踪库", "精读事项与下一节点"],
     ["financial", "财务报告", "结构化比较"],
     ["company", "公司跟踪", "事件与复核"]
   ];
   const tabBar = `<div class="workspace-tabs" role="tablist">${tabs.map(([value, label, sub]) => `<button class="${state.listedTab === value ? "active" : ""}" data-listed-tab="${value}" role="tab" aria-selected="${state.listedTab === value}"><strong>${label}</strong><span>${sub}</span></button>`).join("")}</div>`;
-  const content = state.listedTab === "financial" ? renderListedFinancial() : state.listedTab === "company" ? renderListedCompany() : state.listedTab === "important" ? renderListedImportantWorkspace() : renderListedDaily(false);
+  const content = state.listedTab === "financial" ? renderListedFinancial() : state.listedTab === "company" ? renderListedCompany() : renderListedDeepReadWorkspace(state.listedTab === "daily");
   const retrieved = workspace?.universe.retrievedSubjectCount ?? daily.retrievedUniverseCount;
-  const announcementCount = workspace?.universe.announcementCount ?? daily.announcementCount;
-  $("#view-listed").innerHTML = `${pageHeading("LISTED COMPANY DESK", "上市公司工作台", "117家统一检索，重点业务事项持续跟踪，明确结束后进入归档。", `检索目标 ${daily.universeCount} 家<br>实际返回 ${retrieved} 家 · 年内公告 ${announcementCount} 份`)}${tabBar}${content}`;
+  const latestDeepRead = workspace?.deepRead?.latestReportDate || daily.reportDate;
+  $("#view-listed").innerHTML = `${pageHeading("LISTED COMPANY DESK", "上市公司工作台", "117家逐一检索；只有完成PDF正文精读、数字核验和下一节点判断的事项进入正式内容。", `检索目标 ${daily.universeCount} 家<br>实际返回 ${retrieved} 家 · 最新精读 ${latestDeepRead}`)}${tabBar}${content}`;
   bindListedControls();
 }
 
@@ -325,10 +325,12 @@ function listedKpis() {
   const targetCount = universe?.targetCount ?? daily.universeCount;
   const retrievedCount = universe?.retrievedSubjectCount ?? daily.retrievedUniverseCount;
   const announcements = universe?.announcementCount ?? daily.announcementCount;
-  const focusMatters = universe?.matterCount ?? daily.effectiveEventCount;
+  const deepRead = workspace?.deepRead;
+  const deepReadCount = deepRead?.deepReadItemCount ?? daily.effectiveEventCount;
+  const pdfVerifiedCount = deepRead?.pdfVerifiedItemCount ?? 0;
   const tierMap = Object.fromEntries((universe?.tierStats || []).map((item) => [item.tier, item]));
   const tierCounts = daily.universeTierCounts;
-  return `<div class="kpi-grid listed-kpis"><div class="kpi"><span class="kpi-top"><span>检索目标</span>${icon("layers-3")}</span><strong class="kpi-value">${targetCount}<span class="kpi-delta">L1+L2+L3</span></strong></div><div class="kpi"><span class="kpi-top"><span>实际返回主体</span>${icon("scan-search")}</span><strong class="kpi-value">${retrievedCount}<span class="kpi-delta">${retrievedCount}/${targetCount}</span></strong></div><div class="kpi"><span class="kpi-top"><span>年内原始公告</span>${icon("files")}</span><strong class="kpi-value">${announcements}<span class="kpi-delta">官方来源</span></strong></div><div class="kpi"><span class="kpi-top"><span>重点归并事项</span>${icon("list-checks")}</span><strong class="kpi-value">${focusMatters}<span class="kpi-delta">去重后</span></strong></div><div class="kpi"><span class="kpi-top"><span>检索完整率</span>${icon("shield-check")}</span><strong class="kpi-value">${Math.round(retrievedCount / targetCount * 100)}%<span class="kpi-delta">主体有结果</span></strong></div></div><div class="listed-universe-strip"><div><strong>L1 · ${tierMap.L1?.subjectCount ?? tierCounts.L1}</strong><span>${tierMap.L1?.announcementCount ?? "--"}份公告</span></div><div><strong>L2 · ${tierMap.L2?.subjectCount ?? tierCounts.L2}</strong><span>${tierMap.L2?.announcementCount ?? "--"}份公告</span></div><div><strong>L3 · ${tierMap.L3?.subjectCount ?? tierCounts.L3}</strong><span>${tierMap.L3?.announcementCount ?? "--"}份公告</span></div><p>${icon("circle-check-big")}117家均有检索返回；L2港股继续用港交所披露易做最终完整性复核。</p></div>`;
+  return `<div class="kpi-grid listed-kpis"><div class="kpi"><span class="kpi-top"><span>检索目标</span>${icon("layers-3")}</span><strong class="kpi-value">${targetCount}<span class="kpi-delta">L1+L2+L3</span></strong></div><div class="kpi"><span class="kpi-top"><span>实际返回主体</span>${icon("scan-search")}</span><strong class="kpi-value">${retrievedCount}<span class="kpi-delta">${retrievedCount}/${targetCount}</span></strong></div><div class="kpi"><span class="kpi-top"><span>年内原始公告</span>${icon("files")}</span><strong class="kpi-value">${announcements}<span class="kpi-delta">官方来源</span></strong></div><div class="kpi"><span class="kpi-top"><span>正文精读事项</span>${icon("book-open-check")}</span><strong class="kpi-value">${deepReadCount}<span class="kpi-delta">V1正式稿</span></strong></div><div class="kpi"><span class="kpi-top"><span>数字核验事项</span>${icon("badge-check")}</span><strong class="kpi-value">${pdfVerifiedCount}<span class="kpi-delta">PDF正文</span></strong></div></div><div class="listed-universe-strip"><div><strong>L1 · ${tierMap.L1?.subjectCount ?? tierCounts.L1}</strong><span>${tierMap.L1?.announcementCount ?? "--"}份公告</span></div><div><strong>L2 · ${tierMap.L2?.subjectCount ?? tierCounts.L2}</strong><span>${tierMap.L2?.announcementCount ?? "--"}份公告</span></div><div><strong>L3 · ${tierMap.L3?.subjectCount ?? tierCounts.L3}</strong><span>${tierMap.L3?.announcementCount ?? "--"}份公告</span></div><p>${icon("circle-check-big")}117家均有检索返回；检索结果先进入候选层，未读正文的公告不进入正式精读列表。</p></div>`;
 }
 
 function getListedDailyItems(importantOnly = false) {
@@ -352,38 +354,60 @@ function renderListedDaily(importantOnly) {
   return `${listedKpis()}<div class="listed-context"><span>${importantOnly ? "双轴重点筛选" : "完整日报口径"}</span><strong>${items.length} 个有效事项</strong><p>${importantOnly ? "业务重点严格按确认的21个二级标签；内容重要性继续独立判断风险、业绩异常和重大经营事项。" : "公告先归并为唯一事项，再分别标注一级业务、二级标签、业务重点和内容重要性。"}</p></div>${toolbar}<div class="listed-daily-list">${items.map(listedDailyRow).join("") || emptyState("当前筛选无有效事项")}</div>`;
 }
 
-function getListedWorkspaceMatters() {
-  const workspace = state.listedWorkspace;
-  if (!workspace) return [];
-  let items = workspace.matters.filter((item) => item.workspaceStatus === state.listedWorkspaceStatus);
+function getListedDeepReads(latestOnly = false) {
+  const deepRead = state.listedWorkspace?.deepRead;
+  if (!deepRead) return [];
+  let items = deepRead.items;
+  if (latestOnly) items = items.filter((item) => item.reportDate === deepRead.latestReportDate);
+  else items = items.filter((item) => item.workspaceStatus === state.listedWorkspaceStatus);
   const filters = state.listedFilters;
-  if (filters.category !== "all") items = items.filter((item) => item.rmCategory === filters.category);
+  if (filters.category !== "all") items = items.filter((item) => item.rmCategories.includes(filters.category));
   if (filters.query) {
     const query = filters.query.toLowerCase();
-    items = items.filter((item) => `${item.companyName}${item.securityCode}${item.title}${item.rmCategory}${item.rmSubcategory}${item.targetObjects.join("")}`.toLowerCase().includes(query));
+    items = items.filter((item) => `${item.companyName}${item.securityCode}${item.title}${item.summary}${item.businessJudgement}${item.nextAction}${item.rmCategories.join("")}${item.rmSubcategories.join("")}`.toLowerCase().includes(query));
   }
   return items;
 }
 
-function renderListedImportantWorkspace() {
-  const workspace = state.listedWorkspace;
-  if (!workspace) return `${listedKpis()}${emptyState("重点公告年度数据加载失败")}`;
-  const items = getListedWorkspaceMatters();
+function renderListedDeepReadWorkspace(latestOnly) {
+  const deepRead = state.listedWorkspace?.deepRead;
+  if (!deepRead) return `${listedKpis()}${emptyState("上市公司精读数据加载失败")}`;
+  const items = getListedDeepReads(latestOnly);
   const visible = items.slice(0, state.listedWorkspaceLimit);
   const categories = state.listedTaxonomy?.categories.map((item) => item.name) || [];
-  const activeCount = workspace.universe.activeMatterCount;
-  const archivedCount = workspace.universe.archivedMatterCount;
-  const statusSwitch = `<div class="workspace-status-switch" role="group" aria-label="重点事项状态"><button class="${state.listedWorkspaceStatus === "active" ? "active" : ""}" data-listed-workspace-status="active">${icon("radio-tower")}持续观察 <strong>${activeCount}</strong></button><button class="${state.listedWorkspaceStatus === "archived" ? "active" : ""}" data-listed-workspace-status="archived">${icon("archive")}已结束归档 <strong>${archivedCount}</strong></button></div>`;
-  const toolbar = `<div class="toolbar listed-toolbar"><label class="search-field">${icon("search")}<input type="search" data-listed-filter="query" value="${esc(state.listedFilters.query)}" placeholder="搜索公司、代码、重点标签或公告"></label><select data-listed-filter="category">${option("all", "全部8类业务", state.listedFilters.category)}${categories.map((value) => option(value, value, state.listedFilters.category)).join("")}</select></div>`;
-  const rows = visible.map(listedWorkspaceRow).join("");
+  const statusSwitch = latestOnly ? "" : `<div class="workspace-status-switch" role="group" aria-label="精读事项状态"><button class="${state.listedWorkspaceStatus === "active" ? "active" : ""}" data-listed-workspace-status="active">${icon("radio-tower")}持续跟踪 <strong>${deepRead.activeItemCount}</strong></button><button class="${state.listedWorkspaceStatus === "archived" ? "active" : ""}" data-listed-workspace-status="archived">${icon("archive")}已结束归档 <strong>${deepRead.archivedItemCount}</strong></button></div>`;
+  const toolbar = `<div class="toolbar listed-toolbar"><label class="search-field">${icon("search")}<input type="search" data-listed-filter="query" value="${esc(state.listedFilters.query)}" placeholder="搜索公司、正文事实、关键数字或下一节点"></label><select data-listed-filter="category">${option("all", "全部8类业务", state.listedFilters.category)}${categories.map((value) => option(value, value, state.listedFilters.category)).join("")}</select></div>`;
+  const rows = visible.map(listedDeepReadRow).join("");
   const more = visible.length < items.length ? `<button class="load-more" data-listed-load-more>${icon("chevrons-down")}再显示 ${Math.min(60, items.length - visible.length)} 项</button>` : "";
-  return `${listedKpis()}<div class="listed-context"><span>2026重点公告库</span><strong>${workspace.universe.focusCandidateCount}份重点公告归并为${workspace.universe.matterCount}个事项</strong><p>同公司、同业务标签、同日公告合并展示；主公告在前，意见书等作为附件。当前为标题归类，正文核验后再转正式事件。</p></div>${statusSwitch}${toolbar}<div class="listed-workspace-list">${rows || emptyState("当前筛选没有重点事项")}</div>${more}`;
+  const context = latestOnly
+    ? `<div class="listed-context verified"><span>${icon("book-open-check")}最新精读日报</span><strong>${deepRead.latestReportDate} · ${deepRead.latestItemCount}家公司事项</strong><p>内容继承V1正式精读JSON、VR选题台和PDF文本；标题候选不在此处展示。</p></div>`
+    : `<div class="listed-context verified"><span>${icon("shield-check")}精读跟踪库</span><strong>${deepRead.reportCount}个正式日档 · ${deepRead.deepReadItemCount}家公司事项</strong><p>${deepRead.backfillGap.start}至${deepRead.backfillGap.end}已有全量检索，但仍在补做PDF正文精读，未冒充正式内容。</p></div>`;
+  return `${listedKpis()}${context}${statusSwitch}${toolbar}<div class="listed-workspace-list">${rows || emptyState("当前筛选没有精读事项")}</div>${more}`;
 }
 
-function listedWorkspaceRow(item) {
-  const primary = item.sources[0];
-  const status = item.workspaceStatus === "archived" ? '<span class="badge gray">已归档</span>' : '<span class="badge green">持续观察</span>';
-  return `<article class="listed-workspace-row"><div class="listed-date"><strong>${dateLabel(item.publishedAt)}</strong><span>${esc(item.universeTier)}</span></div><div class="listed-event"><div class="signal-meta">${status}<span>${esc(item.rmCategory)} · ${esc(item.rmSubcategory)}</span><span>${esc(item.securityCode)}</span></div><h3>${esc(item.companyName)}｜${esc(item.title)}</h3><p>${esc(item.statusReason)} · 跟进对象：${esc(item.targetObjects.join("、"))}</p><small>${item.sourceCount}份相关公告 · ${item.normalizationStatus === "title_classified_pdf_pending" ? "正文待核验" : "已核验"}</small></div><div class="listed-workspace-action"><strong>${item.sourceCount > 1 ? `主公告 + ${item.sourceCount - 1}附件` : "主公告"}</strong>${primary?.url ? `<a href="${esc(primary.url)}" target="_blank" rel="noreferrer">查看原文 ${icon("external-link")}</a>` : ""}</div></article>`;
+function listedDeepReadRow(item) {
+  const status = item.workspaceStatus === "archived" ? '<span class="badge gray">已归档</span>' : '<span class="badge green">持续跟踪</span>';
+  const evidence = item.evidenceLevel === "PDF正文数字已核验" ? '<span class="badge blue">PDF数字已核验</span>' : '<span class="badge amber">PDF正文已读</span>';
+  const categories = [...item.rmCategories, ...item.rmSubcategories].slice(0, 3).join(" · ");
+  const numbers = item.verifiedNumbers.slice(0, 4).join(" / ");
+  return `<article class="listed-workspace-row listed-deep-read-row" data-listed-deep-read="${esc(item.deepReadId)}"><div class="listed-date"><strong>${dateLabel(item.reportDate)}</strong><span>${esc(item.securityCode)}</span></div><div class="listed-event"><div class="signal-meta">${status}${evidence}<span>${esc(item.primarySectionName)}</span></div><h3>${esc(item.title)}</h3><p>${esc(item.summary)}</p>${numbers ? `<div class="deep-read-numbers">${icon("binary")}${esc(numbers)}</div>` : ""}<small><b>业务判断</b> ${esc(item.businessJudgement)}${item.nextAction ? `<br><b>下一节点</b> ${esc(item.nextAction)}` : ""}</small></div><div class="listed-workspace-action"><strong>${item.pdfTextEvidenceCount}份正文 · ${item.sourceCount}个原文</strong><span>${esc(categories || "正文精读")}</span><button class="text-button" data-listed-deep-read="${esc(item.deepReadId)}">${icon("panel-right-open")}精读详情</button></div></article>`;
+}
+
+function openListedDeepRead(deepReadId) {
+  const item = state.listedWorkspace?.deepRead?.items.find((row) => row.deepReadId === deepReadId);
+  if (!item) return;
+  $("#drawerEyebrow").textContent = `${item.reportDate}精读 · ${item.primarySectionName}`;
+  $("#drawerTitle").textContent = item.title;
+  $("#drawerWatch").style.display = "none";
+  const numbers = item.verifiedNumbers.length ? `<section class="detail-section"><h3>原文关键数字</h3><div class="deep-read-number-grid">${item.verifiedNumbers.map((value) => `<span>${esc(value)}</span>`).join("")}</div></section>` : "";
+  const supporting = item.supportingInsights.length ? `<section class="detail-section"><h3>同公司补充精读</h3>${item.supportingInsights.map((row) => `<div class="deep-read-support"><strong>${esc(row.title)}</strong><p>${esc(row.summary)}</p></div>`).join("")}</section>` : "";
+  const sources = item.sources.map((source, index) => `<a href="${esc(source.url)}" target="_blank" rel="noreferrer"><span>${String(index + 1).padStart(2, "0")}</span><strong>${esc(source.title)}</strong>${icon("external-link")}</a>`).join("");
+  const importance = item.importanceNote ? `<div class="deep-read-highlight"><strong>V1重点摘要</strong><br>${esc(item.importanceNote)}</div>` : "";
+  const targets = item.followTargets?.length ? `<p class="deep-read-targets"><strong>建议跟进对象</strong> ${esc(item.followTargets.join("、"))}</p>` : "";
+  $("#drawerBody").innerHTML = `<section class="detail-section"><div class="signal-meta"><span class="badge green">${esc(item.evidenceLevel)}</span><span>${item.pdfTextEvidenceCount}份PDF正文</span><span>${esc(item.securityCode)}</span></div><p class="detail-summary">${esc(item.summary)}</p>${importance}</section><section class="detail-section"><h3>业务判断与下一节点</h3><div class="judgement"><strong>业务判断</strong><br>${esc(item.businessJudgement)}</div>${item.nextAction ? `<div class="next-action"><strong>下一节点</strong><br>${esc(item.nextAction)}</div>` : ""}${targets}</section>${numbers}${supporting}<section class="detail-section"><h3>公告原文 · ${item.sourceCount}份</h3><div class="source-link-list">${sources || emptyState("原文链接待补")}</div></section>`;
+  document.body.classList.add("drawer-open");
+  $("#detailDrawer").setAttribute("aria-hidden", "false");
+  refreshIcons();
 }
 
 function listedDailyRow(item) {
@@ -1110,6 +1134,8 @@ function bindGlobalEvents() {
     if (watchTarget) { event.stopPropagation(); toggleWatch(watchTarget.dataset.watchEvent); return; }
     const listedTab = event.target.closest("[data-listed-tab]");
     if (listedTab) { state.listedTab = listedTab.dataset.listedTab; renderListed(); refreshIcons(); window.scrollTo({ top: 0, behavior: "smooth" }); return; }
+    const listedDeepRead = event.target.closest("[data-listed-deep-read]");
+    if (listedDeepRead) { openListedDeepRead(listedDeepRead.dataset.listedDeepRead); return; }
     const listedWorkspaceStatus = event.target.closest("[data-listed-workspace-status]");
     if (listedWorkspaceStatus) { state.listedWorkspaceStatus = listedWorkspaceStatus.dataset.listedWorkspaceStatus; state.listedWorkspaceLimit = 60; renderListed(); refreshIcons(); return; }
     if (event.target.closest("[data-listed-load-more]")) { state.listedWorkspaceLimit += 60; renderListed(); refreshIcons(); return; }

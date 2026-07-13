@@ -111,6 +111,8 @@ def build_listed_workspace() -> dict:
             "announcementCount": len(tier_sources),
         })
     retrieved_subjects = len({item["entityId"] for item in normalized["sources"]})
+    deep_read_path = ROOT / "data/listed/deep-reads-v1-2026.json"
+    deep_reads = json.loads(deep_read_path.read_text(encoding="utf-8")) if deep_read_path.exists() else None
     return {
         "schemaVersion": "0.1",
         "year": 2026,
@@ -129,6 +131,7 @@ def build_listed_workspace() -> dict:
             "qualityNote": universe["retrievalCoverage"]["note"],
         },
         "matters": matters,
+        "deepRead": deep_reads,
     }
 
 
