@@ -79,6 +79,24 @@ def main() -> int:
     index_content = index_content.replace("./assets/lucide.min.js", f"./assets/lucide.min.js?v={release_id}")
     index_path.write_text(index_content, encoding="utf-8")
 
+    compatibility_dir = output / "site"
+    compatibility_dir.mkdir()
+    (compatibility_dir / "index.html").write_text(
+        """<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=../">
+  <title>陕西资本市场情报 V3</title>
+  <script>window.location.replace(`../${window.location.search}${window.location.hash}`);</script>
+</head>
+<body><a href="../">打开陕西资本市场情报 V3</a></body>
+</html>
+""",
+        encoding="utf-8",
+    )
+
     dashboard = json.loads((output / "data/sample/dashboard-2026-07-10.json").read_text(encoding="utf-8"))
     manifest = {
         "product": "Shaanxi Capital Market Intelligence V3",

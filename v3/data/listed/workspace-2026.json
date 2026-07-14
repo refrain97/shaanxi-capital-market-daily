@@ -21734,14 +21734,14 @@
     "schemaVersion": "0.1",
     "source": "V1上市公司精读正式JSON、VR选题台与PDF正文证据",
     "coverageStart": "2026-05-21",
-    "coverageEnd": "2026-07-13",
-    "reportCount": 38,
-    "deepReadItemCount": 585,
-    "latestReportDate": "2026-07-13",
-    "latestItemCount": 19,
-    "pdfVerifiedItemCount": 257,
-    "activeItemCount": 542,
-    "archivedItemCount": 43,
+    "coverageEnd": "2026-07-14",
+    "reportCount": 39,
+    "deepReadItemCount": 600,
+    "latestReportDate": "2026-07-14",
+    "latestItemCount": 15,
+    "pdfVerifiedItemCount": 266,
+    "activeItemCount": 556,
+    "archivedItemCount": 44,
     "backfillGap": {
       "start": "2026-01-01",
       "end": "2026-05-20",
@@ -21749,6 +21749,866 @@
       "note": "该区间已有全量检索和标题候选，但尚未达到V1 PDF正文精读发布标准。"
     },
     "items": [
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-陕天然气",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-13",
+        "companyName": "陕天然气",
+        "securityCode": "002267",
+        "title": "陕天然气｜换届与股东会",
+        "summary": "7月12日董事会审议第七届董事会换届，非独立董事候选人6名、独立董事候选人4名；7月28日临时股东会采用累积投票并对中小股东单独计票。",
+        "importanceNote": "",
+        "businessJudgement": "更新关键联系人，关注治理结构、章程制度和后续资本市场沟通口径。",
+        "nextAction": "跟踪7月28日累积投票结果、独董审核和第七届董事会衔接。",
+        "followTargets": [
+          "董秘办",
+          "证券事务代表",
+          "财务负责人",
+          "管理层"
+        ],
+        "primarySection": "05",
+        "primarySectionName": "A. 股东会、治理与审议节点",
+        "rmCategories": [
+          "治理关系",
+          "未归类"
+        ],
+        "rmSubcategories": [
+          "章程治理",
+          "董监高变动"
+        ],
+        "verifiedNumbers": [
+          "1%",
+          "5%"
+        ],
+        "supportingInsights": [],
+        "workspaceStatus": "active",
+        "statusReason": "V1精读已设置下一跟踪动作",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF正文数字已核验",
+        "pdfTextEvidenceCount": 11,
+        "sourceCount": 11,
+        "sources": [
+          {
+            "announcementId": "1225420555",
+            "publishedAt": "2026-07-13",
+            "title": "独立董事候选人声明与承诺（徐焕章）",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225420555.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225420551",
+            "publishedAt": "2026-07-13",
+            "title": "独立董事候选人声明与承诺（李秉祥）",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225420551.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225420557",
+            "publishedAt": "2026-07-13",
+            "title": "独立董事候选人声明与承诺（杜民）",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225420557.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225420552",
+            "publishedAt": "2026-07-13",
+            "title": "独立董事候选人声明与承诺（杨振宇）",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225420552.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225420550",
+            "publishedAt": "2026-07-13",
+            "title": "独立董事提名人声明与承诺（徐焕章）",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225420550.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225420554",
+            "publishedAt": "2026-07-13",
+            "title": "独立董事提名人声明与承诺（李秉祥）",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225420554.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225420553",
+            "publishedAt": "2026-07-13",
+            "title": "独立董事提名人声明与承诺（杜民）",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225420553.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225420556",
+            "publishedAt": "2026-07-13",
+            "title": "独立董事提名人声明与承诺（杨振宇）",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225420556.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225420549",
+            "publishedAt": "2026-07-13",
+            "title": "关于董事会换届选举的公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225420549.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225420547",
+            "publishedAt": "2026-07-13",
+            "title": "第六届董事会第二十九次会议决议公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225420547.PDF",
+            "evidenceLevel": "PDF已抽取待核"
+          },
+          {
+            "announcementId": "1225420548",
+            "publishedAt": "2026-07-13",
+            "title": "关于召开2026年第二次临时股东会的通知",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225420548.PDF",
+            "evidenceLevel": "PDF已抽取待核"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-通源石油",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-13",
+        "companyName": "通源石油",
+        "securityCode": "300164",
+        "title": "通源石油｜董事会决议",
+        "summary": "第九届董事会第二次会议决议公告已披露，VR台列为底稿保留事项，后续关注同日或后续是否配套披露具体资本运作议案。",
+        "importanceNote": "",
+        "businessJudgement": "更新关键联系人和治理节点，跟踪后续审议或任职结果。",
+        "nextAction": "",
+        "followTargets": [
+          "董秘办"
+        ],
+        "primarySection": "05",
+        "primarySectionName": "B. 业绩、制度与固定披露清单",
+        "rmCategories": [
+          "未归类"
+        ],
+        "rmSubcategories": [],
+        "verifiedNumbers": [],
+        "supportingInsights": [],
+        "workspaceStatus": "active",
+        "statusReason": "正文已精读，后续节点尚未形成明确结束结论",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF已抽取待核",
+        "pdfTextEvidenceCount": 1,
+        "sourceCount": 1,
+        "sources": [
+          {
+            "announcementId": "1225420655",
+            "publishedAt": "2026-07-13",
+            "title": "第九届董事会第二次会议决议公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225420655.PDF",
+            "evidenceLevel": "PDF已抽取待核"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-科隆新材",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-13",
+        "companyName": "科隆新材",
+        "securityCode": "920098",
+        "title": "科隆新材｜更换保代",
+        "summary": "国新证券持续督导期至2027年12月31日，因潘建忠工作内容调整，改由秦波新接替，与沈砺君共同履行持续督导职责。",
+        "importanceNote": "",
+        "businessJudgement": "更新关键联系人和治理节点，跟踪后续审议或任职结果。",
+        "nextAction": "跟踪保荐代表人交接后持续督导沟通和北交所信息披露衔接。",
+        "followTargets": [
+          "董秘办"
+        ],
+        "primarySection": "05",
+        "primarySectionName": "A. 股东会、治理与审议节点",
+        "rmCategories": [
+          "未归类"
+        ],
+        "rmSubcategories": [],
+        "verifiedNumbers": [],
+        "supportingInsights": [],
+        "workspaceStatus": "active",
+        "statusReason": "V1精读已设置下一跟踪动作",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF已抽取待核",
+        "pdfTextEvidenceCount": 1,
+        "sourceCount": 1,
+        "sources": [
+          {
+            "announcementId": "1225421397",
+            "publishedAt": "2026-07-13",
+            "title": "关于变更持续督导保荐代表人的公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225421397.PDF",
+            "evidenceLevel": "PDF已抽取待核"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-环球印务",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-14",
+        "companyName": "环球印务",
+        "securityCode": "002799",
+        "title": "环球印务｜半年度预告",
+        "summary": "披露2026年半年度业绩预告，公告文本较简短，VR台标记为业绩固定披露，后续以正式半年报校验利润区间和经营原因。",
+        "importanceNote": "",
+        "businessJudgement": "跟踪业绩压力、分红实施、投资者沟通和市值管理叙事。",
+        "nextAction": "",
+        "followTargets": [
+          "董秘办",
+          "投资者关系",
+          "财务负责人"
+        ],
+        "primarySection": "05",
+        "primarySectionName": "B. 业绩、制度与固定披露清单",
+        "rmCategories": [
+          "业绩与分红"
+        ],
+        "rmSubcategories": [
+          "业绩预告/快报"
+        ],
+        "verifiedNumbers": [],
+        "supportingInsights": [],
+        "workspaceStatus": "active",
+        "statusReason": "正文已精读，后续节点尚未形成明确结束结论",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF正文已命中",
+        "pdfTextEvidenceCount": 1,
+        "sourceCount": 1,
+        "sources": [
+          {
+            "announcementId": "1225421358",
+            "publishedAt": "2026-07-14",
+            "title": "2026年半年度业绩预告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421358.PDF",
+            "evidenceLevel": "PDF正文已命中"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-派瑞股份",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-13",
+        "companyName": "派瑞股份",
+        "securityCode": "300831",
+        "title": "派瑞股份｜聘任财务总监",
+        "summary": "董事会同意聘任雷磊为财务总监，任期自第三届董事会第十七次会议通过日至2027年6月27日第三届董事会任期届满。",
+        "importanceNote": "",
+        "businessJudgement": "更新关键联系人，关注治理结构、章程制度和后续资本市场沟通口径。",
+        "nextAction": "跟踪新任财务总监到任后的财务管理和年度治理衔接。",
+        "followTargets": [
+          "董秘办",
+          "证券事务代表",
+          "财务负责人",
+          "管理层"
+        ],
+        "primarySection": "05",
+        "primarySectionName": "A. 股东会、治理与审议节点",
+        "rmCategories": [
+          "治理关系",
+          "未归类"
+        ],
+        "rmSubcategories": [
+          "董监高变动",
+          "财务负责人"
+        ],
+        "verifiedNumbers": [
+          "5%"
+        ],
+        "supportingInsights": [],
+        "workspaceStatus": "active",
+        "statusReason": "V1精读已设置下一跟踪动作",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF正文数字已核验",
+        "pdfTextEvidenceCount": 2,
+        "sourceCount": 2,
+        "sources": [
+          {
+            "announcementId": "1225421688",
+            "publishedAt": "2026-07-13",
+            "title": "关于聘任财务总监的公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225421688.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225421687",
+            "publishedAt": "2026-07-13",
+            "title": "第三届董事会第十七次会议决议公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225421687.PDF",
+            "evidenceLevel": "PDF已抽取待核"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-建设机械",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-14",
+        "companyName": "建设机械",
+        "securityCode": "600984",
+        "title": "建设机械｜监管问询",
+        "summary": "回复上交所2025年年报问询：塔机租赁业务占比超70%，2025年租赁业务营业收入19.77亿元、同比下降10.85%，毛利率-14.03%；应收账款账面价值34.37亿元，三年以上长账龄余额8.43亿元。",
+        "importanceNote": "年报问询回复称塔机租赁收入19.77亿元、毛利率-14.03%，应收账款账面价值34.37亿元。",
+        "businessJudgement": "跟踪监管进展、交易风险、诉讼债务、非标意见和客户风险沟通。",
+        "nextAction": "跟踪租赁毛利率修复、应收回款和减值解释是否触发进一步监管沟通。",
+        "followTargets": [
+          "董秘办",
+          "合规风控",
+          "控股股东",
+          "财务负责人"
+        ],
+        "primarySection": "02",
+        "primarySectionName": "重大事项与风险公告",
+        "rmCategories": [
+          "风险沟通",
+          "业绩与分红"
+        ],
+        "rmSubcategories": [
+          "监管问询",
+          "定期报告"
+        ],
+        "verifiedNumbers": [
+          "19.77亿元",
+          "-14.03%",
+          "34.37亿元",
+          "70%",
+          "10.85%",
+          "8.43亿元"
+        ],
+        "supportingInsights": [],
+        "workspaceStatus": "active",
+        "statusReason": "V1精读已设置下一跟踪动作",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF正文数字已核验",
+        "pdfTextEvidenceCount": 4,
+        "sourceCount": 4,
+        "sources": [
+          {
+            "announcementId": "1225421602",
+            "publishedAt": "2026-07-14",
+            "title": "建设机械关于上海证券交易所对公司2025年年度报告信息披露监管问询函的回复公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421602.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225421613",
+            "publishedAt": "2026-07-14",
+            "title": "北京卓信大华资产评估有限公司对建设机械2025年年度报告的信息披露监管问询函相关问题的回复意见",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421613.PDF",
+            "evidenceLevel": "PDF已抽取待核"
+          },
+          {
+            "announcementId": "1225421600",
+            "publishedAt": "2026-07-14",
+            "title": "正衡房地产资产评估有限公司关于上海证券交易所对建设机械2025年年度报告的信息披露监管问询函回复",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421600.PDF",
+            "evidenceLevel": "PDF已抽取待核"
+          },
+          {
+            "announcementId": "1225421604",
+            "publishedAt": "2026-07-14",
+            "title": "立信会计师事务所关于对建设机械2025年年度报告的信息披露监管问询函回复",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421604.PDF",
+            "evidenceLevel": "PDF已抽取待核"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-康拓医疗",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-14",
+        "companyName": "康拓医疗",
+        "securityCode": "688314",
+        "title": "康拓医疗｜资本运作与股东事项",
+        "summary": "首次授予部分第一个归属期归属限制性股票389,100股；总股本由81,239,172股变更为81,628,272股，注册资本同步变更为81,628,272元",
+        "importanceNote": "",
+        "businessJudgement": "跟踪交易作价、审批进度、资金用途和后续资本运作节点。",
+        "nextAction": "",
+        "followTargets": [
+          "董秘办",
+          "证券事务代表",
+          "财务负责人",
+          "管理层"
+        ],
+        "primarySection": "04",
+        "primarySectionName": "股东变动与资本运作",
+        "rmCategories": [
+          "治理关系"
+        ],
+        "rmSubcategories": [
+          "章程治理"
+        ],
+        "verifiedNumbers": [
+          "389,100股",
+          "81,239,172股",
+          "81,628,272股",
+          "81,628,272元"
+        ],
+        "supportingInsights": [
+          {
+            "section": "05",
+            "sectionName": "B. 业绩、制度与固定披露清单",
+            "title": "康拓医疗｜章程修订",
+            "summary": "第六条注册资本、第十九条已发行股份数同步修订，除上述条款外《公司章程》其他条款不变，最终以登记机关核准为准。"
+          }
+        ],
+        "workspaceStatus": "active",
+        "statusReason": "正文已精读，后续节点尚未形成明确结束结论",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF正文数字已核验",
+        "pdfTextEvidenceCount": 2,
+        "sourceCount": 2,
+        "sources": [
+          {
+            "announcementId": "1225421293",
+            "publishedAt": "2026-07-14",
+            "title": "关于变更公司注册资本、修订《公司章程》并办理工商变更登记的公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421293.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225421303",
+            "publishedAt": "2026-07-14",
+            "title": "西安康拓医疗技术股份有限公司章程",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421303.PDF",
+            "evidenceLevel": "PDF正文已命中"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-宝钛股份",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-14",
+        "companyName": "宝钛股份",
+        "securityCode": "600456",
+        "title": "宝钛股份｜资本运作与股东事项",
+        "summary": "宝钛转债发行量和上市量均为350,000.00万元，债券代码110101，上市时间2026年7月16日；存续期为2026年6月24日至2032年6月23日",
+        "importanceNote": "35亿元宝钛转债7月16日上市，转股期2026年12月30日至2032年6月23日。",
+        "businessJudgement": "跟踪审批节点、交易作价、资金用途、募投变化和投行协同机会。",
+        "nextAction": "转股期为2026年12月30日至2032年6月23日，未设担保，关注上市初期转债交易和后续募投资金使用披露。",
+        "followTargets": [
+          "董秘办",
+          "财务负责人",
+          "投融资负责人"
+        ],
+        "primarySection": "04",
+        "primarySectionName": "股东变动与资本运作",
+        "rmCategories": [
+          "资本运作"
+        ],
+        "rmSubcategories": [
+          "可转债"
+        ],
+        "verifiedNumbers": [
+          "35亿元",
+          "350,000.00万元",
+          "350,000万元"
+        ],
+        "supportingInsights": [
+          {
+            "section": "03",
+            "sectionName": "上市公司动态",
+            "title": "宝钛股份｜可转债上市",
+            "summary": "宝钛转债发行总额350,000万元、35,000,000张，7月16日起在上交所挂牌，主体和债项评级均为AAA，保荐主承销商为西部证券。"
+          }
+        ],
+        "workspaceStatus": "active",
+        "statusReason": "V1精读已设置下一跟踪动作",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF正文已命中",
+        "pdfTextEvidenceCount": 1,
+        "sourceCount": 1,
+        "sources": [
+          {
+            "announcementId": "1225422417",
+            "publishedAt": "2026-07-14",
+            "title": "宝鸡钛业股份有限公司向不特定对象发行可转换公司债券上市公告书",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225422417.PDF",
+            "evidenceLevel": "PDF正文已命中"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-天地源",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-14",
+        "companyName": "天地源",
+        "securityCode": "600665",
+        "title": "天地源｜担保融资",
+        "summary": "为西安天地源14亿元开发贷款和珠海天地源1.3亿元资产收益权转让回购融资提供连带责任保证担保；截至公告日对外担保总额272,403万元，占最近一期经审计净资产173.02%。",
+        "importanceNote": "为两家全资子公司新增担保15.3亿元，担保总额27.24亿元、占最近一期净资产173.02%。",
+        "businessJudgement": "跟踪现金管理、融资安排、担保敞口、授信和资金沉淀机会。",
+        "nextAction": "",
+        "followTargets": [
+          "财务负责人",
+          "资金部",
+          "董秘办"
+        ],
+        "primarySection": "02",
+        "primarySectionName": "重大事项与风险公告",
+        "rmCategories": [
+          "资金与财务",
+          "未归类"
+        ],
+        "rmSubcategories": [
+          "关联资金",
+          "担保"
+        ],
+        "verifiedNumbers": [
+          "15.3亿元",
+          "27.24亿元",
+          "173.02%",
+          "14亿元",
+          "1.3亿元",
+          "272,403万元",
+          "140,000万元",
+          "13,000万元",
+          "2.65%",
+          "8.5%"
+        ],
+        "supportingInsights": [
+          {
+            "section": "04",
+            "sectionName": "股东变动与资本运作",
+            "title": "天地源｜资本运作与股东事项",
+            "summary": "西安天地源担保金额不超过140,000万元，珠海天地源担保金额不超过13,000万元；贷款期限5年、资金成本不超过2.65%/年，回购溢价率8.5%/年"
+          }
+        ],
+        "workspaceStatus": "active",
+        "statusReason": "正文已精读，后续节点尚未形成明确结束结论",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF正文数字已核验",
+        "pdfTextEvidenceCount": 3,
+        "sourceCount": 3,
+        "sources": [
+          {
+            "announcementId": "1225421171",
+            "publishedAt": "2026-07-14",
+            "title": "天地源股份有限公司关于在公司并表范围内划转下属公司股权的公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421171.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225421209",
+            "publishedAt": "2026-07-14",
+            "title": "天地源股份有限公司为下属公司提供担保的公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421209.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225421166",
+            "publishedAt": "2026-07-14",
+            "title": "天地源股份有限公司第十一届董事会第十七次会议决议公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421166.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-国际医学",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-14",
+        "companyName": "国际医学",
+        "securityCode": "000516",
+        "title": "国际医学｜质押跟踪",
+        "summary": "控股股东世纪新元7月9日解除质押4,890万股、占总股本2.18%，7月10日新增质押6,600万股、占总股本2.95%；一年内到期质押229,880,000股，对应融资5.19亿元。",
+        "importanceNote": "控股股东解除质押4,890万股后新增质押6,600万股，后续一年内到期质押对应融资5.19亿元。",
+        "businessJudgement": "跟踪开户、减持路径、质押风险、股东资金安排和财富管理触达。",
+        "nextAction": "",
+        "followTargets": [
+          "董秘办",
+          "投资者关系",
+          "财务负责人",
+          "控股股东",
+          "5%以上股东"
+        ],
+        "primarySection": "02",
+        "primarySectionName": "重大事项与风险公告",
+        "rmCategories": [
+          "业绩与分红",
+          "股东服务"
+        ],
+        "rmSubcategories": [
+          "业绩预告/快报",
+          "质押/冻结"
+        ],
+        "verifiedNumbers": [
+          "4,890万股",
+          "6,600万股",
+          "5.19亿元",
+          "2.18%",
+          "2.95%",
+          "229,880,000股",
+          "48,900,000股",
+          "66,000,000股",
+          "475,380,000股",
+          "77.16%",
+          "21.23%"
+        ],
+        "supportingInsights": [
+          {
+            "section": "04",
+            "sectionName": "股东变动与资本运作",
+            "title": "国际医学｜资本运作与股东事项",
+            "summary": "世纪新元解除质押48,900,000股，新增质押66,000,000股；质押后世纪新元质押股份475,380,000股，占其所持股份77.16%、占总股本21.23%"
+          }
+        ],
+        "workspaceStatus": "archived",
+        "statusReason": "正文显示该节点已经完成或终止",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF正文数字已核验",
+        "pdfTextEvidenceCount": 2,
+        "sourceCount": 2,
+        "sources": [
+          {
+            "announcementId": "1225421898",
+            "publishedAt": "2026-07-14",
+            "title": "2026年半年度业绩预告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421898.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          },
+          {
+            "announcementId": "1225421324",
+            "publishedAt": "2026-07-14",
+            "title": "关于控股股东解除部分质押及进行股份质押的公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421324.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-同力股份",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-13",
+        "companyName": "同力股份",
+        "securityCode": "920599",
+        "title": "同力股份｜资本运作与股东事项",
+        "summary": "截至7月9日已回购10,000,000股，占总股本2.1620%、占拟回购数量上限100.0000%；成交价区间16.33元/股至17.94元/股，支付总额173,715,846.83元",
+        "importanceNote": "",
+        "businessJudgement": "跟踪交易作价、审批进度、资金用途和后续资本运作节点。",
+        "nextAction": "跟踪回购股份后续划转至股权激励或员工持股计划的时间表。",
+        "followTargets": [
+          "财务负责人",
+          "资金部",
+          "董秘办"
+        ],
+        "primarySection": "04",
+        "primarySectionName": "股东变动与资本运作",
+        "rmCategories": [
+          "资金与财务",
+          "业绩与分红"
+        ],
+        "rmSubcategories": [
+          "关联资金",
+          "分红/权益分派"
+        ],
+        "verifiedNumbers": [
+          "10,000,000股",
+          "2.1620%",
+          "100.0000%",
+          "16.33元/股",
+          "17.94元/股",
+          "173,715,846.83元"
+        ],
+        "supportingInsights": [],
+        "workspaceStatus": "active",
+        "statusReason": "V1精读已设置下一跟踪动作",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF正文数字已核验",
+        "pdfTextEvidenceCount": 1,
+        "sourceCount": 1,
+        "sources": [
+          {
+            "announcementId": "1225421794",
+            "publishedAt": "2026-07-13",
+            "title": "回购进展暨回购结果公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225421794.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-北方长龙",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-13",
+        "companyName": "北方长龙",
+        "securityCode": "301357",
+        "title": "北方长龙｜新增专利",
+        "summary": "通过受让方式取得2项发明专利，分别涉及频域分析及卷积神经网络定位、无人机集群快速转向，专利有效期均自申请日起20年。",
+        "importanceNote": "",
+        "businessJudgement": "跟踪经营影响、项目落地、产能变化和现金流传导。",
+        "nextAction": "",
+        "followTargets": [
+          "董秘办"
+        ],
+        "primarySection": "03",
+        "primarySectionName": "上市公司动态",
+        "rmCategories": [
+          "未归类"
+        ],
+        "rmSubcategories": [],
+        "verifiedNumbers": [
+          "2项"
+        ],
+        "supportingInsights": [
+          {
+            "section": "05",
+            "sectionName": "A. 股东会、治理与审议节点",
+            "title": "北方长龙｜专利取得",
+            "summary": "通过受让取得两项发明专利，分别为频域分析及卷积神经网络定位、差分加速度无人机集群快速转向，授权公告日分别为2022年9月6日和2025年2月7日。"
+          }
+        ],
+        "workspaceStatus": "active",
+        "statusReason": "正文已精读，后续节点尚未形成明确结束结论",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF已抽取待核",
+        "pdfTextEvidenceCount": 1,
+        "sourceCount": 1,
+        "sources": [
+          {
+            "announcementId": "1225420930",
+            "publishedAt": "2026-07-13",
+            "title": "关于公司获得发明专利的公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-13/1225420930.PDF",
+            "evidenceLevel": "PDF已抽取待核"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-中再资环",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-14",
+        "companyName": "中再资环",
+        "securityCode": "600217",
+        "title": "中再资环｜亏损收窄",
+        "summary": "预计半年度归母净利润-3,100万元至-2,600万元，扣非净利润-3,400万元至-2,900万元；奖补资金下降仍是主要压力。",
+        "importanceNote": "",
+        "businessJudgement": "跟踪业绩压力、分红实施、投资者沟通和市值管理叙事。",
+        "nextAction": "",
+        "followTargets": [
+          "董秘办",
+          "投资者关系",
+          "财务负责人"
+        ],
+        "primarySection": "03",
+        "primarySectionName": "上市公司动态",
+        "rmCategories": [
+          "业绩与分红"
+        ],
+        "rmSubcategories": [
+          "业绩预告/快报"
+        ],
+        "verifiedNumbers": [
+          "-3,100万元",
+          "-2,600万元",
+          "-3,400万元",
+          "-2,900万元"
+        ],
+        "supportingInsights": [
+          {
+            "section": "05",
+            "sectionName": "B. 业绩、制度与固定披露清单",
+            "title": "中再资环｜半年度预告",
+            "summary": "预计半年度净利润仍为负值但同比亏损收窄，公告称奖补资金下降、拆解量和补贴分配节奏仍会影响最终半年报数据。"
+          }
+        ],
+        "workspaceStatus": "active",
+        "statusReason": "正文已精读，后续节点尚未形成明确结束结论",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF正文数字已核验",
+        "pdfTextEvidenceCount": 1,
+        "sourceCount": 1,
+        "sources": [
+          {
+            "announcementId": "1225421475",
+            "publishedAt": "2026-07-14",
+            "title": "中再资环2026年半年度业绩预告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421475.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-三达膜",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-14",
+        "companyName": "三达膜",
+        "securityCode": "688101",
+        "title": "三达膜｜异常波动",
+        "summary": "股票连续3个交易日收盘价格涨幅偏离值累计达30%；公司提示半导体及数据中心相关收入占2025年度营业收入比例不超过2%，且清源、方富林在异动期间合计减持301.2193万股。",
+        "importanceNote": "",
+        "businessJudgement": "跟踪股东实施节奏、持股变化、资金安排和披露节点。",
+        "nextAction": "跟踪半导体及数据中心收入口径、股东减持和二级市场风险提示。",
+        "followTargets": [
+          "董秘办",
+          "合规风控",
+          "控股股东",
+          "财务负责人"
+        ],
+        "primarySection": "02",
+        "primarySectionName": "重大事项与风险公告",
+        "rmCategories": [
+          "风险沟通"
+        ],
+        "rmSubcategories": [
+          "异常波动"
+        ],
+        "verifiedNumbers": [
+          "30%",
+          "2%",
+          "301.2193万股"
+        ],
+        "supportingInsights": [],
+        "workspaceStatus": "active",
+        "statusReason": "V1精读已设置下一跟踪动作",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "PDF正文数字已核验",
+        "pdfTextEvidenceCount": 1,
+        "sourceCount": 1,
+        "sources": [
+          {
+            "announcementId": "1225421770",
+            "publishedAt": "2026-07-14",
+            "title": "股票交易异常波动公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-07-14/1225421770.PDF",
+            "evidenceLevel": "PDF正文数字已核验"
+          }
+        ]
+      },
+      {
+        "deepReadId": "v1-deep-read-2026-07-14-ST金花",
+        "reportDate": "2026-07-14",
+        "publishedAt": "2026-07-14",
+        "companyName": "ST金花",
+        "securityCode": "",
+        "title": "ST金花｜扣非改善",
+        "summary": "预计半年度归母净利润60万元至87万元，同比减少90.31%至85.96%；扣非净利润750万元至1,000万元，同比增加10.46%至47.28%。",
+        "importanceNote": "",
+        "businessJudgement": "跟踪业绩兑现、利润驱动、分红安排和投资者沟通节点。",
+        "nextAction": "",
+        "followTargets": [],
+        "primarySection": "03",
+        "primarySectionName": "上市公司动态",
+        "rmCategories": [],
+        "rmSubcategories": [],
+        "verifiedNumbers": [
+          "60万元",
+          "87万元",
+          "90.31%",
+          "85.96%",
+          "750万元",
+          "1,000万元",
+          "10.46%",
+          "47.28%"
+        ],
+        "supportingInsights": [],
+        "workspaceStatus": "active",
+        "statusReason": "正文已精读，后续节点尚未形成明确结束结论",
+        "readStatus": "v1_pdf_deep_read",
+        "evidenceLevel": "仅标题待核",
+        "pdfTextEvidenceCount": 0,
+        "sourceCount": 0,
+        "sources": []
+      },
       {
         "deepReadId": "v1-deep-read-2026-07-13-陕鼓动力",
         "reportDate": "2026-07-13",

@@ -39,9 +39,11 @@ git worktree remove "$worktree_dir"
 for attempt in $(seq 1 60); do
   release="$(curl -fsSL -H 'Cache-Control: no-cache' "${pages_url}release.json?verify=$attempt" 2>/dev/null || true)"
   page="$(curl -fsSL -H 'Cache-Control: no-cache' "${pages_url}?verify=$attempt" 2>/dev/null || true)"
+  compatibility="$(curl -fsSL -H 'Cache-Control: no-cache' "${pages_url}site/?verify=$attempt" 2>/dev/null || true)"
   if grep -Fq 'Shaanxi Capital Market Intelligence V3' <<<"$release" \
     && grep -Fq "$release_id" <<<"$release" \
-    && grep -Fq '陕西资本市场情报 V3' <<<"$page"; then
+    && grep -Fq '陕西资本市场情报 V3' <<<"$page" \
+    && grep -Fq 'window.location.replace' <<<"$compatibility"; then
     echo "GitHub Pages verified: $pages_url"
     exit 0
   fi
