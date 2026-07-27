@@ -1,0 +1,255 @@
+{
+  "schemaVersion": "0.1",
+  "runId": "v3-20260720-170327-closing",
+  "slot": "closing",
+  "runMode": "parallel_prototype",
+  "startedAt": "2026-07-20T09:03:27.229923+00:00",
+  "finishedAt": "2026-07-20T09:03:28.050692+00:00",
+  "qualityResult": "PASS_WITH_STALE_INPUT",
+  "failedSteps": [],
+  "staleDatasets": [
+    "dashboard",
+    "privateFund",
+    "maProjects",
+    "preIpo"
+  ],
+  "inputHealth": [
+    {
+      "dataset": "dashboard",
+      "dataAsOf": "2026-07-10",
+      "status": "STALE",
+      "ageDays": 10
+    },
+    {
+      "dataset": "privateFund",
+      "dataAsOf": "2026-07-10",
+      "status": "STALE",
+      "ageDays": 10
+    },
+    {
+      "dataset": "maProjects",
+      "dataAsOf": "2026-07-12T11:00:00+08:00",
+      "status": "STALE",
+      "ageDays": 8
+    },
+    {
+      "dataset": "preIpo",
+      "dataAsOf": "2026-07-12T11:00:00+08:00",
+      "status": "STALE",
+      "ageDays": 8
+    },
+    {
+      "dataset": "tenderRuntime",
+      "dataAsOf": "2026-07-20T09:00:45.360Z",
+      "status": "CURRENT",
+      "ageDays": 0
+    }
+  ],
+  "steps": [
+    {
+      "name": "build_listed_universe",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.229923+00:00",
+      "finishedAt": "2026-07-20T09:03:27.251772+00:00",
+      "durationSeconds": 0.022,
+      "command": [
+        "/Users/refrain97/Documents/codex/工作/资讯类/shaanxi-capital-market-daily/.venv/bin/python",
+        "v3/scripts/build_listed_universe.py"
+      ],
+      "outputTail": "{\"total\": 117, \"L1\": 85, \"L2\": 14, \"L3\": 18}\n"
+    },
+    {
+      "name": "build_phase5",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.251835+00:00",
+      "finishedAt": "2026-07-20T09:03:27.285489+00:00",
+      "durationSeconds": 0.034,
+      "command": [
+        "/Users/refrain97/Documents/codex/工作/资讯类/shaanxi-capital-market-daily/.venv/bin/python",
+        "v3/scripts/build_phase5_data.py"
+      ],
+      "outputTail": "{\n  \"maProjectCount\": 25,\n  \"maOfficialSourceCount\": 2,\n  \"maBackfillCount\": 23,\n  \"reserveTotalCount\": 530,\n  \"priorityProfileCount\": 81,\n  \"financingRecordCount\": 1\n}\n"
+    },
+    {
+      "name": "build_phase6",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.285529+00:00",
+      "finishedAt": "2026-07-20T09:03:27.310190+00:00",
+      "durationSeconds": 0.025,
+      "command": [
+        "/Users/refrain97/Documents/codex/工作/资讯类/shaanxi-capital-market-daily/.venv/bin/python",
+        "v3/scripts/build_phase6_data.py"
+      ],
+      "outputTail": "{\n  \"nodeCount\": 266,\n  \"edgeCount\": 128,\n  \"annualMetrics\": {\n    \"normalizedEvents\": 18,\n    \"listedDailyItems\": 10,\n    \"maProjects\": 25,\n    \"maActiveProjects\": 19,\n    \"privateManagers\": 82,\n    \"privateYtdProducts\": 27,\n    \"reserveEnterprises\": 530,\n    \"aTierProfiles\": 80,\n    \"verifiedFinancing\": 1,\n    \"tenderScannedRecords\": 81,\n    \"activeTenderOpportunities\": 0\n  }\n}\n"
+    },
+    {
+      "name": "validate_backfill",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.310231+00:00",
+      "finishedAt": "2026-07-20T09:03:27.380849+00:00",
+      "durationSeconds": 0.071,
+      "command": [
+        "/Users/refrain97/Documents/codex/工作/资讯类/shaanxi-capital-market-daily/.venv/bin/python",
+        "v3/scripts/validate_backfill_2026.py"
+      ],
+      "outputTail": "{\n  \"status\": \"PASS\",\n  \"listedSources\": 7287,\n  \"listedCandidates\": 2756,\n  \"privateProducts\": 28,\n  \"privateCancellations\": 3,\n  \"tenderProjects\": 13,\n  \"maProjects\": 8,\n  \"preIpoMilestones\": 85,\n  \"soeRecords\": 61,\n  \"errors\": []\n}\n"
+    },
+    {
+      "name": "import_v1_listed_deep_reads",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.380882+00:00",
+      "finishedAt": "2026-07-20T09:03:27.466612+00:00",
+      "durationSeconds": 0.086,
+      "command": [
+        "/Users/refrain97/Documents/codex/工作/资讯类/shaanxi-capital-market-daily/.venv/bin/python",
+        "v3/scripts/import_v1_listed_deep_reads.py"
+      ],
+      "outputTail": "{\"reports\": 43, \"deepReads\": 665, \"latestDate\": \"2026-07-20\", \"latestItems\": 14}\n"
+    },
+    {
+      "name": "build_workspace_data",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.466648+00:00",
+      "finishedAt": "2026-07-20T09:03:27.532910+00:00",
+      "durationSeconds": 0.066,
+      "command": [
+        "/Users/refrain97/Documents/codex/工作/资讯类/shaanxi-capital-market-daily/.venv/bin/python",
+        "v3/scripts/build_workspace_data.py"
+      ],
+      "outputTail": "{\"listedMatters\": 731, \"listedRetrieved\": 117, \"privateProducts\": 28}\n"
+    },
+    {
+      "name": "validate_workspace_data",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.532950+00:00",
+      "finishedAt": "2026-07-20T09:03:27.558076+00:00",
+      "durationSeconds": 0.025,
+      "command": [
+        "/Users/refrain97/Documents/codex/工作/资讯类/shaanxi-capital-market-daily/.venv/bin/python",
+        "v3/scripts/validate_workspace_data.py"
+      ],
+      "outputTail": "{\"listedRetrieved\": 117, \"listedMatters\": 731, \"listedDeepReads\": 665, \"privateProducts\": 28, \"status\": \"PASS\"}\n"
+    },
+    {
+      "name": "build_event_store",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.558105+00:00",
+      "finishedAt": "2026-07-20T09:03:27.797419+00:00",
+      "durationSeconds": 0.239,
+      "command": [
+        "/Users/refrain97/Documents/codex/工作/资讯类/shaanxi-capital-market-daily/.venv/bin/python",
+        "v3/scripts/build_event_store.py"
+      ],
+      "outputTail": "{\n  \"schemaVersion\": \"1\",\n  \"runId\": \"event-store-20260720T090327Z\",\n  \"status\": \"PASS\",\n  \"database\": \"data/runtime/event-store.sqlite3\",\n  \"counts\": {\n    \"raw_snapshots\": 26,\n    \"entities\": 254,\n    \"sources\": 7526,\n    \"events\": 223,\n    \"event_versions\": 939,\n    \"event_timeline\": 281,\n    \"event_candidates\": 2952\n  },\n  \"channelCounts\": {\n    \"equity_financing\": 3,\n    \"listed\": 10,\n    \"ma\": 27,\n    \"pre_ipo\": 85,\n    \"private_fund\": 3,\n    \"soe\": 1,\n    \"tender\": 94\n  },\n  \"candidateChannelCounts\": {\n    \"equity_financing\": 1,\n    \"listed\": 2756,\n    \"ma\": 8,\n    \"pre_ipo\": 82,\n    \"private_fund\": 31,\n    \"soe\": 61,\n    \"tender\": 13\n  },\n  \"importedCandidateCount\": 2952,\n  \"generatedAt\": \"2026-07-20T09:03:27.790827+00:00\"\n}\n"
+    },
+    {
+      "name": "validate_event_store",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.797453+00:00",
+      "finishedAt": "2026-07-20T09:03:27.840954+00:00",
+      "durationSeconds": 0.044,
+      "command": [
+        "/Users/refrain97/Documents/codex/工作/资讯类/shaanxi-capital-market-daily/.venv/bin/python",
+        "v3/scripts/validate_event_store.py"
+      ],
+      "outputTail": "{\n  \"status\": \"PASS\",\n  \"counts\": {\n    \"raw_snapshots\": 26,\n    \"entities\": 254,\n    \"sources\": 7526,\n    \"events\": 223,\n    \"event_versions\": 939,\n    \"event_timeline\": 281,\n    \"event_candidates\": 2952\n  },\n  \"channels\": [\n    \"equity_financing\",\n    \"listed\",\n    \"ma\",\n    \"pre_ipo\",\n    \"private_fund\",\n    \"soe\",\n    \"tender\"\n  ],\n  \"errors\": []\n}\n"
+    },
+    {
+      "name": "validate_dashboard",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.840993+00:00",
+      "finishedAt": "2026-07-20T09:03:27.872089+00:00",
+      "durationSeconds": 0.031,
+      "command": [
+        "node",
+        "v3/scripts/validate_data.mjs"
+      ],
+      "outputTail": "V3 data validation passed: 18 events, 18 signals, 9 leads, 3 watch items, 10 listed daily items, 4 financial records, 0 active tender opportunities, 2 snapshots.\n"
+    },
+    {
+      "name": "validate_listed_business_taxonomy",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.872130+00:00",
+      "finishedAt": "2026-07-20T09:03:27.896134+00:00",
+      "durationSeconds": 0.024,
+      "command": [
+        "node",
+        "v3/scripts/validate_listed_business_taxonomy.mjs"
+      ],
+      "outputTail": "Listed business taxonomy validation passed: 8 primary categories, 43 secondary tags, 21 focus tags.\n"
+    },
+    {
+      "name": "validate_listed_universe",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.896169+00:00",
+      "finishedAt": "2026-07-20T09:03:27.920716+00:00",
+      "durationSeconds": 0.025,
+      "command": [
+        "node",
+        "v3/scripts/validate_listed_universe.mjs"
+      ],
+      "outputTail": "Listed universe validation passed: 117 total, L1 85, L2 14, L3 18.\n"
+    },
+    {
+      "name": "validate_tender_runtime",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.920752+00:00",
+      "finishedAt": "2026-07-20T09:03:27.946845+00:00",
+      "durationSeconds": 0.026,
+      "command": [
+        "node",
+        "v3/scripts/validate_tender_runtime.mjs"
+      ],
+      "outputTail": "Tender runtime validation passed: 81 records, 0 active opportunities, 4 source runs.\n"
+    },
+    {
+      "name": "validate_tender_classifier",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.946883+00:00",
+      "finishedAt": "2026-07-20T09:03:27.972786+00:00",
+      "durationSeconds": 0.026,
+      "command": [
+        "node",
+        "v3/scripts/validate_tender_classifier.mjs"
+      ],
+      "outputTail": "Tender classifier validation passed: 8 deadline fixtures and 4 stage fixtures.\n"
+    },
+    {
+      "name": "validate_private_fund",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.972825+00:00",
+      "finishedAt": "2026-07-20T09:03:27.997686+00:00",
+      "durationSeconds": 0.025,
+      "command": [
+        "node",
+        "v3/scripts/validate_private_fund.mjs"
+      ],
+      "outputTail": "Private fund validation passed: 20 ranked managers, 20 personnel profiles, 1 new product, 26 location observations.\n"
+    },
+    {
+      "name": "validate_phase5",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:27.997726+00:00",
+      "finishedAt": "2026-07-20T09:03:28.024648+00:00",
+      "durationSeconds": 0.027,
+      "command": [
+        "node",
+        "v3/scripts/validate_phase5.mjs"
+      ],
+      "outputTail": "Phase 5 validation passed: 25 M&A projects, 2 sourced, 80 A-tier enterprises, 1 financing record.\n"
+    },
+    {
+      "name": "validate_phase6",
+      "status": "PASS",
+      "startedAt": "2026-07-20T09:03:28.024685+00:00",
+      "finishedAt": "2026-07-20T09:03:28.048264+00:00",
+      "durationSeconds": 0.024,
+      "command": [
+        "node",
+        "v3/scripts/validate_phase6.mjs"
+      ],
+      "outputTail": "Phase 6 validation passed: 266 nodes, 128 evidence edges, 11 annual metrics.\n"
+    }
+  ],
+  "note": "运行时点不覆盖数据时点；STALE输入保持可见，V1生产未被修改。"
+}

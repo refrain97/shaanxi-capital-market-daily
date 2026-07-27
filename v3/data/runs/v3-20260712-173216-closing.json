@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "0.1",
+  "runId": "v3-20260712-173216-closing",
+  "slot": "closing",
+  "runMode": "parallel_prototype",
+  "startedAt": "2026-07-12T09:32:16.394223+00:00",
+  "finishedAt": "2026-07-12T09:32:16.602371+00:00",
+  "qualityResult": "PASS_WITH_STALE_INPUT",
+  "failedSteps": [],
+  "staleDatasets": [
+    "dashboard",
+    "privateFund"
+  ],
+  "inputHealth": [
+    {
+      "dataset": "dashboard",
+      "dataAsOf": "2026-07-10",
+      "status": "STALE",
+      "ageDays": 2
+    },
+    {
+      "dataset": "privateFund",
+      "dataAsOf": "2026-07-10",
+      "status": "STALE",
+      "ageDays": 2
+    },
+    {
+      "dataset": "maProjects",
+      "dataAsOf": "2026-07-12T11:00:00+08:00",
+      "status": "CURRENT",
+      "ageDays": 0
+    },
+    {
+      "dataset": "preIpo",
+      "dataAsOf": "2026-07-12T11:00:00+08:00",
+      "status": "CURRENT",
+      "ageDays": 0
+    },
+    {
+      "dataset": "tenderRuntime",
+      "dataAsOf": "2026-07-12T09:19:59.131Z",
+      "status": "CURRENT",
+      "ageDays": 0
+    }
+  ],
+  "steps": [
+    {
+      "name": "build_phase5",
+      "status": "PASS",
+      "startedAt": "2026-07-12T09:32:16.394223+00:00",
+      "finishedAt": "2026-07-12T09:32:16.429284+00:00",
+      "durationSeconds": 0.035,
+      "command": [
+        "/Users/refrain97/Documents/codex/工作/资讯类/shaanxi-capital-market-daily/.venv/bin/python",
+        "v3/scripts/build_phase5_data.py"
+      ],
+      "outputTail": "{\n  \"maProjectCount\": 25,\n  \"maOfficialSourceCount\": 2,\n  \"maBackfillCount\": 23,\n  \"reserveTotalCount\": 530,\n  \"priorityProfileCount\": 81,\n  \"financingRecordCount\": 1\n}\n"
+    },
+    {
+      "name": "build_phase6",
+      "status": "PASS",
+      "startedAt": "2026-07-12T09:32:16.429333+00:00",
+      "finishedAt": "2026-07-12T09:32:16.454156+00:00",
+      "durationSeconds": 0.025,
+      "command": [
+        "/Users/refrain97/Documents/codex/工作/资讯类/shaanxi-capital-market-daily/.venv/bin/python",
+        "v3/scripts/build_phase6_data.py"
+      ],
+      "outputTail": "{\n  \"nodeCount\": 266,\n  \"edgeCount\": 128,\n  \"annualMetrics\": {\n    \"normalizedEvents\": 18,\n    \"listedDailyItems\": 10,\n    \"maProjects\": 25,\n    \"maActiveProjects\": 19,\n    \"privateManagers\": 82,\n    \"privateYtdProducts\": 27,\n    \"reserveEnterprises\": 530,\n    \"aTierProfiles\": 80,\n    \"verifiedFinancing\": 1,\n    \"tenderScannedRecords\": 81,\n    \"activeTenderOpportunities\": 0\n  }\n}\n"
+    },
+    {
+      "name": "validate_dashboard",
+      "status": "PASS",
+      "startedAt": "2026-07-12T09:32:16.454219+00:00",
+      "finishedAt": "2026-07-12T09:32:16.482110+00:00",
+      "durationSeconds": 0.028,
+      "command": [
+        "node",
+        "v3/scripts/validate_data.mjs"
+      ],
+      "outputTail": "V3 data validation passed: 18 events, 18 signals, 9 leads, 3 watch items, 10 listed daily items, 4 financial records, 0 active tender opportunities, 2 snapshots.\n"
+    },
+    {
+      "name": "validate_tender_runtime",
+      "status": "PASS",
+      "startedAt": "2026-07-12T09:32:16.482160+00:00",
+      "finishedAt": "2026-07-12T09:32:16.505884+00:00",
+      "durationSeconds": 0.024,
+      "command": [
+        "node",
+        "v3/scripts/validate_tender_runtime.mjs"
+      ],
+      "outputTail": "Tender runtime validation passed: 81 records, 0 active opportunities, 4 source runs.\n"
+    },
+    {
+      "name": "validate_tender_classifier",
+      "status": "PASS",
+      "startedAt": "2026-07-12T09:32:16.505928+00:00",
+      "finishedAt": "2026-07-12T09:32:16.530174+00:00",
+      "durationSeconds": 0.024,
+      "command": [
+        "node",
+        "v3/scripts/validate_tender_classifier.mjs"
+      ],
+      "outputTail": "Tender classifier validation passed: 8 deadline fixtures and 4 stage fixtures.\n"
+    },
+    {
+      "name": "validate_private_fund",
+      "status": "PASS",
+      "startedAt": "2026-07-12T09:32:16.530214+00:00",
+      "finishedAt": "2026-07-12T09:32:16.554150+00:00",
+      "durationSeconds": 0.024,
+      "command": [
+        "node",
+        "v3/scripts/validate_private_fund.mjs"
+      ],
+      "outputTail": "Private fund validation passed: 20 ranked managers, 20 personnel profiles, 1 new product, 26 location observations.\n"
+    },
+    {
+      "name": "validate_phase5",
+      "status": "PASS",
+      "startedAt": "2026-07-12T09:32:16.554201+00:00",
+      "finishedAt": "2026-07-12T09:32:16.577483+00:00",
+      "durationSeconds": 0.023,
+      "command": [
+        "node",
+        "v3/scripts/validate_phase5.mjs"
+      ],
+      "outputTail": "Phase 5 validation passed: 25 M&A projects, 2 sourced, 80 A-tier enterprises, 1 financing record.\n"
+    },
+    {
+      "name": "validate_phase6",
+      "status": "PASS",
+      "startedAt": "2026-07-12T09:32:16.577527+00:00",
+      "finishedAt": "2026-07-12T09:32:16.600423+00:00",
+      "durationSeconds": 0.023,
+      "command": [
+        "node",
+        "v3/scripts/validate_phase6.mjs"
+      ],
+      "outputTail": "Phase 6 validation passed: 266 nodes, 128 evidence edges, 11 annual metrics.\n"
+    }
+  ],
+  "note": "运行时点不覆盖数据时点；STALE输入保持可见，V1生产未被修改。"
+}

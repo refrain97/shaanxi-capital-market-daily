@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "0.1",
+  "startDate": "2026-01-01",
+  "timezone": "Asia/Shanghai",
+  "channels": [
+    {"channel": "listed", "subjectCount": 110, "sourcePriority": ["CNINFO", "HKEX", "exchange", "company"]},
+    {"channel": "private_fund", "sourcePriority": ["AMAC", "manager"]},
+    {"channel": "equity_financing", "sourcePriority": ["regulator", "exchange", "enterprise", "investor"]},
+    {"channel": "ma", "sourcePriority": ["exchange", "SASAC", "property_exchange", "enterprise"]},
+    {"channel": "tender", "sourcePriority": ["purchaser", "official_tender_platform", "public_resource"]},
+    {"channel": "soe", "sourcePriority": ["SASAC", "group", "subsidiary"]}
+  ],
+  "rules": {
+    "historicalNoveltyStatus": "backfill",
+    "sameMatterUpdatesOriginalEvent": true,
+    "rawSnapshotRequired": true,
+    "sourceRequired": true,
+    "publishedAtAndDiscoveredAtSeparated": true,
+    "incompleteChannelCannotClaimComplete": true
+  }
+}

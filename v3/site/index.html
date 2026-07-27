@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <title>陕西资本市场日报</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">SX</div>
+        <div><strong>陕西资本市场</strong><span>CAPITAL MARKET DAILY</span></div>
+      </div>
+      <nav class="primary-nav" aria-label="主导航">
+        <button class="nav-item active" data-view="dashboard"><i data-lucide="layout-dashboard"></i><span>市场摘要</span></button>
+        <button class="nav-item" data-view="listed"><i data-lucide="landmark"></i><span>上市公司</span><b id="navListedCount">0</b></button>
+        <button class="nav-item" data-view="private"><i data-lucide="users"></i><span>证券私募</span><b id="navPrivateCount">0</b></button>
+        <button class="nav-item" data-view="deals"><i data-lucide="git-merge"></i><span>并购与融资</span><b id="navDealsCount">0</b></button>
+        <button class="nav-item" data-view="tender"><i data-lucide="file-clock"></i><span>招投标机会</span><b id="navTenderCount">0</b></button>
+        <button class="nav-item" data-view="watch"><i data-lucide="bookmark-check"></i><span>关注清单</span><b id="navWatchCount">0</b></button>
+        <button class="nav-item" data-view="signals"><i data-lucide="radio-tower"></i><span>最新动态</span><b id="navSignalCount">0</b></button>
+        <button class="nav-item" data-view="leads"><i data-lucide="briefcase-business"></i><span>业务机会</span></button>
+        <button class="nav-item" data-view="annual"><i data-lucide="chart-no-axes-combined"></i><span>年度数据</span></button>
+        <button class="nav-item" data-view="entities"><i data-lucide="waypoints"></i><span>主体关系</span></button>
+        <button class="nav-item" data-view="quality"><i data-lucide="shield-check"></i><span>数据说明</span><b class="quality-dot"></b></button>
+      </nav>
+      <div class="sidebar-foot">
+        <a href="../../soe-radar/index.html" target="_blank" rel="noreferrer"><i data-lucide="external-link"></i><span>陕西国企动态雷达</span></a>
+      </div>
+    </aside>
+
+    <div class="sidebar-scrim" id="sidebarScrim"></div>
+
+    <section class="workspace">
+      <header class="topbar">
+        <button class="icon-button mobile-menu" id="mobileMenu" title="打开导航" aria-label="打开导航"><i data-lucide="menu"></i></button>
+        <div class="run-context">
+          <span class="eyebrow" id="reportDateLabel">最新日报</span>
+          <strong class="report-title">陕西资本市场每日观察</strong>
+        </div>
+        <div class="run-health">
+          <div><span>信息截止</span><strong id="dataCutoff">--</strong></div>
+          <div><span>覆盖范围</span><strong id="coverageLabel">陕西资本市场</strong></div>
+          <button class="source-pill" data-view="quality" aria-label="查看数据说明"><span></span><strong id="sourceHealthLabel">公开信息整理</strong></button>
+        </div>
+      </header>
+
+      <main id="mainContent" tabindex="-1">
+        <section class="view active" id="view-dashboard" data-view-panel="dashboard"></section>
+        <section class="view" id="view-listed" data-view-panel="listed"></section>
+        <section class="view" id="view-private" data-view-panel="private"></section>
+        <section class="view" id="view-deals" data-view-panel="deals"></section>
+        <section class="view" id="view-tender" data-view-panel="tender"></section>
+        <section class="view" id="view-watch" data-view-panel="watch"></section>
+        <section class="view" id="view-signals" data-view-panel="signals"></section>
+        <section class="view" id="view-leads" data-view-panel="leads"></section>
+        <section class="view" id="view-annual" data-view-panel="annual"></section>
+        <section class="view" id="view-entities" data-view-panel="entities"></section>
+        <section class="view" id="view-quality" data-view-panel="quality"></section>
+      </main>
+    </section>
+  </div>
+
+  <div class="drawer-scrim" id="drawerScrim"></div>
+  <aside class="detail-drawer" id="detailDrawer" aria-hidden="true" aria-label="事件详情">
+    <div class="drawer-head">
+      <div><span class="eyebrow" id="drawerEyebrow">事件详情</span><h2 id="drawerTitle"></h2></div>
+      <div class="drawer-actions"><button class="icon-button drawer-watch" id="drawerWatch" title="加入跟踪" aria-label="加入跟踪"><i data-lucide="bookmark"></i></button><button class="icon-button" id="drawerClose" title="关闭" aria-label="关闭"><i data-lucide="x"></i></button></div>
+    </div>
+    <div class="drawer-body" id="drawerBody"></div>
+  </aside>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="./assets/lucide.min.js"></script>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

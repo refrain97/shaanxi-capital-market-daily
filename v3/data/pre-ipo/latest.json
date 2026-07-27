@@ -1,0 +1,1603 @@
+{
+  "schemaVersion": "0.1",
+  "asOf": "2026-07-12T11:00:00+08:00",
+  "reserveYear": 2026,
+  "reserveTotalCount": 530,
+  "tierCounts": {
+    "A": 80,
+    "B": 120,
+    "C": 330
+  },
+  "priorityProfileCount": 81,
+  "aTierTranscribedCount": 80,
+  "graduatedCount": 1,
+  "profiles": [
+    {
+      "enterpriseId": "preipo-5a54c205ed05d7ac",
+      "name": "西安新通药物研究股份有限公司",
+      "reserveRank": 1,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-713b16c935560498",
+      "name": "西安聚能超导磁体科技股份有限公司",
+      "reserveRank": 2,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-715057afabd0d7e7",
+      "name": "西安紫光国芯半导体股份有限公司",
+      "reserveRank": 3,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        },
+        {
+          "at": "2026-05-11",
+          "type": "ma_progress",
+          "label": "紫光国芯完成15%股份协议转让",
+          "sourceUrl": null
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-564592ab81296fac",
+      "name": "西安中科微精光子科技股份有限公司",
+      "reserveRank": 4,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-a9125cd3d190f7c9",
+      "name": "西安大医集团股份有限公司",
+      "reserveRank": 5,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-99ca171950fdc5bd",
+      "name": "陕西嘉禾生物科技股份有限公司",
+      "reserveRank": 6,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-c06208fcd231ed41",
+      "name": "陕西天成航空材料股份有限公司",
+      "reserveRank": 7,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-f3e4bd87b002d369",
+      "name": "西安艾力特电子股份有限公司",
+      "reserveRank": 8,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-e977127f8b49f239",
+      "name": "龙腾半导体股份有限公司",
+      "reserveRank": 9,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-18a43392284c2e21",
+      "name": "思安新能源股份有限公司",
+      "reserveRank": 10,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-961cfe4d9b2f0074",
+      "name": "陕西石羊农业科技股份有限公司",
+      "reserveRank": 11,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-f79824d4b0764f6b",
+      "name": "陕西瑞科新材料股份有限公司",
+      "reserveRank": 12,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-db264f49ced449a3",
+      "name": "宝鸡西工钛科技股份有限公司",
+      "reserveRank": 13,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-7631869a460f8479",
+      "name": "西安安森智能仪器股份有限公司",
+      "reserveRank": 14,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-821ee770a95c591b",
+      "name": "陕西欧卡电子智能科技有限公司",
+      "reserveRank": 15,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-3303f38d4ccb1fa7",
+      "name": "西安兴航航空科技股份有限公司",
+      "reserveRank": 16,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-39220e7008734e4a",
+      "name": "西安羚控电子科技有限公司",
+      "reserveRank": 17,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-b12542b616942864",
+      "name": "陕西亚成微电子股份有限公司",
+      "reserveRank": 18,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-8959e76bb3df774c",
+      "name": "西安因诺航空科技股份有限公司",
+      "reserveRank": 19,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-d3cbb782a24fb253",
+      "name": "西安奇点能源股份有限公司",
+      "reserveRank": 20,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-22ceda6987d99819",
+      "name": "西安洛科电子科技股份有限公司",
+      "reserveRank": 21,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-8509a9df97be267e",
+      "name": "陕西交控科技发展集团股份有限公司",
+      "reserveRank": 22,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-2deeffdbf33e1321",
+      "name": "西安蓝深新材料科技股份有限公司",
+      "reserveRank": 23,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-f8e8cb01a61112d2",
+      "name": "西安唐晶量子科技有限公司",
+      "reserveRank": 24,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-e7704fe1c23e5b09",
+      "name": "永辉彩食鲜股份有限公司",
+      "reserveRank": 25,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-b2e99714ef64df8f",
+      "name": "西安宏星电子浆料科技股份有限公司",
+      "reserveRank": 26,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-9e53e54dafaba02d",
+      "name": "西安吉利电子新材料股份有限公司",
+      "reserveRank": 27,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-7c212a37efe8ce82",
+      "name": "西安鑫垚陶瓷复合材料股份有限公司",
+      "reserveRank": 28,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-f884cf851b6d4d76",
+      "name": "西安智多晶科技股份有限公司",
+      "reserveRank": 29,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-9e0d4868bd9eda38",
+      "name": "拓尔微电子股份有限公司",
+      "reserveRank": 30,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-8ee3a0600808ff35",
+      "name": "陕西信泰航空技术股份有限公司",
+      "reserveRank": 31,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-9734c94ff9c22c08",
+      "name": "西安爱生技术集团有限公司",
+      "reserveRank": 32,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-7902637fc8856484",
+      "name": "西安西部新锆科技股份有限公司",
+      "reserveRank": 33,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-e4785e82bb0be7cf",
+      "name": "西部宝德科技股份有限公司",
+      "reserveRank": 34,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-eda4e70e84a36d8c",
+      "name": "西安钢研功能材料股份有限公司",
+      "reserveRank": 35,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-3548723db569966b",
+      "name": "西安赛隆增材技术股份有限公司",
+      "reserveRank": 36,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-671f6f82dd992af0",
+      "name": "博瑞集信（西安）电子科技股份有限公司",
+      "reserveRank": 37,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-bd4fcc67af5802b3",
+      "name": "渭南木王智能科技股份有限公司",
+      "reserveRank": 38,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-2284609c5110d83e",
+      "name": "西安晟昕科技股份有限公司",
+      "reserveRank": 39,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-e91d531d76905418",
+      "name": "西安中科西光航天科技集团有限公司",
+      "reserveRank": 40,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        },
+        {
+          "at": "2026-05-20",
+          "type": "ma_progress",
+          "label": "金利华电拟收购中科西光82.50%股权",
+          "sourceUrl": null
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-5a1390468bc44a40",
+      "name": "领充新能源科技有限公司",
+      "reserveRank": 41,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-6987134ff9060824",
+      "name": "西安和其光电科技股份有限公司",
+      "reserveRank": 42,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-d3e8971a8580d093",
+      "name": "西安知象光电科技有限公司",
+      "reserveRank": 43,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-d1b12c8cb65db386",
+      "name": "陕西欣晟绿能新材料有限公司",
+      "reserveRank": 44,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-dac1fffc9385af12",
+      "name": "宝鸡宝钛装备科技有限公司",
+      "reserveRank": 45,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-24220d833eba5450",
+      "name": "西安航天民芯科技有限公司",
+      "reserveRank": 46,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-c7a81c31d59523ba",
+      "name": "西安奇芯光电科技有限公司",
+      "reserveRank": 47,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        },
+        {
+          "at": "2026-05-12",
+          "type": "ma_progress",
+          "label": "京投发展筹划收购西安奇芯光电股权",
+          "sourceUrl": null
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-f7d7a1873feece00",
+      "name": "陕西天回航天技术有限公司",
+      "reserveRank": 48,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-9dbabf5299b69676",
+      "name": "陕西量维生物工程有限公司",
+      "reserveRank": 49,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-e98bd2a7612f6a34",
+      "name": "西安爱德华测量设备股份有限公司",
+      "reserveRank": 50,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-91d4ae664729e7c6",
+      "name": "宝鸡赛孚石油机械股份有限公司",
+      "reserveRank": 51,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-bcfe1d94ef38c414",
+      "name": "西北铁道电子股份有限公司",
+      "reserveRank": 52,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-cd1933800c73d397",
+      "name": "西安欧中材料科技股份有限公司",
+      "reserveRank": 53,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-1a527718b796454c",
+      "name": "西安超晶科技股份有限公司",
+      "reserveRank": 54,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-bc2205f036323aac",
+      "name": "陕西中科启航科技有限公司",
+      "reserveRank": 55,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-a4a1228165bf8807",
+      "name": "陕西智拓固相增材制造技术有限公司",
+      "reserveRank": 56,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-85d7154b8b898b30",
+      "name": "西安赛富乐斯半导体科技有限公司",
+      "reserveRank": 57,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-db1d93642afb0409",
+      "name": "西安秦泰汽车排放技术有限公司",
+      "reserveRank": 58,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-ef005e1a5d6e25f5",
+      "name": "西安思摩威新材料有限公司",
+      "reserveRank": 59,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-d7a9afd3d55282d8",
+      "name": "旬阳领盛新材料科技有限公司",
+      "reserveRank": 60,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-c4ceb139ff4a32ea",
+      "name": "质子汽车科技有限公司",
+      "reserveRank": 61,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-bac8bf38fcf19dcd",
+      "name": "陕西迪泰克新材料有限公司",
+      "reserveRank": 62,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-ea0d2a2ab3d620ab",
+      "name": "西安翔腾微电子科技有限公司",
+      "reserveRank": 63,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-174036ec67494af2",
+      "name": "西安欣创电子技术有限公司",
+      "reserveRank": 64,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-026708b81345c1b6",
+      "name": "陕西鼎益科技有限公司",
+      "reserveRank": 65,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-f485394ab25dc025",
+      "name": "陕西驭腾能源环保科技股份有限公司",
+      "reserveRank": 66,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-f55b871f961a8426",
+      "name": "西安青松光电技术有限公司",
+      "reserveRank": 67,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-6b2bc47221d7f662",
+      "name": "陕西太合智能钻探有限公司",
+      "reserveRank": 68,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-cd2c4da31140c62d",
+      "name": "芯派科技股份有限公司",
+      "reserveRank": 69,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-0d865e92ee3e56af",
+      "name": "陕西聚泰新材料科技有限公司",
+      "reserveRank": 70,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-b81319bc990e086f",
+      "name": "西安东风机电股份有限公司",
+      "reserveRank": 71,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-cae71a7074217116",
+      "name": "西安汉唐分析检测有限公司",
+      "reserveRank": 72,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-5bc503fa10f8c014",
+      "name": "陕西诺贝特自动化科技股份有限公司",
+      "reserveRank": 73,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-1e9beea3ec83b79e",
+      "name": "陕西卫峰核电子有限公司",
+      "reserveRank": 74,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-eeb1d050260e4bb9",
+      "name": "赛尔通信服务技术股份有限公司",
+      "reserveRank": 75,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-c66b0d7e5819eb72",
+      "name": "维度（西安）生物医疗科技有限公司",
+      "reserveRank": 76,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-03c9c9e517aaeb04",
+      "name": "陕西佰傲再生医学有限公司",
+      "reserveRank": 77,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-dfb75740b3627f2b",
+      "name": "陕西星邑空间技术有限公司",
+      "reserveRank": 78,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-00ad6bf6ff0cfe4e",
+      "name": "西安中科立德红外科技有限公司",
+      "reserveRank": 79,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "preipo-5863e38362cf4a9e",
+      "name": "西安中核核仪器股份有限公司",
+      "reserveRank": 80,
+      "reserveTier": "A",
+      "listingStage": "reserve_A",
+      "latestMilestone": "入选2026年度A档省级上市后备企业",
+      "latestMilestoneAt": "2026-06-15",
+      "financingStatus": "not_disclosed",
+      "milestones": [
+        {
+          "at": "2026-06-15",
+          "type": "reserve_list",
+          "label": "入选2026年度A档省级上市后备企业",
+          "sourceUrl": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx"
+        }
+      ],
+      "sourceStatus": "authoritative_attachment"
+    },
+    {
+      "enterpriseId": "ent-maikeaote",
+      "name": "陕西麦科奥特医药科技股份有限公司",
+      "reserveRank": null,
+      "reserveTier": "graduated",
+      "listingStage": "listed_hk",
+      "securityCode": "02335.HK",
+      "latestMilestone": "港交所主板挂牌上市",
+      "latestMilestoneAt": "2026-06-24",
+      "financingStatus": "ipo_completed",
+      "milestones": [
+        {
+          "at": "2026-06-11",
+          "type": "hearing",
+          "label": "通过港交所聆讯",
+          "sourceUrl": "https://www.ca-ht.com/show/1269"
+        },
+        {
+          "at": "2026-06-24",
+          "type": "listed",
+          "label": "港交所主板挂牌上市，代码2335.HK",
+          "sourceUrl": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_186_2026.pdf"
+        }
+      ],
+      "sourceStatus": "official"
+    }
+  ],
+  "financingRecords": [
+    {
+      "financingId": "fin-maikeaote-preipo-202606",
+      "enterpriseId": "ent-maikeaote",
+      "round": "IPO基石投资",
+      "amountText": "2.5亿元",
+      "investors": [
+        "陕西省科创母基金直投份额",
+        "西安高新金融控股集团"
+      ],
+      "announcedAt": "2026-06-24",
+      "sourceUrl": "https://www.ca-ht.com/show/1273",
+      "sourceQuality": "official_investor",
+      "verificationStatus": "verified"
+    }
+  ],
+  "source": {
+    "issuer": "中共陕西省委金融委员会办公室",
+    "documentNo": "陕金办发〔2026〕49号",
+    "publishedAt": "2026-06-15",
+    "url": "https://www.yanqitong.cn/uploads/20260624/14ce1713a0e36ad4e94e99cd262ee851.docx",
+    "transcriptionStatus": "A_tier_transcribed_and_spot_checked"
+  }
+}

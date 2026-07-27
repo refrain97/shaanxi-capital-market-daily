@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "0.1",
+  "source": {
+    "sourceId": "tender-sx-public-resource",
+    "name": "全国公共资源交易平台（陕西省）",
+    "url": "https://www.sxggzyjy.cn/",
+    "authority": "official",
+    "sourceType": "public_resource",
+    "adapter": "sxggzy_fulltext_v1",
+    "searchEndpoint": "https://www.sxggzyjy.cn/inteligentsearch_new/rest/esinteligentsearch/getFullTextDataNew",
+    "searchCategory": "001",
+    "scanIntervalMinutes": 60,
+    "stages": [
+      "announcement",
+      "change",
+      "candidate",
+      "award",
+      "termination"
+    ],
+    "status": "configured"
+  },
+  "from": "2026-06-01",
+  "to": "2026-06-30",
+  "retrievedAt": "2026-07-13T04:58:41.230Z",
+  "queries": [
+    {
+      "keyword": "公司债",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 1,
+      "fetchedCount": 1
+    },
+    {
+      "keyword": "企业债",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "中期票据",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "债务融资工具",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "资产证券化",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "ABS",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "REITs",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "标准化债券",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "主承销商",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 1,
+      "fetchedCount": 1
+    },
+    {
+      "keyword": "联席主承销商",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "承销团",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "受托管理人",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "财务顾问",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "融资顾问",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "投资顾问",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "上市辅导",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    },
+    {
+      "keyword": "债券承销",
+      "from": "2026-06-01",
+      "to": "2026-06-30",
+      "totalCount": 0,
+      "fetchedCount": 0
+    }
+  ],
+  "records": [
+    {
+      "infotype": "News",
+      "danweiguid": "",
+      "diqu": "",
+      "recommend": "0",
+      "title": "[招标公告]延安市东新区投资开发建设有限公司发行非公开公司债选聘<em style='color:red'>主承销</em><em style='color:red'>商</em>(二次）招标公告",
+      "_score": 491894.8,
+      "content": "1、招标条件    致君项目管理有限公司受延安市东新区投资开发建设有限公司的委托，就延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商（二次）进行公开招标，项目资金来源为企业自筹，欢迎符合要求的投标人前来投标。    2、招标内容：    2.1项目类型：非公开公司债项目。    2.2发行规模：延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商，申报发行规模不超过【10】亿元（含），后期具体发行金额以招标人实际使用需求及监管最终审批结果为准。    2.3产品期限：不超过7年（含），可设置含权条款，具体发行期限由招标人及中标人根据发行时市场情况、监管机构审批结果确定。    2.4承销费率：年承销费率最高限价为发行规模的【2.6】‰。    2.5承销方式：余额包销。    2.6服务期限：自投标人中标之日起至债券本息兑付完成为止。    2.7服务标准：详见招标文件。    2.8收费期限：债券发行日起至债券项目兑付日止（如设置含权条款，收费期限为债券发行日起至债券项目行权日止；如行权日后项目继续存续，根据该行权日至下一个行权日或兑付日的期间另行计算收费期限）。    2.9履约地点：招标人指定地点。    2.10.分包：不允许。    3、投标人资格要求    3.1 投标人应为具有独立承担民事责任能力的,在中华人民共和国境内依法注册的法人或其他组织，提供有效的营业执照(或事业法人登记证书)和有效的基本账户开户许可证，或基本账户信息证明材料；    3.2投标人应具有有效的由中国证券监督管理委员会颁发的《中华人民共和国经营证券期货业务许可证》，且业务范围包含证券承销与保荐。    投标截止时间前投标人不存在因受到中国证券监督管理委员会行政处罚、行政监管措施或被立案调查等原因导致无法正常开展债券业务及为本次项目提供销售服务的负面情况。（附承诺书）；    3.3未被列入“中国执行信息公开网”全国法院失信被执行人名单信息公布与查询平台（http://zxgk.court.gov.cn/shixin/）失信被执行人；“信用中国”网站（www.creditchina.gov.cn）不存在严重失信记录；“全国社会组织信用信息公示平台”网站（https://xxgs.chinanpo.mca.gov.cn/）严重违法失信名单的社会组织    3.4单位负责人为同一人或者存在控股、管理关系的不同单位，不得同时参加本项目投标；    3.5本项目不接受联合体投标。    4、资格审查方法    本次招标采用资格后审的方法对投标人资格进行审查，资格评审的条件、标准、方法详见招标文件。    5、招标文件的获取    5.1凡有意参加者，请于2026年&nbsp;6 月&nbsp;15 日至2026年&nbsp;6 月&nbsp;22 &nbsp;日使用CA锁登录全国公共资源交易平台（陕西省·延安市）延安市公共资源交易中心，选择电子交易平台中的陕西政府招标交易系统进行登录，登录后选择“交易乙方”身份进入投标人界面进行报名，报名成功后在《全国公共资源交易平台（陕西省·延安市）》免费下载招标文件。    6、投标文件的递交    6.1投标文件递交截止时间：2026年&nbsp;7 月&nbsp;6 日&nbsp;10 &nbsp;时&nbsp;00 分；    6.2开标地点：纸质版投标文件递交地点：延安市公共资源交易中心交易&nbsp;三 厅，电子版投标文件递交地点：《全国公共资源交易平台（陕西省·延安市》电子招投标系统；    6.3递交时需携带：法定代表人授权委托书、被委托人身份证，投标文件递交的具体要求详见招标文件的规定；    6.4逾期送达的、未送达指定地点的或者不按照招标文件要求密封的投标文件，招标人将予以拒收；    6.5本次招标采用线上不见面方式进行。    7、发布公告的媒介    本次招标公告在《陕西采购与招标网》《全国公共资源交易网（陕西省·延安市）》上同时发布。    8、联系方式    招标人：延安市东新区投资开发建设有限公司    地址：延安高新区黄蒿湾方塔片区东区办四楼    联系人：薛晓燕（接收异议联系人）    电 话：18992190168    招标代理机构：致君项目管理有限公司    地 址： 延安市新区盛世花园2号楼10楼    联 系 人：毛敏    电 话：0911-8807999    监督部门：延安市东新区投资开发建设有限公司审计法务部  ",
+      "farenrole": "",
+      "highlight": {
+        "title": "[招标公告]延安市东新区投资开发建设有限公司发行非公开公司债选聘<em style='color:red'>主承销</em><em style='color:red'>商</em>(二次）招标公告"
+      },
+      "score": 491894.8,
+      "titletype": "Text",
+      "istop": "0",
+      "danweitype": "",
+      "zuzhijigoucode": "",
+      "syscollectguid": "c7552806-e19b-4473-8ac5-33fe23805573",
+      "id": "00100101200124c683a2-affa-4953-afb5-4563fd674a6a_001",
+      "sysscore": 0,
+      "currentdanweiguid": "",
+      "categorynum": "001001012001",
+      "strcomment": "",
+      "infoid": "24c683a2-affa-4953-afb5-4563fd674a6a",
+      "author": "",
+      "zhuanzai": "公共资源交易平台",
+      "sysclicktimes": 0,
+      "ordernum": "0",
+      "espriority": 0,
+      "webdate": "2026-06-15 08:20:05",
+      "deleted": false,
+      "customtitle": "",
+      "syscategory": "001",
+      "categoryname": "招标公告",
+      "linkurl": "/jydt/001001/001001012/001001012001/20260615/24c683a2-affa-4953-afb5-4563fd674a6a.html",
+      "infodate": "2026-06-15 08:20:05",
+      "referencetype": "4",
+      "xiaqucode": "",
+      "matchedKeywords": [
+        "公司债",
+        "主承销商"
+      ]
+    }
+  ]
+}

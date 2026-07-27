@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "0.1",
+  "startDate": "2026-01-01",
+  "endDate": "2026-07-26",
+  "generatedAt": "2026-07-26T21:03:42.613427+00:00",
+  "channels": {
+    "listed": {
+      "status": "RAW_COMPLETE_CLASSIFICATION_PENDING_REVIEW",
+      "subjectCount": 110,
+      "resolvedSubjectCount": 110,
+      "sourceRecordCount": 6796,
+      "candidateCount": 2559,
+      "sourceRecordsByTier": {
+        "L1": 5687,
+        "L2": 355,
+        "L3": 754
+      },
+      "hkexCompletenessReviewRequired": true,
+      "errors": []
+    },
+    "private_fund": {
+      "status": "PRODUCTS_COMPLETE_CANCELLATIONS_LIMITED",
+      "productCount": 30,
+      "territorialProductCount": 29,
+      "relatedProductCount": 1,
+      "newManagerCount": 0,
+      "cancellationCount": 2,
+      "yearCancellationDetailChecked": 600,
+      "yearCancellationDetailTotal": 647,
+      "limitHit": true,
+      "sourceReportDate": "2026-07-24",
+      "errors": []
+    },
+    "equity_financing": {
+      "status": "BASELINE_NORMALIZED_FINANCING_SCAN_PENDING",
+      "officialReserveTotalCount": 530,
+      "profileCount": 81,
+      "aTierProfileCount": 80,
+      "milestoneCount": 85,
+      "verifiedFinancingCount": 1,
+      "missingSourceMilestoneCount": 3,
+      "limits": [
+        "A档80家已逐家建档；B/C档仅有官方数量，未取得权威企业明细不得补造",
+        "融资事件目前仅纳入已取得官方来源的记录，逐企年度扫描仍在进行"
+      ]
+    },
+    "ma": {
+      "status": "DEDUPED_TIMELINES_BODY_REVIEW_PENDING",
+      "announcementCandidateCount": 55,
+      "projectCandidateCount": 8,
+      "milestoneCount": 17,
+      "supportingDocumentCount": 34,
+      "sourceGapProjectCount": 3,
+      "limits": [
+        "当前项目按活动上市公司主体池初聚类，交易标的仍需公告正文确认",
+        "不在当前活动主体公告范围内的场外并购另行回补"
+      ]
+    },
+    "tender": {
+      "status": "DEDUPED_PROJECT_TIMELINES_REVIEW_PENDING",
+      "sourceCount": 2,
+      "recordCount": 33,
+      "projectCount": 13,
+      "announcementFoundCount": 11,
+      "publicationWindowConfirmedCount": 11,
+      "deadlineReviewCount": 0,
+      "announcementMissingCount": 2,
+      "limits": [
+        "中国招标投标公共服务平台的年度分页复核尚未完成",
+        "正文时间提取失败的项目仍需人工复核"
+      ]
+    },
+    "soe": {
+      "status": "PARTIAL_EXISTING_OUTPUTS_NO_JAN_JUN_ARCHIVE",
+      "inputFileCount": 7,
+      "recordCount": 61,
+      "earliestPublishedAt": "2026-05-21",
+      "latestPublishedAt": "2026-07-10",
+      "entityCount": 22,
+      "limits": [
+        "现有国企网页只保留7月5日起的发布文件，无法据此声明1月至6月全量",
+        "当前回收的是页面中仍保留且带来源链接的事项，后续需按国资委及集团官网重扫"
+      ]
+    }
+  }
+}

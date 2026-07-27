@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西西安国企动态雷达</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #1f2933; background: #f6f7f9; }
+    a { color: #1459a8; text-decoration: none; }
+    .muted, .source { color: #667085; font-size: 12px; }
+    .dot { display: inline-block; width: 6px; height: 6px; border-radius: 999px; background: #7aa7d9; margin-right: 7px; vertical-align: 1px; opacity: .75; }
+    .client-bottom { padding: 0 32px 34px; }
+    .client-contact { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; overflow: hidden; }
+    .client-contact-wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, .86fr); gap: 26px; align-items: center; padding: 22px 24px; }
+    .client-contact h2 { margin: 0 0 9px; font-size: 18px; color: #172033; }
+    .client-contact p { margin: 0; color: #667085; font-size: 13px; line-height: 1.7; }
+    .client-contact-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .client-contact-item { min-height: 64px; padding: 10px 12px; border: 1px solid #edf0f2; border-radius: 8px; background: #fafbfc; }
+    .client-contact-item span { display: block; margin-bottom: 5px; color: #667085; font-size: 12px; font-weight: 700; }
+    .client-contact-item strong,
+    .client-contact-item a { display: block; color: #1f2933; font-size: 14px; line-height: 1.42; font-weight: 700; overflow-wrap: anywhere; }
+    .site-footer { margin-top: 14px; padding-top: 12px; border-top: 1px solid #e5e7eb; color: #667085; font-size: 12px; line-height: 1.65; }
+    @media (max-width: 760px) {
+      .client-bottom { padding: 0 16px 28px; }
+      .client-contact-wrap { grid-template-columns: 1fr; padding: 18px 16px; }
+      .client-contact-list { grid-template-columns: 1fr; }
+    }
+    
+    .hero { position: relative; height: 230px; overflow: hidden; background: #fff; }
+    .hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(255,255,255,.82), rgba(255,255,255,.22)); }
+    .hero-text { position: absolute; inset: 0; z-index: 1; padding: 34px 42px; max-width: 760px; }
+    h1 { margin: 0 0 10px; font-size: 30px; }
+    .hero .date { font-size: 18px; color: #475467; margin-bottom: 14px; }
+    .hero p { margin: 0; color: #344054; font-size: 16px; }
+    main { padding: 24px 32px 44px; }
+    .focus { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; margin-bottom: 20px; overflow: hidden; }
+    .focus h2 { margin: 0; padding: 14px 16px; font-size: 17px; border-bottom: 1px solid #e5e7eb; }
+    .focus ol { list-style: none; padding: 0; margin: 0; }
+    .focus li { display: grid; grid-template-columns: 96px 1fr 220px; gap: 12px; padding: 11px 16px; border-top: 1px solid #edf0f2; align-items: start; }
+    .focus li:first-of-type { border-top: 0; }
+    .focus span, .focus em { color: #667085; font-style: normal; font-size: 13px; }
+    .grid { display: grid; grid-template-columns: repeat(5, minmax(190px, 1fr)); gap: 14px; }
+    .column { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; overflow: hidden; }
+    .column-head { position: relative; height: 58px; overflow: hidden; border-bottom: 1px solid #e5e7eb; background: #f8fafc; }
+    .column-head img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: .36; filter: saturate(.78) contrast(.94); }
+    .column-head::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(255,255,255,.94), rgba(255,255,255,.66)); }
+    .column h2 { position: relative; z-index: 1; margin: 0; padding: 18px 13px 0; font-size: 16px; }
+    .column ol { display: grid; grid-template-rows: repeat(5, 124px); list-style: none; padding: 0; margin: 0; }
+    .column li { min-height: 0; padding: 10px 12px; border-top: 1px solid #edf0f2; overflow: hidden; }
+    .column li:first-child { border-top: 0; }
+    .column li.blank { background: #fafbfc; }
+    .meta { display: grid; grid-template-columns: 98px minmax(0, 1fr); gap: 8px; color: #667085; font-size: 12px; line-height: 1.35; }
+    .meta span:last-child { overflow: hidden; text-align: right; text-overflow: ellipsis; white-space: nowrap; }
+    .column a { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; margin-top: 5px; overflow: hidden; font-size: 14px; line-height: 1.45; }
+    @media (max-width: 1180px) { .grid { grid-template-columns: repeat(2, minmax(240px,1fr)); } .focus li { grid-template-columns: 90px 1fr; } .focus em { grid-column: 2; } }
+    @media (max-width: 760px) { .hero-text, main { padding-left: 16px; padding-right: 16px; } .grid { grid-template-columns: 1fr; } .column ol { grid-template-rows: repeat(5, minmax(112px, auto)); } }
+    
+  </style>
+</head>
+<body><header class='hero'><img src='assets/dashboard_hero.png' alt=''><div class='hero-text'><h1>陕西西安国企动态雷达</h1><div class='date'>2026.07.20</div><p>本期重点关注资本金融、项目资产与风险治理动态。</p></div></header><main><section class='focus'><h2>今日重点</h2><ol><li><span>2026-07-16</span><a href='https://www.sxswfzjt.com/news/info/3587'>· 陕西水务发展水利水电工程集团荣获多项QC优秀成果奖项 2026-07-16</a><em>陕西水务发展集团有限公司</em></li><li><span>2026-07-14</span><a href='https://sxgz.shaanxi.gov.cn/sy/gqzc/qydt/202607/t20260715_3657257.html'>【陕西交控】迪拜卡图拉项目完成首块筏板大方量混凝土浇筑</a><em>陕西交通控股集团有限公司</em></li><li><span>2026-07-14</span><a href='https://sxgz.shaanxi.gov.cn/sy/gqzc/qydt/202607/t20260715_3657246.html'>【陕投集团】赵石畔矿业智能供电云网融合管控系统项目顺利通过项目竣工验收</a><em>陕西投资集团有限公司</em></li><li><span>2026-07-14</span><a href='https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202607/t20260715_3657261.html'>【陕建控股】再结硕果！援蒙古中蒙元首体育中心项目正式落地</a><em>陕西建工控股集团有限公司</em></li><li><span>2026-07-14</span><a href='https://mp.weixin.qq.com/s/QAH1n--M0eI3aXEHINc0YA'>助力今冬供暖 清洁热源项目取得新进展</a><em>西安市国资委</em></li></ol></section><div class='grid'><section class='column'><div class='column-head'><img src='assets/category_finance.png' alt=''><h2>资本金融</h2></div><ol><li><div class='meta'><span>2026-06-22</span><span>中陕核工业集团有限公司</span></div><a href='https://www.nuclgeol.com/info/1026/198571.htm'>中陕核集团首次成功发行公司债券，票面利率创新低</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-06-17</span><span>长安汇通集团有限责任公司</span></div><a href='https://www.ca-ht.com/show/1270'>陕西社保科创基金签约仪式在西安举行</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-06-11</span><span>长安汇通集团有限责任公司</span></div><a href='https://www.ca-ht.com/show/1269'>麦科奥特通过港交所上市聆讯 长安汇通前瞻布局结出硕果</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-05-21</span><span>长安汇通集团有限责任公司</span></div><a href='https://www.ca-ht.com/show/1263'>顶流机构、高校基因、全早期！陕西省科创母基金再落三子</a><div class='source'>来源：集团官网</div></li><li class='blank'></li></ol></section><section class='column'><div class='column-head'><img src='assets/category_project.png' alt=''><h2>项目资产</h2></div><ol><li><div class='meta'><span>2026-07-16</span><span>陕西水务发展集团有限公司</span></div><a href='https://www.sxswfzjt.com/news/info/3587'>· 陕西水务发展水利水电工程集团荣获多项QC优秀成果奖项 2026-07-16</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-07-14</span><span>陕西交通控股集团有限公司</span></div><a href='https://sxgz.shaanxi.gov.cn/sy/gqzc/qydt/202607/t20260715_3657257.html'>【陕西交控】迪拜卡图拉项目完成首块筏板大方量混凝土浇筑</a><div class='source'>来源：陕西省国资委</div></li><li><div class='meta'><span>2026-07-14</span><span>陕西投资集团有限公司</span></div><a href='https://sxgz.shaanxi.gov.cn/sy/gqzc/qydt/202607/t20260715_3657246.html'>【陕投集团】赵石畔矿业智能供电云网融合管控系统项目顺利通过项目竣工验收</a><div class='source'>来源：陕西省国资委</div></li><li><div class='meta'><span>2026-07-14</span><span>陕西建工控股集团有限公司</span></div><a href='https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202607/t20260715_3657261.html'>【陕建控股】再结硕果！援蒙古中蒙元首体育中心项目正式落地</a><div class='source'>来源：陕西省国资委</div></li><li><div class='meta'><span>2026-07-14</span><span>西安市国资委</span></div><a href='https://mp.weixin.qq.com/s/QAH1n--M0eI3aXEHINc0YA'>助力今冬供暖 清洁热源项目取得新进展</a><div class='source'>来源：西安市国资委</div></li></ol></section><section class='column'><div class='column-head'><img src='assets/category_risk.png' alt=''><h2>风险治理</h2></div><ol><li><div class='meta'><span>2026-07-02</span><span>陕西水务发展集团有限公司</span></div><a href='https://www.sxswfzjt.com/news/info/3517'>陕西水务发展集团召开党风廉政建设暨警示教育会议</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-07-01</span><span>陕西金融控股集团有限公司</span></div><a href='https://www.sxjkgroup.com/info/1021/3867.htm'>筑牢风险防控底线，践行正确政绩观——产投公司召开风险监测...</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-06-30</span><span>陕西地矿集团有限公司</span></div><a href='https://www.sndk.cn/news/18853.html'>陕西地矿物资开展安全生产大检查</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-06-30</span><span>陕西金融控股集团有限公司</span></div><a href='https://www.sxjkgroup.com/info/1021/3864.htm'>新时代资本召开违反中央八项规定精神案件 以案促改工作动员部...</a><div class='source'>来源：集团官网</div></li><li class='blank'></li></ol></section><section class='column'><div class='column-head'><img src='assets/category_operation.png' alt=''><h2>产业经营</h2></div><ol><li><div class='meta'><span>2026-07-18</span><span>陕西医药控股集团有限责任公司</span></div><a href='https://www.shanyaogroup.com/info/1028/44312.htm'>陕药集团举办“财务数智化转型赋能企业高质量发展”专题培训（陕药大讲堂 总第33期） 2026-07-18</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-07-17</span><span>西安工业投资集团有限公司</span></div><a href='https://xagytzjt.com/show/26071718NpXFa.html'>加强央地联动 深化产业协同 ——西安工投集团与国水风电公司 座谈交流</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-07-17</span><span>陕西国际经贸集团有限公司</span></div><a href='https://www.siet.com.cn/news_detail/id-8073.html'>中基宁波集团到访陕西国际经贸集团 深化经贸合作 共促协同发展</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-07-17</span><span>陕西投资集团有限公司</span></div><a href='https://www.sxigc.com/article/19223'>2026-07-17 李元与中国工商银行陕西省分行党委书记、行长牛喜军座谈交流</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-07-17</span><span>西安市国资委-考评处</span></div><a href='https://gzw.xa.gov.cn/xwzx/gzdt/2078019341940023298.html'>绷紧安全防汛弦 筑牢国资防护墙</a><div class='source'>来源：西安市国资委</div></li></ol></section><section class='column'><div class='column-head'><img src='assets/category_notice.png' alt=''><h2>综合动态</h2></div><ol><li><div class='meta'><span>2026-07-17</span><span>陕西氢能产业发展有限公司</span></div><a href='https://www.sxqn.cn/jtyw/4542'>安全管理 | 陕西氢能举办安全责任与领导力专题讲座 2026-07-17</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-07-17</span><span>陕西法士特汽车传动集团有限责任公司</span></div><a href='https://www.chinafastgear.com/default/list/19060510zeZyG.html'>了解更多 &gt;</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-07-17</span><span>陕西投资集团有限公司</span></div><a href='https://www.sxigc.com/article/19222'>2026-07-17 陕投集团召开2026年上半年工作会</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-07-16</span><span>陕西煤业化工集团有限责任公司</span></div><a href='https://www.shccig.com/index/Article/index.html?id=1429243&amp;cid=16'>【陕西日报】陕煤集团上半年煤炭产量跃居全国第四</a><div class='source'>来源：集团官网</div></li><li><div class='meta'><span>2026-07-16</span><span>陕西煤业化工集团有限责任公司</span></div><a href='https://www.shccig.com/index/Article/index.html?id=1429241&amp;cid=16'>【群众新闻网客户端】陕煤集团上半年煤炭产量跃居全国第四位</a><div class='source'>来源：集团官网</div></li></ol></section></div></main><div class='client-bottom'><div class='client-contact'><div class='client-contact-wrap'><div><h2>客户联系</h2><p>本日报由华泰证券西安锦业路证券营业部（西北分公司机构业务中心）整理发布。如需了解陕西省属 / 西安市属国企动态跟踪、国资平台事件监测、资本金融与项目观察，欢迎联系。</p></div><div class='client-contact-list' aria-label='客户联系信息'><div class='client-contact-item'><span>单位</span><strong>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）</strong></div><div class='client-contact-item'><span>办公地点</span><strong>西安锦业路证券营业部</strong></div><div class='client-contact-item'><span>联系人</span><strong>机构业务中心</strong></div><div class='client-contact-item'><span>邮箱</span><a href='mailto:wangyue021243@htsc.com'>wangyue021243@htsc.com</a></div></div></div></div><footer class='site-footer'>资料来源：陕西省国资委、西安市国资委、企业官网及公开新闻页面。内容来自公开信息整理，仅供交流参考，不构成投资建议。</footer></div></body>
+</html>

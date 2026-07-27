@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-07-27",
+  "status": "ready",
+  "createdAt": "2026-07-27T12:20:42+08:00",
+  "producer": "V1 transition collection backend",
+  "consumer": "V2 customer site",
+  "files": [
+    {
+      "path": "v1/陕西省上市公司日报v1/data/curated/listed-official-2026-07-27.json",
+      "sha256": "f3a8967a1978c7bd51ffdb0b22ce3063227c3d098a44ccf9a8baf027a54409aa"
+    },
+    {
+      "path": "v1/陕西省证券私募日报v1/data/security-private-fund-daily-2026-07-27.json",
+      "sha256": "e0280ba5a46df80b42ff362a6fcd2f95b192a6249b69a0c258a5247e73bda0c5"
+    },
+    {
+      "path": "v1/assets/previews/listed-2026-07-27.webp",
+      "sha256": "618bd514bd97fd6c0fb40d4b7ce843dfd0910f711b31d3845816dc1ee663b737"
+    },
+    {
+      "path": "v1/assets/previews/private-2026-07-27.webp",
+      "sha256": "bd2b09512ad0adcf6a4dcf7c76d851fc6cb74a1581745894efcb4b091cab09a6"
+    },
+    {
+      "path": "v1/assets/previews/ma-2026-07-27.webp",
+      "sha256": "ad7bfea8cb4470e69ff4c6132e701e148731675266857a49f19fd308deac65f6"
+    },
+    {
+      "path": "v1/assets/previews/tender-2026-07-27.webp",
+      "sha256": "c766b41d610c2d0fba3f1a0a4c3bcbc0cfc5fb5b56f6384b8220781f28af2209"
+    }
+  ]
+}

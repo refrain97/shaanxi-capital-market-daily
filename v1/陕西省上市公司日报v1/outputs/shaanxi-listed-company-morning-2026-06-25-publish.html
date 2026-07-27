@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西上市公司公告早报｜2026年6月25日</title>
+  <style>
+    :root {
+      --navy: #0f243f;
+      --ink: #1d2733;
+      --muted: #667085;
+      --line: #d8dee8;
+      --soft: #f4f7fb;
+      --risk: #c2412f;
+      --risk-bg: #fff0ec;
+      --good: #16835a;
+      --good-bg: #eaf7f0;
+      --watch: #a16207;
+      --watch-bg: #fff7df;
+      --blue-bg: #eaf1fb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #e9eef5;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      color: var(--ink);
+    }
+
+    .page {
+      width: 1242px;
+      min-height: 2060px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: visible;
+    }
+
+    .topbar {
+      background: var(--navy);
+      color: #fff;
+      padding: 38px 54px 28px;
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 28px;
+      align-items: end;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 54px;
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin-top: 16px;
+      font-size: 22px;
+      color: #d8e3f3;
+      line-height: 1.5;
+    }
+
+    .source {
+      text-align: right;
+      font-size: 20px;
+      line-height: 1.55;
+      color: #c8d5e6;
+    }
+
+    .source strong {
+      color: #fff;
+      font-size: 28px;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .content {
+      padding: 18px 42px 12px;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .kpi {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 11px 16px;
+      min-height: 72px;
+    }
+
+    .kpi .num {
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 800;
+      color: var(--navy);
+    }
+
+    .kpi .label {
+      margin-top: 8px;
+      font-size: 17px;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .section {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .section.wide { grid-column: 1 / -1; }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background: #f7f9fc;
+      border-bottom: 1px solid var(--line);
+      font-weight: 800;
+      font-size: 21px;
+      color: var(--navy);
+    }
+
+    .section-title .no {
+      display: inline-grid;
+      place-items: center;
+      min-width: 42px;
+      height: 28px;
+      border-radius: 5px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .body { padding: 9px 14px 10px; }
+
+    .chips {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 16px;
+      line-height: 1.36;
+      background: #fff;
+    }
+
+    .chip b {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 3px;
+      color: var(--navy);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 700;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+
+    td {
+      padding: 5px 8px;
+      border-bottom: 1px solid #edf1f6;
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 15px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .tag.risk { background: var(--risk-bg); color: var(--risk); }
+    .tag.good { background: var(--good-bg); color: var(--good); }
+    .tag.watch { background: var(--watch-bg); color: var(--watch); }
+    .tag.info { background: var(--blue-bg); color: var(--navy); }
+
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .tile {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 72px;
+      background: #fff;
+    }
+
+    .tile b {
+      display: block;
+      font-size: 18px;
+      color: var(--navy);
+      margin-bottom: 5px;
+    }
+
+    .tile span {
+      font-size: 15px;
+      line-height: 1.34;
+      color: #344054;
+    }
+
+    .mini-list {
+      display: grid;
+      gap: 7px;
+      font-size: 17px;
+      line-height: 1.35;
+    }
+
+    .mini-list div {
+      padding: 7px 9px;
+      border: 1px solid #edf1f6;
+      border-radius: 6px;
+      background: #fcfdff;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .subhead {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--navy);
+      margin: 0 0 7px;
+      padding-left: 4px;
+    }
+
+    .fixed-list {
+      display: grid;
+      gap: 6px;
+    }
+
+    .fixed-item {
+      border: 1px solid #e5ebf3;
+      border-radius: 6px;
+      padding: 6px 9px;
+      font-size: 15.6px;
+      line-height: 1.3;
+      background: #fff;
+    }
+
+    .fixed-item b {
+      color: var(--navy);
+      margin-right: 5px;
+    }
+
+    .follow {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+    }
+
+    .follow div {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 76px;
+      background: #fcfdff;
+      font-size: 14.8px;
+      line-height: 1.3;
+    }
+
+    .follow b {
+      display: block;
+      font-size: 17px;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+
+    .note {
+      margin: 10px 42px 22px;
+      border-top: 1px solid var(--line);
+      padding-top: 9px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.42;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .small { font-size: 15.5px; color: var(--muted); }
+    .strong { font-weight: 800; color: var(--ink); }
+
+    @media (max-width: 720px) {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        margin: 0;
+        overflow: visible;
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        align-items: start;
+        padding: 24px 18px 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+        line-height: 1.12;
+      }
+
+      .subtitle {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      .source {
+        text-align: left;
+        font-size: 15px;
+      }
+
+      .source strong {
+        font-size: 20px;
+      }
+
+      .content {
+        padding: 14px 14px 22px;
+      }
+
+      .kpis,
+      .grid,
+      .chips,
+      .tiles,
+      .two-col,
+      .follow {
+        grid-template-columns: 1fr;
+      }
+
+      .section.wide {
+        grid-column: auto;
+      }
+
+      .kpi {
+        min-height: 0;
+      }
+
+      .kpi .num {
+        font-size: 27px;
+      }
+
+      .kpi .label {
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      .section-title {
+        align-items: flex-start;
+        padding: 10px 12px;
+        font-size: 18px;
+        line-height: 1.28;
+      }
+
+      .section-title .no {
+        min-width: 36px;
+        height: 26px;
+        font-size: 16px;
+      }
+
+      .body {
+        padding: 10px;
+      }
+
+      .chip,
+      .tile,
+      .follow div {
+        min-height: 0;
+      }
+
+      colgroup,
+      thead {
+        display: none;
+      }
+
+      table,
+      tbody,
+      tr,
+      td {
+        display: block;
+        width: 100%;
+      }
+
+      table {
+        font-size: 14px;
+      }
+
+      tr {
+        padding: 8px 0;
+        border-bottom: 1px solid #edf1f6;
+      }
+
+      tr:last-child {
+        border-bottom: 0;
+      }
+
+      td {
+        padding: 3px 0;
+        border-bottom: 0;
+      }
+
+      td:first-child {
+        color: var(--navy);
+        font-weight: 800;
+      }
+
+      .note {
+        position: static;
+        margin: 0 14px 22px;
+        padding-top: 12px;
+        display: grid;
+        gap: 8px;
+        font-size: 13px;
+        line-height: 1.45;
+      }
+    }
+  
+    .chip.priority {
+      border: 2px solid #c00000;
+      background: linear-gradient(135deg, #fff3f0 0%, #fffaf2 100%);
+      box-shadow: inset 0 0 0 1px rgba(192, 0, 0, 0.08);
+    }
+    .chip.priority b {
+      color: #9b0000;
+    }
+    .chip.emphasis {
+      border-color: #a7b7cc;
+      background: #f8fbff;
+    }
+    .chip.emphasis b {
+      color: #003778;
+    }
+    </style>
+<!-- V1_ANALYTICS_HEAD_START -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="ff2a4678-af6a-4b80-a4ff-15d3a9a62ebd" data-domains="refrain97.github.io,shaanxi-capital-market-daily.vercel.app"></script>
+  <!-- V1_ANALYTICS_HEAD_END -->
+</head>
+<body>
+  <main class="page" data-template="listed-v1-official">
+    <header class="topbar">
+      <div>
+        <h1>陕西上市公司公告早报</h1>
+        <div class="subtitle">2026年6月25日｜检索窗口2026-06-24至2026-06-25｜35条公告、24家发布公告公司、PDF原文精读</div>
+      </div>
+      <div class="source">
+        <strong>覆盖 85 家上市公司</strong>
+        沪市42家｜深市37家｜北交所6家<br>
+        名单来源：陕西证监局｜公告源：巨潮资讯 CNINFO
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="kpis">
+        <div class="kpi"><div class="num">35条</div><div class="label">CNINFO逐公司检索公告，覆盖24家公司，接口错误0条</div></div>
+        <div class="kpi"><div class="num">24家</div><div class="label">发布公告的公司家数，35份PDF已下载并抽取文本落盘，高价值精读覆盖关联借款、担保逾期、异常波动、诉讼、减持、增持、质押和股权激励</div></div>
+        <div class="kpi"><div class="num">4,000万元</div><div class="label">西安奕材完成珠海奕源Pre-A+轮协议签署，对应1.379%股权，资金交割和工商变更尚未完成</div></div>
+        <div class="kpi"><div class="num">25,806,000股</div><div class="label">陕建股份拟于6月29日回购注销限制性股票，430名激励对象对应回购价格1.89元/股</div></div>
+      </div>
+
+      <div class="grid">
+        <section class="section">
+          <div class="section-title"><span class="no">01</span>今日业务机会</div>
+          <div class="body chips">
+            <div class="chip priority"><b>必看｜西安奕材</b>4,000万元认购珠海奕源22.3514万元新增注册资本，取得1.379%股权。</div>
+            <div class="chip priority"><b>必看｜陕西金叶</b>新增5,000万元售后回租担保和2,000万元流贷反担保，年度授信担保总盘子40亿元。</div>
+            <div class="chip emphasis"><b>重点｜宝钛股份</b>35亿元可转债网上中签率0.00800171%，原股东优先配售占77.70%。</div>
+            <div class="chip emphasis"><b>重点｜康惠股份</b>一边出现春盛药业贷款逾期风险，一边有6%股东拟减持不超998,800股。</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><span class="no">02</span>重大事项与风险公告</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:20%"><col style="width:57%"><col style="width:23%"></colgroup>
+              <thead><tr><th>公司</th><th>事项</th><th>业务判断</th></tr></thead>
+              <tbody>
+                <tr><td>宝光股份</td><td>公司股票6月22日至6月24日连续三个交易日涨幅偏离值累计20%；公司静态市盈率88.38倍、滚动市盈率108.53倍，明显高于行业30.32倍和29.97倍，6月24日换手率21.35%。</td><td><span class="tag risk">异常波动</span></td></tr>
+                <tr><td>康惠股份</td><td>春盛药业600万元贷款本息逾期后，担保公司已向公司发出逾期催收通知；公司按反担保合同需承担相应责任，骆春明及尹念娟仅在49%范围内向公司提供反担保，本次逾期担保金额占公司2025年末归母净资产0.76%。</td><td><span class="tag risk">担保逾期</span></td></tr>
+                <tr><td>西安饮食</td><td>子公司桃李学校就工程施工合同纠纷起诉两家建设公司，涉案金额1,398.92万元；另有连续十二个月内其他未达披露标准诉讼仲裁合计约787.67万元，占最近一期经审计净资产5.05%。</td><td><span class="tag risk">诉讼仲裁</span></td></tr>
+                <tr><td>陕西金叶</td><td>明德学院新增5,000万元售后回租融资由上市公司连带责任担保，同时新增2,000万元流贷反担保；截至2026年3月末明德学院负债总额215,837.28万元，需继续盯住授信扩张与担保滚动节奏。</td><td><span class="tag watch">授信担保</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">03</span>上市公司动态</div>
+          <div class="body tiles">
+            <div class="tile"><b>烽火电子｜关联借款落地</b><span>向控股股东烽火集团借款5,000万元，期限3个月，年利率2.30%，用于补充流动资金，并以相应价值应收账款作抵押。</span></div>
+            <div class="tile"><b>陕西能源｜中票到账</b><span>2026年度第一期中期票据（可持续挂钩）已于6月24日到账，规模10亿元，期限3+2年，发行利率1.56%，交通银行主承销、北京银行联席主承销。</span></div>
+            <div class="tile"><b>隆基绿能｜员工持股过户</b><span>2025年员工持股计划完成非交易过户19,525,000股，占总股本0.26%，存续期60个月，锁定期满后按30%、30%、40%三期解锁。</span></div>
+            <div class="tile"><b>诺瓦星云｜实控人补质押</b><span>袁胜春和宗靖国各新增质押350万股，合计700万股，占公司总股本7.57%；公告同时提示前期部分质押股份将于近期办理解除质押。</span></div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">04</span>股东变动与资本运作</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:16%"><col style="width:44%"><col style="width:40%"></colgroup>
+              <thead><tr><th>公司</th><th>关键数字</th><th>业务关注</th></tr></thead>
+              <tbody>
+                <tr><td>宝钛股份</td><td>35亿元可转债发行中，原股东优先配售金额<b>271,943万元</b>、占比<b>77.70%</b>；网上向社会公众发售<b>78,057万元</b>、占比<b>22.30%</b>；网上中签率<b>0.00800171%</b></td><td>关注缴款结果、弃购包销比例和后续上市时间。</td></tr>
+                <tr><td>陕建股份</td><td>拟回购注销限制性股票<b>25,806,000股</b>，涉及<b>430名</b>激励对象，其中因离职等回购<b>1,190,000股</b>、因业绩未达标回购<b>24,616,000股</b>；回购价格<b>1.89元/股</b>，注销日<b>2026年6月29日</b></td><td>关注注销完成后的股本变化、工商变更和国企激励口径。</td></tr>
+                <tr><td>康惠股份</td><td>5%以上股东创响盈持有<b>5,992,800股</b>、占总股本<b>6%</b>，其中已质押<b>3,995,200股</b>、占总股本<b>4%</b>；拟在十五个交易日后三个月内集中竞价减持不超过<b>998,800股</b>，即不超过总股本<b>1%</b></td><td>关注减持启动窗口、股价承压和与担保逾期风险的叠加影响。</td></tr>
+                <tr><td>供销大集 / 隆基绿能 / 诺瓦星云</td><td>供销商贸计划6个月内增持供销大集<b>3,000万-5,000万元</b>，其持股占比<b>7.39%</b>，控股股东及一致行动人合计占比<b>24.18%</b>；隆基控股股东解除质押<b>80,000,000股</b>后剩余质押<b>206,000,000股</b>、占其持股<b>19.30%</b>；诺瓦两名实控人合计新增质押<b>7,000,000股</b>、占总股本<b>7.57%</b></td><td>继续盯增持兑现、质押余额变化和实控人融资安排。</td></tr>
+                <tr><td>达刚控股</td><td>英奇管理减持计划实施完毕，累计减持<b>3,170,000股</b>、占总股本<b>1%</b>，减持均价<b>8.49元/股</b>；减持后持股由<b>3.28%</b>降至<b>2.28%</b></td><td>关注减持完成后的股东结构变化和后续是否出现新一轮预披露。</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">05</span>股东会、治理与固定披露清单</div>
+          <div class="body two-col">
+            <div>
+              <p class="subhead">A. 股东会、董事会与治理事项</p>
+              <div class="fixed-list"><div class="fixed-item"><b>西安旅游</b>6月24日第四次临时股东会审议关联方借款议案，同意3,038,777股、占有效表决权78.3154%，反对808,801股、占20.8444%，中小股东表决结构一致，说明借款议案在小股东层面争议仍然存在。</div><div class="fixed-item"><b>金钼股份</b>2025年年度股东会决议显示，公司2026年度日常关联交易计划等议案已通过，相关律师意见确认会议程序合法有效，需跟踪关联交易执行节奏和后续资金安排。</div><div class="fixed-item"><b>ST炼石</b>2025年度股东会共有209名股东出席，代表742,257,680股、占表决权53.1670%；年度报告、利润分配和未弥补亏损等议案获通过，后续仍需跟踪经营修复与资产重组节奏。</div><div class="fixed-item"><b>中熔电气</b>持续督导保荐代表人完成更换，新任保代具有定增、重大资产购买和可转债项目经验，需继续跟踪募投项目督导衔接与后续信息披露口径。</div></div>
+            </div>
+            <div>
+              <p class="subhead">B. 会议通知、权益服务与固定披露</p>
+              <div class="fixed-list"><div class="fixed-item"><b>烽火电子</b>公司将于2026年7月10日召开第一次临时股东会，股权登记日为7月6日，审议向关联方借款暨关联交易等事项，需关注关联董事回避后股东层面的通过率。</div><div class="fixed-item"><b>供销大集</b>控股股东一致行动人供销商贸启动3000万元至5000万元增持计划，公告明确增持期间及法定期限内不减持，后续需持续跟踪增持进度和信息披露节奏。</div><div class="fixed-item"><b>泰金新能</b>年度股东会材料继续保留2026年度日常关联交易计划、经营范围和章程修订、独立董事津贴及注册资本变更等议案，后续要看股东会表决和募投项目配套安排。</div><div class="fixed-item"><b>三角防务</b>可转债2026年度跟踪评级报告已披露，但PDF文字抽取为空，需结合后续可转债发行文件与评级结论补看主体评级、募投用途和债项约束条款。</div></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">06</span>今日重点跟踪公司</div>
+          <div class="body follow">
+            <div><b>西安奕材｜看交割</b>跟踪4,000万元资金交割、珠海奕源工商变更和1.379%股权最终落地。</div>
+            <div><b>陕西金叶｜看担保</b>看5,000万元租赁担保、2,000万元反担保落地和明德学院融资滚动节奏。</div>
+            <div><b>西安饮食｜看诉讼</b>跟踪1,398.92万元工程诉讼审理进展和787.67万元存量诉讼变化。</div>
+            <div><b>宝钛股份｜看缴款</b>跟踪可转债网上缴款、弃购包销比例和后续上市安排。</div>
+            <div><b>陕建股份｜看注销</b>看6月29日25,806,000股注销完成和1.89元/股回购口径后续落地。</div>
+            <div><b>宝光股份｜看换手</b>跟踪异常波动后换手率、市盈率偏离和交易所后续风险提示。</div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="note">
+      <span>资料来源：陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》、巨潮资讯公告原文及本地PDF抽取文本。仅作公告信息整理，不构成投资建议。</span>
+      <span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://refrain97.github.io/shaanxi-capital-market-daily/v1/</span>
+    </footer>
+  </main>
+<!-- V1_ANALYTICS_BODY_START -->
+  <script>
+    (() => {
+      const analytics = {
+        track(eventName, properties = {}) {
+          if (!window.umami || typeof window.umami.track !== "function") return;
+          window.umami.track(eventName, {
+            path: window.location.pathname,
+            title: document.title,
+            ...properties
+          });
+        }
+      };
+
+      function cleanUrl(value) {
+        return String(value || "").split("?")[0].toLowerCase();
+      }
+
+      function assetType(url) {
+        const clean = cleanUrl(url);
+        if (clean.endsWith(".html")) return "html";
+        if (clean.endsWith(".md")) return "markdown";
+        if (clean.endsWith(".png")) return "png";
+        if (clean.endsWith(".jpg") || clean.endsWith(".jpeg") || clean.endsWith(".webp")) return "image";
+        if (clean.startsWith("#")) return "anchor";
+        return "link";
+      }
+
+      function channel(url) {
+        if (url.includes("上市公司")) return "listed";
+        if (url.includes("证券私募")) return "private";
+        if (url.includes("收并购")) return "ma";
+        if (url.includes("金融招投标")) return "tender";
+        return "site";
+      }
+
+      document.addEventListener("click", (event) => {
+        const shareButton = event.target.closest("[data-share-url]");
+        if (shareButton) {
+          const shareUrl = new URL(shareButton.dataset.shareUrl, window.location.href).toString();
+          navigator.clipboard?.writeText(shareUrl);
+          analytics.track("share_copy", {
+            report: shareButton.dataset.shareReport || "",
+            target_url: shareUrl
+          });
+          return;
+        }
+
+        const filterButton = event.target.closest("[data-filter]");
+        if (filterButton) {
+          analytics.track("filter_archive", {
+            filter: filterButton.dataset.filter || ""
+          });
+          return;
+        }
+
+        const link = event.target.closest("a[href]");
+        if (!link) return;
+
+        const href = link.getAttribute("href") || "";
+        const type = assetType(href);
+        if (type === "anchor") {
+          analytics.track("nav_click", {
+            label: link.textContent.trim() || link.getAttribute("aria-label") || "",
+            target_url: href
+          });
+          return;
+        }
+
+        analytics.track(type === "html" ? "open_report" : "download_asset", {
+          channel: channel(href),
+          asset_type: type,
+          label: link.textContent.trim() || link.getAttribute("aria-label") || "",
+          target_url: new URL(href, window.location.href).toString()
+        });
+      });
+
+      const searchInput = document.querySelector("#searchInput");
+      if (searchInput) {
+        searchInput.addEventListener("change", () => {
+          analytics.track("search_archive", {
+            keyword: searchInput.value.trim()
+          });
+        });
+      }
+    })();
+  </script>
+  <!-- V1_ANALYTICS_BODY_END -->
+</body>
+</html>

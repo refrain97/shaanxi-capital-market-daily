@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西上市公司公告早报｜2026年6月15日</title>
+  <style>
+    :root {
+      --navy: #0f243f;
+      --ink: #1d2733;
+      --muted: #667085;
+      --line: #d8dee8;
+      --soft: #f4f7fb;
+      --risk: #c2412f;
+      --risk-bg: #fff0ec;
+      --good: #16835a;
+      --good-bg: #eaf7f0;
+      --watch: #a16207;
+      --watch-bg: #fff7df;
+      --blue-bg: #eaf1fb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #e9eef5;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      color: var(--ink);
+    }
+
+    .page {
+      width: 1242px;
+      min-height: 2060px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: visible;
+    }
+
+    .topbar {
+      background: var(--navy);
+      color: #fff;
+      padding: 38px 54px 28px;
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 28px;
+      align-items: end;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 54px;
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin-top: 16px;
+      font-size: 22px;
+      color: #d8e3f3;
+      line-height: 1.5;
+    }
+
+    .source {
+      text-align: right;
+      font-size: 20px;
+      line-height: 1.55;
+      color: #c8d5e6;
+    }
+
+    .source strong {
+      color: #fff;
+      font-size: 28px;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .content {
+      padding: 18px 42px 12px;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .kpi {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 11px 16px;
+      min-height: 72px;
+    }
+
+    .kpi .num {
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 800;
+      color: var(--navy);
+    }
+
+    .kpi .label {
+      margin-top: 8px;
+      font-size: 17px;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .section {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .section.wide { grid-column: 1 / -1; }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background: #f7f9fc;
+      border-bottom: 1px solid var(--line);
+      font-weight: 800;
+      font-size: 21px;
+      color: var(--navy);
+    }
+
+    .section-title .no {
+      display: inline-grid;
+      place-items: center;
+      min-width: 42px;
+      height: 28px;
+      border-radius: 5px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .body { padding: 9px 14px 10px; }
+
+    .chips {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 16px;
+      line-height: 1.36;
+      background: #fff;
+    }
+
+    .chip b {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 3px;
+      color: var(--navy);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 700;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+
+    td {
+      padding: 5px 8px;
+      border-bottom: 1px solid #edf1f6;
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 15px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .tag.risk { background: var(--risk-bg); color: var(--risk); }
+    .tag.good { background: var(--good-bg); color: var(--good); }
+    .tag.watch { background: var(--watch-bg); color: var(--watch); }
+    .tag.info { background: var(--blue-bg); color: var(--navy); }
+
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .tile {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 72px;
+      background: #fff;
+    }
+
+    .tile b {
+      display: block;
+      font-size: 18px;
+      color: var(--navy);
+      margin-bottom: 5px;
+    }
+
+    .tile span {
+      font-size: 15px;
+      line-height: 1.34;
+      color: #344054;
+    }
+
+    .mini-list {
+      display: grid;
+      gap: 7px;
+      font-size: 17px;
+      line-height: 1.35;
+    }
+
+    .mini-list div {
+      padding: 7px 9px;
+      border: 1px solid #edf1f6;
+      border-radius: 6px;
+      background: #fcfdff;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .subhead {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--navy);
+      margin: 0 0 7px;
+      padding-left: 4px;
+    }
+
+    .fixed-list {
+      display: grid;
+      gap: 6px;
+    }
+
+    .fixed-item {
+      border: 1px solid #e5ebf3;
+      border-radius: 6px;
+      padding: 6px 9px;
+      font-size: 15.6px;
+      line-height: 1.3;
+      background: #fff;
+    }
+
+    .fixed-item b {
+      color: var(--navy);
+      margin-right: 5px;
+    }
+
+    .follow {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+    }
+
+    .follow div {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 76px;
+      background: #fcfdff;
+      font-size: 14.8px;
+      line-height: 1.3;
+    }
+
+    .follow b {
+      display: block;
+      font-size: 17px;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+
+    .note {
+      margin: 10px 42px 22px;
+      border-top: 1px solid var(--line);
+      padding-top: 9px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.42;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .small { font-size: 15.5px; color: var(--muted); }
+    .strong { font-weight: 800; color: var(--ink); }
+
+    @media (max-width: 720px) {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        margin: 0;
+        overflow: visible;
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        align-items: start;
+        padding: 24px 18px 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+        line-height: 1.12;
+      }
+
+      .subtitle {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      .source {
+        text-align: left;
+        font-size: 15px;
+      }
+
+      .source strong {
+        font-size: 20px;
+      }
+
+      .content {
+        padding: 14px 14px 22px;
+      }
+
+      .kpis,
+      .grid,
+      .chips,
+      .tiles,
+      .two-col,
+      .follow {
+        grid-template-columns: 1fr;
+      }
+
+      .section.wide {
+        grid-column: auto;
+      }
+
+      .kpi {
+        min-height: 0;
+      }
+
+      .kpi .num {
+        font-size: 27px;
+      }
+
+      .kpi .label {
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      .section-title {
+        align-items: flex-start;
+        padding: 10px 12px;
+        font-size: 18px;
+        line-height: 1.28;
+      }
+
+      .section-title .no {
+        min-width: 36px;
+        height: 26px;
+        font-size: 16px;
+      }
+
+      .body {
+        padding: 10px;
+      }
+
+      .chip,
+      .tile,
+      .follow div {
+        min-height: 0;
+      }
+
+      colgroup,
+      thead {
+        display: none;
+      }
+
+      table,
+      tbody,
+      tr,
+      td {
+        display: block;
+        width: 100%;
+      }
+
+      table {
+        font-size: 14px;
+      }
+
+      tr {
+        padding: 8px 0;
+        border-bottom: 1px solid #edf1f6;
+      }
+
+      tr:last-child {
+        border-bottom: 0;
+      }
+
+      td {
+        padding: 3px 0;
+        border-bottom: 0;
+      }
+
+      td:first-child {
+        color: var(--navy);
+        font-weight: 800;
+      }
+
+      .note {
+        position: static;
+        margin: 0 14px 22px;
+        padding-top: 12px;
+        display: grid;
+        gap: 8px;
+        font-size: 13px;
+        line-height: 1.45;
+      }
+    }
+  </style>
+<!-- V1_ANALYTICS_HEAD_START -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="ff2a4678-af6a-4b80-a4ff-15d3a9a62ebd" data-domains="refrain97.github.io,shaanxi-capital-market-daily.vercel.app"></script>
+  <!-- V1_ANALYTICS_HEAD_END -->
+</head>
+<body>
+  <main class="page" data-template="listed-v1-official">
+    <header class="topbar">
+      <div>
+        <h1>陕西上市公司公告早报</h1>
+        <div class="subtitle">2026年6月15日｜窗口2026-06-12至2026-06-15｜64条公告、23家发布公告公司、PDF原文精读</div>
+      </div>
+      <div class="source">
+        <strong>覆盖 85 家上市公司</strong>
+        沪市42家｜深市37家｜北交所6家<br>
+        名单来源：陕西证监局｜公告源：巨潮资讯 CNINFO
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="kpis">
+        <div class="kpi"><div class="num">64条</div><div class="label">CNINFO逐公司检索公告，覆盖23家公司，接口错误0条</div></div>
+        <div class="kpi"><div class="num">23家</div><div class="label">发布公告的公司家数，64份PDF已下载并抽取文本落盘，高价值精读覆盖定增问询回复、重大资产购买、重大资产出售、募投终止补流、财务资助担保、预重整招募、诉讼和权益分派</div></div>
+        <div class="kpi"><div class="num">10.08亿元</div><div class="label">国际医学拟向特定对象发行股票募集资金总额上限100,753.93万元，其中27,000.00万元拟补充流动资金</div></div>
+        <div class="kpi"><div class="num">4.26亿元</div><div class="label">北方长龙拟现金购买顺义科技51.00%股份，交易价格42,636.00万元，股权登记日为6月24日</div></div>
+      </div>
+
+      <div class="grid">
+        <section class="section">
+          <div class="section-title"><span class="no">01</span>今日业务机会</div>
+          <div class="body chips">
+            <div class="chip"><b>医疗产业融资与投行协同</b>国际医学更新定增问询回复和募集说明书，拟募集100,753.93万元，投向智慧康养、质子治疗中心二期和27,000.00万元补流。</div>
+            <div class="chip"><b>并购贷款与军工产业整合</b>北方长龙拟现金收购顺义科技51.00%股份，交易价格42,636.00万元，现金支付和股东会审批将带来并购贷款、交割和整合服务机会。</div>
+            <div class="chip"><b>募集资金优化与流动性管理</b>中再资环拟终止河北项目和仓储项目，将剩余募集资金14,559.40万元永久补流，涉及资金归集、专户注销和经营资金统筹。</div>
+            <div class="chip"><b>重整投资与股东服务跟踪</b>康惠股份控股子公司陕西友帮预重整公开招募意向投资人，7月20日前报名并缴纳30万元保证金，8月10日前提交重整投资方案；陕西华达减持、西高院限售股流通和彩虹股份质押同步进入股东服务跟踪。</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><span class="no">02</span>重大事项与风险公告</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:20%"><col style="width:57%"><col style="width:23%"></colgroup>
+              <thead><tr><th>公司</th><th>事项</th><th>业务判断</th></tr></thead>
+              <tbody>
+                <tr><td>天地源</td><td>筹划出售部分房地产开发业务相关资产及负债，交易意向方为实控人西安高科集团或其指定关联方，尚未签署意向协议；截至6月11日市净率2.48，高于房地产行业0.86，2025年归母净利润-13.01亿元。</td><td><span class="tag risk">资产出售</span></td></tr>
+                <tr><td>环球印务</td><td>子公司就客户应收账款提起诉讼，涉案金额397,013,279.73元；截至2024年12月31日已累计计提坏账准备332,614,418.97元，计提比例96.58%。</td><td><span class="tag risk">诉讼回款</span></td></tr>
+                <tr><td>通源石油</td><td>拟向参股公司一龙恒业提供6,000万元财务资助，其中3,600万元期限3年、2,400万元期限1年，利率均为5%；同时为其1,000万元续借提供连带责任担保。</td><td><span class="tag watch">担保资助</span></td></tr>
+                <tr><td>彩虹股份 / 金钼股份</td><td>彩虹股份和金钼股份均披露股票交易异常波动，彩虹股份另有持股5%以上股东累计质押286,715,855股，占公司总股本7.99%，需关注市场波动和股权质押风险。</td><td><span class="tag watch">波动提示</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">03</span>上市公司动态</div>
+          <div class="body tiles">
+            <div class="tile"><b>国际医学</b><span>定增问询回复和募集说明书同步更新，拟募集100,753.93万元，发行数量上限671,669,025股，补流规模27,000.00万元。</span></div>
+            <div class="tile"><b>北方长龙</b><span>重大资产购买修订稿落地，拟以现金42,636.00万元收购顺义科技51.00%股份，6月24日为股权登记日，交易尚待股东会批准。</span></div>
+            <div class="tile"><b>中再资环 / 康惠股份 / 西高院</b><span>中再资环拟将14,559.40万元剩余募集资金永久补流；康惠股份披露陕西友帮预重整招募意向投资人并延续股权激励线索；西高院公告首发部分限售股上市流通。</span></div>
+            <div class="tile"><b>天地源 / 通源石油 / 陕西华达 / 彩虹股份 / 炬光科技</b><span>天地源筹划重大资产出售并提示异常波动；通源石油对参股公司一龙恒业同步提供1,000万元担保和6,000万元财务资助；陕西华达、炬光科技披露减持，彩虹股份新增2.8672亿股质押。</span></div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">04</span>股东变动与资本运作</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:16%"><col style="width:44%"><col style="width:40%"></colgroup>
+              <thead><tr><th>公司</th><th>关键数字</th><th>业务关注</th></tr></thead>
+              <tbody>
+                <tr><td>国际医学</td><td>拟向特定对象发行股票募集资金总额不超过<b>100,753.93万元</b>，其中智慧康养项目拟投入<b>63,760.81万元</b>，质子治疗中心二期拟投入<b>9,993.13万元</b>，补充流动资金<b>27,000.00万元</b>；发行数量上限<b>671,669,025股</b></td><td>关注深交所审核、中国证监会注册、医院运营爬坡、负债率改善和补流占比控制。</td></tr>
+                <tr><td>北方长龙</td><td>拟现金购买顺义科技<b>51.00%</b>股份，交易价格<b>42,636.00万元</b>；标的收益法评估值<b>83,657.74万元</b>；2026年第二次临时股东会股权登记日为<b>2026年6月24日</b></td><td>关注股东会审批、现金支付安排、并购贷款进度、过渡期损益和军工业务整合。</td></tr>
+                <tr><td>中再资环</td><td>拟终止河北项目和仓储项目，将剩余募集资金<b>14,559.40万元</b>永久补充流动资金，占募集资金净额<b>16.70%</b>；其中河北项目累计投入<b>9,975.43万元</b>，仓储项目累计投入<b>412.03万元</b></td><td>关注股东会审议、专户注销、存量资产处置和主营业务现金流改善效果。</td></tr>
+                <tr><td>通源石油 / 一龙恒业 / 陕西华达 / 彩虹股份 / 西高院</td><td>通源石油向参股公司提供财务资助<b>6,000万元</b>，其中<b>3,600万元</b>期限<b>3年</b>、<b>2,400万元</b>期限<b>1年</b>，利率均为<b>5%</b>；陕西华达5%以上股东拟减持不超过<b>1,512,373股</b>、不超过总股本<b>1%</b>，期间为<b>2026年7月7日-2026年10月4日</b>；彩虹股份5%以上股东累计质押<b>286,715,855股</b>，占总股本<b>7.99%</b>；西高院首发限售股上市流通</td><td>关注参股公司回款、减持节奏、股权质押风险和解禁后股东行为变化。</td></tr>
+                <tr><td>天地源 / 北元化工 / 中航西飞</td><td>天地源截至6月11日市净率<b>2.48</b>，高于房地产行业<b>0.86</b>；北元化工每股派现<b>0.05元</b>、现金红利合计<b>198,611,111.20元</b>；中航西飞合计现金红利<b>417,091,520.25元</b></td><td>关注地产资产处置边界、分红节点和二级市场波动反馈。</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">05</span>股东会、治理与固定披露清单</div>
+          <div class="body two-col">
+            <div>
+              <p class="subhead">A. 今日新增重点事项与治理节点</p>
+              <div class="fixed-list"><div class="fixed-item"><b>国际医学</b>定增问询回复、会计师回复和募集说明书申报稿同步更新，发行仍待深交所审核和证监会注册。</div><div class="fixed-item"><b>北方长龙</b>重大资产购买修订稿、问询回复和股东会通知齐发，交易作价和审批节点进一步明确。</div><div class="fixed-item"><b>中再资环</b>董事会审议终止部分募投项目并拟永久补流，后续需提交股东会并办理募集资金专户注销。</div><div class="fixed-item"><b>康惠股份</b>陕西友帮预重整招募意向投资人，报名截止7月20日18:00，重整投资方案提交截止8月10日，同时延续跟踪限制性股票激励计划授予安排。</div></div>
+            </div>
+            <div>
+              <p class="subhead">B. 延续跟踪清单</p>
+              <div class="fixed-list"><div class="fixed-item"><b>天地源</b>重大资产出售仍处前期筹划，交易标的范围、作价和是否构成重大资产重组均未最终确定。</div><div class="fixed-item"><b>环球印务</b>3.9701亿元应收账款诉讼已获法院受理，尚未开庭，坏账准备和回款节奏需继续跟踪。</div><div class="fixed-item"><b>通源石油</b>参股公司一龙恒业受资助和担保后，需跟踪19.18亿元海外项目执行、回款和反担保有效性。</div><div class="fixed-item"><b>陕西华达 / 彩虹股份 / 西高院 / 炬光科技</b>跟踪陕西华达1,512,373股减持窗口、彩虹股份2.8672亿股质押风险、西高院限售股上市流通以及炬光科技减持完成后的股权结构变化。</div></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">06</span>今日重点跟踪公司</div>
+          <div class="body follow">
+            <div><b>国际医学</b>跟踪100,753.93万元定增审核进度、智慧康养和质子治疗中心二期实施节奏以及27,000.00万元补流安排。</div>
+            <div><b>北方长龙</b>跟踪42,636.00万元重大资产购买股东会、并购贷款审批、交割条件和过渡期损益安排。</div>
+            <div><b>中再资环</b>跟踪14,559.40万元剩余募集资金永久补流的股东会审议、专户注销和停建项目后续资产利用。</div>
+            <div><b>康惠股份 / 陕西友帮</b>跟踪7月20日报名截止、30万元保证金、8月10日重整投资方案，以及限制性股票激励计划授予安排和核心团队绑定节奏。</div>
+            <div><b>天地源 / 环球印务</b>跟踪重大资产出售方案、异常波动后续提示，以及3.9701亿元应收账款诉讼审理进展。</div>
+            <div><b>通源石油 / 陕西华达 / 彩虹股份 / 西高院 / 炬光科技</b>跟踪6,000万元财务资助与1,000万元担保执行、陕西华达减持窗口、彩虹股份质押风险、西高院解禁流通和炬光科技减持后的股东行为变化。</div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="note">
+      <span>资料来源：陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》、巨潮资讯公告原文及本地PDF抽取文本。仅作公告信息整理，不构成投资建议。</span>
+      <span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://refrain97.github.io/shaanxi-capital-market-daily/v1/</span>
+    </footer>
+  </main>
+<!-- V1_ANALYTICS_BODY_START -->
+  <script>
+    (() => {
+      const analytics = {
+        track(eventName, properties = {}) {
+          if (!window.umami || typeof window.umami.track !== "function") return;
+          window.umami.track(eventName, {
+            path: window.location.pathname,
+            title: document.title,
+            ...properties
+          });
+        }
+      };
+
+      function cleanUrl(value) {
+        return String(value || "").split("?")[0].toLowerCase();
+      }
+
+      function assetType(url) {
+        const clean = cleanUrl(url);
+        if (clean.endsWith(".html")) return "html";
+        if (clean.endsWith(".md")) return "markdown";
+        if (clean.endsWith(".png")) return "png";
+        if (clean.endsWith(".jpg") || clean.endsWith(".jpeg") || clean.endsWith(".webp")) return "image";
+        if (clean.startsWith("#")) return "anchor";
+        return "link";
+      }
+
+      function channel(url) {
+        if (url.includes("上市公司")) return "listed";
+        if (url.includes("证券私募")) return "private";
+        if (url.includes("收并购")) return "ma";
+        if (url.includes("金融招投标")) return "tender";
+        return "site";
+      }
+
+      document.addEventListener("click", (event) => {
+        const shareButton = event.target.closest("[data-share-url]");
+        if (shareButton) {
+          const shareUrl = new URL(shareButton.dataset.shareUrl, window.location.href).toString();
+          navigator.clipboard?.writeText(shareUrl);
+          analytics.track("share_copy", {
+            report: shareButton.dataset.shareReport || "",
+            target_url: shareUrl
+          });
+          return;
+        }
+
+        const filterButton = event.target.closest("[data-filter]");
+        if (filterButton) {
+          analytics.track("filter_archive", {
+            filter: filterButton.dataset.filter || ""
+          });
+          return;
+        }
+
+        const link = event.target.closest("a[href]");
+        if (!link) return;
+
+        const href = link.getAttribute("href") || "";
+        const type = assetType(href);
+        if (type === "anchor") {
+          analytics.track("nav_click", {
+            label: link.textContent.trim() || link.getAttribute("aria-label") || "",
+            target_url: href
+          });
+          return;
+        }
+
+        analytics.track(type === "html" ? "open_report" : "download_asset", {
+          channel: channel(href),
+          asset_type: type,
+          label: link.textContent.trim() || link.getAttribute("aria-label") || "",
+          target_url: new URL(href, window.location.href).toString()
+        });
+      });
+
+      const searchInput = document.querySelector("#searchInput");
+      if (searchInput) {
+        searchInput.addEventListener("change", () => {
+          analytics.track("search_archive", {
+            keyword: searchInput.value.trim()
+          });
+        });
+      }
+    })();
+  </script>
+  <!-- V1_ANALYTICS_BODY_END -->
+</body>
+</html>

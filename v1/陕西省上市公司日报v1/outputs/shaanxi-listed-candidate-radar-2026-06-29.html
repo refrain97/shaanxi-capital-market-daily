@@ -1,0 +1,913 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西上市公司候选公告雷达｜2026-06-29</title>
+  <style>
+    :root{--navy:#003778;--coral:#ff6464;--bg:#f3f5f8;--text:#1d2733;--muted:#697586;--line:#e1e6ee}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;line-height:1.55}
+    header{background:linear-gradient(135deg,var(--navy),#081728);color:white;padding:28px 22px 22px;text-align:center}
+    h1{margin:0;font-size:26px;letter-spacing:.04em} .sub{margin-top:8px;color:#c9f0ff;font-size:14px}
+    .kpis{max-width:1180px;margin:-16px auto 18px;padding:0 16px;display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+    .kpi{background:white;border:1px solid var(--line);border-radius:8px;padding:14px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+    .kpi b{display:block;color:var(--navy);font-size:24px} .kpi span{font-size:12px;color:var(--muted)}
+    .wrap{max-width:1180px;margin:0 auto 28px;padding:0 16px}
+    .toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+    .search{flex:1;min-width:220px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:white;font-size:14px}
+    .btn{border:1px solid var(--navy);background:var(--navy);color:white;border-radius:8px;padding:9px 14px;cursor:pointer}
+    .tabs{display:flex;gap:6px;overflow:auto;padding-bottom:8px;margin-bottom:12px}
+    .tab{white-space:nowrap;border:1px solid var(--line);background:white;color:#405064;border-radius:8px;padding:8px 12px;cursor:pointer}
+    .tab.active{background:var(--navy);border-color:var(--navy);color:white} .tab span{opacity:.75;margin-left:4px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+    .card{background:white;border:1px solid var(--line);border-radius:8px;padding:14px;box-shadow:0 1px 5px rgba(0,0,0,.04)}
+    .card.hidden{display:none} .card-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+    .card-head b{color:var(--navy);font-size:16px} .card-head span{font-size:12px;color:var(--muted);margin-left:6px}
+    .card-head em{font-style:normal;border:1px solid color-mix(in srgb,var(--tag),transparent 55%);background:color-mix(in srgb,var(--tag),white 88%);color:var(--tag);border-radius:14px;padding:2px 8px;font-size:12px;white-space:nowrap}
+    h3{font-size:14px;margin:10px 0 8px;line-height:1.45} .meta{display:flex;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:12px}
+    .numbers{margin:10px 0 6px;color:#a05a00;background:#fff7e6;border:1px solid #ffe1a6;border-radius:6px;padding:6px 8px;font-size:13px}
+    .attention{margin:6px 0;color:#405064;font-size:13px} .foot{border-top:1px dashed var(--line);padding-top:8px;margin-top:8px;display:flex;justify-content:space-between;gap:8px;color:var(--muted);font-size:12px}
+    .source{color:var(--navy);text-decoration:none;font-weight:600} .empty{display:none;text-align:center;color:var(--muted);padding:28px}
+    footer{text-align:center;color:var(--muted);font-size:12px;padding:0 16px 28px}
+    @media(max-width:760px){.kpis{grid-template-columns:repeat(2,1fr)} h1{font-size:21px} .grid{grid-template-columns:1fr}}
+  </style>
+<!-- V1_ANALYTICS_HEAD_START -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="ff2a4678-af6a-4b80-a4ff-15d3a9a62ebd" data-domains="refrain97.github.io,shaanxi-capital-market-daily.vercel.app"></script>
+  <!-- V1_ANALYTICS_HEAD_END -->
+</head>
+<body>
+  <header>
+    <h1>陕西上市公司候选公告雷达</h1>
+    <div class="sub">2026-06-29｜2026-06-26~2026-06-29｜CNINFO逐公司检索 85 家，公告 48 条，覆盖 22 家，PDF文本 48 份。</div>
+  </header>
+  <section class="kpis">
+    <div class="kpi"><b>48</b><span>全量公告底稿</span></div>
+    <div class="kpi"><b>15</b><span>高价值候选</span></div>
+    <div class="kpi"><b>22</b><span>覆盖公司</span></div>
+    <div class="kpi"><b>48</b><span>已抽取PDF文本</span></div>
+  </section>
+  <main class="wrap">
+    <div class="toolbar">
+      <input id="search" class="search" placeholder="搜索公司、代码、标题、关键词">
+      <button class="btn" id="exportCsv">导出当前筛选CSV</button>
+    </div>
+    <nav class="tabs"><button class="tab active" data-category="全部">全部 <span>48</span></button><button class="tab" data-category="高价值">高价值 <span>15</span></button><button class="tab" data-category="风险监管">风险监管 <span>0</span></button><button class="tab" data-category="资本运作">资本运作 <span>7</span></button><button class="tab" data-category="股东变动">股东变动 <span>3</span></button><button class="tab" data-category="激励回购">激励回购 <span>5</span></button><button class="tab" data-category="分红业绩">分红业绩 <span>1</span></button><button class="tab" data-category="治理人事">治理人事 <span>6</span></button><button class="tab" data-category="会议固定">会议固定 <span>19</span></button><button class="tab" data-category="其他公告">其他公告 <span>7</span></button></nav>
+    <section id="grid" class="grid">
+    <article class="card" data-category="股东变动" data-high="1" data-company="中再资环" data-title="中再资环关于控股股东一致行动人部分股份解除质押暨部分股份再质押的公告">
+      <div class="card-head">
+        <div><b>中再资环</b><span>600217</span></div>
+        <em style="--tag:#ff6464">股东变动</em>
+      </div>
+      <h3>控股股东一致行动人部分股份解除质押暨部分股份再质押的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 100</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">53,394,635股、3.22%、51,000,000股、95.52%、3.08%</p>
+      <p class="attention">开户、减持服务、股东关系维护、质押风险和财富管理触达。</p>
+      <div class="foot"><span>命中：质押、解除质押、一致行动</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225387713.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="股东变动" data-high="1" data-company="通源石油" data-title="关于董事股份减持计划实施完毕的公告">
+      <div class="card-head">
+        <div><b>通源石油</b><span>300164</span></div>
+        <em style="--tag:#ff6464">股东变动</em>
+      </div>
+      <h3>董事股份减持计划实施完毕的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 100</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">13日、3个月、不超过795,240股、0.14%、8日</p>
+      <p class="attention">开户、减持服务、股东关系维护、质押风险和财富管理触达。</p>
+      <div class="foot"><span>命中：减持</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225393257.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="资本运作" data-high="1" data-company="农心科技" data-title="华泰联合证券有限责任公司关于农心作物科技股份有限公司调整部分募投项目达到预定可使用状态时间的核查意见">
+      <div class="card-head">
+        <div><b>农心科技</b><span>001231</span></div>
+        <em style="--tag:#003778">资本运作</em>
+      </div>
+      <h3>华泰联合证券有限责任公司关于农心作物科技股份有限公司调整部分募投项目达到预定可使用状态时间的核查意见</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 100</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">2,500.00万股、1元、17.77元、444,250,000.00元、67,858,200.00元</p>
+      <p class="attention">投行、再融资、并购整合、资金用途和综合金融服务。</p>
+      <div class="foot"><span>命中：募投</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225392105.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="资本运作" data-high="1" data-company="美能能源" data-title="关于收购上海立成90%股权进展暨完成工商变更登记的公告">
+      <div class="card-head">
+        <div><b>美能能源</b><span>001299</span></div>
+        <em style="--tag:#003778">资本运作</em>
+      </div>
+      <h3>收购上海立成90%股权进展暨完成工商变更登记的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 100</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">90%、21日、8日、7,395.78万元、22日</p>
+      <p class="attention">投行、再融资、并购整合、资金用途和综合金融服务。</p>
+      <div class="foot"><span>命中：收购</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225389920.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="股东变动" data-high="1" data-company="彩虹股份" data-title="彩虹股份关于控股股东权益变动的提示性公告">
+      <div class="card-head">
+        <div><b>彩虹股份</b><span>600707</span></div>
+        <em style="--tag:#ff6464">股东变动</em>
+      </div>
+      <h3>控股股东权益变动的提示性公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 92</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">26日、90%</p>
+      <p class="attention">开户、减持服务、股东关系维护、质押风险和财富管理触达。</p>
+      <div class="foot"><span>命中：权益变动</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225391152.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="资本运作" data-high="1" data-company="宝钛股份" data-title="宝鸡钛业股份有限公司向不特定对象发行可转换公司债券网上中签结果公告">
+      <div class="card-head">
+        <div><b>宝钛股份</b><span>600456</span></div>
+        <em style="--tag:#003778">资本运作</em>
+      </div>
+      <h3>宝鸡钛业股份有限公司向不特定对象发行可转换公司债券网上中签结果公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 92</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">25日、1日</p>
+      <p class="attention">投行、再融资、并购整合、资金用途和综合金融服务。</p>
+      <div class="foot"><span>命中：可转换公司债券</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225386982.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="资本运作" data-high="1" data-company="西部超导" data-title="关于控股子公司西安聚能超导磁体科技股份有限公司申请向不特定合格投资者公开发行股票并在北京证券交易所上市进展的提示性公告">
+      <div class="card-head">
+        <div><b>西部超导</b><span>688122</span></div>
+        <em style="--tag:#003778">资本运作</em>
+      </div>
+      <h3>控股子公司西安聚能超导磁体科技股份有限公司申请向不特定合格投资者公开发行股票并在北京证券交易所上市进展的提示性公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 92</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">29,600,000股、34.82%</p>
+      <p class="attention">投行、再融资、并购整合、资金用途和综合金融服务。</p>
+      <div class="foot"><span>命中：上市</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225391150.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="资本运作" data-high="1" data-company="农心科技" data-title="农心作物科技股份有限公司关于调整部分募投项目达到预定可使用状态时间的公告">
+      <div class="card-head">
+        <div><b>农心科技</b><span>001231</span></div>
+        <em style="--tag:#003778">资本运作</em>
+      </div>
+      <h3>农心作物科技股份有限公司关于调整部分募投项目达到预定可使用状态时间的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 88</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">26日</p>
+      <p class="attention">投行、再融资、并购整合、资金用途和综合金融服务。</p>
+      <div class="foot"><span>命中：募投</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225392102.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="资本运作" data-high="1" data-company="陕鼓动力" data-title="西安陕鼓动力股份有限公司关于筹划发行股份购买资产暨关联交易事项的停牌公告">
+      <div class="card-head">
+        <div><b>陕鼓动力</b><span>601369</span></div>
+        <em style="--tag:#003778">资本运作</em>
+      </div>
+      <h3>西安股份有限公司关于筹划发行股份购买资产暨关联交易事项的停牌公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 88</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">36.06%</p>
+      <p class="attention">投行、再融资、并购整合、资金用途和综合金融服务。</p>
+      <div class="foot"><span>命中：发行股份</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225392075.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="资本运作" data-high="1" data-company="中天火箭" data-title="陕西中天火箭技术股份有限公司公开发行可转换公司债券受托管理事务报告（2025年度）">
+      <div class="card-head">
+        <div><b>中天火箭</b><span>003009</span></div>
+        <em style="--tag:#003778">资本运作</em>
+      </div>
+      <h3>陕西技术股份有限公司公开发行可转换公司债券受托管理事务报告（2025年度）</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 84</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">待从原文补数</p>
+      <p class="attention">投行、再融资、并购整合、资金用途和综合金融服务。</p>
+      <div class="foot"><span>命中：可转换公司债券</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225391033.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="分红业绩" data-high="1" data-company="蓝晓科技" data-title="2025年年度权益分派实施公告">
+      <div class="card-head">
+        <div><b>蓝晓科技</b><span>300487</span></div>
+        <em style="--tag:#20a070">分红业绩</em>
+      </div>
+      <h3>2025年年度权益分派实施公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 75</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">509,135,722股、550,000股、508,585,722股、10股、1.73元</p>
+      <p class="attention">市值管理、投资者沟通、分红服务和业绩压力观察。</p>
+      <div class="foot"><span>命中：权益分派</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225392925.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="激励回购" data-high="1" data-company="康惠股份" data-title="康惠股份2026年限制性股票激励计划授予激励对象名单（授予日）">
+      <div class="card-head">
+        <div><b>康惠股份</b><span>603139</span></div>
+        <em style="--tag:#a07020">激励回购</em>
+      </div>
+      <h3>2026年限制性股票激励计划授予激励对象名单（授予日）</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 75</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">303.75%、0.30%、8812.50%、1.00%、50.31%</p>
+      <p class="attention">股权激励综合服务、员工账户、行权资金和股份支付影响。</p>
+      <div class="foot"><span>命中：限制性股票、授予</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225388851.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="激励回购" data-high="1" data-company="康惠股份" data-title="康惠股份关于向2026年限制性股票激励计划激励对象授予限制性股票的公告">
+      <div class="card-head">
+        <div><b>康惠股份</b><span>603139</span></div>
+        <em style="--tag:#a07020">激励回购</em>
+      </div>
+      <h3>向2026年限制性股票激励计划激励对象授予限制性股票的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 75</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">25日、799.04万股、20元/股、27日</p>
+      <p class="attention">股权激励综合服务、员工账户、行权资金和股份支付影响。</p>
+      <div class="foot"><span>命中：限制性股票、授予</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225388845.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="治理人事" data-high="1" data-company="农心科技" data-title="农心作物科技股份有限公司第三届董事会第五次会议决议的公告">
+      <div class="card-head">
+        <div><b>农心科技</b><span>001231</span></div>
+        <em style="--tag:#6f42c1">治理人事</em>
+      </div>
+      <h3>农心作物科技股份有限公司第三届董事会第五次会议决议的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 71</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">22日、26日、100%</p>
+      <p class="attention">董办关系维护、治理变化、关键联系人和客户关系提示。</p>
+      <div class="foot"><span>命中：董事</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225392098.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="激励回购" data-high="1" data-company="康惠股份" data-title="康惠股份关于调整2026年限制性股票激励计划相关事项的公告">
+      <div class="card-head">
+        <div><b>康惠股份</b><span>603139</span></div>
+        <em style="--tag:#a07020">激励回购</em>
+      </div>
+      <h3>调整2026年限制性股票激励计划相关事项的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 71</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">25日、27日、13日</p>
+      <p class="attention">股权激励综合服务、员工账户、行权资金和股份支付影响。</p>
+      <div class="foot"><span>命中：限制性股票</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225388846.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="治理人事" data-high="0" data-company="农心科技" data-title="农心作物科技股份有限公司第三届董事会第三次独立董事专门会议决议的公告">
+      <div class="card-head">
+        <div><b>农心科技</b><span>001231</span></div>
+        <em style="--tag:#6f42c1">治理人事</em>
+      </div>
+      <h3>农心作物科技股份有限公司第三届董事会第三次独立董事专门会议决议的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 67</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">22日、26日</p>
+      <p class="attention">董办关系维护、治理变化、关键联系人和客户关系提示。</p>
+      <div class="foot"><span>命中：董事、独立董事</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225392099.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="治理人事" data-high="0" data-company="康惠股份" data-title="康惠股份第六届董事会第十三次会议决议公告">
+      <div class="card-head">
+        <div><b>康惠股份</b><span>603139</span></div>
+        <em style="--tag:#6f42c1">治理人事</em>
+      </div>
+      <h3>第六届董事会第十三次会议决议公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 63</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">25日</p>
+      <p class="attention">董办关系维护、治理变化、关键联系人和客户关系提示。</p>
+      <div class="foot"><span>命中：董事</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225388847.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="治理人事" data-high="0" data-company="派瑞股份" data-title="关于选举公司董事、董事长及调整专门委员会委员的公告">
+      <div class="card-head">
+        <div><b>派瑞股份</b><span>300831</span></div>
+        <em style="--tag:#6f42c1">治理人事</em>
+      </div>
+      <h3>选举公司董事、董事长及调整专门委员会委员的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 63</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">26日</p>
+      <p class="attention">董办关系维护、治理变化、关键联系人和客户关系提示。</p>
+      <div class="foot"><span>命中：董事、董事长</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225392655.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="治理人事" data-high="0" data-company="派瑞股份" data-title="第三届董事会第十五次会议决议公告">
+      <div class="card-head">
+        <div><b>派瑞股份</b><span>300831</span></div>
+        <em style="--tag:#6f42c1">治理人事</em>
+      </div>
+      <h3>第三届董事会第十五次会议决议公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 63</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">26日</p>
+      <p class="attention">董办关系维护、治理变化、关键联系人和客户关系提示。</p>
+      <div class="foot"><span>命中：董事</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225392652.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="治理人事" data-high="0" data-company="天润科技" data-title="公司章程">
+      <div class="card-head">
+        <div><b>天润科技</b><span>920564</span></div>
+        <em style="--tag:#6f42c1">治理人事</em>
+      </div>
+      <h3>公司章程</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 59</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">待从原文补数</p>
+      <p class="attention">董办关系维护、治理变化、关键联系人和客户关系提示。</p>
+      <div class="foot"><span>命中：章程</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225391196.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="激励回购" data-high="0" data-company="康惠股份" data-title="北京德恒律师事务所关于陕西康惠制药股份有限公司2026年限制性股票激励计划调整及授予事项之法律意见">
+      <div class="card-head">
+        <div><b>康惠股份</b><span>603139</span></div>
+        <em style="--tag:#a07020">激励回购</em>
+      </div>
+      <h3>北京德恒律师事务所关于陕西康惠制药股份有限公司2026年限制性股票激励计划调整及授予事项之法律意见</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 59</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">待从原文补数</p>
+      <p class="attention">股权激励综合服务、员工账户、行权资金和股份支付影响。</p>
+      <div class="foot"><span>命中：限制性股票、授予</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225388842.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="激励回购" data-high="0" data-company="康惠股份" data-title="康惠股份董事会薪酬与考核委员会关于公司2026年限制性股票激励计划调整及授予相关事项的核查意见">
+      <div class="card-head">
+        <div><b>康惠股份</b><span>603139</span></div>
+        <em style="--tag:#a07020">激励回购</em>
+      </div>
+      <h3>董事会薪酬与考核委员会关于公司2026年限制性股票激励计划调整及授予相关事项的核查意见</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 59</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">待从原文补数</p>
+      <p class="attention">股权激励综合服务、员工账户、行权资金和股份支付影响。</p>
+      <div class="foot"><span>命中：限制性股票、授予</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225388850.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="天润科技" data-title="2026年第二次临时股东会决议公告">
+      <div class="card-head">
+        <div><b>天润科技</b><span>920564</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>2026年第二次临时股东会决议公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 41</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">25日、76,980,275股、71.9950%</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225391197.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="农心科技" data-title="农心作物科技股份有限公司2025年年度股东会决议公告">
+      <div class="card-head">
+        <div><b>农心科技</b><span>001231</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>农心作物科技股份有限公司2025年年度股东会决议公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 37</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">27日、26日</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225392100.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="炬光科技" data-title="西安炬光科技股份有限公司2026年第二次临时股东会决议公告">
+      <div class="card-head">
+        <div><b>炬光科技</b><span>688167</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>西安股份有限公司2026年第二次临时股东会决议公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 37</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">26日、130,138,971股</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225390870.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="农心科技" data-title="上海市锦天城律师事务所关于农心作物科技股份有限公司2025年年度股东会的法律意见书">
+      <div class="card-head">
+        <div><b>农心科技</b><span>001231</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>上海市锦天城律师事务所关于农心作物科技股份有限公司2025年年度股东会的法律意见书</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 33</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">26日</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会、法律意见书</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225392101.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="派瑞股份" data-title="2025年度股东会决议公告">
+      <div class="card-head">
+        <div><b>派瑞股份</b><span>300831</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>2025年度股东会决议公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 33</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">26日</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225392653.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="环球印务" data-title="2025年度股东会决议公告">
+      <div class="card-head">
+        <div><b>环球印务</b><span>002799</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>2025年度股东会决议公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 33</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">25日</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225388912.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="环球印务" data-title="北京市天元律师事务所关于西安环球印务股份有限公司2025年度股东会的法律意见">
+      <div class="card-head">
+        <div><b>环球印务</b><span>002799</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>北京市天元律师事务所关于西安股份有限公司2025年度股东会的法律意见</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 33</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">25日</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225388913.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="莱特光电" data-title="陕西莱特光电材料股份有限公司关于变更持续督导保荐代表人的公告">
+      <div class="card-head">
+        <div><b>莱特光电</b><span>688150</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>陕西材料股份有限公司关于变更持续督导保荐代表人的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 33</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">31日</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：保荐</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225392781.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="西部证券" data-title="2026年第一次临时股东会决议公告">
+      <div class="card-head">
+        <div><b>西部证券</b><span>002673</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>2026年第一次临时股东会决议公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 33</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">26日</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225390441.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="西部超导" data-title="2025年年度股东会决议公告">
+      <div class="card-head">
+        <div><b>西部超导</b><span>688122</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>2025年年度股东会决议公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 33</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">26日</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225391144.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="陕国投A" data-title="2026年第一次临时股东会决议公告">
+      <div class="card-head">
+        <div><b>陕国投A</b><span>000563</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>2026年第一次临时股东会决议公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 33</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">26日</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225392153.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="高铁电气" data-title="高铁电气：2025年年度股东会决议公告">
+      <div class="card-head">
+        <div><b>高铁电气</b><span>688285</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>2025年年度股东会决议公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 33</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">25日</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225388632.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="其他公告" data-high="0" data-company="农心科技" data-title="农心作物科技股份有限公司关于减少注册资本暨通知债权人的公告">
+      <div class="card-head">
+        <div><b>农心科技</b><span>001231</span></div>
+        <em style="--tag:#8a94a0">其他公告</em>
+      </div>
+      <h3>农心作物科技股份有限公司关于减少注册资本暨通知债权人的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 30</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">100,610股、159,755股、合计260,365股、260,365元、26日</p>
+      <p class="attention">底稿保留，防止标题口径外的遗漏。</p>
+      <div class="foot"><span>命中：未命中核心词</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225392103.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="其他公告" data-high="0" data-company="蓝晓科技" data-title="关于 “蓝晓转02” 转股价格调整的公告">
+      <div class="card-head">
+        <div><b>蓝晓科技</b><span>300487</span></div>
+        <em style="--tag:#8a94a0">其他公告</em>
+      </div>
+      <h3>“蓝晓转02”转股价格调整的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 30</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">59.38元/股、59.21元/股、3日、100元、54,606.45万元</p>
+      <p class="attention">底稿保留，防止标题口径外的遗漏。</p>
+      <div class="foot"><span>命中：未命中核心词</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225392924.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="其他公告" data-high="0" data-company="西安旅游" data-title="关于关联方借款暨关联交易的进展公告">
+      <div class="card-head">
+        <div><b>西安旅游</b><span>000610</span></div>
+        <em style="--tag:#8a94a0">其他公告</em>
+      </div>
+      <h3>关联方借款暨关联交易的进展公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 30</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">8日、24日、9日、25日、5,000万元</p>
+      <p class="attention">底稿保留，防止标题口径外的遗漏。</p>
+      <div class="foot"><span>命中：未命中核心词</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225392601.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="天润科技" data-title="北京市中伦律师事务所关于陕西天润科技股份有限公司2026年第二次临时股东会的法律意见书">
+      <div class="card-head">
+        <div><b>天润科技</b><span>920564</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>北京市中伦律师事务所关于陕西股份有限公司2026年第二次临时股东会的法律意见书</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 29</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">待从原文补数</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会、法律意见书</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225391195.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="派瑞股份" data-title="上海市锦天城律师事务所关于西安派瑞功率半导体变流技术股份有限公司2025年度股东会的法律意见书">
+      <div class="card-head">
+        <div><b>派瑞股份</b><span>300831</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>上海市锦天城律师事务所关于西安派瑞功率半导体变流技术股份有限公司2025年度股东会的法律意见书</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 29</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">待从原文补数</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会、法律意见书</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225392654.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="炬光科技" data-title="上海市锦天城（西安）律师事务所关于西安炬光科技股份有限公司2026年第二次临时股东会的法律意见书">
+      <div class="card-head">
+        <div><b>炬光科技</b><span>688167</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>上海市锦天城（西安）律师事务所关于西安股份有限公司2026年第二次临时股东会的法律意见书</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 29</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">待从原文补数</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会、法律意见书</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225390890.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="西部证券" data-title="北京金诚同达（西安）律师事务所关于西部证券股份有限公司2026年第一次临时股东会之法律意见书">
+      <div class="card-head">
+        <div><b>西部证券</b><span>002673</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>北京金诚同达（西安）律师事务所关于股份有限公司2026年第一次临时股东会之法律意见书</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 29</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">待从原文补数</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会、法律意见书</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225390442.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="西部超导" data-title="国浩律师（西安）事务所关于西部超导材料科技股份有限公司2025年年度股东会的法律意见书">
+      <div class="card-head">
+        <div><b>西部超导</b><span>688122</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>国浩律师（西安）事务所关于材料科技股份有限公司2025年年度股东会的法律意见书</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 29</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">待从原文补数</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会、法律意见书</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225391157.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="陕国投A" data-title="陕西海普睿诚律师事务所关于陕西省国际信托股份有限公司2026年第一次临时股东会的法律意见书">
+      <div class="card-head">
+        <div><b>陕国投A</b><span>000563</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>陕西海普睿诚律师事务所关于陕西省国际信托股份有限公司2026年第一次临时股东会的法律意见书</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 29</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">待从原文补数</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会、法律意见书</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225392154.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="会议固定" data-high="0" data-company="高铁电气" data-title="高铁电气：2025年年度股东会法律意见书">
+      <div class="card-head">
+        <div><b>高铁电气</b><span>688285</span></div>
+        <em style="--tag:#6c757d">会议固定</em>
+      </div>
+      <h3>2025年年度股东会法律意见书</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 29</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">待从原文补数</p>
+      <p class="attention">通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。</p>
+      <div class="foot"><span>命中：股东会、法律意见书</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225388630.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="其他公告" data-high="0" data-company="康惠股份" data-title="康惠股份关于为全资子公司提供担保的进展公告">
+      <div class="card-head">
+        <div><b>康惠股份</b><span>603139</span></div>
+        <em style="--tag:#8a94a0">其他公告</em>
+      </div>
+      <h3>为全资子公司提供担保的进展公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-26</span>
+        <span>评分 26</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">10,000万元、0万元、25日</p>
+      <p class="attention">底稿保留，防止标题口径外的遗漏。</p>
+      <div class="foot"><span>命中：未命中核心词</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-26/1225388843.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="其他公告" data-high="0" data-company="陕西金叶" data-title="关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告">
+      <div class="card-head">
+        <div><b>陕西金叶</b><span>000812</span></div>
+        <em style="--tag:#8a94a0">其他公告</em>
+      </div>
+      <h3>公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 26</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">22日、19日、40亿元</p>
+      <p class="attention">底稿保留，防止标题口径外的遗漏。</p>
+      <div class="foot"><span>命中：未命中核心词</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225390363.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="其他公告" data-high="0" data-company="建设机械" data-title="建设机械关于收到中国证券监督管理委员会陕西监管局行政监管措施决定书的公告">
+      <div class="card-head">
+        <div><b>建设机械</b><span>600984</span></div>
+        <em style="--tag:#8a94a0">其他公告</em>
+      </div>
+      <h3>收到中国证券监督管理委员会陕西监管局行政监管措施决定书的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 22</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">26日、5%</p>
+      <p class="attention">底稿保留，防止标题口径外的遗漏。</p>
+      <div class="foot"><span>命中：未命中核心词</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225391242.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article>
+    <article class="card" data-category="其他公告" data-high="0" data-company="农心科技" data-title="农心作物科技股份有限公司关于调整公司组织架构的公告">
+      <div class="card-head">
+        <div><b>农心科技</b><span>001231</span></div>
+        <em style="--tag:#8a94a0">其他公告</em>
+      </div>
+      <h3>农心作物科技股份有限公司关于调整公司组织架构的公告</h3>
+      <div class="meta">
+        <span>日期 2026-06-27</span>
+        <span>评分 18</span>
+        <span>PDF文本 是</span>
+      </div>
+      <p class="numbers">26日</p>
+      <p class="attention">底稿保留，防止标题口径外的遗漏。</p>
+      <div class="foot"><span>命中：未命中核心词</span><a class="source" href="https://static.cninfo.com.cn/finalpage/2026-06-27/1225392104.PDF" target="_blank" rel="noreferrer">原文</a></div>
+    </article></section>
+    <div id="empty" class="empty">当前筛选无候选公告。</div>
+  </main>
+  <footer>用途：辅助初筛、防漏和精读选题；正式发布仍以精读 JSON、公告原文数字核验和固定模板为准。</footer>
+  <script type="application/json" id="rows">[{"date": "2026-06-26", "code": "600217", "company": "中再资环", "market": "SH", "title": "中再资环关于控股股东一致行动人部分股份解除质押暨部分股份再质押的公告", "shortTitle": "控股股东一致行动人部分股份解除质押暨部分股份再质押的公告", "category": "股东变动", "level": "高", "score": 100, "matched": "质押、解除质押、一致行动", "numbers": "53,394,635股、3.22%、51,000,000股、95.52%、3.08%", "attention": "开户、减持服务、股东关系维护、质押风险和财富管理触达。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225387713.PDF", "announcementId": "1225387713", "hasText": "是", "textChars": 2228}, {"date": "2026-06-26", "code": "300164", "company": "通源石油", "market": "SZ", "title": "关于董事股份减持计划实施完毕的公告", "shortTitle": "董事股份减持计划实施完毕的公告", "category": "股东变动", "level": "高", "score": 100, "matched": "减持", "numbers": "13日、3个月、不超过795,240股、0.14%、8日", "attention": "开户、减持服务、股东关系维护、质押风险和财富管理触达。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225393257.PDF", "announcementId": "1225393257", "hasText": "是", "textChars": 1469}, {"date": "2026-06-27", "code": "001231", "company": "农心科技", "market": "SZ", "title": "华泰联合证券有限责任公司关于农心作物科技股份有限公司调整部分募投项目达到预定可使用状态时间的核查意见", "shortTitle": "华泰联合证券有限责任公司关于农心作物科技股份有限公司调整部分募投项目达到预定可使用状态时间的核查意见", "category": "资本运作", "level": "高", "score": 100, "matched": "募投", "numbers": "2,500.00万股、1元、17.77元、444,250,000.00元、67,858,200.00元", "attention": "投行、再融资、并购整合、资金用途和综合金融服务。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392105.PDF", "announcementId": "1225392105", "hasText": "是", "textChars": 4935}, {"date": "2026-06-27", "code": "001299", "company": "美能能源", "market": "SZ", "title": "关于收购上海立成90%股权进展暨完成工商变更登记的公告", "shortTitle": "收购上海立成90%股权进展暨完成工商变更登记的公告", "category": "资本运作", "level": "高", "score": 100, "matched": "收购", "numbers": "90%、21日、8日、7,395.78万元、22日", "attention": "投行、再融资、并购整合、资金用途和综合金融服务。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225389920.PDF", "announcementId": "1225389920", "hasText": "是", "textChars": 1748}, {"date": "2026-06-27", "code": "600707", "company": "彩虹股份", "market": "SH", "title": "彩虹股份关于控股股东权益变动的提示性公告", "shortTitle": "控股股东权益变动的提示性公告", "category": "股东变动", "level": "高", "score": 92, "matched": "权益变动", "numbers": "26日、90%", "attention": "开户、减持服务、股东关系维护、质押风险和财富管理触达。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225391152.PDF", "announcementId": "1225391152", "hasText": "是", "textChars": 1078}, {"date": "2026-06-26", "code": "600456", "company": "宝钛股份", "market": "SH", "title": "宝鸡钛业股份有限公司向不特定对象发行可转换公司债券网上中签结果公告", "shortTitle": "宝鸡钛业股份有限公司向不特定对象发行可转换公司债券网上中签结果公告", "category": "资本运作", "level": "高", "score": 92, "matched": "可转换公司债券", "numbers": "25日、1日", "attention": "投行、再融资、并购整合、资金用途和综合金融服务。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225386982.PDF", "announcementId": "1225386982", "hasText": "是", "textChars": 845}, {"date": "2026-06-27", "code": "688122", "company": "西部超导", "market": "SH", "title": "关于控股子公司西安聚能超导磁体科技股份有限公司申请向不特定合格投资者公开发行股票并在北京证券交易所上市进展的提示性公告", "shortTitle": "控股子公司西安聚能超导磁体科技股份有限公司申请向不特定合格投资者公开发行股票并在北京证券交易所上市进展的提示性公告", "category": "资本运作", "level": "高", "score": 92, "matched": "上市", "numbers": "29,600,000股、34.82%", "attention": "投行、再融资、并购整合、资金用途和综合金融服务。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225391150.PDF", "announcementId": "1225391150", "hasText": "是", "textChars": 1132}, {"date": "2026-06-27", "code": "001231", "company": "农心科技", "market": "SZ", "title": "农心作物科技股份有限公司关于调整部分募投项目达到预定可使用状态时间的公告", "shortTitle": "农心作物科技股份有限公司关于调整部分募投项目达到预定可使用状态时间的公告", "category": "资本运作", "level": "高", "score": 88, "matched": "募投", "numbers": "26日", "attention": "投行、再融资、并购整合、资金用途和综合金融服务。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392102.PDF", "announcementId": "1225392102", "hasText": "是", "textChars": 5180}, {"date": "2026-06-27", "code": "601369", "company": "陕鼓动力", "market": "SH", "title": "西安陕鼓动力股份有限公司关于筹划发行股份购买资产暨关联交易事项的停牌公告", "shortTitle": "西安股份有限公司关于筹划发行股份购买资产暨关联交易事项的停牌公告", "category": "资本运作", "level": "高", "score": 88, "matched": "发行股份", "numbers": "36.06%", "attention": "投行、再融资、并购整合、资金用途和综合金融服务。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392075.PDF", "announcementId": "1225392075", "hasText": "是", "textChars": 2095}, {"date": "2026-06-27", "code": "003009", "company": "中天火箭", "market": "SZ", "title": "陕西中天火箭技术股份有限公司公开发行可转换公司债券受托管理事务报告（2025年度）", "shortTitle": "陕西技术股份有限公司公开发行可转换公司债券受托管理事务报告（2025年度）", "category": "资本运作", "level": "高", "score": 84, "matched": "可转换公司债券", "numbers": "", "attention": "投行、再融资、并购整合、资金用途和综合金融服务。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225391033.PDF", "announcementId": "1225391033", "hasText": "是", "textChars": 10141}, {"date": "2026-06-26", "code": "300487", "company": "蓝晓科技", "market": "SZ", "title": "2025年年度权益分派实施公告", "shortTitle": "2025年年度权益分派实施公告", "category": "分红业绩", "level": "中", "score": 75, "matched": "权益分派", "numbers": "509,135,722股、550,000股、508,585,722股、10股、1.73元", "attention": "市值管理、投资者沟通、分红服务和业绩压力观察。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225392925.PDF", "announcementId": "1225392925", "hasText": "是", "textChars": 2948}, {"date": "2026-06-26", "code": "603139", "company": "康惠股份", "market": "SH", "title": "康惠股份2026年限制性股票激励计划授予激励对象名单（授予日）", "shortTitle": "2026年限制性股票激励计划授予激励对象名单（授予日）", "category": "激励回购", "level": "中", "score": 75, "matched": "限制性股票、授予", "numbers": "303.75%、0.30%、8812.50%、1.00%、50.31%", "attention": "股权激励综合服务、员工账户、行权资金和股份支付影响。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225388851.PDF", "announcementId": "1225388851", "hasText": "是", "textChars": 1477}, {"date": "2026-06-26", "code": "603139", "company": "康惠股份", "market": "SH", "title": "康惠股份关于向2026年限制性股票激励计划激励对象授予限制性股票的公告", "shortTitle": "向2026年限制性股票激励计划激励对象授予限制性股票的公告", "category": "激励回购", "level": "中", "score": 75, "matched": "限制性股票、授予", "numbers": "25日、799.04万股、20元/股、27日", "attention": "股权激励综合服务、员工账户、行权资金和股份支付影响。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225388845.PDF", "announcementId": "1225388845", "hasText": "是", "textChars": 4461}, {"date": "2026-06-27", "code": "001231", "company": "农心科技", "market": "SZ", "title": "农心作物科技股份有限公司第三届董事会第五次会议决议的公告", "shortTitle": "农心作物科技股份有限公司第三届董事会第五次会议决议的公告", "category": "治理人事", "level": "中", "score": 71, "matched": "董事", "numbers": "22日、26日、100%", "attention": "董办关系维护、治理变化、关键联系人和客户关系提示。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392098.PDF", "announcementId": "1225392098", "hasText": "是", "textChars": 964}, {"date": "2026-06-26", "code": "603139", "company": "康惠股份", "market": "SH", "title": "康惠股份关于调整2026年限制性股票激励计划相关事项的公告", "shortTitle": "调整2026年限制性股票激励计划相关事项的公告", "category": "激励回购", "level": "中", "score": 71, "matched": "限制性股票", "numbers": "25日、27日、13日", "attention": "股权激励综合服务、员工账户、行权资金和股份支付影响。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225388846.PDF", "announcementId": "1225388846", "hasText": "是", "textChars": 1642}, {"date": "2026-06-27", "code": "001231", "company": "农心科技", "market": "SZ", "title": "农心作物科技股份有限公司第三届董事会第三次独立董事专门会议决议的公告", "shortTitle": "农心作物科技股份有限公司第三届董事会第三次独立董事专门会议决议的公告", "category": "治理人事", "level": "中", "score": 67, "matched": "董事、独立董事", "numbers": "22日、26日", "attention": "董办关系维护、治理变化、关键联系人和客户关系提示。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392099.PDF", "announcementId": "1225392099", "hasText": "是", "textChars": 795}, {"date": "2026-06-26", "code": "603139", "company": "康惠股份", "market": "SH", "title": "康惠股份第六届董事会第十三次会议决议公告", "shortTitle": "第六届董事会第十三次会议决议公告", "category": "治理人事", "level": "中", "score": 63, "matched": "董事", "numbers": "25日", "attention": "董办关系维护、治理变化、关键联系人和客户关系提示。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225388847.PDF", "announcementId": "1225388847", "hasText": "是", "textChars": 1359}, {"date": "2026-06-26", "code": "300831", "company": "派瑞股份", "market": "SZ", "title": "关于选举公司董事、董事长及调整专门委员会委员的公告", "shortTitle": "选举公司董事、董事长及调整专门委员会委员的公告", "category": "治理人事", "level": "中", "score": 63, "matched": "董事、董事长", "numbers": "26日", "attention": "董办关系维护、治理变化、关键联系人和客户关系提示。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225392655.PDF", "announcementId": "1225392655", "hasText": "是", "textChars": 1745}, {"date": "2026-06-26", "code": "300831", "company": "派瑞股份", "market": "SZ", "title": "第三届董事会第十五次会议决议公告", "shortTitle": "第三届董事会第十五次会议决议公告", "category": "治理人事", "level": "中", "score": 63, "matched": "董事", "numbers": "26日", "attention": "董办关系维护、治理变化、关键联系人和客户关系提示。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225392652.PDF", "announcementId": "1225392652", "hasText": "是", "textChars": 1305}, {"date": "2026-06-26", "code": "920564", "company": "天润科技", "market": "BJ", "title": "公司章程", "shortTitle": "公司章程", "category": "治理人事", "level": "中", "score": 59, "matched": "章程", "numbers": "", "attention": "董办关系维护、治理变化、关键联系人和客户关系提示。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225391196.PDF", "announcementId": "1225391196", "hasText": "是", "textChars": 34273}, {"date": "2026-06-26", "code": "603139", "company": "康惠股份", "market": "SH", "title": "北京德恒律师事务所关于陕西康惠制药股份有限公司2026年限制性股票激励计划调整及授予事项之法律意见", "shortTitle": "北京德恒律师事务所关于陕西康惠制药股份有限公司2026年限制性股票激励计划调整及授予事项之法律意见", "category": "激励回购", "level": "中", "score": 59, "matched": "限制性股票、授予", "numbers": "", "attention": "股权激励综合服务、员工账户、行权资金和股份支付影响。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225388842.PDF", "announcementId": "1225388842", "hasText": "是", "textChars": 0}, {"date": "2026-06-26", "code": "603139", "company": "康惠股份", "market": "SH", "title": "康惠股份董事会薪酬与考核委员会关于公司2026年限制性股票激励计划调整及授予相关事项的核查意见", "shortTitle": "董事会薪酬与考核委员会关于公司2026年限制性股票激励计划调整及授予相关事项的核查意见", "category": "激励回购", "level": "中", "score": 59, "matched": "限制性股票、授予", "numbers": "", "attention": "股权激励综合服务、员工账户、行权资金和股份支付影响。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225388850.PDF", "announcementId": "1225388850", "hasText": "是", "textChars": 1464}, {"date": "2026-06-26", "code": "920564", "company": "天润科技", "market": "BJ", "title": "2026年第二次临时股东会决议公告", "shortTitle": "2026年第二次临时股东会决议公告", "category": "会议固定", "level": "低", "score": 41, "matched": "股东会", "numbers": "25日、76,980,275股、71.9950%", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225391197.PDF", "announcementId": "1225391197", "hasText": "是", "textChars": 1136}, {"date": "2026-06-27", "code": "001231", "company": "农心科技", "market": "SZ", "title": "农心作物科技股份有限公司2025年年度股东会决议公告", "shortTitle": "农心作物科技股份有限公司2025年年度股东会决议公告", "category": "会议固定", "level": "低", "score": 37, "matched": "股东会", "numbers": "27日、26日", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392100.PDF", "announcementId": "1225392100", "hasText": "是", "textChars": 4996}, {"date": "2026-06-27", "code": "688167", "company": "炬光科技", "market": "SH", "title": "西安炬光科技股份有限公司2026年第二次临时股东会决议公告", "shortTitle": "西安股份有限公司2026年第二次临时股东会决议公告", "category": "会议固定", "level": "低", "score": 37, "matched": "股东会", "numbers": "26日、130,138,971股", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225390870.PDF", "announcementId": "1225390870", "hasText": "是", "textChars": 1549}, {"date": "2026-06-27", "code": "001231", "company": "农心科技", "market": "SZ", "title": "上海市锦天城律师事务所关于农心作物科技股份有限公司2025年年度股东会的法律意见书", "shortTitle": "上海市锦天城律师事务所关于农心作物科技股份有限公司2025年年度股东会的法律意见书", "category": "会议固定", "level": "低", "score": 33, "matched": "股东会、法律意见书", "numbers": "26日", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392101.PDF", "announcementId": "1225392101", "hasText": "是", "textChars": 5997}, {"date": "2026-06-26", "code": "300831", "company": "派瑞股份", "market": "SZ", "title": "2025年度股东会决议公告", "shortTitle": "2025年度股东会决议公告", "category": "会议固定", "level": "低", "score": 33, "matched": "股东会", "numbers": "26日", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225392653.PDF", "announcementId": "1225392653", "hasText": "是", "textChars": 6151}, {"date": "2026-06-26", "code": "002799", "company": "环球印务", "market": "SZ", "title": "2025年度股东会决议公告", "shortTitle": "2025年度股东会决议公告", "category": "会议固定", "level": "低", "score": 33, "matched": "股东会", "numbers": "25日", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225388912.PDF", "announcementId": "1225388912", "hasText": "是", "textChars": 6316}, {"date": "2026-06-26", "code": "002799", "company": "环球印务", "market": "SZ", "title": "北京市天元律师事务所关于西安环球印务股份有限公司2025年度股东会的法律意见", "shortTitle": "北京市天元律师事务所关于西安股份有限公司2025年度股东会的法律意见", "category": "会议固定", "level": "低", "score": 33, "matched": "股东会", "numbers": "25日", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225388913.PDF", "announcementId": "1225388913", "hasText": "是", "textChars": 7102}, {"date": "2026-06-27", "code": "688150", "company": "莱特光电", "market": "SH", "title": "陕西莱特光电材料股份有限公司关于变更持续督导保荐代表人的公告", "shortTitle": "陕西材料股份有限公司关于变更持续督导保荐代表人的公告", "category": "会议固定", "level": "低", "score": 33, "matched": "保荐", "numbers": "31日", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392781.PDF", "announcementId": "1225392781", "hasText": "是", "textChars": 952}, {"date": "2026-06-27", "code": "002673", "company": "西部证券", "market": "SZ", "title": "2026年第一次临时股东会决议公告", "shortTitle": "2026年第一次临时股东会决议公告", "category": "会议固定", "level": "低", "score": 33, "matched": "股东会", "numbers": "26日", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225390441.PDF", "announcementId": "1225390441", "hasText": "是", "textChars": 1665}, {"date": "2026-06-27", "code": "688122", "company": "西部超导", "market": "SH", "title": "2025年年度股东会决议公告", "shortTitle": "2025年年度股东会决议公告", "category": "会议固定", "level": "低", "score": 33, "matched": "股东会", "numbers": "26日", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225391144.PDF", "announcementId": "1225391144", "hasText": "是", "textChars": 2474}, {"date": "2026-06-27", "code": "000563", "company": "陕国投A", "market": "SZ", "title": "2026年第一次临时股东会决议公告", "shortTitle": "2026年第一次临时股东会决议公告", "category": "会议固定", "level": "低", "score": 33, "matched": "股东会", "numbers": "26日", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392153.PDF", "announcementId": "1225392153", "hasText": "是", "textChars": 1783}, {"date": "2026-06-26", "code": "688285", "company": "高铁电气", "market": "SH", "title": "高铁电气：2025年年度股东会决议公告", "shortTitle": "2025年年度股东会决议公告", "category": "会议固定", "level": "低", "score": 33, "matched": "股东会", "numbers": "25日", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225388632.PDF", "announcementId": "1225388632", "hasText": "是", "textChars": 3091}, {"date": "2026-06-27", "code": "001231", "company": "农心科技", "market": "SZ", "title": "农心作物科技股份有限公司关于减少注册资本暨通知债权人的公告", "shortTitle": "农心作物科技股份有限公司关于减少注册资本暨通知债权人的公告", "category": "其他公告", "level": "低", "score": 30, "matched": "", "numbers": "100,610股、159,755股、合计260,365股、260,365元、26日", "attention": "底稿保留，防止标题口径外的遗漏。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392103.PDF", "announcementId": "1225392103", "hasText": "是", "textChars": 1340}, {"date": "2026-06-26", "code": "300487", "company": "蓝晓科技", "market": "SZ", "title": "关于 “蓝晓转02” 转股价格调整的公告", "shortTitle": "“蓝晓转02”转股价格调整的公告", "category": "其他公告", "level": "低", "score": 30, "matched": "", "numbers": "59.38元/股、59.21元/股、3日、100元、54,606.45万元", "attention": "底稿保留，防止标题口径外的遗漏。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225392924.PDF", "announcementId": "1225392924", "hasText": "是", "textChars": 5261}, {"date": "2026-06-27", "code": "000610", "company": "西安旅游", "market": "SZ", "title": "关于关联方借款暨关联交易的进展公告", "shortTitle": "关联方借款暨关联交易的进展公告", "category": "其他公告", "level": "低", "score": 30, "matched": "", "numbers": "8日、24日、9日、25日、5,000万元", "attention": "底稿保留，防止标题口径外的遗漏。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392601.PDF", "announcementId": "1225392601", "hasText": "是", "textChars": 497}, {"date": "2026-06-26", "code": "920564", "company": "天润科技", "market": "BJ", "title": "北京市中伦律师事务所关于陕西天润科技股份有限公司2026年第二次临时股东会的法律意见书", "shortTitle": "北京市中伦律师事务所关于陕西股份有限公司2026年第二次临时股东会的法律意见书", "category": "会议固定", "level": "低", "score": 29, "matched": "股东会、法律意见书", "numbers": "", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225391195.PDF", "announcementId": "1225391195", "hasText": "是", "textChars": 0}, {"date": "2026-06-26", "code": "300831", "company": "派瑞股份", "market": "SZ", "title": "上海市锦天城律师事务所关于西安派瑞功率半导体变流技术股份有限公司2025年度股东会的法律意见书", "shortTitle": "上海市锦天城律师事务所关于西安派瑞功率半导体变流技术股份有限公司2025年度股东会的法律意见书", "category": "会议固定", "level": "低", "score": 29, "matched": "股东会、法律意见书", "numbers": "", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225392654.PDF", "announcementId": "1225392654", "hasText": "是", "textChars": 9037}, {"date": "2026-06-27", "code": "688167", "company": "炬光科技", "market": "SH", "title": "上海市锦天城（西安）律师事务所关于西安炬光科技股份有限公司2026年第二次临时股东会的法律意见书", "shortTitle": "上海市锦天城（西安）律师事务所关于西安股份有限公司2026年第二次临时股东会的法律意见书", "category": "会议固定", "level": "低", "score": 29, "matched": "股东会、法律意见书", "numbers": "", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225390890.PDF", "announcementId": "1225390890", "hasText": "是", "textChars": 3223}, {"date": "2026-06-27", "code": "002673", "company": "西部证券", "market": "SZ", "title": "北京金诚同达（西安）律师事务所关于西部证券股份有限公司2026年第一次临时股东会之法律意见书", "shortTitle": "北京金诚同达（西安）律师事务所关于股份有限公司2026年第一次临时股东会之法律意见书", "category": "会议固定", "level": "低", "score": 29, "matched": "股东会、法律意见书", "numbers": "", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225390442.PDF", "announcementId": "1225390442", "hasText": "是", "textChars": 3922}, {"date": "2026-06-27", "code": "688122", "company": "西部超导", "market": "SH", "title": "国浩律师（西安）事务所关于西部超导材料科技股份有限公司2025年年度股东会的法律意见书", "shortTitle": "国浩律师（西安）事务所关于材料科技股份有限公司2025年年度股东会的法律意见书", "category": "会议固定", "level": "低", "score": 29, "matched": "股东会、法律意见书", "numbers": "", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225391157.PDF", "announcementId": "1225391157", "hasText": "是", "textChars": 3314}, {"date": "2026-06-27", "code": "000563", "company": "陕国投A", "market": "SZ", "title": "陕西海普睿诚律师事务所关于陕西省国际信托股份有限公司2026年第一次临时股东会的法律意见书", "shortTitle": "陕西海普睿诚律师事务所关于陕西省国际信托股份有限公司2026年第一次临时股东会的法律意见书", "category": "会议固定", "level": "低", "score": 29, "matched": "股东会、法律意见书", "numbers": "", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392154.PDF", "announcementId": "1225392154", "hasText": "是", "textChars": 3378}, {"date": "2026-06-26", "code": "688285", "company": "高铁电气", "market": "SH", "title": "高铁电气：2025年年度股东会法律意见书", "shortTitle": "2025年年度股东会法律意见书", "category": "会议固定", "level": "低", "score": 29, "matched": "股东会、法律意见书", "numbers": "", "attention": "通常为固定披露；作为补漏底稿保留，必要时关联主公告核验。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225388630.PDF", "announcementId": "1225388630", "hasText": "是", "textChars": 6142}, {"date": "2026-06-26", "code": "603139", "company": "康惠股份", "market": "SH", "title": "康惠股份关于为全资子公司提供担保的进展公告", "shortTitle": "为全资子公司提供担保的进展公告", "category": "其他公告", "level": "低", "score": 26, "matched": "", "numbers": "10,000万元、0万元、25日", "attention": "底稿保留，防止标题口径外的遗漏。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-26/1225388843.PDF", "announcementId": "1225388843", "hasText": "是", "textChars": 3306}, {"date": "2026-06-27", "code": "000812", "company": "陕西金叶", "market": "SZ", "title": "关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告", "shortTitle": "公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告", "category": "其他公告", "level": "低", "score": 26, "matched": "", "numbers": "22日、19日、40亿元", "attention": "底稿保留，防止标题口径外的遗漏。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225390363.PDF", "announcementId": "1225390363", "hasText": "是", "textChars": 5608}, {"date": "2026-06-27", "code": "600984", "company": "建设机械", "market": "SH", "title": "建设机械关于收到中国证券监督管理委员会陕西监管局行政监管措施决定书的公告", "shortTitle": "收到中国证券监督管理委员会陕西监管局行政监管措施决定书的公告", "category": "其他公告", "level": "低", "score": 22, "matched": "", "numbers": "26日、5%", "attention": "底稿保留，防止标题口径外的遗漏。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225391242.PDF", "announcementId": "1225391242", "hasText": "是", "textChars": 1732}, {"date": "2026-06-27", "code": "001231", "company": "农心科技", "market": "SZ", "title": "农心作物科技股份有限公司关于调整公司组织架构的公告", "shortTitle": "农心作物科技股份有限公司关于调整公司组织架构的公告", "category": "其他公告", "level": "低", "score": 18, "matched": "", "numbers": "26日", "attention": "底稿保留，防止标题口径外的遗漏。", "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392104.PDF", "announcementId": "1225392104", "hasText": "是", "textChars": 556}]</script>
+  <script>
+    const rows = JSON.parse(document.getElementById('rows').textContent);
+    let current = '全部';
+    const search = document.getElementById('search');
+    const cards = Array.from(document.querySelectorAll('.card'));
+    function match(row, q) {
+      if (!q) return true;
+      return [row.company,row.code,row.title,row.category,row.matched,row.numbers].join(' ').toLowerCase().includes(q);
+    }
+    function apply() {
+      const q = search.value.trim().toLowerCase();
+      let shown = 0;
+      cards.forEach((card, i) => {
+        const row = rows[i];
+        const okCat = current === '全部' || (current === '高价值' ? card.dataset.high === '1' : row.category === current);
+        const ok = okCat && match(row, q);
+        card.classList.toggle('hidden', !ok);
+        if (ok) shown++;
+      });
+      document.getElementById('empty').style.display = shown ? 'none' : 'block';
+    }
+    document.querySelectorAll('.tab').forEach(tab => tab.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach(item => item.classList.remove('active'));
+      tab.classList.add('active');
+      current = tab.dataset.category;
+      apply();
+    }));
+    search.addEventListener('input', apply);
+    document.getElementById('exportCsv').addEventListener('click', () => {
+      const q = search.value.trim().toLowerCase();
+      const visible = rows.filter(row => {
+        const okCat = current === '全部' || (current === '高价值' ? row.score >= 70 : row.category === current);
+        return okCat && match(row, q);
+      });
+      const fields = ['date','code','company','category','level','score','matched','numbers','attention','title','url'];
+      const csv = [fields.join(',')].concat(visible.map(row => fields.map(field => '"' + String(row[field] || '').replaceAll('"','""') + '"').join(','))).join('\n');
+      const blob = new Blob(['\ufeff' + csv], {type:'text/csv;charset=utf-8'});
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'shaanxi-listed-candidate-radar-2026-06-29.csv';
+      a.click();
+      URL.revokeObjectURL(a.href);
+    });
+  </script>
+<!-- V1_ANALYTICS_BODY_START -->
+  <script>
+    (() => {
+      const analytics = {
+        track(eventName, properties = {}) {
+          if (!window.umami || typeof window.umami.track !== "function") return;
+          window.umami.track(eventName, {
+            path: window.location.pathname,
+            title: document.title,
+            ...properties
+          });
+        }
+      };
+
+      function cleanUrl(value) {
+        return String(value || "").split("?")[0].toLowerCase();
+      }
+
+      function assetType(url) {
+        const clean = cleanUrl(url);
+        if (clean.endsWith(".html")) return "html";
+        if (clean.endsWith(".md")) return "markdown";
+        if (clean.endsWith(".png")) return "png";
+        if (clean.endsWith(".jpg") || clean.endsWith(".jpeg") || clean.endsWith(".webp")) return "image";
+        if (clean.startsWith("#")) return "anchor";
+        return "link";
+      }
+
+      function channel(url) {
+        if (url.includes("上市公司")) return "listed";
+        if (url.includes("证券私募")) return "private";
+        if (url.includes("收并购")) return "ma";
+        if (url.includes("金融招投标")) return "tender";
+        return "site";
+      }
+
+      document.addEventListener("click", (event) => {
+        const shareButton = event.target.closest("[data-share-url]");
+        if (shareButton) {
+          const shareUrl = new URL(shareButton.dataset.shareUrl, window.location.href).toString();
+          navigator.clipboard?.writeText(shareUrl);
+          analytics.track("share_copy", {
+            report: shareButton.dataset.shareReport || "",
+            target_url: shareUrl
+          });
+          return;
+        }
+
+        const filterButton = event.target.closest("[data-filter]");
+        if (filterButton) {
+          analytics.track("filter_archive", {
+            filter: filterButton.dataset.filter || ""
+          });
+          return;
+        }
+
+        const link = event.target.closest("a[href]");
+        if (!link) return;
+
+        const href = link.getAttribute("href") || "";
+        const type = assetType(href);
+        if (type === "anchor") {
+          analytics.track("nav_click", {
+            label: link.textContent.trim() || link.getAttribute("aria-label") || "",
+            target_url: href
+          });
+          return;
+        }
+
+        analytics.track(type === "html" ? "open_report" : "download_asset", {
+          channel: channel(href),
+          asset_type: type,
+          label: link.textContent.trim() || link.getAttribute("aria-label") || "",
+          target_url: new URL(href, window.location.href).toString()
+        });
+      });
+
+      const searchInput = document.querySelector("#searchInput");
+      if (searchInput) {
+        searchInput.addEventListener("change", () => {
+          analytics.track("search_archive", {
+            keyword: searchInput.value.trim()
+          });
+        });
+      }
+    })();
+  </script>
+  <!-- V1_ANALYTICS_BODY_END -->
+</body>
+</html>

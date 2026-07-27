@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1",
+  "runId": "event-store-20260726T210343Z",
+  "status": "PASS",
+  "database": "data/runtime/event-store.sqlite3",
+  "counts": {
+    "raw_snapshots": 79,
+    "entities": 259,
+    "sources": 7529,
+    "events": 224,
+    "event_versions": 1617,
+    "event_timeline": 281,
+    "event_candidates": 2756
+  },
+  "channelCounts": {
+    "equity_financing": 3,
+    "listed": 10,
+    "ma": 27,
+    "pre_ipo": 85,
+    "private_fund": 4,
+    "soe": 1,
+    "tender": 94
+  },
+  "candidateChannelCounts": {
+    "equity_financing": 1,
+    "listed": 2559,
+    "ma": 8,
+    "pre_ipo": 82,
+    "private_fund": 32,
+    "soe": 61,
+    "tender": 13
+  },
+  "importedCandidateCount": 2756,
+  "generatedAt": "2026-07-26T21:03:43.951494+00:00"
+}

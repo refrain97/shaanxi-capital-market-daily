@@ -1,0 +1,2276 @@
+{
+  "meta": {
+    "schemaVersion": "0.5",
+    "asOf": "2026-07-10",
+    "generatedAt": "2026-07-11T11:30:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "sampleStatus": "normalized_from_v1",
+    "title": "陕西资本市场情报",
+    "note": "Phase 2上市公司工作台样例：15份公告归并为10个有效事项，并建立4条结构化财务披露记录。"
+  },
+  "providers": [
+    {
+      "providerId": "wind_codex",
+      "skillRootId": "codex_local",
+      "status": "PASS",
+      "checkedAt": "2026-07-11T09:42:00+08:00",
+      "dataAsOf": null,
+      "affectedChannels": [
+        "listed",
+        "equity_financing",
+        "ma"
+      ]
+    },
+    {
+      "providerId": "ifind_codex",
+      "skillRootId": "codex_local",
+      "status": "PASS",
+      "checkedAt": "2026-07-11T09:44:00+08:00",
+      "dataAsOf": null,
+      "affectedChannels": [
+        "listed",
+        "equity_financing",
+        "ma"
+      ]
+    },
+    {
+      "providerId": "cninfo_v1",
+      "skillRootId": "v1_readonly",
+      "status": "PASS",
+      "checkedAt": "2026-07-10T08:20:00+08:00",
+      "dataAsOf": "2026-07-10T08:20:00+08:00",
+      "affectedChannels": [
+        "listed",
+        "ma"
+      ]
+    },
+    {
+      "providerId": "amac_v1",
+      "skillRootId": "v1_readonly",
+      "status": "DEGRADED",
+      "checkedAt": "2026-07-10T08:10:00+08:00",
+      "dataAsOf": "2026-07-10T08:10:00+08:00",
+      "affectedChannels": [
+        "private_fund"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entityId": "ent-shaanxi-energy",
+      "entityType": "listed_company",
+      "canonicalName": "陕西能源",
+      "aliases": [
+        "陕西能源投资股份有限公司"
+      ],
+      "region": "陕西",
+      "status": "active",
+      "universeTier": "L1",
+      "securityCode": "001286.SZ"
+    },
+    {
+      "entityId": "ent-xian-bank",
+      "entityType": "listed_company",
+      "canonicalName": "西安银行",
+      "aliases": [
+        "西安银行股份有限公司"
+      ],
+      "region": "陕西",
+      "status": "active",
+      "universeTier": "L1",
+      "securityCode": "600928.SH"
+    },
+    {
+      "entityId": "ent-meichang",
+      "entityType": "listed_company",
+      "canonicalName": "美畅股份",
+      "aliases": [
+        "杨凌美畅新材料股份有限公司"
+      ],
+      "region": "陕西",
+      "status": "active",
+      "universeTier": "L1",
+      "securityCode": "300861.SZ"
+    },
+    {
+      "entityId": "ent-aikosai",
+      "entityType": "listed_company",
+      "canonicalName": "爱科赛博",
+      "aliases": [
+        "西安爱科赛博电气股份有限公司"
+      ],
+      "region": "陕西",
+      "status": "active",
+      "universeTier": "L1",
+      "securityCode": "688719.SH"
+    },
+    {
+      "entityId": "ent-construction-machinery",
+      "entityType": "listed_company",
+      "canonicalName": "建设机械",
+      "aliases": [
+        "陕西建设机械股份有限公司"
+      ],
+      "region": "陕西",
+      "status": "active",
+      "universeTier": "L1",
+      "securityCode": "600984.SH"
+    },
+    {
+      "entityId": "ent-luge",
+      "entityType": "private_manager",
+      "canonicalName": "陕西禄格私募基金管理有限公司",
+      "aliases": [
+        "陕西禄格"
+      ],
+      "region": "陕西",
+      "status": "active"
+    },
+    {
+      "entityId": "ent-xian-jiatai",
+      "entityType": "private_manager",
+      "canonicalName": "西安嘉泰基金管理有限公司",
+      "aliases": [
+        "西安嘉泰"
+      ],
+      "region": "陕西",
+      "status": "cancelled"
+    },
+    {
+      "entityId": "ent-changan-huitong",
+      "entityType": "soe_group",
+      "canonicalName": "长安汇通集团有限责任公司",
+      "aliases": [
+        "长安汇通"
+      ],
+      "region": "陕西",
+      "status": "active"
+    },
+    {
+      "entityId": "ent-maikeaote",
+      "entityType": "listed_company",
+      "canonicalName": "陕西麦科奥特医药科技股份有限公司",
+      "aliases": [
+        "麦科奥特",
+        "麦科医药-B"
+      ],
+      "region": "陕西",
+      "status": "active",
+      "securityCode": "02335.HK",
+      "universeTier": "L1"
+    },
+    {
+      "entityId": "ent-shaangu",
+      "entityType": "listed_company",
+      "canonicalName": "陕鼓动力",
+      "aliases": [
+        "西安陕鼓动力股份有限公司"
+      ],
+      "region": "陕西",
+      "status": "active",
+      "universeTier": "L1",
+      "securityCode": "601369.SH"
+    },
+    {
+      "entityId": "ent-rainbow",
+      "entityType": "listed_company",
+      "canonicalName": "彩虹股份",
+      "aliases": [
+        "彩虹显示器件股份有限公司"
+      ],
+      "region": "陕西",
+      "status": "active",
+      "universeTier": "L1",
+      "securityCode": "600707.SH"
+    },
+    {
+      "entityId": "ent-shaanxi-jinzi",
+      "entityType": "soe_group",
+      "canonicalName": "陕西金资基金管理有限公司",
+      "aliases": [
+        "陕西金资基金"
+      ],
+      "region": "陕西",
+      "status": "active"
+    },
+    {
+      "entityId": "ent-shaanxi-water",
+      "entityType": "soe_group",
+      "canonicalName": "陕西水务发展集团有限公司",
+      "aliases": [
+        "陕西水务发展"
+      ],
+      "region": "陕西",
+      "status": "active"
+    },
+    {
+      "entityId": "ent-panlong",
+      "entityType": "listed_company",
+      "canonicalName": "盘龙药业",
+      "aliases": [
+        "陕西盘龙药业集团股份有限公司"
+      ],
+      "region": "陕西",
+      "status": "active",
+      "universeTier": "L1",
+      "securityCode": "002864.SZ"
+    },
+    {
+      "entityId": "ent-kanghui",
+      "entityType": "listed_company",
+      "canonicalName": "康惠股份",
+      "aliases": [
+        "陕西康惠制药股份有限公司"
+      ],
+      "region": "陕西",
+      "status": "active",
+      "universeTier": "L1",
+      "securityCode": "603139.SH"
+    },
+    {
+      "entityId": "ent-shaanxi-construction",
+      "entityType": "listed_company",
+      "canonicalName": "陕建股份",
+      "aliases": [
+        "陕西建工",
+        "陕西建工集团股份有限公司"
+      ],
+      "region": "陕西",
+      "status": "active",
+      "universeTier": "L1",
+      "securityCode": "600248.SH"
+    }
+  ],
+  "sources": [
+    {
+      "sourceRecordId": "src-energy-reduction",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-10/1225417856.PDF",
+      "title": "陕西能源投资股份有限公司关于持股5%以上股东减持股份预披露公告",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225417856",
+      "securityCode": "001286"
+    },
+    {
+      "sourceRecordId": "src-bank-litigation",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-10/1225417168.PDF",
+      "title": "西安银行股份有限公司关于诉讼事项进展的公告",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225417168",
+      "securityCode": "600928"
+    },
+    {
+      "sourceRecordId": "src-meichang-forecast",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-09/1225416877.PDF",
+      "title": "2026年半年度业绩预告",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225416877",
+      "securityCode": "300861"
+    },
+    {
+      "sourceRecordId": "src-aikosai-inquiry",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-09/1225414804.PDF",
+      "title": "西安爱科赛博电气股份有限公司关于2025年年度报告信息披露监管问询函的回复公告",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225414804",
+      "securityCode": "688719"
+    },
+    {
+      "sourceRecordId": "src-machinery-meeting",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-10/1225416889.PDF",
+      "title": "建设机械关于召开2026年第三次临时股东会的通知",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225416889",
+      "securityCode": "600984"
+    },
+    {
+      "sourceRecordId": "src-luge-product",
+      "sourceType": "association",
+      "sourceName": "中国证券投资基金业协会",
+      "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607080903108151.html",
+      "title": "禄格永兴2号私募证券投资基金公示",
+      "publishedAt": "2026-07-08T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:10:00+08:00",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-jiatai-cancel",
+      "sourceType": "association",
+      "sourceName": "中国证券投资基金业协会",
+      "url": "https://gs.amac.org.cn/amac-infodisc/res/cancelled/manager/1705311023107603.html",
+      "title": "西安嘉泰基金管理有限公司注销公示",
+      "publishedAt": "2026-03-02T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:10:00+08:00",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-social-fund",
+      "sourceType": "company_official",
+      "sourceName": "长安汇通官网",
+      "url": "https://www.ca-ht.com/show/1270",
+      "title": "陕西社保科创基金签约仪式在西安举行",
+      "publishedAt": "2026-06-17T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T17:20:00+08:00",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-maikeaote-hearing",
+      "sourceType": "company_official",
+      "sourceName": "长安汇通官网",
+      "url": "https://www.ca-ht.com/show/1269",
+      "title": "麦科奥特通过港交所上市聆讯",
+      "publishedAt": "2026-06-11T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T17:20:00+08:00",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-shaangu-ma",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225392075.PDF",
+      "title": "陕鼓动力关于筹划发行股份购买资产暨关联交易事项的停牌公告",
+      "publishedAt": "2026-06-27T00:00:00+08:00",
+      "fetchedAt": "2026-06-29T08:20:00+08:00",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-rainbow-ma",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-07/1225412189.PDF",
+      "title": "彩虹股份关于收购控股子公司少数股东股权的公告",
+      "publishedAt": "2026-07-07T00:00:00+08:00",
+      "fetchedAt": "2026-07-07T08:20:00+08:00",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-jinzi-tender",
+      "sourceType": "procurement",
+      "sourceName": "中招联合招标采购平台",
+      "url": "https://www.365trade.com.cn/zfwzb/788330.jhtml",
+      "title": "陕西金资基金发行科创债选定主承销商项目",
+      "publishedAt": "2026-01-21T00:00:00+08:00",
+      "fetchedAt": "2026-05-12T10:00:00+08:00",
+      "sourceQuality": "authoritative"
+    },
+    {
+      "sourceRecordId": "src-water-vpp",
+      "sourceType": "company_official",
+      "sourceName": "陕西水务发展集团官网",
+      "url": "https://www.sxswfzjt.com/news/info/3548",
+      "title": "陕西水务发展清洁能源集团与略阳县政府签约城市级虚拟电厂项目",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T17:20:00+08:00",
+      "sourceQuality": "official"
+    },
+    {
+      "sourceRecordId": "src-machinery-pay",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-10/1225416899.PDF",
+      "title": "建设机械关于确认2024年度时任非独立董事、高级管理人员考核兑现的公告",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225416899",
+      "securityCode": "600984"
+    },
+    {
+      "sourceRecordId": "src-machinery-board",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-10/1225416888.PDF",
+      "title": "建设机械第八届董事会第三十次会议决议公告",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225416888",
+      "securityCode": "600984"
+    },
+    {
+      "sourceRecordId": "src-bank-director",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-10/1225417165.PDF",
+      "title": "西安银行股份有限公司关于董事任职资格获监管机构核准的公告",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225417165",
+      "securityCode": "600928"
+    },
+    {
+      "sourceRecordId": "src-panlong-catalogue",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-10/1225417625.PDF",
+      "title": "关于公司产品进入《国家基本药物目录》的公告",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225417625",
+      "securityCode": "002864"
+    },
+    {
+      "sourceRecordId": "src-aikosai-sponsor",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-09/1225414809.PDF",
+      "title": "长江证券承销保荐有限公司关于西安爱科赛博电气股份有限公司2025年年度报告的信息披露监管问询函的核查意见",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225414809",
+      "securityCode": "688719"
+    },
+    {
+      "sourceRecordId": "src-aikosai-control",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-09/1225414807.PDF",
+      "title": "西安爱科赛博电气股份有限公司关于公司财务相关内部控制专项核查事项完成情况的公告",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225414807",
+      "securityCode": "688719"
+    },
+    {
+      "sourceRecordId": "src-aikosai-accountant",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-09/1225414795.PDF",
+      "title": "中汇会计师事务所（特殊普通合伙）关于上海证券交易所《关于西安爱科赛博电气股份有限公司2025年年度报告的信息披露监管问询函》有关财务问题回复的专项说明",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225414795",
+      "securityCode": "688719"
+    },
+    {
+      "sourceRecordId": "src-kanghui-meeting",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-09/1225414634.PDF",
+      "title": "康惠股份2026年第四次临时股东会会议资料",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225414634",
+      "securityCode": "603139"
+    },
+    {
+      "sourceRecordId": "src-rainbow-forecast",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-09/1225414704.PDF",
+      "title": "彩虹股份2026年半年度业绩预减公告",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225414704",
+      "securityCode": "600707"
+    },
+    {
+      "sourceRecordId": "src-shaanxi-construction-dividend",
+      "sourceType": "official_announcement",
+      "sourceName": "巨潮资讯",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-09/1225415542.PDF",
+      "title": "陕西建工集团股份有限公司2025年年度权益分派实施公告",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "fetchedAt": "2026-07-10T08:20:00+08:00",
+      "sourceQuality": "official",
+      "announcementId": "1225415542",
+      "securityCode": "600248"
+    },
+    {
+      "sourceRecordId": "src-maikeaote-listing",
+      "sourceType": "exchange_official",
+      "sourceName": "香港交易所",
+      "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/HKSCC/2026/ce_HKSCC_SKA_186_2026.pdf",
+      "title": "Stock Admission - New Listing of Securities (2335)",
+      "publishedAt": "2026-06-22T00:00:00+08:00",
+      "fetchedAt": "2026-07-12T11:00:00+08:00",
+      "sourceQuality": "official"
+    }
+  ],
+  "evidence": [
+    {
+      "evidenceId": "evd-energy",
+      "sourceRecordId": "src-energy-reduction",
+      "factPath": "metrics.reductionLimit",
+      "value": "不超过7,500万股，占总股本2.00%；2026-07-31至2026-10-29",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-bank",
+      "sourceRecordId": "src-bank-litigation",
+      "factPath": "metrics.principal",
+      "value": "借款本金7.3亿元及相关息费，已纳入不良并计提减值",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-meichang",
+      "sourceRecordId": "src-meichang-forecast",
+      "factPath": "metrics.netProfit",
+      "value": "归母净利润2.95亿元至3.15亿元，同比增长248.45%至272.08%",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-aikosai",
+      "sourceRecordId": "src-aikosai-inquiry",
+      "factPath": "metrics.revenue",
+      "value": "2025年营收9.0282亿元，归母净利润-0.4494亿元",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-machinery",
+      "sourceRecordId": "src-machinery-meeting",
+      "factPath": "deadlineAt",
+      "value": "2026-07-28 14:00召开临时股东会",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-luge",
+      "sourceRecordId": "src-luge-product",
+      "factPath": "metrics.fundNo",
+      "value": "SBPV13；备案日2026-07-08；托管人中信证券",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-jiatai",
+      "sourceRecordId": "src-jiatai-cancel",
+      "factPath": "eventStatus",
+      "value": "2026-03-02主动注销；存量产品5只",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-social-fund",
+      "sourceRecordId": "src-social-fund",
+      "factPath": "summary",
+      "value": "陕西社保科创基金签约",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-maikeaote",
+      "sourceRecordId": "src-maikeaote-listing",
+      "factPath": "eventStatus",
+      "value": "2026-06-24在港交所上市，证券代码02335.HK",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-shaangu",
+      "sourceRecordId": "src-shaangu-ma",
+      "factPath": "metrics.equityRatio",
+      "value": "拟发行股份收购秦风气体36.06%少数股权",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-rainbow",
+      "sourceRecordId": "src-rainbow-ma",
+      "factPath": "metrics.transactionAmount",
+      "value": "交易金额19.157422亿元；持股由62.4019%升至95.8224%",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-jinzi",
+      "sourceRecordId": "src-jinzi-tender",
+      "factPath": "eventStatus",
+      "value": "项目已于2026-03-02进入中标结果，投标窗口已关闭",
+      "verificationStatus": "cross_checked"
+    },
+    {
+      "evidenceId": "evd-water",
+      "sourceRecordId": "src-water-vpp",
+      "factPath": "summary",
+      "value": "签约城市级虚拟电厂项目",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-bank-director",
+      "sourceRecordId": "src-bank-director",
+      "factPath": "governance.directorApproval",
+      "value": "陕金监复〔2026〕121号核准侯博董事任职资格",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-panlong",
+      "sourceRecordId": "src-panlong-catalogue",
+      "factPath": "operations.productCatalogue",
+      "value": "盘龙七片、通关藤片列入新版国家基本药物目录",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-kanghui",
+      "sourceRecordId": "src-kanghui-meeting",
+      "factPath": "capital.relatedTransaction",
+      "value": "含税中标价50,599,242.18元，关联股东需回避表决",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-rainbow-forecast",
+      "sourceRecordId": "src-rainbow-forecast",
+      "factPath": "financial.netProfitForecast",
+      "value": "归母净利润0.96亿元至1.10亿元，同比下降75.66%至78.76%",
+      "verificationStatus": "verified"
+    },
+    {
+      "evidenceId": "evd-shaanxi-construction",
+      "sourceRecordId": "src-shaanxi-construction-dividend",
+      "factPath": "financial.dividend",
+      "value": "每股0.02元，总额74,278,585.72元；7月16日发放",
+      "verificationStatus": "verified"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "evt-20260710-energy-reduction",
+      "eventKey": "001286-reduction-1225417856",
+      "channel": "listed",
+      "eventType": "shareholder_reduction",
+      "primaryEntityId": "ent-shaanxi-energy",
+      "title": "长安汇通拟减持陕西能源不超过2%股份",
+      "summary": "持股8.00%的长安汇通拟减持不超过7,500万股，减持窗口自7月31日起。",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T08:20:00+08:00",
+      "deadlineAt": "2026-10-29T23:59:00+08:00",
+      "lastCheckedAt": "2026-07-10T17:40:00+08:00",
+      "eventStatus": "action_window",
+      "noveltyStatus": "new",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-energy-reduction"
+      ],
+      "evidenceIds": [
+        "evd-energy"
+      ],
+      "business": "client_coverage",
+      "metrics": [
+        {
+          "label": "拟减持上限",
+          "value": "7,500万股"
+        },
+        {
+          "label": "占总股本",
+          "value": "2.00%"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-10",
+          "label": "预披露"
+        },
+        {
+          "at": "2026-07-31",
+          "label": "减持窗口开始"
+        },
+        {
+          "at": "2026-10-29",
+          "label": "减持窗口截止"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260710-bank-litigation",
+      "eventKey": "600928-litigation-1225417168",
+      "channel": "listed",
+      "eventType": "litigation_progress",
+      "primaryEntityId": "ent-xian-bank",
+      "title": "西安银行7.3亿元借款纠纷进入执行受理",
+      "summary": "咸阳分行金融借款合同纠纷进入执行受理，相关贷款已纳入不良并计提减值。",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T08:20:00+08:00",
+      "deadlineAt": null,
+      "lastCheckedAt": "2026-07-10T17:40:00+08:00",
+      "eventStatus": "progressing",
+      "noveltyStatus": "new",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-bank-litigation"
+      ],
+      "evidenceIds": [
+        "evd-bank"
+      ],
+      "business": "risk_service",
+      "metrics": [
+        {
+          "label": "借款本金",
+          "value": "7.3亿元"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-10",
+          "label": "执行受理公告"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260709-meichang-forecast",
+      "eventKey": "300861-performance-1225416877",
+      "channel": "listed",
+      "eventType": "performance_forecast",
+      "primaryEntityId": "ent-meichang",
+      "title": "美畅股份预计上半年归母净利同比增长248%-272%",
+      "summary": "公司预计归母净利润2.95亿元至3.15亿元，钨丝金刚线出货占比同比提升超过40%。",
+      "publishedAt": "2026-07-09T17:16:28+08:00",
+      "discoveredAt": "2026-07-10T08:20:00+08:00",
+      "deadlineAt": null,
+      "lastCheckedAt": "2026-07-10T17:40:00+08:00",
+      "eventStatus": "watch",
+      "noveltyStatus": "new",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-meichang-forecast"
+      ],
+      "evidenceIds": [
+        "evd-meichang"
+      ],
+      "business": "research_service",
+      "metrics": [
+        {
+          "label": "归母净利润",
+          "value": "2.95-3.15亿元"
+        },
+        {
+          "label": "同比",
+          "value": "+248.45%-272.08%"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "业绩预告"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260709-aikosai-inquiry",
+      "eventKey": "688719-inquiry-1225414804",
+      "channel": "listed",
+      "eventType": "regulatory_inquiry",
+      "primaryEntityId": "ent-aikosai",
+      "title": "爱科赛博年报问询回复披露亏损与内控整改",
+      "summary": "2025年营收同比下降3.48%，归母净利润同比下降166.06%，收入确认和应收账款仍需跟踪。",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T08:20:00+08:00",
+      "deadlineAt": null,
+      "lastCheckedAt": "2026-07-10T17:40:00+08:00",
+      "eventStatus": "risk",
+      "noveltyStatus": "new",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-aikosai-sponsor",
+        "src-aikosai-control",
+        "src-aikosai-inquiry",
+        "src-aikosai-accountant"
+      ],
+      "evidenceIds": [
+        "evd-aikosai"
+      ],
+      "business": "risk_service",
+      "metrics": [
+        {
+          "label": "营收",
+          "value": "9.03亿元"
+        },
+        {
+          "label": "归母净利",
+          "value": "-0.45亿元"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "问询回复"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260710-machinery-meeting",
+      "eventKey": "600984-meeting-1225416889",
+      "channel": "listed",
+      "eventType": "shareholder_meeting",
+      "primaryEntityId": "ent-construction-machinery",
+      "title": "建设机械临时股东会将审议核销与薪酬事项",
+      "summary": "临时股东会定于7月28日召开，审议应收款项核销和薪酬议案。",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T08:20:00+08:00",
+      "deadlineAt": "2026-07-28T14:00:00+08:00",
+      "lastCheckedAt": "2026-07-10T17:40:00+08:00",
+      "eventStatus": "action_window",
+      "noveltyStatus": "new",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-machinery-pay",
+        "src-machinery-meeting",
+        "src-machinery-board"
+      ],
+      "evidenceIds": [
+        "evd-machinery"
+      ],
+      "business": "client_coverage",
+      "metrics": [
+        {
+          "label": "会议时间",
+          "value": "7月28日 14:00"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-10",
+          "label": "会议通知"
+        },
+        {
+          "at": "2026-07-28",
+          "label": "股东会"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260708-luge-product",
+      "eventKey": "SBPV13-filing",
+      "channel": "private_fund",
+      "eventType": "product_filing",
+      "primaryEntityId": "ent-luge",
+      "title": "禄格永兴2号完成私募证券基金备案",
+      "summary": "基金编号SBPV13，管理人为陕西禄格，托管人为中信证券。",
+      "publishedAt": "2026-07-08T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T08:10:00+08:00",
+      "deadlineAt": null,
+      "lastCheckedAt": "2026-07-10T08:10:00+08:00",
+      "eventStatus": "active",
+      "noveltyStatus": "new",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-luge-product"
+      ],
+      "evidenceIds": [
+        "evd-luge"
+      ],
+      "business": "private_fund_service",
+      "metrics": [
+        {
+          "label": "基金编号",
+          "value": "SBPV13"
+        },
+        {
+          "label": "托管人",
+          "value": "中信证券"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-11",
+          "label": "成立"
+        },
+        {
+          "at": "2026-07-08",
+          "label": "备案"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260302-jiatai-cancel",
+      "eventKey": "P-JIATAI-cancel-20260302",
+      "channel": "private_fund",
+      "eventType": "manager_cancellation",
+      "primaryEntityId": "ent-xian-jiatai",
+      "title": "西安嘉泰基金管理有限公司主动注销",
+      "summary": "协会公示显示该证券私募管理人主动注销，注销前产品数量5只。",
+      "publishedAt": "2026-03-02T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T08:10:00+08:00",
+      "deadlineAt": null,
+      "lastCheckedAt": "2026-07-10T08:10:00+08:00",
+      "eventStatus": "completed",
+      "noveltyStatus": "backfill",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-jiatai-cancel"
+      ],
+      "evidenceIds": [
+        "evd-jiatai"
+      ],
+      "business": "private_fund_service",
+      "metrics": [
+        {
+          "label": "注销类型",
+          "value": "主动注销"
+        },
+        {
+          "label": "产品数",
+          "value": "5只"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-02",
+          "label": "主动注销"
+        },
+        {
+          "at": "2026-07-10",
+          "label": "V3样例补录"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260617-social-fund",
+      "eventKey": "changan-social-venture-fund-20260617",
+      "channel": "equity_financing",
+      "eventType": "fund_signing",
+      "primaryEntityId": "ent-changan-huitong",
+      "title": "陕西社保科创基金在西安签约",
+      "summary": "长安汇通官网披露陕西社保科创基金签约，纳入产业基金和股权融资观察。",
+      "publishedAt": "2026-06-17T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T17:20:00+08:00",
+      "deadlineAt": null,
+      "lastCheckedAt": "2026-07-10T17:20:00+08:00",
+      "eventStatus": "watch",
+      "noveltyStatus": "backfill",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-social-fund"
+      ],
+      "evidenceIds": [
+        "evd-social-fund"
+      ],
+      "business": "equity_financing",
+      "metrics": [
+        {
+          "label": "事件类型",
+          "value": "科创基金签约"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-17",
+          "label": "签约"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260611-maikeaote-hearing",
+      "eventKey": "maikeaote-hk-hearing-20260611",
+      "channel": "equity_financing",
+      "eventType": "ipo_progress",
+      "primaryEntityId": "ent-maikeaote",
+      "title": "陕西麦科奥特完成港交所主板上市",
+      "summary": "麦科奥特6月11日通过聆讯，6月24日以2335.HK在港交所主板上市；同一上市进程更新为完成。",
+      "publishedAt": "2026-06-11T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T17:20:00+08:00",
+      "deadlineAt": null,
+      "lastCheckedAt": "2026-07-12T11:00:00+08:00",
+      "eventStatus": "completed",
+      "noveltyStatus": "progress",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-maikeaote-hearing",
+        "src-maikeaote-listing"
+      ],
+      "evidenceIds": [
+        "evd-maikeaote"
+      ],
+      "business": "investment_banking",
+      "metrics": [
+        {
+          "label": "上市阶段",
+          "value": "已上市"
+        },
+        {
+          "label": "证券代码",
+          "value": "02335.HK"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-11",
+          "label": "通过港交所聆讯"
+        },
+        {
+          "at": "2026-06-24",
+          "label": "港交所主板挂牌上市，代码2335.HK"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260627-shaangu-ma",
+      "eventKey": "601369-qinfeng-36.06-20260627",
+      "channel": "ma",
+      "eventType": "equity_acquisition",
+      "primaryEntityId": "ent-shaangu",
+      "title": "陕鼓动力筹划收购秦风气体36.06%少数股权",
+      "summary": "公司拟发行股份收购控股子公司全部少数股权，交易构成关联交易。",
+      "publishedAt": "2026-06-27T00:00:00+08:00",
+      "discoveredAt": "2026-06-29T08:20:00+08:00",
+      "deadlineAt": null,
+      "lastCheckedAt": "2026-07-10T17:30:00+08:00",
+      "eventStatus": "progressing",
+      "noveltyStatus": "unchanged",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-shaangu-ma"
+      ],
+      "evidenceIds": [
+        "evd-shaangu"
+      ],
+      "business": "ma_advisory",
+      "metrics": [
+        {
+          "label": "拟收购股权",
+          "value": "36.06%"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-27",
+          "label": "停牌筹划"
+        },
+        {
+          "at": "2026-07-10",
+          "label": "未见作价或预案新增"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260707-rainbow-ma",
+      "eventKey": "600707-hongyang-33.4204-20260707",
+      "channel": "ma",
+      "eventType": "minority_acquisition",
+      "primaryEntityId": "ent-rainbow",
+      "title": "彩虹股份拟收购虹阳显示33.4204%少数股权",
+      "summary": "交易金额19.16亿元，完成后持股比例将升至95.8224%，下一节点为7月20日付款及交割。",
+      "publishedAt": "2026-07-07T00:00:00+08:00",
+      "discoveredAt": "2026-07-07T08:20:00+08:00",
+      "deadlineAt": "2026-07-20T23:59:00+08:00",
+      "lastCheckedAt": "2026-07-10T17:30:00+08:00",
+      "eventStatus": "action_window",
+      "noveltyStatus": "unchanged",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-rainbow-ma"
+      ],
+      "evidenceIds": [
+        "evd-rainbow"
+      ],
+      "business": "ma_advisory",
+      "metrics": [
+        {
+          "label": "交易金额",
+          "value": "19.16亿元"
+        },
+        {
+          "label": "收购股权",
+          "value": "33.4204%"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "收购公告"
+        },
+        {
+          "at": "2026-07-20",
+          "label": "付款及交割观察节点"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260121-jinzi-tender",
+      "eventKey": "SX-STB-2026-002",
+      "channel": "tender",
+      "eventType": "bond_underwriter_procurement",
+      "primaryEntityId": "ent-shaanxi-jinzi",
+      "title": "陕西金资基金科创债主承销商项目已完成招标",
+      "summary": "总注册规模不超过15亿元，项目已于3月2日进入中标结果阶段，不属于当前可投机会。",
+      "publishedAt": "2026-01-21T00:00:00+08:00",
+      "discoveredAt": "2026-05-12T10:00:00+08:00",
+      "deadlineAt": "2026-02-12T09:00:00+08:00",
+      "lastCheckedAt": "2026-07-10T17:30:00+08:00",
+      "eventStatus": "completed",
+      "noveltyStatus": "backfill",
+      "qualityStatus": "cross_checked",
+      "sourceRecordIds": [
+        "src-jinzi-tender"
+      ],
+      "evidenceIds": [
+        "evd-jinzi"
+      ],
+      "business": "bond_financing",
+      "metrics": [
+        {
+          "label": "注册规模上限",
+          "value": "15亿元"
+        },
+        {
+          "label": "投标截止",
+          "value": "2月12日 09:00"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-01-21",
+          "label": "招标公告"
+        },
+        {
+          "at": "2026-02-12",
+          "label": "投标截止"
+        },
+        {
+          "at": "2026-03-02",
+          "label": "中标结果"
+        },
+        {
+          "at": "2026-05-12",
+          "label": "回溯入库"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260709-water-vpp",
+      "eventKey": "shaanxi-water-vpp-lueyang-20260709",
+      "channel": "soe",
+      "eventType": "project_signing",
+      "primaryEntityId": "ent-shaanxi-water",
+      "title": "陕西水务发展签约略阳城市级虚拟电厂项目",
+      "summary": "清洁能源集团与略阳县政府签约城市级虚拟电厂项目，进入项目与产业服务观察。",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T17:20:00+08:00",
+      "deadlineAt": null,
+      "lastCheckedAt": "2026-07-10T17:20:00+08:00",
+      "eventStatus": "watch",
+      "noveltyStatus": "new",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-water-vpp"
+      ],
+      "evidenceIds": [
+        "evd-water"
+      ],
+      "business": "client_coverage",
+      "metrics": [
+        {
+          "label": "项目类型",
+          "value": "城市级虚拟电厂"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "政企签约"
+        },
+        {
+          "at": "2026-07-10",
+          "label": "国企雷达发现"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260710-bank-director",
+      "eventKey": "600928-director-1225417165",
+      "channel": "listed",
+      "eventType": "director_approval",
+      "primaryEntityId": "ent-xian-bank",
+      "title": "西安银行董事侯博任职资格获监管核准",
+      "summary": "陕西金融监管局核准侯博董事任职资格，属于公司治理层履职进展。",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T08:20:00+08:00",
+      "deadlineAt": null,
+      "lastCheckedAt": "2026-07-10T17:40:00+08:00",
+      "eventStatus": "progressing",
+      "noveltyStatus": "new",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-bank-director"
+      ],
+      "evidenceIds": [
+        "evd-bank-director"
+      ],
+      "business": "client_coverage",
+      "rmCategory": "治理关系",
+      "metrics": [
+        {
+          "label": "监管批复",
+          "value": "陕金监复〔2026〕121号"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-10",
+          "label": "公告披露"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260710-panlong-catalogue",
+      "eventKey": "002864-product-1225417625",
+      "channel": "listed",
+      "eventType": "product_catalogue",
+      "primaryEntityId": "ent-panlong",
+      "title": "盘龙药业两项产品进入国家基本药物目录",
+      "summary": "盘龙七片、通关藤片进入新版国家基本药物目录，后续观察临床使用与渠道放量。",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T08:20:00+08:00",
+      "deadlineAt": null,
+      "lastCheckedAt": "2026-07-10T17:40:00+08:00",
+      "eventStatus": "watch",
+      "noveltyStatus": "new",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-panlong-catalogue"
+      ],
+      "evidenceIds": [
+        "evd-panlong"
+      ],
+      "business": "research_service",
+      "rmCategory": "经营与产业",
+      "metrics": [
+        {
+          "label": "入选产品",
+          "value": "2项"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-10",
+          "label": "公告披露"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260709-kanghui-related-project",
+      "eventKey": "603139-related-1225414634",
+      "channel": "listed",
+      "eventType": "related_transaction",
+      "primaryEntityId": "ent-kanghui",
+      "title": "康惠股份子公司拟承接5,059.92万元关联项目",
+      "summary": "全资子公司中标亿广云数据中心改造项目，交易构成关联交易并待股东会审议。",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T08:20:00+08:00",
+      "deadlineAt": "2026-07-16T14:00:00+08:00",
+      "lastCheckedAt": "2026-07-10T17:40:00+08:00",
+      "eventStatus": "action_window",
+      "noveltyStatus": "new",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-kanghui-meeting"
+      ],
+      "evidenceIds": [
+        "evd-kanghui"
+      ],
+      "business": "client_coverage",
+      "rmCategory": "治理关系",
+      "metrics": [
+        {
+          "label": "项目金额",
+          "value": "5,059.92万元"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "公告披露"
+        },
+        {
+          "at": "2026-07-16",
+          "label": "下一公开节点"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260709-rainbow-forecast",
+      "eventKey": "600707-performance-1225414704",
+      "channel": "listed",
+      "eventType": "performance_forecast",
+      "primaryEntityId": "ent-rainbow",
+      "title": "彩虹股份预计上半年归母净利润同比下降75.66%-78.76%",
+      "summary": "预计归母净利润0.96亿元至1.10亿元，扣非归母净利润同比下降86.70%至90.15%。",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T08:20:00+08:00",
+      "deadlineAt": null,
+      "lastCheckedAt": "2026-07-10T17:40:00+08:00",
+      "eventStatus": "risk",
+      "noveltyStatus": "new",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-rainbow-forecast"
+      ],
+      "evidenceIds": [
+        "evd-rainbow-forecast"
+      ],
+      "business": "research_service",
+      "rmCategory": "业绩与分红",
+      "metrics": [
+        {
+          "label": "归母净利润",
+          "value": "0.96-1.10亿元"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "公告披露"
+        }
+      ]
+    },
+    {
+      "eventId": "evt-20260709-shaanxi-construction-dividend",
+      "eventKey": "600248-dividend-1225415542",
+      "channel": "listed",
+      "eventType": "dividend_implementation",
+      "primaryEntityId": "ent-shaanxi-construction",
+      "title": "陕建股份实施2025年度现金分红",
+      "summary": "每股派发现金红利0.02元，现金红利总额7,427.86万元，7月16日发放。",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "discoveredAt": "2026-07-10T08:20:00+08:00",
+      "deadlineAt": "2026-07-16T23:59:00+08:00",
+      "lastCheckedAt": "2026-07-10T17:40:00+08:00",
+      "eventStatus": "action_window",
+      "noveltyStatus": "new",
+      "qualityStatus": "verified",
+      "sourceRecordIds": [
+        "src-shaanxi-construction-dividend"
+      ],
+      "evidenceIds": [
+        "evd-shaanxi-construction"
+      ],
+      "business": "client_coverage",
+      "rmCategory": "业绩与分红",
+      "metrics": [
+        {
+          "label": "现金分红总额",
+          "value": "7,427.86万元"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "公告披露"
+        },
+        {
+          "at": "2026-07-16",
+          "label": "下一公开节点"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "signalId": "sig-energy",
+      "eventId": "evt-20260710-energy-reduction",
+      "headline": "陕西能源大股东减持窗口已排期",
+      "whyItMatters": "持股5%以上股东拟减持2%，需要跟踪实施节奏与客户沟通窗口。",
+      "primaryBusiness": "client_coverage",
+      "priority": "high",
+      "signalStatus": "action_window",
+      "actionable": true,
+      "reasoning": "官方预披露给出明确起止日期和减持上限。"
+    },
+    {
+      "signalId": "sig-bank",
+      "eventId": "evt-20260710-bank-litigation",
+      "headline": "西安银行7.3亿元执行事项进入新阶段",
+      "whyItMatters": "大额执行和不良贷款处置进展影响风险沟通。",
+      "primaryBusiness": "risk_service",
+      "priority": "high",
+      "signalStatus": "risk",
+      "actionable": false,
+      "reasoning": "本金金额较大且已进入执行受理。"
+    },
+    {
+      "signalId": "sig-meichang",
+      "eventId": "evt-20260709-meichang-forecast",
+      "headline": "美畅股份上半年盈利弹性显著",
+      "whyItMatters": "业绩高增与钨丝金刚线结构变化适合进入财务数据跟踪。",
+      "primaryBusiness": "research_service",
+      "priority": "high",
+      "signalStatus": "data_update",
+      "actionable": false,
+      "reasoning": "正式半年报仍是下一验证节点。"
+    },
+    {
+      "signalId": "sig-aikosai",
+      "eventId": "evt-20260709-aikosai-inquiry",
+      "headline": "爱科赛博问询回复仍有财务内控关注点",
+      "whyItMatters": "亏损、收入确认和长账龄应收账款需要持续风险跟踪。",
+      "primaryBusiness": "risk_service",
+      "priority": "high",
+      "signalStatus": "risk",
+      "actionable": false,
+      "reasoning": "问询回复与专项核查提供了可验证风险字段。"
+    },
+    {
+      "signalId": "sig-machinery",
+      "eventId": "evt-20260710-machinery-meeting",
+      "headline": "建设机械7月28日股东会形成治理节点",
+      "whyItMatters": "核销和薪酬议案有明确审议日期，可设置客户复核提醒。",
+      "primaryBusiness": "client_coverage",
+      "priority": "medium",
+      "signalStatus": "action_window",
+      "actionable": true,
+      "reasoning": "官方会议通知提供明确时间。"
+    },
+    {
+      "signalId": "sig-luge",
+      "eventId": "evt-20260708-luge-product",
+      "headline": "陕西禄格新增产品备案",
+      "whyItMatters": "管理人产品线新增，可纳入私募服务和托管关系跟踪。",
+      "primaryBusiness": "private_fund_service",
+      "priority": "medium",
+      "signalStatus": "data_update",
+      "actionable": false,
+      "reasoning": "AMAC公示显示基金编号和托管人。"
+    },
+    {
+      "signalId": "sig-jiatai",
+      "eventId": "evt-20260302-jiatai-cancel",
+      "headline": "西安嘉泰注销事项完成回溯入库",
+      "whyItMatters": "用于校准陕西证券私募退出台账，不作为今日新增。",
+      "primaryBusiness": "private_fund_service",
+      "priority": "low",
+      "signalStatus": "backfill",
+      "actionable": false,
+      "reasoning": "事项发生于3月2日，本次仅规范化补录。"
+    },
+    {
+      "signalId": "sig-social-fund",
+      "eventId": "evt-20260617-social-fund",
+      "headline": "陕西社保科创基金进入股权融资观察池",
+      "whyItMatters": "产业基金签约可联动拟上市企业、基金管理和项目储备。",
+      "primaryBusiness": "equity_financing",
+      "priority": "medium",
+      "signalStatus": "watch",
+      "actionable": true,
+      "reasoning": "集团官方披露确认签约。"
+    },
+    {
+      "signalId": "sig-maikeaote",
+      "eventId": "evt-20260611-maikeaote-hearing",
+      "headline": "麦科奥特已完成港股上市",
+      "whyItMatters": "上市节点已完成，后续转入陕西港股上市公司持续跟踪。",
+      "primaryBusiness": "investment_banking",
+      "priority": "high",
+      "signalStatus": "completed",
+      "actionable": false,
+      "reasoning": "香港交易所新上市证券记录确认6月24日挂牌。"
+    },
+    {
+      "signalId": "sig-shaangu",
+      "eventId": "evt-20260627-shaangu-ma",
+      "headline": "陕鼓动力并购仍待预案和交易作价",
+      "whyItMatters": "36.06%少数股权收购尚处方案形成阶段，财顾和融资结构值得跟踪。",
+      "primaryBusiness": "ma_advisory",
+      "priority": "high",
+      "signalStatus": "watch",
+      "actionable": true,
+      "reasoning": "截至7月10日未见作价、发行价格或预案新增。"
+    },
+    {
+      "signalId": "sig-rainbow",
+      "eventId": "evt-20260707-rainbow-ma",
+      "headline": "彩虹股份少数股权收购临近付款节点",
+      "whyItMatters": "19.16亿元交易将在7月20日进入付款与交割观察。",
+      "primaryBusiness": "ma_advisory",
+      "priority": "high",
+      "signalStatus": "action_window",
+      "actionable": true,
+      "reasoning": "公告给出交易金额和后续付款安排。"
+    },
+    {
+      "signalId": "sig-jinzi",
+      "eventId": "evt-20260121-jinzi-tender",
+      "headline": "陕西金资科创债招标仅作结果回溯",
+      "whyItMatters": "项目可用于年度承销商和费率分析，但投标窗口已经关闭。",
+      "primaryBusiness": "bond_financing",
+      "priority": "low",
+      "signalStatus": "result_progress",
+      "actionable": false,
+      "reasoning": "中标结果已于3月披露，不能标为当前机会。"
+    },
+    {
+      "signalId": "sig-water",
+      "eventId": "evt-20260709-water-vpp",
+      "headline": "陕西水务发展新增虚拟电厂项目线索",
+      "whyItMatters": "项目连接国企客户、清洁能源与基础设施融资观察。",
+      "primaryBusiness": "client_coverage",
+      "priority": "medium",
+      "signalStatus": "today_new",
+      "actionable": true,
+      "reasoning": "集团官网确认签约，但规模和融资安排尚未披露。"
+    },
+    {
+      "signalId": "sig-20260710-bank-director",
+      "eventId": "evt-20260710-bank-director",
+      "headline": "西安银行董事任职资格获批",
+      "whyItMatters": "治理层任职正式生效，适合纳入公司治理时间线。",
+      "primaryBusiness": "client_coverage",
+      "priority": "medium",
+      "signalStatus": "today_new",
+      "actionable": false,
+      "reasoning": "监管批复明确，事项已完成。"
+    },
+    {
+      "signalId": "sig-20260710-panlong-catalogue",
+      "eventId": "evt-20260710-panlong-catalogue",
+      "headline": "盘龙药业核心产品进入基药目录",
+      "whyItMatters": "目录准入可能改变医院端和基层渠道覆盖，需等待销售兑现。",
+      "primaryBusiness": "research_service",
+      "priority": "medium",
+      "signalStatus": "today_new",
+      "actionable": false,
+      "reasoning": "官方公告确认目录准入，但尚不能直接推导业绩贡献。"
+    },
+    {
+      "signalId": "sig-20260709-kanghui-related-project",
+      "eventId": "evt-20260709-kanghui-related-project",
+      "headline": "康惠股份关联项目等待股东会表决",
+      "whyItMatters": "项目金额明确但尚未完成审议，不应提前视为业绩兑现。",
+      "primaryBusiness": "client_coverage",
+      "priority": "high",
+      "signalStatus": "action_window",
+      "actionable": true,
+      "reasoning": "会议资料明确项目金额、关联关系和审议程序。"
+    },
+    {
+      "signalId": "sig-20260709-rainbow-forecast",
+      "eventId": "evt-20260709-rainbow-forecast",
+      "headline": "彩虹股份上半年盈利预计大幅回落",
+      "whyItMatters": "利润与扣非利润均显著下降，需等待半年报解释经营驱动。",
+      "primaryBusiness": "research_service",
+      "priority": "high",
+      "signalStatus": "risk",
+      "actionable": false,
+      "reasoning": "官方预告给出利润区间和同比降幅，尚未经审计。"
+    },
+    {
+      "signalId": "sig-20260709-shaanxi-construction-dividend",
+      "eventId": "evt-20260709-shaanxi-construction-dividend",
+      "headline": "陕建股份现金分红进入实施日程",
+      "whyItMatters": "股权登记和发放日期明确，适合跟踪到账与股东服务节点。",
+      "primaryBusiness": "client_coverage",
+      "priority": "medium",
+      "signalStatus": "action_window",
+      "actionable": true,
+      "reasoning": "权益分派实施公告给出完整日期和金额。"
+    }
+  ],
+  "leads": [
+    {
+      "leadId": "lead-energy",
+      "signalId": "sig-energy",
+      "targetEntityId": "ent-shaanxi-energy",
+      "businessType": "client_coverage",
+      "opportunityType": "股东服务与客户维护",
+      "rationale": "减持窗口和比例已明确。",
+      "nextAction": "7月31日前复核股东减持实施公告和机构沟通要点。",
+      "dueAt": "2026-07-31T09:00:00+08:00",
+      "leadStatus": "to_assess",
+      "confidence": "high"
+    },
+    {
+      "leadId": "lead-machinery",
+      "signalId": "sig-machinery",
+      "targetEntityId": "ent-construction-machinery",
+      "businessType": "client_coverage",
+      "opportunityType": "治理节点跟踪",
+      "rationale": "临时股东会审议核销和薪酬事项。",
+      "nextAction": "股东会前整理议案关键数字，7月28日后核验表决结果。",
+      "dueAt": "2026-07-28T14:00:00+08:00",
+      "leadStatus": "to_assess",
+      "confidence": "high"
+    },
+    {
+      "leadId": "lead-social-fund",
+      "signalId": "sig-social-fund",
+      "targetEntityId": "ent-changan-huitong",
+      "businessType": "equity_financing",
+      "opportunityType": "产业基金与项目储备",
+      "rationale": "科创基金签约可形成项目和管理服务联动。",
+      "nextAction": "回源基金规模、管理人、出资结构和首批项目。",
+      "dueAt": "2026-07-17T17:00:00+08:00",
+      "leadStatus": "to_assess",
+      "confidence": "medium"
+    },
+    {
+      "leadId": "lead-maikeaote",
+      "signalId": "sig-maikeaote",
+      "targetEntityId": "ent-maikeaote",
+      "businessType": "investment_banking",
+      "opportunityType": "港股上市后服务",
+      "rationale": "港股上市节点已经完成，原上市进度线索已转化。",
+      "nextAction": "转入上市公司持续服务，跟踪上市后公告、融资和股东事项。",
+      "dueAt": "2026-07-24T17:00:00+08:00",
+      "leadStatus": "converted",
+      "confidence": "high"
+    },
+    {
+      "leadId": "lead-shaangu",
+      "signalId": "sig-shaangu",
+      "targetEntityId": "ent-shaangu",
+      "businessType": "ma_advisory",
+      "opportunityType": "并购财务顾问",
+      "rationale": "交易尚待预案、作价和发行方案。",
+      "nextAction": "持续检查复牌、预案、交易对方和作价披露。",
+      "dueAt": "2026-07-17T17:00:00+08:00",
+      "leadStatus": "following",
+      "confidence": "high"
+    },
+    {
+      "leadId": "lead-rainbow",
+      "signalId": "sig-rainbow",
+      "targetEntityId": "ent-rainbow",
+      "businessType": "ma_advisory",
+      "opportunityType": "交易交割跟踪",
+      "rationale": "交易金额较大且付款节点明确。",
+      "nextAction": "7月20日核验付款、银行贷款提款和工商变更。",
+      "dueAt": "2026-07-20T17:00:00+08:00",
+      "leadStatus": "waiting",
+      "confidence": "high"
+    },
+    {
+      "leadId": "lead-water",
+      "signalId": "sig-water",
+      "targetEntityId": "ent-shaanxi-water",
+      "businessType": "client_coverage",
+      "opportunityType": "清洁能源项目融资观察",
+      "rationale": "城市级虚拟电厂项目已签约。",
+      "nextAction": "核验项目投资规模、实施主体和融资采购安排。",
+      "dueAt": "2026-07-17T17:00:00+08:00",
+      "leadStatus": "to_assess",
+      "confidence": "medium"
+    },
+    {
+      "leadId": "lead-20260709-kanghui-related-project",
+      "signalId": "sig-20260709-kanghui-related-project",
+      "targetEntityId": "ent-kanghui",
+      "businessType": "client_coverage",
+      "opportunityType": "客户维护",
+      "rationale": "项目金额明确但尚未完成审议，不应提前视为业绩兑现。",
+      "nextAction": "跟踪股东会表决结果及项目实施进度。",
+      "dueAt": "2026-07-16T14:00:00+08:00",
+      "leadStatus": "to_assess",
+      "confidence": "high"
+    },
+    {
+      "leadId": "lead-20260709-shaanxi-construction-dividend",
+      "signalId": "sig-20260709-shaanxi-construction-dividend",
+      "targetEntityId": "ent-shaanxi-construction",
+      "businessType": "client_coverage",
+      "opportunityType": "客户维护",
+      "rationale": "股权登记和发放日期明确，适合跟踪到账与股东服务节点。",
+      "nextAction": "核验权益登记、现金发放及到账安排。",
+      "dueAt": "2026-07-16T23:59:00+08:00",
+      "leadStatus": "to_assess",
+      "confidence": "high"
+    }
+  ],
+  "watchItems": [
+    {
+      "watchId": "watch-energy-reduction",
+      "eventId": "evt-20260710-energy-reduction",
+      "entityId": "ent-shaanxi-energy",
+      "watchStatus": "to_review",
+      "priority": "high",
+      "tags": [
+        "减持",
+        "股东服务"
+      ],
+      "business": "client_coverage",
+      "note": "关注长安汇通减持实施节奏及首次进展公告。",
+      "nextReviewAt": "2026-07-31T09:00:00+08:00",
+      "createdAt": "2026-07-10T08:35:00+08:00",
+      "updatedAt": "2026-07-10T17:45:00+08:00",
+      "stateHistory": [
+        {
+          "status": "saved",
+          "at": "2026-07-10T08:35:00+08:00"
+        },
+        {
+          "status": "to_review",
+          "at": "2026-07-10T17:45:00+08:00"
+        }
+      ]
+    },
+    {
+      "watchId": "watch-rainbow-closing",
+      "eventId": "evt-20260707-rainbow-ma",
+      "entityId": "ent-rainbow",
+      "watchStatus": "waiting",
+      "priority": "high",
+      "tags": [
+        "并购",
+        "交割"
+      ],
+      "business": "ma_advisory",
+      "note": "7月20日核验付款、贷款提款和工商变更。",
+      "nextReviewAt": "2026-07-20T17:00:00+08:00",
+      "createdAt": "2026-07-07T08:30:00+08:00",
+      "updatedAt": "2026-07-10T17:45:00+08:00",
+      "stateHistory": [
+        {
+          "status": "saved",
+          "at": "2026-07-07T08:30:00+08:00"
+        },
+        {
+          "status": "waiting",
+          "at": "2026-07-10T17:45:00+08:00"
+        }
+      ]
+    },
+    {
+      "watchId": "watch-shaangu-plan",
+      "eventId": "evt-20260627-shaangu-ma",
+      "entityId": "ent-shaangu",
+      "watchStatus": "following",
+      "priority": "high",
+      "tags": [
+        "并购",
+        "预案"
+      ],
+      "business": "ma_advisory",
+      "note": "等待复牌、交易作价、发行价格和交易对方名单。",
+      "nextReviewAt": "2026-07-17T17:00:00+08:00",
+      "createdAt": "2026-06-29T08:35:00+08:00",
+      "updatedAt": "2026-07-10T17:45:00+08:00",
+      "stateHistory": [
+        {
+          "status": "saved",
+          "at": "2026-06-29T08:35:00+08:00"
+        },
+        {
+          "status": "following",
+          "at": "2026-07-10T17:45:00+08:00"
+        }
+      ]
+    }
+  ],
+  "snapshots": [
+    {
+      "snapshotId": "2026-07-10-morning",
+      "date": "2026-07-10",
+      "slot": "morning",
+      "generatedAt": "2026-07-10T08:35:00+08:00",
+      "dataCutoffAt": "2026-07-10T08:20:00+08:00",
+      "previousSnapshotId": "2026-07-09-closing",
+      "newEventIds": [
+        "evt-20260710-energy-reduction",
+        "evt-20260710-bank-litigation",
+        "evt-20260709-meichang-forecast",
+        "evt-20260709-aikosai-inquiry",
+        "evt-20260710-machinery-meeting",
+        "evt-20260710-bank-director",
+        "evt-20260710-panlong-catalogue",
+        "evt-20260709-kanghui-related-project",
+        "evt-20260709-rainbow-forecast",
+        "evt-20260709-shaanxi-construction-dividend"
+      ],
+      "updatedEventIds": [],
+      "activeSignalIds": [
+        "sig-energy",
+        "sig-bank",
+        "sig-meichang",
+        "sig-aikosai",
+        "sig-machinery"
+      ],
+      "leadIds": [
+        "lead-energy",
+        "lead-machinery"
+      ],
+      "qualityResult": "PASS_WITH_REVIEW"
+    },
+    {
+      "snapshotId": "2026-07-10-closing",
+      "date": "2026-07-10",
+      "slot": "closing",
+      "generatedAt": "2026-07-10T17:45:00+08:00",
+      "dataCutoffAt": "2026-07-10T17:30:00+08:00",
+      "previousSnapshotId": "2026-07-10-morning",
+      "newEventIds": [
+        "evt-20260709-water-vpp",
+        "evt-20260710-machinery-meeting",
+        "evt-20260710-bank-litigation",
+        "evt-20260710-bank-director",
+        "evt-20260710-panlong-catalogue",
+        "evt-20260710-energy-reduction",
+        "evt-20260709-meichang-forecast",
+        "evt-20260709-aikosai-inquiry",
+        "evt-20260709-kanghui-related-project",
+        "evt-20260709-rainbow-forecast",
+        "evt-20260709-shaanxi-construction-dividend"
+      ],
+      "updatedEventIds": [
+        "evt-20260710-energy-reduction",
+        "evt-20260709-meichang-forecast",
+        "evt-20260627-shaangu-ma",
+        "evt-20260707-rainbow-ma"
+      ],
+      "activeSignalIds": [
+        "sig-water",
+        "sig-energy",
+        "sig-meichang",
+        "sig-shaangu",
+        "sig-rainbow"
+      ],
+      "leadIds": [
+        "lead-water",
+        "lead-energy",
+        "lead-shaangu",
+        "lead-rainbow"
+      ],
+      "qualityResult": "PASS_WITH_REVIEW"
+    }
+  ],
+  "listedDaily": {
+    "reportDate": "2026-07-10",
+    "windowStart": "2026-07-09",
+    "windowEnd": "2026-07-10",
+    "universeCount": 110,
+    "retrievedUniverseCount": 85,
+    "universeTierCounts": {
+      "L1": 85,
+      "L2": 14,
+      "L3": 11
+    },
+    "universeDataUrl": "../data/listed/universe.json",
+    "announcementCount": 15,
+    "coveredCompanyCount": 9,
+    "effectiveEventCount": 10,
+    "retrievalErrorCount": 0,
+    "queryMethod": "company_by_company_cninfo_stock_code_orgId",
+    "sourceStatus": "PASS",
+    "items": [
+      {
+        "dailyItemId": "daily-machinery",
+        "eventId": "evt-20260710-machinery-meeting",
+        "entityId": "ent-construction-machinery",
+        "sourceRecordIds": [
+          "src-machinery-pay",
+          "src-machinery-meeting",
+          "src-machinery-board"
+        ],
+        "rmCategory": "治理关系",
+        "rmSubcategory": "章程治理",
+        "businessPriority": "standard",
+        "targetObjects": [
+          "董秘办",
+          "证券事务代表",
+          "管理层"
+        ],
+        "importance": "normal",
+        "effective": true,
+        "inclusionReason": "同日董事会、股东会通知和薪酬公告归并为一个审议事项"
+      },
+      {
+        "dailyItemId": "daily-bank-litigation",
+        "eventId": "evt-20260710-bank-litigation",
+        "entityId": "ent-xian-bank",
+        "sourceRecordIds": [
+          "src-bank-litigation"
+        ],
+        "rmCategory": "风险沟通",
+        "rmSubcategory": "诉讼仲裁",
+        "businessPriority": "standard",
+        "targetObjects": [
+          "董秘",
+          "合规风控",
+          "控股股东",
+          "财务"
+        ],
+        "importance": "important",
+        "effective": true,
+        "inclusionReason": "诉讼进入执行阶段且金额重大"
+      },
+      {
+        "dailyItemId": "daily-bank-director",
+        "eventId": "evt-20260710-bank-director",
+        "entityId": "ent-xian-bank",
+        "sourceRecordIds": [
+          "src-bank-director"
+        ],
+        "rmCategory": "治理关系",
+        "rmSubcategory": "董监高",
+        "businessPriority": "focus",
+        "targetObjects": [
+          "董秘办",
+          "证券事务代表",
+          "管理层"
+        ],
+        "importance": "normal",
+        "effective": true,
+        "inclusionReason": "监管核准形成治理时间线节点"
+      },
+      {
+        "dailyItemId": "daily-panlong",
+        "eventId": "evt-20260710-panlong-catalogue",
+        "entityId": "ent-panlong",
+        "sourceRecordIds": [
+          "src-panlong-catalogue"
+        ],
+        "rmCategory": "经营与产业",
+        "rmSubcategory": "资质许可",
+        "businessPriority": "standard",
+        "targetObjects": [
+          "董秘",
+          "业务负责人",
+          "财务"
+        ],
+        "importance": "important",
+        "effective": true,
+        "inclusionReason": "核心产品目录准入可能影响渠道覆盖"
+      },
+      {
+        "dailyItemId": "daily-energy",
+        "eventId": "evt-20260710-energy-reduction",
+        "entityId": "ent-shaanxi-energy",
+        "sourceRecordIds": [
+          "src-energy-reduction"
+        ],
+        "rmCategory": "股东服务",
+        "rmSubcategory": "减持",
+        "businessPriority": "focus",
+        "targetObjects": [
+          "控股股东",
+          "5%以上股东",
+          "董秘办"
+        ],
+        "importance": "important",
+        "effective": true,
+        "inclusionReason": "5%以上股东减持且实施窗口明确"
+      },
+      {
+        "dailyItemId": "daily-meichang",
+        "eventId": "evt-20260709-meichang-forecast",
+        "entityId": "ent-meichang",
+        "sourceRecordIds": [
+          "src-meichang-forecast"
+        ],
+        "rmCategory": "业绩与分红",
+        "rmSubcategory": "业绩预告",
+        "businessPriority": "standard",
+        "targetObjects": [
+          "董秘",
+          "投资者关系",
+          "财务"
+        ],
+        "importance": "important",
+        "effective": true,
+        "inclusionReason": "半年度业绩预告出现显著增长"
+      },
+      {
+        "dailyItemId": "daily-aikosai",
+        "eventId": "evt-20260709-aikosai-inquiry",
+        "entityId": "ent-aikosai",
+        "sourceRecordIds": [
+          "src-aikosai-sponsor",
+          "src-aikosai-control",
+          "src-aikosai-inquiry",
+          "src-aikosai-accountant"
+        ],
+        "rmCategory": "风险沟通",
+        "rmSubcategory": "监管问询",
+        "businessPriority": "standard",
+        "targetObjects": [
+          "董秘",
+          "合规风控",
+          "控股股东",
+          "财务"
+        ],
+        "importance": "important",
+        "effective": true,
+        "inclusionReason": "四份相关公告共同完成年报问询与内控整改核验"
+      },
+      {
+        "dailyItemId": "daily-kanghui",
+        "eventId": "evt-20260709-kanghui-related-project",
+        "entityId": "ent-kanghui",
+        "sourceRecordIds": [
+          "src-kanghui-meeting"
+        ],
+        "rmCategory": "经营与产业",
+        "rmSubcategory": "重大合同",
+        "businessPriority": "standard",
+        "targetObjects": [
+          "董秘",
+          "业务负责人",
+          "财务"
+        ],
+        "importance": "important",
+        "effective": true,
+        "inclusionReason": "关联交易金额明确且尚待股东会审议"
+      },
+      {
+        "dailyItemId": "daily-rainbow",
+        "eventId": "evt-20260709-rainbow-forecast",
+        "entityId": "ent-rainbow",
+        "sourceRecordIds": [
+          "src-rainbow-forecast"
+        ],
+        "rmCategory": "业绩与分红",
+        "rmSubcategory": "业绩预告",
+        "businessPriority": "standard",
+        "targetObjects": [
+          "董秘",
+          "投资者关系",
+          "财务"
+        ],
+        "importance": "important",
+        "effective": true,
+        "inclusionReason": "半年度利润预计大幅下降"
+      },
+      {
+        "dailyItemId": "daily-shaanxi-construction",
+        "eventId": "evt-20260709-shaanxi-construction-dividend",
+        "entityId": "ent-shaanxi-construction",
+        "sourceRecordIds": [
+          "src-shaanxi-construction-dividend"
+        ],
+        "rmCategory": "业绩与分红",
+        "rmSubcategory": "分红",
+        "businessPriority": "standard",
+        "targetObjects": [
+          "董秘",
+          "投资者关系",
+          "财务"
+        ],
+        "importance": "normal",
+        "effective": true,
+        "inclusionReason": "现金分红进入实施阶段并有明确日期"
+      }
+    ]
+  },
+  "financialReports": [
+    {
+      "financialReportId": "fin-meichang-2026h1-forecast",
+      "eventId": "evt-20260709-meichang-forecast",
+      "entityId": "ent-meichang",
+      "period": "2026H1",
+      "disclosureType": "performance_forecast",
+      "currency": "CNY",
+      "sourceRecordIds": [
+        "src-meichang-forecast"
+      ],
+      "revenue": null,
+      "revenueYoY": null,
+      "netProfitLower": 295000000,
+      "netProfitUpper": 315000000,
+      "netProfitYoYLower": 248.45,
+      "netProfitYoYUpper": 272.08,
+      "adjustedNetProfitLower": 265000000,
+      "adjustedNetProfitUpper": 285000000,
+      "adjustedNetProfitYoYLower": 346.83,
+      "adjustedNetProfitYoYUpper": 380.55,
+      "operatingCashFlow": null,
+      "grossMargin": null,
+      "netMargin": null,
+      "dividendPerShare": null,
+      "dividendTotal": null,
+      "businessMix": [
+        "钨丝金刚线出货占比同比提升超过40%"
+      ],
+      "anomalies": [
+        "盈利高增长，需等待正式半年报验证现金流和毛利率"
+      ],
+      "auditStatus": "unaudited"
+    },
+    {
+      "financialReportId": "fin-rainbow-2026h1-forecast",
+      "eventId": "evt-20260709-rainbow-forecast",
+      "entityId": "ent-rainbow",
+      "period": "2026H1",
+      "disclosureType": "performance_forecast",
+      "currency": "CNY",
+      "sourceRecordIds": [
+        "src-rainbow-forecast"
+      ],
+      "revenue": null,
+      "revenueYoY": null,
+      "netProfitLower": 96000000,
+      "netProfitUpper": 110000000,
+      "netProfitYoYLower": -78.76,
+      "netProfitYoYUpper": -75.66,
+      "adjustedNetProfitLower": 40000000,
+      "adjustedNetProfitUpper": 54000000,
+      "adjustedNetProfitYoYLower": -90.15,
+      "adjustedNetProfitYoYUpper": -86.7,
+      "operatingCashFlow": null,
+      "grossMargin": null,
+      "netMargin": null,
+      "dividendPerShare": null,
+      "dividendTotal": null,
+      "businessMix": [],
+      "anomalies": [
+        "归母净利润和扣非净利润均大幅下降"
+      ],
+      "auditStatus": "unaudited"
+    },
+    {
+      "financialReportId": "fin-aikosai-2025a-inquiry",
+      "eventId": "evt-20260709-aikosai-inquiry",
+      "entityId": "ent-aikosai",
+      "period": "2025A",
+      "disclosureType": "annual_report_inquiry",
+      "currency": "CNY",
+      "sourceRecordIds": [
+        "src-aikosai-inquiry",
+        "src-aikosai-accountant",
+        "src-aikosai-sponsor",
+        "src-aikosai-control"
+      ],
+      "revenue": 902820200,
+      "revenueYoY": -3.48,
+      "netProfitLower": -44937100,
+      "netProfitUpper": -44937100,
+      "netProfitYoYLower": -166.06,
+      "netProfitYoYUpper": -166.06,
+      "adjustedNetProfitLower": null,
+      "adjustedNetProfitUpper": null,
+      "adjustedNetProfitYoYLower": null,
+      "adjustedNetProfitYoYUpper": null,
+      "operatingCashFlow": null,
+      "grossMargin": null,
+      "netMargin": null,
+      "dividendPerShare": null,
+      "dividendTotal": null,
+      "businessMix": [],
+      "anomalies": [
+        "亏损",
+        "收入确认与经销模式被问询",
+        "长账龄应收账款与财务内控需持续观察"
+      ],
+      "auditStatus": "inquiry_followup"
+    },
+    {
+      "financialReportId": "fin-shaanxi-construction-2025-dividend",
+      "eventId": "evt-20260709-shaanxi-construction-dividend",
+      "entityId": "ent-shaanxi-construction",
+      "period": "2025A",
+      "disclosureType": "dividend_implementation",
+      "currency": "CNY",
+      "sourceRecordIds": [
+        "src-shaanxi-construction-dividend"
+      ],
+      "revenue": null,
+      "revenueYoY": null,
+      "netProfitLower": null,
+      "netProfitUpper": null,
+      "netProfitYoYLower": null,
+      "netProfitYoYUpper": null,
+      "adjustedNetProfitLower": null,
+      "adjustedNetProfitUpper": null,
+      "adjustedNetProfitYoYLower": null,
+      "adjustedNetProfitYoYUpper": null,
+      "operatingCashFlow": null,
+      "grossMargin": null,
+      "netMargin": null,
+      "dividendPerShare": 0.02,
+      "dividendTotal": 74278585.72,
+      "businessMix": [],
+      "anomalies": [],
+      "auditStatus": "implemented"
+    }
+  ],
+  "tenderMonitor": {
+    "asOf": "2026-07-10T17:30:00+08:00",
+    "mode": "prototype",
+    "scanIntervalMinutes": 60,
+    "schedulerEnabled": true,
+    "schedulerStatus": "running",
+    "sourceRegistryFile": "config/tender-sources.json",
+    "activeOpportunityEventIds": [],
+    "projects": [
+      {
+        "tenderProjectId": "tender-project-jinzi-tech-bond-2026",
+        "eventId": "evt-20260121-jinzi-tender",
+        "projectCode": "SX-STB-2026-002",
+        "procurementEntityId": "ent-shaanxi-jinzi",
+        "serviceType": "bond_underwriting",
+        "stage": "award",
+        "eligibilityStatus": "eligible",
+        "sourceQuality": "authoritative",
+        "fitRationale": "采购内容为科创债主承销商选聘，证券公司具备直接参与适配性。",
+        "qualificationRequirements": [
+          "证券公司或具备债券承销能力的金融机构",
+          "以官方招标文件为准"
+        ],
+        "publishedAt": "2026-01-21T00:00:00+08:00",
+        "discoveredAt": "2026-05-12T10:00:00+08:00",
+        "deadlineAt": "2026-02-12T09:00:00+08:00",
+        "openingAt": "2026-02-12T09:00:00+08:00",
+        "remainingHoursAtDiscovery": -2137,
+        "firstDiscoveryStage": "award",
+        "alertStatus": "miss_review",
+        "missReview": true,
+        "missReason": "V1首次入库时已到中标结果阶段，未在公告期建立提醒。"
+      }
+    ],
+    "findings": [
+      {
+        "findingId": "finding-jinzi-corporate-bond-result-20260707",
+        "title": "陕西金资2026年公司债主承销商和联席主承销商项目结果线索",
+        "purchaser": "陕西金融资产管理股份有限公司",
+        "stage": "award",
+        "eligibilityStatus": "eligible",
+        "sourceQuality": "discovery_only",
+        "discoveredAt": "2026-07-07T08:20:00+08:00",
+        "publishedAt": "2026-07-02T00:00:00+08:00",
+        "deadlineAt": null,
+        "classification": "history",
+        "alertStatus": "miss_review",
+        "decision": "结果阶段首次发现，进入回源与漏检复盘，不进入新机会。",
+        "nextAction": "获取官方公告正文、项目编号、完整中标人、费率和服务期限。"
+      },
+      {
+        "findingId": "finding-icbc-it-excluded-20260709",
+        "title": "工商银行陕西省分行职业伤害保障信息系统建设开发服务",
+        "purchaser": "中国工商银行陕西省分行",
+        "stage": "announcement",
+        "eligibilityStatus": "excluded",
+        "sourceQuality": "authoritative",
+        "discoveredAt": "2026-07-09T08:20:00+08:00",
+        "publishedAt": "2026-07-09T00:00:00+08:00",
+        "deadlineAt": "2026-07-28T09:00:00+08:00",
+        "classification": "excluded",
+        "alertStatus": "none",
+        "decision": "信息系统开发服务，不符合证券公司资本市场服务适配口径。",
+        "nextAction": "保留排除审计，不进入机会区。"
+      }
+    ],
+    "scanRuns": [
+      {
+        "tenderScanRunId": "tender-scan-import-20260710-morning",
+        "runMode": "v1_manual_import",
+        "startedAt": "2026-07-10T08:00:00+08:00",
+        "finishedAt": "2026-07-10T08:20:00+08:00",
+        "sourceScope": [
+          "陕西招投标平台方向",
+          "重点主体",
+          "公开网页补漏"
+        ],
+        "candidateCount": 1,
+        "activeOpportunityCount": 0,
+        "resultFindingCount": 1,
+        "excludedCount": 0,
+        "status": "PASS_WITH_REVIEW",
+        "note": "未取得新的官方正文增量；沿用项目库，但没有把历史结果包装成新机会。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4340 @@
+{
+  "schemaVersion": "0.1",
+  "snapshotId": "private-fund-2026-07-24",
+  "asOf": "2026-07-24T23:59:59+08:00",
+  "sourceReportDate": "2026-07-24",
+  "previousSnapshotDate": "2026-07-23",
+  "scope": "PF1为注册地或办公地在陕西省的证券私募；PF2为经官方材料逐家确认的陕西强关联证券私募。两层均按重要观察对象监测，统计时分列。",
+  "summary": {
+    "managerCount": 83,
+    "observationManagerCount": 83,
+    "territorialManagerCount": 82,
+    "relatedManagerCount": 1,
+    "ytdProductCount": 30,
+    "newProductCount": 0,
+    "topManagerCount": 20,
+    "personnelCoveredCount": 20,
+    "detailErrorCount": 0,
+    "locationObservationCount": 26,
+    "personnelComparisonStatus": "compared"
+  },
+  "rankingMethod": {
+    "formula": "min(存量产品数,40)*2 + 年内备案数*10 + 备案新鲜度(30天内12/90天内6)",
+    "purpose": "用于公开信息活跃度排序，不代表管理规模、投资能力或业绩排名。"
+  },
+  "universeRules": {
+    "schemaVersion": "0.1",
+    "asOf": "2026-07-22",
+    "tiers": {
+      "PF1": {
+        "name": "陕西属地证券私募",
+        "rule": "AMAC当前公示的注册地或办公地在陕西省",
+        "dailyPriority": "important"
+      },
+      "PF2": {
+        "name": "陕西强关联证券私募",
+        "rule": "注册地和办公地均不在陕西，但经官方材料确认在陕西设有实质办公分部、历史主体或持续经营平台；逐家人工准入",
+        "dailyPriority": "important"
+      }
+    },
+    "automaticExclusions": [
+      "仅董事长、法定代表人或总经理曾在西安学习或任职",
+      "仅存在陕西籍、校友、一般项目合作或产品名称相似",
+      "仅依靠搜索摘要且没有AMAC、公司或集团官方材料复核"
+    ],
+    "relatedTargets": [
+      {
+        "managerId": "101000026206",
+        "managerName": "深圳抱朴容易私募证券基金管理有限公司",
+        "registerNo": "P1020607",
+        "universeTier": "PF2",
+        "relationType": "current_xian_branch_and_shaanxi_group",
+        "relationStrength": "material",
+        "dailyPriority": "important",
+        "inclusionReason": "陕西泰发祥集团官网确认其为集团旗下资产配置平台，总部位于深圳，并在西安、上海设有分部。",
+        "currentRegisterProvince": "广东省",
+        "currentOfficeProvince": "广东省",
+        "managerDetailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000026206.html",
+        "evidence": [
+          {
+            "sourceName": "陕西泰发祥集团官网",
+            "url": "https://www.tfxgroup.cn/news/12/",
+            "fact": "总部位于深圳，并在西安、上海建立分部"
+          },
+          {
+            "sourceName": "中国证券投资基金业协会",
+            "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000026206.html",
+            "fact": "当前登记名称、登记编号及注册办公地址"
+          }
+        ]
+      }
+    ]
+  },
+  "managerUniverse": [
+    {
+      "managerId": "2303081121100381",
+      "managerName": "北京霆云山私募基金管理有限公司",
+      "registerNo": "P1074620",
+      "registerProvince": "北京市",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2303081121100381.html"
+    },
+    {
+      "managerId": "2302071706100055",
+      "managerName": "西安迈睿恒力私募基金管理有限公司",
+      "registerNo": "P1074554",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2302071706100055.html"
+    },
+    {
+      "managerId": "2104261451107240",
+      "managerName": "海南名策私募基金管理有限公司",
+      "registerNo": "P1072899",
+      "registerProvince": "海南省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2104261451107240.html"
+    },
+    {
+      "managerId": "2107201836101899",
+      "managerName": "陕西鑫旅私募基金管理有限公司",
+      "registerNo": "P1072863",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2107201836101899.html"
+    },
+    {
+      "managerId": "2110081708117945",
+      "managerName": "西安招融博瑞私募基金管理有限公司",
+      "registerNo": "P1072794",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2110081708117945.html"
+    },
+    {
+      "managerId": "2108171432114024",
+      "managerName": "孤岩量子私募基金管理(西安)有限公司",
+      "registerNo": "P1072755",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2108171432114024.html"
+    },
+    {
+      "managerId": "2107141320103302",
+      "managerName": "共青城瀛岳私募基金管理有限公司",
+      "registerNo": "P1072644",
+      "registerProvince": "江西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2107141320103302.html"
+    },
+    {
+      "managerId": "2012291919106869",
+      "managerName": "国富联合（青岛）私募基金管理有限公司",
+      "registerNo": "P1072582",
+      "registerProvince": "山东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2012291919106869.html"
+    },
+    {
+      "managerId": "2105211711106800",
+      "managerName": "佳睿（晋江）私募基金管理有限公司",
+      "registerNo": "P1072551",
+      "registerProvince": "福建省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2105211711106800.html"
+    },
+    {
+      "managerId": "2105141101101292",
+      "managerName": "陕西碣石私募基金管理有限公司",
+      "registerNo": "P1072485",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2105141101101292.html"
+    },
+    {
+      "managerId": "2012101805104621",
+      "managerName": "陕西禄格私募基金管理有限公司",
+      "registerNo": "P1072306",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2012101805104621.html"
+    },
+    {
+      "managerId": "2103262010107683",
+      "managerName": "青岛华源锦成私募基金管理有限公司",
+      "registerNo": "P1072146",
+      "registerProvince": "山东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2103262010107683.html"
+    },
+    {
+      "managerId": "2009181331107731",
+      "managerName": "西安天勤汇理私募基金管理有限公司",
+      "registerNo": "P1071793",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2009181331107731.html"
+    },
+    {
+      "managerId": "2006291629103361",
+      "managerName": "陕西卓信永诚私募基金管理有限公司",
+      "registerNo": "P1071732",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2006291629103361.html"
+    },
+    {
+      "managerId": "2003171100101302",
+      "managerName": "天榕（青岛）基金管理有限公司",
+      "registerNo": "P1071521",
+      "registerProvince": "山东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2003171100101302.html"
+    },
+    {
+      "managerId": "1912031802107663",
+      "managerName": "西安悦枫资产管理有限公司",
+      "registerNo": "P1071509",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1912031802107663.html"
+    },
+    {
+      "managerId": "2007071048106707",
+      "managerName": "陕西佑仓资产管理有限公司",
+      "registerNo": "P1071381",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2007071048106707.html"
+    },
+    {
+      "managerId": "2008111918106744",
+      "managerName": "陕西九和岛基金管理有限公司",
+      "registerNo": "P1071318",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2008111918106744.html"
+    },
+    {
+      "managerId": "1905221720103058",
+      "managerName": "西安铂石基金管理有限公司",
+      "registerNo": "P1071114",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1905221720103058.html"
+    },
+    {
+      "managerId": "2003092254101539",
+      "managerName": "陕西安泽众赢投资有限公司",
+      "registerNo": "P1070963",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2003092254101539.html"
+    },
+    {
+      "managerId": "1806131406100721",
+      "managerName": "陕西瑞友晨盛资产管理有限公司",
+      "registerNo": "P1070785",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1806131406100721.html"
+    },
+    {
+      "managerId": "1912121441104548",
+      "managerName": "西安曲江祥汇私募基金管理有限公司",
+      "registerNo": "P1070763",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1912121441104548.html"
+    },
+    {
+      "managerId": "1812271707108231",
+      "managerName": "西安豹亚基金管理合伙企业（有限合伙）",
+      "registerNo": "P1070648",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1812271707108231.html"
+    },
+    {
+      "managerId": "1903221844101307",
+      "managerName": "西安古城吴氏私募基金管理有限公司",
+      "registerNo": "P1070561",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1903221844101307.html"
+    },
+    {
+      "managerId": "1811231117101176",
+      "managerName": "西安景弘基金管理有限公司",
+      "registerNo": "P1070133",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1811231117101176.html"
+    },
+    {
+      "managerId": "1903261107103383",
+      "managerName": "五牛（海南）私募基金管理合伙企业（有限合伙）",
+      "registerNo": "P1069852",
+      "registerProvince": "海南省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1903261107103383.html"
+    },
+    {
+      "managerId": "1804231017107072",
+      "managerName": "陕西沣上投资管理合伙企业（有限合伙）",
+      "registerNo": "P1069753",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1804231017107072.html"
+    },
+    {
+      "managerId": "1809181551101419",
+      "managerName": "西咸新区旷特投资管理有限公司",
+      "registerNo": "P1069468",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1809181551101419.html"
+    },
+    {
+      "managerId": "1806051725102032",
+      "managerName": "西安好奇投资管理有限公司",
+      "registerNo": "P1069423",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1806051725102032.html"
+    },
+    {
+      "managerId": "1807241211108100",
+      "managerName": "陕西大安基金管理有限公司",
+      "registerNo": "P1069167",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1807241211108100.html"
+    },
+    {
+      "managerId": "1708151102103892",
+      "managerName": "西安关天私募证券投资基金有限公司",
+      "registerNo": "P1068719",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1708151102103892.html"
+    },
+    {
+      "managerId": "1709221136104106",
+      "managerName": "西安恒捷汇理资产管理有限公司",
+      "registerNo": "P1068400",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1709221136104106.html"
+    },
+    {
+      "managerId": "1710131530109018",
+      "managerName": "西安智本私募基金管理有限公司",
+      "registerNo": "P1067745",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1710131530109018.html"
+    },
+    {
+      "managerId": "1711241752102480",
+      "managerName": "西安榴花私募基金管理有限公司",
+      "registerNo": "P1067746",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1711241752102480.html"
+    },
+    {
+      "managerId": "1709111805102816",
+      "managerName": "西安博成基金管理有限公司",
+      "registerNo": "P1067542",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1709111805102816.html"
+    },
+    {
+      "managerId": "1711101618109089",
+      "managerName": "西安瀑布资产管理有限公司",
+      "registerNo": "P1067590",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1711101618109089.html"
+    },
+    {
+      "managerId": "1708292135105512",
+      "managerName": "西安晟泽资产管理有限公司",
+      "registerNo": "P1067411",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1708292135105512.html"
+    },
+    {
+      "managerId": "1610250945101223",
+      "managerName": "陕西济仁投资管理有限公司",
+      "registerNo": "P1066746",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1610250945101223.html"
+    },
+    {
+      "managerId": "1704131628105857",
+      "managerName": "西安蒙特卡罗基金管理有限公司",
+      "registerNo": "P1066586",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1704131628105857.html"
+    },
+    {
+      "managerId": "1708101546105022",
+      "managerName": "西安波普私募基金管理有限公司",
+      "registerNo": "P1065520",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1708101546105022.html"
+    },
+    {
+      "managerId": "1707261443105960",
+      "managerName": "西安蒲公英基金管理有限公司",
+      "registerNo": "P1065652",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1707261443105960.html"
+    },
+    {
+      "managerId": "1704241118107277",
+      "managerName": "西安达人私募基金管理有限公司",
+      "registerNo": "P1065146",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1704241118107277.html"
+    },
+    {
+      "managerId": "1705261123107174",
+      "managerName": "西安宽格宏略基金管理有限公司",
+      "registerNo": "P1064611",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1705261123107174.html"
+    },
+    {
+      "managerId": "1706082037101131",
+      "managerName": "陕西顺义成投资管理有限公司",
+      "registerNo": "P1064558",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1706082037101131.html"
+    },
+    {
+      "managerId": "1703241729101117",
+      "managerName": "西安江岳私募基金管理有限公司",
+      "registerNo": "P1064313",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703241729101117.html"
+    },
+    {
+      "managerId": "1704181432105117",
+      "managerName": "西安合鑫投资管理有限公司",
+      "registerNo": "P1063141",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1704181432105117.html"
+    },
+    {
+      "managerId": "1703131611108607",
+      "managerName": "西安沣相投资管理有限公司",
+      "registerNo": "P1062559",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703131611108607.html"
+    },
+    {
+      "managerId": "1610270841106387",
+      "managerName": "西安景曜投资管理有限公司",
+      "registerNo": "P1062077",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1610270841106387.html"
+    },
+    {
+      "managerId": "1609090904100604",
+      "managerName": "陕西方德磐石私募基金管理有限公司",
+      "registerNo": "P1061088",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1609090904100604.html"
+    },
+    {
+      "managerId": "1609271347111122",
+      "managerName": "西安地坤投资管理有限公司",
+      "registerNo": "P1060835",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1609271347111122.html"
+    },
+    {
+      "managerId": "1609220851102223",
+      "managerName": "陕西趋势投资管理有限公司",
+      "registerNo": "P1060669",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1609220851102223.html"
+    },
+    {
+      "managerId": "1609091201100265",
+      "managerName": "海南天辉私募基金管理有限公司",
+      "registerNo": "P1060527",
+      "registerProvince": "海南省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1609091201100265.html"
+    },
+    {
+      "managerId": "101000051182",
+      "managerName": "西安玖润投资管理有限公司",
+      "registerNo": "P1033308",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000051182.html"
+    },
+    {
+      "managerId": "101000050603",
+      "managerName": "陕西云从投资管理有限公司",
+      "registerNo": "P1032427",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000050603.html"
+    },
+    {
+      "managerId": "101000047461",
+      "managerName": "深圳永宁资产管理有限公司",
+      "registerNo": "P1030942",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000047461.html"
+    },
+    {
+      "managerId": "101000044913",
+      "managerName": "博汇康宁（深圳）投资基金管理有限公司",
+      "registerNo": "P1030701",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000044913.html"
+    },
+    {
+      "managerId": "101000040949",
+      "managerName": "深圳景润投资管理有限公司",
+      "registerNo": "P1028836",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000040949.html"
+    },
+    {
+      "managerId": "101000038619",
+      "managerName": "深圳前海长征私募证券基金管理有限公司",
+      "registerNo": "P1028873",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000038619.html"
+    },
+    {
+      "managerId": "101000041857",
+      "managerName": "深圳鑫泰禾私募证券投资基金管理有限公司",
+      "registerNo": "P1028974",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000041857.html"
+    },
+    {
+      "managerId": "101000034419",
+      "managerName": "深圳融智天成国际资本管理股份有限公司",
+      "registerNo": "P1024278",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000034419.html"
+    },
+    {
+      "managerId": "101000034660",
+      "managerName": "深圳开济资产管理有限公司",
+      "registerNo": "P1024334",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000034660.html"
+    },
+    {
+      "managerId": "101000026383",
+      "managerName": "上海屹成投资管理中心(有限合伙)",
+      "registerNo": "P1024465",
+      "registerProvince": "上海市",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000026383.html"
+    },
+    {
+      "managerId": "101000032866",
+      "managerName": "深圳格尚资产管理有限公司",
+      "registerNo": "P1022811",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000032866.html"
+    },
+    {
+      "managerId": "101000031013",
+      "managerName": "深圳乾元资始私募证券基金管理有限公司",
+      "registerNo": "P1020814",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000031013.html"
+    },
+    {
+      "managerId": "101000029070",
+      "managerName": "深圳德丰嘉禾私募证券基金管理有限公司",
+      "registerNo": "P1020249",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000029070.html"
+    },
+    {
+      "managerId": "101000024937",
+      "managerName": "陕西路路金基金管理有限公司",
+      "registerNo": "P1019175",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000024937.html"
+    },
+    {
+      "managerId": "101000024132",
+      "managerName": "上海忠石私募基金管理有限公司",
+      "registerNo": "P1018089",
+      "registerProvince": "上海市",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000024132.html"
+    },
+    {
+      "managerId": "101000026975",
+      "managerName": "深圳基成资本管理有限公司",
+      "registerNo": "P1018506",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000026975.html"
+    },
+    {
+      "managerId": "101000025441",
+      "managerName": "深圳汇长安资产管理有限公司",
+      "registerNo": "P1016676",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000025441.html"
+    },
+    {
+      "managerId": "101000019713",
+      "managerName": "深圳国盛祥隆私募证券基金管理有限公司",
+      "registerNo": "P1013255",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000019713.html"
+    },
+    {
+      "managerId": "101000015685",
+      "managerName": "陕西德盈私募基金管理有限公司",
+      "registerNo": "P1009868",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000015685.html"
+    },
+    {
+      "managerId": "101000012244",
+      "managerName": "陕西铁马投资管理有限公司",
+      "registerNo": "P1007845",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000012244.html"
+    },
+    {
+      "managerId": "101000005990",
+      "managerName": "陕西金沣资产管理有限公司",
+      "registerNo": "P1007846",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000005990.html"
+    },
+    {
+      "managerId": "101000006845",
+      "managerName": "陕西先锋投资有限公司",
+      "registerNo": "P1007930",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000006845.html"
+    },
+    {
+      "managerId": "101000014030",
+      "managerName": "西安蓝鲸私募基金管理有限公司",
+      "registerNo": "P1008048",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000014030.html"
+    },
+    {
+      "managerId": "101000014468",
+      "managerName": "陕西君研私募基金管理有限公司",
+      "registerNo": "P1008049",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000014468.html"
+    },
+    {
+      "managerId": "101000007176",
+      "managerName": "陕西景唐投资管理有限公司",
+      "registerNo": "P1005988",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007176.html"
+    },
+    {
+      "managerId": "101000007655",
+      "managerName": "深圳市滨利投资管理有限公司",
+      "registerNo": "P1006086",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007655.html"
+    },
+    {
+      "managerId": "101000004262",
+      "managerName": "海南利和私募基金管理有限公司",
+      "registerNo": "P1006149",
+      "registerProvince": "海南省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000004262.html"
+    },
+    {
+      "managerId": "101000010288",
+      "managerName": "西安兆峻资产管理有限公司",
+      "registerNo": "P1005640",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000010288.html"
+    },
+    {
+      "managerId": "101000000726",
+      "managerName": "陕西亿星私募基金管理有限公司",
+      "registerNo": "P1002931",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000000726.html"
+    },
+    {
+      "managerId": "101000003440",
+      "managerName": "陕西博盛隆投资有限公司",
+      "registerNo": "P1001411",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": [],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000003440.html"
+    },
+    {
+      "managerId": "101000026206",
+      "managerName": "深圳抱朴容易私募证券基金管理有限公司",
+      "registerNo": "P1020607",
+      "registerProvince": "广东省",
+      "officeProvince": "广东省",
+      "universeTier": "PF2",
+      "relationType": "current_xian_branch_and_shaanxi_group",
+      "relationStrength": "material",
+      "monitoringPriority": "important",
+      "inclusionReason": "陕西泰发祥集团官网确认其为集团旗下资产配置平台，总部位于深圳，并在西安、上海设有分部。",
+      "relationEvidence": [
+        {
+          "sourceName": "陕西泰发祥集团官网",
+          "url": "https://www.tfxgroup.cn/news/12/",
+          "fact": "总部位于深圳，并在西安、上海建立分部"
+        },
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000026206.html",
+          "fact": "当前登记名称、登记编号及注册办公地址"
+        }
+      ],
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000026206.html"
+    }
+  ],
+  "topManagers": [
+    {
+      "managerId": "2008111918106744",
+      "managerName": "陕西九和岛基金管理有限公司",
+      "registerNo": "P1071318",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区曲江新区曲江池南路万众国际B座903-2室",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2008111918106744.html",
+      "scaleRange": "5-10亿元",
+      "employeeCount": 34,
+      "qualifiedCount": 26,
+      "actualController": "王震海",
+      "executives": [
+        {
+          "name": "王震海",
+          "role": "法定代表人 总经理 信息填报负责人 基金经理",
+          "qualification": ""
+        },
+        {
+          "name": "刘瑞",
+          "role": "副总经理 合规风控负责人",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2020.08 -",
+          "company": "陕西九和岛基金管理有限公司",
+          "department": "陕西九和岛基金管理有限公司总经办",
+          "role": "法定代表人,总经理,信息填报负责人,基金经理"
+        },
+        {
+          "time": "2020.08 - 2020.08",
+          "company": "陕西九和岛基金管理有限公司",
+          "department": "陕西九和岛基金管理有限公司总经办",
+          "role": "法定代表人,总经理,信息填报负责人,其他"
+        },
+        {
+          "time": "2020.01 - 2020.08",
+          "company": "陕西九和岛基金管理有限公司",
+          "department": "总经办",
+          "role": "法定代表人兼总经理兼基金经理"
+        },
+        {
+          "time": "2018.04 - 2020.01",
+          "company": "广东狐尾松资产管理有限公司",
+          "department": "投资部",
+          "role": "投资经理"
+        },
+        {
+          "time": "2011.02 - 2018.04",
+          "company": "西安柠檬酒店管理有限公司",
+          "department": "总经办",
+          "role": "执行董事总经理"
+        },
+        {
+          "time": "2010.04 - 2011.02",
+          "company": "府谷县西部创研软件开发有限责任公司",
+          "department": "总经办",
+          "role": "执行董事总经理"
+        },
+        {
+          "time": "2008.08 - 2010.03",
+          "company": "广发证券西安南广济街证券营业部",
+          "department": "营业部",
+          "role": "实习生"
+        },
+        {
+          "time": "2023.07 -",
+          "company": "陕西九和岛基金管理有限公司",
+          "department": "陕西九和岛基金管理有限公司风控部",
+          "role": "副总经理,合规风控负责人"
+        },
+        {
+          "time": "2020.07 - 2023.07",
+          "company": "陕西九和岛基金管理有限公司",
+          "department": "陕西九和岛基金管理有限公司风控部",
+          "role": "风控专员"
+        },
+        {
+          "time": "2017.12 - 2020.06",
+          "company": "陕西省汉中市南郑区汉山街道办事处",
+          "department": "农村经济服务站",
+          "role": "干事"
+        },
+        {
+          "time": "2007.07 - 2017.11",
+          "company": "中国人民解放军32142部队",
+          "department": "司令部",
+          "role": "教员"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "陕西九和岛投资合伙企业（有限合伙）",
+          "ratio": "60%"
+        },
+        {
+          "name": "王震海",
+          "ratio": "35%"
+        },
+        {
+          "name": "刘瑞",
+          "ratio": "5%"
+        }
+      ],
+      "teamSummary": "实控人：王震海；高管：王震海（法定代表人 总经理 信息填报负责人 基金经理）、刘瑞（副总经理 合规风控负责人）；人员：全职34人，基金从业26人；管理规模区间：5-10亿元；履历线索：陕西九和岛基金管理有限公司、广东狐尾松资产管理有限公司、广发证券西安南广济街证券营业部；主要出资人：陕西九和岛投资合伙企业（有限合伙） 60%、王震海 35%、刘瑞 5%",
+      "rank": 1,
+      "activityScore": 130,
+      "scoreEvidence": {
+        "totalProductCount": 29,
+        "ytdNewProductCount": 6,
+        "latestFilingDate": "2026-07-02",
+        "components": {
+          "stockProducts": 58,
+          "ytdFilings": 60,
+          "recency": 12
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "1704131628105857",
+      "managerName": "西安蒙特卡罗基金管理有限公司",
+      "registerNo": "P1066586",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市碑林区兴庆路101号兰蒂斯城18号楼",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1704131628105857.html",
+      "scaleRange": "10-20亿元",
+      "employeeCount": 18,
+      "qualifiedCount": 17,
+      "actualController": "元向辉",
+      "executives": [
+        {
+          "name": "迟东东",
+          "role": "法定代表人 执行董事",
+          "qualification": ""
+        },
+        {
+          "name": "阎娟娟",
+          "role": "合规风控负责人 信息填报负责人",
+          "qualification": ""
+        },
+        {
+          "name": "元向煌",
+          "role": "副总经理",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2017.05 -",
+          "company": "西安蒙特卡罗基金管理有限公司",
+          "department": "西安蒙特卡罗基金管理有限公司投研部",
+          "role": "法定代表人,执行董事"
+        },
+        {
+          "time": "2017.05 - 2017.06",
+          "company": "西安蒙特卡罗基金管理有限公司",
+          "department": "办公室",
+          "role": "总经理兼执行董事、法人代表"
+        },
+        {
+          "time": "2014.06 - 2017.04",
+          "company": "伟华盛通国际资本管理（深圳）有限公司",
+          "department": "基金部",
+          "role": "投资经理"
+        },
+        {
+          "time": "2011.07 - 2014.06",
+          "company": "上海华腾软件系统有限公司",
+          "department": "金融事业部",
+          "role": "高级软件工程师"
+        },
+        {
+          "time": "2017.05 -",
+          "company": "西安蒙特卡罗基金管理有限公司",
+          "department": "西安蒙特卡罗基金管理有限公司投研部",
+          "role": "合规风控负责人,信息填报负责人"
+        },
+        {
+          "time": "2017.05 - 2017.06",
+          "company": "西安蒙特卡罗基金管理有限公司",
+          "department": "风控部",
+          "role": "风控总监"
+        },
+        {
+          "time": "2015.11 - 2017.04",
+          "company": "深圳市长征基金管理有限公司",
+          "department": "风控部",
+          "role": "风控专员"
+        },
+        {
+          "time": "2014.03 - 2015.10",
+          "company": "深圳市豪世资本管理有限公司",
+          "department": "风控部",
+          "role": "风控专员"
+        },
+        {
+          "time": "2011.07 - 2014.02",
+          "company": "西安交通大学",
+          "department": "财务处",
+          "role": "会计"
+        },
+        {
+          "time": "2006.07 - 2011.07",
+          "company": "西安欧亚学院",
+          "department": "会计学院",
+          "role": "教师"
+        },
+        {
+          "time": "2002.07 - 2003.08",
+          "company": "陕西阳光医药有限公司",
+          "department": "财务部",
+          "role": "会计"
+        },
+        {
+          "time": "2019.09 -",
+          "company": "西安蒙特卡罗基金管理有限公司",
+          "department": "西安蒙特卡罗基金管理有限公司总经办",
+          "role": "副总经理"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "迟东东",
+          "ratio": "7%"
+        },
+        {
+          "name": "元向煌",
+          "ratio": "21%"
+        },
+        {
+          "name": "元向辉",
+          "ratio": "42%"
+        }
+      ],
+      "teamSummary": "实控人：元向辉；高管：迟东东（法定代表人 执行董事）、阎娟娟（合规风控负责人 信息填报负责人）、元向煌（副总经理）；人员：全职18人，基金从业17人；管理规模区间：10-20亿元；履历线索：西安蒙特卡罗基金管理有限公司、深圳市长征基金管理有限公司；主要出资人：迟东东 7%、元向煌 21%、元向辉 42%",
+      "rank": 2,
+      "activityScore": 96,
+      "scoreEvidence": {
+        "totalProductCount": 30,
+        "ytdNewProductCount": 3,
+        "latestFilingDate": "2026-06-08",
+        "components": {
+          "stockProducts": 60,
+          "ytdFilings": 30,
+          "recency": 6
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "101000031013",
+      "managerName": "深圳乾元资始私募证券基金管理有限公司",
+      "registerNo": "P1020814",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区锦业一路56号研祥城市广场A座1002室",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000031013.html",
+      "scaleRange": "5-10亿元",
+      "employeeCount": 25,
+      "qualifiedCount": 25,
+      "actualController": "李宝",
+      "executives": [
+        {
+          "name": "李正",
+          "role": "副董事长",
+          "qualification": ""
+        },
+        {
+          "name": "李宝",
+          "role": "法定代表人 总经理",
+          "qualification": ""
+        },
+        {
+          "name": "王志文",
+          "role": "合规风控负责人 信息填报负责人",
+          "qualification": ""
+        },
+        {
+          "name": "侯洋",
+          "role": "董事长",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2015.07 -",
+          "company": "深圳乾元资始私募证券基金管理有限公司",
+          "department": "深圳乾元资始私募证券基金管理有限公司董事会",
+          "role": "副董事长"
+        },
+        {
+          "time": "2013.07 - 2015.06",
+          "company": "上海浮石投资管理有限公司",
+          "department": "交易部",
+          "role": "交易员"
+        },
+        {
+          "time": "2012.07 - 2013.06",
+          "company": "西安天勤投资管理有限公司",
+          "department": "交易部",
+          "role": "交易员"
+        },
+        {
+          "time": "2015.07 -",
+          "company": "深圳乾元资始私募证券基金管理有限公司",
+          "department": "深圳乾元资始私募证券基金管理有限公司董事会",
+          "role": "法定代表人,总经理"
+        },
+        {
+          "time": "2012.07 - 2015.07",
+          "company": "中国民生银行",
+          "department": "投行部",
+          "role": "投资顾问"
+        },
+        {
+          "time": "2016.10 -",
+          "company": "深圳乾元资始私募证券基金管理有限公司",
+          "department": "深圳乾元资始私募证券基金管理有限公司合规风控部",
+          "role": "合规风控负责人,信息填报负责人"
+        },
+        {
+          "time": "2015.07 - 2016.09",
+          "company": "华泰证券股份有限公司",
+          "department": "机构业务部",
+          "role": "客户经理"
+        },
+        {
+          "time": "2018.06 -",
+          "company": "深圳乾元资始私募证券基金管理有限公司",
+          "department": "深圳乾元资始私募证券基金管理有限公司董事会",
+          "role": "董事长"
+        },
+        {
+          "time": "2016.08 - 2018.05",
+          "company": "西安长庚置业有限公司",
+          "department": "总经办",
+          "role": "总经理"
+        },
+        {
+          "time": "2015.01 - 2016.07",
+          "company": "西安长基机械设备制造有限公司",
+          "department": "投资事业部",
+          "role": "总经理"
+        },
+        {
+          "time": "2013.07 - 2014.12",
+          "company": "自由职业",
+          "department": "无",
+          "role": "无"
+        },
+        {
+          "time": "2011.09 - 2013.06",
+          "company": "西安长基实业有限公司",
+          "department": "销售市场部",
+          "role": "市场总监"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "李正",
+          "ratio": "25%"
+        },
+        {
+          "name": "李宝",
+          "ratio": "25%"
+        },
+        {
+          "name": "侯洋",
+          "ratio": "50%"
+        }
+      ],
+      "teamSummary": "实控人：李宝；高管：李正（副董事长）、李宝（法定代表人 总经理）、王志文（合规风控负责人 信息填报负责人）、侯洋（董事长）；人员：全职25人，基金从业25人；管理规模区间：5-10亿元；履历线索：深圳乾元资始私募证券基金管理有限公司、上海浮石投资管理有限公司、西安天勤投资管理有限公司、中国民生银行；主要出资人：李正 25%、李宝 25%、侯洋 50%",
+      "rank": 3,
+      "activityScore": 76,
+      "scoreEvidence": {
+        "totalProductCount": 30,
+        "ytdNewProductCount": 1,
+        "latestFilingDate": "2026-05-08",
+        "components": {
+          "stockProducts": 60,
+          "ytdFilings": 10,
+          "recency": 6
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "101000026206",
+      "managerName": "深圳抱朴容易私募证券基金管理有限公司",
+      "registerNo": "P1020607",
+      "registerProvince": "广东省",
+      "officeProvince": "广东省",
+      "officeCity": "深圳市",
+      "officeAddress": "广东省深圳市宝安区新安街道海滨社区N23区熙龙湾商务国际大厦23A02A",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000026206.html",
+      "scaleRange": "20-50亿元",
+      "employeeCount": 20,
+      "qualifiedCount": 18,
+      "actualController": "赵欣",
+      "executives": [
+        {
+          "name": "赵欣",
+          "role": "法定代表人 执行董事",
+          "qualification": ""
+        },
+        {
+          "name": "肖笛",
+          "role": "总经理",
+          "qualification": ""
+        },
+        {
+          "name": "贺博越",
+          "role": "合规风控负责人 信息填报负责人",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2016.07 -",
+          "company": "深圳抱朴容易私募证券基金管理有限公司",
+          "department": "深圳抱朴容易资产管理有限公司（老系统迁移数据）",
+          "role": "法定代表人,执行董事"
+        },
+        {
+          "time": "2016.07 - 2017.12",
+          "company": "深圳抱朴容易资产管理有限公司",
+          "department": "投研部",
+          "role": "法人兼执行董事"
+        },
+        {
+          "time": "2015.11 - 2016.07",
+          "company": "深圳磐合家族办公室",
+          "department": "专案管理部",
+          "role": "投资顾问"
+        },
+        {
+          "time": "2015.06 - 2015.10",
+          "company": "北京嘉富诚股权投资基金管理有限公司",
+          "department": "家族基金事业部",
+          "role": "产品经理"
+        },
+        {
+          "time": "2014.05 - 2014.08",
+          "company": "陕西泰发祥实业集团有限公司",
+          "department": "销售部",
+          "role": "市场总监助理"
+        },
+        {
+          "time": "2013.06 - 2013.08",
+          "company": "中国建设银行股份有限公司",
+          "department": "信贷部",
+          "role": "客户经理"
+        },
+        {
+          "time": "2012.05 - 2012.08",
+          "company": "陕西泰发祥实业集团有限公司",
+          "department": "财务部",
+          "role": "会计"
+        },
+        {
+          "time": "2011.05 - 2011.08",
+          "company": "陕西泰发祥实业集团有限公司",
+          "department": "人力资源部",
+          "role": "人力专员"
+        },
+        {
+          "time": "2025.04 -",
+          "company": "深圳抱朴容易私募证券基金管理有限公司",
+          "department": "深圳抱朴容易私募证券基金管理有限公司投资研究部",
+          "role": "总经理"
+        },
+        {
+          "time": "2020.01 - 2025.04",
+          "company": "深圳抱朴容易私募证券基金管理有限公司",
+          "department": "深圳抱朴容易私募证券基金管理有限公司投资研究部",
+          "role": "基金经理"
+        },
+        {
+          "time": "2017.05 - 2019.12",
+          "company": "深圳抱朴容易私募证券基金管理有限公司",
+          "department": "交易部",
+          "role": "交易总监"
+        },
+        {
+          "time": "2015.07 - 2017.05",
+          "company": "北京盈创投资管理有限公司",
+          "department": "投行业务部",
+          "role": "产品经理"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "赵欣",
+          "ratio": "52%"
+        },
+        {
+          "name": "陕西泰发祥投资管理有限公司",
+          "ratio": "48%"
+        }
+      ],
+      "teamSummary": "实控人：赵欣；高管：赵欣（法定代表人 执行董事）、肖笛（总经理）、贺博越（合规风控负责人 信息填报负责人）；人员：全职20人，基金从业18人；管理规模区间：20-50亿元；履历线索：深圳抱朴容易私募证券基金管理有限公司、深圳抱朴容易资产管理有限公司、北京嘉富诚股权投资基金管理有限公司、中国建设银行股份有限公司；主要出资人：赵欣 52%、陕西泰发祥投资管理有限公司 48%",
+      "rank": 4,
+      "activityScore": 72,
+      "scoreEvidence": {
+        "totalProductCount": 31,
+        "ytdNewProductCount": 1,
+        "latestFilingDate": "2026-04-23",
+        "components": {
+          "stockProducts": 62,
+          "ytdFilings": 10,
+          "recency": 0
+        }
+      },
+      "universeTier": "PF2",
+      "relationType": "current_xian_branch_and_shaanxi_group",
+      "relationStrength": "material",
+      "monitoringPriority": "important",
+      "inclusionReason": "陕西泰发祥集团官网确认其为集团旗下资产配置平台，总部位于深圳，并在西安、上海设有分部。",
+      "relationEvidence": [
+        {
+          "sourceName": "陕西泰发祥集团官网",
+          "url": "https://www.tfxgroup.cn/news/12/",
+          "fact": "总部位于深圳，并在西安、上海建立分部"
+        },
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000026206.html",
+          "fact": "当前登记名称、登记编号及注册办公地址"
+        }
+      ]
+    },
+    {
+      "managerId": "1709111805102816",
+      "managerName": "西安博成基金管理有限公司",
+      "registerNo": "P1067542",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区曲江新区曲江池东路万众国际B座1702",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1709111805102816.html",
+      "scaleRange": "10-20亿元",
+      "employeeCount": 50,
+      "qualifiedCount": 47,
+      "actualController": "吴竹林",
+      "executives": [
+        {
+          "name": "吴竹林",
+          "role": "法定代表人 总经理",
+          "qualification": ""
+        },
+        {
+          "name": "迟珍珍",
+          "role": "合规风控负责人 信息填报负责人",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2017.09 -",
+          "company": "西安博成基金管理有限公司",
+          "department": "西安博成基金管理有限公司（老系统迁移数据）",
+          "role": "法定代表人,总经理"
+        },
+        {
+          "time": "2017.09 - 2017.11",
+          "company": "西安博成基金管理有限公司",
+          "department": "高管",
+          "role": "法定代表人兼总经理"
+        },
+        {
+          "time": "2016.08 - 2017.07",
+          "company": "五矿证券有限公司",
+          "department": "西安科技路营业部",
+          "role": "总经理"
+        },
+        {
+          "time": "2014.06 - 2016.06",
+          "company": "长城证券股份有限公司",
+          "department": "西安丰镐东路营业部",
+          "role": "营销总监/投行经理"
+        },
+        {
+          "time": "2012.05 - 2014.05",
+          "company": "铜陵金广建筑安装工程有限责任公司",
+          "department": "项目部",
+          "role": "项目总监"
+        },
+        {
+          "time": "2011.11 - 2012.04",
+          "company": "中国银河证券股份有限公司",
+          "department": "芜湖利民西路营业部",
+          "role": "营销总监"
+        },
+        {
+          "time": "2010.02 - 2011.10",
+          "company": "华安证券股份有限公司",
+          "department": "南京中华路证券营业部",
+          "role": "营销部经理"
+        },
+        {
+          "time": "2006.07 - 2010.01",
+          "company": "国信证券股份有限公司",
+          "department": "南京洪武路营业部",
+          "role": "团队主管"
+        },
+        {
+          "time": "2017.09 -",
+          "company": "西安博成基金管理有限公司",
+          "department": "西安博成基金管理有限公司（老系统迁移数据）",
+          "role": "合规风控负责人,信息填报负责人"
+        },
+        {
+          "time": "2017.09 - 2017.11",
+          "company": "西安博成基金管理有限公司",
+          "department": "合规风控部",
+          "role": "合规风控负责人"
+        },
+        {
+          "time": "2016.09 - 2017.06",
+          "company": "五矿证券有限公司",
+          "department": "西安科技路证券营业部",
+          "role": "总经理助理兼合规专员"
+        },
+        {
+          "time": "2015.10 - 2016.08",
+          "company": "长城证券股份有限公司",
+          "department": "西安锦业路证券营业部",
+          "role": "创新业务经理助理"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "西安德志投资管理有限公司",
+          "ratio": "6%"
+        },
+        {
+          "name": "吴竹林",
+          "ratio": "45%"
+        },
+        {
+          "name": "杨淑华",
+          "ratio": "3%"
+        }
+      ],
+      "teamSummary": "实控人：吴竹林；高管：吴竹林（法定代表人 总经理）、迟珍珍（合规风控负责人 信息填报负责人）；人员：全职50人，基金从业47人；管理规模区间：10-20亿元；履历线索：西安博成基金管理有限公司、五矿证券有限公司、长城证券股份有限公司、中国银河证券股份有限公司；主要出资人：西安德志投资管理有限公司 6%、吴竹林 45%、杨淑华 3%",
+      "rank": 5,
+      "activityScore": 64,
+      "scoreEvidence": {
+        "totalProductCount": 24,
+        "ytdNewProductCount": 1,
+        "latestFilingDate": "2026-06-17",
+        "components": {
+          "stockProducts": 48,
+          "ytdFilings": 10,
+          "recency": 6
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "1811231117101176",
+      "managerName": "西安景弘基金管理有限公司",
+      "registerNo": "P1070133",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区高新区锦业路1号都市之门B座9楼901室",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1811231117101176.html",
+      "scaleRange": "0-5亿元",
+      "employeeCount": 6,
+      "qualifiedCount": 6,
+      "actualController": "韩瑞杰",
+      "executives": [
+        {
+          "name": "屈科成",
+          "role": "合规风控负责人 信息填报负责人",
+          "qualification": ""
+        },
+        {
+          "name": "王峰",
+          "role": "法定代表人 总经理",
+          "qualification": ""
+        },
+        {
+          "name": "韩瑞杰",
+          "role": "董事长",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2017.03 -",
+          "company": "西安景弘基金管理有限公司",
+          "department": "西安景弘基金管理有限公司投资部",
+          "role": "合规风控负责人,信息填报负责人"
+        },
+        {
+          "time": "2017.03 - 2017.05",
+          "company": "西安阿而法证券投资管理企业（有限合伙）",
+          "department": "合规风控部",
+          "role": "风控总监"
+        },
+        {
+          "time": "2015.01 - 2017.01",
+          "company": "陕西普宇集团有限公司",
+          "department": "投资合规部",
+          "role": "总监助理"
+        },
+        {
+          "time": "2013.03 - 2014.12",
+          "company": "开源证券股份有限公司",
+          "department": "综合运营部",
+          "role": "合规岗"
+        },
+        {
+          "time": "2012.01 - 2013.02",
+          "company": "申银万国证券股份有限公司",
+          "department": "综合运营部",
+          "role": "合规岗"
+        },
+        {
+          "time": "2018.07 - 2019.08",
+          "company": "西安景弘基金管理有限公司",
+          "department": "总经办",
+          "role": "总经理、法人代表"
+        },
+        {
+          "time": "2017.03 -",
+          "company": "西安景弘基金管理有限公司",
+          "department": "西安景弘基金管理有限公司投资部",
+          "role": "法定代表人,总经理"
+        },
+        {
+          "time": "2017.03 - 2018.05",
+          "company": "西安阿而法证券投资管理合伙企业",
+          "department": "投资研究部",
+          "role": "投资总监"
+        },
+        {
+          "time": "2014.08 - 2017.02",
+          "company": "陕西普宇集团有限公司",
+          "department": "投资部",
+          "role": "投资总监"
+        },
+        {
+          "time": "2011.07 - 2014.06",
+          "company": "申银万国证券股份有限公司",
+          "department": "投资咨询部",
+          "role": "投资顾问"
+        },
+        {
+          "time": "2019.07 - 2019.07",
+          "company": "西安景弘基金管理有限公司",
+          "department": "董事会",
+          "role": "董事长"
+        },
+        {
+          "time": "2018.11 -",
+          "company": "西安景弘基金管理有限公司",
+          "department": "西安景弘基金管理有限公司投资部",
+          "role": "董事长"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "韩瑞杰",
+          "ratio": "95%"
+        },
+        {
+          "name": "高梦瑶",
+          "ratio": "5%"
+        }
+      ],
+      "teamSummary": "实控人：韩瑞杰；高管：屈科成（合规风控负责人 信息填报负责人）、王峰（法定代表人 总经理）、韩瑞杰（董事长）；人员：全职6人，基金从业6人；管理规模区间：0-5亿元；履历线索：西安景弘基金管理有限公司、西安阿而法证券投资管理企业（有限合伙）、开源证券股份有限公司、申银万国证券股份有限公司；主要出资人：韩瑞杰 95%、高梦瑶 5%",
+      "rank": 6,
+      "activityScore": 60,
+      "scoreEvidence": {
+        "totalProductCount": 17,
+        "ytdNewProductCount": 2,
+        "latestFilingDate": "2026-06-02",
+        "components": {
+          "stockProducts": 34,
+          "ytdFilings": 20,
+          "recency": 6
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "101000007655",
+      "managerName": "深圳市滨利投资管理有限公司",
+      "registerNo": "P1006086",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区曲江环球中心907室",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007655.html",
+      "scaleRange": "0-5亿元",
+      "employeeCount": 12,
+      "qualifiedCount": 12,
+      "actualController": "梁滨",
+      "executives": [
+        {
+          "name": "梁滨",
+          "role": "法定代表人 总经理 执行董事 信息填报负责人",
+          "qualification": ""
+        },
+        {
+          "name": "江曼",
+          "role": "合规风控负责人",
+          "qualification": ""
+        },
+        {
+          "name": "赵彤彤",
+          "role": "副总经理",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2014.07 - 2018.04",
+          "company": "深圳市滨利投资管理有限公司",
+          "department": "交易部",
+          "role": "总经理"
+        },
+        {
+          "time": "2014.07 -",
+          "company": "深圳市滨利投资管理有限公司",
+          "department": "深圳市滨利投资管理有限公司投资部",
+          "role": "法定代表人,总经理,执行董事,信息填报负责人"
+        },
+        {
+          "time": "2011.07 - 2014.07",
+          "company": "上海宝银创赢投资管理有限公司",
+          "department": "运营部",
+          "role": "投资运营总监"
+        },
+        {
+          "time": "2009.03 - 2014.07",
+          "company": "海通证券股份有限公司山东泰安营业部",
+          "department": "市场部",
+          "role": "证券经纪人"
+        },
+        {
+          "time": "2006.10 - 2009.01",
+          "company": "银泰证券股份有限公司青岛宁夏路营业部",
+          "department": "市场部",
+          "role": "证券经纪人"
+        },
+        {
+          "time": "2004.03 - 2006.09",
+          "company": "山东神光投资咨询有限公司",
+          "department": "投研部",
+          "role": "经理"
+        },
+        {
+          "time": "2023.06 -",
+          "company": "深圳市滨利投资管理有限公司",
+          "department": "深圳市滨利投资管理有限公司风控部",
+          "role": "合规风控负责人"
+        },
+        {
+          "time": "2022.01 - 2023.06",
+          "company": "深圳市滨利投资管理有限公司",
+          "department": "产品部",
+          "role": "产品部负责人"
+        },
+        {
+          "time": "2021.07 - 2021.12",
+          "company": "西安南茗谷商贸有限公司",
+          "department": "财务部",
+          "role": "财务总监"
+        },
+        {
+          "time": "2011.07 - 2021.06",
+          "company": "金元期货股份有限公司西安营业部",
+          "department": "风控财务综合部门",
+          "role": "风控财务负责人"
+        },
+        {
+          "time": "2024.10 -",
+          "company": "深圳市滨利投资管理有限公司",
+          "department": "深圳市滨利投资管理有限公司财务部",
+          "role": "副总经理"
+        },
+        {
+          "time": "2016.07 - 2024.10",
+          "company": "深圳市滨利投资管理有限公司",
+          "department": "深圳市滨利投资管理有限公司财务部",
+          "role": "会计"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "关天荣",
+          "ratio": "28.18%"
+        },
+        {
+          "name": "梁滨",
+          "ratio": "53.64%"
+        },
+        {
+          "name": "王平钢",
+          "ratio": "9.09%"
+        }
+      ],
+      "teamSummary": "实控人：梁滨；高管：梁滨（法定代表人 总经理 执行董事 信息填报负责人）、江曼（合规风控负责人）、赵彤彤（副总经理）；人员：全职12人，基金从业12人；管理规模区间：0-5亿元；履历线索：深圳市滨利投资管理有限公司、上海宝银创赢投资管理有限公司、海通证券股份有限公司山东泰安营业部、银泰证券股份有限公司青岛宁夏路营业部；主要出资人：关天荣 28.18%、梁滨 53.64%、王平钢 9.09%",
+      "rank": 7,
+      "activityScore": 52,
+      "scoreEvidence": {
+        "totalProductCount": 10,
+        "ytdNewProductCount": 2,
+        "latestFilingDate": "2026-07-13",
+        "components": {
+          "stockProducts": 20,
+          "ytdFilings": 20,
+          "recency": 12
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "1703241729101117",
+      "managerName": "西安江岳私募基金管理有限公司",
+      "registerNo": "P1064313",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区唐延路1号旺座国际城A座2002#（房产证地址：西安市高新区唐延路1号1幢1单元11802室）",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1703241729101117.html",
+      "scaleRange": "10-20亿元",
+      "employeeCount": 23,
+      "qualifiedCount": 22,
+      "actualController": "王天孝",
+      "executives": [
+        {
+          "name": "王刚",
+          "role": "法定代表人 总经理",
+          "qualification": ""
+        },
+        {
+          "name": "王国林",
+          "role": "董事长",
+          "qualification": ""
+        },
+        {
+          "name": "张蕊",
+          "role": "合规风控负责人 信息填报负责人",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2017.03 -",
+          "company": "西安江岳私募基金管理有限公司",
+          "department": "西安江岳基金管理有限公司（老系统迁移）",
+          "role": "法定代表人,总经理"
+        },
+        {
+          "time": "2015.04 - 2017.03",
+          "company": "陕西江岳财务咨询管理有限公司",
+          "department": "董事会",
+          "role": "执行董事兼总经理"
+        },
+        {
+          "time": "2010.08 - 2015.03",
+          "company": "陕西广泽投资管理集团有限公司",
+          "department": "投资部",
+          "role": "投资经理"
+        },
+        {
+          "time": "2009.01 - 2010.08",
+          "company": "陕西省渭南市卤阳湖开发区管委会",
+          "department": "财务部",
+          "role": "财务主管"
+        },
+        {
+          "time": "2008.03 - 2009.01",
+          "company": "中国银河证券股份有限公司（石家庄营业部）",
+          "department": "营业部",
+          "role": "投资分析师"
+        },
+        {
+          "time": "2007.07 - 2008.02",
+          "company": "国信证券股份有限公司（沈阳分公司）",
+          "department": "营业部",
+          "role": "投资分析助理"
+        },
+        {
+          "time": "2017.03 -",
+          "company": "西安江岳私募基金管理有限公司",
+          "department": "西安江岳基金管理有限公司（老系统迁移）",
+          "role": "董事长"
+        },
+        {
+          "time": "2017.03 -",
+          "company": "西安交通大学",
+          "department": "经济与金融学院金融系",
+          "role": "教授、教研室主任"
+        },
+        {
+          "time": "2000.02 - 2017.03",
+          "company": "西安交通大学",
+          "department": "经济与金融学院金融系",
+          "role": "副教授、教授"
+        },
+        {
+          "time": "1987.07 - 2000.01",
+          "company": "西安交通大学",
+          "department": "管理学院",
+          "role": "研究生办、MBA中心主任"
+        },
+        {
+          "time": "1983.07 - 1985.08",
+          "company": "西安交通大学",
+          "department": "电信学院",
+          "role": "团工委书记"
+        },
+        {
+          "time": "2023.05 -",
+          "company": "西安江岳私募基金管理有限公司",
+          "department": "西安江岳基金管理有限公司风控部",
+          "role": "合规风控负责人,信息填报负责人"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "西安牛角工贸有限公司",
+          "ratio": "10%"
+        },
+        {
+          "name": "王国林",
+          "ratio": "10%"
+        },
+        {
+          "name": "王刚",
+          "ratio": "10%"
+        }
+      ],
+      "teamSummary": "实控人：王天孝；高管：王刚（法定代表人 总经理）、王国林（董事长）、张蕊（合规风控负责人 信息填报负责人）；人员：全职23人，基金从业22人；管理规模区间：10-20亿元；履历线索：西安江岳私募基金管理有限公司、陕西广泽投资管理集团有限公司、中国银河证券股份有限公司（石家庄营业部）、国信证券股份有限公司（沈阳分公司）；主要出资人：西安牛角工贸有限公司 10%、王国林 10%、王刚 10%",
+      "rank": 8,
+      "activityScore": 50,
+      "scoreEvidence": {
+        "totalProductCount": 25,
+        "ytdNewProductCount": 0,
+        "latestFilingDate": null,
+        "components": {
+          "stockProducts": 50,
+          "ytdFilings": 0,
+          "recency": 0
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "1609091201100265",
+      "managerName": "海南天辉私募基金管理有限公司",
+      "registerNo": "P1060527",
+      "registerProvince": "海南省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市碑林区围墙巷23号望城商业2层",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1609091201100265.html",
+      "scaleRange": "0-5亿元",
+      "employeeCount": 9,
+      "qualifiedCount": 8,
+      "actualController": "刘皙；刘清",
+      "executives": [
+        {
+          "name": "刘皙",
+          "role": "法定代表人 执行董事",
+          "qualification": ""
+        },
+        {
+          "name": "韦轲",
+          "role": "合规风控负责人 信息填报负责人",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2017.12 - 2018.03",
+          "company": "马里奥（海南）投资管理有限公司",
+          "department": "管理层",
+          "role": "法定代表人/执行总监"
+        },
+        {
+          "time": "2017.11 -",
+          "company": "海南天辉私募基金管理有限公司",
+          "department": "海南天辉私募基金管理有限公司投资研究部",
+          "role": "法定代表人,执行董事"
+        },
+        {
+          "time": "2015.11 - 2017.12",
+          "company": "马里奥（海南）投资管理有限公司",
+          "department": "市场部",
+          "role": "市场总监"
+        },
+        {
+          "time": "2014.05 - 2015.11",
+          "company": "惠润（海南）股权投资基金管理有限公司",
+          "department": "管理层",
+          "role": "总经理"
+        },
+        {
+          "time": "2012.04 - 2014.04",
+          "company": "丰盛资本管理有限公司",
+          "department": "投资部",
+          "role": "副总经理"
+        },
+        {
+          "time": "2011.07 - 2012.04",
+          "company": "和源信投私募股权有限公司",
+          "department": "法务部",
+          "role": "法务顾问助理"
+        },
+        {
+          "time": "2025.09 -",
+          "company": "海南天辉私募基金管理有限公司",
+          "department": "海南天辉私募基金管理有限公司投资研究部",
+          "role": "合规风控负责人,信息填报负责人"
+        },
+        {
+          "time": "2021.03 - 2025.09",
+          "company": "马里奥（海南）投资管理有限公司",
+          "department": "马里奥（海南）投资管理有限公司投资研究部",
+          "role": "总经理"
+        },
+        {
+          "time": "2018.03 - 2021.03",
+          "company": "马里奥（海南）投资管理有限公司",
+          "department": "马里奥（海南）投资管理有限公司投资研究部",
+          "role": "综合"
+        },
+        {
+          "time": "2013.11 - 2018.03",
+          "company": "西安盛和汉长安城实业有限公司",
+          "department": "工程部",
+          "role": "工程师"
+        },
+        {
+          "time": "2007.09 - 2013.10",
+          "company": "西安医药集团临潼公司",
+          "department": "行政",
+          "role": "管理"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "慧盛（北京）资本管理有限公司",
+          "ratio": "70%"
+        },
+        {
+          "name": "刘清",
+          "ratio": "5%"
+        },
+        {
+          "name": "刘皙",
+          "ratio": "5%"
+        }
+      ],
+      "teamSummary": "实控人：刘皙；刘清；高管：刘皙（法定代表人 执行董事）、韦轲（合规风控负责人 信息填报负责人）；人员：全职9人，基金从业8人；管理规模区间：0-5亿元；履历线索：马里奥（海南）投资管理有限公司、海南天辉私募基金管理有限公司、惠润（海南）股权投资基金管理有限公司；主要出资人：慧盛（北京）资本管理有限公司 70%、刘清 5%、刘皙 5%",
+      "rank": 9,
+      "activityScore": 40,
+      "scoreEvidence": {
+        "totalProductCount": 4,
+        "ytdNewProductCount": 2,
+        "latestFilingDate": "2026-07-01",
+        "components": {
+          "stockProducts": 8,
+          "ytdFilings": 20,
+          "recency": 12
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "101000051182",
+      "managerName": "西安玖润投资管理有限公司",
+      "registerNo": "P1033308",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区高新区锦业路50号西安环贸中心15层09–1单元",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000051182.html",
+      "scaleRange": "0-5亿元",
+      "employeeCount": 8,
+      "qualifiedCount": 8,
+      "actualController": "曹琳",
+      "executives": [
+        {
+          "name": "曹琳",
+          "role": "法定代表人 总经理 执行董事 信息填报负责人 投资总监",
+          "qualification": ""
+        },
+        {
+          "name": "胡瀚月",
+          "role": "合规风控负责人",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2016.01 -",
+          "company": "西安玖润投资管理有限公司",
+          "department": "西安玖润投资管理有限公司投资研究部",
+          "role": "法定代表人,总经理,执行董事,信息填报负责人,投资总监"
+        },
+        {
+          "time": "2016.01 - 2017.06",
+          "company": "西安玖润投资管理有限公司",
+          "department": "投资部",
+          "role": "投资总监，基金经理"
+        },
+        {
+          "time": "2016.01 - 2016.01",
+          "company": "西安玖润投资管理有限公司",
+          "department": "西安玖润投资管理有限公司交易部",
+          "role": "法定代表人,总经理,执行董事,信息填报负责人,其他"
+        },
+        {
+          "time": "2014.12 - 2016.01",
+          "company": "陕西德盈投资管理有限公司",
+          "department": "投资部",
+          "role": "投资总监，基金经理"
+        },
+        {
+          "time": "2012.05 - 2014.12",
+          "company": "无",
+          "department": "无",
+          "role": "自由职业者"
+        },
+        {
+          "time": "2003.03 - 2012.05",
+          "company": "陕西英赛特科技发展有限公司",
+          "department": "无",
+          "role": "总经理"
+        },
+        {
+          "time": "1992.07 - 2003.03",
+          "company": "西安高压电器研究所",
+          "department": "无",
+          "role": "大容量试验室值班长"
+        },
+        {
+          "time": "2021.01 -",
+          "company": "西安玖润投资管理有限公司",
+          "department": "西安玖润投资管理有限公司合规风控部",
+          "role": "合规风控负责人"
+        },
+        {
+          "time": "2017.10 - 2021.01",
+          "company": "西安玖润投资管理有限公司",
+          "department": "西安玖润投资管理有限公司（老系统迁移数据）",
+          "role": "合规风控专员"
+        },
+        {
+          "time": "2016.02 - 2017.10",
+          "company": "西安玖润投资管理有限公司",
+          "department": "研究部",
+          "role": "研究员"
+        },
+        {
+          "time": "2015.11 - 2016.01",
+          "company": "宁夏西泽投资管理有限公司",
+          "department": "研究部",
+          "role": "研究员"
+        },
+        {
+          "time": "2015.06 - 2015.09",
+          "company": "飒拉商业（上海）有限公司",
+          "department": "无",
+          "role": "管理培训生"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "曹琳",
+          "ratio": "50%"
+        },
+        {
+          "name": "韩宁",
+          "ratio": "3%"
+        },
+        {
+          "name": "洪楷",
+          "ratio": "28%"
+        }
+      ],
+      "teamSummary": "实控人：曹琳；高管：曹琳（法定代表人 总经理 执行董事 信息填报负责人 投资总监）、胡瀚月（合规风控负责人）；人员：全职8人，基金从业8人；管理规模区间：0-5亿元；履历线索：西安玖润投资管理有限公司、陕西德盈投资管理有限公司、宁夏西泽投资管理有限公司；主要出资人：曹琳 50%、韩宁 3%、洪楷 28%",
+      "rank": 10,
+      "activityScore": 38,
+      "scoreEvidence": {
+        "totalProductCount": 8,
+        "ytdNewProductCount": 1,
+        "latestFilingDate": "2026-07-07",
+        "components": {
+          "stockProducts": 16,
+          "ytdFilings": 10,
+          "recency": 12
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "101000014030",
+      "managerName": "西安蓝鲸私募基金管理有限公司",
+      "registerNo": "P1008048",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区曲江街道金地湖城大境天境1栋2单元901",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000014030.html",
+      "scaleRange": "0-5亿元",
+      "employeeCount": 8,
+      "qualifiedCount": 8,
+      "actualController": "樊磊",
+      "executives": [
+        {
+          "name": "樊磊",
+          "role": "法定代表人 总经理 信息填报负责人 总经理",
+          "qualification": ""
+        },
+        {
+          "name": "曹宇",
+          "role": "合规风控负责人 风控总监",
+          "qualification": ""
+        },
+        {
+          "name": "张涛",
+          "role": "副总经理",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2016.02 -",
+          "company": "西安蓝鲸私募基金管理有限公司",
+          "department": "陕西蓝鲸投资管理有限公司（老系统迁移数据）",
+          "role": "法定代表人,总经理,信息填报负责人,总经理"
+        },
+        {
+          "time": "2016.02 - 2017.06",
+          "company": "陕西蓝鲸投资管理有限公司",
+          "department": "投资管理部",
+          "role": "总经理兼投资总监"
+        },
+        {
+          "time": "2016.02 - 2016.02",
+          "company": "陕西蓝鲸投资管理有限公司",
+          "department": "陕西蓝鲸投资管理有限公司（老系统迁移数据）",
+          "role": "法定代表人,总经理,信息填报负责人,其他"
+        },
+        {
+          "time": "2014.04 - 2016.01",
+          "company": "陕西景唐投资管理有限公司",
+          "department": "投资管理部",
+          "role": "投资总监、基金经理"
+        },
+        {
+          "time": "2002.06 - 2014.03",
+          "company": "中科健康产业集团股份有限公司",
+          "department": "西北大区",
+          "role": "西北大区总监、投资总监"
+        },
+        {
+          "time": "1991.09 - 2002.05",
+          "company": "西安第三机床厂",
+          "department": "财务科",
+          "role": "财务主管"
+        },
+        {
+          "time": "2015.10 -",
+          "company": "西安蓝鲸私募基金管理有限公司",
+          "department": "陕西蓝鲸投资管理有限公司（老系统迁移数据）",
+          "role": "合规风控负责人,风控总监"
+        },
+        {
+          "time": "2015.10 - 2017.06",
+          "company": "陕西蓝鲸投资管理有限公司",
+          "department": "风控部",
+          "role": "风控总监"
+        },
+        {
+          "time": "2015.10 - 2015.10",
+          "company": "陕西蓝鲸投资管理有限公司",
+          "department": "陕西蓝鲸投资管理有限公司（老系统迁移数据）",
+          "role": "合规风控负责人,其他"
+        },
+        {
+          "time": "2014.04 - 2015.10",
+          "company": "陕西景唐投资管理有限公司",
+          "department": "交易部",
+          "role": "基金经理"
+        },
+        {
+          "time": "2011.09 - 2014.03",
+          "company": "西安科中健康咨询服务有限公司",
+          "department": "市场部",
+          "role": "市场部经理"
+        },
+        {
+          "time": "2017.12 -",
+          "company": "西安蓝鲸私募基金管理有限公司",
+          "department": "陕西蓝鲸投资管理有限公司（老系统迁移数据）",
+          "role": "副总经理"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "樊磊",
+          "ratio": "93.33%"
+        },
+        {
+          "name": "张涛",
+          "ratio": "6.67%"
+        }
+      ],
+      "teamSummary": "实控人：樊磊；高管：樊磊（法定代表人 总经理 信息填报负责人 总经理）、曹宇（合规风控负责人 风控总监）、张涛（副总经理）；人员：全职8人，基金从业8人；管理规模区间：0-5亿元；履历线索：西安蓝鲸私募基金管理有限公司、陕西蓝鲸投资管理有限公司、陕西景唐投资管理有限公司；主要出资人：樊磊 93.33%、张涛 6.67%",
+      "rank": 11,
+      "activityScore": 38,
+      "scoreEvidence": {
+        "totalProductCount": 19,
+        "ytdNewProductCount": 0,
+        "latestFilingDate": null,
+        "components": {
+          "stockProducts": 38,
+          "ytdFilings": 0,
+          "recency": 0
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "1809181551101419",
+      "managerName": "西咸新区旷特投资管理有限公司",
+      "registerNo": "P1069468",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区锦业路9号绿地中心A座4507室",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1809181551101419.html",
+      "scaleRange": "0-5亿元",
+      "employeeCount": 22,
+      "qualifiedCount": 20,
+      "actualController": "刘腾腾",
+      "executives": [
+        {
+          "name": "刘腾腾",
+          "role": "法定代表人 董事长 总经理 信息填报负责人",
+          "qualification": ""
+        },
+        {
+          "name": "林楠",
+          "role": "合规风控负责人",
+          "qualification": ""
+        },
+        {
+          "name": "郝若淇",
+          "role": "副总经理",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2018.08 -",
+          "company": "西咸新区旷特投资管理有限公司",
+          "department": "西咸新区旷特投资管理有限公司投委会",
+          "role": "法定代表人,董事长,总经理,信息填报负责人"
+        },
+        {
+          "time": "2018.02 - 2018.08",
+          "company": "西咸新区旷特投资管理有限公司（筹）",
+          "department": "法定代表人",
+          "role": "董事长、总经理、法定代表人"
+        },
+        {
+          "time": "2017.07 - 2018.02",
+          "company": "西安关天量化投资管理有限公司",
+          "department": "法定代表人",
+          "role": "董事长、总经理、法定代表人"
+        },
+        {
+          "time": "2016.08 - 2017.07",
+          "company": "陕西关天资本管理有限公司",
+          "department": "综合管理部",
+          "role": "总经理助理"
+        },
+        {
+          "time": "2015.08 - 2016.08",
+          "company": "中信证券股份有限公司",
+          "department": "西安未央路营业部",
+          "role": "副总经理"
+        },
+        {
+          "time": "2014.12 - 2015.05",
+          "company": "招商银行西安分行南大街支行",
+          "department": "公司部",
+          "role": "主管"
+        },
+        {
+          "time": "2013.12 - 2014.12",
+          "company": "招商银行西安分行文景路支行",
+          "department": "公司部",
+          "role": "主管"
+        },
+        {
+          "time": "2012.10 - 2013.12",
+          "company": "招商银行西安分行",
+          "department": "授信审批部",
+          "role": "审贷官"
+        },
+        {
+          "time": "2012.09 - 2012.10",
+          "company": "招商银行西安分行",
+          "department": "投资理财部",
+          "role": "公司理财产品经理"
+        },
+        {
+          "time": "2012.06 - 2012.09",
+          "company": "招商银行西安分行",
+          "department": "投资理财部",
+          "role": "私人银行财富管理产品经理"
+        },
+        {
+          "time": "2019.04 -",
+          "company": "西咸新区旷特投资管理有限公司",
+          "department": "西咸新区旷特投资管理有限公司投委会",
+          "role": "合规风控负责人"
+        },
+        {
+          "time": "2018.08 - 2018.09",
+          "company": "西咸新区旷特投资管理有限公司",
+          "department": "衍生品交易部",
+          "role": "副总经理、部门负责人"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "西咸新区旷特量化科技有限公司",
+          "ratio": "37.17%"
+        },
+        {
+          "name": "青岛易梵海投资管理有限责任公司",
+          "ratio": "14.87%"
+        },
+        {
+          "name": "西安津宽电子科技合伙企业（有限合伙）",
+          "ratio": "25.65%"
+        }
+      ],
+      "teamSummary": "实控人：刘腾腾；高管：刘腾腾（法定代表人 董事长 总经理 信息填报负责人）、林楠（合规风控负责人）、郝若淇（副总经理）；人员：全职22人，基金从业20人；管理规模区间：0-5亿元；履历线索：西咸新区旷特投资管理有限公司、西咸新区旷特投资管理有限公司（筹）、西安关天量化投资管理有限公司、中信证券股份有限公司；主要出资人：西咸新区旷特量化科技有限公司 37.17%、青岛易梵海投资管理有限责任公司 14.87%、西安津宽电子科技合伙企业（有限合伙） 25.65%",
+      "rank": 12,
+      "activityScore": 36,
+      "scoreEvidence": {
+        "totalProductCount": 18,
+        "ytdNewProductCount": 0,
+        "latestFilingDate": null,
+        "components": {
+          "stockProducts": 36,
+          "ytdFilings": 0,
+          "recency": 0
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "101000007176",
+      "managerName": "陕西景唐投资管理有限公司",
+      "registerNo": "P1005988",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区高新区丈八西路31号万科云谷4幢3单元3层",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000007176.html",
+      "scaleRange": "0-5亿元",
+      "employeeCount": 12,
+      "qualifiedCount": 12,
+      "actualController": "王拓",
+      "executives": [
+        {
+          "name": "王拓",
+          "role": "法定代表人 董事长 总经理 执行董事",
+          "qualification": ""
+        },
+        {
+          "name": "张戈",
+          "role": "合规风控负责人 信息填报负责人",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2016.01 -",
+          "company": "陕西景唐投资管理有限公司",
+          "department": "陕西景唐投资管理有限公司（老系统迁移数据）",
+          "role": "法定代表人,董事长,总经理,执行董事"
+        },
+        {
+          "time": "2015.01 - 2016.01",
+          "company": "西安景涵财务咨询合伙企业（有限合伙）",
+          "department": "高级管理人员",
+          "role": "执行事务合伙人"
+        },
+        {
+          "time": "2014.09 - 2016.01",
+          "company": "陕西景唐投资管理有限公司",
+          "department": "投资部",
+          "role": "投资总经理"
+        },
+        {
+          "time": "2010.07 - 2014.08",
+          "company": "中信建投证券",
+          "department": "同业部",
+          "role": "同业部总经理"
+        },
+        {
+          "time": "2020.04 -",
+          "company": "陕西景唐投资管理有限公司",
+          "department": "陕西景唐投资管理有限公司风控部",
+          "role": "合规风控负责人,信息填报负责人"
+        },
+        {
+          "time": "2016.06 - 2020.04",
+          "company": "陕西景瀚投资管理合伙企业（有限合伙）",
+          "department": "陕西景瀚投资管理合伙企业（有限合伙）（老系统迁移数据）",
+          "role": "合规风控负责人,信息填报负责人"
+        },
+        {
+          "time": "2015.01 - 2016.05",
+          "company": "陕西景唐投资管理有限公司",
+          "department": "投资部",
+          "role": "投资经理"
+        },
+        {
+          "time": "2013.07 - 2014.12",
+          "company": "安邦财产保险股份有限公司西安分公司",
+          "department": "汽车渠道部",
+          "role": "管理培训生"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "王拓",
+          "ratio": "34%"
+        },
+        {
+          "name": "毛喆",
+          "ratio": "30%"
+        },
+        {
+          "name": "成毛毛",
+          "ratio": "17%"
+        }
+      ],
+      "teamSummary": "实控人：王拓；高管：王拓（法定代表人 董事长 总经理 执行董事）、张戈（合规风控负责人 信息填报负责人）；人员：全职12人，基金从业12人；管理规模区间：0-5亿元；履历线索：陕西景唐投资管理有限公司、中信建投证券、陕西景瀚投资管理合伙企业（有限合伙）、安邦财产保险股份有限公司西安分公司；主要出资人：王拓 34%、毛喆 30%、成毛毛 17%",
+      "rank": 13,
+      "activityScore": 36,
+      "scoreEvidence": {
+        "totalProductCount": 18,
+        "ytdNewProductCount": 0,
+        "latestFilingDate": null,
+        "components": {
+          "stockProducts": 36,
+          "ytdFilings": 0,
+          "recency": 0
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "1912121441104548",
+      "managerName": "西安曲江祥汇私募基金管理有限公司",
+      "registerNo": "P1070763",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区曲江新区雁翔路3369号西安曲江创意谷文化产业园A座1106",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1912121441104548.html",
+      "scaleRange": "0-5亿元",
+      "employeeCount": 10,
+      "qualifiedCount": 9,
+      "actualController": "西安曲江文化金融控股（集团）有限公司",
+      "executives": [
+        {
+          "name": "孙家轩",
+          "role": "合规风控负责人 信息填报负责人",
+          "qualification": ""
+        },
+        {
+          "name": "马萌",
+          "role": "法定代表人 董事总经理",
+          "qualification": ""
+        },
+        {
+          "name": "黄致华",
+          "role": "董事长",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2021.06 -",
+          "company": "西安曲江祥汇私募基金管理有限公司",
+          "department": "西安曲江祥汇投资管理有限公司风控合规部",
+          "role": "合规风控负责人,信息填报负责人"
+        },
+        {
+          "time": "2020.07 - 2021.06",
+          "company": "西安曲江祥汇投资管理有限公司",
+          "department": "西安曲江祥汇投资管理有限公司风控合规部",
+          "role": "风控经理"
+        },
+        {
+          "time": "2019.11 - 2020.07",
+          "company": "西安曲江金融投资管理有限公司",
+          "department": "投资部",
+          "role": "高级经理"
+        },
+        {
+          "time": "2017.05 - 2019.11",
+          "company": "陕西文化产业投资管理有限公司",
+          "department": "投资部",
+          "role": "投资经理"
+        },
+        {
+          "time": "2015.06 - 2017.04",
+          "company": "深圳市翊善资本有限公司",
+          "department": "风控部",
+          "role": "风控总监"
+        },
+        {
+          "time": "2011.07 - 2015.06",
+          "company": "西安嘉兴经贸有限公司",
+          "department": "期货部",
+          "role": "交易员/经理"
+        },
+        {
+          "time": "2022.09 -",
+          "company": "西安曲江祥汇私募基金管理有限公司",
+          "department": "西安曲江祥汇投资管理有限公司投资研究部",
+          "role": "法定代表人,董事总经理"
+        },
+        {
+          "time": "2020.07 - 2022.09",
+          "company": "西安曲江祥汇投资管理有限公司",
+          "department": "西安曲江祥汇投资管理有限公司投资研究部",
+          "role": "投资经理"
+        },
+        {
+          "time": "2019.09 - 2020.07",
+          "company": "西安曲江祥汇投资管理有限公司",
+          "department": "西安曲江祥汇投资管理有限公司风控合规部",
+          "role": "合规风控专员"
+        },
+        {
+          "time": "2018.12 - 2019.09",
+          "company": "西安曲江文化金融控股有限公司",
+          "department": "政策业务部",
+          "role": "业务经理"
+        },
+        {
+          "time": "2018.04 - 2018.12",
+          "company": "西咸新区金控资本资产管理有限公司",
+          "department": "投资部",
+          "role": "投资经理"
+        },
+        {
+          "time": "2013.06 - 2013.08",
+          "company": "中国银河证券股份有限公司",
+          "department": "资产管理总部（原）",
+          "role": "业务经理（借调）"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "西安恒珀祥企业管理咨询合伙企业（有限合伙）",
+          "ratio": "20%"
+        },
+        {
+          "name": "西安曲江文化金融控股（集团）有限公司",
+          "ratio": "80%"
+        }
+      ],
+      "teamSummary": "实控人：西安曲江文化金融控股（集团）有限公司；高管：孙家轩（合规风控负责人 信息填报负责人）、马萌（法定代表人 董事总经理）、黄致华（董事长）；人员：全职10人，基金从业9人；管理规模区间：0-5亿元；履历线索：西安曲江祥汇私募基金管理有限公司、西安曲江祥汇投资管理有限公司、西安曲江金融投资管理有限公司、陕西文化产业投资管理有限公司；主要出资人：西安恒珀祥企业管理咨询合伙企业（有限合伙） 20%、西安曲江文化金融控股（集团）有限公司 80%",
+      "rank": 14,
+      "activityScore": 34,
+      "scoreEvidence": {
+        "totalProductCount": 6,
+        "ytdNewProductCount": 1,
+        "latestFilingDate": "2026-07-16",
+        "components": {
+          "stockProducts": 12,
+          "ytdFilings": 10,
+          "recency": 12
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "2012101805104621",
+      "managerName": "陕西禄格私募基金管理有限公司",
+      "registerNo": "P1072306",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区大夏国际中心B座703室",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2012101805104621.html",
+      "scaleRange": "0-5亿元",
+      "employeeCount": 10,
+      "qualifiedCount": 10,
+      "actualController": "耿爱强",
+      "executives": [
+        {
+          "name": "耿爱强",
+          "role": "法定代表人 总经理 执行董事 信息填报负责人",
+          "qualification": ""
+        },
+        {
+          "name": "徐志友",
+          "role": "合规风控负责人",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2020.11 -",
+          "company": "陕西禄格私募基金管理有限公司",
+          "department": "陕西禄格私募基金管理有限公司总经办",
+          "role": "法定代表人,总经理,执行董事,信息填报负责人"
+        },
+        {
+          "time": "2017.06 - 2020.10",
+          "company": "神木金益基金管理 有限公司",
+          "department": "总经办",
+          "role": "副总经理"
+        },
+        {
+          "time": "2015.08 - 2017.04",
+          "company": "深圳市朗溪资产管理有限公司",
+          "department": "运营部",
+          "role": "运营经理"
+        },
+        {
+          "time": "2009.09 - 2015.06",
+          "company": "神华神东煤炭公司",
+          "department": "事业部",
+          "role": "干事"
+        },
+        {
+          "time": "2025.11 -",
+          "company": "陕西禄格私募基金管理有限公司",
+          "department": "陕西禄格私募基金管理有限公司风控部",
+          "role": "合规风控负责人"
+        },
+        {
+          "time": "2025.11 - 2025.11",
+          "company": "陕西禄格私募基金管理有限公司",
+          "department": "陕西禄格私募基金管理有限公司风控部",
+          "role": "风控总监"
+        },
+        {
+          "time": "2023.06 - 2025.11",
+          "company": "陕西知悦汇教育科技有限公司",
+          "department": "法务",
+          "role": "法务主管"
+        },
+        {
+          "time": "2019.11 - 2021.03",
+          "company": "华汇亿德投资管理（西安）有限公司",
+          "department": "华汇亿德投资管理（西安）有限公司市场营销部",
+          "role": "合规专员"
+        },
+        {
+          "time": "2012.03 - 2019.09",
+          "company": "华鑫证券有限责任公司",
+          "department": "西安科技路证券营业部",
+          "role": "投资顾问/行业研究"
+        },
+        {
+          "time": "2005.07 - 2012.03",
+          "company": "西藏左贡县人民法院",
+          "department": "立案庭",
+          "role": "庭长"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "耿爱强",
+          "ratio": "51%"
+        },
+        {
+          "name": "西安韬远实业有限公司",
+          "ratio": "9%"
+        },
+        {
+          "name": "陕西金和云峰商业服务合伙企业(有限合伙)",
+          "ratio": "40%"
+        }
+      ],
+      "teamSummary": "实控人：耿爱强；高管：耿爱强（法定代表人 总经理 执行董事 信息填报负责人）、徐志友（合规风控负责人）；人员：全职10人，基金从业10人；管理规模区间：0-5亿元；履历线索：陕西禄格私募基金管理有限公司、神木金益基金管理 有限公司、深圳市朗溪资产管理有限公司、华汇亿德投资管理（西安）有限公司；主要出资人：耿爱强 51%、西安韬远实业有限公司 9%、陕西金和云峰商业服务合伙企业(有限合伙) 40%",
+      "rank": 15,
+      "activityScore": 34,
+      "scoreEvidence": {
+        "totalProductCount": 6,
+        "ytdNewProductCount": 1,
+        "latestFilingDate": "2026-07-08",
+        "components": {
+          "stockProducts": 12,
+          "ytdFilings": 10,
+          "recency": 12
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "2107141320103302",
+      "managerName": "共青城瀛岳私募基金管理有限公司",
+      "registerNo": "P1072644",
+      "registerProvince": "江西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区雁展路1111号莱安中心T7--2003",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2107141320103302.html",
+      "scaleRange": "5-10亿元",
+      "employeeCount": 8,
+      "qualifiedCount": 8,
+      "actualController": "岳洁东",
+      "executives": [
+        {
+          "name": "岳洁东",
+          "role": "法定代表人 总经理 执行董事",
+          "qualification": ""
+        },
+        {
+          "name": "蔡晶磊",
+          "role": "合规风控负责人 信息填报负责人",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2021.07 -",
+          "company": "共青城瀛岳私募基金管理有限公司",
+          "department": "共青城瀛岳私募基金管理有限公司投资部",
+          "role": "法定代表人,总经理,执行董事"
+        },
+        {
+          "time": "2018.11 - 2021.07",
+          "company": "西安东岳乐然信息科技有限公司",
+          "department": "研发部",
+          "role": "总经理"
+        },
+        {
+          "time": "2018.07 - 2018.10",
+          "company": "无",
+          "department": "无",
+          "role": "无"
+        },
+        {
+          "time": "2021.07 -",
+          "company": "共青城瀛岳私募基金管理有限公司",
+          "department": "共青城瀛岳私募基金管理有限公司合规部",
+          "role": "合规风控负责人,信息填报负责人"
+        },
+        {
+          "time": "2019.08 - 2020.07",
+          "company": "国信证券股份有限公司陕西分公司",
+          "department": "国信证券股份有限公司陕西分公司陕西分公司",
+          "role": "投资顾问"
+        },
+        {
+          "time": "2016.07 - 2019.07",
+          "company": "山郎资产管理（北京）有限公司",
+          "department": "运营中心",
+          "role": "总监"
+        },
+        {
+          "time": "2012.07 - 2016.06",
+          "company": "国信证券股份有限公司",
+          "department": "北京分公司",
+          "role": "财富顾问"
+        },
+        {
+          "time": "2009.07 - 2012.06",
+          "company": "重庆东金投资顾问有限公司",
+          "department": "投资部",
+          "role": "投资顾问"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "蔡晶磊",
+          "ratio": "5%"
+        },
+        {
+          "name": "岳洁东",
+          "ratio": "95%"
+        }
+      ],
+      "teamSummary": "实控人：岳洁东；高管：岳洁东（法定代表人 总经理 执行董事）、蔡晶磊（合规风控负责人 信息填报负责人）；人员：全职8人，基金从业8人；管理规模区间：5-10亿元；履历线索：共青城瀛岳私募基金管理有限公司、国信证券股份有限公司陕西分公司、山郎资产管理（北京）有限公司、国信证券股份有限公司；主要出资人：蔡晶磊 5%、岳洁东 95%",
+      "rank": 16,
+      "activityScore": 32,
+      "scoreEvidence": {
+        "totalProductCount": 5,
+        "ytdNewProductCount": 1,
+        "latestFilingDate": "2026-07-01",
+        "components": {
+          "stockProducts": 10,
+          "ytdFilings": 10,
+          "recency": 12
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "101000015685",
+      "managerName": "陕西德盈私募基金管理有限公司",
+      "registerNo": "P1009868",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区高新区锦业一路6号永利国际金融中心1座4楼401单元",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000015685.html",
+      "scaleRange": "5-10亿元",
+      "employeeCount": 15,
+      "qualifiedCount": 14,
+      "actualController": "李娜",
+      "executives": [
+        {
+          "name": "黄应栋",
+          "role": "法定代表人 总经理 执行董事",
+          "qualification": ""
+        },
+        {
+          "name": "唐敏子",
+          "role": "合规风控负责人 信息填报负责人",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2022.06 -",
+          "company": "陕西德盈私募基金管理有限公司",
+          "department": "陕西德盈私募基金管理有限公司交易部",
+          "role": "法定代表人,总经理,执行董事"
+        },
+        {
+          "time": "2022.01 - 2022.06",
+          "company": "陕西德盈投资管理有限公司",
+          "department": "陕西德盈投资管理有限公司交易部",
+          "role": "基金经理"
+        },
+        {
+          "time": "2021.03 - 2022.01",
+          "company": "中江融新投资管理（北京）有限公司",
+          "department": "中江融新投资管理（北京）有限公司资产管理部",
+          "role": "投资经理"
+        },
+        {
+          "time": "2020.12 - 2021.03",
+          "company": "西安鑫朗隆盛私募基金管理合伙企业",
+          "department": "投资部",
+          "role": "投资总监"
+        },
+        {
+          "time": "2015.10 - 2020.11",
+          "company": "隆成（深圳）资产管理有限公司",
+          "department": "隆成（深圳）资产管理有限公司（老系统迁移数据）",
+          "role": "投资总监"
+        },
+        {
+          "time": "2014.09 - 2015.09",
+          "company": "无",
+          "department": "无",
+          "role": "无"
+        },
+        {
+          "time": "2011.03 - 2014.08",
+          "company": "万科集团西安分公司",
+          "department": "市场部",
+          "role": "市场部经理"
+        },
+        {
+          "time": "2010.07 - 2011.02",
+          "company": "华泰证券股份有限公司",
+          "department": "营销部",
+          "role": "理财规划师"
+        },
+        {
+          "time": "2022.10 -",
+          "company": "陕西德盈私募基金管理有限公司",
+          "department": "陕西德盈私募基金管理有限公司合规风控部",
+          "role": "合规风控负责人,信息填报负责人"
+        },
+        {
+          "time": "2021.11 - 2022.10",
+          "company": "陕西德盈投资管理有限公司",
+          "department": "陕西德盈投资管理有限公司合规风控部",
+          "role": "风控专员"
+        },
+        {
+          "time": "2021.07 - 2021.11",
+          "company": "陕西德盈投资管理有限公司",
+          "department": "陕西德盈投资管理有限公司综合部",
+          "role": "综合运营"
+        },
+        {
+          "time": "2021.03 - 2021.07",
+          "company": "西安鑫朗隆盛私募基金管理合伙企业",
+          "department": "合规风控部",
+          "role": "风控经理"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "李娜",
+          "ratio": "50%"
+        },
+        {
+          "name": "黄应栋",
+          "ratio": "45%"
+        },
+        {
+          "name": "王海洋",
+          "ratio": "5%"
+        }
+      ],
+      "teamSummary": "实控人：李娜；高管：黄应栋（法定代表人 总经理 执行董事）、唐敏子（合规风控负责人 信息填报负责人）；人员：全职15人，基金从业14人；管理规模区间：5-10亿元；履历线索：陕西德盈私募基金管理有限公司、陕西德盈投资管理有限公司、中江融新投资管理（北京）有限公司、西安鑫朗隆盛私募基金管理合伙企业；主要出资人：李娜 50%、黄应栋 45%、王海洋 5%",
+      "rank": 17,
+      "activityScore": 32,
+      "scoreEvidence": {
+        "totalProductCount": 16,
+        "ytdNewProductCount": 0,
+        "latestFilingDate": null,
+        "components": {
+          "stockProducts": 32,
+          "ytdFilings": 0,
+          "recency": 0
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "1707261443105960",
+      "managerName": "西安蒲公英基金管理有限公司",
+      "registerNo": "P1065652",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区高新区唐延路1号旺座国际城D2303",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1707261443105960.html",
+      "scaleRange": "0-5亿元",
+      "employeeCount": 7,
+      "qualifiedCount": 6,
+      "actualController": "韩愿望",
+      "executives": [
+        {
+          "name": "韩愿望",
+          "role": "法定代表人 总经理 执行董事",
+          "qualification": ""
+        },
+        {
+          "name": "王睿",
+          "role": "合规风控负责人 信息填报负责人",
+          "qualification": ""
+        },
+        {
+          "name": "王佳仪",
+          "role": "副总经理",
+          "qualification": ""
+        },
+        {
+          "name": "张曌",
+          "role": "副总经理",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2017.07 -",
+          "company": "西安蒲公英基金管理有限公司",
+          "department": "",
+          "role": "法定代表人"
+        },
+        {
+          "time": "2015.01 -",
+          "company": "深圳朴信基金管理有限公司",
+          "department": "深圳朴信基金管理有限公司深圳朴信基金管理有限公司投资管理部",
+          "role": "法定代表人,总经理,信息填报负责人,执行董事"
+        },
+        {
+          "time": "2013.12 - 2014.12",
+          "company": "深圳朴信金融服务有限公司",
+          "department": "总经办",
+          "role": "执行董事"
+        },
+        {
+          "time": "2013.01 - 2013.12",
+          "company": "上海应朴股权投资基金管理有限公司",
+          "department": "投资部",
+          "role": "非执行董事"
+        },
+        {
+          "time": "2012.03 - 2013.01",
+          "company": "上海北银资产管理有限公司",
+          "department": "投资部",
+          "role": "非执行董事"
+        },
+        {
+          "time": "2009.08 - 2012.01",
+          "company": "陕西光大创业投资有限公司",
+          "department": "投资银行部",
+          "role": "副总经理"
+        },
+        {
+          "time": "2006.04 - 2009.06",
+          "company": "美国绿树国际金融集团广州代表处",
+          "department": "亚洲市场部",
+          "role": "投资经理"
+        },
+        {
+          "time": "2005.09 - 2006.03",
+          "company": "光大证券股份有限公司西安兴庆路证券营业部",
+          "department": "市场部",
+          "role": "客户经理"
+        },
+        {
+          "time": "2022.01 -",
+          "company": "西安蒲公英基金管理有限公司",
+          "department": "西安蒲公英基金管理有限公司合规风控部",
+          "role": "合规风控负责人,信息填报负责人"
+        },
+        {
+          "time": "2021.12 - 2022.01",
+          "company": "西安蒲公英基金管理有限公司",
+          "department": "合规部",
+          "role": "合规经理"
+        },
+        {
+          "time": "2020.12 - 2021.11",
+          "company": "无",
+          "department": "无",
+          "role": "无"
+        },
+        {
+          "time": "2018.04 - 2020.11",
+          "company": "西安蒲公英基金管理有限公司",
+          "department": "西安蒲公英基金管理有限公司（老系统迁移数据）",
+          "role": "合规风控负责人,信息填报负责人"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "深圳朴信金融服务有限公司",
+          "ratio": "100%"
+        }
+      ],
+      "teamSummary": "实控人：韩愿望；高管：韩愿望（法定代表人 总经理 执行董事）、王睿（合规风控负责人 信息填报负责人）、王佳仪（副总经理）、张曌（副总经理）；人员：全职7人，基金从业6人；管理规模区间：0-5亿元；履历线索：西安蒲公英基金管理有限公司、深圳朴信基金管理有限公司、上海应朴股权投资基金管理有限公司、上海北银资产管理有限公司；主要出资人：深圳朴信金融服务有限公司 100%",
+      "rank": 18,
+      "activityScore": 30,
+      "scoreEvidence": {
+        "totalProductCount": 7,
+        "ytdNewProductCount": 1,
+        "latestFilingDate": "2026-05-26",
+        "components": {
+          "stockProducts": 14,
+          "ytdFilings": 10,
+          "recency": 6
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "2009181331107731",
+      "managerName": "西安天勤汇理私募基金管理有限公司",
+      "registerNo": "P1071793",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区高新区丈八街办沣惠南路36号橡树街区1号楼21006室",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2009181331107731.html",
+      "scaleRange": "0-5亿元",
+      "employeeCount": 8,
+      "qualifiedCount": 8,
+      "actualController": "胡政一",
+      "executives": [
+        {
+          "name": "胡政一",
+          "role": "法定代表人 总经理 执行董事 信息填报负责人",
+          "qualification": ""
+        },
+        {
+          "name": "张学义",
+          "role": "合规风控负责人",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2019.10 -",
+          "company": "西安天勤汇理私募基金管理有限公司",
+          "department": "西安天勤汇理私募基金管理有限公司西安天勤汇理私募基金管理有限公司总经办",
+          "role": "法定代表人,总经理,执行董事,信息填报负责人"
+        },
+        {
+          "time": "2019.01 - 2019.10",
+          "company": "无",
+          "department": "无",
+          "role": "无"
+        },
+        {
+          "time": "2011.01 - 2018.12",
+          "company": "西安天勤投资管理有限公司",
+          "department": "管理层",
+          "role": "副总经理兼投资总监"
+        },
+        {
+          "time": "2005.12 - 2010.12",
+          "company": "北京凯特亚太投资顾问有限责任公司",
+          "department": "投资部",
+          "role": "投资总监"
+        },
+        {
+          "time": "2003.01 - 2005.11",
+          "company": "新华网股份有限公司",
+          "department": "英语频道",
+          "role": "英语频道主任"
+        },
+        {
+          "time": "2000.09 - 2002.12",
+          "company": "新华通讯社（新华社）",
+          "department": "《证券投资》周刊编辑部",
+          "role": "副主编"
+        },
+        {
+          "time": "1993.08 - 2000.09",
+          "company": "中华人民共和国外交部",
+          "department": "亚洲司",
+          "role": "外交官"
+        },
+        {
+          "time": "2022.01 -",
+          "company": "西安天勤汇理私募基金管理有限公司",
+          "department": "西安天勤汇理私募基金管理有限公司西安天勤汇理私募基金管理有限公司风控合规部",
+          "role": "合规风控负责人"
+        },
+        {
+          "time": "2022.01 - 2022.01",
+          "company": "西安天勤汇理私募基金管理有限公司",
+          "department": "西安天勤汇理私募基金管理有限公司西安天勤汇理私募基金管理有限公司风控合规部",
+          "role": "风控总监"
+        },
+        {
+          "time": "2021.11 - 2022.01",
+          "company": "西安天勤汇理私募基金管理有限公司",
+          "department": "西安天勤汇理私募基金管理有限公司西安天勤汇理私募基金管理有限公司风控合规部",
+          "role": "合规总监"
+        },
+        {
+          "time": "2021.08 - 2021.11",
+          "company": "西安天勤汇理投资管理有限公司",
+          "department": "西安天勤汇理投资管理有限公司风控合规部",
+          "role": "风控经理"
+        },
+        {
+          "time": "2019.12 - 2021.08",
+          "company": "西安天勤汇理投资管理有限公司",
+          "department": "西安天勤汇理投资管理有限公司投资部",
+          "role": "研究员"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "胡政一",
+          "ratio": "70%"
+        },
+        {
+          "name": "任秋平",
+          "ratio": "30%"
+        }
+      ],
+      "teamSummary": "实控人：胡政一；高管：胡政一（法定代表人 总经理 执行董事 信息填报负责人）、张学义（合规风控负责人）；人员：全职8人，基金从业8人；管理规模区间：0-5亿元；履历线索：西安天勤汇理私募基金管理有限公司、西安天勤投资管理有限公司、北京凯特亚太投资顾问有限责任公司、西安天勤汇理投资管理有限公司；主要出资人：胡政一 70%、任秋平 30%",
+      "rank": 19,
+      "activityScore": 30,
+      "scoreEvidence": {
+        "totalProductCount": 4,
+        "ytdNewProductCount": 1,
+        "latestFilingDate": "2026-06-25",
+        "components": {
+          "stockProducts": 8,
+          "ytdFilings": 10,
+          "recency": 12
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    },
+    {
+      "managerId": "1711241752102480",
+      "managerName": "西安榴花私募基金管理有限公司",
+      "registerNo": "P1067746",
+      "registerProvince": "陕西省",
+      "officeProvince": "陕西省",
+      "officeCity": "西安市",
+      "officeAddress": "陕西省西安市雁塔区锦业一路永利国际金融中心11层",
+      "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1711241752102480.html",
+      "scaleRange": "0-5亿元",
+      "employeeCount": 7,
+      "qualifiedCount": 7,
+      "actualController": "李雪萍",
+      "executives": [
+        {
+          "name": "李雪萍",
+          "role": "法定代表人 总经理 执行董事 信息填报负责人",
+          "qualification": ""
+        },
+        {
+          "name": "夏正洲",
+          "role": "合规风控负责人",
+          "qualification": ""
+        }
+      ],
+      "workHistory": [
+        {
+          "time": "2017.11 -",
+          "company": "西安榴花私募基金管理有限公司",
+          "department": "西安榴花基金管理有限公司（老系统迁移数据）",
+          "role": "法定代表人,总经理,执行董事,信息填报负责人"
+        },
+        {
+          "time": "2017.11 - 2017.11",
+          "company": "西安榴花基金管理有限公司",
+          "department": "高级管理人员",
+          "role": "执行董事/总经理"
+        },
+        {
+          "time": "2009.05 - 2017.10",
+          "company": "开源证券股份有限公司经纪业务管理总部及其下属多个证券营业部",
+          "department": "经纪业务管理总部及其下属多个证券营业部",
+          "role": "总经理"
+        },
+        {
+          "time": "2005.12 - 2009.04",
+          "company": "中信建投证券股份有限公司西北分公司",
+          "department": "西北分公司",
+          "role": "合规部经理"
+        },
+        {
+          "time": "1993.12 - 2005.12",
+          "company": "华夏证券有限责任公司西安营业部",
+          "department": "西安营业部",
+          "role": "营业部副经理"
+        },
+        {
+          "time": "1985.10 - 1993.12",
+          "company": "西安氯碱化工有限责任公司",
+          "department": "计控中心",
+          "role": "职员"
+        },
+        {
+          "time": "2022.05 -",
+          "company": "西安榴花私募基金管理有限公司",
+          "department": "西安榴花私募基金管理有限公司西安榴花私募基金管理有限公司合规部",
+          "role": "合规风控负责人"
+        },
+        {
+          "time": "2022.04 - 2022.05",
+          "company": "西安榴花基金管理有限公司",
+          "department": "西安榴花基金管理有限公司合规部",
+          "role": "合规风控专员"
+        },
+        {
+          "time": "2022.04 - 2022.04",
+          "company": "西安榴花基金管理有限公司",
+          "department": "西安榴花基金管理有限公司（投资部）",
+          "role": "基金经理"
+        },
+        {
+          "time": "2019.10 - 2022.03",
+          "company": "无",
+          "department": "无",
+          "role": "自主创业"
+        },
+        {
+          "time": "2018.06 - 2019.10",
+          "company": "德鸿财富管理有限公司西安分公司",
+          "department": "商学院",
+          "role": "主管"
+        },
+        {
+          "time": "2017.10 - 2018.06",
+          "company": "开源证券股份有限公司",
+          "department": "凤城一路证券营业部",
+          "role": "主管"
+        }
+      ],
+      "shareholders": [
+        {
+          "name": "李雪萍",
+          "ratio": "77.9%"
+        },
+        {
+          "name": "西安石榴火管理咨询合伙企业（有限合伙）",
+          "ratio": "22.1%"
+        }
+      ],
+      "teamSummary": "实控人：李雪萍；高管：李雪萍（法定代表人 总经理 执行董事 信息填报负责人）、夏正洲（合规风控负责人）；人员：全职7人，基金从业7人；管理规模区间：0-5亿元；履历线索：西安榴花私募基金管理有限公司、西安榴花基金管理有限公司、开源证券股份有限公司经纪业务管理总部及其下属多个证券营业部、中信建投证券股份有限公司西北分公司；主要出资人：李雪萍 77.9%、西安石榴火管理咨询合伙企业（有限合伙） 22.1%",
+      "rank": 20,
+      "activityScore": 26,
+      "scoreEvidence": {
+        "totalProductCount": 2,
+        "ytdNewProductCount": 1,
+        "latestFilingDate": "2026-07-09",
+        "components": {
+          "stockProducts": 4,
+          "ytdFilings": 10,
+          "recency": 12
+        }
+      },
+      "universeTier": "PF1",
+      "relationType": "registered_or_office_in_shaanxi",
+      "relationStrength": "direct",
+      "monitoringPriority": "important",
+      "inclusionReason": "AMAC当前公示的注册地或办公地在陕西省",
+      "relationEvidence": []
+    }
+  ],
+  "newProducts": [],
+  "custodianSummary": [
+    {
+      "custodian": "招商证券股份有限公司",
+      "productCount": 5
+    },
+    {
+      "custodian": "华泰证券股份有限公司",
+      "productCount": 4
+    },
+    {
+      "custodian": "中信证券股份有限公司",
+      "productCount": 4
+    },
+    {
+      "custodian": "中信建投证券股份有限公司",
+      "productCount": 3
+    },
+    {
+      "custodian": "光大证券股份有限公司",
+      "productCount": 3
+    },
+    {
+      "custodian": "国泰海通证券股份有限公司",
+      "productCount": 3
+    },
+    {
+      "custodian": "兴业证券股份有限公司",
+      "productCount": 2
+    },
+    {
+      "custodian": "国元证券股份有限公司",
+      "productCount": 1
+    },
+    {
+      "custodian": "华福证券股份有限公司",
+      "productCount": 1
+    },
+    {
+      "custodian": "中国银河证券股份有限公司",
+      "productCount": 1
+    },
+    {
+      "custodian": "广发证券股份有限公司",
+      "productCount": 1
+    },
+    {
+      "custodian": "财通证券股份有限公司",
+      "productCount": 1
+    },
+    {
+      "custodian": "国信证券股份有限公司",
+      "productCount": 1
+    }
+  ],
+  "managerCustodianRelations": [
+    {
+      "managerName": "海南天辉私募基金管理有限公司",
+      "custodian": "招商证券股份有限公司",
+      "productCount": 2,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "西安蒙特卡罗基金管理有限公司",
+      "custodian": "招商证券股份有限公司",
+      "productCount": 2,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "陕西九和岛基金管理有限公司",
+      "custodian": "光大证券股份有限公司",
+      "productCount": 2,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "五牛（海南）私募基金管理合伙企业（有限合伙）",
+      "custodian": "国元证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "共青城瀛岳私募基金管理有限公司",
+      "custodian": "华泰证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "北京霆云山私募基金管理有限公司",
+      "custodian": "广发证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "深圳乾元资始私募证券基金管理有限公司",
+      "custodian": "财通证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "深圳市滨利投资管理有限公司",
+      "custodian": "中信建投证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "深圳市滨利投资管理有限公司",
+      "custodian": "兴业证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "深圳抱朴容易私募证券基金管理有限公司",
+      "custodian": "国泰海通证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "西安博成基金管理有限公司",
+      "custodian": "华泰证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "西安天勤汇理私募基金管理有限公司",
+      "custodian": "中信证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "西安景弘基金管理有限公司",
+      "custodian": "中信证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "西安景弘基金管理有限公司",
+      "custodian": "国泰海通证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "西安曲江祥汇私募基金管理有限公司",
+      "custodian": "华泰证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "西安榴花私募基金管理有限公司",
+      "custodian": "招商证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "西安沣相投资管理有限公司",
+      "custodian": "光大证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "西安玖润投资管理有限公司",
+      "custodian": "中信建投证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "西安蒙特卡罗基金管理有限公司",
+      "custodian": "中国银河证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "西安蒲公英基金管理有限公司",
+      "custodian": "中信证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "陕西九和岛基金管理有限公司",
+      "custodian": "中信建投证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "陕西九和岛基金管理有限公司",
+      "custodian": "华泰证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "陕西九和岛基金管理有限公司",
+      "custodian": "国信证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "陕西九和岛基金管理有限公司",
+      "custodian": "国泰海通证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "陕西佑仓资产管理有限公司",
+      "custodian": "华福证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "陕西禄格私募基金管理有限公司",
+      "custodian": "中信证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    },
+    {
+      "managerName": "陕西路路金基金管理有限公司",
+      "custodian": "兴业证券股份有限公司",
+      "productCount": 1,
+      "evidenceType": "AMAC公开托管人字段"
+    }
+  ],
+  "personnelChanges": [],
+  "personnelBaselineNote": "已与2026-07-23同口径V3详情快照比较；仅输出AMAC公示字段差异。",
+  "locationObservations": [
+    {
+      "managerName": "北京霆云山私募基金管理有限公司",
+      "registerProvince": "北京市",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "海南名策私募基金管理有限公司",
+      "registerProvince": "海南省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "共青城瀛岳私募基金管理有限公司",
+      "registerProvince": "江西省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "国富联合（青岛）私募基金管理有限公司",
+      "registerProvince": "山东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "佳睿（晋江）私募基金管理有限公司",
+      "registerProvince": "福建省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "青岛华源锦成私募基金管理有限公司",
+      "registerProvince": "山东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "天榕（青岛）基金管理有限公司",
+      "registerProvince": "山东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "五牛（海南）私募基金管理合伙企业（有限合伙）",
+      "registerProvince": "海南省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "海南天辉私募基金管理有限公司",
+      "registerProvince": "海南省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "深圳永宁资产管理有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "博汇康宁（深圳）投资基金管理有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "深圳景润投资管理有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "深圳前海长征私募证券基金管理有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "深圳鑫泰禾私募证券投资基金管理有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "深圳融智天成国际资本管理股份有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "深圳开济资产管理有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "上海屹成投资管理中心(有限合伙)",
+      "registerProvince": "上海市",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "深圳格尚资产管理有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "深圳乾元资始私募证券基金管理有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "深圳德丰嘉禾私募证券基金管理有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "上海忠石私募基金管理有限公司",
+      "registerProvince": "上海市",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "深圳基成资本管理有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "深圳汇长安资产管理有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "深圳国盛祥隆私募证券基金管理有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "深圳市滨利投资管理有限公司",
+      "registerProvince": "广东省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    },
+    {
+      "managerName": "海南利和私募基金管理有限公司",
+      "registerProvince": "海南省",
+      "officeProvince": "陕西省",
+      "direction": "office_in_shaanxi",
+      "classification": "location_observation",
+      "note": "当前注册地址与办公地异省；没有历史地址差异证据，不得直接表述为迁入或迁出。"
+    }
+  ],
+  "businessTaxonomy": [
+    {
+      "code": "product_account_opening",
+      "name": "产品开户"
+    },
+    {
+      "code": "custody_outsourcing",
+      "name": "托管外包"
+    },
+    {
+      "code": "special_mandate_reduction",
+      "name": "特委减持"
+    },
+    {
+      "code": "otc_derivatives",
+      "name": "场外衍生品"
+    },
+    {
+      "code": "b_share_funding",
+      "name": "B份额"
+    },
+    {
+      "code": "performance_allocation",
+      "name": "业绩切分"
+    }
+  ],
+  "source": {
+    "name": "中国证券投资基金业协会信息公示系统",
+    "managerListUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/managerList.html",
+    "fundListUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/index.html",
+    "v1CurrentFile": "/Users/refrain97/Documents/codex/工作/资讯类/shaanxi-capital-market-daily/v1/陕西省证券私募日报v1/data/security-private-fund-daily-2026-07-24.json",
+    "v1PreviousFile": "/Users/refrain97/Documents/codex/工作/资讯类/shaanxi-capital-market-daily/v1/陕西省证券私募日报v1/data/security-private-fund-daily-2026-07-23.json",
+    "capturedAt": "2026-07-27T05:03:42+08:00"
+  },
+  "universeErrors": [],
+  "detailErrors": []
+}

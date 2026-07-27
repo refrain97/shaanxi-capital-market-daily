@@ -1,0 +1,1519 @@
+{
+  "meta": {
+    "dashboard_version": "unified_publish_v2_daily_result",
+    "date": "2026-07-13",
+    "last_updated": "2026-07-13 15:33:15",
+    "source_index": "00_入口与总纲/Investment_OS_V2/00_总索引.md",
+    "run_contract": "00_入口与总纲/Investment_OS_V2/03_Run_Contract_执行合约.md",
+    "backtest_validation": "00_入口与总纲/Investment_OS_V2/07_回测验证与Shadow观察.md",
+    "permission": "数据观察 / shadow only；真实交易动作需用户确认",
+    "display_note": "GitHub Pages 发布包为脱敏看板；完整本地材料仍在 V2 工作区。"
+  },
+  "overview": {
+    "one_line": "市场状态：防守优先，风险灯 红；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -3.51%，上涨占比均值 17.68%；数据限制：情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；public_factor_data_refresh 取数failed",
+    "market_state": "防守优先",
+    "risk_light": "红",
+    "mainline": "科技成长/半导体通信仍是成交主线",
+    "account_action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=防守优先、持仓压力=成长仓风险偏高及证伪条件。",
+    "requires_decision": false,
+    "permission": "数据观察 / shadow only；真实动作需用户确认"
+  },
+  "metrics": [
+    {
+      "label": "运行日期",
+      "value": "2026-07-13",
+      "tone": "info"
+    },
+    {
+      "label": "时点完成",
+      "value": "7/7",
+      "tone": "good"
+    },
+    {
+      "label": "需要拍板",
+      "value": "0",
+      "tone": "good"
+    },
+    {
+      "label": "数据覆盖",
+      "value": "82/1264",
+      "tone": "good"
+    },
+    {
+      "label": "stale",
+      "value": "1182",
+      "tone": "warn"
+    },
+    {
+      "label": "draft 因子",
+      "value": "104",
+      "tone": "info"
+    },
+    {
+      "label": "formal 因子",
+      "value": "0",
+      "tone": "warn"
+    },
+    {
+      "label": "风险灯",
+      "value": "红",
+      "tone": "bad"
+    },
+    {
+      "label": "今日完成",
+      "value": "7/7",
+      "tone": "good"
+    },
+    {
+      "label": "回测结果",
+      "value": "47",
+      "tone": "info"
+    },
+    {
+      "label": "全量基准",
+      "value": "3",
+      "tone": "good"
+    },
+    {
+      "label": "V2纸面NAV",
+      "value": "100.0",
+      "tone": "info"
+    },
+    {
+      "label": "已评分建议",
+      "value": "1",
+      "tone": "warn"
+    },
+    {
+      "label": "组合压力",
+      "value": "elevated",
+      "tone": "warn"
+    },
+    {
+      "label": "实验注册",
+      "value": "12",
+      "tone": "info"
+    },
+    {
+      "label": "Formal准入",
+      "value": "0",
+      "tone": "warn"
+    },
+    {
+      "label": "证据覆盖",
+      "value": "通过",
+      "tone": "good"
+    }
+  ],
+  "daily_result": {
+    "date": "2026-07-13",
+    "status": "complete",
+    "completed_slots": 7,
+    "total_slots": 7,
+    "requires_decision": 0,
+    "latest": {
+      "time": "15:30",
+      "stage": "收盘复盘",
+      "result": "市场状态：防守优先，风险灯 红；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -3.51%，上涨占比均值 17.68%；数据限制：情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；public_factor_data_refresh 取数failed",
+      "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=防守优先、持仓压力=成长仓风险偏高及证伪条件。",
+      "risk": "证伪条件：宽基继续下破且上涨占比低于 40%，当前进攻叙事失效。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；public_factor_data_refresh 取数failed",
+      "generated_at": "2026-07-13 15:33:15",
+      "public_file": "reports/2026-07-13_1530_79a36ed4-312e-4cdd-b9f7-7ef6db013827.html"
+    },
+    "macro_narrative": {
+      "market_state": "防守优先，风险灯：红，评分：-2",
+      "broad_index": "-3.51%；上涨占比均值：17.68%",
+      "strongest_index": "沪深300 -1.79%",
+      "weakest_index": "中证1000 -5.01%",
+      "mainline": "半导体产品、电子设备、仪器和元件、通信设备Ⅲ、电气设备Ⅲ、机械Ⅲ",
+      "etf_flow": "万家沪深300ETF、鹏华上证科创板芯片设计主题ETF、平安恒生港股通科技主题ETF、华夏中证智选1000成长创新策略ETF、国泰中证科创创业50ETF",
+      "sentiment_source": "iFind备用口径（过期，已禁止参与判断）",
+      "sentiment": "-/-/-",
+      "break_rate": "-"
+    },
+    "factor_runtime": {
+      "observation": "0/0 个有效观察样本触发；总记录 3，过期 3；生产权限仍为 false。",
+      "permission": "shadow only；不进入 trigger / position / risk_gate",
+      "usage_log_rows": 0,
+      "shadow_event_rows": 2
+    },
+    "timeline": [
+      {
+        "time": "08:30",
+        "stage": "盘前框架预测",
+        "status": "done",
+        "result": "市场状态：震荡分歧，风险灯 黄；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -%，上涨占比均值 -；数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；public_factor_data_refresh 取数failed；市场宽度或行业主线快照不完整",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=震荡分歧、持仓压力=单一主仓超过常规上限及证伪条件。",
+        "risk": "复核条件：主线成交和持仓相对强弱仍未同步改善，继续保持观察权限。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；public_factor_data_refresh 取数failed；市场宽度或行业主线快照不完整",
+        "generated_at": "2026-07-13 08:32:12",
+        "public_file": "reports/2026-07-13_0830_cf509c2f-4127-4208-8e45-78f900c907b2.html"
+      },
+      {
+        "time": "09:30",
+        "stage": "开盘确认",
+        "status": "done",
+        "result": "市场状态：震荡分歧，风险灯 黄；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -%，上涨占比均值 -；数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=震荡分歧、持仓压力=单一主仓超过常规上限及证伪条件。",
+        "risk": "复核条件：主线成交和持仓相对强弱仍未同步改善，继续保持观察权限。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "generated_at": "2026-07-13 09:33:08",
+        "public_file": "reports/2026-07-13_0930_7a9ba5ca-9d83-47a6-9938-eb6f4a874162.html"
+      },
+      {
+        "time": "10:30",
+        "stage": "第一小时复核",
+        "status": "done",
+        "result": "市场状态：震荡分歧，风险灯 黄；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -%，上涨占比均值 -；数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=震荡分歧、持仓压力=单一主仓超过常规上限及证伪条件。",
+        "risk": "复核条件：主线成交和持仓相对强弱仍未同步改善，继续保持观察权限。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "generated_at": "2026-07-13 10:33:48",
+        "public_file": "reports/2026-07-13_1030_145eb501-2b1b-487c-aaa1-c4e18995f01e.html"
+      },
+      {
+        "time": "11:30",
+        "stage": "午前复核",
+        "status": "done",
+        "result": "市场状态：震荡分歧，风险灯 黄；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -%，上涨占比均值 -；数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=震荡分歧、持仓压力=单一主仓超过常规上限及证伪条件。",
+        "risk": "复核条件：主线成交和持仓相对强弱仍未同步改善，继续保持观察权限。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "generated_at": "2026-07-13 11:33:02",
+        "public_file": "reports/2026-07-13_1130_d9941270-66f3-4d1a-9d20-f2e812a96d84.html"
+      },
+      {
+        "time": "13:30",
+        "stage": "午后开盘复核",
+        "status": "done",
+        "result": "市场状态：震荡分歧，风险灯 黄；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -%，上涨占比均值 -；数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=震荡分歧、持仓压力=单一主仓超过常规上限及证伪条件。",
+        "risk": "复核条件：主线成交和持仓相对强弱仍未同步改善，继续保持观察权限。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "generated_at": "2026-07-13 13:33:50",
+        "public_file": "reports/2026-07-13_1330_172f08f3-b213-4f23-afe4-1eeca4a1a08e.html"
+      },
+      {
+        "time": "14:30",
+        "stage": "尾盘预案",
+        "status": "done",
+        "result": "市场状态：震荡分歧，风险灯 黄；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -%，上涨占比均值 -；数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=震荡分歧、持仓压力=单一主仓超过常规上限及证伪条件。",
+        "risk": "复核条件：主线成交和持仓相对强弱仍未同步改善，继续保持观察权限。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "generated_at": "2026-07-13 14:32:46",
+        "public_file": "reports/2026-07-13_1430_d1150ea7-414f-4bb6-a046-d5e834f75d16.html"
+      },
+      {
+        "time": "15:30",
+        "stage": "收盘复盘",
+        "status": "done",
+        "result": "市场状态：防守优先，风险灯 红；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -3.51%，上涨占比均值 17.68%；数据限制：情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；public_factor_data_refresh 取数failed",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=防守优先、持仓压力=成长仓风险偏高及证伪条件。",
+        "risk": "证伪条件：宽基继续下破且上涨占比低于 40%，当前进攻叙事失效。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；public_factor_data_refresh 取数failed",
+        "generated_at": "2026-07-13 15:33:15",
+        "public_file": "reports/2026-07-13_1530_79a36ed4-312e-4cdd-b9f7-7ef6db013827.html"
+      }
+    ],
+    "flow_alignment": [
+      {
+        "step": "1 数据请求计划",
+        "evidence": "各时点 scope 已固定",
+        "status": "done"
+      },
+      {
+        "step": "2 并行取数",
+        "evidence": "p0_snapshot=ok(16.8s); portfolio_risk_data=ok(8.28s); ifind_sentiment_fallback=failed(0.48s); sentiment_flow=ok(44.88s); runtime_evidence=ok(12.57s); public_factor_data_refresh=failed(0.32s); shadow_observation=ok(0.15s); factor_validation_registry=ok(0.1s); coverage_refresh=ok(0.24s)",
+        "status": "done"
+      },
+      {
+        "step": "3 标准化 Market Data",
+        "evidence": "82/1264 current；stale 1182",
+        "status": "done"
+      },
+      {
+        "step": "4 Signal Engine",
+        "evidence": "防守优先，风险灯：红，评分：-2",
+        "status": "done"
+      },
+      {
+        "step": "5 Domain Layer",
+        "evidence": "半导体产品、电子设备、仪器和元件、通信设备Ⅲ、电气设备Ⅲ、机械Ⅲ",
+        "status": "done"
+      },
+      {
+        "step": "6 Strategy Engine",
+        "evidence": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=防守优先、持仓压力=成长仓风险偏高及证伪条件。",
+        "status": "partial"
+      },
+      {
+        "step": "7 Conflict Engine",
+        "evidence": "证伪条件：宽基继续下破且上涨占比低于 40%，当前进攻叙事失效。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；public_factor_data_refresh 取数failed",
+        "status": "partial"
+      },
+      {
+        "step": "8 Risk Engine",
+        "evidence": "风险灯 红",
+        "status": "done"
+      },
+      {
+        "step": "9 Regime Adaptation",
+        "evidence": "防守优先，风险灯：红，评分：-2",
+        "status": "done"
+      },
+      {
+        "step": "10 Position Engine",
+        "evidence": "持仓明细仅本地留存，公开页只展示权限和风险约束",
+        "status": "local_only"
+      },
+      {
+        "step": "11 Action Card",
+        "evidence": "0 条需确认/风险队列",
+        "status": "done"
+      },
+      {
+        "step": "12 Review / Database",
+        "evidence": "报告中心与运行记录已链接；下一时点继续回写",
+        "status": "done"
+      }
+    ]
+  },
+  "backtest_validation": {
+    "generated_at": "2026-07-10T12:04:31.198061+00:00",
+    "validation_scope": "draft_only",
+    "validation_mode": "full_baseline_completed_observe_only; no production promotion",
+    "permission_boundary": "No production, no trigger, no position, no risk_gate.",
+    "full_baseline_runs": 3,
+    "full_baseline_result_count": 12,
+    "full_baseline_promoted_count": 0,
+    "full_baseline_decision_counts": {
+      "full_validation_insufficient_sample": 3,
+      "full_validation_degraded": 1,
+      "full_baseline_degraded": 3,
+      "full_baseline_insufficient_sample": 4,
+      "blocked_insufficient_point_in_time_history": 1
+    },
+    "retention_templates": {
+      "manifest_template": "08_回测与验证/00_模板/backtest_run_manifest_template.json",
+      "checklist": "08_回测与验证/00_模板/backtest_retention_checklist.md"
+    },
+    "counts": {
+      "all_results": 47,
+      "shadow_candidates": 3,
+      "watchlist": 17,
+      "degraded": 12,
+      "data_blocked": 15,
+      "full_baseline_results": 12
+    },
+    "summary": [
+      {
+        "label": "当前层级",
+        "value": "full baseline / observe",
+        "tone": "warn"
+      },
+      {
+        "label": "全量基准批次",
+        "value": "3",
+        "tone": "good"
+      },
+      {
+        "label": "全量基准裁决",
+        "value": "12",
+        "tone": "info"
+      },
+      {
+        "label": "升级通过",
+        "value": "0",
+        "tone": "warn"
+      },
+      {
+        "label": "shadow候选",
+        "value": "3",
+        "tone": "info"
+      },
+      {
+        "label": "watch",
+        "value": "17",
+        "tone": "warn"
+      },
+      {
+        "label": "degraded",
+        "value": "12",
+        "tone": "bad"
+      },
+      {
+        "label": "data blocked",
+        "value": "15",
+        "tone": "warn"
+      }
+    ],
+    "full_baseline_results": [
+      {
+        "factor_id": "factor.gold.usd_real_rate_dxy_regime_proxy",
+        "factor_name": "实际利率与美元联合顺风黄金代理",
+        "target_proxy": "GLD",
+        "test_name": "",
+        "event_count": 40,
+        "baseline_count": 196,
+        "win_rate": "67.50%",
+        "baseline_win_rate": "52.55%",
+        "excess_win_rate_pp": "+14.95pp",
+        "robustness_pass_rate": "-",
+        "subperiod_positive_rate": "-",
+        "max_drawdown": "-8.40%",
+        "sample_range": "",
+        "decision": "full_validation_insufficient_sample",
+        "permission": "candidate_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.a_share.technical_trend_volume_volatility_proxy",
+        "factor_name": "沪深300ETF趋势量能波动四特征代理",
+        "target_proxy": "510300.SH",
+        "test_name": "",
+        "event_count": 47,
+        "baseline_count": 157,
+        "win_rate": "55.32%",
+        "baseline_win_rate": "56.05%",
+        "excess_win_rate_pp": "-0.73pp",
+        "robustness_pass_rate": "-",
+        "subperiod_positive_rate": "-",
+        "max_drawdown": "-29.22%",
+        "sample_range": "",
+        "decision": "full_validation_insufficient_sample",
+        "permission": "candidate_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.gold.spdr_holding_flow_proxy",
+        "factor_name": "SPDR黄金持仓变化流量代理",
+        "target_proxy": "GLD",
+        "test_name": "",
+        "event_count": 112,
+        "baseline_count": 196,
+        "win_rate": "50.00%",
+        "baseline_win_rate": "52.55%",
+        "excess_win_rate_pp": "-2.55pp",
+        "robustness_pass_rate": "-",
+        "subperiod_positive_rate": "-",
+        "max_drawdown": "-32.85%",
+        "sample_range": "",
+        "decision": "full_validation_degraded",
+        "permission": "candidate_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.risk.external_pressure_no_basis_proxy",
+        "factor_name": "无期指基差的A股外部压力代理",
+        "target_proxy": "510300.SH",
+        "test_name": "",
+        "event_count": 29,
+        "baseline_count": 162,
+        "win_rate": "48.28%",
+        "baseline_win_rate": "43.83%",
+        "excess_win_rate_pp": "+4.45pp",
+        "robustness_pass_rate": "-",
+        "subperiod_positive_rate": "-",
+        "max_drawdown": "-16.97%",
+        "sample_range": "",
+        "decision": "full_validation_insufficient_sample",
+        "permission": "candidate_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.a_share.industry_breadth_trend_health_proxy",
+        "factor_name": "A股行业趋势宽度健康代理",
+        "target_proxy": "510300.SH",
+        "test_name": "",
+        "event_count": 86,
+        "baseline_count": 163,
+        "win_rate": "48.84%",
+        "baseline_win_rate": "54.60%",
+        "excess_win_rate_pp": "-5.76pp",
+        "robustness_pass_rate": "-",
+        "subperiod_positive_rate": "-",
+        "max_drawdown": "-39.90%",
+        "sample_range": "",
+        "decision": "full_baseline_degraded",
+        "permission": "observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.a_share.industry_turnover_concentration_overheat_proxy",
+        "factor_name": "A股行业成交集中与成长过热代理",
+        "target_proxy": "159915.SZ",
+        "test_name": "",
+        "event_count": 33,
+        "baseline_count": 167,
+        "win_rate": "39.39%",
+        "baseline_win_rate": "44.91%",
+        "excess_win_rate_pp": "-5.52pp",
+        "robustness_pass_rate": "-",
+        "subperiod_positive_rate": "-",
+        "max_drawdown": "-60.30%",
+        "sample_range": "",
+        "decision": "full_baseline_degraded",
+        "permission": "observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.a_share_semiconductor.smh_local_trend_correlation_proxy",
+        "factor_name": "SMH与A股半导体趋势相关确认代理",
+        "target_proxy": "512480.SH",
+        "test_name": "",
+        "event_count": 14,
+        "baseline_count": 78,
+        "win_rate": "71.43%",
+        "baseline_win_rate": "47.44%",
+        "excess_win_rate_pp": "+23.99pp",
+        "robustness_pass_rate": "-",
+        "subperiod_positive_rate": "-",
+        "max_drawdown": "-18.78%",
+        "sample_range": "",
+        "decision": "full_baseline_insufficient_sample",
+        "permission": "observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.a_share.communication_trend_pullback_reentry_proxy",
+        "factor_name": "通信ETF趋势内缩量回踩再入场代理",
+        "target_proxy": "515880.SH",
+        "test_name": "",
+        "event_count": 10,
+        "baseline_count": 72,
+        "win_rate": "50.00%",
+        "baseline_win_rate": "51.39%",
+        "excess_win_rate_pp": "-1.39pp",
+        "robustness_pass_rate": "-",
+        "subperiod_positive_rate": "-",
+        "max_drawdown": "-15.31%",
+        "sample_range": "",
+        "decision": "full_baseline_insufficient_sample",
+        "permission": "observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.a_share.industry_earnings_breadth_proxy",
+        "factor_name": "A股行业盈利宽度景气代理",
+        "target_proxy": "",
+        "test_name": "",
+        "event_count": 19,
+        "baseline_count": "",
+        "win_rate": "-",
+        "baseline_win_rate": "-",
+        "excess_win_rate_pp": "-",
+        "robustness_pass_rate": "-",
+        "subperiod_positive_rate": "-",
+        "max_drawdown": "-",
+        "sample_range": "20210930 - 20260331",
+        "decision": "blocked_insufficient_point_in_time_history",
+        "permission": "observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.gold.real_rate_short_term_tailwind_proxy",
+        "factor_name": "实际利率短周期下行对黄金的顺风代理",
+        "target_proxy": "GLD",
+        "test_name": "",
+        "event_count": 116,
+        "baseline_count": 206,
+        "win_rate": "56.03%",
+        "baseline_win_rate": "49.51%",
+        "excess_win_rate_pp": "+6.52pp",
+        "robustness_pass_rate": "-",
+        "subperiod_positive_rate": "-",
+        "max_drawdown": "-39.79%",
+        "sample_range": "",
+        "decision": "full_baseline_degraded",
+        "permission": "observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.risk.vix_decline_risk_on_proxy",
+        "factor_name": "VIX 快速下降后的风险偏好代理",
+        "target_proxy": "SPY",
+        "test_name": "",
+        "event_count": 104,
+        "baseline_count": 206,
+        "win_rate": "69.23%",
+        "baseline_win_rate": "66.99%",
+        "excess_win_rate_pp": "+2.24pp",
+        "robustness_pass_rate": "-",
+        "subperiod_positive_rate": "-",
+        "max_drawdown": "-18.67%",
+        "sample_range": "",
+        "decision": "full_baseline_insufficient_sample",
+        "permission": "observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.a_share.us10y_decline_growth_proxy",
+        "factor_name": "美债利率下行对 A 股成长风格的代理",
+        "target_proxy": "159915.SZ",
+        "test_name": "",
+        "event_count": 56,
+        "baseline_count": 174,
+        "win_rate": "60.71%",
+        "baseline_win_rate": "51.15%",
+        "excess_win_rate_pp": "+9.56pp",
+        "robustness_pass_rate": "-",
+        "subperiod_positive_rate": "-",
+        "max_drawdown": "-24.40%",
+        "sample_range": "",
+        "decision": "full_baseline_insufficient_sample",
+        "permission": "observe_only; no trigger/position/risk_gate"
+      }
+    ],
+    "full_baseline_runs_detail": [
+      {
+        "run_id": "full_validation_batch_003_20260710_200431",
+        "run_time": "2026-07-10T12:04:31.198061+00:00",
+        "result_count": 4,
+        "report": "08_回测与验证/10_Full_Validation_Baseline/full_validation_batch_003_20260710_200431/report.md",
+        "permission": "observe_only; candidate_only maximum; no automatic Shadow or Formal upgrade"
+      },
+      {
+        "run_id": "full_validation_batch_002_20260710_130707",
+        "run_time": "2026-07-10T05:50:52.570650+00:00",
+        "result_count": 5,
+        "report": "08_回测与验证/10_Full_Validation_Baseline/full_validation_batch_002_20260710_130707/report.md",
+        "permission": "research_only; no trigger, no position, no risk_gate"
+      },
+      {
+        "run_id": "full_validation_batch_001_20260710_124812",
+        "run_time": "2026-07-10T05:50:14.493697+00:00",
+        "result_count": 3,
+        "report": "08_回测与验证/10_Full_Validation_Baseline/full_validation_batch_001_20260710_124812/report.md",
+        "permission": "research_only; no trigger, no position, no risk_gate"
+      }
+    ],
+    "shadow_candidates": [
+      {
+        "factor_id": "factor.macro.liquidity_policy",
+        "factor_name": "利率缓和与成长资产代理",
+        "target_proxy": "159915.SZ",
+        "test_name": "美10Y 60日下行25bp -> 做多159915 20日",
+        "event_count": 74,
+        "baseline_count": 213,
+        "win_rate": "62.16%",
+        "baseline_win_rate": "53.52%",
+        "excess_win_rate_pp": "+8.64pp",
+        "robustness_pass_rate": "77.78%",
+        "subperiod_positive_rate": "50.00%",
+        "max_drawdown": "-32.99%",
+        "sample_range": "2011-09-21 - 2025-10-28",
+        "decision": "shadow_candidate",
+        "permission": "draft public-proxy validation only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.gold.real_rate_regime_break",
+        "factor_name": "实际利率短周期下行与黄金",
+        "target_proxy": "GLD",
+        "test_name": "10Y实际利率20日下行10bp -> 做多GLD 20日",
+        "event_count": 118,
+        "baseline_count": 208,
+        "win_rate": "58.47%",
+        "baseline_win_rate": "52.88%",
+        "excess_win_rate_pp": "+5.59pp",
+        "robustness_pass_rate": "88.89%",
+        "subperiod_positive_rate": "50.00%",
+        "max_drawdown": "-37.32%",
+        "sample_range": "2010-02-02 - 2026-04-17",
+        "decision": "shadow_candidate",
+        "permission": "draft validation only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.macro.risk_appetite",
+        "factor_name": "VIX下行与风险偏好改善",
+        "target_proxy": "SPY",
+        "test_name": "VIX20日下行15% -> 做多SPY 20日",
+        "event_count": 106,
+        "baseline_count": 208,
+        "win_rate": "68.87%",
+        "baseline_win_rate": "64.42%",
+        "excess_win_rate_pp": "+4.44pp",
+        "robustness_pass_rate": "88.89%",
+        "subperiod_positive_rate": "75.00%",
+        "max_drawdown": "-15.92%",
+        "sample_range": "2010-02-22 - 2026-05-01",
+        "decision": "shadow_candidate",
+        "permission": "draft validation only; no trigger/position/risk_gate"
+      }
+    ],
+    "watchlist": [
+      {
+        "factor_id": "factor.bond.macro_growth_inflation",
+        "factor_name": "增长和通胀共同决定债券利率方向",
+        "target_proxy": "Wind CBA00101.CS",
+        "test_name": "PMI扩张+CPI/PPI上行 -> 做空/降低中债总财富指数 60日",
+        "event_count": 25,
+        "baseline_count": 66,
+        "win_rate": "32.00%",
+        "baseline_win_rate": "16.67%",
+        "excess_win_rate_pp": "+15.33pp",
+        "robustness_pass_rate": "0.00%",
+        "subperiod_positive_rate": "0.00%",
+        "max_drawdown": "-21.52%",
+        "sample_range": "2010-04-30 - 2024-04-01",
+        "decision": "watch_low_sample",
+        "permission": "draft validation only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.bond.policy_easing_window",
+        "factor_name": "低CPI、地产未稳、政府债/MLF高峰共同打开宽松窗口",
+        "target_proxy": "Wind CBA00101.CS",
+        "test_name": "低CPI+弱PMI -> 做多中债总财富指数 60日",
+        "event_count": 12,
+        "baseline_count": 66,
+        "win_rate": "91.67%",
+        "baseline_win_rate": "80.30%",
+        "excess_win_rate_pp": "+11.36pp",
+        "robustness_pass_rate": "0.00%",
+        "subperiod_positive_rate": "25.00%",
+        "max_drawdown": "-0.03%",
+        "sample_range": "2015-02-02 - 2026-02-02",
+        "decision": "watch_low_sample",
+        "permission": "draft validation only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.bond.policy_easing_window.enhanced",
+        "factor_name": "宽松窗口增强版：低通胀+地产弱+供给/MLF压力",
+        "target_proxy": "Wind CBA00101.CS",
+        "test_name": "低CPI+弱地产+流动性/供给压力 -> 做多中债总财富指数 60日",
+        "event_count": 10,
+        "baseline_count": 66,
+        "win_rate": "90.00%",
+        "baseline_win_rate": "80.30%",
+        "excess_win_rate_pp": "+9.70pp",
+        "robustness_pass_rate": "0.00%",
+        "subperiod_positive_rate": "25.00%",
+        "max_drawdown": "-0.81%",
+        "sample_range": "2023-06-30 - 2025-12-25",
+        "decision": "watch_low_sample",
+        "permission": "draft validation only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.risk.cross_asset_correlation",
+        "factor_name": "相关性危机削弱分散化",
+        "target_proxy": "Yahoo SPY",
+        "test_name": "跨资产相关性升高且SPY走弱 -> 做空SPY 20日",
+        "event_count": 11,
+        "baseline_count": 207,
+        "win_rate": "36.36%",
+        "baseline_win_rate": "28.02%",
+        "excess_win_rate_pp": "+8.34pp",
+        "robustness_pass_rate": "0.00%",
+        "subperiod_positive_rate": "0.00%",
+        "max_drawdown": "-35.22%",
+        "sample_range": "2022-06-15 - 2026-03-20",
+        "decision": "watch_low_sample",
+        "permission": "draft validation only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.hk.erp_weighted_rate",
+        "factor_name": "港股利率敏感代理",
+        "target_proxy": "2800.HK",
+        "test_name": "美10Y 20日下行20bp -> 做多2800.HK 20日",
+        "event_count": 78,
+        "baseline_count": 239,
+        "win_rate": "55.13%",
+        "baseline_win_rate": "48.95%",
+        "excess_win_rate_pp": "+6.17pp",
+        "robustness_pass_rate": "77.78%",
+        "subperiod_positive_rate": "25.00%",
+        "max_drawdown": "-29.52%",
+        "sample_range": "2010-02-04 - 2026-02-13",
+        "decision": "watchlist",
+        "permission": "draft public-proxy validation only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.macro.growth_momentum",
+        "factor_name": "权益趋势动量",
+        "target_proxy": "SPY",
+        "test_name": "SPY60日上涨5% -> 做多SPY 20日",
+        "event_count": 125,
+        "baseline_count": 206,
+        "win_rate": "67.20%",
+        "baseline_win_rate": "64.08%",
+        "excess_win_rate_pp": "+3.12pp",
+        "robustness_pass_rate": "33.33%",
+        "subperiod_positive_rate": "75.00%",
+        "max_drawdown": "-22.14%",
+        "sample_range": "2010-04-13 - 2026-05-28",
+        "decision": "watchlist",
+        "permission": "draft validation only; no trigger/position/risk_gate"
+      }
+    ],
+    "degraded": [
+      {
+        "factor_id": "factor.macro.inflation_pressure",
+        "factor_name": "油价上行与债券压力",
+        "target_proxy": "TLT_short",
+        "test_name": "WTI20日上涨10% -> 做空TLT 20日",
+        "event_count": 70,
+        "baseline_count": 208,
+        "win_rate": "55.71%",
+        "baseline_win_rate": "48.08%",
+        "excess_win_rate_pp": "+7.64pp",
+        "robustness_pass_rate": "55.56%",
+        "subperiod_positive_rate": "50.00%",
+        "max_drawdown": "-29.63%",
+        "sample_range": "2010-03-05 - 2026-05-12",
+        "decision": "degraded",
+        "permission": "draft validation only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.a_share.technical_timing_composite",
+        "factor_name": "多维技术指标可形成A股择时综合因子",
+        "target_proxy": "Wind 881001.WI",
+        "test_name": "万得全A趋势确认 -> 做多万得全A 20日",
+        "event_count": 79,
+        "baseline_count": 200,
+        "win_rate": "49.37%",
+        "baseline_win_rate": "57.00%",
+        "excess_win_rate_pp": "-7.63pp",
+        "robustness_pass_rate": "0.00%",
+        "subperiod_positive_rate": "75.00%",
+        "max_drawdown": "-48.82%",
+        "sample_range": "2010-08-17 - 2026-05-11",
+        "decision": "degraded",
+        "permission": "draft validation only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.semiconductor.cross_market_confirmation",
+        "factor_name": "SOX/SMH与A股半导体可做跨市场趋势确认",
+        "target_proxy": "Wind 512480.SH",
+        "test_name": "SMH与A股半导体同向 -> 做多半导体ETF 20日",
+        "event_count": 56,
+        "baseline_count": 85,
+        "win_rate": "50.00%",
+        "baseline_win_rate": "52.94%",
+        "excess_win_rate_pp": "-2.94pp",
+        "robustness_pass_rate": "0.00%",
+        "subperiod_positive_rate": "75.00%",
+        "max_drawdown": "-48.92%",
+        "sample_range": "2019-07-12 - 2026-05-14",
+        "decision": "degraded",
+        "permission": "draft validation only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.macro.ai_technology_cycle",
+        "factor_name": "AI科技周期价格代理",
+        "target_proxy": "SMH",
+        "test_name": "SMH 60日上涨10% -> 做多SMH 20日",
+        "event_count": 112,
+        "baseline_count": 237,
+        "win_rate": "61.61%",
+        "baseline_win_rate": "63.71%",
+        "excess_win_rate_pp": "-2.11pp",
+        "robustness_pass_rate": "11.11%",
+        "subperiod_positive_rate": "50.00%",
+        "max_drawdown": "-38.19%",
+        "sample_range": "2010-04-13 - 2026-05-27",
+        "decision": "degraded",
+        "permission": "draft public-proxy validation only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.a_share.crowding",
+        "factor_name": "A股成长/主题交易拥挤过热",
+        "target_proxy": "159915.SZ",
+        "test_name": "Wind 159915 动量+换手高分位 -> 做空159915 20日",
+        "event_count": 46,
+        "baseline_count": 163,
+        "win_rate": "36.96%",
+        "baseline_win_rate": "48.47%",
+        "excess_win_rate_pp": "-11.51pp",
+        "robustness_pass_rate": "0.00%",
+        "subperiod_positive_rate": "0.00%",
+        "max_drawdown": "-90.81%",
+        "sample_range": "2012-12-25 - 2026-05-27",
+        "decision": "degraded",
+        "permission": "draft Wind validation only; no trigger/position/risk_gate"
+      }
+    ],
+    "data_blocked": [
+      {
+        "factor_id": "factor.bond.futures_hedge_trigger",
+        "factor_name": "国债期货久期风险对冲触发",
+        "decision": "data_blocked",
+        "reason": "data blocked; observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.a_share.valuation_erp",
+        "factor_name": "A股估值与ERP赔率",
+        "decision": "data_blocked",
+        "reason": "data blocked; observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.a_share.defensive_style",
+        "factor_name": "A股防御风格领先",
+        "decision": "data_blocked",
+        "reason": "data blocked; observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.a_share.cross_section_dispersion",
+        "factor_name": "横截面分散度与选股机会",
+        "decision": "data_blocked",
+        "reason": "data blocked; observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.bond.credit_spread_pressure",
+        "factor_name": "信用利差压力",
+        "decision": "data_blocked",
+        "reason": "data blocked; observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.treasury_futures.technical_trend",
+        "factor_name": "国债期货技术趋势",
+        "decision": "data_blocked",
+        "reason": "data blocked; observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.treasury_futures.basis_irr",
+        "factor_name": "IRR与基差期现套利",
+        "decision": "data_blocked",
+        "reason": "data blocked; observe_only; no trigger/position/risk_gate"
+      },
+      {
+        "factor_id": "factor.hk.southbound_pricing_power",
+        "factor_name": "南向资金定价权",
+        "decision": "data_blocked",
+        "reason": "data blocked; observe_only; no trigger/position/risk_gate"
+      }
+    ]
+  },
+  "portfolio_tracking": {
+    "status": "ok",
+    "run_id": "79a36ed4-312e-4cdd-b9f7-7ef6db013827",
+    "paper_nav": 100.0,
+    "paper_cash_weight": 1.0,
+    "csi300_nav": 97.306315,
+    "account_mix_nav": 95.65316,
+    "opportunity_cost_vs_csi300": -0.026937,
+    "opportunity_cost_vs_account_mix": -0.043468,
+    "scored_recommendations": 1,
+    "positive_recommendations": 1,
+    "provisional_directional_hit_rate": 1.0,
+    "closed_recommendations": 0,
+    "closed_positive_recommendations": 0,
+    "directional_hit_rate": null,
+    "horizon_attribution_counts": {
+      "5": 1,
+      "20": 0,
+      "60": 0
+    },
+    "horizon_attribution_positive_counts": {
+      "5": 0,
+      "20": 0,
+      "60": 0
+    },
+    "horizon_attribution_total": 1,
+    "trading_calendar_method": "Wind observed China trading sessions; current day counts only after 15:00 Asia/Shanghai",
+    "permission": "paper_only / benchmark_only；真实账户金额不公开"
+  },
+  "portfolio_risk": {
+    "status": "ok",
+    "run_id": "79a36ed4-312e-4cdd-b9f7-7ef6db013827",
+    "risk_level": "elevated",
+    "tech_growth_exposure": 0.466404,
+    "commodity_cycle_exposure": 0.22019,
+    "cash_weight": 0.313405,
+    "effective_position_count": 4.54362,
+    "invested_effective_position_count": 3.868286,
+    "weighted_correlation_60d": 0.335659,
+    "annualized_volatility_60d": 0.237107,
+    "historical_var95_60d": 0.02233,
+    "historical_cvar95_60d": 0.02725,
+    "worst_stress_scenario": "broad_risk_off",
+    "worst_stress_return": -0.137204,
+    "data_rating": "B",
+    "lookthrough_coverage": "3/6",
+    "permission": "observe_only；不直接生成加减仓动作"
+  },
+  "factor_validation_registry": {
+    "status": "ok",
+    "policy_version": "formal_candidate_policy_v1",
+    "run_count": 3,
+    "experiment_count": 12,
+    "decision_counts": {
+      "full_baseline_insufficient_sample": 4,
+      "full_baseline_degraded": 3,
+      "blocked_insufficient_point_in_time_history": 1,
+      "full_validation_insufficient_sample": 3,
+      "full_validation_degraded": 1
+    },
+    "shadow_eligible": 0,
+    "formal_eligible": 0,
+    "validated_candidates": 12,
+    "next_validation_queue_count": 12,
+    "total_funnel_items": 24,
+    "formal_registry_write_allowed": false,
+    "next_validation_queue": [
+      {
+        "rank": 1,
+        "factor_id": "factor.gold.central_bank_demand",
+        "factor_name": "央行购金提供黄金长期需求支撑",
+        "readiness_level": "A_public_data_smoke_test_possible",
+        "selection_score": 86.25,
+        "permission": "candidate_only"
+      },
+      {
+        "rank": 2,
+        "factor_id": "factor.gold.etf_futures_flow",
+        "factor_name": "黄金ETF和期货资金流影响短中期金价",
+        "readiness_level": "A_public_data_smoke_test_possible",
+        "selection_score": 85.25,
+        "permission": "candidate_only"
+      },
+      {
+        "rank": 3,
+        "factor_id": "factor.gold.debt_geo_anchor",
+        "factor_name": "黄金债务-地缘双锚解释2022后金价",
+        "readiness_level": "A_public_data_smoke_test_possible",
+        "selection_score": 85.0,
+        "permission": "candidate_only"
+      },
+      {
+        "rank": 4,
+        "factor_id": "factor.gold.usd_real_rate_regime",
+        "factor_name": "美元和实际利率仍是黄金机会成本因子但需regime化",
+        "readiness_level": "A_public_data_smoke_test_possible",
+        "selection_score": 85.0,
+        "permission": "candidate_only"
+      },
+      {
+        "rank": 5,
+        "factor_id": "factor.macro.growth_momentum",
+        "factor_name": "增长因子衡量全球经济扩张或收缩",
+        "readiness_level": "A_public_data_smoke_test_possible",
+        "selection_score": 85.0,
+        "permission": "candidate_only"
+      },
+      {
+        "rank": 6,
+        "factor_id": "factor.macro.inflation_pressure",
+        "factor_name": "通胀因子通过政策和实际利率传导",
+        "readiness_level": "A_public_data_smoke_test_possible",
+        "selection_score": 84.75,
+        "permission": "candidate_only"
+      },
+      {
+        "rank": 7,
+        "factor_id": "factor.macro.risk_appetite",
+        "factor_name": "风险偏好决定跨资产资金流",
+        "readiness_level": "A_public_data_smoke_test_possible",
+        "selection_score": 84.5,
+        "permission": "candidate_only"
+      },
+      {
+        "rank": 8,
+        "factor_id": "factor.macro.fiat_credit",
+        "factor_name": "法币信用压力解释黄金和硬资产长期重估",
+        "readiness_level": "A_public_data_smoke_test_possible",
+        "selection_score": 83.0,
+        "permission": "candidate_only"
+      },
+      {
+        "rank": 9,
+        "factor_id": "factor.bond.macro_growth_inflation",
+        "factor_name": "增长和通胀共同决定债券利率方向",
+        "readiness_level": "A_public_data_smoke_test_possible",
+        "selection_score": 81.0,
+        "permission": "candidate_only"
+      },
+      {
+        "rank": 10,
+        "factor_id": "factor.a_share.technical_timing_composite",
+        "factor_name": "多维技术指标可形成A股择时综合因子",
+        "readiness_level": "B_wind_ifind_history_required",
+        "selection_score": 77.5,
+        "permission": "candidate_only"
+      },
+      {
+        "rank": 11,
+        "factor_id": "factor.risk.short_term_external_pressure",
+        "factor_name": "美债、纳指、人民币和广度构成A股短线外部压力",
+        "readiness_level": "B_wind_ifind_history_required",
+        "selection_score": 74.75,
+        "permission": "candidate_only"
+      },
+      {
+        "rank": 12,
+        "factor_id": "factor.bond.duration_odds",
+        "factor_name": "低利率阶段债券久期赔率下降",
+        "readiness_level": "B_wind_ifind_history_required",
+        "selection_score": 72.0,
+        "permission": "candidate_only"
+      }
+    ],
+    "permission": "observe_only / candidate_only；0 个自动 formal apply"
+  },
+  "runtime_evidence": {
+    "status": "ok",
+    "required": true,
+    "run_id": "79a36ed4-312e-4cdd-b9f7-7ef6db013827",
+    "slot": "15:30",
+    "generated_at": "2026-07-13T15:32:56.759279+08:00",
+    "evidence_cutoff_at": "2026-07-13T15:30:00+08:00",
+    "type_status": {
+      "announcement": "checked_zero",
+      "news": "covered",
+      "research": "covered"
+    },
+    "fetch_integrity_pass": true,
+    "evidence_sufficiency_pass": true,
+    "point_in_time_pass": true,
+    "provenance_pass": true,
+    "schema_validation_pass": true,
+    "chain_consistent": true,
+    "final_permission_gate_pass": true,
+    "permission": "evidence_only / observe_only",
+    "privacy_note": "仅公开粗粒度状态；精确数量、持仓标识、查询词、标题、摘要、路径和原始响应只在本地留存。"
+  },
+  "automation_schedule": {
+    "date": "2026-07-13",
+    "session": "08:30-15:30",
+    "last_updated": "2026-07-13 15:33:15",
+    "refresh_seconds": 60,
+    "permission": "数据观察 / shadow only",
+    "note": "每个时点运行后，只覆盖该行的状态、结果、权限结论、风险复核和记录链接；未运行时保持未开始。",
+    "slots": [
+      {
+        "time": "08:30",
+        "stage": "盘前框架预测",
+        "owner": "V2总控",
+        "status": "done",
+        "scope": "隔夜宏观、外围市场、昨日复盘、持仓暴露、今日风险预算",
+        "result": "市场状态：震荡分歧，风险灯 黄；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -%，上涨占比均值 -；数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；public_factor_data_refresh 取数failed；市场宽度或行业主线快照不完整",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=震荡分歧、持仓压力=单一主仓超过常规上限及证伪条件。",
+        "risk": "复核条件：主线成交和持仓相对强弱仍未同步改善，继续保持观察权限。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；public_factor_data_refresh 取数failed；市场宽度或行业主线快照不完整",
+        "need_user_confirm": false,
+        "file": "reports/2026-07-13_0830_cf509c2f-4127-4208-8e45-78f900c907b2.html",
+        "last_run_at": "2026-07-13 08:32:12",
+        "run_id": "cf509c2f-4127-4208-8e45-78f900c907b2",
+        "data_rating": "C",
+        "decision_trace_status": "complete",
+        "subagent_input_count": 0
+      },
+      {
+        "time": "09:30",
+        "stage": "开盘确认",
+        "owner": "V2总控",
+        "status": "done",
+        "scope": "开盘强弱、主线确认、持仓跳空、异常波动",
+        "result": "市场状态：震荡分歧，风险灯 黄；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -%，上涨占比均值 -；数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=震荡分歧、持仓压力=单一主仓超过常规上限及证伪条件。",
+        "risk": "复核条件：主线成交和持仓相对强弱仍未同步改善，继续保持观察权限。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "need_user_confirm": false,
+        "file": "reports/2026-07-13_0930_7a9ba5ca-9d83-47a6-9938-eb6f4a874162.html",
+        "last_run_at": "2026-07-13 09:33:08",
+        "run_id": "7a9ba5ca-9d83-47a6-9938-eb6f4a874162",
+        "data_rating": "C",
+        "decision_trace_status": "complete",
+        "subagent_input_count": 0
+      },
+      {
+        "time": "10:30",
+        "stage": "第一小时复核",
+        "owner": "V2总控",
+        "status": "done",
+        "scope": "成交放大、板块轮动、持仓相对强弱、候选方向变化",
+        "result": "市场状态：震荡分歧，风险灯 黄；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -%，上涨占比均值 -；数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=震荡分歧、持仓压力=单一主仓超过常规上限及证伪条件。",
+        "risk": "复核条件：主线成交和持仓相对强弱仍未同步改善，继续保持观察权限。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "need_user_confirm": false,
+        "file": "reports/2026-07-13_1030_145eb501-2b1b-487c-aaa1-c4e18995f01e.html",
+        "last_run_at": "2026-07-13 10:33:48",
+        "run_id": "145eb501-2b1b-487c-aaa1-c4e18995f01e",
+        "data_rating": "C",
+        "decision_trace_status": "complete",
+        "subagent_input_count": 0
+      },
+      {
+        "time": "11:30",
+        "stage": "午前复核",
+        "owner": "V2总控",
+        "status": "done",
+        "scope": "上午信号汇总、午后可能变化、是否需要预案",
+        "result": "市场状态：震荡分歧，风险灯 黄；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -%，上涨占比均值 -；数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=震荡分歧、持仓压力=单一主仓超过常规上限及证伪条件。",
+        "risk": "复核条件：主线成交和持仓相对强弱仍未同步改善，继续保持观察权限。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "need_user_confirm": false,
+        "file": "reports/2026-07-13_1130_d9941270-66f3-4d1a-9d20-f2e812a96d84.html",
+        "last_run_at": "2026-07-13 11:33:02",
+        "run_id": "d9941270-66f3-4d1a-9d20-f2e812a96d84",
+        "data_rating": "C",
+        "decision_trace_status": "complete",
+        "subagent_input_count": 0
+      },
+      {
+        "time": "13:30",
+        "stage": "午后开盘复核",
+        "owner": "V2总控",
+        "status": "done",
+        "scope": "午后资金方向、主线延续或切换、早盘结论是否失效",
+        "result": "市场状态：震荡分歧，风险灯 黄；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -%，上涨占比均值 -；数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=震荡分歧、持仓压力=单一主仓超过常规上限及证伪条件。",
+        "risk": "复核条件：主线成交和持仓相对强弱仍未同步改善，继续保持观察权限。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "need_user_confirm": false,
+        "file": "reports/2026-07-13_1330_172f08f3-b213-4f23-afe4-1eeca4a1a08e.html",
+        "last_run_at": "2026-07-13 13:33:50",
+        "run_id": "172f08f3-b213-4f23-afe4-1eeca4a1a08e",
+        "data_rating": "C",
+        "decision_trace_status": "complete",
+        "subagent_input_count": 0
+      },
+      {
+        "time": "14:30",
+        "stage": "尾盘预案",
+        "owner": "V2总控",
+        "status": "done",
+        "scope": "尾盘加减仓条件、持仓风险、次日隔夜风险",
+        "result": "市场状态：震荡分歧，风险灯 黄；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -%，上涨占比均值 -；数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=震荡分歧、持仓压力=单一主仓超过常规上限及证伪条件。",
+        "risk": "复核条件：主线成交和持仓相对强弱仍未同步改善，继续保持观察权限。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：P0 快照缺少 source_as_of，无法证明来源时间；情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；市场宽度或行业主线快照不完整",
+        "need_user_confirm": false,
+        "file": "reports/2026-07-13_1430_d1150ea7-414f-4bb6-a046-d5e834f75d16.html",
+        "last_run_at": "2026-07-13 14:32:46",
+        "run_id": "d1150ea7-414f-4bb6-a046-d5e834f75d16",
+        "data_rating": "C",
+        "decision_trace_status": "complete",
+        "subagent_input_count": 0
+      },
+      {
+        "time": "15:30",
+        "stage": "收盘复盘",
+        "owner": "V2总控",
+        "status": "done",
+        "scope": "全天结论、因子表现、持仓影响、明日观察清单",
+        "result": "市场状态：防守优先，风险灯 红；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -3.51%，上涨占比均值 17.68%；数据限制：情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；public_factor_data_refresh 取数failed",
+        "action": "permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=防守优先、持仓压力=成长仓风险偏高及证伪条件。",
+        "risk": "证伪条件：宽基继续下破且上涨占比低于 40%，当前进攻叙事失效。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 数据限制：情绪数据过期（as_of=2026-07-10），已禁止参与风险评分；Shadow 数据 3 条过期（latest=2026-07-09），已禁止触发；持仓口径距本次运行 7 天，动作前必须用户重新确认；ifind_sentiment_fallback 取数failed；public_factor_data_refresh 取数failed",
+        "need_user_confirm": false,
+        "file": "reports/2026-07-13_1530_79a36ed4-312e-4cdd-b9f7-7ef6db013827.html",
+        "last_run_at": "2026-07-13 15:33:15",
+        "run_id": "79a36ed4-312e-4cdd-b9f7-7ef6db013827",
+        "data_rating": "B",
+        "decision_trace_status": "complete",
+        "subagent_input_count": 0
+      }
+    ]
+  },
+  "action_queue": [],
+  "data_layer": {
+    "run_id": "v2_data_layer_coverage_20260713_153309",
+    "as_of_date": "20260713",
+    "coverage_rows": 1264,
+    "current": 82,
+    "stale": 1182,
+    "rating_a": 1260,
+    "provider_top": [
+      [
+        "Wind",
+        1177
+      ],
+      [
+        "Local Derived",
+        52
+      ],
+      [
+        "Yahoo Finance",
+        13
+      ],
+      [
+        "FRED",
+        9
+      ],
+      [
+        "iFind",
+        7
+      ],
+      [
+        "华泰智研MCP数据服务",
+        6
+      ]
+    ],
+    "watchlist_top": [
+      {
+        "covered_dataset_id": "wind_edb__edb_china_10y_gov_yield",
+        "provider": "Wind",
+        "dataset_type": "edb_long",
+        "end_date": "20260630",
+        "age_days": 13,
+        "data_rating": "A",
+        "missing_items": "stale_by_6d",
+        "decision_use_scope": "research_support"
+      },
+      {
+        "covered_dataset_id": "wind_edb__edb_china_30y_treasury_yield",
+        "provider": "Wind",
+        "dataset_type": "edb_long",
+        "end_date": "20260630",
+        "age_days": 13,
+        "data_rating": "A",
+        "missing_items": "stale_by_6d",
+        "decision_use_scope": "research_support"
+      },
+      {
+        "covered_dataset_id": "wind_edb__edb_dr007",
+        "provider": "Wind",
+        "dataset_type": "edb_long",
+        "end_date": "20260630",
+        "age_days": 13,
+        "data_rating": "A",
+        "missing_items": "stale_by_6d",
+        "decision_use_scope": "research_support"
+      },
+      {
+        "covered_dataset_id": "wind_edb__edb_r007",
+        "provider": "Wind",
+        "dataset_type": "edb_long",
+        "end_date": "20260630",
+        "age_days": 13,
+        "data_rating": "A",
+        "missing_items": "stale_by_6d",
+        "decision_use_scope": "research_support"
+      },
+      {
+        "covered_dataset_id": "wind_kline__CBA00101_CS",
+        "provider": "Wind",
+        "dataset_type": "kline_daily",
+        "end_date": "20260630",
+        "age_days": 13,
+        "data_rating": "A",
+        "missing_items": "stale_by_6d",
+        "decision_use_scope": "research_support"
+      }
+    ],
+    "permission_note": "QA/backtest/shadow only; no trading, sizing or risk-control permission."
+  },
+  "registry": {
+    "draft_factors": 104,
+    "draft_signals": 45,
+    "draft_rules": 21,
+    "draft_backtests": 41,
+    "source_index": 47,
+    "factor_review_queue": 104,
+    "formal_factors": 0,
+    "formal_signals": 0,
+    "formal_rules": 0,
+    "permission": "draft / shadow / watch 不进入 trigger / position / risk_gate"
+  },
+  "shadow": {
+    "status": "数据需复核",
+    "total": 3,
+    "triggered": 0,
+    "drift": 3,
+    "permission": "shadow only；active=0 / trigger=0 / position=0 / risk_gate=0",
+    "items": [
+      {
+        "factor": "实际利率短周期下行与黄金",
+        "target": "GLD",
+        "permission": "shadow_scoring",
+        "triggered": false
+      },
+      {
+        "factor": "VIX下行与风险偏好改善",
+        "target": "SPY",
+        "permission": "shadow_scoring",
+        "triggered": true
+      },
+      {
+        "factor": "利率缓和与成长资产代理",
+        "target": "159915.SZ",
+        "permission": "shadow_scoring",
+        "triggered": false
+      }
+    ]
+  },
+  "report_center": {
+    "latest_completed_date": "2026-07-13",
+    "latest": [
+      {
+        "date": "2026-07-13",
+        "time": "15:30",
+        "run_id": "79a36ed4-312e-4cdd-b9f7-7ef6db013827",
+        "title": "2026-07-13 15:30 收盘复盘摘要",
+        "file": "reports/2026-07-13_1530_79a36ed4-312e-4cdd-b9f7-7ef6db013827.html",
+        "mtime": "2026-07-13 15:33:15"
+      },
+      {
+        "date": "2026-07-13",
+        "time": "14:30",
+        "run_id": "d1150ea7-414f-4bb6-a046-d5e834f75d16",
+        "title": "2026-07-13 14:30 尾盘预案摘要",
+        "file": "reports/2026-07-13_1430_d1150ea7-414f-4bb6-a046-d5e834f75d16.html",
+        "mtime": "2026-07-13 14:32:46"
+      },
+      {
+        "date": "2026-07-13",
+        "time": "13:30",
+        "run_id": "172f08f3-b213-4f23-afe4-1eeca4a1a08e",
+        "title": "2026-07-13 13:30 午后开盘复核摘要",
+        "file": "reports/2026-07-13_1330_172f08f3-b213-4f23-afe4-1eeca4a1a08e.html",
+        "mtime": "2026-07-13 13:33:50"
+      },
+      {
+        "date": "2026-07-13",
+        "time": "11:30",
+        "run_id": "d9941270-66f3-4d1a-9d20-f2e812a96d84",
+        "title": "2026-07-13 11:30 午前复核摘要",
+        "file": "reports/2026-07-13_1130_d9941270-66f3-4d1a-9d20-f2e812a96d84.html",
+        "mtime": "2026-07-13 11:33:02"
+      },
+      {
+        "date": "2026-07-13",
+        "time": "10:30",
+        "run_id": "145eb501-2b1b-487c-aaa1-c4e18995f01e",
+        "title": "2026-07-13 10:30 第一小时复核摘要",
+        "file": "reports/2026-07-13_1030_145eb501-2b1b-487c-aaa1-c4e18995f01e.html",
+        "mtime": "2026-07-13 10:33:48"
+      },
+      {
+        "date": "2026-07-13",
+        "time": "09:30",
+        "run_id": "7a9ba5ca-9d83-47a6-9938-eb6f4a874162",
+        "title": "2026-07-13 09:30 开盘确认摘要",
+        "file": "reports/2026-07-13_0930_7a9ba5ca-9d83-47a6-9938-eb6f4a874162.html",
+        "mtime": "2026-07-13 09:33:08"
+      },
+      {
+        "date": "2026-07-13",
+        "time": "08:30",
+        "run_id": "cf509c2f-4127-4208-8e45-78f900c907b2",
+        "title": "2026-07-13 08:30 盘前框架预测摘要",
+        "file": "reports/2026-07-13_0830_cf509c2f-4127-4208-8e45-78f900c907b2.html",
+        "mtime": "2026-07-13 08:32:12"
+      },
+      {
+        "date": "2026-07-10",
+        "time": "15:30",
+        "run_id": "ba56a156-d1c4-4417-913a-f3e52f3d263d",
+        "title": "2026-07-10 15:30 收盘复盘摘要",
+        "file": "reports/2026-07-10_1530_ba56a156-d1c4-4417-913a-f3e52f3d263d.html",
+        "mtime": "2026-07-10 20:14:59"
+      },
+      {
+        "date": "2026-07-10",
+        "time": "15:30",
+        "run_id": "30dbc1f2-1e63-4c5f-a222-41b69d832c04",
+        "title": "2026-07-10 15:30 收盘复盘摘要",
+        "file": "reports/2026-07-10_1530_30dbc1f2-1e63-4c5f-a222-41b69d832c04.html",
+        "mtime": "2026-07-10 21:51:40"
+      },
+      {
+        "date": "2026-07-10",
+        "time": "15:30",
+        "run_id": "0c67f59c-b178-454f-b6de-4f0693104b20",
+        "title": "2026-07-10 15:30 收盘复盘摘要",
+        "file": "reports/2026-07-10_1530_0c67f59c-b178-454f-b6de-4f0693104b20.html",
+        "mtime": "2026-07-10 19:30:57"
+      },
+      {
+        "date": "2026-07-10",
+        "time": "14:30",
+        "run_id": "",
+        "title": "2026-07-10 14:30 尾盘预案摘要",
+        "file": "reports/2026-07-10_1430.html",
+        "mtime": "2026-07-10 14:57:25"
+      },
+      {
+        "date": "2026-07-10",
+        "time": "13:30",
+        "run_id": "",
+        "title": "2026-07-10 13:30 午后开盘复核摘要",
+        "file": "reports/2026-07-10_1330.html",
+        "mtime": "2026-07-10 13:33:03"
+      },
+      {
+        "date": "2026-07-10",
+        "time": "11:30",
+        "run_id": "",
+        "title": "2026-07-10 11:30 午前复核摘要",
+        "file": "reports/2026-07-10_1130.html",
+        "mtime": "2026-07-10 11:33:14"
+      },
+      {
+        "date": "2026-07-10",
+        "time": "10:30",
+        "run_id": "",
+        "title": "2026-07-10 10:30 第一小时复核摘要",
+        "file": "reports/2026-07-10_1030.html",
+        "mtime": "2026-07-10 10:34:06"
+      },
+      {
+        "date": "2026-07-10",
+        "time": "09:30",
+        "run_id": "",
+        "title": "2026-07-10 09:30 开盘确认摘要",
+        "file": "reports/2026-07-10_0930.html",
+        "mtime": "2026-07-10 09:32:23"
+      },
+      {
+        "date": "2026-07-10",
+        "time": "08:30",
+        "run_id": "",
+        "title": "2026-07-10 08:30 盘前框架预测摘要",
+        "file": "reports/2026-07-10_0830.html",
+        "mtime": "2026-07-10 08:32:18"
+      },
+      {
+        "date": "2026-07-09",
+        "time": "15:30",
+        "run_id": "",
+        "title": "2026-07-09 15:30 收盘复盘摘要",
+        "file": "reports/2026-07-09_1530.html",
+        "mtime": "2026-07-09 15:32:30"
+      },
+      {
+        "date": "2026-07-09",
+        "time": "14:30",
+        "run_id": "",
+        "title": "2026-07-09 14:30 尾盘预案摘要",
+        "file": "reports/2026-07-09_1430.html",
+        "mtime": "2026-07-09 14:32:31"
+      }
+    ],
+    "groups": [
+      {
+        "date": "2026-07-13",
+        "count": 7
+      },
+      {
+        "date": "2026-07-10",
+        "count": 9
+      },
+      {
+        "date": "2026-07-09",
+        "count": 7
+      },
+      {
+        "date": "2026-07-08",
+        "count": 7
+      },
+      {
+        "date": "2026-07-07",
+        "count": 7
+      }
+    ]
+  },
+  "governance": {
+    "status": "试运行 / 研究可放开 / 交易不放开",
+    "gates": [
+      "Run Contract 必须先生成 run_id、data_rating、position_source、decision_permission。",
+      "draft / shadow / watch / watch_low_sample 不进入 trigger / position / risk_gate。",
+      "subagent 只能 observe_only / candidate_only，write_request 默认为 none。",
+      "行业主线与股票池只进入 Domain Layer / Strategy Support / Risk Layer。",
+      "没有用户确认，不得把建议动作写成已执行。"
+    ],
+    "docs": [
+      {
+        "label": "总索引",
+        "path": "00_入口与总纲/Investment_OS_V2/00_总索引.md"
+      },
+      {
+        "label": "Run Contract",
+        "path": "00_入口与总纲/Investment_OS_V2/03_Run_Contract_执行合约.md"
+      },
+      {
+        "label": "受控 Subagent",
+        "path": "00_入口与总纲/Investment_OS_V2/12_受控Subagent机制.md"
+      },
+      {
+        "label": "行业主线与股票池",
+        "path": "00_入口与总纲/Investment_OS_V2/13_行业主线与股票池管理系统.md"
+      }
+    ]
+  },
+  "local_outputs": {
+    "daily_root": "投资框架v2/01_日常运行",
+    "pre_market": "投资框架v2/01_日常运行/盘前",
+    "intraday": "投资框架v2/01_日常运行/盘中",
+    "post_market": "投资框架v2/01_日常运行/盘后",
+    "action_cards": "投资框架v2/01_日常运行/动作卡",
+    "run_stats": "投资框架v2/01_日常运行/运行统计"
+  }
+}

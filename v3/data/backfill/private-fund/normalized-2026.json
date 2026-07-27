@@ -1,0 +1,372 @@
+{
+  "schemaVersion": "0.1",
+  "startDate": "2026-01-01",
+  "endDate": "2026-07-27",
+  "generatedAt": "2026-07-27T05:03:42.480436+08:00",
+  "sourceSnapshot": "v1/陕西省证券私募日报v1/data/security-private-fund-daily-2026-07-24.json",
+  "sourceReportDate": "2026-07-24",
+  "coverage": {
+    "status": "PRODUCTS_COMPLETE_CANCELLATIONS_LIMITED",
+    "productCount": 30,
+    "territorialProductCount": 29,
+    "relatedProductCount": 1,
+    "newManagerCount": 0,
+    "cancellationCount": 2,
+    "yearCancellationDetailChecked": 600,
+    "yearCancellationDetailTotal": 647,
+    "limitHit": true
+  },
+  "products": [
+    {
+      "fundNo": "SBUD35",
+      "fundName": "九和岛木卫三私募证券投资基金",
+      "managerName": "陕西九和岛基金管理有限公司",
+      "custodian": "中信建投证券股份有限公司",
+      "filingDate": "2026-04-17",
+      "establishDate": "2026-04-08",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604171541104361.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SBTA04",
+      "fundName": "九和岛廷晟量化一号私募证券投资基金",
+      "managerName": "陕西九和岛基金管理有限公司",
+      "custodian": "国泰海通证券股份有限公司",
+      "filingDate": "2026-04-20",
+      "establishDate": "2026-04-15",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604201551104119.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SBTU04",
+      "fundName": "九和岛宏道原宏观多策略私募证券投资基金",
+      "managerName": "陕西九和岛基金管理有限公司",
+      "custodian": "光大证券股份有限公司",
+      "filingDate": "2026-04-21",
+      "establishDate": "2026-03-26",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604211116107985.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SBWC72",
+      "fundName": "九和岛岩川私募证券投资基金",
+      "managerName": "陕西九和岛基金管理有限公司",
+      "custodian": "华泰证券股份有限公司",
+      "filingDate": "2026-04-21",
+      "establishDate": "2026-04-16",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604211116106643.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SBUL97",
+      "fundName": "滨利汉威丰沛5号私募证券投资基金",
+      "managerName": "深圳市滨利投资管理有限公司",
+      "custodian": "兴业证券股份有限公司",
+      "filingDate": "2026-04-23",
+      "establishDate": "2026-04-10",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604222017109324.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SBVT15",
+      "fundName": "九和岛传承一号私募证券投资基金",
+      "managerName": "陕西九和岛基金管理有限公司",
+      "custodian": "国信证券股份有限公司",
+      "filingDate": "2026-04-23",
+      "establishDate": "2026-04-20",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604231728101822.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SBVW55",
+      "fundName": "抱朴指增精选FOF壹号私募证券投资基金",
+      "managerName": "深圳抱朴容易私募证券基金管理有限公司",
+      "custodian": "国泰海通证券股份有限公司",
+      "filingDate": "2026-04-23",
+      "establishDate": "2026-04-15",
+      "universeTier": "PF2",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604231728104441.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SADY26",
+      "fundName": "景弘金选私募证券投资基金",
+      "managerName": "西安景弘基金管理有限公司",
+      "custodian": "中信证券股份有限公司",
+      "filingDate": "2026-04-30",
+      "establishDate": "2026-04-27",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604301825102425.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SBTT86",
+      "fundName": "乾元强因子1号私募证券投资基金",
+      "managerName": "深圳乾元资始私募证券基金管理有限公司",
+      "custodian": "财通证券股份有限公司",
+      "filingDate": "2026-05-08",
+      "establishDate": "2026-05-06",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2605081723104525.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SACS31",
+      "fundName": "霆云山远扬私募证券投资基金",
+      "managerName": "北京霆云山私募基金管理有限公司",
+      "custodian": "广发证券股份有限公司",
+      "filingDate": "2026-05-25",
+      "establishDate": "2026-05-12",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2605251716102949.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SAFK24",
+      "fundName": "蒲公英新视野私募证券投资基金",
+      "managerName": "西安蒲公英基金管理有限公司",
+      "custodian": "中信证券股份有限公司",
+      "filingDate": "2026-05-26",
+      "establishDate": "2026-04-29",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2605261618106987.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SAZW70",
+      "fundName": "景弘价值长赢六号私募证券投资基金",
+      "managerName": "西安景弘基金管理有限公司",
+      "custodian": "国泰海通证券股份有限公司",
+      "filingDate": "2026-06-02",
+      "establishDate": "2026-05-22",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606020829107542.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SBTU81",
+      "fundName": "蒙特卡罗远航5号私募证券投资基金",
+      "managerName": "西安蒙特卡罗基金管理有限公司",
+      "custodian": "中国银河证券股份有限公司",
+      "filingDate": "2026-06-02",
+      "establishDate": "2026-05-18",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606021006107262.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SAJL79",
+      "fundName": "蒙特卡罗恒泰聚盈1号私募证券投资基金",
+      "managerName": "西安蒙特卡罗基金管理有限公司",
+      "custodian": "招商证券股份有限公司",
+      "filingDate": "2026-06-03",
+      "establishDate": "2026-05-18",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606030942109185.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SALL69",
+      "fundName": "蒙特卡罗专享1号私募证券投资基金",
+      "managerName": "西安蒙特卡罗基金管理有限公司",
+      "custodian": "招商证券股份有限公司",
+      "filingDate": "2026-06-08",
+      "establishDate": "2026-05-26",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606081714124632.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SAEB19",
+      "fundName": "佑仓棋昭一号私募证券投资基金",
+      "managerName": "陕西佑仓资产管理有限公司",
+      "custodian": "华福证券股份有限公司",
+      "filingDate": "2026-06-10",
+      "establishDate": "2026-05-08",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606101857100711.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SANG03",
+      "fundName": "天辉炼金私募证券投资基金",
+      "managerName": "海南天辉私募基金管理有限公司",
+      "custodian": "招商证券股份有限公司",
+      "filingDate": "2026-06-10",
+      "establishDate": "2026-06-01",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606101448109486.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SBRJ52",
+      "fundName": "五牛基金8号私募证券投资基金",
+      "managerName": "五牛（海南）私募基金管理合伙企业（有限合伙）",
+      "custodian": "国元证券股份有限公司",
+      "filingDate": "2026-06-15",
+      "establishDate": "2026-06-01",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606151851101126.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SBSS20",
+      "fundName": "博成骏智私募证券投资基金",
+      "managerName": "西安博成基金管理有限公司",
+      "custodian": "华泰证券股份有限公司",
+      "filingDate": "2026-06-17",
+      "establishDate": "2026-06-01",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606171628104028.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SAVY00",
+      "fundName": "天勤汇理五号私募证券投资基金",
+      "managerName": "西安天勤汇理私募基金管理有限公司",
+      "custodian": "中信证券股份有限公司",
+      "filingDate": "2026-06-25",
+      "establishDate": "2026-06-10",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606251418104061.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SARL35",
+      "fundName": "路路金君合1号私募证券投资基金",
+      "managerName": "陕西路路金基金管理有限公司",
+      "custodian": "兴业证券股份有限公司",
+      "filingDate": "2026-06-26",
+      "establishDate": "2026-06-03",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606261718100244.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SAFD45",
+      "fundName": "沣相元亨私募证券投资基金",
+      "managerName": "西安沣相投资管理有限公司",
+      "custodian": "光大证券股份有限公司",
+      "filingDate": "2026-06-30",
+      "establishDate": "2026-06-03",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606301818100701.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SAQQ68",
+      "fundName": "瀛岳智升私募证券投资基金",
+      "managerName": "共青城瀛岳私募基金管理有限公司",
+      "custodian": "华泰证券股份有限公司",
+      "filingDate": "2026-07-01",
+      "establishDate": "2026-06-10",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607011338109145.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SAVM06",
+      "fundName": "天辉潮汐私募证券投资基金",
+      "managerName": "海南天辉私募基金管理有限公司",
+      "custodian": "招商证券股份有限公司",
+      "filingDate": "2026-07-01",
+      "establishDate": "2026-06-17",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607011926100346.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SBPG58",
+      "fundName": "九和岛荣成聚鑫2号私募证券投资基金",
+      "managerName": "陕西九和岛基金管理有限公司",
+      "custodian": "光大证券股份有限公司",
+      "filingDate": "2026-07-02",
+      "establishDate": "2026-06-10",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607021724102306.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SB6426",
+      "fundName": "玖润行业精选2号私募证券投资基金",
+      "managerName": "西安玖润投资管理有限公司",
+      "custodian": "中信建投证券股份有限公司",
+      "filingDate": "2026-07-07",
+      "establishDate": "2026-06-24",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607071514103769.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SBPV13",
+      "fundName": "禄格永兴2号私募证券投资基金",
+      "managerName": "陕西禄格私募基金管理有限公司",
+      "custodian": "中信证券股份有限公司",
+      "filingDate": "2026-07-08",
+      "establishDate": "2026-06-11",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607080903108151.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SANG14",
+      "fundName": "榴花卓越成长10号私募证券投资基金",
+      "managerName": "西安榴花私募基金管理有限公司",
+      "custodian": "招商证券股份有限公司",
+      "filingDate": "2026-07-09",
+      "establishDate": "2026-06-26",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607091456106673.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SBTH63",
+      "fundName": "滨利丰裕七号私募证券投资基金",
+      "managerName": "深圳市滨利投资管理有限公司",
+      "custodian": "中信建投证券股份有限公司",
+      "filingDate": "2026-07-13",
+      "establishDate": "2026-06-30",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607131647104329.html",
+      "sourceQuality": "official"
+    },
+    {
+      "fundNo": "SB2470",
+      "fundName": "西安曲江祥汇晨泽长盈私募证券投资基金",
+      "managerName": "西安曲江祥汇私募基金管理有限公司",
+      "custodian": "华泰证券股份有限公司",
+      "filingDate": "2026-07-16",
+      "establishDate": "2026-06-16",
+      "universeTier": "PF1",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607161430104661.html",
+      "sourceQuality": "official"
+    }
+  ],
+  "newManagers": [],
+  "cancellations": [
+    {
+      "managerName": "西安嘉泰基金管理有限公司",
+      "orgCode": "91610136MA6U4YEM91",
+      "cancelDate": "2026-03-02",
+      "cancelType": "主动注销",
+      "managerType": "私募证券投资基金管理人",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/cancelled/manager/1705311023107603.html",
+      "sourceQuality": "official"
+    },
+    {
+      "managerName": "深圳前海至道资本管理有限公司",
+      "orgCode": "91440300MA5DAQQ84R",
+      "cancelDate": "2026-06-22",
+      "cancelType": "主动注销",
+      "managerType": "私募证券投资基金管理人",
+      "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/cancelled/manager/1703181714104014.html",
+      "sourceQuality": "official"
+    }
+  ]
+}

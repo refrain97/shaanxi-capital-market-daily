@@ -1,0 +1,165 @@
+{
+  "generatedAt": "2026-07-13T04:56:01.801Z",
+  "queries": [
+    {
+      "requestedStage": "announcement",
+      "keyword": "主承销商",
+      "availablePages": 158,
+      "fetchedPages": 158,
+      "resultCapHit": false,
+      "matchedCount": 7
+    },
+    {
+      "requestedStage": "announcement",
+      "keyword": "债券承销",
+      "availablePages": 18,
+      "fetchedPages": 18,
+      "resultCapHit": false,
+      "matchedCount": 4
+    },
+    {
+      "requestedStage": "announcement",
+      "keyword": "财务顾问",
+      "availablePages": 155,
+      "fetchedPages": 155,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "announcement",
+      "keyword": "资产证券化",
+      "availablePages": 131,
+      "fetchedPages": 131,
+      "resultCapHit": false,
+      "matchedCount": 1
+    },
+    {
+      "requestedStage": "announcement",
+      "keyword": "上市辅导",
+      "availablePages": 91,
+      "fetchedPages": 91,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "change",
+      "keyword": "主承销商",
+      "availablePages": 20,
+      "fetchedPages": 20,
+      "resultCapHit": false,
+      "matchedCount": 1
+    },
+    {
+      "requestedStage": "change",
+      "keyword": "债券承销",
+      "availablePages": 6,
+      "fetchedPages": 6,
+      "resultCapHit": false,
+      "matchedCount": 1
+    },
+    {
+      "requestedStage": "change",
+      "keyword": "财务顾问",
+      "availablePages": 33,
+      "fetchedPages": 33,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "change",
+      "keyword": "资产证券化",
+      "availablePages": 33,
+      "fetchedPages": 33,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "change",
+      "keyword": "上市辅导",
+      "availablePages": 25,
+      "fetchedPages": 25,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "candidate",
+      "keyword": "主承销商",
+      "availablePages": 31,
+      "fetchedPages": 31,
+      "resultCapHit": false,
+      "matchedCount": 4
+    },
+    {
+      "requestedStage": "candidate",
+      "keyword": "债券承销",
+      "availablePages": 12,
+      "fetchedPages": 12,
+      "resultCapHit": false,
+      "matchedCount": 2
+    },
+    {
+      "requestedStage": "candidate",
+      "keyword": "财务顾问",
+      "availablePages": 73,
+      "fetchedPages": 73,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "candidate",
+      "keyword": "资产证券化",
+      "availablePages": 68,
+      "fetchedPages": 68,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "candidate",
+      "keyword": "上市辅导",
+      "availablePages": 44,
+      "fetchedPages": 44,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "award",
+      "keyword": "主承销商",
+      "availablePages": 35,
+      "fetchedPages": 35,
+      "resultCapHit": false,
+      "matchedCount": 2
+    },
+    {
+      "requestedStage": "award",
+      "keyword": "债券承销",
+      "availablePages": 13,
+      "fetchedPages": 13,
+      "resultCapHit": false,
+      "matchedCount": 4
+    },
+    {
+      "requestedStage": "award",
+      "keyword": "财务顾问",
+      "availablePages": 106,
+      "fetchedPages": 106,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "award",
+      "keyword": "资产证券化",
+      "availablePages": 89,
+      "fetchedPages": 89,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "award",
+      "keyword": "上市辅导",
+      "availablePages": 67,
+      "fetchedPages": 67,
+      "resultCapHit": false,
+      "matchedCount": 0
+    }
+  ]
+}

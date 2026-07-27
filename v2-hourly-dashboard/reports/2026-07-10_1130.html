@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2026-07-10 11:30 午前复核摘要</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f6f4;
+      --panel: #ffffff;
+      --line: #d9e0df;
+      --text: #1f2729;
+      --muted: #657175;
+      --green: #23725e;
+      --green-soft: #e7f2ee;
+      --amber: #9b6417;
+      --amber-soft: #f7ead6;
+      --red: #aa4037;
+      --red-soft: #f7e4e1;
+      --blue: #315f9e;
+      --blue-soft: #e9eff8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", sans-serif;
+      letter-spacing: 0;
+    }
+    main { max-width: 960px; margin: 0 auto; padding: 22px; }
+    .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 18px; }
+    h1 { margin: 0 0 8px; font-size: 24px; line-height: 1.25; }
+    h2 { margin: 22px 0 10px; font-size: 16px; line-height: 1.35; }
+    p, li { font-size: 14px; line-height: 1.75; }
+    ul { margin: 8px 0 0; padding-left: 20px; }
+    .meta { color: var(--muted); font-size: 13px; line-height: 1.6; display: flex; flex-wrap: wrap; gap: 8px 14px; }
+    .badge { display: inline-flex; align-items: center; min-height: 26px; padding: 4px 9px; border-radius: 999px; border: 1px solid var(--line); font-size: 12px; font-weight: 760; }
+    .badge.good { background: var(--green-soft); color: var(--green); border-color: #b9d9cf; }
+    .badge.warn { background: var(--amber-soft); color: var(--amber); border-color: #e4c895; }
+    .badge.bad { background: var(--red-soft); color: var(--red); border-color: #e1b2ad; }
+    a { color: var(--blue); font-weight: 740; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .callout { border: 1px solid #c6d5ec; background: var(--blue-soft); border-radius: 8px; padding: 12px; margin-top: 14px; color: #244b81; font-size: 14px; line-height: 1.7; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <h1>2026-07-10 11:30 午前复核摘要</h1>
+      <div class="meta">
+        <span>生成时间：2026-07-10 11:32:12</span>
+        <span>权限边界：数据观察 / shadow only</span>
+        <span class="badge good">风险灯：绿</span>
+      </div>
+
+      <h2>结论</h2>
+      <ul>
+        <li>市场状态：进攻观察，风险灯 绿；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 0.40%，上涨占比均值 75.44%；情绪：涨停 71、跌停 51、炸板 45；数据限制：3 个数据集 stale</li>
+      </ul>
+
+      <h2>需要操作</h2>
+      <ul>
+        <li>进攻观察：只在主线延续且持仓相对强时考虑小幅加仓预案，需用户确认；否则持有。</li>
+      </ul>
+
+      <h2>风险复核</h2>
+      <ul>
+        <li>失效条件：主线成交回落、炸板率抬升或宽基转负，则进攻预案取消。 持仓约束：单一主仓超过常规上限，核心主仓禁止新增，非核心加仓必须先过单标的上限检查。 数据限制：3 个数据集 stale</li>
+      </ul>
+
+      <h2>数据质量</h2>
+      <ul>
+        <li>coverage：1156/1159 current；stale 3</li>
+        <li>本轮取数：p0_snapshot=ok(15.76s); sentiment_flow=ok(46.97s)</li>
+      </ul>
+
+      <div class="callout">
+        本页是公开驾驶舱的脱敏摘要；不展示账户持仓、原始行情、因子明细或完整本地报告。
+      </div>
+
+      <p><a href="../index.html">返回时刻表</a></p>
+    </section>
+  </main>
+</body>
+</html>

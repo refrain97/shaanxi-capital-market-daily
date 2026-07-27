@@ -1,0 +1,879 @@
+{
+  "schemaVersion": "0.1",
+  "channel": "soe",
+  "novelty": "backfill",
+  "period": {
+    "startDate": "2026-01-01",
+    "endDate": "2026-07-13"
+  },
+  "generatedAt": "2026-07-13T05:01:16.401440+00:00",
+  "status": "PARTIAL_EXISTING_OUTPUTS_NO_JAN_JUN_ARCHIVE",
+  "limits": [
+    "现有国企网页只保留7月5日起的发布文件，无法据此声明1月至6月全量",
+    "当前回收的是页面中仍保留且带来源链接的事项，后续需按国资委及集团官网重扫"
+  ],
+  "summary": {
+    "inputFileCount": 7,
+    "recordCount": 61,
+    "earliestPublishedAt": "2026-05-21",
+    "latestPublishedAt": "2026-07-10",
+    "entityCount": 22
+  },
+  "records": [
+    {
+      "candidateId": "soe-backfill-e2b71d9fba62683c5720",
+      "publishedAt": "2026-05-21",
+      "entities": [
+        "长安汇通集团有限责任公司"
+      ],
+      "title": "顶流机构、高校基因、全早期！陕西省科创母基金再落三子",
+      "category": "资本金融",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.ca-ht.com/show/1263",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-889d912e47445b44dc18",
+      "publishedAt": "2026-06-11",
+      "entities": [
+        "长安汇通集团有限责任公司"
+      ],
+      "title": "麦科奥特通过港交所上市聆讯 长安汇通前瞻布局结出硕果",
+      "category": "资本金融",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.ca-ht.com/show/1269",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-e08fe2e17fa626f8f3e7",
+      "publishedAt": "2026-06-17",
+      "entities": [
+        "长安汇通集团有限责任公司"
+      ],
+      "title": "陕西社保科创基金签约仪式在西安举行",
+      "category": "资本金融",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.ca-ht.com/show/1270",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-0e323a732235d8317823",
+      "publishedAt": "2026-06-22",
+      "entities": [
+        "中陕核工业集团有限公司"
+      ],
+      "title": "中陕核集团首次成功发行公司债券，票面利率创新低",
+      "category": "资本金融",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.nuclgeol.com/info/1026/198571.htm",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-bed5789950aba42f11af",
+      "publishedAt": "2026-06-26",
+      "entities": [
+        "中陕核工业集团有限公司"
+      ],
+      "title": "中陕核集团开展多模态健康管理具身智能项目专题调研 探索智能制造与康养融合的新路径",
+      "category": "项目资产",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.nuclgeol.com/info/1026/199011.htm",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-630d670f29d34256afdf",
+      "publishedAt": "2026-06-26",
+      "entities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "title": "陕西水务发展东庄水利公司移民安置重点复建项目——礼淳大桥主桥顺利合龙",
+      "category": "项目资产",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxswfzjt.com/news/info/3485",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-5f8a9d038642e02e1461",
+      "publishedAt": "2026-06-26",
+      "entities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "title": "陕西水务发展水利水电工程集团承建的核电站软密封系列产品——研发生产基地102#综合楼主体顺利封顶",
+      "category": "项目资产",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxswfzjt.com/news/info/3494",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-aef18d822ce5ff4946fc",
+      "publishedAt": "2026-06-29",
+      "entities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "title": "【陕西工人报】国内首套大规模焦油酚绿色精细加工示范项目建成交接",
+      "category": "项目资产",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429015&cid=16",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-0ce14448b59bc9bc7021",
+      "publishedAt": "2026-06-30",
+      "entities": [
+        "陕西金融控股集团有限公司"
+      ],
+      "title": "央地协同筑标杆 金融活水润实体——陕投基金精准赋能地方实业...",
+      "category": "资本金融",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxjkgroup.com/info/1021/3863.htm",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-4fee2c5050bbe4e469a4",
+      "publishedAt": "2026-06-30",
+      "entities": [
+        "陕西金融控股集团有限公司"
+      ],
+      "title": "新时代资本召开违反中央八项规定精神案件 以案促改工作动员部...",
+      "category": "风险治理",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxjkgroup.com/info/1021/3864.htm",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-34d81f7dcc23d9d5e5ed",
+      "publishedAt": "2026-06-30",
+      "entities": [
+        "陕西地矿集团有限公司"
+      ],
+      "title": "陕西地矿物资开展安全生产大检查",
+      "category": "风险治理",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sndk.cn/news/18853.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-edcbd95f281dbb09294a",
+      "publishedAt": "2026-07-01",
+      "entities": [
+        "陕西财金投资管理有限责任公司"
+      ],
+      "title": "三级国资资本聚力航天赛道！商业航天产业基金合作协议于首届西部商业航天大会成功​签约",
+      "category": "资本金融",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxcjtz.cn/info/1118/3122.htm",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-8a35eef4358fb5d03c6e",
+      "publishedAt": "2026-07-01",
+      "entities": [
+        "西安市国资委-考评处"
+      ],
+      "title": "市国资委召开亏损企业治理攻坚行动动员部署会",
+      "category": "风险治理",
+      "sourceName": "西安市国资委",
+      "sourceUrl": "https://gzw.xa.gov.cn/xwzx/gzdt/2072131592119136257.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-7c6af10ad6089198b993",
+      "publishedAt": "2026-07-01",
+      "entities": [
+        "陕西金融控股集团有限公司"
+      ],
+      "title": "筑牢风险防控底线，践行正确政绩观——产投公司召开风险监测...",
+      "category": "风险治理",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxjkgroup.com/info/1021/3867.htm",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-be322d2241e7deeb2269",
+      "publishedAt": "2026-07-01",
+      "entities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "title": "陕西省引汉济渭二期工程北干线今日试通水",
+      "category": "项目资产",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxswfzjt.com/news/info/3498",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-a777232d70cb8446e97f",
+      "publishedAt": "2026-07-02",
+      "entities": [
+        "中陕核工业集团有限公司"
+      ],
+      "title": "中陕核集团党委组织集中收看庆祝中国共产党成立105周年大会实况直播 2026-07-02",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.nuclgeol.com/info/1026/199541.htm",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-ecb12efe8661d26f3946",
+      "publishedAt": "2026-07-02",
+      "entities": [
+        "西安商贸物流集团有限公司"
+      ],
+      "title": "西安商贸物流集团各单位扎实开展安全生产月系列活动",
+      "category": "产业经营",
+      "sourceName": "西安市国资委",
+      "sourceUrl": "https://mp.weixin.qq.com/s/vTFsug3cCgpTqEkhFwjd6A",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-047e2fa427c777aa41d7",
+      "publishedAt": "2026-07-02",
+      "entities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "title": "陕西水务发展渔业集团深耕主业加速创新转型 2026-07-02",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxswfzjt.com/news/info/3518",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-57e6a90598974860ec5c",
+      "publishedAt": "2026-07-02",
+      "entities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "title": "陕西水务发展集团召开党风廉政建设暨警示教育会议",
+      "category": "风险治理",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxswfzjt.com/news/info/3517",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-1992cfe5a6fe4b90b941",
+      "publishedAt": "2026-07-02",
+      "entities": [
+        "中陕核工业集团有限公司"
+      ],
+      "title": "陕西省第九届3D Slicer软件培训班在宝鸡成功举办 2026-07-02",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.nuclgeol.com/info/1026/199551.htm",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-2e55b9f234ae27215d83",
+      "publishedAt": "2026-07-03",
+      "entities": [
+        "西安商贸物流集团有限公司"
+      ],
+      "title": "03 2026-07 喜讯频传！集团多名个人及集体荣获全市、市国资系统 “两优一先” 表彰 更多>",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://mp.weixin.qq.com/s/SWIq72SRAWbQc6xI5urH8A",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-364f505f42130c06ed09",
+      "publishedAt": "2026-07-03",
+      "entities": [
+        "陕西投资集团有限公司"
+      ],
+      "title": "2026-07-03 陕西水电上半年发电量同比增长37% 超额完成半年利润目标",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxigc.com/article/19005",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-333f67060e1fc03272ec",
+      "publishedAt": "2026-07-03",
+      "entities": [
+        "西安建设工程交易中心有限公司"
+      ],
+      "title": "喜报｜西安建设工程交易中心有限公司荣获全市、市国资系统“两优一先”表彰",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "http://www.xagcjs.com/home/index/news_details/id/690.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-ea0ba562e3d36c4452a1",
+      "publishedAt": "2026-07-03",
+      "entities": [
+        "西安市国资委-办公室"
+      ],
+      "title": "市国资委组织开展保密专题培训会",
+      "category": "综合动态",
+      "sourceName": "西安市国资委",
+      "sourceUrl": "https://gzw.xa.gov.cn/xwzx/gzdt/2072980931833069569.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-4d4a7b34fbd58f01a7cb",
+      "publishedAt": "2026-07-03",
+      "entities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "title": "陕西水务发展集团召开庆祝中国共产党成立105周年座谈会 2026-07-03",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxswfzjt.com/news/info/3521",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-33e0f00b5218c3a85dc3",
+      "publishedAt": "2026-07-03",
+      "entities": [
+        "陕西省大数据集团有限公司"
+      ],
+      "title": "陕西省“两优一先”表彰大会在西安召开",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.snbigdata.cn/szyw/4695",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-0adfeb43c15fe6ac535b",
+      "publishedAt": "2026-07-03",
+      "entities": [
+        "西安商贸物流集团有限公司"
+      ],
+      "title": "集团举办安全生产专题培训会 2026-06-24",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://mp.weixin.qq.com/s/pN5jwxZa05CUx_-x5MiaVg",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-7addc1876351eb0dac8b",
+      "publishedAt": "2026-07-04",
+      "entities": [
+        "西安工业投资集团有限公司"
+      ],
+      "title": "发挥链主企业聚合效应 助力科技助残成果落地",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://xagytzjt.com/show/260704096PxPU.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-50246a83db6b8243db56",
+      "publishedAt": "2026-07-06",
+      "entities": [
+        "陕西投资集团有限公司"
+      ],
+      "title": "2026-07-06 李家卫到陕西水电二郎坝公司调研督导防汛工作",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxigc.com/article/19031",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-ffcfe688ddc2f6bc30af",
+      "publishedAt": "2026-07-06",
+      "entities": [
+        "陕西地矿集团有限公司"
+      ],
+      "title": "党建引领促发展 聚力攻坚谱新篇",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sndk.cn/news/18858.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-7815c4d5b6e8190de8da",
+      "publishedAt": "2026-07-06",
+      "entities": [
+        "西安纺织控股有限责任公司"
+      ],
+      "title": "喜报！西安纺织集团汪丽丽荣获“陕西省优秀共产党员”荣誉称号",
+      "category": "综合动态",
+      "sourceName": "西安市国资委",
+      "sourceUrl": "https://gzw.xa.gov.cn/gzjg/gqxx/gqxx/2074079275275878401.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-9c0eebc9a023a9d77dab",
+      "publishedAt": "2026-07-06",
+      "entities": [
+        "陕西省大数据集团有限公司"
+      ],
+      "title": "省委理论学习中心组举行会议",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.snbigdata.cn/szyw/4704",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-97423f8a598c8dbb3797",
+      "publishedAt": "2026-07-06",
+      "entities": [
+        "陕西地矿集团有限公司"
+      ],
+      "title": "荆平带队赴旬阳市开展合作交流座谈",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sndk.cn/news/18856.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-19b04c6a6668de305355",
+      "publishedAt": "2026-07-06",
+      "entities": [
+        "陕西地矿集团有限公司"
+      ],
+      "title": "陕西地矿投资党支部荣获陕西省先进基层党组织称号",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sndk.cn/news/18857.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-42684b073d4814b680c0",
+      "publishedAt": "2026-07-06",
+      "entities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "title": "陕西水务发展科技集团以创新夯实主业根基 2026-07-06",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxswfzjt.com/news/info/3536",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-dd85e77a2def52248f19",
+      "publishedAt": "2026-07-07",
+      "entities": [
+        "陕西投资集团有限公司"
+      ],
+      "title": "2026-07-07 省国资委副主任张全虎到物测公司讲授专题党课并调研",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxigc.com/article/19039",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-408e22afe04746d81ec5",
+      "publishedAt": "2026-07-07",
+      "entities": [
+        "陕西省物流集团有限责任公司"
+      ],
+      "title": "【陕西物流集团】所属物资产业集团：解放思想、转变作风，让党建工作走“新”更走心",
+      "category": "综合动态",
+      "sourceName": "陕西省国资委",
+      "sourceUrl": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202607/t20260707_3654319.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-31cae1ac6a1d7c1fdda0",
+      "publishedAt": "2026-07-07",
+      "entities": [
+        "中陕核工业集团有限公司"
+      ],
+      "title": "中陕核市政院宝鸡渭滨城市更新改造项目获社区好评 2026-07-07",
+      "category": "项目资产",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.nuclgeol.com/info/1026/200251.htm",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-e3b181510b0720f57a61",
+      "publishedAt": "2026-07-07",
+      "entities": [
+        "中陕核工业集团有限公司"
+      ],
+      "title": "中陕核集团与西安海星科技控股集团座谈交流 2026-07-07",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.nuclgeol.com/info/1026/200241.htm",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-4c0261b179f44b49e300",
+      "publishedAt": "2026-07-07",
+      "entities": [
+        "陕西法士特汽车传动集团有限责任公司"
+      ],
+      "title": "了解更多 >",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.chinafastgear.com/default/list/19060510zeZyG.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-c0929ba5fc4848ef5d34",
+      "publishedAt": "2026-07-07",
+      "entities": [
+        "陕西地矿集团有限公司"
+      ],
+      "title": "党向阳深入陕北野外项目看望慰问一线干部职工",
+      "category": "项目资产",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sndk.cn/news/18859.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-67f7f0b47b723002515a",
+      "publishedAt": "2026-07-07",
+      "entities": [
+        "西安城市基础设施建设投资集团有限公司"
+      ],
+      "title": "水清树绿 打造夏日“清凉港湾”（西安城投集团）",
+      "category": "综合动态",
+      "sourceName": "西安市国资委",
+      "sourceUrl": "https://mp.weixin.qq.com/s/Fgp9bOOJqyba8lUG75CviQ",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-c6014d9314892a90dc9b",
+      "publishedAt": "2026-07-07",
+      "entities": [
+        "西安市国资委"
+      ],
+      "title": "聚英才，启新程｜西安市人才网全新改版今日正式上线",
+      "category": "综合动态",
+      "sourceName": "西安市国资委",
+      "sourceUrl": "https://mp.weixin.qq.com/s/swIOPrbwgwHk61fhhIwpfw",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-e7fb3ec5fde87bb9e5f4",
+      "publishedAt": "2026-07-07",
+      "entities": [
+        "西安纺织控股有限责任公司"
+      ],
+      "title": "西纺集团召开2025年度经理层成员向董事会述职暨考评工作会议",
+      "category": "综合动态",
+      "sourceName": "西安市国资委",
+      "sourceUrl": "https://gzw.xa.gov.cn/gzjg/gqxx/gqxx/2074321886887051266.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-6a74fe67705e2905a089",
+      "publishedAt": "2026-07-07",
+      "entities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "title": "闫恒光到陕钢集团监督调研",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429140&cid=14",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-4c8d28670c01c8d5050a",
+      "publishedAt": "2026-07-07",
+      "entities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "title": "陕西水务发展投资集团立足主业深耕管理提质效促发展 2026-07-07",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxswfzjt.com/news/info/3537",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-2451055e84c975a1e93d",
+      "publishedAt": "2026-07-08",
+      "entities": [
+        "中陕核工业集团有限公司",
+        "长安汇通集团有限责任公司"
+      ],
+      "title": "中陕核集团与长安汇通集团开展审计工作专题交流座谈 2026-07-08",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.nuclgeol.com/info/1026/200231.htm",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-4b719008e25f679a9d15",
+      "publishedAt": "2026-07-09",
+      "entities": [
+        "陕西投资集团有限公司"
+      ],
+      "title": "2026-07-09 赵石畔煤电：迎峰度夏保供电 煤电联营显担当",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxigc.com/article/19050",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-f4da723b642b6ec01427",
+      "publishedAt": "2026-07-09",
+      "entities": [
+        "陕西省大数据集团有限公司"
+      ],
+      "title": "《习近平关于基层工作方法的重要论述学习读本》出版发行",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.snbigdata.cn/szyw/4706",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-a528a8fd09b6307f97a4",
+      "publishedAt": "2026-07-09",
+      "entities": [
+        "中陕核工业集团有限公司"
+      ],
+      "title": "中陕核集团召开 陕西健康西安片区医疗机构共享机制 调研座谈会 2026-07-09",
+      "category": "产业经营",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.nuclgeol.com/info/1026/200161.htm",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-c49c70957ab56763a4c0",
+      "publishedAt": "2026-07-09",
+      "entities": [
+        "长安汇通集团有限责任公司"
+      ],
+      "title": "长安汇通集团获省国资系统“两优一先”表彰",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.ca-ht.com/show/1277",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-87a26784f69a3936c8e2",
+      "publishedAt": "2026-07-09",
+      "entities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "title": "陕西水务发展供水集团吴起县供水公司、吴起县实业公司获评2025年度优秀驻吴单位、县域优秀企业称号 2026-07-09",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxswfzjt.com/news/info/3545",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-01bd664ce7b1b84f1138",
+      "publishedAt": "2026-07-09",
+      "entities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "title": "陕西水务发展供水集团富县供水公司荣获 2025年度优秀驻县单位（企业）称号 2026-07-09",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxswfzjt.com/news/info/3539",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-7e33669f11ef76f4c63c",
+      "publishedAt": "2026-07-09",
+      "entities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "title": "陕西水务发展水利水电工程集团太合高端智能钻探装备基地装修装饰项目收到业主感谢信 2026-07-09",
+      "category": "项目资产",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxswfzjt.com/news/info/3542",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-d96a24e58bac2a3e06a6",
+      "publishedAt": "2026-07-09",
+      "entities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "title": "陕西水务发展清洁能源集团与略阳县政府签约城市级虚拟电厂项目 2026-07-09",
+      "category": "项目资产",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxswfzjt.com/news/info/3548",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-703ec42af373d6b6030d",
+      "publishedAt": "2026-07-10",
+      "entities": [
+        "陕西投资集团有限公司"
+      ],
+      "title": "2026-07-10 陕投集团获省国资系统“两优一先”多项表彰",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.sxigc.com/article/19123",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-461503a5b91153e21659",
+      "publishedAt": "2026-07-10",
+      "entities": [
+        "陕西医药控股集团有限责任公司"
+      ],
+      "title": "孙思邈高新制药公司党总支开展“七一”主题党日活动 2026-07-10",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.shanyaogroup.com/info/1029/44282.htm",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-3f7c46bc1dce27033b82",
+      "publishedAt": "2026-07-10",
+      "entities": [
+        "西安农业投资（集团）有限公司"
+      ],
+      "title": "小暑交大暑，农事怎么搞？这份关中平原的“盛夏耕作指南”请收好（西安农投集团）",
+      "category": "综合动态",
+      "sourceName": "西安市国资委",
+      "sourceUrl": "https://mp.weixin.qq.com/s/4bXZgonNyOm97mbf46mo7w",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-0d6eacef03bff7876898",
+      "publishedAt": "2026-07-10",
+      "entities": [
+        "西安农业投资（集团）有限公司"
+      ],
+      "title": "甜蜜预警！七月即将解锁！西安农投特色火龙果进入挂果关键期",
+      "category": "综合动态",
+      "sourceName": "西安市国资委",
+      "sourceUrl": "https://mp.weixin.qq.com/s/dKDIAqTxlpqHDXEWLK2g7w",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-3986e51f68ed2068e643",
+      "publishedAt": "2026-07-10",
+      "entities": [
+        "西安交通投资集团有限公司"
+      ],
+      "title": "西安交投集团全力推进低空经济产业协同与智能网联基础设施建设",
+      "category": "项目资产",
+      "sourceName": "西安市国资委",
+      "sourceUrl": "https://gzw.xa.gov.cn/gzjg/gqxx/gqxx/2075400870325936129.html",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    },
+    {
+      "candidateId": "soe-backfill-f6b5fe612bb428f84dbb",
+      "publishedAt": "2026-07-10",
+      "entities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "title": "赵福堂带队参加2026年夏季全国煤炭交易会",
+      "category": "综合动态",
+      "sourceName": "集团官网",
+      "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429166&cid=14",
+      "sourceQuality": "official_or_group_site",
+      "noveltyStatus": "backfill",
+      "normalizationStatus": "existing_output_source_link_preserved"
+    }
+  ]
+}

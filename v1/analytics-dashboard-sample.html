@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>V1 访问统计看板样板</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #667085;
+      --subtle: #8a94a6;
+      --line: #d8dee8;
+      --line-soft: #e8edf4;
+      --paper: #ffffff;
+      --wash: #f5f7fa;
+      --navy: #16324f;
+      --blue: #2f6fbd;
+      --teal: #17746f;
+      --amber: #b26b18;
+      --red: #ba3f36;
+      --green: #257a52;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--wash);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .top {
+      background: #0f243c;
+      color: #fff;
+      border-bottom: 1px solid rgba(255, 255, 255, .12);
+    }
+
+    .top-inner,
+    .wrap {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .top-inner {
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .back {
+      min-height: 36px;
+      padding: 8px 12px;
+      border: 1px solid rgba(255, 255, 255, .22);
+      border-radius: 6px;
+      color: #d8e4f2;
+      font-size: 14px;
+    }
+
+    main {
+      padding: 34px 0 42px;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: end;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 34px;
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+
+    .meta {
+      margin-top: 9px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .range {
+      display: inline-flex;
+      min-height: 34px;
+      align-items: center;
+      padding: 7px 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+
+    .metric,
+    .panel,
+    .row-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--paper);
+    }
+
+    .metric {
+      min-height: 132px;
+      padding: 18px;
+    }
+
+    .metric span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .metric strong {
+      display: block;
+      margin-top: 16px;
+      font-size: 34px;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .metric small {
+      display: block;
+      margin-top: 12px;
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.45fr) minmax(320px, .75fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .panel {
+      padding: 20px;
+    }
+
+    .panel-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: start;
+      margin-bottom: 14px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 21px;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    .legend {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .legend i {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin-right: 5px;
+      border-radius: 2px;
+      vertical-align: -1px;
+    }
+
+    .visitors { background: var(--blue); }
+    .views { background: var(--teal); }
+    .shares { background: var(--amber); }
+
+    .chart {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-top: 1px solid var(--line-soft);
+    }
+
+    .axis {
+      fill: var(--subtle);
+      font-size: 11px;
+    }
+
+    .grid-line {
+      stroke: #e1e7f0;
+      stroke-width: 1;
+    }
+
+    .bar-visitors { fill: rgba(47, 111, 189, .18); }
+    .bar-views { fill: rgba(23, 116, 111, .20); }
+    .line-shares {
+      fill: none;
+      stroke: var(--amber);
+      stroke-width: 3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .dot-shares {
+      fill: #fff;
+      stroke: var(--amber);
+      stroke-width: 2;
+    }
+
+    .side-stack {
+      display: grid;
+      gap: 18px;
+    }
+
+    .channel-list,
+    .report-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .channel-item {
+      display: grid;
+      grid-template-columns: 84px minmax(0, 1fr) 52px;
+      align-items: center;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .track {
+      height: 10px;
+      border-radius: 999px;
+      background: #edf2f7;
+      overflow: hidden;
+    }
+
+    .fill {
+      height: 100%;
+      border-radius: inherit;
+      background: var(--blue);
+    }
+
+    .fill.private { background: var(--teal); }
+    .fill.ma { background: var(--amber); }
+    .fill.tender { background: #2f5f8f; }
+
+    .row-card {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      min-height: 72px;
+      padding: 13px 14px;
+    }
+
+    .row-card strong {
+      display: block;
+      font-size: 15px;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .row-card span {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .count {
+      color: var(--navy);
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .note {
+      margin-top: 18px;
+      padding: 14px 16px;
+      border: 1px solid var(--line-soft);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.65;
+    }
+
+    @media (max-width: 920px) {
+      .metric-grid,
+      .dashboard-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .panel.wide {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .top-inner,
+      .wrap {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .hero {
+        display: block;
+      }
+
+      .range { margin-top: 14px; }
+
+      h1 { font-size: 28px; }
+
+      .metric-grid,
+      .dashboard-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="./">陕西资本市场日报库</a>
+      <a class="back" href="./">返回首页</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <section class="hero">
+        <div>
+          <h1>V1 访问统计看板样板</h1>
+          <div class="meta">演示数据 · 真实接入后由 Umami/Plausible/GA 后台或 API 自动生成</div>
+        </div>
+        <div class="range">近 7 日 · 2026-05-14 至 2026-05-20</div>
+      </section>
+
+      <section class="metric-grid" aria-label="核心指标">
+        <div class="metric">
+          <span>今日独立访客</span>
+          <strong>126</strong>
+          <small>较昨日 +18.9%</small>
+        </div>
+        <div class="metric">
+          <span>今日打开次数</span>
+          <strong>342</strong>
+          <small>较昨日 +24.4%</small>
+        </div>
+        <div class="metric">
+          <span>日报打开</span>
+          <strong>197</strong>
+          <small>HTML 日报点击</small>
+        </div>
+        <div class="metric">
+          <span>分享动作</span>
+          <strong>31</strong>
+          <small>复制分享链接</small>
+        </div>
+      </section>
+
+      <section class="dashboard-grid">
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>访问趋势</h2>
+            <div class="legend">
+              <span><i class="visitors"></i>独立访客</span>
+              <span><i class="views"></i>打开次数</span>
+              <span><i class="shares"></i>分享动作</span>
+            </div>
+          </div>
+          <svg class="chart" viewBox="0 0 760 320" role="img" aria-label="近七日访问趋势图">
+            <line class="grid-line" x1="52" y1="48" x2="728" y2="48"></line>
+            <line class="grid-line" x1="52" y1="102" x2="728" y2="102"></line>
+            <line class="grid-line" x1="52" y1="156" x2="728" y2="156"></line>
+            <line class="grid-line" x1="52" y1="210" x2="728" y2="210"></line>
+            <line class="grid-line" x1="52" y1="264" x2="728" y2="264"></line>
+
+            <text class="axis" x="18" y="52">400</text>
+            <text class="axis" x="18" y="106">300</text>
+            <text class="axis" x="18" y="160">200</text>
+            <text class="axis" x="18" y="214">100</text>
+            <text class="axis" x="26" y="268">0</text>
+
+            <rect class="bar-views" x="74" y="189" width="24" height="75"></rect>
+            <rect class="bar-visitors" x="103" y="218" width="24" height="46"></rect>
+            <rect class="bar-views" x="171" y="174" width="24" height="90"></rect>
+            <rect class="bar-visitors" x="200" y="212" width="24" height="52"></rect>
+            <rect class="bar-views" x="268" y="143" width="24" height="121"></rect>
+            <rect class="bar-visitors" x="297" y="197" width="24" height="67"></rect>
+            <rect class="bar-views" x="365" y="131" width="24" height="133"></rect>
+            <rect class="bar-visitors" x="394" y="191" width="24" height="73"></rect>
+            <rect class="bar-views" x="462" y="115" width="24" height="149"></rect>
+            <rect class="bar-visitors" x="491" y="183" width="24" height="81"></rect>
+            <rect class="bar-views" x="559" y="79" width="24" height="185"></rect>
+            <rect class="bar-visitors" x="588" y="166" width="24" height="98"></rect>
+            <rect class="bar-views" x="656" y="56" width="24" height="208"></rect>
+            <rect class="bar-visitors" x="685" y="151" width="24" height="113"></rect>
+
+            <polyline class="line-shares" points="115,252 212,247 309,235 406,230 503,218 600,211 697,197"></polyline>
+            <circle class="dot-shares" cx="115" cy="252" r="4"></circle>
+            <circle class="dot-shares" cx="212" cy="247" r="4"></circle>
+            <circle class="dot-shares" cx="309" cy="235" r="4"></circle>
+            <circle class="dot-shares" cx="406" cy="230" r="4"></circle>
+            <circle class="dot-shares" cx="503" cy="218" r="4"></circle>
+            <circle class="dot-shares" cx="600" cy="211" r="4"></circle>
+            <circle class="dot-shares" cx="697" cy="197" r="4"></circle>
+
+            <text class="axis" x="84" y="298">05-14</text>
+            <text class="axis" x="181" y="298">05-15</text>
+            <text class="axis" x="278" y="298">05-16</text>
+            <text class="axis" x="375" y="298">05-17</text>
+            <text class="axis" x="472" y="298">05-18</text>
+            <text class="axis" x="569" y="298">05-19</text>
+            <text class="axis" x="666" y="298">05-20</text>
+          </svg>
+        </article>
+
+        <div class="side-stack">
+          <article class="panel">
+            <div class="panel-head">
+              <h2>频道分布</h2>
+            </div>
+            <div class="channel-list">
+              <div class="channel-item">
+                <strong>上市公司</strong>
+                <div class="track"><div class="fill" style="width: 46%"></div></div>
+                <span>46%</span>
+              </div>
+              <div class="channel-item">
+                <strong>证券私募</strong>
+                <div class="track"><div class="fill private" style="width: 24%"></div></div>
+                <span>24%</span>
+              </div>
+              <div class="channel-item">
+                <strong>收并购</strong>
+                <div class="track"><div class="fill ma" style="width: 17%"></div></div>
+                <span>17%</span>
+              </div>
+              <div class="channel-item">
+                <strong>招投标</strong>
+                <div class="track"><div class="fill tender" style="width: 13%"></div></div>
+                <span>13%</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-head">
+              <h2>来源渠道</h2>
+            </div>
+            <div class="channel-list">
+              <div class="channel-item">
+                <strong>直接访问</strong>
+                <div class="track"><div class="fill" style="width: 38%"></div></div>
+                <span>38%</span>
+              </div>
+              <div class="channel-item">
+                <strong>分享链接</strong>
+                <div class="track"><div class="fill private" style="width: 31%"></div></div>
+                <span>31%</span>
+              </div>
+              <div class="channel-item">
+                <strong>GitHub</strong>
+                <div class="track"><div class="fill ma" style="width: 18%"></div></div>
+                <span>18%</span>
+              </div>
+              <div class="channel-item">
+                <strong>搜索</strong>
+                <div class="track"><div class="fill tender" style="width: 13%"></div></div>
+                <span>13%</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="dashboard-grid" style="margin-top: 18px;">
+        <article class="panel wide">
+          <div class="panel-head">
+            <h2>热门日报</h2>
+          </div>
+          <div class="report-list">
+            <div class="row-card">
+              <div>
+                <strong>陕西上市公司公告早报｜2026年5月20日</strong>
+                <span>open_report · listed · html</span>
+              </div>
+              <div class="count">82</div>
+            </div>
+            <div class="row-card">
+              <div>
+                <strong>证券私募行业动态日报（2026-05-20）</strong>
+                <span>open_report · private · html</span>
+              </div>
+              <div class="count">47</div>
+            </div>
+            <div class="row-card">
+              <div>
+                <strong>陕西金融类招投标项目清单（2026-05-20）</strong>
+                <span>open_report · tender · html</span>
+              </div>
+              <div class="count">39</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>分享效果</h2>
+          </div>
+          <div class="report-list">
+            <div class="row-card">
+              <div>
+                <strong>复制分享链接</strong>
+                <span>share_copy</span>
+              </div>
+              <div class="count">31</div>
+            </div>
+            <div class="row-card">
+              <div>
+                <strong>分享参数访问</strong>
+                <span>?from=share-copy</span>
+              </div>
+              <div class="count">64</div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <div class="note">
+        这页是看板样板，不含真实访问数据。正式方案建议把这个看板做成内部页面或直接使用统计平台后台；如果用统计平台 API 拉数据，不要把 API token 放在公开 GitHub Pages 前端代码里。
+      </div>
+    </div>
+  </main>
+</body>
+</html>

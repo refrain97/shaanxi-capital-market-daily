@@ -1,0 +1,1136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Investment OS V2 总控看板</title>
+  <link rel="icon" href="data:," />
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f6f7;
+      --panel: #ffffff;
+      --panel-soft: #f9fbfb;
+      --line: #d9e1e5;
+      --line-strong: #b8c6ce;
+      --text: #20272c;
+      --muted: #65727a;
+      --green: #1f735d;
+      --green-soft: #e6f3ee;
+      --amber: #946316;
+      --amber-soft: #f7ead4;
+      --red: #a6403b;
+      --red-soft: #f6e4e1;
+      --blue: #2d5f9a;
+      --blue-soft: #e7eef8;
+      --violet: #6955a3;
+      --violet-soft: #eeeafa;
+      --radius: 8px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { max-width: 100%; overflow-x: hidden; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", sans-serif;
+      letter-spacing: 0;
+    }
+
+    .page { min-height: 100vh; padding: 20px; }
+    .shell { max-width: 1540px; margin: 0 auto; display: grid; gap: 12px; }
+
+    .topbar,
+    .panel,
+    .metric {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+    }
+
+    .topbar {
+      padding: 16px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 14px;
+      align-items: start;
+    }
+
+    h1, h2, h3 { margin: 0; line-height: 1.25; }
+    h1 { font-size: 25px; margin-bottom: 8px; }
+    h2 { font-size: 16px; }
+    h3 { font-size: 14px; margin-bottom: 8px; }
+
+    .meta,
+    .small,
+    .muted {
+      color: var(--muted);
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 12px;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .toolbar { display: flex; gap: 8px; align-items: center; }
+
+    .icon-button {
+      width: 38px;
+      height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--text);
+      display: inline-grid;
+      place-items: center;
+      cursor: pointer;
+    }
+
+    .icon-button:hover { border-color: var(--line-strong); }
+    .icon-button svg { width: 18px; height: 18px; }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: #eef2f3;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 780;
+      white-space: nowrap;
+    }
+
+    .badge.good { background: var(--green-soft); color: var(--green); border-color: #b8dbd0; }
+    .badge.warn { background: var(--amber-soft); color: var(--amber); border-color: #e4c792; }
+    .badge.bad { background: var(--red-soft); color: var(--red); border-color: #e0b1ad; }
+    .badge.info { background: var(--blue-soft); color: var(--blue); border-color: #c4d4eb; }
+    .badge.violet { background: var(--violet-soft); color: var(--violet); border-color: #d4caed; }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(118px, 1fr));
+      gap: 10px;
+    }
+
+    .metric {
+      min-height: 76px;
+      padding: 11px 12px;
+    }
+
+    .metric-label { color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+    .metric-value { font-size: 21px; font-weight: 850; line-height: 1.15; overflow-wrap: anywhere; }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(320px, .75fr);
+      gap: 12px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .panel { overflow: hidden; }
+    .panel-head {
+      min-height: 48px;
+      padding: 13px 15px;
+      border-bottom: 1px solid var(--line);
+      background: var(--panel-soft);
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .panel-body { padding: 14px 15px; }
+    .stack { display: grid; gap: 10px; }
+
+    .headline {
+      font-size: 15px;
+      line-height: 1.65;
+      font-weight: 720;
+    }
+
+    .kv {
+      display: grid;
+      grid-template-columns: 108px minmax(0, 1fr);
+      gap: 8px 10px;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .kv div:nth-child(odd) { color: var(--muted); }
+
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; min-width: 1060px; border-collapse: collapse; font-size: 13px; }
+    th, td {
+      border-bottom: 1px solid #e8edf0;
+      padding: 10px 9px;
+      text-align: left;
+      vertical-align: top;
+      line-height: 1.5;
+    }
+    th { color: var(--muted); background: #fbfcfd; font-weight: 780; white-space: nowrap; }
+    tbody tr:last-child td { border-bottom: 0; }
+    tbody tr.is-done { background: #fbfffd; }
+    tbody tr.is-next { background: #fffaf0; }
+
+    .time { font-size: 18px; font-weight: 850; white-space: nowrap; }
+    .stage { font-weight: 780; margin-bottom: 4px; }
+    .action { font-weight: 760; }
+
+    .list {
+      display: grid;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .list li {
+      border-bottom: 1px solid #edf1f3;
+      padding-bottom: 8px;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .list li:last-child { border-bottom: 0; padding-bottom: 0; }
+
+    .flow-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .flow-item {
+      padding: 9px 10px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #fff;
+      min-height: 76px;
+    }
+
+    .flow-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      align-items: start;
+      font-weight: 780;
+      font-size: 13px;
+      line-height: 1.45;
+      margin-bottom: 5px;
+    }
+
+    .summary-card {
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #fff;
+      min-height: 72px;
+    }
+
+    .summary-card .label {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 7px;
+    }
+
+    .summary-card .value {
+      font-size: 18px;
+      font-weight: 850;
+      line-height: 1.2;
+      overflow-wrap: anywhere;
+    }
+
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+
+    .tab {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 5px 10px;
+      font-size: 12px;
+      font-weight: 780;
+      background: #fff;
+      color: var(--muted);
+      cursor: pointer;
+    }
+
+    .tab.is-active {
+      background: var(--blue-soft);
+      color: var(--blue);
+      border-color: #c4d4eb;
+    }
+
+    .report-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .report-link {
+      display: block;
+      min-height: 82px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #fff;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 740;
+    }
+    a:hover { text-decoration: underline; }
+
+    .small { font-size: 12px; line-height: 1.5; }
+    .path { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
+
+    .empty {
+      padding: 12px;
+      border: 1px dashed var(--line-strong);
+      border-radius: 7px;
+      color: var(--muted);
+      background: #fbfcfd;
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    @media (max-width: 1200px) {
+      .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+      .flow-list { grid-template-columns: 1fr; }
+      .report-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 640px) {
+      .page { padding: 12px; }
+      .topbar { grid-template-columns: 1fr; }
+      .report-list { grid-template-columns: 1fr; }
+      h1 { font-size: 21px; }
+      .kv { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="shell">
+      <section class="topbar" aria-labelledby="pageTitle">
+        <div>
+          <h1 id="pageTitle">Investment OS V2 总控看板</h1>
+          <div class="meta" id="metaLine">读取中</div>
+        </div>
+        <div class="toolbar">
+          <span class="badge info" id="permissionBadge">shadow only</span>
+          <button class="icon-button" id="refreshButton" title="刷新数据" aria-label="刷新数据">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12a9 9 0 0 1-15 6.7" />
+              <path d="M3 12A9 9 0 0 1 18 5.3" />
+              <path d="M18 2v4h-4" />
+              <path d="M6 22v-4h4" />
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <section class="metrics" id="metrics" aria-label="关键指标"></section>
+
+      <section class="grid-2">
+        <article class="panel">
+          <div class="panel-head">
+            <h2>今日总览</h2>
+            <span class="badge" id="decisionBadge">读取中</span>
+          </div>
+          <div class="panel-body stack">
+            <div class="headline" id="oneLine">读取中</div>
+            <div class="kv" id="overviewKv"></div>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>权限与边界</h2>
+            <span class="badge violet">Run Contract</span>
+          </div>
+          <div class="panel-body">
+            <ul class="list" id="governanceList"></ul>
+          </div>
+        </article>
+      </section>
+
+      <section class="grid-2">
+        <article class="panel">
+          <div class="panel-head">
+            <h2>每日运行结果</h2>
+            <span class="badge info" id="dailyStatusBadge">读取中</span>
+          </div>
+          <div class="panel-body stack">
+            <div class="grid-4" id="dailySummary"></div>
+            <div class="headline" id="dailyLatest">读取中</div>
+            <div class="kv" id="dailyMacroKv"></div>
+            <div class="kv" id="dailyFactorKv"></div>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>12步流程对齐</h2>
+            <span class="badge violet">总索引 / Run Contract</span>
+          </div>
+          <div class="panel-body">
+            <div class="flow-list" id="flowAlignment"></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>纸面组合与建议后验</h2>
+          <span class="badge info" id="portfolioBadge">paper_only</span>
+        </div>
+        <div class="panel-body stack">
+          <div class="grid-4" id="portfolioSummary"></div>
+          <div class="kv" id="portfolioKv"></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>组合穿透与压力测试</h2>
+          <span class="badge warn" id="portfolioRiskBadge">observe_only</span>
+        </div>
+        <div class="panel-body stack">
+          <div class="grid-4" id="portfolioRiskSummary"></div>
+          <div class="kv" id="portfolioRiskKv"></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>因子实验与 Formal 候选漏斗</h2>
+          <span class="badge warn" id="factorValidationBadge">observe_only</span>
+        </div>
+        <div class="panel-body stack">
+          <div class="grid-4" id="factorValidationSummary"></div>
+          <div class="kv" id="factorValidationKv"></div>
+          <h3>下一批 Full Validation 准备队列</h3>
+          <ol class="list" id="factorValidationQueue"></ol>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>实时公告 / 新闻 / 研报证据覆盖</h2>
+          <span class="badge warn" id="runtimeEvidenceBadge">observe_only</span>
+        </div>
+        <div class="panel-body stack">
+          <div class="grid-4" id="runtimeEvidenceSummary"></div>
+          <div class="kv" id="runtimeEvidenceKv"></div>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="scheduleTitle">
+        <div class="panel-head">
+          <h2 id="scheduleTitle">自动化运行</h2>
+          <span class="badge info" id="sessionBadge">08:30-15:30</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>时间</th>
+                <th>节点</th>
+                <th>状态</th>
+                <th>检查范围</th>
+                <th>运行结果</th>
+                <th>权限结论</th>
+                <th>风险 / 复核</th>
+                <th>记录</th>
+              </tr>
+            </thead>
+            <tbody id="scheduleRows">
+              <tr><td colspan="8">读取中</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="grid-3">
+        <article class="panel">
+          <div class="panel-head">
+            <h2>数据层</h2>
+            <span class="badge good" id="dataBadge">读取中</span>
+          </div>
+          <div class="panel-body">
+            <div class="kv" id="dataKv"></div>
+            <h3>stale / watch</h3>
+            <ul class="list" id="dataWatch"></ul>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>Registry</h2>
+            <span class="badge warn">draft only</span>
+          </div>
+          <div class="panel-body">
+            <div class="kv" id="registryKv"></div>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>Shadow / 观察</h2>
+            <span class="badge info">observe_only</span>
+          </div>
+          <div class="panel-body">
+            <div class="kv" id="shadowKv"></div>
+            <ul class="list" id="shadowList"></ul>
+          </div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>回测验证中心</h2>
+          <span class="badge warn" id="backtestModeBadge">读取中</span>
+        </div>
+        <div class="panel-body stack">
+          <div class="grid-4" id="backtestSummary"></div>
+          <div class="kv" id="backtestKv"></div>
+          <div class="tabs" id="validationTabs"></div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>因子</th>
+                  <th>代理 / 样本</th>
+                  <th>胜率</th>
+                  <th>基准</th>
+                  <th>超额</th>
+                  <th>稳健性</th>
+                  <th>回撤</th>
+                  <th>结论 / 权限</th>
+                </tr>
+              </thead>
+              <tbody id="validationRows">
+                <tr><td colspan="8">读取中</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid-2">
+        <article class="panel">
+          <div class="panel-head">
+            <h2>需要拍板 / 风险队列</h2>
+            <span class="badge warn" id="actionCount">0</span>
+          </div>
+          <div class="panel-body">
+            <ul class="list" id="actionQueue"></ul>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h2>本地落点</h2>
+            <span class="badge">workspace</span>
+          </div>
+          <div class="panel-body">
+            <div class="kv" id="localOutputs"></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>报告中心</h2>
+          <span class="badge info" id="reportBadge">读取中</span>
+        </div>
+        <div class="panel-body">
+          <div class="report-list" id="reportList"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+
+    const fallbackState = {
+      meta: {
+        date: "等待数据",
+        last_updated: "等待自动化",
+        permission: "数据观察 / shadow only",
+        display_note: "dashboard_state.json 尚未生成"
+      },
+      overview: {
+        one_line: "等待 dashboard_state.json。",
+        market_state: "未开始",
+        risk_light: "-",
+        mainline: "未开始",
+        account_action: "未开始",
+        requires_decision: false,
+        permission: "shadow only"
+      },
+	      metrics: [],
+	      daily_result: {
+	        status: "waiting",
+	        completed_slots: 0,
+	        total_slots: 0,
+	        requires_decision: 0,
+	        latest: {},
+	        macro_narrative: {},
+	        factor_runtime: {},
+	        timeline: [],
+	        flow_alignment: []
+	      },
+	      backtest_validation: {
+	        validation_mode: "waiting",
+	        permission_boundary: "research only",
+	        counts: {},
+	        summary: [],
+	        shadow_candidates: [],
+	        watchlist: [],
+	        degraded: [],
+	        data_blocked: []
+	      },
+	      portfolio_tracking: {
+	        status: "not_started",
+	        paper_nav: null,
+	        paper_cash_weight: null,
+	        csi300_nav: null,
+	        account_mix_nav: null,
+	        scored_recommendations: 0,
+	        closed_recommendations: 0,
+	        horizon_attribution_counts: {"5": 0, "20": 0, "60": 0},
+	        horizon_attribution_positive_counts: {"5": 0, "20": 0, "60": 0},
+	        horizon_attribution_total: 0,
+	        trading_calendar_method: "",
+	        permission: "paper_only"
+	      },
+	      portfolio_risk: {
+	        status: "not_started",
+	        risk_level: null,
+	        tech_growth_exposure: null,
+	        weighted_correlation_60d: null,
+	        annualized_volatility_60d: null,
+	        worst_stress_return: null,
+	        permission: "observe_only"
+	      },
+	      factor_validation_registry: {
+	        status: "not_started",
+	        run_count: 0,
+	        experiment_count: 0,
+	        shadow_eligible: 0,
+	        formal_eligible: 0,
+	        next_validation_queue: [],
+	        permission: "observe_only"
+	      },
+	      runtime_evidence: {
+	        status: "not_started",
+	        run_id: "",
+	        type_status: {},
+	        fetch_integrity_pass: false,
+	        evidence_sufficiency_pass: false,
+	        point_in_time_pass: false,
+	        provenance_pass: false,
+	        schema_validation_pass: false,
+	        chain_consistent: false,
+	        final_permission_gate_pass: false,
+	        permission: "evidence_only / observe_only"
+	      },
+	      automation_schedule: { date: "-", session: "08:30-15:30", slots: [] },
+      action_queue: [],
+      data_layer: {},
+      registry: {},
+      shadow: {},
+      report_center: { latest: [], groups: [] },
+      governance: { gates: [] },
+      local_outputs: {}
+    };
+
+    function escapeHTML(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function toneClass(tone) {
+      return ["good", "warn", "bad", "info", "violet"].includes(tone) ? tone : "";
+    }
+
+    function statusText(status) {
+      return {
+        done: "已更新",
+        running: "运行中",
+        not_started: "未开始",
+        pending: "待运行",
+        skipped: "已跳过",
+        blocked: "异常"
+      }[status] || "未开始";
+    }
+
+	    function statusTone(status) {
+	      return {
+	        done: "good",
+	        running: "warn",
+	        not_started: "",
+	        pending: "info",
+	        skipped: "warn",
+	        blocked: "bad",
+	        partial: "warn",
+	        local_only: "info",
+	        warn: "warn"
+	      }[status] || "";
+	    }
+
+    function fileLink(path, label = "打开") {
+      if (!path) return '<span class="muted">未生成</span>';
+      return `<a href="${escapeHTML(path)}" target="_blank" rel="noreferrer">${escapeHTML(label)}</a>`;
+    }
+
+    function kvHtml(items) {
+      return items.map(([key, value]) => `<div>${escapeHTML(key)}</div><div>${value}</div>`).join("");
+    }
+
+    function renderMetrics(metrics) {
+      const rows = metrics?.length ? metrics : [{ label: "状态", value: "等待数据", tone: "warn" }];
+      $("metrics").innerHTML = rows.map((item) => `
+        <div class="metric">
+          <div class="metric-label">${escapeHTML(item.label)}</div>
+          <div class="metric-value">${escapeHTML(item.value)}</div>
+        </div>
+      `).join("");
+    }
+
+    function renderOverview(state) {
+      const meta = state.meta || {};
+      const overview = state.overview || {};
+      $("metaLine").innerHTML = [
+        `运行日：${escapeHTML(meta.date || "-")}`,
+        `更新时间：${escapeHTML(meta.last_updated || "-")}`,
+        `版本：${escapeHTML(meta.dashboard_version || "unified_publish_v1")}`,
+        `${escapeHTML(meta.display_note || "")}`
+      ].filter(Boolean).join("<span>｜</span>");
+      $("permissionBadge").textContent = meta.permission || "shadow only";
+      $("oneLine").textContent = overview.one_line || "等待运行。";
+      $("decisionBadge").textContent = overview.requires_decision ? "需要拍板" : "无需拍板";
+      $("decisionBadge").className = `badge ${overview.requires_decision ? "warn" : "good"}`;
+      $("overviewKv").innerHTML = kvHtml([
+        ["市场状态", escapeHTML(overview.market_state || "-")],
+        ["风险灯", escapeHTML(overview.risk_light || "-")],
+        ["主线", escapeHTML(overview.mainline || "-")],
+        ["账户动作", escapeHTML(overview.account_action || "-")],
+        ["权限", escapeHTML(overview.permission || "shadow only")]
+      ]);
+    }
+
+    function nextSlot(slots) {
+      return slots.find((slot) => slot.status !== "done" && slot.status !== "skipped") || slots[slots.length - 1];
+    }
+
+	    function renderSchedule(schedule) {
+      const slots = schedule?.slots || [];
+      const next = nextSlot(slots);
+      $("sessionBadge").textContent = schedule?.session || "08:30-15:30";
+	      if (!slots.length) {
+	        $("scheduleRows").innerHTML = '<tr><td colspan="8">暂无运行时点</td></tr>';
+	        return;
+	      }
+	      $("scheduleRows").innerHTML = slots.map((slot) => {
+	        const rowClass = slot.status === "done" ? "is-done" : slot === next ? "is-next" : "";
+	        return `
+	          <tr class="${rowClass}">
+	            <td><div class="time">${escapeHTML(slot.time)}</div></td>
+	            <td><div class="stage">${escapeHTML(slot.stage)}</div><div class="muted">${escapeHTML(slot.owner || "V2总控")}</div></td>
+	            <td><span class="badge ${statusTone(slot.status)}">${statusText(slot.status)}</span></td>
+	            <td>${escapeHTML(slot.scope || "-")}</td>
+	            <td>${escapeHTML(slot.result || statusText(slot.status))}</td>
+	            <td><div class="action">${escapeHTML(slot.action || "未开始")}</div></td>
+	            <td>${escapeHTML(slot.risk || "未开始")}</td>
+	            <td>${fileLink(slot.file, "记录")}</td>
+	          </tr>
+	        `;
+	      }).join("");
+	    }
+
+	    function cardHtml(label, value, tone = "") {
+	      return `
+	        <div class="summary-card">
+	          <div class="label">${escapeHTML(label)}</div>
+	          <div class="value ${toneClass(tone)}">${escapeHTML(value)}</div>
+	        </div>
+	      `;
+	    }
+
+	    function renderDailyResult(daily) {
+	      daily = daily || {};
+	      const statusLabel = daily.status === "complete" ? "已完成" : daily.status === "running" ? "运行中" : "等待";
+	      $("dailyStatusBadge").textContent = statusLabel;
+	      $("dailyStatusBadge").className = `badge ${daily.status === "complete" ? "good" : "info"}`;
+	      $("dailySummary").innerHTML = [
+	        cardHtml("运行日", daily.date || "-", "info"),
+	        cardHtml("完成时点", `${daily.completed_slots || 0}/${daily.total_slots || 0}`, daily.completed_slots ? "good" : "warn"),
+	        cardHtml("需确认", daily.requires_decision || 0, daily.requires_decision ? "warn" : "good"),
+	        cardHtml("最新时点", `${daily.latest?.time || "-"} ${daily.latest?.stage || ""}`, "info")
+	      ].join("");
+	      const latest = daily.latest || {};
+	      $("dailyLatest").innerHTML = `${escapeHTML(latest.result || "等待运行结果。")} ${fileLink(latest.public_file, "最新记录")}`;
+	      const macro = daily.macro_narrative || {};
+	      $("dailyMacroKv").innerHTML = kvHtml([
+	        ["市场状态", escapeHTML(macro.market_state || "-")],
+	        ["宽基", escapeHTML(macro.broad_index || "-")],
+	        ["最强", escapeHTML(macro.strongest_index || "-")],
+	        ["最弱", escapeHTML(macro.weakest_index || "-")],
+	        ["主线", escapeHTML(macro.mainline || "-")],
+	        ["ETF资金", escapeHTML(macro.etf_flow || "-")],
+	        ["情绪", escapeHTML([macro.sentiment_source, macro.sentiment, macro.break_rate].filter(Boolean).join(" / ") || "-")]
+	      ]);
+	      const factor = daily.factor_runtime || {};
+	      $("dailyFactorKv").innerHTML = kvHtml([
+	        ["因子观察", escapeHTML(factor.observation || "-")],
+	        ["因子权限", escapeHTML(factor.permission || "shadow only")],
+	        ["factor_usage_log", escapeHTML(factor.usage_log_rows || 0)],
+	        ["shadow_event_log", escapeHTML(factor.shadow_event_rows || 0)],
+	        ["最新动作", escapeHTML(latest.action || "-")],
+	        ["最新风险", escapeHTML(latest.risk || "-")]
+	      ]);
+	    }
+
+	    function renderFlowAlignment(daily) {
+	      const rows = daily?.flow_alignment || [];
+	      $("flowAlignment").innerHTML = rows.length ? rows.map((item) => `
+	        <div class="flow-item">
+	          <div class="flow-title">
+	            <span>${escapeHTML(item.step || "-")}</span>
+	            <span class="badge ${statusTone(item.status)}">${escapeHTML(item.status || "-")}</span>
+	          </div>
+	          <div class="small">${escapeHTML(item.evidence || "-")}</div>
+	        </div>
+	      `).join("") : '<div class="empty">暂无流程对齐结果。</div>';
+	    }
+
+	    function percentText(value) {
+	      if (value === null || value === undefined || Number.isNaN(Number(value))) return "-";
+	      return `${(Number(value) * 100).toFixed(2)}%`;
+	    }
+
+	    function renderPortfolio(portfolio) {
+	      portfolio = portfolio || {};
+	      $("portfolioBadge").textContent = portfolio.status === "ok" ? "paper_only" : "等待建账";
+	      $("portfolioBadge").className = `badge ${portfolio.status === "ok" ? "info" : "warn"}`;
+	      $("portfolioSummary").innerHTML = [
+	        cardHtml("V2纸面NAV", portfolio.paper_nav ?? "-", "info"),
+	        cardHtml("沪深300 NAV", portfolio.csi300_nav ?? "-", "info"),
+	        cardHtml("账户静态组合 NAV", portfolio.account_mix_nav ?? "-", "info"),
+	        cardHtml("现金占比", percentText(portfolio.paper_cash_weight), "info")
+	      ].join("");
+	      $("portfolioKv").innerHTML = kvHtml([
+	        ["相对沪深300机会成本（正=错失）", escapeHTML(percentText(portfolio.opportunity_cost_vs_csi300))],
+	        ["相对账户静态组合机会成本（正=错失）", escapeHTML(percentText(portfolio.opportunity_cost_vs_account_mix))],
+	        ["暂时可评分建议", escapeHTML(portfolio.scored_recommendations || 0)],
+	        ["暂时方向命中", escapeHTML(`${portfolio.positive_recommendations || 0} / ${portfolio.scored_recommendations || 0}`)],
+	        ["正式到期建议", escapeHTML(portfolio.closed_recommendations || 0)],
+	        ["正式命中率", escapeHTML(percentText(portfolio.directional_hit_rate))],
+	        ["5日固定收盘归因", escapeHTML(`${portfolio.horizon_attribution_positive_counts?.["5"] || 0} / ${portfolio.horizon_attribution_counts?.["5"] || 0}`)],
+	        ["20日固定收盘归因", escapeHTML(`${portfolio.horizon_attribution_positive_counts?.["20"] || 0} / ${portfolio.horizon_attribution_counts?.["20"] || 0}`)],
+	        ["60日固定收盘归因", escapeHTML(`${portfolio.horizon_attribution_positive_counts?.["60"] || 0} / ${portfolio.horizon_attribution_counts?.["60"] || 0}`)],
+	        ["交易日历", escapeHTML(portfolio.trading_calendar_method || "等待生成")],
+	        ["权限", escapeHTML(portfolio.permission || "paper_only")]
+	      ]);
+	    }
+
+	    function renderPortfolioRisk(risk) {
+	      risk = risk || {};
+	      const ready = risk.status === "ok";
+	      const elevated = ["high", "elevated"].includes(risk.risk_level);
+	      $("portfolioRiskBadge").textContent = ready ? `${risk.risk_level || "observe"} / observe_only` : "等待计算";
+	      $("portfolioRiskBadge").className = `badge ${ready ? (elevated ? "bad" : "warn") : "warn"}`;
+	      $("portfolioRiskSummary").innerHTML = [
+	        cardHtml("科技成长暴露", percentText(risk.tech_growth_exposure), elevated ? "bad" : "warn"),
+	        cardHtml("60日加权相关性", risk.weighted_correlation_60d ?? "-", "info"),
+	        cardHtml("60日年化波动", percentText(risk.annualized_volatility_60d), "warn"),
+	        cardHtml("最差压力变动", percentText(risk.worst_stress_return), elevated ? "bad" : "warn")
+	      ].join("");
+	      $("portfolioRiskKv").innerHTML = kvHtml([
+	        ["商品周期暴露", escapeHTML(percentText(risk.commodity_cycle_exposure))],
+	        ["现金占比", escapeHTML(percentText(risk.cash_weight))],
+	        ["含现金有效头寸数", escapeHTML(risk.effective_position_count ?? "-")],
+	        ["仅投资仓有效头寸数", escapeHTML(risk.invested_effective_position_count ?? "-")],
+	        ["60日历史 VaR95", escapeHTML(percentText(risk.historical_var95_60d))],
+	        ["60日历史 CVaR95", escapeHTML(percentText(risk.historical_cvar95_60d))],
+	        ["最差情景", escapeHTML(risk.worst_stress_scenario || "-")],
+	        ["数据评级 / 穿透覆盖", escapeHTML(`${risk.data_rating || "-"} / ${risk.lookthrough_coverage || "-"}`)],
+	        ["权限", escapeHTML(risk.permission || "observe_only")]
+	      ]);
+	    }
+
+	    function renderFactorValidation(registry) {
+	      registry = registry || {};
+	      const ready = registry.status === "ok";
+	      $("factorValidationBadge").textContent = ready ? `${registry.formal_eligible || 0} formal / observe_only` : "等待注册";
+	      $("factorValidationBadge").className = `badge ${registry.formal_eligible ? "good" : "warn"}`;
+	      $("factorValidationSummary").innerHTML = [
+	        cardHtml("Full Validation批次", registry.run_count || 0, "info"),
+	        cardHtml("已注册实验", registry.experiment_count || 0, "info"),
+	        cardHtml("Shadow准入", registry.shadow_eligible || 0, registry.shadow_eligible ? "good" : "warn"),
+	        cardHtml("Formal准入", registry.formal_eligible || 0, registry.formal_eligible ? "good" : "warn")
+	      ].join("");
+	      const decisions = registry.decision_counts || {};
+	      $("factorValidationKv").innerHTML = kvHtml([
+	        ["已完成基准编目", escapeHTML(registry.validated_candidates || 0)],
+	        ["漏斗总项", escapeHTML(registry.total_funnel_items || 0)],
+	        ["下一批准备", escapeHTML(registry.next_validation_queue_count || 0)],
+	        ["降级 / 样本不足 / PIT阻塞", escapeHTML(`${decisions.full_baseline_degraded || 0} / ${decisions.full_baseline_insufficient_sample || 0} / ${decisions.blocked_insufficient_point_in_time_history || 0}`)],
+	        ["政策版本", escapeHTML(registry.policy_version || "-")],
+	        ["自动写入 Formal", escapeHTML(registry.formal_registry_write_allowed ? "允许" : "禁止")],
+	        ["权限", escapeHTML(registry.permission || "observe_only")]
+	      ]);
+	      const queue = registry.next_validation_queue || [];
+	      $("factorValidationQueue").innerHTML = queue.length ? queue.map((item) => `
+	        <li><strong>${escapeHTML(item.rank || "-")}. ${escapeHTML(item.factor_name || item.factor_id || "-")}</strong><br><span class="path">${escapeHTML(item.factor_id || "")}</span><br><span class="small">${escapeHTML(item.readiness_level || "-")} / 研究准备分 ${escapeHTML(item.selection_score ?? "-")} / ${escapeHTML(item.permission || "candidate_only")}</span></li>
+	      `).join("") : '<li class="empty">暂无候选队列。</li>';
+	    }
+
+	    function renderRuntimeEvidence(evidence) {
+	      evidence = evidence || {};
+	      const passed = Boolean(evidence.final_permission_gate_pass && evidence.chain_consistent);
+	      $("runtimeEvidenceBadge").textContent = passed ? "覆盖通过 / evidence_only" : "覆盖阻断 / observe_only";
+	      $("runtimeEvidenceBadge").className = `badge ${passed ? "good" : "warn"}`;
+	      const types = evidence.type_status || {};
+	      const passText = (value) => value ? "pass" : "blocked";
+	      $("runtimeEvidenceSummary").innerHTML = [
+	        cardHtml("抓取完整性", passText(evidence.fetch_integrity_pass), evidence.fetch_integrity_pass ? "good" : "bad"),
+	        cardHtml("证据充分性", passText(evidence.evidence_sufficiency_pass), evidence.evidence_sufficiency_pass ? "good" : "warn"),
+	        cardHtml("PIT 截止", passText(evidence.point_in_time_pass), evidence.point_in_time_pass ? "good" : "bad"),
+	        cardHtml("数据库同链", passText(evidence.chain_consistent), evidence.chain_consistent ? "good" : "bad")
+	      ].join("");
+	      $("runtimeEvidenceKv").innerHTML = kvHtml([
+	        ["公告", escapeHTML(types.announcement || "not_required")],
+	        ["新闻", escapeHTML(types.news || "not_required")],
+	        ["研报", escapeHTML(types.research || "not_required")],
+	        ["run_id", `<span class="path">${escapeHTML(evidence.run_id || "-")}</span>`],
+	        ["证据截止", escapeHTML(evidence.evidence_cutoff_at || "-")],
+	        ["来源 / Schema", escapeHTML(`${passText(evidence.provenance_pass)} / ${passText(evidence.schema_validation_pass)}`)],
+	        ["权限", escapeHTML(evidence.permission || "evidence_only / observe_only")],
+	        ["公开边界", escapeHTML(evidence.privacy_note || "仅展示脱敏覆盖统计")]
+	      ]);
+	    }
+
+	    let activeValidationTab = "full_baseline_results";
+
+	    function validationTabLabel(key, data) {
+	      const labels = {
+	        full_baseline_results: "全量基准",
+	        shadow_candidates: "shadow候选",
+	        watchlist: "watch",
+	        degraded: "degraded",
+	        data_blocked: "data blocked"
+	      };
+	      const count = Array.isArray(data?.[key]) ? data[key].length : 0;
+	      return `${labels[key] || key} ${count}`;
+	    }
+
+	    function renderValidationTable(backtest) {
+	      const rows = backtest?.[activeValidationTab] || [];
+	      if (!rows.length) {
+	        $("validationRows").innerHTML = '<tr><td colspan="8">暂无该分类结果。</td></tr>';
+	        return;
+	      }
+	      if (activeValidationTab === "data_blocked") {
+	        $("validationRows").innerHTML = rows.map((item) => `
+	          <tr>
+	            <td><strong>${escapeHTML(item.factor_name || item.factor_id || "-")}</strong><br><span class="path">${escapeHTML(item.factor_id || "")}</span></td>
+	            <td colspan="5">${escapeHTML(item.reason || "data unavailable")}</td>
+	            <td>${escapeHTML(item.decision || "data_blocked")}</td>
+	            <td><span class="badge warn">observe_only</span></td>
+	          </tr>
+	        `).join("");
+	        return;
+	      }
+	      $("validationRows").innerHTML = rows.map((item) => {
+	        const decision = item.decision || "-";
+	        const decisionTone = decision.includes("degraded") ? "bad" : decision.includes("insufficient") || decision.includes("blocked") ? "warn" : decision.includes("shadow_candidate") ? "info" : "warn";
+	        return `
+	        <tr>
+	          <td><strong>${escapeHTML(item.factor_name || "-")}</strong><br><span class="path">${escapeHTML(item.factor_id || "")}</span></td>
+	          <td>${escapeHTML(item.target_proxy || "-")}<br><span class="small">events ${escapeHTML(item.event_count || "-")} / base ${escapeHTML(item.baseline_count || "-")}<br>${escapeHTML(item.sample_range || "")}</span></td>
+	          <td>${escapeHTML(item.win_rate || "-")}</td>
+	          <td>${escapeHTML(item.baseline_win_rate || "-")}</td>
+	          <td>${escapeHTML(item.excess_win_rate_pp || "-")}</td>
+	          <td>${escapeHTML(item.robustness_pass_rate || "-")}<br><span class="small">subperiod ${escapeHTML(item.subperiod_positive_rate || "-")}</span></td>
+	          <td>${escapeHTML(item.max_drawdown || "-")}</td>
+	          <td><span class="badge ${decisionTone}">${escapeHTML(decision)}</span><br><span class="small">${escapeHTML(item.permission || "research only")}</span></td>
+	        </tr>
+	      `;
+	      }).join("");
+	    }
+
+	    function renderBacktestValidation(backtest) {
+	      backtest = backtest || {};
+	      $("backtestModeBadge").textContent = backtest.validation_mode || "draft validation";
+	      $("backtestModeBadge").className = "badge warn";
+	      const summary = backtest.summary || [];
+	      $("backtestSummary").innerHTML = summary.length ? summary.map((item) => cardHtml(item.label, item.value, item.tone)).join("") : cardHtml("状态", "等待回测数据", "warn");
+	      $("backtestKv").innerHTML = kvHtml([
+	        ["generated_at", escapeHTML(backtest.generated_at || "-")],
+	        ["validation_scope", escapeHTML(backtest.validation_scope || "-")],
+	        ["权限边界", escapeHTML(backtest.permission_boundary || "research only")],
+	        ["manifest模板", `<span class="path">${escapeHTML(backtest.retention_templates?.manifest_template || "-")}</span>`],
+	        ["留存清单", `<span class="path">${escapeHTML(backtest.retention_templates?.checklist || "-")}</span>`]
+	      ]);
+	      const keys = ["full_baseline_results", "shadow_candidates", "watchlist", "degraded", "data_blocked"];
+	      $("validationTabs").innerHTML = keys.map((key) => `
+	        <button class="tab ${key === activeValidationTab ? "is-active" : ""}" data-tab="${escapeHTML(key)}">${escapeHTML(validationTabLabel(key, backtest))}</button>
+	      `).join("");
+	      document.querySelectorAll("#validationTabs .tab").forEach((button) => {
+	        button.addEventListener("click", () => {
+	          activeValidationTab = button.dataset.tab;
+	          renderBacktestValidation(backtest);
+	        });
+	      });
+	      renderValidationTable(backtest);
+	    }
+
+    function renderData(data) {
+      const current = data.current || 0;
+      const total = data.coverage_rows || 0;
+      const stale = data.stale || 0;
+      $("dataBadge").textContent = total ? `${current}/${total}` : "无数据";
+      $("dataBadge").className = `badge ${stale ? "warn" : "good"}`;
+      $("dataKv").innerHTML = kvHtml([
+        ["run_id", `<span class="path">${escapeHTML(data.run_id || "-")}</span>`],
+        ["as_of", escapeHTML(data.as_of_date || "-")],
+        ["current", escapeHTML(current)],
+        ["stale", escapeHTML(stale)],
+        ["评级 A", escapeHTML(data.rating_a || 0)],
+        ["权限", escapeHTML(data.permission_note || "shadow only")]
+      ]);
+      const watch = data.watchlist_top || [];
+      $("dataWatch").innerHTML = watch.length ? watch.map((item) => `
+        <li><strong>${escapeHTML(item.covered_dataset_id || "-")}</strong><br><span class="small">${escapeHTML(item.provider || "-")} / ${escapeHTML(item.dataset_type || "-")} / age ${escapeHTML(item.age_days ?? "-")}d / ${escapeHTML(item.missing_items || "-")}</span></li>
+      `).join("") : '<li class="muted">暂无 stale watch 项。</li>';
+    }
+
+    function renderRegistry(registry) {
+      $("registryKv").innerHTML = kvHtml([
+        ["draft factors", escapeHTML(registry.draft_factors || 0)],
+        ["draft signals", escapeHTML(registry.draft_signals || 0)],
+        ["draft rules", escapeHTML(registry.draft_rules || 0)],
+        ["backtest queue", escapeHTML(registry.draft_backtests || 0)],
+        ["source index", escapeHTML(registry.source_index || 0)],
+        ["factor review", escapeHTML(registry.factor_review_queue || 0)],
+        ["formal factors", escapeHTML(registry.formal_factors || 0)],
+        ["formal signals", escapeHTML(registry.formal_signals || 0)],
+        ["formal rules", escapeHTML(registry.formal_rules || 0)],
+        ["权限", escapeHTML(registry.permission || "draft only")]
+      ]);
+    }
+
+    function renderShadow(shadow) {
+      $("shadowKv").innerHTML = kvHtml([
+        ["状态", escapeHTML(shadow.status || "观察中")],
+        ["总数", escapeHTML(shadow.total || 0)],
+        ["触发", escapeHTML(shadow.triggered || 0)],
+        ["漂移", escapeHTML(shadow.drift || 0)],
+        ["权限", escapeHTML(shadow.permission || "shadow only")]
+      ]);
+      const items = shadow.items || [];
+      $("shadowList").innerHTML = items.length ? items.map((item) => `
+        <li><strong>${escapeHTML(item.factor || "-")}</strong><br><span class="small">${escapeHTML(item.target || "-")} / ${escapeHTML(item.permission || "shadow_scoring")} / ${item.triggered ? "triggered" : "not triggered"}</span></li>
+      `).join("") : '<li class="muted">暂无可展示 shadow 条目。</li>';
+    }
+
+    function renderActionQueue(queue) {
+      $("actionCount").textContent = String(queue?.length || 0);
+      $("actionQueue").innerHTML = queue?.length ? queue.map((item) => `
+        <li><strong>${escapeHTML(item.time)} ${escapeHTML(item.stage)}</strong> ${item.need_user_confirm ? '<span class="badge warn">需确认</span>' : ''}<br>
+        ${escapeHTML(item.action || "-")}<br><span class="small">${escapeHTML(item.risk || "-")} ${fileLink(item.file, "记录")}</span></li>
+      `).join("") : '<li class="muted">当前没有需要用户拍板的公开队列。</li>';
+    }
+
+    function renderGovernance(governance) {
+      const gates = governance?.gates || [];
+      $("governanceList").innerHTML = gates.length ? gates.map((gate) => `<li>${escapeHTML(gate)}</li>`).join("") : '<li class="muted">等待治理规则。</li>';
+    }
+
+    function renderLocalOutputs(outputs) {
+      $("localOutputs").innerHTML = kvHtml(Object.entries(outputs || {}).map(([key, value]) => [key, `<span class="path">${escapeHTML(value)}</span>`]));
+    }
+
+    function renderReports(center) {
+      const reports = center?.latest || [];
+      $("reportBadge").textContent = `${reports.length} 条`;
+      $("reportList").innerHTML = reports.length ? reports.map((item) => `
+        <a class="report-link" href="${escapeHTML(item.file)}" target="_blank" rel="noreferrer">
+          <strong>${escapeHTML(item.date)} ${escapeHTML(item.time)}</strong>
+          <div class="small">${escapeHTML(item.title || "自动化摘要")}</div>
+          <div class="small path">run_id：${escapeHTML(item.run_id || "legacy")}</div>
+          <div class="small muted">更新：${escapeHTML(item.mtime || "-")}</div>
+        </a>
+      `).join("") : '<div class="empty">暂无公开报告。运行自动化或同步发布包后会显示。</div>';
+    }
+
+	    function render(state) {
+	      renderOverview(state);
+	      renderMetrics(state.metrics);
+	      renderDailyResult(state.daily_result || {});
+	      renderFlowAlignment(state.daily_result || {});
+	      renderPortfolio(state.portfolio_tracking || {});
+	      renderPortfolioRisk(state.portfolio_risk || {});
+	      renderFactorValidation(state.factor_validation_registry || {});
+	      renderRuntimeEvidence(state.runtime_evidence || {});
+	      renderSchedule(state.automation_schedule);
+	      renderData(state.data_layer || {});
+	      renderRegistry(state.registry || {});
+	      renderShadow(state.shadow || {});
+	      renderBacktestValidation(state.backtest_validation || {});
+	      renderActionQueue(state.action_queue || []);
+	      renderGovernance(state.governance || {});
+	      renderLocalOutputs(state.local_outputs || {});
+	      renderReports(state.report_center || {});
+	    }
+
+    async function loadState() {
+      try {
+        const response = await fetch(`data/dashboard_state.json?ts=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        render(data);
+      } catch (error) {
+        render(fallbackState);
+        console.warn("dashboard_state.json 读取失败。", error);
+      }
+    }
+
+    $("refreshButton").addEventListener("click", loadState);
+    loadState();
+    setInterval(loadState, 60000);
+  </script>
+</body>
+</html>

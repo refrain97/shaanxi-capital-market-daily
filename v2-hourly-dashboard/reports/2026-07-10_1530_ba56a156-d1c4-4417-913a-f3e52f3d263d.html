@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2026-07-10 15:30 收盘复盘摘要</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f6f4;
+      --panel: #ffffff;
+      --line: #d9e0df;
+      --text: #1f2729;
+      --muted: #657175;
+      --green: #23725e;
+      --green-soft: #e7f2ee;
+      --amber: #9b6417;
+      --amber-soft: #f7ead6;
+      --red: #aa4037;
+      --red-soft: #f7e4e1;
+      --blue: #315f9e;
+      --blue-soft: #e9eff8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", sans-serif;
+      letter-spacing: 0;
+    }
+    main { max-width: 960px; margin: 0 auto; padding: 22px; }
+    .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 18px; }
+    h1 { margin: 0 0 8px; font-size: 24px; line-height: 1.25; }
+    h2 { margin: 22px 0 10px; font-size: 16px; line-height: 1.35; }
+    p, li { font-size: 14px; line-height: 1.75; }
+    ul { margin: 8px 0 0; padding-left: 20px; }
+    .meta { color: var(--muted); font-size: 13px; line-height: 1.6; display: flex; flex-wrap: wrap; gap: 8px 14px; }
+    .badge { display: inline-flex; align-items: center; min-height: 26px; padding: 4px 9px; border-radius: 999px; border: 1px solid var(--line); font-size: 12px; font-weight: 760; }
+    .badge.good { background: var(--green-soft); color: var(--green); border-color: #b9d9cf; }
+    .badge.warn { background: var(--amber-soft); color: var(--amber); border-color: #e4c895; }
+    .badge.bad { background: var(--red-soft); color: var(--red); border-color: #e1b2ad; }
+    a { color: var(--blue); font-weight: 740; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .callout { border: 1px solid #c6d5ec; background: var(--blue-soft); border-radius: 8px; padding: 12px; margin-top: 14px; color: #244b81; font-size: 14px; line-height: 1.7; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <h1>2026-07-10 15:30 收盘复盘摘要</h1>
+      <div class="meta">
+        <span>生成时间：2026-07-10 20:14:59</span>
+        <span>run_id：ba56a156-d1c4-4417-913a-f3e52f3d263d</span>
+        <span>数据评级：C</span>
+        <span>决策链：complete</span>
+        <span>权限边界：observe_only</span>
+        <span class="badge warn">风险灯：黄</span>
+      </div>
+
+      <h2>结论</h2>
+      <ul>
+        <li>市场状态：震荡分歧，风险灯 黄；主线线索：科技成长/半导体通信仍是成交主线；宽基均值 -2.70%，上涨占比均值 61.41%；情绪：涨停 94、跌停 5、炸板 -；数据限制：情绪数据为当日部分覆盖（缺失=open_board），缺失字段已禁止参与评分；持仓口径距本次运行 4 天，动作前必须用户重新确认；p0_snapshot 取数failed；逐持仓实时价格仅 5/6 完整</li>
+      </ul>
+
+      <h2>权限结论</h2>
+      <ul>
+        <li>permission=observe_only；本轮不生成任何交易动作、执行区间或仓位目标。仅复核市场状态=震荡分歧、持仓压力=单一主仓超过常规上限及证伪条件。</li>
+      </ul>
+
+      <h2>风险复核</h2>
+      <ul>
+        <li>复核条件：主线成交和持仓相对强弱仍未同步改善，继续保持观察权限。 持仓约束：单一主仓超过常规上限；本轮只记录集中度风险，不生成调整动作。 因子提示：1 个 shadow 信号触发，但仍无实盘权限。 数据限制：情绪数据为当日部分覆盖（缺失=open_board），缺失字段已禁止参与评分；持仓口径距本次运行 4 天，动作前必须用户重新确认；p0_snapshot 取数failed；逐持仓实时价格仅 5/6 完整</li>
+      </ul>
+
+      <h2>数据质量</h2>
+      <ul>
+        <li>coverage：898/1264 current；stale 366</li>
+        <li>本轮取数：p0_snapshot=failed(123.69s); portfolio_risk_data=ok(7.51s); ifind_sentiment_fallback=ok(7.57s); sentiment_flow=ok(41.95s); runtime_evidence=ok(7.72s); public_factor_data_refresh=ok(97.52s); shadow_observation=ok(0.18s); factor_validation_registry=ok(0.11s); coverage_refresh=ok(0.22s)</li>
+      </ul>
+
+      <h2>实时证据覆盖</h2>
+      <ul>
+        <li>同轮 run_id：ba56a156-d1c4-4417-913a-f3e52f3d263d；最终证据闸门：pass；数据库链一致：yes。</li><li>公告 / 新闻 / 研报：checked_zero / covered / covered；证据截止：2026-07-10T15:30:00+08:00。</li><li>公开页不展示精确查询数、精确证据数、持仓标识、检索词、标题、正文、路径或原始响应。</li>
+      </ul>
+
+      <h2>纸面组合验证</h2>
+      <ul>
+        <li>V2纸面模型 NAV：100.0；沪深300基准 NAV：99.076338；账户静态组合基准 NAV：99.692006。</li><li>机会成本（正=错失收益，负=规避损失）：相对沪深300 -0.92%；相对账户静态组合 -0.31%。</li><li>只展示脱敏纸面与基准净值；真实账户权益仅在本地留存。</li>
+      </ul>
+
+      <h2>组合穿透与压力测试</h2>
+      <ul>
+        <li>科技成长名义暴露：47.32%；商品周期名义暴露：21.87%；含现金有效头寸数：4.606245。</li><li>60日加权相关性：0.323718；年化波动率：23.11%。</li><li>最差压力情景：broad_risk_off；组合估算变动：-13.85%；风险等级：elevated。</li><li>数据评级：B；成分穿透：4/6；权限 observe_only。</li>
+      </ul>
+
+      <div class="callout">
+        本页是公开驾驶舱的脱敏摘要；不展示账户持仓、原始行情、因子明细或完整本地报告。
+      </div>
+
+      <p><a href="../index.html">返回时刻表</a></p>
+    </section>
+  </main>
+</body>
+</html>

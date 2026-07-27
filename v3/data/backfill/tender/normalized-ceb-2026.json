@@ -1,0 +1,787 @@
+{
+  "schemaVersion": "0.1",
+  "channel": "tender",
+  "novelty": "backfill",
+  "period": {
+    "startDate": "2026-01-01",
+    "endDate": "2026-07-13"
+  },
+  "generatedAt": "2026-07-13T04:56:01.801Z",
+  "source": {
+    "sourceId": "tender-national-bulletin",
+    "name": "中国招标投标公共服务平台",
+    "url": "https://bulletin.cebpubservice.com/",
+    "authority": "official"
+  },
+  "status": "NORMALIZED",
+  "limits": [],
+  "summary": {
+    "queryCount": 20,
+    "fetchedPageCount": 1208,
+    "resultCapQueryCount": 0,
+    "recordCount": 26,
+    "projectCount": 18
+  },
+  "queries": [
+    {
+      "requestedStage": "announcement",
+      "keyword": "主承销商",
+      "availablePages": 158,
+      "fetchedPages": 158,
+      "resultCapHit": false,
+      "matchedCount": 7
+    },
+    {
+      "requestedStage": "announcement",
+      "keyword": "债券承销",
+      "availablePages": 18,
+      "fetchedPages": 18,
+      "resultCapHit": false,
+      "matchedCount": 4
+    },
+    {
+      "requestedStage": "announcement",
+      "keyword": "财务顾问",
+      "availablePages": 155,
+      "fetchedPages": 155,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "announcement",
+      "keyword": "资产证券化",
+      "availablePages": 131,
+      "fetchedPages": 131,
+      "resultCapHit": false,
+      "matchedCount": 1
+    },
+    {
+      "requestedStage": "announcement",
+      "keyword": "上市辅导",
+      "availablePages": 91,
+      "fetchedPages": 91,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "change",
+      "keyword": "主承销商",
+      "availablePages": 20,
+      "fetchedPages": 20,
+      "resultCapHit": false,
+      "matchedCount": 1
+    },
+    {
+      "requestedStage": "change",
+      "keyword": "债券承销",
+      "availablePages": 6,
+      "fetchedPages": 6,
+      "resultCapHit": false,
+      "matchedCount": 1
+    },
+    {
+      "requestedStage": "change",
+      "keyword": "财务顾问",
+      "availablePages": 33,
+      "fetchedPages": 33,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "change",
+      "keyword": "资产证券化",
+      "availablePages": 33,
+      "fetchedPages": 33,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "change",
+      "keyword": "上市辅导",
+      "availablePages": 25,
+      "fetchedPages": 25,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "candidate",
+      "keyword": "主承销商",
+      "availablePages": 31,
+      "fetchedPages": 31,
+      "resultCapHit": false,
+      "matchedCount": 4
+    },
+    {
+      "requestedStage": "candidate",
+      "keyword": "债券承销",
+      "availablePages": 12,
+      "fetchedPages": 12,
+      "resultCapHit": false,
+      "matchedCount": 2
+    },
+    {
+      "requestedStage": "candidate",
+      "keyword": "财务顾问",
+      "availablePages": 73,
+      "fetchedPages": 73,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "candidate",
+      "keyword": "资产证券化",
+      "availablePages": 68,
+      "fetchedPages": 68,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "candidate",
+      "keyword": "上市辅导",
+      "availablePages": 44,
+      "fetchedPages": 44,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "award",
+      "keyword": "主承销商",
+      "availablePages": 35,
+      "fetchedPages": 35,
+      "resultCapHit": false,
+      "matchedCount": 2
+    },
+    {
+      "requestedStage": "award",
+      "keyword": "债券承销",
+      "availablePages": 13,
+      "fetchedPages": 13,
+      "resultCapHit": false,
+      "matchedCount": 4
+    },
+    {
+      "requestedStage": "award",
+      "keyword": "财务顾问",
+      "availablePages": 106,
+      "fetchedPages": 106,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "award",
+      "keyword": "资产证券化",
+      "availablePages": 89,
+      "fetchedPages": 89,
+      "resultCapHit": false,
+      "matchedCount": 0
+    },
+    {
+      "requestedStage": "award",
+      "keyword": "上市辅导",
+      "availablePages": 67,
+      "fetchedPages": 67,
+      "resultCapHit": false,
+      "matchedCount": 0
+    }
+  ],
+  "records": [
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019e4401c8f05964",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019e4401c8f05964&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "咸阳市财金投资管理有限公司非公开发行公司债券承销商项目中标结果公示",
+      "purchaser": "待回源提取",
+      "stage": "award",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-05-20T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 债券承销",
+      "region": "陕西",
+      "matchedKeywords": [
+        "债券承销"
+      ],
+      "contentExcerpt": "咸阳市财金投资管理有限公司非公开发行公司债券承销商项目中标结果公示",
+      "projectFingerprint": "2962d35fdffb5682a234fea8",
+      "contentHash": "90832d96c533267a7df1ec85403c6895ad2138c17e60fad38ac19236a4b204c9"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019e485236c31d46",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019e485236c31d46&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商招标公告",
+      "purchaser": "待回源提取",
+      "stage": "announcement",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-05-21T10:15:07+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": "2026-06-10T09:00:00+08:00",
+      "openingAt": "2026-06-10T09:00:00+08:00",
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商招标公告",
+      "projectFingerprint": "d8a18e13512970b10566ecb7",
+      "contentHash": "921610e74d62caa73f2df6c0f12f4b5c8ca8ce8350276706271d958a1b179bf5"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019e879e2ae33eed",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019e879e2ae33eed&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "陕西省铁路集团有限公司2026年非公开发行公司债券承销商选聘服务项目中标候选人公示",
+      "purchaser": "待回源提取",
+      "stage": "candidate",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-06-02T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 债券承销",
+      "region": "陕西",
+      "matchedKeywords": [
+        "债券承销"
+      ],
+      "contentExcerpt": "陕西省铁路集团有限公司2026年非公开发行公司债券承销商选聘服务项目中标候选人公示",
+      "projectFingerprint": "fed33ca5ddfd5bdd61ef2cf6",
+      "contentHash": "462898fe4b8704b0126926c28332d57ab856d91b9716baada9f2ac70453bcd8e"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019e871a06d91a99",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019e871a06d91a99&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "陕西金资2026年面向专业投资者公开发行公司债券选定主承销商和联席主承销商项目招标公告",
+      "purchaser": "陕西金融资产管理股份有限公司",
+      "stage": "announcement",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-06-02T14:50:06+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": "2026-06-24T10:00:00+08:00",
+      "openingAt": "2026-06-24T10:00:00+08:00",
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "陕西金资2026年面向专业投资者公开发行公司债券选定主承销商和联席主承销商项目招标公告",
+      "projectFingerprint": "5d7b8a25cbd546392b1e3df7",
+      "contentHash": "62bba9b7be54d1cb9330506a660a56b15aed3edb3d8bcc3bd23d7928bff83dae"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019ea51ef62e6bb7",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019ea51ef62e6bb7&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "陕铁集团2026年非公开发行公司债券承销商选聘服务项目中标公告",
+      "purchaser": "待回源提取",
+      "stage": "award",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-06-08T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 债券承销",
+      "region": "陕西",
+      "matchedKeywords": [
+        "债券承销"
+      ],
+      "contentExcerpt": "陕铁集团2026年非公开发行公司债券承销商选聘服务项目中标公告",
+      "projectFingerprint": "9be4e1c7f733f151fb9d51bc",
+      "contentHash": "cb66643bccf78fd36e2a1bd589f545b4c00f7b6f8a7514596725a9b926b524e2"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019eb099c8124675",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019eb099c8124675&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商废标公告",
+      "purchaser": "待回源提取",
+      "stage": "terminated",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-06-10T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商废标公告",
+      "projectFingerprint": "d8a18e13512970b10566ecb7",
+      "contentHash": "8f27fdb20d4089dfa5148f18c28feb6e07b04fb09ba108199c8658622a8183e9"
+    },
+    {
+      "recordId": "tender-national-bulletin:51bde4a9a2dd4074a292e4bb7e0e3d93",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=51bde4a9a2dd4074a292e4bb7e0e3d93&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "西安新城城市更新（集团）有限责任公司2026年非公开发行公司债券承销商服务项目招标公告",
+      "purchaser": "待回源提取",
+      "stage": "announcement",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-06-12T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": "2026-07-02T14:30:00+08:00",
+      "openingAt": "2026-07-02T14:30:00+08:00",
+      "category": "中国招标投标公共服务平台 · 债券承销",
+      "region": "陕西",
+      "matchedKeywords": [
+        "债券承销"
+      ],
+      "contentExcerpt": "西安新城城市更新（集团）有限责任公司2026年非公开发行公司债券承销商服务项目招标公告",
+      "projectFingerprint": "2853bc064bbee989ceee9f73",
+      "contentHash": "0bec1c1a2bd9c195f79767f7f6555df6fbd027bde741ade645840d7b08d425a8"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019ec8fee20b310b",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019ec8fee20b310b&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商（二次）招标公告",
+      "purchaser": "待回源提取",
+      "stage": "announcement",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-06-15T09:55:07+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": "2026-07-06T10:00:00+08:00",
+      "openingAt": "2026-07-06T10:00:00+08:00",
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商（二次）招标公告",
+      "projectFingerprint": "f9c574dfc4e252ca37458d49",
+      "contentHash": "7d52241eb450f16aa7522451fb0784438524d96bec45055568ebf7378cb20bd6"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019ecf8a041343df",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019ecf8a041343df&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "咸阳市城市发展集团有限公司面向专业投资者非公开发行公司债券主承销商采购项目招标公告",
+      "purchaser": "待回源提取",
+      "stage": "announcement",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-06-16T16:25:07+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": "2026-07-07T09:00:00+08:00",
+      "openingAt": "2026-07-07T09:00:00+08:00",
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "咸阳市城市发展集团有限公司面向专业投资者非公开发行公司债券主承销商采购项目招标公告",
+      "projectFingerprint": "1ae421c92926bab61869fc6a",
+      "contentHash": "588619d8069bc7c005f369a7e3bea8e4ffbe58c7ae1508dbad6ee7138f25779a"
+    },
+    {
+      "recordId": "tender-national-bulletin:fc7622a455a142739d177591cf2269fc",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=fc7622a455a142739d177591cf2269fc&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "西安旅游集团有限责任公司2026年可续期公司债券承销商服务项目变更公告",
+      "purchaser": "待回源提取",
+      "stage": "change",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-06-18T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 债券承销",
+      "region": "陕西",
+      "matchedKeywords": [
+        "债券承销"
+      ],
+      "contentExcerpt": "西安旅游集团有限责任公司2026年可续期公司债券承销商服务项目变更公告",
+      "projectFingerprint": "4cb5182cfbeeaf390e7a5785",
+      "contentHash": "588787d7e388dfccb145834dc2046810d338ce1a4a92b8962c08c50a342a4599"
+    },
+    {
+      "recordId": "tender-national-bulletin:14e4a703c43446af97f76d61aa9e7fa9",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=14e4a703c43446af97f76d61aa9e7fa9&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "西安旅游集团有限责任公司2026年可续期公司债券承销商服务项目竞争性磋商公告",
+      "purchaser": "待回源提取",
+      "stage": "announcement",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-06-18T09:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": "2026-06-30T09:30:00+08:00",
+      "openingAt": "2026-06-30T09:30:00+08:00",
+      "category": "中国招标投标公共服务平台 · 债券承销",
+      "region": "陕西",
+      "matchedKeywords": [
+        "债券承销"
+      ],
+      "contentExcerpt": "西安旅游集团有限责任公司2026年可续期公司债券承销商服务项目竞争性磋商公告",
+      "projectFingerprint": "28ef0715aad728af6ef16111",
+      "contentHash": "8d6dac08bd6d53279958fd3f0979fcd3ae07ce1a849520b93e9c7d0fa3371fa2"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019ed9b70761742b",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019ed9b70761742b&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "陕西信用增进投资股份有限公司银行间交易商协会非公开定向发行债务融资工具（PPN）主承销商选聘项目招标公告",
+      "purchaser": "待回源提取",
+      "stage": "announcement",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-06-18T15:50:07+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": "2026-07-09T09:30:00+08:00",
+      "openingAt": "2026-07-09T09:30:00+08:00",
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "陕西信用增进投资股份有限公司银行间交易商协会非公开定向发行债务融资工具（PPN）主承销商选聘项目招标公告",
+      "projectFingerprint": "2624281daf564b1fa873ed61",
+      "contentHash": "8468646b92d287456b72ed205f60066d9f2524774a037ae04327dedbe4d42641"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019f01cd1e58295f",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019f01cd1e58295f&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "陕西金资2026年面向专业投资者公开发行公司债券选定主承销商和联席主承销商项目中标候选人公示",
+      "purchaser": "陕西金融资产管理股份有限公司",
+      "stage": "candidate",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-06-26T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "陕西金资2026年面向专业投资者公开发行公司债券选定主承销商和联席主承销商项目中标候选人公示",
+      "projectFingerprint": "5d7b8a25cbd546392b1e3df7",
+      "contentHash": "959e6c5a98b64000c813a8a5bfb3b7aba2833f7133c7c065b8e90907cb987ec4"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019f01895e1d1ffd",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019f01895e1d1ffd&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "西安市轨道交通集团有限公司2026年度非公开发行公司债券承销服务采购项目招标公告",
+      "purchaser": "待回源提取",
+      "stage": "announcement",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-06-26T09:25:08+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": "2026-07-17T09:30:00+08:00",
+      "openingAt": "2026-07-17T09:30:00+08:00",
+      "category": "中国招标投标公共服务平台 · 债券承销",
+      "region": "陕西",
+      "matchedKeywords": [
+        "债券承销"
+      ],
+      "contentExcerpt": "西安市轨道交通集团有限公司2026年度非公开发行公司债券承销服务采购项目招标公告",
+      "projectFingerprint": "677c6178d619d10d8414cf01",
+      "contentHash": "d6c2e13ea687d4f9187d13670b9782865379defb76d6b15b4a26954dc3f0004b"
+    },
+    {
+      "recordId": "tender-national-bulletin:7213ced09e02404284e3f310a1110310",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=7213ced09e02404284e3f310a1110310&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "西安市轨道交通集团有限公司2026年度非公开发行公司债券承销服务采购项目招标公告",
+      "purchaser": "待回源提取",
+      "stage": "announcement",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-06-26T09:30:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": "2026-07-17T09:30:00+08:00",
+      "openingAt": "2026-07-17T09:30:00+08:00",
+      "category": "中国招标投标公共服务平台 · 债券承销",
+      "region": "陕西",
+      "matchedKeywords": [
+        "债券承销"
+      ],
+      "contentExcerpt": "西安市轨道交通集团有限公司2026年度非公开发行公司债券承销服务采购项目招标公告",
+      "projectFingerprint": "677c6178d619d10d8414cf01",
+      "contentHash": "e5f9ed58f685c783246d13f2b84ec9e25e510467404182bb4015ab495ddab0f3"
+    },
+    {
+      "recordId": "tender-national-bulletin:0490191b319b4dee988ed1a4cb84d0e0",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=0490191b319b4dee988ed1a4cb84d0e0&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "西安旅游集团有限责任公司2026年可续期公司债券承销商服务项目成交结果公告",
+      "purchaser": "待回源提取",
+      "stage": "award",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-07-01T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 债券承销",
+      "region": "陕西",
+      "matchedKeywords": [
+        "债券承销"
+      ],
+      "contentExcerpt": "西安旅游集团有限责任公司2026年可续期公司债券承销商服务项目成交结果公告",
+      "projectFingerprint": "a8fd92eeb2297d823d56549b",
+      "contentHash": "d1a6f2b8844d36465d2114d167362230f8269de2a4d48f662ee32f6cc2fab52c"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019f208e5a282687",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019f208e5a282687&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "陕西金资2026年面向专业投资者公开发行公司债券选定主承销商和联席主承销商项目中标结果公示",
+      "purchaser": "陕西金融资产管理股份有限公司",
+      "stage": "award",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-07-02T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "陕西金资2026年面向专业投资者公开发行公司债券选定主承销商和联席主承销商项目中标结果公示",
+      "projectFingerprint": "2cab1869aacff9c32c548521",
+      "contentHash": "42d5cc82395023e1a0160b78639266d638fe72ac3704c15a36af92b15f5b723b"
+    },
+    {
+      "recordId": "tender-national-bulletin:19fca170338f480f98f72b663063ddcf",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=19fca170338f480f98f72b663063ddcf&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "西安新城城市更新（集团）有限责任公司2026年非公开发行公司债券承销商服务项目中标候选人公示",
+      "purchaser": "待回源提取",
+      "stage": "candidate",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-07-03T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 债券承销",
+      "region": "陕西",
+      "matchedKeywords": [
+        "债券承销"
+      ],
+      "contentExcerpt": "西安新城城市更新（集团）有限责任公司2026年非公开发行公司债券承销商服务项目中标候选人公示",
+      "projectFingerprint": "2853bc064bbee989ceee9f73",
+      "contentHash": "6c28294399cc7a48a16a04871c0c14d28c8c3d28bbb74e236e2afcd605d17e25"
+    },
+    {
+      "recordId": "tender-national-bulletin:c715cd0b5d8a4787a945b6e0e4e3a8f6",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=c715cd0b5d8a4787a945b6e0e4e3a8f6&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "2026年度世园集团资产证券化发行券商招标公告",
+      "purchaser": "待回源提取",
+      "stage": "announcement",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-07-03T12:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": "2026-07-23T14:00:00+08:00",
+      "openingAt": "2026-07-23T14:00:00+08:00",
+      "category": "中国招标投标公共服务平台 · 资产证券化",
+      "region": "陕西",
+      "matchedKeywords": [
+        "资产证券化"
+      ],
+      "contentExcerpt": "2026年度世园集团资产证券化发行券商招标公告",
+      "projectFingerprint": "78c9240df6ae2160b02e4df2",
+      "contentHash": "36e9ceb21889cb763a7fcc8999970698cde23e1fcc9b4a8fde3a9f4c68c13999"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019f3a1bcaf84180",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019f3a1bcaf84180&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商（二次）中标候选人公示",
+      "purchaser": "待回源提取",
+      "stage": "candidate",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-07-07T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商（二次）中标候选人公示",
+      "projectFingerprint": "f9c574dfc4e252ca37458d49",
+      "contentHash": "75b46fa87569107246b6e24afe29311a9250306a5595b3d955923f5640f92aff"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019f3bc13c937ca4",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019f3bc13c937ca4&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "咸阳市城市发展集团有限公司面向专业投资者非公开发行公司债券主承销商采购项目中标候选人公示",
+      "purchaser": "待回源提取",
+      "stage": "candidate",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-07-07T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "咸阳市城市发展集团有限公司面向专业投资者非公开发行公司债券主承销商采购项目中标候选人公示",
+      "projectFingerprint": "1ae421c92926bab61869fc6a",
+      "contentHash": "dc5787f724fcf648295587f44e3ed43b9b84d0b9950fb699fafc5ff7e22faf18"
+    },
+    {
+      "recordId": "tender-national-bulletin:c89d66da7ff449fe89e24a6a14d8bdf3",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=c89d66da7ff449fe89e24a6a14d8bdf3&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "西安新城城市更新（集团）有限责任公司2026年非公开发行公司债券承销商服务项目中标结果公告",
+      "purchaser": "待回源提取",
+      "stage": "award",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-07-07T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 债券承销",
+      "region": "陕西",
+      "matchedKeywords": [
+        "债券承销"
+      ],
+      "contentExcerpt": "西安新城城市更新（集团）有限责任公司2026年非公开发行公司债券承销商服务项目中标结果公告",
+      "projectFingerprint": "2853bc064bbee989ceee9f73",
+      "contentHash": "abea771da19544d3d051a64937bedf3a8d0f207c5443896cdeb1fda969d2439c"
+    },
+    {
+      "recordId": "tender-national-bulletin:f279d90c28ba489db1aa712e9743d5a0",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=f279d90c28ba489db1aa712e9743d5a0&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "西安国际港集团有限公司2026年面向专业投资者非公开发行公司债券主承销商服务项目公开招标公告",
+      "purchaser": "待回源提取",
+      "stage": "announcement",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-07-07T19:30:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": "2026-07-29T14:30:00+08:00",
+      "openingAt": "2026-07-29T14:30:00+08:00",
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "西安国际港集团有限公司2026年面向专业投资者非公开发行公司债券主承销商服务项目公开招标公告",
+      "projectFingerprint": "10e4cc475888ef4328a632b7",
+      "contentHash": "41e10d9380b41729ac829d90f5a5ab4fd1cf137a9e15ab953ec3d7b065e156ec"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019f45f71b5d2015",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019f45f71b5d2015&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商（二次）中标结果公示",
+      "purchaser": "待回源提取",
+      "stage": "award",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-07-09T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "延安市东新区投资开发建设有限公司发行非公开公司债选聘主承销商（二次）中标结果公示",
+      "projectFingerprint": "aac7975d8ef3bfcc1baee690",
+      "contentHash": "4f0d13e01cd652f4615e9659b1a06051047155ab8498fd401624cc22c266fbcf"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019f4aead2496b69",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019f4aead2496b69&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "陕西信用增进投资股份有限公司银行间交易商协会非公开定向发行债务融资工具（PPN）主承销商选聘项目中标候选人公示",
+      "purchaser": "待回源提取",
+      "stage": "candidate",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-07-10T00:00:00+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": null,
+      "openingAt": null,
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "陕西信用增进投资股份有限公司银行间交易商协会非公开定向发行债务融资工具（PPN）主承销商选聘项目中标候选人公示",
+      "projectFingerprint": "2624281daf564b1fa873ed61",
+      "contentHash": "7cd91029015e0b59d13c88baea6f0b88f1f80993fc9d22e01928de4f9ea6a0f5"
+    },
+    {
+      "recordId": "tender-national-bulletin:8a9494759dbedf91019f4aebfedc6bb1",
+      "sourceId": "tender-national-bulletin",
+      "sourceQuality": "official",
+      "sourceUrl": "https://ctbpsp.com/#/bulletinDetail?uuid=8a9494759dbedf91019f4aebfedc6bb1&inpvalue=&dataSource=0&tenderAgency=",
+      "title": "靖边县朔远产业投资有限公司公司债券主承销商选取招标项目",
+      "purchaser": "待回源提取",
+      "stage": "announcement",
+      "eligibilityStatus": "eligible",
+      "publishedAt": "2026-07-10T15:25:07+08:00",
+      "discoveredAt": "2026-07-13T04:56:01.801Z",
+      "discoveryMode": "backfill",
+      "deadlineAt": "2026-07-31T09:00:00+08:00",
+      "openingAt": "2026-07-31T09:00:00+08:00",
+      "category": "中国招标投标公共服务平台 · 主承销商",
+      "region": "陕西",
+      "matchedKeywords": [
+        "主承销商"
+      ],
+      "contentExcerpt": "靖边县朔远产业投资有限公司公司债券主承销商选取招标项目",
+      "projectFingerprint": "9fe1025ff8dcfa1ce41246d4",
+      "contentHash": "a5f97808313d7bf2c384f9e871705787c58ecfb2557136569e0fb2b108c8b541"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ma-projects.schema.json",
+  "title": "V3 M&A Project Ledger",
+  "type": "object",
+  "required": ["schemaVersion", "asOf", "projectCount", "stageCounts", "projects"],
+  "properties": {
+    "schemaVersion": {"const": "0.1"},
+    "projectCount": {"type": "integer", "minimum": 0},
+    "projects": {"type": "array", "items": {"type": "object", "required": ["maProjectId", "title", "stage", "statusText", "milestones", "sourceStatus"]}}
+  }
+}

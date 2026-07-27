@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "0.1",
+  "asOf": "2026-07-22",
+  "tiers": {
+    "PF1": {
+      "name": "陕西属地证券私募",
+      "rule": "AMAC当前公示的注册地或办公地在陕西省",
+      "dailyPriority": "important"
+    },
+    "PF2": {
+      "name": "陕西强关联证券私募",
+      "rule": "注册地和办公地均不在陕西，但经官方材料确认在陕西设有实质办公分部、历史主体或持续经营平台；逐家人工准入",
+      "dailyPriority": "important"
+    }
+  },
+  "automaticExclusions": [
+    "仅董事长、法定代表人或总经理曾在西安学习或任职",
+    "仅存在陕西籍、校友、一般项目合作或产品名称相似",
+    "仅依靠搜索摘要且没有AMAC、公司或集团官方材料复核"
+  ],
+  "relatedTargets": [
+    {
+      "managerId": "101000026206",
+      "managerName": "深圳抱朴容易私募证券基金管理有限公司",
+      "registerNo": "P1020607",
+      "universeTier": "PF2",
+      "relationType": "current_xian_branch_and_shaanxi_group",
+      "relationStrength": "material",
+      "dailyPriority": "important",
+      "inclusionReason": "陕西泰发祥集团官网确认其为集团旗下资产配置平台，总部位于深圳，并在西安、上海设有分部。",
+      "currentRegisterProvince": "广东省",
+      "currentOfficeProvince": "广东省",
+      "managerDetailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000026206.html",
+      "evidence": [
+        {
+          "sourceName": "陕西泰发祥集团官网",
+          "url": "https://www.tfxgroup.cn/news/12/",
+          "fact": "总部位于深圳，并在西安、上海建立分部"
+        },
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000026206.html",
+          "fact": "当前登记名称、登记编号及注册办公地址"
+        }
+      ]
+    }
+  ]
+}

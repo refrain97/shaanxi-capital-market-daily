@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>陕西上市公司公告早报｜2026年6月8日</title>
+  <style>
+    :root {
+      --navy: #0f243f;
+      --ink: #1d2733;
+      --muted: #667085;
+      --line: #d8dee8;
+      --soft: #f4f7fb;
+      --risk: #c2412f;
+      --risk-bg: #fff0ec;
+      --good: #16835a;
+      --good-bg: #eaf7f0;
+      --watch: #a16207;
+      --watch-bg: #fff7df;
+      --blue-bg: #eaf1fb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #e9eef5;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      color: var(--ink);
+    }
+
+    .page {
+      width: 1242px;
+      min-height: 2060px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: visible;
+    }
+
+    .topbar {
+      background: var(--navy);
+      color: #fff;
+      padding: 38px 54px 28px;
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 28px;
+      align-items: end;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 54px;
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin-top: 16px;
+      font-size: 22px;
+      color: #d8e3f3;
+      line-height: 1.5;
+    }
+
+    .source {
+      text-align: right;
+      font-size: 20px;
+      line-height: 1.55;
+      color: #c8d5e6;
+    }
+
+    .source strong {
+      color: #fff;
+      font-size: 28px;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .content {
+      padding: 18px 42px 12px;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .kpi {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 11px 16px;
+      min-height: 72px;
+    }
+
+    .kpi .num {
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 800;
+      color: var(--navy);
+    }
+
+    .kpi .label {
+      margin-top: 8px;
+      font-size: 17px;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .section {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .section.wide { grid-column: 1 / -1; }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 16px;
+      background: #f7f9fc;
+      border-bottom: 1px solid var(--line);
+      font-weight: 800;
+      font-size: 21px;
+      color: var(--navy);
+    }
+
+    .section-title .no {
+      display: inline-grid;
+      place-items: center;
+      min-width: 42px;
+      height: 28px;
+      border-radius: 5px;
+      background: var(--navy);
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .body { padding: 9px 14px 10px; }
+
+    .chips {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 10px;
+      font-size: 16px;
+      line-height: 1.36;
+      background: #fff;
+    }
+
+    .chip b {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 3px;
+      color: var(--navy);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 700;
+      padding: 5px 8px;
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+
+    td {
+      padding: 5px 8px;
+      border-bottom: 1px solid #edf1f6;
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 15px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .tag.risk { background: var(--risk-bg); color: var(--risk); }
+    .tag.good { background: var(--good-bg); color: var(--good); }
+    .tag.watch { background: var(--watch-bg); color: var(--watch); }
+    .tag.info { background: var(--blue-bg); color: var(--navy); }
+
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .tile {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 72px;
+      background: #fff;
+    }
+
+    .tile b {
+      display: block;
+      font-size: 18px;
+      color: var(--navy);
+      margin-bottom: 5px;
+    }
+
+    .tile span {
+      font-size: 15px;
+      line-height: 1.34;
+      color: #344054;
+    }
+
+    .mini-list {
+      display: grid;
+      gap: 7px;
+      font-size: 17px;
+      line-height: 1.35;
+    }
+
+    .mini-list div {
+      padding: 7px 9px;
+      border: 1px solid #edf1f6;
+      border-radius: 6px;
+      background: #fcfdff;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .subhead {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--navy);
+      margin: 0 0 7px;
+      padding-left: 4px;
+    }
+
+    .fixed-list {
+      display: grid;
+      gap: 6px;
+    }
+
+    .fixed-item {
+      border: 1px solid #e5ebf3;
+      border-radius: 6px;
+      padding: 6px 9px;
+      font-size: 15.6px;
+      line-height: 1.3;
+      background: #fff;
+    }
+
+    .fixed-item b {
+      color: var(--navy);
+      margin-right: 5px;
+    }
+
+    .follow {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+    }
+
+    .follow div {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 9px;
+      min-height: 76px;
+      background: #fcfdff;
+      font-size: 14.8px;
+      line-height: 1.3;
+    }
+
+    .follow b {
+      display: block;
+      font-size: 17px;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+
+    .note {
+      margin: 10px 42px 22px;
+      border-top: 1px solid var(--line);
+      padding-top: 9px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.42;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .small { font-size: 15.5px; color: var(--muted); }
+    .strong { font-weight: 800; color: var(--ink); }
+
+    @media (max-width: 720px) {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        margin: 0;
+        overflow: visible;
+      }
+
+      .topbar {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        align-items: start;
+        padding: 24px 18px 22px;
+      }
+
+      h1 {
+        font-size: 32px;
+        line-height: 1.12;
+      }
+
+      .subtitle {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      .source {
+        text-align: left;
+        font-size: 15px;
+      }
+
+      .source strong {
+        font-size: 20px;
+      }
+
+      .content {
+        padding: 14px 14px 22px;
+      }
+
+      .kpis,
+      .grid,
+      .chips,
+      .tiles,
+      .two-col,
+      .follow {
+        grid-template-columns: 1fr;
+      }
+
+      .section.wide {
+        grid-column: auto;
+      }
+
+      .kpi {
+        min-height: 0;
+      }
+
+      .kpi .num {
+        font-size: 27px;
+      }
+
+      .kpi .label {
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      .section-title {
+        align-items: flex-start;
+        padding: 10px 12px;
+        font-size: 18px;
+        line-height: 1.28;
+      }
+
+      .section-title .no {
+        min-width: 36px;
+        height: 26px;
+        font-size: 16px;
+      }
+
+      .body {
+        padding: 10px;
+      }
+
+      .chip,
+      .tile,
+      .follow div {
+        min-height: 0;
+      }
+
+      colgroup,
+      thead {
+        display: none;
+      }
+
+      table,
+      tbody,
+      tr,
+      td {
+        display: block;
+        width: 100%;
+      }
+
+      table {
+        font-size: 14px;
+      }
+
+      tr {
+        padding: 8px 0;
+        border-bottom: 1px solid #edf1f6;
+      }
+
+      tr:last-child {
+        border-bottom: 0;
+      }
+
+      td {
+        padding: 3px 0;
+        border-bottom: 0;
+      }
+
+      td:first-child {
+        color: var(--navy);
+        font-weight: 800;
+      }
+
+      .note {
+        position: static;
+        margin: 0 14px 22px;
+        padding-top: 12px;
+        display: grid;
+        gap: 8px;
+        font-size: 13px;
+        line-height: 1.45;
+      }
+    }
+  </style>
+<!-- V1_ANALYTICS_HEAD_START -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="ff2a4678-af6a-4b80-a4ff-15d3a9a62ebd" data-domains="refrain97.github.io,shaanxi-capital-market-daily.vercel.app"></script>
+  <!-- V1_ANALYTICS_HEAD_END -->
+</head>
+<body>
+  <main class="page" data-template="listed-v1-official">
+    <header class="topbar">
+      <div>
+        <h1>陕西上市公司公告早报</h1>
+        <div class="subtitle">2026年6月8日｜窗口2026-06-05至2026-06-08｜61条公告、22家发布公告公司、PDF原文精读</div>
+      </div>
+      <div class="source">
+        <strong>覆盖 85 家上市公司</strong>
+        沪市42家｜深市37家｜北交所6家<br>
+        名单来源：陕西证监局｜公告源：巨潮资讯 CNINFO
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="kpis">
+        <div class="kpi"><div class="num">61条</div><div class="label">CNINFO逐公司检索公告，覆盖22家公司，接口错误0条</div></div>
+        <div class="kpi"><div class="num">22家</div><div class="label">发布公告的公司家数，61份PDF已下载并抽取文本落盘，高价值精读覆盖风险警示、可转债、质押、分红、减持、担保和激励</div></div>
+        <div class="kpi"><div class="num">ST派瑞</div><div class="label">派瑞股份6月9日起实施其他风险警示，简称由“派瑞股份”变更为“ST派瑞”，停牌1天后复牌</div></div>
+        <div class="kpi"><div class="num">6.98亿元</div><div class="label">莱特光电可转债募集资金总额调减后不超过69,800.00万元，较原方案调减6,800.00万元</div></div>
+      </div>
+
+      <div class="grid">
+        <section class="section">
+          <div class="section-title"><span class="no">01</span>今日业务机会</div>
+          <div class="body chips">
+            <div class="chip"><b>风险警示与监管整改服务</b>派瑞股份因信息披露违法违规收到行政处罚事先告知书，拟被警告并罚款400万元，公司股票6月9日起被实施其他风险警示。</div>
+            <div class="chip"><b>再融资与募投跟踪</b>莱特光电更新可转债问询回复及募集说明书，拟募集资金总额调减至69,800.00万元，蒲城基地项目拟投入募集资金49,077.98万元。</div>
+            <div class="chip"><b>关联投资和产业链扩张</b>金钼股份拟与金沙钼业、金福智慧设立注册资本10亿元合资子公司，金钼股份认缴51,000万元、持股51%。</div>
+            <div class="chip"><b>权益和股东资本动作</b>陕西旅游6月11日股权登记、6月12日除权除息并转增；瑞联新材7名股东披露减持计划，国际医学和天地源披露质押变动。</div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title"><span class="no">02</span>重大事项与风险公告</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:20%"><col style="width:57%"><col style="width:23%"></colgroup>
+              <thead><tr><th>公司</th><th>事项</th><th>业务判断</th></tr></thead>
+              <tbody>
+                <tr><td>派瑞股份</td><td>2024年年报虚减营业收入22,715,044.25元、虚减利润总额17,117,330.37元；2025年半年报虚增同额收入和利润总额，分别占当期披露营业收入26.87%和利润总额50.02%，公司拟被警告并罚款400万元。</td><td><span class="tag risk">监管处罚</span></td></tr>
+                <tr><td>泰金新能</td><td>上市以来至6月5日累计涨幅598.93%，滚动市盈率约162.96倍，高于行业约46.99倍；无限售流通股30,076,976股、占总股本18.80%，公司提示估值和流动性风险。</td><td><span class="tag risk">交易风险</span></td></tr>
+                <tr><td>瑞联新材</td><td>刘晓春拟大宗交易减持不超过2,700,000股、占总股本1.5531%；另有6名董事高管拟集中竞价减持合计不超过682,000股，减持窗口为公告披露15个交易日后的3个月内。</td><td><span class="tag risk">减持预披露</span></td></tr>
+                <tr><td>国际医学 / 天地源</td><td>国际医学控股股东新增质押25,000,000股并解除7,780,000股；天地源控股股东解除质押20,000,000股后再次质押20,000,000股，累计质押197,000,000股、占公司总股本22.80%。</td><td><span class="tag watch">质押滚续</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">03</span>上市公司动态</div>
+          <div class="body tiles">
+            <div class="tile"><b>派瑞股份</b><span>6月8日停牌1天，6月9日复牌并被实施其他风险警示，股票简称变更为ST派瑞，证券代码300831不变，日涨跌幅限制仍为20%。</span></div>
+            <div class="tile"><b>莱特光电</b><span>可转债方案调整后募集资金总额不超过69,800.00万元，钙钛矿材料研发及器件验证创新平台项目不再使用本次募集资金投入。</span></div>
+            <div class="tile"><b>金钼股份 / 斯瑞新材</b><span>金钼股份合资公司注册资本10亿元；斯瑞新材新增募集资金专户，2024年度定增实际募集资金净额590,498,251.24元。</span></div>
+            <div class="tile"><b>炼石航空 / 荣信文化</b><span>炼石航空投资者关系活动称重整压降债务本息约25.58亿元、募集资金12.38亿元；荣信文化补选独立董事并召开6月23日临时股东会。</span></div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">04</span>股东变动与资本运作</div>
+          <div class="body">
+            <table>
+              <colgroup><col style="width:16%"><col style="width:44%"><col style="width:40%"></colgroup>
+              <thead><tr><th>公司</th><th>关键数字</th><th>业务关注</th></tr></thead>
+              <tbody>
+                <tr><td>派瑞股份</td><td>2024年年报虚减营业收入<b>22,715,044.25元</b>、虚减利润总额<b>17,117,330.37元</b>；2025年半年报虚增营业收入和利润总额同额，拟对公司罚款<b>400万元</b>，刘强罚款<b>220万元</b>，白杰、郭伟各罚款<b>200万元</b></td><td>关注正式行政处罚决定书、ST撤销条件、内控整改执行和后续投资者索赔风险。</td></tr>
+                <tr><td>莱特光电</td><td>可转债拟募集资金由<b>76,600.00万元</b>调减至<b>69,800.00万元</b>；蒲城基地项目拟投入募集资金<b>49,077.98万元</b>，数智化升级<b>3,400.00万元</b>，补流<b>17,322.02万元</b></td><td>关注上交所审核进展、募投产能消化、OLED终端材料产能利用率和未担保可转债信用风险。</td></tr>
+                <tr><td>金钼股份</td><td>合资公司注册资本<b>10亿元</b>；金钼股份认缴<b>51,000万元</b>、持股<b>51%</b>，金沙钼业持股<b>39%</b>，金福智慧持股<b>10%</b>；第一期50%于<b>2026年6月30日</b>前实缴</td><td>关注合资公司工商设立、两期实缴、关联交易后续披露和钼基新材料基地建设节奏。</td></tr>
+                <tr><td>陕西旅游 / 铂力特</td><td>陕西旅游每股派<b>2.00元</b>并每股转增<b>0.3股</b>，股权登记日<b>6月11日</b>、除权除息日<b>6月12日</b>；铂力特每股现金红利调至<b>0.08131元</b>，实际分配总额约<b>22,305,135.97元</b></td><td>关注陕西旅游转增上市和现金红利发放，铂力特权益分派实施公告及参与分配股本确认。</td></tr>
+                <tr><td>国际医学 / 天地源 / 隆基绿能</td><td>国际医学新增质押<b>25,000,000股</b>、解除<b>7,780,000股</b>；天地源控股股东累计质押<b>197,000,000股</b>；隆基绿能5月新增担保<b>34,435.78万元</b>、累计担保<b>241.69亿元</b></td><td>关注质押融资滚续、担保额度使用及隆22转债未来交易日是否触发转股价向下修正。</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">05</span>股东会、治理与固定披露清单</div>
+          <div class="body two-col">
+            <div>
+              <p class="subhead">A. 今日新增重点事项与治理节点</p>
+              <div class="fixed-list"><div class="fixed-item"><b>派瑞股份</b>6月8日开市起停牌，6月9日复牌并实施其他风险警示；公司已更正2024年三季报、年报及2025年一至三季报相关财务报表。</div><div class="fixed-item"><b>荣信文化</b>杨建君连续担任独立董事将满六年辞职，补选相里六续为独立董事候选人；临时股东会股权登记日6月17日，会议日6月23日。</div><div class="fixed-item"><b>炼石航空</b>投资者关系活动披露重整后资产负债率降至约28%，2026年一季度收入5.81亿元、同比增加33.93%，净利润121.92万元。</div><div class="fixed-item"><b>斯瑞新材</b>新增广发银行西安分行募集资金专户，用于2024年度向特定对象发行募投项目资金存储和使用。</div></div>
+            </div>
+            <div>
+              <p class="subhead">B. 延续跟踪清单</p>
+              <div class="fixed-list"><div class="fixed-item"><b>泰金新能</b>跟踪598.93%累计涨幅、162.96倍滚动市盈率、18.80%流通股比例以及一季度收入和净利润下滑。</div><div class="fixed-item"><b>盘龙药业</b>股票期权登记数量373,500份，行权价格31.11元/份，授予60人，等待期12/24/36个月。</div><div class="fixed-item"><b>烽火电子</b>拟以1元回购注销868,395股业绩补偿股份，总股本减至863,149,843股，债权人45日内可申报。</div><div class="fixed-item"><b>瑞联新材</b>刘晓春、王小伟、王银彬等7名股东后续减持成交需持续跟踪，尤其关注大宗交易窗口。</div></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section wide">
+          <div class="section-title"><span class="no">06</span>今日重点跟踪公司</div>
+          <div class="body follow">
+            <div><b>派瑞股份</b>跟踪6月9日ST实施、正式行政处罚决定书、撤销其他风险警示所需满12个月条件及投资者索赔风险。</div>
+            <div><b>莱特光电</b>跟踪69,800.00万元可转债审核、募投调整后财务性投资扣减、蒲城基地建设周期和产能消化论证。</div>
+            <div><b>金钼股份</b>跟踪10亿元合资公司设立、51,000万元认缴出资和6月30日前第一期50%实缴。</div>
+            <div><b>国际医学 / 天地源</b>跟踪国际医学未来一年4.96亿元质押融资到期安排，以及天地源控股股东197,000,000股累计质押。</div>
+            <div><b>陕西旅游 / 铂力特</b>跟踪陕西旅游6月11日登记、6月12日除权除息及新增股份上市，铂力特0.08131元/股分红实施。</div>
+            <div><b>泰金新能 / 瑞联新材 / 隆基绿能</b>跟踪泰金新能交易风险提示、瑞联新材7名股东减持窗口、隆22转债转股价下修触发条件。</div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <footer class="note">
+      <span>资料来源：陕西证监局《陕西辖区上市公司基本情况表（2026年3月31日）》、巨潮资讯公告原文及本地PDF抽取文本。仅作公告信息整理，不构成投资建议。</span>
+      <span>华泰证券西安锦业路证券营业部（西北分公司机构业务中心）｜https://refrain97.github.io/shaanxi-capital-market-daily/v1/</span>
+    </footer>
+  </main>
+<!-- V1_ANALYTICS_BODY_START -->
+  <script>
+    (() => {
+      const analytics = {
+        track(eventName, properties = {}) {
+          if (!window.umami || typeof window.umami.track !== "function") return;
+          window.umami.track(eventName, {
+            path: window.location.pathname,
+            title: document.title,
+            ...properties
+          });
+        }
+      };
+
+      function cleanUrl(value) {
+        return String(value || "").split("?")[0].toLowerCase();
+      }
+
+      function assetType(url) {
+        const clean = cleanUrl(url);
+        if (clean.endsWith(".html")) return "html";
+        if (clean.endsWith(".md")) return "markdown";
+        if (clean.endsWith(".png")) return "png";
+        if (clean.endsWith(".jpg") || clean.endsWith(".jpeg") || clean.endsWith(".webp")) return "image";
+        if (clean.startsWith("#")) return "anchor";
+        return "link";
+      }
+
+      function channel(url) {
+        if (url.includes("上市公司")) return "listed";
+        if (url.includes("证券私募")) return "private";
+        if (url.includes("收并购")) return "ma";
+        if (url.includes("金融招投标")) return "tender";
+        return "site";
+      }
+
+      document.addEventListener("click", (event) => {
+        const shareButton = event.target.closest("[data-share-url]");
+        if (shareButton) {
+          const shareUrl = new URL(shareButton.dataset.shareUrl, window.location.href).toString();
+          navigator.clipboard?.writeText(shareUrl);
+          analytics.track("share_copy", {
+            report: shareButton.dataset.shareReport || "",
+            target_url: shareUrl
+          });
+          return;
+        }
+
+        const filterButton = event.target.closest("[data-filter]");
+        if (filterButton) {
+          analytics.track("filter_archive", {
+            filter: filterButton.dataset.filter || ""
+          });
+          return;
+        }
+
+        const link = event.target.closest("a[href]");
+        if (!link) return;
+
+        const href = link.getAttribute("href") || "";
+        const type = assetType(href);
+        if (type === "anchor") {
+          analytics.track("nav_click", {
+            label: link.textContent.trim() || link.getAttribute("aria-label") || "",
+            target_url: href
+          });
+          return;
+        }
+
+        analytics.track(type === "html" ? "open_report" : "download_asset", {
+          channel: channel(href),
+          asset_type: type,
+          label: link.textContent.trim() || link.getAttribute("aria-label") || "",
+          target_url: new URL(href, window.location.href).toString()
+        });
+      });
+
+      const searchInput = document.querySelector("#searchInput");
+      if (searchInput) {
+        searchInput.addEventListener("change", () => {
+          analytics.track("search_archive", {
+            keyword: searchInput.value.trim()
+          });
+        });
+      }
+    })();
+  </script>
+  <!-- V1_ANALYTICS_BODY_END -->
+</body>
+</html>

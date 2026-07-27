@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "0.1",
+  "runId": "tender-live-2026-07-19T21-16-00",
+  "generatedAt": "2026-07-19T13:16:00.290Z",
+  "scanIntervalMinutes": 60,
+  "sourceRuns": [
+    {
+      "sourceId": "tender-sx-public-resource",
+      "adapter": "sxggzy_fulltext_v1",
+      "status": "FAIL_ADAPTER",
+      "error": "This operation was aborted",
+      "recordCount": 0
+    },
+    {
+      "sourceId": "tender-sx-government-procurement",
+      "status": "PASS",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ccgp-shaanxi.gov.cn/",
+      "contentType": "text/html",
+      "contentBytes": 78464,
+      "contentHash": "045c4a657c165ffad248713201f3156ef33850ce7fd32803b18e3d094b912ec0",
+      "elapsedMs": 267,
+      "adapter": "homepage_probe"
+    },
+    {
+      "sourceId": "tender-sx-bidding-service",
+      "status": "FAIL_NETWORK",
+      "error": "This operation was aborted",
+      "elapsedMs": 149528,
+      "adapter": "homepage_probe"
+    },
+    {
+      "sourceId": "tender-national-bulletin",
+      "adapter": "ceb_html_search_v1",
+      "status": "FAIL_ADAPTER",
+      "error": "This operation was aborted",
+      "recordCount": 0
+    }
+  ],
+  "summary": {
+    "sourcePass": 1,
+    "sourceFail": 3,
+    "recordCount": 0,
+    "newCount": 0,
+    "changedCount": 0,
+    "activeOpportunityCount": 0,
+    "pendingCount": 0,
+    "historyCount": 0,
+    "excludedCount": 0
+  },
+  "newRecordIds": [],
+  "changedRecordIds": [],
+  "activeOpportunities": [],
+  "pending": [],
+  "history": [],
+  "records": [],
+  "validation": {
+    "status": "PASS",
+    "ruleCount": 7
+  }
+}
