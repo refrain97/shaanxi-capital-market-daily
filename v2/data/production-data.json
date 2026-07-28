@@ -36,7 +36,7 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-07-28.json",
-        "sha256": "f3ca28abfb0fe8d4130dce2d6514dd6ea4178cfb880dbcb29f9dc5e51b251b66"
+        "sha256": "a61708dea55d7696bd19e480d27e6b69941f6c47732fb2c59e06f0e6710e0c3b"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-07-28.json",
@@ -132,7 +132,7 @@
     "readiness": "v2/data/readiness/v2-ready-2026-07-28-morning.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "75d700a24ed5"
+    "version": "0cf67327e27e"
   },
   "homeHighlights": [
     {
