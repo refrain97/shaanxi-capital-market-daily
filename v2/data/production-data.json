@@ -132,7 +132,7 @@
     "readiness": "v2/data/readiness/v2-ready-2026-07-28-morning.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "aeb102200e66"
+    "version": "7bbea2f124c9"
   },
   "homeHighlights": [
     {

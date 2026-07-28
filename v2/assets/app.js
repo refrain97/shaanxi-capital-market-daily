@@ -97,7 +97,8 @@ const newsSources=row=>{
 };
 const newsRow=({row,company,title,text,numbers="",follow=""})=>{
   if(row.isReference)return newsReference({row,company,title,text});
-  return `<article class="news-row${row.canonicalDetailId?" canonical-detail":""}"${row.canonicalDetailId?` id="${esc(row.canonicalDetailId)}" tabindex="-1"`:""}><div class="news-company"><b>${esc(company)}</b><span>${esc(title||"")}</span><time>${esc(monthDay(row.publishedAt))}</time></div><div class="news-main"><div class="news-meta">${businessMeta(row)}</div>${numbers?`<div class="news-numbers">${numbers}</div>`:""}<p>${esc(text)}</p>${follow?`<small><b>关注要点：</b>${esc(follow)}</small>`:""}</div>${newsSources(row)}</article>`;
+  const detailId=row.canonicalDetailId||row.focusAnchorId||"";
+  return `<article class="news-row${detailId?" canonical-detail":""}"${detailId?` id="${esc(detailId)}" tabindex="-1"`:""}><div class="news-company"><b>${esc(company)}</b><span>${esc(title||"")}</span><time>${esc(monthDay(row.publishedAt))}</time></div><div class="news-main"><div class="news-meta">${businessMeta(row)}</div>${numbers?`<div class="news-numbers">${numbers}</div>`:""}<p>${esc(text)}</p>${follow?`<small><b>关注要点：</b>${esc(follow)}</small>`:""}</div>${newsSources(row)}</article>`;
 };
 
 function home(data){
@@ -118,6 +119,30 @@ function listed(data){
   const daily=data.listed.daily;
   const host=document.createElement("div");
   const fixed=(daily.fixed_columns||[]).flatMap(group=>(group.items||[]).map(item=>({...item,group:group.title})));
+  const focusCompanies=data.listed.focusCompanies||[];
+  const focusTags=data.listed.businessTaxonomy?.focusTags||[];
+  const focusTagRows=[
+    ["section-01",daily.opportunities||[]],
+    ["section-02",daily.risk_rows||[]],
+    ["section-03",daily.tiles||[]],
+    ["section-04",daily.capital_rows||[]],
+    ["section-05",fixed],
+  ].flatMap(([sectionId,rows])=>rows.map((row,index)=>{
+    if(!row.isReference&&row.business?.priority==="focus"&&!row.canonicalDetailId){
+      row.focusAnchorId=`listed-focus-${sectionId}-${index+1}`;
+    }
+    return row;
+  })).filter(row=>!row.isReference&&row.business?.priority==="focus");
+  const focusTagLinks=focusTags.map(item=>{
+    const hits=focusTagRows.filter(row=>row.business?.category===item.category&&row.business?.subcategory===item.name);
+    const hit=hits.find(row=>row.canonicalDetailId)||hits[0];
+    const companies=[...new Set(hits.map(row=>row.company||splitTitle(row.title)[0]).filter(Boolean))];
+    const anchor=hit?.canonicalDetailId||hit?.focusAnchorId||hit?.referenceAnchor||"";
+    const label=`${item.category} · ${item.name}`;
+    return hit&&anchor
+      ?`<a class="focus-tag hit" href="#${esc(anchor)}" title="今日命中：${esc(companies.join("、"))}" aria-label="${esc(label)}，今日命中${esc(companies.join("、"))}，点击查看主事项">${esc(label)}</a>`
+      :`<span class="focus-tag">${esc(label)}</span>`;
+  }).join("");
   const block=(id,no,title,rows,render)=>`<section class="dense-section" id="${id}"><header><h2><span>${no}</span>${title}</h2><b>${rows.length}条</b></header><div class="news-list">${rows.map(render).join("")||`<div class="compact-empty">本期无新增事项。</div>`}</div></section>`;
   const body=
     block("section-01","01","今日业务机会",daily.opportunities,row=>{const [,company]=row.title.split("｜");return newsRow({row,company,title:"业务机会",text:row.body});})
@@ -128,7 +153,7 @@ function listed(data){
   const nav=[["business-focus","重点跟踪"],["section-01","01 机会"],["section-02","02 风险"],["section-03","03 动态"],["section-04","04 资本运作"],["section-05","05 治理披露"],["listed-pool","上市观察池"],["listed-archive","日期归档"]];
   const archive=data.listed.archive.slice(0,24).map((item,index)=>`<a ${index>=8?'class="archive-more" hidden':""} href="${esc(item.href)}">${esc(zhDate(item.date))}</a>`).join("");
   host.innerHTML=cover(data.asOf,"DAILY ISSUE · LISTED","陕西上市公司早报","重点跟踪置顶，01—05栏目保持紧凑阅读；重复事项链接到唯一主记录。","channel-listed.webp","",`${scanLabel(data,"listed")}；最近公告 ${zhDate(data.listed.latestEventDate)}`)
-    +`<div class="listed-shell"><aside class="page-toc">${nav.map(([id,label])=>`<a href="#${id}">${label}</a>`).join("")}</aside><div class="listed-content">${section("今日概览",`数据更新至${zhDate(data.asOf)}`,`<div class="dense-kpis">${daily.kpis.map((item,index)=>`<div><b>${esc(item.num)}</b><span>${["今日公告","涉及公司","重点金额","关键利率"][index]}</span></div>`).join("")}</div>`,"today")}<section class="dense-section focus-board" id="business-focus"><header><h2>今日重点跟踪</h2><b>${data.listed.focusCompanies.length}家公司</b></header><p>按资本运作、股东服务、业务机会等重点场景分类；每家公司直接跳到唯一主事项。</p><div class="focus-hit-list">${data.listed.focusCompanies.map(item=>`<a class="focus-company-link" href="#${esc(item.anchorId)}"><b>${esc(item.company)}</b><span>${esc(item.business.category)} · ${esc(item.business.subcategory)}</span><small>${esc(item.followText)}</small></a>`).join("")}</div></section><div class="daily-sections">${body}</div><section class="dense-section" id="listed-pool"><header><h2>上市公司观察池</h2><b>${data.listed.counts.total} = ${data.listed.counts.L1} + ${data.listed.counts.L2} + ${data.listed.counts.L3}</b></header><p class="pool-definition">L1为陕西辖区A股；L2为陕西办公或经营的境外上市主体；L3为陕西实质强关联上市公司。</p><div data-listed-pool></div></section><section class="dense-section" id="listed-archive"><header><h2>日期归档</h2><b>已发布期次</b></header><div class="archive">${archive}</div><button class="archive-toggle" type="button" data-archive-toggle>查看更多日期</button></section></div></div>`;
+    +`<div class="listed-shell"><aside class="page-toc">${nav.map(([id,label])=>`<a href="#${id}">${label}</a>`).join("")}</aside><div class="listed-content">${section("今日概览",`数据更新至${zhDate(data.asOf)}`,`<div class="dense-kpis">${daily.kpis.map((item,index)=>`<div><b>${esc(item.num)}</b><span>${["今日公告","涉及公司","重点金额","关键利率"][index]}</span></div>`).join("")}</div>`,"today")}<section class="dense-section focus-board" id="business-focus"><header><h2>业务重点 · 今日重点跟踪</h2><b>${focusTags.length}个标签 · ${focusCompanies.length}家公司</b></header><p>${esc(data.listed.businessTaxonomy?.priorityMeaning||"业务重点用于客户跟进优先级。")} 固定展示21个二级标签；绿色为今日命中，点击可直达主事项。</p><div class="focus-tags" aria-label="上市公司二级业务重点标签">${focusTagLinks}</div><div class="focus-hit-list">${focusCompanies.map(item=>`<a class="focus-company-link" href="#${esc(item.anchorId)}"><b>${esc(item.company)}</b><span>${esc(item.business.category)} · ${esc(item.business.subcategory)}</span><small>${esc(item.followText)}</small></a>`).join("")}</div></section><div class="daily-sections">${body}</div><section class="dense-section" id="listed-pool"><header><h2>上市公司观察池</h2><b>${data.listed.counts.total} = ${data.listed.counts.L1} + ${data.listed.counts.L2} + ${data.listed.counts.L3}</b></header><p class="pool-definition">L1为陕西辖区A股；L2为陕西办公或经营的境外上市主体；L3为陕西实质强关联上市公司。</p><div data-listed-pool></div></section><section class="dense-section" id="listed-archive"><header><h2>日期归档</h2><b>已发布期次</b></header><div class="archive">${archive}</div><button class="archive-toggle" type="button" data-archive-toggle>查看更多日期</button></section></div></div>`;
   $("[data-listed-pool]",host).replaceWith(poolTable(data.listed.entities,{kind:"listed"}));
   return host;
 }
