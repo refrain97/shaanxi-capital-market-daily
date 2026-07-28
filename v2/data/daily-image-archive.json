@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-07-28T17:12:33+08:00",
+  "updatedAt": "2026-07-28T17:14:26+08:00",
   "channels": {
     "listed": [
       {
@@ -20,6 +20,876 @@
           "verification": "exact_file_name"
         },
         "updatedAt": "2026-07-28T17:08:26+08:00"
+      },
+      {
+        "date": "2026-07-27",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月27日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月27日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "6b257f4f73e7bef279fe0de14f89880d25fcf34a4b63a2bc5b1617aaa848d71e",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-24",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月24日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月24日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "090682df18fbb9aa3a3b467b830387d1f5359d6727909c5d250a65e61af0633b",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-23",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月23日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月23日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "9a220a030f796510f603b1c2010392beb104c791d50e89b666504e822b2159d9",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-22",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月22日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月22日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "3b943a59cf57e9682c6778376fdc011f2f050f7c8e173cedcfd77bc24190e0c8",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-21",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月21日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月21日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "9da75ab4a47ed84084934fc473d5acee10c2a2179e5f2372fe1aaa9dea2fbd20",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-20",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月20日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月20日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "bc7ad4483e1b084a0dda2904f843d0f55a36e10a078ce7b5cd3417a260f30d14",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-17",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月17日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月17日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "6ec77c6a55c677d6b1da95377d8216cce192dd004a1cfca98d23ebd55016d957",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-16",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月16日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月16日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "f0d8b599e75f4209545382a17637f320fe7536a04d21f09b3f2594c967d4f906",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-15",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月15日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月15日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "256c11fae93b4aa348914cf9a49e026617bfed4e70effc62506dea0facb48ae9",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-14",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月14日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月14日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "936bb0c52da7ab7b42aa7195e08b95976c7f8556df7073b0c280e1f0b898cf44",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-13",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月13日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月13日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "9877cd0d2a4a5019283e0c58999fc970d7607e7dd63120b359ac0569dc73c6ec",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-10",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月10日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月10日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "c0a569123a18cac7fe6397e86245683f0b1d586d7f75995e79a06c32e5530ec3",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-09",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月9日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月9日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "5482fb5cf0ce2fee114cab978a59b46e919af1ed5430f8abb2a100cd88d707b0",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-08",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月8日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月8日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "141e83fa8a20444f4f248919aa49d82c337ec9063da7f79cc6be9a8b4318b9ff",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-07",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月7日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月7日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "3b3693efafec998f900bf4c5e87e7db0e43ef76e2beed2bc3e7068b7e3b6d8d8",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-06",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月6日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月6日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "e7d5a844c2c01769793d1cfafa7b24a3e81948dd955a4cc07d3202e03c6dc65d",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-03",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月3日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月3日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "98d9030b41acb9ed92aac6b4fb4baf5b2a72f4b66a578ea55ca0c5fcdccdef08",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-02",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月2日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月2日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "1706cf896d743586399b7b256eced41d1732cd1e4d3377654195ed482aaac467",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-01",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月1日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月1日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "32f653a1c9c86a8fa944d03261f12c6ad215bd2d420be974e0618dccbdaef14a",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-30",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月30日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月30日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "5a1e3375714caa5cafcdbbf9fdea9cf49aae0b49d0bc1dd510de10efda12bf4f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-29",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月29日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月29日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "07b3a7b39101136e17fb2617298f0f8d4b32b1a4659ae7f5b8c3fd7d85c18afa",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-26",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月26日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月26日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "7f637c4492b87f0706ad1d1c4d0da8316220ade715044b38e4a112822ab0267c",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-25",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月25日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月25日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "8f920602c1e302b6c67f92f254d8e2376dc83d1eccfabcfade9098acacb4e71f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-24",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月24日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月24日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "2d9607c4cce2b784ee5befa341188789ac6114dbcd7e7814fa5aebc78679fe54",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-23",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月23日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月23日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "533eb42d5013fb7b16d389aada66d8f6be44b421569409132f16ec7d254e3f6f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-22",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月22日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月22日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "e2e3f3a326ae858d29a6be6a8a7a04d21c7194446718df12a1a252b6643ad2c8",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-18",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月18日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月18日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "082400d8645e77195bcdfc56c316f20a4da4869b07120738c38176a76349ca86",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-17",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月17日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月17日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "658aabe86899df504ef2f11c8a01f07295866d9bf198a8e98ed68530f04866a0",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-16",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月16日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月16日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "f84b961f611b900ce08ac31631cd64d78400fec18cca087e473de8a65bd830de",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-15",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月15日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月15日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "b1db20c04572e9fc2d151ac21413c6aeb850c646511e3cca43c5d1193cf45a31",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-12",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月12日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月12日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "d1ff64296fa89c494ff83aea33f403ba959c36fb7876ca3f46599a9bc2715c3c",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-11",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月11日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月11日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "15df12f92300e5fd22473b711da3b5ee6ab07ce632e14ba297e17f2908684c8e",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-10",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月10日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月10日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "1043deaa38234cee80537121a29636c3d520ae75b13cd6565542ce43679613ec",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-09",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月9日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月9日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "40714448db7f469fec0c85510297be4c71cddc78d04baeff2ffb3b97cf35bc03",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-08",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月8日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月8日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "3b1d6cf55e0c5b151ff857ac1a8a410d69dc193a0aa7c58ae59ae1ff45bab3ad",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-06",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月6日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月6日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "9f71e00f51f2b7a28e97776edfb94f36df739b47676d25be496974257345107f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-05",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月5日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月5日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "889391185fea9605ff763ef0736373bb6a787a1fc640e11d1eccb8c5cdeef87a",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-04",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月4日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月4日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "18d0b26485d0b1043b98555cce52d3b973e96194bdf21ea16f0391fd93ab2e34",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-03",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月3日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月3日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "645ff5bbde4b606af2f1f7459e42d79d5ef959f4f6174f55b145e4b57eb33a6a",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-02",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月2日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月2日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "a401bd09dd20680d67731438912297828bd994dca201e1c888e75fb8ea0485ba",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-01",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年6月1日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年6月1日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "232ac4778680d4ced117bce55bdcfd0c048cea00c48b0b07803cc37b11aa9cae",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-29",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月29日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月29日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "969e2aa91ed942c7b0ec1144ac2fff0603c32c253389f16f7895eaed52080d80",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-28",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月28日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月28日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "d9c351d780c14dad3a4baf14ab2ecdca367a03fc59e6a508ba3eba22d003ba66",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-27",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月27日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月27日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "8a79a3e07c940225196f774d8d422a3817f84a8832191293c6cd68ef6e7533c4",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-26",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月26日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月26日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "1914f42d39ef9467a7d219f660d4c49b9f1a377e8e5aafc69c7db2ecc0a081e6",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-25",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月25日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月25日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "5b9c381aa52e6dfcc80999963e4f8189f9d7c8f48ec9f2b425e36dc061579e77",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-22",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月22日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月22日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "ccce7f69a53adb5a576195dc50a6c7e823d2752aca10140658b8d77baa16103f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-21",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月21日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月21日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "34f7db182b42d1f37bfba3f5c2fa510afe30f666c60248480e92df198af8539b",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-20",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月20日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月20日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "7d6ed42f85db49cc200c5b1f9baa7c51be1c1bea31043a4edf5d4de3801f8025",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-19",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月19日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月19日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "ad1c5e36f85c497be4486276f18952717c15d1902c80d7c05d07cc33bbc904c8",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-18",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月18日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月18日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "8b8595a62b15d512340292f6c77642763cf8a81c48e6e6401213d50ccada71e1",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-15",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月15日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月15日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "0872d62ecb4c02d6685d493a0e37064992d8fa3976799f1bcb4e0dead29eac4e",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-14",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月14日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月14日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "0f6377d7011ac63efc37812dd6792527dd9fdc00f0ebb6b4ff9db00865f07175",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-13",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月13日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月13日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "d5ba305139300b847121e9c5dd7b373f9527a8598d5ceec334502bead9012057",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-12",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月12日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月12日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "cfbfd9bbc8def92736f2d5905a27856a494868afde8c8241289d7ec9abe44286",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-11",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月11日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月11日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "e625d0651c87c8268cd2224d2e7b7a3b3999d587f49885cd5bf31ee1a1d89ae5",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-08",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月8日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月8日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "98b36ef2423c807d5c4ca3903628808c6fba160c2ccce48c614bff5dccd6f3a8",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-07",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年5月7日陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年5月7日陕西上市公司早报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "7de278242e6f83dd9757a73f3a75b8056c6e3bdd188ad3038781043f719851d0",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
       }
     ],
     "private": [
@@ -40,6 +910,891 @@
           "verification": "exact_file_name"
         },
         "updatedAt": "2026-07-28T17:08:26+08:00"
+      },
+      {
+        "date": "2026-07-27",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月27日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月27日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "60f3dbe744b35eb7a9754c757bacd4cb91dee959324d398e7e917315c183b84c",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-24",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月24日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月24日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "0cd0e92dce8ba05105be263549dad96c1b5933d2b18e91abecec9f955ef85de9",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-23",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月23日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月23日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "538e1baa9d0988a719e5e6aa679b1a1331d8c40afb422a720005a8b044119f93",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-22",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月22日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月22日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "0e919c786e32c9baf230947e49a9c7e78890b0e59f9c1afab667a71c88b29724",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-21",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月21日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月21日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "d88dd66cf437877c9832514df4980aa2dae9fe321a150f61b7f0ba504be2ae25",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-20",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月20日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月20日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "7f1804a100d0727dbcae5b3bbaf2d86b1b9458698f4abf4abfaee14133453817",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-17",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月17日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月17日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "edcfaeaf42b27332928a5bfcb256ddcaf184c5a57bb57e09de006bac2f8f441f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-16",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月16日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月16日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "fc6df40cd230f78eaf8aae2e7356de99448c142aa0da6efb472573376de5bd1b",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-15",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月15日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月15日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "2641c1d565e352e7f7ca1410c8dbec30af73e5437d10ccb82f01452afd12bae1",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-14",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月14日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月14日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "506fa34658f2f0d0cc7015e0ca060156bc8cb5133bfd9c9b7833cbfafcb639cc",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-13",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月13日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月13日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "5a78df46c09cf3c7504192e4c79ae2ba2889172a0dff54f45deaa86db63dd095",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-10",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月10日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月10日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "e06acaca12a9470b49062592a33a91a8b27555b6db59602be8e5d32c86458d57",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-09",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月9日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月9日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "324b528e7ffbb4aeb2a8271b6159654fab77aa6c52f203444f77d2567835c2c8",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-08",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月8日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月8日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "cc14f5c9f179bcee35d0c7f0d5863b8d4b5618b26d0b0f00d8259dc7199725aa",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-07",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月7日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月7日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "fc059ee5f60a08559c6f68899327697e2ceb919be50c46f229ddf6411fcd1161",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-06",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月6日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月6日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "b239fbf9ea5ef0b5ba1ae394d7f20cb9cf099f74b3d4a8b7a96300b4bed1b429",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-03",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月3日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月3日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "23054608c74de22c1f9e12a6ca037f654d59a040d9876bb823ab9525bd27b914",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-02",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月2日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月2日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "5026c10ead5fca31306c8ae181528dbccb3f020f37185d405322079b5776cab7",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-01",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月1日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月1日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "343b9fc4022daa6a93a17131c3d0541396e75942aeda8b4b810aeb88676600b3",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-30",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月30日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月30日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "8f882282246f86a126395f8ec64cad964a2a4e1667f5145173f608d079c9217e",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-29",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月29日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月29日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "934d3e2fe80a08b2a975ca46aed945ce055af4b0b4d18a5bcb07f33df73c44d2",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-26",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月26日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月26日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "ba68a953e2f2c2f09a8a29286458abadc046d76292eaca5ab3cfaf889e7b473d",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-25",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月25日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月25日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "ea41a03b2ce63fd00b1c670365c15ff7f40bc30c3645c6ef3f821a2362a42590",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-24",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月24日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月24日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "348e63fa2befe60d042e05fdd731a824b38ab3ddec374104f84b564fcc85c1d9",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-23",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月23日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月23日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "1c52429d805fe81e3783a846f8dd1cb2f19e0a1ced1755e5d863b4eea42278ac",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-22",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月22日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月22日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "7f8359021e4fb6bf983bda4a73974b19bd8e66cff0f6dde2a94aacf317fc89ef",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-19",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月19日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月19日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "863b59adce4dde5c51ef998c88e004e008dc4220c7fa3460e066176879e5ead9",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-18",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月18日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月18日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "2d6f313517f0896b8bdc003002629b5996fe2f90ad8c849235fced92cf0b470a",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-17",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月17日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月17日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "8231a9333528cb8edc7ec0e0e7bebc407d76ae2543071b51e4bb48664d65b1cf",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-16",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月16日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月16日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "10d9564355d306558c50781597dd8764c847682a3d4a82a66f0b1031ae383d13",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-15",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月15日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月15日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "2dacf350a5fec2d4026fb5c65b3000e28512efeec4505794e0c0f960452fceca",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-12",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月12日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月12日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "4175b295a73f2444f8930ee48bc0c25f4436b5bbf92b5cf1790670952a6133d5",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-11",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月11日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月11日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "29e3d99087517137858db187d99474ffabfe05d8543e371213303b1e9c64cc30",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-10",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月10日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月10日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "3ed4e2a16fab371d0fc2901c8c214a3f5c2510e1c1e5ba8577cf4de8b2481ce3",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-09",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月9日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月9日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "0277dafacfa0abacc52d31dbe73ba88a27e159f40b12ebc198a236b2a4be0a93",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-08",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月8日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月8日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "d02c6b4967faedb605c760a87a3db791c5b55e736ecbb77f7884321dc873ab8d",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-06",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月6日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月6日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "34b5109f03641a6f53b4239fbc884b0c7f9a544b6d9983ccb65dca85082d9368",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-05",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月5日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月5日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "d971ea59b36b47400679c3550587c9aaaa3a2ff7f55bf0e0cb458ad9b4cc832b",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-04",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月4日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月4日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "fbde164672d2be7a076d2f7a212b1871b5476c7f425dfb2d8d2a72866a07eb4a",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-03",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月3日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月3日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "a0b63823ab631155052365bf135da3f1132fb2aaa6c3dd3941723c8e410886c7",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-02",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月2日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月2日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "8521f7f95de138618f942d2b0e3aa8be15a701260ee1b991dfe38f0a021cff6e",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-01",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年6月1日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年6月1日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "5de01c78aee55e403dfd270c8c3379abb5fcf6644e04f2bd0a686c175b25629e",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-29",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月29日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月29日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "a5b047c052e6d4bf87c3237106c5a5fe5155ab3f16a6f11b51331e0fa171f8e9",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-28",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月28日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月28日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "dd65ef9f142de581b03a684e78bf7904d4e2148613a59c6dea9e25a98f4a3916",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-27",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月27日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月27日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "7ce83772839fd57e4fa3cb335256ee5df0d333729ea8283e73babb7bea3eac89",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-26",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月26日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月26日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "d20a0184841bae647c1837ef20cf309847eb047814d6bd96ec1618dcac28f788",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-25",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月25日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月25日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "0d0a37bced7197dc8490eb46fad418a75475b3f81887efdd815d6aeeed02936f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-22",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月22日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月22日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "b5db6f6b5fe4c199ff408e7d39d3a8380f777367d0e9a1c07e4793ba968336ba",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-21",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月21日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月21日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "24fe3c2977ce40f8734b770541a05fae9bb10560ebe6d8755357d5278c5b7565",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-20",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月20日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月20日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "3ee449c7eb1a3ce0a1c4e1d6fe375b3286155665dfa4a4ac2ddac8c44e4eb88c",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-19",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月19日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月19日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "ebc670460a8c3eadb2f7776c766a3cf3f518d0bb49867b6ae7b51a7ea9c9839b",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-18",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月18日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月18日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "caddafc6d808e9be89c73b4c641536e15bbd37c2320380caf3fdc6d5d8edee7d",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-15",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月15日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月15日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "2b361ecddfb70f7970479b33abc82ee2aca945e13d89a70bff4000a3e7b465a4",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-14",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月14日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月14日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "b5496d4a9a3990432f349d481b91c3984bdbc7ba77a7c8bb3b35c406e66874be",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-13",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月13日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月13日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "fc7df1fd3c55a2a784e957d7d73f1521a07849a4a72c71307f0fe44c98549f27",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-12",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月12日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月12日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "39681081e575ba9fa6070a2178ceb8b869c6ac4a5098605c53e4c52c4d5786a8",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-11",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月11日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月11日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "43aeab72d16cb45cb3401aad8ee055098a3b601ba0b42f841b2c094e844cb967",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-08",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月8日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月8日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "417bcc253e336ad6fa022ab4a77f58cf7f4c0bbbae3257307dc014458d85a710",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-07",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年5月7日证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年5月7日证券私募行业动态日报.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "1d5dcfe1430e1a50212e8944b6ada929cc1d8375e24bb4c7fd90e653d60d0ed2",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
       }
     ],
     "ma": [
@@ -60,6 +1815,846 @@
           "verification": "exact_file_name"
         },
         "updatedAt": "2026-07-28T17:08:26+08:00"
+      },
+      {
+        "date": "2026-07-27",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月27日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月27日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "5e31f2bdd4a49b335092550746e3a0dbee52f9d45921bdad8784372cfc0ca06a",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-24",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月24日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月24日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "a8e5bca1c5e57be7aa8b9526f503d216d4d854ed662f581a4e112bc45a46959f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-23",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月23日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月23日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "5450dcd58f39e2fc9818f29e1ddec3e512854098b46e1a0d24959b7a7028bde0",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-22",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月22日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月22日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "70205009a3d898fd7678fa460b895eb8a2eb884cfc3208cccce8276821ea02b7",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-21",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月21日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月21日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "d4aa73e8c843ab15c69dca9bf5927eb15250344da7694f46c2f8d99471d27b0d",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-20",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月20日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月20日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "38b1fcd79be6165eb663b385376108bcc9966ad6539318cd55ef2cad8ac327b0",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-17",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月17日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月17日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "eaf3d1773a6720138fb843d28e450da968de09761bc0892be8ec3016c5e3b0db",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-16",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月16日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月16日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "b7fa2474ab670b66669c1bb53ee443b3e07f8beca4f00c2163fa61bf24dce346",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-15",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月15日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月15日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "2b383f7a211071a9e0ce1b369f85eac0345bdc6eecb340649b0270aaaf5da69f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-14",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月14日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月14日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "741fce0787885fc6210f3f9540d4dfa96d72b9ef84f20338d547f7917156957d",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-13",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月13日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月13日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "87961d4063304fbd342ad8a9badc638d939e395c0d6564659a241724e58f174d",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-10",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月10日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月10日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "7160123c71300816a14084267a7442ee3fd31c2bcce658ce7121ddbc666c84df",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-09",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月9日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月9日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "47ede4dcc8c4e9ce86dddff2a75a4ef318e4228c36e9155020df6754c7ec8561",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-08",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月8日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月8日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "7142f6dc255a4651b21f3db1eaef744784df15c4153258a459b628458445dc36",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-07",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月7日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月7日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "b9e415b333c488f09760cce1359a16d9da89279ad35dbcfabf4f5f236496342c",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-06",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月6日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月6日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "400d79a38a749377447c7f31489c5e5d37c0c4a94b90b648ed18448b0cd3ad87",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-03",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月3日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月3日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "4e5920f195222be7f18dbfeec7c7807ea6ba01f150e837fcf332f0e6a05d5e4f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-02",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月2日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月2日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "3ff863cb22c5fde5a9906a9b7216b046a7a15874d228df2db7c798ebc77595f9",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-01",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月1日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月1日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "ce573610802049118d7ed3804d4ae5d5270b85c6a225ce3da706475132887ecc",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-30",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月30日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月30日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "1b5d1200cecca262eb39e68f404dafd8d85ffa0eb301963abc8e06160a0a4817",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-29",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月29日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月29日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "3fa72be09bd202b58c48a5bc585869512611d12f2ef010b8b0e841677ce014cf",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-26",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月26日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月26日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "1cbee8e3abee69c4f0eaa8f4bd159dd1afdc26bac798369a8d5a9fc5e21121f5",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-25",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月25日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月25日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "290f683027c52105e2b5fb6cbcfc299f19a414377e7c17d77890de5fe6dabef1",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-24",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月24日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月24日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "047ccf90d93319f94787af1f2258cd72cdacb750ac77f0adbeff2ca22e1622f7",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-23",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月23日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月23日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "39856dabba8d9ea4db96f0b153e89e206afa2f6b938d6cdf00a1cb6684a6db6d",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-22",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月22日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月22日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "7432b91aeb10e6f091bebbcda938daa0f3960656d9144e82f6512dab544d6527",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-18",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月18日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月18日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "11e151260957da3ae201c6624f14dc985b11735dcb252476831a9c527ea80fc0",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-17",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月17日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月17日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "254cff5871ce547fce45ab6022fef33fcbfaa79ec45b064ab0f758a3639ef063",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-16",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月16日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月16日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "7e7b8bc66ac796ecde25adc446b1b27c44115eef5f77e917a817e6664d3faf73",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-15",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月15日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月15日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "57e9173404b2f70bfcd7a7b42cbbfea188e32b3c584eb633b80c8ac9dd7dfdab",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-12",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月12日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月12日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "b9cc0fb3a4ef08a78d0c6dfafb2d1a8f12bcf54610d85b8ae87f27f67d1ec33d",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-11",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月11日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月11日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "731bb857108ce636c7c100a44883a1f9de65ed1f078283b061b55ba818447444",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-10",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月10日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月10日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "414a8d8cae467165f6d8e7f8eeb062b86f5bb4d4992f5144b20f4fd8655ab1cc",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-09",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月9日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月9日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "034b2f462db27df25bae833fa4a55aeb53e4dd0fcf320adf70c64680fb921390",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-08",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月8日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月8日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "925eaa86a39ccff63b1b3d036653dbdb4f3bc9b31c5124602ff6f30d92be9144",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-06",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月6日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月6日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "a35ab2522afc8ebbdf64077c423fdc107641d78c57e72b354ddb029af536632e",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-05",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月5日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月5日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "285969e783123389b97030dc9ae1bde75c7db76dbc08187ab4ec40c4b67fb2b4",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-04",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月4日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月4日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "5929a6cab9d713c87bbfa6b736aa4c28241c7942bd924626f4bffa466309e28d",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-03",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月3日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月3日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "0b04a73ee793a3d55b5713cebb41b0c4691e5ab6444411773b7c440c92baa029",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-02",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月2日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月2日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "e18d188ede7854d41920dfd9e54de21fbca399c519ef1bfe49c4f12394dac7f7",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-01",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年6月1日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年6月1日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "2af3df6b147161fa8f76a2af2bd773cbf683dd44e19161498d8fbee1f703c3ed",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-29",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月29日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月29日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "0683034547d8698b5a67c242e1f8a2b450989234cd126291c7ec757972de7bf4",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-28",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月28日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月28日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "1f0f9d909166d4e812a972705f5bbd8f8b99bdd0027581a8877cfd9d190fbe30",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-27",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月27日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月27日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "81981a069be50bac007f6620f96fcbfed010fa92f7b25eebcee483118d782c1c",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-26",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月26日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月26日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "b88a7890ff919a4dc75334dc1b120a1ff9e6f01c93fba2a2d0dbbac413c4f446",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-25",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月25日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月25日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "3cdfc16ad99f77209d63682c2f835d5e1448246c44735d4cea1ec4390af068ef",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-22",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月22日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月22日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "d4ae7edc2a3302aaa2fc33281335af845ee117663fbf710b7ddf23375acad599",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-21",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月21日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月21日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "df60c8a1740dcbe29c78ec59a630e73fee623299983c08f723e49f1078054794",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-20",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月20日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月20日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "144093e83dea9903dcd2784edc3bdd53bad75254195620ed96c9228d0f9e3638",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-19",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月19日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月19日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "ac62ae943832940e12daa68b6a992c24332035771f04908c7605299bf71e0ca7",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-18",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月18日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月18日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "7baff6a500c08f392f04cb2f14d267bf51b12df8954fdb097d5f42d8646ec94d",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-15",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月15日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月15日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "d5c9caf0358396a0a42297b0b67cb2b6f987efdace21579e2f5b7dd910adf8c4",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-14",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月14日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月14日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "4aab23080953524955f173035aeb1b3ea8672af078fe9cf264f0ea819f4531f8",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-13",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月13日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月13日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "b767c28334b2d7624ee864aaf4763630914d5764ef97b3b03721bb6bb7141334",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-12",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月12日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月12日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "92732108be741a191b31b035af85e25fc37fdaf08a117837c7867a4d3f165bef",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-11",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年5月11日陕西辖区收并购事件详细案例看板.png",
+        "publicPath": "archive/daily/ma/2026/2026年5月11日陕西辖区收并购事件详细案例看板.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "1c21f9064d0f639b07f28edd38f00a96ee71a8a1fd21f69df810b00ac1ae50ca",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
       }
     ],
     "tender": [
@@ -80,6 +2675,846 @@
           "verification": "exact_file_name"
         },
         "updatedAt": "2026-07-28T17:08:26+08:00"
+      },
+      {
+        "date": "2026-07-27",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-27.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-27.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "b4f91f11dbf72078dd6fb5f2569409ce6d3cc6cf2596b5932d3ee155022cbb93",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-24",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-24.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-24.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "88400d1e4cb9e19d91fdfa2abbf25e981d65db5ce7351673f373bd0eb90f4e35",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-23",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-23.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-23.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "2ee534f96fcc288a1cfb887d9123b9deee3a2b0ce68b310311f03b2b3f75e7f6",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-22",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-22.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-22.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "f6b2ad052078348f8243bd8cd777040fab899b266f248750702d794e0bfe1893",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-21",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-21.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-21.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "b4f6054ddd1fa7355c226e1d3fe6d98fb5f9b6f886627115ccae657b7e3f85ff",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-20",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-20.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-20.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "27253cf508caeef49aa60f9b7973130b382cefd9d44828843f5010179018937e",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-17",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-17.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-17.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "5126fedd54375cfe69bbda34bea5b1e19270def09ff1265877a600d3aa429e47",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-16",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-16.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-16.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "1818cd6f002ccbc75663ec536dc87898ff32e7837b154786285eca04c767cc22",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-15",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-15.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-15.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "58345b9cbb7a66a22d8998165382b1a1a6930fbb89cb29310fc1e7b9ed9514d8",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-14",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-14.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-14.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "976871d89952318146325cda061fa8dcec947a0ac3890b0408097cba924681fb",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-13",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-13.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-13.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "d5e58fb233dd26666f84990004dbca891d1ea475cae93c8551d0e3ca55451d04",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-10",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-10.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-10.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "33d489c1e8624e3ecde3030773eb6b05319ab5e8afd3688f659dede8818836b5",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-09",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-09.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-09.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "e4602a520a23b716ce3e5ed9e5d15943d4ec9fe3b9fab4334e284a25727bc3df",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-08",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-08.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-08.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "4f05b039d523b05fddb892cfd328b7ce508dced4ceedc65b4c03a093c813c7c6",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-07",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-07.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-07.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "1b2e9da3c5be6e75c95167ab5de9cf727a2c6dbb91031864412beaa54f5a793a",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-06",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-06.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-06.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "205408114988898d06867ef924182975e07cc624889e347c2b382f33bdaa8379",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-03",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-03.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-03.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "0f9ad2bcbbf7be8e15f8b71d203ed54d0537decccf795b9fcdf67bbafc5d0938",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-02",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-02.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-02.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "146d9810201082d980bb134b739f8dbd408febfe15eaa0ecf9b19b9d9eb390c7",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-07-01",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-07-01.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-07-01.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "fd59a81dab6ec98d1fd622f4e9d8d4e48f74d879d09ffac4ab4a680ad2a394f5",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-30",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-30.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-30.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "f9041509a00153a47842273ff994c1157792743939427cdf1106368f508edb54",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-29",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-29.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-29.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "a5b0949908dcc2271887c71f6ee6f56bd48c77dc98312d5fad3d65356e58d736",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-26",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-26.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-26.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "a5c2f7a75d94f5b5c3f2733e7d09d1832d1e9ebd7a247b9a3d89e011a1430e2f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-25",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-25.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-25.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "6be501642f00cb3499272f7f1b1f65b7f3c542ca2559b63d67ae381fbca8187a",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-24",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-24.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-24.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "efba1c0826f18e5a162e0c2b5aac7ba193b58c8a3f68a39085d392ae1e208723",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-23",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-23.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-23.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "d4e1cfe7728180ecc00780bafe1a883657bf49507cb3b14e3996ed75c30c8f03",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-22",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-22.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-22.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "9630866c5245d05a96d9f70906521f55e73492a167eea1c4bb32e05a25d3863a",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-18",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-18.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-18.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "24972657ee3eef9b26b823b6697a5f48aa6caa36d94ee5249ea34481e4b9431e",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-17",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-17.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-17.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "ce5024fc6794cc3aa9ab449c6073f460cf8e1112273b93ab387a4048829930d7",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-16",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-16.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-16.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "797d7ef35d85ae1be05c28700d28e95cfe3eac56efc26771d40c132feae50d89",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-15",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-15.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-15.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "945d5bb8fe701ecf6c08beaa7848a8cdee1416106018276a1fc36fb2c30810e6",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-12",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-12.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-12.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "f71ab4cde87923bbd417edfa0e0909a3afdee272c6eb6f15b794e370f34d64eb",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-11",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-11.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-11.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "d86af4f27b995099ac70113f819b0bc87530be4f42280d0582bc23708fee504c",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-10",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-10.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-10.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "1c2cf358cd19454c06d452f0ea0b73db72b33b71b1a9c643aa9246d47bec98cf",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-09",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-09.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-09.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "e788575da5941d409503eb8f2f526b6f2856bf76f1cdcb3d9a76865b1a9206e5",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-08",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-08.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-08.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "fec4c7e3f8c4831e20fa0796fd12433b1bebdc3336668d6b7c51f420f9f26af7",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-06",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-06.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-06.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "41cb09525e2e65528cfbe1f82c8f87cc8d7e0fcbe3b212197848ca9d9c8a8b8f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-05",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-05.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-05.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "81707e9764483ae9951f1782752a68721c058d42f5455fd923c5977df0b1e17c",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-04",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-04.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-04.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "ff989180a7399a473960408389df2e0eb28521f248752cacf78f335a00a2d33b",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-03",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-03.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-03.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "29f07d6ee33fb94a2388ad3b66090967968a8e812b70705982f19b39fe208d58",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-02",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-02.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-02.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "10cbf3b8f54c8f1b74f250082f3a94d68ef2e9e1984ef56c61a5685e6fe81df1",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-06-01",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-06-01.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-06-01.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "6fbb3a1c20ef49021128c467709a18dc097ea4eca92a22f3b3802baadc16e4dd",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-29",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-29.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-29.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "c437e4906cd3b52cbeef36a61900ecdb608b03c85d641e04b372cf2271b6f93e",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-28",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-28.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-28.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "8cd7179076e4314a2d89c44601866d68ed94cb8daa21b7e3460236912bcf8090",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-27",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-27.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-27.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "43cc2b130a625de3a8fcb131da157e1612691e26b749d70a7adaadc5f01b048c",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-26",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-26.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-26.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "94c3adeef97f364d85684d60b825aa361ea14c2eb3bb28d64b9e648e19c7cf7f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-25",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-25.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-25.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "fbda5079dae02c871a99e633cce8fd3640de55d55d01a80678528305ba503dc7",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-22",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-22.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-22.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "608df49391be5f1790a167ad878de4cfe96d42e1d5fcc9586ee30da8240ef47f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-21",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-21.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-21.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "51e441413500f45fc82a3ab48fcc216b5a87ac4b7c94448d11991a379e139dc0",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-20",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-20.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-20.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "110f440e0fc539c51360be0ca7574923e80445eb70e75965db496ddbe79b0a8f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-19",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-19.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-19.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "3010408d9411a1fd2206061c1f93940417cf2a23735156d4abfbcb45aa35235f",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-18",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-18.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-18.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "8e7b913ff5ab7d7897b0fe4930ee70519f9c706e8da67b1267ce0f0a4205b451",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-15",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-15.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-15.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "6bf255a3b8e6150346218c1f3f3dd7288292dc1552533277da2f6a16ec72516e",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-14",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-14.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-14.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "809aacea6ff16e3c7742a8896c628edd886365076ac3b1b8c0249b139bb23aac",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-13",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-13.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-13.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "142110a1c33310306bbadd16cdfe2874b7c734611fffa671a25a483e0b4e1f97",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-12",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-12.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-12.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "63a01ed8b2d77e6e27ccc7a5b38d952204bfb947c20b3cbe14458edb3159c2be",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
+      },
+      {
+        "date": "2026-05-11",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "shaanxi-finance-tender-projects-2026-05-11.png",
+        "publicPath": "archive/daily/tender/2026/shaanxi-finance-tender-projects-2026-05-11.png",
+        "sourceBuildVersion": "v1-history",
+        "sha256": "49de13af7c44ad9f73b3855ccc0e732474788de18681ddea9e9601717c7b9f3e",
+        "origin": "v1_history",
+        "webStatus": "staged",
+        "ima": {
+          "status": "not_applicable"
+        },
+        "updatedAt": "2026-07-28T17:14:26+08:00"
       }
     ]
   }
