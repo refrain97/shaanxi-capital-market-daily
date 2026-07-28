@@ -36,11 +36,11 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-07-28.json",
-        "sha256": "a61708dea55d7696bd19e480d27e6b69941f6c47732fb2c59e06f0e6710e0c3b"
+        "sha256": "ba28eac53bad1fb6ce109dc6e6d9e957e090eaf94fe8c78c0226292de6438f1c"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-07-28.json",
-        "sha256": "c74f754a9b150a13c7095356d6936f86ee1380a5f9851c524320636a2cf064cc"
+        "sha256": "d7d0f62f484d1cd48700b42085eca9324e0145c7ebba8a366033b058397388c5"
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-07-28.json",
@@ -132,7 +132,7 @@
     "readiness": "v2/data/readiness/v2-ready-2026-07-28-morning.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "0cf67327e27e"
+    "version": "cd6898348006"
   },
   "homeHighlights": [
     {
@@ -695,6 +695,65 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442851.PDF"
             }
           ]
+        },
+        {
+          "announcementTitle": "盈利预警",
+          "attention": "数据基于未经审计管理账目初步评估；关注中期业绩正式披露、光伏玻璃价格与存货减值规模。",
+          "business": {
+            "category": "综合事项",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "综合事项",
+            "targets": [
+              "董秘办"
+            ]
+          },
+          "canonicalDetailId": "listed-detail-30ad571c05",
+          "company": "彩虹新能源",
+          "matter_id": "1225444492",
+          "numbersHtml": "预计2026年上半年归母净亏损<b>4.40亿元至4.95亿元</b>，较上年同期净亏损<b>2.96亿元</b>扩大<b>1.44亿元至1.99亿元</b>",
+          "publishedAt": "2026-07-28",
+          "sourceConfidence": "verified-exact-announcement",
+          "sourceKeyword": "精确公告映射",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444492.PDF",
+          "sources": [
+            {
+              "announcementTitle": "盈利预警",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444492.PDF"
+            }
+          ]
+        },
+        {
+          "announcementTitle": "关于为全资子公司提供担保的公告",
+          "attention": "董事会已通过且无须股东会审批；关注授信合同实际金额、期限和担保责任履行。",
+          "business": {
+            "category": "经营与产业",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "重大合同",
+            "targets": [
+              "董秘",
+              "业务负责人",
+              "财务"
+            ]
+          },
+          "company": "通源石油",
+          "matter_id": "1225444168",
+          "numbersHtml": "拟为永晨石油申请的<b>5,000万元</b>授信提供连带责任保证；当前担保余额<b>1.34亿元</b>，占最近一期经审计归母净资产<b>9.55%</b>",
+          "publishedAt": "2026-07-28",
+          "sourceConfidence": "verified-exact-announcement",
+          "sourceKeyword": "精确公告映射",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF",
+          "sources": [
+            {
+              "announcementTitle": "关于为全资子公司提供担保的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF"
+            }
+          ]
         }
       ],
       "date": "2026-07-28",
@@ -826,6 +885,99 @@
             }
           ],
           "title": "B. 发行申请文件"
+        },
+        {
+          "items": [
+            {
+              "announcementTitle": "盈利预警",
+              "body": "预计归母净亏损4.40亿元至4.95亿元，亏损同比扩大；关键原因是光伏玻璃价格持续下跌导致毛利率下降及部分存货减值。",
+              "business": {
+                "category": "综合事项",
+                "contentImportance": "固定披露",
+                "priority": "standard",
+                "subcategory": "综合事项",
+                "targets": [
+                  "董秘办"
+                ]
+              },
+              "company": "彩虹新能源",
+              "matter_id": "1225444492",
+              "publishedAt": "2026-07-28",
+              "sourceConfidence": "verified-exact-announcement",
+              "sourceKeyword": "精确公告映射",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444492.PDF",
+              "sources": [
+                {
+                  "announcementTitle": "盈利预警",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444492.PDF"
+                }
+              ],
+              "title": "彩虹新能源｜上半年盈利预警"
+            },
+            {
+              "announcementTitle": "关于为全资子公司提供担保的公告",
+              "body": "为全资子公司5,000万元授信提供连带责任保证，担保期至债务履行期届满后三年，无须提交股东会审批。",
+              "business": {
+                "category": "治理关系",
+                "contentImportance": "固定披露",
+                "priority": "standard",
+                "subcategory": "章程治理",
+                "targets": [
+                  "董秘办",
+                  "证券事务代表",
+                  "管理层"
+                ]
+              },
+              "company": "通源石油",
+              "matter_id": "1225444168",
+              "publishedAt": "2026-07-28",
+              "sourceConfidence": "verified-exact-announcement",
+              "sourceKeyword": "精确公告映射",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF",
+              "sources": [
+                {
+                  "announcementTitle": "关于为全资子公司提供担保的公告",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF"
+                }
+              ],
+              "title": "通源石油｜为永晨石油提供担保"
+            },
+            {
+              "announcementTitle": "第九届董事会第三次会议决议公告",
+              "body": "董事会通过8,000万元综合授信及5,000万元子公司担保两项议案，均为生产经营和流动资金安排。",
+              "business": {
+                "category": "治理关系",
+                "contentImportance": "固定披露",
+                "priority": "standard",
+                "subcategory": "章程治理",
+                "targets": [
+                  "董秘办",
+                  "证券事务代表",
+                  "管理层"
+                ]
+              },
+              "company": "通源石油",
+              "matter_id": "1225444167",
+              "publishedAt": "2026-07-28",
+              "sourceConfidence": "verified-exact-announcement",
+              "sourceKeyword": "精确公告映射",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444167.PDF",
+              "sources": [
+                {
+                  "announcementTitle": "第九届董事会第三次会议决议公告",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444167.PDF"
+                }
+              ],
+              "title": "通源石油｜董事会决议"
+            }
+          ],
+          "title": "C. 收盘后新增公告"
         }
       ],
       "focusCompanies": [
@@ -876,6 +1028,21 @@
           },
           "company": "国际医学",
           "followText": "跟踪深交所审核结论、证监会注册及募投项目实施条件。",
+          "sourceSection": "section-04"
+        },
+        {
+          "anchorId": "listed-detail-30ad571c05",
+          "business": {
+            "category": "综合事项",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "综合事项",
+            "targets": [
+              "董秘办"
+            ]
+          },
+          "company": "彩虹新能源",
+          "followText": "跟踪中期业绩正式披露、光伏玻璃价格走势、毛利率和存货减值规模。",
           "sourceSection": "section-04"
         }
       ],
@@ -967,15 +1134,73 @@
             }
           ],
           "title": "国际医学｜关注审核推进"
+        },
+        {
+          "announcementTitle": "盈利预警",
+          "body": "跟踪中期业绩正式披露、光伏玻璃价格走势、毛利率和存货减值规模。",
+          "business": {
+            "category": "综合事项",
+            "contentImportance": "重点跟踪",
+            "priority": "standard",
+            "subcategory": "综合事项",
+            "targets": [
+              "董秘办"
+            ]
+          },
+          "company": "彩虹新能源",
+          "matter_id": "1225444492-follow",
+          "publishedAt": "2026-07-28",
+          "sourceConfidence": "verified-exact-announcement",
+          "sourceKeyword": "精确公告映射",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444492.PDF",
+          "sources": [
+            {
+              "announcementTitle": "盈利预警",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444492.PDF"
+            }
+          ],
+          "title": "彩虹新能源｜关注正式中期业绩"
+        },
+        {
+          "announcementTitle": "关于为全资子公司提供担保的公告",
+          "body": "跟踪永晨石油实际提款、担保合同条款及公司整体担保余额变化。",
+          "business": {
+            "category": "经营与产业",
+            "contentImportance": "重点跟踪",
+            "priority": "standard",
+            "subcategory": "重大合同",
+            "targets": [
+              "董秘",
+              "业务负责人",
+              "财务"
+            ]
+          },
+          "company": "通源石油",
+          "matter_id": "1225444168-follow",
+          "publishedAt": "2026-07-28",
+          "sourceConfidence": "verified-exact-announcement",
+          "sourceKeyword": "精确公告映射",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF",
+          "sources": [
+            {
+              "announcementTitle": "关于为全资子公司提供担保的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF"
+            }
+          ],
+          "title": "通源石油｜关注授信与担保落地"
         }
       ],
       "kpis": [
         {
-          "label": "逐主体检索现行110家观察池，覆盖5家发布公告公司，巨潮接口错误0条",
-          "num": "14条"
+          "label": "逐主体检索现行110家观察池，覆盖7家发布公告公司，巨潮接口错误0条",
+          "num": "17条"
         },
         {
-          "label": "港股L2观察池逐主体完成港交所官方标题检索，当日新增0条",
+          "label": "港股L2观察池逐主体完成港交所官方标题检索，彩虹新能源16:33发布盈利预警1条",
           "num": "14家"
         },
         {
@@ -1070,6 +1295,62 @@
             }
           ],
           "title": "重点｜国际医学"
+        },
+        {
+          "announcementTitle": "盈利预警",
+          "body": "预计2026年上半年归母净亏损4.40亿元至4.95亿元，较上年同期2.96亿元净亏损扩大1.44亿元至1.99亿元，主因光伏玻璃价格持续下跌和部分存货计提减值。",
+          "business": {
+            "category": "综合事项",
+            "contentImportance": "收盘新增",
+            "priority": "standard",
+            "subcategory": "综合事项",
+            "targets": [
+              "董秘办"
+            ]
+          },
+          "company": "彩虹新能源",
+          "publishedAt": "2026-07-28",
+          "sourceConfidence": "verified-single-company-announcement",
+          "sourceKeyword": "唯一公司公告",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444492.PDF",
+          "sources": [
+            {
+              "announcementTitle": "盈利预警",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444492.PDF"
+            }
+          ],
+          "title": "收盘新增｜彩虹新能源"
+        },
+        {
+          "announcementTitle": "关于为全资子公司提供担保的公告",
+          "body": "拟为全资子公司永晨石油5,000万元授信提供连带责任保证；截至公告日公司及控股子公司对外担保余额1.34亿元，无逾期担保。",
+          "business": {
+            "category": "资金与财务",
+            "contentImportance": "收盘新增",
+            "priority": "standard",
+            "subcategory": "担保",
+            "targets": [
+              "财务负责人",
+              "资金部",
+              "董秘办"
+            ]
+          },
+          "company": "通源石油",
+          "publishedAt": "2026-07-28",
+          "sourceConfidence": "verified-company-and-topic",
+          "sourceKeyword": "标题语义重合8",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF",
+          "sources": [
+            {
+              "announcementTitle": "关于为全资子公司提供担保的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF"
+            }
+          ],
+          "title": "收盘新增｜通源石油"
         }
       ],
       "risk_rows": [
@@ -1102,9 +1383,67 @@
           ],
           "tag": "资产处置/交易不确定性",
           "tagClass": "risk"
+        },
+        {
+          "announcementTitle": "盈利预警",
+          "business": {
+            "category": "综合事项",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "综合事项",
+            "targets": [
+              "董秘办"
+            ]
+          },
+          "company": "彩虹新能源",
+          "event": "预计2026年上半年归母净亏损4.40亿元至4.95亿元，较上年同期2.96亿元净亏损扩大1.44亿元至1.99亿元；光伏玻璃供需失衡导致产品价格持续下跌、毛利率下降，并对部分存货计提减值。",
+          "matter_id": "1225444492",
+          "publishedAt": "2026-07-28",
+          "sourceConfidence": "verified-exact-announcement",
+          "sourceKeyword": "精确公告映射",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444492.PDF",
+          "sources": [
+            {
+              "announcementTitle": "盈利预警",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444492.PDF"
+            }
+          ],
+          "tag": "盈利预警/亏损扩大",
+          "tagClass": "risk"
+        },
+        {
+          "announcementTitle": "关于为全资子公司提供担保的公告",
+          "business": {
+            "category": "综合事项",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "综合事项",
+            "targets": [
+              "董秘办"
+            ]
+          },
+          "company": "通源石油",
+          "event": "拟为全资子公司永晨石油5,000万元授信提供连带责任保证，担保期至相关债务履行期届满后三年；截至公告日公司及控股子公司担保余额1.34亿元，占最近一期经审计归母净资产9.55%，无逾期担保。",
+          "matter_id": "1225444168",
+          "publishedAt": "2026-07-28",
+          "sourceConfidence": "verified-exact-announcement",
+          "sourceKeyword": "精确公告映射",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF",
+          "sources": [
+            {
+              "announcementTitle": "关于为全资子公司提供担保的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF"
+            }
+          ],
+          "tag": "子公司担保/或有负债",
+          "tagClass": "risk"
         }
       ],
-      "subtitle": "2026年7月28日｜同日逐主体检索110家观察池｜巨潮14条、5家发布公告公司｜14家港股完成港交所官方复核",
+      "subtitle": "2026年7月28日｜midday阻断后执行同日完整补偿｜逐主体检索110家观察池｜巨潮17条、7家发布公告公司｜14家港股完成港交所官方复核",
       "template": "listed-v1-official",
       "tiles": [
         {
@@ -1168,6 +1507,34 @@
             }
           ],
           "title": "炬光科技｜2025年剩余预留授予公示"
+        },
+        {
+          "announcementTitle": "第九届董事会第三次会议决议公告",
+          "body": "拟向平安银行西安分行申请不超过8,000万元综合授信，期限不超过24个月，由全资子公司西安华程提供连带责任担保。",
+          "business": {
+            "category": "综合事项",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "综合事项",
+            "targets": [
+              "董秘办"
+            ]
+          },
+          "company": "通源石油",
+          "matter_id": "1225444167",
+          "publishedAt": "2026-07-28",
+          "sourceConfidence": "verified-exact-announcement",
+          "sourceKeyword": "精确公告映射",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444167.PDF",
+          "sources": [
+            {
+              "announcementTitle": "第九届董事会第三次会议决议公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444167.PDF"
+            }
+          ],
+          "title": "通源石油｜申请8,000万元综合授信"
         }
       ]
     },
@@ -2470,6 +2837,21 @@
         "company": "国际医学",
         "followText": "跟踪深交所审核结论、证监会注册及募投项目实施条件。",
         "sourceSection": "section-04"
+      },
+      {
+        "anchorId": "listed-detail-30ad571c05",
+        "business": {
+          "category": "综合事项",
+          "contentImportance": "内容重要",
+          "priority": "standard",
+          "subcategory": "综合事项",
+          "targets": [
+            "董秘办"
+          ]
+        },
+        "company": "彩虹新能源",
+        "followText": "跟踪中期业绩正式披露、光伏玻璃价格走势、毛利率和存货减值规模。",
+        "sourceSection": "section-04"
       }
     ],
     "isAsOfFallback": false,
@@ -2477,8 +2859,8 @@
     "pageDate": "2026-07-28",
     "sourceAsOf": "2026-07-28",
     "sourceCoverage": {
-      "linked": 15,
-      "total": 15,
+      "linked": 27,
+      "total": 27,
       "unmatched": []
     }
   },
