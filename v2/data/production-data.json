@@ -36,7 +36,7 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-07-28.json",
-        "sha256": "260c91dbcaa177d4d632fed57ff04547425c2edf0f493926e2512615045bab40"
+        "sha256": "f3ca28abfb0fe8d4130dce2d6514dd6ea4178cfb880dbcb29f9dc5e51b251b66"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-07-28.json",
@@ -44,7 +44,7 @@
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-07-28.json",
-        "sha256": "64f1b9a0f790ce5958a019d21155e95abe7bd5ea115f94cb4de2cd923a70d4ef"
+        "sha256": "b9bd72dd5273de8b122acdad7d9e76a35b045d412638c387dc5e2df46b55a7f7"
       },
       {
         "path": "v2/data/readiness/v2-ready-2026-07-28-morning.json",
@@ -84,7 +84,7 @@
       },
       {
         "path": "v2/data/source/soe/events-2026.json",
-        "sha256": "06a49d5b675b6d3e8fe2f8109d365236544d2a67daf54008e38625483bdea482"
+        "sha256": "d0ce4ff966788053279a4b453b29e85da998d0f51f9ee3422ed7694eb62fc8c4"
       },
       {
         "path": "v2/data/source/soe/evidence/verified-2026-07-28-morning.json",
@@ -108,7 +108,7 @@
       },
       {
         "path": "v2/scripts/build_daily_v2.py",
-        "sha256": "6abf18a88ad080a26d5548179d01f9c5597758988aa5be9c556c01d3428fed90"
+        "sha256": "88c435789a72828078a5f1944f26b27c8c660a155e739a3fdd89d99e3fb6a4f0"
       },
       {
         "path": "v2/scripts/refresh_ma_events.py",
@@ -132,7 +132,7 @@
     "readiness": "v2/data/readiness/v2-ready-2026-07-28-morning.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "7bbea2f124c9"
+    "version": "75d700a24ed5"
   },
   "homeHighlights": [
     {
@@ -6975,6 +6975,54 @@
     "categoryRecords": {
       "产业经营": [
         {
+          "candidateId": "soe-v2-fef8bcd0553533b388e8",
+          "category": "产业经营",
+          "entities": [
+            "陕西煤业化工集团有限责任公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-28",
+          "sourceName": "陕煤集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429368&cid=36",
+          "title": "渭化公司：“二次创业”转新岗，百分之百全胜任",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
+          "verificationNote": "官方原文确认二期装置停运后9名职工分流至一期、三期，经过6个月培训全部通过考核。"
+        },
+        {
+          "candidateId": "soe-v2-c11d5c50cd367b91aa66",
+          "category": "产业经营",
+          "entities": [
+            "陕西煤业化工集团有限责任公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-28",
+          "sourceName": "陕煤集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429367&cid=33",
+          "title": "陕煤信电：精耕物资管控 聚力提质增效",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
+          "verificationNote": "官方原文披露截至6月库存压降59.9万元、常规物资采购节约265.6万元、检修物资采购节约485.9万元。"
+        },
+        {
+          "candidateId": "soe-v2-8c2b847b7060e64dcb2d",
+          "category": "产业经营",
+          "entities": [
+            "陕西煤业化工集团有限责任公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-28",
+          "sourceName": "陕煤集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429359&cid=15",
+          "title": "陕煤电力集团：“创新+执行”全面提升班子建设质效",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
+          "verificationNote": "官方原文披露上半年发电量同比增长3%，利润完成半年计划101.7%，度电成本同比下降5.94%，累计节约碳履约支出1.49亿元。"
+        },
+        {
           "candidateId": "soe-v2-563134952ab5c05c7f40",
           "category": "产业经营",
           "entities": [
@@ -6991,64 +7039,20 @@
           "verificationNote": "官方原文披露上半年完成全年承揽任务71.68%，利润同比增加73.57万元。"
         },
         {
-          "candidateId": "soe-v2-03d3eb879de4ee0ef39a",
+          "candidateId": "soe-v2-18f9c78f200a8308cb27",
           "category": "产业经营",
           "entities": [
-            "陕西国际经贸集团有限公司"
+            "陕西煤业化工集团有限责任公司"
           ],
           "normalizationStatus": "official_source_verified",
           "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-24",
-          "sourceName": "陕西国际经贸集团官网",
+          "publishedAt": "2026-07-28",
+          "sourceName": "陕煤集团官网",
           "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.siet.com.cn/news_detail/id-8081.html",
-          "title": "陕西国际经贸集团外部董事赴利用外资公司调研阳光采购交易平台建设运营工作",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-27-morning.json"
-        },
-        {
-          "candidateId": "soe-v2-ed1c8e3147ac1655fe71",
-          "category": "产业经营",
-          "entities": [
-            "西安工业投资集团有限公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-22",
-          "sourceName": "西安工投集团官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://xagytzjt.com/show/26072211TMH8K.html",
-          "title": "工投集团召开2026年上半年经济运行分析会",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-27-morning.json"
-        },
-        {
-          "candidateId": "soe-v2-5310b8a7c334455999d4",
-          "category": "产业经营",
-          "entities": [
-            "陕西投资集团有限公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-22",
-          "sourceName": "陕西省国资委",
-          "sourceQuality": "official_public_disclosure",
-          "sourceUrl": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202607/t20260722_3659248.html",
-          "title": "【陕投集团】凉水井矿业AI全场景智能化应用赋能矿山高质量发展",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-27-morning.json"
-        },
-        {
-          "candidateId": "soe-v2-0a5b74cf35d5c230d3e3",
-          "category": "产业经营",
-          "entities": [
-            "陕西水务发展集团有限公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-22",
-          "sourceName": "陕西水务发展集团官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.sxswfzjt.com/news/info/3619",
-          "title": "陕西水务发展集团召开关中西片区供水、环保公司上半年工作调研座谈会",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-27-morning.json"
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429364&cid=33",
+          "title": "柠条塔矿业：高效协同促发展",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
+          "verificationNote": "官方原文披露1—6月块煤销量302.08万吨、增收约2.05亿元，设备自修及运维等合计节约成本8768万元。"
         }
       ],
       "综合动态": [
@@ -7281,6 +7285,22 @@
       ],
       "风险治理": [
         {
+          "candidateId": "soe-v2-d8172372c20018e2202b",
+          "category": "风险治理",
+          "entities": [
+            "陕西国际经贸集团有限公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-28",
+          "sourceName": "陕西国际经贸集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.siet.com.cn/news_detail/id-8085.html",
+          "title": "止园饭店：开展子公司印章管理专项检查工作",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
+          "verificationNote": "官方原文确认对止园工贸、止园旅游、止园洗涤三家子公司开展印章专项检查，并形成整改报告和后续复核安排。"
+        },
+        {
           "candidateId": "soe-backfill-57e6a90598974860ec5c",
           "category": "风险治理",
           "entities": [
@@ -7335,26 +7355,44 @@
           "sourceQuality": "official_or_group_site",
           "sourceUrl": "https://www.sxjkgroup.com/info/1021/3864.htm",
           "title": "新时代资本召开违反中央八项规定精神案件 以案促改工作动员部..."
-        },
-        {
-          "candidateId": "soe-backfill-34d81f7dcc23d9d5e5ed",
-          "category": "风险治理",
-          "entities": [
-            "陕西地矿集团有限公司"
-          ],
-          "normalizationStatus": "existing_output_source_link_preserved",
-          "noveltyStatus": "backfill",
-          "publishedAt": "2026-06-30",
-          "sourceName": "集团官网",
-          "sourceQuality": "official_or_group_site",
-          "sourceUrl": "https://www.sndk.cn/news/18853.html",
-          "title": "陕西地矿物资开展安全生产大检查"
         }
       ]
     },
     "customerBoundary": "当前可查询的国企历史记录最早到2026-05-21；更早记录尚未完成系统回补，不能据此视为年初以来全量。",
     "eventOnScanDate": true,
     "focusRecords": [
+      {
+        "candidateId": "soe-v2-fef8bcd0553533b388e8",
+        "category": "产业经营",
+        "entities": [
+          "陕西煤业化工集团有限责任公司"
+        ],
+        "normalizationStatus": "official_source_verified",
+        "noveltyStatus": "verified_v2_import",
+        "publishedAt": "2026-07-28",
+        "sourceName": "陕煤集团官网",
+        "sourceQuality": "issuer_original",
+        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429368&cid=36",
+        "title": "渭化公司：“二次创业”转新岗，百分之百全胜任",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
+        "verificationNote": "官方原文确认二期装置停运后9名职工分流至一期、三期，经过6个月培训全部通过考核。"
+      },
+      {
+        "candidateId": "soe-v2-d8172372c20018e2202b",
+        "category": "风险治理",
+        "entities": [
+          "陕西国际经贸集团有限公司"
+        ],
+        "normalizationStatus": "official_source_verified",
+        "noveltyStatus": "verified_v2_import",
+        "publishedAt": "2026-07-28",
+        "sourceName": "陕西国际经贸集团官网",
+        "sourceQuality": "issuer_original",
+        "sourceUrl": "https://www.siet.com.cn/news_detail/id-8085.html",
+        "title": "止园饭店：开展子公司印章管理专项检查工作",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
+        "verificationNote": "官方原文确认对止园工贸、止园旅游、止园洗涤三家子公司开展印章专项检查，并形成整改报告和后续复核安排。"
+      },
       {
         "candidateId": "soe-v2-c45d15022ca24b5511b0",
         "category": "项目资产",
@@ -7372,7 +7410,7 @@
         "verificationNote": "官方原文确认恒神股份联合南京航空航天大学、哈工大苏州研究院共建的省重点实验室进入筹建名单。"
       },
       {
-        "candidateId": "soe-v2-563134952ab5c05c7f40",
+        "candidateId": "soe-v2-c11d5c50cd367b91aa66",
         "category": "产业经营",
         "entities": [
           "陕西煤业化工集团有限责任公司"
@@ -7382,55 +7420,26 @@
         "publishedAt": "2026-07-28",
         "sourceName": "陕煤集团官网",
         "sourceQuality": "issuer_original",
-        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429360&cid=38",
-        "title": "建设集团绿宇公司党支部：党建引领 驱动发展新动能",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-morning.json",
-        "verificationNote": "官方原文披露上半年完成全年承揽任务71.68%，利润同比增加73.57万元。"
+        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429367&cid=33",
+        "title": "陕煤信电：精耕物资管控 聚力提质增效",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
+        "verificationNote": "官方原文披露截至6月库存压降59.9万元、常规物资采购节约265.6万元、检修物资采购节约485.9万元。"
       },
       {
-        "candidateId": "soe-v2-f52653b8fbc0bcc9813d",
-        "category": "综合动态",
-        "entities": [
-          "陕西财金投资管理有限责任公司"
-        ],
-        "normalizationStatus": "official_source_verified",
-        "noveltyStatus": "verified_v2_import",
-        "publishedAt": "2026-07-24",
-        "sourceName": "陕西财金官网",
-        "sourceQuality": "issuer_original",
-        "sourceUrl": "https://www.sxcjtz.cn/info/1118/3135.htm",
-        "title": "融银担联动，惠企纾困！陕西省中小微企业银企对接会成功举办",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-27-morning.json"
-      },
-      {
-        "candidateId": "soe-v2-977200b494a1e072c3a7",
-        "category": "综合动态",
+        "candidateId": "soe-v2-8c2b847b7060e64dcb2d",
+        "category": "产业经营",
         "entities": [
           "陕西煤业化工集团有限责任公司"
         ],
         "normalizationStatus": "official_source_verified",
         "noveltyStatus": "verified_v2_import",
-        "publishedAt": "2026-07-24",
-        "sourceName": "陕西省国资委",
-        "sourceQuality": "official_public_disclosure",
-        "sourceUrl": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202607/t20260724_3659957.html",
-        "title": "【陕煤集团】文家坡发电公司：以党建红帆聚合力 凭安全长城保生产 用精益良方促增收",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-27-morning.json"
-      },
-      {
-        "candidateId": "soe-v2-03d3eb879de4ee0ef39a",
-        "category": "产业经营",
-        "entities": [
-          "陕西国际经贸集团有限公司"
-        ],
-        "normalizationStatus": "official_source_verified",
-        "noveltyStatus": "verified_v2_import",
-        "publishedAt": "2026-07-24",
-        "sourceName": "陕西国际经贸集团官网",
+        "publishedAt": "2026-07-28",
+        "sourceName": "陕煤集团官网",
         "sourceQuality": "issuer_original",
-        "sourceUrl": "https://www.siet.com.cn/news_detail/id-8081.html",
-        "title": "陕西国际经贸集团外部董事赴利用外资公司调研阳光采购交易平台建设运营工作",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-27-morning.json"
+        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429359&cid=15",
+        "title": "陕煤电力集团：“创新+执行”全面提升班子建设质效",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
+        "verificationNote": "官方原文披露上半年发电量同比增长3%，利润完成半年计划101.7%，度电成本同比下降5.94%，累计节约碳履约支出1.49亿元。"
       }
     ],
     "isAsOfFallback": false,
@@ -7441,7 +7450,7 @@
     ],
     "networkVerified": true,
     "pageDate": "2026-07-28",
-    "recordCount": 77,
+    "recordCount": 82,
     "rejectedCandidateCount": 0,
     "scanAsOf": "2026-07-28",
     "scanEvidence": "v2/data/source/soe/scans/scan-2026-07-28-morning.json",
@@ -7452,8 +7461,8 @@
       "earliestPublishedAt": "2026-05-21",
       "entityCount": 25,
       "latestPublishedAt": "2026-07-28",
-      "recordCount": 77,
-      "verifiedImportCount": 16
+      "recordCount": 82,
+      "verifiedImportCount": 21
     }
   },
   "sourceAsOf": {
