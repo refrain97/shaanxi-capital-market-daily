@@ -13,6 +13,7 @@ const monthDay=value=>{
 const scanLabel=(data,channel)=>{
   const row=data.readiness?.channels?.[channel]||{};
   if(row.ready&&row.status==="no_new")return `已完成扫描，今日无新增（${zhDate(row.scanAsOf)}）`;
+  if(row.ready&&row.status==="degraded")return `主要来源已完成核验，部分补充来源受限（${zhDate(row.scanAsOf)}）`;
   if(row.ready)return `已完成扫描（${zhDate(row.scanAsOf)}）`;
   return `今日尚未完成扫描`;
 };
