@@ -13,7 +13,7 @@ const monthDay=value=>{
 const scanLabel=(data,channel)=>{
   const row=data.readiness?.channels?.[channel]||{};
   if(row.ready&&row.status==="no_new")return `已完成扫描，今日无新增（${zhDate(row.scanAsOf)}）`;
-  if(row.ready&&row.status==="degraded")return `主要来源已完成核验，部分补充来源受限（${zhDate(row.scanAsOf)}）`;
+  if(row.ready&&row.status==="degraded")return `已完成扫描，来源受限（${zhDate(row.scanAsOf)}）`;
   if(row.ready)return `已完成扫描（${zhDate(row.scanAsOf)}）`;
   return `今日尚未完成扫描`;
 };
@@ -32,14 +32,16 @@ const dailyImageArchive=(index,channel)=>{
   if(!rows.length)return section("日图归档",`${name}日图将在首个完整早报发布后归档`,`<div class="compact-status">暂无已发布日图。</div>`,`${channel}-daily-images`);
   const [latest,...history]=rows;
   const groups=[
-    ["V2期次",history.filter(row=>row.origin!=="v1_history")],
+    ["V2日图期次",history.filter(row=>row.origin==="v2")],
+    ["迁移期V1日图",history.filter(row=>row.origin==="v1_daily")],
     ["V1历史期次",history.filter(row=>row.origin==="v1_history")],
   ].filter(([,items])=>items.length);
   const historyMarkup=groups.map(([label,items])=>{
     const years=[...new Set(items.map(row=>String(row.date||"").slice(0,4)).filter(Boolean))].sort().reverse();
     return `<div class="daily-image-history-group"><b>${esc(label)}</b>${years.map(year=>`<div class="daily-image-year"><span>${esc(year)}年</span><div>${items.filter(row=>String(row.date||"").startsWith(year)).map(row=>`<a href="${esc(row.publicPath)}" target="_blank" rel="noopener noreferrer">${esc(monthDay(row.date))}</a>`).join("")}</div></div>`).join("")}</div>`;
   }).join("");
-  return section("日图归档",`已发布 ${rows.length} 期`, `<div class="daily-image-summary"><a class="daily-image-latest" href="${esc(latest.publicPath)}" target="_blank" rel="noopener noreferrer"><span>最新日图</span><b>${esc(zhDate(latest.date))}｜${esc(name)}日图</b><small>查看图片 →</small></a>${history.length?`<button class="daily-image-toggle" type="button" data-daily-image-toggle aria-expanded="false">历史日图（${history.length}期）</button>`:""}</div>${history.length?`<div class="daily-image-history" data-daily-image-history hidden>${historyMarkup}</div>`:""}`,`${channel}-daily-images`);
+  const latestLabel=latest.origin==="v2"?"最新V2日图":latest.origin==="v1_daily"?"迁移期V1日图":"V1历史日图";
+  return section("日图归档",`已发布 ${rows.length} 期`, `<div class="daily-image-summary"><a class="daily-image-latest" href="${esc(latest.publicPath)}" target="_blank" rel="noopener noreferrer"><span>${esc(latestLabel)}</span><b>${esc(zhDate(latest.date))}｜${esc(name)}日图</b><small>查看图片 →</small></a>${history.length?`<button class="daily-image-toggle" type="button" data-daily-image-toggle aria-expanded="false">历史日图（${history.length}期）</button>`:""}</div>${history.length?`<div class="daily-image-history" data-daily-image-history hidden>${historyMarkup}</div>`:""}`,`${channel}-daily-images`);
 };
 const facts=items=>`<div class="facts">${items.map(([key,value])=>`<div><b>${esc(key)}</b>${esc(value||"—")}</div>`).join("")}</div>`;
 const splitTitle=value=>{
@@ -273,15 +275,31 @@ function soe(data){
 }
 
 async function main(){
-  const buildVersion=document.body.dataset.buildVersion;
-  const response=await fetch(`data/production-data.json?v=${encodeURIComponent(buildVersion)}`,{cache:"no-store"});
+  const declaredBuildVersion=document.body.dataset.buildVersion;
+  // GitHub Pages may briefly serve a browser-cached HTML shell after a new
+  // production release.  Probe the tiny version manifest with a unique URL;
+  // when the shell is stale, move to a versioned document URL before loading
+  // the large data snapshot.  This prevents an old page shell from presenting
+  // yesterday's data as if it were today's issue.
+  const probe=await fetch(`data/build-version.json?probe=${Date.now()}`,{cache:"no-store"});
+  if(!probe.ok)throw Error("构建版本校验失败");
+  const activeBuildVersion=String((await probe.json()).buildVersion||"");
+  if(!activeBuildVersion)throw Error("构建版本缺失");
+  const currentVersion=new URL(location.href).searchParams.get("v");
+  if(activeBuildVersion!==declaredBuildVersion&&currentVersion!==activeBuildVersion){
+    const current=new URL(location.href);
+    current.searchParams.set("v",activeBuildVersion);
+    location.replace(current.toString());
+    return;
+  }
+  const response=await fetch(`data/production-data.json?v=${encodeURIComponent(activeBuildVersion)}`,{cache:"no-store"});
   if(!response.ok)throw Error("数据加载失败");
   const data=await response.json();
   try{
-    const archiveResponse=await fetch(`data/daily-image-archive.json?v=${encodeURIComponent(buildVersion)}`,{cache:"no-store"});
+    const archiveResponse=await fetch(`data/daily-image-archive.json?v=${encodeURIComponent(activeBuildVersion)}`,{cache:"no-store"});
     data.dailyImageArchive=archiveResponse.ok?await archiveResponse.json():{channels:{}};
   }catch(_error){data.dailyImageArchive={channels:{}};}
-  if(data.build.version!==buildVersion)throw Error("页面资源版本不一致，请刷新后重试");
+  if(data.build.version!==activeBuildVersion)throw Error("页面资源版本不一致，请刷新后重试");
   const renderers={index:home,listed,private:privatePage,ma:maPage,tender,soe};
   const content=renderers[document.body.dataset.page](data);
   const app=$("#app");
