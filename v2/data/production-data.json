@@ -40,19 +40,19 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-07-29.json",
-        "sha256": "678683a999d107d5cd7518cb79ccb4c89328974cf8d368ac7eee378a6d2d88b0"
+        "sha256": "975c54d4e0f4535ec9cae7ebffb79adab793124c8fb762c3eca5ac244c31e558"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-07-29.json",
-        "sha256": "ac395a0cf0160589ce79de6430e93dbe5c6fc941ecd2b412087a7f72955bfeba"
+        "sha256": "826c0131df24d5c270542c63e3a43e40fea3117be288d1e90be9be3af1aecc7e"
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-07-29.json",
         "sha256": "1816ee638945ad4a0a23a54e01a8261f1ec879e30a9db196002a901277d1f037"
       },
       {
-        "path": "v2/data/readiness/v2-ready-2026-07-29-midday.json",
-        "sha256": "c0cdb9d81d22665ab1d0fef1de04c554818209af25ea507a2066f8b8edae8eb0"
+        "path": "v2/data/readiness/v2-ready-2026-07-29-closing.json",
+        "sha256": "8171db73d9d5e61e1541c497ea170a33982afa919ccc104ee3fee62b15800b50"
       },
       {
         "path": "v2/data/source/events/unified-2026.json",
@@ -71,8 +71,8 @@
         "sha256": "db41a0782237483409087b4a475da0c950cd0b013118b8b62d603129625a21cb"
       },
       {
-        "path": "v2/data/source/ma/scans/scan-2026-07-29-midday.json",
-        "sha256": "9eac7294c16c495f8d34670d142150e1fe432ec5a9d22b819ba1a521090f0b01"
+        "path": "v2/data/source/ma/scans/scan-2026-07-29-closing.json",
+        "sha256": "3660dedb808d7cac27e835e4fd8ea400733fa93422888aaf9c3d681277349ac4"
       },
       {
         "path": "v2/data/source/observation-pool.json",
@@ -88,23 +88,23 @@
       },
       {
         "path": "v2/data/source/soe/events-2026.json",
-        "sha256": "3f878ecf4ffe71feab8f56fa8fe9faaf9e58b1840952fc04b7c2cae75dbe2db2"
+        "sha256": "bfa837b6bebbfc35b55e09e46822ebf94b01bffb9be516a0e7198de874e2fbd0"
       },
       {
-        "path": "v2/data/source/soe/evidence/verified-2026-07-29-midday.json",
-        "sha256": "c32d6742f5031bd8ec4b059eb82f3edc28bb1df2d70feae77c139a7be77ad485"
+        "path": "v2/data/source/soe/evidence/verified-2026-07-29-closing.json",
+        "sha256": "04ed96375e83223a5066716b7406203ec75f4b5dafbbe6fbf635b2cff949f5a4"
       },
       {
-        "path": "v2/data/source/soe/scans/scan-2026-07-29-midday.json",
-        "sha256": "8ed6ba72be7bff478b444a054b2f67265eb129de9a8d301220481d7ff74dfded"
+        "path": "v2/data/source/soe/scans/scan-2026-07-29-closing.json",
+        "sha256": "fd8f0b9eedd76c0ac0d471bc27efa0df976fd108b1aef19e30a8a800de8efb3d"
       },
       {
         "path": "v2/data/source/tender/events-2026.json",
         "sha256": "ea7e447cbeb90b12aac35e299051493509345bf806416b01d660ed20a9738766"
       },
       {
-        "path": "v2/data/source/tender/scans/scan-2026-07-29-midday.json",
-        "sha256": "97a64c572f811f8cf7732fedd005f387bf3d212341bfd1b824db826a8b8ec750"
+        "path": "v2/data/source/tender/scans/scan-2026-07-29-closing.json",
+        "sha256": "d726ab462cb3d82ee2afdcf104bc64bd926c08ee71e2c39045f94650cb1e72c6"
       },
       {
         "path": "v2/data/source/v1-history-index.json",
@@ -133,10 +133,10 @@
     ],
     "mode": "repeatable-derived-artifact",
     "notice": "本快照由列示规范数据与结构化证据稳定生成。",
-    "readiness": "v2/data/readiness/v2-ready-2026-07-29-midday.json",
+    "readiness": "v2/data/readiness/v2-ready-2026-07-29-closing.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "03b0dac98945"
+    "version": "6c9de1aca656"
   },
   "homeHighlights": [
     {
@@ -1295,11 +1295,11 @@
       "kpis": [
         {
           "label": "巨潮逐主体检索公告",
-          "num": "36条"
+          "num": "38条"
         },
         {
           "label": "窗口内发布公告公司",
-          "num": "14家"
+          "num": "16家"
         },
         {
           "label": "合并去重后的客户事项",
@@ -2128,10 +2128,68 @@
       "sourceAcquisitionStatus": {
         "hasPendingOfficialTextVerification": true,
         "officialAnnouncementTextExtractionFailed": 8,
-        "officialAnnouncementsDiscovered": 36,
-        "reliableTextExtracted": 28
+        "officialAnnouncementsDiscovered": 38,
+        "reliableTextExtracted": 30
       },
       "sourceEvidence": [
+        {
+          "body": "证券代码：301306 证券简称：西测测试公告编号：2026-029 西安西测测试技术股份有限公司关于持股 5%以上股东增持公司股份的公告西安西测测试技术股份有限公司（以下简称“公司”）近日收到公司持股5% 以上股东中投国联（北京）投资基金有限公司－中投国联匠心九号私募证券投资基金（以下简称“中投国联”）出具的《关于股份增持的告知函》，基于对公司未来发展的信心及公司长期投资价值的认可，中投国联于2026年7月29日以自有资金通过深圳证券交易所系统以集中竞。",
+          "company": "西测测试",
+          "discoveryPdfSha256": "f69aed29f057da3409d31b66e4cd3d9a0859062730d8317e602d81fa33fb78c4",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446116.PDF",
+          "excerpt": "证券代码：301306 证券简称：西测测试公告编号：2026-029 西安西测测试技术股份有限公司关于持股 5%以上股东增持公司股份的公告西安西测测试技术股份有限公司（以下简称“公司”）近日收到公司持股5% 以上股东中投国联（北京）投资基金有限公司－中投国联匠心九号私募证券投资基金（以下简称“中投国联”）出具的《关于股份增持的告知函》，基于对公司未来发展的信心及公司长期投资价值的认可，中投国联于2026年7月29日以自有资金通过深圳证券交易所系统以集中竞。",
+          "hkexNewsId": "",
+          "kind": "capital",
+          "matter_id": "1225446116",
+          "parser": "pypdf",
+          "pdfSha256": "f69aed29f057da3409d31b66e4cd3d9a0859062730d8317e602d81fa33fb78c4",
+          "publishedAt": "2026-07-29",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446116.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 1113,
+              "controlCharacters": 0,
+              "languageRatio": 0.8985,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9982
+            },
+            "reasons": []
+          },
+          "textSha256": "22786aab20db484bc9a8234b726af2debe1e1ca7f1e1e250aa92c2d1b6163e9c",
+          "title": "关于持股5%以上股东增持公司股份的公告"
+        },
+        {
+          "body": "证券代码：301231 证券简称：荣信文化公告编号：2026-043 荣信教育文化产业发展股份有限公司关于控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份的公告荣信教育文化产业发展股份有限公司（以下简称“公司”或“荣信文化”）于2026年4月8日在巨潮资讯网（www.cninfo.com.cn）披露了《关于控股股东、实际控制人及一致行动人、高级管理人员减持股份预披露公告》，公司控股股东、实际控制人、董事长兼总经理王艺桦女士及一致行。",
+          "company": "荣信文化",
+          "discoveryPdfSha256": "502b3a70459225f296318ec44578a4de3e50945a3bcfec5455cec88414f3e0d3",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446115.PDF",
+          "excerpt": "证券代码：301231 证券简称：荣信文化公告编号：2026-043 荣信教育文化产业发展股份有限公司关于控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份的公告荣信教育文化产业发展股份有限公司（以下简称“公司”或“荣信文化”）于2026年4月8日在巨潮资讯网（www.cninfo.com.cn）披露了《关于控股股东、实际控制人及一致行动人、高级管理人员减持股份预披露公告》，公司控股股东、实际控制人、董事长兼总经理王艺桦女士及一致行。",
+          "hkexNewsId": "",
+          "kind": "risk",
+          "matter_id": "1225446115",
+          "parser": "pypdf",
+          "pdfSha256": "502b3a70459225f296318ec44578a4de3e50945a3bcfec5455cec88414f3e0d3",
+          "publishedAt": "2026-07-29",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446115.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 2057,
+              "controlCharacters": 0,
+              "languageRatio": 0.8877,
+              "mojibakeMarkers": 0,
+              "readableRatio": 1.0
+            },
+            "reasons": []
+          },
+          "textSha256": "279a2ab8aabeeab186ef16df1e1d85cb88859282fb46d9c563679db3809b6fc1",
+          "title": "关于控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份的公告"
+        },
         {
           "body": "陕西省西安市太白南路 139 号云图中心十五层邮编：710065 传真/Fax:029-88360129 北京市康达（西安）律师事务所关于陕西省天然气股份有限公司 2026 年第二次临时股东会之法律意见书 （2026）北京康达法意字 34 号二〇二六年七月二十八日 1 陕西省西安市太白南路 139 号云图中心十五层邮编：710065 传真/Fax:029-88360129 北京市康达（西安）律师事务所关于陕西省天然气股份有限公司 2026 年第二次临时股。",
           "company": "陕天然气",
@@ -2945,7 +3003,7 @@
           "title": "航天动力关于控股子公司股权转让事项预挂牌的提示性公告"
         }
       ],
-      "subtitle": "2026-07-29｜逐主体检索110家正式观察池，36条公告、14家发布公告公司",
+      "subtitle": "2026-07-29｜逐主体检索110家正式观察池，38条公告、16家发布公告公司",
       "template": "v2-listed-v1-editorial",
       "tiles": [
         {
@@ -8832,17 +8890,17 @@
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "listed_primary_verified_36_announcements",
+        "result": "listed_primary_verified_38_announcements",
         "scanAsOf": "2026-07-29",
         "status": "completed"
       },
       "ma": {
         "evidence": [
-          "v2/data/source/ma/scans/scan-2026-07-29-midday.json"
+          "v2/data/source/ma/scans/scan-2026-07-29-closing.json"
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "ma_completed_reused_verified_receipt",
+        "result": "ma_completed_event_on_scan_date_false",
         "scanAsOf": "2026-07-29",
         "status": "no_new"
       },
@@ -8860,7 +8918,7 @@
       },
       "soe": {
         "evidence": [
-          "v2/data/source/soe/scans/scan-2026-07-29-midday.json"
+          "v2/data/source/soe/scans/scan-2026-07-29-closing.json"
         ],
         "ready": true,
         "releaseEligible": false,
@@ -8870,7 +8928,7 @@
       },
       "tender": {
         "evidence": [
-          "v2/data/source/tender/scans/scan-2026-07-29-midday.json"
+          "v2/data/source/tender/scans/scan-2026-07-29-closing.json"
         ],
         "ready": true,
         "releaseEligible": true,
@@ -8886,7 +8944,7 @@
       "sha256": "1aba55e87b0892778de8c179bb3fc5adcd064726e5a043d0f6a7e6d99bf3e1bd",
       "standard": "v1-source-and-editorial-quality"
     },
-    "slot": "midday",
+    "slot": "closing",
     "sourceConstraints": [
       {
         "channel": "tender",
@@ -8906,7 +8964,7 @@
     "year": "eventDate 所在自然年；仅展示结构化源中真实存在的年份"
   },
   "scanAsOf": "2026-07-29",
-  "scanSlot": "midday",
+  "scanSlot": "closing",
   "schemaVersion": "2.2",
   "soe": {
     "available": true,
@@ -8932,7 +8990,7 @@
           "sourceQuality": "issuer_original",
           "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429375&cid=36",
           "title": "北元集团：“一岗一人一策”培训让员工练好岗位基本功",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-midday.json",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-closing.json",
           "verificationNote": "北元集团：“一岗一人一策”培训让员工练好岗位基本功- 人力资源 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化"
         },
         {
@@ -8948,7 +9006,7 @@
           "sourceQuality": "issuer_original",
           "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429373&cid=15",
           "title": "蒲洁能化党委：党建引领 以四种经营理念提质增效",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-midday.json",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-closing.json",
           "verificationNote": "蒲洁能化党委：党建引领 以四种经营理念提质增效- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系"
         },
         {
@@ -9319,7 +9377,7 @@
         "sourceQuality": "issuer_original",
         "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429375&cid=36",
         "title": "北元集团：“一岗一人一策”培训让员工练好岗位基本功",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-midday.json",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-closing.json",
         "verificationNote": "北元集团：“一岗一人一策”培训让员工练好岗位基本功- 人力资源 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化"
       },
       {
@@ -9335,7 +9393,7 @@
         "sourceQuality": "issuer_original",
         "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429373&cid=15",
         "title": "蒲洁能化党委：党建引领 以四种经营理念提质增效",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-midday.json",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-closing.json",
         "verificationNote": "蒲洁能化党委：党建引领 以四种经营理念提质增效- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系"
       },
       {
@@ -9398,8 +9456,8 @@
     "recordCount": 84,
     "rejectedCandidateCount": 0,
     "scanAsOf": "2026-07-29",
-    "scanEvidence": "v2/data/source/soe/scans/scan-2026-07-29-midday.json",
-    "scanSlot": "midday",
+    "scanEvidence": "v2/data/source/soe/scans/scan-2026-07-29-closing.json",
+    "scanSlot": "closing",
     "scanStatus": "completed",
     "sourceAsOf": "2026-07-29",
     "summary": {
@@ -9431,7 +9489,7 @@
     "listedDaily": "v2/data/daily/listed/listed-official-2026-07-29.json",
     "listedUniverse": "v2/data/source/listed/universe.json",
     "maAnnual": "v2/data/source/ma/events-2026.json",
-    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-07-29-midday.json",
+    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-07-29-closing.json",
     "observationPool": "v2/data/source/observation-pool.json",
     "privateAnnual": "v2/data/source/private/products-2026.json",
     "privateProductEvidence": [
@@ -9439,10 +9497,10 @@
     ],
     "privateUniverse": "v2/data/daily/private/security-private-fund-daily-2026-07-29.json + v2/data/source/private/universe.json",
     "soeAnnual": "v2/data/source/soe/events-2026.json",
-    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-07-29-midday.json",
+    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-07-29-closing.json",
     "sourceContract": "v2/config/source-contract.json",
     "tenderAnnualProjects": "v2/data/source/tender/events-2026.json",
-    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-07-29-midday.json",
+    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-07-29-closing.json",
     "v1HistoryIndex": "v2/data/source/v1-history-index.json"
   },
   "tender": {
