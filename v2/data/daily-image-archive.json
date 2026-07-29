@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-07-30T05:35:28+08:00",
+  "updatedAt": "2026-07-30T05:37:51+08:00",
   "channels": {
     "listed": [
       {
@@ -14,11 +14,11 @@
         "snapshotSha256": "b1620bfa5039730a973f97034855384dfc955af4361a5911e533d01f0b0268ef",
         "sha256": "2a2a99e4fa3da2c7fcf688ceab04393e0b9b033476f2732e3a7e323617c535ce",
         "origin": "v2",
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "pending"
         },
-        "updatedAt": "2026-07-30T05:35:27+08:00"
+        "updatedAt": "2026-07-30T05:37:51+08:00"
       },
       {
         "date": "2026-07-29",
@@ -961,11 +961,11 @@
         "snapshotSha256": "b1620bfa5039730a973f97034855384dfc955af4361a5911e533d01f0b0268ef",
         "sha256": "35aa37e5c7b36779033c8e7f5621f730e4d5a5176cef3372aff5233ac3c72bf3",
         "origin": "v2",
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "pending"
         },
-        "updatedAt": "2026-07-30T05:35:28+08:00"
+        "updatedAt": "2026-07-30T05:37:51+08:00"
       },
       {
         "date": "2026-07-29",
@@ -1903,11 +1903,11 @@
         "snapshotSha256": "b1620bfa5039730a973f97034855384dfc955af4361a5911e533d01f0b0268ef",
         "sha256": "e58abf91cecd3d7e18f679e305dc0bd296dcb1aee501ac79ef7920d5ce7b06a7",
         "origin": "v2",
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "pending"
         },
-        "updatedAt": "2026-07-30T05:35:28+08:00"
+        "updatedAt": "2026-07-30T05:37:51+08:00"
       },
       {
         "date": "2026-07-29",
@@ -2800,11 +2800,11 @@
         "snapshotSha256": "b1620bfa5039730a973f97034855384dfc955af4361a5911e533d01f0b0268ef",
         "sha256": "171efadeb2ed2a6563c665e0ef278f75cb9b905813b541ac79003b63e7ad5671",
         "origin": "v2",
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "pending"
         },
-        "updatedAt": "2026-07-30T05:35:28+08:00"
+        "updatedAt": "2026-07-30T05:37:51+08:00"
       },
       {
         "date": "2026-07-29",
