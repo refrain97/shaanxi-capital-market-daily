@@ -26,7 +26,7 @@ const cover=(asOf,eyebrow,title,lead,image,extra="",sourceStatus="")=>`<section 
 const section=(title,sub,body,id="")=>`<section class="section"${id?` id="${id}"`:""}><div class="section-head"><h2>${title}</h2><p>${sub||""}</p></div>${body}</section>`;
 const dailyImageArchive=(index,channel)=>{
   const rows=(index?.channels?.[channel]||[])
-    .filter(row=>row?.publicPath&&(row.webStatus==="published"||row.origin==="v1_history"))
+    .filter(row=>row?.publicPath&&(row.webStatus==="published"||["v1_history","v1_history_corrected"].includes(row.origin)))
     .sort((left,right)=>String(right.date||"").localeCompare(String(left.date||"")));
   const name={listed:"上市公司",private:"证券私募",ma:"收并购",tender:"金融招投标"}[channel]||"栏目";
   if(!rows.length)return section("日图归档",`${name}日图将在首个完整早报发布后归档`,`<div class="compact-status">暂无已发布日图。</div>`,`${channel}-daily-images`);
@@ -34,13 +34,13 @@ const dailyImageArchive=(index,channel)=>{
   const groups=[
     ["V2日图期次",history.filter(row=>row.origin==="v2")],
     ["迁移期V1日图",history.filter(row=>row.origin==="v1_daily")],
-    ["V1历史期次",history.filter(row=>row.origin==="v1_history")],
+    ["V1历史期次",history.filter(row=>["v1_history","v1_history_corrected"].includes(row.origin))],
   ].filter(([,items])=>items.length);
   const historyMarkup=groups.map(([label,items])=>{
     const years=[...new Set(items.map(row=>String(row.date||"").slice(0,4)).filter(Boolean))].sort().reverse();
     return `<div class="daily-image-history-group"><b>${esc(label)}</b>${years.map(year=>`<div class="daily-image-year"><span>${esc(year)}年</span><div>${items.filter(row=>String(row.date||"").startsWith(year)).map(row=>`<a href="${esc(row.publicPath)}" target="_blank" rel="noopener noreferrer">${esc(monthDay(row.date))}</a>`).join("")}</div></div>`).join("")}</div>`;
   }).join("");
-  const latestLabel=latest.origin==="v2"?"最新V2日图":latest.origin==="v1_daily"?"迁移期V1日图":"V1历史日图";
+  const latestLabel=latest.origin==="v2"?"最新V2日图":latest.origin==="v1_daily"?"迁移期V1日图":latest.origin==="v1_history_corrected"?"V1历史期次":"V1历史日图";
   return section("日图归档",`已发布 ${rows.length} 期`, `<div class="daily-image-summary"><a class="daily-image-latest" href="${esc(latest.publicPath)}" target="_blank" rel="noopener noreferrer"><span>${esc(latestLabel)}</span><b>${esc(zhDate(latest.date))}｜${esc(name)}日图</b><small>查看图片 →</small></a>${history.length?`<button class="daily-image-toggle" type="button" data-daily-image-toggle aria-expanded="false">历史日图（${history.length}期）</button>`:""}</div>${history.length?`<div class="daily-image-history" data-daily-image-history hidden>${historyMarkup}</div>`:""}`,`${channel}-daily-images`);
 };
 const facts=items=>`<div class="facts">${items.map(([key,value])=>`<div><b>${esc(key)}</b>${esc(value||"—")}</div>`).join("")}</div>`;
@@ -134,6 +134,21 @@ function home(data){
     +`<div class="wrap">${section("今日重点",zhDate(data.asOf),`<div class="grid">${featured}</div>`,"today")}${section("进入频道","日报与年度项目库",`<div class="channel-grid">${channels.map(channel=>`<article class="card image"><img src="${channel[3]}" alt=""><div>${tag(channel[2],"gold")}<h3>${channel[0]}</h3><p>${channel[1]}</p><a class="more" href="${channel[4]}">进入频道 →</a></div></article>`).join("")}</div>`)}</div>`;
 }
 
+function assertHomeHighlightLayout(){
+  if(document.body.dataset.page!=="index"||window.innerWidth<861)return;
+  const cards=$$("#today .grid .card");
+  if(cards.length!==4)throw Error("首页重点卡片数量不是4张");
+  const heights=cards.map(item=>Math.round(item.getBoundingClientRect().height));
+  if(Math.max(...heights)-Math.min(...heights)>1)throw Error("首页四张重点卡片高度不一致");
+  cards.slice(0,2).forEach((item,index)=>{
+    const paragraph=$("p",item);
+    if(!paragraph||paragraph.scrollHeight>paragraph.clientHeight+1){
+      throw Error(`首页第${index+1}张上市公司卡片正文发生视觉省略`);
+    }
+  });
+  document.body.dataset.homeLayoutVerified="true";
+}
+
 function listed(data){
   const daily=data.listed.daily;
   const host=document.createElement("div");
@@ -168,11 +183,13 @@ function listed(data){
     +block("section-02","02","重大事项与风险公告",daily.risk_rows,row=>newsRow({row,company:row.company,title:row.tag,text:row.event}))
     +block("section-03","03","上市公司动态",daily.tiles,row=>{const [company,type]=splitTitle(row.title);return newsRow({row,company,title:type,text:row.body});})
     +block("section-04","04","股东变动与资本运作",daily.capital_rows,row=>newsRow({row,company:row.company,title:"资本运作",numbers:row.numbersHtml,text:row.attention}))
-    +block("section-05","05","股东会、治理与固定披露清单",fixed,row=>{const [company,type]=splitTitle(row.title);return newsRow({row,company,title:type||row.group,text:row.body});});
-  const nav=[["business-focus","重点跟踪"],["section-01","01 机会"],["section-02","02 风险"],["section-03","03 动态"],["section-04","04 资本运作"],["section-05","05 治理披露"],["listed-pool","上市观察池"],["listed-daily-images","日图归档"],["listed-archive","历史正文"]];
+    +block("section-05","05","股东会、治理与固定披露清单",fixed,row=>{const [company,type]=splitTitle(row.title);return newsRow({row,company,title:type||row.group,text:row.body});})
+    +block("section-06","06","今日重点跟踪公司",daily.follow_items||[],row=>newsRow({row,company:row.company,title:row.businessSubcategory,text:row.whyImportant}));
+  const nav=[["business-focus","重点跟踪"],["section-01","01 机会"],["section-02","02 风险"],["section-03","03 动态"],["section-04","04 资本运作"],["section-05","05 治理披露"],["section-06","06 下一步"],["listed-pool","上市观察池"],["listed-daily-images","日图归档"],["listed-archive","历史正文"]];
   const archive=data.listed.archive.slice(0,24).map((item,index)=>`<a ${index>=8?'class="archive-more" hidden':""} href="${esc(item.href)}">${esc(zhDate(item.date))}</a>`).join("");
-  host.innerHTML=cover(data.asOf,"DAILY ISSUE · LISTED","陕西上市公司早报","重点跟踪置顶，01—05栏目保持紧凑阅读；重复事项链接到唯一主记录。","channel-listed.webp","",`${scanLabel(data,"listed")}；最近公告 ${zhDate(data.listed.latestEventDate)}`)
-    +`<div class="listed-shell"><aside class="page-toc">${nav.map(([id,label])=>`<a href="#${id}">${label}</a>`).join("")}</aside><div class="listed-content">${section("今日概览",`数据更新至${zhDate(data.asOf)}`,`<div class="dense-kpis">${daily.kpis.map((item,index)=>`<div><b>${esc(item.num)}</b><span>${["今日公告","涉及公司","重点金额","关键利率"][index]}</span></div>`).join("")}</div>`,"today")}<section class="dense-section focus-board" id="business-focus"><header><h2>业务重点 · 今日重点跟踪</h2><b>${focusTags.length}个标签 · ${focusCompanies.length}家公司</b></header><p>${esc(data.listed.businessTaxonomy?.priorityMeaning||"业务重点用于客户跟进优先级。")} 固定展示21个二级标签；绿色为今日命中，点击可直达主事项。</p><div class="focus-tags" aria-label="上市公司二级业务重点标签">${focusTagLinks}</div><div class="focus-hit-list">${focusCompanies.map(item=>`<a class="focus-company-link" href="#${esc(item.anchorId)}"><b>${esc(item.company)}</b><span>${esc(item.business.category)} · ${esc(item.business.subcategory)}</span><small>${esc(item.followText)}</small></a>`).join("")}</div></section><div class="daily-sections">${body}</div><section class="dense-section" id="listed-pool"><header><h2>上市公司观察池</h2><b>${data.listed.counts.total} = ${data.listed.counts.L1} + ${data.listed.counts.L2} + ${data.listed.counts.L3}</b></header><p class="pool-definition">L1为陕西辖区A股；L2为陕西办公或经营的境外上市主体；L3为陕西实质强关联上市公司。</p><div data-listed-pool></div></section>${dailyImageArchive(data.dailyImageArchive,"listed")}<section class="dense-section" id="listed-archive"><header><h2>历史早报正文</h2><b>已发布期次</b></header><div class="archive">${archive}</div><button class="archive-toggle" type="button" data-archive-toggle>查看更多日期</button></section></div></div>`;
+  const evidence=(daily.sourceEvidence||[]).map(row=>`<li><span>${esc(row.company)}｜${esc(row.title)}</span>${external(row.sourceUrl,"公告原文")}</li>`).join("");
+  host.innerHTML=cover(data.asOf,"DAILY ISSUE · LISTED","陕西上市公司早报","重点跟踪置顶，01—06栏目保持紧凑阅读；重复事项链接到唯一主记录。","channel-listed.webp","",`${scanLabel(data,"listed")}；最近公告 ${zhDate(data.listed.latestEventDate)}`)
+    +`<div class="listed-shell"><aside class="page-toc">${nav.map(([id,label])=>`<a href="#${id}">${label}</a>`).join("")}</aside><div class="listed-content">${section("今日概览",`数据更新至${zhDate(data.asOf)}`,`<div class="dense-kpis">${daily.kpis.map((item,index)=>`<div><b>${esc(item.num)}</b><span>${["检索公告","发布公司","精选事项","待核验候选"][index]}</span></div>`).join("")}</div>`,"today")}<section class="dense-section focus-board" id="business-focus"><header><h2>业务重点 · 今日重点跟踪</h2><b>${focusTags.length}个标签 · ${focusCompanies.length}家公司</b></header><p>${esc(data.listed.businessTaxonomy?.priorityMeaning||"业务重点用于客户跟进优先级。")} 固定展示21个二级标签；绿色为今日命中，点击可直达主事项。</p><div class="focus-tags" aria-label="上市公司二级业务重点标签">${focusTagLinks}</div><div class="focus-hit-list">${focusCompanies.map(item=>`<a class="focus-company-link" href="#${esc(item.anchorId)}"><b>${esc(item.company)}</b><span>${esc(item.business.category)} · ${esc(item.business.subcategory)}</span><small>${esc(item.followText)}</small></a>`).join("")}</div></section><div class="daily-sections">${body}</div><section class="listed-evidence-archive"><button type="button" data-listed-evidence-toggle aria-expanded="false">官方公告证据档案（${daily.sourceEvidence?.length||0}条，默认收起）</button><div data-listed-evidence hidden><p>完整公告仅用于追溯，不作为客户摘要直接展示。</p><ul>${evidence}</ul></div></section><section class="dense-section" id="listed-pool"><header><h2>上市公司观察池</h2><b>${data.listed.counts.total} = ${data.listed.counts.L1} + ${data.listed.counts.L2} + ${data.listed.counts.L3}</b></header><p class="pool-definition">L1为陕西辖区A股；L2为陕西办公或经营的境外上市主体；L3为陕西实质强关联上市公司。</p><div data-listed-pool></div></section>${dailyImageArchive(data.dailyImageArchive,"listed")}<section class="dense-section" id="listed-archive"><header><h2>历史早报正文</h2><b>已发布期次</b></header><div class="archive">${archive}</div><button class="archive-toggle" type="button" data-archive-toggle>查看更多日期</button></section></div></div>`;
   $("[data-listed-pool]",host).replaceWith(poolTable(data.listed.entities,{kind:"listed"}));
   return host;
 }
@@ -304,6 +321,7 @@ async function main(){
   const content=renderers[document.body.dataset.page](data);
   const app=$("#app");
   typeof content==="string"?app.innerHTML=content:app.replaceChildren(content);
+  assertHomeHighlightLayout();
   $$(".copy").forEach(button=>button.onclick=async()=>{
     await navigator.clipboard.writeText(location.href);
     const old=button.textContent;
@@ -311,6 +329,14 @@ async function main(){
     setTimeout(()=>button.textContent=old,1200);
   });
   $$(".focus-company-link").forEach(link=>link.addEventListener("click",()=>requestAnimationFrame(()=>$(link.getAttribute("href"))?.focus({preventScroll:true}))));
+  const listedEvidenceToggle=$("[data-listed-evidence-toggle]");
+  if(listedEvidenceToggle)listedEvidenceToggle.onclick=()=>{
+    const panel=$("[data-listed-evidence]");
+    const reveal=panel.hidden;
+    panel.hidden=!reveal;
+    listedEvidenceToggle.setAttribute("aria-expanded",String(reveal));
+    listedEvidenceToggle.textContent=reveal?"收起官方公告证据档案":"官方公告证据档案（默认收起）";
+  };
   const archiveToggle=$("[data-archive-toggle]");
   if(archiveToggle)archiveToggle.onclick=()=>{
     const reveal=$$(".archive-more").some(item=>item.hidden);

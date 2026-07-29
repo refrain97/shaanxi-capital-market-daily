@@ -1,43 +1,64 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-07-29T08:39:08+08:00",
+  "updatedAt": "2026-07-29T09:39:29+08:00",
   "channels": {
     "listed": [
       {
         "date": "2026-07-29",
         "channel": "listed",
         "label": "上市公司",
-        "fileName": "2026年7月29日V2陕西上市公司早报.png",
-        "publicPath": "archive/daily/listed/2026/2026年7月29日V2陕西上市公司早报.png",
-        "sourceBuildVersion": "c6b4fcf73b3a",
+        "fileName": "2026年7月29日陕西上市公司早报修正版.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月29日陕西上市公司早报修正版.png",
+        "sourceBuildVersion": "53fb935994d3",
         "snapshotPath": "v2/data/releases/2026-07-29/morning-production-data.json.gz",
-        "snapshotSha256": "4e1c25c1c936467ea0d0eb7739f1d61864af3b615da0e3a75c3a7cc64180c20a",
-        "sha256": "7e80bb2905a7f882f3535259bcf1e2eb01c9815454350e7971708ff560705a02",
+        "snapshotSha256": "72bfdb53267a5be2d8555236a768be71d0dbea99597c6002b243449985642954",
+        "sha256": "867242ef909e35f26d2082d2fb5784b6e44d0bdd9b67ecd3add5b47f0daf3501",
         "origin": "v2",
-        "webStatus": "published",
+        "webStatus": "staged",
         "ima": {
-          "status": "pending"
+          "status": "pending",
+          "replacementPolicy": "explicit_corrected_filename"
         },
-        "updatedAt": "2026-07-29T08:39:08+08:00"
+        "supersedes": {
+          "fileName": "2026年7月29日V2陕西上市公司早报.png",
+          "publicPath": "archive/daily/listed/2026/2026年7月29日V2陕西上市公司早报.png",
+          "sourceBuildVersion": "c6b4fcf73b3a",
+          "sha256": "7e80bb2905a7f882f3535259bcf1e2eb01c9815454350e7971708ff560705a02",
+          "ima": {
+            "status": "completed",
+            "uploadedAt": "2026-07-29T08:39:40+08:00",
+            "verification": "exact_file_name"
+          }
+        },
+        "updatedAt": "2026-07-29T09:39:29+08:00"
       },
       {
         "date": "2026-07-28",
         "channel": "listed",
         "label": "上市公司",
-        "fileName": "2026年7月28日V2陕西上市公司早报.png",
-        "publicPath": "archive/daily/listed/2026/2026年7月28日V2陕西上市公司早报.png",
-        "sourceBuildVersion": "75d700a24ed5",
-        "snapshotPath": "v2/data/releases/2026-07-28/morning-production-data.json.gz",
-        "sha256": "73280e13092fdcf1e8d5fb0746f87a17105d56b400d34383c65b5aff880bf011",
-        "origin": "v2",
-        "webStatus": "published",
+        "fileName": "2026年7月28日陕西上市公司早报修正版.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月28日陕西上市公司早报修正版.png",
+        "sourceBuildVersion": "v1-history-corrected-2026-07-28",
+        "v1SourcePath": "v1/陕西省上市公司日报v1/outputs/2026年7月28日陕西上市公司早报.png",
+        "v1SourceSha256": "62ea0de906756ddce6ce308ae715d71093083f4e2d4ae49561b4f65e9f7123e5",
+        "sha256": "62ea0de906756ddce6ce308ae715d71093083f4e2d4ae49561b4f65e9f7123e5",
+        "origin": "v1_history_corrected",
+        "webStatus": "staged",
         "ima": {
-          "status": "completed",
-          "uploadedAt": "2026-07-28T17:12:12+08:00",
-          "verification": "exact_file_name"
+          "status": "not_applicable"
         },
-        "updatedAt": "2026-07-28T17:08:26+08:00",
-        "snapshotSha256": "214d355fa2e2f5d713a8f1f0e358eb7a2768dcaddbc7c0a46bb0e5fef587ff7e"
+        "supersedes": {
+          "fileName": "2026年7月28日V2陕西上市公司早报.png",
+          "publicPath": "archive/daily/listed/2026/2026年7月28日V2陕西上市公司早报.png",
+          "sourceBuildVersion": "75d700a24ed5",
+          "sha256": "73280e13092fdcf1e8d5fb0746f87a17105d56b400d34383c65b5aff880bf011",
+          "ima": {
+            "status": "completed",
+            "uploadedAt": "2026-07-28T17:12:12+08:00",
+            "verification": "exact_file_name"
+          }
+        },
+        "updatedAt": "2026-07-29T09:39:29+08:00"
       },
       {
         "date": "2026-07-27",
@@ -924,7 +945,9 @@
         "origin": "v2",
         "webStatus": "published",
         "ima": {
-          "status": "pending"
+          "status": "completed",
+          "uploadedAt": "2026-07-29T08:39:55+08:00",
+          "verification": "exact_file_name"
         },
         "updatedAt": "2026-07-29T08:39:08+08:00"
       },
@@ -1847,7 +1870,9 @@
         "origin": "v2",
         "webStatus": "published",
         "ima": {
-          "status": "pending"
+          "status": "completed",
+          "uploadedAt": "2026-07-29T08:39:49+08:00",
+          "verification": "exact_file_name"
         },
         "updatedAt": "2026-07-29T08:39:08+08:00"
       },
@@ -2725,7 +2750,9 @@
         "origin": "v2",
         "webStatus": "published",
         "ima": {
-          "status": "pending"
+          "status": "completed",
+          "uploadedAt": "2026-07-29T08:40:02+08:00",
+          "verification": "exact_file_name"
         },
         "updatedAt": "2026-07-29T08:39:08+08:00"
       },
