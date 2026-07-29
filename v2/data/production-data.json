@@ -136,7 +136,7 @@
     "readiness": "v2/data/readiness/v2-ready-2026-07-29-closing.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "6c9de1aca656"
+    "version": "52fe4ad9b030"
   },
   "homeHighlights": [
     {

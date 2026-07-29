@@ -22,3 +22,37 @@ body[data-page=index] #today .grid{align-items:stretch}body[data-page=index] #to
 .soe-focus-list{border:1px solid var(--line);border-radius:9px;overflow:hidden}.soe-row{display:grid;grid-template-columns:105px minmax(0,1fr) 86px;gap:10px;align-items:start;padding:10px 12px;border-bottom:1px solid #ebe6dd;background:#fff}.soe-row:last-child{border-bottom:0}.soe-row time,.soe-row span{display:block;color:var(--muted);font-size:11px}.soe-row b{display:block;line-height:1.42}.soe-row>a{color:#28658e;font-size:11px;text-align:right;text-decoration:none}.soe-category-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;align-items:start}.soe-column{min-width:0;border:1px solid var(--line);border-radius:9px;overflow:hidden;background:#fff}.soe-column>header{display:flex;justify-content:space-between;align-items:center;padding:9px 10px;background:var(--navy);color:#fff}.soe-column h3{margin:0;font-size:15px}.soe-column header b{font-size:10px;color:#dce5ec}.soe-column .soe-row{grid-template-columns:1fr;padding:9px}.soe-column .soe-row>div:first-child{display:flex;align-items:center;gap:4px}.soe-column .soe-row>a{text-align:left}.soe-column .tag{font-size:9px;padding:2px 6px}
 @media(max-width:1000px){.soe-category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.soe-focus-list .soe-row,.soe-category-grid{grid-template-columns:1fr}.soe-row>a{text-align:left}}
+@media(max-width:520px){
+  body[data-page=listed] .news-reference{
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    align-items:start;
+    gap:7px;
+    padding:11px 10px
+  }
+  body[data-page=listed] .news-reference>div{
+    min-width:0;
+    display:grid;
+    grid-template-columns:minmax(0,1fr) auto;
+    align-items:start;
+    gap:2px 8px
+  }
+  body[data-page=listed] .news-reference>div>b{min-width:0}
+  body[data-page=listed] .news-reference>div>span{
+    white-space:nowrap;
+    text-align:right
+  }
+  body[data-page=listed] .news-reference>div>p{
+    grid-column:1/-1;
+    min-width:0;
+    margin-top:3px;
+    white-space:normal;
+    word-break:normal;
+    overflow-wrap:anywhere;
+    line-height:1.5
+  }
+  body[data-page=listed] .news-reference>a{
+    justify-self:start;
+    white-space:nowrap
+  }
+}
