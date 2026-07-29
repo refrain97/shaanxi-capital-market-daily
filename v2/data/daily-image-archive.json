@@ -1,8 +1,25 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-07-29T17:08:10+08:00",
+  "updatedAt": "2026-07-30T05:35:28+08:00",
   "channels": {
     "listed": [
+      {
+        "date": "2026-07-30",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月30日V2陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月30日V2陕西上市公司早报.png",
+        "sourceBuildVersion": "23d34be71d15",
+        "snapshotPath": "v2/data/releases/2026-07-30/morning-production-data.json.gz",
+        "snapshotSha256": "b1620bfa5039730a973f97034855384dfc955af4361a5911e533d01f0b0268ef",
+        "sha256": "2a2a99e4fa3da2c7fcf688ceab04393e0b9b033476f2732e3a7e323617c535ce",
+        "origin": "v2",
+        "webStatus": "staged",
+        "ima": {
+          "status": "pending"
+        },
+        "updatedAt": "2026-07-30T05:35:27+08:00"
+      },
       {
         "date": "2026-07-29",
         "channel": "listed",
@@ -934,6 +951,23 @@
     ],
     "private": [
       {
+        "date": "2026-07-30",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月30日V2证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月30日V2证券私募行业动态日报.png",
+        "sourceBuildVersion": "23d34be71d15",
+        "snapshotPath": "v2/data/releases/2026-07-30/morning-production-data.json.gz",
+        "snapshotSha256": "b1620bfa5039730a973f97034855384dfc955af4361a5911e533d01f0b0268ef",
+        "sha256": "35aa37e5c7b36779033c8e7f5621f730e4d5a5176cef3372aff5233ac3c72bf3",
+        "origin": "v2",
+        "webStatus": "staged",
+        "ima": {
+          "status": "pending"
+        },
+        "updatedAt": "2026-07-30T05:35:28+08:00"
+      },
+      {
         "date": "2026-07-29",
         "channel": "private",
         "label": "证券私募",
@@ -1859,6 +1893,23 @@
     ],
     "ma": [
       {
+        "date": "2026-07-30",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月30日V2陕西收并购日报.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月30日V2陕西收并购日报.png",
+        "sourceBuildVersion": "23d34be71d15",
+        "snapshotPath": "v2/data/releases/2026-07-30/morning-production-data.json.gz",
+        "snapshotSha256": "b1620bfa5039730a973f97034855384dfc955af4361a5911e533d01f0b0268ef",
+        "sha256": "e58abf91cecd3d7e18f679e305dc0bd296dcb1aee501ac79ef7920d5ce7b06a7",
+        "origin": "v2",
+        "webStatus": "staged",
+        "ima": {
+          "status": "pending"
+        },
+        "updatedAt": "2026-07-30T05:35:28+08:00"
+      },
+      {
         "date": "2026-07-29",
         "channel": "ma",
         "label": "收并购",
@@ -2738,6 +2789,23 @@
       }
     ],
     "tender": [
+      {
+        "date": "2026-07-30",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "2026年7月30日V2陕西金融招投标日报.png",
+        "publicPath": "archive/daily/tender/2026/2026年7月30日V2陕西金融招投标日报.png",
+        "sourceBuildVersion": "23d34be71d15",
+        "snapshotPath": "v2/data/releases/2026-07-30/morning-production-data.json.gz",
+        "snapshotSha256": "b1620bfa5039730a973f97034855384dfc955af4361a5911e533d01f0b0268ef",
+        "sha256": "171efadeb2ed2a6563c665e0ef278f75cb9b905813b541ac79003b63e7ad5671",
+        "origin": "v2",
+        "webStatus": "staged",
+        "ima": {
+          "status": "pending"
+        },
+        "updatedAt": "2026-07-30T05:35:28+08:00"
+      },
       {
         "date": "2026-07-29",
         "channel": "tender",
