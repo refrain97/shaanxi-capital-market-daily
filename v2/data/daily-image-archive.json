@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-07-29T09:39:29+08:00",
+  "updatedAt": "2026-07-29T09:50:13+08:00",
   "channels": {
     "listed": [
       {
@@ -14,7 +14,7 @@
         "snapshotSha256": "72bfdb53267a5be2d8555236a768be71d0dbea99597c6002b243449985642954",
         "sha256": "867242ef909e35f26d2082d2fb5784b6e44d0bdd9b67ecd3add5b47f0daf3501",
         "origin": "v2",
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "pending",
           "replacementPolicy": "explicit_corrected_filename"
@@ -30,7 +30,7 @@
             "verification": "exact_file_name"
           }
         },
-        "updatedAt": "2026-07-29T09:39:29+08:00"
+        "updatedAt": "2026-07-29T09:50:13+08:00"
       },
       {
         "date": "2026-07-28",
@@ -43,7 +43,7 @@
         "v1SourceSha256": "62ea0de906756ddce6ce308ae715d71093083f4e2d4ae49561b4f65e9f7123e5",
         "sha256": "62ea0de906756ddce6ce308ae715d71093083f4e2d4ae49561b4f65e9f7123e5",
         "origin": "v1_history_corrected",
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "not_applicable"
         },
@@ -58,7 +58,7 @@
             "verification": "exact_file_name"
           }
         },
-        "updatedAt": "2026-07-29T09:39:29+08:00"
+        "updatedAt": "2026-07-29T09:50:13+08:00"
       },
       {
         "date": "2026-07-27",
