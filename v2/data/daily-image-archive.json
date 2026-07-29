@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-07-29T09:53:36+08:00",
+  "channels": {
+    "listed": [
+      {
+        "date": "2026-07-29",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年7月29日陕西上市公司早报修正版.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月29日陕西上市公司早报修正版.png",
+        "sourceBuildVersion": "53fb935994d3",
+        "snapshotPath": "v2/data/releases/2026-07-29/morning-production-data.json.gz",
+        "snapshotSha256": "72bfdb53267a5be2d8555236a768be71d0dbea99597c6002b243449985642954",
+        "sha256": "867242ef909e35f26d2082d2fb5784b6e44d0bdd9b67ecd3add5b47f0daf3501",
+        "origin": "v2",
+        "webStatus": "published",
+        "ima": {
+          "status": "completed",
+          "uploadedAt": "2026-07-29T09:53:36+08:00",
+          "verification": "exact_file_name"
+        },
+        "supersedes": {
+          "fileName": "2026年7月29日V2陕西上市公司早报.png",
+          "publicPath": "archive/daily/listed/2026/2026年7月29日V2陕西上市公司早报.png",
+          "sourceBuildVersion": "c6b4fcf73b3a",
+          "sha256": "7e80bb2905a7f882f3535259bcf1e2eb01c9815454350e7971708ff560705a02",
+          "ima": {
+            "status": "completed",
+            "uploadedAt": "2026-07-29T08:39:40+08:00",
+            "verification": "exact_file_name"
+          }
+        },
+        "updatedAt": "2026-07-29T09:50:13+08:00"
+      }
+    ],
+    "private": [
+      {
+        "date": "2026-07-29",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月29日V2证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月29日V2证券私募行业动态日报.png",
+        "sourceBuildVersion": "c6b4fcf73b3a",
+        "snapshotPath": "v2/data/releases/2026-07-29/morning-production-data.json.gz",
+        "snapshotSha256": "4e1c25c1c936467ea0d0eb7739f1d61864af3b615da0e3a75c3a7cc64180c20a",
+        "sha256": "574e7b92ccb058e6954c0ecf816837c21a1d54e8c7619f3b0719cf4e292e5dc5",
+        "origin": "v2",
+        "webStatus": "published",
+        "ima": {
+          "status": "completed",
+          "uploadedAt": "2026-07-29T08:39:55+08:00",
+          "verification": "exact_file_name"
+        },
+        "updatedAt": "2026-07-29T08:39:08+08:00"
+      },
+      {
+        "date": "2026-07-28",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年7月28日V2证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年7月28日V2证券私募行业动态日报.png",
+        "sourceBuildVersion": "75d700a24ed5",
+        "snapshotPath": "v2/data/releases/2026-07-28/morning-production-data.json.gz",
+        "sha256": "3ebb687175b1b38032d97501d1d4e80a73f249502c16f105e3b645acd2b87599",
+        "origin": "v2",
+        "webStatus": "published",
+        "ima": {
+          "status": "completed",
+          "uploadedAt": "2026-07-28T17:12:27+08:00",
+          "verification": "exact_file_name"
+        },
+        "updatedAt": "2026-07-28T17:08:26+08:00",
+        "snapshotSha256": "214d355fa2e2f5d713a8f1f0e358eb7a2768dcaddbc7c0a46bb0e5fef587ff7e"
+      }
+    ],
+    "ma": [
+      {
+        "date": "2026-07-29",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月29日V2陕西收并购日报.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月29日V2陕西收并购日报.png",
+        "sourceBuildVersion": "c6b4fcf73b3a",
+        "snapshotPath": "v2/data/releases/2026-07-29/morning-production-data.json.gz",
+        "snapshotSha256": "4e1c25c1c936467ea0d0eb7739f1d61864af3b615da0e3a75c3a7cc64180c20a",
+        "sha256": "6122ec41c183e9973320b00a799bc4fef018326448a815269e69976e48f964ef",
+        "origin": "v2",
+        "webStatus": "published",
+        "ima": {
+          "status": "completed",
+          "uploadedAt": "2026-07-29T08:39:49+08:00",
+          "verification": "exact_file_name"
+        },
+        "updatedAt": "2026-07-29T08:39:08+08:00"
+      },
+      {
+        "date": "2026-07-28",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年7月28日V2陕西收并购日报.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月28日V2陕西收并购日报.png",
+        "sourceBuildVersion": "75d700a24ed5",
+        "snapshotPath": "v2/data/releases/2026-07-28/morning-production-data.json.gz",
+        "sha256": "42283833df5a0640977e3a8d8317ce5df72c6783d59497e0c61b696bbaf916e7",
+        "origin": "v2",
+        "webStatus": "published",
+        "ima": {
+          "status": "completed",
+          "uploadedAt": "2026-07-28T17:12:18+08:00",
+          "verification": "exact_file_name"
+        },
+        "updatedAt": "2026-07-28T17:08:26+08:00",
+        "snapshotSha256": "214d355fa2e2f5d713a8f1f0e358eb7a2768dcaddbc7c0a46bb0e5fef587ff7e"
+      }
+    ],
+    "tender": [
+      {
+        "date": "2026-07-29",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "2026年7月29日V2陕西金融招投标日报.png",
+        "publicPath": "archive/daily/tender/2026/2026年7月29日V2陕西金融招投标日报.png",
+        "sourceBuildVersion": "c6b4fcf73b3a",
+        "snapshotPath": "v2/data/releases/2026-07-29/morning-production-data.json.gz",
+        "snapshotSha256": "4e1c25c1c936467ea0d0eb7739f1d61864af3b615da0e3a75c3a7cc64180c20a",
+        "sha256": "27a5ff3fdf3149e1b71ddc6edae20ce821080ba34c1365bcc4ff6088363b76b8",
+        "origin": "v2",
+        "webStatus": "published",
+        "ima": {
+          "status": "completed",
+          "uploadedAt": "2026-07-29T08:40:02+08:00",
+          "verification": "exact_file_name"
+        },
+        "updatedAt": "2026-07-29T08:39:08+08:00"
+      },
+      {
+        "date": "2026-07-28",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "2026年7月28日V2陕西金融招投标日报.png",
+        "publicPath": "archive/daily/tender/2026/2026年7月28日V2陕西金融招投标日报.png",
+        "sourceBuildVersion": "75d700a24ed5",
+        "snapshotPath": "v2/data/releases/2026-07-28/morning-production-data.json.gz",
+        "sha256": "8b9ab8950241ef5d959dbf28df118074aa5e983d0707809b50879d7c85aebaa8",
+        "origin": "v2",
+        "webStatus": "published",
+        "ima": {
+          "status": "completed",
+          "uploadedAt": "2026-07-28T17:12:33+08:00",
+          "verification": "exact_file_name"
+        },
+        "updatedAt": "2026-07-28T17:08:26+08:00",
+        "snapshotSha256": "214d355fa2e2f5d713a8f1f0e358eb7a2768dcaddbc7c0a46bb0e5fef587ff7e"
+      }
+    ]
+  }
+}

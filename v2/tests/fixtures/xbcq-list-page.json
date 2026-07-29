@@ -1,0 +1,17 @@
+{
+  "total": "2",
+  "records": [
+    {
+      "id": "xbcq-current",
+      "jymc": "陕西某公司25%股权",
+      "zclxmc": "股权类",
+      "gpksrq": "2026-07-27 09:00:00"
+    },
+    {
+      "id": "xbcq-older",
+      "jymc": "历史资产",
+      "zclxmc": "其他类",
+      "gpksrq": "2026-07-26 09:00:00"
+    }
+  ]
+}

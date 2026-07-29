@@ -1,0 +1,480 @@
+{
+  "artifactHashes": {
+    "v2/data/source/ma/candidates/candidates-2026-07-29-morning.json": "90f5277b31fede0ac5c3edaae5549de3b876cb3b67286fbcc2503cfd716660bb",
+    "v2/data/source/ma/events-2026.json": "db41a0782237483409087b4a475da0c950cd0b013118b8b62d603129625a21cb",
+    "v2/data/source/ma/exclusions/excluded-2026-07-29-morning.json": "c95593111592a7594a8234f59d05f50e1297f2aa23d5938ee14907eb0b78302a",
+    "v2/data/source/ma/raw/raw-2026-07-29-morning.json": "9248a0eeaefb0454a4a4a99c932f3c70534b2517abc7ae25c4d0eac696a8017b"
+  },
+  "candidateOnScanDate": false,
+  "channel": "ma",
+  "configSha256": "d76ccac02918d91391c4258ffcc6b79be679e332a7545d44b4316588cabab466",
+  "counts": {
+    "candidateForManualReview": 0,
+    "excluded": 34,
+    "existingProjectsBefore": 26,
+    "importedOrUpdated": 0,
+    "projectsAfter": 26,
+    "rawMatched": 2
+  },
+  "coverageComplete": true,
+  "coverageScope": {
+    "cninfoAnnouncementCount": 36,
+    "hkexCompanyCount": 14,
+    "listedUniverseCount": 110,
+    "nonlistedCoverageBacklogCount": 21,
+    "nonlistedRegistryCount": 3
+  },
+  "eventOnScanDate": false,
+  "eventStoreSha256": "db41a0782237483409087b4a475da0c950cd0b013118b8b62d603129625a21cb",
+  "failureReasons": [],
+  "finishedAt": "2026-07-29T05:33:28+08:00",
+  "importedProjectIds": [],
+  "inputSha256": "b9dd180485d5528f3856b31d10968312ae37df12d0e6cb10caeae743bd3992df",
+  "issuerRegistrySha256": "7ca5b65d8f4d61ccc8534e22ab0a990de6fd7120981aabd227de6b23718f7e81",
+  "latestEventDate": "2026-07-28",
+  "networkVerified": true,
+  "scanAsOf": "2026-07-29",
+  "scannerSha256": "e4c427b0c1a04d6a8c3ae5b63bde430de45e6efe26d50289d996ccee026573ee",
+  "schemaVersion": "1.0",
+  "searchTerms": [
+    "收购",
+    "出售",
+    "股权转让",
+    "控制权变更",
+    "增资",
+    "重大资产重组",
+    "发行股份购买资产",
+    "购买资产",
+    "交割",
+    "完成",
+    "工商变更",
+    "终止"
+  ],
+  "slot": "morning",
+  "sourceRuns": [
+    {
+      "adapter": "v2_cninfo_daily",
+      "coverage": {
+        "announcementCount": 36,
+        "dateRange": [
+          "2026-07-28",
+          "2026-07-29"
+        ],
+        "inputPath": "v2/data/daily/listed/cninfo-announcements-2026-07-29.json",
+        "universeCount": 110
+      },
+      "failureReason": "",
+      "name": "巨潮资讯上市公司逐主体公告",
+      "searchCompleted": true,
+      "sourceId": "ma-listed-cninfo",
+      "status": "completed"
+    },
+    {
+      "adapter": "v2_hkex_daily_receipt",
+      "coverage": {
+        "announcementCount": 0,
+        "companyCount": 14,
+        "path": "v2/data/daily/listed/hkex-review-2026-07-29.json",
+        "sha256": "4b564f80225ed1de8a960d832a51cf86edd5cb70407ddd9186057e615b1c9fa5",
+        "slot": "morning",
+        "status": "completed"
+      },
+      "failureReason": "",
+      "name": "香港交易所披露易逐主体复核",
+      "searchCompleted": true,
+      "sourceId": "ma-listed-hkex",
+      "status": "completed"
+    },
+    {
+      "adapter": "xbcq_project_api_v2",
+      "categoryCount": 11,
+      "coverageMode": "same_day_category_paginated_list_and_detail_api",
+      "detailVerifiedCount": 0,
+      "name": "西部产权交易所（陕西）",
+      "pageCount": 13,
+      "pages": [
+        {
+          "category": "企业增资正式披露",
+          "cateid": "497053052026949",
+          "elapsedMs": 334,
+          "httpStatus": 200,
+          "newestDate": "",
+          "oldestDate": "",
+          "page": 1,
+          "reportedTotal": 0,
+          "requestParams": {
+            "cateid": "497053052026949",
+            "current": 1,
+            "gpksrqdesc": 1,
+            "page": 1,
+            "size": 100,
+            "zspl": 1
+          },
+          "requestUrl": "https://www.xbcq.com/prod-api/ajax/project/list?current=1&page=1&size=100&cateid=497053052026949&gpksrqdesc=1&zspl=1",
+          "responseSha256": "30a63f473a7ca5765923fe8e7e26f2a1a0fc80bfff8c4bba640afa5e09596004",
+          "rowCount": 0
+        },
+        {
+          "category": "企业增资预披露",
+          "cateid": "497053052026949",
+          "elapsedMs": 282,
+          "httpStatus": 200,
+          "newestDate": "",
+          "oldestDate": "",
+          "page": 1,
+          "reportedTotal": 0,
+          "requestParams": {
+            "cateid": "497053052026949",
+            "current": 1,
+            "gpksrqdesc": 1,
+            "page": 1,
+            "size": 100,
+            "ypl": 1
+          },
+          "requestUrl": "https://www.xbcq.com/prod-api/ajax/project/list?current=1&page=1&size=100&cateid=497053052026949&gpksrqdesc=1&ypl=1",
+          "responseSha256": "30a63f473a7ca5765923fe8e7e26f2a1a0fc80bfff8c4bba640afa5e09596004",
+          "rowCount": 0
+        },
+        {
+          "category": "股权转让",
+          "cateid": "497052304351301",
+          "elapsedMs": 294,
+          "httpStatus": 200,
+          "newestDate": "2026-07-17",
+          "oldestDate": "2025-05-09",
+          "page": 1,
+          "reportedTotal": 18,
+          "requestParams": {
+            "cateid": "497052304351301",
+            "current": 1,
+            "gpksrqdesc": 1,
+            "page": 1,
+            "size": 100
+          },
+          "requestUrl": "https://www.xbcq.com/prod-api/cms/ttargetinfor/list?current=1&page=1&size=100&cateid=497052304351301&gpksrqdesc=1",
+          "responseSha256": "212a7fc265b089963ea607e25b5b6cc9c621abbaddff239c6e06d4d8bdc0d30d",
+          "rowCount": 18
+        },
+        {
+          "category": "土地资产",
+          "cateid": "497052532072517",
+          "elapsedMs": 297,
+          "httpStatus": 200,
+          "newestDate": "2026-07-28",
+          "oldestDate": "2025-07-31",
+          "page": 1,
+          "reportedTotal": 8,
+          "requestParams": {
+            "cateid": "497052532072517",
+            "current": 1,
+            "gpksrqdesc": 1,
+            "page": 1,
+            "size": 100
+          },
+          "requestUrl": "https://www.xbcq.com/prod-api/cms/ttargetinfor/list?current=1&page=1&size=100&cateid=497052532072517&gpksrqdesc=1",
+          "responseSha256": "f23b8f64f05053f66b53d33899c612f3f380908a362954da8afae1315b319c08",
+          "rowCount": 8
+        },
+        {
+          "category": "资产综合",
+          "cateid": "497052131938373",
+          "elapsedMs": 486,
+          "httpStatus": 200,
+          "newestDate": "2026-07-28",
+          "oldestDate": "2026-06-10",
+          "page": 1,
+          "reportedTotal": 494,
+          "requestParams": {
+            "cateid": "497052131938373",
+            "current": 1,
+            "gpksrqdesc": 1,
+            "page": 1,
+            "size": 100
+          },
+          "requestUrl": "https://www.xbcq.com/prod-api/cms/ttargetinfor/list?current=1&page=1&size=100&cateid=497052131938373&gpksrqdesc=1",
+          "responseSha256": "2f7549b1cd86eadff93c8c0731e6b5742d1bfa7f4e45f00b008e20bfce2c3b78",
+          "rowCount": 100
+        },
+        {
+          "category": "机械设备",
+          "cateid": "497052581847109",
+          "elapsedMs": 304,
+          "httpStatus": 200,
+          "newestDate": "2026-07-28",
+          "oldestDate": "2025-07-30",
+          "page": 1,
+          "reportedTotal": 21,
+          "requestParams": {
+            "cateid": "497052581847109",
+            "current": 1,
+            "gpksrqdesc": 1,
+            "page": 1,
+            "size": 100
+          },
+          "requestUrl": "https://www.xbcq.com/prod-api/cms/ttargetinfor/list?current=1&page=1&size=100&cateid=497052581847109&gpksrqdesc=1",
+          "responseSha256": "5a18ccdd46e9674c8efc218757f3e16f7793ee7d076a3f3e3265815ac8d8ef20",
+          "rowCount": 21
+        },
+        {
+          "category": "机动车",
+          "cateid": "497052784877637",
+          "elapsedMs": 265,
+          "httpStatus": 200,
+          "newestDate": "2026-07-28",
+          "oldestDate": "2025-07-30",
+          "page": 1,
+          "reportedTotal": 31,
+          "requestParams": {
+            "cateid": "497052784877637",
+            "current": 1,
+            "gpksrqdesc": 1,
+            "page": 1,
+            "size": 100
+          },
+          "requestUrl": "https://www.xbcq.com/prod-api/cms/ttargetinfor/list?current=1&page=1&size=100&cateid=497052784877637&gpksrqdesc=1",
+          "responseSha256": "ac043808a426c3105184cb36aebc0094b660c7ef14c38564eb1cb45cc0354b69",
+          "rowCount": 31
+        },
+        {
+          "category": "存货",
+          "cateid": "497052827410501",
+          "elapsedMs": 228,
+          "httpStatus": 200,
+          "newestDate": "2026-06-24",
+          "oldestDate": "2026-04-27",
+          "page": 1,
+          "reportedTotal": 67,
+          "requestParams": {
+            "cateid": "497052827410501",
+            "current": 1,
+            "gpksrqdesc": 1,
+            "page": 1,
+            "size": 100
+          },
+          "requestUrl": "https://www.xbcq.com/prod-api/cms/ttargetinfor/list?current=1&page=1&size=100&cateid=497052827410501&gpksrqdesc=1",
+          "responseSha256": "483a5f2d9185ecf81980323522e81c5c454634d48af8a3fad7d176e54ff44834",
+          "rowCount": 67
+        },
+        {
+          "category": "在建工程",
+          "cateid": "507615681937477",
+          "elapsedMs": 230,
+          "httpStatus": 200,
+          "newestDate": "2026-04-30",
+          "oldestDate": "2026-04-30",
+          "page": 1,
+          "reportedTotal": 1,
+          "requestParams": {
+            "cateid": "507615681937477",
+            "current": 1,
+            "gpksrqdesc": 1,
+            "page": 1,
+            "size": 100
+          },
+          "requestUrl": "https://www.xbcq.com/prod-api/cms/ttargetinfor/list?current=1&page=1&size=100&cateid=507615681937477&gpksrqdesc=1",
+          "responseSha256": "165bf64d2359b97e87df0db0ba1ea7987d6276539ea4feef314a7a20765d1c3a",
+          "rowCount": 1
+        },
+        {
+          "category": "其他资产",
+          "cateid": "497052953309253",
+          "elapsedMs": 240,
+          "httpStatus": 200,
+          "newestDate": "2026-07-28",
+          "oldestDate": "2025-07-31",
+          "page": 1,
+          "reportedTotal": 67,
+          "requestParams": {
+            "cateid": "497052953309253",
+            "current": 1,
+            "gpksrqdesc": 1,
+            "page": 1,
+            "size": 100
+          },
+          "requestUrl": "https://www.xbcq.com/prod-api/cms/ttargetinfor/list?current=1&page=1&size=100&cateid=497052953309253&gpksrqdesc=1",
+          "responseSha256": "c02ab4e865149980e0ec1c1b75c0c5e1d43e9cce3681a89b0e8ff09e92e7fe06",
+          "rowCount": 67
+        },
+        {
+          "category": "房屋资产",
+          "cateid": "497052470669381",
+          "elapsedMs": 275,
+          "httpStatus": 200,
+          "newestDate": "2026-07-24",
+          "oldestDate": "2026-05-06",
+          "page": 1,
+          "reportedTotal": 299,
+          "requestParams": {
+            "cateid": "497052470669381",
+            "current": 1,
+            "gpksrqdesc": 1,
+            "page": 1,
+            "size": 100
+          },
+          "requestUrl": "https://www.xbcq.com/prod-api/cms/ttargetinfor/list?current=1&page=1&size=100&cateid=497052470669381&gpksrqdesc=1",
+          "responseSha256": "e68b4e32488b52552f3812fa7e872bd0d4fdf80ad769f5da93eef02518c4f1f9",
+          "rowCount": 100
+        },
+        {
+          "category": "成交公告",
+          "httpStatus": 200,
+          "newestDate": "2026-07-28",
+          "oldestDate": "2026-07-23",
+          "page": 1,
+          "reportedTotal": 9,
+          "requestParams": {
+            "cateid": "503879418290245",
+            "page": 1,
+            "size": 100
+          },
+          "requestUrl": "https://www.xbcq.com/prod-api/cms/ggxx/list?page=1&size=100&cateid=503879418290245",
+          "responseSha256": "a5d789d15af191aba5c6737c564e0419b9a0255b109160d02f218d26790dc922",
+          "rowCount": 9
+        },
+        {
+          "category": "中止终结公告",
+          "httpStatus": 200,
+          "newestDate": "2026-06-04",
+          "oldestDate": "2025-08-08",
+          "page": 1,
+          "requestUrl": "https://www.xbcq.com/xmzx/zzgg/",
+          "responseSha256": "300ce1f2b64fc09c81d5cefe4bbba4e820e97482e1ddf838c458fa21e3fe9bd6",
+          "rowCount": 10
+        }
+      ],
+      "recordCount": 0,
+      "resultListCount": 2,
+      "searchCompleted": true,
+      "sourceId": "ma-sx-property-exchanges",
+      "status": "completed"
+    },
+    {
+      "adapter": "sx_sasac_html_list_v2",
+      "coverageMode": "same_day_section_paginated_list_and_official_detail",
+      "detailVerifiedCount": 0,
+      "name": "陕西国资系统正式公告",
+      "pageCount": 3,
+      "pages": [
+        {
+          "elapsedMs": 235,
+          "httpStatus": 200,
+          "newestDate": "2026-07-27",
+          "oldestDate": "2026-07-14",
+          "page": 1,
+          "requestUrl": "https://sxgz.shaanxi.gov.cn/sy/gqzc/qydt/",
+          "responseSha256": "8ba83e4edd03608a617f9e0af5f9e8d409df01b271aa6127ac2b78b816fad149",
+          "rowCount": 20,
+          "section": "企业动态"
+        },
+        {
+          "elapsedMs": 247,
+          "httpStatus": 200,
+          "newestDate": "2026-07-27",
+          "oldestDate": "2026-06-23",
+          "page": 1,
+          "requestUrl": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/",
+          "responseSha256": "14f7745303525bbafe97783ca38b00933dd76b704b7f6c73fe6ef20c8642060c",
+          "rowCount": 20,
+          "section": "信息要闻"
+        },
+        {
+          "elapsedMs": 234,
+          "httpStatus": 200,
+          "newestDate": "2026-07-22",
+          "oldestDate": "2025-02-17",
+          "page": 1,
+          "requestUrl": "https://sxgz.shaanxi.gov.cn/sy/tzgg/",
+          "responseSha256": "4ec1474a57bf423c3fbf3cfb9256b0bed1a2989141980a210c5d0701e9bf3a63",
+          "rowCount": 20,
+          "section": "通知公告"
+        }
+      ],
+      "recordCount": 0,
+      "searchCompleted": true,
+      "sectionCount": 3,
+      "sourceId": "ma-sx-sasac",
+      "status": "completed"
+    },
+    {
+      "adapter": "issuer_registry_html_v2",
+      "configuredSiteCount": 3,
+      "coverageBacklog": [
+        "国投农产品供应链（北京）有限公司",
+        "金诚矿业",
+        "步步高矿业",
+        "成都天科航空",
+        "西安创航精密制造",
+        "中节能西安启源机电装备",
+        "西安亿鑫物业管理",
+        "上海美能立成",
+        "西安中科西光",
+        "陕西长空齿轮",
+        "西安奇芯光电",
+        "西安招商花园城",
+        "西安超嗨网络",
+        "沈阳顺义科技",
+        "西安思丹德",
+        "西安市群健航空精密制造",
+        "西安招玺锦樾",
+        "安徽金沙钼业",
+        "陕西华经微电子",
+        "华羿微电",
+        "陕西深宝水电"
+      ],
+      "coverageBacklogCount": 21,
+      "coverageMode": "configured_official_site_registry_100_percent",
+      "name": "非上市企业官网正式公告注册表",
+      "recordCount": 0,
+      "scannedSiteCount": 3,
+      "searchCompleted": true,
+      "siteRuns": [
+        {
+          "entityId": "issuer-shccig",
+          "entityName": "陕西煤业化工集团有限责任公司",
+          "listPages": [
+            {
+              "contentBytes": 275618,
+              "elapsedMs": 243,
+              "httpStatus": 200,
+              "listUrl": "https://www.shccig.com/",
+              "responseSha256": "cb8eeb46b31d3f16296caf486c505c871a3211f7c92630e0ca83481b92aa9db6"
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "entityId": "issuer-siet",
+          "entityName": "陕西国际经贸集团有限公司",
+          "listPages": [
+            {
+              "contentBytes": 30818,
+              "elapsedMs": 226,
+              "httpStatus": 200,
+              "listUrl": "https://www.siet.com.cn/news.html",
+              "responseSha256": "c2f78a58378c96da20241db74cb12745d4c8d3c748bfdc17d4a6c05c8b141cb5"
+            }
+          ],
+          "status": "completed"
+        },
+        {
+          "entityId": "issuer-sxcjtz",
+          "entityName": "陕西财金投资管理有限责任公司",
+          "listPages": [
+            {
+              "contentBytes": 74684,
+              "elapsedMs": 321,
+              "httpStatus": 200,
+              "listUrl": "https://www.sxcjtz.cn/",
+              "responseSha256": "d5dbf02f54495cb454c5e896987fc800f9c1a6f4cdd4eef6d039c8c6e2507f9d"
+            }
+          ],
+          "status": "completed"
+        }
+      ],
+      "sourceId": "ma-nonlisted-company-sites",
+      "status": "completed"
+    }
+  ],
+  "startedAt": "2026-07-29T05:33:21+08:00",
+  "status": "completed"
+}

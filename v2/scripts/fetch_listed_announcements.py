@@ -1,0 +1,241 @@
+#!/usr/bin/env python3
+"""Fetch CNINFO announcements company-by-company for the V2 universe."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import http.client
+import sys
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+from collections import Counter
+from datetime import datetime
+from pathlib import Path
+from typing import Any
+
+from listed_universe import V2_UNIVERSE_PATH, load_listed_universe, universe_counts
+
+
+ROOT = Path(__file__).resolve().parents[2]
+CNINFO_QUERY_URL = "https://www.cninfo.com.cn/new/hisAnnouncement/query"
+REFERER = "https://www.cninfo.com.cn/new/commonUrl/pageOfSearch?url=disclosure/list/search"
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="逐公司抓取陕西上市公司 CNINFO 公告，避免全市场分页漏报。"
+    )
+    parser.add_argument("--start-date", required=True, help="YYYY-MM-DD")
+    parser.add_argument("--end-date", required=True, help="YYYY-MM-DD")
+    parser.add_argument(
+        "--companies",
+        default=str(V2_UNIVERSE_PATH),
+        help="V2上市公司观察池 JSON。",
+    )
+    parser.add_argument(
+        "--output",
+        help="输出 JSON 路径；默认 data/cninfo-shaanxi-announcements-START_END.json",
+    )
+    parser.add_argument("--page-size", type=int, default=30)
+    parser.add_argument("--sleep", type=float, default=0.30, help="公司之间请求间隔秒数。")
+    parser.add_argument("--timeout", type=float, default=20)
+    parser.add_argument("--retries", type=int, default=5, help="Transient network retries per CNINFO request.")
+    return parser.parse_args()
+
+
+def load_companies(path: Path) -> list[dict[str, Any]]:
+    return load_listed_universe(path)
+
+
+def post_cninfo(params: dict[str, str], timeout: float, retries: int) -> dict[str, Any]:
+    data = urllib.parse.urlencode(params).encode("utf-8")
+    last_error: BaseException | None = None
+    for attempt in range(1, retries + 1):
+        req = urllib.request.Request(
+            CNINFO_QUERY_URL,
+            data=data,
+            headers={
+                "User-Agent": "Mozilla/5.0",
+                "Referer": REFERER,
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except (urllib.error.URLError, TimeoutError, http.client.RemoteDisconnected, json.JSONDecodeError) as exc:
+            last_error = exc
+            if attempt >= retries:
+                break
+            time.sleep(1.5 * attempt)
+    raise RuntimeError(f"CNINFO request failed after {retries} attempts: {last_error!r}") from last_error
+
+
+def fetch_company(
+    company: dict[str, Any],
+    start_date: str,
+    end_date: str,
+    page_size: int,
+    timeout: float,
+    retries: int,
+) -> list[dict[str, Any]]:
+    page = 1
+    results: list[dict[str, Any]] = []
+    stock = f"{company['code']},{company['orgId']}"
+
+    while True:
+        params = {
+            "pageNum": str(page),
+            "pageSize": str(page_size),
+            "column": "",
+            "tabName": "fulltext",
+            "plate": "",
+            "stock": stock,
+            "searchkey": "",
+            "secid": "",
+            "category": "",
+            "trade": "",
+            "seDate": f"{start_date}~{end_date}",
+            "sortName": "",
+            "sortType": "",
+            "isHLtitle": "true",
+        }
+        payload = post_cninfo(params, timeout, retries)
+        announcements = payload.get("announcements") or []
+        total = int(payload.get("totalRecordNum") or 0)
+
+        for announcement in announcements:
+            announcement["_matchedCompanyCode"] = company["code"]
+            announcement["_matchedCompanyName"] = company["name"]
+            announcement["_companyMarket"] = company.get("market")
+            announcement["_universeTier"] = company.get("universeTier")
+            announcement["_inclusionReason"] = company.get("inclusionReason")
+            announcement["_entityId"] = company.get("entityId")
+            announcement["_securityCode"] = company.get("securityCode")
+            announcement["_queryStock"] = stock
+            results.append(announcement)
+
+        if len(announcements) < page_size or page * page_size >= total:
+            break
+        page += 1
+        time.sleep(0.05)
+
+    return results
+
+
+def dedupe(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    seen: set[tuple[Any, Any, Any]] = set()
+    deduped: list[dict[str, Any]] = []
+    for item in items:
+        key = (item.get("announcementId"), item.get("secCode"), item.get("announcementTitle"))
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(item)
+    return deduped
+
+
+def local_day(timestamp_ms: int | None) -> str:
+    if not timestamp_ms:
+        return "unknown"
+    return time.strftime("%Y-%m-%d", time.localtime(timestamp_ms / 1000))
+
+
+def main() -> int:
+    args = parse_args()
+    base_dir = Path.cwd()
+    companies_path = Path(args.companies)
+    if not companies_path.is_absolute():
+        companies_path = base_dir / companies_path
+
+    output_path = Path(args.output) if args.output else Path(
+        ROOT / "v2" / "data" / "daily" / "listed"
+        / f"cninfo-announcements-{args.end_date}.json"
+    )
+    if not output_path.is_absolute():
+        output_path = base_dir / output_path
+
+    # Fail early on malformed dates.
+    datetime.strptime(args.start_date, "%Y-%m-%d")
+    datetime.strptime(args.end_date, "%Y-%m-%d")
+
+    companies = load_companies(companies_path)
+    all_items: list[dict[str, Any]] = []
+    errors: list[dict[str, str]] = []
+
+    for index, company in enumerate(companies, start=1):
+        try:
+            all_items.extend(
+                fetch_company(
+                    company,
+                    args.start_date,
+                    args.end_date,
+                    args.page_size,
+                    args.timeout,
+                    args.retries,
+                )
+            )
+        except Exception as exc:  # noqa: BLE001 - record and continue for daily work.
+            errors.append(
+                {
+                    "code": str(company.get("code", "")),
+                    "name": str(company.get("name", "")),
+                    "error": repr(exc),
+                }
+            )
+        if index % 20 == 0:
+            print(f"queried {index}/{len(companies)} companies, raw_items={len(all_items)}", file=sys.stderr)
+        time.sleep(args.sleep)
+
+    items = dedupe(all_items)
+    items.sort(
+        key=lambda item: (
+            item.get("announcementTime") or 0,
+            item.get("secCode") or "",
+            item.get("announcementId") or "",
+        ),
+        reverse=True,
+    )
+
+    date_counter = Counter(local_day(item.get("announcementTime")) for item in items)
+    counts = universe_counts(companies)
+    summary = {
+        "startDate": args.start_date,
+        "endDate": args.end_date,
+        "companyUniverseCount": len(companies),
+        "universeTierCounts": {tier: counts[tier] for tier in ("L1", "L2", "L3")},
+        "universeMarketCounts": {market: counts[market] for market in ("SH", "SZ", "BJ", "HK")},
+        "announcementCount": len(items),
+        "coveredCompanyCount": len({item.get("secCode") for item in items}),
+        "dateDistribution": dict(sorted(date_counter.items())),
+        "errorCount": len(errors),
+        "errors": errors,
+        "queryMethod": "company_by_company_cninfo_stock_code_orgId",
+        "universeSource": str(companies_path),
+        "hkexCompletenessReviewRequired": counts["L2"] > 0,
+        "warning": (
+            "CNINFO is the primary company-by-company retrieval source. L2 Hong Kong companies "
+            "must be checked against HKEX before a complete/no-announcement conclusion is published. "
+            "If announcementCount is 0, complete the SOP second-pass verification."
+        ),
+    }
+    payload = {f"{args.start_date}~{args.end_date}": items, "_summary": summary}
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    print(json.dumps(summary, ensure_ascii=False, indent=2))
+    if errors and len(errors) >= len(companies) and not items:
+        print(
+            "CNINFO fetch failed for every company; refusing to treat this as a valid no-announcement run.",
+            file=sys.stderr,
+        )
+        return 3
+    return 0 if not errors else 2
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

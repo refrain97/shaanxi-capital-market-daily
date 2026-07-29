@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0",
+  "source": "https://www1.hkexnews.hk/search/titleSearchServlet.do",
+  "queryMethod": "company_by_company_hkex_title_search",
+  "issuers": [
+    {"securityCode": "00438", "stockId": 8384, "stockName": "IRICO NEWENERGY"},
+    {"securityCode": "02335", "stockId": 1000306892, "stockName": "MICOT PHARMA-B"},
+    {"securityCode": "02418", "stockId": 1000158797, "stockName": "DEEWIN"},
+    {"securityCode": "01354", "stockId": 1000224437, "stockName": "KINGFARPROPERTY"},
+    {"securityCode": "08227", "stockId": 6709, "stockName": "HAITIAN ANTENNA"},
+    {"securityCode": "02233", "stockId": 51274, "stockName": "WESTCHINACEMENT"},
+    {"securityCode": "06162", "stockId": 209854, "stockName": "TR INTERIORS"},
+    {"securityCode": "01771", "stockId": 101554, "stockName": "SUNFONDA GP"},
+    {"securityCode": "08631", "stockId": 210246, "stockName": "SUN KONG HLDGS"},
+    {"securityCode": "02367", "stockId": 1000171758, "stockName": "GIANT BIOGENE"},
+    {"securityCode": "00162", "stockId": 284, "stockName": "CENTURY GINWA"},
+    {"securityCode": "00620", "stockId": 1442, "stockName": "DTXS SILK ROAD"},
+    {"securityCode": "00346", "stockId": 638, "stockName": "YANCHANG PETRO"},
+    {"securityCode": "00997", "stockId": 2331, "stockName": "CHINLINK INTL"}
+  ]
+}

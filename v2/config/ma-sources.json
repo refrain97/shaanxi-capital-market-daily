@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0",
+  "owner": "V2",
+  "timezone": "Asia/Shanghai",
+  "failClosed": true,
+  "sources": [
+    {
+      "sourceId": "ma-listed-cninfo",
+      "name": "巨潮资讯上市公司逐主体公告",
+      "authority": "exchange_or_regulator_original",
+      "adapter": "v2_cninfo_daily",
+      "coverage": "V2上市观察池L1/L3及巨潮可检索主体",
+      "required": true
+    },
+    {
+      "sourceId": "ma-listed-hkex",
+      "name": "香港交易所披露易逐主体复核",
+      "authority": "exchange_or_regulator_original",
+      "adapter": "v2_hkex_daily_receipt",
+      "coverage": "V2上市观察池L2",
+      "required": true
+    },
+    {
+      "sourceId": "ma-sx-property-exchanges",
+      "name": "西部产权交易所（陕西）",
+      "authority": "official_public_disclosure",
+      "adapter": "xbcq_project_api_v2",
+      "coverage": "同日挂牌、预披露、增资及资产项目分页列表与正式详情API",
+      "required": true,
+      "url": "https://www.xbcq.com/",
+      "listEndpoint": "https://www.xbcq.com/prod-api/cms/ttargetinfor/list",
+      "detailEndpoint": "https://www.xbcq.com/prod-api/ajax/project/detail/{id}",
+      "categories": [
+        {
+          "name": "企业增资正式披露",
+          "cateid": "497053052026949",
+          "endpoint": "https://www.xbcq.com/prod-api/ajax/project/list",
+          "extraParams": {"zspl": 1}
+        },
+        {
+          "name": "企业增资预披露",
+          "cateid": "497053052026949",
+          "endpoint": "https://www.xbcq.com/prod-api/ajax/project/list",
+          "extraParams": {"ypl": 1}
+        },
+        {"name": "股权转让", "cateid": "497052304351301"},
+        {"name": "土地资产", "cateid": "497052532072517"},
+        {"name": "资产综合", "cateid": "497052131938373"},
+        {"name": "机械设备", "cateid": "497052581847109"},
+        {"name": "机动车", "cateid": "497052784877637"},
+        {"name": "存货", "cateid": "497052827410501"},
+        {"name": "在建工程", "cateid": "507615681937477"},
+        {"name": "其他资产", "cateid": "497052953309253"},
+        {"name": "房屋资产", "cateid": "497052470669381"}
+      ],
+      "resultLists": [
+        {
+          "name": "成交公告",
+          "adapter": "xbcq_result_api",
+          "url": "https://www.xbcq.com/prod-api/cms/ggxx/list",
+          "cateid": "503879418290245"
+        },
+        {
+          "name": "中止终结公告",
+          "adapter": "xbcq_termination_html",
+          "url": "https://www.xbcq.com/xmzx/zzgg/"
+        }
+      ]
+    },
+    {
+      "sourceId": "ma-sx-sasac",
+      "name": "陕西国资系统正式公告",
+      "authority": "official_public_disclosure",
+      "adapter": "sx_sasac_html_list_v2",
+      "coverage": "同日企业动态、信息要闻、通知公告列表与正式详情",
+      "required": true,
+      "entryPoints": [
+        {"name": "企业动态", "url": "https://sxgz.shaanxi.gov.cn/sy/gqzc/qydt/"},
+        {"name": "信息要闻", "url": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/"},
+        {"name": "通知公告", "url": "https://sxgz.shaanxi.gov.cn/sy/tzgg/"}
+      ]
+    },
+    {
+      "sourceId": "ma-nonlisted-company-sites",
+      "name": "非上市企业官网正式公告注册表",
+      "authority": "issuer_original",
+      "adapter": "issuer_registry_html_v2",
+      "coverage": "V2有限官网注册表内主体逐站扫描；未配置主体单列backlog",
+      "required": true,
+      "registryPath": "v2/config/ma-issuer-sites.json"
+    }
+  ],
+  "eventKeywords": [
+    "收购",
+    "出售",
+    "股权转让",
+    "控制权变更",
+    "增资",
+    "重大资产重组",
+    "发行股份购买资产",
+    "购买资产",
+    "交割",
+    "完成",
+    "工商变更",
+    "终止"
+  ],
+  "stages": [
+    "planned",
+    "announced",
+    "signed_or_approved",
+    "in_progress",
+    "completed",
+    "terminated"
+  ]
+}

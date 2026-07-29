@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0",
+  "owner": "V2",
+  "standard": "v1-source-and-editorial-quality",
+  "timezone": "Asia/Shanghai",
+  "sourcePriority": [
+    "exchange_or_regulator_original",
+    "issuer_original",
+    "official_public_disclosure",
+    "reputable_media_as_discovery_only"
+  ],
+  "channels": {
+    "listed": {
+      "requiredUniverse": {"total": 110, "hkexL2": 14},
+      "requirePrimarySource": true,
+      "requirePdfTextForCustomerFacts": true,
+      "requireStableMatterId": true,
+      "forbidNarrativeDuplicates": true
+    },
+    "private": {
+      "requiredObservationManagers": 92,
+      "requireFundNo": true,
+      "requireManagerAndCustodian": true
+    },
+    "ma": {
+      "requireVerifiedPrimarySource": true,
+      "requireStableProjectId": true
+    },
+    "tender": {
+      "requireVerifiedOfficialBody": true,
+      "allowConfiguredDegradedCoverageOnly": true
+    },
+    "soe": {
+      "requireOfficialSourceRegistry": true,
+      "requireFetchedOriginalForCustomerFacts": true
+    }
+  },
+  "release": {
+    "blockOnAnyChannelFailure": true,
+    "blockOnSourceOrSnapshotDrift": true,
+    "allowHistoricalPendingOnlyOutsideCustomerHighlights": true
+  }
+}

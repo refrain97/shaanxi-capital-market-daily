@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "owner": "V2",
+  "sources": [
+    {"sourceName": "陕西省国资委企业动态", "url": "https://sxgz.shaanxi.gov.cn/sy/gqzc/qydt/", "entity": "陕西省人民政府国有资产监督管理委员会", "category": "综合动态"},
+    {"sourceName": "陕西省国资委信息要闻", "url": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/", "entity": "陕西省人民政府国有资产监督管理委员会", "category": "综合动态"},
+    {"sourceName": "陕西省国资委通知公告", "url": "https://sxgz.shaanxi.gov.cn/sy/tzgg/", "entity": "陕西省人民政府国有资产监督管理委员会", "category": "风险治理"},
+    {"sourceName": "陕煤集团官网", "url": "https://www.shccig.com/", "entity": "陕西煤业化工集团有限责任公司", "category": "产业经营"},
+    {"sourceName": "陕西国际经贸集团官网", "url": "https://www.siet.com.cn/news.html", "entity": "陕西国际经贸集团有限公司", "category": "产业经营"},
+    {"sourceName": "陕西财金官网", "url": "https://www.sxcjtz.cn/", "entity": "陕西财金投资管理有限公司", "category": "资本金融"}
+  ]
+}

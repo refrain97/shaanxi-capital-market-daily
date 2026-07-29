@@ -1,0 +1,5 @@
+# Runtime dependencies are installed once into .venv before automation starts.
+# Production runs must never invoke pip.
+beautifulsoup4==4.14.3
+cryptography==46.0.5
+Pillow==12.1.0
