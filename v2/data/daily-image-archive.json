@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-07-29T09:50:13+08:00",
+  "updatedAt": "2026-07-29T09:53:36+08:00",
   "channels": {
     "listed": [
       {
@@ -16,8 +16,9 @@
         "origin": "v2",
         "webStatus": "published",
         "ima": {
-          "status": "pending",
-          "replacementPolicy": "explicit_corrected_filename"
+          "status": "completed",
+          "uploadedAt": "2026-07-29T09:53:36+08:00",
+          "verification": "exact_file_name"
         },
         "supersedes": {
           "fileName": "2026年7月29日V2陕西上市公司早报.png",
