@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0",
+  "owner": "V2",
+  "timezone": "Asia/Shanghai",
+  "failClosed": true,
+  "sources": [
+    {
+      "sourceId": "tender-sx-public-resource",
+      "name": "全国公共资源交易平台（陕西省）",
+      "url": "https://www.sxggzyjy.cn/",
+      "authority": "official",
+      "adapter": "sxggzy_fulltext_v2",
+      "searchEndpoint": "https://www.sxggzyjy.cn/inteligentsearch_new/rest/esinteligentsearch/getFullTextDataNew",
+      "coverage": "full_text_search",
+      "required": true
+    },
+    {
+      "sourceId": "tender-sx-government-procurement",
+      "name": "陕西省政府采购网",
+      "url": "https://www.ccgp-shaanxi.gov.cn/",
+      "authority": "official",
+      "adapter": "ccgp_shaanxi_notice_api_v2",
+      "searchEndpoint": "https://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do",
+      "homepageEndpoint": "https://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoForIndex.do",
+      "siteId": "a7a15d60-de5b-42f2-b35a-7e3efc34e54f",
+      "channel": "1eb454a2-7ff7-4a3b-b12c-12acc2685bd1",
+      "regionCode": "610001",
+      "noticeType": "00101,001011",
+      "coverage": "same_day_paginated_list_and_embedded_official_body",
+      "required": false,
+      "blockingPolicy": "supplemental_until_unique_coverage_is_proven",
+      "degradedOnFailure": true
+    },
+    {
+      "sourceId": "tender-sx-bidding-service",
+      "name": "陕西采购与招标网",
+      "url": "http://www.sntba.com/",
+      "authority": "authoritative",
+      "adapter": "sntba_notice_api_v2",
+      "searchEndpoint": "http://www.sntba.com/home-api/home/notice/list-es",
+      "detailEndpoint": "http://www.sntba.com/home-api/home/notice/get",
+      "coverage": "same_day_cursor_paginated_list_and_detail",
+      "required": false,
+      "coverageGroup": "tender-sx-bidding-official-equivalent"
+    },
+    {
+      "sourceId": "tender-national-bulletin",
+      "name": "中国招标投标公共服务平台",
+      "url": "https://bulletin.cebpubservice.com/",
+      "authority": "official",
+      "adapter": "ceb_html_search_v2",
+      "searchEndpoint": "https://bulletin.cebpubservice.com/xxfbcmses/search",
+      "coverage": "full_text_search",
+      "required": false,
+      "coverageGroup": "tender-sx-bidding-official-equivalent"
+    }
+  ],
+  "coverageGroups": [
+    {
+      "groupId": "tender-sx-bidding-official-equivalent",
+      "name": "陕西采购与招标公告官方等价覆盖",
+      "required": true,
+      "rule": "any_complete",
+      "members": [
+        "tender-sx-bidding-service",
+        "tender-national-bulletin"
+      ],
+      "equivalenceEvidence": "陕西采购与招标公共服务平台主站同日列表优先；如主站因验证码/TLS无法完成翻页，则以中国招标投标公共服务平台按同日、陕西区域、全部资本市场关键词及公告/变更/候选/结果阶段完成的官方公告镜像替代。冗余来源只有在查询矩阵完整且当日命中详情均可核验时才算完成。"
+    }
+  ],
+  "keywordGroups": {
+    "products": [
+      "公司债",
+      "企业债",
+      "中期票据",
+      "债务融资工具",
+      "资产证券化",
+      "ABS",
+      "REITs",
+      "标准化债券"
+    ],
+    "services": [
+      "主承销商",
+      "联席主承销商",
+      "承销团",
+      "受托管理人",
+      "财务顾问",
+      "融资顾问",
+      "投资顾问",
+      "上市辅导"
+    ],
+    "actions": [
+      "招标",
+      "采购",
+      "选聘",
+      "遴选",
+      "征集",
+      "比选"
+    ]
+  },
+  "exclusionKeywords": [
+    "宣传品",
+    "办公用品",
+    "食堂",
+    "保洁",
+    "物业",
+    "车辆维修"
+  ]
+}

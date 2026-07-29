@@ -1,0 +1,774 @@
+{
+  "artifactHashes": {
+    "v2/data/source/tender/candidates/candidates-2026-07-29-morning.json": "90f5277b31fede0ac5c3edaae5549de3b876cb3b67286fbcc2503cfd716660bb",
+    "v2/data/source/tender/events-2026.json": "5761fdbdcb518d880be77f9ced2b152dd6900f371bb1495725be2a9fb202cd1e",
+    "v2/data/source/tender/exclusions/excluded-2026-07-29-morning.json": "15413dfbbb194473cb39ec4018f9db9a4904e71c801aa54f74f631d89b6df053",
+    "v2/data/source/tender/raw/raw-2026-07-29-morning.json": "17ad04e3edbb1aae73a110485c154da8b446a2c5b97246187fa0850b0006c3d8"
+  },
+  "channel": "tender",
+  "configSha256": "766ee1ca1e50d5568800389a2227876f664480a59c1815053c83bfa61577b475",
+  "counts": {
+    "candidate": 0,
+    "excluded": 7,
+    "existingProjectsBefore": 5,
+    "importedOrUpdated": 0,
+    "projectsAfter": 5,
+    "raw": 7,
+    "verifiedForImport": 0
+  },
+  "coverageComplete": true,
+  "coverageGroups": [
+    {
+      "completedMembers": [
+        "tender-sx-bidding-service",
+        "tender-national-bulletin"
+      ],
+      "coverageComplete": true,
+      "equivalenceEvidence": "陕西采购与招标公共服务平台主站同日列表优先；如主站因验证码/TLS无法完成翻页，则以中国招标投标公共服务平台按同日、陕西区域、全部资本市场关键词及公告/变更/候选/结果阶段完成的官方公告镜像替代。冗余来源只有在查询矩阵完整且当日命中详情均可核验时才算完成。",
+      "groupId": "tender-sx-bidding-official-equivalent",
+      "members": [
+        "tender-sx-bidding-service",
+        "tender-national-bulletin"
+      ],
+      "rule": "any_complete"
+    }
+  ],
+  "eventOnScanDate": false,
+  "eventStoreSha256": "5761fdbdcb518d880be77f9ced2b152dd6900f371bb1495725be2a9fb202cd1e",
+  "failureReasons": [
+    "tender-sx-government-procurement:补充来源受限，已由完整必需来源覆盖"
+  ],
+  "finishedAt": "2026-07-29T05:33:58+08:00",
+  "importedProjectIds": [],
+  "inputSha256": "cc7d8ce68fc403ec452bc357dd3b758d748f357ae1f7ce12a09a0d5c1ba5bfac",
+  "latestEventDate": "2026-03-26",
+  "networkVerified": true,
+  "releaseEligibility": {
+    "constrainedSourceIds": [
+      "tender-sx-government-procurement"
+    ],
+    "customerLabel": "已完成扫描，来源受限",
+    "eligible": true,
+    "mode": "official_equivalent_coverage_with_supplemental_source_constraint"
+  },
+  "scanAsOf": "2026-07-29",
+  "scannerSha256": "e792002c05e63cd09f58a4e5cff8a2d0ac637e9ae89772d13a6df7d80012a69c",
+  "schemaVersion": "1.0",
+  "searchTerms": {
+    "actions": [
+      "招标",
+      "采购",
+      "选聘",
+      "遴选",
+      "征集",
+      "比选"
+    ],
+    "products": [
+      "公司债",
+      "企业债",
+      "中期票据",
+      "债务融资工具",
+      "资产证券化",
+      "ABS",
+      "REITs",
+      "标准化债券"
+    ],
+    "services": [
+      "主承销商",
+      "联席主承销商",
+      "承销团",
+      "受托管理人",
+      "财务顾问",
+      "融资顾问",
+      "投资顾问",
+      "上市辅导"
+    ]
+  },
+  "slot": "morning",
+  "sourceRuns": [
+    {
+      "adapter": "sxggzy_fulltext_v2",
+      "name": "全国公共资源交易平台（陕西省）",
+      "queries": [
+        {
+          "elapsedMs": 210,
+          "httpStatus": 200,
+          "keyword": "公司债",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 242,
+          "httpStatus": 200,
+          "keyword": "企业债",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 190,
+          "httpStatus": 200,
+          "keyword": "中期票据",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 140,
+          "httpStatus": 200,
+          "keyword": "债务融资工具",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 158,
+          "httpStatus": 200,
+          "keyword": "资产证券化",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 151,
+          "httpStatus": 200,
+          "keyword": "ABS",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 166,
+          "httpStatus": 200,
+          "keyword": "REITs",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 185,
+          "httpStatus": 200,
+          "keyword": "标准化债券",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 206,
+          "httpStatus": 200,
+          "keyword": "主承销商",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 149,
+          "httpStatus": 200,
+          "keyword": "联席主承销商",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 138,
+          "httpStatus": 200,
+          "keyword": "承销团",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 242,
+          "httpStatus": 200,
+          "keyword": "受托管理人",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 140,
+          "httpStatus": 200,
+          "keyword": "财务顾问",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 156,
+          "httpStatus": 200,
+          "keyword": "融资顾问",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 204,
+          "httpStatus": 200,
+          "keyword": "投资顾问",
+          "reportedTotal": 0,
+          "resultCount": 0
+        },
+        {
+          "elapsedMs": 185,
+          "httpStatus": 200,
+          "keyword": "上市辅导",
+          "reportedTotal": 0,
+          "resultCount": 0
+        }
+      ],
+      "queryCount": 16,
+      "recordCount": 0,
+      "searchCompleted": true,
+      "sourceId": "tender-sx-public-resource",
+      "status": "completed"
+    },
+    {
+      "adapter": "ccgp_shaanxi_notice_api_v2",
+      "coverageMode": "same_day_paginated_list_and_embedded_official_body",
+      "detailVerificationRequiredCount": 0,
+      "detailVerifiedCount": 0,
+      "failureReason": "官方全文列表接口要求有效验证码，已完成签名请求但无法分页检索；apiCode=-1, message=验证码错误或已失效，请刷新或者重试",
+      "homepageSampleEvidence": {
+        "coverageUse": "仅证明站点可达及当日样本，不作为完整覆盖",
+        "requestParams": {
+          "channel": "1eb454a2-7ff7-4a3b-b12c-12acc2685bd1",
+          "cityOrArea": "",
+          "currPage": 1,
+          "noticeType": "00101",
+          "pageSize": 100,
+          "regionCode": "610001",
+          "selectTimeName": "noticeTime",
+          "siteId": "a7a15d60-de5b-42f2-b35a-7e3efc34e54f"
+        },
+        "requestUrl": "https://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoForIndex.do?siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&regionCode=610001&noticeType=00101&cityOrArea=&selectTimeName=noticeTime",
+        "responseSha256": "00aa58ccba84c82b33e8441b9e1c5359e58b02fa17cf129338bf4f6028c040e1",
+        "rowCount": 15
+      },
+      "name": "陕西省政府采购网",
+      "pageCount": 1,
+      "pages": [
+        {
+          "apiCode": "-1",
+          "apiMessage": "验证码错误或已失效，请刷新或者重试",
+          "elapsedMs": 166,
+          "httpStatus": 200,
+          "newestDate": "",
+          "oldestDate": "",
+          "page": 1,
+          "reportedTotal": 0,
+          "requestParams": {
+            "channel": "1eb454a2-7ff7-4a3b-b12c-12acc2685bd1",
+            "cityOrArea": "",
+            "currPage": 1,
+            "noticeType": "00101,001011",
+            "openTenderCode": "",
+            "operationEndTime": "2026-07-29 23:59:59",
+            "operationStartTime": "2026-07-29 00:00:00",
+            "pageSize": 100,
+            "purchaseManner": "",
+            "purchaseNature": "",
+            "regionCode": "610001",
+            "selectTimeName": "noticeTime",
+            "siteId": "a7a15d60-de5b-42f2-b35a-7e3efc34e54f",
+            "title": "",
+            "verifyCode": ""
+          },
+          "requestUrl": "https://www.ccgp-shaanxi.gov.cn/freecms/rest/v1/notice/selectInfoMoreChannel.do?siteId=a7a15d60-de5b-42f2-b35a-7e3efc34e54f&channel=1eb454a2-7ff7-4a3b-b12c-12acc2685bd1&currPage=1&pageSize=100&regionCode=610001&noticeType=00101%2C001011&cityOrArea=&selectTimeName=noticeTime&purchaseManner=&title=&verifyCode=&openTenderCode=&purchaseNature=&operationStartTime=2026-07-29+00%3A00%3A00&operationEndTime=2026-07-29+23%3A59%3A59",
+          "responseSha256": "84177297cb6051f81493f41c797edb021050035923d0110daf9a6564e635464c",
+          "rowCount": 0
+        }
+      ],
+      "recordCount": 0,
+      "searchCompleted": false,
+      "sourceId": "tender-sx-government-procurement",
+      "status": "external_blocked"
+    },
+    {
+      "adapter": "sntba_notice_api_v2",
+      "coverageMode": "same_day_cursor_paginated_list_and_detail",
+      "name": "陕西采购与招标网",
+      "pageCount": 1,
+      "pages": [
+        {
+          "apiCode": 0,
+          "apiMessage": "",
+          "elapsedMs": 280,
+          "httpStatus": 200,
+          "newestDate": "2026-07-29",
+          "oldestDate": "2026-07-28",
+          "page": 1,
+          "reportedTotal": 2128035,
+          "requestParams": {
+            "pageNo": 1,
+            "pageSize": 100
+          },
+          "requestUrl": "http://www.sntba.com/home-api/home/notice/list-es?pageNo=1&pageSize=100",
+          "responseSha256": "84093a181d8c63c65b36bfa01502277abcb26334c44a41873dec362feb5b51ec",
+          "rowCount": 100
+        }
+      ],
+      "recordCount": 7,
+      "searchCompleted": true,
+      "sourceId": "tender-sx-bidding-service",
+      "status": "completed"
+    },
+    {
+      "adapter": "ceb_html_search_v2",
+      "coverageEligible": true,
+      "coverageProof": {
+        "date": "2026-07-29",
+        "detailVerificationRequiredCount": 0,
+        "detailVerifiedCount": 0,
+        "expectedQueryCount": 64,
+        "keywordCount": 16,
+        "regionRule": "解析结果只保留地区或标题含陕西的官方公告",
+        "stageCount": 4
+      },
+      "name": "中国招标投标公共服务平台",
+      "queries": [
+        {
+          "elapsedMs": 596,
+          "httpStatus": 200,
+          "keyword": "公司债",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 495,
+          "httpStatus": 200,
+          "keyword": "企业债",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 555,
+          "httpStatus": 200,
+          "keyword": "中期票据",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 544,
+          "httpStatus": 200,
+          "keyword": "债务融资工具",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 558,
+          "httpStatus": 200,
+          "keyword": "资产证券化",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 358,
+          "httpStatus": 200,
+          "keyword": "ABS",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 450,
+          "httpStatus": 200,
+          "keyword": "REITs",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 721,
+          "httpStatus": 200,
+          "keyword": "标准化债券",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 520,
+          "httpStatus": 200,
+          "keyword": "主承销商",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 451,
+          "httpStatus": 200,
+          "keyword": "联席主承销商",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 523,
+          "httpStatus": 200,
+          "keyword": "承销团",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 472,
+          "httpStatus": 200,
+          "keyword": "受托管理人",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 485,
+          "httpStatus": 200,
+          "keyword": "财务顾问",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 512,
+          "httpStatus": 200,
+          "keyword": "融资顾问",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 515,
+          "httpStatus": 200,
+          "keyword": "投资顾问",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 495,
+          "httpStatus": 200,
+          "keyword": "上市辅导",
+          "resultCount": 0,
+          "stage": "announcement"
+        },
+        {
+          "elapsedMs": 711,
+          "httpStatus": 200,
+          "keyword": "公司债",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 462,
+          "httpStatus": 200,
+          "keyword": "企业债",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 522,
+          "httpStatus": 200,
+          "keyword": "中期票据",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 524,
+          "httpStatus": 200,
+          "keyword": "债务融资工具",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 496,
+          "httpStatus": 200,
+          "keyword": "资产证券化",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 310,
+          "httpStatus": 200,
+          "keyword": "ABS",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 310,
+          "httpStatus": 200,
+          "keyword": "REITs",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 570,
+          "httpStatus": 200,
+          "keyword": "标准化债券",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 570,
+          "httpStatus": 200,
+          "keyword": "主承销商",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 495,
+          "httpStatus": 200,
+          "keyword": "联席主承销商",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 496,
+          "httpStatus": 200,
+          "keyword": "承销团",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 552,
+          "httpStatus": 200,
+          "keyword": "受托管理人",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 535,
+          "httpStatus": 200,
+          "keyword": "财务顾问",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 406,
+          "httpStatus": 200,
+          "keyword": "融资顾问",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 520,
+          "httpStatus": 200,
+          "keyword": "投资顾问",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 635,
+          "httpStatus": 200,
+          "keyword": "上市辅导",
+          "resultCount": 0,
+          "stage": "change"
+        },
+        {
+          "elapsedMs": 585,
+          "httpStatus": 200,
+          "keyword": "公司债",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 475,
+          "httpStatus": 200,
+          "keyword": "企业债",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 550,
+          "httpStatus": 200,
+          "keyword": "中期票据",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 701,
+          "httpStatus": 200,
+          "keyword": "债务融资工具",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 527,
+          "httpStatus": 200,
+          "keyword": "资产证券化",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 648,
+          "httpStatus": 200,
+          "keyword": "ABS",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 310,
+          "httpStatus": 200,
+          "keyword": "REITs",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 984,
+          "httpStatus": 200,
+          "keyword": "标准化债券",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 523,
+          "httpStatus": 200,
+          "keyword": "主承销商",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 522,
+          "httpStatus": 200,
+          "keyword": "联席主承销商",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 502,
+          "httpStatus": 200,
+          "keyword": "承销团",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 559,
+          "httpStatus": 200,
+          "keyword": "受托管理人",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 499,
+          "httpStatus": 200,
+          "keyword": "财务顾问",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 443,
+          "httpStatus": 200,
+          "keyword": "融资顾问",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 445,
+          "httpStatus": 200,
+          "keyword": "投资顾问",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 606,
+          "httpStatus": 200,
+          "keyword": "上市辅导",
+          "resultCount": 0,
+          "stage": "candidate"
+        },
+        {
+          "elapsedMs": 597,
+          "httpStatus": 200,
+          "keyword": "公司债",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 480,
+          "httpStatus": 200,
+          "keyword": "企业债",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 470,
+          "httpStatus": 200,
+          "keyword": "中期票据",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 509,
+          "httpStatus": 200,
+          "keyword": "债务融资工具",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 430,
+          "httpStatus": 200,
+          "keyword": "资产证券化",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 488,
+          "httpStatus": 200,
+          "keyword": "ABS",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 306,
+          "httpStatus": 200,
+          "keyword": "REITs",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 490,
+          "httpStatus": 200,
+          "keyword": "标准化债券",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 440,
+          "httpStatus": 200,
+          "keyword": "主承销商",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 430,
+          "httpStatus": 200,
+          "keyword": "联席主承销商",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 494,
+          "httpStatus": 200,
+          "keyword": "承销团",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 515,
+          "httpStatus": 200,
+          "keyword": "受托管理人",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 471,
+          "httpStatus": 200,
+          "keyword": "财务顾问",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 510,
+          "httpStatus": 200,
+          "keyword": "融资顾问",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 600,
+          "httpStatus": 200,
+          "keyword": "投资顾问",
+          "resultCount": 0,
+          "stage": "award"
+        },
+        {
+          "elapsedMs": 465,
+          "httpStatus": 200,
+          "keyword": "上市辅导",
+          "resultCount": 0,
+          "stage": "award"
+        }
+      ],
+      "queryCount": 64,
+      "recordCount": 0,
+      "searchCompleted": true,
+      "sourceId": "tender-national-bulletin",
+      "status": "completed"
+    }
+  ],
+  "startedAt": "2026-07-29T05:33:21+08:00",
+  "status": "degraded"
+}

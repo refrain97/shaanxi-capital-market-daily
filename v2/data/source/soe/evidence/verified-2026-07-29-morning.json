@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0",
+  "channel": "soe",
+  "scanAsOf": "2026-07-29",
+  "slot": "morning",
+  "generatedAt": "2026-07-29T08:34:33+08:00",
+  "purpose": "V2官方来源注册表自动扫描与原文复核",
+  "migrationReference": {
+    "runtimeInput": false
+  },
+  "scanConclusion": {
+    "eventOnScanDate": false,
+    "latestVerifiedEventDate": "",
+    "summary": "全部已登记官方来源完成请求；客户事项均回到原文页面核验。"
+  },
+  "sourceCoverage": {
+    "coverageComplete": true,
+    "sources": [
+      {
+        "sourceName": "陕西省国资委企业动态",
+        "url": "https://sxgz.shaanxi.gov.cn/sy/gqzc/qydt/",
+        "httpStatus": 200,
+        "responseSha256": "ac53d7aba8a97c9810202141d88eab0c6bfe0efc341d259a59024cc1245f2b65",
+        "newestObservedDate": "2026-07-27"
+      },
+      {
+        "sourceName": "陕西省国资委信息要闻",
+        "url": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/",
+        "httpStatus": 200,
+        "responseSha256": "c5045b871c5c88086146d3c32e99978cd3b3de28d6e10b0f16160ac3b1e584bf",
+        "newestObservedDate": "2026-07-27"
+      },
+      {
+        "sourceName": "陕西省国资委通知公告",
+        "url": "https://sxgz.shaanxi.gov.cn/sy/tzgg/",
+        "httpStatus": 200,
+        "responseSha256": "53aba7c2818266f723073991c5a9365e761cecb4c25a50ec44b244f08de69f03",
+        "newestObservedDate": "2026-07-22"
+      },
+      {
+        "sourceName": "陕煤集团官网",
+        "url": "https://www.shccig.com/",
+        "httpStatus": 200,
+        "responseSha256": "ce46d028611d1651eabded7b80ffbe965335fa663f88631384b33928516906e1",
+        "newestObservedDate": "2026-07-28"
+      },
+      {
+        "sourceName": "陕西国际经贸集团官网",
+        "url": "https://www.siet.com.cn/news.html",
+        "httpStatus": 200,
+        "responseSha256": "e1638e5315d4bf81e1af81ec209a1024db08c795f741d9a875430660b5feeb9e",
+        "newestObservedDate": "2026-07-28"
+      },
+      {
+        "sourceName": "陕西财金官网",
+        "url": "https://www.sxcjtz.cn/",
+        "httpStatus": 200,
+        "responseSha256": "76a156a199dff662dbdfb91c7d531ad2b55f484fb88f0fa7e408e76c26f2a459",
+        "newestObservedDate": "2026-07-28"
+      }
+    ]
+  },
+  "records": [],
+  "rejectedCandidates": []
+}

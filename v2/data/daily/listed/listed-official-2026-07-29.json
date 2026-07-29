@@ -1,0 +1,2026 @@
+{
+  "schemaVersion": "2.1",
+  "date": "2026-07-29",
+  "template": "v2-listed-v1-editorial",
+  "editorialPolicy": "frozen_official_sources_select_then_human_style_summary",
+  "subtitle": "2026-07-29｜逐主体检索110家正式观察池，36条公告、14家发布公告公司",
+  "kpis": [
+    {
+      "num": "36条",
+      "label": "巨潮逐主体检索公告"
+    },
+    {
+      "num": "14家",
+      "label": "窗口内发布公告公司"
+    },
+    {
+      "num": "14项",
+      "label": "合并去重后的客户事项"
+    },
+    {
+      "num": "8条",
+      "label": "文本不合格或原文不可用候选"
+    }
+  ],
+  "opportunities": [
+    {
+      "matter_id": "listed-matter-41b161b77547f4",
+      "company": "航天电子",
+      "matterType": "资产置换",
+      "businessSubcategory": "资产交易",
+      "importance": "必看",
+      "conclusion": "两组关联资产置换已完成评估备案：航天兴华100%股权与西安太乙58%股权置换，另含深空探测业务资产置换，差额分别以现金补齐。",
+      "whyImportant": "交易有助于聚焦航天电子信息主业并整合集成电路产业链，后续关注协议签署和资产交割。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF",
+      "announcementTitle": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF",
+          "announcementTitle": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+          "announcementId": "1225445448"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445443.PDF",
+          "announcementTitle": "航天时代电子技术股份有限公司董事会2026年第七次会议决议公告",
+          "announcementId": "1225445443"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445459.PDF",
+          "announcementTitle": "西安太乙电子有限公司股东全部权益价值资产评估报告",
+          "announcementId": "1225445459"
+        }
+      ],
+      "title": "必看｜航天电子",
+      "body": "两组关联资产置换完成评估备案，涉及航天兴华100%股权、西安太乙58%股权及深空探测业务资产，后续关注协议与交割。",
+      "isReference": true,
+      "referenceMatterId": "listed-matter-41b161b77547f4"
+    },
+    {
+      "matter_id": "listed-matter-9d0d657109b0d4",
+      "company": "爱科赛博",
+      "matterType": "股份回购",
+      "businessSubcategory": "股份回购",
+      "importance": "必看",
+      "conclusion": "截至7月28日已回购72.62万股，占总股本0.6294%，成交金额3456.48万元，成交价区间44.50元至49.59元。",
+      "whyImportant": "回购额已进入2500万至5000万元计划区间，股份拟用于员工持股或股权激励。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF",
+      "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF",
+          "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+          "announcementId": "1225444332"
+        }
+      ],
+      "title": "必看｜爱科赛博",
+      "body": "截至7月28日回购72.62万股，占总股本0.6294%，成交3456.48万元；回购额已进入2500万至5000万元计划区间。",
+      "isReference": true,
+      "referenceMatterId": "listed-matter-9d0d657109b0d4"
+    },
+    {
+      "matter_id": "listed-matter-50dd140471e71b",
+      "company": "科华生物",
+      "matterType": "可转债兑付",
+      "businessSubcategory": "债券兑付",
+      "importance": "必看",
+      "conclusion": "科华转债到期兑付223.57万张，兑付金额2.37亿元，资金已于7月28日发放并摘牌；末次转股增加11.93万股。",
+      "whyImportant": "可转债存续期结束，后续关注兑付对现金安排及转股后股本结构的影响。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444555.PDF",
+      "announcementTitle": "关于“科华转债”到期兑付结果及股本变动的公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444555.PDF",
+          "announcementTitle": "关于“科华转债”到期兑付结果及股本变动的公告",
+          "announcementId": "1225444555"
+        }
+      ],
+      "title": "必看｜科华生物",
+      "body": "科华转债到期兑付223.57万张、金额2.37亿元，资金已发放并摘牌；末次转股增加11.93万股，后续关注现金安排。",
+      "isReference": true,
+      "referenceMatterId": "listed-matter-50dd140471e71b"
+    },
+    {
+      "matter_id": "listed-matter-22f36496df8b1a",
+      "company": "供销大集",
+      "matterType": "股份回购",
+      "businessSubcategory": "股份回购",
+      "importance": "重点",
+      "conclusion": "7月28日首次回购729.92万股，占总股本0.04%，成交金额999.99万元，成交价为1.37元。",
+      "whyImportant": "回购计划开始执行，后续关注累计回购进度、成交价格与最终股份用途。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
+      "announcementTitle": "关于首次回购公司股份的公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
+          "announcementTitle": "关于首次回购公司股份的公告",
+          "announcementId": "1225445000"
+        }
+      ],
+      "title": "重点｜供销大集",
+      "body": "7月28日首次回购729.92万股，占总股本0.04%，成交999.99万元、价格1.37元；后续关注累计回购进度。",
+      "isReference": true,
+      "referenceMatterId": "listed-matter-22f36496df8b1a"
+    }
+  ],
+  "risk_rows": [
+    {
+      "matter_id": "listed-matter-156f05766c0bf8",
+      "company": "彩虹新能源",
+      "matterType": "业绩预告",
+      "businessSubcategory": "业绩预告",
+      "importance": "必看",
+      "conclusion": "预计2026年上半年归母净亏损4.40亿元至4.95亿元，较上年同期2.96亿元亏损扩大1.44亿元至1.99亿元。",
+      "whyImportant": "光伏玻璃价格下行压低毛利率并触发存货减值，后续关注中期业绩与产品价格变化。",
+      "publishedAt": "2026-07-28",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0728/2026072800262.pdf",
+      "announcementTitle": "盈利预警",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0728/2026072800262.pdf",
+          "announcementTitle": "盈利预警",
+          "announcementId": "1225444492"
+        }
+      ],
+      "event": "预计2026年上半年归母净亏损4.40亿元至4.95亿元，较上年同期2.96亿元亏损扩大1.44亿元至1.99亿元。",
+      "tag": "业绩预告",
+      "tagClass": "risk"
+    },
+    {
+      "matter_id": "listed-matter-307f7a362ec59d",
+      "company": "国际医学",
+      "matterType": "再融资",
+      "businessSubcategory": "再融资",
+      "importance": "必看",
+      "conclusion": "向特定对象发行股票的问询回复与申报材料已更新，本次募集资金上限为10.08亿元，项目仍需交易所审核和证监会注册。",
+      "whyImportant": "再融资将影响资金与资本结构，后续关注审核进度、募集规模及募投项目落地。",
+      "publishedAt": "2026-07-28",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442851.PDF",
+      "announcementTitle": "关于向特定对象发行股票的审核问询函回复及募集说明书等申请文件修订的提示性公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442851.PDF",
+          "announcementTitle": "关于向特定对象发行股票的审核问询函回复及募集说明书等申请文件修订的提示性公告",
+          "announcementId": "1225442851"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442856.PDF",
+          "announcementTitle": "募集说明书（申报稿）",
+          "announcementId": "1225442856"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442857.PDF",
+          "announcementTitle": "关于西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函的回复（豁免版）",
+          "announcementId": "1225442857"
+        }
+      ],
+      "event": "向特定对象发行股票的问询回复与申报材料已更新，本次募集资金上限为10.08亿元，项目仍需交易所审核和证监会注册。",
+      "tag": "再融资",
+      "tagClass": "watch"
+    },
+    {
+      "matter_id": "listed-matter-f69447f2602c5c",
+      "company": "通源石油",
+      "matterType": "担保授信",
+      "businessSubcategory": "担保与授信",
+      "importance": "重点",
+      "conclusion": "公司拟申请8000万元银行综合授信，由子公司提供连带担保；同时为全资子公司永晨石油5000万元授信提供连带责任保证。",
+      "whyImportant": "两项安排合计涉及1.3亿元授信额度，后续关注实际提款、担保余额和偿债安排。",
+      "publishedAt": "2026-07-28",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444167.PDF",
+      "announcementTitle": "第九届董事会第三次会议决议公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444167.PDF",
+          "announcementTitle": "第九届董事会第三次会议决议公告",
+          "announcementId": "1225444167"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF",
+          "announcementTitle": "关于为全资子公司提供担保的公告",
+          "announcementId": "1225444168"
+        }
+      ],
+      "event": "公司拟申请8000万元银行综合授信，由子公司提供连带担保；同时为全资子公司永晨石油5000万元授信提供连带责任保证。",
+      "tag": "担保与授信",
+      "tagClass": "risk"
+    }
+  ],
+  "tiles": [
+    {
+      "matter_id": "listed-matter-22f36496df8b1a",
+      "company": "供销大集",
+      "matterType": "股份回购",
+      "businessSubcategory": "股份回购",
+      "importance": "重点",
+      "conclusion": "7月28日首次回购729.92万股，占总股本0.04%，成交金额999.99万元，成交价为1.37元。",
+      "whyImportant": "回购计划开始执行，后续关注累计回购进度、成交价格与最终股份用途。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
+      "announcementTitle": "关于首次回购公司股份的公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
+          "announcementTitle": "关于首次回购公司股份的公告",
+          "announcementId": "1225445000"
+        }
+      ],
+      "title": "供销大集｜股份回购",
+      "body": "7月28日首次回购729.92万股，占总股本0.04%，成交金额999.99万元，成交价为1.37元。"
+    },
+    {
+      "matter_id": "listed-matter-494100521ed6ec",
+      "company": "诺瓦星云",
+      "matterType": "股权激励",
+      "businessSubcategory": "股权激励",
+      "importance": "重点",
+      "conclusion": "2025年限制性股票激励计划首次授予部分首个归属期完成归属，58.31万股于7月28日上市，覆盖190名激励对象，归属价70.47元。",
+      "whyImportant": "首期归属落地将增加流通股本，后续关注股份支付费用和下一归属期业绩条件。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444288.PDF",
+      "announcementTitle": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444288.PDF",
+          "announcementTitle": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告",
+          "announcementId": "1225444288"
+        }
+      ],
+      "title": "诺瓦星云｜股权激励",
+      "body": "2025年限制性股票激励计划首次授予部分首个归属期完成归属，58.31万股于7月28日上市，覆盖190名激励对象，归属价70.47元。"
+    },
+    {
+      "matter_id": "listed-matter-3e3de36161c71b",
+      "company": "宝钛股份",
+      "matterType": "治理变动",
+      "businessSubcategory": "高管与治理",
+      "importance": "关注",
+      "conclusion": "独立董事孙军因工作原因辞职，辞职报告自送达董事会之日起生效，公司将按规定推进后续治理衔接。",
+      "whyImportant": "治理席位发生变化，后续关注补选安排及董事会专门委员会成员调整。",
+      "publishedAt": "2026-07-28",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442548.PDF",
+      "announcementTitle": "宝鸡钛业股份有限公司关于公司独立董事辞职的公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442548.PDF",
+          "announcementTitle": "宝鸡钛业股份有限公司关于公司独立董事辞职的公告",
+          "announcementId": "1225442548"
+        }
+      ],
+      "title": "宝钛股份｜治理变动",
+      "body": "独立董事孙军因工作原因辞职，辞职报告自送达董事会之日起生效，公司将按规定推进后续治理衔接。"
+    }
+  ],
+  "capital_rows": [
+    {
+      "matter_id": "listed-matter-41b161b77547f4",
+      "company": "航天电子",
+      "matterType": "资产置换",
+      "businessSubcategory": "资产交易",
+      "importance": "必看",
+      "conclusion": "两组关联资产置换已完成评估备案：航天兴华100%股权与西安太乙58%股权置换，另含深空探测业务资产置换，差额分别以现金补齐。",
+      "whyImportant": "交易有助于聚焦航天电子信息主业并整合集成电路产业链，后续关注协议签署和资产交割。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF",
+      "announcementTitle": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF",
+          "announcementTitle": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+          "announcementId": "1225445448"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445443.PDF",
+          "announcementTitle": "航天时代电子技术股份有限公司董事会2026年第七次会议决议公告",
+          "announcementId": "1225445443"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445459.PDF",
+          "announcementTitle": "西安太乙电子有限公司股东全部权益价值资产评估报告",
+          "announcementId": "1225445459"
+        }
+      ],
+      "numbersHtml": "两组关联资产置换已完成评估备案：航天兴华100%股权与西安太乙58%股权置换，另含深空探测业务资产置换，差额分别以现金补齐。",
+      "attention": "交易有助于聚焦航天电子信息主业并整合集成电路产业链，后续关注协议签署和资产交割。"
+    },
+    {
+      "matter_id": "listed-matter-9d0d657109b0d4",
+      "company": "爱科赛博",
+      "matterType": "股份回购",
+      "businessSubcategory": "股份回购",
+      "importance": "必看",
+      "conclusion": "截至7月28日已回购72.62万股，占总股本0.6294%，成交金额3456.48万元，成交价区间44.50元至49.59元。",
+      "whyImportant": "回购额已进入2500万至5000万元计划区间，股份拟用于员工持股或股权激励。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF",
+      "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF",
+          "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+          "announcementId": "1225444332"
+        }
+      ],
+      "numbersHtml": "截至7月28日已回购72.62万股，占总股本0.6294%，成交金额3456.48万元，成交价区间44.50元至49.59元。",
+      "attention": "回购额已进入2500万至5000万元计划区间，股份拟用于员工持股或股权激励。"
+    },
+    {
+      "matter_id": "listed-matter-50dd140471e71b",
+      "company": "科华生物",
+      "matterType": "可转债兑付",
+      "businessSubcategory": "债券兑付",
+      "importance": "必看",
+      "conclusion": "科华转债到期兑付223.57万张，兑付金额2.37亿元，资金已于7月28日发放并摘牌；末次转股增加11.93万股。",
+      "whyImportant": "可转债存续期结束，后续关注兑付对现金安排及转股后股本结构的影响。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444555.PDF",
+      "announcementTitle": "关于“科华转债”到期兑付结果及股本变动的公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444555.PDF",
+          "announcementTitle": "关于“科华转债”到期兑付结果及股本变动的公告",
+          "announcementId": "1225444555"
+        }
+      ],
+      "numbersHtml": "科华转债到期兑付223.57万张，兑付金额2.37亿元，资金已于7月28日发放并摘牌；末次转股增加11.93万股。",
+      "attention": "可转债存续期结束，后续关注兑付对现金安排及转股后股本结构的影响。"
+    },
+    {
+      "matter_id": "listed-matter-f3610a9e70e2fd",
+      "company": "金钼股份",
+      "matterType": "对外投资",
+      "businessSubcategory": "对外投资",
+      "importance": "重点",
+      "conclusion": "拟按持股比例向参股公司金沙钼业增资7.82亿元，标的注册资本由2亿元增至25亿元，本次交易构成关联交易。",
+      "whyImportant": "投资规模较大且尚需股东会审议，后续关注出资节奏、产能建设与项目回报。",
+      "publishedAt": "2026-07-28",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442541.PDF",
+      "announcementTitle": "金钼股份关于向参股公司增资暨关联交易的公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442541.PDF",
+          "announcementTitle": "金钼股份关于向参股公司增资暨关联交易的公告",
+          "announcementId": "1225442541"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442526.PDF",
+          "announcementTitle": "金钼股份2026年第5次董事会会议决议公告",
+          "announcementId": "1225442526"
+        }
+      ],
+      "numbersHtml": "拟按持股比例向参股公司金沙钼业增资7.82亿元，标的注册资本由2亿元增至25亿元，本次交易构成关联交易。",
+      "attention": "投资规模较大且尚需股东会审议，后续关注出资节奏、产能建设与项目回报。"
+    },
+    {
+      "matter_id": "listed-matter-87688c4685f6b5",
+      "company": "航天动力",
+      "matterType": "股权转让",
+      "businessSubcategory": "股权转让",
+      "importance": "重点",
+      "conclusion": "拟在北京产权交易所预挂牌转让江苏航天动力机电51%股权，最终价格不低于经备案评估结果，目前尚不构成正式交易。",
+      "whyImportant": "交易或调整公司资产结构，后续关注正式挂牌底价、受让方与交割条件。",
+      "publishedAt": "2026-07-28",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442395.PDF",
+      "announcementTitle": "航天动力关于控股子公司股权转让事项预挂牌的提示性公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442395.PDF",
+          "announcementTitle": "航天动力关于控股子公司股权转让事项预挂牌的提示性公告",
+          "announcementId": "1225442395"
+        }
+      ],
+      "numbersHtml": "拟在北京产权交易所预挂牌转让江苏航天动力机电51%股权，最终价格不低于经备案评估结果，目前尚不构成正式交易。",
+      "attention": "交易或调整公司资产结构，后续关注正式挂牌底价、受让方与交割条件。"
+    }
+  ],
+  "fixed_columns": [
+    {
+      "title": "A. 股东会与治理",
+      "items": [
+        {
+          "matter_id": "listed-matter-2891cdd51d8d32",
+          "company": "陕天然气",
+          "matterType": "股东会",
+          "businessSubcategory": "章程治理",
+          "importance": "关注",
+          "conclusion": "2026年第二次临时股东会审议两项普通决议，均采用累积投票并获通过，本次会议未出现否决议案。",
+          "whyImportant": "事项已完成股东会决策程序，后续关注相关人选履职及治理安排落地。",
+          "publishedAt": "2026-07-29",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445667.PDF",
+          "announcementTitle": "2026年第二次临时股东会决议公告",
+          "sources": [
+            {
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445667.PDF",
+              "announcementTitle": "2026年第二次临时股东会决议公告",
+              "announcementId": "1225445667"
+            }
+          ],
+          "title": "陕天然气｜股东会",
+          "body": "2026年第二次临时股东会审议两项普通决议，均采用累积投票并获通过，本次会议未出现否决议案。"
+        },
+        {
+          "matter_id": "listed-matter-6bb8d6cd0f87ff",
+          "company": "建设机械",
+          "matterType": "股东会",
+          "businessSubcategory": "章程治理",
+          "importance": "关注",
+          "conclusion": "临时股东会通过应收款项核销，以及2024年度原非独立董事、高级管理人员考核与任期激励薪酬两项议案。",
+          "whyImportant": "核销将影响资产质量展示，薪酬议案涉及治理激励，后续关注财务报表与执行口径。",
+          "publishedAt": "2026-07-29",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444730.PDF",
+          "announcementTitle": "建设机械2026年第三次临时股东会决议公告",
+          "sources": [
+            {
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444730.PDF",
+              "announcementTitle": "建设机械2026年第三次临时股东会决议公告",
+              "announcementId": "1225444730"
+            }
+          ],
+          "title": "建设机械｜股东会",
+          "body": "临时股东会通过应收款项核销，以及2024年度原非独立董事、高级管理人员考核与任期激励薪酬两项议案。"
+        }
+      ]
+    },
+    {
+      "title": "B. 激励与固定披露",
+      "items": [
+        {
+          "matter_id": "listed-matter-3e128d77fb8f78",
+          "company": "炬光科技",
+          "matterType": "股权激励",
+          "businessSubcategory": "股权激励",
+          "importance": "关注",
+          "conclusion": "2025年激励计划剩余预留授予名单与2026年激励计划首次授予名单完成内部公示，公示期内均未收到异议。",
+          "whyImportant": "两份公告属于同一激励推进事项，后续关注实际授予数量、授予价格和费用影响。",
+          "publishedAt": "2026-07-28",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442890.PDF",
+          "announcementTitle": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2025年限制性股票激励计划剩余预留授予激励对象名单的核查意见及公示情况说明",
+          "sources": [
+            {
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442890.PDF",
+              "announcementTitle": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2025年限制性股票激励计划剩余预留授予激励对象名单的核查意见及公示情况说明",
+              "announcementId": "1225442890"
+            },
+            {
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442884.PDF",
+              "announcementTitle": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2026年限制性股票激励计划首次授予激励对象名单的核查意见及公示情况说明",
+              "announcementId": "1225442884"
+            }
+          ],
+          "title": "炬光科技｜股权激励",
+          "body": "2025年激励计划剩余预留授予名单与2026年激励计划首次授予名单完成内部公示，公示期内均未收到异议。"
+        }
+      ]
+    }
+  ],
+  "follow_items": [
+    {
+      "matter_id": "listed-matter-41b161b77547f4",
+      "company": "航天电子",
+      "matterType": "资产置换",
+      "businessSubcategory": "资产交易",
+      "importance": "必看",
+      "conclusion": "两组关联资产置换已完成评估备案：航天兴华100%股权与西安太乙58%股权置换，另含深空探测业务资产置换，差额分别以现金补齐。",
+      "whyImportant": "交易有助于聚焦航天电子信息主业并整合集成电路产业链，后续关注协议签署和资产交割。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF",
+      "announcementTitle": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF",
+          "announcementTitle": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+          "announcementId": "1225445448"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445443.PDF",
+          "announcementTitle": "航天时代电子技术股份有限公司董事会2026年第七次会议决议公告",
+          "announcementId": "1225445443"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445459.PDF",
+          "announcementTitle": "西安太乙电子有限公司股东全部权益价值资产评估报告",
+          "announcementId": "1225445459"
+        }
+      ],
+      "title": "航天电子｜关注资产交易",
+      "body": "交易有助于聚焦航天电子信息主业并整合集成电路产业链，后续关注协议签署和资产交割。",
+      "isReference": true,
+      "referenceMatterId": "listed-matter-41b161b77547f4"
+    },
+    {
+      "matter_id": "listed-matter-9d0d657109b0d4",
+      "company": "爱科赛博",
+      "matterType": "股份回购",
+      "businessSubcategory": "股份回购",
+      "importance": "必看",
+      "conclusion": "截至7月28日已回购72.62万股，占总股本0.6294%，成交金额3456.48万元，成交价区间44.50元至49.59元。",
+      "whyImportant": "回购额已进入2500万至5000万元计划区间，股份拟用于员工持股或股权激励。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF",
+      "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF",
+          "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+          "announcementId": "1225444332"
+        }
+      ],
+      "title": "爱科赛博｜关注股份回购",
+      "body": "回购额已进入2500万至5000万元计划区间，股份拟用于员工持股或股权激励。",
+      "isReference": true,
+      "referenceMatterId": "listed-matter-9d0d657109b0d4"
+    },
+    {
+      "matter_id": "listed-matter-50dd140471e71b",
+      "company": "科华生物",
+      "matterType": "可转债兑付",
+      "businessSubcategory": "债券兑付",
+      "importance": "必看",
+      "conclusion": "科华转债到期兑付223.57万张，兑付金额2.37亿元，资金已于7月28日发放并摘牌；末次转股增加11.93万股。",
+      "whyImportant": "可转债存续期结束，后续关注兑付对现金安排及转股后股本结构的影响。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444555.PDF",
+      "announcementTitle": "关于“科华转债”到期兑付结果及股本变动的公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444555.PDF",
+          "announcementTitle": "关于“科华转债”到期兑付结果及股本变动的公告",
+          "announcementId": "1225444555"
+        }
+      ],
+      "title": "科华生物｜关注债券兑付",
+      "body": "可转债存续期结束，后续关注兑付对现金安排及转股后股本结构的影响。",
+      "isReference": true,
+      "referenceMatterId": "listed-matter-50dd140471e71b"
+    },
+    {
+      "matter_id": "listed-matter-22f36496df8b1a",
+      "company": "供销大集",
+      "matterType": "股份回购",
+      "businessSubcategory": "股份回购",
+      "importance": "重点",
+      "conclusion": "7月28日首次回购729.92万股，占总股本0.04%，成交金额999.99万元，成交价为1.37元。",
+      "whyImportant": "回购计划开始执行，后续关注累计回购进度、成交价格与最终股份用途。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
+      "announcementTitle": "关于首次回购公司股份的公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
+          "announcementTitle": "关于首次回购公司股份的公告",
+          "announcementId": "1225445000"
+        }
+      ],
+      "title": "供销大集｜关注股份回购",
+      "body": "回购计划开始执行，后续关注累计回购进度、成交价格与最终股份用途。",
+      "isReference": true,
+      "referenceMatterId": "listed-matter-22f36496df8b1a"
+    },
+    {
+      "matter_id": "listed-matter-494100521ed6ec",
+      "company": "诺瓦星云",
+      "matterType": "股权激励",
+      "businessSubcategory": "股权激励",
+      "importance": "重点",
+      "conclusion": "2025年限制性股票激励计划首次授予部分首个归属期完成归属，58.31万股于7月28日上市，覆盖190名激励对象，归属价70.47元。",
+      "whyImportant": "首期归属落地将增加流通股本，后续关注股份支付费用和下一归属期业绩条件。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444288.PDF",
+      "announcementTitle": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444288.PDF",
+          "announcementTitle": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告",
+          "announcementId": "1225444288"
+        }
+      ],
+      "title": "诺瓦星云｜关注股权激励",
+      "body": "首期归属落地将增加流通股本，后续关注股份支付费用和下一归属期业绩条件。",
+      "isReference": true,
+      "referenceMatterId": "listed-matter-494100521ed6ec"
+    },
+    {
+      "matter_id": "listed-matter-2891cdd51d8d32",
+      "company": "陕天然气",
+      "matterType": "股东会",
+      "businessSubcategory": "章程治理",
+      "importance": "关注",
+      "conclusion": "2026年第二次临时股东会审议两项普通决议，均采用累积投票并获通过，本次会议未出现否决议案。",
+      "whyImportant": "事项已完成股东会决策程序，后续关注相关人选履职及治理安排落地。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445667.PDF",
+      "announcementTitle": "2026年第二次临时股东会决议公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445667.PDF",
+          "announcementTitle": "2026年第二次临时股东会决议公告",
+          "announcementId": "1225445667"
+        }
+      ],
+      "title": "陕天然气｜关注章程治理",
+      "body": "事项已完成股东会决策程序，后续关注相关人选履职及治理安排落地。",
+      "isReference": true,
+      "referenceMatterId": "listed-matter-2891cdd51d8d32"
+    }
+  ],
+  "matterIndex": [
+    {
+      "matter_id": "listed-matter-41b161b77547f4",
+      "company": "航天电子",
+      "matterType": "资产置换",
+      "businessSubcategory": "资产交易",
+      "importance": "必看",
+      "conclusion": "两组关联资产置换已完成评估备案：航天兴华100%股权与西安太乙58%股权置换，另含深空探测业务资产置换，差额分别以现金补齐。",
+      "whyImportant": "交易有助于聚焦航天电子信息主业并整合集成电路产业链，后续关注协议签署和资产交割。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF",
+      "announcementTitle": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF",
+          "announcementTitle": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+          "announcementId": "1225445448"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445443.PDF",
+          "announcementTitle": "航天时代电子技术股份有限公司董事会2026年第七次会议决议公告",
+          "announcementId": "1225445443"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445459.PDF",
+          "announcementTitle": "西安太乙电子有限公司股东全部权益价值资产评估报告",
+          "announcementId": "1225445459"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225445448",
+        "1225445443",
+        "1225445459"
+      ],
+      "score": 120,
+      "mainSection": "capital",
+      "homeSummary": "两组关联资产置换完成评估备案，涉及航天兴华100%股权、西安太乙58%股权及深空探测业务资产，后续关注协议与交割。"
+    },
+    {
+      "matter_id": "listed-matter-9d0d657109b0d4",
+      "company": "爱科赛博",
+      "matterType": "股份回购",
+      "businessSubcategory": "股份回购",
+      "importance": "必看",
+      "conclusion": "截至7月28日已回购72.62万股，占总股本0.6294%，成交金额3456.48万元，成交价区间44.50元至49.59元。",
+      "whyImportant": "回购额已进入2500万至5000万元计划区间，股份拟用于员工持股或股权激励。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF",
+      "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF",
+          "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+          "announcementId": "1225444332"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225444332"
+      ],
+      "score": 118,
+      "mainSection": "capital",
+      "homeSummary": "截至7月28日回购72.62万股，占总股本0.6294%，成交3456.48万元；回购额已进入2500万至5000万元计划区间。"
+    },
+    {
+      "matter_id": "listed-matter-50dd140471e71b",
+      "company": "科华生物",
+      "matterType": "可转债兑付",
+      "businessSubcategory": "债券兑付",
+      "importance": "必看",
+      "conclusion": "科华转债到期兑付223.57万张，兑付金额2.37亿元，资金已于7月28日发放并摘牌；末次转股增加11.93万股。",
+      "whyImportant": "可转债存续期结束，后续关注兑付对现金安排及转股后股本结构的影响。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444555.PDF",
+      "announcementTitle": "关于“科华转债”到期兑付结果及股本变动的公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444555.PDF",
+          "announcementTitle": "关于“科华转债”到期兑付结果及股本变动的公告",
+          "announcementId": "1225444555"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225444555"
+      ],
+      "score": 116,
+      "mainSection": "capital",
+      "homeSummary": "科华转债到期兑付223.57万张、金额2.37亿元，资金已发放并摘牌；末次转股增加11.93万股，后续关注现金安排。"
+    },
+    {
+      "matter_id": "listed-matter-22f36496df8b1a",
+      "company": "供销大集",
+      "matterType": "股份回购",
+      "businessSubcategory": "股份回购",
+      "importance": "重点",
+      "conclusion": "7月28日首次回购729.92万股，占总股本0.04%，成交金额999.99万元，成交价为1.37元。",
+      "whyImportant": "回购计划开始执行，后续关注累计回购进度、成交价格与最终股份用途。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
+      "announcementTitle": "关于首次回购公司股份的公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
+          "announcementTitle": "关于首次回购公司股份的公告",
+          "announcementId": "1225445000"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225445000"
+      ],
+      "score": 114,
+      "mainSection": "dynamic",
+      "homeSummary": "7月28日首次回购729.92万股，占总股本0.04%，成交999.99万元、价格1.37元；后续关注累计回购进度。"
+    },
+    {
+      "matter_id": "listed-matter-494100521ed6ec",
+      "company": "诺瓦星云",
+      "matterType": "股权激励",
+      "businessSubcategory": "股权激励",
+      "importance": "重点",
+      "conclusion": "2025年限制性股票激励计划首次授予部分首个归属期完成归属，58.31万股于7月28日上市，覆盖190名激励对象，归属价70.47元。",
+      "whyImportant": "首期归属落地将增加流通股本，后续关注股份支付费用和下一归属期业绩条件。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444288.PDF",
+      "announcementTitle": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444288.PDF",
+          "announcementTitle": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告",
+          "announcementId": "1225444288"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225444288"
+      ],
+      "score": 112,
+      "mainSection": "dynamic",
+      "homeSummary": ""
+    },
+    {
+      "matter_id": "listed-matter-2891cdd51d8d32",
+      "company": "陕天然气",
+      "matterType": "股东会",
+      "businessSubcategory": "章程治理",
+      "importance": "关注",
+      "conclusion": "2026年第二次临时股东会审议两项普通决议，均采用累积投票并获通过，本次会议未出现否决议案。",
+      "whyImportant": "事项已完成股东会决策程序，后续关注相关人选履职及治理安排落地。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445667.PDF",
+      "announcementTitle": "2026年第二次临时股东会决议公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445667.PDF",
+          "announcementTitle": "2026年第二次临时股东会决议公告",
+          "announcementId": "1225445667"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225445667"
+      ],
+      "score": 108,
+      "mainSection": "governance",
+      "homeSummary": ""
+    },
+    {
+      "matter_id": "listed-matter-6bb8d6cd0f87ff",
+      "company": "建设机械",
+      "matterType": "股东会",
+      "businessSubcategory": "章程治理",
+      "importance": "关注",
+      "conclusion": "临时股东会通过应收款项核销，以及2024年度原非独立董事、高级管理人员考核与任期激励薪酬两项议案。",
+      "whyImportant": "核销将影响资产质量展示，薪酬议案涉及治理激励，后续关注财务报表与执行口径。",
+      "publishedAt": "2026-07-29",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444730.PDF",
+      "announcementTitle": "建设机械2026年第三次临时股东会决议公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444730.PDF",
+          "announcementTitle": "建设机械2026年第三次临时股东会决议公告",
+          "announcementId": "1225444730"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225444730"
+      ],
+      "score": 106,
+      "mainSection": "governance",
+      "homeSummary": ""
+    },
+    {
+      "matter_id": "listed-matter-156f05766c0bf8",
+      "company": "彩虹新能源",
+      "matterType": "业绩预告",
+      "businessSubcategory": "业绩预告",
+      "importance": "必看",
+      "conclusion": "预计2026年上半年归母净亏损4.40亿元至4.95亿元，较上年同期2.96亿元亏损扩大1.44亿元至1.99亿元。",
+      "whyImportant": "光伏玻璃价格下行压低毛利率并触发存货减值，后续关注中期业绩与产品价格变化。",
+      "publishedAt": "2026-07-28",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0728/2026072800262.pdf",
+      "announcementTitle": "盈利预警",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0728/2026072800262.pdf",
+          "announcementTitle": "盈利预警",
+          "announcementId": "1225444492"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225444492"
+      ],
+      "score": 101,
+      "mainSection": "risk",
+      "homeSummary": ""
+    },
+    {
+      "matter_id": "listed-matter-307f7a362ec59d",
+      "company": "国际医学",
+      "matterType": "再融资",
+      "businessSubcategory": "再融资",
+      "importance": "必看",
+      "conclusion": "向特定对象发行股票的问询回复与申报材料已更新，本次募集资金上限为10.08亿元，项目仍需交易所审核和证监会注册。",
+      "whyImportant": "再融资将影响资金与资本结构，后续关注审核进度、募集规模及募投项目落地。",
+      "publishedAt": "2026-07-28",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442851.PDF",
+      "announcementTitle": "关于向特定对象发行股票的审核问询函回复及募集说明书等申请文件修订的提示性公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442851.PDF",
+          "announcementTitle": "关于向特定对象发行股票的审核问询函回复及募集说明书等申请文件修订的提示性公告",
+          "announcementId": "1225442851"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442856.PDF",
+          "announcementTitle": "募集说明书（申报稿）",
+          "announcementId": "1225442856"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442857.PDF",
+          "announcementTitle": "关于西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函的回复（豁免版）",
+          "announcementId": "1225442857"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225442851",
+        "1225442856",
+        "1225442857"
+      ],
+      "score": 100,
+      "mainSection": "risk",
+      "homeSummary": ""
+    },
+    {
+      "matter_id": "listed-matter-f69447f2602c5c",
+      "company": "通源石油",
+      "matterType": "担保授信",
+      "businessSubcategory": "担保与授信",
+      "importance": "重点",
+      "conclusion": "公司拟申请8000万元银行综合授信，由子公司提供连带担保；同时为全资子公司永晨石油5000万元授信提供连带责任保证。",
+      "whyImportant": "两项安排合计涉及1.3亿元授信额度，后续关注实际提款、担保余额和偿债安排。",
+      "publishedAt": "2026-07-28",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444167.PDF",
+      "announcementTitle": "第九届董事会第三次会议决议公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444167.PDF",
+          "announcementTitle": "第九届董事会第三次会议决议公告",
+          "announcementId": "1225444167"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF",
+          "announcementTitle": "关于为全资子公司提供担保的公告",
+          "announcementId": "1225444168"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225444167",
+        "1225444168"
+      ],
+      "score": 104,
+      "mainSection": "risk",
+      "homeSummary": ""
+    },
+    {
+      "matter_id": "listed-matter-f3610a9e70e2fd",
+      "company": "金钼股份",
+      "matterType": "对外投资",
+      "businessSubcategory": "对外投资",
+      "importance": "重点",
+      "conclusion": "拟按持股比例向参股公司金沙钼业增资7.82亿元，标的注册资本由2亿元增至25亿元，本次交易构成关联交易。",
+      "whyImportant": "投资规模较大且尚需股东会审议，后续关注出资节奏、产能建设与项目回报。",
+      "publishedAt": "2026-07-28",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442541.PDF",
+      "announcementTitle": "金钼股份关于向参股公司增资暨关联交易的公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442541.PDF",
+          "announcementTitle": "金钼股份关于向参股公司增资暨关联交易的公告",
+          "announcementId": "1225442541"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442526.PDF",
+          "announcementTitle": "金钼股份2026年第5次董事会会议决议公告",
+          "announcementId": "1225442526"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225442541",
+        "1225442526"
+      ],
+      "score": 98,
+      "mainSection": "capital",
+      "homeSummary": ""
+    },
+    {
+      "matter_id": "listed-matter-87688c4685f6b5",
+      "company": "航天动力",
+      "matterType": "股权转让",
+      "businessSubcategory": "股权转让",
+      "importance": "重点",
+      "conclusion": "拟在北京产权交易所预挂牌转让江苏航天动力机电51%股权，最终价格不低于经备案评估结果，目前尚不构成正式交易。",
+      "whyImportant": "交易或调整公司资产结构，后续关注正式挂牌底价、受让方与交割条件。",
+      "publishedAt": "2026-07-28",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442395.PDF",
+      "announcementTitle": "航天动力关于控股子公司股权转让事项预挂牌的提示性公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442395.PDF",
+          "announcementTitle": "航天动力关于控股子公司股权转让事项预挂牌的提示性公告",
+          "announcementId": "1225442395"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225442395"
+      ],
+      "score": 96,
+      "mainSection": "capital",
+      "homeSummary": ""
+    },
+    {
+      "matter_id": "listed-matter-3e128d77fb8f78",
+      "company": "炬光科技",
+      "matterType": "股权激励",
+      "businessSubcategory": "股权激励",
+      "importance": "关注",
+      "conclusion": "2025年激励计划剩余预留授予名单与2026年激励计划首次授予名单完成内部公示，公示期内均未收到异议。",
+      "whyImportant": "两份公告属于同一激励推进事项，后续关注实际授予数量、授予价格和费用影响。",
+      "publishedAt": "2026-07-28",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442890.PDF",
+      "announcementTitle": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2025年限制性股票激励计划剩余预留授予激励对象名单的核查意见及公示情况说明",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442890.PDF",
+          "announcementTitle": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2025年限制性股票激励计划剩余预留授予激励对象名单的核查意见及公示情况说明",
+          "announcementId": "1225442890"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442884.PDF",
+          "announcementTitle": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2026年限制性股票激励计划首次授予激励对象名单的核查意见及公示情况说明",
+          "announcementId": "1225442884"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225442890",
+        "1225442884"
+      ],
+      "score": 102,
+      "mainSection": "governance",
+      "homeSummary": ""
+    },
+    {
+      "matter_id": "listed-matter-3e3de36161c71b",
+      "company": "宝钛股份",
+      "matterType": "治理变动",
+      "businessSubcategory": "高管与治理",
+      "importance": "关注",
+      "conclusion": "独立董事孙军因工作原因辞职，辞职报告自送达董事会之日起生效，公司将按规定推进后续治理衔接。",
+      "whyImportant": "治理席位发生变化，后续关注补选安排及董事会专门委员会成员调整。",
+      "publishedAt": "2026-07-28",
+      "sourceName": "巨潮资讯",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442548.PDF",
+      "announcementTitle": "宝鸡钛业股份有限公司关于公司独立董事辞职的公告",
+      "sources": [
+        {
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442548.PDF",
+          "announcementTitle": "宝鸡钛业股份有限公司关于公司独立董事辞职的公告",
+          "announcementId": "1225442548"
+        }
+      ],
+      "sourceAnnouncementIds": [
+        "1225442548"
+      ],
+      "score": 94,
+      "mainSection": "dynamic",
+      "homeSummary": ""
+    }
+  ],
+  "sourceEvidence": [
+    {
+      "matter_id": "1225445668",
+      "company": "陕天然气",
+      "title": "2026年第二次临时股东会法律意见书",
+      "publishedAt": "2026-07-29",
+      "kind": "capital",
+      "body": "陕西省西安市太白南路 139 号云图中心十五层邮编：710065 传真/Fax:029-88360129 北京市康达（西安）律师事务所关于陕西省天然气股份有限公司 2026 年第二次临时股东会之法律意见书 （2026）北京康达法意字 34 号二〇二六年七月二十八日 1 陕西省西安市太白南路 139 号云图中心十五层邮编：710065 传真/Fax:029-88360129 北京市康达（西安）律师事务所关于陕西省天然气股份有限公司 2026 年第二次临时股。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445668.PDF",
+      "pdfSha256": "3b4628586d2d15b3825092d54dc73db02e1d59d6d43d079313f458bdda910001",
+      "textSha256": "67edd53bf81dd074fbe7539f1b0a2e817bffe314b2d264d73fd67dea9134a8dd",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445668.PDF",
+      "discoveryPdfSha256": "3b4628586d2d15b3825092d54dc73db02e1d59d6d43d079313f458bdda910001",
+      "hkexNewsId": "",
+      "excerpt": "陕西省西安市太白南路 139 号云图中心十五层邮编：710065 传真/Fax:029-88360129 北京市康达（西安）律师事务所关于陕西省天然气股份有限公司 2026 年第二次临时股东会之法律意见书 （2026）北京康达法意字 34 号二〇二六年七月二十八日 1 陕西省西安市太白南路 139 号云图中心十五层邮编：710065 传真/Fax:029-88360129 北京市康达（西安）律师事务所关于陕西省天然气股份有限公司 2026 年第二次临时股。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 4610,
+          "readableRatio": 0.9991,
+          "languageRatio": 0.8937,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225445667",
+      "company": "陕天然气",
+      "title": "2026年第二次临时股东会决议公告",
+      "publishedAt": "2026-07-29",
+      "kind": "capital",
+      "body": "1 证券代码：002267 证券简称：陕天然气公告编号：2026-035 陕西省天然气股份有限公司 2026 年第二次临时股东会决议公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整， 没有虚假记载、误导性陈述或重大遗漏。特别提示： 1.本次股东会未出现否决议案的情形。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445667.PDF",
+      "pdfSha256": "1f4e9683fa151cac7e8903e353002cc240d18a54b4097963edd9e89593ff7324",
+      "textSha256": "7e40e0b32b0701c48184e3176714eb55182bda984c48c6909bde60dc2ef7c74f",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445667.PDF",
+      "discoveryPdfSha256": "1f4e9683fa151cac7e8903e353002cc240d18a54b4097963edd9e89593ff7324",
+      "hkexNewsId": "",
+      "excerpt": "1 证券代码：002267 证券简称：陕天然气公告编号：2026-035 陕西省天然气股份有限公司 2026 年第二次临时股东会决议公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整， 没有虚假记载、误导性陈述或重大遗漏。特别提示： 1.本次股东会未出现否决议案的情形。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 2644,
+          "readableRatio": 0.9985,
+          "languageRatio": 0.8975,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225445459",
+      "company": "航天电子",
+      "title": "西安太乙电子有限公司股东全部权益价值资产评估报告",
+      "publishedAt": "2026-07-29",
+      "kind": "capital",
+      "body": "本报告依据中国资产评估准则编制航天时代电子技术股份有限公司拟进行资产置换所涉及的西安太乙电子有限公司股东全部权益价值资产评估报告中企华评报字JG(2025)第0026-01号 (共一册，第一册) 北京中企华资产评估有限责任公司二〇二六年三月二十日航天时代电子技术股份有限公司拟进行资产置换所涉及的西安太乙电子有限公司股东全部权益价值资产评估报告 (3)非经营性资产、非经营性负债价值非经营性资产、非经营性负债是指与被评估单位生产经营无关的，评估基准日后企业自。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445459.PDF",
+      "pdfSha256": "e28515c9bb882b469731c1df3ae4fcc97aeb310d37aec0f288ba6f1ec8d63fad",
+      "textSha256": "dcbc8213ab5853f6acf79f955aa6942d6272275cbb954f01ca9e85841f8ae22e",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445459.PDF",
+      "discoveryPdfSha256": "e28515c9bb882b469731c1df3ae4fcc97aeb310d37aec0f288ba6f1ec8d63fad",
+      "hkexNewsId": "",
+      "excerpt": "本报告依据中国资产评估准则编制航天时代电子技术股份有限公司拟进行资产置换所涉及的西安太乙电子有限公司股东全部权益价值资产评估报告中企华评报字JG(2025)第0026-01号 (共一册，第一册) 北京中企华资产评估有限责任公司二〇二六年三月二十日航天时代电子技术股份有限公司拟进行资产置换所涉及的西安太乙电子有限公司股东全部权益价值资产评估报告 (3)非经营性资产、非经营性负债价值非经营性资产、非经营性负债是指与被评估单位生产经营无关的，评估基准日后企业自。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 934,
+          "readableRatio": 0.9979,
+          "languageRatio": 0.9347,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225445448",
+      "company": "航天电子",
+      "title": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+      "publishedAt": "2026-07-29",
+      "kind": "dynamic",
+      "body": " 本次交易对方西安微电子所为公司控股股东中国航天时代电子有限公司（以下简称航天时代公司）所管理事业单位，上海科学仪器厂为航天时代公司之全资子公司，因此本次交易构成关联交易。本次交易未达到股东会审议标准，无需提交股东会审议。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF",
+      "pdfSha256": "52a5ff9b23864f8853d8979eebb1f02a58ec733d5aa63fdf9d3bfff099715ab1",
+      "textSha256": "30c3f30b18d786ac7a2c8b958b85e6d6589beee00f6c5fbb7b3417f72e200402",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF",
+      "discoveryPdfSha256": "52a5ff9b23864f8853d8979eebb1f02a58ec733d5aa63fdf9d3bfff099715ab1",
+      "hkexNewsId": "",
+      "excerpt": " 本次交易对方西安微电子所为公司控股股东中国航天时代电子有限公司（以下简称航天时代公司）所管理事业单位，上海科学仪器厂为航天时代公司之全资子公司，因此本次交易构成关联交易。本次交易未达到股东会审议标准，无需提交股东会审议。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 12272,
+          "readableRatio": 0.991,
+          "languageRatio": 0.904,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225445443",
+      "company": "航天电子",
+      "title": "航天时代电子技术股份有限公司董事会2026年第七次会议决议公告",
+      "publishedAt": "2026-07-29",
+      "kind": "dynamic",
+      "body": "为提高公司经营质量，聚焦航天电子信息主业，进一步完善集成电路产业链体系，公司控股子公司持有的相关资产分别与公司控股股东中国航天时代电子有限公司（以下简称航天时代公司）所属单位持有的相关资产进行置换，差额部分由一方分别向另一方支付现金补齐，各交易主体拟签署相关资产置换协议。以 2025 年 7 月 31 日为基准日，本次资产置换涉及各项标的资产评估结果已通过国有资产管理部门备案，转让价格根据国有资产管理部门备案的评估结果确定。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445443.PDF",
+      "pdfSha256": "745d2e2985f8ea5e23f9872899b72518cf5438dfc32e1e27f6b39305ffb527ec",
+      "textSha256": "a666a81410748fa875d61a78d34c9a135156021773d1ea730cf6b3726b13b214",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445443.PDF",
+      "discoveryPdfSha256": "745d2e2985f8ea5e23f9872899b72518cf5438dfc32e1e27f6b39305ffb527ec",
+      "hkexNewsId": "",
+      "excerpt": "为提高公司经营质量，聚焦航天电子信息主业，进一步完善集成电路产业链体系，公司控股子公司持有的相关资产分别与公司控股股东中国航天时代电子有限公司（以下简称航天时代公司）所属单位持有的相关资产进行置换，差额部分由一方分别向另一方支付现金补齐，各交易主体拟签署相关资产置换协议。以 2025 年 7 月 31 日为基准日，本次资产置换涉及各项标的资产评估结果已通过国有资产管理部门备案，转让价格根据国有资产管理部门备案的评估结果确定。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 1508,
+          "readableRatio": 0.9993,
+          "languageRatio": 0.9138,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225445000",
+      "company": "供销大集",
+      "title": "关于首次回购公司股份的公告",
+      "publishedAt": "2026-07-29",
+      "kind": "capital",
+      "body": "股票代码：000564 股票简称：供销大集公告编号：2026-047 供销大集集团股份有限公司关于首次回购公司股份的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、 误导性陈述或重大遗漏。供销大集集团股份有限公司（以下简称“公司”）于 2026 年 6 月 14 日召开第十一届董事会第二十二次会议，审议通过了《关于维护公司价值及股东权益进行股份回购的议案》，同意公司以集中竞价交易方式回购公司已发行的人民币普通股（A 股）股票。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
+      "pdfSha256": "b12227066cb601f685c8fb3c1fd1fc78f2fe340ae6f7314158c704f233fe442e",
+      "textSha256": "61e8cce96d781afcd31afb962bcf08f778783fdebbcc72237b4b50ab9f940f24",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
+      "discoveryPdfSha256": "b12227066cb601f685c8fb3c1fd1fc78f2fe340ae6f7314158c704f233fe442e",
+      "hkexNewsId": "",
+      "excerpt": "股票代码：000564 股票简称：供销大集公告编号：2026-047 供销大集集团股份有限公司关于首次回购公司股份的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、 误导性陈述或重大遗漏。供销大集集团股份有限公司（以下简称“公司”）于 2026 年 6 月 14 日召开第十一届董事会第二十二次会议，审议通过了《关于维护公司价值及股东权益进行股份回购的议案》，同意公司以集中竞价交易方式回购公司已发行的人民币普通股（A 股）股票。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 1080,
+          "readableRatio": 0.9991,
+          "languageRatio": 0.9028,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225444983",
+      "company": "科华生物",
+      "title": "联合资信评估股份有限公司关于终止上海科华生物工程股份有限公司主体及“科华转债”信用评级的公告",
+      "publishedAt": "2026-07-29",
+      "kind": "risk",
+      "body": "主体长期信用评级报告联合〔2026〕6663 号联合资信评估股份有限公司关于终止上海科华生物工程股份有限公司主体及“科华转债”信用评级的公告受上海科华生物工程股份有限公司（以下简称“公司”）委托，联合资信评估股份有限公司 （以下简称“联合资信”）对公司主体及“科华转债”进行了信用评级。根据最新的评级结果， 公司主体长期信用等级为 A，“科华转债”债项信用等级为 A，评级展望为稳定，评级结果有效期为债券存续期。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444983.PDF",
+      "pdfSha256": "dff9fdcdb365b63bb995fd05a2d99ac62aad9bf26bd3d6bdf9f51d2d62241b47",
+      "textSha256": "19fa028a5edf94caa5424c3ee1ab3f046e64ef612dc01dc4f37bc79f0b9c7b0f",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444983.PDF",
+      "discoveryPdfSha256": "dff9fdcdb365b63bb995fd05a2d99ac62aad9bf26bd3d6bdf9f51d2d62241b47",
+      "hkexNewsId": "",
+      "excerpt": "主体长期信用评级报告联合〔2026〕6663 号联合资信评估股份有限公司关于终止上海科华生物工程股份有限公司主体及“科华转债”信用评级的公告受上海科华生物工程股份有限公司（以下简称“公司”）委托，联合资信评估股份有限公司 （以下简称“联合资信”）对公司主体及“科华转债”进行了信用评级。根据最新的评级结果， 公司主体长期信用等级为 A，“科华转债”债项信用等级为 A，评级展望为稳定，评级结果有效期为债券存续期。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 413,
+          "readableRatio": 0.9927,
+          "languageRatio": 0.8886,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225444730",
+      "company": "建设机械",
+      "title": "建设机械2026年第三次临时股东会决议公告",
+      "publishedAt": "2026-07-29",
+      "kind": "capital",
+      "body": "证券代码：600984 证券简称：建设机械公告编号：2026-037 陕西建设机械股份有限公司 2026年第三次临时股东会决议公告本公司及董事会全体成员保证公告内容不存在虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示：  本次会议是否有否决议案：无一、会议召开和出席情况 (一) 股东会召开的时间：2026 年 7 月 28 日 (二) 股东会召开的地点：西安市金花北路 418 号公司一楼会议室 (三) 出。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444730.PDF",
+      "pdfSha256": "5558f2d797519635eba8c26396b2fbf2e0b0f62da95f8e0a263fa75f019bea78",
+      "textSha256": "3a6580e09aecf4f7f9158b373d95ec159dcd13842168be94686af844674684d1",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444730.PDF",
+      "discoveryPdfSha256": "5558f2d797519635eba8c26396b2fbf2e0b0f62da95f8e0a263fa75f019bea78",
+      "hkexNewsId": "",
+      "excerpt": "证券代码：600984 证券简称：建设机械公告编号：2026-037 陕西建设机械股份有限公司 2026年第三次临时股东会决议公告本公司及董事会全体成员保证公告内容不存在虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示：  本次会议是否有否决议案：无一、会议召开和出席情况 (一) 股东会召开的时间：2026 年 7 月 28 日 (二) 股东会召开的地点：西安市金花北路 418 号公司一楼会议室 (三) 出。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 1409,
+          "readableRatio": 0.9993,
+          "languageRatio": 0.8722,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225444555",
+      "company": "科华生物",
+      "title": "关于“科华转债”到期兑付结果及股本变动的公告",
+      "publishedAt": "2026-07-29",
+      "kind": "capital",
+      "body": "证券代码：002022 证券简称：科华生物公告编号：2026-044 上海科华生物工程股份有限公司关于“科华转债”到期兑付结果及股本变动的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。1、“科华转债”到期兑付数量：2,235,726张 2、“科华转债”到期兑付金额：236,986,956.00元（含税及最后一期利息） 3、“科华转债”到期兑付资金发放日：2026年7月28日 4、“科华转债”摘牌日：20。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444555.PDF",
+      "pdfSha256": "eb0b5fa89441593c3576050f82822c0845b211d09bd4261ef5e2d1d8a7e80a08",
+      "textSha256": "5742a8f5d69b1c03de299a42170f84743cb0a5245cee9bba53d38598e5336001",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444555.PDF",
+      "discoveryPdfSha256": "eb0b5fa89441593c3576050f82822c0845b211d09bd4261ef5e2d1d8a7e80a08",
+      "hkexNewsId": "",
+      "excerpt": "证券代码：002022 证券简称：科华生物公告编号：2026-044 上海科华生物工程股份有限公司关于“科华转债”到期兑付结果及股本变动的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。1、“科华转债”到期兑付数量：2,235,726张 2、“科华转债”到期兑付金额：236,986,956.00元（含税及最后一期利息） 3、“科华转债”到期兑付资金发放日：2026年7月28日 4、“科华转债”摘牌日：20。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 1774,
+          "readableRatio": 0.9989,
+          "languageRatio": 0.8613,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225444332",
+      "company": "爱科赛博",
+      "title": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+      "publishedAt": "2026-07-29",
+      "kind": "capital",
+      "body": "证券代码：688719 证券简称：爱科赛博公告编号：2026-039 西安爱科赛博电气股份有限公司关于 2026 年以集中竞价交易方式回购股份的进展公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示： 回购方案首次披露日 2026/7/23 回购方案实施期限 2026 年 7 月 22 日~2027 年 7 月 21 日预计回购金额 2,500.00万元~5,0。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF",
+      "pdfSha256": "352a0f20797d4443cf0385f6dc6540282038bfaa746e9be0ee46d98c58d50db2",
+      "textSha256": "58e45da8bda3412f0fa9c182adbf85f1150b5ed3d3284d117fc10354eb7872eb",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF",
+      "discoveryPdfSha256": "352a0f20797d4443cf0385f6dc6540282038bfaa746e9be0ee46d98c58d50db2",
+      "hkexNewsId": "",
+      "excerpt": "证券代码：688719 证券简称：爱科赛博公告编号：2026-039 西安爱科赛博电气股份有限公司关于 2026 年以集中竞价交易方式回购股份的进展公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示： 回购方案首次披露日 2026/7/23 回购方案实施期限 2026 年 7 月 22 日~2027 年 7 月 21 日预计回购金额 2,500.00万元~5,0。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 1083,
+          "readableRatio": 0.9963,
+          "languageRatio": 0.8994,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225444288",
+      "company": "诺瓦星云",
+      "title": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告",
+      "publishedAt": "2026-07-29",
+      "kind": "dynamic",
+      "body": "2 1、2025 年限制性股票激励计划简述公司《2025 年限制性股票激励计划（草案）》（以下简称“《激励计划（草案）》” 或“本激励计划”）及其摘要已经公司第三届董事会薪酬与考核委员会第一次会议、第三届董事会第二次会议及公司 2025 年第二次临时股东会审议通过，主要内容如下： （1）激励工具：限制性股票（第二类限制性股票）。（2）股票来源：公司从二级市场回购的 A 股普通股股票和/或向激励对象定向发行的 A 股普通股股票。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444288.PDF",
+      "pdfSha256": "2c50d6e0a02f961ef9cff09f5613d2514d6d2a6e4e9eb5bbd524e3b13c882a41",
+      "textSha256": "22f1272409984bea1d56b0bffee462600e9ee9bb8130006c6fcc5848fad4634a",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444288.PDF",
+      "discoveryPdfSha256": "2c50d6e0a02f961ef9cff09f5613d2514d6d2a6e4e9eb5bbd524e3b13c882a41",
+      "hkexNewsId": "",
+      "excerpt": "2 1、2025 年限制性股票激励计划简述公司《2025 年限制性股票激励计划（草案）》（以下简称“《激励计划（草案）》” 或“本激励计划”）及其摘要已经公司第三届董事会薪酬与考核委员会第一次会议、第三届董事会第二次会议及公司 2025 年第二次临时股东会审议通过，主要内容如下： （1）激励工具：限制性股票（第二类限制性股票）。（2）股票来源：公司从二级市场回购的 A 股普通股股票和/或向激励对象定向发行的 A 股普通股股票。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 10854,
+          "readableRatio": 0.9985,
+          "languageRatio": 0.9035,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225444492",
+      "company": "彩虹新能源",
+      "title": "盈利预警",
+      "publishedAt": "2026-07-28",
+      "kind": "dynamic",
+      "body": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim a。",
+      "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0728/2026072800262.pdf",
+      "pdfSha256": "a9105b4907ce3dbfeed5c56fadca733636b1b97541143c03773f50b2af81d1e6",
+      "textSha256": "e16dc1176b51a4a701fce2d47aef8b40c23252470ff86859635aab7f46a6d557",
+      "parser": "pdfkit",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444492.PDF",
+      "discoveryPdfSha256": "2c49596d7d7ed471ae1ccc6425d04217de7de16473e9974f2d098d67cef4090f",
+      "hkexNewsId": "12258566",
+      "excerpt": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim a。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 3114,
+          "readableRatio": 0.9987,
+          "languageRatio": 0.9721,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225444168",
+      "company": "通源石油",
+      "title": "关于为全资子公司提供担保的公告",
+      "publishedAt": "2026-07-28",
+      "kind": "risk",
+      "body": "1 证券代码：300164 证券简称：通源石油公告编号：2026-053 通源石油科技集团股份有限公司关于为全资子公司提供担保的公告本公司及董事会全体成员保证信息披露内容的真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。一、担保情况概述通源石油科技集团股份有限公司（以下简称“公司”）全资子公司大庆市永晨石油科技有限公司（以下简称“永晨石油”）因经营需要，拟向金融机构申请人民币 5,000 万元的授信额度。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF",
+      "pdfSha256": "914e9d5cd60f8186ee2252a49e2185535dc180dacc8c34112498d46efa8210d9",
+      "textSha256": "4e954e71b218977bfb5ef2553badc5e95ea76be3263e4033cb2ef68497ec52a0",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF",
+      "discoveryPdfSha256": "914e9d5cd60f8186ee2252a49e2185535dc180dacc8c34112498d46efa8210d9",
+      "hkexNewsId": "",
+      "excerpt": "1 证券代码：300164 证券简称：通源石油公告编号：2026-053 通源石油科技集团股份有限公司关于为全资子公司提供担保的公告本公司及董事会全体成员保证信息披露内容的真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。一、担保情况概述通源石油科技集团股份有限公司（以下简称“公司”）全资子公司大庆市永晨石油科技有限公司（以下简称“永晨石油”）因经营需要，拟向金融机构申请人民币 5,000 万元的授信额度。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 1705,
+          "readableRatio": 0.9994,
+          "languageRatio": 0.8938,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225444167",
+      "company": "通源石油",
+      "title": "第九届董事会第三次会议决议公告",
+      "publishedAt": "2026-07-28",
+      "kind": "dynamic",
+      "body": "二、董事会会议审议情况与会董事对本次会议需审议的议案进行了充分讨论，审议通过了以下议案： 1、审议通过《关于申请金融机构综合授信的议案》 为了满足公司的生产经营需要及补充流动资金，公司拟向平安银行股份有限公司西安分行申请综合授信，额度为 8,000 万元人民币，期限不超过 24 个月， 全资子公司西安华程石油技术服务有限公司为上述事项提供连带责任担保。2、审议通过《关于为全资子公司提供担保的议案》 公司全资子公司大庆市永晨石油科技有限公司（以下简称“永晨。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444167.PDF",
+      "pdfSha256": "b0070c5a26f5e75765b2e31228c9e3eb4380e81ebf9f556ad24ea6c0946240a8",
+      "textSha256": "eeb8b7050acce8ac6d37c2169f54cb4699f13342004e0634bcff0758b5634a38",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444167.PDF",
+      "discoveryPdfSha256": "b0070c5a26f5e75765b2e31228c9e3eb4380e81ebf9f556ad24ea6c0946240a8",
+      "hkexNewsId": "",
+      "excerpt": "二、董事会会议审议情况与会董事对本次会议需审议的议案进行了充分讨论，审议通过了以下议案： 1、审议通过《关于申请金融机构综合授信的议案》 为了满足公司的生产经营需要及补充流动资金，公司拟向平安银行股份有限公司西安分行申请综合授信，额度为 8,000 万元人民币，期限不超过 24 个月， 全资子公司西安华程石油技术服务有限公司为上述事项提供连带责任担保。2、审议通过《关于为全资子公司提供担保的议案》 公司全资子公司大庆市永晨石油科技有限公司（以下简称“永晨。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 1071,
+          "readableRatio": 0.9991,
+          "languageRatio": 0.9216,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442890",
+      "company": "炬光科技",
+      "title": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2025年限制性股票激励计划剩余预留授予激励对象名单的核查意见及公示情况说明",
+      "publishedAt": "2026-07-28",
+      "kind": "dynamic",
+      "body": "本次激励计划剩余预留授予激励对象不包括单独或合计持有公司 5%以上股份的股东及其配偶、父母、子女，亦不包括公司独立董事。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442890.PDF",
+      "pdfSha256": "d9f4ef595b2ccfe008a257e56e62718e35164694484b08e75c62c06b34b2572c",
+      "textSha256": "672f8e7cfc93ab2b85419087ff96ac69af9e3cdabcfa74c7878891f9c913d86a",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442890.PDF",
+      "discoveryPdfSha256": "d9f4ef595b2ccfe008a257e56e62718e35164694484b08e75c62c06b34b2572c",
+      "hkexNewsId": "",
+      "excerpt": "本次激励计划剩余预留授予激励对象不包括单独或合计持有公司 5%以上股份的股东及其配偶、父母、子女，亦不包括公司独立董事。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 1656,
+          "readableRatio": 1.0,
+          "languageRatio": 0.8853,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442884",
+      "company": "炬光科技",
+      "title": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2026年限制性股票激励计划首次授予激励对象名单的核查意见及公示情况说明",
+      "publishedAt": "2026-07-28",
+      "kind": "dynamic",
+      "body": "本次激励计划拟首次授予激励对象除公司实际控制人刘兴胜先生外，不包括其他单独或合计持有上市公司 5%以上股份的股东及其配偶、父母、子女，亦不包括公司独立董事。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442884.PDF",
+      "pdfSha256": "91f0d9e271f4ce1b54671eb95c3773affb4ec19cef236203177d950d1ba9eb1a",
+      "textSha256": "cf7d8583194c0412ebbd0ad6a38ef6362bd255633653388d6fc0a8b723f9c1a2",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442884.PDF",
+      "discoveryPdfSha256": "91f0d9e271f4ce1b54671eb95c3773affb4ec19cef236203177d950d1ba9eb1a",
+      "hkexNewsId": "",
+      "excerpt": "本次激励计划拟首次授予激励对象除公司实际控制人刘兴胜先生外，不包括其他单独或合计持有上市公司 5%以上股份的股东及其配偶、父母、子女，亦不包括公司独立董事。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 1684,
+          "readableRatio": 1.0,
+          "languageRatio": 0.88,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442857",
+      "company": "国际医学",
+      "title": "关于西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函的回复（豁免版）",
+      "publishedAt": "2026-07-28",
+      "kind": "capital",
+      "body": "关于西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函的回复保荐人（主承销商） （中国（上海）自由贸易试验区商城路 618 号） 二〇二六年七月 1-1 深圳证券交易所： 贵所印发的《关于西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函》（审核函〔2026〕120028 号）（以下简称“问询函”）已收悉。按照贵所要求，西安国际医学投资股份有限公司（以下简称“发行人”或“公司” 或“国际医学”）与国泰海通证券股份有限公司（以下简称。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442857.PDF",
+      "pdfSha256": "988c29d655160cacf4da27ac9af58d8c4301db46b4672d322a38a1a1989e130f",
+      "textSha256": "7d26a9a1faab7d7434e0bc196f71029946918aeb3e6c7b5af4d2193e09a11340",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442857.PDF",
+      "discoveryPdfSha256": "988c29d655160cacf4da27ac9af58d8c4301db46b4672d322a38a1a1989e130f",
+      "hkexNewsId": "",
+      "excerpt": "关于西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函的回复保荐人（主承销商） （中国（上海）自由贸易试验区商城路 618 号） 二〇二六年七月 1-1 深圳证券交易所： 贵所印发的《关于西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函》（审核函〔2026〕120028 号）（以下简称“问询函”）已收悉。按照贵所要求，西安国际医学投资股份有限公司（以下简称“发行人”或“公司” 或“国际医学”）与国泰海通证券股份有限公司（以下简称。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 32712,
+          "readableRatio": 0.9992,
+          "languageRatio": 0.8749,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442856",
+      "company": "国际医学",
+      "title": "募集说明书（申报稿）",
+      "publishedAt": "2026-07-28",
+      "kind": "capital",
+      "body": "股票代码：000516 股票简称：国际医学西安国际医学投资股份有限公司 （陕西省西安市高新区团结南路 16 号保障楼 5 层） 向特定对象发行股票并在主板上市募集说明书（申报稿） 保荐人（主承销商） （中国（上海）自由贸易试验区商城路 618 号） 二〇二六年七月西安国际医学投资股份有限公司募集说明书 1-1-1 声明 1、公司及董事会全体成员保证本募集说明书内容真实、准确、完整，并确认不存在虚假记载、误导性陈述或重大遗漏。公司负责人、主管会计工作负责人。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442856.PDF",
+      "pdfSha256": "3b9b40d86f3f175cd833183ab4c8958e8839a58e7f82f3f6933b0b409f309930",
+      "textSha256": "867d49aafff621129bd98d72e134a158790c89225d65fd036c944e444b2f6a40",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442856.PDF",
+      "discoveryPdfSha256": "3b9b40d86f3f175cd833183ab4c8958e8839a58e7f82f3f6933b0b409f309930",
+      "hkexNewsId": "",
+      "excerpt": "股票代码：000516 股票简称：国际医学西安国际医学投资股份有限公司 （陕西省西安市高新区团结南路 16 号保障楼 5 层） 向特定对象发行股票并在主板上市募集说明书（申报稿） 保荐人（主承销商） （中国（上海）自由贸易试验区商城路 618 号） 二〇二六年七月西安国际医学投资股份有限公司募集说明书 1-1-1 声明 1、公司及董事会全体成员保证本募集说明书内容真实、准确、完整，并确认不存在虚假记载、误导性陈述或重大遗漏。公司负责人、主管会计工作负责人。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 34535,
+          "readableRatio": 1.0,
+          "languageRatio": 0.7837,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442855",
+      "company": "国际医学",
+      "title": "上市保荐书",
+      "publishedAt": "2026-07-28",
+      "kind": "dynamic",
+      "body": "国泰海通证券股份有限公司关于西安国际医学投资股份有限公司向特定对象发行股票并在主板上市之上市保荐书保荐机构（主承销商） （中国（上海）自由贸易试验区商城路 618 号） 二〇二六年七月西安国际医学投资股份有限公司上市保荐书 3-3-1 声明本保荐机构及其保荐代表人已根据《中华人民共和国公司法》（以下简称 “《公司法》”）、《中华人民共和国证券法》（以下简称“《证券法》”）等法律法规和中国证券监督管理委员会（以下简称“中国证监会”）及深圳证券交易所的有关规。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442855.PDF",
+      "pdfSha256": "25b103e21ba9533fb29b45f5888cdf8cf851f32e07fdad09c34728fd5907f510",
+      "textSha256": "6396a56408a8967341c8dd16d2d676823ad37bcbcdac50570cfcc0182688af9e",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442855.PDF",
+      "discoveryPdfSha256": "25b103e21ba9533fb29b45f5888cdf8cf851f32e07fdad09c34728fd5907f510",
+      "hkexNewsId": "",
+      "excerpt": "国泰海通证券股份有限公司关于西安国际医学投资股份有限公司向特定对象发行股票并在主板上市之上市保荐书保荐机构（主承销商） （中国（上海）自由贸易试验区商城路 618 号） 二〇二六年七月西安国际医学投资股份有限公司上市保荐书 3-3-1 声明本保荐机构及其保荐代表人已根据《中华人民共和国公司法》（以下简称 “《公司法》”）、《中华人民共和国证券法》（以下简称“《证券法》”）等法律法规和中国证券监督管理委员会（以下简称“中国证监会”）及深圳证券交易所的有关规。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 20626,
+          "readableRatio": 1.0,
+          "languageRatio": 0.8546,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442854",
+      "company": "国际医学",
+      "title": "补充法律意见书（一）",
+      "publishedAt": "2026-07-28",
+      "kind": "dynamic",
+      "body": "3-1 北京市康达律师事务所关于西安国际医学投资股份有限公司向特定对象发行股票的补充法律意见书（一） 康达股发字（2026）第0030-1号补充法律意见书（一） 3-2 目录第一部分审核问题回复 .............................................. 4 问题一 ............................................................. 4 问题二 ..........。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442854.PDF",
+      "pdfSha256": "18ee7de0cdedc6a0d27853a2f1edaa332e879d1fcf43fe785ee240750d002e22",
+      "textSha256": "e0e9e2204b5ec9578811bb9e575180d4150a2f829436d88ef7284455724647ea",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442854.PDF",
+      "discoveryPdfSha256": "18ee7de0cdedc6a0d27853a2f1edaa332e879d1fcf43fe785ee240750d002e22",
+      "hkexNewsId": "",
+      "excerpt": "3-1 北京市康达律师事务所关于西安国际医学投资股份有限公司向特定对象发行股票的补充法律意见书（一） 康达股发字（2026）第0030-1号补充法律意见书（一） 3-2 目录第一部分审核问题回复 .............................................. 4 问题一 ............................................................. 4 问题二 ..........。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 30480,
+          "readableRatio": 0.9997,
+          "languageRatio": 0.8626,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442853",
+      "company": "国际医学",
+      "title": "会计师关于西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函的回复（豁免版）",
+      "publishedAt": "2026-07-28",
+      "kind": "capital",
+      "body": "2-1 关于西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函的回复中审亚太审字(2026)008702 号深圳证券交易所： 2026年5月12日，深圳证券交易所上市审核中心出具了《西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函》（以下简称“问询函”）， 我们已对问询函中需要我们说明的财务事项进行了审慎核查，现汇报说明如下： 本说明中涉及货币金额的单位，如无特别注明，均为人民币万元，部分合计数与各单项数据之和在尾数上存在差异。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442853.PDF",
+      "pdfSha256": "748453ec93b7c6a1c4344ca3bd61c797215a3922b5bde1dfbc72a183d7b39ab5",
+      "textSha256": "120ea9bf76612ca657484461d1f66acd1268bd418758e14db3556679a483deed",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442853.PDF",
+      "discoveryPdfSha256": "748453ec93b7c6a1c4344ca3bd61c797215a3922b5bde1dfbc72a183d7b39ab5",
+      "hkexNewsId": "",
+      "excerpt": "2-1 关于西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函的回复中审亚太审字(2026)008702 号深圳证券交易所： 2026年5月12日，深圳证券交易所上市审核中心出具了《西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函》（以下简称“问询函”）， 我们已对问询函中需要我们说明的财务事项进行了审慎核查，现汇报说明如下： 本说明中涉及货币金额的单位，如无特别注明，均为人民币万元，部分合计数与各单项数据之和在尾数上存在差异。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 34755,
+          "readableRatio": 0.9994,
+          "languageRatio": 0.8875,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442852",
+      "company": "国际医学",
+      "title": "证券发行保荐书",
+      "publishedAt": "2026-07-28",
+      "kind": "capital",
+      "body": "国泰海通证券股份有限公司关于西安国际医学投资股份有限公司向特定对象发行股票并在主板上市之发行保荐书保荐机构（主承销商） （中国（上海）自由贸易试验区商城路 618 号） 二〇二六年七月西安国际医学投资股份有限公司发行保荐书 3-1-1 声明本保荐机构及保荐代表人根据《中华人民共和国公司法》（以下简称“《公司法》”）、《中华人民共和国证券法》（以下简称“《证券法》”）、《证券发行上市保荐业务管理办法》（以下简称“《保荐管理办法》”）、《上市公司证券发行注册。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442852.PDF",
+      "pdfSha256": "142be0e917700e1a1b23c14f9b6bda2ff637b295ea989b9d6f0ba431c903eac8",
+      "textSha256": "af1155559c5ca03741b6bae978509254af7dd42316b6771c8beb022b52b8bd5d",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442852.PDF",
+      "discoveryPdfSha256": "142be0e917700e1a1b23c14f9b6bda2ff637b295ea989b9d6f0ba431c903eac8",
+      "hkexNewsId": "",
+      "excerpt": "国泰海通证券股份有限公司关于西安国际医学投资股份有限公司向特定对象发行股票并在主板上市之发行保荐书保荐机构（主承销商） （中国（上海）自由贸易试验区商城路 618 号） 二〇二六年七月西安国际医学投资股份有限公司发行保荐书 3-1-1 声明本保荐机构及保荐代表人根据《中华人民共和国公司法》（以下简称“《公司法》”）、《中华人民共和国证券法》（以下简称“《证券法》”）、《证券发行上市保荐业务管理办法》（以下简称“《保荐管理办法》”）、《上市公司证券发行注册。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 30234,
+          "readableRatio": 1.0,
+          "languageRatio": 0.8524,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442851",
+      "company": "国际医学",
+      "title": "关于向特定对象发行股票的审核问询函回复及募集说明书等申请文件修订的提示性公告",
+      "publishedAt": "2026-07-28",
+      "kind": "capital",
+      "body": "1 证券代码：000516 证券简称：国际医学公告编号：2026-039 西安国际医学投资股份有限公司关于向特定对象发行股票的审核问询函回复及募集说明书等申请文件修订的提示性公告本公司及董事会全体成员保证信息披露内容的真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。西安国际医学投资股份有限公司（以下简称“公司”）于 2026 年 5 月 12 日收到深圳证券交易所（以下简称“深交所”）出具的《关于西安国际医学投资股份有限公司申请向特定对象发行股票的。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442851.PDF",
+      "pdfSha256": "60abb0dcba00b17f6c8e17c16bb538799490893a6a8a9f8dc8ff681e88111450",
+      "textSha256": "e5af7031297547b4c8904eef8100de954aeb210dbfc3ba56ef66cd783a5a4174",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442851.PDF",
+      "discoveryPdfSha256": "60abb0dcba00b17f6c8e17c16bb538799490893a6a8a9f8dc8ff681e88111450",
+      "hkexNewsId": "",
+      "excerpt": "1 证券代码：000516 证券简称：国际医学公告编号：2026-039 西安国际医学投资股份有限公司关于向特定对象发行股票的审核问询函回复及募集说明书等申请文件修订的提示性公告本公司及董事会全体成员保证信息披露内容的真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。西安国际医学投资股份有限公司（以下简称“公司”）于 2026 年 5 月 12 日收到深圳证券交易所（以下简称“深交所”）出具的《关于西安国际医学投资股份有限公司申请向特定对象发行股票的。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 760,
+          "readableRatio": 0.9961,
+          "languageRatio": 0.9171,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442553",
+      "company": "宝钛股份",
+      "title": "宝鸡钛业股份有限关于变更持续督导保荐代表人的公告",
+      "publishedAt": "2026-07-28",
+      "kind": "dynamic",
+      "body": "1 证券代码:600456 证券简称:宝钛股份编号：2026-032 债券代码：110101 债券简称：宝钛转债宝鸡钛业股份有限公司关于变更持续督导保荐代表人的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。宝鸡钛业股份有限公司（以下简称“公司”或“宝钛股份”）于近日收到西部证券股份有限公司（以下简称“西部证券”）出具的《西部证券股份有限公司关于变更宝鸡钛业股份有限公司持。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442553.PDF",
+      "pdfSha256": "6252f91f5cbb0c97ab96fa17b369fdd35a7b2b12e412649bd7c9fdcec5b6b6d0",
+      "textSha256": "236c0fee9e072a36c3c88d02576357b9a4122574808e19b828a11f547d3e3ea6",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442553.PDF",
+      "discoveryPdfSha256": "6252f91f5cbb0c97ab96fa17b369fdd35a7b2b12e412649bd7c9fdcec5b6b6d0",
+      "hkexNewsId": "",
+      "excerpt": "1 证券代码:600456 证券简称:宝钛股份编号：2026-032 债券代码：110101 债券简称：宝钛转债宝鸡钛业股份有限公司关于变更持续督导保荐代表人的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。宝鸡钛业股份有限公司（以下简称“公司”或“宝钛股份”）于近日收到西部证券股份有限公司（以下简称“西部证券”）出具的《西部证券股份有限公司关于变更宝鸡钛业股份有限公司持。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 787,
+          "readableRatio": 1.0,
+          "languageRatio": 0.9199,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442548",
+      "company": "宝钛股份",
+      "title": "宝鸡钛业股份有限公司关于公司独立董事辞职的公告",
+      "publishedAt": "2026-07-28",
+      "kind": "dynamic",
+      "body": "证券代码：600456 证券简称：宝钛股份公告编号：2026-031 债券代码：110101 债券简称：宝钛转债宝鸡钛业股份有限公司关于公司独立董事辞职的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442548.PDF",
+      "pdfSha256": "4d97364d8109953c747258c5109abdf66ce72854766ff0deb868b5c492cb103c",
+      "textSha256": "9aa9c54e39c8f719064133c8f5405c1acf7d439f4023becc98916ef424114bb9",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442548.PDF",
+      "discoveryPdfSha256": "4d97364d8109953c747258c5109abdf66ce72854766ff0deb868b5c492cb103c",
+      "hkexNewsId": "",
+      "excerpt": "证券代码：600456 证券简称：宝钛股份公告编号：2026-031 债券代码：110101 债券简称：宝钛转债宝鸡钛业股份有限公司关于公司独立董事辞职的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 708,
+          "readableRatio": 1.0,
+          "languageRatio": 0.9322,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442541",
+      "company": "金钼股份",
+      "title": "金钼股份关于向参股公司增资暨关联交易的公告",
+      "publishedAt": "2026-07-28",
+      "kind": "capital",
+      "body": "1 股票代码：601958 股票简称：金钼股份公告编号： 2026-025 金堆城钼业股份有限公司关于向参股公司增资暨关联交易的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担个别及连带责任。重要内容提示：  增资标的名称：安徽金沙钼业有限公司（以下简称金沙钼业）  增资金额：金沙钼业拟将注册资本由 2 亿元增加至 25 亿元， 即新增注册资本 23 亿元，由全部股东按照各自持。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442541.PDF",
+      "pdfSha256": "1ff9459e14bf1968e796cfc3ee8db981fe46fb65d2868bd0db3bc47fe83313f2",
+      "textSha256": "74613447e9d81e1f8c8f7f4ba1fff1fccefaf10eba737994f5a3eb09ae40f06e",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442541.PDF",
+      "discoveryPdfSha256": "1ff9459e14bf1968e796cfc3ee8db981fe46fb65d2868bd0db3bc47fe83313f2",
+      "hkexNewsId": "",
+      "excerpt": "1 股票代码：601958 股票简称：金钼股份公告编号： 2026-025 金堆城钼业股份有限公司关于向参股公司增资暨关联交易的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担个别及连带责任。重要内容提示：  增资标的名称：安徽金沙钼业有限公司（以下简称金沙钼业）  增资金额：金沙钼业拟将注册资本由 2 亿元增加至 25 亿元， 即新增注册资本 23 亿元，由全部股东按照各自持。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 1866,
+          "readableRatio": 0.9968,
+          "languageRatio": 0.9003,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442526",
+      "company": "金钼股份",
+      "title": "金钼股份2026年第5次董事会会议决议公告",
+      "publishedAt": "2026-07-28",
+      "kind": "dynamic",
+      "body": "与会董事审议提交本次会议的 2 项议案并逐项进行表决，形成会议决议如下： 一、审议通过《关于向参股公司安徽金沙钼业有限公司增资的议案》 同意公司按照持有安徽金沙钼业有限公司的股权比例，以货币资金方式同比例认缴出资，向其增资 78,200 万元。同意将此议案提交股东会审议。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442526.PDF",
+      "pdfSha256": "183c8eaddbc4c973210d2cc491cd85ebed356adba7aae65b48cea30515fe215b",
+      "textSha256": "66666ab9e69f6efe8144826c0aa28efd3b7e29c2c47b7fc3bec9f64c2403bf8d",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442526.PDF",
+      "discoveryPdfSha256": "183c8eaddbc4c973210d2cc491cd85ebed356adba7aae65b48cea30515fe215b",
+      "hkexNewsId": "",
+      "excerpt": "与会董事审议提交本次会议的 2 项议案并逐项进行表决，形成会议决议如下： 一、审议通过《关于向参股公司安徽金沙钼业有限公司增资的议案》 同意公司按照持有安徽金沙钼业有限公司的股权比例，以货币资金方式同比例认缴出资，向其增资 78,200 万元。同意将此议案提交股东会审议。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 589,
+          "readableRatio": 1.0,
+          "languageRatio": 0.9134,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    },
+    {
+      "matter_id": "1225442395",
+      "company": "航天动力",
+      "title": "航天动力关于控股子公司股权转让事项预挂牌的提示性公告",
+      "publishedAt": "2026-07-28",
+      "kind": "capital",
+      "body": "证券简称：航天动力证券代码：600343 编号：临 2026-028 1 陕西航天动力高科技股份有限公司关于控股子公司股权转让事项预挂牌的提示性公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示： 陕西航天动力高科技股份有限公司（以下简称公司）拟在北京产权交易所 （以下简称北交所）公开转让所持控股子公司江苏航天动力机电有限公司（以下简称江苏机电）全部股权。",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442395.PDF",
+      "pdfSha256": "67100bac28303100bac67050f92b446c0c3839e84183d3819fcdd9ec8820e1be",
+      "textSha256": "915f78ca63449cedf55042ccdefc270420a17c7d076fddf97c5dc61826ebea97",
+      "parser": "pypdf",
+      "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442395.PDF",
+      "discoveryPdfSha256": "67100bac28303100bac67050f92b446c0c3839e84183d3819fcdd9ec8820e1be",
+      "hkexNewsId": "",
+      "excerpt": "证券简称：航天动力证券代码：600343 编号：临 2026-028 1 陕西航天动力高科技股份有限公司关于控股子公司股权转让事项预挂牌的提示性公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示： 陕西航天动力高科技股份有限公司（以下简称公司）拟在北京产权交易所 （以下简称北交所）公开转让所持控股子公司江苏航天动力机电有限公司（以下简称江苏机电）全部股权。",
+      "textQuality": {
+        "eligible": true,
+        "reasons": [],
+        "metrics": {
+          "characters": 1531,
+          "readableRatio": 0.998,
+          "languageRatio": 0.8994,
+          "controlCharacters": 0,
+          "mojibakeMarkers": 0,
+          "abnormalRuns": 0,
+          "brokenCjkSpacing": 0
+        }
+      }
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "announcementId": "1225444721",
+      "company": "建设机械",
+      "title": "北京嘉源律所关于建设机械2026年第三次临时股东会的法律意见书",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444721.PDF",
+      "status": "pending_manual_verification",
+      "discoveryStatus": "official_announcement_found_text_extraction_failed",
+      "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
+      "error": "ValueError:公告PDF文本质量门禁失败：text_too_short,readable_character_ratio,language_character_ratio"
+    },
+    {
+      "announcementId": "1225445462",
+      "company": "航天电子",
+      "title": "上海航天电子有限公司专项审计报告",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445462.PDF",
+      "status": "pending_manual_verification",
+      "discoveryStatus": "official_announcement_found_text_extraction_failed",
+      "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
+      "error": "ValueError:公告PDF文本质量门禁失败：text_too_short,readable_character_ratio,language_character_ratio"
+    },
+    {
+      "announcementId": "1225445454",
+      "company": "航天电子",
+      "title": "西安太乙电子有限公司专项审计报告",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445454.PDF",
+      "status": "pending_manual_verification",
+      "discoveryStatus": "official_announcement_found_text_extraction_failed",
+      "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
+      "error": "PdfStreamError:Stream has ended unexpectedly"
+    },
+    {
+      "announcementId": "1225445453",
+      "company": "航天电子",
+      "title": "上海科学仪器厂有限公司持有的相关技改资产市场价值资产评估报告",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445453.PDF",
+      "status": "pending_manual_verification",
+      "discoveryStatus": "official_announcement_found_text_extraction_failed",
+      "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
+      "error": "ValueError:公告PDF文本质量门禁失败：text_too_short,readable_character_ratio,language_character_ratio"
+    },
+    {
+      "announcementId": "1225445450",
+      "company": "航天电子",
+      "title": "北京航天兴华科技有限公司股东全部权益价值资产评估报告",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445450.PDF",
+      "status": "pending_manual_verification",
+      "discoveryStatus": "official_announcement_found_text_extraction_failed",
+      "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
+      "error": "ValueError:公告PDF文本质量门禁失败：continuous_abnormal_symbols"
+    },
+    {
+      "announcementId": "1225445446",
+      "company": "航天电子",
+      "title": "北京航天兴华科技有限公司专项审计报告",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445446.PDF",
+      "status": "pending_manual_verification",
+      "discoveryStatus": "official_announcement_found_text_extraction_failed",
+      "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
+      "error": "PdfStreamError:Stream has ended unexpectedly"
+    },
+    {
+      "announcementId": "1225445445",
+      "company": "航天电子",
+      "title": "上海科学仪器厂有限公司技改资产专项审计报告",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445445.PDF",
+      "status": "pending_manual_verification",
+      "discoveryStatus": "official_announcement_found_text_extraction_failed",
+      "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
+      "error": "ValueError:公告PDF文本质量门禁失败：text_too_short,readable_character_ratio,language_character_ratio"
+    },
+    {
+      "announcementId": "1225445444",
+      "company": "航天电子",
+      "title": "上海航天电子有限公司深空探测类业务相关资产及负债价值项目资产评估报告",
+      "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445444.PDF",
+      "status": "pending_manual_verification",
+      "discoveryStatus": "official_announcement_found_text_extraction_failed",
+      "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
+      "error": "ValueError:公告PDF文本质量门禁失败：text_too_short,readable_character_ratio,language_character_ratio"
+    }
+  ],
+  "evidenceArchiveCollapsedByDefault": true,
+  "hkexOfficialReviewCompanyCount": 14,
+  "editorialRepairId": "listed-quality-incident-20260729-r1",
+  "editorialBriefPath": "v2/data/daily/listed/editorial-brief-2026-07-29.json",
+  "editorialBriefSha256": "ea6ecd89368dca48c688cf068f4b9a09ba6e01abbb82bd85f9e404e4ae2ef0f4",
+  "sourceAcquisitionStatus": {
+    "officialAnnouncementsDiscovered": 36,
+    "reliableTextExtracted": 28,
+    "officialAnnouncementTextExtractionFailed": 8,
+    "hasPendingOfficialTextVerification": true
+  },
+  "rawPath": "v2/data/daily/listed/cninfo-announcements-2026-07-29.json",
+  "hkexPath": "v2/data/daily/listed/hkex-review-2026-07-29.json"
+}

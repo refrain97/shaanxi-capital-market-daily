@@ -1,0 +1,6731 @@
+{
+  "schemaVersion": "2.0",
+  "owner": "V2",
+  "year": 2026,
+  "scanAsOf": "2026-07-29",
+  "generatedAt": "2026-07-29T00:00:00+08:00",
+  "eventCount": 188,
+  "channelCounts": {
+    "listed": 24,
+    "ma": 26,
+    "private": 51,
+    "soe": 82,
+    "tender": 5
+  },
+  "events": [
+    {
+      "eventId": "listed-1225445668",
+      "channel": "listed",
+      "relatedEntities": [
+        "陕天然气"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "2026年第二次临时股东会法律意见书",
+        "summary": "陕西省西安市太白南路 139 号云图中心十五层 邮编：710065 传真/Fax:029-88360129 北京市康达（西安）律师事务所 关于陕西省天然气股份有限公司 2026 年第二次临时股东会 之 法律意见书 （2026）北京康达法意字 34 号 二〇二六年七月二十八日 1 陕西省西安市太白南路 139 号云图中心十五层 邮编：710065 传真/Fax:029-88360129 北京市康达（西安）律师事务所 关于陕西省天然气股份有限公司 2026 。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "2026年第二次临时股东会法律意见书",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445668.PDF",
+          "publishedAt": "2026-07-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-29",
+          "label": "2026年第二次临时股东会法律意见书",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225445668"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225445667",
+      "channel": "listed",
+      "relatedEntities": [
+        "陕天然气"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "2026年第二次临时股东会决议公告",
+        "summary": "1 证券代码：002267 证券简称：陕天然气 公告编号：2026-035 陕西省天然气股份有限公司 2026 年第二次临时股东会决议公告 本公司及董事会全体成员保证信息披露的内容真实、准确、完整， 没有虚假记载、误导性陈述或重大遗漏。特别提示： 1.本次股东会未出现否决议案的情形。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "2026年第二次临时股东会决议公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445667.PDF",
+          "publishedAt": "2026-07-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-29",
+          "label": "2026年第二次临时股东会决议公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225445667"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225445459",
+      "channel": "listed",
+      "relatedEntities": [
+        "航天电子"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "西安太乙电子有限公司股东全部权益价值资产评估报告",
+        "summary": "本报告依据中国资产评估准则编制 航天时代电子技术股份有限公司拟进行资产置 换所涉及的西安太乙电子有限公司 股东全部权益价值 资产评估报告 中企华评报字JG(2025)第0026-01号 (共一册，第一册) 北京中企华资产评估有限责任公司 二〇二六年三月二十日"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "西安太乙电子有限公司股东全部权益价值资产评估报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445459.PDF",
+          "publishedAt": "2026-07-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-29",
+          "label": "西安太乙电子有限公司股东全部权益价值资产评估报告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225445459"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225445450",
+      "channel": "listed",
+      "relatedEntities": [
+        "航天电子"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "北京航天兴华科技有限公司股东全部权益价值资产评估报告",
+        "summary": "四、 评估对象涉及的资产、负债清单由委托人、被评估单位申报并经其采用 签名、盖章或法律允许的其他方式确认；北 京航 天时 代光 电科 技有 限公 司持 有的北 京航 天兴 华科 技有 限公 司部 分股 权进行 资产 置换 项目资产 评估 报告 第3页 北京天健兴业资产评估有限公司 西安微电子技术研究所拟将其持有的 西安太乙电子有限公司部分股权与 北京航天时代光电科技有限公司持有的 北京航天兴华科技有限公司部分股权进行资产置换项目 涉及北京航天兴华科技有限。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "北京航天兴华科技有限公司股东全部权益价值资产评估报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445450.PDF",
+          "publishedAt": "2026-07-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-29",
+          "label": "北京航天兴华科技有限公司股东全部权益价值资产评估报告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225445450"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225445448",
+      "channel": "listed",
+      "relatedEntities": [
+        "航天电子"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+        "summary": " 本次交易对方西安微电子所为公司控股股东中国航天时代电子有限 公司（以下简称航天时代公司）所管理事业单位，上海科学仪器厂为航天时 代公司之全资子公司，因此本次交易构成关联交易。本次交易未达到股东会审议标准，无 需提交股东会审议。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF",
+          "publishedAt": "2026-07-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-29",
+          "label": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225445448"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225445443",
+      "channel": "listed",
+      "relatedEntities": [
+        "航天电子"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "航天时代电子技术股份有限公司董事会2026年第七次会议决议公告",
+        "summary": "为提高公司经营质量，聚焦航天电子信息主业，进一步完善集成电路产业链体系，公 司控股子公司持有的相关资产分别与公司控股股东中国航天时代电子有限公司（以下简称 航天时代公司）所属单位持有的相关资产进行置换，差额部分由一方分别向另一方支付现 金补齐，各交易主体拟签署相关资产置换协议。以 2025 年 7 月 31 日为基准日，本次资产 置换涉及各项标的资产评估结果已通过国有资产管理部门备案，转让价格根据国有资产管 理部门备案的评估结果确定。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "航天时代电子技术股份有限公司董事会2026年第七次会议决议公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445443.PDF",
+          "publishedAt": "2026-07-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-29",
+          "label": "航天时代电子技术股份有限公司董事会2026年第七次会议决议公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225445443"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225445000",
+      "channel": "listed",
+      "relatedEntities": [
+        "供销大集"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "关于首次回购公司股份的公告",
+        "summary": "股票代码：000564 股票简称：供销大集 公告编号：2026-047 供销大集集团股份有限公司 关于首次回购公司股份的公告 本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、 误导性陈述或重大遗漏。供销大集集团股份有限公司（以下简称“公司”）于 2026 年 6 月 14 日召开第十一 届董事会第二十二次会议，审议通过了《关于维护公司价值及股东权益进行股份回购 的议案》，同意公司以集中竞价交易方式回购公司已发行的人民币普通股（A 。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于首次回购公司股份的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
+          "publishedAt": "2026-07-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-29",
+          "label": "关于首次回购公司股份的公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225445000"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225444983",
+      "channel": "listed",
+      "relatedEntities": [
+        "科华生物"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "联合资信评估股份有限公司关于终止上海科华生物工程股份有限公司主体及“科华转债”信用评级的公告",
+        "summary": "主体长期信用评级报告 联合〔2026〕6663 号 联合资信评估股份有限公司 关于终止上海科华生物工程股份有限公司主体 及“科华转债”信用评级的公告 受上海科华生物工程股份有限公司（以下简称“公司”）委托，联合资信评估股份有限公司 （以下简称“联合资信”）对公司主体及“科华转债”进行了信用评级。根据最新的评级结果， 公司主体长期信用等级为 A，“科华转债”债项信用等级为 A，评级展望为稳定，评级结果有效期 为债券存续期。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "联合资信评估股份有限公司关于终止上海科华生物工程股份有限公司主体及“科华转债”信用评级的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444983.PDF",
+          "publishedAt": "2026-07-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-29",
+          "label": "联合资信评估股份有限公司关于终止上海科华生物工程股份有限公司主体及“科华转债”信用评级的公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225444983"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225444730",
+      "channel": "listed",
+      "relatedEntities": [
+        "建设机械"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "建设机械2026年第三次临时股东会决议公告",
+        "summary": "证券代码：600984 证券简称：建设机械 公告编号：2026-037 陕西建设机械股份有限公司 2026年第三次临时股东会决议公告 本公司及董事会全体成员保证公告内容不存在虚假记载、误导性陈述或者重大遗 漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示：  本次会议是否有否决议案：无 一、会议召开和出席情况 (一) 股东会召开的时间：2026 年 7 月 28 日 (二) 股东会召开的地点：西安市金花北路 418 号公司一楼会议室 (。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "建设机械2026年第三次临时股东会决议公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444730.PDF",
+          "publishedAt": "2026-07-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-29",
+          "label": "建设机械2026年第三次临时股东会决议公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225444730"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225444555",
+      "channel": "listed",
+      "relatedEntities": [
+        "科华生物"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "关于“科华转债”到期兑付结果及股本变动的公告",
+        "summary": "证券代码：002022 证券简称：科华生物 公告编号：2026-044 上海科华生物工程股份有限公司 关于“科华转债”到期兑付结果及股本变动的公告 本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记 载、误导性陈述或重大遗漏。1、“科华转债”到期兑付数量：2,235,726张 2、“科华转债”到期兑付金额：236,986,956.00元（含税及最后一期利息） 3、“科华转债”到期兑付资金发放日：2026年7月28日 4、“科华转债”摘牌。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于“科华转债”到期兑付结果及股本变动的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444555.PDF",
+          "publishedAt": "2026-07-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-29",
+          "label": "关于“科华转债”到期兑付结果及股本变动的公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225444555"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225444332",
+      "channel": "listed",
+      "relatedEntities": [
+        "爱科赛博"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+        "summary": "证券代码：688719 证券简称：爱科赛博 公告编号：2026-039 西安爱科赛博电气股份有限公司 关于 2026 年以集中竞价交易方式回购股份的进展公告 本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述 或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示： 回购方案首次披露日 2026/7/23 回购方案实施期限 2026 年 7 月 22 日~2027 年 7 月 21 日 预计回购金额 2,500.00万。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF",
+          "publishedAt": "2026-07-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-29",
+          "label": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225444332"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225444288",
+      "channel": "listed",
+      "relatedEntities": [
+        "诺瓦星云"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告",
+        "summary": "2 1、2025 年限制性股票激励计划简述 公司《2025 年限制性股票激励计划（草案）》（以下简称“《激励计划（草案）》” 或“本激励计划”）及其摘要已经公司第三届董事会薪酬与考核委员会第一次会议、第三 届董事会第二次会议及公司 2025 年第二次临时股东会审议通过，主要内容如下： （1）激励工具：限制性股票（第二类限制性股票）。（2）股票来源：公司从二级市场回购的 A 股普通股股票和/或向激励对象定向发行的 A 股普通股股票。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444288.PDF",
+          "publishedAt": "2026-07-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-29",
+          "label": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225444288"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-fef8bcd0553533b388e8",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "渭化公司：“二次创业”转新岗，百分之百全胜任"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕煤集团官网",
+          "title": "渭化公司：“二次创业”转新岗，百分之百全胜任",
+          "url": "https://www.shccig.com/index/Article/index.html?id=1429368&cid=36",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "渭化公司：“二次创业”转新岗，百分之百全胜任",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-d8172372c20018e2202b",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西国际经贸集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "风险治理",
+      "keyFacts": {
+        "title": "止园饭店：开展子公司印章管理专项检查工作"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕西国际经贸集团官网",
+          "title": "止园饭店：开展子公司印章管理专项检查工作",
+          "url": "https://www.siet.com.cn/news_detail/id-8085.html",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "止园饭店：开展子公司印章管理专项检查工作",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-c45d15022ca24b5511b0",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "陕煤恒神股份获批筹建江苏省低空经济高性能复合材料与结构安全重点实验室"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕煤集团官网",
+          "title": "陕煤恒神股份获批筹建江苏省低空经济高性能复合材料与结构安全重点实验室",
+          "url": "https://www.shccig.com/index/Article/index.html?id=1429361&cid=187",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "陕煤恒神股份获批筹建江苏省低空经济高性能复合材料与结构安全重点实验室",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-c11d5c50cd367b91aa66",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "陕煤信电：精耕物资管控 聚力提质增效"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕煤集团官网",
+          "title": "陕煤信电：精耕物资管控 聚力提质增效",
+          "url": "https://www.shccig.com/index/Article/index.html?id=1429367&cid=33",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "陕煤信电：精耕物资管控 聚力提质增效",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-8c2b847b7060e64dcb2d",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "陕煤电力集团：“创新+执行”全面提升班子建设质效"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕煤集团官网",
+          "title": "陕煤电力集团：“创新+执行”全面提升班子建设质效",
+          "url": "https://www.shccig.com/index/Article/index.html?id=1429359&cid=15",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "陕煤电力集团：“创新+执行”全面提升班子建设质效",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-563134952ab5c05c7f40",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "建设集团绿宇公司党支部：党建引领 驱动发展新动能"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕煤集团官网",
+          "title": "建设集团绿宇公司党支部：党建引领 驱动发展新动能",
+          "url": "https://www.shccig.com/index/Article/index.html?id=1429360&cid=38",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "建设集团绿宇公司党支部：党建引领 驱动发展新动能",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-18f9c78f200a8308cb27",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "柠条塔矿业：高效协同促发展"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕煤集团官网",
+          "title": "柠条塔矿业：高效协同促发展",
+          "url": "https://www.shccig.com/index/Article/index.html?id=1429364&cid=33",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "柠条塔矿业：高效协同促发展",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBEK76",
+      "channel": "private",
+      "relatedEntities": [
+        "海南天辉私募基金管理有限公司",
+        "招商证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "天辉先知私募证券投资基金",
+        "fundNo": "SBEK76",
+        "managerName": "海南天辉私募基金管理有限公司",
+        "custodian": "招商证券股份有限公司",
+        "establishDate": "2026-07-14"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "天辉先知私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607281339109876.html",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBEK76"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-d2c8431a2cb30745",
+      "channel": "ma",
+      "relatedEntities": [
+        "安徽金沙钼业",
+        "向紫金矿业收购"
+      ],
+      "shaanxiRelation": "陕西上市公司对外收购｜现金收购参股公司股权",
+      "stage": "announced",
+      "keyFacts": {
+        "title": "金钼股份收购并增资金沙钼业",
+        "amount": "收购24%股权对价17.3087亿元；2026-07-28披露按34%持股比例拟增资7.82亿元",
+        "industry": "钼矿资源/有色金属",
+        "nextAction": "股东会审议、7.82亿元出资落地、沙坪沟钼矿建设和外部融资",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "金钼股份关于收购参股公司部分股权进展的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-06/1224996924.PDF",
+          "publishedAt": "2026-03-06",
+          "sourceQuality": "exchange_or_regulator_original"
+        },
+        {
+          "sourceName": "巨潮资讯",
+          "title": "金钼股份关于向参股公司增资暨关联交易的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442541.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-01-15",
+          "label": "2026-01-15公告",
+          "stageAfter": "completed",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-03-05",
+          "label": "2026-03-05完成工商变更",
+          "stageAfter": "completed",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-07-28",
+          "label": "金钼股份关于向参股公司增资暨关联交易的公告",
+          "stageAfter": "announced",
+          "sourceIds": [
+            "src-1225442541"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-3e3e4317e8d3d91b2f14",
+      "channel": "ma",
+      "relatedEntities": [
+        "航天动力",
+        "江苏航天动力机电51%股权",
+        "受让方待挂牌确定"
+      ],
+      "shaanxiRelation": "陕西上市公司出售控股子公司股权｜北京产权交易所预挂牌",
+      "stage": "announced",
+      "keyFacts": {
+        "title": "航天动力预挂牌转让江苏机电51%股权",
+        "amount": "交易价格待国资评估备案及产权交易结果确定",
+        "industry": "电机制造/非优势业务处置",
+        "nextAction": "国资评估备案、正式挂牌底价、受让方、交易合同及出表损益",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "航天动力关于控股子公司股权转让事项预挂牌的提示性公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442395.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "航天动力关于控股子公司股权转让事项预挂牌的提示性公告",
+          "stageAfter": "announced",
+          "sourceIds": [
+            "src-1225442395"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225444492",
+      "channel": "listed",
+      "relatedEntities": [
+        "彩虹新能源"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "盈利预警",
+        "summary": "– 1 – ʫ ͪ d ฿ ٙߧ ዄ΂Оப΂ f ʮ̡ IRICO GROUP NEW ENERGY COMPANY LIMITED* лཫᙆ ʮ̡   ͉ʮ̡᙮ʮ̡୕ ၈͉ණྠ ໨ ԫ໨ԫ ึ໨ԫึʮ̡ᗇ  ۆ ୋ13.09(2)Էୋ 571 ௝ᗇՎʿಂ஬ૢ Էୋ XIVA ϾЪ̈ f ኽ໨ԫึ࿁͉ʮ̡࿚Ї ˜   ɚཧɚʬϋɪ̒ϋ၍ଣሪ ଋᑦ ɛ͏࿆ 4.40 ᄂʩЇɛ͏࿆ 4.95 ᄂ ʩdၾ ࿚Їɚཧɚʞϋʬ˜。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "盈利预警",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444492.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "盈利预警",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225444492"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225444168",
+      "channel": "listed",
+      "relatedEntities": [
+        "通源石油"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "关于为全资子公司提供担保的公告",
+        "summary": "1 证券代码：300164 证券简称：通源石油 公告编号：2026-053 通源石油科技集团股份有限公司 关于为全资子公司提供担保的公告 本公司及董事会全体成员保证信息披露内容的真实、准确、完整，没有虚假 记载、误导性陈述或重大遗漏。一、担保情况概述 通源石油科技集团股份有限公司（以下简称“公司”）全资子公司大庆市永晨 石油科技有限公司（以下简称“永晨石油”）因经营需要，拟向金融机构申请人民 币 5,000 万元的授信额度。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于为全资子公司提供担保的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444168.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "关于为全资子公司提供担保的公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225444168"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225444167",
+      "channel": "listed",
+      "relatedEntities": [
+        "通源石油"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "第九届董事会第三次会议决议公告",
+        "summary": "二、董事会会议审议情况 与会董事对本次会议需审议的议案进行了充分讨论，审议通过了以下议案： 1、审议通过《关于申请金融机构综合授信的议案》 为了满足公司的生产经营需要及补充流动资金，公司拟向平安银行股份有限 公司西安分行申请综合授信，额度为 8,000 万元人民币，期限不超过 24 个月， 全资子公司西安华程石油技术服务有限公司为上述事项提供连带责任担保。2、审议通过《关于为全资子公司提供担保的议案》 公司全资子公司大庆市永晨石油科技有限公司（以下简称“。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "第九届董事会第三次会议决议公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225444167.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "第九届董事会第三次会议决议公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225444167"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225442890",
+      "channel": "listed",
+      "relatedEntities": [
+        "炬光科技"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "fixed_columns",
+      "keyFacts": {
+        "title": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2025年限制性股票激励计划剩余预留授予激励对象名单的核查意见及公示情况说明",
+        "summary": "本次激励计划剩余预留授予激励对象不包括单独或合计持有公司 5%以上股 份的股东及其配偶、父母、子女，亦不包括公司独立董事。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2025年限制性股票激励计划剩余预留授予激励对象名单的核查意见及公示情况说明",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442890.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2025年限制性股票激励计划剩余预留授予激励对象名单的核查意见及公示情况说明",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225442890"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225442884",
+      "channel": "listed",
+      "relatedEntities": [
+        "炬光科技"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "tiles",
+      "keyFacts": {
+        "title": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2026年限制性股票激励计划首次授予激励对象名单的核查意见及公示情况说明",
+        "summary": "本次激励计划拟首次授予激励对象除公司实际控制人刘兴胜先生外，不包括 其他单独或合计持有上市公司 5%以上股份的股东及其配偶、父母、子女，亦不 包括公司独立董事。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2026年限制性股票激励计划首次授予激励对象名单的核查意见及公示情况说明",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442884.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2026年限制性股票激励计划首次授予激励对象名单的核查意见及公示情况说明",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225442884"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225442857",
+      "channel": "listed",
+      "relatedEntities": [
+        "国际医学"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "capital_rows",
+      "keyFacts": {
+        "title": "关于西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函的回复（豁免版）",
+        "summary": "已回到公告PDF原文；后续关注正式披露进展。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函的回复（豁免版）",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442857.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "关于西安国际医学投资股份有限公司申请向特定对象发行股票的审核问询函的回复（豁免版）",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225442857"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225442856",
+      "channel": "listed",
+      "relatedEntities": [
+        "国际医学"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "capital_rows",
+      "keyFacts": {
+        "title": "募集说明书（申报稿）",
+        "summary": "已回到公告PDF原文；后续关注正式披露进展。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "募集说明书（申报稿）",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442856.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "募集说明书（申报稿）",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225442856"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225442855",
+      "channel": "listed",
+      "relatedEntities": [
+        "国际医学"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "tiles",
+      "keyFacts": {
+        "title": "上市保荐书",
+        "summary": "国泰海通证券股份有限公司 关于西安国际医学投资股份有限公司 向特定对象发行股票并在主板上市 之 上市保荐书 保荐机构（主承销商） （中国（上海）自由贸易试验区商城路 618 号） 二〇二六年七月 西安国际医学投资股份有限公司 上市保荐书 3-3-1 声 明 本保荐机构及其保荐代表人已根据《中华人民共和国公司法》（以下简称 “《公司法》”）、《中华人民共和国证券法》（以下简称“《证券法》”）等法律 法规和中国证券监督管理委员会（以下简称“中国证监会”）及深。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "上市保荐书",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442855.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "上市保荐书",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225442855"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225442854",
+      "channel": "listed",
+      "relatedEntities": [
+        "国际医学"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "tiles",
+      "keyFacts": {
+        "title": "补充法律意见书（一）",
+        "summary": "3-1 北京市康达律师事务所 关于西安国际医学投资股份有限公司 向特定对象发行股票的 补充法律意见书（一） 康达股发字（2026）第0030-1号 补充法律意见书（一） 3-2 目 录 第一部分 审核问题回复 .............................................. 4 问题一 ............................................................. 4 问题二 ...。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "补充法律意见书（一）",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442854.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "补充法律意见书（一）",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225442854"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225442553",
+      "channel": "listed",
+      "relatedEntities": [
+        "宝钛股份"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "tiles",
+      "keyFacts": {
+        "title": "宝鸡钛业股份有限关于变更持续督导保荐代表人的公告",
+        "summary": "1 证券代码:600456 证券简称:宝钛股份 编号：2026-032 债券代码：110101 债券简称：宝钛转债 宝鸡钛业股份有限公司 关于变更持续督导保荐代表人的公告 本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈 述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。宝鸡钛业股份有限公司（以下简称“公司”或“宝钛股份”）于近日收到西 部证券股份有限公司（以下简称“西部证券”）出具的《西部证券股份有限公司 关于变更宝鸡钛业。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "宝鸡钛业股份有限关于变更持续督导保荐代表人的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442553.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "宝鸡钛业股份有限关于变更持续督导保荐代表人的公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225442553"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225442548",
+      "channel": "listed",
+      "relatedEntities": [
+        "宝钛股份"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "tiles",
+      "keyFacts": {
+        "title": "宝鸡钛业股份有限公司关于公司独立董事辞职的公告",
+        "summary": "证券代码：600456 证券简称：宝钛股份 公告编号：2026-031 债券代码：110101 债券简称：宝钛转债 宝鸡钛业股份有限公司 关于公司独立董事辞职的公告 本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性 陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "宝鸡钛业股份有限公司关于公司独立董事辞职的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442548.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "宝鸡钛业股份有限公司关于公司独立董事辞职的公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225442548"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "listed-1225442526",
+      "channel": "listed",
+      "relatedEntities": [
+        "金钼股份"
+      ],
+      "shaanxiRelation": "V2上市公司正式观察池",
+      "stage": "tiles",
+      "keyFacts": {
+        "title": "金钼股份2026年第5次董事会会议决议公告",
+        "summary": "与会董事审议提交本次会议的 2 项 议案并逐项进行表决，形成会议决议如下： 一、审议通过《关于向参股公司安徽金沙钼业有限公司增资的议 案》 同意公司按照持有安徽金沙钼业有限公司的股权比例，以货币资 金方式同比例认缴出资，向其增资 78,200 万元。同意将此议案提交股东会审议。"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "金钼股份2026年第5次董事会会议决议公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442526.PDF",
+          "publishedAt": "2026-07-28",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-28",
+          "label": "金钼股份2026年第5次董事会会议决议公告",
+          "stageAfter": "",
+          "sourceIds": [
+            "1225442526"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-28",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-f52653b8fbc0bcc9813d",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西财金投资管理有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "融银担联动，惠企纾困！陕西省中小微企业银企对接会成功举办"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕西财金官网",
+          "title": "融银担联动，惠企纾困！陕西省中小微企业银企对接会成功举办",
+          "url": "https://www.sxcjtz.cn/info/1118/3135.htm",
+          "publishedAt": "2026-07-24",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-24",
+          "label": "融银担联动，惠企纾困！陕西省中小微企业银企对接会成功举办",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-24",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-977200b494a1e072c3a7",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "【陕煤集团】文家坡发电公司：以党建红帆聚合力 凭安全长城保生产 用精益良方促增收"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕西省国资委",
+          "title": "【陕煤集团】文家坡发电公司：以党建红帆聚合力 凭安全长城保生产 用精益良方促增收",
+          "url": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202607/t20260724_3659957.html",
+          "publishedAt": "2026-07-24",
+          "sourceQuality": "official_public_disclosure"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-24",
+          "label": "【陕煤集团】文家坡发电公司：以党建红帆聚合力 凭安全长城保生产 用精益良方促增收",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-24",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-03d3eb879de4ee0ef39a",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西国际经贸集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "陕西国际经贸集团外部董事赴利用外资公司调研阳光采购交易平台建设运营工作"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕西国际经贸集团官网",
+          "title": "陕西国际经贸集团外部董事赴利用外资公司调研阳光采购交易平台建设运营工作",
+          "url": "https://www.siet.com.cn/news_detail/id-8081.html",
+          "publishedAt": "2026-07-24",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-24",
+          "label": "陕西国际经贸集团外部董事赴利用外资公司调研阳光采购交易平台建设运营工作",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-24",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SCM543",
+      "channel": "private",
+      "relatedEntities": [
+        "深圳市滨利投资管理有限公司",
+        "兴业证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "滨利东方红31号私募证券投资基金",
+        "fundNo": "SCM543",
+        "managerName": "深圳市滨利投资管理有限公司",
+        "custodian": "兴业证券股份有限公司",
+        "establishDate": "2026-07-17"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "滨利东方红31号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607241347108754.html",
+          "publishedAt": "2026-07-24",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-24",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SCM543"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-24",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SAQR62",
+      "channel": "private",
+      "relatedEntities": [
+        "深圳市滨利投资管理有限公司",
+        "中国国际金融股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "滨利成长价值27号私募证券投资基金",
+        "fundNo": "SAQR62",
+        "managerName": "深圳市滨利投资管理有限公司",
+        "custodian": "中国国际金融股份有限公司",
+        "establishDate": "2026-07-07"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "滨利成长价值27号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607241727104417.html",
+          "publishedAt": "2026-07-24",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-24",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SAQR62"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-24",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-9be460d87971d361adb6",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "张文琪会见中铁二十三局党委书记、董事长王鹏一行"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕煤集团官网",
+          "title": "张文琪会见中铁二十三局党委书记、董事长王鹏一行",
+          "url": "https://www.shccig.com/index/Article/index.html?id=1429339&cid=14",
+          "publishedAt": "2026-07-23",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-23",
+          "label": "张文琪会见中铁二十三局党委书记、董事长王鹏一行",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-23",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-89425a1091818eacac78",
+      "channel": "soe",
+      "relatedEntities": [
+        "长安汇通集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "科创资本进地市：秦创投策源网络如何重构陕西科创版图"
+      },
+      "primarySources": [
+        {
+          "sourceName": "长安汇通官网",
+          "title": "科创资本进地市：秦创投策源网络如何重构陕西科创版图",
+          "url": "https://www.ca-ht.com/show/1282",
+          "publishedAt": "2026-07-23",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-23",
+          "label": "科创资本进地市：秦创投策源网络如何重构陕西科创版图",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-23",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBAU66",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西九和岛基金管理有限公司",
+        "国信证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "九和岛宏观3号私募证券投资基金",
+        "fundNo": "SBAU66",
+        "managerName": "陕西九和岛基金管理有限公司",
+        "custodian": "国信证券股份有限公司",
+        "establishDate": "2026-07-07"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "九和岛宏观3号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607231628103490.html",
+          "publishedAt": "2026-07-23",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-23",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBAU66"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-23",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-ed1c8e3147ac1655fe71",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安工业投资集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "工投集团召开2026年上半年经济运行分析会"
+      },
+      "primarySources": [
+        {
+          "sourceName": "西安工投集团官网",
+          "title": "工投集团召开2026年上半年经济运行分析会",
+          "url": "https://xagytzjt.com/show/26072211TMH8K.html",
+          "publishedAt": "2026-07-22",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-22",
+          "label": "工投集团召开2026年上半年经济运行分析会",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-22",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-e69af6fab110f0fa6fcc",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "杜平到西乡抽蓄项目、汉钢公司检查安全环保和防汛度汛工作"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕煤集团官网",
+          "title": "杜平到西乡抽蓄项目、汉钢公司检查安全环保和防汛度汛工作",
+          "url": "https://www.shccig.com/index/Article/index.html?id=1429338&cid=14",
+          "publishedAt": "2026-07-22",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-22",
+          "label": "杜平到西乡抽蓄项目、汉钢公司检查安全环保和防汛度汛工作",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-22",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-b8a38c9eed799c9115d8",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西延长石油（集团）有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "关于发布延长石油2026年度第一批“揭榜挂帅”技术攻关项目榜单的公告"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕西省国资委",
+          "title": "关于发布延长石油2026年度第一批“揭榜挂帅”技术攻关项目榜单的公告",
+          "url": "https://sxgz.shaanxi.gov.cn/sy/tzgg/202607/t20260722_3659391.html",
+          "publishedAt": "2026-07-22",
+          "sourceQuality": "official_public_disclosure"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-22",
+          "label": "关于发布延长石油2026年度第一批“揭榜挂帅”技术攻关项目榜单的公告",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-22",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-5aa543e127b009014fcc",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西农业发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "【陕西农发集团】嘉信臻境、嘉信臻城项目荣获陕西省建筑优质结构工程奖"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕西省国资委",
+          "title": "【陕西农发集团】嘉信臻境、嘉信臻城项目荣获陕西省建筑优质结构工程奖",
+          "url": "https://sxgz.shaanxi.gov.cn/sy/gqzc/qydt/202607/t20260723_3659857.html",
+          "publishedAt": "2026-07-22",
+          "sourceQuality": "official_public_disclosure"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-22",
+          "label": "【陕西农发集团】嘉信臻境、嘉信臻城项目荣获陕西省建筑优质结构工程奖",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-22",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-5310b8a7c334455999d4",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西投资集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "【陕投集团】凉水井矿业AI全场景智能化应用赋能矿山高质量发展"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕西省国资委",
+          "title": "【陕投集团】凉水井矿业AI全场景智能化应用赋能矿山高质量发展",
+          "url": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202607/t20260722_3659248.html",
+          "publishedAt": "2026-07-22",
+          "sourceQuality": "official_public_disclosure"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-22",
+          "label": "【陕投集团】凉水井矿业AI全场景智能化应用赋能矿山高质量发展",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-22",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-0a5b74cf35d5c230d3e3",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "陕西水务发展集团召开关中西片区供水、环保公司上半年工作调研座谈会"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕西水务发展集团官网",
+          "title": "陕西水务发展集团召开关中西片区供水、环保公司上半年工作调研座谈会",
+          "url": "https://www.sxswfzjt.com/news/info/3619",
+          "publishedAt": "2026-07-22",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-22",
+          "label": "陕西水务发展集团召开关中西片区供水、环保公司上半年工作调研座谈会",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-22",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-0141874f56cffa8b4ee2",
+      "channel": "soe",
+      "relatedEntities": [
+        "中陕核工业集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "【奋战双过半，实干显担当】系列报道——宜威公司以技术创新拓宽能源领域新赛道"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中陕核集团官网",
+          "title": "【奋战双过半，实干显担当】系列报道——宜威公司以技术创新拓宽能源领域新赛道",
+          "url": "https://www.nuclgeol.com/info/1026/200951.htm",
+          "publishedAt": "2026-07-22",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-22",
+          "label": "【奋战双过半，实干显担当】系列报道——宜威公司以技术创新拓宽能源领域新赛道",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-22",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-c1ed9340bb8f1559ce8e",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安城市基础设施建设投资集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "多个项目获评陕西省建筑优质结构工程（西安城投集团）"
+      },
+      "primarySources": [
+        {
+          "sourceName": "西安市国资委官方微信公众号",
+          "title": "多个项目获评陕西省建筑优质结构工程（西安城投集团）",
+          "url": "https://mp.weixin.qq.com/s/dBBoMPX40gXM2BsjOD0hyw",
+          "publishedAt": "2026-07-21",
+          "sourceQuality": "official_public_disclosure"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-21",
+          "label": "多个项目获评陕西省建筑优质结构工程（西安城投集团）",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-21",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-v2-2b0da0eaf22bc70fff9c",
+      "channel": "soe",
+      "relatedEntities": [
+        "中陕核工业集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "中陕核二一八队成功中标重点勘查钻探工程项目"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中陕核集团官网",
+          "title": "中陕核二一八队成功中标重点勘查钻探工程项目",
+          "url": "https://www.nuclgeol.com/info/1026/200941.htm",
+          "publishedAt": "2026-07-21",
+          "sourceQuality": "issuer_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-21",
+          "label": "中陕核二一八队成功中标重点勘查钻探工程项目",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-21",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-eda69557ead20559",
+      "channel": "ma",
+      "relatedEntities": [
+        "西安中科西光82.50%股权",
+        "金利华电"
+      ],
+      "shaanxiRelation": "外地上市公司收购西安商业航天标的｜发行股份及现金",
+      "stage": "in_progress",
+      "keyFacts": {
+        "title": "金利华电拟收购中科西光82.50%股权",
+        "amount": "作价待审计评估；同步募集配套资金",
+        "industry": "商业航天/高光谱卫星/遥感数据",
+        "nextAction": "审计评估、交易作价、股东会、深交所审核和证监会注册",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易事项的进展公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-18/1225429238.PDF",
+          "publishedAt": "2026-07-18",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-05-19",
+          "label": "5月19日董事会通过预案",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-05-20",
+          "label": "2026-05-20复牌",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-18",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SB2470",
+      "channel": "private",
+      "relatedEntities": [
+        "西安曲江祥汇私募基金管理有限公司",
+        "华泰证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "西安曲江祥汇晨泽长盈私募证券投资基金",
+        "fundNo": "SB2470",
+        "managerName": "西安曲江祥汇私募基金管理有限公司",
+        "custodian": "华泰证券股份有限公司",
+        "establishDate": "2026-06-16"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "西安曲江祥汇晨泽长盈私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607161430104661.html",
+          "publishedAt": "2026-07-16",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-16",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SB2470"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-16",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-fdb76cacc4b040cb",
+      "channel": "ma",
+      "relatedEntities": [
+        "陕西长空齿轮",
+        "汉中汉航机电、航空工业转让"
+      ],
+      "shaanxiRelation": "外地上市公司收购陕西军工精密制造标的｜现金收购",
+      "stage": "completed",
+      "keyFacts": {
+        "title": "飞亚达拟收购陕西长空齿轮100%股权",
+        "amount": "3.247904亿元；评估后净资产约3.396904亿元",
+        "industry": "航空精密齿轮/精密减速器",
+        "nextAction": "5月20日股东会审议、航空工业批复、交割及并表安排",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于收购陕西长空齿轮有限责任公司100%股权暨关联交易完成工商变更登记的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-15/1225422825.PDF",
+          "publishedAt": "2026-07-15",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-04-30",
+          "label": "2026-04-30公告",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-05-08",
+          "label": "2026-05-08股东会补充通知",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-05-12",
+          "label": "2026-05-12复核",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-15",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBTH63",
+      "channel": "private",
+      "relatedEntities": [
+        "深圳市滨利投资管理有限公司",
+        "中信建投证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "滨利丰裕七号私募证券投资基金",
+        "fundNo": "SBTH63",
+        "managerName": "深圳市滨利投资管理有限公司",
+        "custodian": "中信建投证券股份有限公司",
+        "establishDate": "2026-06-30"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "滨利丰裕七号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607131647104329.html",
+          "publishedAt": "2026-07-13",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-13",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBTH63"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-13",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-40f1fe5672e1af96",
+      "channel": "ma",
+      "relatedEntities": [
+        "西安奇芯光电",
+        "北京新基建产业一期股权投资中心"
+      ],
+      "shaanxiRelation": "外地上市公司收购陕西光电子标的｜现金关联交易",
+      "stage": "planning",
+      "keyFacts": {
+        "title": "京投发展筹划收购西安奇芯光电股权",
+        "amount": "比例和价格未定；新基建持有20.9052%股权",
+        "industry": "光电子器件/光电子集成",
+        "nextAction": "5个交易日内回复问询、董事会/股东会、国资审批和评估备案",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "京投发展股份有限公司关于筹划重大资产重组的进展公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225419258.PDF",
+          "publishedAt": "2026-07-11",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-05-11",
+          "label": "2026-05-11提示",
+          "stageAfter": "planning",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-05-12",
+          "label": "2026-05-12问询",
+          "stageAfter": "planning",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-11",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-0499bc3e8c10df13",
+      "channel": "ma",
+      "relatedEntities": [
+        "陕西秦风气体36.06%股权",
+        "交易对方为陕西化工、延长集团、陕西金控、恒博隆"
+      ],
+      "shaanxiRelation": "陕西上市公司发行股份购买控股子公司少数股权｜关联交易",
+      "stage": "signed_or_approved",
+      "keyFacts": {
+        "title": "陕鼓动力收购秦风气体36.06%股权",
+        "amount": "交易作价待审计评估；发行价格9.12元/股；交易完成后陕鼓动力持股100%",
+        "industry": "工业气体/能源装备服务",
+        "nextAction": "审计评估、最终交易作价、发行股份数量、重组报告书、股东会审议安排",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "西安陕鼓动力股份有限公司发行股份购买资产暨关联交易预案",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420091.PDF",
+          "publishedAt": "2026-07-11",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-27",
+          "label": "停牌筹划",
+          "stageAfter": "progressing",
+          "sourceIds": [
+            "src-shaangu-ma"
+          ]
+        },
+        {
+          "at": "2026-07-10",
+          "label": "未见作价或预案新增",
+          "stageAfter": "progressing",
+          "sourceIds": [
+            "src-shaangu-ma"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-11",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-f6b5fe612bb428f84dbb",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "赵福堂带队参加2026年夏季全国煤炭交易会"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "赵福堂带队参加2026年夏季全国煤炭交易会",
+          "url": "https://www.shccig.com/index/Article/index.html?id=1429166&cid=14",
+          "publishedAt": "2026-07-10",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-10",
+          "label": "赵福堂带队参加2026年夏季全国煤炭交易会",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-10",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-703ec42af373d6b6030d",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西投资集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "2026-07-10 陕投集团获省国资系统“两优一先”多项表彰"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "2026-07-10 陕投集团获省国资系统“两优一先”多项表彰",
+          "url": "https://www.sxigc.com/article/19123",
+          "publishedAt": "2026-07-10",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-10",
+          "label": "2026-07-10 陕投集团获省国资系统“两优一先”多项表彰",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-10",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-461503a5b91153e21659",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西医药控股集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "孙思邈高新制药公司党总支开展“七一”主题党日活动 2026-07-10"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "孙思邈高新制药公司党总支开展“七一”主题党日活动 2026-07-10",
+          "url": "https://www.shanyaogroup.com/info/1029/44282.htm",
+          "publishedAt": "2026-07-10",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-10",
+          "label": "孙思邈高新制药公司党总支开展“七一”主题党日活动 2026-07-10",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-10",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-3f7c46bc1dce27033b82",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安农业投资（集团）有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "小暑交大暑，农事怎么搞？这份关中平原的“盛夏耕作指南”请收好（西安农投集团）"
+      },
+      "primarySources": [
+        {
+          "sourceName": "西安市国资委",
+          "title": "小暑交大暑，农事怎么搞？这份关中平原的“盛夏耕作指南”请收好（西安农投集团）",
+          "url": "https://mp.weixin.qq.com/s/4bXZgonNyOm97mbf46mo7w",
+          "publishedAt": "2026-07-10",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-10",
+          "label": "小暑交大暑，农事怎么搞？这份关中平原的“盛夏耕作指南”请收好（西安农投集团）",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-10",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-3986e51f68ed2068e643",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安交通投资集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "西安交投集团全力推进低空经济产业协同与智能网联基础设施建设"
+      },
+      "primarySources": [
+        {
+          "sourceName": "西安市国资委",
+          "title": "西安交投集团全力推进低空经济产业协同与智能网联基础设施建设",
+          "url": "https://gzw.xa.gov.cn/gzjg/gqxx/gqxx/2075400870325936129.html",
+          "publishedAt": "2026-07-10",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-10",
+          "label": "西安交投集团全力推进低空经济产业协同与智能网联基础设施建设",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-10",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-0d6eacef03bff7876898",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安农业投资（集团）有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "甜蜜预警！七月即将解锁！西安农投特色火龙果进入挂果关键期"
+      },
+      "primarySources": [
+        {
+          "sourceName": "西安市国资委",
+          "title": "甜蜜预警！七月即将解锁！西安农投特色火龙果进入挂果关键期",
+          "url": "https://mp.weixin.qq.com/s/dKDIAqTxlpqHDXEWLK2g7w",
+          "publishedAt": "2026-07-10",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-10",
+          "label": "甜蜜预警！七月即将解锁！西安农投特色火龙果进入挂果关键期",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-10",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-f4da723b642b6ec01427",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西省大数据集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "《习近平关于基层工作方法的重要论述学习读本》出版发行"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "《习近平关于基层工作方法的重要论述学习读本》出版发行",
+          "url": "https://www.snbigdata.cn/szyw/4706",
+          "publishedAt": "2026-07-09",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "《习近平关于基层工作方法的重要论述学习读本》出版发行",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-09",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-d96a24e58bac2a3e06a6",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "陕西水务发展清洁能源集团与略阳县政府签约城市级虚拟电厂项目 2026-07-09"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西水务发展清洁能源集团与略阳县政府签约城市级虚拟电厂项目 2026-07-09",
+          "url": "https://www.sxswfzjt.com/news/info/3548",
+          "publishedAt": "2026-07-09",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "陕西水务发展清洁能源集团与略阳县政府签约城市级虚拟电厂项目 2026-07-09",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-09",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-c49c70957ab56763a4c0",
+      "channel": "soe",
+      "relatedEntities": [
+        "长安汇通集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "长安汇通集团获省国资系统“两优一先”表彰"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "长安汇通集团获省国资系统“两优一先”表彰",
+          "url": "https://www.ca-ht.com/show/1277",
+          "publishedAt": "2026-07-09",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "长安汇通集团获省国资系统“两优一先”表彰",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-09",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-a528a8fd09b6307f97a4",
+      "channel": "soe",
+      "relatedEntities": [
+        "中陕核工业集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "中陕核集团召开 陕西健康西安片区医疗机构共享机制 调研座谈会 2026-07-09"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "中陕核集团召开 陕西健康西安片区医疗机构共享机制 调研座谈会 2026-07-09",
+          "url": "https://www.nuclgeol.com/info/1026/200161.htm",
+          "publishedAt": "2026-07-09",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "中陕核集团召开 陕西健康西安片区医疗机构共享机制 调研座谈会 2026-07-09",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-09",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-87a26784f69a3936c8e2",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "陕西水务发展供水集团吴起县供水公司、吴起县实业公司获评2025年度优秀驻吴单位、县域优秀企业称号 2026-07-09"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西水务发展供水集团吴起县供水公司、吴起县实业公司获评2025年度优秀驻吴单位、县域优秀企业称号 2026-07-09",
+          "url": "https://www.sxswfzjt.com/news/info/3545",
+          "publishedAt": "2026-07-09",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "陕西水务发展供水集团吴起县供水公司、吴起县实业公司获评2025年度优秀驻吴单位、县域优秀企业称号 2026-07-09",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-09",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-7e33669f11ef76f4c63c",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "陕西水务发展水利水电工程集团太合高端智能钻探装备基地装修装饰项目收到业主感谢信 2026-07-09"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西水务发展水利水电工程集团太合高端智能钻探装备基地装修装饰项目收到业主感谢信 2026-07-09",
+          "url": "https://www.sxswfzjt.com/news/info/3542",
+          "publishedAt": "2026-07-09",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "陕西水务发展水利水电工程集团太合高端智能钻探装备基地装修装饰项目收到业主感谢信 2026-07-09",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-09",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-4b719008e25f679a9d15",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西投资集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "2026-07-09 赵石畔煤电：迎峰度夏保供电 煤电联营显担当"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "2026-07-09 赵石畔煤电：迎峰度夏保供电 煤电联营显担当",
+          "url": "https://www.sxigc.com/article/19050",
+          "publishedAt": "2026-07-09",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "2026-07-09 赵石畔煤电：迎峰度夏保供电 煤电联营显担当",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-09",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-01bd664ce7b1b84f1138",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "陕西水务发展供水集团富县供水公司荣获 2025年度优秀驻县单位（企业）称号 2026-07-09"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西水务发展供水集团富县供水公司荣获 2025年度优秀驻县单位（企业）称号 2026-07-09",
+          "url": "https://www.sxswfzjt.com/news/info/3539",
+          "publishedAt": "2026-07-09",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "陕西水务发展供水集团富县供水公司荣获 2025年度优秀驻县单位（企业）称号 2026-07-09",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-09",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SANG14",
+      "channel": "private",
+      "relatedEntities": [
+        "西安榴花私募基金管理有限公司",
+        "招商证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "榴花卓越成长10号私募证券投资基金",
+        "fundNo": "SANG14",
+        "managerName": "西安榴花私募基金管理有限公司",
+        "custodian": "招商证券股份有限公司",
+        "establishDate": "2026-06-26"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "榴花卓越成长10号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607091456106673.html",
+          "publishedAt": "2026-07-09",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-09",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SANG14"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-09",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-2451055e84c975a1e93d",
+      "channel": "soe",
+      "relatedEntities": [
+        "中陕核工业集团有限公司",
+        "长安汇通集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "中陕核集团与长安汇通集团开展审计工作专题交流座谈 2026-07-08"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "中陕核集团与长安汇通集团开展审计工作专题交流座谈 2026-07-08",
+          "url": "https://www.nuclgeol.com/info/1026/200231.htm",
+          "publishedAt": "2026-07-08",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-08",
+          "label": "中陕核集团与长安汇通集团开展审计工作专题交流座谈 2026-07-08",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-08",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBPV13",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西禄格私募基金管理有限公司",
+        "中信证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "禄格永兴2号私募证券投资基金",
+        "fundNo": "SBPV13",
+        "managerName": "陕西禄格私募基金管理有限公司",
+        "custodian": "中信证券股份有限公司",
+        "establishDate": "2026-06-11"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "禄格永兴2号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607080903108151.html",
+          "publishedAt": "2026-07-08",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-08",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBPV13"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-08",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SAVP97",
+      "channel": "private",
+      "relatedEntities": [
+        "西安柏石私募基金管理有限公司",
+        "招商证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "柏石银针5号私募证券投资基金",
+        "fundNo": "SAVP97",
+        "managerName": "西安柏石私募基金管理有限公司",
+        "custodian": "招商证券股份有限公司",
+        "establishDate": "2026-06-18"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "柏石银针5号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607080903108425.html",
+          "publishedAt": "2026-07-08",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-08",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SAVP97"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-08",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-e7fb3ec5fde87bb9e5f4",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安纺织控股有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "西纺集团召开2025年度经理层成员向董事会述职暨考评工作会议"
+      },
+      "primarySources": [
+        {
+          "sourceName": "西安市国资委",
+          "title": "西纺集团召开2025年度经理层成员向董事会述职暨考评工作会议",
+          "url": "https://gzw.xa.gov.cn/gzjg/gqxx/gqxx/2074321886887051266.html",
+          "publishedAt": "2026-07-07",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "西纺集团召开2025年度经理层成员向董事会述职暨考评工作会议",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-07",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-e3b181510b0720f57a61",
+      "channel": "soe",
+      "relatedEntities": [
+        "中陕核工业集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "中陕核集团与西安海星科技控股集团座谈交流 2026-07-07"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "中陕核集团与西安海星科技控股集团座谈交流 2026-07-07",
+          "url": "https://www.nuclgeol.com/info/1026/200241.htm",
+          "publishedAt": "2026-07-07",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "中陕核集团与西安海星科技控股集团座谈交流 2026-07-07",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-07",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-dd85e77a2def52248f19",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西投资集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "2026-07-07 省国资委副主任张全虎到物测公司讲授专题党课并调研"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "2026-07-07 省国资委副主任张全虎到物测公司讲授专题党课并调研",
+          "url": "https://www.sxigc.com/article/19039",
+          "publishedAt": "2026-07-07",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "2026-07-07 省国资委副主任张全虎到物测公司讲授专题党课并调研",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-07",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-c6014d9314892a90dc9b",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安市国资委"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "聚英才，启新程｜西安市人才网全新改版今日正式上线"
+      },
+      "primarySources": [
+        {
+          "sourceName": "西安市国资委",
+          "title": "聚英才，启新程｜西安市人才网全新改版今日正式上线",
+          "url": "https://mp.weixin.qq.com/s/swIOPrbwgwHk61fhhIwpfw",
+          "publishedAt": "2026-07-07",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "聚英才，启新程｜西安市人才网全新改版今日正式上线",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-07",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-c0929ba5fc4848ef5d34",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西地矿集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "党向阳深入陕北野外项目看望慰问一线干部职工"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "党向阳深入陕北野外项目看望慰问一线干部职工",
+          "url": "https://www.sndk.cn/news/18859.html",
+          "publishedAt": "2026-07-07",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "党向阳深入陕北野外项目看望慰问一线干部职工",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-07",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-6a74fe67705e2905a089",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "闫恒光到陕钢集团监督调研"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "闫恒光到陕钢集团监督调研",
+          "url": "https://www.shccig.com/index/Article/index.html?id=1429140&cid=14",
+          "publishedAt": "2026-07-07",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "闫恒光到陕钢集团监督调研",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-07",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-67f7f0b47b723002515a",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安城市基础设施建设投资集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "水清树绿 打造夏日“清凉港湾”（西安城投集团）"
+      },
+      "primarySources": [
+        {
+          "sourceName": "西安市国资委",
+          "title": "水清树绿 打造夏日“清凉港湾”（西安城投集团）",
+          "url": "https://mp.weixin.qq.com/s/Fgp9bOOJqyba8lUG75CviQ",
+          "publishedAt": "2026-07-07",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "水清树绿 打造夏日“清凉港湾”（西安城投集团）",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-07",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-4c8d28670c01c8d5050a",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "陕西水务发展投资集团立足主业深耕管理提质效促发展 2026-07-07"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西水务发展投资集团立足主业深耕管理提质效促发展 2026-07-07",
+          "url": "https://www.sxswfzjt.com/news/info/3537",
+          "publishedAt": "2026-07-07",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "陕西水务发展投资集团立足主业深耕管理提质效促发展 2026-07-07",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-07",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-4c0261b179f44b49e300",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西法士特汽车传动集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "了解更多 >"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "了解更多 >",
+          "url": "https://www.chinafastgear.com/default/list/19060510zeZyG.html",
+          "publishedAt": "2026-07-07",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "了解更多 >",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-07",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-408e22afe04746d81ec5",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西省物流集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "【陕西物流集团】所属物资产业集团：解放思想、转变作风，让党建工作走“新”更走心"
+      },
+      "primarySources": [
+        {
+          "sourceName": "陕西省国资委",
+          "title": "【陕西物流集团】所属物资产业集团：解放思想、转变作风，让党建工作走“新”更走心",
+          "url": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202607/t20260707_3654319.html",
+          "publishedAt": "2026-07-07",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "【陕西物流集团】所属物资产业集团：解放思想、转变作风，让党建工作走“新”更走心",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-07",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-31cae1ac6a1d7c1fdda0",
+      "channel": "soe",
+      "relatedEntities": [
+        "中陕核工业集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "中陕核市政院宝鸡渭滨城市更新改造项目获社区好评 2026-07-07"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "中陕核市政院宝鸡渭滨城市更新改造项目获社区好评 2026-07-07",
+          "url": "https://www.nuclgeol.com/info/1026/200251.htm",
+          "publishedAt": "2026-07-07",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "中陕核市政院宝鸡渭滨城市更新改造项目获社区好评 2026-07-07",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-07",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SB6426",
+      "channel": "private",
+      "relatedEntities": [
+        "西安玖润投资管理有限公司",
+        "中信建投证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "玖润行业精选2号私募证券投资基金",
+        "fundNo": "SB6426",
+        "managerName": "西安玖润投资管理有限公司",
+        "custodian": "中信建投证券股份有限公司",
+        "establishDate": "2026-06-24"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "玖润行业精选2号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607071514103769.html",
+          "publishedAt": "2026-07-07",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SB6426"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-07",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-rainbow-hongyang-minority-2026",
+      "channel": "ma",
+      "relatedEntities": [
+        "彩虹股份",
+        "虹阳显示33.4204%少数股权"
+      ],
+      "shaanxiRelation": "陕西上市公司收购控股子公司少数股权",
+      "stage": "signed_or_approved",
+      "keyFacts": {
+        "title": "彩虹股份拟收购虹阳显示33.4204%少数股权",
+        "amount": "以公告原文为准",
+        "industry": "显示面板",
+        "nextAction": "跟踪7月20日付款、贷款提款、工商变更和交割。",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "彩虹股份关于收购控股子公司少数股东股权的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-07/1225412189.PDF",
+          "publishedAt": "2026-07-07",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-07",
+          "label": "收购公告",
+          "stageAfter": "action_window",
+          "sourceIds": [
+            "src-rainbow-ma"
+          ]
+        },
+        {
+          "at": "2026-07-20",
+          "label": "付款及交割观察节点",
+          "stageAfter": "action_window",
+          "sourceIds": [
+            "src-rainbow-ma"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-07",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-ffcfe688ddc2f6bc30af",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西地矿集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "党建引领促发展 聚力攻坚谱新篇"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "党建引领促发展 聚力攻坚谱新篇",
+          "url": "https://www.sndk.cn/news/18858.html",
+          "publishedAt": "2026-07-06",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-06",
+          "label": "党建引领促发展 聚力攻坚谱新篇",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-06",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-9c0eebc9a023a9d77dab",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西省大数据集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "省委理论学习中心组举行会议"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "省委理论学习中心组举行会议",
+          "url": "https://www.snbigdata.cn/szyw/4704",
+          "publishedAt": "2026-07-06",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-06",
+          "label": "省委理论学习中心组举行会议",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-06",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-97423f8a598c8dbb3797",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西地矿集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "荆平带队赴旬阳市开展合作交流座谈"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "荆平带队赴旬阳市开展合作交流座谈",
+          "url": "https://www.sndk.cn/news/18856.html",
+          "publishedAt": "2026-07-06",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-06",
+          "label": "荆平带队赴旬阳市开展合作交流座谈",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-06",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-7815c4d5b6e8190de8da",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安纺织控股有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "喜报！西安纺织集团汪丽丽荣获“陕西省优秀共产党员”荣誉称号"
+      },
+      "primarySources": [
+        {
+          "sourceName": "西安市国资委",
+          "title": "喜报！西安纺织集团汪丽丽荣获“陕西省优秀共产党员”荣誉称号",
+          "url": "https://gzw.xa.gov.cn/gzjg/gqxx/gqxx/2074079275275878401.html",
+          "publishedAt": "2026-07-06",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-06",
+          "label": "喜报！西安纺织集团汪丽丽荣获“陕西省优秀共产党员”荣誉称号",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-06",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-50246a83db6b8243db56",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西投资集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "2026-07-06 李家卫到陕西水电二郎坝公司调研督导防汛工作"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "2026-07-06 李家卫到陕西水电二郎坝公司调研督导防汛工作",
+          "url": "https://www.sxigc.com/article/19031",
+          "publishedAt": "2026-07-06",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-06",
+          "label": "2026-07-06 李家卫到陕西水电二郎坝公司调研督导防汛工作",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-06",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-42684b073d4814b680c0",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "陕西水务发展科技集团以创新夯实主业根基 2026-07-06"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西水务发展科技集团以创新夯实主业根基 2026-07-06",
+          "url": "https://www.sxswfzjt.com/news/info/3536",
+          "publishedAt": "2026-07-06",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-06",
+          "label": "陕西水务发展科技集团以创新夯实主业根基 2026-07-06",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-06",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-19b04c6a6668de305355",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西地矿集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "陕西地矿投资党支部荣获陕西省先进基层党组织称号"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西地矿投资党支部荣获陕西省先进基层党组织称号",
+          "url": "https://www.sndk.cn/news/18857.html",
+          "publishedAt": "2026-07-06",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-06",
+          "label": "陕西地矿投资党支部荣获陕西省先进基层党组织称号",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-06",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-7addc1876351eb0dac8b",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安工业投资集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "发挥链主企业聚合效应 助力科技助残成果落地"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "发挥链主企业聚合效应 助力科技助残成果落地",
+          "url": "https://xagytzjt.com/show/260704096PxPU.html",
+          "publishedAt": "2026-07-04",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-04",
+          "label": "发挥链主企业聚合效应 助力科技助残成果落地",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-04",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-ea0ba562e3d36c4452a1",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安市国资委-办公室"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "市国资委组织开展保密专题培训会"
+      },
+      "primarySources": [
+        {
+          "sourceName": "西安市国资委",
+          "title": "市国资委组织开展保密专题培训会",
+          "url": "https://gzw.xa.gov.cn/xwzx/gzdt/2072980931833069569.html",
+          "publishedAt": "2026-07-03",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-03",
+          "label": "市国资委组织开展保密专题培训会",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-03",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-4d4a7b34fbd58f01a7cb",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "陕西水务发展集团召开庆祝中国共产党成立105周年座谈会 2026-07-03"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西水务发展集团召开庆祝中国共产党成立105周年座谈会 2026-07-03",
+          "url": "https://www.sxswfzjt.com/news/info/3521",
+          "publishedAt": "2026-07-03",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-03",
+          "label": "陕西水务发展集团召开庆祝中国共产党成立105周年座谈会 2026-07-03",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-03",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-364f505f42130c06ed09",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西投资集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "2026-07-03 陕西水电上半年发电量同比增长37% 超额完成半年利润目标"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "2026-07-03 陕西水电上半年发电量同比增长37% 超额完成半年利润目标",
+          "url": "https://www.sxigc.com/article/19005",
+          "publishedAt": "2026-07-03",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-03",
+          "label": "2026-07-03 陕西水电上半年发电量同比增长37% 超额完成半年利润目标",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-03",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-33e0f00b5218c3a85dc3",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西省大数据集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "陕西省“两优一先”表彰大会在西安召开"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西省“两优一先”表彰大会在西安召开",
+          "url": "https://www.snbigdata.cn/szyw/4695",
+          "publishedAt": "2026-07-03",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-03",
+          "label": "陕西省“两优一先”表彰大会在西安召开",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-03",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-333f67060e1fc03272ec",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安建设工程交易中心有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "喜报｜西安建设工程交易中心有限公司荣获全市、市国资系统“两优一先”表彰"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "喜报｜西安建设工程交易中心有限公司荣获全市、市国资系统“两优一先”表彰",
+          "url": "http://www.xagcjs.com/home/index/news_details/id/690.html",
+          "publishedAt": "2026-07-03",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-03",
+          "label": "喜报｜西安建设工程交易中心有限公司荣获全市、市国资系统“两优一先”表彰",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-03",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-2e55b9f234ae27215d83",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安商贸物流集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "03 2026-07 喜讯频传！集团多名个人及集体荣获全市、市国资系统 “两优一先” 表彰 更多>"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "03 2026-07 喜讯频传！集团多名个人及集体荣获全市、市国资系统 “两优一先” 表彰 更多>",
+          "url": "https://mp.weixin.qq.com/s/SWIq72SRAWbQc6xI5urH8A",
+          "publishedAt": "2026-07-03",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-03",
+          "label": "03 2026-07 喜讯频传！集团多名个人及集体荣获全市、市国资系统 “两优一先” 表彰 更多>",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-03",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-0adfeb43c15fe6ac535b",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安商贸物流集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "集团举办安全生产专题培训会 2026-06-24"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "集团举办安全生产专题培训会 2026-06-24",
+          "url": "https://mp.weixin.qq.com/s/pN5jwxZa05CUx_-x5MiaVg",
+          "publishedAt": "2026-07-03",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-03",
+          "label": "集团举办安全生产专题培训会 2026-06-24",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-03",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-ecb12efe8661d26f3946",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安商贸物流集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "西安商贸物流集团各单位扎实开展安全生产月系列活动"
+      },
+      "primarySources": [
+        {
+          "sourceName": "西安市国资委",
+          "title": "西安商贸物流集团各单位扎实开展安全生产月系列活动",
+          "url": "https://mp.weixin.qq.com/s/vTFsug3cCgpTqEkhFwjd6A",
+          "publishedAt": "2026-07-02",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-02",
+          "label": "西安商贸物流集团各单位扎实开展安全生产月系列活动",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-02",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-a777232d70cb8446e97f",
+      "channel": "soe",
+      "relatedEntities": [
+        "中陕核工业集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "中陕核集团党委组织集中收看庆祝中国共产党成立105周年大会实况直播 2026-07-02"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "中陕核集团党委组织集中收看庆祝中国共产党成立105周年大会实况直播 2026-07-02",
+          "url": "https://www.nuclgeol.com/info/1026/199541.htm",
+          "publishedAt": "2026-07-02",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-02",
+          "label": "中陕核集团党委组织集中收看庆祝中国共产党成立105周年大会实况直播 2026-07-02",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-02",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-57e6a90598974860ec5c",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "风险治理",
+      "keyFacts": {
+        "title": "陕西水务发展集团召开党风廉政建设暨警示教育会议"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西水务发展集团召开党风廉政建设暨警示教育会议",
+          "url": "https://www.sxswfzjt.com/news/info/3517",
+          "publishedAt": "2026-07-02",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-02",
+          "label": "陕西水务发展集团召开党风廉政建设暨警示教育会议",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-02",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-1992cfe5a6fe4b90b941",
+      "channel": "soe",
+      "relatedEntities": [
+        "中陕核工业集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "综合动态",
+      "keyFacts": {
+        "title": "陕西省第九届3D Slicer软件培训班在宝鸡成功举办 2026-07-02"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西省第九届3D Slicer软件培训班在宝鸡成功举办 2026-07-02",
+          "url": "https://www.nuclgeol.com/info/1026/199551.htm",
+          "publishedAt": "2026-07-02",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-02",
+          "label": "陕西省第九届3D Slicer软件培训班在宝鸡成功举办 2026-07-02",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-02",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-047e2fa427c777aa41d7",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "产业经营",
+      "keyFacts": {
+        "title": "陕西水务发展渔业集团深耕主业加速创新转型 2026-07-02"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西水务发展渔业集团深耕主业加速创新转型 2026-07-02",
+          "url": "https://www.sxswfzjt.com/news/info/3518",
+          "publishedAt": "2026-07-02",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-02",
+          "label": "陕西水务发展渔业集团深耕主业加速创新转型 2026-07-02",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-02",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBPG58",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西九和岛基金管理有限公司",
+        "光大证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "九和岛荣成聚鑫2号私募证券投资基金",
+        "fundNo": "SBPG58",
+        "managerName": "陕西九和岛基金管理有限公司",
+        "custodian": "光大证券股份有限公司",
+        "establishDate": "2026-06-10"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "九和岛荣成聚鑫2号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607021724102306.html",
+          "publishedAt": "2026-07-02",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-02",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBPG58"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-02",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-edcbd95f281dbb09294a",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西财金投资管理有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "资本金融",
+      "keyFacts": {
+        "title": "三级国资资本聚力航天赛道！商业航天产业基金合作协议于首届西部商业航天大会成功​签约"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "三级国资资本聚力航天赛道！商业航天产业基金合作协议于首届西部商业航天大会成功​签约",
+          "url": "https://www.sxcjtz.cn/info/1118/3122.htm",
+          "publishedAt": "2026-07-01",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-01",
+          "label": "三级国资资本聚力航天赛道！商业航天产业基金合作协议于首届西部商业航天大会成功​签约",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-01",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-be322d2241e7deeb2269",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "陕西省引汉济渭二期工程北干线今日试通水"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西省引汉济渭二期工程北干线今日试通水",
+          "url": "https://www.sxswfzjt.com/news/info/3498",
+          "publishedAt": "2026-07-01",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-01",
+          "label": "陕西省引汉济渭二期工程北干线今日试通水",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-01",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-8a35eef4358fb5d03c6e",
+      "channel": "soe",
+      "relatedEntities": [
+        "西安市国资委-考评处"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "风险治理",
+      "keyFacts": {
+        "title": "市国资委召开亏损企业治理攻坚行动动员部署会"
+      },
+      "primarySources": [
+        {
+          "sourceName": "西安市国资委",
+          "title": "市国资委召开亏损企业治理攻坚行动动员部署会",
+          "url": "https://gzw.xa.gov.cn/xwzx/gzdt/2072131592119136257.html",
+          "publishedAt": "2026-07-01",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-01",
+          "label": "市国资委召开亏损企业治理攻坚行动动员部署会",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-01",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-7c6af10ad6089198b993",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西金融控股集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "风险治理",
+      "keyFacts": {
+        "title": "筑牢风险防控底线，践行正确政绩观——产投公司召开风险监测..."
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "筑牢风险防控底线，践行正确政绩观——产投公司召开风险监测...",
+          "url": "https://www.sxjkgroup.com/info/1021/3867.htm",
+          "publishedAt": "2026-07-01",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-01",
+          "label": "筑牢风险防控底线，践行正确政绩观——产投公司召开风险监测...",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-01",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SAVM06",
+      "channel": "private",
+      "relatedEntities": [
+        "海南天辉私募基金管理有限公司",
+        "招商证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "天辉潮汐私募证券投资基金",
+        "fundNo": "SAVM06",
+        "managerName": "海南天辉私募基金管理有限公司",
+        "custodian": "招商证券股份有限公司",
+        "establishDate": "2026-06-17"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "天辉潮汐私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607011926100346.html",
+          "publishedAt": "2026-07-01",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-01",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SAVM06"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-01",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SAQQ68",
+      "channel": "private",
+      "relatedEntities": [
+        "共青城瀛岳私募基金管理有限公司",
+        "华泰证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "瀛岳智升私募证券投资基金",
+        "fundNo": "SAQQ68",
+        "managerName": "共青城瀛岳私募基金管理有限公司",
+        "custodian": "华泰证券股份有限公司",
+        "establishDate": "2026-06-10"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "瀛岳智升私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607011338109145.html",
+          "publishedAt": "2026-07-01",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-07-01",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SAQQ68"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-01",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-f8ebe0b467f22d7c",
+      "channel": "ma",
+      "relatedEntities": [
+        "中节能西安启源机电装备",
+        "节能铁汉拟向节能环境收购"
+      ],
+      "shaanxiRelation": "央企体系内资产重组｜现金收购陕西装备制造标的控股权",
+      "stage": "planning",
+      "keyFacts": {
+        "title": "节能铁汉拟收购西安启源装备控股权",
+        "amount": "交易方案和标的作价尚未最终确定；启源装备2025年净利润4,056.44万元",
+        "industry": "环保装备/机电装备",
+        "nextAction": "交易方案、标的作价、付款安排、关联交易审批和风险防控措施",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于筹划重大资产重组暨关联交易的进展公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-01/1225402993.PDF",
+          "publishedAt": "2026-07-01",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-02",
+          "label": "2026-06-02提示公告",
+          "stageAfter": "planning",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-07-01",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-4fee2c5050bbe4e469a4",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西金融控股集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "风险治理",
+      "keyFacts": {
+        "title": "新时代资本召开违反中央八项规定精神案件 以案促改工作动员部..."
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "新时代资本召开违反中央八项规定精神案件 以案促改工作动员部...",
+          "url": "https://www.sxjkgroup.com/info/1021/3864.htm",
+          "publishedAt": "2026-06-30",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-30",
+          "label": "新时代资本召开违反中央八项规定精神案件 以案促改工作动员部...",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-30",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-34d81f7dcc23d9d5e5ed",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西地矿集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "风险治理",
+      "keyFacts": {
+        "title": "陕西地矿物资开展安全生产大检查"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西地矿物资开展安全生产大检查",
+          "url": "https://www.sndk.cn/news/18853.html",
+          "publishedAt": "2026-06-30",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-30",
+          "label": "陕西地矿物资开展安全生产大检查",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-30",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-0ce14448b59bc9bc7021",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西金融控股集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "资本金融",
+      "keyFacts": {
+        "title": "央地协同筑标杆 金融活水润实体——陕投基金精准赋能地方实业..."
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "央地协同筑标杆 金融活水润实体——陕投基金精准赋能地方实业...",
+          "url": "https://www.sxjkgroup.com/info/1021/3863.htm",
+          "publishedAt": "2026-06-30",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-30",
+          "label": "央地协同筑标杆 金融活水润实体——陕投基金精准赋能地方实业...",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-30",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SAFD45",
+      "channel": "private",
+      "relatedEntities": [
+        "西安沣相投资管理有限公司",
+        "光大证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "沣相元亨私募证券投资基金",
+        "fundNo": "SAFD45",
+        "managerName": "西安沣相投资管理有限公司",
+        "custodian": "光大证券股份有限公司",
+        "establishDate": "2026-06-03"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "沣相元亨私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606301818100701.html",
+          "publishedAt": "2026-06-30",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-30",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SAFD45"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-30",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-28acc60627a1958e",
+      "channel": "ma",
+      "relatedEntities": [
+        "国投农产品供应链（北京）有限公司60%股权",
+        "供销大集拟收购"
+      ],
+      "shaanxiRelation": "陕西上市公司对外收购｜现金收购供应链项目公司控股权",
+      "stage": "completed",
+      "keyFacts": {
+        "title": "供销大集收购国投农产品60%股权",
+        "amount": "成交价格9,977.76万元；已支付保证金2,993.32万元",
+        "industry": "农产品供应链/批发市场运营",
+        "nextAction": "产权交割、应付国投实业119.56万元清理、财务公司存款余额20,582.27万元取出及2027年底前持股降至33%以下安排",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于参与竞拍国投农产品供应链（北京）有限公司60%股权进展的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-30/1225397101.PDF",
+          "publishedAt": "2026-06-30",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-02-07",
+          "label": "2026-02-07首次披露",
+          "stageAfter": "completed",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-06-30",
+          "label": "2026-06-30进展公告",
+          "stageAfter": "completed",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-30",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-aef18d822ce5ff4946fc",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西煤业化工集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "【陕西工人报】国内首套大规模焦油酚绿色精细加工示范项目建成交接"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "【陕西工人报】国内首套大规模焦油酚绿色精细加工示范项目建成交接",
+          "url": "https://www.shccig.com/index/Article/index.html?id=1429015&cid=16",
+          "publishedAt": "2026-06-29",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-29",
+          "label": "【陕西工人报】国内首套大规模焦油酚绿色精细加工示范项目建成交接",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-e5d61ffd5a2aa72f",
+      "channel": "ma",
+      "relatedEntities": [
+        "金诚矿业、步步高矿业",
+        "大唐黄金拟通过目标集团持有"
+      ],
+      "shaanxiRelation": "港股上市公司收购陕西宁陕金矿项目公司权益",
+      "stage": "completed",
+      "keyFacts": {
+        "title": "大唐黄金收购宁陕两家项目公司",
+        "amount": "总代价5.85亿港元；现金2.47亿港元，余款3.38亿港元按0.5港元/股发行6.76亿股代价股份",
+        "industry": "黄金矿业/采矿权与选矿设施",
+        "nextAction": "6月25日股东特别大会、代价股份特别授权、交割条件、矿权合规和估值假设",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "港交所公告（巨潮镜像）",
+          "title": "完成有关收购陕西省宁陕县两间项目公司之重大交易",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-29/1225397461.PDF",
+          "publishedAt": "2026-06-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-05",
+          "label": "2026-06-05通函",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-06-25",
+          "label": "6月25日股东特别大会",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-1809b8def9c6e061",
+      "channel": "ma",
+      "relatedEntities": [
+        "上海美能立成",
+        "美能能源向美能投资收购"
+      ],
+      "shaanxiRelation": "陕西上市公司收购储能资产｜募投变更暨关联交易",
+      "stage": "signed_or_approved",
+      "keyFacts": {
+        "title": "美能能源拟收购上海立成90%股权",
+        "amount": "7,395.78万元；其中拟投入募集资金6,951.00万元",
+        "industry": "工商业用户侧储能/综合能源服务",
+        "nextAction": "6月9日股东会、关联股东回避、募集资金监管协议补充、股权交割",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于收购上海立成90%股权进展暨完成工商变更登记的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225389920.PDF",
+          "publishedAt": "2026-06-27",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-05-21",
+          "label": "2026-05-21董事会",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-05-22",
+          "label": "2026-05-22公告",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-27",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-bed5789950aba42f11af",
+      "channel": "soe",
+      "relatedEntities": [
+        "中陕核工业集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "中陕核集团开展多模态健康管理具身智能项目专题调研 探索智能制造与康养融合的新路径"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "中陕核集团开展多模态健康管理具身智能项目专题调研 探索智能制造与康养融合的新路径",
+          "url": "https://www.nuclgeol.com/info/1026/199011.htm",
+          "publishedAt": "2026-06-26",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-26",
+          "label": "中陕核集团开展多模态健康管理具身智能项目专题调研 探索智能制造与康养融合的新路径",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-26",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-630d670f29d34256afdf",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "陕西水务发展东庄水利公司移民安置重点复建项目——礼淳大桥主桥顺利合龙"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西水务发展东庄水利公司移民安置重点复建项目——礼淳大桥主桥顺利合龙",
+          "url": "https://www.sxswfzjt.com/news/info/3485",
+          "publishedAt": "2026-06-26",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-26",
+          "label": "陕西水务发展东庄水利公司移民安置重点复建项目——礼淳大桥主桥顺利合龙",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-26",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-5f8a9d038642e02e1461",
+      "channel": "soe",
+      "relatedEntities": [
+        "陕西水务发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "项目资产",
+      "keyFacts": {
+        "title": "陕西水务发展水利水电工程集团承建的核电站软密封系列产品——研发生产基地102#综合楼主体顺利封顶"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西水务发展水利水电工程集团承建的核电站软密封系列产品——研发生产基地102#综合楼主体顺利封顶",
+          "url": "https://www.sxswfzjt.com/news/info/3494",
+          "publishedAt": "2026-06-26",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-26",
+          "label": "陕西水务发展水利水电工程集团承建的核电站软密封系列产品——研发生产基地102#综合楼主体顺利封顶",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-26",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SARL35",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西路路金基金管理有限公司",
+        "兴业证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "路路金君合1号私募证券投资基金",
+        "fundNo": "SARL35",
+        "managerName": "陕西路路金基金管理有限公司",
+        "custodian": "兴业证券股份有限公司",
+        "establishDate": "2026-06-03"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "路路金君合1号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606261718100244.html",
+          "publishedAt": "2026-06-26",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-26",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SARL35"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-26",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SAVY00",
+      "channel": "private",
+      "relatedEntities": [
+        "西安天勤汇理私募基金管理有限公司",
+        "中信证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "天勤汇理五号私募证券投资基金",
+        "fundNo": "SAVY00",
+        "managerName": "西安天勤汇理私募基金管理有限公司",
+        "custodian": "中信证券股份有限公司",
+        "establishDate": "2026-06-10"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "天勤汇理五号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606251418104061.html",
+          "publishedAt": "2026-06-25",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-25",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SAVY00"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-25",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-0e323a732235d8317823",
+      "channel": "soe",
+      "relatedEntities": [
+        "中陕核工业集团有限公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "资本金融",
+      "keyFacts": {
+        "title": "中陕核集团首次成功发行公司债券，票面利率创新低"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "中陕核集团首次成功发行公司债券，票面利率创新低",
+          "url": "https://www.nuclgeol.com/info/1026/198571.htm",
+          "publishedAt": "2026-06-22",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-22",
+          "label": "中陕核集团首次成功发行公司债券，票面利率创新低",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-22",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-dd6b657107378ce4",
+      "channel": "ma",
+      "relatedEntities": [
+        "成都天科航空",
+        "炼石航空拟收购并增资"
+      ],
+      "shaanxiRelation": "陕西上市公司对外收购｜现金收购及增资控股",
+      "stage": "signed_or_approved",
+      "keyFacts": {
+        "title": "炼石航空收购并增资成都天科航空",
+        "amount": "收购对价21,998.7547万元，增资5,000万元；完成后持股67.4969%",
+        "industry": "航空航天零部件/航空制造",
+        "nextAction": "股权交割、5,000万元增资拨付、利润承诺8,592万元、后续收购上限及并表影响",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于购买成都天科航空制造股份有限公司股份及增资暨对外投资的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-18/1225375787.PDF",
+          "publishedAt": "2026-06-18",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-17",
+          "label": "2026-06-17董事会",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-06-18",
+          "label": "2026-06-18公告",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-18",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-087d7b42a43da903",
+      "channel": "ma",
+      "relatedEntities": [
+        "华羿微电100%股份",
+        "华天科技"
+      ],
+      "shaanxiRelation": "外地上市公司收购陕西硬科技标的",
+      "stage": "in_progress",
+      "keyFacts": {
+        "title": "华天科技收购华羿微电100%股份",
+        "amount": "29.96亿元；媒体披露溢价率约166.17%",
+        "industry": "半导体功率器件/封测",
+        "nextAction": "深交所审核、配套募资、业绩承诺、退出收益",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-18/1225376702.PDF",
+          "publishedAt": "2026-06-18",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-02-10",
+          "label": "2026-02-10/11披露重组报告书",
+          "stageAfter": "in_progress",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-18",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-e08fe2e17fa626f8f3e7",
+      "channel": "soe",
+      "relatedEntities": [
+        "长安汇通集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "资本金融",
+      "keyFacts": {
+        "title": "陕西社保科创基金签约仪式在西安举行"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "陕西社保科创基金签约仪式在西安举行",
+          "url": "https://www.ca-ht.com/show/1270",
+          "publishedAt": "2026-06-17",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-17",
+          "label": "陕西社保科创基金签约仪式在西安举行",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-17",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBSS20",
+      "channel": "private",
+      "relatedEntities": [
+        "西安博成基金管理有限公司",
+        "华泰证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "博成骏智私募证券投资基金",
+        "fundNo": "SBSS20",
+        "managerName": "西安博成基金管理有限公司",
+        "custodian": "华泰证券股份有限公司",
+        "establishDate": "2026-06-01"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "博成骏智私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606171628104028.html",
+          "publishedAt": "2026-06-17",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-17",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBSS20"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-17",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBFL97",
+      "channel": "private",
+      "relatedEntities": [
+        "苏州水润山禾私募基金管理有限公司",
+        "浙商证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF2",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "水润山禾长江3号私募证券投资基金",
+        "fundNo": "SBFL97",
+        "managerName": "苏州水润山禾私募基金管理有限公司",
+        "custodian": "浙商证券股份有限公司",
+        "establishDate": "2026-04-29"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "水润山禾长江3号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606171628106479.html",
+          "publishedAt": "2026-06-17",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-17",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBFL97"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-17",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-7c72291683eda655",
+      "channel": "ma",
+      "relatedEntities": [
+        "西安创航精密制造",
+        "飞沃科技拟收购60%股权"
+      ],
+      "shaanxiRelation": "外地上市公司现金收购西安商业航天精密加工标的",
+      "stage": "completed",
+      "keyFacts": {
+        "title": "飞沃科技拟收购西安创航60%股权",
+        "amount": "转让对价4,320万元；100%股权交易价7,200万元，评估值7,353万元",
+        "industry": "商业航天零部件/精密机械加工",
+        "nextAction": "股权交割、客户与订单协同、商誉确认、后续业绩承诺或整合安排",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于收购西安创航精密制造科技有限公司股权完成工商变更登记的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-16/1225372923.PDF",
+          "publishedAt": "2026-06-16",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-03",
+          "label": "2026-06-03公告",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-16",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBRJ52",
+      "channel": "private",
+      "relatedEntities": [
+        "五牛（海南）私募基金管理合伙企业（有限合伙）",
+        "国元证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "五牛基金8号私募证券投资基金",
+        "fundNo": "SBRJ52",
+        "managerName": "五牛（海南）私募基金管理合伙企业（有限合伙）",
+        "custodian": "国元证券股份有限公司",
+        "establishDate": "2026-06-01"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "五牛基金8号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606151851101126.html",
+          "publishedAt": "2026-06-15",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-15",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBRJ52"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-15",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-b742611082c3d76b",
+      "channel": "ma",
+      "relatedEntities": [
+        "部分房地产开发业务相关资产及负债",
+        "意向方为西安高科集团或其指定关联方"
+      ],
+      "shaanxiRelation": "陕西上市公司重大资产出售筹划｜关联交易",
+      "stage": "planning",
+      "keyFacts": {
+        "title": "天地源筹划出售房地产开发资产及负债",
+        "amount": "标的范围和交易价格尚未确定；交易如完成预计降低资产负债率",
+        "industry": "房地产开发/资产负债出表",
+        "nextAction": "交易标的边界、作价、关联交易审批、是否构成重大资产重组",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "天地源股份有限公司关于筹划重大资产出售暨关联交易的提示性公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366222.PDF",
+          "publishedAt": "2026-06-12",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-12",
+          "label": "2026-06-12提示",
+          "stageAfter": "planning",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-12",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-08946af858afaff1",
+      "channel": "ma",
+      "relatedEntities": [
+        "沈阳顺义科技",
+        "北方长龙"
+      ],
+      "shaanxiRelation": "陕西上市公司对外收购｜现金重大资产购买",
+      "stage": "signed_or_approved",
+      "keyFacts": {
+        "title": "北方长龙收购顺义科技51%股权",
+        "amount": "4.26亿元；100%隐含估值约8.35亿元",
+        "industry": "军工智能装备",
+        "nextAction": "股东会、深交所问询、业绩承诺、现金支付安排",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "重大资产重组报告书（修订稿）",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF",
+          "publishedAt": "2026-06-12",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-01-08",
+          "label": "2026-01-08意向",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-04-23",
+          "label": "2026-04-23草案",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-12",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-889d912e47445b44dc18",
+      "channel": "soe",
+      "relatedEntities": [
+        "长安汇通集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "资本金融",
+      "keyFacts": {
+        "title": "麦科奥特通过港交所上市聆讯 长安汇通前瞻布局结出硕果"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "麦科奥特通过港交所上市聆讯 长安汇通前瞻布局结出硕果",
+          "url": "https://www.ca-ht.com/show/1269",
+          "publishedAt": "2026-06-11",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-11",
+          "label": "麦科奥特通过港交所上市聆讯 长安汇通前瞻布局结出硕果",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-11",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SANG03",
+      "channel": "private",
+      "relatedEntities": [
+        "海南天辉私募基金管理有限公司",
+        "招商证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "天辉炼金私募证券投资基金",
+        "fundNo": "SANG03",
+        "managerName": "海南天辉私募基金管理有限公司",
+        "custodian": "招商证券股份有限公司",
+        "establishDate": "2026-06-01"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "天辉炼金私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606101448109486.html",
+          "publishedAt": "2026-06-10",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-10",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SANG03"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-10",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SAEB19",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西佑仓资产管理有限公司",
+        "华福证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "佑仓棋昭一号私募证券投资基金",
+        "fundNo": "SAEB19",
+        "managerName": "陕西佑仓资产管理有限公司",
+        "custodian": "华福证券股份有限公司",
+        "establishDate": "2026-05-08"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "佑仓棋昭一号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606101857100711.html",
+          "publishedAt": "2026-06-10",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-10",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SAEB19"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-10",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SALL69",
+      "channel": "private",
+      "relatedEntities": [
+        "西安蒙特卡罗基金管理有限公司",
+        "招商证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "蒙特卡罗专享1号私募证券投资基金",
+        "fundNo": "SALL69",
+        "managerName": "西安蒙特卡罗基金管理有限公司",
+        "custodian": "招商证券股份有限公司",
+        "establishDate": "2026-05-26"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "蒙特卡罗专享1号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606081714124632.html",
+          "publishedAt": "2026-06-08",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-08",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SALL69"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-08",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-3df45d2a93e2c022",
+      "channel": "ma",
+      "relatedEntities": [
+        "西安亿鑫物业管理",
+        "西安曲江金控资管"
+      ],
+      "shaanxiRelation": "港股上市公司出售西安商业物业平台股权及债权",
+      "stage": "in_progress",
+      "keyFacts": {
+        "title": "世纪金花出售西安亿鑫物业100%股权",
+        "amount": "约7.62亿元；含100%股权及相关债权",
+        "industry": "商业物业/零售资产处置",
+        "nextAction": "股东特别大会批准、交割付款、债权转让安排、世纪金花现金流修复",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "港交所公告（巨潮镜像）",
+          "title": "有关出售目标公司的股权及债权之非常重大出售事项及关连交易及股东特别大会通告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-04/1225350487.PDF",
+          "publishedAt": "2026-06-04",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-05-21",
+          "label": "2026-05-21协议",
+          "stageAfter": "in_progress",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-05-25",
+          "label": "2026-05-25公开报道复核",
+          "stageAfter": "in_progress",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-04",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SAJL79",
+      "channel": "private",
+      "relatedEntities": [
+        "西安蒙特卡罗基金管理有限公司",
+        "招商证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "蒙特卡罗恒泰聚盈1号私募证券投资基金",
+        "fundNo": "SAJL79",
+        "managerName": "西安蒙特卡罗基金管理有限公司",
+        "custodian": "招商证券股份有限公司",
+        "establishDate": "2026-05-18"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "蒙特卡罗恒泰聚盈1号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606030942109185.html",
+          "publishedAt": "2026-06-03",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-03",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SAJL79"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-03",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBTU81",
+      "channel": "private",
+      "relatedEntities": [
+        "西安蒙特卡罗基金管理有限公司",
+        "中国银河证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "蒙特卡罗远航5号私募证券投资基金",
+        "fundNo": "SBTU81",
+        "managerName": "西安蒙特卡罗基金管理有限公司",
+        "custodian": "中国银河证券股份有限公司",
+        "establishDate": "2026-05-18"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "蒙特卡罗远航5号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606021006107262.html",
+          "publishedAt": "2026-06-02",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-02",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBTU81"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-02",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SAZW70",
+      "channel": "private",
+      "relatedEntities": [
+        "西安景弘基金管理有限公司",
+        "国泰海通证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "景弘价值长赢六号私募证券投资基金",
+        "fundNo": "SAZW70",
+        "managerName": "西安景弘基金管理有限公司",
+        "custodian": "国泰海通证券股份有限公司",
+        "establishDate": "2026-05-22"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "景弘价值长赢六号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606020829107542.html",
+          "publishedAt": "2026-06-02",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-06-02",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SAZW70"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-06-02",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SAFK24",
+      "channel": "private",
+      "relatedEntities": [
+        "西安蒲公英基金管理有限公司",
+        "中信证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "蒲公英新视野私募证券投资基金",
+        "fundNo": "SAFK24",
+        "managerName": "西安蒲公英基金管理有限公司",
+        "custodian": "中信证券股份有限公司",
+        "establishDate": "2026-04-29"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "蒲公英新视野私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2605261618106987.html",
+          "publishedAt": "2026-05-26",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-05-26",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SAFK24"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-05-26",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-629b484005035fba",
+      "channel": "ma",
+      "relatedEntities": [
+        "西安红土创新50%、西旅创投30%",
+        "西旅集团实业"
+      ],
+      "shaanxiRelation": "陕西上市公司出售参股股权｜关联股权转让",
+      "stage": "completed",
+      "keyFacts": {
+        "title": "西安旅游转让红土创新等参股股权",
+        "amount": "合计1581.25万元；红土公司评估值2796.31万元",
+        "industry": "文旅/创投平台",
+        "nextAction": "继续处置资产、定增输血进展、持续经营修复",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于转让参股公司股权暨关联交易的进展公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-05-26/1225329637.PDF",
+          "publishedAt": "2026-05-26",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-06",
+          "label": "2026-03-06董事会",
+          "stageAfter": "completed",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-05-26",
+          "label": "2026-05-26收款完成",
+          "stageAfter": "completed",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-05-26",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SACS31",
+      "channel": "private",
+      "relatedEntities": [
+        "北京霆云山私募基金管理有限公司",
+        "广发证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "霆云山远扬私募证券投资基金",
+        "fundNo": "SACS31",
+        "managerName": "北京霆云山私募基金管理有限公司",
+        "custodian": "广发证券股份有限公司",
+        "establishDate": "2026-05-12"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "霆云山远扬私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2605251716102949.html",
+          "publishedAt": "2026-05-25",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-05-25",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SACS31"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-05-25",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "soe-backfill-e2b71d9fba62683c5720",
+      "channel": "soe",
+      "relatedEntities": [
+        "长安汇通集团有限责任公司"
+      ],
+      "shaanxiRelation": "陕西国企及其资本、项目、产业动态",
+      "stage": "资本金融",
+      "keyFacts": {
+        "title": "顶流机构、高校基因、全早期！陕西省科创母基金再落三子"
+      },
+      "primarySources": [
+        {
+          "sourceName": "集团官网",
+          "title": "顶流机构、高校基因、全早期！陕西省科创母基金再落三子",
+          "url": "https://www.ca-ht.com/show/1263",
+          "publishedAt": "2026-05-21",
+          "sourceQuality": "official_or_group_site"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-05-21",
+          "label": "顶流机构、高校基因、全早期！陕西省科创母基金再落三子",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-05-21",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-9e1bf53772f2b2e4",
+      "channel": "ma",
+      "relatedEntities": [
+        "西安紫光国芯",
+        "三家产业资本分别受让5%股份"
+      ],
+      "shaanxiRelation": "新三板半导体企业股份协议转让｜产业投资者入股",
+      "stage": "completed",
+      "keyFacts": {
+        "title": "紫光国芯完成15%股份协议转让",
+        "amount": "合计约6.75亿元；三方各受让681.6036万股",
+        "industry": "半导体/存储芯片",
+        "nextAction": "后续融资、IPO路径、产业资本协同",
+        "entityType": "neeq"
+      },
+      "primarySources": [
+        {
+          "sourceName": "全国股转系统",
+          "title": "紫光国芯特定事项协议转让公开信息",
+          "url": "https://www.neeq.com.cn/disclosure/specific_items_transfer.html",
+          "publishedAt": "2026-05-11",
+          "sourceQuality": "official_market_index"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-10",
+          "label": "2026-03-10协议",
+          "stageAfter": "completed",
+          "sourceIds": []
+        },
+        {
+          "at": "2026-05-11",
+          "label": "2026-05-11过户完成",
+          "stageAfter": "completed",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-05-11",
+      "sourceStatus": "historical_pending"
+    },
+    {
+      "eventId": "private-SBTT86",
+      "channel": "private",
+      "relatedEntities": [
+        "深圳乾元资始私募证券基金管理有限公司",
+        "财通证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "乾元强因子1号私募证券投资基金",
+        "fundNo": "SBTT86",
+        "managerName": "深圳乾元资始私募证券基金管理有限公司",
+        "custodian": "财通证券股份有限公司",
+        "establishDate": "2026-05-06"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "乾元强因子1号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2605081723104525.html",
+          "publishedAt": "2026-05-08",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-05-08",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBTT86"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-05-08",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SADY26",
+      "channel": "private",
+      "relatedEntities": [
+        "西安景弘基金管理有限公司",
+        "中信证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "景弘金选私募证券投资基金",
+        "fundNo": "SADY26",
+        "managerName": "西安景弘基金管理有限公司",
+        "custodian": "中信证券股份有限公司",
+        "establishDate": "2026-04-27"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "景弘金选私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604301825102425.html",
+          "publishedAt": "2026-04-30",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-04-30",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SADY26"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-04-30",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-cef51041540e02c8",
+      "channel": "ma",
+      "relatedEntities": [
+        "西安超嗨",
+        "汉朔科技全资子公司"
+      ],
+      "shaanxiRelation": "外地上市公司战略控股西安AI零售标的",
+      "stage": "completed",
+      "keyFacts": {
+        "title": "汉朔科技控股西安超嗨网络",
+        "amount": "5622.752195万元；100%隐含估值约1.19亿元",
+        "industry": "AI零售/智能购物车",
+        "nextAction": "并表影响、海外订单协同、原股东退出情况",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "汉朔科技投资者关系活动记录表",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225265504.PDF",
+          "publishedAt": "2026-04-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-04-29",
+          "label": "2026-04-29工商变更披露",
+          "stageAfter": "completed",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-04-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-94e7858014bd72be",
+      "channel": "ma",
+      "relatedEntities": [
+        "西安招商花园城",
+        "深圳海越锦"
+      ],
+      "shaanxiRelation": "西安项目公司引入外部股东｜增资入股",
+      "stage": "in_progress",
+      "keyFacts": {
+        "title": "西安招商花园城引入深圳海越锦",
+        "amount": "1.74454286亿元；以注册资本注入取得30%股权",
+        "industry": "房地产项目公司",
+        "nextAction": "股权变更、项目开发进度、少数股东权益安排",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "港交所公告（巨潮镜像）",
+          "title": "须予披露及关连交易视作出售一间附属公司之股权",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225269898.PDF",
+          "publishedAt": "2026-04-29",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-04-29",
+          "label": "2026-04-29",
+          "stageAfter": "in_progress",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-04-29",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBVW55",
+      "channel": "private",
+      "relatedEntities": [
+        "深圳抱朴容易私募证券基金管理有限公司",
+        "国泰海通证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF2",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "抱朴指增精选FOF壹号私募证券投资基金",
+        "fundNo": "SBVW55",
+        "managerName": "深圳抱朴容易私募证券基金管理有限公司",
+        "custodian": "国泰海通证券股份有限公司",
+        "establishDate": "2026-04-15"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "抱朴指增精选FOF壹号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604231728104441.html",
+          "publishedAt": "2026-04-23",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-04-23",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBVW55"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-04-23",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBVT15",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西九和岛基金管理有限公司",
+        "国信证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "九和岛传承一号私募证券投资基金",
+        "fundNo": "SBVT15",
+        "managerName": "陕西九和岛基金管理有限公司",
+        "custodian": "国信证券股份有限公司",
+        "establishDate": "2026-04-20"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "九和岛传承一号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604231728101822.html",
+          "publishedAt": "2026-04-23",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-04-23",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBVT15"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-04-23",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBUL97",
+      "channel": "private",
+      "relatedEntities": [
+        "深圳市滨利投资管理有限公司",
+        "兴业证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "滨利汉威丰沛5号私募证券投资基金",
+        "fundNo": "SBUL97",
+        "managerName": "深圳市滨利投资管理有限公司",
+        "custodian": "兴业证券股份有限公司",
+        "establishDate": "2026-04-10"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "滨利汉威丰沛5号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604222017109324.html",
+          "publishedAt": "2026-04-23",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-04-23",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBUL97"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-04-23",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBWC72",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西九和岛基金管理有限公司",
+        "华泰证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "九和岛岩川私募证券投资基金",
+        "fundNo": "SBWC72",
+        "managerName": "陕西九和岛基金管理有限公司",
+        "custodian": "华泰证券股份有限公司",
+        "establishDate": "2026-04-16"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "九和岛岩川私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604211116106643.html",
+          "publishedAt": "2026-04-21",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-04-21",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBWC72"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-04-21",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBTU04",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西九和岛基金管理有限公司",
+        "光大证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "九和岛宏道原宏观多策略私募证券投资基金",
+        "fundNo": "SBTU04",
+        "managerName": "陕西九和岛基金管理有限公司",
+        "custodian": "光大证券股份有限公司",
+        "establishDate": "2026-03-26"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "九和岛宏道原宏观多策略私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604211116107985.html",
+          "publishedAt": "2026-04-21",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-04-21",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBTU04"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-04-21",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBTA04",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西九和岛基金管理有限公司",
+        "国泰海通证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "九和岛廷晟量化一号私募证券投资基金",
+        "fundNo": "SBTA04",
+        "managerName": "陕西九和岛基金管理有限公司",
+        "custodian": "国泰海通证券股份有限公司",
+        "establishDate": "2026-04-15"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "九和岛廷晟量化一号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604201551104119.html",
+          "publishedAt": "2026-04-20",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-04-20",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBTA04"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-04-20",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBUD35",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西九和岛基金管理有限公司",
+        "中信建投证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "九和岛木卫三私募证券投资基金",
+        "fundNo": "SBUD35",
+        "managerName": "陕西九和岛基金管理有限公司",
+        "custodian": "中信建投证券股份有限公司",
+        "establishDate": "2026-04-08"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "九和岛木卫三私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604171541104361.html",
+          "publishedAt": "2026-04-17",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-04-17",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBUD35"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-04-17",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBRH65",
+      "channel": "private",
+      "relatedEntities": [
+        "西安榴花私募基金管理有限公司",
+        "招商证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "榴花精选成长9号私募证券投资基金",
+        "fundNo": "SBRH65",
+        "managerName": "西安榴花私募基金管理有限公司",
+        "custodian": "招商证券股份有限公司",
+        "establishDate": "2026-03-03"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "榴花精选成长9号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604071917117721.html",
+          "publishedAt": "2026-04-08",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-04-08",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBRH65"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-04-08",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "tender-SX-STB-2026-005",
+      "channel": "tender",
+      "relatedEntities": [
+        "西安未央城建产业投资有限责任公司"
+      ],
+      "shaanxiRelation": "陕西省西安市未央区",
+      "stage": "中标结果公示；结果发布时间2026-04-21",
+      "keyFacts": {
+        "title": "选聘2026年产投公司债券发行主承销商项目",
+        "scale": "未公开；按报价反推含税包干费率区间0.20%-0.26%/年",
+        "deadlineOrOpening": "候选公示结束2026-04-20",
+        "winnerStatus": "已披露中标人及中标价"
+      },
+      "primarySources": [
+        {
+          "sourceName": "招采通",
+          "title": "选聘2026年产投公司债券发行主承销商项目",
+          "url": "https://zct.xacin.com.cn/bidding/view/2044729547018080256",
+          "publishedAt": "2026-03-26",
+          "sourceQuality": "discovery_only"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-26",
+          "label": "中标结果公示；结果发布时间2026-04-21",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-03-26",
+      "sourceStatus": "historical_pending"
+    },
+    {
+      "eventId": "private-SBRW61",
+      "channel": "private",
+      "relatedEntities": [
+        "添佑私募基金管理（上海）有限公司",
+        "华泰证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF2",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "添佑启元一号私募证券投资基金",
+        "fundNo": "SBRW61",
+        "managerName": "添佑私募基金管理（上海）有限公司",
+        "custodian": "华泰证券股份有限公司",
+        "establishDate": "2026-02-13"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "添佑启元一号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603251915109035.html",
+          "publishedAt": "2026-03-26",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-26",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBRW61"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-03-26",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SACC03",
+      "channel": "private",
+      "relatedEntities": [
+        "西安蒲公英基金管理有限公司",
+        "中信证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "蒲公英新经济私募证券投资基金",
+        "fundNo": "SACC03",
+        "managerName": "西安蒲公英基金管理有限公司",
+        "custodian": "中信证券股份有限公司",
+        "establishDate": "2026-03-11"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "蒲公英新经济私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603261527103678.html",
+          "publishedAt": "2026-03-26",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-26",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SACC03"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-03-26",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBPG91",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西九和岛基金管理有限公司",
+        "光大证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "九和岛荣成精选1号私募证券投资基金",
+        "fundNo": "SBPG91",
+        "managerName": "陕西九和岛基金管理有限公司",
+        "custodian": "光大证券股份有限公司",
+        "establishDate": "2026-03-18"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "九和岛荣成精选1号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603251448106774.html",
+          "publishedAt": "2026-03-25",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-25",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBPG91"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-03-25",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBFH38",
+      "channel": "private",
+      "relatedEntities": [
+        "西安景弘基金管理有限公司",
+        "国泰海通证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "景弘价值长赢七号私募证券投资基金",
+        "fundNo": "SBFH38",
+        "managerName": "西安景弘基金管理有限公司",
+        "custodian": "国泰海通证券股份有限公司",
+        "establishDate": "2026-03-04"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "景弘价值长赢七号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603231643102021.html",
+          "publishedAt": "2026-03-23",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-23",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBFH38"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-03-23",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBSS43",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西九和岛基金管理有限公司",
+        "光大证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "九和岛荣成精选2号私募证券投资基金",
+        "fundNo": "SBSS43",
+        "managerName": "陕西九和岛基金管理有限公司",
+        "custodian": "光大证券股份有限公司",
+        "establishDate": "2026-03-12"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "九和岛荣成精选2号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603191030107776.html",
+          "publishedAt": "2026-03-19",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-19",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBSS43"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-03-19",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBPZ83",
+      "channel": "private",
+      "relatedEntities": [
+        "西咸新区旷特投资管理有限公司",
+        "国泰海通证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "旷特华寰均衡1号私募证券投资基金",
+        "fundNo": "SBPZ83",
+        "managerName": "西咸新区旷特投资管理有限公司",
+        "custodian": "国泰海通证券股份有限公司",
+        "establishDate": "2026-03-03"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "旷特华寰均衡1号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603181707100624.html",
+          "publishedAt": "2026-03-18",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-18",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBPZ83"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-03-18",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-fbfca3462a01f40d",
+      "channel": "ma",
+      "relatedEntities": [
+        "西安思丹德",
+        "顶固集创"
+      ],
+      "shaanxiRelation": "外地上市公司收购西安军工电子标的｜现金控股收购",
+      "stage": "signed_or_approved",
+      "keyFacts": {
+        "title": "顶固集创收购西安思丹德51.5488%股权",
+        "amount": "2.680538亿元；100%评估值5.21亿元",
+        "industry": "军工电子/精确制导/通信",
+        "nextAction": "股东会、业绩承诺、商誉、军工资质和订单稳定性",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于购买西安思丹德信息技术有限公司51.5488%股权的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-14/1225009083.PDF",
+          "publishedAt": "2026-03-14",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-13",
+          "label": "2026-03-13",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-03-14",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-83a64ad6de4fa755",
+      "channel": "ma",
+      "relatedEntities": [
+        "西安市群健航空精密制造",
+        "海龙飞控"
+      ],
+      "shaanxiRelation": "外地上市公司拟收购西安高端制造标的",
+      "stage": "planning",
+      "keyFacts": {
+        "title": "恒天海龙拟收购群健航空不少于40%股权",
+        "amount": "未披露；价格和比例待正式协议",
+        "industry": "航空发动机/燃机零部件",
+        "nextAction": "尽调结果、正式协议、交易价格、是否形成控股",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "恒天海龙股份有限公司关于全资子公司签署股权收购意向协议的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-13/1225006449.PDF",
+          "publishedAt": "2026-03-13",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-12",
+          "label": "2026-03-12",
+          "stageAfter": "planning",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-03-13",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-9d3063c2c32f9b55",
+      "channel": "ma",
+      "relatedEntities": [
+        "西安招玺锦樾",
+        "西安茂安"
+      ],
+      "shaanxiRelation": "港股上市公司体系内收购西安项目公司",
+      "stage": "signed_or_approved",
+      "keyFacts": {
+        "title": "招商局置地体系内收购西安项目公司",
+        "amount": "7958.96万元；参考目标公司2025-11-30资产净值",
+        "industry": "房地产项目公司",
+        "nextAction": "交割、项目去化、关联资金往来",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "港交所公告（巨潮镜像）",
+          "title": "须予披露及关连交易—收购目标公司之股权及视作财务资助的潜在关连交易",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-06/1225000085.PDF",
+          "publishedAt": "2026-03-06",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-06",
+          "label": "2026-03-06",
+          "stageAfter": "signed_or_approved",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-03-06",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBND22",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西九和岛基金管理有限公司",
+        "华泰证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "九和岛金猫一号私募证券投资基金",
+        "fundNo": "SBND22",
+        "managerName": "陕西九和岛基金管理有限公司",
+        "custodian": "华泰证券股份有限公司",
+        "establishDate": "2026-02-11"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "九和岛金猫一号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603021638102444.html",
+          "publishedAt": "2026-03-02",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-03-02",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBND22"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-03-02",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBPQ43",
+      "channel": "private",
+      "relatedEntities": [
+        "深圳鑫泰禾私募证券投资基金管理有限公司",
+        "中信建投证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "鑫泰禾智选2号私募证券投资基金",
+        "fundNo": "SBPQ43",
+        "managerName": "深圳鑫泰禾私募证券投资基金管理有限公司",
+        "custodian": "中信建投证券股份有限公司",
+        "establishDate": "2026-02-09"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "鑫泰禾智选2号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602271455105060.html",
+          "publishedAt": "2026-02-27",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-02-27",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBPQ43"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-02-27",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "tender-SX-STB-2026-004",
+      "channel": "tender",
+      "relatedEntities": [
+        "西安工业投资集团有限公司"
+      ],
+      "shaanxiRelation": "陕西省西安市",
+      "stage": "中标结果公示；结果发布时间2026-03-30",
+      "keyFacts": {
+        "title": "西安工业投资集团有限公司中期票据发行承销商遴选项目",
+        "scale": "发行规模约10亿元",
+        "deadlineOrOpening": "2026-03-19 09:30",
+        "winnerStatus": "已披露中标人及中标费率"
+      },
+      "primarySources": [
+        {
+          "sourceName": "招采通",
+          "title": "西安工业投资集团有限公司中期票据发行承销商遴选项目",
+          "url": "https://zct.xacin.com.cn/bidding/view/2026941544879230976",
+          "publishedAt": "2026-02-26",
+          "sourceQuality": "discovery_only"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-02-26",
+          "label": "中标结果公示；结果发布时间2026-03-30",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-02-26",
+      "sourceStatus": "historical_pending"
+    },
+    {
+      "eventId": "private-SBRT78",
+      "channel": "private",
+      "relatedEntities": [
+        "西安蒙特卡罗基金管理有限公司",
+        "招商证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "蒙特卡罗卓富9号私募证券投资基金",
+        "fundNo": "SBRT78",
+        "managerName": "西安蒙特卡罗基金管理有限公司",
+        "custodian": "招商证券股份有限公司",
+        "establishDate": "2026-02-11"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "蒙特卡罗卓富9号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602251747104062.html",
+          "publishedAt": "2026-02-25",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-02-25",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBRT78"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-02-25",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "ma-09269b9b645db39a",
+      "channel": "ma",
+      "relatedEntities": [
+        "陕西华经微电子",
+        "陕西华达"
+      ],
+      "shaanxiRelation": "陕西上市公司终止收购｜原拟发行股份购买资产",
+      "stage": "terminated",
+      "keyFacts": {
+        "title": "陕西华达终止收购华经微电子",
+        "amount": "未最终确定；发行股份价格34.75元/股",
+        "industry": "电子元器件/集团资产整合",
+        "nextAction": "是否重启、后续IPO/并购路径、集团内部整合",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "关于终止发行股份购买资产并募集配套资金暨关联交易事项的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-02-13/1224981638.PDF",
+          "publishedAt": "2026-02-13",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-02-13",
+          "label": "2026-02-13终止",
+          "stageAfter": "terminated",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-02-13",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBQA24",
+      "channel": "private",
+      "relatedEntities": [
+        "陕西九和岛基金管理有限公司",
+        "国泰海通证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "九和岛天仓五FOF私募证券投资基金",
+        "fundNo": "SBQA24",
+        "managerName": "陕西九和岛基金管理有限公司",
+        "custodian": "国泰海通证券股份有限公司",
+        "establishDate": "2026-01-26"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "九和岛天仓五FOF私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602121507107460.html",
+          "publishedAt": "2026-02-12",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-02-12",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBQA24"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-02-12",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBPM56",
+      "channel": "private",
+      "relatedEntities": [
+        "西安招融博瑞私募基金管理有限公司",
+        "招商证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "招融森荣私募证券投资基金",
+        "fundNo": "SBPM56",
+        "managerName": "西安招融博瑞私募基金管理有限公司",
+        "custodian": "招商证券股份有限公司",
+        "establishDate": "2026-01-16"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "招融森荣私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602121048109407.html",
+          "publishedAt": "2026-02-12",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-02-12",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBPM56"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-02-12",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBNF40",
+      "channel": "private",
+      "relatedEntities": [
+        "深圳市滨利投资管理有限公司",
+        "兴业证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "滨利丰裕驷号私募证券投资基金",
+        "fundNo": "SBNF40",
+        "managerName": "深圳市滨利投资管理有限公司",
+        "custodian": "兴业证券股份有限公司",
+        "establishDate": "2026-01-26"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "滨利丰裕驷号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602121507105584.html",
+          "publishedAt": "2026-02-12",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-02-12",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBNF40"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-02-12",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBQA87",
+      "channel": "private",
+      "relatedEntities": [
+        "西安蒙特卡罗基金管理有限公司",
+        "招商证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "蒙特卡罗定制10号私募证券投资基金",
+        "fundNo": "SBQA87",
+        "managerName": "西安蒙特卡罗基金管理有限公司",
+        "custodian": "招商证券股份有限公司",
+        "establishDate": "2026-01-26"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "蒙特卡罗定制10号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602101919100303.html",
+          "publishedAt": "2026-02-10",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-02-10",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBQA87"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-02-10",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "private-SBPB06",
+      "channel": "private",
+      "relatedEntities": [
+        "深圳国盛祥隆私募证券基金管理有限公司",
+        "国泰海通证券股份有限公司"
+      ],
+      "shaanxiRelation": "PF1",
+      "stage": "fund_filed",
+      "keyFacts": {
+        "fundName": "国盛祥隆之仁一号私募证券投资基金",
+        "fundNo": "SBPB06",
+        "managerName": "深圳国盛祥隆私募证券基金管理有限公司",
+        "custodian": "国泰海通证券股份有限公司",
+        "establishDate": "2026-01-21"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "title": "国盛祥隆之仁一号私募证券投资基金",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602101919102330.html",
+          "publishedAt": "2026-02-10",
+          "sourceQuality": "regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-02-10",
+          "label": "基金备案",
+          "stageAfter": "",
+          "sourceIds": [
+            "SBPB06"
+          ]
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-02-10",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "tender-SX-STB-2026-003",
+      "channel": "tender",
+      "relatedEntities": [
+        "陕西西咸新区沣西发展集团有限公司"
+      ],
+      "shaanxiRelation": "陕西省西咸新区",
+      "stage": "中标通知",
+      "keyFacts": {
+        "title": "陕西西咸新区沣西发展集团有限公司发行2026海外债券承销商采购项目",
+        "scale": "未公开",
+        "deadlineOrOpening": "",
+        "winnerStatus": "第三方页面显示中标人脱敏"
+      },
+      "primarySources": [
+        {
+          "sourceName": "金融招标网",
+          "title": "陕西西咸新区沣西发展集团有限公司发行2026海外债券承销商采购项目",
+          "url": "https://www.jinrongzhaobiao.com/news-c529c4314e711264248e7dbf635c9de3/",
+          "publishedAt": "2026-01-27",
+          "sourceQuality": "discovery_only"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-01-27",
+          "label": "中标通知",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-01-27",
+      "sourceStatus": "historical_pending"
+    },
+    {
+      "eventId": "tender-SX-STB-2026-002",
+      "channel": "tender",
+      "relatedEntities": [
+        "陕西金资基金管理有限公司"
+      ],
+      "shaanxiRelation": "陕西省西安市",
+      "stage": "中标结果公示；结果发布时间2026-03-02",
+      "keyFacts": {
+        "title": "陕西金资基金管理有限公司发行科创债选定主承销商项目",
+        "scale": "总注册规模不超过15亿元；一标段上交所非公开发行科技创新公司债不超过5亿元；二标段交易商协会定向债务融资工具不超过10亿元",
+        "deadlineOrOpening": "2026-02-12 09:00",
+        "winnerStatus": "已披露入围中标人；最终承销费率按中标投标人报价平均值执行"
+      },
+      "primarySources": [
+        {
+          "sourceName": "中招联合招标采购平台",
+          "title": "陕西金资基金管理有限公司发行科创债选定主承销商项目",
+          "url": "https://www.365trade.com.cn/zfwzb/788330.jhtml",
+          "publishedAt": "2026-01-21",
+          "sourceQuality": "discovery_only"
+        },
+        {
+          "sourceName": "十环招标网索引",
+          "title": "陕西金资基金管理有限公司发行科创债选定主承销商项目",
+          "url": "https://bid.10huan.com/2026/2/index_11.html",
+          "publishedAt": "2026-01-21",
+          "sourceQuality": "discovery_only"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-01-21",
+          "label": "中标结果公示；结果发布时间2026-03-02",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-01-21",
+      "sourceStatus": "historical_pending"
+    },
+    {
+      "eventId": "ma-50e68cae8cfcd070",
+      "channel": "ma",
+      "relatedEntities": [
+        "陕西深宝水电",
+        "受让方待挂牌确定"
+      ],
+      "shaanxiRelation": "陕西上市公司出售资产｜国资平台挂牌转让",
+      "stage": "in_progress",
+      "keyFacts": {
+        "title": "天地源挂牌转让深宝水电51%股权",
+        "amount": "挂牌底价4853.40万元；另涉应收债权4605.55万元",
+        "industry": "水电/资产处置",
+        "nextAction": "是否成交、受让方背景、债权回收安排",
+        "entityType": "listed"
+      },
+      "primarySources": [
+        {
+          "sourceName": "巨潮资讯",
+          "title": "天地源股份有限公司关于公开挂牌转让下属子公司股权的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-01-10/1224928589.PDF",
+          "publishedAt": "2026-01-10",
+          "sourceQuality": "exchange_or_regulator_original"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-01-09",
+          "label": "2026-01-09",
+          "stageAfter": "in_progress",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-01-10",
+      "sourceStatus": "verified"
+    },
+    {
+      "eventId": "tender-SX-STB-2026-001",
+      "channel": "tender",
+      "relatedEntities": [
+        "陕西长安汇通资本管理有限公司"
+      ],
+      "shaanxiRelation": "陕西省西安市",
+      "stage": "项目需求/招标公告线索；已检索到2026-02-02中标结果公示线索",
+      "keyFacts": {
+        "title": "陕西长安汇通资本管理有限公司为投资一揽子标准化债券项目聘请第三方服务机构项目",
+        "scale": "一揽子标准化债券投资项目；具体规模未取得可核验正文",
+        "deadlineOrOpening": "",
+        "winnerStatus": "结果页可见标题，正文图片/会员内容未完整取得；中标单位暂未公开可核验"
+      },
+      "primarySources": [
+        {
+          "sourceName": "招标网中标结果线索",
+          "title": "陕西长安汇通资本管理有限公司为投资一揽子标准化债券项目聘请第三方服务机构项目",
+          "url": "https://shaanxi.zhaobiao.cn/succeed_v_fe20f1812e128fca75da1a8950017c75.html",
+          "publishedAt": "2026-01-04",
+          "sourceQuality": "discovery_only"
+        }
+      ],
+      "timeline": [
+        {
+          "at": "2026-01-04",
+          "label": "项目需求/招标公告线索；已检索到2026-02-02中标结果公示线索",
+          "stageAfter": "",
+          "sourceIds": []
+        }
+      ],
+      "scanAsOf": "2026-07-29",
+      "latestEventDate": "2026-01-04",
+      "sourceStatus": "historical_pending"
+    }
+  ]
+}

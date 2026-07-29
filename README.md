@@ -1,47 +1,57 @@
-# 陕西资本市场日报库
+# 陕西资本市场日报 V2
 
-本仓库用于保存 V1 日报流程、历史输出和静态网页发布文件。
+这是陕西资本市场日报的当前生产仓库。主分支只保留 V2：五栏目官方来源扫描、结构化编辑、质量门禁、网页构建、日图归档和发布代码。
 
-## 目录
+- 线上日报：<https://refrain97.github.io/shaanxi-capital-market-daily/v2/>
+- 当前公开快照：`2026-07-29` / `53fb935994d3`
+- 时区：`Asia/Shanghai`
 
-- `v1/`：四个 V1 日报流程、网页入口、脚本、数据和输出。
-- `docs/`：部署、上架和运维说明，例如 `docs/DEPLOYMENT.md`。
-- `index.html`、`vercel.json`：Vercel 静态站入口和路由配置。
+V1 与 V3 已停止维护，其源代码和独立页面不再出现在主分支。Git 历史仍保留正常审计能力；V2 的日常生产不读取 V1/V3 的同日数据或流程。
+仓库内的当前结构化快照来自上述线上构建，并已移除旧版本路径和迁移字段；线上发布记录仍以 GitHub Pages 为准。
 
-## 日常入口
-
-早上要跑四个 V1 流程时，可以直接对 Codex 说：
-
-```text
-运行 v1 早报总流程，生成今天四个版本，上传 ima，并发布网页。
-```
-
-具体执行清单见 `v1/docs/MORNING_RUNBOOK.md`。
-
-## 整包迁移
-
-生成可迁移文件包：
-
-```bash
-python3 v1/scripts/package_portable_project.py
-```
-
-产物会放在 `packages/`，解压后以 `shaanxi-capital-market-daily/` 作为静态站根目录即可访问；本地验证目录在 `dist/shaanxi-capital-market-daily/`。
-
-## 免费 GitHub Pages 部署
-
-本目录已经内置 GitHub Pages Actions 配置：`.github/workflows/pages.yml`。把 `shaanxi-capital-market-daily/` 作为仓库根目录推送到 GitHub 后，进入仓库的 `Settings` -> `Pages`，将 `Build and deployment` 的 `Source` 设为 `GitHub Actions`。
-
-第一次推送 `main` 分支后，Actions 会自动运行：
-
-```bash
-python3 v1/scripts/package_portable_project.py
-```
-
-并把 `dist/shaanxi-capital-market-daily/` 发布到 GitHub Pages。发布地址通常是：
+## 仓库结构
 
 ```text
-https://你的GitHub用户名.github.io/仓库名/
+.
+├── README.md
+├── index.html                 # 指向线上 V2 的轻量入口
+└── v2/
+    ├── README.md              # V2 功能与运行入口
+    ├── config/                # 来源、观察池与质量合同
+    ├── data/                  # 当前发布快照和必要基线数据
+    ├── docs/                  # 自动化规范、运行手册
+    ├── scripts/               # 唯一生产链路及维护工具
+    └── tests/                 # 来源、内容和发布门禁
 ```
 
-根路径会自动跳转到 `v1/`。
+运行日志、临时扫描、原始 PDF/TXT、截图、IMA 缓存和本地依赖不进入主分支。客户页面的发布资产由受控脚本按白名单写入 `gh-pages`，源码分支不承载历史静态站副本。
+
+## 本地验证
+
+首次准备运行环境：
+
+```bash
+sh v2/scripts/bootstrap_runtime.sh
+```
+
+运行仓库测试：
+
+```bash
+.venv/bin/python -m unittest discover -s v2/tests -p 'test_*.py'
+```
+
+正式生产只有一个入口：
+
+```bash
+sh v2/scripts/run_daily_v2.sh --date "$(TZ=Asia/Shanghai date +%F)" --slot morning --publish
+```
+
+生产任务不得安装依赖、改代码、绕过栏目门禁或直接调用发布器。完整约束见 [V2 运行手册](v2/docs/V2_RUNBOOK.md)。
+
+## 数据与安全边界
+
+- 关键事实必须回到交易所、监管机构或发行人原文。
+- 原始公告仅在临时目录中处理；仓库保留来源 URL、文件哈希、文本质量和结构化结论。
+- 任一必需来源、观察池、原文或哈希校验失败时，生产失败关闭。
+- IMA 凭证只从环境变量读取，不写入代码、配置、日志或 Git 历史。
+- 公开仓库不代表数据结论构成投资建议。

@@ -1,0 +1,8 @@
+{
+  "schemaVersion": "2.0",
+  "status": "active",
+  "reason": "V2仅上传每日冻结后的四类日图（上市公司、证券私募、收并购、金融招投标）。私募与收并购三个月分享图已永久停用。",
+  "deliveryPolicy": "网页上线确认后上传；IMA失败不阻断网页，后续时点从冻结快照自动补传；不以重名追加后缀。",
+  "defaultKnowledgeBaseName": "公告检索",
+  "defaultKnowledgeBaseId": ""
+}

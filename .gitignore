@@ -1,8 +1,52 @@
 .DS_Store
 .env
 .env.*
-node_modules/
+.venv/
 .vercel/
+.vercel-cli/
+.npm-bootstrap/
 .npm-cache/
+.playwright-cli/
+node_modules/
 dist/
+output/
+outputs/
 packages/
+__pycache__/
+*.py[cod]
+
+# V2 production runtime: generated locally and published through the guarded
+# gh-pages allowlist, never committed to the source branch.
+v2/.runtime/
+v2/outputs/
+v2/data/cutover/
+v2/data/ima/
+v2/data/releases/
+v2/data/runs/
+v2/data/scans/
+v2/data/deployment-verification.json
+v2/data/daily/private/
+v2/data/daily/listed/cninfo-announcements-*.json
+v2/data/daily/listed/editorial-brief-*.json
+v2/data/daily/listed/hkex-review-*.json
+v2/data/source/private/snapshots/
+v2/data/source/ma/candidates/
+v2/data/source/ma/exclusions/
+v2/data/source/ma/raw/
+v2/data/source/tender/candidates/
+v2/data/source/tender/exclusions/
+v2/data/source/tender/raw/
+
+# Runtime receipts are ignored by default. The single committed release
+# baseline remains tracked for reproducible quality tests.
+v2/data/readiness/*.json
+v2/data/source/ma/scans/*.json
+v2/data/source/soe/evidence/*.json
+v2/data/source/soe/scans/*.json
+v2/data/source/tender/scans/*.json
+
+# Original disclosure files are transient inputs; only hashes, URLs, quality
+# metrics and structured conclusions belong in the repository.
+v2/**/raw-documents/
+v2/**/*.pdf
+v2/**/*.txt

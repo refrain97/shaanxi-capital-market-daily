@@ -1,0 +1,298 @@
+{
+  "schemaVersion": "1.0",
+  "asOf": "2026-07-27",
+  "status": "ACTIVE_SHARED_CONTRACT",
+  "contractOwner": "V2",
+  "tiers": {
+    "PF1": {
+      "name": "陕西属地证券私募",
+      "rule": "AMAC当前公示的注册地或办公地在陕西省，或经陕西证监局辖区名录与AMAC登记信息交叉核验后人工补入",
+      "dailyPriority": "important"
+    },
+    "PF2": {
+      "name": "陕西重要关联证券私募",
+      "rule": "注册地和办公地均不在陕西，但经公开材料确认具有陕西实质经营、股权或行业组织关系；逐家人工准入并如实标明关系边界",
+      "dailyPriority": "important"
+    }
+  },
+  "automaticExclusions": [
+    "仅董事长、法定代表人或总经理曾在西安学习或任职",
+    "仅存在陕西籍、校友、一般项目合作或产品名称相似",
+    "仅依靠搜索摘要且没有AMAC、监管、公司或行业协会正式材料复核"
+  ],
+  "manualTerritorialTargets": [
+    {
+      "managerId": "1808101319100964",
+      "managerName": "汉中林园投资基金管理合伙企业（有限合伙）",
+      "registerNo": "P1069402",
+      "universeTier": "PF1",
+      "relationType": "shaanxi_registered_manual",
+      "relationStrength": "direct",
+      "dailyPriority": "important",
+      "inclusionReason": "陕西证监局辖区私募基金管理人名录确认其属于陕西辖区；AMAC当前登记注册地为陕西、办公地为重庆。",
+      "currentRegisterProvince": "陕西省",
+      "currentOfficeProvince": "重庆市",
+      "managerDetailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1808101319100964.html",
+      "evidence": [
+        {
+          "sourceName": "陕西证监局辖区私募基金管理人名录",
+          "url": "https://www.csrc.gov.cn/shaanxi/c104633/c7575055/content.shtml",
+          "fact": "确认属于陕西辖区私募基金管理人"
+        },
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1808101319100964.html",
+          "fact": "登记编号P1069402，当前注册地陕西、办公地重庆"
+        }
+      ]
+    },
+    {
+      "managerId": "1711281250109293",
+      "managerName": "西安柏石私募基金管理有限公司",
+      "registerNo": "P1069047",
+      "universeTier": "PF1",
+      "relationType": "shaanxi_registered_manual",
+      "relationStrength": "direct",
+      "dailyPriority": "important",
+      "inclusionReason": "陕西证监局辖区私募基金管理人名录确认其属于陕西辖区；AMAC当前登记注册地为陕西、办公地为浙江。",
+      "currentRegisterProvince": "陕西省",
+      "currentOfficeProvince": "浙江省",
+      "managerDetailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1711281250109293.html",
+      "evidence": [
+        {
+          "sourceName": "陕西证监局辖区私募基金管理人名录",
+          "url": "https://www.csrc.gov.cn/shaanxi/c104633/c7575055/content.shtml",
+          "fact": "确认属于陕西辖区私募基金管理人"
+        },
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1711281250109293.html",
+          "fact": "登记编号P1069047，当前注册地陕西、办公地浙江"
+        }
+      ]
+    },
+    {
+      "managerId": "1705191036105983",
+      "managerName": "西安阿而法私募基金管理合伙企业（有限合伙）",
+      "registerNo": "P1063733",
+      "universeTier": "PF1",
+      "relationType": "shaanxi_registered_manual",
+      "relationStrength": "direct",
+      "dailyPriority": "important",
+      "inclusionReason": "陕西证监局辖区私募基金管理人名录确认其属于陕西辖区；AMAC当前登记注册地为陕西、办公地为广东。",
+      "currentRegisterProvince": "陕西省",
+      "currentOfficeProvince": "广东省",
+      "managerDetailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1705191036105983.html",
+      "evidence": [
+        {
+          "sourceName": "陕西证监局辖区私募基金管理人名录",
+          "url": "https://www.csrc.gov.cn/shaanxi/c104633/c7575055/content.shtml",
+          "fact": "确认属于陕西辖区私募基金管理人"
+        },
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1705191036105983.html",
+          "fact": "登记编号P1063733，当前注册地陕西、办公地广东"
+        }
+      ]
+    },
+    {
+      "managerId": "1705251735106902",
+      "managerName": "西安力天私募基金管理有限公司",
+      "registerNo": "P1064879",
+      "universeTier": "PF1",
+      "relationType": "shaanxi_registered_manual",
+      "relationStrength": "direct",
+      "dailyPriority": "important",
+      "inclusionReason": "陕西证监局辖区私募基金管理人名录确认其属于陕西辖区；AMAC当前登记注册地为陕西、办公地为上海。",
+      "currentRegisterProvince": "陕西省",
+      "currentOfficeProvince": "上海市",
+      "managerDetailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1705251735106902.html",
+      "evidence": [
+        {
+          "sourceName": "陕西证监局辖区私募基金管理人名录",
+          "url": "https://www.csrc.gov.cn/shaanxi/c104633/c7575055/content.shtml",
+          "fact": "确认属于陕西辖区私募基金管理人"
+        },
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1705251735106902.html",
+          "fact": "登记编号P1064879，当前注册地陕西、办公地上海"
+        }
+      ]
+    },
+    {
+      "managerId": "1701061825108832",
+      "managerName": "西安久上基金管理有限公司",
+      "registerNo": "P1065633",
+      "universeTier": "PF1",
+      "relationType": "shaanxi_registered_manual",
+      "relationStrength": "direct",
+      "dailyPriority": "important",
+      "inclusionReason": "陕西证监局辖区私募基金管理人名录确认其属于陕西辖区；AMAC当前登记注册地为陕西、办公地为四川。",
+      "currentRegisterProvince": "陕西省",
+      "currentOfficeProvince": "四川省",
+      "managerDetailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1701061825108832.html",
+      "evidence": [
+        {
+          "sourceName": "陕西证监局辖区私募基金管理人名录",
+          "url": "https://www.csrc.gov.cn/shaanxi/c104633/c7575055/content.shtml",
+          "fact": "确认属于陕西辖区私募基金管理人"
+        },
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1701061825108832.html",
+          "fact": "登记编号P1065633，当前注册地陕西、办公地四川"
+        }
+      ]
+    },
+    {
+      "managerId": "1704262127109859",
+      "managerName": "西安国子资本管理有限公司",
+      "registerNo": "P1065741",
+      "universeTier": "PF1",
+      "relationType": "shaanxi_registered_manual",
+      "relationStrength": "direct",
+      "dailyPriority": "important",
+      "inclusionReason": "陕西证监局辖区私募基金管理人名录确认其属于陕西辖区；AMAC当前登记注册地为陕西、办公地为广东。",
+      "currentRegisterProvince": "陕西省",
+      "currentOfficeProvince": "广东省",
+      "managerDetailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1704262127109859.html",
+      "evidence": [
+        {
+          "sourceName": "陕西证监局辖区私募基金管理人名录",
+          "url": "https://www.csrc.gov.cn/shaanxi/c104633/c7575055/content.shtml",
+          "fact": "确认属于陕西辖区私募基金管理人"
+        },
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1704262127109859.html",
+          "fact": "登记编号P1065741，当前注册地陕西、办公地广东"
+        }
+      ]
+    }
+  ],
+  "relatedTargets": [
+    {
+      "managerId": "101000026206",
+      "managerName": "深圳抱朴容易私募证券基金管理有限公司",
+      "registerNo": "P1020607",
+      "universeTier": "PF2",
+      "relationType": "current_xian_branch_and_shaanxi_group",
+      "relationStrength": "substantive",
+      "relationGroup": "substantive_operation_or_equity",
+      "dailyPriority": "important",
+      "inclusionReason": "陕西泰发祥集团官网确认其为集团旗下资产配置平台，总部位于深圳，并在西安、上海设有分部。",
+      "currentRegisterProvince": "广东省",
+      "currentOfficeProvince": "广东省",
+      "managerDetailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000026206.html",
+      "evidence": [
+        {
+          "sourceName": "陕西泰发祥集团官网",
+          "url": "https://www.tfxgroup.cn/news/12/",
+          "fact": "总部位于深圳，并在西安、上海建立分部"
+        },
+        {
+          "sourceName": "中国证券投资基金业协会",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000026206.html",
+          "fact": "当前登记名称、登记编号及注册办公地址"
+        }
+      ]
+    },
+    {
+      "managerId": "101000040485",
+      "managerName": "上海卓铸私募基金管理有限公司",
+      "registerNo": "P1027840",
+      "universeTier": "PF2",
+      "relationType": "xian_active_branch",
+      "relationStrength": "substantive",
+      "relationGroup": "substantive_operation_or_equity",
+      "dailyPriority": "important",
+      "inclusionReason": "公司官网持续公开西安办公室且西安分公司真实存续；AMAC当前注册地、办公地均为上海。",
+      "currentRegisterProvince": "上海市",
+      "currentOfficeProvince": "上海市",
+      "managerDetailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000040485.html",
+      "evidence": [
+        {
+          "sourceName": "上海卓铸官网",
+          "url": "https://www.zhuozhuinvest.com/website/w/h",
+          "fact": "持续公开西安办公室，并表述以西安为中心、由上海辐射全国"
+        },
+        {
+          "sourceName": "西安分公司工商信息",
+          "fact": "上海卓铸私募基金管理有限公司西安分公司于2024-07-12成立，统一社会信用代码91610112MADQBNQU84"
+        }
+      ]
+    },
+    {
+      "managerId": "101000027983",
+      "managerName": "添佑私募基金管理（上海）有限公司",
+      "registerNo": "P1018901",
+      "universeTier": "PF2",
+      "relationType": "current_shaanxi_shareholders_and_historical_shaanxi_platform",
+      "relationStrength": "substantive",
+      "relationGroup": "substantive_operation_or_equity",
+      "dailyPriority": "important",
+      "inclusionReason": "AMAC当前注册地上海、办公地云南；公开工商材料显示当前陕西产业股东合计40%，并曾控股陕西平台。",
+      "currentRegisterProvince": "上海市",
+      "currentOfficeProvince": "云南省",
+      "managerDetailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000027983.html",
+      "evidence": [
+        {
+          "sourceName": "当前股权工商材料",
+          "fact": "柏晋、陈成学各持股20%，合计40%，两人均具有持续陕西产业任职或持股关系"
+        },
+        {
+          "sourceName": "历史股权工商材料",
+          "fact": "曾持有陕西陕易购供应链管理有限公司60%股权；该历史主体现已注销"
+        }
+      ]
+    },
+    {
+      "managerId": "2111231329102046",
+      "managerName": "龙泉云锋私募基金管理有限公司",
+      "registerNo": "P1073744",
+      "universeTier": "PF2",
+      "relationType": "shaanxi_industry_association_member",
+      "relationStrength": "institutional",
+      "relationGroup": "association_member",
+      "dailyPriority": "important",
+      "inclusionReason": "陕西省证券投资基金业协会正式会员；未发现陕西注册、办公或分公司，仅按行业组织关系列入重要观察。",
+      "currentRegisterProvince": "浙江省",
+      "currentOfficeProvince": "河南省",
+      "managerDetailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2111231329102046.html",
+      "evidence": [
+        {
+          "sourceName": "陕西省证券投资基金业协会",
+          "url": "https://www.amas.org.cn/show/1280.html",
+          "fact": "2025-08-29成为第18批正式会员"
+        }
+      ]
+    },
+    {
+      "managerId": "1705251723108664",
+      "managerName": "苏州水润山禾私募基金管理有限公司",
+      "registerNo": "P1064295",
+      "universeTier": "PF2",
+      "relationType": "shaanxi_industry_association_member",
+      "relationStrength": "institutional",
+      "relationGroup": "association_member",
+      "dailyPriority": "important",
+      "inclusionReason": "同一统一社会信用代码主体以曾用名加入陕西省证券投资基金业协会；未发现陕西注册、办公或分公司，仅按行业组织关系列入重要观察。",
+      "currentRegisterProvince": "江苏省",
+      "currentOfficeProvince": "重庆市",
+      "managerDetailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/1705251723108664.html",
+      "evidence": [
+        {
+          "sourceName": "陕西省证券投资基金业协会",
+          "url": "https://www.amas.org.cn/show/674.html",
+          "fact": "曾用名深圳前海云水梅花资本管理有限公司于2023-08-23成为第12批正式会员"
+        },
+        {
+          "sourceName": "工商主体延续信息",
+          "fact": "更名前后统一社会信用代码91440300335117358H未变"
+        }
+      ]
+    }
+  ]
+}

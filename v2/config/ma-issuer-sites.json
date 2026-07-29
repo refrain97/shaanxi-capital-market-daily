@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "scopeStatement": "本注册表由V2既有25个MA项目相关主体及陕西国企正式观察记录派生，只对configuredSites逐站100%扫描；不声称覆盖全陕西企业。",
+  "configuredSites": [
+    {
+      "entityId": "issuer-shccig",
+      "entityName": "陕西煤业化工集团有限责任公司",
+      "relationToExistingProjects": ["ma-0499bc3e8c10df13", "ma-rainbow-hongyang-minority-2026"],
+      "listUrls": ["https://www.shccig.com/"],
+      "official": true
+    },
+    {
+      "entityId": "issuer-siet",
+      "entityName": "陕西国际经贸集团有限公司",
+      "relationToExistingProjects": ["陕西国企正式观察池"],
+      "listUrls": ["https://www.siet.com.cn/news.html"],
+      "official": true
+    },
+    {
+      "entityId": "issuer-sxcjtz",
+      "entityName": "陕西财金投资管理有限责任公司",
+      "relationToExistingProjects": ["ma-0499bc3e8c10df13"],
+      "listUrls": ["https://www.sxcjtz.cn/"],
+      "official": true
+    }
+  ],
+  "coverageBacklog": [
+    "国投农产品供应链（北京）有限公司",
+    "金诚矿业",
+    "步步高矿业",
+    "成都天科航空",
+    "西安创航精密制造",
+    "中节能西安启源机电装备",
+    "西安亿鑫物业管理",
+    "上海美能立成",
+    "西安中科西光",
+    "陕西长空齿轮",
+    "西安奇芯光电",
+    "西安招商花园城",
+    "西安超嗨网络",
+    "沈阳顺义科技",
+    "西安思丹德",
+    "西安市群健航空精密制造",
+    "西安招玺锦樾",
+    "安徽金沙钼业",
+    "陕西华经微电子",
+    "华羿微电",
+    "陕西深宝水电"
+  ]
+}

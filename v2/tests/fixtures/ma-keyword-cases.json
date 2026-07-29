@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "name": "ordinary_procurement_completion",
+      "text": "一般办公用品采购项目已经完成交易",
+      "matched": false
+    },
+    {
+      "name": "vehicle_disposal",
+      "text": "西安某公司公务车辆公开处置成交公告",
+      "matched": false
+    },
+    {
+      "name": "scrapped_asset_disposal",
+      "text": "泾阳县气象局报废资产转让项目终止公告",
+      "matched": false
+    },
+    {
+      "name": "single_land_disposal",
+      "text": "一宗土地使用权挂牌交易完成",
+      "matched": false
+    },
+    {
+      "name": "equity_transfer_completed",
+      "text": "陕西某公司25%股权转让完成公告",
+      "matched": true
+    },
+    {
+      "name": "capital_increase",
+      "text": "陕西某科技公司公开增资扩股",
+      "matched": true
+    },
+    {
+      "name": "control_change",
+      "text": "关于公司控制权变更完成的公告",
+      "matched": true
+    }
+  ]
+}

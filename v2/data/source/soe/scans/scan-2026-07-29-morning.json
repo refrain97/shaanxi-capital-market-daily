@@ -1,0 +1,15 @@
+{
+  "channel": "soe",
+  "eventOnScanDate": false,
+  "evidencePath": "v2/data/source/soe/evidence/verified-2026-07-29-morning.json",
+  "evidenceSha256": "bae6828cee149081e0781e0c8f74b2b3ac010dcb5cc4beb1149711f63363443c",
+  "importedOrReverified": 0,
+  "latestVerifiedEventDate": "2026-07-28",
+  "networkVerified": true,
+  "rejectedCandidates": [],
+  "scanAsOf": "2026-07-29",
+  "schemaVersion": "1.0",
+  "slot": "morning",
+  "sourceChecks": [],
+  "status": "completed"
+}

@@ -1,0 +1,2005 @@
+{
+  "schemaVersion": "2.0",
+  "owner": "V2",
+  "scanAsOf": "2026-07-29",
+  "channels": {
+    "listed": [
+      {
+        "entityId": "listed-000516-sz",
+        "legalName": "国际医学",
+        "displayName": "国际医学",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-000561-sz",
+        "legalName": "烽火电子",
+        "displayName": "烽火电子",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-000563-sz",
+        "legalName": "陕国投A",
+        "displayName": "陕国投A",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-000564-sz",
+        "legalName": "供销大集",
+        "displayName": "供销大集",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-000610-sz",
+        "legalName": "西安旅游",
+        "displayName": "西安旅游",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-000697-sz",
+        "legalName": "ST炼石",
+        "displayName": "ST炼石",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-000721-sz",
+        "legalName": "西安饮食",
+        "displayName": "西安饮食",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-000768-sz",
+        "legalName": "中航西飞",
+        "displayName": "中航西飞",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-000812-sz",
+        "legalName": "陕西金叶",
+        "displayName": "陕西金叶",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-000837-sz",
+        "legalName": "秦川机床",
+        "displayName": "秦川机床",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-001231-sz",
+        "legalName": "农心科技",
+        "displayName": "农心科技",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-001286-sz",
+        "legalName": "陕西能源",
+        "displayName": "陕西能源",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-001299-sz",
+        "legalName": "美能能源",
+        "displayName": "美能能源",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-002109-sz",
+        "legalName": "兴化股份",
+        "displayName": "兴化股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-002149-sz",
+        "legalName": "西部材料",
+        "displayName": "西部材料",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-002267-sz",
+        "legalName": "陕天然气",
+        "displayName": "陕天然气",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-002673-sz",
+        "legalName": "西部证券",
+        "displayName": "西部证券",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-002799-sz",
+        "legalName": "环球印务",
+        "displayName": "环球印务",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-002864-sz",
+        "legalName": "盘龙药业",
+        "displayName": "盘龙药业",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-003009-sz",
+        "legalName": "中天火箭",
+        "displayName": "中天火箭",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-300103-sz",
+        "legalName": "达刚控股",
+        "displayName": "达刚控股",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-300140-sz",
+        "legalName": "节能环境",
+        "displayName": "节能环境",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-300164-sz",
+        "legalName": "通源石油",
+        "displayName": "通源石油",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-300397-sz",
+        "legalName": "天和防务",
+        "displayName": "天和防务",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-300487-sz",
+        "legalName": "蓝晓科技",
+        "displayName": "蓝晓科技",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-300581-sz",
+        "legalName": "晨曦航空",
+        "displayName": "晨曦航空",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-300775-sz",
+        "legalName": "三角防务",
+        "displayName": "三角防务",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-300831-sz",
+        "legalName": "派瑞股份",
+        "displayName": "派瑞股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-300861-sz",
+        "legalName": "美畅股份",
+        "displayName": "美畅股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-301031-sz",
+        "legalName": "中熔电气",
+        "displayName": "中熔电气",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-301171-sz",
+        "legalName": "易点天下",
+        "displayName": "易点天下",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-301231-sz",
+        "legalName": "荣信文化",
+        "displayName": "荣信文化",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-301306-sz",
+        "legalName": "西测测试",
+        "displayName": "西测测试",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-301357-sz",
+        "legalName": "北方长龙",
+        "displayName": "北方长龙",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-301517-sz",
+        "legalName": "陕西华达",
+        "displayName": "陕西华达",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-301589-sz",
+        "legalName": "诺瓦星云",
+        "displayName": "诺瓦星云",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-302132-sz",
+        "legalName": "中航成飞",
+        "displayName": "中航成飞",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600080-sh",
+        "legalName": "金花股份",
+        "displayName": "金花股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600217-sh",
+        "legalName": "中再资环",
+        "displayName": "中再资环",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600248-sh",
+        "legalName": "陕建股份",
+        "displayName": "陕建股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600302-sh",
+        "legalName": "标准股份",
+        "displayName": "标准股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600343-sh",
+        "legalName": "航天动力",
+        "displayName": "航天动力",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600379-sh",
+        "legalName": "宝光股份",
+        "displayName": "宝光股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600455-sh",
+        "legalName": "博通股份",
+        "displayName": "博通股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600456-sh",
+        "legalName": "宝钛股份",
+        "displayName": "宝钛股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600665-sh",
+        "legalName": "天地源",
+        "displayName": "天地源",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600706-sh",
+        "legalName": "曲江文旅",
+        "displayName": "曲江文旅",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600707-sh",
+        "legalName": "彩虹股份",
+        "displayName": "彩虹股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600831-sh",
+        "legalName": "广电网络",
+        "displayName": "广电网络",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600893-sh",
+        "legalName": "航发动力",
+        "displayName": "航发动力",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600928-sh",
+        "legalName": "西安银行",
+        "displayName": "西安银行",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-600984-sh",
+        "legalName": "建设机械",
+        "displayName": "建设机械",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-601012-sh",
+        "legalName": "隆基绿能",
+        "displayName": "隆基绿能",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-601015-sh",
+        "legalName": "陕西黑猫",
+        "displayName": "陕西黑猫",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-601179-sh",
+        "legalName": "中国西电",
+        "displayName": "中国西电",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-601225-sh",
+        "legalName": "陕西煤业",
+        "displayName": "陕西煤业",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-601369-sh",
+        "legalName": "陕鼓动力",
+        "displayName": "陕鼓动力",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-601568-sh",
+        "legalName": "北元集团",
+        "displayName": "北元集团",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-601958-sh",
+        "legalName": "金钼股份",
+        "displayName": "金钼股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-603139-sh",
+        "legalName": "康惠股份",
+        "displayName": "康惠股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-603402-sh",
+        "legalName": "陕西旅游",
+        "displayName": "陕西旅游",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-605033-sh",
+        "legalName": "美邦股份",
+        "displayName": "美邦股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-605168-sh",
+        "legalName": "三人行",
+        "displayName": "三人行",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688101-sh",
+        "legalName": "三达膜",
+        "displayName": "三达膜",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688102-sh",
+        "legalName": "斯瑞新材",
+        "displayName": "斯瑞新材",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688122-sh",
+        "legalName": "西部超导",
+        "displayName": "西部超导",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688150-sh",
+        "legalName": "莱特光电",
+        "displayName": "莱特光电",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688167-sh",
+        "legalName": "炬光科技",
+        "displayName": "炬光科技",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688269-sh",
+        "legalName": "凯立新材",
+        "displayName": "凯立新材",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688281-sh",
+        "legalName": "华秦科技",
+        "displayName": "华秦科技",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688285-sh",
+        "legalName": "高铁电气",
+        "displayName": "高铁电气",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688314-sh",
+        "legalName": "康拓医疗",
+        "displayName": "康拓医疗",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688333-sh",
+        "legalName": "铂力特",
+        "displayName": "铂力特",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688334-sh",
+        "legalName": "西高院",
+        "displayName": "西高院",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688498-sh",
+        "legalName": "源杰科技",
+        "displayName": "源杰科技",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688550-sh",
+        "legalName": "瑞联新材",
+        "displayName": "瑞联新材",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688719-sh",
+        "legalName": "爱科赛博",
+        "displayName": "爱科赛博",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688783-sh",
+        "legalName": "西安奕材-U",
+        "displayName": "西安奕材-U",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-688813-sh",
+        "legalName": "泰金新能",
+        "displayName": "泰金新能",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-920098-bj",
+        "legalName": "科隆新材",
+        "displayName": "科隆新材",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-920519-bj",
+        "legalName": "万德股份",
+        "displayName": "万德股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-920564-bj",
+        "legalName": "天润科技",
+        "displayName": "天润科技",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-920576-bj",
+        "legalName": "天力复合",
+        "displayName": "天力复合",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-920599-bj",
+        "legalName": "同力股份",
+        "displayName": "同力股份",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-920640-bj",
+        "legalName": "富士达",
+        "displayName": "富士达",
+        "tier": "L1",
+        "relation": "陕西辖区A股"
+      },
+      {
+        "entityId": "listed-0438-hk",
+        "legalName": "彩虹新能源",
+        "displayName": "彩虹新能源",
+        "tier": "L2",
+        "relation": "陕西办公地"
+      },
+      {
+        "entityId": "listed-2335-hk",
+        "legalName": "麦科医药-B",
+        "displayName": "麦科医药-B",
+        "tier": "L2",
+        "relation": "陕西办公地"
+      },
+      {
+        "entityId": "listed-2418-hk",
+        "legalName": "德银天下",
+        "displayName": "德银天下",
+        "tier": "L2",
+        "relation": "陕西办公地"
+      },
+      {
+        "entityId": "listed-1354-hk",
+        "legalName": "经发物业",
+        "displayName": "经发物业",
+        "tier": "L2",
+        "relation": "陕西办公地"
+      },
+      {
+        "entityId": "listed-8227-hk",
+        "legalName": "海天天线",
+        "displayName": "海天天线",
+        "tier": "L2",
+        "relation": "陕西办公地"
+      },
+      {
+        "entityId": "listed-2233-hk",
+        "legalName": "西部水泥",
+        "displayName": "西部水泥",
+        "tier": "L2",
+        "relation": "陕西办公地"
+      },
+      {
+        "entityId": "listed-6162-hk",
+        "legalName": "天瑞汽车内饰",
+        "displayName": "天瑞汽车内饰",
+        "tier": "L2",
+        "relation": "陕西办公地"
+      },
+      {
+        "entityId": "listed-1771-hk",
+        "legalName": "新丰泰集团",
+        "displayName": "新丰泰集团",
+        "tier": "L2",
+        "relation": "陕西办公地"
+      },
+      {
+        "entityId": "listed-8631-hk",
+        "legalName": "申港控股",
+        "displayName": "申港控股",
+        "tier": "L2",
+        "relation": "陕西办公地"
+      },
+      {
+        "entityId": "listed-2367-hk",
+        "legalName": "巨子生物",
+        "displayName": "巨子生物",
+        "tier": "L2",
+        "relation": "陕西办公地"
+      },
+      {
+        "entityId": "listed-0162-hk",
+        "legalName": "世纪金花",
+        "displayName": "世纪金花",
+        "tier": "L2",
+        "relation": "主要业务在陕西"
+      },
+      {
+        "entityId": "listed-0620-hk",
+        "legalName": "大唐西市",
+        "displayName": "大唐西市",
+        "tier": "L2",
+        "relation": "主要业务在陕西"
+      },
+      {
+        "entityId": "listed-0346-hk",
+        "legalName": "延长石油国际",
+        "displayName": "延长石油国际",
+        "tier": "L2",
+        "relation": "主要业务在陕西"
+      },
+      {
+        "entityId": "listed-0997-hk",
+        "legalName": "普汇中金国际",
+        "displayName": "普汇中金国际",
+        "tier": "L2",
+        "relation": "主要业务在陕西"
+      },
+      {
+        "entityId": "listed-002185-sz",
+        "legalName": "华天科技",
+        "displayName": "华天科技",
+        "tier": "L3",
+        "relation": "西安核心生产基地及总部管理子公司"
+      },
+      {
+        "entityId": "listed-600089-sh",
+        "legalName": "特变电工",
+        "displayName": "特变电工",
+        "tier": "L3",
+        "relation": "西安重资产制造与研发项目"
+      },
+      {
+        "entityId": "listed-600212-sh",
+        "legalName": "绿能慧充",
+        "displayName": "绿能慧充",
+        "tier": "L3",
+        "relation": "西安全资子公司及研发制造基地"
+      },
+      {
+        "entityId": "listed-600184-sh",
+        "legalName": "光电股份",
+        "displayName": "光电股份",
+        "tier": "L3",
+        "relation": "总部及主要办公地址在西安"
+      },
+      {
+        "entityId": "listed-002140-sz",
+        "legalName": "东华科技",
+        "displayName": "东华科技",
+        "tier": "L3",
+        "relation": "陕煤集团为第二大股东并持股20.79%"
+      },
+      {
+        "entityId": "listed-002246-sz",
+        "legalName": "北化股份",
+        "displayName": "北化股份",
+        "tier": "L3",
+        "relation": "西安惠安为同一控股集团产业主体并持股5.49%"
+      },
+      {
+        "entityId": "listed-300527-sz",
+        "legalName": "ST应急",
+        "displayName": "ST应急",
+        "tier": "L3",
+        "relation": "西安705所为控股集团体系内主体并间接持股1.97%"
+      },
+      {
+        "entityId": "listed-600879-sh",
+        "legalName": "航天电子",
+        "displayName": "航天电子",
+        "tier": "L3",
+        "relation": "陕西导航与陕西苍松为同一控股集团产业主体，合计持股2.98%"
+      },
+      {
+        "entityId": "listed-300110-sz",
+        "legalName": "华仁药业",
+        "displayName": "华仁药业",
+        "tier": "L3",
+        "relation": "西安曲江天授健康投资为第一大股东并持股20.00%"
+      },
+      {
+        "entityId": "listed-000659-sz",
+        "legalName": "珠海中富",
+        "displayName": "珠海中富",
+        "tier": "L3",
+        "relation": "陕西新丝路进取一号为第一大股东并持股15.71%"
+      },
+      {
+        "entityId": "listed-002022-sz",
+        "legalName": "科华生物",
+        "displayName": "科华生物",
+        "tier": "L3",
+        "relation": "西安致同直接持股5.00%，叠加表决权委托后控制15.64%表决权并形成公司控制"
+      }
+    ],
+    "private": [
+      {
+        "entityId": "2303081121100381",
+        "legalName": "北京霆云山私募基金管理有限公司",
+        "displayName": "北京霆云山私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2302071706100055",
+        "legalName": "西安迈睿恒力私募基金管理有限公司",
+        "displayName": "西安迈睿恒力私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2104261451107240",
+        "legalName": "海南名策私募基金管理有限公司",
+        "displayName": "海南名策私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2107201836101899",
+        "legalName": "陕西鑫旅私募基金管理有限公司",
+        "displayName": "陕西鑫旅私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2110081708117945",
+        "legalName": "西安招融博瑞私募基金管理有限公司",
+        "displayName": "西安招融博瑞私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2108171432114024",
+        "legalName": "孤岩量子私募基金管理(西安)有限公司",
+        "displayName": "孤岩量子私募基金管理(西安)有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2107141320103302",
+        "legalName": "共青城瀛岳私募基金管理有限公司",
+        "displayName": "共青城瀛岳私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2012291919106869",
+        "legalName": "国富联合（青岛）私募基金管理有限公司",
+        "displayName": "国富联合（青岛）私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2105211711106800",
+        "legalName": "佳睿（晋江）私募基金管理有限公司",
+        "displayName": "佳睿（晋江）私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2105141101101292",
+        "legalName": "陕西碣石私募基金管理有限公司",
+        "displayName": "陕西碣石私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2012101805104621",
+        "legalName": "陕西禄格私募基金管理有限公司",
+        "displayName": "陕西禄格私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2103262010107683",
+        "legalName": "青岛华源锦成私募基金管理有限公司",
+        "displayName": "青岛华源锦成私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2009181331107731",
+        "legalName": "西安天勤汇理私募基金管理有限公司",
+        "displayName": "西安天勤汇理私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2006291629103361",
+        "legalName": "陕西卓信永诚私募基金管理有限公司",
+        "displayName": "陕西卓信永诚私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2003171100101302",
+        "legalName": "天榕（青岛）基金管理有限公司",
+        "displayName": "天榕（青岛）基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1912031802107663",
+        "legalName": "西安悦枫资产管理有限公司",
+        "displayName": "西安悦枫资产管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2007071048106707",
+        "legalName": "陕西佑仓资产管理有限公司",
+        "displayName": "陕西佑仓资产管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2008111918106744",
+        "legalName": "陕西九和岛基金管理有限公司",
+        "displayName": "陕西九和岛基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1905221720103058",
+        "legalName": "西安铂石基金管理有限公司",
+        "displayName": "西安铂石基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "2003092254101539",
+        "legalName": "陕西安泽众赢投资有限公司",
+        "displayName": "陕西安泽众赢投资有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1806131406100721",
+        "legalName": "陕西瑞友晨盛资产管理有限公司",
+        "displayName": "陕西瑞友晨盛资产管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1912121441104548",
+        "legalName": "西安曲江祥汇私募基金管理有限公司",
+        "displayName": "西安曲江祥汇私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1812271707108231",
+        "legalName": "西安豹亚基金管理合伙企业（有限合伙）",
+        "displayName": "西安豹亚基金管理合伙企业（有限合伙）",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1903221844101307",
+        "legalName": "西安古城吴氏私募基金管理有限公司",
+        "displayName": "西安古城吴氏私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1811231117101176",
+        "legalName": "西安景弘基金管理有限公司",
+        "displayName": "西安景弘基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1903261107103383",
+        "legalName": "五牛（海南）私募基金管理合伙企业（有限合伙）",
+        "displayName": "五牛（海南）私募基金管理合伙企业（有限合伙）",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1804231017107072",
+        "legalName": "陕西沣上投资管理合伙企业（有限合伙）",
+        "displayName": "陕西沣上投资管理合伙企业（有限合伙）",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1809181551101419",
+        "legalName": "西咸新区旷特投资管理有限公司",
+        "displayName": "西咸新区旷特投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1806051725102032",
+        "legalName": "西安好奇投资管理有限公司",
+        "displayName": "西安好奇投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1807241211108100",
+        "legalName": "陕西大安基金管理有限公司",
+        "displayName": "陕西大安基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1708151102103892",
+        "legalName": "西安关天私募证券投资基金有限公司",
+        "displayName": "西安关天私募证券投资基金有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1709221136104106",
+        "legalName": "西安恒捷汇理资产管理有限公司",
+        "displayName": "西安恒捷汇理资产管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1710131530109018",
+        "legalName": "西安智本私募基金管理有限公司",
+        "displayName": "西安智本私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1711241752102480",
+        "legalName": "西安榴花私募基金管理有限公司",
+        "displayName": "西安榴花私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1709111805102816",
+        "legalName": "西安博成基金管理有限公司",
+        "displayName": "西安博成基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1711101618109089",
+        "legalName": "西安瀑布资产管理有限公司",
+        "displayName": "西安瀑布资产管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1708292135105512",
+        "legalName": "西安晟泽资产管理有限公司",
+        "displayName": "西安晟泽资产管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1610250945101223",
+        "legalName": "陕西济仁投资管理有限公司",
+        "displayName": "陕西济仁投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1704131628105857",
+        "legalName": "西安蒙特卡罗基金管理有限公司",
+        "displayName": "西安蒙特卡罗基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1708101546105022",
+        "legalName": "西安波普私募基金管理有限公司",
+        "displayName": "西安波普私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1707261443105960",
+        "legalName": "西安蒲公英基金管理有限公司",
+        "displayName": "西安蒲公英基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1704241118107277",
+        "legalName": "西安达人私募基金管理有限公司",
+        "displayName": "西安达人私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1705261123107174",
+        "legalName": "西安宽格宏略基金管理有限公司",
+        "displayName": "西安宽格宏略基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1706082037101131",
+        "legalName": "陕西顺义成投资管理有限公司",
+        "displayName": "陕西顺义成投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1703241729101117",
+        "legalName": "西安江岳私募基金管理有限公司",
+        "displayName": "西安江岳私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1704181432105117",
+        "legalName": "西安合鑫投资管理有限公司",
+        "displayName": "西安合鑫投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1703131611108607",
+        "legalName": "西安沣相投资管理有限公司",
+        "displayName": "西安沣相投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1610270841106387",
+        "legalName": "西安景曜投资管理有限公司",
+        "displayName": "西安景曜投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1609090904100604",
+        "legalName": "陕西方德磐石私募基金管理有限公司",
+        "displayName": "陕西方德磐石私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1609271347111122",
+        "legalName": "西安地坤投资管理有限公司",
+        "displayName": "西安地坤投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1609220851102223",
+        "legalName": "陕西趋势投资管理有限公司",
+        "displayName": "陕西趋势投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1609091201100265",
+        "legalName": "海南天辉私募基金管理有限公司",
+        "displayName": "海南天辉私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000051182",
+        "legalName": "西安玖润投资管理有限公司",
+        "displayName": "西安玖润投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000050603",
+        "legalName": "陕西云从投资管理有限公司",
+        "displayName": "陕西云从投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000047461",
+        "legalName": "深圳永宁资产管理有限公司",
+        "displayName": "深圳永宁资产管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000044913",
+        "legalName": "博汇康宁（深圳）投资基金管理有限公司",
+        "displayName": "博汇康宁（深圳）投资基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000040949",
+        "legalName": "深圳景润投资管理有限公司",
+        "displayName": "深圳景润投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000038619",
+        "legalName": "深圳前海长征私募证券基金管理有限公司",
+        "displayName": "深圳前海长征私募证券基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000041857",
+        "legalName": "深圳鑫泰禾私募证券投资基金管理有限公司",
+        "displayName": "深圳鑫泰禾私募证券投资基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000034419",
+        "legalName": "深圳融智天成国际资本管理股份有限公司",
+        "displayName": "深圳融智天成国际资本管理股份有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000034660",
+        "legalName": "深圳开济资产管理有限公司",
+        "displayName": "深圳开济资产管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000026383",
+        "legalName": "上海屹成投资管理中心(有限合伙)",
+        "displayName": "上海屹成投资管理中心(有限合伙)",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000032866",
+        "legalName": "深圳格尚资产管理有限公司",
+        "displayName": "深圳格尚资产管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000031013",
+        "legalName": "深圳乾元资始私募证券基金管理有限公司",
+        "displayName": "深圳乾元资始私募证券基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000029070",
+        "legalName": "深圳德丰嘉禾私募证券基金管理有限公司",
+        "displayName": "深圳德丰嘉禾私募证券基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000024937",
+        "legalName": "陕西路路金基金管理有限公司",
+        "displayName": "陕西路路金基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000024132",
+        "legalName": "上海忠石私募基金管理有限公司",
+        "displayName": "上海忠石私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000026975",
+        "legalName": "深圳基成资本管理有限公司",
+        "displayName": "深圳基成资本管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000025441",
+        "legalName": "深圳汇长安资产管理有限公司",
+        "displayName": "深圳汇长安资产管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000019713",
+        "legalName": "深圳国盛祥隆私募证券基金管理有限公司",
+        "displayName": "深圳国盛祥隆私募证券基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000015685",
+        "legalName": "陕西德盈私募基金管理有限公司",
+        "displayName": "陕西德盈私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000012244",
+        "legalName": "陕西铁马投资管理有限公司",
+        "displayName": "陕西铁马投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000006845",
+        "legalName": "陕西先锋投资有限公司",
+        "displayName": "陕西先锋投资有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000014030",
+        "legalName": "西安蓝鲸私募基金管理有限公司",
+        "displayName": "西安蓝鲸私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000014468",
+        "legalName": "陕西君研私募基金管理有限公司",
+        "displayName": "陕西君研私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000007176",
+        "legalName": "陕西景唐投资管理有限公司",
+        "displayName": "陕西景唐投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000007655",
+        "legalName": "深圳市滨利投资管理有限公司",
+        "displayName": "深圳市滨利投资管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000004262",
+        "legalName": "海南利和私募基金管理有限公司",
+        "displayName": "海南利和私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000010288",
+        "legalName": "西安兆峻资产管理有限公司",
+        "displayName": "西安兆峻资产管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000000726",
+        "legalName": "陕西亿星私募基金管理有限公司",
+        "displayName": "陕西亿星私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "101000003440",
+        "legalName": "陕西博盛隆投资有限公司",
+        "displayName": "陕西博盛隆投资有限公司",
+        "tier": "PF1",
+        "relation": "AMAC公示注册地或办公地在陕西"
+      },
+      {
+        "entityId": "1808101319100964",
+        "legalName": "汉中林园投资基金管理合伙企业（有限合伙）",
+        "displayName": "汉中林园投资基金管理合伙企业（有限合伙）",
+        "tier": "PF1",
+        "relation": "陕西证监局辖区私募基金管理人名录确认其属于陕西辖区；AMAC当前登记注册地为陕西、办公地为重庆。"
+      },
+      {
+        "entityId": "1711281250109293",
+        "legalName": "西安柏石私募基金管理有限公司",
+        "displayName": "西安柏石私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "陕西证监局辖区私募基金管理人名录确认其属于陕西辖区；AMAC当前登记注册地为陕西、办公地为浙江。"
+      },
+      {
+        "entityId": "1705191036105983",
+        "legalName": "西安阿而法私募基金管理合伙企业（有限合伙）",
+        "displayName": "西安阿而法私募基金管理合伙企业（有限合伙）",
+        "tier": "PF1",
+        "relation": "陕西证监局辖区私募基金管理人名录确认其属于陕西辖区；AMAC当前登记注册地为陕西、办公地为广东。"
+      },
+      {
+        "entityId": "1705251735106902",
+        "legalName": "西安力天私募基金管理有限公司",
+        "displayName": "西安力天私募基金管理有限公司",
+        "tier": "PF1",
+        "relation": "陕西证监局辖区私募基金管理人名录确认其属于陕西辖区；AMAC当前登记注册地为陕西、办公地为上海。"
+      },
+      {
+        "entityId": "1701061825108832",
+        "legalName": "西安久上基金管理有限公司",
+        "displayName": "西安久上基金管理有限公司",
+        "tier": "PF1",
+        "relation": "陕西证监局辖区私募基金管理人名录确认其属于陕西辖区；AMAC当前登记注册地为陕西、办公地为四川。"
+      },
+      {
+        "entityId": "1704262127109859",
+        "legalName": "西安国子资本管理有限公司",
+        "displayName": "西安国子资本管理有限公司",
+        "tier": "PF1",
+        "relation": "陕西证监局辖区私募基金管理人名录确认其属于陕西辖区；AMAC当前登记注册地为陕西、办公地为广东。"
+      },
+      {
+        "entityId": "101000026206",
+        "legalName": "深圳抱朴容易私募证券基金管理有限公司",
+        "displayName": "深圳抱朴容易私募证券基金管理有限公司",
+        "tier": "PF2",
+        "relation": "陕西泰发祥集团官网确认其为集团旗下资产配置平台，总部位于深圳，并在西安、上海设有分部。"
+      },
+      {
+        "entityId": "101000040485",
+        "legalName": "上海卓铸私募基金管理有限公司",
+        "displayName": "上海卓铸私募基金管理有限公司",
+        "tier": "PF2",
+        "relation": "公司官网持续公开西安办公室且西安分公司真实存续；AMAC当前注册地、办公地均为上海。"
+      },
+      {
+        "entityId": "101000027983",
+        "legalName": "添佑私募基金管理（上海）有限公司",
+        "displayName": "添佑私募基金管理（上海）有限公司",
+        "tier": "PF2",
+        "relation": "AMAC当前注册地上海、办公地云南；公开工商材料显示当前陕西产业股东合计40%，并曾控股陕西平台。"
+      },
+      {
+        "entityId": "2111231329102046",
+        "legalName": "龙泉云锋私募基金管理有限公司",
+        "displayName": "龙泉云锋私募基金管理有限公司",
+        "tier": "PF2",
+        "relation": "陕西省证券投资基金业协会正式会员；未发现陕西注册、办公或分公司，仅按行业组织关系列入重要观察。"
+      },
+      {
+        "entityId": "1705251723108664",
+        "legalName": "苏州水润山禾私募基金管理有限公司",
+        "displayName": "苏州水润山禾私募基金管理有限公司",
+        "tier": "PF2",
+        "relation": "同一统一社会信用代码主体以曾用名加入陕西省证券投资基金业协会；未发现陕西注册、办公或分公司，仅按行业组织关系列入重要观察。"
+      }
+    ],
+    "ma": [
+      {
+        "entityId": "ma-afa5bb09d3f5a8da",
+        "legalName": "彩虹股份",
+        "displayName": "彩虹股份",
+        "tier": "event-related",
+        "relation": "陕西上市公司收购控股子公司少数股权"
+      },
+      {
+        "entityId": "ma-8ce07343daa9aeb0",
+        "legalName": "虹阳显示33.4204%少数股权",
+        "displayName": "虹阳显示33.4204%少数股权",
+        "tier": "event-related",
+        "relation": "陕西上市公司收购控股子公司少数股权"
+      },
+      {
+        "entityId": "ma-6c05029bf77eacf2",
+        "legalName": "陕西秦风气体36.06%股权",
+        "displayName": "陕西秦风气体36.06%股权",
+        "tier": "event-related",
+        "relation": "陕西上市公司发行股份购买控股子公司少数股权｜关联交易"
+      },
+      {
+        "entityId": "ma-f57f002ed003d92f",
+        "legalName": "交易对方为陕西化工、延长集团、陕西金控、恒博隆",
+        "displayName": "交易对方为陕西化工、延长集团、陕西金控、恒博隆",
+        "tier": "event-related",
+        "relation": "陕西上市公司发行股份购买控股子公司少数股权｜关联交易"
+      },
+      {
+        "entityId": "ma-563037f76593fa39",
+        "legalName": "国投农产品供应链（北京）有限公司60%股权",
+        "displayName": "国投农产品供应链（北京）有限公司60%股权",
+        "tier": "event-related",
+        "relation": "陕西上市公司对外收购｜现金收购供应链项目公司控股权"
+      },
+      {
+        "entityId": "ma-31f223ae8187e8c1",
+        "legalName": "供销大集拟收购",
+        "displayName": "供销大集拟收购",
+        "tier": "event-related",
+        "relation": "陕西上市公司对外收购｜现金收购供应链项目公司控股权"
+      },
+      {
+        "entityId": "ma-58915413de9e2668",
+        "legalName": "金诚矿业、步步高矿业",
+        "displayName": "金诚矿业、步步高矿业",
+        "tier": "event-related",
+        "relation": "港股上市公司收购陕西宁陕金矿项目公司权益"
+      },
+      {
+        "entityId": "ma-75efbe2e213342c0",
+        "legalName": "大唐黄金拟通过目标集团持有",
+        "displayName": "大唐黄金拟通过目标集团持有",
+        "tier": "event-related",
+        "relation": "港股上市公司收购陕西宁陕金矿项目公司权益"
+      },
+      {
+        "entityId": "ma-7c3cdbe269398848",
+        "legalName": "成都天科航空",
+        "displayName": "成都天科航空",
+        "tier": "event-related",
+        "relation": "陕西上市公司对外收购｜现金收购及增资控股"
+      },
+      {
+        "entityId": "ma-1bf280bbe6cceecd",
+        "legalName": "炼石航空拟收购并增资",
+        "displayName": "炼石航空拟收购并增资",
+        "tier": "event-related",
+        "relation": "陕西上市公司对外收购｜现金收购及增资控股"
+      },
+      {
+        "entityId": "ma-5631549ee9ec64dc",
+        "legalName": "部分房地产开发业务相关资产及负债",
+        "displayName": "部分房地产开发业务相关资产及负债",
+        "tier": "event-related",
+        "relation": "陕西上市公司重大资产出售筹划｜关联交易"
+      },
+      {
+        "entityId": "ma-406dba124ddefab2",
+        "legalName": "意向方为西安高科集团或其指定关联方",
+        "displayName": "意向方为西安高科集团或其指定关联方",
+        "tier": "event-related",
+        "relation": "陕西上市公司重大资产出售筹划｜关联交易"
+      },
+      {
+        "entityId": "ma-f418255b729da9bc",
+        "legalName": "西安创航精密制造",
+        "displayName": "西安创航精密制造",
+        "tier": "event-related",
+        "relation": "外地上市公司现金收购西安商业航天精密加工标的"
+      },
+      {
+        "entityId": "ma-0eb450570460251f",
+        "legalName": "飞沃科技拟收购60%股权",
+        "displayName": "飞沃科技拟收购60%股权",
+        "tier": "event-related",
+        "relation": "外地上市公司现金收购西安商业航天精密加工标的"
+      },
+      {
+        "entityId": "ma-bc05dd3d7dea2dfd",
+        "legalName": "中节能西安启源机电装备",
+        "displayName": "中节能西安启源机电装备",
+        "tier": "event-related",
+        "relation": "央企体系内资产重组｜现金收购陕西装备制造标的控股权"
+      },
+      {
+        "entityId": "ma-ab06f6081cbfc523",
+        "legalName": "节能铁汉拟向节能环境收购",
+        "displayName": "节能铁汉拟向节能环境收购",
+        "tier": "event-related",
+        "relation": "央企体系内资产重组｜现金收购陕西装备制造标的控股权"
+      },
+      {
+        "entityId": "ma-444bebd2d9105a7d",
+        "legalName": "西安红土创新50%、西旅创投30%",
+        "displayName": "西安红土创新50%、西旅创投30%",
+        "tier": "event-related",
+        "relation": "陕西上市公司出售参股股权｜关联股权转让"
+      },
+      {
+        "entityId": "ma-b130e7863c6aa1c8",
+        "legalName": "西旅集团实业",
+        "displayName": "西旅集团实业",
+        "tier": "event-related",
+        "relation": "陕西上市公司出售参股股权｜关联股权转让"
+      },
+      {
+        "entityId": "ma-a509d2c22b5667a0",
+        "legalName": "西安亿鑫物业管理",
+        "displayName": "西安亿鑫物业管理",
+        "tier": "event-related",
+        "relation": "港股上市公司出售西安商业物业平台股权及债权"
+      },
+      {
+        "entityId": "ma-81973d9947fb4b5f",
+        "legalName": "西安曲江金控资管",
+        "displayName": "西安曲江金控资管",
+        "tier": "event-related",
+        "relation": "港股上市公司出售西安商业物业平台股权及债权"
+      },
+      {
+        "entityId": "ma-00ef9c18f9237ef5",
+        "legalName": "上海美能立成",
+        "displayName": "上海美能立成",
+        "tier": "event-related",
+        "relation": "陕西上市公司收购储能资产｜募投变更暨关联交易"
+      },
+      {
+        "entityId": "ma-3160273fe1e290ea",
+        "legalName": "美能能源向美能投资收购",
+        "displayName": "美能能源向美能投资收购",
+        "tier": "event-related",
+        "relation": "陕西上市公司收购储能资产｜募投变更暨关联交易"
+      },
+      {
+        "entityId": "ma-c1d9ad7e6b4a5bca",
+        "legalName": "西安中科西光82.50%股权",
+        "displayName": "西安中科西光82.50%股权",
+        "tier": "event-related",
+        "relation": "外地上市公司收购西安商业航天标的｜发行股份及现金"
+      },
+      {
+        "entityId": "ma-f298ffd5fb470e12",
+        "legalName": "金利华电",
+        "displayName": "金利华电",
+        "tier": "event-related",
+        "relation": "外地上市公司收购西安商业航天标的｜发行股份及现金"
+      },
+      {
+        "entityId": "ma-47cf754eb5198be1",
+        "legalName": "陕西长空齿轮",
+        "displayName": "陕西长空齿轮",
+        "tier": "event-related",
+        "relation": "外地上市公司收购陕西军工精密制造标的｜现金收购"
+      },
+      {
+        "entityId": "ma-1f6e519932006aed",
+        "legalName": "汉中汉航机电、航空工业转让",
+        "displayName": "汉中汉航机电、航空工业转让",
+        "tier": "event-related",
+        "relation": "外地上市公司收购陕西军工精密制造标的｜现金收购"
+      },
+      {
+        "entityId": "ma-69e18875d7d570e9",
+        "legalName": "西安奇芯光电",
+        "displayName": "西安奇芯光电",
+        "tier": "event-related",
+        "relation": "外地上市公司收购陕西光电子标的｜现金关联交易"
+      },
+      {
+        "entityId": "ma-6deacc9a3d4cd7bb",
+        "legalName": "北京新基建产业一期股权投资中心",
+        "displayName": "北京新基建产业一期股权投资中心",
+        "tier": "event-related",
+        "relation": "外地上市公司收购陕西光电子标的｜现金关联交易"
+      },
+      {
+        "entityId": "ma-9fc4ba5985e2e8f8",
+        "legalName": "西安紫光国芯",
+        "displayName": "西安紫光国芯",
+        "tier": "event-related",
+        "relation": "新三板半导体企业股份协议转让｜产业投资者入股"
+      },
+      {
+        "entityId": "ma-38c9bec24e974d30",
+        "legalName": "三家产业资本分别受让5%股份",
+        "displayName": "三家产业资本分别受让5%股份",
+        "tier": "event-related",
+        "relation": "新三板半导体企业股份协议转让｜产业投资者入股"
+      },
+      {
+        "entityId": "ma-5e19b7ff29cf38a3",
+        "legalName": "西安招商花园城",
+        "displayName": "西安招商花园城",
+        "tier": "event-related",
+        "relation": "西安项目公司引入外部股东｜增资入股"
+      },
+      {
+        "entityId": "ma-af5b2380daf089ac",
+        "legalName": "深圳海越锦",
+        "displayName": "深圳海越锦",
+        "tier": "event-related",
+        "relation": "西安项目公司引入外部股东｜增资入股"
+      },
+      {
+        "entityId": "ma-3e2095a96f7e5229",
+        "legalName": "西安超嗨",
+        "displayName": "西安超嗨",
+        "tier": "event-related",
+        "relation": "外地上市公司战略控股西安AI零售标的"
+      },
+      {
+        "entityId": "ma-6467aecaf1341b23",
+        "legalName": "汉朔科技全资子公司",
+        "displayName": "汉朔科技全资子公司",
+        "tier": "event-related",
+        "relation": "外地上市公司战略控股西安AI零售标的"
+      },
+      {
+        "entityId": "ma-e9bd2665044179f3",
+        "legalName": "沈阳顺义科技",
+        "displayName": "沈阳顺义科技",
+        "tier": "event-related",
+        "relation": "陕西上市公司对外收购｜现金重大资产购买"
+      },
+      {
+        "entityId": "ma-ec4022a113672c83",
+        "legalName": "北方长龙",
+        "displayName": "北方长龙",
+        "tier": "event-related",
+        "relation": "陕西上市公司对外收购｜现金重大资产购买"
+      },
+      {
+        "entityId": "ma-c42b9cd1d1427772",
+        "legalName": "西安思丹德",
+        "displayName": "西安思丹德",
+        "tier": "event-related",
+        "relation": "外地上市公司收购西安军工电子标的｜现金控股收购"
+      },
+      {
+        "entityId": "ma-288c01665466f847",
+        "legalName": "顶固集创",
+        "displayName": "顶固集创",
+        "tier": "event-related",
+        "relation": "外地上市公司收购西安军工电子标的｜现金控股收购"
+      },
+      {
+        "entityId": "ma-d90eb08fced25bd3",
+        "legalName": "西安市群健航空精密制造",
+        "displayName": "西安市群健航空精密制造",
+        "tier": "event-related",
+        "relation": "外地上市公司拟收购西安高端制造标的"
+      },
+      {
+        "entityId": "ma-d4f636bb9e36fced",
+        "legalName": "海龙飞控",
+        "displayName": "海龙飞控",
+        "tier": "event-related",
+        "relation": "外地上市公司拟收购西安高端制造标的"
+      },
+      {
+        "entityId": "ma-c052552e92f7bbee",
+        "legalName": "西安招玺锦樾",
+        "displayName": "西安招玺锦樾",
+        "tier": "event-related",
+        "relation": "港股上市公司体系内收购西安项目公司"
+      },
+      {
+        "entityId": "ma-236086560101ff8f",
+        "legalName": "西安茂安",
+        "displayName": "西安茂安",
+        "tier": "event-related",
+        "relation": "港股上市公司体系内收购西安项目公司"
+      },
+      {
+        "entityId": "ma-ec7cf8efd3ebf0cc",
+        "legalName": "安徽金沙钼业",
+        "displayName": "安徽金沙钼业",
+        "tier": "event-related",
+        "relation": "陕西上市公司对外收购｜现金收购参股公司股权"
+      },
+      {
+        "entityId": "ma-33b558d54e0e286d",
+        "legalName": "向紫金矿业收购",
+        "displayName": "向紫金矿业收购",
+        "tier": "event-related",
+        "relation": "陕西上市公司对外收购｜现金收购参股公司股权"
+      },
+      {
+        "entityId": "ma-53fb80bfc6db94ac",
+        "legalName": "陕西华经微电子",
+        "displayName": "陕西华经微电子",
+        "tier": "event-related",
+        "relation": "陕西上市公司终止收购｜原拟发行股份购买资产"
+      },
+      {
+        "entityId": "ma-ed178f3809ea3011",
+        "legalName": "陕西华达",
+        "displayName": "陕西华达",
+        "tier": "event-related",
+        "relation": "陕西上市公司终止收购｜原拟发行股份购买资产"
+      },
+      {
+        "entityId": "ma-f30f15a7d09fd81d",
+        "legalName": "航天动力",
+        "displayName": "航天动力",
+        "tier": "event-related",
+        "relation": "陕西上市公司出售控股子公司股权｜北京产权交易所预挂牌"
+      },
+      {
+        "entityId": "ma-c7c1d7c77a7472b0",
+        "legalName": "江苏航天动力机电51%股权",
+        "displayName": "江苏航天动力机电51%股权",
+        "tier": "event-related",
+        "relation": "陕西上市公司出售控股子公司股权｜北京产权交易所预挂牌"
+      },
+      {
+        "entityId": "ma-6a72a1402234a8c8",
+        "legalName": "受让方待挂牌确定",
+        "displayName": "受让方待挂牌确定",
+        "tier": "event-related",
+        "relation": "陕西上市公司出售控股子公司股权｜北京产权交易所预挂牌"
+      },
+      {
+        "entityId": "ma-23bc70b8852e9016",
+        "legalName": "华羿微电100%股份",
+        "displayName": "华羿微电100%股份",
+        "tier": "event-related",
+        "relation": "外地上市公司收购陕西硬科技标的"
+      },
+      {
+        "entityId": "ma-ab6a50bd4e966f44",
+        "legalName": "华天科技",
+        "displayName": "华天科技",
+        "tier": "event-related",
+        "relation": "外地上市公司收购陕西硬科技标的"
+      },
+      {
+        "entityId": "ma-9e8bfba2ef945fa5",
+        "legalName": "陕西深宝水电",
+        "displayName": "陕西深宝水电",
+        "tier": "event-related",
+        "relation": "陕西上市公司出售资产｜国资平台挂牌转让"
+      }
+    ],
+    "tender": [
+      {
+        "entityId": "tender-00542795d19394a7",
+        "legalName": "陕西长安汇通资本管理有限公司",
+        "displayName": "陕西长安汇通资本管理有限公司",
+        "tier": "event-related",
+        "relation": "陕西省西安市"
+      },
+      {
+        "entityId": "tender-53a79a3edf6904cc",
+        "legalName": "陕西金资基金管理有限公司",
+        "displayName": "陕西金资基金管理有限公司",
+        "tier": "event-related",
+        "relation": "陕西省西安市"
+      },
+      {
+        "entityId": "tender-cdb211273e7cd372",
+        "legalName": "陕西西咸新区沣西发展集团有限公司",
+        "displayName": "陕西西咸新区沣西发展集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西省西咸新区"
+      },
+      {
+        "entityId": "tender-4cdb0d328c496d24",
+        "legalName": "西安工业投资集团有限公司",
+        "displayName": "西安工业投资集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西省西安市"
+      },
+      {
+        "entityId": "tender-80a9af4bfbe4b4d0",
+        "legalName": "西安未央城建产业投资有限责任公司",
+        "displayName": "西安未央城建产业投资有限责任公司",
+        "tier": "event-related",
+        "relation": "陕西省西安市未央区"
+      }
+    ],
+    "soe": [
+      {
+        "entityId": "soe-c38d5fedaa9590a4",
+        "legalName": "长安汇通集团有限责任公司",
+        "displayName": "长安汇通集团有限责任公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-5e0ca8146c04d0c7",
+        "legalName": "中陕核工业集团有限公司",
+        "displayName": "中陕核工业集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-bb747ed2312ae739",
+        "legalName": "陕西水务发展集团有限公司",
+        "displayName": "陕西水务发展集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-a5123b4195e4eaf6",
+        "legalName": "陕西煤业化工集团有限责任公司",
+        "displayName": "陕西煤业化工集团有限责任公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-8c368b1c6719b3ee",
+        "legalName": "陕西金融控股集团有限公司",
+        "displayName": "陕西金融控股集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-cc91beaf1d011592",
+        "legalName": "陕西地矿集团有限公司",
+        "displayName": "陕西地矿集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-e957d27f4b8eb873",
+        "legalName": "西安市国资委-考评处",
+        "displayName": "西安市国资委-考评处",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-509545453aba732e",
+        "legalName": "陕西财金投资管理有限责任公司",
+        "displayName": "陕西财金投资管理有限责任公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-d2d9b9d837b39375",
+        "legalName": "西安商贸物流集团有限公司",
+        "displayName": "西安商贸物流集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-5e763068abafeb2b",
+        "legalName": "西安建设工程交易中心有限公司",
+        "displayName": "西安建设工程交易中心有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-0235f47fb49e93d0",
+        "legalName": "陕西省大数据集团有限公司",
+        "displayName": "陕西省大数据集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-db13cea11b848f42",
+        "legalName": "陕西投资集团有限公司",
+        "displayName": "陕西投资集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-de692901a2ff89be",
+        "legalName": "西安市国资委-办公室",
+        "displayName": "西安市国资委-办公室",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-4cdb0d328c496d24",
+        "legalName": "西安工业投资集团有限公司",
+        "displayName": "西安工业投资集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-6134d63bf7c44bcd",
+        "legalName": "西安纺织控股有限责任公司",
+        "displayName": "西安纺织控股有限责任公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-aae2a324a838eb60",
+        "legalName": "陕西省物流集团有限责任公司",
+        "displayName": "陕西省物流集团有限责任公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-c3938971be67c76d",
+        "legalName": "陕西法士特汽车传动集团有限责任公司",
+        "displayName": "陕西法士特汽车传动集团有限责任公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-0d6624a793fcef18",
+        "legalName": "西安城市基础设施建设投资集团有限公司",
+        "displayName": "西安城市基础设施建设投资集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-8599c4f856cebfbb",
+        "legalName": "西安市国资委",
+        "displayName": "西安市国资委",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-8c9d9798b1e13d80",
+        "legalName": "西安农业投资（集团）有限公司",
+        "displayName": "西安农业投资（集团）有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-c40c6c2f3492e1e5",
+        "legalName": "西安交通投资集团有限公司",
+        "displayName": "西安交通投资集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-3d116c891edd5f43",
+        "legalName": "陕西医药控股集团有限责任公司",
+        "displayName": "陕西医药控股集团有限责任公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-d26eee2ff9003014",
+        "legalName": "陕西农业发展集团有限公司",
+        "displayName": "陕西农业发展集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-fdaa2c6cbd942c03",
+        "legalName": "陕西延长石油（集团）有限责任公司",
+        "displayName": "陕西延长石油（集团）有限责任公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      },
+      {
+        "entityId": "soe-760fe453374bcc74",
+        "legalName": "陕西国际经贸集团有限公司",
+        "displayName": "陕西国际经贸集团有限公司",
+        "tier": "event-related",
+        "relation": "陕西国企及其资本、项目、产业动态"
+      }
+    ]
+  }
+}

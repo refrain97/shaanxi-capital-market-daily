@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "2.0",
+  "owner": "V2",
+  "status": "ACTIVE",
+  "timezone": "Asia/Shanghai",
+  "sourcePolicy": {
+    "priority": [
+      "exchange_or_regulator_original",
+      "issuer_original",
+      "official_public_disclosure",
+      "reputable_media_as_discovery_only"
+    ],
+    "keyFactsRequirePrimarySource": true,
+    "mediaMayConfirmKeyFacts": false,
+    "historicalPendingExcludedFromHomepage": true
+  },
+  "listedUniverse": "v2/data/source/listed/universe.json",
+  "listedTaxonomy": "v2/data/source/listed/business-taxonomy.json",
+  "listedDailyDirectory": "v2/data/daily/listed",
+  "privateUniverse": "v2/data/source/private/universe.json",
+  "privateAnnual": "v2/data/source/private/products-2026.json",
+  "privateSnapshotDirectory": "v2/data/source/private/snapshots",
+  "privateDailyDirectory": "v2/data/daily/private",
+  "maSources": "v2/config/ma-sources.json",
+  "maEvents": "v2/data/source/ma/events-2026.json",
+  "maScanDirectory": "v2/data/source/ma/scans",
+  "tenderSources": "v2/config/tender-sources.json",
+  "tenderEvents": "v2/data/source/tender/events-2026.json",
+  "tenderScanDirectory": "v2/data/source/tender/scans",
+  "soeEvents": "v2/data/source/soe/events-2026.json",
+  "soeEvidenceDirectory": "v2/data/source/soe/evidence",
+  "soeScanDirectory": "v2/data/source/soe/scans",
+  "eventStore": "v2/data/source/events/unified-2026.json",
+  "observationPool": "v2/data/source/observation-pool.json",
+  "scanDirectory": "v2/data/scans",
+  "readinessDirectory": "v2/data/readiness",
+  "requiredChannels": [
+    "listed",
+    "private",
+    "ma",
+    "tender",
+    "soe"
+  ],
+  "slots": {
+    "morning": "05:30",
+    "midday": "12:00",
+    "closing": "17:00"
+  }
+}

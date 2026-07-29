@@ -1,0 +1,24 @@
+{
+  "code": "0",
+  "total": 2,
+  "data": [
+    {
+      "id": "ccgp-current",
+      "title": "某公司债主承销商采购公告",
+      "noticeTime": "2026-07-27 10:00:00",
+      "noticeType": "001011",
+      "purchaser": "陕西某集团",
+      "pageurl": "/notice/current.html",
+      "content": "<div>采购人：陕西某集团；投标截止时间：2026年7月28日 09:00</div>"
+    },
+    {
+      "id": "ccgp-older",
+      "title": "历史公告",
+      "noticeTime": "2026-07-26 10:00:00",
+      "noticeType": "001021",
+      "purchaser": "陕西某单位",
+      "pageurl": "/notice/older.html",
+      "content": "<div>历史正文</div>"
+    }
+  ]
+}

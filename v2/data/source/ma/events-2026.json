@@ -1,0 +1,1247 @@
+{
+  "asOf": "2026-07-12T11:00:00+08:00",
+  "eventAsOf": "2026-07-28",
+  "officialSourceProjectCount": 25,
+  "owner": "V2",
+  "projectCount": 26,
+  "projects": [
+    {
+      "amountText": "以公告原文为准",
+      "dimension": "已上市公司",
+      "direction": "陕西上市公司收购控股子公司少数股权",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-07-07公告",
+      "industry": "显示面板",
+      "legacyOrigin": null,
+      "maProjectId": "ma-rainbow-hongyang-minority-2026",
+      "milestones": [
+        {
+          "at": "2026-07-07",
+          "label": "收购公告",
+          "milestoneId": "m-1",
+          "sourceIds": [
+            "src-rainbow-ma"
+          ],
+          "stageAfter": "action_window"
+        },
+        {
+          "at": "2026-07-20",
+          "label": "付款及交割观察节点",
+          "milestoneId": "m-2",
+          "sourceIds": [
+            "src-rainbow-ma"
+          ],
+          "stageAfter": "action_window"
+        }
+      ],
+      "nextAction": "跟踪7月20日付款、贷款提款、工商变更和交割。",
+      "partiesText": "彩虹股份；虹阳显示33.4204%少数股权",
+      "significance": "交易金额19.16亿元，完成后持股比例将升至95.8224%，下一节点为7月20日付款及交割。",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-07-07",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225412189",
+          "title": "彩虹股份关于收购控股子公司少数股东股权的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-07/1225412189.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "official",
+      "stage": "signed_or_approved",
+      "statusText": "协议签署/待交割",
+      "title": "彩虹股份拟收购虹阳显示33.4204%少数股权"
+    },
+    {
+      "amountText": "交易作价待审计评估；发行价格9.12元/股；交易完成后陕鼓动力持股100%",
+      "dimension": "已上市公司",
+      "direction": "陕西上市公司发行股份购买控股子公司少数股权｜关联交易",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-06-27筹划；2026-07-11预案披露并复牌",
+      "industry": "工业气体/能源装备服务",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-0499bc3e8c10df13",
+      "milestones": [
+        {
+          "at": "2026-06-27",
+          "label": "停牌筹划",
+          "milestoneId": "m-1",
+          "sourceIds": [
+            "src-shaangu-ma"
+          ],
+          "stageAfter": "progressing"
+        },
+        {
+          "at": "2026-07-10",
+          "label": "未见作价或预案新增",
+          "milestoneId": "m-2",
+          "sourceIds": [
+            "src-shaangu-ma"
+          ],
+          "stageAfter": "progressing"
+        }
+      ],
+      "nextAction": "审计评估、最终交易作价、发行股份数量、重组报告书、股东会审议安排",
+      "partiesText": "陕西秦风气体36.06%股权；交易对方为陕西化工、延长集团、陕西金控、恒博隆",
+      "significance": "陕西能源装备上市平台拟收购控股子公司少数股权，进一步提升工业气体业务权益比例",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-07-11",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225420091",
+          "title": "西安陕鼓动力股份有限公司发行股份购买资产暨关联交易预案",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420091.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "official",
+      "stage": "signed_or_approved",
+      "statusText": "预案披露/复牌",
+      "title": "陕鼓动力收购秦风气体36.06%股权"
+    },
+    {
+      "amountText": "成交价格9,977.76万元；已支付保证金2,993.32万元",
+      "dimension": "已上市公司",
+      "direction": "陕西上市公司对外收购｜现金收购供应链项目公司控股权",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-02-07首次披露；2026-06-30进展公告",
+      "industry": "农产品供应链/批发市场运营",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-28acc60627a1958e",
+      "milestones": [
+        {
+          "at": "2026-02-07",
+          "label": "2026-02-07首次披露",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "completed"
+        },
+        {
+          "at": "2026-06-30",
+          "label": "2026-06-30进展公告",
+          "milestoneId": "m-2",
+          "sourceIds": [],
+          "stageAfter": "completed"
+        }
+      ],
+      "nextAction": "产权交割、应付国投实业119.56万元清理、财务公司存款余额20,582.27万元取出及2027年底前持股降至33%以下安排",
+      "partiesText": "国投农产品供应链（北京）有限公司60%股权；供销大集拟收购",
+      "significance": "中华全国供销合作总社或其授权单位批准/同意条件已达成，董事会同意合同及备忘录",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-06-30",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225397101",
+          "title": "关于参与竞拍国投农产品供应链（北京）有限公司60%股权进展的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-30/1225397101.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "completed",
+      "statusText": "生效条件达成",
+      "title": "供销大集收购国投农产品60%股权"
+    },
+    {
+      "amountText": "总代价5.85亿港元；现金2.47亿港元，余款3.38亿港元按0.5港元/股发行6.76亿股代价股份",
+      "dimension": "已上市公司",
+      "direction": "港股上市公司收购陕西宁陕金矿项目公司权益",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-06-05通函；6月25日股东特别大会",
+      "industry": "黄金矿业/采矿权与选矿设施",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-e5d61ffd5a2aa72f",
+      "milestones": [
+        {
+          "at": "2026-06-05",
+          "label": "2026-06-05通函",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        },
+        {
+          "at": "2026-06-25",
+          "label": "6月25日股东特别大会",
+          "milestoneId": "m-2",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        }
+      ],
+      "nextAction": "6月25日股东特别大会、代价股份特别授权、交割条件、矿权合规和估值假设",
+      "partiesText": "金诚矿业、步步高矿业；大唐黄金拟通过目标集团持有",
+      "significance": "陕西秦岭金矿资产进入港股矿业上市平台并购流程，补充矿产资源类跨境资本运作样本",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-06-29",
+          "sourceName": "港交所公告（巨潮镜像）",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225397461",
+          "title": "完成有关收购陕西省宁陕县两间项目公司之重大交易",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-29/1225397461.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "completed",
+      "statusText": "通函披露/待股东会",
+      "title": "大唐黄金收购宁陕两家项目公司"
+    },
+    {
+      "amountText": "收购对价21,998.7547万元，增资5,000万元；完成后持股67.4969%",
+      "dimension": "已上市公司",
+      "direction": "陕西上市公司对外收购｜现金收购及增资控股",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-06-17董事会；2026-06-18公告",
+      "industry": "航空航天零部件/航空制造",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-dd6b657107378ce4",
+      "milestones": [
+        {
+          "at": "2026-06-17",
+          "label": "2026-06-17董事会",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        },
+        {
+          "at": "2026-06-18",
+          "label": "2026-06-18公告",
+          "milestoneId": "m-2",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        }
+      ],
+      "nextAction": "股权交割、5,000万元增资拨付、利润承诺8,592万元、后续收购上限及并表影响",
+      "partiesText": "成都天科航空；炼石航空拟收购并增资",
+      "significance": "陕西航空上市公司通过控股成都航空制造资产夯实航空航天产业链，交易完成后纳入合并报表",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-06-18",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225375787",
+          "title": "关于购买成都天科航空制造股份有限公司股份及增资暨对外投资的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-18/1225375787.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "signed_or_approved",
+      "statusText": "董事会通过",
+      "title": "炼石航空收购并增资成都天科航空"
+    },
+    {
+      "amountText": "标的范围和交易价格尚未确定；交易如完成预计降低资产负债率",
+      "dimension": "已上市公司",
+      "direction": "陕西上市公司重大资产出售筹划｜关联交易",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-06-12提示；尚未签署协议",
+      "industry": "房地产开发/资产负债出表",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-b742611082c3d76b",
+      "milestones": [
+        {
+          "at": "2026-06-12",
+          "label": "2026-06-12提示",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "planning"
+        },
+        {
+          "at": null,
+          "label": "尚未签署协议",
+          "milestoneId": "m-2",
+          "sourceIds": [],
+          "stageAfter": "planning"
+        }
+      ],
+      "nextAction": "交易标的边界、作价、关联交易审批、是否构成重大资产重组",
+      "partiesText": "部分房地产开发业务相关资产及负债；意向方为西安高科集团或其指定关联方",
+      "significance": "地产上市公司通过实控人体系内资产出售优化资产结构，仍处前期筹划",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-06-12",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225366222",
+          "title": "天地源股份有限公司关于筹划重大资产出售暨关联交易的提示性公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366222.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "planning",
+      "statusText": "筹划/关联交易",
+      "title": "天地源筹划出售房地产开发资产及负债"
+    },
+    {
+      "amountText": "转让对价4,320万元；100%股权交易价7,200万元，评估值7,353万元",
+      "dimension": "已上市公司",
+      "direction": "外地上市公司现金收购西安商业航天精密加工标的",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-06-03公告",
+      "industry": "商业航天零部件/精密机械加工",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-7c72291683eda655",
+      "milestones": [
+        {
+          "at": "2026-06-03",
+          "label": "2026-06-03公告",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        }
+      ],
+      "nextAction": "股权交割、客户与订单协同、商誉确认、后续业绩承诺或整合安排",
+      "partiesText": "西安创航精密制造；飞沃科技拟收购60%股权",
+      "significance": "陕西商业航天配套资产被上市公司产业并购，补充西安航天制造退出样本",
+      "sourceQuery": {
+        "code": "301232",
+        "keywords": [
+          "西安创航",
+          "收购"
+        ],
+        "market": "CNINFO",
+        "orgId": "gfbj0839826"
+      },
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-06-16",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225372923",
+          "title": "关于收购西安创航精密制造科技有限公司股权完成工商变更登记的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-16/1225372923.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "completed",
+      "statusText": "协议签署/董事会通过",
+      "title": "飞沃科技拟收购西安创航60%股权"
+    },
+    {
+      "amountText": "交易方案和标的作价尚未最终确定；启源装备2025年净利润4,056.44万元",
+      "dimension": "已上市公司",
+      "direction": "央企体系内资产重组｜现金收购陕西装备制造标的控股权",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-06-02提示公告",
+      "industry": "环保装备/机电装备",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-f8ebe0b467f22d7c",
+      "milestones": [
+        {
+          "at": "2026-06-02",
+          "label": "2026-06-02提示公告",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "planning"
+        }
+      ],
+      "nextAction": "交易方案、标的作价、付款安排、关联交易审批和风险防控措施",
+      "partiesText": "中节能西安启源机电装备；节能铁汉拟向节能环境收购",
+      "significance": "陕西装备制造资产进入央企环保上市平台重组范围，但交易对方存在失信及限高风险",
+      "sourceQuery": {
+        "code": "300197",
+        "keywords": [
+          "重大资产重组",
+          "启源装备"
+        ],
+        "market": "CNINFO",
+        "orgId": "9900016710"
+      },
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-07-01",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225402993",
+          "title": "关于筹划重大资产重组暨关联交易的进展公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-01/1225402993.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "planning",
+      "statusText": "筹划/提示",
+      "title": "节能铁汉拟收购西安启源装备控股权"
+    },
+    {
+      "amountText": "合计1581.25万元；红土公司评估值2796.31万元",
+      "dimension": "已上市公司",
+      "direction": "陕西上市公司出售参股股权｜关联股权转让",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-03-06董事会；2026-05-26收款完成",
+      "industry": "文旅/创投平台",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-629b484005035fba",
+      "milestones": [
+        {
+          "at": "2026-03-06",
+          "label": "2026-03-06董事会",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "completed"
+        },
+        {
+          "at": "2026-05-26",
+          "label": "2026-05-26收款完成",
+          "milestoneId": "m-2",
+          "sourceIds": [],
+          "stageAfter": "completed"
+        }
+      ],
+      "nextAction": "继续处置资产、定增输血进展、持续经营修复",
+      "partiesText": "西安红土创新50%、西旅创投30%；西旅集团实业",
+      "significance": "退市风险压力下小额资产处置，改善流动性有限",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-05-26",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225329637",
+          "title": "关于转让参股公司股权暨关联交易的进展公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-05-26/1225329637.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "completed",
+      "statusText": "转让款到账完成",
+      "title": "西安旅游转让红土创新等参股股权"
+    },
+    {
+      "amountText": "约7.62亿元；含100%股权及相关债权",
+      "dimension": "已上市公司",
+      "direction": "港股上市公司出售西安商业物业平台股权及债权",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-05-21协议；2026-05-25公开报道复核",
+      "industry": "商业物业/零售资产处置",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-3df45d2a93e2c022",
+      "milestones": [
+        {
+          "at": "2026-05-21",
+          "label": "2026-05-21协议",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "in_progress"
+        },
+        {
+          "at": "2026-05-25",
+          "label": "2026-05-25公开报道复核",
+          "milestoneId": "m-2",
+          "sourceIds": [],
+          "stageAfter": "in_progress"
+        }
+      ],
+      "nextAction": "股东特别大会批准、交割付款、债权转让安排、世纪金花现金流修复",
+      "partiesText": "西安亿鑫物业管理；西安曲江金控资管",
+      "significance": "曲江体系内商业物业资产流转，补充西安消费商业资产交易样本",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-06-04",
+          "sourceName": "港交所公告（巨潮镜像）",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225350487",
+          "title": "有关出售目标公司的股权及债权之非常重大出售事项及关连交易及股东特别大会通告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-04/1225350487.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "in_progress",
+      "statusText": "协议签署/待股东特别大会",
+      "title": "世纪金花出售西安亿鑫物业100%股权"
+    },
+    {
+      "amountText": "7,395.78万元；其中拟投入募集资金6,951.00万元",
+      "dimension": "已上市公司",
+      "direction": "陕西上市公司收购储能资产｜募投变更暨关联交易",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-05-21董事会；2026-05-22公告",
+      "industry": "工商业用户侧储能/综合能源服务",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-1809b8def9c6e061",
+      "milestones": [
+        {
+          "at": "2026-05-21",
+          "label": "2026-05-21董事会",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        },
+        {
+          "at": "2026-05-22",
+          "label": "2026-05-22公告",
+          "milestoneId": "m-2",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        }
+      ],
+      "nextAction": "6月9日股东会、关联股东回避、募集资金监管协议补充、股权交割",
+      "partiesText": "上海美能立成；美能能源向美能投资收购",
+      "significance": "陕西燃气上市公司通过并购切入新型储能赛道，交易完成后上海立成纳入合并报表",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-06-27",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225389920",
+          "title": "关于收购上海立成90%股权进展暨完成工商变更登记的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-27/1225389920.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "signed_or_approved",
+      "statusText": "董事会通过",
+      "title": "美能能源拟收购上海立成90%股权"
+    },
+    {
+      "amountText": "作价待审计评估；同步募集配套资金",
+      "dimension": "已上市公司",
+      "direction": "外地上市公司收购西安商业航天标的｜发行股份及现金",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-05-20复牌；5月19日董事会通过预案",
+      "industry": "商业航天/高光谱卫星/遥感数据",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-eda69557ead20559",
+      "milestones": [
+        {
+          "at": "2026-05-20",
+          "label": "2026-05-20复牌",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        },
+        {
+          "at": "2026-05-19",
+          "label": "5月19日董事会通过预案",
+          "milestoneId": "m-2",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        }
+      ],
+      "nextAction": "审计评估、交易作价、股东会、深交所审核和证监会注册",
+      "partiesText": "西安中科西光82.50%股权；金利华电",
+      "significance": "玻璃绝缘子上市公司跨界进入卫星制造及遥感服务",
+      "sourceQuery": {
+        "code": "300069",
+        "keywords": [
+          "中科西光",
+          "购买资产"
+        ],
+        "market": "CNINFO",
+        "orgId": "9900011368"
+      },
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-07-18",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225429238",
+          "title": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易事项的进展公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-18/1225429238.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "in_progress",
+      "statusText": "预案披露/复牌",
+      "title": "金利华电拟收购中科西光82.50%股权"
+    },
+    {
+      "amountText": "3.247904亿元；评估后净资产约3.396904亿元",
+      "dimension": "已上市公司",
+      "direction": "外地上市公司收购陕西军工精密制造标的｜现金收购",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-04-30公告；2026-05-08股东会补充通知；2026-05-12复核",
+      "industry": "航空精密齿轮/精密减速器",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-fdb76cacc4b040cb",
+      "milestones": [
+        {
+          "at": "2026-04-30",
+          "label": "2026-04-30公告",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        },
+        {
+          "at": "2026-05-08",
+          "label": "2026-05-08股东会补充通知",
+          "milestoneId": "m-2",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        },
+        {
+          "at": "2026-05-12",
+          "label": "2026-05-12复核",
+          "milestoneId": "m-3",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        }
+      ],
+      "nextAction": "5月20日股东会审议、航空工业批复、交割及并表安排",
+      "partiesText": "陕西长空齿轮；汉中汉航机电、航空工业转让",
+      "significance": "航空工业体系内资产证券化，补强飞亚达精密科技业务",
+      "sourceQuery": {
+        "code": "000026",
+        "keywords": [
+          "长空齿轮",
+          "收购"
+        ],
+        "market": "CNINFO",
+        "orgId": "gssz0000026"
+      },
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-07-15",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225422825",
+          "title": "关于收购陕西长空齿轮有限责任公司100%股权暨关联交易完成工商变更登记的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-15/1225422825.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "completed",
+      "statusText": "董事会通过",
+      "title": "飞亚达拟收购陕西长空齿轮100%股权"
+    },
+    {
+      "amountText": "比例和价格未定；新基建持有20.9052%股权",
+      "dimension": "已上市公司",
+      "direction": "外地上市公司收购陕西光电子标的｜现金关联交易",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-05-11提示；2026-05-12问询",
+      "industry": "光电子器件/光电子集成",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-40f1fe5672e1af96",
+      "milestones": [
+        {
+          "at": "2026-05-11",
+          "label": "2026-05-11提示",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "planning"
+        },
+        {
+          "at": "2026-05-12",
+          "label": "2026-05-12问询",
+          "milestoneId": "m-2",
+          "sourceIds": [],
+          "stageAfter": "planning"
+        }
+      ],
+      "nextAction": "5个交易日内回复问询、董事会/股东会、国资审批和评估备案",
+      "partiesText": "西安奇芯光电；北京新基建产业一期股权投资中心",
+      "significance": "北京国资房企跨界收购西安硬科技未盈利标的",
+      "sourceQuery": {
+        "code": "600683",
+        "keywords": [
+          "购买资产",
+          "重大资产重组"
+        ],
+        "market": "CNINFO",
+        "orgId": "gssh0600683"
+      },
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-07-11",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225419258",
+          "title": "京投发展股份有限公司关于筹划重大资产重组的进展公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225419258.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "planning",
+      "statusText": "筹划/问询中",
+      "title": "京投发展筹划收购西安奇芯光电股权"
+    },
+    {
+      "amountText": "合计约6.75亿元；三方各受让681.6036万股",
+      "dimension": "新三板挂牌公司",
+      "direction": "新三板半导体企业股份协议转让｜产业投资者入股",
+      "entityMarket": "NEEQ",
+      "entityType": "neeq",
+      "firstDisclosureText": "2026-03-10协议；2026-05-11过户完成",
+      "industry": "半导体/存储芯片",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-9e1bf53772f2b2e4",
+      "milestones": [
+        {
+          "at": "2026-03-10",
+          "label": "2026-03-10协议",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "completed"
+        },
+        {
+          "at": "2026-05-11",
+          "label": "2026-05-11过户完成",
+          "milestoneId": "m-2",
+          "sourceIds": [],
+          "stageAfter": "completed"
+        }
+      ],
+      "nextAction": "后续融资、IPO路径、产业资本协同",
+      "partiesText": "西安紫光国芯；三家产业资本分别受让5%股份",
+      "significance": "引入多地产业资本，紫光存储持股降至45.67%，控制权不变",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-05-11",
+          "requiresExactDocument": true,
+          "sourceName": "全国股转系统",
+          "sourceQuality": "official_market_index",
+          "sourceRecordId": "src-neeq-specific-transfer-index",
+          "title": "紫光国芯特定事项协议转让公开信息",
+          "url": "https://www.neeq.com.cn/disclosure/specific_items_transfer.html"
+        }
+      ],
+      "sourceReviewStatus": "pending_exact_primary_document",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "completed",
+      "statusText": "过户完成",
+      "title": "紫光国芯完成15%股份协议转让"
+    },
+    {
+      "amountText": "1.74454286亿元；以注册资本注入取得30%股权",
+      "dimension": "已上市公司",
+      "direction": "西安项目公司引入外部股东｜增资入股",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-04-29",
+      "industry": "房地产项目公司",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-94e7858014bd72be",
+      "milestones": [
+        {
+          "at": "2026-04-29",
+          "label": "2026-04-29",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "in_progress"
+        }
+      ],
+      "nextAction": "股权变更、项目开发进度、少数股东权益安排",
+      "partiesText": "西安招商花园城；深圳海越锦",
+      "significance": "通过引资降低上市公司资金占用",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-04-29",
+          "sourceName": "港交所公告（巨潮镜像）",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225269898",
+          "title": "须予披露及关连交易视作出售一间附属公司之股权",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225269898.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "in_progress",
+      "statusText": "合作开发",
+      "title": "西安招商花园城引入深圳海越锦"
+    },
+    {
+      "amountText": "5622.752195万元；100%隐含估值约1.19亿元",
+      "dimension": "已上市公司",
+      "direction": "外地上市公司战略控股西安AI零售标的",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-04-29工商变更披露",
+      "industry": "AI零售/智能购物车",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-cef51041540e02c8",
+      "milestones": [
+        {
+          "at": "2026-04-29",
+          "label": "2026-04-29工商变更披露",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "completed"
+        }
+      ],
+      "nextAction": "并表影响、海外订单协同、原股东退出情况",
+      "partiesText": "西安超嗨；汉朔科技全资子公司",
+      "significance": "产业方控股，而非纯财务退出",
+      "sourceQuery": {
+        "code": "301275",
+        "keywords": [
+          "西安超嗨",
+          "投资者关系"
+        ],
+        "market": "CNINFO",
+        "orgId": "9900048578"
+      },
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-04-29",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225265504",
+          "title": "汉朔科技投资者关系活动记录表",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225265504.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "completed",
+      "statusText": "工商变更完成",
+      "title": "汉朔科技控股西安超嗨网络"
+    },
+    {
+      "amountText": "4.26亿元；100%隐含估值约8.35亿元",
+      "dimension": "已上市公司",
+      "direction": "陕西上市公司对外收购｜现金重大资产购买",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-01-08意向；2026-04-23草案",
+      "industry": "军工智能装备",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-08946af858afaff1",
+      "milestones": [
+        {
+          "at": "2026-01-08",
+          "label": "2026-01-08意向",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        },
+        {
+          "at": "2026-04-23",
+          "label": "2026-04-23草案",
+          "milestoneId": "m-2",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        }
+      ],
+      "nextAction": "股东会、深交所问询、业绩承诺、现金支付安排",
+      "partiesText": "沈阳顺义科技；北方长龙",
+      "significance": "补齐智能检测、仿真、维修保障能力",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-06-12",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225366240",
+          "title": "重大资产重组报告书（修订稿）",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-12/1225366240.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "signed_or_approved",
+      "statusText": "草案披露/推进",
+      "title": "北方长龙收购顺义科技51%股权"
+    },
+    {
+      "amountText": "2.680538亿元；100%评估值5.21亿元",
+      "dimension": "已上市公司",
+      "direction": "外地上市公司收购西安军工电子标的｜现金控股收购",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-03-13",
+      "industry": "军工电子/精确制导/通信",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-fbfca3462a01f40d",
+      "milestones": [
+        {
+          "at": "2026-03-13",
+          "label": "2026-03-13",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        }
+      ],
+      "nextAction": "股东会、业绩承诺、商誉、军工资质和订单稳定性",
+      "partiesText": "西安思丹德；顶固集创",
+      "significance": "跨界买入西安硬科技资产，体现军工电子标的稀缺性",
+      "sourceQuery": {
+        "code": "300749",
+        "keywords": [
+          "西安思丹德",
+          "购买"
+        ],
+        "market": "CNINFO",
+        "orgId": "9900023767"
+      },
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-03-14",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225009083",
+          "title": "关于购买西安思丹德信息技术有限公司51.5488%股权的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-14/1225009083.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "signed_or_approved",
+      "statusText": "已签协议",
+      "title": "顶固集创收购西安思丹德51.5488%股权"
+    },
+    {
+      "amountText": "未披露；价格和比例待正式协议",
+      "dimension": "已上市公司",
+      "direction": "外地上市公司拟收购西安高端制造标的",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-03-12",
+      "industry": "航空发动机/燃机零部件",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-83a64ad6de4fa755",
+      "milestones": [
+        {
+          "at": "2026-03-12",
+          "label": "2026-03-12",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "planning"
+        }
+      ],
+      "nextAction": "尽调结果、正式协议、交易价格、是否形成控股",
+      "partiesText": "西安市群健航空精密制造；海龙飞控",
+      "significance": "西安航空精密制造资产被传统行业上市公司跨界关注",
+      "sourceQuery": {
+        "code": "000677",
+        "keywords": [
+          "股权收购",
+          "群健航空"
+        ],
+        "market": "CNINFO",
+        "orgId": "gssz0000677"
+      },
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-03-13",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225006449",
+          "title": "恒天海龙股份有限公司关于全资子公司签署股权收购意向协议的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-13/1225006449.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "planning",
+      "statusText": "意向协议",
+      "title": "恒天海龙拟收购群健航空不少于40%股权"
+    },
+    {
+      "amountText": "7958.96万元；参考目标公司2025-11-30资产净值",
+      "dimension": "已上市公司",
+      "direction": "港股上市公司体系内收购西安项目公司",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-03-06",
+      "industry": "房地产项目公司",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-9d3063c2c32f9b55",
+      "milestones": [
+        {
+          "at": "2026-03-06",
+          "label": "2026-03-06",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "signed_or_approved"
+        }
+      ],
+      "nextAction": "交割、项目去化、关联资金往来",
+      "partiesText": "西安招玺锦樾；西安茂安",
+      "significance": "集团体系内整合，显示西安地产资产仍有交易活动",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-03-06",
+          "sourceName": "港交所公告（巨潮镜像）",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225000085",
+          "title": "须予披露及关连交易—收购目标公司之股权及视作财务资助的潜在关连交易",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-06/1225000085.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "signed_or_approved",
+      "statusText": "已签协议",
+      "title": "招商局置地体系内收购西安项目公司"
+    },
+    {
+      "amountText": "收购24%股权对价17.3087亿元；2026-07-28披露按34%持股比例拟增资7.82亿元",
+      "dimension": "已上市公司",
+      "direction": "陕西上市公司对外收购｜现金收购参股公司股权",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-01-15公告；2026-03-05完成工商变更",
+      "industry": "钼矿资源/有色金属",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-d2c8431a2cb30745",
+      "milestones": [
+        {
+          "at": "2026-01-15",
+          "label": "2026-01-15公告",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "completed"
+        },
+        {
+          "at": "2026-03-05",
+          "label": "2026-03-05完成工商变更",
+          "milestoneId": "m-2",
+          "sourceIds": [],
+          "stageAfter": "completed"
+        },
+        {
+          "at": "2026-07-28",
+          "label": "金钼股份关于向参股公司增资暨关联交易的公告",
+          "milestoneId": "m-384b4f2c9172",
+          "sourceIds": [
+            "src-1225442541"
+          ],
+          "stageAfter": "announced"
+        }
+      ],
+      "nextAction": "股东会审议、7.82亿元出资落地、沙坪沟钼矿建设和外部融资",
+      "partiesText": "安徽金沙钼业；向紫金矿业收购",
+      "significance": "收购完成后持股由10%升至34%；后续同比例增资用于沙坪沟钼矿开发，持股比例不变",
+      "sourceQuery": {
+        "code": "601958",
+        "keywords": [
+          "金沙钼业",
+          "增资"
+        ],
+        "market": "CNINFO",
+        "orgId": "9900002141"
+      },
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-03-06",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1224996924",
+          "title": "金钼股份关于收购参股公司部分股权进展的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-06/1224996924.PDF"
+        },
+        {
+          "publishedAt": "2026-07-28",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225442541",
+          "title": "金钼股份关于向参股公司增资暨关联交易的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442541.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "announced",
+      "statusText": "收购已完成/后续增资获董事会通过待股东会",
+      "title": "金钼股份收购并增资金沙钼业"
+    },
+    {
+      "amountText": "未最终确定；发行股份价格34.75元/股",
+      "dimension": "已上市公司",
+      "direction": "陕西上市公司终止收购｜原拟发行股份购买资产",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-02-13终止",
+      "industry": "电子元器件/集团资产整合",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-09269b9b645db39a",
+      "milestones": [
+        {
+          "at": "2026-02-13",
+          "label": "2026-02-13终止",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "terminated"
+        }
+      ],
+      "nextAction": "是否重启、后续IPO/并购路径、集团内部整合",
+      "partiesText": "陕西华经微电子；陕西华达",
+      "significance": "交易结构与作价谈判仍是省内整合难点",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-02-13",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1224981638",
+          "title": "关于终止发行股份购买资产并募集配套资金暨关联交易事项的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-02-13/1224981638.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "terminated",
+      "statusText": "已终止",
+      "title": "陕西华达终止收购华经微电子"
+    },
+    {
+      "amountText": "交易价格待国资评估备案及产权交易结果确定",
+      "dimension": "已上市公司",
+      "direction": "陕西上市公司出售控股子公司股权｜北京产权交易所预挂牌",
+      "entityMarket": "A",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-07-28预挂牌提示",
+      "industry": "电机制造/非优势业务处置",
+      "maProjectId": "ma-3e3e4317e8d3d91b2f14",
+      "milestones": [
+        {
+          "at": "2026-07-28",
+          "label": "航天动力关于控股子公司股权转让事项预挂牌的提示性公告",
+          "milestoneId": "m-d1e9b08d1057",
+          "sourceIds": [
+            "src-1225442395"
+          ],
+          "stageAfter": "announced"
+        }
+      ],
+      "nextAction": "国资评估备案、正式挂牌底价、受让方、交易合同及出表损益",
+      "partiesText": "航天动力；江苏航天动力机电51%股权；受让方待挂牌确定",
+      "significance": "航天动力拟剥离持续亏损的非优势业务并回收经营资金，交易完成后标的不再并表",
+      "sourceQuery": {
+        "code": "600343",
+        "keywords": [
+          "江苏航天动力机电",
+          "股权转让"
+        ],
+        "market": "CNINFO",
+        "orgId": "gssh0600343"
+      },
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-07-28",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225442395",
+          "title": "航天动力关于控股子公司股权转让事项预挂牌的提示性公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-07-28/1225442395.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "official_source_pending_scanner_merge",
+      "stage": "announced",
+      "statusText": "预挂牌/尚未构成交易",
+      "title": "航天动力预挂牌转让江苏机电51%股权"
+    },
+    {
+      "amountText": "29.96亿元；媒体披露溢价率约166.17%",
+      "dimension": "已上市公司",
+      "direction": "外地上市公司收购陕西硬科技标的",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-02-10/11披露重组报告书",
+      "industry": "半导体功率器件/封测",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-087d7b42a43da903",
+      "milestones": [
+        {
+          "at": "2026-02-10",
+          "label": "2026-02-10/11披露重组报告书",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "in_progress"
+        }
+      ],
+      "nextAction": "深交所审核、配套募资、业绩承诺、退出收益",
+      "partiesText": "华羿微电100%股份；华天科技",
+      "significance": "典型IPO折戟资产转并购退出，含陕西股东方退出",
+      "sourceQuery": {
+        "code": "002185",
+        "keywords": [
+          "华羿微电",
+          "购买资产"
+        ],
+        "market": "CNINFO",
+        "orgId": "9900003862"
+      },
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-06-18",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1225376702",
+          "title": "发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-06-18/1225376702.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "in_progress",
+      "statusText": "推进中",
+      "title": "华天科技收购华羿微电100%股份"
+    },
+    {
+      "amountText": "挂牌底价4853.40万元；另涉应收债权4605.55万元",
+      "dimension": "已上市公司",
+      "direction": "陕西上市公司出售资产｜国资平台挂牌转让",
+      "entityMarket": "A/H",
+      "entityType": "listed",
+      "firstDisclosureText": "2026-01-09",
+      "industry": "水电/资产处置",
+      "legacyOrigin": "V1 deterministic renderer",
+      "maProjectId": "ma-50e68cae8cfcd070",
+      "milestones": [
+        {
+          "at": "2026-01-09",
+          "label": "2026-01-09",
+          "milestoneId": "m-1",
+          "sourceIds": [],
+          "stageAfter": "in_progress"
+        }
+      ],
+      "nextAction": "是否成交、受让方背景、债权回收安排",
+      "partiesText": "陕西深宝水电；受让方待挂牌确定",
+      "significance": "房地产上市公司剥离非核心资产、回收资金",
+      "sourceRecords": [
+        {
+          "publishedAt": "2026-01-10",
+          "sourceName": "巨潮资讯",
+          "sourceQuality": "exchange_or_regulator_original",
+          "sourceRecordId": "src-1224928589",
+          "title": "天地源股份有限公司关于公开挂牌转让下属子公司股权的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-01-10/1224928589.PDF"
+        }
+      ],
+      "sourceReviewStatus": "primary_verified",
+      "sourceStatus": "needs_source_backfill",
+      "stage": "in_progress",
+      "statusText": "挂牌中",
+      "title": "天地源挂牌转让深宝水电51%股权"
+    }
+  ],
+  "scanAsOf": "2026-07-28",
+  "schemaVersion": "2.0",
+  "sourceBackfillCount": 1,
+  "stageCounts": {
+    "announced": 2,
+    "completed": 7,
+    "in_progress": 5,
+    "planning": 4,
+    "signed_or_approved": 7,
+    "terminated": 1
+  },
+  "year": 2026
+}
