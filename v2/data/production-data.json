@@ -32,7 +32,7 @@
       },
       {
         "path": "v2/config/source-contract.json",
-        "sha256": "c622b928e6fe5dc26cc5fe0ac1925961ecb57cd9f53467f07c12f38ba5b56b18"
+        "sha256": "63004a3e357d46b4539c83ba902fe789322b0cf4bbdd5178d1384cd52405ed3e"
       },
       {
         "path": "v2/config/tender-sources.json",
@@ -40,23 +40,23 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-07-30.json",
-        "sha256": "6b8ff5fb76f42006839e5abbdd635f284c27cdd118a6c83a10290de2ee7498b8"
+        "sha256": "15993511996c62d0c75ac2a4d04e5fd61eef1a6a2cb62a8bbf9145f6399b2bee"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-07-30.json",
-        "sha256": "763d9758dce2e9a8be7eba42c96dc4ec457aae5dce7cf2555d4a35eb0182385d"
+        "sha256": "af03e7e349a12cf8204c1f727e355f1333f5d5044d2126d44f02efe06f4118e4"
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-07-30.json",
         "sha256": "a03b261b824683be17fb7db7ed83171897eca09ddd4108b8cff0d167aa2bebae"
       },
       {
-        "path": "v2/data/readiness/v2-ready-2026-07-30-closing.json",
-        "sha256": "645748f8c9c27e937d16a6968d6b0c18982bab29e216d64046e36486c3557b99"
+        "path": "v2/data/readiness/v2-ready-2026-07-30-evening.json",
+        "sha256": "fe89dabe31e2d45e9e46afdbe6b15da2700ce82b73a5478d5bd1cc67e3f657a9"
       },
       {
         "path": "v2/data/source/events/unified-2026.json",
-        "sha256": "07577405f17d847c85f337919e10004759a5f256149e00b833953dbd483cbcaf"
+        "sha256": "65bc4689ba6073dbf176b366edbf33c8fcc86b507268fb5489e34ac53b403672"
       },
       {
         "path": "v2/data/source/listed/business-taxonomy.json",
@@ -71,8 +71,8 @@
         "sha256": "db41a0782237483409087b4a475da0c950cd0b013118b8b62d603129625a21cb"
       },
       {
-        "path": "v2/data/source/ma/scans/scan-2026-07-30-closing.json",
-        "sha256": "14c22a909c91b13210d9285a62f0090d9e7ee7b3871b18d5eb81fa8ddf11cb41"
+        "path": "v2/data/source/ma/scans/scan-2026-07-30-evening.json",
+        "sha256": "c1bbd3f6780e0bf43c074ab719335781fa83f69f8cb61efec56fccfd3c322a00"
       },
       {
         "path": "v2/data/source/observation-pool.json",
@@ -88,23 +88,23 @@
       },
       {
         "path": "v2/data/source/soe/events-2026.json",
-        "sha256": "da947549230afe1ab56e4988be02086d28562b35be5224d478627118de43d705"
+        "sha256": "1517b041d77bb59598b59925e9e2d2cb10bea1ef643a914c9ad5a7c199a79bc0"
       },
       {
-        "path": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
-        "sha256": "b312b78c0cd80edb86fca5e1f22f5c9d5859c4b2facb8edfd5aa06280b45d775"
+        "path": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
+        "sha256": "1991db9a28cb3e570e7998bf1e325cf81ff6ed12a634b2d3c610ac8c53241b48"
       },
       {
-        "path": "v2/data/source/soe/scans/scan-2026-07-30-closing.json",
-        "sha256": "d32cbc569d5d38fb96c404c2881b1ec2be94f56693106891eea7a488c6a0626d"
+        "path": "v2/data/source/soe/scans/scan-2026-07-30-evening.json",
+        "sha256": "2f2df797fcbd521fa94b73bc1e8ea53315ec742fc714c4c7a9883d05855ffe0e"
       },
       {
         "path": "v2/data/source/tender/events-2026.json",
         "sha256": "ea7e447cbeb90b12aac35e299051493509345bf806416b01d660ed20a9738766"
       },
       {
-        "path": "v2/data/source/tender/scans/scan-2026-07-30-closing.json",
-        "sha256": "162f7f0bf78a4a094695ca09b62083eda9030ff31b93eb1d2cfde698b54c71cd"
+        "path": "v2/data/source/tender/scans/scan-2026-07-30-evening.json",
+        "sha256": "77665635cbc12edea09d95abde87cc9559048a072c634a12d2626c09adf6bf99"
       },
       {
         "path": "v2/data/source/v1-history-index.json",
@@ -112,19 +112,19 @@
       },
       {
         "path": "v2/scripts/build_daily_v2.py",
-        "sha256": "6975f22402da39d2b4880185958625c271c1f0e6bf3b1883ab7b737549c9f4c4"
+        "sha256": "b5ac7bc19118aeceb40213b3e839df5877c5343e4946985227f09bb0280e6abe"
       },
       {
         "path": "v2/scripts/refresh_ma_events.py",
-        "sha256": "be5ac392d633ac05d3db305942d7e049d674914f4b1afee07db4a71f5353ff7b"
+        "sha256": "e24975b710f52de9c8419e57ac7ea90842270bf4fcac199e03185fb497792bbf"
       },
       {
         "path": "v2/scripts/refresh_soe_events.py",
-        "sha256": "5774e5a5db24812130486634ac13ca035626f6cbe060501e7bb76ba7f9b8b2b1"
+        "sha256": "2363238eb38f5aebaef38dd966e9bee839e0775645bb4e26d4980994c38059cb"
       },
       {
         "path": "v2/scripts/refresh_tender_events.py",
-        "sha256": "c64f2e095f94f103ea2012d69e0d7536838d037a47d2ea6ed20c4f95fee638e5"
+        "sha256": "bd4c189923b997b8dca0b04d76141086e7e5bc0916c8126f2d162edfc4853ca5"
       },
       {
         "path": "v2/scripts/scanner_common.py",
@@ -133,10 +133,10 @@
     ],
     "mode": "repeatable-derived-artifact",
     "notice": "本快照由列示规范数据与结构化证据稳定生成。",
-    "readiness": "v2/data/readiness/v2-ready-2026-07-30-closing.json",
+    "readiness": "v2/data/readiness/v2-ready-2026-07-30-evening.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "93829465467d"
+    "version": "f3182307b092"
   },
   "homeHighlights": [
     {
@@ -1095,6 +1095,52 @@
         {
           "items": [
             {
+              "announcementTitle": "第三届董事会第七次会议决议公告",
+              "body": "董事会会议审议情况 1、审议通过《关于作废剩余已授予尚未归属的限制性股票的议案》 根据《上市公司股权激励管理办法》和公司《2023 年限制性股票激励计划 （草案）》等相关规定。",
+              "business": {
+                "category": "激励与员工",
+                "contentImportance": "固定披露",
+                "priority": "focus",
+                "subcategory": "股权激励",
+                "targets": [
+                  "董秘办",
+                  "人力",
+                  "财务",
+                  "激励对象"
+                ]
+              },
+              "businessSubcategory": "股权激励",
+              "canonicalDetailId": "listed-detail-5e28acfe91-2622ddae",
+              "company": "西测测试",
+              "conclusion": "董事会会议审议情况 1、审议通过《关于作废剩余已授予尚未归属的限制性股票的议案》 根据《上市公司股权激励管理办法》和公司《2023 年限制性股票激励计划 （草案）》等相关规定。",
+              "importance": "必看",
+              "mandatoryCustomerHighlight": false,
+              "mandatoryRuleId": "",
+              "matterType": "股权激励",
+              "matter_id": "listed-matter-17d09ad60f1447",
+              "publishedAt": "2026-07-30",
+              "sourceConfidence": "verified-curated-matter-sources",
+              "sourceKeyword": "V2精读事项来源组",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448219.PDF",
+              "sources": [
+                {
+                  "announcementId": "1225448219",
+                  "announcementTitle": "第三届董事会第七次会议决议公告",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448219.PDF"
+                },
+                {
+                  "announcementId": "1225448218",
+                  "announcementTitle": "关于作废剩余已授予尚未归属的限制性股票的公告",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448218.PDF"
+                }
+              ],
+              "title": "西测测试｜股权激励",
+              "whyImportant": "后续关注授予或归属条件、登记数量及费用影响。"
+            },
+            {
               "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
               "body": "陕天然气披露董事会换届完成并聘任高级管理人员，重大治理变更事项进入实施完成阶段。",
               "business": {
@@ -1707,43 +1753,52 @@
           "whyImportant": "后续关注实际提款、担保余额和偿债安排。"
         },
         {
-          "announcementTitle": "第七届董事会第一次会议决议公告",
-          "body": "后续关注正式公告中的关键节点和数字变化。",
+          "announcementTitle": "第三届董事会第七次会议决议公告",
+          "body": "后续关注授予或归属条件、登记数量及费用影响。",
           "business": {
-            "category": "综合事项",
+            "category": "激励与员工",
             "contentImportance": "重点跟踪",
-            "priority": "standard",
-            "subcategory": "综合事项",
+            "priority": "focus",
+            "subcategory": "授予归属",
             "targets": [
-              "董秘办"
+              "董秘办",
+              "人力",
+              "财务",
+              "激励对象"
             ]
           },
-          "businessSubcategory": "综合事项",
-          "company": "陕天然气",
-          "conclusion": "陕天然气披露第七届董事会第一次会议决议。",
+          "businessSubcategory": "股权激励",
+          "company": "西测测试",
+          "conclusion": "董事会会议审议情况 1、审议通过《关于作废剩余已授予尚未归属的限制性股票的议案》 根据《上市公司股权激励管理办法》和公司《2023 年限制性股票激励计划 （草案）》等相关规定。",
           "importance": "必看",
           "isReference": true,
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "经营治理",
-          "matter_id": "listed-matter-1db65f6417bd70",
+          "matterType": "股权激励",
+          "matter_id": "listed-matter-17d09ad60f1447",
           "publishedAt": "2026-07-30",
-          "referenceAnchor": "listed-detail-e67b125f31-62c13784",
-          "referenceMatterId": "listed-matter-1db65f6417bd70",
+          "referenceAnchor": "listed-detail-5e28acfe91-2622ddae",
+          "referenceMatterId": "listed-matter-17d09ad60f1447",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447376.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448219.PDF",
           "sources": [
             {
-              "announcementId": "1225447376",
-              "announcementTitle": "第七届董事会第一次会议决议公告",
+              "announcementId": "1225448219",
+              "announcementTitle": "第三届董事会第七次会议决议公告",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447376.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448219.PDF"
+            },
+            {
+              "announcementId": "1225448218",
+              "announcementTitle": "关于作废剩余已授予尚未归属的限制性股票的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448218.PDF"
             }
           ],
-          "title": "陕天然气｜关注综合事项",
-          "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
+          "title": "西测测试｜关注股权激励",
+          "whyImportant": "后续关注授予或归属条件、登记数量及费用影响。"
         }
       ],
       "hkexOfficialReviewCompanyCount": 14,
@@ -1751,19 +1806,19 @@
       "kpis": [
         {
           "label": "巨潮逐主体检索公告",
-          "num": "45条"
+          "num": "54条"
         },
         {
           "label": "窗口内发布公告公司",
-          "num": "20家"
+          "num": "22家"
         },
         {
           "label": "合并去重后的客户事项",
-          "num": "23项"
+          "num": "25项"
         },
         {
           "label": "文本不合格或原文不可用候选",
-          "num": "9条"
+          "num": "13条"
         }
       ],
       "lifecycleEventCount": 619,
@@ -2165,6 +2220,41 @@
           "whyImportant": "后续关注实际提款、担保余额和偿债安排。"
         },
         {
+          "announcementTitle": "第三届董事会第七次会议决议公告",
+          "businessSubcategory": "股权激励",
+          "company": "西测测试",
+          "conclusion": "董事会会议审议情况 1、审议通过《关于作废剩余已授予尚未归属的限制性股票的议案》 根据《上市公司股权激励管理办法》和公司《2023 年限制性股票激励计划 （草案）》等相关规定。",
+          "importance": "必看",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "股权激励",
+          "matter_id": "listed-matter-17d09ad60f1447",
+          "publishedAt": "2026-07-30",
+          "score": 18,
+          "sourceAnnouncementIds": [
+            "1225448219",
+            "1225448218"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448219.PDF",
+          "sources": [
+            {
+              "announcementId": "1225448219",
+              "announcementTitle": "第三届董事会第七次会议决议公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448219.PDF"
+            },
+            {
+              "announcementId": "1225448218",
+              "announcementTitle": "关于作废剩余已授予尚未归属的限制性股票的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448218.PDF"
+            }
+          ],
+          "whyImportant": "后续关注授予或归属条件、登记数量及费用影响。"
+        },
+        {
           "announcementTitle": "第七届董事会第一次会议决议公告",
           "businessSubcategory": "综合事项",
           "company": "陕天然气",
@@ -2481,6 +2571,34 @@
             }
           ],
           "whyImportant": "后续关注已通过议案执行及相关工商或资金安排。"
+        },
+        {
+          "announcementTitle": "西部证券股份有限公司2026年面向专业投资者公开发行公司债券（第四期）在深圳证券交易所上市的公告",
+          "businessSubcategory": "综合事项",
+          "company": "西部证券",
+          "conclusion": "西部证券披露2026年面向专业投资者公开发行公司债券（第四期）在深圳证券交易所上市。",
+          "importance": "关注",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "经营治理",
+          "matter_id": "listed-matter-366507b85381b0",
+          "publishedAt": "2026-07-30",
+          "score": 4,
+          "sourceAnnouncementIds": [
+            "1225448351"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448351.PDF",
+          "sources": [
+            {
+              "announcementId": "1225448351",
+              "announcementTitle": "西部证券股份有限公司2026年面向专业投资者公开发行公司债券（第四期）在深圳证券交易所上市的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448351.PDF"
+            }
+          ],
+          "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
         },
         {
           "announcementTitle": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告",
@@ -3155,6 +3273,46 @@
       "rawPath": "v2/data/daily/listed/cninfo-announcements-2026-07-30.json",
       "rejectedCandidates": [
         {
+          "announcementId": "1225448569",
+          "company": "普汇中金国际",
+          "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
+          "discoveryStatus": "official_announcement_found_text_extraction_failed",
+          "error": "ValueError:公告PDF文本质量门禁失败：replacement_or_mojibake_markers,continuous_abnormal_symbols",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448569.PDF",
+          "status": "pending_manual_verification",
+          "title": "致非登记股东之函件 - 于本公司网站刊发公司通讯的通知及申请表格"
+        },
+        {
+          "announcementId": "1225448548",
+          "company": "普汇中金国际",
+          "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
+          "discoveryStatus": "official_announcement_found_text_extraction_failed",
+          "error": "ValueError:公告PDF文本质量门禁失败：replacement_or_mojibake_markers,continuous_abnormal_symbols",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448548.PDF",
+          "status": "pending_manual_verification",
+          "title": "致登记股东之函件 - 于本公司网站刊发公司通讯的通知及变更申请表格"
+        },
+        {
+          "announcementId": "1225448437",
+          "company": "普汇中金国际",
+          "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
+          "discoveryStatus": "official_announcement_found_text_extraction_failed",
+          "error": "ValueError:公告PDF文本质量门禁失败：replacement_or_mojibake_markers,continuous_abnormal_symbols",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448437.PDF",
+          "status": "pending_manual_verification",
+          "title": "2026 环境、社会及管治报告"
+        },
+        {
+          "announcementId": "1225448371",
+          "company": "普汇中金国际",
+          "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
+          "discoveryStatus": "official_announcement_found_text_extraction_failed",
+          "error": "ValueError:公告PDF文本质量门禁失败：replacement_or_mojibake_markers",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448371.PDF",
+          "status": "pending_manual_verification",
+          "title": "2026 年报"
+        },
+        {
           "announcementId": "1225446617",
           "company": "天地源",
           "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
@@ -3448,11 +3606,171 @@
       "schemaVersion": "2.1",
       "sourceAcquisitionStatus": {
         "hasPendingOfficialTextVerification": true,
-        "officialAnnouncementTextExtractionFailed": 9,
-        "officialAnnouncementsDiscovered": 45,
-        "reliableTextExtracted": 36
+        "officialAnnouncementTextExtractionFailed": 13,
+        "officialAnnouncementsDiscovered": 54,
+        "reliableTextExtracted": 41
       },
       "sourceEvidence": [
+        {
+          "body": "证券代码：301517 证券简称：陕西华达公告编号：2026-027 陕西华达科技股份有限公司关于完成工商变更登记并换发营业执照的公告陕西华达科技股份有限公司（以下简称“本公司”或“公司”） 于 2026 年 7 月 17 日召开 2026 年第一次临时股东会，审议通过了《关于变更董事会非独立董事的议案》，任永珊先生当选公司第五届董事会非独立董事，任期自 2026 年第一次临时股东会审议通过之日起至第五届董事会任期届满之日止。具体内容详见公司于 2026。",
+          "company": "陕西华达",
+          "discoveryPdfSha256": "d676ad11f7ba32d19c282a03a075df19fc5009e20fa02d8754977ee05ea6869c",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448422.PDF",
+          "excerpt": "证券代码：301517 证券简称：陕西华达公告编号：2026-027 陕西华达科技股份有限公司关于完成工商变更登记并换发营业执照的公告陕西华达科技股份有限公司（以下简称“本公司”或“公司”） 于 2026 年 7 月 17 日召开 2026 年第一次临时股东会，审议通过了《关于变更董事会非独立董事的议案》，任永珊先生当选公司第五届董事会非独立董事，任期自 2026 年第一次临时股东会审议通过之日起至第五届董事会任期届满之日止。具体内容详见公司于 2026。",
+          "hkexNewsId": "",
+          "kind": "dynamic",
+          "matter_id": "1225448422",
+          "parser": "pypdf",
+          "pdfSha256": "d676ad11f7ba32d19c282a03a075df19fc5009e20fa02d8754977ee05ea6869c",
+          "publishedAt": "2026-07-30",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448422.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 1065,
+              "controlCharacters": 0,
+              "languageRatio": 0.8836,
+              "mojibakeMarkers": 0,
+              "readableRatio": 1.0
+            },
+            "reasons": []
+          },
+          "textSha256": "bab5cd87039fc04d628c76eb6eee8f5591dfb164181d683baec89e420838c240",
+          "title": "关于完成工商变更登记并换发营业执照的公告"
+        },
+        {
+          "body": "西部证券股份有限公司 2026 年面向专业投资者公开发行公司债券（第四期）在深圳证券交易所上市的公告根据深圳证券交易所债券上市的有关规定，西部证券股份有限公司 2026 年面向专业投资者公开发行公司债券 （第四期）符合深圳证券交易所债券上市条件， 将于 2026 年 7 月 31 日起在深圳证券交易所上市， 并面向专业投资者中的机构投资者交易， 交易方式包括匹配成交、 点击成交、 询价成交、 竞买成交和协商成交。债券相关要素如下： 债券名称西部证券股份有。",
+          "company": "西部证券",
+          "discoveryPdfSha256": "eeaf0e3c61ad45992dd101a6cf03380adb7e6d32ff156991c07fa450e6b6d528",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448351.PDF",
+          "excerpt": "西部证券股份有限公司 2026 年面向专业投资者公开发行公司债券（第四期）在深圳证券交易所上市的公告根据深圳证券交易所债券上市的有关规定，西部证券股份有限公司 2026 年面向专业投资者公开发行公司债券 （第四期）符合深圳证券交易所债券上市条件， 将于 2026 年 7 月 31 日起在深圳证券交易所上市， 并面向专业投资者中的机构投资者交易， 交易方式包括匹配成交、 点击成交、 询价成交、 竞买成交和协商成交。债券相关要素如下： 债券名称西部证券股份有。",
+          "hkexNewsId": "",
+          "kind": "capital",
+          "matter_id": "1225448351",
+          "parser": "pypdf",
+          "pdfSha256": "eeaf0e3c61ad45992dd101a6cf03380adb7e6d32ff156991c07fa450e6b6d528",
+          "publishedAt": "2026-07-30",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448351.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 519,
+              "controlCharacters": 0,
+              "languageRatio": 0.9306,
+              "mojibakeMarkers": 0,
+              "readableRatio": 1.0
+            },
+            "reasons": []
+          },
+          "textSha256": "a3fa475cc515051df43fdae1dc21fd26ae5a7afb7cbd4831ff72c206a3cd6341",
+          "title": "西部证券股份有限公司2026年面向专业投资者公开发行公司债券（第四期）在深圳证券交易所上市的公告"
+        },
+        {
+          "body": "基于上述，本所出具法律意见如下： 上海市锦天城律师事务所法律意见书 5 正文一、本次作废的批准和授权根据公司提供的资料并经本所律师核查，截至本法律意见书出具之日，公司就本次作废已经履行如下程序： 1、2023 年 7 月 4 日，公司第二届董事会第五次会议审议通过了《关于公司 <2023 年限制性股票激励计划（草案）>及其摘要的议案》《关于公司<2023 年限制性股票激励计划实施考核管理办法>的议案》《关于提请股东大会授权董事会办理 2023 年限制性股。",
+          "company": "西测测试",
+          "discoveryPdfSha256": "765b94308658815c41ef7f004e3405620ed7f4342fb751e1a44f54e87f74484a",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448220.PDF",
+          "excerpt": "基于上述，本所出具法律意见如下： 上海市锦天城律师事务所法律意见书 5 正文一、本次作废的批准和授权根据公司提供的资料并经本所律师核查，截至本法律意见书出具之日，公司就本次作废已经履行如下程序： 1、2023 年 7 月 4 日，公司第二届董事会第五次会议审议通过了《关于公司 <2023 年限制性股票激励计划（草案）>及其摘要的议案》《关于公司<2023 年限制性股票激励计划实施考核管理办法>的议案》《关于提请股东大会授权董事会办理 2023 年限制性股。",
+          "hkexNewsId": "",
+          "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "股权激励",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "股权激励",
+            "eventType": "equity_incentive",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-325f06b6e8aa087862",
+            "mainSection": "governance",
+            "planId": "2023年限制性股票激励计划",
+            "stage": "cancelled_or_used",
+            "status": "active"
+          },
+          "matter_id": "1225448220",
+          "parser": "pypdf",
+          "pdfSha256": "765b94308658815c41ef7f004e3405620ed7f4342fb751e1a44f54e87f74484a",
+          "publishedAt": "2026-07-30",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448220.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 4142,
+              "controlCharacters": 0,
+              "languageRatio": 0.8979,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9995
+            },
+            "reasons": []
+          },
+          "textSha256": "5c5f9e94fd89e4fdca475894ccd1c2da5c6e861ce4a39649ca4f53858eff51e5",
+          "title": "上海市锦天城律师事务所关于西安西测测试技术股份有限公司2023年限制性股票激励计划关于作废剩余已授予尚未归属限制性股票相关事项的法律意见书"
+        },
+        {
+          "body": "证券代码：301306 证券简称：西测测试公告编号：2026-030 西安西测测试技术股份有限公司第三届董事会第七次会议决议公告一、董事会会议召开情况西安西测测试技术股份有限公司（以下简称“公司”）第三届董事会第七次会议（以下简称“本次会议”）通知于 2026 年 7 月 24 日以邮件、电话等方式送达公司全体董事，会议于 2026 年 7 月 30 日以现场结合通讯方式在公司会议室召开。本次会议应出席董事 9 人，实际出席董事 9 人，其中董事李泽新先。",
+          "company": "西测测试",
+          "discoveryPdfSha256": "97aab4badba7b3e7b2e16841350a704366ec349b15c42bce954d401ab5bfac6e",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448219.PDF",
+          "excerpt": "证券代码：301306 证券简称：西测测试公告编号：2026-030 西安西测测试技术股份有限公司第三届董事会第七次会议决议公告一、董事会会议召开情况西安西测测试技术股份有限公司（以下简称“公司”）第三届董事会第七次会议（以下简称“本次会议”）通知于 2026 年 7 月 24 日以邮件、电话等方式送达公司全体董事，会议于 2026 年 7 月 30 日以现场结合通讯方式在公司会议室召开。本次会议应出席董事 9 人，实际出席董事 9 人，其中董事李泽新先。",
+          "hkexNewsId": "",
+          "kind": "dynamic",
+          "matter_id": "1225448219",
+          "parser": "pypdf",
+          "pdfSha256": "97aab4badba7b3e7b2e16841350a704366ec349b15c42bce954d401ab5bfac6e",
+          "publishedAt": "2026-07-30",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448219.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 808,
+              "controlCharacters": 0,
+              "languageRatio": 0.9035,
+              "mojibakeMarkers": 0,
+              "readableRatio": 1.0
+            },
+            "reasons": []
+          },
+          "textSha256": "f3071e4cebb8fb33317998e7307c1ad49ea3eca13bb8bc138773edb48dfe90f3",
+          "title": "第三届董事会第七次会议决议公告"
+        },
+        {
+          "body": "西安西测测试技术股份有限公司（以下简称“公司”）于 2026 年 7 月 30 日召开的第三届董事会第七次会议，审议通过了《关于作废剩余已授予尚未归属的限制性股票的议案》，现将相关事项公告如下： 一、公司 2023 年限制性股票激励计划已履行的相关审批程序 1、2023 年 7 月 4 日，公司召开第二届董事会第五次会议，会议审议通过《关于公司<2023 年限制性股票激励计划（草案）>及其摘要的议案》《关于公司<2023 年限制性股票激励计划实施考核管理。",
+          "company": "西测测试",
+          "discoveryPdfSha256": "5ebbab58d26e040a3419e7977e169b4e38a280aaf2d5d8eefb84fbac74b77a2e",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448218.PDF",
+          "excerpt": "西安西测测试技术股份有限公司（以下简称“公司”）于 2026 年 7 月 30 日召开的第三届董事会第七次会议，审议通过了《关于作废剩余已授予尚未归属的限制性股票的议案》，现将相关事项公告如下： 一、公司 2023 年限制性股票激励计划已履行的相关审批程序 1、2023 年 7 月 4 日，公司召开第二届董事会第五次会议，会议审议通过《关于公司<2023 年限制性股票激励计划（草案）>及其摘要的议案》《关于公司<2023 年限制性股票激励计划实施考核管理。",
+          "hkexNewsId": "",
+          "kind": "dynamic",
+          "matter_id": "1225448218",
+          "parser": "pypdf",
+          "pdfSha256": "5ebbab58d26e040a3419e7977e169b4e38a280aaf2d5d8eefb84fbac74b77a2e",
+          "publishedAt": "2026-07-30",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225448218.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 2439,
+              "controlCharacters": 0,
+              "languageRatio": 0.9082,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9992
+            },
+            "reasons": []
+          },
+          "textSha256": "ed0b3e23023cc4ebb4c912fabede77d2c6acf1a35aef0f22bb304fc336896f62",
+          "title": "关于作废剩余已授予尚未归属的限制性股票的公告"
+        },
         {
           "body": "证券代码：300775 证券简称：三角防务公告编号：2026-058 债券代码：123114 债券简称：三角转债西安三角防务股份有限公司关于使用部分闲置自有资金进行现金管理到期赎回的公告本公司及董事会全体成员保证信息披露内容的真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。西安三角防务股份有限公司（以下简称“公司”）于 2026 年 4 月 27 日召开的第四届董事会第六次会议审议通过了《关于使用部分闲置募集资金及自有资金进行现金管理的议案》，同意。",
           "company": "三角防务",
@@ -4723,7 +5041,7 @@
           "title": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告"
         }
       ],
-      "subtitle": "2026-07-30｜逐主体检索110家正式观察池，45条公告、20家发布公告公司",
+      "subtitle": "2026-07-30｜逐主体检索110家正式观察池，54条公告、22家发布公告公司",
       "template": "v2-listed-v1-editorial",
       "tiles": [
         {
@@ -6211,8 +6529,8 @@
     "pageDate": "2026-07-30",
     "sourceAsOf": "2026-07-30",
     "sourceCoverage": {
-      "linked": 35,
-      "total": 35,
+      "linked": 36,
+      "total": 36,
       "unmatched": []
     }
   },
@@ -10656,13 +10974,13 @@
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "listed_primary_verified_45_announcements",
+        "result": "listed_primary_verified_54_announcements",
         "scanAsOf": "2026-07-30",
         "status": "completed"
       },
       "ma": {
         "evidence": [
-          "v2/data/source/ma/scans/scan-2026-07-30-closing.json"
+          "v2/data/source/ma/scans/scan-2026-07-30-evening.json"
         ],
         "ready": true,
         "releaseEligible": false,
@@ -10684,7 +11002,7 @@
       },
       "soe": {
         "evidence": [
-          "v2/data/source/soe/scans/scan-2026-07-30-closing.json"
+          "v2/data/source/soe/scans/scan-2026-07-30-evening.json"
         ],
         "ready": true,
         "releaseEligible": false,
@@ -10694,7 +11012,7 @@
       },
       "tender": {
         "evidence": [
-          "v2/data/source/tender/scans/scan-2026-07-30-closing.json"
+          "v2/data/source/tender/scans/scan-2026-07-30-evening.json"
         ],
         "ready": true,
         "releaseEligible": true,
@@ -10710,7 +11028,7 @@
       "sha256": "68c72ffe17cf93d0964a738fe93eace4fcc5d0be2209eb35bddf6e84f95d84e9",
       "standard": "v1-source-and-editorial-quality"
     },
-    "slot": "closing",
+    "slot": "evening",
     "sourceConstraints": [
       {
         "channel": "tender",
@@ -10730,7 +11048,7 @@
     "year": "eventDate 所在自然年；仅展示结构化源中真实存在的年份"
   },
   "scanAsOf": "2026-07-30",
-  "scanSlot": "closing",
+  "scanSlot": "evening",
   "schemaVersion": "2.2",
   "soe": {
     "available": true,
@@ -10756,7 +11074,7 @@
           "sourceQuality": "issuer_original",
           "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429396&cid=98",
           "title": "天津伊米斯新能科技有限公司 闲置系统及闲置办公家具 闲置电子办公设备处置竞价公告",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
           "verificationNote": "天津伊米斯新能科技有限公司 闲置系统及闲置办公家具 闲置电子办公设备处置竞价公告- 调剂信息 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织"
         },
         {
@@ -10788,8 +11106,24 @@
           "sourceQuality": "issuer_original",
           "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429391&cid=15",
           "title": "陕北矿业：铆足干劲实现“双过半”",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
           "verificationNote": "陕北矿业：铆足干劲实现“双过半”- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神标识 核"
+        },
+        {
+          "candidateId": "soe-v2-aef269ac0bd271b71230",
+          "category": "产业经营",
+          "entities": [
+            "陕西煤业化工集团有限责任公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-30",
+          "sourceName": "陕煤集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429399&cid=187",
+          "title": "北元集团金基催化剂合成氯乙烯技术通过鉴定",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
+          "verificationNote": "北元集团金基催化剂合成氯乙烯技术通过鉴定- 科技创新 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神"
         },
         {
           "candidateId": "soe-v2-ab80f4ab28bf5f5860be",
@@ -10804,24 +11138,8 @@
           "sourceQuality": "issuer_original",
           "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429393&cid=38",
           "title": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
           "verificationNote": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训- 组织干部 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级"
-        },
-        {
-          "candidateId": "soe-v2-2b26a20ccabf3abe064a",
-          "category": "产业经营",
-          "entities": [
-            "陕西煤业化工集团有限责任公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-30",
-          "sourceName": "陕煤集团官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429395&cid=33",
-          "title": "府谷能源榆林配售电公司：舞活三板斧，激活发展新动能",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
-          "verificationNote": "府谷能源榆林配售电公司：舞活三板斧，激活发展新动能- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化"
         }
       ],
       "综合动态": [
@@ -11143,7 +11461,7 @@
         "sourceQuality": "issuer_original",
         "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429396&cid=98",
         "title": "天津伊米斯新能科技有限公司 闲置系统及闲置办公家具 闲置电子办公设备处置竞价公告",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
         "verificationNote": "天津伊米斯新能科技有限公司 闲置系统及闲置办公家具 闲置电子办公设备处置竞价公告- 调剂信息 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织"
       },
       {
@@ -11175,8 +11493,24 @@
         "sourceQuality": "issuer_original",
         "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429391&cid=15",
         "title": "陕北矿业：铆足干劲实现“双过半”",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
         "verificationNote": "陕北矿业：铆足干劲实现“双过半”- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神标识 核"
+      },
+      {
+        "candidateId": "soe-v2-aef269ac0bd271b71230",
+        "category": "产业经营",
+        "entities": [
+          "陕西煤业化工集团有限责任公司"
+        ],
+        "normalizationStatus": "official_source_verified",
+        "noveltyStatus": "verified_v2_import",
+        "publishedAt": "2026-07-30",
+        "sourceName": "陕煤集团官网",
+        "sourceQuality": "issuer_original",
+        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429399&cid=187",
+        "title": "北元集团金基催化剂合成氯乙烯技术通过鉴定",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
+        "verificationNote": "北元集团金基催化剂合成氯乙烯技术通过鉴定- 科技创新 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神"
       },
       {
         "candidateId": "soe-v2-ab80f4ab28bf5f5860be",
@@ -11191,24 +11525,8 @@
         "sourceQuality": "issuer_original",
         "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429393&cid=38",
         "title": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
         "verificationNote": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训- 组织干部 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级"
-      },
-      {
-        "candidateId": "soe-v2-2b26a20ccabf3abe064a",
-        "category": "产业经营",
-        "entities": [
-          "陕西煤业化工集团有限责任公司"
-        ],
-        "normalizationStatus": "official_source_verified",
-        "noveltyStatus": "verified_v2_import",
-        "publishedAt": "2026-07-30",
-        "sourceName": "陕煤集团官网",
-        "sourceQuality": "issuer_original",
-        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429395&cid=33",
-        "title": "府谷能源榆林配售电公司：舞活三板斧，激活发展新动能",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
-        "verificationNote": "府谷能源榆林配售电公司：舞活三板斧，激活发展新动能- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化"
       }
     ],
     "isAsOfFallback": false,
@@ -11219,19 +11537,19 @@
     ],
     "networkVerified": true,
     "pageDate": "2026-07-30",
-    "recordCount": 89,
+    "recordCount": 92,
     "rejectedCandidateCount": 0,
     "scanAsOf": "2026-07-30",
-    "scanEvidence": "v2/data/source/soe/scans/scan-2026-07-30-closing.json",
-    "scanSlot": "closing",
+    "scanEvidence": "v2/data/source/soe/scans/scan-2026-07-30-evening.json",
+    "scanSlot": "evening",
     "scanStatus": "completed",
     "sourceAsOf": "2026-07-30",
     "summary": {
       "earliestPublishedAt": "2026-05-21",
       "entityCount": 25,
       "latestPublishedAt": "2026-07-30",
-      "recordCount": 89,
-      "verifiedImportCount": 28
+      "recordCount": 92,
+      "verifiedImportCount": 31
     }
   },
   "sourceAsOf": {
@@ -11255,7 +11573,7 @@
     "listedDaily": "v2/data/daily/listed/listed-official-2026-07-30.json",
     "listedUniverse": "v2/data/source/listed/universe.json",
     "maAnnual": "v2/data/source/ma/events-2026.json",
-    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-07-30-closing.json",
+    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-07-30-evening.json",
     "observationPool": "v2/data/source/observation-pool.json",
     "privateAnnual": "v2/data/source/private/products-2026.json",
     "privateProductEvidence": [
@@ -11263,10 +11581,10 @@
     ],
     "privateUniverse": "v2/data/daily/private/security-private-fund-daily-2026-07-30.json + v2/data/source/private/universe.json",
     "soeAnnual": "v2/data/source/soe/events-2026.json",
-    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-07-30-closing.json",
+    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-07-30-evening.json",
     "sourceContract": "v2/config/source-contract.json",
     "tenderAnnualProjects": "v2/data/source/tender/events-2026.json",
-    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-07-30-closing.json",
+    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-07-30-evening.json",
     "v1HistoryIndex": "v2/data/source/v1-history-index.json"
   },
   "tender": {
