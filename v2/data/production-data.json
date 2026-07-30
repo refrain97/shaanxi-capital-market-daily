@@ -40,7 +40,7 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-07-30.json",
-        "sha256": "535329afd1f362908f77e27f96c2ff0bae272dd135f310a599eef05be255bc3a"
+        "sha256": "20d454d6d290af43f9947a8bdc9fbb12ad51dded53d91d39aaa509d05897e1f2"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-07-30.json",
@@ -92,11 +92,11 @@
       },
       {
         "path": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
-        "sha256": "168a5dda14a02e82da6aafbb9a266e19f2995dfbf597d2f902910445e5f9ab1b"
+        "sha256": "eb2055029345a587ff478ab3a226aa524ffc73c92d9f08e7326aea40f636edc3"
       },
       {
         "path": "v2/data/source/soe/scans/scan-2026-07-30-evening.json",
-        "sha256": "f23400071c7c03f4f4048daedd784634f3eee438c399f0dfc9b344c40d51eea0"
+        "sha256": "160b73d6323e3397ebc4350c9af98a41c7cf700a0c76ac1717e3a0049e080cb5"
       },
       {
         "path": "v2/data/source/tender/events-2026.json",
@@ -112,7 +112,7 @@
       },
       {
         "path": "v2/scripts/build_daily_v2.py",
-        "sha256": "b5ac7bc19118aeceb40213b3e839df5877c5343e4946985227f09bb0280e6abe"
+        "sha256": "644e30e9fefc5ee0a1b87e767f64bd7efd48238b7175828fa92468800a9fc58d"
       },
       {
         "path": "v2/scripts/refresh_ma_events.py",
@@ -136,7 +136,7 @@
     "readiness": "v2/data/readiness/v2-ready-2026-07-30-evening.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "ef404483acf8"
+    "version": "be7a44925645"
   },
   "homeHighlights": [
     {
@@ -780,11 +780,13 @@
           "announcementTitle": "关于持股5%以上股东增持公司股份的公告",
           "attention": "本次披露反映股东以真金白银增持，持股比例变化及承诺期是判断信号强度的关键；后续关注首次交易、增持金额与比例、时间进度及计划完成情况。",
           "business": {
-            "category": "综合事项",
+            "category": "股东服务",
             "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "综合事项",
+            "priority": "focus",
+            "subcategory": "增持",
             "targets": [
+              "控股股东",
+              "5%以上股东",
               "董秘办"
             ]
           },
@@ -925,14 +927,14 @@
           "announcementTitle": "关于购买成都天科航空制造股份有限公司股份及增资事项的进展公告",
           "attention": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
           "business": {
-            "category": "股东服务",
+            "category": "资本运作",
             "contentImportance": "内容重要",
             "priority": "focus",
-            "subcategory": "质押冻结",
+            "subcategory": "并购重组",
             "targets": [
-              "控股股东",
-              "5%以上股东",
-              "董秘办"
+              "董秘办",
+              "财务",
+              "投融资负责人"
             ]
           },
           "businessSubcategory": "并购重组",
@@ -1870,11 +1872,13 @@
         {
           "anchorId": "listed-detail-3d11f47147-bba7cb65",
           "business": {
-            "category": "综合事项",
+            "category": "资金与财务",
             "contentImportance": "内容重要",
             "priority": "standard",
-            "subcategory": "综合事项",
+            "subcategory": "担保",
             "targets": [
+              "财务负责人",
+              "资金部",
               "董秘办"
             ]
           },
@@ -2030,11 +2034,13 @@
           "announcementTitle": "关于全资子公司申请抵押贷款暨公司为其提供担保的公告",
           "body": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险；后续关注实际提款、担保余额和偿债安排。",
           "business": {
-            "category": "综合事项",
+            "category": "资金与财务",
             "contentImportance": "重点跟踪",
             "priority": "standard",
-            "subcategory": "综合事项",
+            "subcategory": "担保",
             "targets": [
+              "财务负责人",
+              "资金部",
               "董秘办"
             ]
           },
@@ -2101,11 +2107,13 @@
           "announcementTitle": "关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告",
           "body": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险；后续关注实际提款、担保余额和偿债安排。",
           "business": {
-            "category": "综合事项",
+            "category": "资金与财务",
             "contentImportance": "重点跟踪",
             "priority": "standard",
-            "subcategory": "综合事项",
+            "subcategory": "担保",
             "targets": [
+              "财务负责人",
+              "资金部",
               "董秘办"
             ]
           },
@@ -4502,11 +4510,13 @@
           "announcementTitle": "关于持股5%以上股东增持公司股份的公告",
           "body": "西测测试股东中投国联增持122,100股，占总股本0.1447%，增持均价81.85元；增持后持有4,342,100股，持股比例5.1447%；当前节点：首次实施。",
           "business": {
-            "category": "综合事项",
+            "category": "股东服务",
             "contentImportance": "必看",
-            "priority": "standard",
-            "subcategory": "综合事项",
+            "priority": "focus",
+            "subcategory": "增持",
             "targets": [
+              "控股股东",
+              "5%以上股东",
               "董秘办"
             ]
           },
@@ -4857,11 +4867,13 @@
         {
           "announcementTitle": "关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告",
           "business": {
-            "category": "综合事项",
+            "category": "资金与财务",
             "contentImportance": "内容重要",
             "priority": "standard",
-            "subcategory": "综合事项",
+            "subcategory": "担保",
             "targets": [
+              "财务负责人",
+              "资金部",
               "董秘办"
             ]
           },
@@ -8149,11 +8161,13 @@
       {
         "anchorId": "listed-detail-3d11f47147-bba7cb65",
         "business": {
-          "category": "综合事项",
+          "category": "资金与财务",
           "contentImportance": "内容重要",
           "priority": "standard",
-          "subcategory": "综合事项",
+          "subcategory": "担保",
           "targets": [
+            "财务负责人",
+            "资金部",
             "董秘办"
           ]
         },
