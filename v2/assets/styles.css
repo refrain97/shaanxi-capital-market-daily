@@ -1,4 +1,4 @@
-:root{--navy:#17395c;--navy2:#0d2944;--ink:#172536;--muted:#697586;--red:#a72e31;--gold:#b48a4d;--paper:#f4f1ea;--white:#fff;--line:#ded8cd;--soft:#ebe6dc}
+:root{--navy:#17395c;--navy2:#0d2944;--ink:#172536;--muted:#5f6b7a;--red:#a72e31;--gold:#b48a4d;--paper:#f4f1ea;--white:#fff;--line:#ded8cd;--soft:#ebe6dc}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--paper);font:15px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}a{color:inherit}.edition{position:sticky;top:0;z-index:50;padding:6px 14px;background:#edf1f4;border-bottom:1px solid #ccd6de;color:#17395c;text-align:center;font-size:12px;font-weight:850;letter-spacing:.1em}.site-head{position:sticky;top:31px;z-index:40;min-height:68px;padding:0 max(22px,calc((100vw - 1200px)/2));display:flex;align-items:center;justify-content:space-between;background:#fffefbdb;border-bottom:1px solid #ddd7cc;backdrop-filter:blur(16px)}.brand{text-decoration:none;display:flex;align-items:center;gap:8px;font-family:Georgia,"Songti SC",serif}.brand span{font-size:17px}.brand b{padding:3px 8px;background:var(--red);color:#fff;border-radius:3px;font-size:15px}.site-head nav{display:flex;gap:4px}.site-head nav a{padding:7px 10px;border-radius:7px;text-decoration:none;color:#405065;font-size:13px}.site-head nav a:hover,.site-head nav a[aria-current=page]{background:#e8edf1;color:#17395c}.nav-toggle{display:none}
 #app{min-height:70vh}.loading{padding:80px;text-align:center;color:var(--muted)}.cover{position:relative;min-height:380px;color:#fff;background:linear-gradient(100deg,#0d2944e8 0 52%,#153a634f),var(--image) center/cover}.cover-inner{max-width:1200px;margin:auto;padding:58px 24px 50px}.eyebrow{margin:0 0 10px;color:#e2c98f;font-size:12px;font-weight:850;letter-spacing:.14em;text-transform:uppercase}.cover h1,.page-title h1{font:800 52px/1.12 Georgia,"Songti SC",serif;margin:0 0 17px}.cover .lead{max-width:680px;font-size:18px;color:#e8eef3}.cover-date{margin:22px 0 0;font:700 26px/1.2 Georgia}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:19px}.btn,.copy{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:8px 15px;border:1px solid #cbd3da;border-radius:999px;background:#fff;color:var(--navy);font:750 13px/1.2 inherit;text-decoration:none;cursor:pointer}.btn.ghost{border-color:#ffffff80;background:#ffffff14;color:#fff}
 .wrap{max-width:1200px;margin:auto;padding:42px 24px 74px}.section{margin-top:44px}.section:first-child{margin-top:0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:16px}.section-head h2{font:800 30px/1.25 Georgia,"Songti SC",serif;margin:0}.section-head p{margin:0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.channel-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:15px}.channel-grid>.card{grid-column:span 2}.channel-grid>.card:nth-child(n+4){grid-column:span 3}.card,.record,.callout,.filters{background:#fff;border:1px solid var(--line);border-radius:13px}.card{padding:20px;box-shadow:0 7px 26px #26374908}.card time{display:block;margin-top:5px;color:var(--muted);font-size:11px}.card h3{font-size:18px;line-height:1.4;margin:7px 0}.card p{margin:0;color:#4f5d6d}.card .more{display:inline-block;margin-top:12px;color:var(--navy);font-weight:800;text-decoration:none}.card.image{min-height:290px;padding:0;overflow:hidden;position:relative}.card.image img{width:100%;height:160px;display:block;object-fit:cover}.card.image div{padding:17px}.tag{display:inline-block;margin:0 4px 4px 0;padding:3px 8px;border-radius:99px;background:#e7edf1;color:#31516c;font-size:11px;font-weight:800}.tag.red{background:#f5e3e3;color:#8c292c}.tag.gold{background:#f3ead7;color:#775a25}.tag.green{background:#e0eee8;color:#326448}.kpi b{display:block;color:var(--navy);font:800 31px/1.1 Georgia}.kpi span{display:block;margin-top:7px;color:var(--muted);font-size:12px}.callout{padding:18px 20px;border-left:4px solid var(--gold)}.daily-sections{display:grid;gap:26px}.daily-block h2{display:flex;align-items:center;gap:12px;font:800 25px/1.25 Georgia;margin:0 0 12px}.daily-block h2 span{color:var(--red);font:800 15px/1 inherit}.records{display:grid;gap:11px}.record{padding:16px 18px}.record time{display:block;color:var(--muted);font-size:11px}.record-body{padding-top:13px;color:#4b596a}.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 18px}.facts div{padding-top:7px;border-top:1px solid #eee9e0;min-width:0;overflow-wrap:anywhere}.facts b{display:block;color:#7b8490;font-size:11px}.source{font-size:12px;color:var(--muted)}.source a{color:#275e88}.pending-source{color:#9a6431;font-size:11px}.filters{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:9px;padding:12px;margin-bottom:14px}.filters input,.filters select{min-width:0;width:100%;min-height:40px;padding:8px 10px;border:1px solid #d1d7dc;border-radius:8px;background:#fff;font:inherit}.result-head{display:flex;justify-content:space-between;align-items:center;margin:10px 0;color:var(--muted);font-size:13px}.pager{display:flex;justify-content:center;gap:10px;align-items:center;margin-top:18px}.empty{padding:30px;text-align:center;color:var(--muted)}
@@ -55,4 +55,131 @@ body[data-page=index] #today .grid{align-items:stretch}body[data-page=index] #to
     justify-self:start;
     white-space:nowrap
   }
+}
+
+/* Listed report editorial layout: keep facts, interpretation and evidence
+   visually distinct without turning the client page into a long-form PDF. */
+body[data-page=listed] .listed-shell{
+  max-width:1280px;
+  grid-template-columns:168px minmax(0,1fr);
+  gap:24px
+}
+body[data-page=listed] .page-toc{padding:8px}
+body[data-page=listed] .page-toc a{padding:7px 9px;font-size:12px}
+body[data-page=listed] .dense-section>header{margin-bottom:11px}
+body[data-page=listed] .news-row{
+  grid-template-columns:136px minmax(0,1fr) 58px;
+  gap:14px;
+  align-items:start;
+  padding:11px 13px
+}
+body[data-page=listed] .news-company{min-width:0}
+body[data-page=listed] .news-company b{font-size:16px;line-height:1.35}
+body[data-page=listed] .news-main p{
+  margin:4px 0 0;
+  font-size:14px;
+  line-height:1.55;
+  letter-spacing:.01em;
+  overflow-wrap:anywhere
+}
+body[data-page=listed] .news-main small{
+  margin-top:7px;
+  padding-top:6px;
+  border-top:1px dashed #e5ded2;
+  font-size:12px;
+  line-height:1.5
+}
+body[data-page=listed] .news-meta{margin-bottom:5px}
+body[data-page=listed] .row-sources{align-self:start;gap:6px}
+body[data-page=listed] .row-source{
+  display:inline-flex;
+  min-height:27px;
+  align-items:center;
+  justify-content:center;
+  padding:3px 7px;
+  border:1px solid #d7e0e7;
+  border-radius:6px;
+  background:#f7fafb;
+  white-space:nowrap
+}
+body[data-page=listed] .focus-hit-list{border-radius:8px;overflow:hidden}
+body[data-page=listed] .focus-company-link{padding:11px 13px}
+body[data-page=listed] .focus-company-link:nth-child(odd){border-right:1px solid #eee8df}
+body[data-page=listed] .focus-hit-list small{margin-top:5px;line-height:1.5}
+
+@media(max-width:860px){
+  body[data-page=listed] .listed-shell{padding:0 14px 48px}
+  body[data-page=listed] .page-toc{
+    gap:2px;
+    padding-right:38px;
+    scroll-snap-type:x proximity;
+    scrollbar-width:none
+  }
+  body[data-page=listed] .page-toc a{scroll-snap-align:start}
+  body[data-page=listed] .page-toc::-webkit-scrollbar{display:none}
+  body[data-page=listed] .news-row{grid-template-columns:108px minmax(0,1fr) 58px}
+}
+
+@media(max-width:520px){
+  body[data-page=listed] .cover{min-height:0}
+  body[data-page=listed] .cover-inner{padding:28px 16px 25px}
+  body[data-page=listed] .cover h1{
+    margin-bottom:10px;
+    font-size:32px;
+    line-height:1.15
+  }
+  body[data-page=listed] .cover .lead{margin:0;font-size:14px;line-height:1.6}
+  body[data-page=listed] .cover-date{display:none}
+  body[data-page=listed] .date-status{
+    display:grid;
+    gap:6px;
+    margin-top:12px;
+    font-size:11px
+  }
+  body[data-page=listed] .date-status span:first-child{display:none}
+  body[data-page=listed] .date-status span{padding:5px 8px}
+  body[data-page=listed] .actions{margin-top:13px}
+  body[data-page=listed] .btn,
+  body[data-page=listed] .copy{min-height:36px;padding:7px 13px}
+  body[data-page=listed] .listed-shell{padding:0 12px 44px}
+  body[data-page=listed] .page-toc{
+    margin-right:-12px;
+    margin-left:-12px;
+    padding-right:38px;
+    padding-left:12px
+  }
+  body[data-page=listed] .page-toc a{
+    min-height:38px;
+    display:inline-flex;
+    align-items:center
+  }
+  body[data-page=listed] .dense-section{scroll-margin-top:134px}
+  body[data-page=listed] .canonical-detail{scroll-margin-top:142px}
+  body[data-page=listed] .dense-section>header h2{font-size:20px}
+  body[data-page=listed] .news-row{
+    grid-template-columns:88px minmax(0,1fr);
+    gap:9px;
+    padding:11px 9px
+  }
+  body[data-page=listed] .news-company{padding-right:8px}
+  body[data-page=listed] .news-company b{font-size:14px}
+  body[data-page=listed] .news-company span,
+  body[data-page=listed] .news-company time{font-size:11px}
+  body[data-page=listed] .news-main p{font-size:14px;line-height:1.55}
+  body[data-page=listed] .news-main small{font-size:13px;line-height:1.55}
+  body[data-page=listed] .targets{font-size:12px}
+  body[data-page=listed] .row-sources{
+    grid-column:2;
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px 10px;
+    padding-top:2px
+  }
+  body[data-page=listed] .row-source{min-height:36px;padding:5px 9px}
+  body[data-page=listed] .focus-tag{
+    min-height:34px;
+    padding:6px 10px;
+    font-size:11px
+  }
+  body[data-page=listed] .focus-company-link:nth-child(odd){border-right:0}
 }
