@@ -40,23 +40,23 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-07-30.json",
-        "sha256": "34e6d1b81b948bd87348b20ef10a39b4992f3904962bb8a4eeea828e4bf191db"
+        "sha256": "6b8ff5fb76f42006839e5abbdd635f284c27cdd118a6c83a10290de2ee7498b8"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-07-30.json",
-        "sha256": "1b541c6d396e4ea7257e533355167257aecb18b186839d723cd8a7b075ebfe97"
+        "sha256": "763d9758dce2e9a8be7eba42c96dc4ec457aae5dce7cf2555d4a35eb0182385d"
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-07-30.json",
         "sha256": "a03b261b824683be17fb7db7ed83171897eca09ddd4108b8cff0d167aa2bebae"
       },
       {
-        "path": "v2/data/readiness/v2-ready-2026-07-30-midday.json",
-        "sha256": "f08f619d852c12c07752310681a3ec97dbf94b85d2d918cba10d6bd255f9f078"
+        "path": "v2/data/readiness/v2-ready-2026-07-30-closing.json",
+        "sha256": "645748f8c9c27e937d16a6968d6b0c18982bab29e216d64046e36486c3557b99"
       },
       {
         "path": "v2/data/source/events/unified-2026.json",
-        "sha256": "c27675ab7915eefdfde36bdabf356fc7b707e6db7f60f792b2f3bcfe0cf7ed43"
+        "sha256": "07577405f17d847c85f337919e10004759a5f256149e00b833953dbd483cbcaf"
       },
       {
         "path": "v2/data/source/listed/business-taxonomy.json",
@@ -71,8 +71,8 @@
         "sha256": "db41a0782237483409087b4a475da0c950cd0b013118b8b62d603129625a21cb"
       },
       {
-        "path": "v2/data/source/ma/scans/scan-2026-07-30-midday.json",
-        "sha256": "3db0ba6f3775326fc376d0de4e8778de1d7f298f98c9a5171044ee9ff980be81"
+        "path": "v2/data/source/ma/scans/scan-2026-07-30-closing.json",
+        "sha256": "14c22a909c91b13210d9285a62f0090d9e7ee7b3871b18d5eb81fa8ddf11cb41"
       },
       {
         "path": "v2/data/source/observation-pool.json",
@@ -88,23 +88,23 @@
       },
       {
         "path": "v2/data/source/soe/events-2026.json",
-        "sha256": "be0b6240661defd26a5d59190f5e9868f0481d5e2ac3818f2e7b8b08381bc9e6"
+        "sha256": "da947549230afe1ab56e4988be02086d28562b35be5224d478627118de43d705"
       },
       {
-        "path": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
-        "sha256": "526236657d9cbf46bc8eef8da54f695e6d946ddfb9c4dcaf0003ae5f5f21d6d1"
+        "path": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
+        "sha256": "b312b78c0cd80edb86fca5e1f22f5c9d5859c4b2facb8edfd5aa06280b45d775"
       },
       {
-        "path": "v2/data/source/soe/scans/scan-2026-07-30-midday.json",
-        "sha256": "80e8c3fb834d11f382b5ee58ffaeeb6f8f0b8c2aaab207836044e567e0fcb140"
+        "path": "v2/data/source/soe/scans/scan-2026-07-30-closing.json",
+        "sha256": "d32cbc569d5d38fb96c404c2881b1ec2be94f56693106891eea7a488c6a0626d"
       },
       {
         "path": "v2/data/source/tender/events-2026.json",
         "sha256": "ea7e447cbeb90b12aac35e299051493509345bf806416b01d660ed20a9738766"
       },
       {
-        "path": "v2/data/source/tender/scans/scan-2026-07-30-midday.json",
-        "sha256": "b074c3ce1c1c3d15d6611011f977ad5a6f12345366a1b65315fe745367b99a64"
+        "path": "v2/data/source/tender/scans/scan-2026-07-30-closing.json",
+        "sha256": "162f7f0bf78a4a094695ca09b62083eda9030ff31b93eb1d2cfde698b54c71cd"
       },
       {
         "path": "v2/data/source/v1-history-index.json",
@@ -133,10 +133,10 @@
     ],
     "mode": "repeatable-derived-artifact",
     "notice": "本快照由列示规范数据与结构化证据稳定生成。",
-    "readiness": "v2/data/readiness/v2-ready-2026-07-30-midday.json",
+    "readiness": "v2/data/readiness/v2-ready-2026-07-30-closing.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "6f82e90acb77"
+    "version": "93829465467d"
   },
   "homeHighlights": [
     {
@@ -878,6 +878,55 @@
             }
           ],
           "whyImportant": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
+        },
+        {
+          "announcementTitle": "关于使用部分闲置自有资金进行现金管理到期赎回的公告",
+          "attention": "后续关注产品到期赎回、实际收益、未到期余额及授权额度。",
+          "business": {
+            "category": "资金与财务",
+            "contentImportance": "内容重要",
+            "priority": "focus",
+            "subcategory": "现金管理",
+            "targets": [
+              "财务负责人",
+              "资金部",
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "现金管理",
+          "canonicalDetailId": "listed-detail-sanjiao-fangwu-44e3ec93",
+          "company": "三角防务",
+          "conclusion": "三角防务披露使用部分闲置自有资金进行现金管理到期赎回，现金管理事项进入到期赎回阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "现金管理",
+          "eventType": "cash_management",
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-a736739d6171e96f2f",
+          "lifecycleStage": "redeemed",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "现金管理",
+          "matter_id": "listed-matter-4b74eecaad53dd",
+          "numbersHtml": "三角防务披露使用部分闲置自有资金进行现金管理到期赎回，现金管理事项进入到期赎回阶段。",
+          "planId": "现金管理",
+          "previousStage": "authorized",
+          "publishedAt": "2026-07-30",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447884.PDF",
+          "sources": [
+            {
+              "announcementId": "1225447884",
+              "announcementTitle": "关于使用部分闲置自有资金进行现金管理到期赎回的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447884.PDF"
+            }
+          ],
+          "whyImportant": "后续关注产品到期赎回、实际收益、未到期余额及授权额度。"
         },
         {
           "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
@@ -1702,15 +1751,15 @@
       "kpis": [
         {
           "label": "巨潮逐主体检索公告",
-          "num": "42条"
+          "num": "45条"
         },
         {
           "label": "窗口内发布公告公司",
-          "num": "18家"
+          "num": "20家"
         },
         {
           "label": "合并去重后的客户事项",
-          "num": "22项"
+          "num": "23项"
         },
         {
           "label": "文本不合格或原文不可用候选",
@@ -1797,6 +1846,21 @@
             "1225447049"
           ],
           "status": "completed"
+        },
+        {
+          "company": "三角防务",
+          "currentStage": "redeemed",
+          "eventType": "cash_management",
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-a736739d6171e96f2f",
+          "planId": "现金管理",
+          "previousStage": "authorized",
+          "sourceAnnouncementIds": [
+            "1225447884"
+          ],
+          "status": "active"
         },
         {
           "company": "诺瓦星云",
@@ -2348,6 +2412,47 @@
             }
           ],
           "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
+        },
+        {
+          "announcementTitle": "关于使用部分闲置自有资金进行现金管理到期赎回的公告",
+          "businessSubcategory": "现金管理",
+          "company": "三角防务",
+          "conclusion": "三角防务披露使用部分闲置自有资金进行现金管理到期赎回，现金管理事项进入到期赎回阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "现金管理",
+          "eventType": "cash_management",
+          "firstSeenAt": "2026-01-01",
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-07-30",
+          "lifecycleId": "listed-lifecycle-a736739d6171e96f2f",
+          "lifecycleStage": "redeemed",
+          "lifecycleStatus": "active",
+          "mainSection": "capital",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "现金管理",
+          "matter_id": "listed-matter-4b74eecaad53dd",
+          "planId": "现金管理",
+          "previousStage": "authorized",
+          "publishedAt": "2026-07-30",
+          "score": 9,
+          "sourceAnnouncementIds": [
+            "1225447884"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447884.PDF",
+          "sources": [
+            {
+              "announcementId": "1225447884",
+              "announcementTitle": "关于使用部分闲置自有资金进行现金管理到期赎回的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447884.PDF"
+            }
+          ],
+          "timelineLength": 17,
+          "whyImportant": "后续关注产品到期赎回、实际收益、未到期余额及授权额度。"
         },
         {
           "announcementTitle": "2026年第一次临时股东会决议公告",
@@ -3344,10 +3449,112 @@
       "sourceAcquisitionStatus": {
         "hasPendingOfficialTextVerification": true,
         "officialAnnouncementTextExtractionFailed": 9,
-        "officialAnnouncementsDiscovered": 42,
-        "reliableTextExtracted": 33
+        "officialAnnouncementsDiscovered": 45,
+        "reliableTextExtracted": 36
       },
       "sourceEvidence": [
+        {
+          "body": "证券代码：300775 证券简称：三角防务公告编号：2026-058 债券代码：123114 债券简称：三角转债西安三角防务股份有限公司关于使用部分闲置自有资金进行现金管理到期赎回的公告本公司及董事会全体成员保证信息披露内容的真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。西安三角防务股份有限公司（以下简称“公司”）于 2026 年 4 月 27 日召开的第四届董事会第六次会议审议通过了《关于使用部分闲置募集资金及自有资金进行现金管理的议案》，同意。",
+          "company": "三角防务",
+          "discoveryPdfSha256": "2f8639ba21a34b113a97b186e58a3be0647d88487297b85394114a80eed1eac5",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447884.PDF",
+          "excerpt": "证券代码：300775 证券简称：三角防务公告编号：2026-058 债券代码：123114 债券简称：三角转债西安三角防务股份有限公司关于使用部分闲置自有资金进行现金管理到期赎回的公告本公司及董事会全体成员保证信息披露内容的真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。西安三角防务股份有限公司（以下简称“公司”）于 2026 年 4 月 27 日召开的第四届董事会第六次会议审议通过了《关于使用部分闲置募集资金及自有资金进行现金管理的议案》，同意。",
+          "hkexNewsId": "",
+          "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "现金管理",
+            "customerDisposition": "daily",
+            "eventLabel": "现金管理",
+            "eventType": "cash_management",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-a736739d6171e96f2f",
+            "mainSection": "capital",
+            "planId": "现金管理",
+            "stage": "redeemed",
+            "status": "active"
+          },
+          "matter_id": "1225447884",
+          "parser": "pypdf",
+          "pdfSha256": "2f8639ba21a34b113a97b186e58a3be0647d88487297b85394114a80eed1eac5",
+          "publishedAt": "2026-07-30",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447884.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 3840,
+              "controlCharacters": 0,
+              "languageRatio": 0.8539,
+              "mojibakeMarkers": 0,
+              "readableRatio": 1.0
+            },
+            "reasons": []
+          },
+          "textSha256": "0691d78723fae072649a85bdbfd1109b0e2b591b6cd156d6072b1faabde03952",
+          "title": "关于使用部分闲置自有资金进行现金管理到期赎回的公告"
+        },
+        {
+          "body": "证券代码：300103 证券简称：达刚控股公告编号：2026-49 达刚控股集团股份有限公司关于 2026 年第二次临时股东会取消部分议案暨股东会补充通知的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。达刚控股集团股份有限公司（以下简称“公司”）于 2026 年 7 月 14 日召开的第六届董事会第十五次（临时）会议，审议通过了《关于提请召开 2026 年第二次临时股东会的议案》。",
+          "company": "达刚控股",
+          "discoveryPdfSha256": "880acd6bc20e4b1e24742528215f9fba86d078269a9237dc32a72da03d66b5b6",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447699.PDF",
+          "excerpt": "证券代码：300103 证券简称：达刚控股公告编号：2026-49 达刚控股集团股份有限公司关于 2026 年第二次临时股东会取消部分议案暨股东会补充通知的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。达刚控股集团股份有限公司（以下简称“公司”）于 2026 年 7 月 14 日召开的第六届董事会第十五次（临时）会议，审议通过了《关于提请召开 2026 年第二次临时股东会的议案》。",
+          "hkexNewsId": "",
+          "kind": "capital",
+          "matter_id": "1225447699",
+          "parser": "pypdf",
+          "pdfSha256": "880acd6bc20e4b1e24742528215f9fba86d078269a9237dc32a72da03d66b5b6",
+          "publishedAt": "2026-07-30",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447699.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 4241,
+              "controlCharacters": 0,
+              "languageRatio": 0.8922,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9946
+            },
+            "reasons": []
+          },
+          "textSha256": "f9f8d3349573dbbba65612b0bcce8f03ca85673881c8e091ceaf30af2364ce06",
+          "title": "关于2026年第二次临时股东会取消部分议案暨股东会补充通知的公告"
+        },
+        {
+          "body": "公司于 2026 年 7 月 14 日召开第六届董事会第十五次（临时）会议，审议通过了《关于豁免相关方利息及违约金的议案》，并决议提交 2026 年第二次临时股东会审议。近日，经与西安大可管理咨询合伙企业（有限合伙）反复沟通协商，公司董事会认为该事项仍需进一步论证，拟暂缓实施，不再提交 2026 年第二次临时股东会审议。",
+          "company": "达刚控股",
+          "discoveryPdfSha256": "fc22d9ea41a80148f66816045feb13ab33566016da8787db63da2bbe4d233e9a",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447698.PDF",
+          "excerpt": "公司于 2026 年 7 月 14 日召开第六届董事会第十五次（临时）会议，审议通过了《关于豁免相关方利息及违约金的议案》，并决议提交 2026 年第二次临时股东会审议。近日，经与西安大可管理咨询合伙企业（有限合伙）反复沟通协商，公司董事会认为该事项仍需进一步论证，拟暂缓实施，不再提交 2026 年第二次临时股东会审议。",
+          "hkexNewsId": "",
+          "kind": "dynamic",
+          "matter_id": "1225447698",
+          "parser": "pypdf",
+          "pdfSha256": "fc22d9ea41a80148f66816045feb13ab33566016da8787db63da2bbe4d233e9a",
+          "publishedAt": "2026-07-30",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447698.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 601,
+              "controlCharacters": 0,
+              "languageRatio": 0.9002,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9983
+            },
+            "reasons": []
+          },
+          "textSha256": "8d829f8007fb0c900e5dbf23e39b7f338fbd14522008c205e9cb5fe78055a88c",
+          "title": "第六届董事会第十六次（临时）会议决议公告"
+        },
         {
           "body": "陕西省天然气股份有限公司（以下简称“公司”）于 2026 年 7 月 28 日召开 2026 年第二次临时股东会，会议选举产生了公司第七届董事会非独立董事和独立董事。本次股东会召开前，公司职代会选举产生了第七届董事会职工董事 1 名。",
           "company": "陕天然气",
@@ -4516,7 +4723,7 @@
           "title": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告"
         }
       ],
-      "subtitle": "2026-07-30｜逐主体检索110家正式观察池，42条公告、18家发布公告公司",
+      "subtitle": "2026-07-30｜逐主体检索110家正式观察池，45条公告、20家发布公告公司",
       "template": "v2-listed-v1-editorial",
       "tiles": [
         {
@@ -6004,8 +6211,8 @@
     "pageDate": "2026-07-30",
     "sourceAsOf": "2026-07-30",
     "sourceCoverage": {
-      "linked": 34,
-      "total": 34,
+      "linked": 35,
+      "total": 35,
       "unmatched": []
     }
   },
@@ -10449,13 +10656,13 @@
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "listed_primary_verified_42_announcements",
+        "result": "listed_primary_verified_45_announcements",
         "scanAsOf": "2026-07-30",
         "status": "completed"
       },
       "ma": {
         "evidence": [
-          "v2/data/source/ma/scans/scan-2026-07-30-midday.json"
+          "v2/data/source/ma/scans/scan-2026-07-30-closing.json"
         ],
         "ready": true,
         "releaseEligible": false,
@@ -10477,7 +10684,7 @@
       },
       "soe": {
         "evidence": [
-          "v2/data/source/soe/scans/scan-2026-07-30-midday.json"
+          "v2/data/source/soe/scans/scan-2026-07-30-closing.json"
         ],
         "ready": true,
         "releaseEligible": false,
@@ -10487,7 +10694,7 @@
       },
       "tender": {
         "evidence": [
-          "v2/data/source/tender/scans/scan-2026-07-30-midday.json"
+          "v2/data/source/tender/scans/scan-2026-07-30-closing.json"
         ],
         "ready": true,
         "releaseEligible": true,
@@ -10503,7 +10710,7 @@
       "sha256": "68c72ffe17cf93d0964a738fe93eace4fcc5d0be2209eb35bddf6e84f95d84e9",
       "standard": "v1-source-and-editorial-quality"
     },
-    "slot": "midday",
+    "slot": "closing",
     "sourceConstraints": [
       {
         "channel": "tender",
@@ -10523,7 +10730,7 @@
     "year": "eventDate 所在自然年；仅展示结构化源中真实存在的年份"
   },
   "scanAsOf": "2026-07-30",
-  "scanSlot": "midday",
+  "scanSlot": "closing",
   "schemaVersion": "2.2",
   "soe": {
     "available": true,
@@ -10537,6 +10744,22 @@
     "categoryRecords": {
       "产业经营": [
         {
+          "candidateId": "soe-v2-f9f911e2169d2bb7d5b2",
+          "category": "产业经营",
+          "entities": [
+            "陕西煤业化工集团有限责任公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-30",
+          "sourceName": "陕煤集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429396&cid=98",
+          "title": "天津伊米斯新能科技有限公司 闲置系统及闲置办公家具 闲置电子办公设备处置竞价公告",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
+          "verificationNote": "天津伊米斯新能科技有限公司 闲置系统及闲置办公家具 闲置电子办公设备处置竞价公告- 调剂信息 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织"
+        },
+        {
           "candidateId": "soe-v2-ec02f2c1c679c14a86e0",
           "category": "产业经营",
           "entities": [
@@ -10549,7 +10772,7 @@
           "sourceQuality": "issuer_original",
           "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429394&cid=33",
           "title": "创效7182万！彬长矿业胡家河矿打出降本增效“组合拳”",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
           "verificationNote": "创效7182万！彬长矿业胡家河矿打出降本增效“组合拳”- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 "
         },
         {
@@ -10565,7 +10788,7 @@
           "sourceQuality": "issuer_original",
           "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429391&cid=15",
           "title": "陕北矿业：铆足干劲实现“双过半”",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
           "verificationNote": "陕北矿业：铆足干劲实现“双过半”- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神标识 核"
         },
         {
@@ -10581,7 +10804,7 @@
           "sourceQuality": "issuer_original",
           "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429393&cid=38",
           "title": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
           "verificationNote": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训- 组织干部 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级"
         },
         {
@@ -10597,24 +10820,8 @@
           "sourceQuality": "issuer_original",
           "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429395&cid=33",
           "title": "府谷能源榆林配售电公司：舞活三板斧，激活发展新动能",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
           "verificationNote": "府谷能源榆林配售电公司：舞活三板斧，激活发展新动能- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化"
-        },
-        {
-          "candidateId": "soe-v2-e62b47ed821baa194c08",
-          "category": "产业经营",
-          "entities": [
-            "陕西煤业化工集团有限责任公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-29",
-          "sourceName": "陕煤集团官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429375&cid=36",
-          "title": "北元集团：“一岗一人一策”培训让员工练好岗位基本功",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-closing.json",
-          "verificationNote": "北元集团：“一岗一人一策”培训让员工练好岗位基本功- 人力资源 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化"
         }
       ],
       "综合动态": [
@@ -10924,6 +11131,22 @@
     "eventOnScanDate": true,
     "focusRecords": [
       {
+        "candidateId": "soe-v2-f9f911e2169d2bb7d5b2",
+        "category": "产业经营",
+        "entities": [
+          "陕西煤业化工集团有限责任公司"
+        ],
+        "normalizationStatus": "official_source_verified",
+        "noveltyStatus": "verified_v2_import",
+        "publishedAt": "2026-07-30",
+        "sourceName": "陕煤集团官网",
+        "sourceQuality": "issuer_original",
+        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429396&cid=98",
+        "title": "天津伊米斯新能科技有限公司 闲置系统及闲置办公家具 闲置电子办公设备处置竞价公告",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
+        "verificationNote": "天津伊米斯新能科技有限公司 闲置系统及闲置办公家具 闲置电子办公设备处置竞价公告- 调剂信息 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织"
+      },
+      {
         "candidateId": "soe-v2-ec02f2c1c679c14a86e0",
         "category": "产业经营",
         "entities": [
@@ -10936,7 +11159,7 @@
         "sourceQuality": "issuer_original",
         "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429394&cid=33",
         "title": "创效7182万！彬长矿业胡家河矿打出降本增效“组合拳”",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
         "verificationNote": "创效7182万！彬长矿业胡家河矿打出降本增效“组合拳”- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 "
       },
       {
@@ -10952,7 +11175,7 @@
         "sourceQuality": "issuer_original",
         "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429391&cid=15",
         "title": "陕北矿业：铆足干劲实现“双过半”",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
         "verificationNote": "陕北矿业：铆足干劲实现“双过半”- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神标识 核"
       },
       {
@@ -10968,7 +11191,7 @@
         "sourceQuality": "issuer_original",
         "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429393&cid=38",
         "title": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
         "verificationNote": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训- 组织干部 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级"
       },
       {
@@ -10984,24 +11207,8 @@
         "sourceQuality": "issuer_original",
         "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429395&cid=33",
         "title": "府谷能源榆林配售电公司：舞活三板斧，激活发展新动能",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
         "verificationNote": "府谷能源榆林配售电公司：舞活三板斧，激活发展新动能- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化"
-      },
-      {
-        "candidateId": "soe-v2-e62b47ed821baa194c08",
-        "category": "产业经营",
-        "entities": [
-          "陕西煤业化工集团有限责任公司"
-        ],
-        "normalizationStatus": "official_source_verified",
-        "noveltyStatus": "verified_v2_import",
-        "publishedAt": "2026-07-29",
-        "sourceName": "陕煤集团官网",
-        "sourceQuality": "issuer_original",
-        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429375&cid=36",
-        "title": "北元集团：“一岗一人一策”培训让员工练好岗位基本功",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-closing.json",
-        "verificationNote": "北元集团：“一岗一人一策”培训让员工练好岗位基本功- 人力资源 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化"
       }
     ],
     "isAsOfFallback": false,
@@ -11012,19 +11219,19 @@
     ],
     "networkVerified": true,
     "pageDate": "2026-07-30",
-    "recordCount": 88,
+    "recordCount": 89,
     "rejectedCandidateCount": 0,
     "scanAsOf": "2026-07-30",
-    "scanEvidence": "v2/data/source/soe/scans/scan-2026-07-30-midday.json",
-    "scanSlot": "midday",
+    "scanEvidence": "v2/data/source/soe/scans/scan-2026-07-30-closing.json",
+    "scanSlot": "closing",
     "scanStatus": "completed",
     "sourceAsOf": "2026-07-30",
     "summary": {
       "earliestPublishedAt": "2026-05-21",
       "entityCount": 25,
       "latestPublishedAt": "2026-07-30",
-      "recordCount": 88,
-      "verifiedImportCount": 27
+      "recordCount": 89,
+      "verifiedImportCount": 28
     }
   },
   "sourceAsOf": {
@@ -11048,7 +11255,7 @@
     "listedDaily": "v2/data/daily/listed/listed-official-2026-07-30.json",
     "listedUniverse": "v2/data/source/listed/universe.json",
     "maAnnual": "v2/data/source/ma/events-2026.json",
-    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-07-30-midday.json",
+    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-07-30-closing.json",
     "observationPool": "v2/data/source/observation-pool.json",
     "privateAnnual": "v2/data/source/private/products-2026.json",
     "privateProductEvidence": [
@@ -11056,10 +11263,10 @@
     ],
     "privateUniverse": "v2/data/daily/private/security-private-fund-daily-2026-07-30.json + v2/data/source/private/universe.json",
     "soeAnnual": "v2/data/source/soe/events-2026.json",
-    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-07-30-midday.json",
+    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-07-30-closing.json",
     "sourceContract": "v2/config/source-contract.json",
     "tenderAnnualProjects": "v2/data/source/tender/events-2026.json",
-    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-07-30-midday.json",
+    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-07-30-closing.json",
     "v1HistoryIndex": "v2/data/source/v1-history-index.json"
   },
   "tender": {
