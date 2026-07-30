@@ -1,24 +1,38 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-07-30T05:37:51+08:00",
+  "updatedAt": "2026-07-30T13:51:25+08:00",
   "channels": {
     "listed": [
       {
         "date": "2026-07-30",
         "channel": "listed",
         "label": "上市公司",
-        "fileName": "2026年7月30日V2陕西上市公司早报.png",
-        "publicPath": "archive/daily/listed/2026/2026年7月30日V2陕西上市公司早报.png",
-        "sourceBuildVersion": "23d34be71d15",
-        "snapshotPath": "v2/data/releases/2026-07-30/morning-production-data.json.gz",
-        "snapshotSha256": "b1620bfa5039730a973f97034855384dfc955af4361a5911e533d01f0b0268ef",
-        "sha256": "2a2a99e4fa3da2c7fcf688ceab04393e0b9b033476f2732e3a7e323617c535ce",
+        "fileName": "2026年7月30日V2陕西上市公司早报（修订版）.png",
+        "publicPath": "archive/daily/listed/2026/2026年7月30日V2陕西上市公司早报（修订版）.png",
+        "sourceBuildVersion": "6f82e90acb77",
+        "snapshotPath": "v2/data/releases/2026-07-30/correction-6f82e90acb77-production-data.json.gz",
+        "snapshotSha256": "75d7d15aa6eee2e36f3241b2904d7c96a01903ad118b52c4285a9f8705ffb1db",
+        "sha256": "3d5f37346e017bca1b0c2e695ab9ae82f510d892dd678a59c70011505fad93a4",
         "origin": "v2",
-        "webStatus": "published",
+        "imageTemplate": "v1-structure-listed",
+        "detailLimit": null,
+        "dimensions": {
+          "width": 1242,
+          "height": 1809
+        },
+        "webStatus": "staged",
         "ima": {
           "status": "pending"
         },
-        "updatedAt": "2026-07-30T05:37:51+08:00"
+        "correction": {
+          "revision": 2,
+          "reason": "固化公告全生命周期规则并将四类日图恢复为各自V1信息结构",
+          "correctedAt": "2026-07-30T13:51:25+08:00",
+          "supersedesSha256": "2a2a99e4fa3da2c7fcf688ceab04393e0b9b033476f2732e3a7e323617c535ce",
+          "supersedesPublicPath": "archive/daily/listed/2026/2026年7月30日V2陕西上市公司早报.png",
+          "supersedesBuildVersion": "23d34be71d15"
+        },
+        "updatedAt": "2026-07-30T13:51:25+08:00"
       },
       {
         "date": "2026-07-29",
@@ -954,18 +968,32 @@
         "date": "2026-07-30",
         "channel": "private",
         "label": "证券私募",
-        "fileName": "2026年7月30日V2证券私募行业动态日报.png",
-        "publicPath": "archive/daily/private/2026/2026年7月30日V2证券私募行业动态日报.png",
-        "sourceBuildVersion": "23d34be71d15",
-        "snapshotPath": "v2/data/releases/2026-07-30/morning-production-data.json.gz",
-        "snapshotSha256": "b1620bfa5039730a973f97034855384dfc955af4361a5911e533d01f0b0268ef",
-        "sha256": "35aa37e5c7b36779033c8e7f5621f730e4d5a5176cef3372aff5233ac3c72bf3",
+        "fileName": "2026年7月30日V2证券私募行业动态日报（修订版）.png",
+        "publicPath": "archive/daily/private/2026/2026年7月30日V2证券私募行业动态日报（修订版）.png",
+        "sourceBuildVersion": "6f82e90acb77",
+        "snapshotPath": "v2/data/releases/2026-07-30/correction-6f82e90acb77-production-data.json.gz",
+        "snapshotSha256": "75d7d15aa6eee2e36f3241b2904d7c96a01903ad118b52c4285a9f8705ffb1db",
+        "sha256": "1b0759fed0a45c0c186ecc0ad4165415f122eb39d358c873bdf0e2c148fc06b9",
         "origin": "v2",
-        "webStatus": "published",
+        "imageTemplate": "v1-structure-private",
+        "detailLimit": 10,
+        "dimensions": {
+          "width": 1242,
+          "height": 1913
+        },
+        "webStatus": "staged",
         "ima": {
           "status": "pending"
         },
-        "updatedAt": "2026-07-30T05:37:51+08:00"
+        "correction": {
+          "revision": 2,
+          "reason": "固化公告全生命周期规则并将四类日图恢复为各自V1信息结构",
+          "correctedAt": "2026-07-30T13:51:25+08:00",
+          "supersedesSha256": "35aa37e5c7b36779033c8e7f5621f730e4d5a5176cef3372aff5233ac3c72bf3",
+          "supersedesPublicPath": "archive/daily/private/2026/2026年7月30日V2证券私募行业动态日报.png",
+          "supersedesBuildVersion": "23d34be71d15"
+        },
+        "updatedAt": "2026-07-30T13:51:25+08:00"
       },
       {
         "date": "2026-07-29",
@@ -1896,18 +1924,32 @@
         "date": "2026-07-30",
         "channel": "ma",
         "label": "收并购",
-        "fileName": "2026年7月30日V2陕西收并购日报.png",
-        "publicPath": "archive/daily/ma/2026/2026年7月30日V2陕西收并购日报.png",
-        "sourceBuildVersion": "23d34be71d15",
-        "snapshotPath": "v2/data/releases/2026-07-30/morning-production-data.json.gz",
-        "snapshotSha256": "b1620bfa5039730a973f97034855384dfc955af4361a5911e533d01f0b0268ef",
-        "sha256": "e58abf91cecd3d7e18f679e305dc0bd296dcb1aee501ac79ef7920d5ce7b06a7",
+        "fileName": "2026年7月30日V2陕西收并购日报（修订版）.png",
+        "publicPath": "archive/daily/ma/2026/2026年7月30日V2陕西收并购日报（修订版）.png",
+        "sourceBuildVersion": "6f82e90acb77",
+        "snapshotPath": "v2/data/releases/2026-07-30/correction-6f82e90acb77-production-data.json.gz",
+        "snapshotSha256": "75d7d15aa6eee2e36f3241b2904d7c96a01903ad118b52c4285a9f8705ffb1db",
+        "sha256": "ff47f9ee63a60a9a194ce6c4bdb48ecd58c90f4dee6f14f761cadcaead8b387c",
         "origin": "v2",
-        "webStatus": "published",
+        "imageTemplate": "v1-structure-ma",
+        "detailLimit": 10,
+        "dimensions": {
+          "width": 1242,
+          "height": 1923
+        },
+        "webStatus": "staged",
         "ima": {
           "status": "pending"
         },
-        "updatedAt": "2026-07-30T05:37:51+08:00"
+        "correction": {
+          "revision": 2,
+          "reason": "固化公告全生命周期规则并将四类日图恢复为各自V1信息结构",
+          "correctedAt": "2026-07-30T13:51:25+08:00",
+          "supersedesSha256": "e58abf91cecd3d7e18f679e305dc0bd296dcb1aee501ac79ef7920d5ce7b06a7",
+          "supersedesPublicPath": "archive/daily/ma/2026/2026年7月30日V2陕西收并购日报.png",
+          "supersedesBuildVersion": "23d34be71d15"
+        },
+        "updatedAt": "2026-07-30T13:51:25+08:00"
       },
       {
         "date": "2026-07-29",
@@ -2793,18 +2835,32 @@
         "date": "2026-07-30",
         "channel": "tender",
         "label": "金融招投标",
-        "fileName": "2026年7月30日V2陕西金融招投标日报.png",
-        "publicPath": "archive/daily/tender/2026/2026年7月30日V2陕西金融招投标日报.png",
-        "sourceBuildVersion": "23d34be71d15",
-        "snapshotPath": "v2/data/releases/2026-07-30/morning-production-data.json.gz",
-        "snapshotSha256": "b1620bfa5039730a973f97034855384dfc955af4361a5911e533d01f0b0268ef",
-        "sha256": "171efadeb2ed2a6563c665e0ef278f75cb9b905813b541ac79003b63e7ad5671",
+        "fileName": "2026年7月30日V2陕西金融招投标日报（修订版）.png",
+        "publicPath": "archive/daily/tender/2026/2026年7月30日V2陕西金融招投标日报（修订版）.png",
+        "sourceBuildVersion": "6f82e90acb77",
+        "snapshotPath": "v2/data/releases/2026-07-30/correction-6f82e90acb77-production-data.json.gz",
+        "snapshotSha256": "75d7d15aa6eee2e36f3241b2904d7c96a01903ad118b52c4285a9f8705ffb1db",
+        "sha256": "59b10d5136bd23983b302273edaca641b640bbd50996f17ce55f10c5a98da79e",
         "origin": "v2",
-        "webStatus": "published",
+        "imageTemplate": "v1-structure-tender",
+        "detailLimit": null,
+        "dimensions": {
+          "width": 1242,
+          "height": 1296
+        },
+        "webStatus": "staged",
         "ima": {
           "status": "pending"
         },
-        "updatedAt": "2026-07-30T05:37:51+08:00"
+        "correction": {
+          "revision": 2,
+          "reason": "固化公告全生命周期规则并将四类日图恢复为各自V1信息结构",
+          "correctedAt": "2026-07-30T13:51:25+08:00",
+          "supersedesSha256": "171efadeb2ed2a6563c665e0ef278f75cb9b905813b541ac79003b63e7ad5671",
+          "supersedesPublicPath": "archive/daily/tender/2026/2026年7月30日V2陕西金融招投标日报.png",
+          "supersedesBuildVersion": "23d34be71d15"
+        },
+        "updatedAt": "2026-07-30T13:51:25+08:00"
       },
       {
         "date": "2026-07-29",

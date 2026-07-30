@@ -28,11 +28,11 @@
       },
       {
         "path": "v2/config/production-quality-contract.json",
-        "sha256": "1aba55e87b0892778de8c179bb3fc5adcd064726e5a043d0f6a7e6d99bf3e1bd"
+        "sha256": "68c72ffe17cf93d0964a738fe93eace4fcc5d0be2209eb35bddf6e84f95d84e9"
       },
       {
         "path": "v2/config/source-contract.json",
-        "sha256": "312ce8bf0d0be6e75af82c4ae8643f02f4d3725341d1d36a9207190004edcc7c"
+        "sha256": "c622b928e6fe5dc26cc5fe0ac1925961ecb57cd9f53467f07c12f38ba5b56b18"
       },
       {
         "path": "v2/config/tender-sources.json",
@@ -40,23 +40,23 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-07-30.json",
-        "sha256": "008e827e2bbae7c16f89b1905d31e013be52916f35396ffdd96239a86fdebcbf"
+        "sha256": "34e6d1b81b948bd87348b20ef10a39b4992f3904962bb8a4eeea828e4bf191db"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-07-30.json",
-        "sha256": "287318e1e4860f2a880e04380d05782c160b784064558ce7d40202c735d0de40"
+        "sha256": "1b541c6d396e4ea7257e533355167257aecb18b186839d723cd8a7b075ebfe97"
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-07-30.json",
         "sha256": "a03b261b824683be17fb7db7ed83171897eca09ddd4108b8cff0d167aa2bebae"
       },
       {
-        "path": "v2/data/readiness/v2-ready-2026-07-30-morning.json",
-        "sha256": "5d4e3530dc51579d1aa81e686dbf460fb72a43782cb1c174be9a1a6bdf065aa7"
+        "path": "v2/data/readiness/v2-ready-2026-07-30-midday.json",
+        "sha256": "f08f619d852c12c07752310681a3ec97dbf94b85d2d918cba10d6bd255f9f078"
       },
       {
         "path": "v2/data/source/events/unified-2026.json",
-        "sha256": "87904c69f3a3d88cd9df1c71c2a44e31b8a2e26a379d38bcb03b51815ff1b0d9"
+        "sha256": "c27675ab7915eefdfde36bdabf356fc7b707e6db7f60f792b2f3bcfe0cf7ed43"
       },
       {
         "path": "v2/data/source/listed/business-taxonomy.json",
@@ -71,8 +71,8 @@
         "sha256": "db41a0782237483409087b4a475da0c950cd0b013118b8b62d603129625a21cb"
       },
       {
-        "path": "v2/data/source/ma/scans/scan-2026-07-30-morning.json",
-        "sha256": "10dafcf0cc9961652add20148aad0bb4afd1cb77394fdcc8a4d3f0af3776e3e2"
+        "path": "v2/data/source/ma/scans/scan-2026-07-30-midday.json",
+        "sha256": "3db0ba6f3775326fc376d0de4e8778de1d7f298f98c9a5171044ee9ff980be81"
       },
       {
         "path": "v2/data/source/observation-pool.json",
@@ -88,23 +88,23 @@
       },
       {
         "path": "v2/data/source/soe/events-2026.json",
-        "sha256": "5708844f66e0269871be69a75e521d60e42b1076e189e5c243cdea4348048a43"
+        "sha256": "be0b6240661defd26a5d59190f5e9868f0481d5e2ac3818f2e7b8b08381bc9e6"
       },
       {
-        "path": "v2/data/source/soe/evidence/verified-2026-07-30-morning.json",
-        "sha256": "b10feeb280722b07e908cdf28e2f787e978bb86f37477d5746625aae45d83e92"
+        "path": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+        "sha256": "526236657d9cbf46bc8eef8da54f695e6d946ddfb9c4dcaf0003ae5f5f21d6d1"
       },
       {
-        "path": "v2/data/source/soe/scans/scan-2026-07-30-morning.json",
-        "sha256": "e0e8377e5f54cac72307dd9be8ce938e267a649b7719986769af5e3953b79814"
+        "path": "v2/data/source/soe/scans/scan-2026-07-30-midday.json",
+        "sha256": "80e8c3fb834d11f382b5ee58ffaeeb6f8f0b8c2aaab207836044e567e0fcb140"
       },
       {
         "path": "v2/data/source/tender/events-2026.json",
         "sha256": "ea7e447cbeb90b12aac35e299051493509345bf806416b01d660ed20a9738766"
       },
       {
-        "path": "v2/data/source/tender/scans/scan-2026-07-30-morning.json",
-        "sha256": "cfd27d4a759e4208b4c5043d83e7b1fc8cade66294fc27932ece8a624b96f3ab"
+        "path": "v2/data/source/tender/scans/scan-2026-07-30-midday.json",
+        "sha256": "b074c3ce1c1c3d15d6611011f977ad5a6f12345366a1b65315fe745367b99a64"
       },
       {
         "path": "v2/data/source/v1-history-index.json",
@@ -116,7 +116,7 @@
       },
       {
         "path": "v2/scripts/refresh_ma_events.py",
-        "sha256": "e4c427b0c1a04d6a8c3ae5b63bde430de45e6efe26d50289d996ccee026573ee"
+        "sha256": "be5ac392d633ac05d3db305942d7e049d674914f4b1afee07db4a71f5353ff7b"
       },
       {
         "path": "v2/scripts/refresh_soe_events.py",
@@ -133,31 +133,31 @@
     ],
     "mode": "repeatable-derived-artifact",
     "notice": "本快照由列示规范数据与结构化证据稳定生成。",
-    "readiness": "v2/data/readiness/v2-ready-2026-07-30-morning.json",
+    "readiness": "v2/data/readiness/v2-ready-2026-07-30-midday.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "23d34be71d15"
+    "version": "6f82e90acb77"
   },
   "homeHighlights": [
     {
-      "body": "详细内容请查阅刊载在《中国证券报》、《证券时报》和巨潮资讯网（www.cninfo.com.cn）的《关于全资子公司申请抵押贷款暨公司为其提供担保的公告》。审议通过《关于全资子公司。",
+      "body": "莱特光电向不特定对象发行可转换公司债券申请获交易所上市审核机构审核通过，融资事项进入证监会注册阶段；后续关注证监会注册批复、发行安排及募投项目落地。",
       "category": "上市公司",
-      "company": "珠海中富",
+      "company": "莱特光电",
       "date": "2026-07-30",
-      "href": "listed.html#listed-detail-d8a2a2ac59-d8f5b76a",
+      "href": "listed.html#listed-detail-laite-guangdian-9b1b71cb",
       "mode": "latest-specific",
       "sortBasis": "公告日期倒序，同日按重要度排序",
-      "title": "必看｜珠海中富"
+      "title": "必看｜莱特光电"
     },
     {
-      "body": "陕西美邦药业集团股份有限公司2026 年半年度报告摘要除此之外，未知其他股东之间是否存在关联关系，亦未知其他股东之间是否属于《上市公司收购管理办法》规定的一致行动人。2026 年上。",
+      "body": "国际医学向特定对象发行股票申请获交易所审核通过，融资事项进入证监会注册阶段；后续关注证监会注册批复、发行价格、认购结构及募投项目落地。",
       "category": "上市公司",
-      "company": "美邦股份",
+      "company": "国际医学",
       "date": "2026-07-30",
-      "href": "listed.html#listed-detail-66ce3315ed-927e2b83",
+      "href": "listed.html#listed-detail-db1cef822d-dfe4ebd6",
       "mode": "latest-specific",
       "sortBasis": "公告日期倒序，同日按重要度排序",
-      "title": "必看｜美邦股份"
+      "title": "必看｜国际医学"
     },
     {
       "body": "最近一只：天辉先知私募证券投资基金；管理人：海南天辉私募基金管理有限公司。",
@@ -639,27 +639,231 @@
     "daily": {
       "capital_rows": [
         {
-          "announcementTitle": "关于购买成都天科航空制造股份有限公司股份及增资事项的进展公告",
-          "attention": "后续关注股东会审议、出资节奏和项目回报。",
+          "announcementTitle": "陕西莱特光电材料股份有限公司关于向不特定对象发行可转换公司债券申请获得上海证券交易所上市审核委员会审核通过的公告",
+          "attention": "后续关注证监会注册批复、发行安排及募投项目落地。",
           "business": {
-            "category": "治理关系",
+            "category": "资本运作",
             "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "章程治理",
+            "priority": "focus",
+            "subcategory": "可转债",
             "targets": [
               "董秘办",
-              "证券事务代表",
-              "管理层"
+              "财务",
+              "投融资负责人"
             ]
           },
-          "businessSubcategory": "对外投资",
-          "canonicalDetailId": "listed-detail-126b53d8ae-fb9151d3",
-          "company": "ST炼石",
-          "conclusion": "（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准） 三、公司购买天科航空股份及增资后的股东情况截至公告日，天科航空共有 20 名股东。",
+          "businessSubcategory": "可转债",
+          "canonicalDetailId": "listed-detail-laite-guangdian-9b1b71cb",
+          "company": "莱特光电",
+          "conclusion": "莱特光电向不特定对象发行可转换公司债券申请获交易所上市审核机构审核通过，融资事项进入证监会注册阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "可转债",
+          "eventType": "convertible_bond",
+          "homepageEligible": true,
           "importance": "必看",
-          "matterType": "对外投资",
-          "matter_id": "listed-matter-61fb1284ffb6bd",
-          "numbersHtml": "（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准） 三、公司购买天科航空股份及增资后的股东情况截至公告日，天科航空共有 20 名股东。",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-e7ce62085198830dd0",
+          "lifecycleStage": "review_passed",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "convertible_bond_exchange_review_passed",
+          "matterType": "可转债审核通过",
+          "matter_id": "listed-matter-eea17efaf58a97",
+          "numbersHtml": "莱特光电向不特定对象发行可转换公司债券申请获交易所上市审核机构审核通过，融资事项进入证监会注册阶段。",
+          "planId": "向不特定对象发行可转换公司债券",
+          "previousStage": "progress",
+          "publishedAt": "2026-07-30",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447096.PDF",
+          "sources": [
+            {
+              "announcementId": "1225447096",
+              "announcementTitle": "陕西莱特光电材料股份有限公司关于向不特定对象发行可转换公司债券申请获得上海证券交易所上市审核委员会审核通过的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447096.PDF"
+            }
+          ],
+          "whyImportant": "后续关注证监会注册批复、发行安排及募投项目落地。"
+        },
+        {
+          "announcementTitle": "关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
+          "attention": "后续关注证监会注册批复、发行价格、认购结构及募投项目落地。",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "内容重要",
+            "priority": "focus",
+            "subcategory": "定增/再融资",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "businessSubcategory": "定增/再融资",
+          "canonicalDetailId": "listed-detail-db1cef822d-dfe4ebd6",
+          "company": "国际医学",
+          "conclusion": "国际医学向特定对象发行股票申请获交易所审核通过，融资事项进入证监会注册阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "定增",
+          "eventType": "private_placement",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-43250b6e63953c0ba2",
+          "lifecycleStage": "review_passed",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "equity_refinancing_exchange_review_passed",
+          "matterType": "再融资审核通过",
+          "matter_id": "listed-matter-b9e0711a2918be",
+          "numbersHtml": "国际医学向特定对象发行股票申请获交易所审核通过，融资事项进入证监会注册阶段。",
+          "planId": "向特定对象发行股票",
+          "previousStage": "inquiry_reply",
+          "publishedAt": "2026-07-30",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446818.PDF",
+          "sources": [
+            {
+              "announcementId": "1225446818",
+              "announcementTitle": "关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446818.PDF"
+            }
+          ],
+          "whyImportant": "后续关注证监会注册批复、发行价格、认购结构及募投项目落地。"
+        },
+        {
+          "announcementTitle": "关于持股5%以上股东增持公司股份的公告",
+          "attention": "后续关注首次交易、增持金额与比例、时间进度及计划完成情况。",
+          "business": {
+            "category": "综合事项",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "综合事项",
+            "targets": [
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "增持",
+          "canonicalDetailId": "listed-detail-5e28acfe91-37078269",
+          "company": "西测测试",
+          "conclusion": "西测测试披露持股5%以上股东增持公司股份，增持事项进入首次实施阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "增持",
+          "eventType": "increase",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-5f7712b26bd47b2430",
+          "lifecycleStage": "first_execution",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "增持",
+          "matter_id": "listed-matter-613854a29f8bf0",
+          "numbersHtml": "西测测试披露持股5%以上股东增持公司股份，增持事项进入首次实施阶段。",
+          "planId": "持股5%以上股东增持公司股份的公告证券代码：301306证券简称：西测测试公告编号：|2026年",
+          "previousStage": "",
+          "publishedAt": "2026-07-29",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446116.PDF",
+          "sources": [
+            {
+              "announcementId": "1225446116",
+              "announcementTitle": "关于持股5%以上股东增持公司股份的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446116.PDF"
+            }
+          ],
+          "whyImportant": "后续关注首次交易、增持金额与比例、时间进度及计划完成情况。"
+        },
+        {
+          "announcementTitle": "关于首次回购公司股份的公告",
+          "attention": "后续关注回购进度、成交区间及后续用途。",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "内容重要",
+            "priority": "focus",
+            "subcategory": "股份回购",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "businessSubcategory": "股份回购",
+          "canonicalDetailId": "listed-detail-f70dd7228b-50036ea9",
+          "company": "供销大集",
+          "conclusion": "供销大集披露首次回购公司股份，股份回购事项进入首次实施阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "股份回购",
+          "eventType": "buyback",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-5229c6ce7c32de5672",
+          "lifecycleStage": "first_execution",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "股份回购",
+          "matter_id": "listed-matter-3f77bb284ab6fc",
+          "numbersHtml": "供销大集披露首次回购公司股份，股份回购事项进入首次实施阶段。",
+          "planId": "2026年",
+          "previousStage": "",
+          "publishedAt": "2026-07-29",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
+          "sources": [
+            {
+              "announcementId": "1225445000",
+              "announcementTitle": "关于首次回购公司股份的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF"
+            }
+          ],
+          "whyImportant": "后续关注回购进度、成交区间及后续用途。"
+        },
+        {
+          "announcementTitle": "关于购买成都天科航空制造股份有限公司股份及增资事项的进展公告",
+          "attention": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "business": {
+            "category": "综合事项",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "综合事项",
+            "targets": [
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "并购重组",
+          "canonicalDetailId": "listed-detail-126b53d8ae-d833631d",
+          "company": "ST炼石",
+          "conclusion": "ST炼石披露股份及增资事项的进展，收并购事项进入阶段进展阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "收并购",
+          "eventType": "ma",
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-e334b7574bc7a5749f",
+          "lifecycleStage": "progress",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "收并购",
+          "matter_id": "listed-matter-20e78baa98a538",
+          "numbersHtml": "ST炼石披露股份及增资事项的进展，收并购事项进入阶段进展阶段。",
+          "planId": "购买成都天科航空制造股份",
+          "previousStage": "",
           "publishedAt": "2026-07-30",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
@@ -673,7 +877,7 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446663.PDF"
             }
           ],
-          "whyImportant": "后续关注股东会审议、出资节奏和项目回报。"
+          "whyImportant": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
         },
         {
           "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
@@ -692,11 +896,23 @@
           "businessSubcategory": "股份回购",
           "canonicalDetailId": "listed-detail-aikesaibo",
           "company": "爱科赛博",
-          "conclusion": "回购股份的进展情况根据《上市公司股份回购规则》《上海证券交易所上市公司自律监管指引第 7 号——回购股份》等相关规定，现将公司回购股份的进展具体情况公告如下： 截至 2026 年 7 月 28 日。",
-          "importance": "必看",
+          "conclusion": "爱科赛博披露2026年以集中竞价交易方式回购股份的进展，股份回购事项进入阶段进展阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "股份回购",
+          "eventType": "buyback",
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-9eb86a93050e544b40",
+          "lifecycleStage": "progress",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "股份回购",
-          "matter_id": "listed-matter-5d3f7812927ff8",
-          "numbersHtml": "回购股份的进展情况根据《上市公司股份回购规则》《上海证券交易所上市公司自律监管指引第 7 号——回购股份》等相关规定，现将公司回购股份的进展具体情况公告如下： 截至 2026 年 7 月 28 日。",
+          "matter_id": "listed-matter-6f3fdc52607c3d",
+          "numbersHtml": "爱科赛博披露2026年以集中竞价交易方式回购股份的进展，股份回购事项进入阶段进展阶段。",
+          "planId": "2026年",
+          "previousStage": "first_execution",
           "publishedAt": "2026-07-29",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
@@ -713,42 +929,56 @@
           "whyImportant": "后续关注回购进度、成交区间及后续用途。"
         },
         {
-          "announcementTitle": "西安太乙电子有限公司股东全部权益价值资产评估报告",
-          "attention": "后续关注协议签署、资产交割及关联交易执行情况。",
+          "announcementTitle": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+          "attention": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
           "business": {
-            "category": "综合事项",
+            "category": "资本运作",
             "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "综合事项",
+            "priority": "focus",
+            "subcategory": "并购重组",
             "targets": [
-              "董秘办"
+              "董秘办",
+              "财务",
+              "投融资负责人"
             ]
           },
           "businessSubcategory": "资产交易",
-          "canonicalDetailId": "listed-detail-eb4399b28c-356cb025",
+          "canonicalDetailId": "listed-detail-eb4399b28c-10c96d05",
           "company": "航天电子",
-          "conclusion": "资产核实 (1)指导被评估单位填表和准备应向资产评估机构提供的资料评估人员指导被评估单位的财务与资产管理人员在自行资产清查的基础上，按照资产评估机构提供的“资产评估明细表”及其填写要求、资料清单等。",
-          "importance": "必看",
+          "conclusion": "航天电子披露资产置换暨关联交易的进展，收并购事项进入期限届满、未实施阶段。",
+          "customerDisposition": "daily_concise",
+          "eventLabel": "收并购",
+          "eventType": "ma",
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": true,
+          "lifecycleId": "listed-lifecycle-a0bfb4e9ce71b22bc4",
+          "lifecycleStage": "delivery_completed",
+          "lifecycleStatus": "completed",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "资产置换",
-          "matter_id": "listed-matter-8b48b666c421e6",
-          "numbersHtml": "资产核实 (1)指导被评估单位填表和准备应向资产评估机构提供的资料评估人员指导被评估单位的财务与资产管理人员在自行资产清查的基础上，按照资产评估机构提供的“资产评估明细表”及其填写要求、资料清单等。",
+          "matter_id": "listed-matter-085f68fea1e336",
+          "numbersHtml": "航天电子披露资产置换暨关联交易的进展，收并购事项进入期限届满、未实施阶段。",
+          "planId": "资产置换",
+          "previousStage": "progress",
           "publishedAt": "2026-07-29",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445459.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF",
           "sources": [
-            {
-              "announcementId": "1225445459",
-              "announcementTitle": "西安太乙电子有限公司股东全部权益价值资产评估报告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445459.PDF"
-            },
             {
               "announcementId": "1225445448",
               "announcementTitle": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF"
+            },
+            {
+              "announcementId": "1225445459",
+              "announcementTitle": "西安太乙电子有限公司股东全部权益价值资产评估报告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445459.PDF"
             },
             {
               "announcementId": "1225445443",
@@ -757,30 +987,42 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445443.PDF"
             }
           ],
-          "whyImportant": "后续关注协议签署、资产交割及关联交易执行情况。"
+          "whyImportant": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
         },
         {
           "announcementTitle": "关于控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份的公告",
-          "attention": "后续关注回购进度、成交区间及后续用途。",
+          "attention": "后续关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
           "business": {
-            "category": "资本运作",
+            "category": "股东服务",
             "contentImportance": "内容重要",
             "priority": "focus",
-            "subcategory": "股份回购",
+            "subcategory": "减持",
             "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
+              "控股股东",
+              "5%以上股东",
+              "董秘办"
             ]
           },
-          "businessSubcategory": "股份回购",
-          "canonicalDetailId": "listed-detail-b4379bfb76-7ae67ae6",
+          "businessSubcategory": "减持",
+          "canonicalDetailId": "listed-detail-b4379bfb76-117aed66",
           "company": "荣信文化",
-          "conclusion": "公司高级管理人员王伟先生拟自本公告披露之日起15个交易日后的3个月内通过集中竞价的方式减持1,000股，占公司总股本比例 0.0012%。",
-          "importance": "必看",
-          "matterType": "股份回购",
-          "matter_id": "listed-matter-b67b07237b3cbf",
-          "numbersHtml": "公司高级管理人员王伟先生拟自本公告披露之日起15个交易日后的3个月内通过集中竞价的方式减持1,000股，占公司总股本比例 0.0012%。",
+          "conclusion": "荣信文化披露控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份，减持事项进入期限届满、未实施阶段。",
+          "customerDisposition": "daily_concise",
+          "eventLabel": "减持",
+          "eventType": "reduction",
+          "homepageEligible": false,
+          "importance": "进度",
+          "isNoChangeProgress": true,
+          "lifecycleId": "listed-lifecycle-cd1aa942a9d20b2877",
+          "lifecycleStage": "completed",
+          "lifecycleStatus": "completed",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "减持",
+          "matter_id": "listed-matter-f0cae03523cfcf",
+          "numbersHtml": "荣信文化披露控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份，减持事项进入期限届满、未实施阶段。",
+          "planId": "控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份的公告证|2026年",
+          "previousStage": "",
           "publishedAt": "2026-07-29",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
@@ -794,44 +1036,7 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446115.PDF"
             }
           ],
-          "whyImportant": "后续关注回购进度、成交区间及后续用途。"
-        },
-        {
-          "announcementTitle": "关于首次回购公司股份的公告",
-          "attention": "后续关注回购进度、成交区间及后续用途。",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "股份回购",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "股份回购",
-          "canonicalDetailId": "listed-detail-f70dd7228b-b6c655b9",
-          "company": "供销大集",
-          "conclusion": "现将公司首次回购公司股份情况公告如下： 一、首次回购公司股份的具体情况 2026 年 7 月 28 日，公司以自有资金首次通过回购专用证券账户以集中竞价交易方式回购公司股份 7,299,200 股，占公司目前总股本的 0.04%。",
-          "importance": "重点",
-          "matterType": "股份回购",
-          "matter_id": "listed-matter-a31ad06d164b0b",
-          "numbersHtml": "现将公司首次回购公司股份情况公告如下： 一、首次回购公司股份的具体情况 2026 年 7 月 28 日，公司以自有资金首次通过回购专用证券账户以集中竞价交易方式回购公司股份 7,299,200 股，占公司目前总股本的 0.04%。",
-          "publishedAt": "2026-07-29",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
-          "sources": [
-            {
-              "announcementId": "1225445000",
-              "announcementTitle": "关于首次回购公司股份的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF"
-            }
-          ],
-          "whyImportant": "后续关注回购进度、成交区间及后续用途。"
+          "whyImportant": "后续关注实施窗口、首次交易、数量或时间过半及计划完成情况。"
         }
       ],
       "date": "2026-07-30",
@@ -841,8 +1046,8 @@
         {
           "items": [
             {
-              "announcementTitle": "2026年第一次临时股东会法律意见书",
-              "body": "其中，中小股东（除公司董事、高级管理人员以及单独或者合计持有公司 5%以上股份的股东以外的其他股东）总表决情况：同意股份数： 2,449,853 股。",
+              "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
+              "body": "陕天然气披露董事会换届完成并聘任高级管理人员，重大治理变更事项进入实施完成阶段。",
               "business": {
                 "category": "治理关系",
                 "contentImportance": "固定披露",
@@ -854,25 +1059,131 @@
                   "管理层"
                 ]
               },
+              "businessSubcategory": "治理变更",
+              "canonicalDetailId": "listed-detail-e67b125f31-90fe7dd8",
+              "company": "陕天然气",
+              "conclusion": "陕天然气披露董事会换届完成并聘任高级管理人员，重大治理变更事项进入实施完成阶段。",
+              "customerDisposition": "daily",
+              "eventLabel": "重大治理变更",
+              "eventType": "governance_change",
+              "homepageEligible": true,
+              "importance": "重点",
+              "isNoChangeProgress": false,
+              "lifecycleId": "listed-lifecycle-5c2d0d430574b6ae3f",
+              "lifecycleStage": "completed",
+              "lifecycleStatus": "completed",
+              "mandatoryCustomerHighlight": true,
+              "mandatoryRuleId": "",
+              "matterType": "重大治理变更",
+              "matter_id": "listed-matter-f9b58348fcefbb",
+              "planId": "2026年",
+              "previousStage": "",
+              "publishedAt": "2026-07-30",
+              "sourceConfidence": "verified-curated-matter-sources",
+              "sourceKeyword": "V2精读事项来源组",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF",
+              "sources": [
+                {
+                  "announcementId": "1225447377",
+                  "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF"
+                },
+                {
+                  "announcementId": "1225445668",
+                  "announcementTitle": "2026年第二次临时股东会法律意见书",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445668.PDF"
+                }
+              ],
+              "title": "陕天然气｜重大治理变更",
+              "whyImportant": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。"
+            },
+            {
+              "announcementTitle": "关于董事会完成换届选举及聘任高级管理人员的公告",
+              "body": "珠海中富披露董事会完成换届选举及聘任高级管理人员，重大治理变更事项进入实施完成阶段。",
+              "business": {
+                "category": "治理关系",
+                "contentImportance": "固定披露",
+                "priority": "focus",
+                "subcategory": "董监高",
+                "targets": [
+                  "董秘办",
+                  "证券事务代表",
+                  "管理层"
+                ]
+              },
+              "businessSubcategory": "治理变更",
+              "canonicalDetailId": "listed-detail-d8a2a2ac59-b766f312",
+              "company": "珠海中富",
+              "conclusion": "珠海中富披露董事会完成换届选举及聘任高级管理人员，重大治理变更事项进入实施完成阶段。",
+              "customerDisposition": "daily",
+              "eventLabel": "重大治理变更",
+              "eventType": "governance_change",
+              "homepageEligible": true,
+              "importance": "重点",
+              "isNoChangeProgress": false,
+              "lifecycleId": "listed-lifecycle-e535b51b77fe5ed64f",
+              "lifecycleStage": "completed",
+              "lifecycleStatus": "completed",
+              "mandatoryCustomerHighlight": true,
+              "mandatoryRuleId": "",
+              "matterType": "重大治理变更",
+              "matter_id": "listed-matter-302302dfbfc892",
+              "planId": "2026年",
+              "previousStage": "progress",
+              "publishedAt": "2026-07-30",
+              "sourceConfidence": "verified-curated-matter-sources",
+              "sourceKeyword": "V2精读事项来源组",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447046.PDF",
+              "sources": [
+                {
+                  "announcementId": "1225447046",
+                  "announcementTitle": "关于董事会完成换届选举及聘任高级管理人员的公告",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447046.PDF"
+                },
+                {
+                  "announcementId": "1225447049",
+                  "announcementTitle": "2026年第一次临时股东会法律意见书",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447049.PDF"
+                }
+              ],
+              "title": "珠海中富｜重大治理变更",
+              "whyImportant": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。"
+            },
+            {
+              "announcementTitle": "2026年第一次临时股东会决议公告",
+              "body": "珠海中富披露2026年第一次临时股东会决议。",
+              "business": {
+                "category": "治理关系",
+                "contentImportance": "固定披露",
+                "priority": "standard",
+                "subcategory": "章程治理",
+                "targets": [
+                  "董秘办",
+                  "证券事务代表",
+                  "管理层"
+                ]
+              },
               "businessSubcategory": "章程治理",
               "canonicalDetailId": "listed-detail-d8a2a2ac59-976c4a69",
               "company": "珠海中富",
-              "conclusion": "其中，中小股东（除公司董事、高级管理人员以及单独或者合计持有公司 5%以上股份的股东以外的其他股东）总表决情况：同意股份数： 2,449,853 股。",
+              "conclusion": "珠海中富披露2026年第一次临时股东会决议。",
               "importance": "关注",
+              "mandatoryCustomerHighlight": false,
+              "mandatoryRuleId": "",
               "matterType": "股东会",
               "matter_id": "listed-matter-a44d1a927b735c",
               "publishedAt": "2026-07-30",
               "sourceConfidence": "verified-curated-matter-sources",
               "sourceKeyword": "V2精读事项来源组",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447049.PDF",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447048.PDF",
               "sources": [
-                {
-                  "announcementId": "1225447049",
-                  "announcementTitle": "2026年第一次临时股东会法律意见书",
-                  "sourceName": "巨潮资讯",
-                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447049.PDF"
-                },
                 {
                   "announcementId": "1225447048",
                   "announcementTitle": "2026年第一次临时股东会决议公告",
@@ -882,26 +1193,46 @@
               ],
               "title": "珠海中富｜股东会",
               "whyImportant": "后续关注已通过议案执行及相关工商或资金安排。"
-            },
+            }
+          ],
+          "title": "A. 股东会与治理"
+        },
+        {
+          "items": [
             {
               "announcementTitle": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告",
-              "body": "个人年度绩效考核结果 A B+ B B- C 个人层面归属比例 100% 100% 100% 0 0 若公司层面业绩考核达标（至少满足触发值）。",
+              "body": "诺瓦星云披露2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市，股权激励事项进入归属或行权阶段。",
               "business": {
-                "category": "综合事项",
+                "category": "激励与员工",
                 "contentImportance": "固定披露",
-                "priority": "standard",
-                "subcategory": "综合事项",
+                "priority": "focus",
+                "subcategory": "股权激励",
                 "targets": [
-                  "董秘办"
+                  "董秘办",
+                  "人力",
+                  "财务",
+                  "激励对象"
                 ]
               },
               "businessSubcategory": "股权激励",
-              "canonicalDetailId": "listed-detail-8ad6eeda0b-897a48e1",
+              "canonicalDetailId": "listed-detail-8ad6eeda0b-b06727d9",
               "company": "诺瓦星云",
-              "conclusion": "个人年度绩效考核结果 A B+ B B- C 个人层面归属比例 100% 100% 100% 0 0 若公司层面业绩考核达标（至少满足触发值）。",
+              "conclusion": "诺瓦星云披露2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市，股权激励事项进入归属或行权阶段。",
+              "customerDisposition": "daily",
+              "eventLabel": "股权激励",
+              "eventType": "equity_incentive",
+              "homepageEligible": false,
               "importance": "必看",
+              "isNoChangeProgress": false,
+              "lifecycleId": "listed-lifecycle-c59082d5f50f5b43eb",
+              "lifecycleStage": "vesting_or_exercise",
+              "lifecycleStatus": "active",
+              "mandatoryCustomerHighlight": false,
+              "mandatoryRuleId": "",
               "matterType": "股权激励",
-              "matter_id": "listed-matter-31315e38ab96c7",
+              "matter_id": "listed-matter-feb55905e34dd1",
+              "planId": "2025年限制性股票激励计划",
+              "previousStage": "granted",
               "publishedAt": "2026-07-29",
               "sourceConfidence": "verified-curated-matter-sources",
               "sourceKeyword": "V2精读事项来源组",
@@ -917,15 +1248,10 @@
               ],
               "title": "诺瓦星云｜股权激励",
               "whyImportant": "后续关注授予或归属条件、登记数量及费用影响。"
-            }
-          ],
-          "title": "A. 股东会与治理"
-        },
-        {
-          "items": [
+            },
             {
-              "announcementTitle": "2026年第二次临时股东会法律意见书",
-              "body": "（五）出席会议的股东及股东授权代表共计 65 人，代表公司有表决权股份 721,360,493 股，占公司有表决权股份总数的 64.8661%，其中： 1.通过现场投票的股东及股东授权代表共计 3 人。",
+              "announcementTitle": "2026年第二次临时股东会决议公告",
+              "body": "陕天然气披露2026年第二次临时股东会决议。",
               "business": {
                 "category": "治理关系",
                 "contentImportance": "固定披露",
@@ -940,22 +1266,18 @@
               "businessSubcategory": "章程治理",
               "canonicalDetailId": "listed-detail-e67b125f31-07bf942b",
               "company": "陕天然气",
-              "conclusion": "（五）出席会议的股东及股东授权代表共计 65 人，代表公司有表决权股份 721,360,493 股，占公司有表决权股份总数的 64.8661%，其中： 1.通过现场投票的股东及股东授权代表共计 3 人。",
+              "conclusion": "陕天然气披露2026年第二次临时股东会决议。",
               "importance": "关注",
+              "mandatoryCustomerHighlight": false,
+              "mandatoryRuleId": "",
               "matterType": "股东会",
               "matter_id": "listed-matter-2891cdd51d8d32",
               "publishedAt": "2026-07-29",
               "sourceConfidence": "verified-curated-matter-sources",
               "sourceKeyword": "V2精读事项来源组",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445668.PDF",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445667.PDF",
               "sources": [
-                {
-                  "announcementId": "1225445668",
-                  "announcementTitle": "2026年第二次临时股东会法律意见书",
-                  "sourceName": "巨潮资讯",
-                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445668.PDF"
-                },
                 {
                   "announcementId": "1225445667",
                   "announcementTitle": "2026年第二次临时股东会决议公告",
@@ -968,23 +1290,25 @@
             },
             {
               "announcementTitle": "建设机械2026年第三次临时股东会决议公告",
-              "body": "议案审议情况 (一) 非累积投票议案 1、议案名称：关于公司核销应收款项的议案审议结果：通过表决情况： 股东类型同意反对弃权票数比例（%） 票数比例（%） 票数比例（%） A 股 458,679,857 99.2715 2,574,81。",
+              "body": "建设机械披露2026年第三次临时股东会决议。",
               "business": {
-                "category": "资金与财务",
+                "category": "治理关系",
                 "contentImportance": "固定披露",
                 "priority": "standard",
-                "subcategory": "应收核销",
+                "subcategory": "章程治理",
                 "targets": [
-                  "财务负责人",
-                  "资金部",
-                  "董秘办"
+                  "董秘办",
+                  "证券事务代表",
+                  "管理层"
                 ]
               },
               "businessSubcategory": "章程治理",
               "canonicalDetailId": "listed-detail-482dc5334a-fe7bb21c",
               "company": "建设机械",
-              "conclusion": "议案审议情况 (一) 非累积投票议案 1、议案名称：关于公司核销应收款项的议案审议结果：通过表决情况： 股东类型同意反对弃权票数比例（%） 票数比例（%） 票数比例（%） A 股 458,679,857 99.2715 2,574,81。",
+              "conclusion": "建设机械披露2026年第三次临时股东会决议。",
               "importance": "关注",
+              "mandatoryCustomerHighlight": false,
+              "mandatoryRuleId": "",
               "matterType": "股东会",
               "matter_id": "listed-matter-f57508f7b99b50",
               "publishedAt": "2026-07-29",
@@ -1009,7 +1333,41 @@
       ],
       "focusCompanies": [
         {
-          "anchorId": "listed-detail-d8a2a2ac59-976c4a69",
+          "anchorId": "listed-detail-laite-guangdian-9b1b71cb",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "内容重要",
+            "priority": "focus",
+            "subcategory": "可转债",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "company": "莱特光电",
+          "followText": "后续关注证监会注册批复、发行安排及募投项目落地。",
+          "sourceSection": "section-04"
+        },
+        {
+          "anchorId": "listed-detail-db1cef822d-dfe4ebd6",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "内容重要",
+            "priority": "focus",
+            "subcategory": "定增/再融资",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "company": "国际医学",
+          "followText": "后续关注证监会注册批复、发行价格、认购结构及募投项目落地。",
+          "sourceSection": "section-04"
+        },
+        {
+          "anchorId": "listed-detail-d8a2a2ac59-b766f312",
           "business": {
             "category": "治理关系",
             "contentImportance": "固定披露",
@@ -1026,39 +1384,7 @@
           "sourceSection": "section-05"
         },
         {
-          "anchorId": "listed-detail-66ce3315ed-18e1ed67",
-          "business": {
-            "category": "综合事项",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "综合事项",
-            "targets": [
-              "董秘办"
-            ]
-          },
-          "company": "美邦股份",
-          "followText": "后续关注正式公告中的关键节点和数字变化。",
-          "sourceSection": "section-02"
-        },
-        {
-          "anchorId": "listed-detail-3d11f47147-bba7cb65",
-          "business": {
-            "category": "资金与财务",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "担保",
-            "targets": [
-              "财务负责人",
-              "资金部",
-              "董秘办"
-            ]
-          },
-          "company": "陕西金叶",
-          "followText": "后续关注实际提款、担保余额和偿债安排。",
-          "sourceSection": "section-02"
-        },
-        {
-          "anchorId": "listed-detail-126b53d8ae-fb9151d3",
+          "anchorId": "listed-detail-66ce3315ed-927e2b83",
           "business": {
             "category": "治理关系",
             "contentImportance": "内容重要",
@@ -1070,12 +1396,114 @@
               "管理层"
             ]
           },
-          "company": "ST炼石",
-          "followText": "后续关注股东会审议、出资节奏和项目回报。",
-          "sourceSection": "section-04"
+          "company": "美邦股份",
+          "followText": "后续关注实际提款、担保余额和偿债安排。",
+          "sourceSection": "section-02"
         }
       ],
       "follow_items": [
+        {
+          "announcementTitle": "陕西莱特光电材料股份有限公司关于向不特定对象发行可转换公司债券申请获得上海证券交易所上市审核委员会审核通过的公告",
+          "body": "后续关注证监会注册批复、发行安排及募投项目落地。",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "重点跟踪",
+            "priority": "focus",
+            "subcategory": "可转债",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "businessSubcategory": "可转债",
+          "company": "莱特光电",
+          "conclusion": "莱特光电向不特定对象发行可转换公司债券申请获交易所上市审核机构审核通过，融资事项进入证监会注册阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "可转债",
+          "eventType": "convertible_bond",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "isReference": true,
+          "lifecycleId": "listed-lifecycle-e7ce62085198830dd0",
+          "lifecycleStage": "review_passed",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "convertible_bond_exchange_review_passed",
+          "matterType": "可转债审核通过",
+          "matter_id": "listed-matter-eea17efaf58a97",
+          "planId": "向不特定对象发行可转换公司债券",
+          "previousStage": "progress",
+          "publishedAt": "2026-07-30",
+          "referenceAnchor": "listed-detail-laite-guangdian-9b1b71cb",
+          "referenceMatterId": "listed-matter-eea17efaf58a97",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447096.PDF",
+          "sources": [
+            {
+              "announcementId": "1225447096",
+              "announcementTitle": "陕西莱特光电材料股份有限公司关于向不特定对象发行可转换公司债券申请获得上海证券交易所上市审核委员会审核通过的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447096.PDF"
+            }
+          ],
+          "title": "莱特光电｜关注可转债",
+          "whyImportant": "后续关注证监会注册批复、发行安排及募投项目落地。"
+        },
+        {
+          "announcementTitle": "关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
+          "body": "后续关注证监会注册批复、发行价格、认购结构及募投项目落地。",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "重点跟踪",
+            "priority": "focus",
+            "subcategory": "定增/再融资",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "businessSubcategory": "定增/再融资",
+          "company": "国际医学",
+          "conclusion": "国际医学向特定对象发行股票申请获交易所审核通过，融资事项进入证监会注册阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "定增",
+          "eventType": "private_placement",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "isReference": true,
+          "lifecycleId": "listed-lifecycle-43250b6e63953c0ba2",
+          "lifecycleStage": "review_passed",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "equity_refinancing_exchange_review_passed",
+          "matterType": "再融资审核通过",
+          "matter_id": "listed-matter-b9e0711a2918be",
+          "planId": "向特定对象发行股票",
+          "previousStage": "inquiry_reply",
+          "publishedAt": "2026-07-30",
+          "referenceAnchor": "listed-detail-db1cef822d-dfe4ebd6",
+          "referenceMatterId": "listed-matter-b9e0711a2918be",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446818.PDF",
+          "sources": [
+            {
+              "announcementId": "1225446818",
+              "announcementTitle": "关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446818.PDF"
+            }
+          ],
+          "title": "国际医学｜关注定增/再融资",
+          "whyImportant": "后续关注证监会注册批复、发行价格、认购结构及募投项目落地。"
+        },
         {
           "announcementTitle": "关于全资子公司申请抵押贷款暨公司为其提供担保的公告",
           "body": "后续关注实际提款、担保余额和偿债安排。",
@@ -1090,9 +1518,11 @@
           },
           "businessSubcategory": "担保与授信",
           "company": "珠海中富",
-          "conclusion": "详细内容请查阅刊载在《中国证券报》、《证券时报》和巨潮资讯网（www.cninfo.com.cn）的《关于全资子公司申请抵押贷款暨公司为其提供担保的公告》。审议通过《关于全资子公司申请抵押贷款暨公司为其提供担保的议案》 因生产经营需要。",
+          "conclusion": "审议通过《关于全资子公司申请抵押贷款暨公司为其提供担保的议案》 因生产经营需要，公司全资子公司海口中南瓶胚有限公司拟向海南银行股份有限公司澄迈科技支行申请小微企业流动资金贷款500万元。",
           "importance": "必看",
           "isReference": true,
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "担保授信",
           "matter_id": "listed-matter-2d26916cb5acfb",
           "publishedAt": "2026-07-30",
@@ -1127,7 +1557,7 @@
         },
         {
           "announcementTitle": "陕西美邦药业集团股份有限公司第三届董事会第十三次会议决议公告",
-          "body": "后续关注正式公告中的关键节点和数字变化。",
+          "body": "后续关注实际提款、担保余额和偿债安排。",
           "business": {
             "category": "综合事项",
             "contentImportance": "重点跟踪",
@@ -1137,12 +1567,14 @@
               "董秘办"
             ]
           },
-          "businessSubcategory": "综合事项",
+          "businessSubcategory": "担保与授信",
           "company": "美邦股份",
-          "conclusion": "陕西美邦药业集团股份有限公司2026 年半年度报告摘要除此之外，未知其他股东之间是否存在关联关系，亦未知其他股东之间是否属于《上市公司收购管理办法》规定的一致行动人。2026 年上半年。",
+          "conclusion": "美邦股份披露第三届董事会第十三次会议决议。",
           "importance": "必看",
           "isReference": true,
-          "matterType": "经营治理",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "担保授信",
           "matter_id": "listed-matter-fbe9c0834ac4b2",
           "publishedAt": "2026-07-30",
           "referenceAnchor": "listed-detail-66ce3315ed-927e2b83",
@@ -1175,10 +1607,16 @@
               "announcementTitle": "陕西美邦药业集团股份有限公司2026年半年度报告摘要",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446377.PDF"
+            },
+            {
+              "announcementId": "1225446370",
+              "announcementTitle": "陕西美邦药业集团股份有限公司2026年半年度报告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446370.PDF"
             }
           ],
-          "title": "美邦股份｜关注综合事项",
-          "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
+          "title": "美邦股份｜关注担保与授信",
+          "whyImportant": "后续关注实际提款、担保余额和偿债安排。"
         },
         {
           "announcementTitle": "关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告",
@@ -1194,9 +1632,11 @@
           },
           "businessSubcategory": "担保与授信",
           "company": "陕西金叶",
-          "conclusion": "（未经审计） 2.保证合同的主要内容云南金明源和金叶印务共同为公司该笔贷款提供连带责任保证担保，担保涉及的《保证合同》均已签署。",
+          "conclusion": "陕西金叶披露公司向银行等金融机构申请综合授信敞口额度及担保事项的进展。",
           "importance": "必看",
           "isReference": true,
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "担保授信",
           "matter_id": "listed-matter-6873965536b93c",
           "publishedAt": "2026-07-30",
@@ -1218,46 +1658,7 @@
           "whyImportant": "后续关注实际提款、担保余额和偿债安排。"
         },
         {
-          "announcementTitle": "关于购买成都天科航空制造股份有限公司股份及增资事项的进展公告",
-          "body": "后续关注股东会审议、出资节奏和项目回报。",
-          "business": {
-            "category": "经营与产业",
-            "contentImportance": "重点跟踪",
-            "priority": "focus",
-            "subcategory": "对外投资",
-            "targets": [
-              "董秘",
-              "业务负责人",
-              "财务"
-            ]
-          },
-          "businessSubcategory": "对外投资",
-          "company": "ST炼石",
-          "conclusion": "（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准） 三、公司购买天科航空股份及增资后的股东情况截至公告日，天科航空共有 20 名股东。",
-          "importance": "必看",
-          "isReference": true,
-          "matterType": "对外投资",
-          "matter_id": "listed-matter-61fb1284ffb6bd",
-          "publishedAt": "2026-07-30",
-          "referenceAnchor": "listed-detail-126b53d8ae-fb9151d3",
-          "referenceMatterId": "listed-matter-61fb1284ffb6bd",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446663.PDF",
-          "sources": [
-            {
-              "announcementId": "1225446663",
-              "announcementTitle": "关于购买成都天科航空制造股份有限公司股份及增资事项的进展公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446663.PDF"
-            }
-          ],
-          "title": "ST炼石｜关注对外投资",
-          "whyImportant": "后续关注股东会审议、出资节奏和项目回报。"
-        },
-        {
-          "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
+          "announcementTitle": "第七届董事会第一次会议决议公告",
           "body": "后续关注正式公告中的关键节点和数字变化。",
           "business": {
             "category": "综合事项",
@@ -1270,9 +1671,11 @@
           },
           "businessSubcategory": "综合事项",
           "company": "陕天然气",
-          "conclusion": "（二）审议通过《关于选举第七届董事会各专门委员会的议案》 具体内容详见公司于 2026 年 7 月 30 日在指定媒体和巨潮资讯网披露的《关于董事会换届完成并聘任高级管理人员的公告》。（三）审议通过《关于聘任高级管理人员的议案》 具体内。",
+          "conclusion": "陕天然气披露第七届董事会第一次会议决议。",
           "importance": "必看",
           "isReference": true,
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "经营治理",
           "matter_id": "listed-matter-1db65f6417bd70",
           "publishedAt": "2026-07-30",
@@ -1281,14 +1684,8 @@
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447376.PDF",
           "sources": [
-            {
-              "announcementId": "1225447377",
-              "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF"
-            },
             {
               "announcementId": "1225447376",
               "announcementTitle": "第七届董事会第一次会议决议公告",
@@ -1297,43 +1694,6 @@
             }
           ],
           "title": "陕天然气｜关注综合事项",
-          "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
-        },
-        {
-          "announcementTitle": "天地源股份有限公司关于公司2025年年度报告信息披露监管问询函的回复公告",
-          "body": "后续关注正式公告中的关键节点和数字变化。",
-          "business": {
-            "category": "综合事项",
-            "contentImportance": "重点跟踪",
-            "priority": "standard",
-            "subcategory": "综合事项",
-            "targets": [
-              "董秘办"
-            ]
-          },
-          "businessSubcategory": "综合事项",
-          "company": "天地源",
-          "conclusion": "2024 年少数股东权益前十大公司情况单位：万元子公司名称净利润少数股东持股比例本期归属于少数股东的损益本期向少数股东宣告分派的股利期末少数股东权益余额西安天地源沣东房地产开发有限公司 -0.04 41.50% 199.46 - 27,。",
-          "importance": "必看",
-          "isReference": true,
-          "matterType": "经营治理",
-          "matter_id": "listed-matter-afd99d21ea6f90",
-          "publishedAt": "2026-07-30",
-          "referenceAnchor": "listed-detail-705a97daa3-58bc0d9f",
-          "referenceMatterId": "listed-matter-afd99d21ea6f90",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446604.PDF",
-          "sources": [
-            {
-              "announcementId": "1225446604",
-              "announcementTitle": "天地源股份有限公司关于公司2025年年度报告信息披露监管问询函的回复公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446604.PDF"
-            }
-          ],
-          "title": "天地源｜关注综合事项",
           "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
         }
       ],
@@ -1357,13 +1717,272 @@
           "num": "9条"
         }
       ],
+      "lifecycleEventCount": 619,
+      "lifecyclePolicy": "listed-company-full-lifecycle",
+      "lifecycleStorePath": "v2/data/source/listed/lifecycle-store.json",
+      "lifecycleUpdates": [
+        {
+          "company": "莱特光电",
+          "currentStage": "review_passed",
+          "eventType": "convertible_bond",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-e7ce62085198830dd0",
+          "planId": "向不特定对象发行可转换公司债券",
+          "previousStage": "progress",
+          "sourceAnnouncementIds": [
+            "1225447096"
+          ],
+          "status": "active"
+        },
+        {
+          "company": "国际医学",
+          "currentStage": "review_passed",
+          "eventType": "private_placement",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-43250b6e63953c0ba2",
+          "planId": "向特定对象发行股票",
+          "previousStage": "inquiry_reply",
+          "sourceAnnouncementIds": [
+            "1225446818"
+          ],
+          "status": "active"
+        },
+        {
+          "company": "ST炼石",
+          "currentStage": "progress",
+          "eventType": "ma",
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-e334b7574bc7a5749f",
+          "planId": "购买成都天科航空制造股份",
+          "previousStage": "",
+          "sourceAnnouncementIds": [
+            "1225446663"
+          ],
+          "status": "active"
+        },
+        {
+          "company": "陕天然气",
+          "currentStage": "completed",
+          "eventType": "governance_change",
+          "homepageEligible": true,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-5c2d0d430574b6ae3f",
+          "planId": "2026年",
+          "previousStage": "",
+          "sourceAnnouncementIds": [
+            "1225447377",
+            "1225445668"
+          ],
+          "status": "completed"
+        },
+        {
+          "company": "珠海中富",
+          "currentStage": "completed",
+          "eventType": "governance_change",
+          "homepageEligible": true,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-e535b51b77fe5ed64f",
+          "planId": "2026年",
+          "previousStage": "progress",
+          "sourceAnnouncementIds": [
+            "1225447046",
+            "1225447049"
+          ],
+          "status": "completed"
+        },
+        {
+          "company": "诺瓦星云",
+          "currentStage": "vesting_or_exercise",
+          "eventType": "equity_incentive",
+          "homepageEligible": false,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-c59082d5f50f5b43eb",
+          "planId": "2025年限制性股票激励计划",
+          "previousStage": "granted",
+          "sourceAnnouncementIds": [
+            "1225444288"
+          ],
+          "status": "active"
+        },
+        {
+          "company": "西测测试",
+          "currentStage": "first_execution",
+          "eventType": "increase",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-5f7712b26bd47b2430",
+          "planId": "持股5%以上股东增持公司股份的公告证券代码：301306证券简称：西测测试公告编号：|2026年",
+          "previousStage": "",
+          "sourceAnnouncementIds": [
+            "1225446116"
+          ],
+          "status": "active"
+        },
+        {
+          "company": "供销大集",
+          "currentStage": "first_execution",
+          "eventType": "buyback",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-5229c6ce7c32de5672",
+          "planId": "2026年",
+          "previousStage": "",
+          "sourceAnnouncementIds": [
+            "1225445000"
+          ],
+          "status": "active"
+        },
+        {
+          "company": "爱科赛博",
+          "currentStage": "progress",
+          "eventType": "buyback",
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-9eb86a93050e544b40",
+          "planId": "2026年",
+          "previousStage": "first_execution",
+          "sourceAnnouncementIds": [
+            "1225444332"
+          ],
+          "status": "active"
+        },
+        {
+          "company": "航天电子",
+          "currentStage": "delivery_completed",
+          "eventType": "ma",
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": true,
+          "lifecycleId": "listed-lifecycle-a0bfb4e9ce71b22bc4",
+          "planId": "资产置换",
+          "previousStage": "progress",
+          "sourceAnnouncementIds": [
+            "1225445443",
+            "1225445448",
+            "1225445459"
+          ],
+          "status": "completed"
+        },
+        {
+          "company": "荣信文化",
+          "currentStage": "completed",
+          "eventType": "reduction",
+          "homepageEligible": false,
+          "importance": "进度",
+          "isNoChangeProgress": true,
+          "lifecycleId": "listed-lifecycle-cd1aa942a9d20b2877",
+          "planId": "控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份的公告证|2026年",
+          "previousStage": "",
+          "sourceAnnouncementIds": [
+            "1225446115"
+          ],
+          "status": "completed"
+        }
+      ],
       "matterIndex": [
+        {
+          "announcementTitle": "陕西莱特光电材料股份有限公司关于向不特定对象发行可转换公司债券申请获得上海证券交易所上市审核委员会审核通过的公告",
+          "businessSubcategory": "可转债",
+          "company": "莱特光电",
+          "conclusion": "莱特光电向不特定对象发行可转换公司债券申请获交易所上市审核机构审核通过，融资事项进入证监会注册阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "可转债",
+          "eventType": "convertible_bond",
+          "firstSeenAt": "2026-04-25",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-07-30",
+          "lifecycleId": "listed-lifecycle-e7ce62085198830dd0",
+          "lifecycleStage": "review_passed",
+          "lifecycleStatus": "active",
+          "mainSection": "capital",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "convertible_bond_exchange_review_passed",
+          "matterType": "可转债审核通过",
+          "matter_id": "listed-matter-eea17efaf58a97",
+          "planId": "向不特定对象发行可转换公司债券",
+          "previousStage": "progress",
+          "publishedAt": "2026-07-30",
+          "score": 40,
+          "sourceAnnouncementIds": [
+            "1225447096"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447096.PDF",
+          "sources": [
+            {
+              "announcementId": "1225447096",
+              "announcementTitle": "陕西莱特光电材料股份有限公司关于向不特定对象发行可转换公司债券申请获得上海证券交易所上市审核委员会审核通过的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447096.PDF"
+            }
+          ],
+          "timelineLength": 6,
+          "whyImportant": "后续关注证监会注册批复、发行安排及募投项目落地。"
+        },
+        {
+          "announcementTitle": "关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
+          "businessSubcategory": "定增/再融资",
+          "company": "国际医学",
+          "conclusion": "国际医学向特定对象发行股票申请获交易所审核通过，融资事项进入证监会注册阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "定增",
+          "eventType": "private_placement",
+          "firstSeenAt": "2026-04-23",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-07-30",
+          "lifecycleId": "listed-lifecycle-43250b6e63953c0ba2",
+          "lifecycleStage": "review_passed",
+          "lifecycleStatus": "active",
+          "mainSection": "capital",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "equity_refinancing_exchange_review_passed",
+          "matterType": "再融资审核通过",
+          "matter_id": "listed-matter-b9e0711a2918be",
+          "planId": "向特定对象发行股票",
+          "previousStage": "inquiry_reply",
+          "publishedAt": "2026-07-30",
+          "score": 38,
+          "sourceAnnouncementIds": [
+            "1225446818"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446818.PDF",
+          "sources": [
+            {
+              "announcementId": "1225446818",
+              "announcementTitle": "关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446818.PDF"
+            }
+          ],
+          "timelineLength": 4,
+          "whyImportant": "后续关注证监会注册批复、发行价格、认购结构及募投项目落地。"
+        },
         {
           "announcementTitle": "关于全资子公司申请抵押贷款暨公司为其提供担保的公告",
           "businessSubcategory": "担保与授信",
           "company": "珠海中富",
-          "conclusion": "详细内容请查阅刊载在《中国证券报》、《证券时报》和巨潮资讯网（www.cninfo.com.cn）的《关于全资子公司申请抵押贷款暨公司为其提供担保的公告》。审议通过《关于全资子公司申请抵押贷款暨公司为其提供担保的议案》 因生产经营需要。",
+          "conclusion": "审议通过《关于全资子公司申请抵押贷款暨公司为其提供担保的议案》 因生产经营需要，公司全资子公司海口中南瓶胚有限公司拟向海南银行股份有限公司澄迈科技支行申请小微企业流动资金贷款500万元。",
           "importance": "必看",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "担保授信",
           "matter_id": "listed-matter-2d26916cb5acfb",
           "publishedAt": "2026-07-30",
@@ -1399,19 +2018,23 @@
         },
         {
           "announcementTitle": "陕西美邦药业集团股份有限公司第三届董事会第十三次会议决议公告",
-          "businessSubcategory": "综合事项",
+          "businessSubcategory": "担保与授信",
           "company": "美邦股份",
-          "conclusion": "陕西美邦药业集团股份有限公司2026 年半年度报告摘要除此之外，未知其他股东之间是否存在关联关系，亦未知其他股东之间是否属于《上市公司收购管理办法》规定的一致行动人。2026 年上半年。",
+          "conclusion": "美邦股份披露第三届董事会第十三次会议决议。",
           "importance": "必看",
-          "matterType": "经营治理",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "担保授信",
           "matter_id": "listed-matter-fbe9c0834ac4b2",
           "publishedAt": "2026-07-30",
-          "score": 26,
+          "score": 30,
           "sourceAnnouncementIds": [
             "1225446425",
             "1225446406",
             "1225446394",
-            "1225446377"
+            "1225446377",
+            "1225446370"
           ],
           "sourceName": "巨潮资讯",
           "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446425.PDF",
@@ -1439,16 +2062,25 @@
               "announcementTitle": "陕西美邦药业集团股份有限公司2026年半年度报告摘要",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446377.PDF"
+            },
+            {
+              "announcementId": "1225446370",
+              "announcementTitle": "陕西美邦药业集团股份有限公司2026年半年度报告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446370.PDF"
             }
           ],
-          "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
+          "whyImportant": "后续关注实际提款、担保余额和偿债安排。"
         },
         {
           "announcementTitle": "关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告",
           "businessSubcategory": "担保与授信",
           "company": "陕西金叶",
-          "conclusion": "（未经审计） 2.保证合同的主要内容云南金明源和金叶印务共同为公司该笔贷款提供连带责任保证担保，担保涉及的《保证合同》均已签署。",
+          "conclusion": "陕西金叶披露公司向银行等金融机构申请综合授信敞口额度及担保事项的进展。",
           "importance": "必看",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "担保授信",
           "matter_id": "listed-matter-6873965536b93c",
           "publishedAt": "2026-07-30",
@@ -1469,53 +2101,24 @@
           "whyImportant": "后续关注实际提款、担保余额和偿债安排。"
         },
         {
-          "announcementTitle": "关于购买成都天科航空制造股份有限公司股份及增资事项的进展公告",
-          "businessSubcategory": "对外投资",
-          "company": "ST炼石",
-          "conclusion": "（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准） 三、公司购买天科航空股份及增资后的股东情况截至公告日，天科航空共有 20 名股东。",
-          "importance": "必看",
-          "matterType": "对外投资",
-          "matter_id": "listed-matter-61fb1284ffb6bd",
-          "publishedAt": "2026-07-30",
-          "score": 17,
-          "sourceAnnouncementIds": [
-            "1225446663"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446663.PDF",
-          "sources": [
-            {
-              "announcementId": "1225446663",
-              "announcementTitle": "关于购买成都天科航空制造股份有限公司股份及增资事项的进展公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446663.PDF"
-            }
-          ],
-          "whyImportant": "后续关注股东会审议、出资节奏和项目回报。"
-        },
-        {
-          "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
+          "announcementTitle": "第七届董事会第一次会议决议公告",
           "businessSubcategory": "综合事项",
           "company": "陕天然气",
-          "conclusion": "（二）审议通过《关于选举第七届董事会各专门委员会的议案》 具体内容详见公司于 2026 年 7 月 30 日在指定媒体和巨潮资讯网披露的《关于董事会换届完成并聘任高级管理人员的公告》。（三）审议通过《关于聘任高级管理人员的议案》 具体内。",
+          "conclusion": "陕天然气披露第七届董事会第一次会议决议。",
           "importance": "必看",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "经营治理",
           "matter_id": "listed-matter-1db65f6417bd70",
           "publishedAt": "2026-07-30",
-          "score": 16,
+          "score": 14,
           "sourceAnnouncementIds": [
-            "1225447377",
             "1225447376"
           ],
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447376.PDF",
           "sources": [
-            {
-              "announcementId": "1225447377",
-              "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF"
-            },
             {
               "announcementId": "1225447376",
               "announcementTitle": "第七届董事会第一次会议决议公告",
@@ -1529,10 +2132,13 @@
           "announcementTitle": "天地源股份有限公司关于公司2025年年度报告信息披露监管问询函的回复公告",
           "businessSubcategory": "综合事项",
           "company": "天地源",
-          "conclusion": "2024 年少数股东权益前十大公司情况单位：万元子公司名称净利润少数股东持股比例本期归属于少数股东的损益本期向少数股东宣告分派的股利期末少数股东权益余额西安天地源沣东房地产开发有限公司 -0.04 41.50% 199.46 - 27,。",
+          "conclusion": "天地源披露公司2025年年度报告信息披露监管问询函的回复。",
           "importance": "必看",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "经营治理",
-          "matter_id": "listed-matter-afd99d21ea6f90",
+          "matter_id": "listed-matter-d2f4e03d599011",
           "publishedAt": "2026-07-30",
           "score": 14,
           "sourceAnnouncementIds": [
@@ -1551,17 +2157,122 @@
           "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
         },
         {
-          "announcementTitle": "关于董事会完成换届选举及聘任高级管理人员的公告",
-          "businessSubcategory": "综合事项",
-          "company": "珠海中富",
-          "conclusion": "不存在因涉嫌犯罪被司法机关立案侦查或者涉嫌违法违规被中国证监会立案稽查，尚未有明确结论的情形。许仁硕先生未直接持有公司股票，间接持有公司 4.18%股份，与公司控股股东陕西新丝路进取一号投资合伙企业（有限合伙）存在关联关系。",
+          "announcementTitle": "关于购买成都天科航空制造股份有限公司股份及增资事项的进展公告",
+          "businessSubcategory": "并购重组",
+          "company": "ST炼石",
+          "conclusion": "ST炼石披露股份及增资事项的进展，收并购事项进入阶段进展阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "收并购",
+          "eventType": "ma",
+          "firstSeenAt": "2026-06-18",
+          "homepageEligible": false,
           "importance": "重点",
-          "matterType": "经营治理",
-          "matter_id": "listed-matter-4bf1efe8b54dec",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-07-30",
+          "lifecycleId": "listed-lifecycle-e334b7574bc7a5749f",
+          "lifecycleStage": "progress",
+          "lifecycleStatus": "active",
+          "mainSection": "capital",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "收并购",
+          "matter_id": "listed-matter-20e78baa98a538",
+          "planId": "购买成都天科航空制造股份",
+          "previousStage": "",
           "publishedAt": "2026-07-30",
-          "score": 12,
+          "score": 17,
           "sourceAnnouncementIds": [
-            "1225447046"
+            "1225446663"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446663.PDF",
+          "sources": [
+            {
+              "announcementId": "1225446663",
+              "announcementTitle": "关于购买成都天科航空制造股份有限公司股份及增资事项的进展公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446663.PDF"
+            }
+          ],
+          "timelineLength": 2,
+          "whyImportant": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
+        },
+        {
+          "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
+          "businessSubcategory": "治理变更",
+          "company": "陕天然气",
+          "conclusion": "陕天然气披露董事会换届完成并聘任高级管理人员，重大治理变更事项进入实施完成阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "重大治理变更",
+          "eventType": "governance_change",
+          "firstSeenAt": "2026-07-30",
+          "homepageEligible": true,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-07-30",
+          "lifecycleId": "listed-lifecycle-5c2d0d430574b6ae3f",
+          "lifecycleStage": "completed",
+          "lifecycleStatus": "completed",
+          "mainSection": "governance",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "重大治理变更",
+          "matter_id": "listed-matter-f9b58348fcefbb",
+          "planId": "2026年",
+          "previousStage": "",
+          "publishedAt": "2026-07-30",
+          "score": 14,
+          "sourceAnnouncementIds": [
+            "1225447377",
+            "1225445668"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF",
+          "sources": [
+            {
+              "announcementId": "1225447377",
+              "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF"
+            },
+            {
+              "announcementId": "1225445668",
+              "announcementTitle": "2026年第二次临时股东会法律意见书",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445668.PDF"
+            }
+          ],
+          "timelineLength": 1,
+          "whyImportant": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。"
+        },
+        {
+          "announcementTitle": "关于董事会完成换届选举及聘任高级管理人员的公告",
+          "businessSubcategory": "治理变更",
+          "company": "珠海中富",
+          "conclusion": "珠海中富披露董事会完成换届选举及聘任高级管理人员，重大治理变更事项进入实施完成阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "重大治理变更",
+          "eventType": "governance_change",
+          "firstSeenAt": "2026-05-15",
+          "homepageEligible": true,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-07-30",
+          "lifecycleId": "listed-lifecycle-e535b51b77fe5ed64f",
+          "lifecycleStage": "completed",
+          "lifecycleStatus": "completed",
+          "mainSection": "governance",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "重大治理变更",
+          "matter_id": "listed-matter-302302dfbfc892",
+          "planId": "2026年",
+          "previousStage": "progress",
+          "publishedAt": "2026-07-30",
+          "score": 14,
+          "sourceAnnouncementIds": [
+            "1225447046",
+            "1225447049"
           ],
           "sourceName": "巨潮资讯",
           "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447046.PDF",
@@ -1571,16 +2282,26 @@
               "announcementTitle": "关于董事会完成换届选举及聘任高级管理人员的公告",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447046.PDF"
+            },
+            {
+              "announcementId": "1225447049",
+              "announcementTitle": "2026年第一次临时股东会法律意见书",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447049.PDF"
             }
           ],
-          "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
+          "timelineLength": 2,
+          "whyImportant": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。"
         },
         {
           "announcementTitle": "绿能慧充关于控股股东及其一致行动人部分股份解除质押的公告",
           "businessSubcategory": "综合事项",
           "company": "绿能慧充",
-          "conclusion": "公司控股股东及一致行动人部分股份解除质押基本情况公司于近日接到公司控股股东及一致行动人北海景曜、北海景众的通知，获悉深圳景宏、北海景曜、北海景众持有本公司的部分股份解除质押。",
+          "conclusion": "绿能慧充披露控股股东及其一致行动人部分股份解除质押。",
           "importance": "重点",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "经营治理",
           "matter_id": "listed-matter-d764246ad46d8a",
           "publishedAt": "2026-07-30",
@@ -1601,36 +2322,14 @@
           "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
         },
         {
-          "announcementTitle": "陕西美邦药业集团股份有限公司2026年半年度报告",
-          "businessSubcategory": "担保与授信",
-          "company": "美邦股份",
-          "conclusion": "重大关联交易 (一) 与日常经营相关的关联交易 1、 已在临时公告披露且后续实施无进展或变化的事项 □适用 √不适用 2、 已在临时公告披露。",
-          "importance": "重点",
-          "matterType": "担保授信",
-          "matter_id": "listed-matter-7b2211749974a6",
-          "publishedAt": "2026-07-30",
-          "score": 9,
-          "sourceAnnouncementIds": [
-            "1225446370"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446370.PDF",
-          "sources": [
-            {
-              "announcementId": "1225446370",
-              "announcementTitle": "陕西美邦药业集团股份有限公司2026年半年度报告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446370.PDF"
-            }
-          ],
-          "whyImportant": "后续关注实际提款、担保余额和偿债安排。"
-        },
-        {
           "announcementTitle": "金花企业（集团）股份有限公司关于公司股票被实施其他风险警示事项的进展公告",
           "businessSubcategory": "综合事项",
           "company": "金花股份",
-          "conclusion": " 根据《上海证券交易所股票上市规则》第 9.8.5 条规定：“上市公司股票因第 9.8.1 条第一款第（二）项至第（五）项规定情形被实施其他风险警示的， 在被实施其他风险警示期间，公司应当至少每月披露 1 次提示性公告。",
+          "conclusion": "金花股份披露公司股票被实施其他风险警示事项的进展。",
           "importance": "重点",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "经营治理",
           "matter_id": "listed-matter-d54a99fd2426c7",
           "publishedAt": "2026-07-30",
@@ -1651,28 +2350,24 @@
           "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
         },
         {
-          "announcementTitle": "2026年第一次临时股东会法律意见书",
+          "announcementTitle": "2026年第一次临时股东会决议公告",
           "businessSubcategory": "章程治理",
           "company": "珠海中富",
-          "conclusion": "其中，中小股东（除公司董事、高级管理人员以及单独或者合计持有公司 5%以上股份的股东以外的其他股东）总表决情况：同意股份数： 2,449,853 股。",
+          "conclusion": "珠海中富披露2026年第一次临时股东会决议。",
           "importance": "关注",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "股东会",
           "matter_id": "listed-matter-a44d1a927b735c",
           "publishedAt": "2026-07-30",
           "score": 5,
           "sourceAnnouncementIds": [
-            "1225447049",
             "1225447048"
           ],
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447049.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447048.PDF",
           "sources": [
-            {
-              "announcementId": "1225447049",
-              "announcementTitle": "2026年第一次临时股东会法律意见书",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447049.PDF"
-            },
             {
               "announcementId": "1225447048",
               "announcementTitle": "2026年第一次临时股东会决议公告",
@@ -1683,63 +2378,28 @@
           "whyImportant": "后续关注已通过议案执行及相关工商或资金安排。"
         },
         {
-          "announcementTitle": "陕西莱特光电材料股份有限公司关于向不特定对象发行可转换公司债券申请获得上海证券交易所上市审核委员会审核通过的公告",
-          "businessSubcategory": "综合事项",
-          "company": "莱特光电",
-          "conclusion": "陕西莱特光电材料股份有限公司董事会 2026 年 7 月 30 日。公司将根据该事项的进展情况， 按照有关法律法规和要求及时履行信息披露义务。",
-          "importance": "关注",
-          "matterType": "经营治理",
-          "matter_id": "listed-matter-9f5f16cba0d7a6",
-          "publishedAt": "2026-07-30",
-          "score": 4,
-          "sourceAnnouncementIds": [
-            "1225447096"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447096.PDF",
-          "sources": [
-            {
-              "announcementId": "1225447096",
-              "announcementTitle": "陕西莱特光电材料股份有限公司关于向不特定对象发行可转换公司债券申请获得上海证券交易所上市审核委员会审核通过的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447096.PDF"
-            }
-          ],
-          "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
-        },
-        {
-          "announcementTitle": "关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
-          "businessSubcategory": "再融资",
-          "company": "国际医学",
-          "conclusion": "公司本次向特定对象发行股票事项尚需获得中国证监会同意注册后方可实施，最终能否获得中国证监会同意注册的决定及其时间尚存在不确定性。公司将按照有关规定和要求，根据该事项进展情况及时履行信息披露义务，敬请广大投资者谨慎决策，注意投资风险。",
-          "importance": "关注",
-          "matterType": "再融资",
-          "matter_id": "listed-matter-e70fab32ad5dca",
-          "publishedAt": "2026-07-30",
-          "score": 4,
-          "sourceAnnouncementIds": [
-            "1225446818"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446818.PDF",
-          "sources": [
-            {
-              "announcementId": "1225446818",
-              "announcementTitle": "关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446818.PDF"
-            }
-          ],
-          "whyImportant": "后续关注交易所审核、证监会注册及募投落地。"
-        },
-        {
           "announcementTitle": "关于2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市公告",
           "businessSubcategory": "股权激励",
           "company": "诺瓦星云",
-          "conclusion": "个人年度绩效考核结果 A B+ B B- C 个人层面归属比例 100% 100% 100% 0 0 若公司层面业绩考核达标（至少满足触发值）。",
+          "conclusion": "诺瓦星云披露2025年限制性股票激励计划首次授予部分第一个归属期归属结果暨股份上市，股权激励事项进入归属或行权阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "股权激励",
+          "eventType": "equity_incentive",
+          "firstSeenAt": "2026-06-04",
+          "homepageEligible": false,
           "importance": "必看",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-07-29",
+          "lifecycleId": "listed-lifecycle-c59082d5f50f5b43eb",
+          "lifecycleStage": "vesting_or_exercise",
+          "lifecycleStatus": "active",
+          "mainSection": "governance",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "股权激励",
-          "matter_id": "listed-matter-31315e38ab96c7",
+          "matter_id": "listed-matter-feb55905e34dd1",
+          "planId": "2025年限制性股票激励计划",
+          "previousStage": "granted",
           "publishedAt": "2026-07-29",
           "score": 34,
           "sourceAnnouncementIds": [
@@ -1755,32 +2415,8 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444288.PDF"
             }
           ],
+          "timelineLength": 3,
           "whyImportant": "后续关注授予或归属条件、登记数量及费用影响。"
-        },
-        {
-          "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
-          "businessSubcategory": "股份回购",
-          "company": "爱科赛博",
-          "conclusion": "回购股份的进展情况根据《上市公司股份回购规则》《上海证券交易所上市公司自律监管指引第 7 号——回购股份》等相关规定，现将公司回购股份的进展具体情况公告如下： 截至 2026 年 7 月 28 日。",
-          "importance": "必看",
-          "matterType": "股份回购",
-          "matter_id": "listed-matter-5d3f7812927ff8",
-          "publishedAt": "2026-07-29",
-          "score": 21,
-          "sourceAnnouncementIds": [
-            "1225444332"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF",
-          "sources": [
-            {
-              "announcementId": "1225444332",
-              "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF"
-            }
-          ],
-          "whyImportant": "后续关注回购进度、成交区间及后续用途。"
         },
         {
           "announcementTitle": "联合资信评估股份有限公司关于终止上海科华生物工程股份有限公司主体及“科华转债”信用评级的公告",
@@ -1788,6 +2424,9 @@
           "company": "科华生物",
           "conclusion": "“科华转债”到期兑付数量：2,235,726张 2、“科华转债”到期兑付金额：236,986,956.00元（含税及最后一期利息） 3、“科华转债”到期兑付资金发放日：2026年7月28日 4、“科华转债”摘牌日：2026年7月28日一。",
           "importance": "必看",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "信用评级",
           "matter_id": "listed-matter-24253d6d7ec2ec",
           "publishedAt": "2026-07-29",
@@ -1815,52 +2454,28 @@
           "whyImportant": "后续关注债券摘牌后的融资安排与信用变化。"
         },
         {
-          "announcementTitle": "西安太乙电子有限公司股东全部权益价值资产评估报告",
-          "businessSubcategory": "资产交易",
-          "company": "航天电子",
-          "conclusion": "资产核实 (1)指导被评估单位填表和准备应向资产评估机构提供的资料评估人员指导被评估单位的财务与资产管理人员在自行资产清查的基础上，按照资产评估机构提供的“资产评估明细表”及其填写要求、资料清单等。",
-          "importance": "必看",
-          "matterType": "资产置换",
-          "matter_id": "listed-matter-8b48b666c421e6",
-          "publishedAt": "2026-07-29",
-          "score": 17,
-          "sourceAnnouncementIds": [
-            "1225445459",
-            "1225445448",
-            "1225445443"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445459.PDF",
-          "sources": [
-            {
-              "announcementId": "1225445459",
-              "announcementTitle": "西安太乙电子有限公司股东全部权益价值资产评估报告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445459.PDF"
-            },
-            {
-              "announcementId": "1225445448",
-              "announcementTitle": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF"
-            },
-            {
-              "announcementId": "1225445443",
-              "announcementTitle": "航天时代电子技术股份有限公司董事会2026年第七次会议决议公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445443.PDF"
-            }
-          ],
-          "whyImportant": "后续关注协议签署、资产交割及关联交易执行情况。"
-        },
-        {
           "announcementTitle": "关于持股5%以上股东增持公司股份的公告",
-          "businessSubcategory": "综合事项",
+          "businessSubcategory": "增持",
           "company": "西测测试",
-          "conclusion": "截至本公告披露日前6个月内，中投国联不存在减持公司股份的情形。本次增持主体承诺：将严格遵守中国证券监督管理委员会、深圳证券交易所有关法律法规及规范性文件的相关规定，不进行内幕交易、敏感期买卖股份、 短线交易等行为。",
+          "conclusion": "西测测试披露持股5%以上股东增持公司股份，增持事项进入首次实施阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "增持",
+          "eventType": "increase",
+          "firstSeenAt": "2026-07-29",
+          "homepageEligible": true,
           "importance": "必看",
-          "matterType": "经营治理",
-          "matter_id": "listed-matter-0abbf316505b8c",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-07-29",
+          "lifecycleId": "listed-lifecycle-5f7712b26bd47b2430",
+          "lifecycleStage": "first_execution",
+          "lifecycleStatus": "active",
+          "mainSection": "capital",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "增持",
+          "matter_id": "listed-matter-613854a29f8bf0",
+          "planId": "持股5%以上股东增持公司股份的公告证券代码：301306证券简称：西测测试公告编号：|2026年",
+          "previousStage": "",
           "publishedAt": "2026-07-29",
           "score": 13,
           "sourceAnnouncementIds": [
@@ -1876,41 +2491,32 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446116.PDF"
             }
           ],
-          "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
-        },
-        {
-          "announcementTitle": "关于控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份的公告",
-          "businessSubcategory": "股份回购",
-          "company": "荣信文化",
-          "conclusion": "公司高级管理人员王伟先生拟自本公告披露之日起15个交易日后的3个月内通过集中竞价的方式减持1,000股，占公司总股本比例 0.0012%。",
-          "importance": "必看",
-          "matterType": "股份回购",
-          "matter_id": "listed-matter-b67b07237b3cbf",
-          "publishedAt": "2026-07-29",
-          "score": 13,
-          "sourceAnnouncementIds": [
-            "1225446115"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446115.PDF",
-          "sources": [
-            {
-              "announcementId": "1225446115",
-              "announcementTitle": "关于控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446115.PDF"
-            }
-          ],
-          "whyImportant": "后续关注回购进度、成交区间及后续用途。"
+          "timelineLength": 1,
+          "whyImportant": "后续关注首次交易、增持金额与比例、时间进度及计划完成情况。"
         },
         {
           "announcementTitle": "关于首次回购公司股份的公告",
           "businessSubcategory": "股份回购",
           "company": "供销大集",
-          "conclusion": "现将公司首次回购公司股份情况公告如下： 一、首次回购公司股份的具体情况 2026 年 7 月 28 日，公司以自有资金首次通过回购专用证券账户以集中竞价交易方式回购公司股份 7,299,200 股，占公司目前总股本的 0.04%。",
-          "importance": "重点",
+          "conclusion": "供销大集披露首次回购公司股份，股份回购事项进入首次实施阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "股份回购",
+          "eventType": "buyback",
+          "firstSeenAt": "2026-07-29",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-07-29",
+          "lifecycleId": "listed-lifecycle-5229c6ce7c32de5672",
+          "lifecycleStage": "first_execution",
+          "lifecycleStatus": "active",
+          "mainSection": "capital",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
           "matterType": "股份回购",
-          "matter_id": "listed-matter-a31ad06d164b0b",
+          "matter_id": "listed-matter-3f77bb284ab6fc",
+          "planId": "2026年",
+          "previousStage": "",
           "publishedAt": "2026-07-29",
           "score": 9,
           "sourceAnnouncementIds": [
@@ -1926,31 +2532,165 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF"
             }
           ],
+          "timelineLength": 1,
           "whyImportant": "后续关注回购进度、成交区间及后续用途。"
         },
         {
-          "announcementTitle": "2026年第二次临时股东会法律意见书",
+          "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+          "businessSubcategory": "股份回购",
+          "company": "爱科赛博",
+          "conclusion": "爱科赛博披露2026年以集中竞价交易方式回购股份的进展，股份回购事项进入阶段进展阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "股份回购",
+          "eventType": "buyback",
+          "firstSeenAt": "2026-07-23",
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-07-29",
+          "lifecycleId": "listed-lifecycle-9eb86a93050e544b40",
+          "lifecycleStage": "progress",
+          "lifecycleStatus": "active",
+          "mainSection": "capital",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "股份回购",
+          "matter_id": "listed-matter-6f3fdc52607c3d",
+          "planId": "2026年",
+          "previousStage": "first_execution",
+          "publishedAt": "2026-07-29",
+          "score": 21,
+          "sourceAnnouncementIds": [
+            "1225444332"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF",
+          "sources": [
+            {
+              "announcementId": "1225444332",
+              "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444332.PDF"
+            }
+          ],
+          "timelineLength": 3,
+          "whyImportant": "后续关注回购进度、成交区间及后续用途。"
+        },
+        {
+          "announcementTitle": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+          "businessSubcategory": "资产交易",
+          "company": "航天电子",
+          "conclusion": "航天电子披露资产置换暨关联交易的进展，收并购事项进入期限届满、未实施阶段。",
+          "customerDisposition": "daily_concise",
+          "eventLabel": "收并购",
+          "eventType": "ma",
+          "firstSeenAt": "2026-07-29",
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": true,
+          "lastSeenAt": "2026-07-29",
+          "lifecycleId": "listed-lifecycle-a0bfb4e9ce71b22bc4",
+          "lifecycleStage": "delivery_completed",
+          "lifecycleStatus": "completed",
+          "mainSection": "capital",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "资产置换",
+          "matter_id": "listed-matter-085f68fea1e336",
+          "planId": "资产置换",
+          "previousStage": "progress",
+          "publishedAt": "2026-07-29",
+          "score": 17,
+          "sourceAnnouncementIds": [
+            "1225445443",
+            "1225445448",
+            "1225445459"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF",
+          "sources": [
+            {
+              "announcementId": "1225445448",
+              "announcementTitle": "航天时代电子技术股份有限公司关于资产置换暨关联交易的进展公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445448.PDF"
+            },
+            {
+              "announcementId": "1225445459",
+              "announcementTitle": "西安太乙电子有限公司股东全部权益价值资产评估报告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445459.PDF"
+            },
+            {
+              "announcementId": "1225445443",
+              "announcementTitle": "航天时代电子技术股份有限公司董事会2026年第七次会议决议公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445443.PDF"
+            }
+          ],
+          "timelineLength": 2,
+          "whyImportant": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
+        },
+        {
+          "announcementTitle": "关于控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份的公告",
+          "businessSubcategory": "减持",
+          "company": "荣信文化",
+          "conclusion": "荣信文化披露控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份，减持事项进入期限届满、未实施阶段。",
+          "customerDisposition": "daily_concise",
+          "eventLabel": "减持",
+          "eventType": "reduction",
+          "firstSeenAt": "2026-07-29",
+          "homepageEligible": false,
+          "importance": "进度",
+          "isNoChangeProgress": true,
+          "lastSeenAt": "2026-07-29",
+          "lifecycleId": "listed-lifecycle-cd1aa942a9d20b2877",
+          "lifecycleStage": "completed",
+          "lifecycleStatus": "completed",
+          "mainSection": "capital",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "减持",
+          "matter_id": "listed-matter-f0cae03523cfcf",
+          "planId": "控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份的公告证|2026年",
+          "previousStage": "",
+          "publishedAt": "2026-07-29",
+          "score": 13,
+          "sourceAnnouncementIds": [
+            "1225446115"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446115.PDF",
+          "sources": [
+            {
+              "announcementId": "1225446115",
+              "announcementTitle": "关于控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446115.PDF"
+            }
+          ],
+          "timelineLength": 1,
+          "whyImportant": "后续关注实施窗口、首次交易、数量或时间过半及计划完成情况。"
+        },
+        {
+          "announcementTitle": "2026年第二次临时股东会决议公告",
           "businessSubcategory": "章程治理",
           "company": "陕天然气",
-          "conclusion": "（五）出席会议的股东及股东授权代表共计 65 人，代表公司有表决权股份 721,360,493 股，占公司有表决权股份总数的 64.8661%，其中： 1.通过现场投票的股东及股东授权代表共计 3 人。",
+          "conclusion": "陕天然气披露2026年第二次临时股东会决议。",
           "importance": "关注",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "股东会",
           "matter_id": "listed-matter-2891cdd51d8d32",
           "publishedAt": "2026-07-29",
-          "score": 5,
+          "score": 4,
           "sourceAnnouncementIds": [
-            "1225445668",
             "1225445667"
           ],
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445668.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445667.PDF",
           "sources": [
-            {
-              "announcementId": "1225445668",
-              "announcementTitle": "2026年第二次临时股东会法律意见书",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445668.PDF"
-            },
             {
               "announcementId": "1225445667",
               "announcementTitle": "2026年第二次临时股东会决议公告",
@@ -1964,8 +2704,11 @@
           "announcementTitle": "建设机械2026年第三次临时股东会决议公告",
           "businessSubcategory": "章程治理",
           "company": "建设机械",
-          "conclusion": "议案审议情况 (一) 非累积投票议案 1、议案名称：关于公司核销应收款项的议案审议结果：通过表决情况： 股东类型同意反对弃权票数比例（%） 票数比例（%） 票数比例（%） A 股 458,679,857 99.2715 2,574,81。",
+          "conclusion": "建设机械披露2026年第三次临时股东会决议。",
           "importance": "关注",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "股东会",
           "matter_id": "listed-matter-f57508f7b99b50",
           "publishedAt": "2026-07-29",
@@ -1988,153 +2731,224 @@
       ],
       "opportunities": [
         {
-          "announcementTitle": "关于全资子公司申请抵押贷款暨公司为其提供担保的公告",
-          "body": "详细内容请查阅刊载在《中国证券报》、《证券时报》和巨潮资讯网（www.cninfo.com.cn）的《关于全资子公司申请抵押贷款暨公司为其提供担保的公告》。审议通过《关于全资子公司。",
+          "announcementTitle": "陕西莱特光电材料股份有限公司关于向不特定对象发行可转换公司债券申请获得上海证券交易所上市审核委员会审核通过的公告",
+          "body": "莱特光电向不特定对象发行可转换公司债券申请获交易所上市审核机构审核通过，融资事项进入证监会注册阶段；后续关注证监会注册批复、发行安排及募投项目落地。",
           "business": {
-            "category": "综合事项",
+            "category": "资本运作",
             "contentImportance": "必看",
-            "priority": "standard",
-            "subcategory": "综合事项",
+            "priority": "focus",
+            "subcategory": "可转债",
             "targets": [
-              "董秘办"
+              "董秘办",
+              "财务",
+              "投融资负责人"
             ]
           },
-          "businessSubcategory": "担保与授信",
+          "businessSubcategory": "可转债",
+          "company": "莱特光电",
+          "conclusion": "莱特光电向不特定对象发行可转换公司债券申请获交易所上市审核机构审核通过，融资事项进入证监会注册阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "可转债",
+          "eventType": "convertible_bond",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "isReference": true,
+          "lifecycleId": "listed-lifecycle-e7ce62085198830dd0",
+          "lifecycleStage": "review_passed",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "convertible_bond_exchange_review_passed",
+          "matterType": "可转债审核通过",
+          "matter_id": "listed-matter-eea17efaf58a97",
+          "planId": "向不特定对象发行可转换公司债券",
+          "previousStage": "progress",
+          "publishedAt": "2026-07-30",
+          "referenceAnchor": "listed-detail-laite-guangdian-9b1b71cb",
+          "referenceMatterId": "listed-matter-eea17efaf58a97",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447096.PDF",
+          "sources": [
+            {
+              "announcementId": "1225447096",
+              "announcementTitle": "陕西莱特光电材料股份有限公司关于向不特定对象发行可转换公司债券申请获得上海证券交易所上市审核委员会审核通过的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447096.PDF"
+            }
+          ],
+          "title": "必看｜莱特光电",
+          "whyImportant": "后续关注证监会注册批复、发行安排及募投项目落地。"
+        },
+        {
+          "announcementTitle": "关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
+          "body": "国际医学向特定对象发行股票申请获交易所审核通过，融资事项进入证监会注册阶段；后续关注证监会注册批复、发行价格、认购结构及募投项目落地。",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "必看",
+            "priority": "focus",
+            "subcategory": "定增/再融资",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "businessSubcategory": "定增/再融资",
+          "company": "国际医学",
+          "conclusion": "国际医学向特定对象发行股票申请获交易所审核通过，融资事项进入证监会注册阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "定增",
+          "eventType": "private_placement",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "isReference": true,
+          "lifecycleId": "listed-lifecycle-43250b6e63953c0ba2",
+          "lifecycleStage": "review_passed",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "equity_refinancing_exchange_review_passed",
+          "matterType": "再融资审核通过",
+          "matter_id": "listed-matter-b9e0711a2918be",
+          "planId": "向特定对象发行股票",
+          "previousStage": "inquiry_reply",
+          "publishedAt": "2026-07-30",
+          "referenceAnchor": "listed-detail-db1cef822d-dfe4ebd6",
+          "referenceMatterId": "listed-matter-b9e0711a2918be",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446818.PDF",
+          "sources": [
+            {
+              "announcementId": "1225446818",
+              "announcementTitle": "关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446818.PDF"
+            }
+          ],
+          "title": "必看｜国际医学",
+          "whyImportant": "后续关注证监会注册批复、发行价格、认购结构及募投项目落地。"
+        },
+        {
+          "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
+          "body": "陕天然气披露董事会换届完成并聘任高级管理人员，重大治理变更事项进入实施完成阶段；后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "business": {
+            "category": "治理关系",
+            "contentImportance": "重点",
+            "priority": "focus",
+            "subcategory": "董监高",
+            "targets": [
+              "董秘办",
+              "证券事务代表",
+              "管理层"
+            ]
+          },
+          "businessSubcategory": "治理变更",
+          "company": "陕天然气",
+          "conclusion": "陕天然气披露董事会换届完成并聘任高级管理人员，重大治理变更事项进入实施完成阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "重大治理变更",
+          "eventType": "governance_change",
+          "homepageEligible": true,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "isReference": true,
+          "lifecycleId": "listed-lifecycle-5c2d0d430574b6ae3f",
+          "lifecycleStage": "completed",
+          "lifecycleStatus": "completed",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "重大治理变更",
+          "matter_id": "listed-matter-f9b58348fcefbb",
+          "planId": "2026年",
+          "previousStage": "",
+          "publishedAt": "2026-07-30",
+          "referenceAnchor": "listed-detail-e67b125f31-90fe7dd8",
+          "referenceMatterId": "listed-matter-f9b58348fcefbb",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF",
+          "sources": [
+            {
+              "announcementId": "1225447377",
+              "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF"
+            },
+            {
+              "announcementId": "1225445668",
+              "announcementTitle": "2026年第二次临时股东会法律意见书",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445668.PDF"
+            }
+          ],
+          "title": "重点｜陕天然气",
+          "whyImportant": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。"
+        },
+        {
+          "announcementTitle": "关于董事会完成换届选举及聘任高级管理人员的公告",
+          "body": "珠海中富披露董事会完成换届选举及聘任高级管理人员，重大治理变更事项进入实施完成阶段；后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "business": {
+            "category": "治理关系",
+            "contentImportance": "重点",
+            "priority": "focus",
+            "subcategory": "董监高",
+            "targets": [
+              "董秘办",
+              "证券事务代表",
+              "管理层"
+            ]
+          },
+          "businessSubcategory": "治理变更",
           "company": "珠海中富",
-          "conclusion": "详细内容请查阅刊载在《中国证券报》、《证券时报》和巨潮资讯网（www.cninfo.com.cn）的《关于全资子公司申请抵押贷款暨公司为其提供担保的公告》。审议通过《关于全资子公司申请抵押贷款暨公司为其提供担保的议案》 因生产经营需要。",
-          "importance": "必看",
+          "conclusion": "珠海中富披露董事会完成换届选举及聘任高级管理人员，重大治理变更事项进入实施完成阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "重大治理变更",
+          "eventType": "governance_change",
+          "homepageEligible": true,
+          "importance": "重点",
+          "isNoChangeProgress": false,
           "isReference": true,
-          "matterType": "担保授信",
-          "matter_id": "listed-matter-2d26916cb5acfb",
+          "lifecycleId": "listed-lifecycle-e535b51b77fe5ed64f",
+          "lifecycleStage": "completed",
+          "lifecycleStatus": "completed",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "重大治理变更",
+          "matter_id": "listed-matter-302302dfbfc892",
+          "planId": "2026年",
+          "previousStage": "progress",
           "publishedAt": "2026-07-30",
-          "referenceAnchor": "listed-detail-d8a2a2ac59-d8f5b76a",
-          "referenceMatterId": "listed-matter-2d26916cb5acfb",
+          "referenceAnchor": "listed-detail-d8a2a2ac59-b766f312",
+          "referenceMatterId": "listed-matter-302302dfbfc892",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447051.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447046.PDF",
           "sources": [
             {
-              "announcementId": "1225447051",
-              "announcementTitle": "关于全资子公司申请抵押贷款暨公司为其提供担保的公告",
+              "announcementId": "1225447046",
+              "announcementTitle": "关于董事会完成换届选举及聘任高级管理人员的公告",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447051.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447046.PDF"
             },
             {
-              "announcementId": "1225447050",
-              "announcementTitle": "关于全资子公司申请贷款暨公司为其提供担保的公告",
+              "announcementId": "1225447049",
+              "announcementTitle": "2026年第一次临时股东会法律意见书",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447050.PDF"
-            },
-            {
-              "announcementId": "1225447047",
-              "announcementTitle": "第十二届董事会2026年第一次会议决议公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447047.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447049.PDF"
             }
           ],
-          "title": "必看｜珠海中富",
-          "whyImportant": "后续关注实际提款、担保余额和偿债安排。"
+          "title": "重点｜珠海中富",
+          "whyImportant": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。"
         },
         {
-          "announcementTitle": "陕西美邦药业集团股份有限公司第三届董事会第十三次会议决议公告",
-          "body": "陕西美邦药业集团股份有限公司2026 年半年度报告摘要除此之外，未知其他股东之间是否存在关联关系，亦未知其他股东之间是否属于《上市公司收购管理办法》规定的一致行动人。2026 年上。",
-          "business": {
-            "category": "业绩与分红",
-            "contentImportance": "必看",
-            "priority": "standard",
-            "subcategory": "定期报告",
-            "targets": [
-              "董秘",
-              "投资者关系",
-              "财务"
-            ]
-          },
-          "businessSubcategory": "综合事项",
-          "company": "美邦股份",
-          "conclusion": "陕西美邦药业集团股份有限公司2026 年半年度报告摘要除此之外，未知其他股东之间是否存在关联关系，亦未知其他股东之间是否属于《上市公司收购管理办法》规定的一致行动人。2026 年上半年。",
-          "importance": "必看",
-          "isReference": true,
-          "matterType": "经营治理",
-          "matter_id": "listed-matter-fbe9c0834ac4b2",
-          "publishedAt": "2026-07-30",
-          "referenceAnchor": "listed-detail-66ce3315ed-927e2b83",
-          "referenceMatterId": "listed-matter-fbe9c0834ac4b2",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446425.PDF",
-          "sources": [
-            {
-              "announcementId": "1225446425",
-              "announcementTitle": "陕西美邦药业集团股份有限公司第三届董事会第十三次会议决议公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446425.PDF"
-            },
-            {
-              "announcementId": "1225446406",
-              "announcementTitle": "陕西美邦药业集团股份有限公司2026年度“提质增效重回报”行动方案的评估报告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446406.PDF"
-            },
-            {
-              "announcementId": "1225446394",
-              "announcementTitle": "陕西美邦药业集团股份有限公司2026年上半年度主要经营数据公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446394.PDF"
-            },
-            {
-              "announcementId": "1225446377",
-              "announcementTitle": "陕西美邦药业集团股份有限公司2026年半年度报告摘要",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446377.PDF"
-            }
-          ],
-          "title": "必看｜美邦股份",
-          "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
-        },
-        {
-          "announcementTitle": "关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告",
-          "body": "（未经审计） 2.保证合同的主要内容云南金明源和金叶印务共同为公司该笔贷款提供连带责任保证担保，担保涉及的《保证合同》均已签署；后续关注实际提款、担保余额和偿债安排。",
-          "business": {
-            "category": "资金与财务",
-            "contentImportance": "必看",
-            "priority": "standard",
-            "subcategory": "担保",
-            "targets": [
-              "财务负责人",
-              "资金部",
-              "董秘办"
-            ]
-          },
-          "businessSubcategory": "担保与授信",
-          "company": "陕西金叶",
-          "conclusion": "（未经审计） 2.保证合同的主要内容云南金明源和金叶印务共同为公司该笔贷款提供连带责任保证担保，担保涉及的《保证合同》均已签署。",
-          "importance": "必看",
-          "isReference": true,
-          "matterType": "担保授信",
-          "matter_id": "listed-matter-6873965536b93c",
-          "publishedAt": "2026-07-30",
-          "referenceAnchor": "listed-detail-3d11f47147-bba7cb65",
-          "referenceMatterId": "listed-matter-6873965536b93c",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446538.PDF",
-          "sources": [
-            {
-              "announcementId": "1225446538",
-              "announcementTitle": "关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446538.PDF"
-            }
-          ],
-          "title": "必看｜陕西金叶",
-          "whyImportant": "后续关注实际提款、担保余额和偿债安排。"
-        },
-        {
-          "announcementTitle": "关于购买成都天科航空制造股份有限公司股份及增资事项的进展公告",
-          "body": "（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准） 三、公司购买天科航空股份及增资后的股东情况截至公告日。",
+          "announcementTitle": "关于持股5%以上股东增持公司股份的公告",
+          "body": "西测测试披露持股5%以上股东增持公司股份，增持事项进入首次实施阶段；后续关注首次交易、增持金额与比例、时间进度及计划完成情况。",
           "business": {
             "category": "综合事项",
             "contentImportance": "必看",
@@ -2144,30 +2958,93 @@
               "董秘办"
             ]
           },
-          "businessSubcategory": "对外投资",
-          "company": "ST炼石",
-          "conclusion": "（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准） 三、公司购买天科航空股份及增资后的股东情况截至公告日，天科航空共有 20 名股东。",
+          "businessSubcategory": "增持",
+          "company": "西测测试",
+          "conclusion": "西测测试披露持股5%以上股东增持公司股份，增持事项进入首次实施阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "增持",
+          "eventType": "increase",
+          "homepageEligible": true,
           "importance": "必看",
+          "isNoChangeProgress": false,
           "isReference": true,
-          "matterType": "对外投资",
-          "matter_id": "listed-matter-61fb1284ffb6bd",
-          "publishedAt": "2026-07-30",
-          "referenceAnchor": "listed-detail-126b53d8ae-fb9151d3",
-          "referenceMatterId": "listed-matter-61fb1284ffb6bd",
+          "lifecycleId": "listed-lifecycle-5f7712b26bd47b2430",
+          "lifecycleStage": "first_execution",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "增持",
+          "matter_id": "listed-matter-613854a29f8bf0",
+          "planId": "持股5%以上股东增持公司股份的公告证券代码：301306证券简称：西测测试公告编号：|2026年",
+          "previousStage": "",
+          "publishedAt": "2026-07-29",
+          "referenceAnchor": "listed-detail-5e28acfe91-37078269",
+          "referenceMatterId": "listed-matter-613854a29f8bf0",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446663.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446116.PDF",
           "sources": [
             {
-              "announcementId": "1225446663",
-              "announcementTitle": "关于购买成都天科航空制造股份有限公司股份及增资事项的进展公告",
+              "announcementId": "1225446116",
+              "announcementTitle": "关于持股5%以上股东增持公司股份的公告",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446663.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225446116.PDF"
             }
           ],
-          "title": "必看｜ST炼石",
-          "whyImportant": "后续关注股东会审议、出资节奏和项目回报。"
+          "title": "必看｜西测测试",
+          "whyImportant": "后续关注首次交易、增持金额与比例、时间进度及计划完成情况。"
+        },
+        {
+          "announcementTitle": "关于首次回购公司股份的公告",
+          "body": "供销大集披露首次回购公司股份，股份回购事项进入首次实施阶段；后续关注回购进度、成交区间及后续用途。",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "必看",
+            "priority": "focus",
+            "subcategory": "股份回购",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "businessSubcategory": "股份回购",
+          "company": "供销大集",
+          "conclusion": "供销大集披露首次回购公司股份，股份回购事项进入首次实施阶段。",
+          "customerDisposition": "daily",
+          "eventLabel": "股份回购",
+          "eventType": "buyback",
+          "homepageEligible": true,
+          "importance": "必看",
+          "isNoChangeProgress": false,
+          "isReference": true,
+          "lifecycleId": "listed-lifecycle-5229c6ce7c32de5672",
+          "lifecycleStage": "first_execution",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "股份回购",
+          "matter_id": "listed-matter-3f77bb284ab6fc",
+          "planId": "2026年",
+          "previousStage": "",
+          "publishedAt": "2026-07-29",
+          "referenceAnchor": "listed-detail-f70dd7228b-50036ea9",
+          "referenceMatterId": "listed-matter-3f77bb284ab6fc",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF",
+          "sources": [
+            {
+              "announcementId": "1225445000",
+              "announcementTitle": "关于首次回购公司股份的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225445000.PDF"
+            }
+          ],
+          "title": "必看｜供销大集",
+          "whyImportant": "后续关注回购进度、成交区间及后续用途。"
         }
       ],
       "rawPath": "v2/data/daily/listed/cninfo-announcements-2026-07-30.json",
@@ -2278,9 +3155,11 @@
           "businessSubcategory": "担保与授信",
           "canonicalDetailId": "listed-detail-d8a2a2ac59-d8f5b76a",
           "company": "珠海中富",
-          "conclusion": "详细内容请查阅刊载在《中国证券报》、《证券时报》和巨潮资讯网（www.cninfo.com.cn）的《关于全资子公司申请抵押贷款暨公司为其提供担保的公告》。审议通过《关于全资子公司申请抵押贷款暨公司为其提供担保的议案》 因生产经营需要。",
-          "event": "详细内容请查阅刊载在《中国证券报》、《证券时报》和巨潮资讯网（www.cninfo.com.cn）的《关于全资子公司申请抵押贷款暨公司为其提供担保的公告》。审议通过《关于全资子公司申请抵押贷款暨公司为其提供担保的议案》 因生产经营需要。",
+          "conclusion": "审议通过《关于全资子公司申请抵押贷款暨公司为其提供担保的议案》 因生产经营需要，公司全资子公司海口中南瓶胚有限公司拟向海南银行股份有限公司澄迈科技支行申请小微企业流动资金贷款500万元。",
+          "event": "审议通过《关于全资子公司申请抵押贷款暨公司为其提供担保的议案》 因生产经营需要，公司全资子公司海口中南瓶胚有限公司拟向海南银行股份有限公司澄迈科技支行申请小微企业流动资金贷款500万元。",
           "importance": "必看",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "担保授信",
           "matter_id": "listed-matter-2d26916cb5acfb",
           "publishedAt": "2026-07-30",
@@ -2313,12 +3192,76 @@
           "whyImportant": "后续关注实际提款、担保余额和偿债安排。"
         },
         {
+          "announcementTitle": "陕西美邦药业集团股份有限公司第三届董事会第十三次会议决议公告",
+          "business": {
+            "category": "治理关系",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "章程治理",
+            "targets": [
+              "董秘办",
+              "证券事务代表",
+              "管理层"
+            ]
+          },
+          "businessSubcategory": "担保与授信",
+          "canonicalDetailId": "listed-detail-66ce3315ed-927e2b83",
+          "company": "美邦股份",
+          "conclusion": "美邦股份披露第三届董事会第十三次会议决议。",
+          "event": "美邦股份披露第三届董事会第十三次会议决议。",
+          "importance": "必看",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "担保授信",
+          "matter_id": "listed-matter-fbe9c0834ac4b2",
+          "publishedAt": "2026-07-30",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446425.PDF",
+          "sources": [
+            {
+              "announcementId": "1225446425",
+              "announcementTitle": "陕西美邦药业集团股份有限公司第三届董事会第十三次会议决议公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446425.PDF"
+            },
+            {
+              "announcementId": "1225446406",
+              "announcementTitle": "陕西美邦药业集团股份有限公司2026年度“提质增效重回报”行动方案的评估报告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446406.PDF"
+            },
+            {
+              "announcementId": "1225446394",
+              "announcementTitle": "陕西美邦药业集团股份有限公司2026年上半年度主要经营数据公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446394.PDF"
+            },
+            {
+              "announcementId": "1225446377",
+              "announcementTitle": "陕西美邦药业集团股份有限公司2026年半年度报告摘要",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446377.PDF"
+            },
+            {
+              "announcementId": "1225446370",
+              "announcementTitle": "陕西美邦药业集团股份有限公司2026年半年度报告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446370.PDF"
+            }
+          ],
+          "tag": "担保与授信",
+          "tagClass": "risk",
+          "whyImportant": "后续关注实际提款、担保余额和偿债安排。"
+        },
+        {
           "announcementTitle": "关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告",
           "business": {
             "category": "资金与财务",
             "contentImportance": "内容重要",
             "priority": "standard",
-            "subcategory": "担保",
+            "subcategory": "授信贷款",
             "targets": [
               "财务负责人",
               "资金部",
@@ -2328,9 +3271,11 @@
           "businessSubcategory": "担保与授信",
           "canonicalDetailId": "listed-detail-3d11f47147-bba7cb65",
           "company": "陕西金叶",
-          "conclusion": "（未经审计） 2.保证合同的主要内容云南金明源和金叶印务共同为公司该笔贷款提供连带责任保证担保，担保涉及的《保证合同》均已签署。",
-          "event": "（未经审计） 2.保证合同的主要内容云南金明源和金叶印务共同为公司该笔贷款提供连带责任保证担保，担保涉及的《保证合同》均已签署。",
+          "conclusion": "陕西金叶披露公司向银行等金融机构申请综合授信敞口额度及担保事项的进展。",
+          "event": "陕西金叶披露公司向银行等金融机构申请综合授信敞口额度及担保事项的进展。",
           "importance": "必看",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "担保授信",
           "matter_id": "listed-matter-6873965536b93c",
           "publishedAt": "2026-07-30",
@@ -2351,7 +3296,7 @@
           "whyImportant": "后续关注实际提款、担保余额和偿债安排。"
         },
         {
-          "announcementTitle": "陕西美邦药业集团股份有限公司2026年半年度报告",
+          "announcementTitle": "联合资信评估股份有限公司关于终止上海科华生物工程股份有限公司主体及“科华转债”信用评级的公告",
           "business": {
             "category": "综合事项",
             "contentImportance": "内容重要",
@@ -2361,68 +3306,38 @@
               "董秘办"
             ]
           },
-          "businessSubcategory": "担保与授信",
-          "canonicalDetailId": "listed-detail-66ce3315ed-18e1ed67",
-          "company": "美邦股份",
-          "conclusion": "重大关联交易 (一) 与日常经营相关的关联交易 1、 已在临时公告披露且后续实施无进展或变化的事项 □适用 √不适用 2、 已在临时公告披露。",
-          "event": "重大关联交易 (一) 与日常经营相关的关联交易 1、 已在临时公告披露且后续实施无进展或变化的事项 □适用 √不适用 2、 已在临时公告披露。",
-          "importance": "重点",
-          "matterType": "担保授信",
-          "matter_id": "listed-matter-7b2211749974a6",
-          "publishedAt": "2026-07-30",
+          "businessSubcategory": "信用风险",
+          "canonicalDetailId": "listed-detail-3cb15cb407-3a0dc352",
+          "company": "科华生物",
+          "conclusion": "“科华转债”到期兑付数量：2,235,726张 2、“科华转债”到期兑付金额：236,986,956.00元（含税及最后一期利息） 3、“科华转债”到期兑付资金发放日：2026年7月28日 4、“科华转债”摘牌日：2026年7月28日一。",
+          "event": "“科华转债”到期兑付数量：2,235,726张 2、“科华转债”到期兑付金额：236,986,956.00元（含税及最后一期利息） 3、“科华转债”到期兑付资金发放日：2026年7月28日 4、“科华转债”摘牌日：2026年7月28日一。",
+          "importance": "必看",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "信用评级",
+          "matter_id": "listed-matter-24253d6d7ec2ec",
+          "publishedAt": "2026-07-29",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446370.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444983.PDF",
           "sources": [
             {
-              "announcementId": "1225446370",
-              "announcementTitle": "陕西美邦药业集团股份有限公司2026年半年度报告",
+              "announcementId": "1225444983",
+              "announcementTitle": "联合资信评估股份有限公司关于终止上海科华生物工程股份有限公司主体及“科华转债”信用评级的公告",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446370.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444983.PDF"
+            },
+            {
+              "announcementId": "1225444555",
+              "announcementTitle": "关于“科华转债”到期兑付结果及股本变动的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-29/1225444555.PDF"
             }
           ],
-          "tag": "担保与授信",
+          "tag": "信用风险",
           "tagClass": "risk",
-          "whyImportant": "后续关注实际提款、担保余额和偿债安排。"
-        },
-        {
-          "announcementTitle": "关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "定增/再融资",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "再融资",
-          "canonicalDetailId": "listed-detail-db1cef822d-b05abe5f",
-          "company": "国际医学",
-          "conclusion": "公司本次向特定对象发行股票事项尚需获得中国证监会同意注册后方可实施，最终能否获得中国证监会同意注册的决定及其时间尚存在不确定性。公司将按照有关规定和要求，根据该事项进展情况及时履行信息披露义务，敬请广大投资者谨慎决策，注意投资风险。",
-          "event": "公司本次向特定对象发行股票事项尚需获得中国证监会同意注册后方可实施，最终能否获得中国证监会同意注册的决定及其时间尚存在不确定性。公司将按照有关规定和要求，根据该事项进展情况及时履行信息披露义务，敬请广大投资者谨慎决策，注意投资风险。",
-          "importance": "关注",
-          "matterType": "再融资",
-          "matter_id": "listed-matter-e70fab32ad5dca",
-          "publishedAt": "2026-07-30",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446818.PDF",
-          "sources": [
-            {
-              "announcementId": "1225446818",
-              "announcementTitle": "关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446818.PDF"
-            }
-          ],
-          "tag": "再融资",
-          "tagClass": "watch",
-          "whyImportant": "后续关注交易所审核、证监会注册及募投落地。"
+          "whyImportant": "后续关注债券摘牌后的融资安排与信用变化。"
         }
       ],
       "schemaVersion": "2.1",
@@ -2441,6 +3356,21 @@
           "excerpt": "陕西省天然气股份有限公司（以下简称“公司”）于 2026 年 7 月 28 日召开 2026 年第二次临时股东会，会议选举产生了公司第七届董事会非独立董事和独立董事。本次股东会召开前，公司职代会选举产生了第七届董事会职工董事 1 名。",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "daily",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": true,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-5c2d0d430574b6ae3f",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "completed",
+            "status": "completed"
+          },
           "matter_id": "1225447377",
           "parser": "pypdf",
           "pdfSha256": "6762f5ffcf7183e7cdf771068efe9b2195c8bfe44c453a4a97622ce90c660ad9",
@@ -2499,6 +3429,21 @@
           "excerpt": "证券代码：688150 证券简称：莱特光电公告编号：2026-040 陕西莱特光电材料股份有限公司关于向不特定对象发行可转换公司债券申请获得上海证券交易所上市审核委员会审核通过的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。上海证券交易所上市审核委员会于 2026 年 7 月 29 日召开 2026 年第 45 次上市审核委员会审议会议（以下简称“会议”），对陕西莱特光。",
           "hkexNewsId": "",
           "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "可转债",
+            "customerDisposition": "daily",
+            "eventLabel": "可转债",
+            "eventType": "convertible_bond",
+            "homepageEligible": true,
+            "importance": "必看",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-e7ce62085198830dd0",
+            "mainSection": "capital",
+            "planId": "向不特定对象发行可转换公司债券",
+            "stage": "review_passed",
+            "status": "active"
+          },
           "matter_id": "1225447096",
           "parser": "pypdf",
           "pdfSha256": "55eba1f54553e76d436185e78a39b2a3f9c4b3c5a237e4a021e5712133309513",
@@ -2586,6 +3531,21 @@
           "excerpt": "关于珠海中富实业股份有限公司 2026 年第一次临时股东会的法律意见书广东精诚粤衡律师事务所广东省珠海市情侣中路 47 号怡景湾大酒店五层电话： 86-756-8893339 传真： 86-756-8893336 广东精诚粤衡律师事务所法律意见书广东精诚粤衡律师事务所关于珠海中富实业股份有限公司 2026 年第一次临时股东会的法律意见书致：珠海中富实业股份有限公司（以下称“公司”） 广东精诚粤衡律师事务所（以下简称“本所”）接受公司的委托，就公司 202。",
           "hkexNewsId": "",
           "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-e535b51b77fe5ed64f",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "changed",
+            "status": "active"
+          },
           "matter_id": "1225447049",
           "parser": "pypdf",
           "pdfSha256": "b7be2eb4d94a17ce1662adad29f5dadc63702075c2180f4410bb1db0818f8650",
@@ -2673,6 +3633,21 @@
           "excerpt": "珠海中富实业股份有限公司（以下称“公司”） 于2026年7月29 日召开2026年第一次临时股东会，审议通过了《关于董事会换届暨选举第十二届董事会非独立董事的议案》、《关于董事会换届暨选举第十二届董事会独立董事的议案》，选举产生了公司第十二届董事会三名非独立董事、三名独立董事，任期自股东会通过之日起三年。现将公司董事会换届选举及聘任高级管理人员的具体情况公告如下： 一、公司第十二届董事会组成情况 1、董事长：许仁硕先生 2、副董事长：陈衔佩先生 3、董事。",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "daily",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": true,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-e535b51b77fe5ed64f",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "completed",
+            "status": "completed"
+          },
           "matter_id": "1225447046",
           "parser": "pypdf",
           "pdfSha256": "24fb55f587216085c91b215f036eaee723e1d26a9e6c45b12fbcbfcbb8aa432f",
@@ -2702,6 +3677,21 @@
           "excerpt": "证券代码：000516 证券简称：国际医学公告编号：2026-040 西安国际医学投资股份有限公司关于向特定对象发行股票申请获得深圳证券交易所上市审核中心审核通过的公告本公司及董事会全体成员保证信息披露内容的真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。西安国际医学投资股份有限公司（以下简称“公司”）于 2026 年 7 月 29 日收到深圳证券交易所（以下简称“深交所”）上市审核中心出具的《关于西安国际医学投资股份有限公司申请向特定对象发行股票。",
           "hkexNewsId": "",
           "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "定增/再融资",
+            "customerDisposition": "daily",
+            "eventLabel": "定增",
+            "eventType": "private_placement",
+            "homepageEligible": true,
+            "importance": "必看",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-43250b6e63953c0ba2",
+            "mainSection": "capital",
+            "planId": "向特定对象发行股票",
+            "stage": "review_passed",
+            "status": "active"
+          },
           "matter_id": "1225446818",
           "parser": "pypdf",
           "pdfSha256": "41374473d6d1c220a22eae6c1328c461ba95d409fda51a7a8fd0c26c07ad1b3d",
@@ -2731,6 +3721,21 @@
           "excerpt": "1 证券代码：000697 证券简称：炼石航空公告编号：2026-038 炼石航空科技股份有限公司关于购买成都天科航空制造股份有限公司股份及增资事项的进展公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整， 没有虚假记载、误导性陈述或者重大遗漏。一、交易概述炼石航空科技股份有限公司（以下简称“公司”）于 2026 年 6 月 17 日召开了第十一届董事会第三十二次会议，审议通过了《关于购买成都天科航空制造股份有限公司股份及增资暨对外投资的议案》。",
           "hkexNewsId": "",
           "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "并购重组",
+            "customerDisposition": "daily",
+            "eventLabel": "收并购",
+            "eventType": "ma",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-e334b7574bc7a5749f",
+            "mainSection": "capital",
+            "planId": "购买成都天科航空制造股份",
+            "stage": "progress",
+            "status": "active"
+          },
           "matter_id": "1225446663",
           "parser": "pypdf",
           "pdfSha256": "fc2c6c3706eda10892d59bc947bff909eb1bf1db7762585a9561e26e1ae18241",
@@ -3021,6 +4026,21 @@
           "excerpt": "证券代码：301306 证券简称：西测测试公告编号：2026-029 西安西测测试技术股份有限公司关于持股 5%以上股东增持公司股份的公告西安西测测试技术股份有限公司（以下简称“公司”）近日收到公司持股5% 以上股东中投国联（北京）投资基金有限公司－中投国联匠心九号私募证券投资基金（以下简称“中投国联”）出具的《关于股份增持的告知函》，基于对公司未来发展的信心及公司长期投资价值的认可，中投国联于2026年7月29日以自有资金通过深圳证券交易所系统以集中竞。",
           "hkexNewsId": "",
           "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "增持",
+            "customerDisposition": "daily",
+            "eventLabel": "增持",
+            "eventType": "increase",
+            "homepageEligible": true,
+            "importance": "必看",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-5f7712b26bd47b2430",
+            "mainSection": "capital",
+            "planId": "持股5%以上股东增持公司股份的公告证券代码：301306证券简称：西测测试公告编号：|2026年",
+            "stage": "first_execution",
+            "status": "active"
+          },
           "matter_id": "1225446116",
           "parser": "pypdf",
           "pdfSha256": "f69aed29f057da3409d31b66e4cd3d9a0859062730d8317e602d81fa33fb78c4",
@@ -3050,6 +4070,21 @@
           "excerpt": "证券代码：301231 证券简称：荣信文化公告编号：2026-043 荣信教育文化产业发展股份有限公司关于控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份的公告荣信教育文化产业发展股份有限公司（以下简称“公司”或“荣信文化”）于2026年4月8日在巨潮资讯网（www.cninfo.com.cn）披露了《关于控股股东、实际控制人及一致行动人、高级管理人员减持股份预披露公告》，公司控股股东、实际控制人、董事长兼总经理王艺桦女士及一致行。",
           "hkexNewsId": "",
           "kind": "risk",
+          "lifecycleCandidate": {
+            "businessSubcategory": "减持",
+            "customerDisposition": "daily_concise",
+            "eventLabel": "减持",
+            "eventType": "reduction",
+            "homepageEligible": false,
+            "importance": "进度",
+            "isNoChangeProgress": true,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-cd1aa942a9d20b2877",
+            "mainSection": "capital",
+            "planId": "控股股东、实际控制人及一致行动人、高级管理人员减持计划期限届满未减持股份的公告证|2026年",
+            "stage": "completed",
+            "status": "completed"
+          },
           "matter_id": "1225446115",
           "parser": "pypdf",
           "pdfSha256": "502b3a70459225f296318ec44578a4de3e50945a3bcfec5455cec88414f3e0d3",
@@ -3079,6 +4114,21 @@
           "excerpt": "陕西省西安市太白南路 139 号云图中心十五层邮编：710065 传真/Fax:029-88360129 北京市康达（西安）律师事务所关于陕西省天然气股份有限公司 2026 年第二次临时股东会之法律意见书 （2026）北京康达法意字 34 号二〇二六年七月二十八日 1 陕西省西安市太白南路 139 号云图中心十五层邮编：710065 传真/Fax:029-88360129 北京市康达（西安）律师事务所关于陕西省天然气股份有限公司 2026 年第二次临时股。",
           "hkexNewsId": "",
           "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-5c2d0d430574b6ae3f",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "changed",
+            "status": "active"
+          },
           "matter_id": "1225445668",
           "parser": "pypdf",
           "pdfSha256": "3b4628586d2d15b3825092d54dc73db02e1d59d6d43d079313f458bdda910001",
@@ -3137,6 +4187,21 @@
           "excerpt": "本报告依据中国资产评估准则编制航天时代电子技术股份有限公司拟进行资产置换所涉及的西安太乙电子有限公司股东全部权益价值资产评估报告中企华评报字JG(2025)第0026-01号 (共一册，第一册) 北京中企华资产评估有限责任公司二〇二六年三月二十日航天时代电子技术股份有限公司拟进行资产置换所涉及的西安太乙电子有限公司股东全部权益价值资产评估报告 (3)非经营性资产、非经营性负债价值非经营性资产、非经营性负债是指与被评估单位生产经营无关的，评估基准日后企业自。",
           "hkexNewsId": "",
           "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "并购重组",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "收并购",
+            "eventType": "ma",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-a0bfb4e9ce71b22bc4",
+            "mainSection": "capital",
+            "planId": "资产置换",
+            "stage": "audit_valuation",
+            "status": "active"
+          },
           "matter_id": "1225445459",
           "parser": "pypdf",
           "pdfSha256": "e28515c9bb882b469731c1df3ae4fcc97aeb310d37aec0f288ba6f1ec8d63fad",
@@ -3166,6 +4231,21 @@
           "excerpt": " 本次交易对方西安微电子所为公司控股股东中国航天时代电子有限公司（以下简称航天时代公司）所管理事业单位，上海科学仪器厂为航天时代公司之全资子公司，因此本次交易构成关联交易。本次交易未达到股东会审议标准，无需提交股东会审议。",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "并购重组",
+            "customerDisposition": "daily_concise",
+            "eventLabel": "收并购",
+            "eventType": "ma",
+            "homepageEligible": false,
+            "importance": "进度",
+            "isNoChangeProgress": true,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-a0bfb4e9ce71b22bc4",
+            "mainSection": "capital",
+            "planId": "资产置换",
+            "stage": "delivery_completed",
+            "status": "completed"
+          },
           "matter_id": "1225445448",
           "parser": "pypdf",
           "pdfSha256": "52a5ff9b23864f8853d8979eebb1f02a58ec733d5aa63fdf9d3bfff099715ab1",
@@ -3224,6 +4304,21 @@
           "excerpt": "股票代码：000564 股票简称：供销大集公告编号：2026-047 供销大集集团股份有限公司关于首次回购公司股份的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、 误导性陈述或重大遗漏。供销大集集团股份有限公司（以下简称“公司”）于 2026 年 6 月 14 日召开第十一届董事会第二十二次会议，审议通过了《关于维护公司价值及股东权益进行股份回购的议案》，同意公司以集中竞价交易方式回购公司已发行的人民币普通股（A 股）股票。",
           "hkexNewsId": "",
           "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "股份回购",
+            "customerDisposition": "daily",
+            "eventLabel": "股份回购",
+            "eventType": "buyback",
+            "homepageEligible": true,
+            "importance": "必看",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-5229c6ce7c32de5672",
+            "mainSection": "capital",
+            "planId": "2026年",
+            "stage": "first_execution",
+            "status": "active"
+          },
           "matter_id": "1225445000",
           "parser": "pypdf",
           "pdfSha256": "b12227066cb601f685c8fb3c1fd1fc78f2fe340ae6f7314158c704f233fe442e",
@@ -3340,6 +4435,21 @@
           "excerpt": "证券代码：688719 证券简称：爱科赛博公告编号：2026-039 西安爱科赛博电气股份有限公司关于 2026 年以集中竞价交易方式回购股份的进展公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示： 回购方案首次披露日 2026/7/23 回购方案实施期限 2026 年 7 月 22 日~2027 年 7 月 21 日预计回购金额 2,500.00万元~5,0。",
           "hkexNewsId": "",
           "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "股份回购",
+            "customerDisposition": "daily",
+            "eventLabel": "股份回购",
+            "eventType": "buyback",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-9eb86a93050e544b40",
+            "mainSection": "capital",
+            "planId": "2026年",
+            "stage": "progress",
+            "status": "active"
+          },
           "matter_id": "1225444332",
           "parser": "pypdf",
           "pdfSha256": "352a0f20797d4443cf0385f6dc6540282038bfaa746e9be0ee46d98c58d50db2",
@@ -3369,6 +4479,21 @@
           "excerpt": "2 1、2025 年限制性股票激励计划简述公司《2025 年限制性股票激励计划（草案）》（以下简称“《激励计划（草案）》” 或“本激励计划”）及其摘要已经公司第三届董事会薪酬与考核委员会第一次会议、第三届董事会第二次会议及公司 2025 年第二次临时股东会审议通过，主要内容如下： （1）激励工具：限制性股票（第二类限制性股票）。（2）股票来源：公司从二级市场回购的 A 股普通股股票和/或向激励对象定向发行的 A 股普通股股票。",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "股权激励",
+            "customerDisposition": "daily",
+            "eventLabel": "股权激励",
+            "eventType": "equity_incentive",
+            "homepageEligible": false,
+            "importance": "必看",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-c59082d5f50f5b43eb",
+            "mainSection": "governance",
+            "planId": "2025年限制性股票激励计划",
+            "stage": "vesting_or_exercise",
+            "status": "active"
+          },
           "matter_id": "1225444288",
           "parser": "pypdf",
           "pdfSha256": "2c50d6e0a02f961ef9cff09f5613d2514d6d2a6e4e9eb5bbd524e3b13c882a41",
@@ -3395,68 +4520,13 @@
       "template": "v2-listed-v1-editorial",
       "tiles": [
         {
-          "announcementTitle": "陕西美邦药业集团股份有限公司第三届董事会第十三次会议决议公告",
-          "body": "陕西美邦药业集团股份有限公司2026 年半年度报告摘要除此之外，未知其他股东之间是否存在关联关系，亦未知其他股东之间是否属于《上市公司收购管理办法》规定的一致行动人。2026 年上半年。",
-          "business": {
-            "category": "业绩与分红",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "定期报告",
-            "targets": [
-              "董秘",
-              "投资者关系",
-              "财务"
-            ]
-          },
-          "businessSubcategory": "综合事项",
-          "canonicalDetailId": "listed-detail-66ce3315ed-927e2b83",
-          "company": "美邦股份",
-          "conclusion": "陕西美邦药业集团股份有限公司2026 年半年度报告摘要除此之外，未知其他股东之间是否存在关联关系，亦未知其他股东之间是否属于《上市公司收购管理办法》规定的一致行动人。2026 年上半年。",
-          "importance": "必看",
-          "matterType": "经营治理",
-          "matter_id": "listed-matter-fbe9c0834ac4b2",
-          "publishedAt": "2026-07-30",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446425.PDF",
-          "sources": [
-            {
-              "announcementId": "1225446425",
-              "announcementTitle": "陕西美邦药业集团股份有限公司第三届董事会第十三次会议决议公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446425.PDF"
-            },
-            {
-              "announcementId": "1225446406",
-              "announcementTitle": "陕西美邦药业集团股份有限公司2026年度“提质增效重回报”行动方案的评估报告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446406.PDF"
-            },
-            {
-              "announcementId": "1225446394",
-              "announcementTitle": "陕西美邦药业集团股份有限公司2026年上半年度主要经营数据公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446394.PDF"
-            },
-            {
-              "announcementId": "1225446377",
-              "announcementTitle": "陕西美邦药业集团股份有限公司2026年半年度报告摘要",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446377.PDF"
-            }
-          ],
-          "title": "美邦股份｜经营治理",
-          "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
-        },
-        {
-          "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
-          "body": "（二）审议通过《关于选举第七届董事会各专门委员会的议案》 具体内容详见公司于 2026 年 7 月 30 日在指定媒体和巨潮资讯网披露的《关于董事会换届完成并聘任高级管理人员的公告》。（三）审议通过《关于聘任高级管理人员的议案》 具体内。",
+          "announcementTitle": "第七届董事会第一次会议决议公告",
+          "body": "陕天然气披露第七届董事会第一次会议决议。",
           "business": {
             "category": "治理关系",
             "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "董监高",
+            "priority": "standard",
+            "subcategory": "章程治理",
             "targets": [
               "董秘办",
               "证券事务代表",
@@ -3466,22 +4536,18 @@
           "businessSubcategory": "综合事项",
           "canonicalDetailId": "listed-detail-e67b125f31-62c13784",
           "company": "陕天然气",
-          "conclusion": "（二）审议通过《关于选举第七届董事会各专门委员会的议案》 具体内容详见公司于 2026 年 7 月 30 日在指定媒体和巨潮资讯网披露的《关于董事会换届完成并聘任高级管理人员的公告》。（三）审议通过《关于聘任高级管理人员的议案》 具体内。",
+          "conclusion": "陕天然气披露第七届董事会第一次会议决议。",
           "importance": "必看",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "经营治理",
           "matter_id": "listed-matter-1db65f6417bd70",
           "publishedAt": "2026-07-30",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447376.PDF",
           "sources": [
-            {
-              "announcementId": "1225447377",
-              "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF"
-            },
             {
               "announcementId": "1225447376",
               "announcementTitle": "第七届董事会第一次会议决议公告",
@@ -3494,25 +4560,28 @@
         },
         {
           "announcementTitle": "天地源股份有限公司关于公司2025年年度报告信息披露监管问询函的回复公告",
-          "body": "2024 年少数股东权益前十大公司情况单位：万元子公司名称净利润少数股东持股比例本期归属于少数股东的损益本期向少数股东宣告分派的股利期末少数股东权益余额西安天地源沣东房地产开发有限公司 -0.04 41.50% 199.46 - 27,。",
+          "body": "天地源披露公司2025年年度报告信息披露监管问询函的回复。",
           "business": {
-            "category": "业绩与分红",
+            "category": "风险沟通",
             "contentImportance": "内容重要",
             "priority": "standard",
-            "subcategory": "业绩预告",
+            "subcategory": "监管问询",
             "targets": [
               "董秘",
-              "投资者关系",
+              "合规风控",
+              "控股股东",
               "财务"
             ]
           },
           "businessSubcategory": "综合事项",
-          "canonicalDetailId": "listed-detail-705a97daa3-58bc0d9f",
+          "canonicalDetailId": "listed-detail-705a97daa3-2d847ab2",
           "company": "天地源",
-          "conclusion": "2024 年少数股东权益前十大公司情况单位：万元子公司名称净利润少数股东持股比例本期归属于少数股东的损益本期向少数股东宣告分派的股利期末少数股东权益余额西安天地源沣东房地产开发有限公司 -0.04 41.50% 199.46 - 27,。",
+          "conclusion": "天地源披露公司2025年年度报告信息披露监管问询函的回复。",
           "importance": "必看",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "经营治理",
-          "matter_id": "listed-matter-afd99d21ea6f90",
+          "matter_id": "listed-matter-d2f4e03d599011",
           "publishedAt": "2026-07-30",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
@@ -3530,38 +4599,82 @@
           "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
         },
         {
-          "announcementTitle": "关于董事会完成换届选举及聘任高级管理人员的公告",
-          "body": "不存在因涉嫌犯罪被司法机关立案侦查或者涉嫌违法违规被中国证监会立案稽查，尚未有明确结论的情形。许仁硕先生未直接持有公司股票，间接持有公司 4.18%股份，与公司控股股东陕西新丝路进取一号投资合伙企业（有限合伙）存在关联关系。",
+          "announcementTitle": "绿能慧充关于控股股东及其一致行动人部分股份解除质押的公告",
+          "body": "绿能慧充披露控股股东及其一致行动人部分股份解除质押。",
           "business": {
-            "category": "综合事项",
+            "category": "股东服务",
             "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "综合事项",
+            "priority": "focus",
+            "subcategory": "质押冻结",
             "targets": [
+              "控股股东",
+              "5%以上股东",
               "董秘办"
             ]
           },
           "businessSubcategory": "综合事项",
-          "canonicalDetailId": "listed-detail-d8a2a2ac59-8e04c52d",
-          "company": "珠海中富",
-          "conclusion": "不存在因涉嫌犯罪被司法机关立案侦查或者涉嫌违法违规被中国证监会立案稽查，尚未有明确结论的情形。许仁硕先生未直接持有公司股票，间接持有公司 4.18%股份，与公司控股股东陕西新丝路进取一号投资合伙企业（有限合伙）存在关联关系。",
+          "canonicalDetailId": "listed-detail-237812cb16-4f6c4bd0",
+          "company": "绿能慧充",
+          "conclusion": "绿能慧充披露控股股东及其一致行动人部分股份解除质押。",
           "importance": "重点",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
           "matterType": "经营治理",
-          "matter_id": "listed-matter-4bf1efe8b54dec",
+          "matter_id": "listed-matter-d764246ad46d8a",
           "publishedAt": "2026-07-30",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447046.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446051.PDF",
           "sources": [
             {
-              "announcementId": "1225447046",
-              "announcementTitle": "关于董事会完成换届选举及聘任高级管理人员的公告",
+              "announcementId": "1225446051",
+              "announcementTitle": "绿能慧充关于控股股东及其一致行动人部分股份解除质押的公告",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447046.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446051.PDF"
             }
           ],
-          "title": "珠海中富｜经营治理",
+          "title": "绿能慧充｜经营治理",
+          "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
+        },
+        {
+          "announcementTitle": "金花企业（集团）股份有限公司关于公司股票被实施其他风险警示事项的进展公告",
+          "body": "金花股份披露公司股票被实施其他风险警示事项的进展。",
+          "business": {
+            "category": "风险沟通",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "风险警示",
+            "targets": [
+              "董秘",
+              "合规风控",
+              "控股股东",
+              "财务"
+            ]
+          },
+          "businessSubcategory": "综合事项",
+          "canonicalDetailId": "listed-detail-872d744461-5a88aa69",
+          "company": "金花股份",
+          "conclusion": "金花股份披露公司股票被实施其他风险警示事项的进展。",
+          "importance": "重点",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "经营治理",
+          "matter_id": "listed-matter-d54a99fd2426c7",
+          "publishedAt": "2026-07-30",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225445923.PDF",
+          "sources": [
+            {
+              "announcementId": "1225445923",
+              "announcementTitle": "金花企业（集团）股份有限公司关于公司股票被实施其他风险警示事项的进展公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225445923.PDF"
+            }
+          ],
+          "title": "金花股份｜经营治理",
           "whyImportant": "后续关注正式公告中的关键节点和数字变化。"
         }
       ]
@@ -4818,7 +5931,41 @@
     ],
     "focusCompanies": [
       {
-        "anchorId": "listed-detail-d8a2a2ac59-976c4a69",
+        "anchorId": "listed-detail-laite-guangdian-9b1b71cb",
+        "business": {
+          "category": "资本运作",
+          "contentImportance": "内容重要",
+          "priority": "focus",
+          "subcategory": "可转债",
+          "targets": [
+            "董秘办",
+            "财务",
+            "投融资负责人"
+          ]
+        },
+        "company": "莱特光电",
+        "followText": "后续关注证监会注册批复、发行安排及募投项目落地。",
+        "sourceSection": "section-04"
+      },
+      {
+        "anchorId": "listed-detail-db1cef822d-dfe4ebd6",
+        "business": {
+          "category": "资本运作",
+          "contentImportance": "内容重要",
+          "priority": "focus",
+          "subcategory": "定增/再融资",
+          "targets": [
+            "董秘办",
+            "财务",
+            "投融资负责人"
+          ]
+        },
+        "company": "国际医学",
+        "followText": "后续关注证监会注册批复、发行价格、认购结构及募投项目落地。",
+        "sourceSection": "section-04"
+      },
+      {
+        "anchorId": "listed-detail-d8a2a2ac59-b766f312",
         "business": {
           "category": "治理关系",
           "contentImportance": "固定披露",
@@ -4835,39 +5982,7 @@
         "sourceSection": "section-05"
       },
       {
-        "anchorId": "listed-detail-66ce3315ed-18e1ed67",
-        "business": {
-          "category": "综合事项",
-          "contentImportance": "内容重要",
-          "priority": "standard",
-          "subcategory": "综合事项",
-          "targets": [
-            "董秘办"
-          ]
-        },
-        "company": "美邦股份",
-        "followText": "后续关注正式公告中的关键节点和数字变化。",
-        "sourceSection": "section-02"
-      },
-      {
-        "anchorId": "listed-detail-3d11f47147-bba7cb65",
-        "business": {
-          "category": "资金与财务",
-          "contentImportance": "内容重要",
-          "priority": "standard",
-          "subcategory": "担保",
-          "targets": [
-            "财务负责人",
-            "资金部",
-            "董秘办"
-          ]
-        },
-        "company": "陕西金叶",
-        "followText": "后续关注实际提款、担保余额和偿债安排。",
-        "sourceSection": "section-02"
-      },
-      {
-        "anchorId": "listed-detail-126b53d8ae-fb9151d3",
+        "anchorId": "listed-detail-66ce3315ed-927e2b83",
         "business": {
           "category": "治理关系",
           "contentImportance": "内容重要",
@@ -4879,9 +5994,9 @@
             "管理层"
           ]
         },
-        "company": "ST炼石",
-        "followText": "后续关注股东会审议、出资节奏和项目回报。",
-        "sourceSection": "section-04"
+        "company": "美邦股份",
+        "followText": "后续关注实际提款、担保余额和偿债安排。",
+        "sourceSection": "section-02"
       }
     ],
     "isAsOfFallback": false,
@@ -4889,8 +6004,8 @@
     "pageDate": "2026-07-30",
     "sourceAsOf": "2026-07-30",
     "sourceCoverage": {
-      "linked": 27,
-      "total": 27,
+      "linked": 34,
+      "total": 34,
       "unmatched": []
     }
   },
@@ -9340,7 +10455,7 @@
       },
       "ma": {
         "evidence": [
-          "v2/data/source/ma/scans/scan-2026-07-30-morning.json"
+          "v2/data/source/ma/scans/scan-2026-07-30-midday.json"
         ],
         "ready": true,
         "releaseEligible": false,
@@ -9362,17 +10477,17 @@
       },
       "soe": {
         "evidence": [
-          "v2/data/source/soe/scans/scan-2026-07-30-morning.json"
+          "v2/data/source/soe/scans/scan-2026-07-30-midday.json"
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "soe_completed_event_on_scan_date_false",
+        "result": "soe_completed_event_on_scan_date_true",
         "scanAsOf": "2026-07-30",
-        "status": "no_new"
+        "status": "completed"
       },
       "tender": {
         "evidence": [
-          "v2/data/source/tender/scans/scan-2026-07-30-morning.json"
+          "v2/data/source/tender/scans/scan-2026-07-30-midday.json"
         ],
         "ready": true,
         "releaseEligible": true,
@@ -9385,10 +10500,10 @@
     "failures": [],
     "qualityContract": {
       "path": "v2/config/production-quality-contract.json",
-      "sha256": "1aba55e87b0892778de8c179bb3fc5adcd064726e5a043d0f6a7e6d99bf3e1bd",
+      "sha256": "68c72ffe17cf93d0964a738fe93eace4fcc5d0be2209eb35bddf6e84f95d84e9",
       "standard": "v1-source-and-editorial-quality"
     },
-    "slot": "morning",
+    "slot": "midday",
     "sourceConstraints": [
       {
         "channel": "tender",
@@ -9408,7 +10523,7 @@
     "year": "eventDate 所在自然年；仅展示结构化源中真实存在的年份"
   },
   "scanAsOf": "2026-07-30",
-  "scanSlot": "morning",
+  "scanSlot": "midday",
   "schemaVersion": "2.2",
   "soe": {
     "available": true,
@@ -9421,6 +10536,70 @@
     ],
     "categoryRecords": {
       "产业经营": [
+        {
+          "candidateId": "soe-v2-ec02f2c1c679c14a86e0",
+          "category": "产业经营",
+          "entities": [
+            "陕西煤业化工集团有限责任公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-30",
+          "sourceName": "陕煤集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429394&cid=33",
+          "title": "创效7182万！彬长矿业胡家河矿打出降本增效“组合拳”",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+          "verificationNote": "创效7182万！彬长矿业胡家河矿打出降本增效“组合拳”- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 "
+        },
+        {
+          "candidateId": "soe-v2-e2ef67e2418f94f0005a",
+          "category": "产业经营",
+          "entities": [
+            "陕西煤业化工集团有限责任公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-30",
+          "sourceName": "陕煤集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429391&cid=15",
+          "title": "陕北矿业：铆足干劲实现“双过半”",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+          "verificationNote": "陕北矿业：铆足干劲实现“双过半”- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神标识 核"
+        },
+        {
+          "candidateId": "soe-v2-ab80f4ab28bf5f5860be",
+          "category": "产业经营",
+          "entities": [
+            "陕西煤业化工集团有限责任公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-30",
+          "sourceName": "陕煤集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429393&cid=38",
+          "title": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+          "verificationNote": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训- 组织干部 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级"
+        },
+        {
+          "candidateId": "soe-v2-2b26a20ccabf3abe064a",
+          "category": "产业经营",
+          "entities": [
+            "陕西煤业化工集团有限责任公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-30",
+          "sourceName": "陕煤集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429395&cid=33",
+          "title": "府谷能源榆林配售电公司：舞活三板斧，激活发展新动能",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+          "verificationNote": "府谷能源榆林配售电公司：舞活三板斧，激活发展新动能- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化"
+        },
         {
           "candidateId": "soe-v2-e62b47ed821baa194c08",
           "category": "产业经营",
@@ -9436,70 +10615,6 @@
           "title": "北元集团：“一岗一人一策”培训让员工练好岗位基本功",
           "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-closing.json",
           "verificationNote": "北元集团：“一岗一人一策”培训让员工练好岗位基本功- 人力资源 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化"
-        },
-        {
-          "candidateId": "soe-v2-2b9a2ae064005dfa366c",
-          "category": "产业经营",
-          "entities": [
-            "陕西煤业化工集团有限责任公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-29",
-          "sourceName": "陕煤集团官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429373&cid=15",
-          "title": "蒲洁能化党委：党建引领 以四种经营理念提质增效",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-closing.json",
-          "verificationNote": "蒲洁能化党委：党建引领 以四种经营理念提质增效- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系"
-        },
-        {
-          "candidateId": "soe-v2-fef8bcd0553533b388e8",
-          "category": "产业经营",
-          "entities": [
-            "陕西煤业化工集团有限责任公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-28",
-          "sourceName": "陕煤集团官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429368&cid=36",
-          "title": "渭化公司：“二次创业”转新岗，百分之百全胜任",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
-          "verificationNote": "官方原文确认二期装置停运后9名职工分流至一期、三期，经过6个月培训全部通过考核。"
-        },
-        {
-          "candidateId": "soe-v2-c11d5c50cd367b91aa66",
-          "category": "产业经营",
-          "entities": [
-            "陕西煤业化工集团有限责任公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-28",
-          "sourceName": "陕煤集团官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429367&cid=33",
-          "title": "陕煤信电：精耕物资管控 聚力提质增效",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
-          "verificationNote": "官方原文披露截至6月库存压降59.9万元、常规物资采购节约265.6万元、检修物资采购节约485.9万元。"
-        },
-        {
-          "candidateId": "soe-v2-8c2b847b7060e64dcb2d",
-          "category": "产业经营",
-          "entities": [
-            "陕西煤业化工集团有限责任公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-28",
-          "sourceName": "陕煤集团官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429359&cid=15",
-          "title": "陕煤电力集团：“创新+执行”全面提升班子建设质效",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
-          "verificationNote": "官方原文披露上半年发电量同比增长3%，利润完成半年计划101.7%，度电成本同比下降5.94%，累计节约碳履约支出1.49亿元。"
         }
       ],
       "综合动态": [
@@ -9806,8 +10921,72 @@
       ]
     },
     "customerBoundary": "当前可查询的国企历史记录最早到2026-05-21；更早记录尚未完成系统回补，不能据此视为年初以来全量。",
-    "eventOnScanDate": false,
+    "eventOnScanDate": true,
     "focusRecords": [
+      {
+        "candidateId": "soe-v2-ec02f2c1c679c14a86e0",
+        "category": "产业经营",
+        "entities": [
+          "陕西煤业化工集团有限责任公司"
+        ],
+        "normalizationStatus": "official_source_verified",
+        "noveltyStatus": "verified_v2_import",
+        "publishedAt": "2026-07-30",
+        "sourceName": "陕煤集团官网",
+        "sourceQuality": "issuer_original",
+        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429394&cid=33",
+        "title": "创效7182万！彬长矿业胡家河矿打出降本增效“组合拳”",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+        "verificationNote": "创效7182万！彬长矿业胡家河矿打出降本增效“组合拳”- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 "
+      },
+      {
+        "candidateId": "soe-v2-e2ef67e2418f94f0005a",
+        "category": "产业经营",
+        "entities": [
+          "陕西煤业化工集团有限责任公司"
+        ],
+        "normalizationStatus": "official_source_verified",
+        "noveltyStatus": "verified_v2_import",
+        "publishedAt": "2026-07-30",
+        "sourceName": "陕煤集团官网",
+        "sourceQuality": "issuer_original",
+        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429391&cid=15",
+        "title": "陕北矿业：铆足干劲实现“双过半”",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+        "verificationNote": "陕北矿业：铆足干劲实现“双过半”- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神标识 核"
+      },
+      {
+        "candidateId": "soe-v2-ab80f4ab28bf5f5860be",
+        "category": "产业经营",
+        "entities": [
+          "陕西煤业化工集团有限责任公司"
+        ],
+        "normalizationStatus": "official_source_verified",
+        "noveltyStatus": "verified_v2_import",
+        "publishedAt": "2026-07-30",
+        "sourceName": "陕煤集团官网",
+        "sourceQuality": "issuer_original",
+        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429393&cid=38",
+        "title": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+        "verificationNote": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训- 组织干部 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级"
+      },
+      {
+        "candidateId": "soe-v2-2b26a20ccabf3abe064a",
+        "category": "产业经营",
+        "entities": [
+          "陕西煤业化工集团有限责任公司"
+        ],
+        "normalizationStatus": "official_source_verified",
+        "noveltyStatus": "verified_v2_import",
+        "publishedAt": "2026-07-30",
+        "sourceName": "陕煤集团官网",
+        "sourceQuality": "issuer_original",
+        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429395&cid=33",
+        "title": "府谷能源榆林配售电公司：舞活三板斧，激活发展新动能",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-midday.json",
+        "verificationNote": "府谷能源榆林配售电公司：舞活三板斧，激活发展新动能- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化"
+      },
       {
         "candidateId": "soe-v2-e62b47ed821baa194c08",
         "category": "产业经营",
@@ -9823,93 +11002,29 @@
         "title": "北元集团：“一岗一人一策”培训让员工练好岗位基本功",
         "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-closing.json",
         "verificationNote": "北元集团：“一岗一人一策”培训让员工练好岗位基本功- 人力资源 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化"
-      },
-      {
-        "candidateId": "soe-v2-2b9a2ae064005dfa366c",
-        "category": "产业经营",
-        "entities": [
-          "陕西煤业化工集团有限责任公司"
-        ],
-        "normalizationStatus": "official_source_verified",
-        "noveltyStatus": "verified_v2_import",
-        "publishedAt": "2026-07-29",
-        "sourceName": "陕煤集团官网",
-        "sourceQuality": "issuer_original",
-        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429373&cid=15",
-        "title": "蒲洁能化党委：党建引领 以四种经营理念提质增效",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-29-closing.json",
-        "verificationNote": "蒲洁能化党委：党建引领 以四种经营理念提质增效- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系"
-      },
-      {
-        "candidateId": "soe-v2-fef8bcd0553533b388e8",
-        "category": "产业经营",
-        "entities": [
-          "陕西煤业化工集团有限责任公司"
-        ],
-        "normalizationStatus": "official_source_verified",
-        "noveltyStatus": "verified_v2_import",
-        "publishedAt": "2026-07-28",
-        "sourceName": "陕煤集团官网",
-        "sourceQuality": "issuer_original",
-        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429368&cid=36",
-        "title": "渭化公司：“二次创业”转新岗，百分之百全胜任",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
-        "verificationNote": "官方原文确认二期装置停运后9名职工分流至一期、三期，经过6个月培训全部通过考核。"
-      },
-      {
-        "candidateId": "soe-v2-d8172372c20018e2202b",
-        "category": "风险治理",
-        "entities": [
-          "陕西国际经贸集团有限公司"
-        ],
-        "normalizationStatus": "official_source_verified",
-        "noveltyStatus": "verified_v2_import",
-        "publishedAt": "2026-07-28",
-        "sourceName": "陕西国际经贸集团官网",
-        "sourceQuality": "issuer_original",
-        "sourceUrl": "https://www.siet.com.cn/news_detail/id-8085.html",
-        "title": "止园饭店：开展子公司印章管理专项检查工作",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-midday.json",
-        "verificationNote": "官方原文确认对止园工贸、止园旅游、止园洗涤三家子公司开展印章专项检查，并形成整改报告和后续复核安排。"
-      },
-      {
-        "candidateId": "soe-v2-c45d15022ca24b5511b0",
-        "category": "项目资产",
-        "entities": [
-          "陕西煤业化工集团有限责任公司"
-        ],
-        "normalizationStatus": "official_source_verified",
-        "noveltyStatus": "verified_v2_import",
-        "publishedAt": "2026-07-28",
-        "sourceName": "陕煤集团官网",
-        "sourceQuality": "issuer_original",
-        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429361&cid=187",
-        "title": "陕煤恒神股份获批筹建江苏省低空经济高性能复合材料与结构安全重点实验室",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-28-morning.json",
-        "verificationNote": "官方原文确认恒神股份联合南京航空航天大学、哈工大苏州研究院共建的省重点实验室进入筹建名单。"
       }
     ],
-    "isAsOfFallback": true,
-    "latestRecordDate": "2026-07-29",
+    "isAsOfFallback": false,
+    "latestRecordDate": "2026-07-30",
     "limits": [
       "当前事件库最早记录为2026-05-21，不能据此声明1月至5月20日全量",
       "新增事项须经V2专用证据批次和原始官方链接核验后入库"
     ],
     "networkVerified": true,
     "pageDate": "2026-07-30",
-    "recordCount": 84,
+    "recordCount": 88,
     "rejectedCandidateCount": 0,
     "scanAsOf": "2026-07-30",
-    "scanEvidence": "v2/data/source/soe/scans/scan-2026-07-30-morning.json",
-    "scanSlot": "morning",
+    "scanEvidence": "v2/data/source/soe/scans/scan-2026-07-30-midday.json",
+    "scanSlot": "midday",
     "scanStatus": "completed",
-    "sourceAsOf": "2026-07-29",
+    "sourceAsOf": "2026-07-30",
     "summary": {
       "earliestPublishedAt": "2026-05-21",
       "entityCount": 25,
-      "latestPublishedAt": "2026-07-29",
-      "recordCount": 84,
-      "verifiedImportCount": 23
+      "latestPublishedAt": "2026-07-30",
+      "recordCount": 88,
+      "verifiedImportCount": 27
     }
   },
   "sourceAsOf": {
@@ -9917,7 +11032,7 @@
     "ma": "2026-07-28",
     "privateProducts": "2026-07-30",
     "privateUniverse": "2026-07-30",
-    "soe": "2026-07-29",
+    "soe": "2026-07-30",
     "tender": "2026-07-29"
   },
   "sources": {
@@ -9933,7 +11048,7 @@
     "listedDaily": "v2/data/daily/listed/listed-official-2026-07-30.json",
     "listedUniverse": "v2/data/source/listed/universe.json",
     "maAnnual": "v2/data/source/ma/events-2026.json",
-    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-07-30-morning.json",
+    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-07-30-midday.json",
     "observationPool": "v2/data/source/observation-pool.json",
     "privateAnnual": "v2/data/source/private/products-2026.json",
     "privateProductEvidence": [
@@ -9941,10 +11056,10 @@
     ],
     "privateUniverse": "v2/data/daily/private/security-private-fund-daily-2026-07-30.json + v2/data/source/private/universe.json",
     "soeAnnual": "v2/data/source/soe/events-2026.json",
-    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-07-30-morning.json",
+    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-07-30-midday.json",
     "sourceContract": "v2/config/source-contract.json",
     "tenderAnnualProjects": "v2/data/source/tender/events-2026.json",
-    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-07-30-morning.json",
+    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-07-30-midday.json",
     "v1HistoryIndex": "v2/data/source/v1-history-index.json"
   },
   "tender": {
