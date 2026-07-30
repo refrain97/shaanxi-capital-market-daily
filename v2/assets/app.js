@@ -180,10 +180,10 @@ function listed(data){
   const block=(id,no,title,rows,render)=>`<section class="dense-section" id="${id}"><header><h2><span>${no}</span>${title}</h2><b>${rows.length}条</b></header><div class="news-list">${rows.map(render).join("")||`<div class="compact-empty">本期无新增事项。</div>`}</div></section>`;
   const body=
     block("section-01","01","今日业务机会",daily.opportunities,row=>{const [,company]=row.title.split("｜");return newsRow({row,company,title:"业务机会",text:row.body});})
-    +block("section-02","02","重大事项与风险公告",daily.risk_rows,row=>newsRow({row,company:row.company,title:row.tag,text:row.event}))
-    +block("section-03","03","上市公司动态",daily.tiles,row=>{const [company,type]=splitTitle(row.title);return newsRow({row,company,title:type,text:row.body});})
+    +block("section-02","02","重大事项与风险公告",daily.risk_rows,row=>newsRow({row,company:row.company,title:row.tag,text:row.event,follow:row.whyImportant}))
+    +block("section-03","03","上市公司动态",daily.tiles,row=>{const [company,type]=splitTitle(row.title);return newsRow({row,company,title:type,text:row.body,follow:row.whyImportant});})
     +block("section-04","04","股东变动与资本运作",daily.capital_rows,row=>newsRow({row,company:row.company,title:"资本运作",numbers:row.numbersHtml,text:row.attention}))
-    +block("section-05","05","股东会、治理与固定披露清单",fixed,row=>{const [company,type]=splitTitle(row.title);return newsRow({row,company,title:type||row.group,text:row.body});});
+    +block("section-05","05","股东会、治理与固定披露清单",fixed,row=>{const [company,type]=splitTitle(row.title);return newsRow({row,company,title:type||row.group,text:row.body,follow:row.whyImportant});});
   const nav=[["business-focus","重点跟踪"],["section-01","01 机会"],["section-02","02 风险"],["section-03","03 动态"],["section-04","04 资本运作"],["section-05","05 治理披露"],["listed-pool","上市观察池"],["listed-daily-images","日图归档"]];
   const evidence=(daily.sourceEvidence||[]).map(row=>`<li><span>${esc(row.company)}｜${esc(row.title)}</span>${external(row.sourceUrl,"公告原文")}</li>`).join("");
   host.innerHTML=cover(data.asOf,"DAILY ISSUE · LISTED","陕西上市公司早报","重点跟踪置顶，01—05栏目保持紧凑阅读；重复事项链接到唯一主记录。","channel-listed.webp","",`${scanLabel(data,"listed")}；最近公告 ${zhDate(data.listed.latestEventDate)}`)
