@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-07-30T13:51:25+08:00",
+  "updatedAt": "2026-07-30T13:53:52+08:00",
   "channels": {
     "listed": [
       {
@@ -20,7 +20,7 @@
           "width": 1242,
           "height": 1809
         },
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "pending"
         },
@@ -32,7 +32,7 @@
           "supersedesPublicPath": "archive/daily/listed/2026/2026年7月30日V2陕西上市公司早报.png",
           "supersedesBuildVersion": "23d34be71d15"
         },
-        "updatedAt": "2026-07-30T13:51:25+08:00"
+        "updatedAt": "2026-07-30T13:53:52+08:00"
       },
       {
         "date": "2026-07-29",
@@ -981,7 +981,7 @@
           "width": 1242,
           "height": 1913
         },
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "pending"
         },
@@ -993,7 +993,7 @@
           "supersedesPublicPath": "archive/daily/private/2026/2026年7月30日V2证券私募行业动态日报.png",
           "supersedesBuildVersion": "23d34be71d15"
         },
-        "updatedAt": "2026-07-30T13:51:25+08:00"
+        "updatedAt": "2026-07-30T13:53:52+08:00"
       },
       {
         "date": "2026-07-29",
@@ -1937,7 +1937,7 @@
           "width": 1242,
           "height": 1923
         },
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "pending"
         },
@@ -1949,7 +1949,7 @@
           "supersedesPublicPath": "archive/daily/ma/2026/2026年7月30日V2陕西收并购日报.png",
           "supersedesBuildVersion": "23d34be71d15"
         },
-        "updatedAt": "2026-07-30T13:51:25+08:00"
+        "updatedAt": "2026-07-30T13:53:52+08:00"
       },
       {
         "date": "2026-07-29",
@@ -2848,7 +2848,7 @@
           "width": 1242,
           "height": 1296
         },
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "pending"
         },
@@ -2860,7 +2860,7 @@
           "supersedesPublicPath": "archive/daily/tender/2026/2026年7月30日V2陕西金融招投标日报.png",
           "supersedesBuildVersion": "23d34be71d15"
         },
-        "updatedAt": "2026-07-30T13:51:25+08:00"
+        "updatedAt": "2026-07-30T13:53:52+08:00"
       },
       {
         "date": "2026-07-29",
