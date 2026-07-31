@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-07-31T13:55:32+08:00",
+  "updatedAt": "2026-07-31T13:56:48+08:00",
   "channels": {
     "listed": [
       {
@@ -22,7 +22,9 @@
         },
         "webStatus": "published",
         "ima": {
-          "status": "pending"
+          "status": "pending_retry",
+          "lastError": "not_indexed_yet",
+          "updatedAt": "2026-07-31T13:56:20+08:00"
         },
         "correction": {
           "revision": 2,
@@ -1016,7 +1018,9 @@
         },
         "webStatus": "published",
         "ima": {
-          "status": "pending"
+          "status": "completed",
+          "uploadedAt": "2026-07-31T13:56:39+08:00",
+          "verification": "exact_file_name"
         },
         "correction": {
           "revision": 2,
@@ -2005,7 +2009,9 @@
         },
         "webStatus": "published",
         "ima": {
-          "status": "pending"
+          "status": "pending_retry",
+          "lastError": "not_indexed_yet",
+          "updatedAt": "2026-07-31T13:56:29+08:00"
         },
         "correction": {
           "revision": 2,
@@ -2949,7 +2955,9 @@
         },
         "webStatus": "published",
         "ima": {
-          "status": "pending"
+          "status": "completed",
+          "uploadedAt": "2026-07-31T13:56:48+08:00",
+          "verification": "exact_file_name"
         },
         "correction": {
           "revision": 2,
