@@ -153,7 +153,22 @@ body[data-page=listed] .focus-hit-list small{margin-top:5px;line-height:1.5}
     display:inline-flex;
     align-items:center
   }
-  body[data-page=listed] .dense-section{scroll-margin-top:134px}
+body[data-page=listed] .dense-section{scroll-margin-top:134px}
+
+/* 股权投资：交易事实保持横向信息密度，窄屏时自然折叠为单列，避免长主体名挤成竖排。 */
+.equity-deals{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.equity-deal{display:grid;grid-template-columns:142px minmax(0,1fr) 112px;gap:18px;padding:18px 20px;border-bottom:1px solid var(--line);align-items:start}
+.equity-deal:last-child{border-bottom:0}
+.equity-deal>div:first-child{display:grid;gap:9px;justify-items:start;color:var(--muted);font-weight:700}.equity-deal time{font-variant-numeric:tabular-nums}.equity-deal h3{margin:0 0 8px;color:var(--ink);font-size:20px;line-height:1.35}.equity-deal p{margin:5px 0;color:var(--muted);font-size:14px;line-height:1.55}.equity-deal small{display:block;margin-top:9px;color:var(--ink);font-size:14px;line-height:1.6}.equity-deal>div:last-child{padding-top:3px;text-align:right}.equity-deal .facts{margin:10px 0 4px}.equity-deal .facts>div{grid-template-columns:96px minmax(0,1fr)}
+body[data-page=equity] .embedded-pool small{display:block;margin-top:4px;font-size:12px}
+@media(max-width:860px){
+  .equity-deal{grid-template-columns:1fr;padding:15px 14px;gap:9px}
+  .equity-deal>div:first-child{display:flex;grid-template-columns:none;align-items:center;gap:8px}
+  .equity-deal>div:last-child{padding-top:0;text-align:left}
+  .equity-deal h3{font-size:18px}
+  .equity-deal .facts{grid-template-columns:1fr}
+  .equity-deal .facts>div{grid-template-columns:92px minmax(0,1fr)}
+}
   body[data-page=listed] .canonical-detail{scroll-margin-top:142px}
   body[data-page=listed] .dense-section>header h2{font-size:20px}
   body[data-page=listed] .news-row{
