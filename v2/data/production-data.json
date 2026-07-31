@@ -40,7 +40,7 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-07-31.json",
-        "sha256": "2b30d01250e44cad88e68f57ba185b77543b9d85b422006d3e3f0e0a86f7a715"
+        "sha256": "9afd87a7fb03d83226116ceaf318d9561cbf93fdbd4de6f992a7537b1a8707f7"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-07-31.json",
@@ -52,7 +52,7 @@
       },
       {
         "path": "v2/data/readiness/v2-ready-2026-07-31-closing.json",
-        "sha256": "78bc8ce9fd4da55774b2a55169f416257eb1d218e1560c8ca26267d19b206afe"
+        "sha256": "14cc49111a8a14018b0162ce96d3412742c0e33dece176816d381b5c9b7e3ae8"
       },
       {
         "path": "v2/data/source/equity/events-2026.json",
@@ -104,11 +104,11 @@
       },
       {
         "path": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
-        "sha256": "dc54ea1381f78e0b94495c9db62358297b0cfc1e72c4209653828a41d8095692"
+        "sha256": "eb4dac86c9fb2fcd2a86c680bca34210f448af2ac1542506b2cff5f5e8c04f06"
       },
       {
         "path": "v2/data/source/soe/scans/scan-2026-07-31-closing.json",
-        "sha256": "fb1843c7ebf33bc8ac5c9a6a875a522d3e8256689b30fdf3839f77c5a183dc37"
+        "sha256": "a1bd6c91d4b02c14312c648c6262eaec2364e2835e7826c6a1d625b1b0ca2b30"
       },
       {
         "path": "v2/data/source/tender/events-2026.json",
@@ -152,7 +152,7 @@
     "readiness": "v2/data/readiness/v2-ready-2026-07-31-closing.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "485ee3cf19fd"
+    "version": "0c1057c94832"
   },
   "equity": {
     "customerBoundary": "当前仅展示具有正式来源的交易；管理人公开身份不等同于完整投资组合。",
@@ -27270,7 +27270,7 @@
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "ma_completed_event_on_scan_date_false",
+        "result": "ma_completed_reused_verified_receipt",
         "scanAsOf": "2026-07-31",
         "status": "no_new"
       },
@@ -27302,7 +27302,7 @@
         ],
         "ready": true,
         "releaseEligible": true,
-        "result": "tender_degraded_event_on_scan_date_false",
+        "result": "tender_degraded_reused_verified_receipt",
         "scanAsOf": "2026-07-31",
         "status": "degraded"
       }
