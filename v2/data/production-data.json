@@ -40,7 +40,7 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-07-31.json",
-        "sha256": "43cd3d7913ad0a17570fd30c027f1456c37fabe70b0a21a5b91572fe24f0e0bc"
+        "sha256": "a898fff24f0922c6ba687a016ba42bf792e5a3c94a4ffd02bb2a88f52379d63a"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-07-31.json",
@@ -48,19 +48,19 @@
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-07-31.json",
-        "sha256": "fff8516fa459ce75f19d754ea12c3e28a0caab4d0c3118ee7b2609dea328ce2b"
+        "sha256": "4b466e4ccaf57fd8d003e03b980168bbb3f567cdafdf52f0f529c7678e542514"
       },
       {
-        "path": "v2/data/readiness/v2-ready-2026-07-31-morning.json",
-        "sha256": "4b60f82bae8e3f1031da3de9bb044a4648720c5509e8c96cb3f13e4b04698ac1"
+        "path": "v2/data/readiness/v2-ready-2026-07-31-midday.json",
+        "sha256": "b23088e198003c6e4e7bb6bdbccdbe8ff82bf0bc199da435dce410f0c18a5488"
       },
       {
         "path": "v2/data/source/equity/events-2026.json",
         "sha256": "9f183472f97bcd97ac57fe6cec939e145a9e453ea9de7b85117ba666df67030f"
       },
       {
-        "path": "v2/data/source/equity/scans/scan-2026-07-31-morning.json",
-        "sha256": "b3147f0cb1b681d4d93eb817700e79fc7023a79528e2e3128ca8fc4f966cc5bf"
+        "path": "v2/data/source/equity/scans/scan-2026-07-31-midday.json",
+        "sha256": "5ec0a7fa057bba5b2163f3829c34815f899627922b0ab9a401e6e5136b15d8ad"
       },
       {
         "path": "v2/data/source/equity/universe.json",
@@ -68,7 +68,7 @@
       },
       {
         "path": "v2/data/source/events/unified-2026.json",
-        "sha256": "acc0a6bbb0d660dff9883957c085cbaae0d2d621ba9546fbc0f09cdaf76781b8"
+        "sha256": "5cdba34327c30f2ff4cb0f85d80d5e5ab738f1a0d71db05b5acc5867699b3147"
       },
       {
         "path": "v2/data/source/listed/business-taxonomy.json",
@@ -83,8 +83,8 @@
         "sha256": "db41a0782237483409087b4a475da0c950cd0b013118b8b62d603129625a21cb"
       },
       {
-        "path": "v2/data/source/ma/scans/scan-2026-07-31-morning.json",
-        "sha256": "0881d8f79788a25ae27899e27e99684546b06bf2b7ba937674ffe65756d29d54"
+        "path": "v2/data/source/ma/scans/scan-2026-07-31-midday.json",
+        "sha256": "6e20fede60b98c090d2af227aa6eedd388c3881e22e861fa5076292a01aeb9e2"
       },
       {
         "path": "v2/data/source/observation-pool.json",
@@ -100,23 +100,23 @@
       },
       {
         "path": "v2/data/source/soe/events-2026.json",
-        "sha256": "8c8abb2428316ab941dbe795bbf756f3732d8fc74749abef25639dd398e11721"
+        "sha256": "46851192882a3152ce334a17f907ee088d867feacf22931811312162b8609536"
       },
       {
-        "path": "v2/data/source/soe/evidence/verified-2026-07-31-morning.json",
-        "sha256": "83d5c82d9cfb8283a166e60bcdaffc76c14ddcaaaa6b1ed27b5b327b97929bd1"
+        "path": "v2/data/source/soe/evidence/verified-2026-07-31-midday.json",
+        "sha256": "32f2c39c4bfa9db9b6bb01117c57da5aadd8f7504da2d295987fc5185ecee174"
       },
       {
-        "path": "v2/data/source/soe/scans/scan-2026-07-31-morning.json",
-        "sha256": "b3cc4608d3cf64bb13c67466bc58386c687fed130981aad7940c0b9dd2bd0333"
+        "path": "v2/data/source/soe/scans/scan-2026-07-31-midday.json",
+        "sha256": "219080cf9d5a30f1ac11bd9649923a8cc3f5a2cc3708a8ec7209b8cfd20fa7be"
       },
       {
         "path": "v2/data/source/tender/events-2026.json",
         "sha256": "ea7e447cbeb90b12aac35e299051493509345bf806416b01d660ed20a9738766"
       },
       {
-        "path": "v2/data/source/tender/scans/scan-2026-07-31-morning.json",
-        "sha256": "8de4cc5c0107f09a3f2ef04f776e6c87978b584ba127fb12a64faf589850727e"
+        "path": "v2/data/source/tender/scans/scan-2026-07-31-midday.json",
+        "sha256": "ceae26c95a8ed9beeb419f38cc8d119af30a6c4bc8d8f89d1f5e5e79734ea37b"
       },
       {
         "path": "v2/data/source/v1-history-index.json",
@@ -149,10 +149,10 @@
     ],
     "mode": "repeatable-derived-artifact",
     "notice": "本快照由列示规范数据与结构化证据稳定生成。",
-    "readiness": "v2/data/readiness/v2-ready-2026-07-31-morning.json",
+    "readiness": "v2/data/readiness/v2-ready-2026-07-31-midday.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "c3aadbd58238"
+    "version": "16e42c213d4c"
   },
   "equity": {
     "customerBoundary": "当前仅展示具有正式来源的交易；管理人公开身份不等同于完整投资组合。",
@@ -2600,7 +2600,7 @@
     "pageDate": "2026-07-31",
     "scanAsOf": "2026-07-31",
     "scanCurrent": true,
-    "scanSlot": "morning",
+    "scanSlot": "midday",
     "scanStatus": "completed",
     "sourceAsOf": "2026-07-31",
     "sourceBoundary": "AMAC仅核验管理人身份与地域口径，不据此推定投资项目。"
@@ -17589,7 +17589,7 @@
       },
       "ma": {
         "evidence": [
-          "v2/data/source/ma/scans/scan-2026-07-31-morning.json"
+          "v2/data/source/ma/scans/scan-2026-07-31-midday.json"
         ],
         "ready": true,
         "releaseEligible": false,
@@ -17611,7 +17611,7 @@
       },
       "soe": {
         "evidence": [
-          "v2/data/source/soe/scans/scan-2026-07-31-morning.json"
+          "v2/data/source/soe/scans/scan-2026-07-31-midday.json"
         ],
         "ready": true,
         "releaseEligible": false,
@@ -17621,7 +17621,7 @@
       },
       "tender": {
         "evidence": [
-          "v2/data/source/tender/scans/scan-2026-07-31-morning.json"
+          "v2/data/source/tender/scans/scan-2026-07-31-midday.json"
         ],
         "ready": true,
         "releaseEligible": true,
@@ -17637,7 +17637,7 @@
       "sha256": "a9f6e663a3b857112c5b39c0c5d2610cb59f50212717b2fc40f83a6331593aa9",
       "standard": "v1-source-and-editorial-quality"
     },
-    "slot": "morning",
+    "slot": "midday",
     "sourceConstraints": [
       {
         "channel": "tender",
@@ -17657,7 +17657,7 @@
     "year": "eventDate 所在自然年；仅展示结构化源中真实存在的年份"
   },
   "scanAsOf": "2026-07-31",
-  "scanSlot": "morning",
+  "scanSlot": "midday",
   "schemaVersion": "2.2",
   "soe": {
     "available": true,
@@ -17670,6 +17670,22 @@
     ],
     "categoryRecords": {
       "产业经营": [
+        {
+          "candidateId": "soe-v2-5d548ec9bf5c37b41658",
+          "category": "产业经营",
+          "entities": [
+            "陕西煤业化工集团有限责任公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-31",
+          "sourceName": "陕煤集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429405&cid=33",
+          "title": "陕煤集团2026年审计数智化转型与实务能力提升培训班圆满举办",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-midday.json",
+          "verificationNote": "陕煤集团2026年审计数智化转型与实务能力提升培训班圆满举办- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系"
+        },
         {
           "candidateId": "soe-v2-f9f911e2169d2bb7d5b2",
           "category": "产业经营",
@@ -17733,22 +17749,6 @@
           "title": "北元集团金基催化剂合成氯乙烯技术通过鉴定",
           "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
           "verificationNote": "北元集团金基催化剂合成氯乙烯技术通过鉴定- 科技创新 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神"
-        },
-        {
-          "candidateId": "soe-v2-ab80f4ab28bf5f5860be",
-          "category": "产业经营",
-          "entities": [
-            "陕西煤业化工集团有限责任公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-30",
-          "sourceName": "陕煤集团官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429393&cid=38",
-          "title": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
-          "verificationNote": "铸魂强基育头雁，实干担当启新程——西安第二协作区开展党支部书记专题培训- 组织干部 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级"
         }
       ],
       "综合动态": [
@@ -17765,7 +17765,7 @@
           "sourceQuality": "official_public_disclosure",
           "sourceUrl": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202607/t20260731_3661955.html",
           "title": "【陕煤集团】彬长矿业救援中心：筑牢汛期安全防线 守护矿区生命通道 2026-07-31",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-morning.json",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-midday.json",
           "verificationNote": "【陕煤集团】彬长矿业救援中心：筑牢汛期安全防线 守护矿区生命通道-陕西省人民政府国有资产监督管理委员会 中国政府网 陕西省人民政府 繁简体 无障碍阅读 长者模式 新媒体分享 登录 注册 简体 繁体 EN 无障碍阅读 长者模式 新媒体分享 搜索 首页 机关简介 新闻动态 政务公开 驻委纪检监察组 互动交流 首页 > 国企之窗 > 学习园地 【陕煤集团】彬长矿业救援中心：筑牢汛期安全防线 守护矿区生命通道 时间：2026-07-31 来源：陕煤集团 分享： 扫一扫：分享至微信 X 当前，陕煤集团彬长矿区已进入 “七下八上”防汛关键期，强降雨、雷暴大风等极端恶劣天气频发，井下涌水、地表裂隙、设备受潮等安全风险急剧攀升。面对严峻的防汛形势，救援中心立足应急救援主责主业，精准研判雨情水情与井下灾变关联风险，细化防汛应急管"
         },
         {
@@ -18060,6 +18060,22 @@
     "eventOnScanDate": true,
     "focusRecords": [
       {
+        "candidateId": "soe-v2-5d548ec9bf5c37b41658",
+        "category": "产业经营",
+        "entities": [
+          "陕西煤业化工集团有限责任公司"
+        ],
+        "normalizationStatus": "official_source_verified",
+        "noveltyStatus": "verified_v2_import",
+        "publishedAt": "2026-07-31",
+        "sourceName": "陕煤集团官网",
+        "sourceQuality": "issuer_original",
+        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429405&cid=33",
+        "title": "陕煤集团2026年审计数智化转型与实务能力提升培训班圆满举办",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-midday.json",
+        "verificationNote": "陕煤集团2026年审计数智化转型与实务能力提升培训班圆满举办- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系"
+      },
+      {
         "candidateId": "soe-v2-12706d3fe4d52bcc0088",
         "category": "综合动态",
         "entities": [
@@ -18072,7 +18088,7 @@
         "sourceQuality": "official_public_disclosure",
         "sourceUrl": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202607/t20260731_3661955.html",
         "title": "【陕煤集团】彬长矿业救援中心：筑牢汛期安全防线 守护矿区生命通道 2026-07-31",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-morning.json",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-midday.json",
         "verificationNote": "【陕煤集团】彬长矿业救援中心：筑牢汛期安全防线 守护矿区生命通道-陕西省人民政府国有资产监督管理委员会 中国政府网 陕西省人民政府 繁简体 无障碍阅读 长者模式 新媒体分享 登录 注册 简体 繁体 EN 无障碍阅读 长者模式 新媒体分享 搜索 首页 机关简介 新闻动态 政务公开 驻委纪检监察组 互动交流 首页 > 国企之窗 > 学习园地 【陕煤集团】彬长矿业救援中心：筑牢汛期安全防线 守护矿区生命通道 时间：2026-07-31 来源：陕煤集团 分享： 扫一扫：分享至微信 X 当前，陕煤集团彬长矿区已进入 “七下八上”防汛关键期，强降雨、雷暴大风等极端恶劣天气频发，井下涌水、地表裂隙、设备受潮等安全风险急剧攀升。面对严峻的防汛形势，救援中心立足应急救援主责主业，精准研判雨情水情与井下灾变关联风险，细化防汛应急管"
       },
       {
@@ -18122,22 +18138,6 @@
         "title": "陕北矿业：铆足干劲实现“双过半”",
         "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
         "verificationNote": "陕北矿业：铆足干劲实现“双过半”- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神标识 核"
-      },
-      {
-        "candidateId": "soe-v2-aef269ac0bd271b71230",
-        "category": "产业经营",
-        "entities": [
-          "陕西煤业化工集团有限责任公司"
-        ],
-        "normalizationStatus": "official_source_verified",
-        "noveltyStatus": "verified_v2_import",
-        "publishedAt": "2026-07-30",
-        "sourceName": "陕煤集团官网",
-        "sourceQuality": "issuer_original",
-        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429399&cid=187",
-        "title": "北元集团金基催化剂合成氯乙烯技术通过鉴定",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
-        "verificationNote": "北元集团金基催化剂合成氯乙烯技术通过鉴定- 科技创新 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神"
       }
     ],
     "isAsOfFallback": false,
@@ -18148,19 +18148,19 @@
     ],
     "networkVerified": true,
     "pageDate": "2026-07-31",
-    "recordCount": 93,
+    "recordCount": 94,
     "rejectedCandidateCount": 0,
     "scanAsOf": "2026-07-31",
-    "scanEvidence": "v2/data/source/soe/scans/scan-2026-07-31-morning.json",
-    "scanSlot": "morning",
+    "scanEvidence": "v2/data/source/soe/scans/scan-2026-07-31-midday.json",
+    "scanSlot": "midday",
     "scanStatus": "completed",
     "sourceAsOf": "2026-07-31",
     "summary": {
       "earliestPublishedAt": "2026-05-21",
       "entityCount": 26,
       "latestPublishedAt": "2026-07-31",
-      "recordCount": 93,
-      "verifiedImportCount": 32
+      "recordCount": 94,
+      "verifiedImportCount": 33
     }
   },
   "sourceAsOf": {
@@ -18181,14 +18181,14 @@
       "channel-tender.webp": "v2/assets/channel-tender.webp"
     },
     "equityEvents": "v2/data/source/equity/events-2026.json",
-    "equityScanEvidence": "v2/data/source/equity/scans/scan-2026-07-31-morning.json",
+    "equityScanEvidence": "v2/data/source/equity/scans/scan-2026-07-31-midday.json",
     "equityUniverse": "v2/data/source/equity/universe.json",
     "eventStore": "v2/data/source/events/unified-2026.json",
     "listedBusinessTaxonomy": "v2/data/source/listed/business-taxonomy.json",
     "listedDaily": "v2/data/daily/listed/listed-official-2026-07-31.json",
     "listedUniverse": "v2/data/source/listed/universe.json",
     "maAnnual": "v2/data/source/ma/events-2026.json",
-    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-07-31-morning.json",
+    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-07-31-midday.json",
     "observationPool": "v2/data/source/observation-pool.json",
     "privateAnnual": "v2/data/source/private/products-2026.json",
     "privateProductEvidence": [
@@ -18197,10 +18197,10 @@
     ],
     "privateUniverse": "v2/data/daily/private/security-private-fund-daily-2026-07-31.json + v2/data/source/private/universe.json",
     "soeAnnual": "v2/data/source/soe/events-2026.json",
-    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-07-31-morning.json",
+    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-07-31-midday.json",
     "sourceContract": "v2/config/source-contract.json",
     "tenderAnnualProjects": "v2/data/source/tender/events-2026.json",
-    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-07-31-morning.json",
+    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-07-31-midday.json",
     "v1HistoryIndex": "v2/data/source/v1-history-index.json"
   },
   "tender": {
