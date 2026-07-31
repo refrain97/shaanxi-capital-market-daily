@@ -118,16 +118,10 @@ const businessMeta=row=>{
   return `<span class="business-path">${esc(business.category||"综合事项")} · ${esc(business.subcategory||"综合事项")}</span>${business.priority==="focus"?tag("业务重点","green"):""}${business.contentImportance?tag(business.contentImportance,business.contentImportance.includes("必看")||business.contentImportance==="内容重要"?"red":"gold"):""}<span class="targets">关注：${esc((business.targets||["公司公告"]).join("、"))}</span>`;
 };
 const newsReference=({row,company,title,text})=>`<article class="news-reference"><div><b>${esc(company)}</b><span>${esc(title)}</span><p>${esc(text)}</p></div><a href="#${esc(row.referenceAnchor)}">查看主事项 →</a></article>`;
-const newsSources=row=>{
-  const rows=(row.sources||[]).filter(item=>item&&item.sourceUrl);
-  if(!rows.length&&row.sourceUrl)rows.push({sourceUrl:row.sourceUrl,announcementTitle:row.sourceName||"公告"});
-  if(!rows.length)return `<span class="row-source pending-source">待核验</span>`;
-  return `<div class="row-sources">${rows.map((item,index)=>`<a class="row-source" href="${esc(item.sourceUrl)}" target="_blank" rel="noopener noreferrer" title="${esc(item.announcementTitle)}">${rows.length>1?`公告${index+1}`:"公告"}</a>`).join("")}</div>`;
-};
 const newsRow=({row,company,title,text,numbers="",follow=""})=>{
   if(row.isReference)return newsReference({row,company,title,text});
   const detailId=row.canonicalDetailId||row.focusAnchorId||"";
-  return `<article class="news-row${detailId?" canonical-detail":""}"${detailId?` id="${esc(detailId)}" tabindex="-1"`:""}><div class="news-company"><b>${esc(company)}</b><span>${esc(title||"")}</span><time>${esc(monthDay(row.publishedAt))}</time></div><div class="news-main"><div class="news-meta">${businessMeta(row)}</div>${numbers?`<div class="news-numbers">${numbers}</div>`:""}<p>${esc(text)}</p>${follow?`<small><b>关注要点：</b>${esc(follow)}</small>`:""}</div>${newsSources(row)}</article>`;
+  return `<article class="news-row${detailId?" canonical-detail":""}"${detailId?` id="${esc(detailId)}" tabindex="-1"`:""}><div class="news-company"><b>${esc(company)}</b><span>${esc(title||"")}</span><time>${esc(monthDay(row.publishedAt))}</time></div><div class="news-main"><div class="news-meta">${businessMeta(row)}</div>${numbers?`<div class="news-numbers">${numbers}</div>`:""}<p>${esc(text)}</p>${follow?`<small><b>关注要点：</b>${esc(follow)}</small>`:""}</div></article>`;
 };
 
 function home(data){

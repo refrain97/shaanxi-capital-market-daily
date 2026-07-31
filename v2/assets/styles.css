@@ -68,10 +68,11 @@ body[data-page=listed] .page-toc{padding:8px}
 body[data-page=listed] .page-toc a{padding:7px 9px;font-size:12px}
 body[data-page=listed] .dense-section>header{margin-bottom:11px}
 body[data-page=listed] .news-row{
-  grid-template-columns:136px minmax(0,1fr) 58px;
+  grid-template-columns:136px minmax(0,1fr);
   gap:14px;
-  align-items:start;
-  padding:11px 13px
+  align-items:stretch;
+  min-height:126px;
+  padding:12px 13px
 }
 body[data-page=listed] .news-company{min-width:0}
 body[data-page=listed] .news-company b{font-size:16px;line-height:1.35}
@@ -90,18 +91,6 @@ body[data-page=listed] .news-main small{
   line-height:1.5
 }
 body[data-page=listed] .news-meta{margin-bottom:5px}
-body[data-page=listed] .row-sources{align-self:start;gap:6px}
-body[data-page=listed] .row-source{
-  display:inline-flex;
-  min-height:27px;
-  align-items:center;
-  justify-content:center;
-  padding:3px 7px;
-  border:1px solid #d7e0e7;
-  border-radius:6px;
-  background:#f7fafb;
-  white-space:nowrap
-}
 body[data-page=listed] .focus-hit-list{border-radius:8px;overflow:hidden}
 body[data-page=listed] .focus-company-link{padding:11px 13px}
 body[data-page=listed] .focus-company-link:nth-child(odd){border-right:1px solid #eee8df}
@@ -117,7 +106,7 @@ body[data-page=listed] .focus-hit-list small{margin-top:5px;line-height:1.5}
   }
   body[data-page=listed] .page-toc a{scroll-snap-align:start}
   body[data-page=listed] .page-toc::-webkit-scrollbar{display:none}
-  body[data-page=listed] .news-row{grid-template-columns:108px minmax(0,1fr) 58px}
+  body[data-page=listed] .news-row{grid-template-columns:108px minmax(0,1fr)}
 }
 
 @media(max-width:520px){
@@ -174,6 +163,7 @@ body[data-page=equity] .embedded-pool small{display:block;margin-top:4px;font-si
   body[data-page=listed] .news-row{
     grid-template-columns:88px minmax(0,1fr);
     gap:9px;
+    min-height:0;
     padding:11px 9px
   }
   body[data-page=listed] .news-company{padding-right:8px}
@@ -183,14 +173,6 @@ body[data-page=equity] .embedded-pool small{display:block;margin-top:4px;font-si
   body[data-page=listed] .news-main p{font-size:14px;line-height:1.55}
   body[data-page=listed] .news-main small{font-size:13px;line-height:1.55}
   body[data-page=listed] .targets{font-size:12px}
-  body[data-page=listed] .row-sources{
-    grid-column:2;
-    display:flex;
-    flex-wrap:wrap;
-    gap:8px 10px;
-    padding-top:2px
-  }
-  body[data-page=listed] .row-source{min-height:36px;padding:5px 9px}
   body[data-page=listed] .focus-tag{
     min-height:34px;
     padding:6px 10px;

@@ -40,27 +40,27 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-07-31.json",
-        "sha256": "0d7fa36f38c3ebc0c9ec15d376eaeef42996fe144746849915bd07c9ab1e01da"
+        "sha256": "2b30d01250e44cad88e68f57ba185b77543b9d85b422006d3e3f0e0a86f7a715"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-07-31.json",
-        "sha256": "734b2ac00adf53146af6d639205bb5c1100a611e5bc384b52d48c0feaa87fa7e"
+        "sha256": "3dd4585f9ca56fa09a759a127106aee71aac192da02d3058dc73f50d4ef0439f"
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-07-31.json",
         "sha256": "4b466e4ccaf57fd8d003e03b980168bbb3f567cdafdf52f0f529c7678e542514"
       },
       {
-        "path": "v2/data/readiness/v2-ready-2026-07-31-morning.json",
-        "sha256": "d9eaf8d9e3ef7b6cef24a3189a7499d8fb5d2368c357eac8c275fa3e4b9db94a"
+        "path": "v2/data/readiness/v2-ready-2026-07-31-closing.json",
+        "sha256": "78bc8ce9fd4da55774b2a55169f416257eb1d218e1560c8ca26267d19b206afe"
       },
       {
         "path": "v2/data/source/equity/events-2026.json",
         "sha256": "9f183472f97bcd97ac57fe6cec939e145a9e453ea9de7b85117ba666df67030f"
       },
       {
-        "path": "v2/data/source/equity/scans/scan-2026-07-31-morning.json",
-        "sha256": "b3147f0cb1b681d4d93eb817700e79fc7023a79528e2e3128ca8fc4f966cc5bf"
+        "path": "v2/data/source/equity/scans/scan-2026-07-31-closing.json",
+        "sha256": "9cc1ed1c302ac8677417fdf1fffed6ce6d61d3191eb15650cca6b64c5ce70dc3"
       },
       {
         "path": "v2/data/source/equity/universe.json",
@@ -68,7 +68,7 @@
       },
       {
         "path": "v2/data/source/events/unified-2026.json",
-        "sha256": "b829bdb1ed0b09315e4a2340519e46b89848481c471663c5d71adceb780f6d5a"
+        "sha256": "238d6c5af99c322d35ad8152d21c57f8c82deaeb739cd427ac4795de69cf83da"
       },
       {
         "path": "v2/data/source/listed/business-taxonomy.json",
@@ -83,8 +83,8 @@
         "sha256": "db41a0782237483409087b4a475da0c950cd0b013118b8b62d603129625a21cb"
       },
       {
-        "path": "v2/data/source/ma/scans/scan-2026-07-31-morning.json",
-        "sha256": "0881d8f79788a25ae27899e27e99684546b06bf2b7ba937674ffe65756d29d54"
+        "path": "v2/data/source/ma/scans/scan-2026-07-31-closing.json",
+        "sha256": "d17164a14bb6f0eaa8c8507383caf072effe267e3d24be80be6be29ea7bbd7a5"
       },
       {
         "path": "v2/data/source/observation-pool.json",
@@ -100,23 +100,23 @@
       },
       {
         "path": "v2/data/source/soe/events-2026.json",
-        "sha256": "06ba88fa0e1613f7ca2a24b00db78758893aabaa2b0ce572ab4c44da030e1bf9"
+        "sha256": "d469f3fc5599ebbf4e83de83676034bf7d9043d9b3008e176bb3965ae088f50b"
       },
       {
-        "path": "v2/data/source/soe/evidence/verified-2026-07-31-morning.json",
-        "sha256": "0c656e35ed55f1702490b96558049aa77d2b13d26d711e49a9304d2f230f9069"
+        "path": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
+        "sha256": "dc54ea1381f78e0b94495c9db62358297b0cfc1e72c4209653828a41d8095692"
       },
       {
-        "path": "v2/data/source/soe/scans/scan-2026-07-31-morning.json",
-        "sha256": "c575438563116410b491bdad434998700928cb04affa24c65e1cbf57c25228e6"
+        "path": "v2/data/source/soe/scans/scan-2026-07-31-closing.json",
+        "sha256": "fb1843c7ebf33bc8ac5c9a6a875a522d3e8256689b30fdf3839f77c5a183dc37"
       },
       {
         "path": "v2/data/source/tender/events-2026.json",
         "sha256": "ea7e447cbeb90b12aac35e299051493509345bf806416b01d660ed20a9738766"
       },
       {
-        "path": "v2/data/source/tender/scans/scan-2026-07-31-morning.json",
-        "sha256": "8de4cc5c0107f09a3f2ef04f776e6c87978b584ba127fb12a64faf589850727e"
+        "path": "v2/data/source/tender/scans/scan-2026-07-31-closing.json",
+        "sha256": "dfba37e15f981e20c937c13048c1f804a507ae4836d3cbe53f8badfd0654d315"
       },
       {
         "path": "v2/data/source/v1-history-index.json",
@@ -149,10 +149,10 @@
     ],
     "mode": "repeatable-derived-artifact",
     "notice": "本快照由列示规范数据与结构化证据稳定生成。",
-    "readiness": "v2/data/readiness/v2-ready-2026-07-31-morning.json",
+    "readiness": "v2/data/readiness/v2-ready-2026-07-31-closing.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "7bcbb6e261f4"
+    "version": "485ee3cf19fd"
   },
   "equity": {
     "customerBoundary": "当前仅展示具有正式来源的交易；管理人公开身份不等同于完整投资组合。",
@@ -2600,7 +2600,7 @@
     "pageDate": "2026-07-31",
     "scanAsOf": "2026-07-31",
     "scanCurrent": true,
-    "scanSlot": "morning",
+    "scanSlot": "closing",
     "scanStatus": "completed",
     "sourceAsOf": "2026-07-31",
     "sourceBoundary": "AMAC仅核验管理人身份与地域口径，不据此推定投资项目。"
@@ -3266,479 +3266,6 @@
           "whyImportant": "该节点改变后续融资落地的确定性，实际摊薄与资金效益仍取决于注册、发行及募投执行；后续关注证监会注册批复、发行价格、认购结构及募投项目落地。"
         },
         {
-          "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
-          "attention": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "并购重组",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "并购重组",
-          "canonicalDetailId": "listed-detail-ab6a50bd4e-004a7853",
-          "company": "华天科技",
-          "conclusion": "标的资产增值率相较于可比交易具备合理性经整理近期标的公司主营业务产品涵盖功率半导体的可比交易案例，可比交易案例的市净率具体情况如下： 序号上市公司交易标的标的公司主营业务评估基准日市净率（倍） 1 高新发展森未科技 28.51%股权 IGBT 等功率半导体器件 2022/5/31 3.12 2 捷捷微电捷捷南通科技 30.24%股权功率半导体芯片 202。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-            "keyFigures": [
-              "28.51%",
-              "30.24%"
-            ],
-            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-            "passed": true,
-            "stage": "audit_valuation",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449582"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "收并购",
-          "eventType": "ma",
-          "homepageEligible": false,
-          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-8a7f40bd24cbe78532",
-          "lifecycleStage": "audit_valuation",
-          "lifecycleStatus": "active",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "收并购",
-          "matter_id": "listed-matter-da165f0dc7fd4b",
-          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "numbersHtml": "标的资产增值率相较于可比交易具备合理性经整理近期标的公司主营业务产品涵盖功率半导体的可比交易案例，可比交易案例的市净率具体情况如下： 序号上市公司交易标的标的公司主营业务评估基准日市净率（倍） 1 高新发展森未科技 28.51%股权 IGBT 等功率半导体器件 2022/5/31 3.12 2 捷捷微电捷捷南通科技 30.24%股权功率半导体芯片 202。",
-          "planId": "并购重组",
-          "previousStage": "progress",
-          "publishedAt": "2026-07-31",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449582.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449582",
-              "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449582.PDF"
-            },
-            {
-              "announcementId": "1225449583",
-              "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函》回复之专项核查意见（修订稿）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449583.PDF"
-            }
-          ],
-          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
-        },
-        {
-          "announcementTitle": "关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函的回复（修订稿）",
-          "attention": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "并购重组",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "并购重组",
-          "canonicalDetailId": "listed-detail-ab6a50bd4e-5f823829",
-          "company": "华天科技",
-          "conclusion": "（5） 聚源绍兴基金、小米产业基金属于私募投资基金且于上市公司关于本次交易的首次董事会决议公告时对用于认购新增股份的标的资产股权持续拥有权益的时间已满 48 个月，相应的新增股份于证券登记结算机构登记至交易对方名下之日起 6 个月内不得上市交易或转让。合伙人情况截至本回复出具之日；当前节点：问询回复。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-            "keyFigures": [
-              "48 个月",
-              "6 个月"
-            ],
-            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-            "passed": true,
-            "stage": "inquiry_reply",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449576"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "收并购",
-          "eventType": "ma",
-          "homepageEligible": false,
-          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-0c9da44e79bfc0f84f",
-          "lifecycleStage": "inquiry_reply",
-          "lifecycleStatus": "active",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "收并购",
-          "matter_id": "listed-matter-3dca0bc2b8266d",
-          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "numbersHtml": "（5） 聚源绍兴基金、小米产业基金属于私募投资基金且于上市公司关于本次交易的首次董事会决议公告时对用于认购新增股份的标的资产股权持续拥有权益的时间已满 48 个月，相应的新增股份于证券登记结算机构登记至交易对方名下之日起 6 个月内不得上市交易或转让。合伙人情况截至本回复出具之日；当前节点：问询回复。",
-          "planId": "购买资产并募集配套资金申请的审核问询函的回复(修订稿)关于天水华天科技股份",
-          "previousStage": "",
-          "publishedAt": "2026-07-31",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449576.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449576",
-              "announcementTitle": "关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函的回复（修订稿）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449576.PDF"
-            }
-          ],
-          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
-        },
-        {
-          "announcementTitle": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）修订说明的公告",
-          "attention": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "并购重组",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "并购重组",
-          "canonicalDetailId": "listed-detail-ab6a50bd4e-79a23eac",
-          "company": "华天科技",
-          "conclusion": "公司于 2026 年 6 月 17 日召开第八届董事会第十六次会议，审议通过了《关于〈天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）〉及其摘要的议案》《关于确认本次交易相关加期审计报告、备考审阅报告的议案》；当前节点：方案审议。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-            "keyFigures": [
-              "2026 年",
-              "17 日"
-            ],
-            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-            "passed": true,
-            "stage": "board_plan",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449575"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "收并购",
-          "eventType": "ma",
-          "homepageEligible": false,
-          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-f25af8c0403a325ec5",
-          "lifecycleStage": "board_plan",
-          "lifecycleStatus": "active",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "收并购",
-          "matter_id": "listed-matter-56ce69cc0f55c9",
-          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "numbersHtml": "公司于 2026 年 6 月 17 日召开第八届董事会第十六次会议，审议通过了《关于〈天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）〉及其摘要的议案》《关于确认本次交易相关加期审计报告、备考审阅报告的议案》；当前节点：方案审议。",
-          "planId": "购买天水华天电子集团股份",
-          "previousStage": "",
-          "publishedAt": "2026-07-31",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449575.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449575",
-              "announcementTitle": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）修订说明的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449575.PDF"
-            }
-          ],
-          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
-        },
-        {
-          "announcementTitle": "中联资产评估咨询（上海）有限公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
-          "attention": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "并购重组",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "并购重组",
-          "canonicalDetailId": "listed-detail-ab6a50bd4e-7d797786",
-          "company": "华天科技",
-          "conclusion": "标的资产增值率相较于可比交易具备合理性经整理近期标的公司主营业务产品涵盖功率半导体的可比交易案例，可比交易案例的市净率具体情况如下： 序号上市公司交易标的标的公司主营业务评估基准日市净率（倍） 1 高新发展森未科技 28.51%股权 IGBT 等功率半导体器件 2022/5/31 3.12 2 捷捷微电捷捷南通科技 30.24%股权功率半导体芯片 202。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-            "keyFigures": [
-              "28.51%",
-              "30.24%"
-            ],
-            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-            "passed": true,
-            "stage": "audit_valuation",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449578"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "收并购",
-          "eventType": "ma",
-          "homepageEligible": false,
-          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-03aba1e263e3853e17",
-          "lifecycleStage": "audit_valuation",
-          "lifecycleStatus": "active",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "收并购",
-          "matter_id": "listed-matter-acc827edd1ff50",
-          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "numbersHtml": "标的资产增值率相较于可比交易具备合理性经整理近期标的公司主营业务产品涵盖功率半导体的可比交易案例，可比交易案例的市净率具体情况如下： 序号上市公司交易标的标的公司主营业务评估基准日市净率（倍） 1 高新发展森未科技 28.51%股权 IGBT 等功率半导体器件 2022/5/31 3.12 2 捷捷微电捷捷南通科技 30.24%股权功率半导体芯片 202。",
-          "planId": "购买资产并募集配套资金申请的专项核查函》之专项回复中联资产",
-          "previousStage": "",
-          "publishedAt": "2026-07-31",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449578.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449578",
-              "announcementTitle": "中联资产评估咨询（上海）有限公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449578.PDF"
-            }
-          ],
-          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
-        },
-        {
-          "announcementTitle": "天水华天科技股份公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
-          "attention": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "并购重组",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "并购重组",
-          "canonicalDetailId": "listed-detail-ab6a50bd4e-6f93e535",
-          "company": "华天科技",
-          "conclusion": "标的资产增值率相较于可比交易具备合理性经整理近期标的公司主营业务产品涵盖功率半导体的可比交易案例，可比交易案例的市净率具体情况如下： 序号上市公司交易标的标的公司主营业务评估基准日市净率（倍） 1 高新发展森未科技 28.51%股权 IGBT 等功率半导体器件 2022/5/31 3.12 2 捷捷微电捷捷南通科技 30.24%股权功率半导体芯片 202。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-            "keyFigures": [
-              "28.51%",
-              "30.24%"
-            ],
-            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-            "passed": true,
-            "stage": "audit_valuation",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449577"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "收并购",
-          "eventType": "ma",
-          "homepageEligible": false,
-          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-31aecd432621b3201c",
-          "lifecycleStage": "audit_valuation",
-          "lifecycleStatus": "active",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "收并购",
-          "matter_id": "listed-matter-befb32b7c5df42",
-          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "numbersHtml": "标的资产增值率相较于可比交易具备合理性经整理近期标的公司主营业务产品涵盖功率半导体的可比交易案例，可比交易案例的市净率具体情况如下： 序号上市公司交易标的标的公司主营业务评估基准日市净率（倍） 1 高新发展森未科技 28.51%股权 IGBT 等功率半导体器件 2022/5/31 3.12 2 捷捷微电捷捷南通科技 30.24%股权功率半导体芯片 202。",
-          "planId": "购买资产并募集配套资金申请的专项核查函》之专项回复天水华天科技股份",
-          "previousStage": "",
-          "publishedAt": "2026-07-31",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449577.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449577",
-              "announcementTitle": "天水华天科技股份公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449577.PDF"
-            }
-          ],
-          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
-        },
-        {
-          "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）摘要（修订稿）",
-          "attention": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "并购重组",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "并购重组",
-          "canonicalDetailId": "listed-detail-ab6a50bd4e-2487fcce",
-          "company": "华天科技",
-          "conclusion": "交易金额及对价支付方式 （1）交易金额及对价情况标的资产的交易价格参考《评估报告》所载明的截至评估基准日的标的公司股东全部权益的评估值 299,600.00 万元，经各方协商确定；当前节点：方案审议。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-            "keyFigures": [
-              "299,600.00 万元"
-            ],
-            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-            "passed": true,
-            "stage": "board_plan",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449586"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "收并购",
-          "eventType": "ma",
-          "homepageEligible": false,
-          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-ddc82ff8b3dcffb5a4",
-          "lifecycleStage": "board_plan",
-          "lifecycleStatus": "active",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "收并购",
-          "matter_id": "listed-matter-7a6df0a51bc5e7",
-          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "numbersHtml": "交易金额及对价支付方式 （1）交易金额及对价情况标的资产的交易价格参考《评估报告》所载明的截至评估基准日的标的公司股东全部权益的评估值 299,600.00 万元，经各方协商确定；当前节点：方案审议。",
-          "planId": "购买资产并募集配套资金暨关联交易报告书(草案)(摘要)(修订稿)交易类型交易对方名称发行股份",
-          "previousStage": "",
-          "publishedAt": "2026-07-31",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449586.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449586",
-              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）摘要（修订稿）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449586.PDF"
-            }
-          ],
-          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
-        },
-        {
           "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）",
           "attention": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
           "business": {
@@ -3753,9 +3280,9 @@
             ]
           },
           "businessSubcategory": "并购重组",
-          "canonicalDetailId": "listed-detail-ab6a50bd4e-75b39494",
+          "canonicalDetailId": "listed-detail-ab6a50bd4e-99ab46f1",
           "company": "华天科技",
-          "conclusion": "交易金额及对价支付方式 （1）交易金额及对价情况标的资产的交易价格参考《评估报告》所载明的截至评估基准日的标的公司股东全部权益的评估值 299,600.00 万元，经各方协商确定；当前节点：方案审议。",
+          "conclusion": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金；本次更新重组报告书及问询回复，交易仍处于深交所审核阶段；当前节点：问询回复。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -3769,15 +3296,17 @@
             "genericTitleRewrite": false,
             "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
             "keyFigures": [
-              "299,600.00 万元"
+              "100%",
+              "29.96亿元"
             ],
             "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
             "passed": true,
-            "stage": "board_plan",
+            "stage": "inquiry_reply",
             "stageEvidence": {
               "mode": "current_source_semantics",
               "sourceIds": [
-                "1225449585"
+                "1225449576",
+                "1225449583"
               ]
             },
             "standard": "v2-substantive-five-field"
@@ -3789,16 +3318,16 @@
           "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
           "importance": "重点",
           "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-4a24dd05a46ac0cc75",
-          "lifecycleStage": "board_plan",
+          "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+          "lifecycleStage": "inquiry_reply",
           "lifecycleStatus": "active",
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
           "matterType": "收并购",
-          "matter_id": "listed-matter-2a72cbd1d0ce5d",
+          "matter_id": "listed-matter-5ef1be98254bb7",
           "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "numbersHtml": "交易金额及对价支付方式 （1）交易金额及对价情况标的资产的交易价格参考《评估报告》所载明的截至评估基准日的标的公司股东全部权益的评估值 299,600.00 万元，经各方协商确定；当前节点：方案审议。",
-          "planId": "购买资产并募集配套资金暨关联交易报告书(草案)(修订稿)交易类型交易对方名称发行股份",
+          "numbersHtml": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金；本次更新重组报告书及问询回复，交易仍处于深交所审核阶段；当前节点：问询回复。",
+          "planId": "发行股份及支付现金购买资产并募集配套资金",
           "previousStage": "",
           "publishedAt": "2026-07-31",
           "sourceConfidence": "verified-curated-matter-sources",
@@ -3811,6 +3340,66 @@
               "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449585.PDF"
+            },
+            {
+              "announcementId": "1225449576",
+              "announcementTitle": "关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函的回复（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449576.PDF"
+            },
+            {
+              "announcementId": "1225449586",
+              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）摘要（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449586.PDF"
+            },
+            {
+              "announcementId": "1225449584",
+              "announcementTitle": "北京市竞天公诚律师事务所关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之补充法律意见书（二）（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449584.PDF"
+            },
+            {
+              "announcementId": "1225449583",
+              "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函》回复之专项核查意见（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449583.PDF"
+            },
+            {
+              "announcementId": "1225449582",
+              "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449582.PDF"
+            },
+            {
+              "announcementId": "1225449580",
+              "announcementTitle": "中联资产评估咨询（上海）有限公司关于深圳证券交易所《天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函》回复之专项核查意见（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449580.PDF"
+            },
+            {
+              "announcementId": "1225449579",
+              "announcementTitle": "华泰联合证券有限责任公司关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449579.PDF"
+            },
+            {
+              "announcementId": "1225449578",
+              "announcementTitle": "中联资产评估咨询（上海）有限公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449578.PDF"
+            },
+            {
+              "announcementId": "1225449577",
+              "announcementTitle": "天水华天科技股份公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449577.PDF"
+            },
+            {
+              "announcementId": "1225449575",
+              "announcementTitle": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）修订说明的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449575.PDF"
             }
           ],
           "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
@@ -3909,7 +3498,7 @@
           "businessSubcategory": "现金管理",
           "canonicalDetailId": "listed-detail-sanjiao-fangwu-44e3ec93",
           "company": "三角防务",
-          "conclusion": "三角防务本次到期赎回2笔现金管理产品，收回本金合计4,000万元、取得收益216.37万元；披露的预期年化收益率为2.90%；当前节点：到期赎回。",
+          "conclusion": "三角防务本次赎回农业银行“大额可转让存单”共2笔，收回本金合计4,000万元、取得收益216.37万元，预期年化收益率2.90%；公告日自有资金现金管理未到期余额60,900.00 万元；当前节点：到期赎回。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -3925,7 +3514,8 @@
             "keyFigures": [
               "4,000万元",
               "216.37万元",
-              "2.90%"
+              "2.90%",
+              "60,900.00 万元"
             ],
             "nextObservation": "后续关注产品到期赎回、实际收益、未到期余额及授权额度。",
             "passed": true,
@@ -3953,7 +3543,7 @@
           "matterType": "现金管理",
           "matter_id": "listed-matter-4b74eecaad53dd",
           "nextObservation": "后续关注产品到期赎回、实际收益、未到期余额及授权额度。",
-          "numbersHtml": "三角防务本次到期赎回2笔现金管理产品，收回本金合计4,000万元、取得收益216.37万元；披露的预期年化收益率为2.90%；当前节点：到期赎回。",
+          "numbersHtml": "三角防务本次赎回农业银行“大额可转让存单”共2笔，收回本金合计4,000万元、取得收益216.37万元，预期年化收益率2.90%；公告日自有资金现金管理未到期余额60,900.00 万元；当前节点：到期赎回。",
           "planId": "现金管理",
           "previousStage": "authorized",
           "publishedAt": "2026-07-30",
@@ -3979,21 +3569,23 @@
         {
           "items": [
             {
-              "announcementTitle": "西安铂力特增材技术股份第三届董事会第三十一次会议决议公告",
-              "body": "（二）审议通过了《关于公司及全资子公司增加 2026 年度银行授信及融资额度的议案》 为满足公司经营和市场拓展业务发展需要，提高资金营运能力，公司及全资子公司本次拟增加 2026 年度向银行等金融机构申请人民币及外币融资额度不超过人民币 10 亿元，增加后的 2026 年度融资总额度合计不超过等值人民币 39.5 亿元。本次会议由董事长薛蕾先生主持。",
+              "announcementTitle": "西安铂力特增材技术股份有限公司关于董事会换届选举的公告",
+              "body": "铂力特启动第四届董事会换届；非独立董事候选人为折生阳、薛蕾、赵晓明、贾鑫、孙晓梅；独立董事候选人为徐亚东、赵嵩正、黄宾；职工代表董事为杨东辉；非职工董事尚需股东会选举；当前节点：人员或制度变更。",
               "business": {
-                "category": "综合事项",
+                "category": "治理关系",
                 "contentImportance": "固定披露",
                 "priority": "standard",
-                "subcategory": "综合事项",
+                "subcategory": "章程治理",
                 "targets": [
-                  "董秘办"
+                  "董秘办",
+                  "证券事务代表",
+                  "管理层"
                 ]
               },
               "businessSubcategory": "治理变更",
               "canonicalDetailId": "listed-detail-3ec74e1721-d1c1484d",
               "company": "铂力特",
-              "conclusion": "（二）审议通过了《关于公司及全资子公司增加 2026 年度银行授信及融资额度的议案》 为满足公司经营和市场拓展业务发展需要，提高资金营运能力，公司及全资子公司本次拟增加 2026 年度向银行等金融机构申请人民币及外币融资额度不超过人民币 10 亿元，增加后的 2026 年度融资总额度合计不超过等值人民币 39.5 亿元。本次会议由董事长薛蕾先生主持。",
+              "conclusion": "铂力特启动第四届董事会换届；非独立董事候选人为折生阳、薛蕾、赵晓明、贾鑫、孙晓梅；独立董事候选人为徐亚东、赵嵩正、黄宾；职工代表董事为杨东辉；非职工董事尚需股东会选举；当前节点：人员或制度变更。",
               "contentQuality": {
                 "checks": {
                   "actualFact": true,
@@ -4006,20 +3598,16 @@
                 },
                 "genericTitleRewrite": false,
                 "impact": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
-                "keyFigures": [
-                  "2026 年",
-                  "2026 年",
-                  "10 亿元",
-                  "2026 年",
-                  "39.5 亿元"
-                ],
+                "keyFigures": [],
                 "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
                 "passed": true,
                 "stage": "changed",
                 "stageEvidence": {
                   "mode": "current_source_semantics",
                   "sourceIds": [
-                    "1225449358"
+                    "1225449358#agenda-3",
+                    "1225449358#agenda-4",
+                    "1225449363"
                   ]
                 },
                 "standard": "v2-substantive-five-field"
@@ -4045,13 +3633,67 @@
               "sourceConfidence": "verified-curated-matter-sources",
               "sourceKeyword": "V2精读事项来源组",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449358.PDF",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449363.PDF",
               "sources": [
                 {
+                  "announcementId": "1225449363",
+                  "announcementTitle": "西安铂力特增材技术股份有限公司关于董事会换届选举的公告",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449363.PDF"
+                },
+                {
                   "announcementId": "1225449358",
-                  "announcementTitle": "西安铂力特增材技术股份第三届董事会第三十一次会议决议公告",
+                  "announcementTitle": "关于提名公司第四届董事会非独立董事候选人的议案",
                   "sourceName": "巨潮资讯",
                   "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449358.PDF"
+                },
+                {
+                  "announcementId": "1225449353",
+                  "announcementTitle": "西安铂力特增材技术股份有限公司关于选举职工代表董事的公告",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449353.PDF"
+                },
+                {
+                  "announcementId": "1225449368",
+                  "announcementTitle": "西安铂力特增材技术股份有限公司独立董事提名人声明与承诺（黄宾）",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449368.PDF"
+                },
+                {
+                  "announcementId": "1225449367",
+                  "announcementTitle": "西安铂力特增材技术股份有限公司独立董事提名人声明与承诺（徐亚东）",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449367.PDF"
+                },
+                {
+                  "announcementId": "1225449366",
+                  "announcementTitle": "西安铂力特增材技术股份有限公司独立董事候选人声明与承诺（赵嵩正）",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449366.PDF"
+                },
+                {
+                  "announcementId": "1225449365",
+                  "announcementTitle": "西安铂力特增材技术股份有限公司董事会提名委员会关于第四届董事会董事候选人的审查意见",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449365.PDF"
+                },
+                {
+                  "announcementId": "1225449364",
+                  "announcementTitle": "西安铂力特增材技术股份有限公司独立董事提名人声明与承诺（赵嵩正）",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449364.PDF"
+                },
+                {
+                  "announcementId": "1225449362",
+                  "announcementTitle": "西安铂力特增材技术股份有限公司独立董事候选人声明与承诺（黄宾）",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449362.PDF"
+                },
+                {
+                  "announcementId": "1225449355",
+                  "announcementTitle": "西安铂力特增材技术股份有限公司独立董事候选人声明与承诺（徐亚东）",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449355.PDF"
                 }
               ],
               "title": "铂力特｜重大治理变更",
@@ -4059,7 +3701,7 @@
             },
             {
               "announcementTitle": "西安铂力特增材技术股份有限公司关于召开2026年第一次临时股东会的通知",
-              "body": "如某股东持有上市公司 100 股股票，该次股东会应选董事 10 名，董事候选人有 12 名，则该股东对于董事会选举议案组，拥有 1000 股的选举票数。西安铂力特增材技术股份有限公司董事会 2026 年 7 月 31 日附件 1：授权委托书附件 2：采用累积投票制选举董事、独立董事的投票方式说明附件 1：授权委托书授权委托书西安铂力特增材技术股份有限公司。",
+              "body": "铂力特拟于2026年8月17日召开股东会，审议关联采购框架合同、增加银行授信及融资额度、选举5名非独立董事、选举3名独立董事。",
               "business": {
                 "category": "治理关系",
                 "contentImportance": "固定披露",
@@ -4074,7 +3716,7 @@
               "businessSubcategory": "章程治理",
               "canonicalDetailId": "listed-detail-3ec74e1721-3aca9eb2",
               "company": "铂力特",
-              "conclusion": "如某股东持有上市公司 100 股股票，该次股东会应选董事 10 名，董事候选人有 12 名，则该股东对于董事会选举议案组，拥有 1000 股的选举票数。西安铂力特增材技术股份有限公司董事会 2026 年 7 月 31 日附件 1：授权委托书附件 2：采用累积投票制选举董事、独立董事的投票方式说明附件 1：授权委托书授权委托书西安铂力特增材技术股份有限公司。",
+              "conclusion": "铂力特拟于2026年8月17日召开股东会，审议关联采购框架合同、增加银行授信及融资额度、选举5名非独立董事、选举3名独立董事。",
               "contentQuality": {
                 "checks": {
                   "actualFact": true,
@@ -4088,12 +3730,10 @@
                 "genericTitleRewrite": false,
                 "impact": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
                 "keyFigures": [
-                  "100 股",
-                  "10 名",
-                  "12 名",
-                  "1000 股",
-                  "2026 年",
-                  "31 日"
+                  "2026年",
+                  "17日",
+                  "5名",
+                  "3名"
                 ],
                 "nextObservation": "后续关注已通过议案执行及相关工商或资金安排。",
                 "passed": true,
@@ -4504,7 +4144,8 @@
                 "stageEvidence": {
                   "mode": "current_source_semantics",
                   "sourceIds": [
-                    "1225447376",
+                    "1225447376#agenda-1",
+                    "1225447376#agenda-3",
                     "1225447377"
                   ]
                 },
@@ -4541,7 +4182,7 @@
                 },
                 {
                   "announcementId": "1225447376",
-                  "announcementTitle": "第七届董事会第一次会议决议公告",
+                  "announcementTitle": "关于选举第七届董事会董事长的议案",
                   "sourceName": "巨潮资讯",
                   "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447376.PDF"
                 }
@@ -4781,7 +4422,7 @@
           },
           "businessSubcategory": "关联交易",
           "company": "铂力特",
-          "conclusion": "关联交易的审议程序 （一）董事会审议情况公司于 2026 年 7 月 30 日召开第三届董事会第三十一次会议，审议通过《关于与关联方签订采购框架合同暨关联交易的议案》，表决结果：6 票同意，0 票反对，0 票弃权，3 票回避。",
+          "conclusion": "铂力特拟与关联方北京正时精控科技有限公司签订采购框架合同，采购器件、材料、成品及相关服务，合同金额合计约1.51 亿元；有效期1 年；尚需股东会审议，实际交易额以订单执行为准。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -4795,8 +4436,8 @@
             "genericTitleRewrite": false,
             "impact": "关联交易已经进入审议或执行节点，需结合交易定价、公允性、额度及实际履行情况评估对经营和治理的影响。",
             "keyFigures": [
-              "2026 年",
-              "30 日"
+              "1.51 亿元",
+              "1 年"
             ],
             "nextObservation": "后续关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
             "passed": true,
@@ -4828,6 +4469,12 @@
               "announcementTitle": "西安铂力特增材技术股份有限公司关于与关联方签订采购框架合同暨关联交易的公告",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449360.PDF"
+            },
+            {
+              "announcementId": "1225449358",
+              "announcementTitle": "关于与关联方签订采购框架合同暨关联交易的议案",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449358.PDF"
             }
           ],
           "title": "铂力特｜关注关联交易",
@@ -4991,21 +4638,21 @@
         },
         {
           "announcementTitle": "关于股东部分股份质押的公告",
-          "body": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险；后续关注实际提款、担保余额和偿债安排。",
+          "body": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险；后续关注累计质押比例、解除质押、补充质押及质权实现风险。",
           "business": {
-            "category": "资金与财务",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "担保",
+            "category": "股东服务",
+            "contentImportance": "重点跟踪",
+            "priority": "focus",
+            "subcategory": "质押冻结",
             "targets": [
-              "财务负责人",
-              "资金部",
+              "控股股东",
+              "5%以上股东",
               "董秘办"
             ]
           },
-          "businessSubcategory": "担保与授信",
+          "businessSubcategory": "股权质押",
           "company": "瑞联新材",
-          "conclusion": " 本次质押后，刘晓春先生累计质押公司股份 5,710,000 股，占其所持股份比例的 65.46%，占公司总股本的 3.24%。",
+          "conclusion": "瑞联新材股东刘晓春本次质押1,000,000 股给夏璐，占公司总股本0.57%，用于个人资金需求；本次后累计质押5,710,000 股，占其持股65.46%。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -5017,32 +4664,33 @@
               "stageChange": true
             },
             "genericTitleRewrite": false,
-            "impact": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
+            "impact": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险。",
             "keyFigures": [
+              "1,000,000 股",
+              "0.57%",
               "5,710,000 股",
-              "65.46%",
-              "3.24%"
+              "65.46%"
             ],
-            "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
+            "nextObservation": "后续关注累计质押比例、解除质押、补充质押及质权实现风险。",
             "passed": true,
-            "stage": "担保授信",
+            "stage": "股份质押",
             "stageEvidence": {
               "mode": "structured_matter_type",
               "sourceIds": []
             },
             "standard": "v2-substantive-five-field"
           },
-          "impactAssessment": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
+          "impactAssessment": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险。",
           "importance": "必看",
           "isReference": true,
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "担保授信",
-          "matter_id": "listed-matter-e063e1d4aaf616",
-          "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
+          "matterType": "股份质押",
+          "matter_id": "listed-matter-5b74f03894e8c5",
+          "nextObservation": "后续关注累计质押比例、解除质押、补充质押及质权实现风险。",
           "publishedAt": "2026-07-31",
-          "referenceAnchor": "listed-detail-a3de3f6088-d48627b8",
-          "referenceMatterId": "listed-matter-e063e1d4aaf616",
+          "referenceAnchor": "listed-detail-a3de3f6088-936e2c2e",
+          "referenceMatterId": "listed-matter-5b74f03894e8c5",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
@@ -5055,24 +4703,26 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449592.PDF"
             }
           ],
-          "title": "瑞联新材｜关注担保与授信",
-          "whyImportant": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险；后续关注实际提款、担保余额和偿债安排。"
+          "title": "瑞联新材｜关注股权质押",
+          "whyImportant": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险；后续关注累计质押比例、解除质押、补充质押及质权实现风险。"
         },
         {
-          "announcementTitle": "西安铂力特增材技术股份有限公司独立董事提名人声明与承诺（黄宾）",
-          "body": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪；后续关注正式公告中的关键节点和数字变化。",
+          "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）",
+          "body": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
           "business": {
-            "category": "综合事项",
-            "contentImportance": "重点跟踪",
-            "priority": "standard",
-            "subcategory": "综合事项",
+            "category": "资本运作",
+            "contentImportance": "内容重要",
+            "priority": "focus",
+            "subcategory": "并购重组",
             "targets": [
-              "董秘办"
+              "董秘办",
+              "财务",
+              "投融资负责人"
             ]
           },
-          "businessSubcategory": "综合事项",
-          "company": "铂力特",
-          "conclusion": "薛蕾先生与折生阳先生存在一致行动关系，为公司实际控制人之一，除此之外，薛蕾先生与其他持有公司 5%以上股份的股东、董事、高级管理人员不存在关联关系，不存在《公司法》规定的不得担任公司董事的情形，不存在被中国证监会确定为市场禁入者且尚在禁入期的情形。",
+          "businessSubcategory": "并购重组",
+          "company": "华天科技",
+          "conclusion": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金；本次更新重组报告书及问询回复，交易仍处于深交所审核阶段；当前节点：问询回复。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -5084,92 +4734,118 @@
               "stageChange": true
             },
             "genericTitleRewrite": false,
-            "impact": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
             "keyFigures": [
-              "5%"
+              "100%",
+              "29.96亿元"
             ],
-            "nextObservation": "后续关注正式公告中的关键节点和数字变化。",
+            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
             "passed": true,
-            "stage": "经营治理",
+            "stage": "inquiry_reply",
             "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225449576",
+                "1225449583"
+              ]
             },
             "standard": "v2-substantive-five-field"
           },
-          "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
-          "importance": "必看",
+          "customerDisposition": "daily",
+          "eventLabel": "收并购",
+          "eventType": "ma",
+          "homepageEligible": false,
+          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
           "isReference": true,
+          "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+          "lifecycleStage": "inquiry_reply",
+          "lifecycleStatus": "active",
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "经营治理",
-          "matter_id": "listed-matter-696006ff10283e",
-          "nextObservation": "后续关注正式公告中的关键节点和数字变化。",
+          "matterType": "收并购",
+          "matter_id": "listed-matter-5ef1be98254bb7",
+          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "planId": "发行股份及支付现金购买资产并募集配套资金",
+          "previousStage": "",
           "publishedAt": "2026-07-31",
-          "referenceAnchor": "listed-detail-3ec74e1721-aed75c7a",
-          "referenceMatterId": "listed-matter-696006ff10283e",
+          "referenceAnchor": "listed-detail-ab6a50bd4e-99ab46f1",
+          "referenceMatterId": "listed-matter-5ef1be98254bb7",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449368.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449585.PDF",
           "sources": [
             {
-              "announcementId": "1225449368",
-              "announcementTitle": "西安铂力特增材技术股份有限公司独立董事提名人声明与承诺（黄宾）",
+              "announcementId": "1225449585",
+              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449368.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449585.PDF"
             },
             {
-              "announcementId": "1225449367",
-              "announcementTitle": "西安铂力特增材技术股份有限公司独立董事提名人声明与承诺（徐亚东）",
+              "announcementId": "1225449576",
+              "announcementTitle": "关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函的回复（修订稿）",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449367.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449576.PDF"
             },
             {
-              "announcementId": "1225449366",
-              "announcementTitle": "西安铂力特增材技术股份有限公司独立董事候选人声明与承诺（赵嵩正）",
+              "announcementId": "1225449586",
+              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）摘要（修订稿）",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449366.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449586.PDF"
             },
             {
-              "announcementId": "1225449365",
-              "announcementTitle": "西安铂力特增材技术股份有限公司董事会提名委员会关于第四届董事会董事候选人的审查意见",
+              "announcementId": "1225449584",
+              "announcementTitle": "北京市竞天公诚律师事务所关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之补充法律意见书（二）（修订稿）",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449365.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449584.PDF"
             },
             {
-              "announcementId": "1225449364",
-              "announcementTitle": "西安铂力特增材技术股份有限公司独立董事提名人声明与承诺（赵嵩正）",
+              "announcementId": "1225449583",
+              "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函》回复之专项核查意见（修订稿）",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449364.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449583.PDF"
             },
             {
-              "announcementId": "1225449363",
-              "announcementTitle": "西安铂力特增材技术股份有限公司关于董事会换届选举的公告",
+              "announcementId": "1225449582",
+              "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449363.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449582.PDF"
             },
             {
-              "announcementId": "1225449362",
-              "announcementTitle": "西安铂力特增材技术股份有限公司独立董事候选人声明与承诺（黄宾）",
+              "announcementId": "1225449580",
+              "announcementTitle": "中联资产评估咨询（上海）有限公司关于深圳证券交易所《天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函》回复之专项核查意见（修订稿）",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449362.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449580.PDF"
             },
             {
-              "announcementId": "1225449355",
-              "announcementTitle": "西安铂力特增材技术股份有限公司独立董事候选人声明与承诺（徐亚东）",
+              "announcementId": "1225449579",
+              "announcementTitle": "华泰联合证券有限责任公司关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告（修订稿）",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449355.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449579.PDF"
             },
             {
-              "announcementId": "1225449353",
-              "announcementTitle": "西安铂力特增材技术股份有限公司关于选举职工代表董事的公告",
+              "announcementId": "1225449578",
+              "announcementTitle": "中联资产评估咨询（上海）有限公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449353.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449578.PDF"
+            },
+            {
+              "announcementId": "1225449577",
+              "announcementTitle": "天水华天科技股份公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449577.PDF"
+            },
+            {
+              "announcementId": "1225449575",
+              "announcementTitle": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）修订说明的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449575.PDF"
             }
           ],
-          "title": "铂力特｜关注综合事项",
-          "whyImportant": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪；后续关注正式公告中的关键节点和数字变化。"
+          "title": "华天科技｜关注并购重组",
+          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
         }
       ],
       "hkexOfficialReviewCompanyCount": 14,
@@ -5178,45 +4854,28 @@
         {
           "clientLabel": "检索公告",
           "label": "巨潮逐主体检索公告",
-          "num": "71条"
+          "num": "72条"
         },
         {
           "clientLabel": "发布公司",
           "label": "窗口内发布公告公司",
-          "num": "27家"
+          "num": "28家"
         },
         {
           "clientLabel": "精选事项",
           "label": "合并去重后的客户事项",
-          "num": "39项"
+          "num": "33项"
         },
         {
           "clientLabel": "可读原文",
           "label": "已取得可靠正文的官方公告",
-          "num": "65条"
+          "num": "66条"
         }
       ],
-      "lifecycleEventCount": 627,
+      "lifecycleEventCount": 628,
       "lifecyclePolicy": "listed-company-full-lifecycle",
       "lifecycleStorePath": "v2/data/source/listed/lifecycle-store.json",
       "lifecycleUpdates": [
-        {
-          "company": "华天科技",
-          "currentStage": "audit_valuation",
-          "eventType": "ma",
-          "homepageEligible": false,
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-8a7f40bd24cbe78532",
-          "nodeStage": "audit_valuation",
-          "planId": "并购重组",
-          "previousStage": "progress",
-          "sourceAnnouncementIds": [
-            "1225449582",
-            "1225449583"
-          ],
-          "status": "active"
-        },
         {
           "company": "华天科技",
           "currentStage": "inquiry_reply",
@@ -5224,60 +4883,22 @@
           "homepageEligible": false,
           "importance": "重点",
           "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-0c9da44e79bfc0f84f",
+          "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
           "nodeStage": "inquiry_reply",
-          "planId": "购买资产并募集配套资金申请的审核问询函的回复(修订稿)关于天水华天科技股份",
+          "planId": "发行股份及支付现金购买资产并募集配套资金",
           "previousStage": "",
           "sourceAnnouncementIds": [
-            "1225449576"
-          ],
-          "status": "active"
-        },
-        {
-          "company": "华天科技",
-          "currentStage": "board_plan",
-          "eventType": "ma",
-          "homepageEligible": false,
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-f25af8c0403a325ec5",
-          "nodeStage": "board_plan",
-          "planId": "购买天水华天电子集团股份",
-          "previousStage": "",
-          "sourceAnnouncementIds": [
+            "1225449585",
+            "1225449576",
+            "1225449586",
+            "1225449584",
+            "1225449583",
+            "1225449582",
+            "1225449580",
+            "1225449579",
+            "1225449578",
+            "1225449577",
             "1225449575"
-          ],
-          "status": "active"
-        },
-        {
-          "company": "华天科技",
-          "currentStage": "audit_valuation",
-          "eventType": "ma",
-          "homepageEligible": false,
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-03aba1e263e3853e17",
-          "nodeStage": "audit_valuation",
-          "planId": "购买资产并募集配套资金申请的专项核查函》之专项回复中联资产",
-          "previousStage": "",
-          "sourceAnnouncementIds": [
-            "1225449578"
-          ],
-          "status": "active"
-        },
-        {
-          "company": "华天科技",
-          "currentStage": "audit_valuation",
-          "eventType": "ma",
-          "homepageEligible": false,
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-31aecd432621b3201c",
-          "nodeStage": "audit_valuation",
-          "planId": "购买资产并募集配套资金申请的专项核查函》之专项回复天水华天科技股份",
-          "previousStage": "",
-          "sourceAnnouncementIds": [
-            "1225449577"
           ],
           "status": "active"
         },
@@ -5293,39 +4914,16 @@
           "planId": "2026年",
           "previousStage": "progress",
           "sourceAnnouncementIds": [
-            "1225449358"
-          ],
-          "status": "active"
-        },
-        {
-          "company": "华天科技",
-          "currentStage": "board_plan",
-          "eventType": "ma",
-          "homepageEligible": false,
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-ddc82ff8b3dcffb5a4",
-          "nodeStage": "board_plan",
-          "planId": "购买资产并募集配套资金暨关联交易报告书(草案)(摘要)(修订稿)交易类型交易对方名称发行股份",
-          "previousStage": "",
-          "sourceAnnouncementIds": [
-            "1225449586"
-          ],
-          "status": "active"
-        },
-        {
-          "company": "华天科技",
-          "currentStage": "board_plan",
-          "eventType": "ma",
-          "homepageEligible": false,
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-4a24dd05a46ac0cc75",
-          "nodeStage": "board_plan",
-          "planId": "购买资产并募集配套资金暨关联交易报告书(草案)(修订稿)交易类型交易对方名称发行股份",
-          "previousStage": "",
-          "sourceAnnouncementIds": [
-            "1225449585"
+            "1225449363",
+            "1225449358",
+            "1225449353",
+            "1225449368",
+            "1225449367",
+            "1225449366",
+            "1225449365",
+            "1225449364",
+            "1225449362",
+            "1225449355"
           ],
           "status": "active"
         },
@@ -5430,6 +5028,22 @@
           "status": "completed"
         },
         {
+          "company": "ST炼石",
+          "currentStage": "progress",
+          "eventType": "ma",
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-e334b7574bc7a5749f",
+          "nodeStage": "progress",
+          "planId": "购买成都天科航空制造股份",
+          "previousStage": "",
+          "sourceAnnouncementIds": [
+            "1225446663"
+          ],
+          "status": "active"
+        },
+        {
           "company": "陕天然气",
           "currentStage": "completed",
           "eventType": "governance_change",
@@ -5445,22 +5059,6 @@
             "1225447376"
           ],
           "status": "completed"
-        },
-        {
-          "company": "ST炼石",
-          "currentStage": "progress",
-          "eventType": "ma",
-          "homepageEligible": false,
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-e334b7574bc7a5749f",
-          "nodeStage": "progress",
-          "planId": "购买成都天科航空制造股份",
-          "previousStage": "",
-          "sourceAnnouncementIds": [
-            "1225446663"
-          ],
-          "status": "active"
         },
         {
           "company": "三角防务",
@@ -5554,7 +5152,7 @@
           "baselineFacts": [],
           "businessSubcategory": "关联交易",
           "company": "铂力特",
-          "conclusion": "关联交易的审议程序 （一）董事会审议情况公司于 2026 年 7 月 30 日召开第三届董事会第三十一次会议，审议通过《关于与关联方签订采购框架合同暨关联交易的议案》，表决结果：6 票同意，0 票反对，0 票弃权，3 票回避。",
+          "conclusion": "铂力特拟与关联方北京正时精控科技有限公司签订采购框架合同，采购器件、材料、成品及相关服务，合同金额合计约1.51 亿元；有效期1 年；尚需股东会审议，实际交易额以订单执行为准。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -5568,8 +5166,8 @@
             "genericTitleRewrite": false,
             "impact": "关联交易已经进入审议或执行节点，需结合交易定价、公允性、额度及实际履行情况评估对经营和治理的影响。",
             "keyFigures": [
-              "2026 年",
-              "30 日"
+              "1.51 亿元",
+              "1 年"
             ],
             "nextObservation": "后续关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
             "passed": true,
@@ -5591,7 +5189,8 @@
           "publishedAt": "2026-07-31",
           "score": 26,
           "sourceAnnouncementIds": [
-            "1225449360"
+            "1225449360",
+            "1225449358"
           ],
           "sourceName": "巨潮资讯",
           "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449360.PDF",
@@ -5601,6 +5200,12 @@
               "announcementTitle": "西安铂力特增材技术股份有限公司关于与关联方签订采购框架合同暨关联交易的公告",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449360.PDF"
+            },
+            {
+              "announcementId": "1225449358",
+              "announcementTitle": "关于与关联方签订采购框架合同暨关联交易的议案",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449358.PDF"
             }
           ],
           "whyImportant": "关联交易已经进入审议或执行节点，需结合交易定价、公允性、额度及实际履行情况评估对经营和治理的影响；后续关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。"
@@ -5739,9 +5344,9 @@
         {
           "announcementTitle": "关于股东部分股份质押的公告",
           "baselineFacts": [],
-          "businessSubcategory": "担保与授信",
+          "businessSubcategory": "股权质押",
           "company": "瑞联新材",
-          "conclusion": " 本次质押后，刘晓春先生累计质押公司股份 5,710,000 股，占其所持股份比例的 65.46%，占公司总股本的 3.24%。",
+          "conclusion": "瑞联新材股东刘晓春本次质押1,000,000 股给夏璐，占公司总股本0.57%，用于个人资金需求；本次后累计质押5,710,000 股，占其持股65.46%。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -5753,29 +5358,30 @@
               "stageChange": true
             },
             "genericTitleRewrite": false,
-            "impact": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
+            "impact": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险。",
             "keyFigures": [
+              "1,000,000 股",
+              "0.57%",
               "5,710,000 股",
-              "65.46%",
-              "3.24%"
+              "65.46%"
             ],
-            "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
+            "nextObservation": "后续关注累计质押比例、解除质押、补充质押及质权实现风险。",
             "passed": true,
-            "stage": "担保授信",
+            "stage": "股份质押",
             "stageEvidence": {
               "mode": "structured_matter_type",
               "sourceIds": []
             },
             "standard": "v2-substantive-five-field"
           },
-          "impactAssessment": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
+          "impactAssessment": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险。",
           "importance": "必看",
           "mainSection": "",
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "担保授信",
-          "matter_id": "listed-matter-e063e1d4aaf616",
-          "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
+          "matterType": "股份质押",
+          "matter_id": "listed-matter-5b74f03894e8c5",
+          "nextObservation": "后续关注累计质押比例、解除质押、补充质押及质权实现风险。",
           "publishedAt": "2026-07-31",
           "score": 18,
           "sourceAnnouncementIds": [
@@ -5791,14 +5397,14 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449592.PDF"
             }
           ],
-          "whyImportant": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险；后续关注实际提款、担保余额和偿债安排。"
+          "whyImportant": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险；后续关注累计质押比例、解除质押、补充质押及质权实现风险。"
         },
         {
-          "announcementTitle": "西安铂力特增材技术股份有限公司独立董事提名人声明与承诺（黄宾）",
+          "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）",
           "baselineFacts": [],
-          "businessSubcategory": "综合事项",
-          "company": "铂力特",
-          "conclusion": "薛蕾先生与折生阳先生存在一致行动关系，为公司实际控制人之一，除此之外，薛蕾先生与其他持有公司 5%以上股份的股东、董事、高级管理人员不存在关联关系，不存在《公司法》规定的不得担任公司董事的情形，不存在被中国证监会确定为市场禁入者且尚在禁入期的情形。",
+          "businessSubcategory": "并购重组",
+          "company": "华天科技",
+          "conclusion": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金；本次更新重组报告书及问询回复，交易仍处于深交所审核阶段；当前节点：问询回复。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -5810,43 +5416,218 @@
               "stageChange": true
             },
             "genericTitleRewrite": false,
-            "impact": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
             "keyFigures": [
-              "5%"
+              "100%",
+              "29.96亿元"
             ],
-            "nextObservation": "后续关注正式公告中的关键节点和数字变化。",
+            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
             "passed": true,
-            "stage": "经营治理",
+            "stage": "inquiry_reply",
             "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225449576",
+                "1225449583"
+              ]
             },
             "standard": "v2-substantive-five-field"
           },
-          "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
-          "importance": "必看",
-          "mainSection": "",
+          "customerDisposition": "daily",
+          "eventLabel": "收并购",
+          "eventType": "ma",
+          "firstSeenAt": "2026-07-31",
+          "homepageEligible": false,
+          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-07-31",
+          "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+          "lifecycleStage": "inquiry_reply",
+          "lifecycleStatus": "active",
+          "mainSection": "capital",
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "经营治理",
-          "matter_id": "listed-matter-696006ff10283e",
-          "nextObservation": "后续关注正式公告中的关键节点和数字变化。",
+          "matterType": "收并购",
+          "matter_id": "listed-matter-5ef1be98254bb7",
+          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "planId": "发行股份及支付现金购买资产并募集配套资金",
+          "previousStage": "",
+          "publishedAt": "2026-07-31",
+          "score": 42,
+          "sourceAnnouncementIds": [
+            "1225449585",
+            "1225449576",
+            "1225449586",
+            "1225449584",
+            "1225449583",
+            "1225449582",
+            "1225449580",
+            "1225449579",
+            "1225449578",
+            "1225449577",
+            "1225449575"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449585.PDF",
+          "sources": [
+            {
+              "announcementId": "1225449585",
+              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449585.PDF"
+            },
+            {
+              "announcementId": "1225449576",
+              "announcementTitle": "关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函的回复（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449576.PDF"
+            },
+            {
+              "announcementId": "1225449586",
+              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）摘要（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449586.PDF"
+            },
+            {
+              "announcementId": "1225449584",
+              "announcementTitle": "北京市竞天公诚律师事务所关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之补充法律意见书（二）（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449584.PDF"
+            },
+            {
+              "announcementId": "1225449583",
+              "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函》回复之专项核查意见（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449583.PDF"
+            },
+            {
+              "announcementId": "1225449582",
+              "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449582.PDF"
+            },
+            {
+              "announcementId": "1225449580",
+              "announcementTitle": "中联资产评估咨询（上海）有限公司关于深圳证券交易所《天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函》回复之专项核查意见（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449580.PDF"
+            },
+            {
+              "announcementId": "1225449579",
+              "announcementTitle": "华泰联合证券有限责任公司关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449579.PDF"
+            },
+            {
+              "announcementId": "1225449578",
+              "announcementTitle": "中联资产评估咨询（上海）有限公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449578.PDF"
+            },
+            {
+              "announcementId": "1225449577",
+              "announcementTitle": "天水华天科技股份公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449577.PDF"
+            },
+            {
+              "announcementId": "1225449575",
+              "announcementTitle": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）修订说明的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449575.PDF"
+            }
+          ],
+          "timelineLength": 1,
+          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
+        },
+        {
+          "announcementTitle": "西安铂力特增材技术股份有限公司关于董事会换届选举的公告",
+          "baselineFacts": [],
+          "businessSubcategory": "治理变更",
+          "company": "铂力特",
+          "conclusion": "铂力特启动第四届董事会换届；非独立董事候选人为折生阳、薛蕾、赵晓明、贾鑫、孙晓梅；独立董事候选人为徐亚东、赵嵩正、黄宾；职工代表董事为杨东辉；非职工董事尚需股东会选举；当前节点：人员或制度变更。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
+            "keyFigures": [],
+            "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
+            "passed": true,
+            "stage": "changed",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225449358#agenda-3",
+                "1225449358#agenda-4",
+                "1225449363"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "eventLabel": "重大治理变更",
+          "eventType": "governance_change",
+          "firstSeenAt": "2026-04-30",
+          "homepageEligible": false,
+          "impactAssessment": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-07-31",
+          "lifecycleId": "listed-lifecycle-9122f29e87d2548ec8",
+          "lifecycleStage": "changed",
+          "lifecycleStatus": "active",
+          "mainSection": "governance",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "重大治理变更",
+          "matter_id": "listed-matter-61be131a108f32",
+          "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "planId": "2026年",
+          "previousStage": "progress",
           "publishedAt": "2026-07-31",
           "score": 18,
           "sourceAnnouncementIds": [
+            "1225449363",
+            "1225449358",
+            "1225449353",
             "1225449368",
             "1225449367",
             "1225449366",
             "1225449365",
             "1225449364",
-            "1225449363",
             "1225449362",
-            "1225449355",
-            "1225449353"
+            "1225449355"
           ],
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449368.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449363.PDF",
           "sources": [
+            {
+              "announcementId": "1225449363",
+              "announcementTitle": "西安铂力特增材技术股份有限公司关于董事会换届选举的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449363.PDF"
+            },
+            {
+              "announcementId": "1225449358",
+              "announcementTitle": "关于提名公司第四届董事会非独立董事候选人的议案",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449358.PDF"
+            },
+            {
+              "announcementId": "1225449353",
+              "announcementTitle": "西安铂力特增材技术股份有限公司关于选举职工代表董事的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449353.PDF"
+            },
             {
               "announcementId": "1225449368",
               "announcementTitle": "西安铂力特增材技术股份有限公司独立董事提名人声明与承诺（黄宾）",
@@ -5878,12 +5659,6 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449364.PDF"
             },
             {
-              "announcementId": "1225449363",
-              "announcementTitle": "西安铂力特增材技术股份有限公司关于董事会换届选举的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449363.PDF"
-            },
-            {
               "announcementId": "1225449362",
               "announcementTitle": "西安铂力特增材技术股份有限公司独立董事候选人声明与承诺（黄宾）",
               "sourceName": "巨潮资讯",
@@ -5894,591 +5669,10 @@
               "announcementTitle": "西安铂力特增材技术股份有限公司独立董事候选人声明与承诺（徐亚东）",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449355.PDF"
-            },
-            {
-              "announcementId": "1225449353",
-              "announcementTitle": "西安铂力特增材技术股份有限公司关于选举职工代表董事的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449353.PDF"
-            }
-          ],
-          "whyImportant": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪；后续关注正式公告中的关键节点和数字变化。"
-        },
-        {
-          "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
-          "baselineFacts": [],
-          "businessSubcategory": "并购重组",
-          "company": "华天科技",
-          "conclusion": "标的资产增值率相较于可比交易具备合理性经整理近期标的公司主营业务产品涵盖功率半导体的可比交易案例，可比交易案例的市净率具体情况如下： 序号上市公司交易标的标的公司主营业务评估基准日市净率（倍） 1 高新发展森未科技 28.51%股权 IGBT 等功率半导体器件 2022/5/31 3.12 2 捷捷微电捷捷南通科技 30.24%股权功率半导体芯片 202。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-            "keyFigures": [
-              "28.51%",
-              "30.24%"
-            ],
-            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-            "passed": true,
-            "stage": "audit_valuation",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449582"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "收并购",
-          "eventType": "ma",
-          "firstSeenAt": "2026-01-17",
-          "homepageEligible": false,
-          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lastSeenAt": "2026-07-31",
-          "lifecycleId": "listed-lifecycle-8a7f40bd24cbe78532",
-          "lifecycleStage": "audit_valuation",
-          "lifecycleStatus": "active",
-          "mainSection": "capital",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "收并购",
-          "matter_id": "listed-matter-da165f0dc7fd4b",
-          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "planId": "并购重组",
-          "previousStage": "progress",
-          "publishedAt": "2026-07-31",
-          "score": 34,
-          "sourceAnnouncementIds": [
-            "1225449582",
-            "1225449583"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449582.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449582",
-              "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449582.PDF"
-            },
-            {
-              "announcementId": "1225449583",
-              "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函》回复之专项核查意见（修订稿）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449583.PDF"
-            }
-          ],
-          "timelineLength": 8,
-          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
-        },
-        {
-          "announcementTitle": "关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函的回复（修订稿）",
-          "baselineFacts": [],
-          "businessSubcategory": "并购重组",
-          "company": "华天科技",
-          "conclusion": "（5） 聚源绍兴基金、小米产业基金属于私募投资基金且于上市公司关于本次交易的首次董事会决议公告时对用于认购新增股份的标的资产股权持续拥有权益的时间已满 48 个月，相应的新增股份于证券登记结算机构登记至交易对方名下之日起 6 个月内不得上市交易或转让。合伙人情况截至本回复出具之日；当前节点：问询回复。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-            "keyFigures": [
-              "48 个月",
-              "6 个月"
-            ],
-            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-            "passed": true,
-            "stage": "inquiry_reply",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449576"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "收并购",
-          "eventType": "ma",
-          "firstSeenAt": "2026-07-31",
-          "homepageEligible": false,
-          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lastSeenAt": "2026-07-31",
-          "lifecycleId": "listed-lifecycle-0c9da44e79bfc0f84f",
-          "lifecycleStage": "inquiry_reply",
-          "lifecycleStatus": "active",
-          "mainSection": "capital",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "收并购",
-          "matter_id": "listed-matter-3dca0bc2b8266d",
-          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "planId": "购买资产并募集配套资金申请的审核问询函的回复(修订稿)关于天水华天科技股份",
-          "previousStage": "",
-          "publishedAt": "2026-07-31",
-          "score": 28,
-          "sourceAnnouncementIds": [
-            "1225449576"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449576.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449576",
-              "announcementTitle": "关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函的回复（修订稿）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449576.PDF"
-            }
-          ],
-          "timelineLength": 1,
-          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
-        },
-        {
-          "announcementTitle": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）修订说明的公告",
-          "baselineFacts": [],
-          "businessSubcategory": "并购重组",
-          "company": "华天科技",
-          "conclusion": "公司于 2026 年 6 月 17 日召开第八届董事会第十六次会议，审议通过了《关于〈天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）〉及其摘要的议案》《关于确认本次交易相关加期审计报告、备考审阅报告的议案》；当前节点：方案审议。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-            "keyFigures": [
-              "2026 年",
-              "17 日"
-            ],
-            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-            "passed": true,
-            "stage": "board_plan",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449575"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "收并购",
-          "eventType": "ma",
-          "firstSeenAt": "2026-07-31",
-          "homepageEligible": false,
-          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lastSeenAt": "2026-07-31",
-          "lifecycleId": "listed-lifecycle-f25af8c0403a325ec5",
-          "lifecycleStage": "board_plan",
-          "lifecycleStatus": "active",
-          "mainSection": "capital",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "收并购",
-          "matter_id": "listed-matter-56ce69cc0f55c9",
-          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "planId": "购买天水华天电子集团股份",
-          "previousStage": "",
-          "publishedAt": "2026-07-31",
-          "score": 22,
-          "sourceAnnouncementIds": [
-            "1225449575"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449575.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449575",
-              "announcementTitle": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）修订说明的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449575.PDF"
-            }
-          ],
-          "timelineLength": 1,
-          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
-        },
-        {
-          "announcementTitle": "中联资产评估咨询（上海）有限公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
-          "baselineFacts": [],
-          "businessSubcategory": "并购重组",
-          "company": "华天科技",
-          "conclusion": "标的资产增值率相较于可比交易具备合理性经整理近期标的公司主营业务产品涵盖功率半导体的可比交易案例，可比交易案例的市净率具体情况如下： 序号上市公司交易标的标的公司主营业务评估基准日市净率（倍） 1 高新发展森未科技 28.51%股权 IGBT 等功率半导体器件 2022/5/31 3.12 2 捷捷微电捷捷南通科技 30.24%股权功率半导体芯片 202。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-            "keyFigures": [
-              "28.51%",
-              "30.24%"
-            ],
-            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-            "passed": true,
-            "stage": "audit_valuation",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449578"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "收并购",
-          "eventType": "ma",
-          "firstSeenAt": "2026-07-31",
-          "homepageEligible": false,
-          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lastSeenAt": "2026-07-31",
-          "lifecycleId": "listed-lifecycle-03aba1e263e3853e17",
-          "lifecycleStage": "audit_valuation",
-          "lifecycleStatus": "active",
-          "mainSection": "capital",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "收并购",
-          "matter_id": "listed-matter-acc827edd1ff50",
-          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "planId": "购买资产并募集配套资金申请的专项核查函》之专项回复中联资产",
-          "previousStage": "",
-          "publishedAt": "2026-07-31",
-          "score": 17,
-          "sourceAnnouncementIds": [
-            "1225449578"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449578.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449578",
-              "announcementTitle": "中联资产评估咨询（上海）有限公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449578.PDF"
-            }
-          ],
-          "timelineLength": 1,
-          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
-        },
-        {
-          "announcementTitle": "天水华天科技股份公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
-          "baselineFacts": [],
-          "businessSubcategory": "并购重组",
-          "company": "华天科技",
-          "conclusion": "标的资产增值率相较于可比交易具备合理性经整理近期标的公司主营业务产品涵盖功率半导体的可比交易案例，可比交易案例的市净率具体情况如下： 序号上市公司交易标的标的公司主营业务评估基准日市净率（倍） 1 高新发展森未科技 28.51%股权 IGBT 等功率半导体器件 2022/5/31 3.12 2 捷捷微电捷捷南通科技 30.24%股权功率半导体芯片 202。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-            "keyFigures": [
-              "28.51%",
-              "30.24%"
-            ],
-            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-            "passed": true,
-            "stage": "audit_valuation",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449577"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "收并购",
-          "eventType": "ma",
-          "firstSeenAt": "2026-07-31",
-          "homepageEligible": false,
-          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lastSeenAt": "2026-07-31",
-          "lifecycleId": "listed-lifecycle-31aecd432621b3201c",
-          "lifecycleStage": "audit_valuation",
-          "lifecycleStatus": "active",
-          "mainSection": "capital",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "收并购",
-          "matter_id": "listed-matter-befb32b7c5df42",
-          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "planId": "购买资产并募集配套资金申请的专项核查函》之专项回复天水华天科技股份",
-          "previousStage": "",
-          "publishedAt": "2026-07-31",
-          "score": 17,
-          "sourceAnnouncementIds": [
-            "1225449577"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449577.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449577",
-              "announcementTitle": "天水华天科技股份公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449577.PDF"
-            }
-          ],
-          "timelineLength": 1,
-          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
-        },
-        {
-          "announcementTitle": "西安铂力特增材技术股份第三届董事会第三十一次会议决议公告",
-          "baselineFacts": [],
-          "businessSubcategory": "治理变更",
-          "company": "铂力特",
-          "conclusion": "（二）审议通过了《关于公司及全资子公司增加 2026 年度银行授信及融资额度的议案》 为满足公司经营和市场拓展业务发展需要，提高资金营运能力，公司及全资子公司本次拟增加 2026 年度向银行等金融机构申请人民币及外币融资额度不超过人民币 10 亿元，增加后的 2026 年度融资总额度合计不超过等值人民币 39.5 亿元。本次会议由董事长薛蕾先生主持。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
-            "keyFigures": [
-              "2026 年",
-              "2026 年",
-              "10 亿元",
-              "2026 年",
-              "39.5 亿元"
-            ],
-            "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
-            "passed": true,
-            "stage": "changed",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449358"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "重大治理变更",
-          "eventType": "governance_change",
-          "firstSeenAt": "2026-04-30",
-          "homepageEligible": false,
-          "impactAssessment": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lastSeenAt": "2026-07-31",
-          "lifecycleId": "listed-lifecycle-9122f29e87d2548ec8",
-          "lifecycleStage": "changed",
-          "lifecycleStatus": "active",
-          "mainSection": "governance",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "重大治理变更",
-          "matter_id": "listed-matter-61be131a108f32",
-          "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
-          "planId": "2026年",
-          "previousStage": "progress",
-          "publishedAt": "2026-07-31",
-          "score": 14,
-          "sourceAnnouncementIds": [
-            "1225449358"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449358.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449358",
-              "announcementTitle": "西安铂力特增材技术股份第三届董事会第三十一次会议决议公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449358.PDF"
             }
           ],
           "timelineLength": 2,
           "whyImportant": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性；后续关注人员履职、治理衔接、工商变更及控制权稳定性。"
-        },
-        {
-          "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）摘要（修订稿）",
-          "baselineFacts": [],
-          "businessSubcategory": "并购重组",
-          "company": "华天科技",
-          "conclusion": "交易金额及对价支付方式 （1）交易金额及对价情况标的资产的交易价格参考《评估报告》所载明的截至评估基准日的标的公司股东全部权益的评估值 299,600.00 万元，经各方协商确定；当前节点：方案审议。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-            "keyFigures": [
-              "299,600.00 万元"
-            ],
-            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-            "passed": true,
-            "stage": "board_plan",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449586"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "收并购",
-          "eventType": "ma",
-          "firstSeenAt": "2026-07-31",
-          "homepageEligible": false,
-          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lastSeenAt": "2026-07-31",
-          "lifecycleId": "listed-lifecycle-ddc82ff8b3dcffb5a4",
-          "lifecycleStage": "board_plan",
-          "lifecycleStatus": "active",
-          "mainSection": "capital",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "收并购",
-          "matter_id": "listed-matter-7a6df0a51bc5e7",
-          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "planId": "购买资产并募集配套资金暨关联交易报告书(草案)(摘要)(修订稿)交易类型交易对方名称发行股份",
-          "previousStage": "",
-          "publishedAt": "2026-07-31",
-          "score": 13,
-          "sourceAnnouncementIds": [
-            "1225449586"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449586.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449586",
-              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）摘要（修订稿）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449586.PDF"
-            }
-          ],
-          "timelineLength": 1,
-          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
-        },
-        {
-          "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）",
-          "baselineFacts": [],
-          "businessSubcategory": "并购重组",
-          "company": "华天科技",
-          "conclusion": "交易金额及对价支付方式 （1）交易金额及对价情况标的资产的交易价格参考《评估报告》所载明的截至评估基准日的标的公司股东全部权益的评估值 299,600.00 万元，经各方协商确定；当前节点：方案审议。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-            "keyFigures": [
-              "299,600.00 万元"
-            ],
-            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-            "passed": true,
-            "stage": "board_plan",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225449585"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "收并购",
-          "eventType": "ma",
-          "firstSeenAt": "2026-07-31",
-          "homepageEligible": false,
-          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lastSeenAt": "2026-07-31",
-          "lifecycleId": "listed-lifecycle-4a24dd05a46ac0cc75",
-          "lifecycleStage": "board_plan",
-          "lifecycleStatus": "active",
-          "mainSection": "capital",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "收并购",
-          "matter_id": "listed-matter-2a72cbd1d0ce5d",
-          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
-          "planId": "购买资产并募集配套资金暨关联交易报告书(草案)(修订稿)交易类型交易对方名称发行股份",
-          "previousStage": "",
-          "publishedAt": "2026-07-31",
-          "score": 13,
-          "sourceAnnouncementIds": [
-            "1225449585"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449585.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449585",
-              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449585.PDF"
-            }
-          ],
-          "timelineLength": 1,
-          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
         },
         {
           "announcementTitle": "建设机械关于对陕西证监局行政监管措施决定书的整改报告",
@@ -6666,7 +5860,7 @@
           "baselineFacts": [],
           "businessSubcategory": "章程治理",
           "company": "铂力特",
-          "conclusion": "如某股东持有上市公司 100 股股票，该次股东会应选董事 10 名，董事候选人有 12 名，则该股东对于董事会选举议案组，拥有 1000 股的选举票数。西安铂力特增材技术股份有限公司董事会 2026 年 7 月 31 日附件 1：授权委托书附件 2：采用累积投票制选举董事、独立董事的投票方式说明附件 1：授权委托书授权委托书西安铂力特增材技术股份有限公司。",
+          "conclusion": "铂力特拟于2026年8月17日召开股东会，审议关联采购框架合同、增加银行授信及融资额度、选举5名非独立董事、选举3名独立董事。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -6680,12 +5874,10 @@
             "genericTitleRewrite": false,
             "impact": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
             "keyFigures": [
-              "100 股",
-              "10 名",
-              "12 名",
-              "1000 股",
-              "2026 年",
-              "31 日"
+              "2026年",
+              "17日",
+              "5名",
+              "3名"
             ],
             "nextObservation": "后续关注已通过议案执行及相关工商或资金安排。",
             "passed": true,
@@ -6861,6 +6053,63 @@
           ],
           "timelineLength": 1,
           "whyImportant": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性；后续关注人员履职、治理衔接、工商变更及控制权稳定性。"
+        },
+        {
+          "announcementTitle": "关于公司及全资子公司增加 2026 年度银行授信及融资额度的议案",
+          "baselineFacts": [],
+          "businessSubcategory": "担保与授信",
+          "company": "铂力特",
+          "conclusion": "铂力特拟将2026年度银行授信及融资额度增加10 亿元，增加后总额度不超过39.5 亿元；该议案尚需股东会审议。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
+            "keyFigures": [
+              "2026年",
+              "10 亿元",
+              "39.5 亿元"
+            ],
+            "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
+            "passed": true,
+            "stage": "担保授信",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "impactAssessment": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
+          "importance": "关注",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "担保授信",
+          "matter_id": "listed-matter-dc2280c265041c",
+          "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
+          "publishedAt": "2026-07-31",
+          "score": 6,
+          "sourceAnnouncementIds": [
+            "1225449358"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449358.PDF",
+          "sources": [
+            {
+              "announcementId": "1225449358",
+              "announcementTitle": "关于公司及全资子公司增加 2026 年度银行授信及融资额度的议案",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449358.PDF"
+            }
+          ],
+          "whyImportant": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险；后续关注实际提款、担保余额和偿债安排。"
         },
         {
           "announcementTitle": "关于全资子公司完成工商变更登记并换发营业执照的公告",
@@ -7612,82 +6861,6 @@
           "whyImportant": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性；后续关注人员履职、治理衔接、工商变更及控制权稳定性。"
         },
         {
-          "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
-          "baselineFacts": [],
-          "businessSubcategory": "治理变更",
-          "company": "陕天然气",
-          "conclusion": "陕天然气完成第七届董事会换届及高管聘任：董事长陈东生、总经理张阳、董事会秘书高京卫、财务总监王艳；本届任期三年；当前节点：实施完成。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
-            "keyFigures": [],
-            "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
-            "passed": true,
-            "stage": "completed",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225447376",
-                "1225447377"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "重大治理变更",
-          "eventType": "governance_change",
-          "firstSeenAt": "2026-07-30",
-          "homepageEligible": true,
-          "impactAssessment": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lastSeenAt": "2026-07-30",
-          "lifecycleId": "listed-lifecycle-5c2d0d430574b6ae3f",
-          "lifecycleStage": "completed",
-          "lifecycleStatus": "completed",
-          "mainSection": "governance",
-          "mandatoryCustomerHighlight": true,
-          "mandatoryRuleId": "",
-          "matterType": "重大治理变更",
-          "matter_id": "listed-matter-f9b58348fcefbb",
-          "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
-          "planId": "2026年",
-          "previousStage": "",
-          "publishedAt": "2026-07-30",
-          "score": 17,
-          "sourceAnnouncementIds": [
-            "1225447377",
-            "1225447376"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF",
-          "sources": [
-            {
-              "announcementId": "1225447377",
-              "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF"
-            },
-            {
-              "announcementId": "1225447376",
-              "announcementTitle": "第七届董事会第一次会议决议公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447376.PDF"
-            }
-          ],
-          "timelineLength": 1,
-          "whyImportant": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性；后续关注人员履职、治理衔接、工商变更及控制权稳定性。"
-        },
-        {
           "announcementTitle": "关于购买成都天科航空制造股份有限公司股份及增资事项的进展公告",
           "baselineFacts": [],
           "businessSubcategory": "并购重组",
@@ -7758,9 +6931,86 @@
           "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
         },
         {
+          "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
+          "baselineFacts": [],
+          "businessSubcategory": "治理变更",
+          "company": "陕天然气",
+          "conclusion": "陕天然气完成第七届董事会换届及高管聘任：董事长陈东生、总经理张阳、董事会秘书高京卫、财务总监王艳；本届任期三年；当前节点：实施完成。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
+            "keyFigures": [],
+            "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
+            "passed": true,
+            "stage": "completed",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225447376#agenda-1",
+                "1225447376#agenda-3",
+                "1225447377"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "eventLabel": "重大治理变更",
+          "eventType": "governance_change",
+          "firstSeenAt": "2026-07-30",
+          "homepageEligible": true,
+          "impactAssessment": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-07-30",
+          "lifecycleId": "listed-lifecycle-5c2d0d430574b6ae3f",
+          "lifecycleStage": "completed",
+          "lifecycleStatus": "completed",
+          "mainSection": "governance",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "重大治理变更",
+          "matter_id": "listed-matter-f9b58348fcefbb",
+          "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "planId": "2026年",
+          "previousStage": "",
+          "publishedAt": "2026-07-30",
+          "score": 12,
+          "sourceAnnouncementIds": [
+            "1225447377",
+            "1225447376"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF",
+          "sources": [
+            {
+              "announcementId": "1225447377",
+              "announcementTitle": "关于董事会换届完成并聘任高级管理人员的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447377.PDF"
+            },
+            {
+              "announcementId": "1225447376",
+              "announcementTitle": "关于选举第七届董事会董事长的议案",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447376.PDF"
+            }
+          ],
+          "timelineLength": 1,
+          "whyImportant": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性；后续关注人员履职、治理衔接、工商变更及控制权稳定性。"
+        },
+        {
           "announcementTitle": "绿能慧充关于控股股东及其一致行动人部分股份解除质押的公告",
           "baselineFacts": [],
-          "businessSubcategory": "综合事项",
+          "businessSubcategory": "股权质押",
           "company": "绿能慧充",
           "conclusion": "本次部分股份解除质押后，控股股东及其一致行动人累计质押股份125,000,000股，占其合计持股总数的65.01%，占公司总股本的 17.75%。",
           "contentQuality": {
@@ -7774,29 +7024,29 @@
               "stageChange": true
             },
             "genericTitleRewrite": false,
-            "impact": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+            "impact": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险。",
             "keyFigures": [
               "125,000,000股",
               "65.01%",
               "17.75%"
             ],
-            "nextObservation": "后续关注正式公告中的关键节点和数字变化。",
+            "nextObservation": "后续关注累计质押比例、解除质押、补充质押及质权实现风险。",
             "passed": true,
-            "stage": "经营治理",
+            "stage": "股份质押",
             "stageEvidence": {
               "mode": "structured_matter_type",
               "sourceIds": []
             },
             "standard": "v2-substantive-five-field"
           },
-          "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+          "impactAssessment": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险。",
           "importance": "重点",
           "mainSection": "",
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "经营治理",
-          "matter_id": "listed-matter-d764246ad46d8a",
-          "nextObservation": "后续关注正式公告中的关键节点和数字变化。",
+          "matterType": "股份质押",
+          "matter_id": "listed-matter-e69e8264435288",
+          "nextObservation": "后续关注累计质押比例、解除质押、补充质押及质权实现风险。",
           "publishedAt": "2026-07-30",
           "score": 10,
           "sourceAnnouncementIds": [
@@ -7812,7 +7062,7 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225446051.PDF"
             }
           ],
-          "whyImportant": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪；后续关注正式公告中的关键节点和数字变化。"
+          "whyImportant": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险；后续关注累计质押比例、解除质押、补充质押及质权实现风险。"
         },
         {
           "announcementTitle": "金花企业（集团）股份有限公司关于公司股票被实施其他风险警示事项的进展公告",
@@ -7877,7 +7127,7 @@
           "baselineFacts": [],
           "businessSubcategory": "现金管理",
           "company": "三角防务",
-          "conclusion": "三角防务本次到期赎回2笔现金管理产品，收回本金合计4,000万元、取得收益216.37万元；披露的预期年化收益率为2.90%；当前节点：到期赎回。",
+          "conclusion": "三角防务本次赎回农业银行“大额可转让存单”共2笔，收回本金合计4,000万元、取得收益216.37万元，预期年化收益率2.90%；公告日自有资金现金管理未到期余额60,900.00 万元；当前节点：到期赎回。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -7893,7 +7143,8 @@
             "keyFigures": [
               "4,000万元",
               "216.37万元",
-              "2.90%"
+              "2.90%",
+              "60,900.00 万元"
             ],
             "nextObservation": "后续关注产品到期赎回、实际收益、未到期余额及授权额度。",
             "passed": true,
@@ -8408,7 +7659,8 @@
             "stageEvidence": {
               "mode": "current_source_semantics",
               "sourceIds": [
-                "1225447376",
+                "1225447376#agenda-1",
+                "1225447376#agenda-3",
                 "1225447377"
               ]
             },
@@ -8448,7 +7700,7 @@
             },
             {
               "announcementId": "1225447376",
-              "announcementTitle": "第七届董事会第一次会议决议公告",
+              "announcementTitle": "关于选举第七届董事会董事长的议案",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-30/1225447376.PDF"
             }
@@ -8522,74 +7774,6 @@
       ],
       "risk_rows": [
         {
-          "announcementTitle": "关于股东部分股份质押的公告",
-          "business": {
-            "category": "资金与财务",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "担保",
-            "targets": [
-              "财务负责人",
-              "资金部",
-              "董秘办"
-            ]
-          },
-          "businessSubcategory": "担保与授信",
-          "canonicalDetailId": "listed-detail-a3de3f6088-d48627b8",
-          "company": "瑞联新材",
-          "conclusion": " 本次质押后，刘晓春先生累计质押公司股份 5,710,000 股，占其所持股份比例的 65.46%，占公司总股本的 3.24%。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
-            "keyFigures": [
-              "5,710,000 股",
-              "65.46%",
-              "3.24%"
-            ],
-            "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
-            "passed": true,
-            "stage": "担保授信",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "event": " 本次质押后，刘晓春先生累计质押公司股份 5,710,000 股，占其所持股份比例的 65.46%，占公司总股本的 3.24%。",
-          "impactAssessment": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
-          "importance": "必看",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "担保授信",
-          "matter_id": "listed-matter-e063e1d4aaf616",
-          "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
-          "publishedAt": "2026-07-31",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449592.PDF",
-          "sources": [
-            {
-              "announcementId": "1225449592",
-              "announcementTitle": "关于股东部分股份质押的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449592.PDF"
-            }
-          ],
-          "tag": "担保与授信",
-          "tagClass": "risk",
-          "whyImportant": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险；后续关注实际提款、担保余额和偿债安排。"
-        },
-        {
           "announcementTitle": "标准股份关于公司股票被实施其他风险警示相关事项的进展的补充公告",
           "business": {
             "category": "风险沟通",
@@ -8661,6 +7845,74 @@
           "tag": "风险警示",
           "tagClass": "watch",
           "whyImportant": "风险警示尚未解除，整改成效及下一年度内部控制审计意见将直接影响风险等级；后续关注整改完成证据、审计机构核验、风险警示撤销条件及下一年度内控审计意见。"
+        },
+        {
+          "announcementTitle": "关于公司及全资子公司增加 2026 年度银行授信及融资额度的议案",
+          "business": {
+            "category": "资金与财务",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "担保",
+            "targets": [
+              "财务负责人",
+              "资金部",
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "担保与授信",
+          "canonicalDetailId": "listed-detail-3ec74e1721-5c6be92e",
+          "company": "铂力特",
+          "conclusion": "铂力特拟将2026年度银行授信及融资额度增加10 亿元，增加后总额度不超过39.5 亿元；该议案尚需股东会审议。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
+            "keyFigures": [
+              "2026年",
+              "10 亿元",
+              "39.5 亿元"
+            ],
+            "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
+            "passed": true,
+            "stage": "担保授信",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "event": "铂力特拟将2026年度银行授信及融资额度增加10 亿元，增加后总额度不超过39.5 亿元；该议案尚需股东会审议。",
+          "impactAssessment": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
+          "importance": "关注",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "担保授信",
+          "matter_id": "listed-matter-dc2280c265041c",
+          "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
+          "publishedAt": "2026-07-31",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449358.PDF",
+          "sources": [
+            {
+              "announcementId": "1225449358",
+              "announcementTitle": "关于公司及全资子公司增加 2026 年度银行授信及融资额度的议案",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449358.PDF"
+            }
+          ],
+          "tag": "担保与授信",
+          "tagClass": "risk",
+          "whyImportant": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险；后续关注实际提款、担保余额和偿债安排。"
         },
         {
           "announcementTitle": "关于全资子公司完成工商变更登记并换发营业执照的公告",
@@ -8949,10 +8201,39 @@
       "sourceAcquisitionStatus": {
         "hasPendingOfficialTextVerification": true,
         "officialAnnouncementTextExtractionFailed": 6,
-        "officialAnnouncementsDiscovered": 71,
-        "reliableTextExtracted": 65
+        "officialAnnouncementsDiscovered": 72,
+        "reliableTextExtracted": 66
       },
       "sourceEvidence": [
+        {
+          "body": "证券代码：301231 证券简称：荣信文化公告编号：2026-044 荣信教育文化产业发展股份有限公司关于全资子公司完成工商变更登记并换发营业执照的公告荣信教育文化产业发展股份有限公司全资子公司杭州傲游猫文化传播有限公司（以下简称“杭州傲游猫”）因业务发展需要，变更了注册地址。近日，杭州傲游猫已完成工商变更登记手续并取得了杭州市余杭区市场监督管理局核发的《营业执照》，现将有关情况公告如下： 一、新取得《营业执照》的基本信息 （一）名称：杭州傲游猫文化传播。",
+          "company": "荣信文化",
+          "discoveryPdfSha256": "324463fe644105fb48d51bfa5b6083fdd803514b28d5a4c8079ceeaeda91574d",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225450087.PDF",
+          "excerpt": "证券代码：301231 证券简称：荣信文化公告编号：2026-044 荣信教育文化产业发展股份有限公司关于全资子公司完成工商变更登记并换发营业执照的公告荣信教育文化产业发展股份有限公司全资子公司杭州傲游猫文化传播有限公司（以下简称“杭州傲游猫”）因业务发展需要，变更了注册地址。近日，杭州傲游猫已完成工商变更登记手续并取得了杭州市余杭区市场监督管理局核发的《营业执照》，现将有关情况公告如下： 一、新取得《营业执照》的基本信息 （一）名称：杭州傲游猫文化传播。",
+          "hkexNewsId": "",
+          "kind": "dynamic",
+          "matter_id": "1225450087",
+          "parser": "pypdf",
+          "pdfSha256": "324463fe644105fb48d51bfa5b6083fdd803514b28d5a4c8079ceeaeda91574d",
+          "publishedAt": "2026-07-31",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225450087.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 639,
+              "controlCharacters": 0,
+              "languageRatio": 0.8811,
+              "mojibakeMarkers": 0,
+              "readableRatio": 1.0
+            },
+            "reasons": []
+          },
+          "textSha256": "4a9f74404f7f00196961c0c826305defa566b7bbf76ed4ae375fe64ffd4b7817",
+          "title": "关于全资子公司完成工商变更登记并换发营业执照的公告"
+        },
         {
           "body": "1 证券代码：688550 证券简称：瑞联新材公告编号：2026-042 西安瑞联新材料股份有限公司关于股东部分股份质押的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性依法承担法律责任。重要内容提示:  西安瑞联新材料股份有限公司（以下简称“公司”）股东、董事长刘晓春先生持有公司股份 8,722,736 股，占公司总股本的 4.95%。",
           "company": "瑞联新材",
@@ -8992,16 +8273,16 @@
           "kind": "capital",
           "lifecycleCandidate": {
             "businessSubcategory": "并购重组",
-            "customerDisposition": "daily",
+            "customerDisposition": "evidence_only",
             "eventLabel": "收并购",
             "eventType": "ma",
             "homepageEligible": false,
             "importance": "重点",
             "isNoChangeProgress": false,
-            "isSupportingEvidence": false,
-            "lifecycleId": "listed-lifecycle-ddc82ff8b3dcffb5a4",
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
             "mainSection": "capital",
-            "planId": "购买资产并募集配套资金暨关联交易报告书(草案)(摘要)(修订稿)交易类型交易对方名称发行股份",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
             "stage": "board_plan",
             "status": "active"
           },
@@ -9043,9 +8324,9 @@
             "importance": "重点",
             "isNoChangeProgress": false,
             "isSupportingEvidence": false,
-            "lifecycleId": "listed-lifecycle-4a24dd05a46ac0cc75",
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
             "mainSection": "capital",
-            "planId": "购买资产并募集配套资金暨关联交易报告书(草案)(修订稿)交易类型交易对方名称发行股份",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
             "stage": "board_plan",
             "status": "active"
           },
@@ -9087,9 +8368,9 @@
             "importance": "重点",
             "isNoChangeProgress": false,
             "isSupportingEvidence": true,
-            "lifecycleId": "listed-lifecycle-f60d300e4ea36c41fa",
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
             "mainSection": "capital",
-            "planId": "购买资产并募集配套资金暨关联交易报告书(草案)》及其不时修订的版本华天科技/上市公司指天水华天科技股份",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
             "stage": "audit_valuation",
             "status": "active"
           },
@@ -9131,9 +8412,9 @@
             "importance": "重点",
             "isNoChangeProgress": false,
             "isSupportingEvidence": true,
-            "lifecycleId": "listed-lifecycle-8a7f40bd24cbe78532",
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
             "mainSection": "capital",
-            "planId": "并购重组",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
             "stage": "inquiry_reply",
             "status": "active"
           },
@@ -9168,16 +8449,16 @@
           "kind": "capital",
           "lifecycleCandidate": {
             "businessSubcategory": "并购重组",
-            "customerDisposition": "daily",
+            "customerDisposition": "evidence_only",
             "eventLabel": "收并购",
             "eventType": "ma",
             "homepageEligible": false,
             "importance": "重点",
             "isNoChangeProgress": false,
-            "isSupportingEvidence": false,
-            "lifecycleId": "listed-lifecycle-8a7f40bd24cbe78532",
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
             "mainSection": "capital",
-            "planId": "并购重组",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
             "stage": "audit_valuation",
             "status": "active"
           },
@@ -9219,9 +8500,9 @@
             "importance": "重点",
             "isNoChangeProgress": false,
             "isSupportingEvidence": true,
-            "lifecycleId": "listed-lifecycle-070c474954a98d9311",
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
             "mainSection": "capital",
-            "planId": "购买资产并募集配套资金申请的审核问询函》回复之专项核查意见(修订稿)5-1中联资产",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
             "stage": "audit_valuation",
             "status": "active"
           },
@@ -9263,9 +8544,9 @@
             "importance": "重点",
             "isNoChangeProgress": false,
             "isSupportingEvidence": true,
-            "lifecycleId": "listed-lifecycle-5de9e2e62efa84d941",
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
             "mainSection": "capital",
-            "planId": "购买资产并募集配套资金暨关联交易之独立财务顾问报告(修订稿)华泰联合证券有限责任公司关于天水华天科技股份",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
             "stage": "audit_valuation",
             "status": "active"
           },
@@ -9300,16 +8581,16 @@
           "kind": "capital",
           "lifecycleCandidate": {
             "businessSubcategory": "并购重组",
-            "customerDisposition": "daily",
+            "customerDisposition": "evidence_only",
             "eventLabel": "收并购",
             "eventType": "ma",
             "homepageEligible": false,
             "importance": "重点",
             "isNoChangeProgress": false,
-            "isSupportingEvidence": false,
-            "lifecycleId": "listed-lifecycle-03aba1e263e3853e17",
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
             "mainSection": "capital",
-            "planId": "购买资产并募集配套资金申请的专项核查函》之专项回复中联资产",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
             "stage": "audit_valuation",
             "status": "active"
           },
@@ -9344,16 +8625,16 @@
           "kind": "capital",
           "lifecycleCandidate": {
             "businessSubcategory": "并购重组",
-            "customerDisposition": "daily",
+            "customerDisposition": "evidence_only",
             "eventLabel": "收并购",
             "eventType": "ma",
             "homepageEligible": false,
             "importance": "重点",
             "isNoChangeProgress": false,
-            "isSupportingEvidence": false,
-            "lifecycleId": "listed-lifecycle-31aecd432621b3201c",
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
             "mainSection": "capital",
-            "planId": "购买资产并募集配套资金申请的专项核查函》之专项回复天水华天科技股份",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
             "stage": "audit_valuation",
             "status": "active"
           },
@@ -9395,9 +8676,9 @@
             "importance": "重点",
             "isNoChangeProgress": false,
             "isSupportingEvidence": false,
-            "lifecycleId": "listed-lifecycle-0c9da44e79bfc0f84f",
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
             "mainSection": "capital",
-            "planId": "购买资产并募集配套资金申请的审核问询函的回复(修订稿)关于天水华天科技股份",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
             "stage": "inquiry_reply",
             "status": "active"
           },
@@ -9432,16 +8713,16 @@
           "kind": "capital",
           "lifecycleCandidate": {
             "businessSubcategory": "并购重组",
-            "customerDisposition": "daily",
+            "customerDisposition": "evidence_only",
             "eventLabel": "收并购",
             "eventType": "ma",
             "homepageEligible": false,
             "importance": "重点",
             "isNoChangeProgress": false,
-            "isSupportingEvidence": false,
-            "lifecycleId": "listed-lifecycle-f25af8c0403a325ec5",
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
             "mainSection": "capital",
-            "planId": "购买天水华天电子集团股份",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
             "stage": "board_plan",
             "status": "active"
           },
@@ -9474,6 +8755,21 @@
           "excerpt": "（二）直接或者间接持有上市公司已发行股份 1%以上或者是上市公司前十名股东中的自然人股东及其直系亲属；（三）在直接或者间接持有上市公司已发行股份 5%以上的股东单位或者在上市公司前五名股东单位任职的人员及其直系亲属；",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-9122f29e87d2548ec8",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "progress",
+            "status": "active"
+          },
           "matter_id": "1225449368",
           "parser": "pypdf",
           "pdfSha256": "57b1e7241ed2e049c4eb715392c868b6fc7ddda30fefd05fcf347e6a5c8b8e11",
@@ -9503,6 +8799,21 @@
           "excerpt": "（二）直接或者间接持有上市公司已发行股份 1%以上或者是上市公司前十名股东中的自然人股东及其直系亲属；（三）在直接或者间接持有上市公司已发行股份 5%以上的股东单位或者在上市公司前五名股东单位任职的人员及其直系亲属；",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-9122f29e87d2548ec8",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "progress",
+            "status": "active"
+          },
           "matter_id": "1225449367",
           "parser": "pypdf",
           "pdfSha256": "49e67e6d92ce01762594aa0350a1c21f746f50eb18f7df0c668aef87dedb1fde",
@@ -9532,6 +8843,21 @@
           "excerpt": "（二）直接或者间接持有上市公司已发行股份 1%以上或者是上市公司前十名股东中的自然人股东及其直系亲属；（三）在直接或者间接持有上市公司已发行股份 5%以上的股东单位或者在上市公司前五名股东单位任职的人员及其直系亲属；",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-9122f29e87d2548ec8",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "progress",
+            "status": "active"
+          },
           "matter_id": "1225449366",
           "parser": "pypdf",
           "pdfSha256": "d1d33f39e9bf730131b80793d109f960cb0c8c4499de74e41de01a80b007a8fe",
@@ -9561,6 +8887,21 @@
           "excerpt": "2 西安铂力特增材技术股份有限公司董事会提名委员会关于第四届董事会董事候选人的审查意见根据《中华人民共和国公司法》（以下简称《公司法》）、《上海证券交易所科创板股票上市规则》《上市公司独立董事管理办法》等法律、法规以及《西安铂力特增材技术股份有限公司章程》（以下简称《公司章程》）、《西安铂力特增材技术股份有限公司董事会提名委员会工作制度》等相关规定，西安铂力特增材技术股份有限公司（以下简称“公司”）董事会提名委员会对公司第四届董事会董事候选人的任职资格进。",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-9122f29e87d2548ec8",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "progress",
+            "status": "active"
+          },
           "matter_id": "1225449365",
           "parser": "pypdf",
           "pdfSha256": "afc76e09ef896ac0e1b799a56b22e4d29da0db2fa4dc9af23028d29f0466476d",
@@ -9590,6 +8931,21 @@
           "excerpt": "（二）直接或者间接持有上市公司已发行股份 1%以上或者是上市公司前十名股东中的自然人股东及其直系亲属；（三）在直接或者间接持有上市公司已发行股份 5%以上的股东单位或者在上市公司前五名股东单位任职的人员及其直系亲属；",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-9122f29e87d2548ec8",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "progress",
+            "status": "active"
+          },
           "matter_id": "1225449364",
           "parser": "pypdf",
           "pdfSha256": "51e64578989fd7826362f16ff6e79d2f4c2906c4de9869206a0917a1c9ff23a0",
@@ -9619,6 +8975,21 @@
           "excerpt": "根据相关规定，公司独立董事候选人尚需经上海证券交易所审核无异议后方可提交公司股东会审议。公司将召开 2026 年第一次临时股东会审议董事会换届选举事宜，非独立董事、独立董事的选举将分别采取累积投票制进行。",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "daily",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-9122f29e87d2548ec8",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "changed",
+            "status": "active"
+          },
           "matter_id": "1225449363",
           "parser": "pypdf",
           "pdfSha256": "94d0028ce22bf89584bbd4be2815533c05bc36c54ed749f0c1b43d7fabdd7dae",
@@ -9648,6 +9019,21 @@
           "excerpt": "（二）直接或者间接持有上市公司已发行股份 1%以上或者是上市公司前十名股东中的自然人股东及其直系亲属；（三）在直接或者间接持有上市公司已发行股份 5%以上的股东单位或者在上市公司前五名股东单位任职的人员及其直系亲属；",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-9122f29e87d2548ec8",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "progress",
+            "status": "active"
+          },
           "matter_id": "1225449362",
           "parser": "pypdf",
           "pdfSha256": "feb32d749b9a8c3ae71382b3b6136357e6adee4a45f49ca702c37edfb4ff1906",
@@ -9779,6 +9165,21 @@
           "excerpt": "（二）直接或者间接持有上市公司已发行股份 1%以上或者是上市公司前十名股东中的自然人股东及其直系亲属；（三）在直接或者间接持有上市公司已发行股份 5%以上的股东单位或者在上市公司前五名股东单位任职的人员及其直系亲属；",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-9122f29e87d2548ec8",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "progress",
+            "status": "active"
+          },
           "matter_id": "1225449355",
           "parser": "pypdf",
           "pdfSha256": "031d8adf4377c9ab8d1008fe2df217505ce13e48276d928c64c542c67b4bfb0a",
@@ -9808,6 +9209,21 @@
           "excerpt": "杨东辉先生将与公司 2026 年第一次临时股东会选举产生的第四届董事会非职工董事共同组成公司第四届董事会。任期自公司 2026 年第一次临时股东会选举产生的第四届董事会非职工代表董事之日起至公司第四届董事会任期届满之日止。",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "daily",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-9122f29e87d2548ec8",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "progress",
+            "status": "active"
+          },
           "matter_id": "1225449353",
           "parser": "pypdf",
           "pdfSha256": "daa50cec2c2642dc67b22eb5a279dcfdef4f6c883081ed142e081325fa46045c",
@@ -11229,7 +10645,7 @@
           "title": "金花企业（集团）股份有限公司关于公司股票被实施其他风险警示事项的进展公告"
         }
       ],
-      "subtitle": "2026-07-31｜逐主体检索110家正式观察池，71条公告、27家发布公告公司",
+      "subtitle": "2026-07-31｜逐主体检索110家正式观察池，72条公告、28家发布公告公司",
       "template": "v2-listed-v1-editorial",
       "tiles": [
         {
@@ -11310,7 +10726,7 @@
         },
         {
           "announcementTitle": "西安铂力特增材技术股份有限公司关于与关联方签订采购框架合同暨关联交易的公告",
-          "body": "关联交易的审议程序 （一）董事会审议情况公司于 2026 年 7 月 30 日召开第三届董事会第三十一次会议，审议通过《关于与关联方签订采购框架合同暨关联交易的议案》，表决结果：6 票同意，0 票反对，0 票弃权，3 票回避。",
+          "body": "铂力特拟与关联方北京正时精控科技有限公司签订采购框架合同，采购器件、材料、成品及相关服务，合同金额合计约1.51 亿元；有效期1 年；尚需股东会审议，实际交易额以订单执行为准。",
           "business": {
             "category": "经营与产业",
             "contentImportance": "内容重要",
@@ -11325,7 +10741,7 @@
           "businessSubcategory": "关联交易",
           "canonicalDetailId": "listed-detail-3ec74e1721-c5234cc0",
           "company": "铂力特",
-          "conclusion": "关联交易的审议程序 （一）董事会审议情况公司于 2026 年 7 月 30 日召开第三届董事会第三十一次会议，审议通过《关于与关联方签订采购框架合同暨关联交易的议案》，表决结果：6 票同意，0 票反对，0 票弃权，3 票回避。",
+          "conclusion": "铂力特拟与关联方北京正时精控科技有限公司签订采购框架合同，采购器件、材料、成品及相关服务，合同金额合计约1.51 亿元；有效期1 年；尚需股东会审议，实际交易额以订单执行为准。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -11339,8 +10755,8 @@
             "genericTitleRewrite": false,
             "impact": "关联交易已经进入审议或执行节点，需结合交易定价、公允性、额度及实际履行情况评估对经营和治理的影响。",
             "keyFigures": [
-              "2026 年",
-              "30 日"
+              "1.51 亿元",
+              "1 年"
             ],
             "nextObservation": "后续关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
             "passed": true,
@@ -11369,6 +10785,12 @@
               "announcementTitle": "西安铂力特增材技术股份有限公司关于与关联方签订采购框架合同暨关联交易的公告",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449360.PDF"
+            },
+            {
+              "announcementId": "1225449358",
+              "announcementTitle": "关于与关联方签订采购框架合同暨关联交易的议案",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449358.PDF"
             }
           ],
           "title": "铂力特｜关联交易",
@@ -11527,21 +10949,23 @@
           "whyImportant": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪；后续关注正式公告中的关键节点和数字变化。"
         },
         {
-          "announcementTitle": "西安铂力特增材技术股份有限公司独立董事提名人声明与承诺（黄宾）",
-          "body": "薛蕾先生与折生阳先生存在一致行动关系，为公司实际控制人之一，除此之外，薛蕾先生与其他持有公司 5%以上股份的股东、董事、高级管理人员不存在关联关系，不存在《公司法》规定的不得担任公司董事的情形，不存在被中国证监会确定为市场禁入者且尚在禁入期的情形。",
+          "announcementTitle": "关于股东部分股份质押的公告",
+          "body": "瑞联新材股东刘晓春本次质押1,000,000 股给夏璐，占公司总股本0.57%，用于个人资金需求；本次后累计质押5,710,000 股，占其持股65.46%。",
           "business": {
-            "category": "综合事项",
+            "category": "股东服务",
             "contentImportance": "重点跟踪",
-            "priority": "standard",
-            "subcategory": "综合事项",
+            "priority": "focus",
+            "subcategory": "质押冻结",
             "targets": [
+              "控股股东",
+              "5%以上股东",
               "董秘办"
             ]
           },
-          "businessSubcategory": "综合事项",
-          "canonicalDetailId": "listed-detail-3ec74e1721-aed75c7a",
-          "company": "铂力特",
-          "conclusion": "薛蕾先生与折生阳先生存在一致行动关系，为公司实际控制人之一，除此之外，薛蕾先生与其他持有公司 5%以上股份的股东、董事、高级管理人员不存在关联关系，不存在《公司法》规定的不得担任公司董事的情形，不存在被中国证监会确定为市场禁入者且尚在禁入期的情形。",
+          "businessSubcategory": "股权质押",
+          "canonicalDetailId": "listed-detail-a3de3f6088-936e2c2e",
+          "company": "瑞联新材",
+          "conclusion": "瑞联新材股东刘晓春本次质押1,000,000 股给夏璐，占公司总股本0.57%，用于个人资金需求；本次后累计质押5,710,000 股，占其持股65.46%。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -11553,91 +10977,46 @@
               "stageChange": true
             },
             "genericTitleRewrite": false,
-            "impact": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+            "impact": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险。",
             "keyFigures": [
-              "5%"
+              "1,000,000 股",
+              "0.57%",
+              "5,710,000 股",
+              "65.46%"
             ],
-            "nextObservation": "后续关注正式公告中的关键节点和数字变化。",
+            "nextObservation": "后续关注累计质押比例、解除质押、补充质押及质权实现风险。",
             "passed": true,
-            "stage": "经营治理",
+            "stage": "股份质押",
             "stageEvidence": {
               "mode": "structured_matter_type",
               "sourceIds": []
             },
             "standard": "v2-substantive-five-field"
           },
-          "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+          "impactAssessment": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险。",
           "importance": "必看",
           "isReference": false,
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "经营治理",
-          "matter_id": "listed-matter-696006ff10283e",
-          "nextObservation": "后续关注正式公告中的关键节点和数字变化。",
+          "matterType": "股份质押",
+          "matter_id": "listed-matter-5b74f03894e8c5",
+          "nextObservation": "后续关注累计质押比例、解除质押、补充质押及质权实现风险。",
           "publishedAt": "2026-07-31",
-          "referenceMatterId": "listed-matter-696006ff10283e",
+          "referenceMatterId": "listed-matter-5b74f03894e8c5",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449368.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449592.PDF",
           "sources": [
             {
-              "announcementId": "1225449368",
-              "announcementTitle": "西安铂力特增材技术股份有限公司独立董事提名人声明与承诺（黄宾）",
+              "announcementId": "1225449592",
+              "announcementTitle": "关于股东部分股份质押的公告",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449368.PDF"
-            },
-            {
-              "announcementId": "1225449367",
-              "announcementTitle": "西安铂力特增材技术股份有限公司独立董事提名人声明与承诺（徐亚东）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449367.PDF"
-            },
-            {
-              "announcementId": "1225449366",
-              "announcementTitle": "西安铂力特增材技术股份有限公司独立董事候选人声明与承诺（赵嵩正）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449366.PDF"
-            },
-            {
-              "announcementId": "1225449365",
-              "announcementTitle": "西安铂力特增材技术股份有限公司董事会提名委员会关于第四届董事会董事候选人的审查意见",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449365.PDF"
-            },
-            {
-              "announcementId": "1225449364",
-              "announcementTitle": "西安铂力特增材技术股份有限公司独立董事提名人声明与承诺（赵嵩正）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449364.PDF"
-            },
-            {
-              "announcementId": "1225449363",
-              "announcementTitle": "西安铂力特增材技术股份有限公司关于董事会换届选举的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449363.PDF"
-            },
-            {
-              "announcementId": "1225449362",
-              "announcementTitle": "西安铂力特增材技术股份有限公司独立董事候选人声明与承诺（黄宾）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449362.PDF"
-            },
-            {
-              "announcementId": "1225449355",
-              "announcementTitle": "西安铂力特增材技术股份有限公司独立董事候选人声明与承诺（徐亚东）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449355.PDF"
-            },
-            {
-              "announcementId": "1225449353",
-              "announcementTitle": "西安铂力特增材技术股份有限公司关于选举职工代表董事的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449353.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449592.PDF"
             }
           ],
-          "title": "铂力特｜经营治理",
-          "whyImportant": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪；后续关注正式公告中的关键节点和数字变化。"
+          "title": "瑞联新材｜股份质押",
+          "whyImportant": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险；后续关注累计质押比例、解除质押、补充质押及质权实现风险。"
         }
       ]
     },
@@ -12966,8 +12345,8 @@
     "pageDate": "2026-07-31",
     "sourceAsOf": "2026-07-31",
     "sourceCoverage": {
-      "linked": 40,
-      "total": 40,
+      "linked": 34,
+      "total": 34,
       "unmatched": []
     }
   },
@@ -27881,17 +27260,17 @@
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "listed_primary_verified_71_announcements",
+        "result": "listed_primary_verified_72_announcements",
         "scanAsOf": "2026-07-31",
         "status": "completed"
       },
       "ma": {
         "evidence": [
-          "v2/data/source/ma/scans/scan-2026-07-31-morning.json"
+          "v2/data/source/ma/scans/scan-2026-07-31-closing.json"
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "ma_completed_reused_verified_receipt",
+        "result": "ma_completed_event_on_scan_date_false",
         "scanAsOf": "2026-07-31",
         "status": "no_new"
       },
@@ -27909,7 +27288,7 @@
       },
       "soe": {
         "evidence": [
-          "v2/data/source/soe/scans/scan-2026-07-31-morning.json"
+          "v2/data/source/soe/scans/scan-2026-07-31-closing.json"
         ],
         "ready": true,
         "releaseEligible": false,
@@ -27919,11 +27298,11 @@
       },
       "tender": {
         "evidence": [
-          "v2/data/source/tender/scans/scan-2026-07-31-morning.json"
+          "v2/data/source/tender/scans/scan-2026-07-31-closing.json"
         ],
         "ready": true,
         "releaseEligible": true,
-        "result": "tender_degraded_reused_verified_receipt",
+        "result": "tender_degraded_event_on_scan_date_false",
         "scanAsOf": "2026-07-31",
         "status": "degraded"
       }
@@ -27935,7 +27314,7 @@
       "sha256": "a9f6e663a3b857112c5b39c0c5d2610cb59f50212717b2fc40f83a6331593aa9",
       "standard": "v1-source-and-editorial-quality"
     },
-    "slot": "morning",
+    "slot": "closing",
     "sourceConstraints": [
       {
         "channel": "tender",
@@ -27955,7 +27334,7 @@
     "year": "eventDate 所在自然年；仅展示结构化源中真实存在的年份"
   },
   "scanAsOf": "2026-07-31",
-  "scanSlot": "morning",
+  "scanSlot": "closing",
   "schemaVersion": "2.2",
   "soe": {
     "available": true,
@@ -27969,6 +27348,54 @@
     "categoryRecords": {
       "产业经营": [
         {
+          "candidateId": "soe-v2-e2f208904eae5d5e8029",
+          "category": "产业经营",
+          "entities": [
+            "陕西煤业化工集团有限责任公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-31",
+          "sourceName": "陕煤集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429411&cid=37",
+          "title": "陕煤集团举办学习贯彻习近平党建思想培训班暨“五型”大讲堂",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
+          "verificationNote": "陕煤集团举办学习贯彻习近平党建思想培训班暨“五型”大讲堂- 宣传思想 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们"
+        },
+        {
+          "candidateId": "soe-v2-df91205a7ffa4353a8be",
+          "category": "产业经营",
+          "entities": [
+            "陕西煤业化工集团有限责任公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-31",
+          "sourceName": "陕煤集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429413&cid=42",
+          "title": "张家峁矿业：为民生“提质” 为幸福“加码”",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
+          "verificationNote": "张家峁矿业：为民生“提质” 为幸福“加码”- 造福员工 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精"
+        },
+        {
+          "candidateId": "soe-v2-d03be738115e07287dc1",
+          "category": "产业经营",
+          "entities": [
+            "陕西煤业化工集团有限责任公司"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-07-31",
+          "sourceName": "陕煤集团官网",
+          "sourceQuality": "issuer_original",
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429410&cid=15",
+          "title": "榆林化学召开120项目投料试车动员会",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
+          "verificationNote": "榆林化学召开120项目投料试车动员会- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神标识"
+        },
+        {
           "candidateId": "soe-v2-5d548ec9bf5c37b41658",
           "category": "产业经营",
           "entities": [
@@ -27981,7 +27408,7 @@
           "sourceQuality": "issuer_original",
           "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429405&cid=33",
           "title": "陕煤集团2026年审计数智化转型与实务能力提升培训班圆满举办",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-morning.json",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
           "verificationNote": "陕煤集团2026年审计数智化转型与实务能力提升培训班圆满举办- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系"
         },
         {
@@ -27999,54 +27426,6 @@
           "title": "天津伊米斯新能科技有限公司 闲置系统及闲置办公家具 闲置电子办公设备处置竞价公告",
           "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
           "verificationNote": "天津伊米斯新能科技有限公司 闲置系统及闲置办公家具 闲置电子办公设备处置竞价公告- 调剂信息 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织"
-        },
-        {
-          "candidateId": "soe-v2-ec02f2c1c679c14a86e0",
-          "category": "产业经营",
-          "entities": [
-            "陕西煤业化工集团有限责任公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-30",
-          "sourceName": "陕煤集团官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429394&cid=33",
-          "title": "创效7182万！彬长矿业胡家河矿打出降本增效“组合拳”",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
-          "verificationNote": "创效7182万！彬长矿业胡家河矿打出降本增效“组合拳”- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 "
-        },
-        {
-          "candidateId": "soe-v2-e2ef67e2418f94f0005a",
-          "category": "产业经营",
-          "entities": [
-            "陕西煤业化工集团有限责任公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-30",
-          "sourceName": "陕煤集团官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429391&cid=15",
-          "title": "陕北矿业：铆足干劲实现“双过半”",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
-          "verificationNote": "陕北矿业：铆足干劲实现“双过半”- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神标识 核"
-        },
-        {
-          "candidateId": "soe-v2-aef269ac0bd271b71230",
-          "category": "产业经营",
-          "entities": [
-            "陕西煤业化工集团有限责任公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-30",
-          "sourceName": "陕煤集团官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429399&cid=187",
-          "title": "北元集团金基催化剂合成氯乙烯技术通过鉴定",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
-          "verificationNote": "北元集团金基催化剂合成氯乙烯技术通过鉴定- 科技创新 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神"
         }
       ],
       "综合动态": [
@@ -28063,7 +27442,7 @@
           "sourceQuality": "official_public_disclosure",
           "sourceUrl": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202607/t20260731_3661955.html",
           "title": "【陕煤集团】彬长矿业救援中心：筑牢汛期安全防线 守护矿区生命通道 2026-07-31",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-morning.json",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
           "verificationNote": "【陕煤集团】彬长矿业救援中心：筑牢汛期安全防线 守护矿区生命通道-陕西省人民政府国有资产监督管理委员会 中国政府网 陕西省人民政府 繁简体 无障碍阅读 长者模式 新媒体分享 登录 注册 简体 繁体 EN 无障碍阅读 长者模式 新媒体分享 搜索 首页 机关简介 新闻动态 政务公开 驻委纪检监察组 互动交流 首页 > 国企之窗 > 学习园地 【陕煤集团】彬长矿业救援中心：筑牢汛期安全防线 守护矿区生命通道 时间：2026-07-31 来源：陕煤集团 分享： 扫一扫：分享至微信 X 当前，陕煤集团彬长矿区已进入 “七下八上”防汛关键期，强降雨、雷暴大风等极端恶劣天气频发，井下涌水、地表裂隙、设备受潮等安全风险急剧攀升。面对严峻的防汛形势，救援中心立足应急救援主责主业，精准研判雨情水情与井下灾变关联风险，细化防汛应急管"
         },
         {
@@ -28358,6 +27737,54 @@
     "eventOnScanDate": true,
     "focusRecords": [
       {
+        "candidateId": "soe-v2-e2f208904eae5d5e8029",
+        "category": "产业经营",
+        "entities": [
+          "陕西煤业化工集团有限责任公司"
+        ],
+        "normalizationStatus": "official_source_verified",
+        "noveltyStatus": "verified_v2_import",
+        "publishedAt": "2026-07-31",
+        "sourceName": "陕煤集团官网",
+        "sourceQuality": "issuer_original",
+        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429411&cid=37",
+        "title": "陕煤集团举办学习贯彻习近平党建思想培训班暨“五型”大讲堂",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
+        "verificationNote": "陕煤集团举办学习贯彻习近平党建思想培训班暨“五型”大讲堂- 宣传思想 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们"
+      },
+      {
+        "candidateId": "soe-v2-df91205a7ffa4353a8be",
+        "category": "产业经营",
+        "entities": [
+          "陕西煤业化工集团有限责任公司"
+        ],
+        "normalizationStatus": "official_source_verified",
+        "noveltyStatus": "verified_v2_import",
+        "publishedAt": "2026-07-31",
+        "sourceName": "陕煤集团官网",
+        "sourceQuality": "issuer_original",
+        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429413&cid=42",
+        "title": "张家峁矿业：为民生“提质” 为幸福“加码”",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
+        "verificationNote": "张家峁矿业：为民生“提质” 为幸福“加码”- 造福员工 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精"
+      },
+      {
+        "candidateId": "soe-v2-d03be738115e07287dc1",
+        "category": "产业经营",
+        "entities": [
+          "陕西煤业化工集团有限责任公司"
+        ],
+        "normalizationStatus": "official_source_verified",
+        "noveltyStatus": "verified_v2_import",
+        "publishedAt": "2026-07-31",
+        "sourceName": "陕煤集团官网",
+        "sourceQuality": "issuer_original",
+        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429410&cid=15",
+        "title": "榆林化学召开120项目投料试车动员会",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
+        "verificationNote": "榆林化学召开120项目投料试车动员会- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神标识"
+      },
+      {
         "candidateId": "soe-v2-5d548ec9bf5c37b41658",
         "category": "产业经营",
         "entities": [
@@ -28370,7 +27797,7 @@
         "sourceQuality": "issuer_original",
         "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429405&cid=33",
         "title": "陕煤集团2026年审计数智化转型与实务能力提升培训班圆满举办",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-morning.json",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
         "verificationNote": "陕煤集团2026年审计数智化转型与实务能力提升培训班圆满举办- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系"
       },
       {
@@ -28386,56 +27813,8 @@
         "sourceQuality": "official_public_disclosure",
         "sourceUrl": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202607/t20260731_3661955.html",
         "title": "【陕煤集团】彬长矿业救援中心：筑牢汛期安全防线 守护矿区生命通道 2026-07-31",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-morning.json",
+        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
         "verificationNote": "【陕煤集团】彬长矿业救援中心：筑牢汛期安全防线 守护矿区生命通道-陕西省人民政府国有资产监督管理委员会 中国政府网 陕西省人民政府 繁简体 无障碍阅读 长者模式 新媒体分享 登录 注册 简体 繁体 EN 无障碍阅读 长者模式 新媒体分享 搜索 首页 机关简介 新闻动态 政务公开 驻委纪检监察组 互动交流 首页 > 国企之窗 > 学习园地 【陕煤集团】彬长矿业救援中心：筑牢汛期安全防线 守护矿区生命通道 时间：2026-07-31 来源：陕煤集团 分享： 扫一扫：分享至微信 X 当前，陕煤集团彬长矿区已进入 “七下八上”防汛关键期，强降雨、雷暴大风等极端恶劣天气频发，井下涌水、地表裂隙、设备受潮等安全风险急剧攀升。面对严峻的防汛形势，救援中心立足应急救援主责主业，精准研判雨情水情与井下灾变关联风险，细化防汛应急管"
-      },
-      {
-        "candidateId": "soe-v2-f9f911e2169d2bb7d5b2",
-        "category": "产业经营",
-        "entities": [
-          "陕西煤业化工集团有限责任公司"
-        ],
-        "normalizationStatus": "official_source_verified",
-        "noveltyStatus": "verified_v2_import",
-        "publishedAt": "2026-07-30",
-        "sourceName": "陕煤集团官网",
-        "sourceQuality": "issuer_original",
-        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429396&cid=98",
-        "title": "天津伊米斯新能科技有限公司 闲置系统及闲置办公家具 闲置电子办公设备处置竞价公告",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
-        "verificationNote": "天津伊米斯新能科技有限公司 闲置系统及闲置办公家具 闲置电子办公设备处置竞价公告- 调剂信息 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织"
-      },
-      {
-        "candidateId": "soe-v2-ec02f2c1c679c14a86e0",
-        "category": "产业经营",
-        "entities": [
-          "陕西煤业化工集团有限责任公司"
-        ],
-        "normalizationStatus": "official_source_verified",
-        "noveltyStatus": "verified_v2_import",
-        "publishedAt": "2026-07-30",
-        "sourceName": "陕煤集团官网",
-        "sourceQuality": "issuer_original",
-        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429394&cid=33",
-        "title": "创效7182万！彬长矿业胡家河矿打出降本增效“组合拳”",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-closing.json",
-        "verificationNote": "创效7182万！彬长矿业胡家河矿打出降本增效“组合拳”- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 "
-      },
-      {
-        "candidateId": "soe-v2-e2ef67e2418f94f0005a",
-        "category": "产业经营",
-        "entities": [
-          "陕西煤业化工集团有限责任公司"
-        ],
-        "normalizationStatus": "official_source_verified",
-        "noveltyStatus": "verified_v2_import",
-        "publishedAt": "2026-07-30",
-        "sourceName": "陕煤集团官网",
-        "sourceQuality": "issuer_original",
-        "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429391&cid=15",
-        "title": "陕北矿业：铆足干劲实现“双过半”",
-        "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-30-evening.json",
-        "verificationNote": "陕北矿业：铆足干劲实现“双过半”- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神标识 核"
       }
     ],
     "isAsOfFallback": false,
@@ -28446,19 +27825,19 @@
     ],
     "networkVerified": true,
     "pageDate": "2026-07-31",
-    "recordCount": 94,
+    "recordCount": 97,
     "rejectedCandidateCount": 0,
     "scanAsOf": "2026-07-31",
-    "scanEvidence": "v2/data/source/soe/scans/scan-2026-07-31-morning.json",
-    "scanSlot": "morning",
+    "scanEvidence": "v2/data/source/soe/scans/scan-2026-07-31-closing.json",
+    "scanSlot": "closing",
     "scanStatus": "completed",
     "sourceAsOf": "2026-07-31",
     "summary": {
       "earliestPublishedAt": "2026-05-21",
       "entityCount": 26,
       "latestPublishedAt": "2026-07-31",
-      "recordCount": 94,
-      "verifiedImportCount": 33
+      "recordCount": 97,
+      "verifiedImportCount": 36
     }
   },
   "sourceAsOf": {
@@ -28479,14 +27858,14 @@
       "channel-tender.webp": "v2/assets/channel-tender.webp"
     },
     "equityEvents": "v2/data/source/equity/events-2026.json",
-    "equityScanEvidence": "v2/data/source/equity/scans/scan-2026-07-31-morning.json",
+    "equityScanEvidence": "v2/data/source/equity/scans/scan-2026-07-31-closing.json",
     "equityUniverse": "v2/data/source/equity/universe.json",
     "eventStore": "v2/data/source/events/unified-2026.json",
     "listedBusinessTaxonomy": "v2/data/source/listed/business-taxonomy.json",
     "listedDaily": "v2/data/daily/listed/listed-official-2026-07-31.json",
     "listedUniverse": "v2/data/source/listed/universe.json",
     "maAnnual": "v2/data/source/ma/events-2026.json",
-    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-07-31-morning.json",
+    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-07-31-closing.json",
     "observationPool": "v2/data/source/observation-pool.json",
     "privateAnnual": "v2/data/source/private/products-2026.json",
     "privateProductEvidence": [
@@ -28495,10 +27874,10 @@
     ],
     "privateUniverse": "v2/data/daily/private/security-private-fund-daily-2026-07-31.json + v2/data/source/private/universe.json",
     "soeAnnual": "v2/data/source/soe/events-2026.json",
-    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-07-31-morning.json",
+    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-07-31-closing.json",
     "sourceContract": "v2/config/source-contract.json",
     "tenderAnnualProjects": "v2/data/source/tender/events-2026.json",
-    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-07-31-morning.json",
+    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-07-31-closing.json",
     "v1HistoryIndex": "v2/data/source/v1-history-index.json"
   },
   "tender": {
