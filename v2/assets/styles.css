@@ -10,7 +10,7 @@ body[data-page=listed] .cover{min-height:300px}body[data-page=listed] .cover-inn
 @media(max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}.site-head nav{display:none;position:absolute;top:67px;left:10px;right:10px;padding:10px;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 15px 30px #0002}.site-head nav.open{display:grid;grid-template-columns:1fr 1fr}.nav-toggle{display:block;border:0;background:#e8edf1;border-radius:7px;padding:8px 11px}.filters{grid-template-columns:1fr 1fr}.filters input{grid-column:1/-1}.site-footer{margin:0 14px 20px;grid-template-columns:1fr}}
 @media(max-width:700px){.record-grid{grid-template-columns:1fr}}
 @media(max-width:860px){.listed-shell{display:block;padding:0 14px 45px}.page-toc{position:sticky;top:99px;z-index:20;margin:0 -14px 16px;padding:7px 14px;display:flex;overflow-x:auto;border-width:1px 0;border-radius:0;white-space:nowrap}.page-toc a{flex:none;padding:6px 8px}.dense-kpis{grid-template-columns:repeat(2,1fr)}.news-row{grid-template-columns:110px minmax(0,1fr) 36px}.focus-hit-list{grid-template-columns:1fr}.pool-tools{display:block}.pool-tabs{margin-top:7px}.private-summary{grid-template-columns:1fr}.month-strip{grid-template-columns:repeat(4,1fr)}.compact-tools{grid-template-columns:1fr}.fund-row{grid-template-columns:55px minmax(0,1fr) 55px}.fund-meta{grid-column:2/3}.fund-row>a{grid-column:3;grid-row:1}.ma-row,.tender-row{grid-template-columns:95px minmax(0,1fr)}.ma-amount,.tender-row>a{grid-column:2;text-align:left}.pool-scroll{height:300px}}
-@media(max-width:520px){.edition{position:static;font-size:10px}.site-head{top:0;padding:0 14px}.cover{min-height:470px}.cover-inner{padding:51px 16px 40px}.cover h1,.page-title h1{font-size:35px}.cover .lead{font-size:16px}body:is([data-page=listed],[data-page=private],[data-page=ma],[data-page=tender],[data-page=soe]) .cover{min-height:320px}.wrap{padding:28px 14px 48px}.section{margin-top:32px}.section-head{display:block}.section-head h2{font-size:25px}.section-head p{margin-top:5px}.grid,.grid.two{grid-template-columns:1fr}.facts{grid-template-columns:1fr}.filters{grid-template-columns:1fr}.filters input{grid-column:auto}.record-fields{grid-template-columns:1fr}.record-field{grid-column:1!important}.record-card{padding:17px 16px}.record-card h3{font-size:19px}.card.image{min-height:0}.site-footer{padding:19px}.site-head nav.open{grid-template-columns:1fr 1fr}.daily-block h2{font-size:22px}.page-toc{top:68px}.news-row{grid-template-columns:82px minmax(0,1fr);gap:8px;padding:9px 8px}.row-source{grid-column:2}.news-company{padding-right:7px}.news-main p{font-size:13px}.targets{display:block;width:100%}.month-strip{grid-template-columns:repeat(4,1fr)}.fund-row{grid-template-columns:48px minmax(0,1fr)}.fund-meta,.fund-row>a{grid-column:2}.fund-row>a{grid-row:auto}.ma-row,.tender-row{grid-template-columns:1fr}.ma-amount,.tender-row>a{grid-column:1}.pool-scroll{overflow:auto}.pool-scroll table{min-width:680px}.dense-section>header h2{font-size:21px}.daily-image-summary{display:grid}.daily-image-latest{align-items:flex-start;flex-wrap:wrap}.daily-image-latest b{white-space:normal}.daily-image-latest small{margin-left:0}.daily-image-toggle{justify-self:start}.daily-image-year{display:block}.daily-image-year>span{display:block;margin-bottom:4px}}
+@media(max-width:520px){.edition{position:static;font-size:10px}.site-head{top:0;padding:0 14px}.cover{min-height:470px}.cover-inner{padding:51px 16px 40px}.cover h1,.page-title h1{font-size:35px}.cover .lead{font-size:16px}body:is([data-page=listed],[data-page=private],[data-page=ma],[data-page=tender],[data-page=soe]) .cover{min-height:320px}.wrap{padding:28px 14px 48px}.section{margin-top:32px}.section-head{display:block}.section-head h2{font-size:25px}.section-head p{margin-top:5px}.grid,.grid.two{grid-template-columns:1fr}.facts{grid-template-columns:1fr}.filters{grid-template-columns:1fr}.filters input{grid-column:auto}.record-fields{grid-template-columns:1fr}.record-field{grid-column:1!important}.record-card{padding:17px 16px}.record-card h3{font-size:19px}.card.image{min-height:0}.site-footer{padding:19px}.site-head nav.open{grid-template-columns:1fr 1fr}.daily-block h2{font-size:22px}.page-toc{top:68px}.news-row{grid-template-columns:82px minmax(0,1fr);gap:8px;padding:9px 8px}.row-source{grid-column:2}.news-company{padding-right:7px}.news-main p{font-size:13px}.targets{display:block;width:100%}.month-strip{grid-template-columns:repeat(4,1fr)}.fund-row{grid-template-columns:48px minmax(0,1fr)}.fund-meta,.fund-row>a{grid-column:2}.fund-row>a{grid-row:auto}.ma-row,.tender-row{grid-template-columns:1fr}.ma-amount,.tender-row>a{grid-column:1}.pool-scroll{overflow:visible}.dense-section>header h2{font-size:21px}.daily-image-summary{display:grid}.daily-image-latest{align-items:flex-start;flex-wrap:wrap}.daily-image-latest b{white-space:normal}.daily-image-latest small{margin-left:0}.daily-image-toggle{justify-self:start}.daily-image-year{display:block}.daily-image-year>span{display:block;margin-bottom:4px}}
 .date-status{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:13px;color:#eef3f7;font-size:12px}.date-status span{padding:5px 9px;border:1px solid #ffffff48;border-radius:6px;background:#071b2c42}.date-status b{margin-right:7px;color:#e2c98f}
 .focus-tags{display:flex;flex-wrap:wrap;gap:6px}.focus-tag{display:inline-flex;align-items:center;min-height:27px;padding:4px 9px;border:1px solid #d8d2c7;border-radius:999px;background:#f7f5f0;color:#687483;font-size:10px;line-height:1.25;text-decoration:none}.focus-tag.hit{border-color:#76aa91;background:#e2f1e9;color:#245f48;font-weight:800;box-shadow:inset 0 0 0 1px #ffffff80}.focus-tag.hit:hover,.focus-tag.hit:focus-visible{border-color:#245f48;background:#d5eadf;outline:2px solid var(--gold);outline-offset:2px}
 .focus-company-link{display:block;padding:9px 11px;border-bottom:1px solid #eee8df;color:inherit;text-decoration:none}.focus-company-link:hover,.focus-company-link:focus-visible{background:#edf3f4;outline:2px solid var(--gold);outline-offset:-2px}.focus-hit-list b,.focus-hit-list span,.focus-hit-list small{display:block}.focus-hit-list span,.focus-hit-list small{color:var(--muted);font-size:10px}.focus-hit-list small{margin-top:3px}.anchor-alias{position:absolute;scroll-margin-top:125px}.canonical-detail{scroll-margin-top:145px}.canonical-detail:target,.canonical-detail:focus{position:relative;z-index:1;background:#fff8e8;outline:3px solid var(--gold);outline-offset:-3px}.month-group{margin-top:10px}.month-toggle{display:flex;width:100%;justify-content:space-between;align-items:center;padding:7px 10px;border:0;background:var(--navy);color:#fff;cursor:pointer;text-align:left}.month-toggle span{display:flex;align-items:baseline;gap:8px}.month-toggle b{font-size:16px}.month-toggle small{color:#d7e0e8}.month-toggle em{font-style:normal;font-size:11px}.month-toggle:focus-visible{outline:3px solid var(--gold);outline-offset:2px}.month-panel[hidden]{display:none}.zero-month .month-toggle{background:#637486}.month-empty{border-left:0;border:1px solid var(--line);border-top:0}.fund-title .tag{display:inline-block;width:auto}.custodian-ranking{display:grid;gap:5px;padding:11px 13px;border:1px solid var(--line);background:#fff}.custodian-row{display:grid;grid-template-columns:100px minmax(0,1fr) 25px;gap:9px;align-items:center;font-size:11px}.custodian-row i{height:8px;border-radius:99px;background:linear-gradient(90deg,var(--red) 0 calc(var(--value)/var(--max)*100%),#e6e9eb calc(var(--value)/var(--max)*100%))}.custodian-row b{color:var(--red);text-align:right}
@@ -179,4 +179,70 @@ body[data-page=equity] .embedded-pool small{display:block;margin-top:4px;font-si
     font-size:11px
   }
   body[data-page=listed] .focus-company-link:nth-child(odd){border-right:0}
+}
+
+/* Observation pools stay compact by default and paginate instead of creating
+   an internal long-scroll area. */
+.pool-toggle{width:100%;padding:11px 13px;border:0;background:#edf1f4;color:var(--navy);font:800 13px/1.3 inherit;text-align:left;cursor:pointer}
+.pool-toggle[aria-expanded=true]{border-bottom:1px solid var(--line)}
+.pool-scroll{height:auto;max-height:none;overflow:visible}
+.pool-footer{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 9px}
+.pool-footer .pool-count{padding:0}
+.pool-pager{display:flex;align-items:center;gap:7px;color:var(--muted);font-size:11px}
+.pool-pager button{padding:4px 8px;border:1px solid #d3d9de;border-radius:5px;background:#fff;color:var(--navy);cursor:pointer}
+.pool-pager button:disabled{opacity:.45;cursor:default}
+
+/* Equity deal layout was previously scoped to a phone-only media query. */
+.equity-deals{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.equity-deal{display:grid;grid-template-columns:142px minmax(0,1fr) 112px;gap:18px;padding:18px 20px;border-bottom:1px solid var(--line);align-items:start}
+.equity-deal:last-child{border-bottom:0}
+.equity-deal>div:first-child{display:grid;gap:9px;justify-items:start;color:var(--muted);font-weight:700}
+.equity-deal time{font-variant-numeric:tabular-nums}
+.equity-deal h3{margin:0 0 8px;color:var(--ink);font-size:20px;line-height:1.35}
+.equity-deal p{margin:5px 0;color:var(--muted);font-size:14px;line-height:1.55}
+.equity-deal small{display:block;margin-top:9px;color:var(--ink);font-size:14px;line-height:1.6}
+.equity-deal>div:last-child{padding-top:3px;text-align:right}
+.equity-deal .facts{margin:10px 0 4px}
+body[data-page=equity] .embedded-pool small{display:block;margin-top:4px;font-size:12px}
+
+@media(max-width:860px){
+  .equity-deal{grid-template-columns:1fr;padding:15px 14px;gap:9px}
+  .equity-deal>div:first-child{display:flex;align-items:center;gap:8px}
+  .equity-deal>div:last-child{padding-top:0;text-align:left}
+  .equity-deal h3{font-size:18px}
+  .equity-deal .facts{grid-template-columns:1fr}
+}
+
+@media(max-width:520px){
+  /* Two rows of local navigation replace the clipped horizontal strip. */
+  body[data-page=listed] .page-toc{
+    position:sticky;
+    top:68px;
+    display:grid;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    gap:2px;
+    overflow:visible;
+    padding:6px 10px;
+    white-space:normal
+  }
+  body[data-page=listed] .page-toc a{
+    min-width:0;
+    min-height:32px;
+    justify-content:center;
+    padding:4px 2px;
+    border:0;
+    font-size:10px;
+    line-height:1.25;
+    text-align:center
+  }
+  /* Table rows become labelled cards; no 680px minimum width or horizontal drag. */
+  .pool-tools{display:grid;gap:7px}
+  .pool-tools input{width:100%;min-width:0}
+  .pool-footer{align-items:flex-start;flex-direction:column}
+  .pool-scroll table{min-width:0}
+  .pool-scroll thead{display:none}
+  .pool-scroll tbody,.pool-scroll tr,.pool-scroll td{display:block;width:100%}
+  .pool-scroll tr{padding:7px 10px;border-bottom:1px solid #e4ddd2}
+  .pool-scroll td{display:grid;grid-template-columns:92px minmax(0,1fr);gap:8px;padding:4px 0;border:0;overflow-wrap:anywhere}
+  .pool-scroll td::before{content:attr(data-label);color:var(--muted);font-size:10px;font-weight:750}
 }

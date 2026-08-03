@@ -12,9 +12,9 @@ const monthDay=value=>{
 };
 const scanLabel=(data,channel)=>{
   const row=data.readiness?.channels?.[channel]||{};
-  if(row.ready&&row.status==="no_new")return `已完成扫描，今日无新增（${zhDate(row.scanAsOf)}）`;
-  if(row.ready&&row.status==="degraded")return `已完成扫描，来源受限（${zhDate(row.scanAsOf)}）`;
-  if(row.ready)return `已完成扫描（${zhDate(row.scanAsOf)}）`;
+  if(row.ready&&row.status==="no_new")return `数据扫描已完成，今日无新增（${zhDate(row.scanAsOf)}）`;
+  if(row.ready&&row.status==="degraded")return `数据扫描已完成，来源受限（${zhDate(row.scanAsOf)}）`;
+  if(row.ready)return `数据扫描已完成（${zhDate(row.scanAsOf)}）`;
   return `今日尚未完成扫描`;
 };
 const external=(url,label)=>url?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`:"";
@@ -23,7 +23,7 @@ const source=(name,url)=>url
   ?`<p class="source">来源：${external(url,name||"公告原文")}</p>`
   :`<p class="source pending-source">${esc(name||"待补原始来源")}</p>`;
 const card=(title,body,label="",href="",date="")=>`<article class="card">${label?tag(label,"gold"):""}${date?`<time>${esc(zhDate(date))}</time>`:""}<h3>${esc(title)}</h3><p>${esc(body)}</p>${href?`<a class="more" href="${esc(href)}">查看详情 →</a>`:""}</article>`;
-const cover=(asOf,eyebrow,title,lead,image,extra="",sourceStatus="")=>`<section class="cover" style="--image:url('${image}')"><div class="cover-inner"><p class="eyebrow">${esc(eyebrow)}</p><h1>${esc(title)}</h1><p class="lead">${esc(lead)}</p><div class="cover-date">${esc(zhDate(asOf))}</div><div class="date-status"><span><b>页面日期</b>${esc(zhDate(asOf))}</span><span><b>数据截至</b>${esc(sourceStatus||zhDate(asOf))}</span></div><div class="actions"><a class="btn" href="#today">阅读本期内容</a><button class="btn ghost copy" type="button">复制链接</button></div>${extra}</div></section>`;
+const cover=(asOf,eyebrow,title,lead,image,extra="",sourceStatus="")=>`<section class="cover" style="--image:url('${image}')"><div class="cover-inner"><p class="eyebrow">${esc(eyebrow)}</p><h1>${esc(title)}</h1><p class="lead">${esc(lead)}</p><div class="cover-date">${esc(zhDate(asOf))}</div><div class="date-status"><span><b>页面日期</b>${esc(zhDate(asOf))}</span><span><b>扫描状态</b>${esc(sourceStatus||zhDate(asOf))}</span></div><div class="actions"><a class="btn" href="#today">阅读本期内容</a><button class="btn ghost copy" type="button">复制链接</button></div>${extra}</div></section>`;
 const section=(title,sub,body,id="")=>`<section class="section"${id?` id="${id}"`:""}><div class="section-head"><h2>${title}</h2><p>${sub||""}</p></div>${body}</section>`;
 const dailyImageArchive=(index,channel)=>{
   const rows=(index?.channels?.[channel]||[])
@@ -79,6 +79,7 @@ function pagedList(rows,{render,pageSize=10,filters=[],rowClass="record-grid"}){
 
 function poolTable(rows,{kind}){
   const host=document.createElement("div");
+  const pageSize=20;
   const counts=Object.fromEntries(["L1","L2","L3","PF1","PF2","G1","G2"].map(tier=>[tier,rows.filter(row=>row.tier===tier).length]));
   const tiers=kind==="listed"
     ?[["",`全部 ${rows.length}`],["L1",`L1 ${counts.L1}`],["L2",`L2 ${counts.L2}`],["L3",`L3 ${counts.L3}`]]
@@ -91,24 +92,41 @@ function poolTable(rows,{kind}){
     :kind==="equity"
       ?"<th>管理人</th><th>登记编号</th><th>注册地</th><th>办公地</th><th>层级 / 陕西关系</th>"
       :"<th>管理人</th><th>登记编号</th><th>注册省</th><th>办公省</th><th>层级 / 关系类型</th>";
-  host.innerHTML=`<div class="pool-tools"><input type="search" placeholder="搜索名称、登记编号或关系"><div class="pool-tabs">${tiers.map(([value,label])=>`<button type="button" data-tier="${value}" class="${value===""?"active":""}">${label}</button>`).join("")}</div></div><div class="pool-scroll"><table><thead><tr>${headers}</tr></thead><tbody></tbody></table></div><p class="pool-count"></p>`;
+  host.innerHTML=`<button class="pool-toggle" type="button" data-pool-toggle aria-expanded="false">展开观察池（${rows.length}条）</button><div data-pool-panel hidden><div class="pool-tools"><input type="search" placeholder="搜索名称、登记编号或关系"><div class="pool-tabs">${tiers.map(([value,label])=>`<button type="button" data-tier="${value}" class="${value===""?"active":""}">${label}</button>`).join("")}</div></div><div class="pool-scroll"><table><thead><tr>${headers}</tr></thead><tbody></tbody></table></div><div class="pool-footer"><p class="pool-count"></p><div class="pool-pager"><button type="button" data-pool-prev>上一页</button><span data-pool-page></span><button type="button" data-pool-next>下一页</button></div></div></div>`;
   let tier="";
+  let page=1;
   const draw=()=>{
     const query=$("input",host).value.trim().toLowerCase();
     const filtered=rows.filter(row=>(!tier||row.tier===tier)&&(!query||JSON.stringify(row).toLowerCase().includes(query)));
-    $("tbody",host).innerHTML=filtered.map(row=>kind==="listed"
-      ?`<tr><td><b>${esc(row.name)}</b></td><td>${esc(row.code)} · ${esc(row.exchange)}</td><td>${tag(row.tier)}</td><td>${esc(row.reason)}</td></tr>`
+    const pageCount=Math.max(1,Math.ceil(filtered.length/pageSize));
+    page=Math.min(page,pageCount);
+    const visible=filtered.slice((page-1)*pageSize,page*pageSize);
+    $("tbody",host).innerHTML=visible.map(row=>kind==="listed"
+      ?`<tr><td data-label="公司"><b>${esc(row.name)}</b></td><td data-label="代码 / 市场">${esc(row.code)} · ${esc(row.exchange)}</td><td data-label="层级">${tag(row.tier)}</td><td data-label="陕西关系 / 纳入原因">${esc(row.reason)}</td></tr>`
       :kind==="equity"
-        ?`<tr><td><b>${esc(row.name)}</b>${row.detailUrl?`<small>${external(row.detailUrl,"AMAC公示")}</small>`:""}</td><td>${esc(row.registerNo||"待核验")}</td><td>${esc(row.registerProvince||"待核验")}</td><td>${esc(row.officeProvince||"待核验")}</td><td>${tag(row.tier,row.tier==="G2"?"gold":"green")} ${esc(row.relation)}</td></tr>`
-        :`<tr><td><b>${esc(row.name)}</b><small>${esc(row.relationLabel)}</small></td><td>${esc(row.registerNo||"待核验")}</td><td>${esc(row.registerProvince)}</td><td>${esc(row.officeProvince||"待核验")}</td><td>${tag(row.tier,row.tier==="PF2"?"red":"")} ${esc(row.relationLabel)}</td></tr>`).join("");
-    $(".pool-count",host).textContent=`当前显示 ${filtered.length} 条；表格内部滚动可查看全部。`;
+        ?`<tr><td data-label="管理人"><b>${esc(row.name)}</b>${row.detailUrl?`<small>${external(row.detailUrl,"AMAC公示")}</small>`:""}</td><td data-label="登记编号">${esc(row.registerNo||"待核验")}</td><td data-label="注册地">${esc(row.registerProvince||"待核验")}</td><td data-label="办公地">${esc(row.officeProvince||"待核验")}</td><td data-label="层级 / 陕西关系">${tag(row.tier,row.tier==="G2"?"gold":"green")} ${esc(row.relation)}</td></tr>`
+        :`<tr><td data-label="管理人"><b>${esc(row.name)}</b><small>${esc(row.relationLabel)}</small></td><td data-label="登记编号">${esc(row.registerNo||"待核验")}</td><td data-label="注册省">${esc(row.registerProvince)}</td><td data-label="办公省">${esc(row.officeProvince||"待核验")}</td><td data-label="层级 / 关系类型">${tag(row.tier,row.tier==="PF2"?"red":"")} ${esc(row.relationLabel)}</td></tr>`).join("");
+    $(".pool-count",host).textContent=`共 ${filtered.length} 条，每页 ${pageSize} 条。`;
+    $("[data-pool-page]",host).textContent=`${page} / ${pageCount}`;
+    $("[data-pool-prev]",host).disabled=page===1;
+    $("[data-pool-next]",host).disabled=page===pageCount;
   };
-  $("input",host).addEventListener("input",draw);
+  $("[data-pool-toggle]",host).onclick=()=>{
+    const panel=$("[data-pool-panel]",host);
+    const reveal=panel.hidden;
+    panel.hidden=!reveal;
+    $("[data-pool-toggle]",host).setAttribute("aria-expanded",String(reveal));
+    $("[data-pool-toggle]",host).textContent=reveal?"收起观察池":`展开观察池（${rows.length}条）`;
+  };
+  $("input",host).addEventListener("input",()=>{page=1;draw();});
   $$("[data-tier]",host).forEach(button=>button.onclick=()=>{
     tier=button.dataset.tier;
+    page=1;
     $$("[data-tier]",host).forEach(item=>item.classList.toggle("active",item===button));
     draw();
   });
+  $("[data-pool-prev]",host).onclick=()=>{page--;draw();};
+  $("[data-pool-next]",host).onclick=()=>{page++;draw();};
   draw();
   return host;
 }
@@ -128,13 +146,13 @@ function home(data){
   const channels=[
     ["上市公司早报","按公告日期、重要度与公司去重展示当期事项。","上市公司","assets/channel-listed.webp","listed.html"],
     ["证券私募年度库",`${data.private.products.length}只年内新增备案，可按月份、管理人和层级筛选。`,"证券私募","assets/channel-private.webp","private.html"],
-    ["股权投资与企业融资",`${data.equity.managerCounts.total}家股权私募管理人进入公开身份观察；交易仅纳入可回溯正式来源。`,"股权投资","assets/channel-private.webp","equity.html"],
+    ["股权投资与企业融资",data.equity.maturityStatus==="construction"?"建设中：管理人身份已核验，2026年交易回溯未完成。":`${data.equity.managerCounts.total}家股权私募管理人进入公开身份观察；交易仅纳入可回溯正式来源。`,"股权投资","assets/channel-private.webp","equity.html"],
     ["收并购年度库",`${data.ma.projects.length}个年度项目，已核验与待补来源分区展示。`,"收并购","assets/channel-ma.webp","ma.html"],
     ["金融招投标",`${data.tender.projects.length}个正式独立项目及${data.tender.pending.length}条待回源观察线索。`,"金融招投标","assets/channel-tender.webp","tender.html"],
     ["国企动态早报",`${zhDate(data.soe.scanAsOf)}已完成扫描；最近有效事件${zhDate(data.soe.latestRecordDate)}。`,"国企动态","assets/channel-soe.png","soe.html"],
   ];
   const featured=data.homeHighlights.map(item=>card(item.title,item.body,item.category,item.href,item.date)).join("");
-  const sourceStatus=`${zhDate(data.scanAsOf)}已完成五栏目扫描；各栏最近事件日期见频道页`;
+  const sourceStatus=`五栏目数据扫描已完成（${zhDate(data.scanAsOf)}）；各栏最近事件日期见频道页`;
   return cover(data.asOf,"SHAANXI CAPITAL MARKET DAILY","陕西资本市场动态","聚合陕西上市公司、证券私募、收并购、金融招投标及国企资本动态。","channel-soe.png","",sourceStatus)
     +`<div class="wrap">${section("今日重点",zhDate(data.asOf),`<div class="grid">${featured}</div>`,"today")}${section("进入频道","日报与年度项目库",`<div class="channel-grid">${channels.map(channel=>`<article class="card image"><img src="${channel[3]}" alt=""><div>${tag(channel[2],"gold")}<h3>${channel[0]}</h3><p>${channel[1]}</p><a class="more" href="${channel[4]}">进入频道 →</a></div></article>`).join("")}</div>`)}</div>`;
 }
@@ -183,12 +201,12 @@ function listed(data){
   }).join("");
   const block=(id,no,title,rows,render)=>`<section class="dense-section" id="${id}"><header><h2><span>${no}</span>${title}</h2><b>${rows.length}条</b></header><div class="news-list">${rows.map(render).join("")||`<div class="compact-empty">本期无新增事项。</div>`}</div></section>`;
   const body=
-    block("section-01","01","今日业务机会",daily.opportunities,row=>{const [,company]=row.title.split("｜");return newsRow({row,company,title:"业务机会",text:row.body});})
+    block("section-01","01","今日重点事项",daily.opportunities,row=>{const [,company]=row.title.split("｜");return newsRow({row,company,title:"重点事项",text:row.body});})
     +block("section-02","02","重大事项与风险公告",daily.risk_rows,row=>newsRow({row,company:row.company,title:row.tag,text:row.event,follow:row.whyImportant}))
     +block("section-03","03","上市公司动态",daily.tiles,row=>{const [company,type]=splitTitle(row.title);return newsRow({row,company,title:type,text:row.body,follow:row.whyImportant});})
     +block("section-04","04","股东变动与资本运作",daily.capital_rows,row=>newsRow({row,company:row.company,title:"资本运作",numbers:row.numbersHtml,text:row.attention}))
     +block("section-05","05","股东会、治理与固定披露清单",fixed,row=>{const [company,type]=splitTitle(row.title);return newsRow({row,company,title:type||row.group,text:row.body,follow:row.whyImportant});});
-  const nav=[["business-focus","业务重点"],["section-01","01 机会"],["section-02","02 风险"],["section-03","03 动态"],["section-04","04 资本运作"],["section-05","05 治理披露"],["listed-pool","上市观察池"],["listed-daily-images","日图归档"]];
+  const nav=[["business-focus","业务重点"],["section-01","01 重点"],["section-02","02 风险"],["section-03","03 动态"],["section-04","04 资本运作"],["section-05","05 治理披露"],["listed-pool","上市观察池"],["listed-daily-images","日图归档"]];
   const evidence=(daily.sourceEvidence||[]).map(row=>`<li><span>${esc(row.company)}｜${esc(row.title)}</span>${external(row.sourceUrl,"公告原文")}</li>`).join("");
   host.innerHTML=cover(data.asOf,"DAILY ISSUE · LISTED","陕西上市公司早报","围绕业务机会、重大事项、经营动态、资本运作与治理事项，提炼本期公告要点。","channel-listed.webp","",`${scanLabel(data,"listed")}；最近公告 ${zhDate(data.listed.latestEventDate)}`)
     +`<div class="listed-shell"><aside class="page-toc">${nav.map(([id,label])=>`<a href="#${id}">${label}</a>`).join("")}</aside><div class="listed-content">${section("今日概览",`数据更新至${zhDate(data.asOf)}`,`<div class="dense-kpis">${daily.kpis.map(item=>`<div><b>${esc(item.num)}</b><span>${esc(item.clientLabel||item.label)}</span></div>`).join("")}</div>`,"today")}<section class="dense-section focus-board" id="business-focus"><header><h2>业务重点</h2><b>${focusTags.length}个标签</b></header><p>固定展示21个业务标签；绿色表示本期有相关事项，点击可直接阅读正文。</p><div class="focus-tags" aria-label="上市公司二级业务重点标签">${focusTagLinks}</div></section><div class="daily-sections">${body}</div><section class="listed-evidence-archive"><button type="button" data-listed-evidence-toggle aria-expanded="false">官方公告证据档案（${daily.sourceEvidence?.length||0}条，默认收起）</button><div data-listed-evidence hidden><p>完整公告仅用于追溯，不作为客户摘要直接展示。</p><ul>${evidence}</ul></div></section><section class="dense-section" id="listed-pool"><header><h2>上市公司观察池</h2><b>${data.listed.counts.total} = ${data.listed.counts.L1} + ${data.listed.counts.L2} + ${data.listed.counts.L3}</b></header><p class="pool-definition">L1为陕西辖区A股；L2为陕西办公或经营的境外上市主体；L3为陕西实质强关联上市公司。</p><div data-listed-pool></div></section>${dailyImageArchive(data.dailyImageArchive,"listed")}</div></div>`;
@@ -252,6 +270,10 @@ const equityDeal=row=>`<article class="equity-deal" id="${esc(row.id)}"><div><ti
 
 function equityPage(data){
   const channel=data.equity;
+  const progress=channel.reviewProgress||{verifiedDealCount:channel.deals.length,pendingManagerCount:channel.managerCounts.total,statusLabel:`已核验交易${channel.deals.length}笔、待回溯管理人${channel.managerCounts.total}家`};
+  const maturity=channel.maturityStatus==="construction"
+    ?`${progress.statusLabel}；交易库建设中，本页暂不宣称已正式日度化。`
+    :"交易库已通过正式来源门禁。";
   const scanText=channel.scanCurrent
     ?`${zhDate(channel.scanAsOf)}已完成公开管理人身份核验；本页交易仅取正式来源。`
     :channel.scanAsOf
@@ -259,7 +281,7 @@ function equityPage(data){
       :"本时点公开身份核验尚未完成；页面不以旧数据宣称今日已完成。";
   const host=document.createElement("div");
   host.innerHTML=cover(data.asOf,"PRIVATE EQUITY · VERIFIED DEALS","陕西股权私募与企业融资","从股权私募管理人与陕西企业融资两个角度呈现；同一交易仅保留一份可追溯主档。","channel-private.webp","",scanText)
-    +`<div class="wrap compact-wrap">${section("观察范围",scanText,`<div class="dense-kpis"><div><b>${channel.managerCounts.total}家</b><span>股权私募管理人</span></div><div><b>${channel.managerCounts.G1R}家</b><span>G1-R 注册地在陕西</span></div><div><b>${channel.managerCounts.G1O}家</b><span>G1-O 办公地在陕西</span></div><div><b>${channel.managerCounts.G2}家</b><span>G2 强关联管理人</span></div></div>`,"today")}${section("股权私募观察池","AMAC核验身份；G2仅收录有硬证据的强关联",`<div data-equity-pool></div>`)}${section("公开可核验交易库",channel.deals.length?`${channel.deals.length}笔统一交易主档；管理人视角与企业融资视角均可追溯。`:`截至${zhDate(data.asOf)}，未纳入符合正式来源标准的交易。`,channel.deals.length?`<div data-equity-deals></div>`:`<div class="compact-status">${esc(channel.customerBoundary)}</div>`)}${section("口径说明","身份、交易和上市进展分别核验",`<div class="definition"><p>${esc(channel.sourceBoundary||EQUITY_AMAC_BOUNDARY)}</p><p>${esc(channel.customerBoundary)}</p><p>企业“拟上市”仅以辅导备案、交易所受理/问询/审核/注册或境外上市备案等正式进展标注；地方后备库不等同于拟上市。</p></div>`)}</div>`;
+    +`<div class="wrap compact-wrap">${section("数据成熟度",progress.statusLabel,`<div class="dense-kpis"><div><b>${progress.verifiedDealCount}笔</b><span>已核验交易</span></div><div><b>${progress.pendingManagerCount}家</b><span>待回溯管理人</span></div></div><div class="compact-status">${esc(maturity)}</div>`,"today")}${section("观察范围",scanText,`<div class="dense-kpis"><div><b>${channel.managerCounts.total}家</b><span>股权私募管理人</span></div><div><b>${channel.managerCounts.G1R}家</b><span>G1-R 注册地在陕西</span></div><div><b>${channel.managerCounts.G1O}家</b><span>G1-O 办公地在陕西</span></div><div><b>${channel.managerCounts.G2}家</b><span>G2 强关联管理人</span></div></div>`)}${section("股权私募观察池","AMAC核验身份；G2仅收录有硬证据的强关联",`<div data-equity-pool></div>`)}${section("公开可核验交易库",channel.deals.length?`${channel.deals.length}笔统一交易主档；管理人视角与企业融资视角均可追溯。`:progress.statusLabel,channel.deals.length?`<div data-equity-deals></div>`:`<div class="compact-status">${esc(channel.customerBoundary)}</div>`)}${section("口径说明","身份、交易和上市进展分别核验",`<div class="definition"><p>${esc(channel.sourceBoundary||EQUITY_AMAC_BOUNDARY)}</p><p>${esc(channel.customerBoundary)}</p><p>企业“拟上市”仅以辅导备案、交易所受理/问询/审核/注册或境外上市备案等正式进展标注；地方后备库不等同于拟上市。</p></div>`)}</div>`;
   $("[data-equity-pool]",host).replaceWith(poolTable(channel.managers,{kind:"equity"}));
   if(channel.deals.length){
     const deals=pagedList(channel.deals,{pageSize:10,rowClass:"equity-deals",filters:[{label:"全部月份",value:row=>row.eventDate.slice(0,7)},{label:"全部阶段",value:row=>row.stage},{label:"全部企业关系",value:row=>row.shaanxiRelation}],render:equityDeal});
