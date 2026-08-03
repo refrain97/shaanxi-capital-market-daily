@@ -40,31 +40,31 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-08-03.json",
-        "sha256": "cf87457ac074bc38eb98f7c9b45ebe100bbb763459522e442f71d562b9766e45"
+        "sha256": "b056a7175cbfe8f8c7b665a6a32bac826ce4ae598fe2bacfac3aab57bcddebf6"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-08-03.json",
-        "sha256": "659c872972597d6fbffd034d38c5ad5372949d4923a8a1e7512808b96696737f"
+        "sha256": "ea16236a0076985eea32388ee3e379d8f2bf9ae74170785521087225fd92fe06"
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-08-03.json",
         "sha256": "1c52e313a786853fc62115fbe55dedff8707a5812412d8f6b117839c4f733e63"
       },
       {
-        "path": "v2/data/readiness/v2-ready-2026-08-03-morning.json",
-        "sha256": "cec2b217bb8467f6c167b0125457c6b12b1ae1ab82baa15f50a0ffbb39224666"
+        "path": "v2/data/readiness/v2-ready-2026-08-03-midday.json",
+        "sha256": "067ea84b1af7f99bd22a6d55f55c76aa256d2ea5360a79df0e93ecfa40692f36"
       },
       {
         "path": "v2/data/source/equity/events-2026.json",
         "sha256": "9f183472f97bcd97ac57fe6cec939e145a9e453ea9de7b85117ba666df67030f"
       },
       {
-        "path": "v2/data/source/equity/scans/scan-2026-07-31-morning.json",
-        "sha256": "b3147f0cb1b681d4d93eb817700e79fc7023a79528e2e3128ca8fc4f966cc5bf"
+        "path": "v2/data/source/equity/scans/scan-2026-07-31-midday.json",
+        "sha256": "5ec0a7fa057bba5b2163f3829c34815f899627922b0ab9a401e6e5136b15d8ad"
       },
       {
-        "path": "v2/data/source/equity/scans/scan-2026-08-03-morning.json",
-        "sha256": "e459dd503a78fd092e603edfdfcd70ed3db08c5ed07b606d6e8a42f4cb12e5b8"
+        "path": "v2/data/source/equity/scans/scan-2026-08-03-midday.json",
+        "sha256": "5f905d83d4320cba247a7d4d68a6c04f09c973c20165739842c27133a2f166fb"
       },
       {
         "path": "v2/data/source/equity/universe.json",
@@ -72,7 +72,7 @@
       },
       {
         "path": "v2/data/source/events/unified-2026.json",
-        "sha256": "cc169161dc551ca7af7f97b8a7706911fede2c7c4ff3a228c5f5c07f51eec5de"
+        "sha256": "4057bfd9383f0f6a49ed3fa84593b02172fce8d494dc5b1f8725c01d19ac74b2"
       },
       {
         "path": "v2/data/source/listed/business-taxonomy.json",
@@ -87,8 +87,8 @@
         "sha256": "db41a0782237483409087b4a475da0c950cd0b013118b8b62d603129625a21cb"
       },
       {
-        "path": "v2/data/source/ma/scans/scan-2026-08-03-morning.json",
-        "sha256": "db84a497ef11cd9b6f8b6aaa8ea08ff3d94930c8f4f52747939bf30e6e2b136b"
+        "path": "v2/data/source/ma/scans/scan-2026-08-03-midday.json",
+        "sha256": "33fde156a4aa6df60b08311f988317405548ed8b2e9c1b85602fbe7688ed22a7"
       },
       {
         "path": "v2/data/source/observation-pool.json",
@@ -104,23 +104,23 @@
       },
       {
         "path": "v2/data/source/soe/events-2026.json",
-        "sha256": "51042ab52ee4bed002a978432d7250ed9788273f18ded2b1b5ff0a5be6255baa"
+        "sha256": "cddb3f29bf0e8f5c5211f5d9981b0621146908f7d9974880464d5a5658a0123b"
       },
       {
-        "path": "v2/data/source/soe/evidence/verified-2026-08-03-morning.json",
-        "sha256": "2561cd36682506cd7d96c673cc42e2e8e75871379351fadc8b35e797213707f3"
+        "path": "v2/data/source/soe/evidence/verified-2026-08-03-midday.json",
+        "sha256": "26c1652297d59d36559282c8722c2e6b10d5bc63cb3a74110095a5c9f83b989d"
       },
       {
-        "path": "v2/data/source/soe/scans/scan-2026-08-03-morning.json",
-        "sha256": "7f32f26ef202e9d958557276e11cc54100cfa4698fe467f0633008e9b005ef42"
+        "path": "v2/data/source/soe/scans/scan-2026-08-03-midday.json",
+        "sha256": "7f01ce4073de8351008dbde7b5879f29719b903c7d375de95bac4ffffdb70976"
       },
       {
         "path": "v2/data/source/tender/events-2026.json",
         "sha256": "565ab4b7d84b3a1e583fa2938700f7000dec669595a19573e5d80dee802e2f84"
       },
       {
-        "path": "v2/data/source/tender/scans/scan-2026-08-03-morning.json",
-        "sha256": "5c935a4a448f4864368fbf410f3e41877203fb2f6ca9679998800ee06bacaba0"
+        "path": "v2/data/source/tender/scans/scan-2026-08-03-midday.json",
+        "sha256": "4c3ef6e7e9916708c95775f38a76040d71f39138a370269feb8eecb73d8068c3"
       },
       {
         "path": "v2/data/source/v1-history-index.json",
@@ -128,7 +128,7 @@
       },
       {
         "path": "v2/scripts/build_daily_v2.py",
-        "sha256": "7354817b61acf793eefdf64ececef0697480951746473e269d5734469c3c3a10"
+        "sha256": "bf30b8c490596fdcc98f1e65e10e1c70600ebb143df3c503d0551c03a7dfb417"
       },
       {
         "path": "v2/scripts/refresh_equity_private_events.py",
@@ -153,10 +153,10 @@
     ],
     "mode": "repeatable-derived-artifact",
     "notice": "本快照由列示规范数据与结构化证据稳定生成。",
-    "readiness": "v2/data/readiness/v2-ready-2026-08-03-morning.json",
+    "readiness": "v2/data/readiness/v2-ready-2026-08-03-midday.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "cbfe4d2ab946"
+    "version": "727655d19a8c"
   },
   "equity": {
     "customerBoundary": "建设中，已核验交易0笔、待回溯管理人187家。当前仅核验管理人公开身份，尚不作为正式日度交易库。",
@@ -2615,14 +2615,24 @@
     },
     "scanAsOf": "2026-08-03",
     "scanCurrent": true,
-    "scanSlot": "morning",
+    "scanSlot": "midday",
     "scanStatus": "completed",
     "sourceAsOf": "2026-08-03",
     "sourceBoundary": "AMAC仅核验管理人身份与地域口径，不据此推定投资项目。"
   },
   "homeHighlights": [
     {
-      "body": "派瑞股份经营治理进入经营治理阶段，关键数字为22,715,044.25 元。",
+      "body": "华秦科技拟申请注册发行科技创新公司债券；拟于2026年8月17日提交股东会审议。",
+      "category": "上市公司",
+      "company": "华秦科技",
+      "date": "2026-08-01",
+      "href": "listed.html#listed-detail-6b99b3eed7-271f4a73",
+      "mode": "latest-specific",
+      "sortBasis": "公告日期倒序，同日按重要度排序",
+      "title": "必看｜华秦科技"
+    },
+    {
+      "body": "派瑞股份公司及相关当事人收到警示函的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
       "category": "上市公司",
       "company": "派瑞股份",
       "date": "2026-08-01",
@@ -2630,16 +2640,6 @@
       "mode": "latest-specific",
       "sortBasis": "公告日期倒序，同日按重要度排序",
       "title": "必看｜派瑞股份"
-    },
-    {
-      "body": "炬光科技股权激励进入granted阶段。",
-      "category": "上市公司",
-      "company": "炬光科技",
-      "date": "2026-08-01",
-      "href": "listed.html#listed-detail-06379b1d3b-9033fd46",
-      "mode": "latest-specific",
-      "sortBasis": "公告日期倒序，同日按重要度排序",
-      "title": "必看｜炬光科技"
     },
     {
       "body": "最近一只：蒙特卡罗康成1号私募证券投资基金；管理人：西安蒙特卡罗基金管理有限公司。",
@@ -3121,6 +3121,85 @@
     "daily": {
       "capital_rows": [
         {
+          "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
+          "attention": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+          "business": {
+            "category": "资金与财务",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "债务融资",
+            "targets": [
+              "财务负责人",
+              "资金部",
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "债券融资",
+          "canonicalDetailId": "listed-detail-6b99b3eed7-271f4a73",
+          "company": "华秦科技",
+          "conclusion": "陕西华秦科技实业股份有限公司董事会 2026 年 8 月 1 日附件 1：授权委托书附件 1：授权委托书授权委托书陕西华秦科技实业股份有限公司： 兹委托先生（女士）代表本单位（或本人）出席2026 年 8 月 17 日召开的贵公司2026年第二次临时股东会。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
+            "keyFigures": [
+              "2026 年",
+              "1 日",
+              "2026 年",
+              "17 日",
+              "2026年"
+            ],
+            "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+            "passed": true,
+            "stage": "债券融资",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerFact": "华秦科技拟申请注册发行科技创新公司债券；拟于2026年8月17日提交股东会审议。",
+          "customerFollowUp": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+          "impactAssessment": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
+          "importance": "必看",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "债券融资",
+          "matter_id": "listed-matter-f79e2de653145e",
+          "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+          "numbersHtml": "华秦科技拟申请注册发行科技创新公司债券；拟于2026年8月17日提交股东会审议。",
+          "publishedAt": "2026-08-01",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF",
+          "sources": [
+            {
+              "announcementId": "1225450179",
+              "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF"
+            },
+            {
+              "announcementId": "1225450175",
+              "announcementTitle": "关于召开2026年第二次临时股东会的通知",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450175.PDF"
+            }
+          ],
+          "whyImportant": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排；后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。"
+        },
+        {
           "announcementTitle": "宝鸡钛业股份有限公司关于使用募集资金置换预先投入募投项目及已支付发行费用的自筹资金的公告",
           "attention": "关注摘牌、股本变动及债务结构变化。",
           "business": {
@@ -3168,7 +3247,7 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "宝钛股份可转债兑付进入可转债兑付阶段，关键数字为100 元。",
+          "customerFact": "宝钛股份宝鸡钛业股份有限公司关于使用募集资金置换预先投入募投项目及已支付发行费用的自筹资金的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "customerFollowUp": "关注摘牌、股本变动及债务结构变化。",
           "impactAssessment": "可转债已完成本息兑付并摘牌，债务退出后的股本和融资结构变化需结合转股结果继续核对。",
           "importance": "必看",
@@ -3177,7 +3256,7 @@
           "matterType": "可转债兑付",
           "matter_id": "listed-matter-94c56c0bd1a09b",
           "nextObservation": "后续关注摘牌、股本变动及债务结构变化。",
-          "numbersHtml": "宝钛股份可转债兑付进入可转债兑付阶段，关键数字为100 元。",
+          "numbersHtml": "宝钛股份宝鸡钛业股份有限公司关于使用募集资金置换预先投入募投项目及已支付发行费用的自筹资金的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "publishedAt": "2026-08-01",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
@@ -3589,8 +3668,8 @@
         {
           "items": [
             {
-              "announcementTitle": "西安炬光科技股份有限公司关于2026年限制性股票激励计划内幕信息知情人买卖公司股票情况的自查报告",
-              "body": "炬光科技股权激励进入granted阶段。",
+              "announcementTitle": "西安炬光科技股份有限公司关于向2026年限制性股票激励计划激励对象首次授予限制性股票的公告",
+              "body": "炬光科技本次授予288.28 万股，涉及599 名，价格259.51 元/股。",
               "business": {
                 "category": "激励与员工",
                 "contentImportance": "固定披露",
@@ -3606,7 +3685,7 @@
               "businessSubcategory": "股权激励",
               "canonicalDetailId": "listed-detail-06379b1d3b-9033fd46",
               "company": "炬光科技",
-              "conclusion": "（二）本次授予的授予对象、授予数量、授予价格及股票来源根据公司第四届董事会第二十五次会议决议、第四届董事会薪酬与考核委员会第十次会议决议及《西安炬光科技股份有限公司2026年限制性股票激励计划首次授予激励对象名单（截至授予日）》；当前节点：授予。",
+              "conclusion": "炬光科技本次授予288.28 万股，涉及599 名，价格259.51 元/股；当前节点：授予。",
               "contentQuality": {
                 "checks": {
                   "actualFact": true,
@@ -3622,7 +3701,8 @@
                 "genericTitleRewrite": false,
                 "impact": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
                 "keyFigures": [
-                  "2026年"
+                  "599 名",
+                  "259.51 元"
                 ],
                 "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
                 "passed": true,
@@ -3640,7 +3720,7 @@
                 "standard": "v2-substantive-five-field"
               },
               "customerDisposition": "daily",
-              "customerFact": "炬光科技股权激励进入granted阶段。",
+              "customerFact": "炬光科技本次授予288.28 万股，涉及599 名，价格259.51 元/股。",
               "customerFollowUp": "关注授予或归属条件、登记数量及费用影响。",
               "eventLabel": "股权激励",
               "eventType": "equity_incentive",
@@ -3659,10 +3739,20 @@
               "planId": "2026年限制性股票激励计划",
               "previousStage": "board_plan",
               "publishedAt": "2026-08-01",
+              "sourceAnnouncementIds": [
+                "1225451296",
+                "1225451298",
+                "1225451307",
+                "1225451308",
+                "1225451312",
+                "1225451319",
+                "1225451328",
+                "1225451330"
+              ],
               "sourceConfidence": "verified-curated-matter-sources",
               "sourceKeyword": "V2精读事项来源组",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451319.PDF",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451296.PDF",
               "sources": [
                 {
                   "announcementId": "1225451319",
@@ -3718,20 +3808,19 @@
             },
             {
               "announcementTitle": "关于暂不向下修正“隆22转债”转股价格的公告",
-              "body": "隆基绿能股权激励进入股权激励阶段，关键数字为100元。",
+              "body": "隆基绿能决定暂不向下修正“隆22转债”转股价格；后续是否重启下修程序仍取决于触发条件及董事会决议。",
               "business": {
-                "category": "激励与员工",
+                "category": "资本运作",
                 "contentImportance": "固定披露",
                 "priority": "focus",
-                "subcategory": "股权激励",
+                "subcategory": "可转债",
                 "targets": [
                   "董秘办",
-                  "人力",
                   "财务",
-                  "激励对象"
+                  "投融资负责人"
                 ]
               },
-              "businessSubcategory": "股权激励",
+              "businessSubcategory": "可转债",
               "canonicalDetailId": "listed-detail-e3a559ec79-6eac520e",
               "company": "隆基绿能",
               "conclusion": "可转债发行上市概况经中国证券监督管理委员会“证监许可[2021]3561号”文核准，公司于2022 年1月5日公开发行了7,000万张可转债，每张面值100元，发行总额700,000.00万元，期限6年。可转债转股价格向下修正条款触发情况 （一）转股价格向下修正条款根据公司《募集说明书》的约定，在本次发行的可转债存续期间。",
@@ -3765,15 +3854,15 @@
                 },
                 "standard": "v2-substantive-five-field"
               },
-              "customerFact": "隆基绿能股权激励进入股权激励阶段，关键数字为100元。",
-              "customerFollowUp": "关注授予或归属条件、登记数量及费用影响。",
+              "customerFact": "隆基绿能决定暂不向下修正“隆22转债”转股价格；后续是否重启下修程序仍取决于触发条件及董事会决议。",
+              "customerFollowUp": "关注后续是否触发下修条件及董事会修正或不修正决定。",
               "impactAssessment": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
               "importance": "必看",
               "mandatoryCustomerHighlight": false,
               "mandatoryRuleId": "",
-              "matterType": "股权激励",
+              "matterType": "隆22转债暂不下修转股价格",
               "matter_id": "listed-matter-4f4c3c752b98f6",
-              "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
+              "nextObservation": "关注后续是否触发下修条件及董事会修正或不修正决定。",
               "publishedAt": "2026-08-01",
               "sourceConfidence": "verified-curated-matter-sources",
               "sourceKeyword": "V2精读事项来源组",
@@ -3787,12 +3876,13 @@
                   "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450042.PDF"
                 }
               ],
-              "title": "隆基绿能｜股权激励",
-              "whyImportant": "关注授予或归属条件、登记数量及费用影响。"
+              "tag": "可转债",
+              "title": "隆基绿能｜隆22转债暂不下修",
+              "whyImportant": "关注后续是否触发下修条件及董事会修正或不修正决定。"
             },
             {
               "announcementTitle": "西安炬光科技股份有限公司2026年第三次临时股东会决议公告",
-              "body": "炬光科技股东会进入股东会阶段。",
+              "body": "炬光科技西安炬光科技股份有限公司2026年第三次临时股东会决议公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
               "business": {
                 "category": "治理关系",
                 "contentImportance": "固定披露",
@@ -3836,7 +3926,7 @@
                 },
                 "standard": "v2-substantive-five-field"
               },
-              "customerFact": "炬光科技股东会进入股东会阶段。",
+              "customerFact": "炬光科技西安炬光科技股份有限公司2026年第三次临时股东会决议公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
               "customerFollowUp": "关注已通过议案执行及相关工商或资金安排。",
               "impactAssessment": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
               "importance": "必看",
@@ -3863,12 +3953,12 @@
             },
             {
               "announcementTitle": "关于公司高级管理人员收到警示函的公告",
-              "body": "派瑞股份董事会秘书岳宁收到证监局警示函；公告称其于2026年4月24日买入3000股，合计50,700元，构成窗口期违规交易。",
+              "body": "派瑞股份公司高级管理人员收到警示函的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
               "business": {
                 "category": "治理关系",
                 "contentImportance": "固定披露",
                 "priority": "focus",
-                "subcategory": "董秘证代",
+                "subcategory": "董监高",
                 "targets": [
                   "董秘办",
                   "证券事务代表",
@@ -3911,7 +4001,7 @@
                 "standard": "v2-substantive-five-field"
               },
               "customerDisposition": "daily",
-              "customerFact": "派瑞股份董事会秘书岳宁收到证监局警示函；公告称其于2026年4月24日买入3000股，合计50,700元，构成窗口期违规交易。",
+              "customerFact": "派瑞股份公司高级管理人员收到警示函的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
               "customerFollowUp": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
               "eventLabel": "重大治理变更",
               "eventType": "governance_change",
@@ -3947,7 +4037,7 @@
             },
             {
               "announcementTitle": "2026年第二次临时股东会会议资料",
-              "body": "三达膜股东会进入股东会阶段。",
+              "body": "三达膜2026年第二次临时股东会会议资料；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
               "business": {
                 "category": "治理关系",
                 "contentImportance": "固定披露",
@@ -3990,7 +4080,7 @@
                 },
                 "standard": "v2-substantive-five-field"
               },
-              "customerFact": "三达膜股东会进入股东会阶段。",
+              "customerFact": "三达膜2026年第二次临时股东会会议资料；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
               "customerFollowUp": "关注股东会表决结果及通过议案的后续执行。",
               "impactAssessment": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
               "importance": "关注",
@@ -4021,78 +4111,8 @@
         {
           "items": [
             {
-              "announcementTitle": "关于召开2026年第二次临时股东会的通知",
-              "body": "华秦科技拟于2026年8月17日召开股东会，审议拟申请注册发行科技创新公司债券的议案。",
-              "business": {
-                "category": "治理关系",
-                "contentImportance": "固定披露",
-                "priority": "standard",
-                "subcategory": "章程治理",
-                "targets": [
-                  "董秘办",
-                  "证券事务代表",
-                  "管理层"
-                ]
-              },
-              "businessSubcategory": "章程治理",
-              "canonicalDetailId": "listed-detail-6b99b3eed7-b169366f",
-              "company": "华秦科技",
-              "conclusion": "华秦科技拟于2026年8月17日召开股东会，审议拟申请注册发行科技创新公司债券的议案。",
-              "contentQuality": {
-                "checks": {
-                  "actualFact": true,
-                  "completeCustomerSentence": true,
-                  "impactAssessment": true,
-                  "keyFigures": true,
-                  "namedGovernanceFact": true,
-                  "nextObservation": true,
-                  "sourceEvidence": true,
-                  "stageChange": true,
-                  "templateFree": true
-                },
-                "genericTitleRewrite": false,
-                "impact": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
-                "keyFigures": [
-                  "2026年",
-                  "17日"
-                ],
-                "nextObservation": "后续关注已通过议案执行及相关工商或资金安排。",
-                "passed": true,
-                "stage": "股东会",
-                "stageEvidence": {
-                  "mode": "structured_matter_type",
-                  "sourceIds": []
-                },
-                "standard": "v2-substantive-five-field"
-              },
-              "customerFact": "华秦科技拟于2026年8月17日召开股东会，审议拟申请注册发行科技创新公司债券的议案。",
-              "customerFollowUp": "关注股东会表决结果及通过议案的后续执行。",
-              "impactAssessment": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
-              "importance": "关注",
-              "mandatoryCustomerHighlight": false,
-              "mandatoryRuleId": "",
-              "matterType": "股东会",
-              "matter_id": "listed-matter-877df9e50a8517",
-              "nextObservation": "后续关注已通过议案执行及相关工商或资金安排。",
-              "publishedAt": "2026-08-01",
-              "sourceConfidence": "verified-curated-matter-sources",
-              "sourceKeyword": "V2精读事项来源组",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450175.PDF",
-              "sources": [
-                {
-                  "announcementId": "1225450175",
-                  "announcementTitle": "关于召开2026年第二次临时股东会的通知",
-                  "sourceName": "巨潮资讯",
-                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450175.PDF"
-                }
-              ],
-              "title": "华秦科技｜股东会",
-              "whyImportant": "关注股东会表决结果及通过议案的后续执行。"
-            },
-            {
               "announcementTitle": "西安铂力特增材技术股份有限公司关于董事会换届选举的公告",
-              "body": "铂力特启动第四届董事会换届；非独立董事候选人为折生阳、薛蕾、赵晓明、贾鑫、孙晓梅。",
+              "body": "铂力特西安铂力特增材技术股份有限公司关于董事会换届选举的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
               "business": {
                 "category": "治理关系",
                 "contentImportance": "固定披露",
@@ -4137,7 +4157,7 @@
                 "standard": "v2-substantive-five-field"
               },
               "customerDisposition": "daily",
-              "customerFact": "铂力特启动第四届董事会换届；非独立董事候选人为折生阳、薛蕾、赵晓明、贾鑫、孙晓梅。",
+              "customerFact": "铂力特西安铂力特增材技术股份有限公司关于董事会换届选举的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
               "customerFollowUp": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
               "eventLabel": "重大治理变更",
               "eventType": "governance_change",
@@ -4299,14 +4319,16 @@
             },
             {
               "announcementTitle": "中再资环关于公司高级管理人员离任的公告",
-              "body": "中再资环副总经理任国政已辞职或离任，原因为工作调动；公告称相关工作已妥善交接、不影响正常生产经营。",
+              "body": "中再资环中再资环关于公司高级管理人员离任的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
               "business": {
-                "category": "综合事项",
+                "category": "治理关系",
                 "contentImportance": "固定披露",
-                "priority": "standard",
-                "subcategory": "综合事项",
+                "priority": "focus",
+                "subcategory": "董监高",
                 "targets": [
-                  "董秘办"
+                  "董秘办",
+                  "证券事务代表",
+                  "管理层"
                 ]
               },
               "businessSubcategory": "治理变更",
@@ -4340,7 +4362,7 @@
                 "standard": "v2-substantive-five-field"
               },
               "customerDisposition": "daily",
-              "customerFact": "中再资环副总经理任国政已辞职或离任，原因为工作调动；公告称相关工作已妥善交接、不影响正常生产经营。",
+              "customerFact": "中再资环中再资环关于公司高级管理人员离任的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
               "customerFollowUp": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
               "eventLabel": "重大治理变更",
               "eventType": "governance_change",
@@ -4376,7 +4398,7 @@
             },
             {
               "announcementTitle": "中国航发动力股份有限公司关于总经理辞职及选举副董事长的公告",
-              "body": "航发动力总经理沈鹏已辞职或离任，原因为工作调整；辞职后继续担任公司董事。",
+              "body": "航发动力中国航发动力股份有限公司关于总经理辞职及选举副董事长的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
               "business": {
                 "category": "综合事项",
                 "contentImportance": "固定披露",
@@ -4417,7 +4439,7 @@
                 "standard": "v2-substantive-five-field"
               },
               "customerDisposition": "daily",
-              "customerFact": "航发动力总经理沈鹏已辞职或离任，原因为工作调整；辞职后继续担任公司董事。",
+              "customerFact": "航发动力中国航发动力股份有限公司关于总经理辞职及选举副董事长的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
               "customerFollowUp": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
               "eventLabel": "重大治理变更",
               "eventType": "governance_change",
@@ -4457,6 +4479,23 @@
       ],
       "focusCompanies": [
         {
+          "anchorId": "listed-detail-6b99b3eed7-271f4a73",
+          "business": {
+            "category": "资金与财务",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "债务融资",
+            "targets": [
+              "财务负责人",
+              "资金部",
+              "董秘办"
+            ]
+          },
+          "company": "华秦科技",
+          "followText": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+          "sourceSection": "section-04"
+        },
+        {
           "anchorId": "listed-detail-9998045120-afb82426",
           "business": {
             "category": "资本运作",
@@ -4492,23 +4531,6 @@
           "sourceSection": "section-05"
         },
         {
-          "anchorId": "listed-detail-6b99b3eed7-5ed025ad",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "募投补流",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "company": "华秦科技",
-          "followText": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-          "sourceSection": "section-03"
-        },
-        {
           "anchorId": "listed-detail-db1cef822d-b05abe5f",
           "business": {
             "category": "资本运作",
@@ -4527,6 +4549,87 @@
         }
       ],
       "follow_items": [
+        {
+          "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
+          "body": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+          "business": {
+            "category": "资金与财务",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "债务融资",
+            "targets": [
+              "财务负责人",
+              "资金部",
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "债券融资",
+          "company": "华秦科技",
+          "conclusion": "陕西华秦科技实业股份有限公司董事会 2026 年 8 月 1 日附件 1：授权委托书附件 1：授权委托书授权委托书陕西华秦科技实业股份有限公司： 兹委托先生（女士）代表本单位（或本人）出席2026 年 8 月 17 日召开的贵公司2026年第二次临时股东会。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
+            "keyFigures": [
+              "2026 年",
+              "1 日",
+              "2026 年",
+              "17 日",
+              "2026年"
+            ],
+            "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+            "passed": true,
+            "stage": "债券融资",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerFact": "华秦科技拟申请注册发行科技创新公司债券；拟于2026年8月17日提交股东会审议。",
+          "customerFollowUp": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+          "impactAssessment": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
+          "importance": "必看",
+          "isReference": true,
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "债券融资",
+          "matter_id": "listed-matter-f79e2de653145e",
+          "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+          "publishedAt": "2026-08-01",
+          "referenceAnchor": "listed-detail-6b99b3eed7-271f4a73",
+          "referenceMatterId": "listed-matter-f79e2de653145e",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF",
+          "sources": [
+            {
+              "announcementId": "1225450179",
+              "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF"
+            },
+            {
+              "announcementId": "1225450175",
+              "announcementTitle": "关于召开2026年第二次临时股东会的通知",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450175.PDF"
+            }
+          ],
+          "title": "华秦科技｜关注债券融资",
+          "whyImportant": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排；后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。"
+        },
         {
           "announcementTitle": "关于公司及相关当事人收到警示函的公告",
           "body": "关注募投项目实施、产能释放及子公司后续投资。",
@@ -4574,7 +4677,7 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "派瑞股份经营治理进入经营治理阶段，关键数字为22,715,044.25 元。",
+          "customerFact": "派瑞股份公司及相关当事人收到警示函的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "customerFollowUp": "关注募投项目实施、产能释放及子公司后续投资。",
           "impactAssessment": "子公司工商信息已变更，不改变既定募投项目的建设内容。",
           "importance": "必看",
@@ -4609,7 +4712,7 @@
           "whyImportant": "子公司工商信息已变更，不改变既定募投项目的建设内容；关注募投项目实施、产能释放及子公司后续投资。"
         },
         {
-          "announcementTitle": "西安炬光科技股份有限公司关于2026年限制性股票激励计划内幕信息知情人买卖公司股票情况的自查报告",
+          "announcementTitle": "西安炬光科技股份有限公司关于向2026年限制性股票激励计划激励对象首次授予限制性股票的公告",
           "body": "关注授予或归属条件、登记数量及费用影响。",
           "business": {
             "category": "激励与员工",
@@ -4625,7 +4728,7 @@
           },
           "businessSubcategory": "股权激励",
           "company": "炬光科技",
-          "conclusion": "（二）本次授予的授予对象、授予数量、授予价格及股票来源根据公司第四届董事会第二十五次会议决议、第四届董事会薪酬与考核委员会第十次会议决议及《西安炬光科技股份有限公司2026年限制性股票激励计划首次授予激励对象名单（截至授予日）》；当前节点：授予。",
+          "conclusion": "炬光科技本次授予288.28 万股，涉及599 名，价格259.51 元/股；当前节点：授予。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -4641,7 +4744,8 @@
             "genericTitleRewrite": false,
             "impact": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
             "keyFigures": [
-              "2026年"
+              "599 名",
+              "259.51 元"
             ],
             "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
             "passed": true,
@@ -4659,7 +4763,7 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
-          "customerFact": "炬光科技股权激励进入granted阶段。",
+          "customerFact": "炬光科技本次授予288.28 万股，涉及599 名，价格259.51 元/股。",
           "customerFollowUp": "关注授予或归属条件、登记数量及费用影响。",
           "eventLabel": "股权激励",
           "eventType": "equity_incentive",
@@ -4681,10 +4785,20 @@
           "publishedAt": "2026-08-01",
           "referenceAnchor": "listed-detail-06379b1d3b-9033fd46",
           "referenceMatterId": "listed-matter-c849e296724b3c",
+          "sourceAnnouncementIds": [
+            "1225451296",
+            "1225451298",
+            "1225451307",
+            "1225451308",
+            "1225451312",
+            "1225451319",
+            "1225451328",
+            "1225451330"
+          ],
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451319.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451296.PDF",
           "sources": [
             {
               "announcementId": "1225451319",
@@ -4739,81 +4853,6 @@
           "whyImportant": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核；后续关注授予或归属条件、登记数量及费用影响。"
         },
         {
-          "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
-          "body": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "募投补流",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "债券融资",
-          "company": "华秦科技",
-          "conclusion": "（二）公开发行公司债券，变更调整前后的募集资金用途分别属于偿还债务、 补充流动资金、固定资产投资项目、股权投资或资产收购等用途中的不同类别。第十三条在不影响募集资金使用计划正常进行的情况下，经公司董事会或者内设有权机构批准，可将暂时闲置的募集资金进行现金管理。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
-            "keyFigures": [],
-            "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-            "passed": true,
-            "stage": "债券融资",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerFact": "（二）公开发行公司债券，变更调整前后的募集资金用途分别属于偿还债务、 补充流动资金、固定资产投资项目、股权投资或资产收购等用途中的不同类别。",
-          "customerFollowUp": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-          "impactAssessment": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
-          "importance": "必看",
-          "isReference": true,
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "债券融资",
-          "matter_id": "listed-matter-a5e852a6c49bf7",
-          "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-          "publishedAt": "2026-08-01",
-          "referenceAnchor": "listed-detail-6b99b3eed7-5ed025ad",
-          "referenceMatterId": "listed-matter-a5e852a6c49bf7",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF",
-          "sources": [
-            {
-              "announcementId": "1225450179",
-              "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF"
-            },
-            {
-              "announcementId": "1225450171",
-              "announcementTitle": "公司债券募集资金管理与使用制度",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450171.PDF"
-            }
-          ],
-          "title": "华秦科技｜关注债券融资",
-          "whyImportant": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排；后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。"
-        },
-        {
           "announcementTitle": "募集说明书（注册稿）",
           "body": "关注交易所审核、证监会注册及募投落地。",
           "business": {
@@ -4859,7 +4898,7 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "国际医学再融资进入再融资阶段，关键数字为65.88%。",
+          "customerFact": "国际医学募集说明书（注册稿）；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "customerFollowUp": "关注交易所审核、证监会注册及募投落地。",
           "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
           "importance": "必看",
@@ -4889,20 +4928,19 @@
         },
         {
           "announcementTitle": "关于暂不向下修正“隆22转债”转股价格的公告",
-          "body": "关注授予或归属条件、登记数量及费用影响。",
+          "body": "关注后续是否触发下修条件及董事会修正或不修正决定。",
           "business": {
-            "category": "激励与员工",
+            "category": "资本运作",
             "contentImportance": "固定披露",
             "priority": "focus",
-            "subcategory": "股权激励",
+            "subcategory": "可转债",
             "targets": [
               "董秘办",
-              "人力",
               "财务",
-              "激励对象"
+              "投融资负责人"
             ]
           },
-          "businessSubcategory": "股权激励",
+          "businessSubcategory": "可转债",
           "company": "隆基绿能",
           "conclusion": "可转债发行上市概况经中国证券监督管理委员会“证监许可[2021]3561号”文核准，公司于2022 年1月5日公开发行了7,000万张可转债，每张面值100元，发行总额700,000.00万元，期限6年。可转债转股价格向下修正条款触发情况 （一）转股价格向下修正条款根据公司《募集说明书》的约定，在本次发行的可转债存续期间。",
           "contentQuality": {
@@ -4935,16 +4973,16 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "隆基绿能股权激励进入股权激励阶段，关键数字为100元。",
-          "customerFollowUp": "关注授予或归属条件、登记数量及费用影响。",
+          "customerFact": "隆基绿能决定暂不向下修正“隆22转债”转股价格；后续是否重启下修程序仍取决于触发条件及董事会决议。",
+          "customerFollowUp": "关注后续是否触发下修条件及董事会修正或不修正决定。",
           "impactAssessment": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
           "importance": "必看",
           "isReference": true,
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "股权激励",
+          "matterType": "隆22转债暂不下修转股价格",
           "matter_id": "listed-matter-4f4c3c752b98f6",
-          "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
+          "nextObservation": "关注后续是否触发下修条件及董事会修正或不修正决定。",
           "publishedAt": "2026-08-01",
           "referenceAnchor": "listed-detail-e3a559ec79-6eac520e",
           "referenceMatterId": "listed-matter-4f4c3c752b98f6",
@@ -4960,7 +4998,8 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450042.PDF"
             }
           ],
-          "title": "隆基绿能｜关注股权激励",
+          "tag": "可转债",
+          "title": "隆基绿能｜隆22转债暂不下修",
           "whyImportant": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核；后续关注授予或归属条件、登记数量及费用影响。"
         },
         {
@@ -5008,7 +5047,7 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "炬光科技股东会进入股东会阶段。",
+          "customerFact": "炬光科技西安炬光科技股份有限公司2026年第三次临时股东会决议公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "customerFollowUp": "关注已通过议案执行及相关工商或资金安排。",
           "impactAssessment": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
           "importance": "必看",
@@ -5053,7 +5092,7 @@
         {
           "clientLabel": "精选事项",
           "label": "合并去重后的客户事项",
-          "num": "30项"
+          "num": "29项"
         },
         {
           "clientLabel": "可读原文",
@@ -5222,6 +5261,74 @@
       ],
       "matterIndex": [
         {
+          "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
+          "baselineFacts": [],
+          "businessSubcategory": "债券融资",
+          "company": "华秦科技",
+          "conclusion": "陕西华秦科技实业股份有限公司董事会 2026 年 8 月 1 日附件 1：授权委托书附件 1：授权委托书授权委托书陕西华秦科技实业股份有限公司： 兹委托先生（女士）代表本单位（或本人）出席2026 年 8 月 17 日召开的贵公司2026年第二次临时股东会。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
+            "keyFigures": [
+              "2026 年",
+              "1 日",
+              "2026 年",
+              "17 日",
+              "2026年"
+            ],
+            "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+            "passed": true,
+            "stage": "债券融资",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "impactAssessment": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
+          "importance": "必看",
+          "mainSection": "capital",
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "债券融资",
+          "matter_id": "listed-matter-f79e2de653145e",
+          "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+          "publishedAt": "2026-08-01",
+          "score": 40,
+          "sourceAnnouncementIds": [
+            "1225450179",
+            "1225450175"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF",
+          "sources": [
+            {
+              "announcementId": "1225450179",
+              "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF"
+            },
+            {
+              "announcementId": "1225450175",
+              "announcementTitle": "关于召开2026年第二次临时股东会的通知",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450175.PDF"
+            }
+          ],
+          "whyImportant": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排；后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。"
+        },
+        {
           "announcementTitle": "关于公司及相关当事人收到警示函的公告",
           "baselineFacts": [],
           "businessSubcategory": "募投补流",
@@ -5294,7 +5401,7 @@
           "baselineFacts": [],
           "businessSubcategory": "股权激励",
           "company": "炬光科技",
-          "conclusion": "（二）本次授予的授予对象、授予数量、授予价格及股票来源根据公司第四届董事会第二十五次会议决议、第四届董事会薪酬与考核委员会第十次会议决议及《西安炬光科技股份有限公司2026年限制性股票激励计划首次授予激励对象名单（截至授予日）》；当前节点：授予。",
+          "conclusion": "炬光科技本次授予288.28 万股，涉及599 名，价格259.51 元/股；当前节点：授予。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -5310,7 +5417,8 @@
             "genericTitleRewrite": false,
             "impact": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
             "keyFigures": [
-              "2026年"
+              "599 名",
+              "259.51 元"
             ],
             "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
             "passed": true,
@@ -5413,68 +5521,6 @@
           ],
           "timelineLength": 2,
           "whyImportant": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核；后续关注授予或归属条件、登记数量及费用影响。"
-        },
-        {
-          "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
-          "baselineFacts": [],
-          "businessSubcategory": "债券融资",
-          "company": "华秦科技",
-          "conclusion": "（二）公开发行公司债券，变更调整前后的募集资金用途分别属于偿还债务、 补充流动资金、固定资产投资项目、股权投资或资产收购等用途中的不同类别。第十三条在不影响募集资金使用计划正常进行的情况下，经公司董事会或者内设有权机构批准，可将暂时闲置的募集资金进行现金管理。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
-            "keyFigures": [],
-            "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-            "passed": true,
-            "stage": "债券融资",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "impactAssessment": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
-          "importance": "必看",
-          "mainSection": "",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "债券融资",
-          "matter_id": "listed-matter-a5e852a6c49bf7",
-          "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-          "publishedAt": "2026-08-01",
-          "score": 24,
-          "sourceAnnouncementIds": [
-            "1225450179",
-            "1225450171"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF",
-          "sources": [
-            {
-              "announcementId": "1225450179",
-              "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF"
-            },
-            {
-              "announcementId": "1225450171",
-              "announcementTitle": "公司债券募集资金管理与使用制度",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450171.PDF"
-            }
-          ],
-          "whyImportant": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排；后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。"
         },
         {
           "announcementTitle": "募集说明书（注册稿）",
@@ -6047,64 +6093,6 @@
             }
           ],
           "whyImportant": "股东质押会提高其持股的融资与处置约束，需结合累计质押比例、补充质押或平仓安排观察风险；后续关注累计质押比例、解除质押、补充质押及质权实现风险。"
-        },
-        {
-          "announcementTitle": "关于召开2026年第二次临时股东会的通知",
-          "baselineFacts": [],
-          "businessSubcategory": "章程治理",
-          "company": "华秦科技",
-          "conclusion": "华秦科技拟于2026年8月17日召开股东会，审议拟申请注册发行科技创新公司债券的议案。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
-            "keyFigures": [
-              "2026年",
-              "17日"
-            ],
-            "nextObservation": "后续关注已通过议案执行及相关工商或资金安排。",
-            "passed": true,
-            "stage": "股东会",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "impactAssessment": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
-          "importance": "关注",
-          "mainSection": "",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "股东会",
-          "matter_id": "listed-matter-877df9e50a8517",
-          "nextObservation": "后续关注已通过议案执行及相关工商或资金安排。",
-          "publishedAt": "2026-08-01",
-          "score": 4,
-          "sourceAnnouncementIds": [
-            "1225450175"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450175.PDF",
-          "sources": [
-            {
-              "announcementId": "1225450175",
-              "announcementTitle": "关于召开2026年第二次临时股东会的通知",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450175.PDF"
-            }
-          ],
-          "whyImportant": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地；后续关注已通过议案执行及相关工商或资金安排。"
         },
         {
           "announcementTitle": "东华科技2026年第二季度经营简报",
@@ -7354,8 +7342,234 @@
       ],
       "opportunities": [
         {
+          "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
+          "body": "华秦科技拟申请注册发行科技创新公司债券；拟于2026年8月17日提交股东会审议。",
+          "business": {
+            "category": "资金与财务",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "债务融资",
+            "targets": [
+              "财务负责人",
+              "资金部",
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "债券融资",
+          "company": "华秦科技",
+          "conclusion": "陕西华秦科技实业股份有限公司董事会 2026 年 8 月 1 日附件 1：授权委托书附件 1：授权委托书授权委托书陕西华秦科技实业股份有限公司： 兹委托先生（女士）代表本单位（或本人）出席2026 年 8 月 17 日召开的贵公司2026年第二次临时股东会。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
+            "keyFigures": [
+              "2026 年",
+              "1 日",
+              "2026 年",
+              "17 日",
+              "2026年"
+            ],
+            "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+            "passed": true,
+            "stage": "债券融资",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerFact": "华秦科技拟申请注册发行科技创新公司债券；拟于2026年8月17日提交股东会审议。",
+          "customerFollowUp": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+          "impactAssessment": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
+          "importance": "必看",
+          "isReference": true,
+          "mandatoryCustomerHighlight": true,
+          "mandatoryRuleId": "",
+          "matterType": "债券融资",
+          "matter_id": "listed-matter-f79e2de653145e",
+          "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+          "publishedAt": "2026-08-01",
+          "referenceAnchor": "listed-detail-6b99b3eed7-271f4a73",
+          "referenceMatterId": "listed-matter-f79e2de653145e",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF",
+          "sources": [
+            {
+              "announcementId": "1225450179",
+              "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF"
+            },
+            {
+              "announcementId": "1225450175",
+              "announcementTitle": "关于召开2026年第二次临时股东会的通知",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450175.PDF"
+            }
+          ],
+          "title": "必看｜华秦科技",
+          "whyImportant": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排；后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。"
+        },
+        {
+          "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）",
+          "body": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金。",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "内容重要",
+            "priority": "focus",
+            "subcategory": "并购重组",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "businessSubcategory": "并购重组",
+          "company": "华天科技",
+          "conclusion": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金；本次更新重组报告书及问询回复，交易仍处于深交所审核阶段；当前节点：问询回复。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+            "keyFigures": [
+              "100%",
+              "29.96亿元"
+            ],
+            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+            "passed": true,
+            "stage": "inquiry_reply",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225449576",
+                "1225449583"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "customerFact": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金；本次更新重组报告书及问询回复，交易仍处于深交所审核阶段。",
+          "customerFollowUp": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "eventLabel": "收并购",
+          "eventType": "ma",
+          "homepageEligible": false,
+          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "isReference": true,
+          "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+          "lifecycleStage": "inquiry_reply",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "收并购",
+          "matter_id": "listed-matter-5ef1be98254bb7",
+          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "planId": "发行股份及支付现金购买资产并募集配套资金",
+          "previousStage": "",
+          "publishedAt": "2026-07-31",
+          "referenceAnchor": "listed-detail-ab6a50bd4e-99ab46f1",
+          "referenceMatterId": "listed-matter-5ef1be98254bb7",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449585.PDF",
+          "sources": [
+            {
+              "announcementId": "1225449585",
+              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449585.PDF"
+            },
+            {
+              "announcementId": "1225449576",
+              "announcementTitle": "关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函的回复（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449576.PDF"
+            },
+            {
+              "announcementId": "1225449586",
+              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）摘要（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449586.PDF"
+            },
+            {
+              "announcementId": "1225449584",
+              "announcementTitle": "北京市竞天公诚律师事务所关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之补充法律意见书（二）（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449584.PDF"
+            },
+            {
+              "announcementId": "1225449583",
+              "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函》回复之专项核查意见（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449583.PDF"
+            },
+            {
+              "announcementId": "1225449582",
+              "announcementTitle": "华泰联合证券有限责任公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449582.PDF"
+            },
+            {
+              "announcementId": "1225449580",
+              "announcementTitle": "中联资产评估咨询（上海）有限公司关于深圳证券交易所《天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函》回复之专项核查意见（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449580.PDF"
+            },
+            {
+              "announcementId": "1225449579",
+              "announcementTitle": "华泰联合证券有限责任公司关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告（修订稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449579.PDF"
+            },
+            {
+              "announcementId": "1225449578",
+              "announcementTitle": "中联资产评估咨询（上海）有限公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449578.PDF"
+            },
+            {
+              "announcementId": "1225449577",
+              "announcementTitle": "天水华天科技股份公司关于深圳证券交易所《关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的专项核查函》之专项回复",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449577.PDF"
+            },
+            {
+              "announcementId": "1225449575",
+              "announcementTitle": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）修订说明的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225449575.PDF"
+            }
+          ],
+          "title": "重点｜华天科技",
+          "whyImportant": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成；后续关注审议审核、交易付款、资产交割、工商过户及并表进展。"
+        },
+        {
           "announcementTitle": "关于公司及相关当事人收到警示函的公告",
-          "body": "派瑞股份经营治理进入经营治理阶段，关键数字为22,715,044.25 元。",
+          "body": "派瑞股份公司及相关当事人收到警示函的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "business": {
             "category": "资本运作",
             "contentImportance": "内容重要",
@@ -7400,7 +7614,7 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "派瑞股份经营治理进入经营治理阶段，关键数字为22,715,044.25 元。",
+          "customerFact": "派瑞股份公司及相关当事人收到警示函的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "customerFollowUp": "关注募投项目实施、产能释放及子公司后续投资。",
           "impactAssessment": "子公司工商信息已变更，不改变既定募投项目的建设内容。",
           "importance": "必看",
@@ -7435,138 +7649,8 @@
           "whyImportant": "子公司工商信息已变更，不改变既定募投项目的建设内容；关注募投项目实施、产能释放及子公司后续投资。"
         },
         {
-          "announcementTitle": "西安炬光科技股份有限公司关于2026年限制性股票激励计划内幕信息知情人买卖公司股票情况的自查报告",
-          "body": "炬光科技股权激励进入granted阶段。",
-          "business": {
-            "category": "激励与员工",
-            "contentImportance": "固定披露",
-            "priority": "focus",
-            "subcategory": "股权激励",
-            "targets": [
-              "董秘办",
-              "人力",
-              "财务",
-              "激励对象"
-            ]
-          },
-          "businessSubcategory": "股权激励",
-          "company": "炬光科技",
-          "conclusion": "（二）本次授予的授予对象、授予数量、授予价格及股票来源根据公司第四届董事会第二十五次会议决议、第四届董事会薪酬与考核委员会第十次会议决议及《西安炬光科技股份有限公司2026年限制性股票激励计划首次授予激励对象名单（截至授予日）》；当前节点：授予。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
-            "keyFigures": [
-              "2026年"
-            ],
-            "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
-            "passed": true,
-            "stage": "granted",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225451296",
-                "1225451307#agenda-2",
-                "1225451308",
-                "1225451312",
-                "1225451328"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "customerFact": "炬光科技股权激励进入granted阶段。",
-          "customerFollowUp": "关注授予或归属条件、登记数量及费用影响。",
-          "eventLabel": "股权激励",
-          "eventType": "equity_incentive",
-          "homepageEligible": false,
-          "impactAssessment": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
-          "importance": "必看",
-          "isNoChangeProgress": false,
-          "isReference": true,
-          "lifecycleId": "listed-lifecycle-ef7a34439fc8cf31ca",
-          "lifecycleStage": "granted",
-          "lifecycleStatus": "active",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "股权激励",
-          "matter_id": "listed-matter-c849e296724b3c",
-          "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
-          "planId": "2026年限制性股票激励计划",
-          "previousStage": "board_plan",
-          "publishedAt": "2026-08-01",
-          "referenceAnchor": "listed-detail-06379b1d3b-9033fd46",
-          "referenceMatterId": "listed-matter-c849e296724b3c",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451319.PDF",
-          "sources": [
-            {
-              "announcementId": "1225451319",
-              "announcementTitle": "西安炬光科技股份有限公司关于2026年限制性股票激励计划内幕信息知情人买卖公司股票情况的自查报告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451319.PDF"
-            },
-            {
-              "announcementId": "1225451307",
-              "announcementTitle": "关于调整 2026 年限制性股票激励计划相关事项的议案",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451307.PDF"
-            },
-            {
-              "announcementId": "1225451298",
-              "announcementTitle": "西安炬光科技股份有限公司关于调整2026年限制性股票激励计划相关事项的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451298.PDF"
-            },
-            {
-              "announcementId": "1225451296",
-              "announcementTitle": "西安炬光科技股份有限公司关于向2026年限制性股票激励计划激励对象首次授予限制性股票的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451296.PDF"
-            },
-            {
-              "announcementId": "1225451330",
-              "announcementTitle": "上海市锦天城（西安） 律师事务所关于西安炬光科技股份有限公司2026年第三次临时股东会的法律意见书",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451330.PDF"
-            },
-            {
-              "announcementId": "1225451328",
-              "announcementTitle": "西安炬光科技股份有限公司董事会薪酬与考核委员会关于公司2026年限制性股票激励计划首次授予激励对象名单的核查意见（截至授予日）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451328.PDF"
-            },
-            {
-              "announcementId": "1225451312",
-              "announcementTitle": "西安炬光科技股份有限公司2026年限制性股票激励计划首次授予激励对象名单（截至授予日）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451312.PDF"
-            },
-            {
-              "announcementId": "1225451308",
-              "announcementTitle": "上海市锦天城（西安）律师事务所关于西安炬光科技股份有限公司2026年限制性股票激励计划调整及首次授予相关事项的法律意见书",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225451308.PDF"
-            }
-          ],
-          "title": "必看｜炬光科技",
-          "whyImportant": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核；后续关注授予或归属条件、登记数量及费用影响。"
-        },
-        {
-          "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
-          "body": "华秦科技债券融资进入债券融资阶段。",
+          "announcementTitle": "东华科技2026年第二季度经营简报",
+          "body": "东华科技披露两个重点项目累计确认收入76,642.50万元和198,079.66万元。",
           "business": {
             "category": "资本运作",
             "contentImportance": "内容重要",
@@ -7578,9 +7662,9 @@
               "投融资负责人"
             ]
           },
-          "businessSubcategory": "债券融资",
-          "company": "华秦科技",
-          "conclusion": "（二）公开发行公司债券，变更调整前后的募集资金用途分别属于偿还债务、 补充流动资金、固定资产投资项目、股权投资或资产收购等用途中的不同类别。第十三条在不影响募集资金使用计划正常进行的情况下，经公司董事会或者内设有权机构批准，可将暂时闲置的募集资金进行现金管理。",
+          "businessSubcategory": "募投补流",
+          "company": "东华科技",
+          "conclusion": "截至 2026 年 6 月 30 日，该项目累计确认收入 76,642.50 万元，累计收款 64,801.69 万元，累计确认工程结算 77,568.43 万元。截至 2026 年 6 月 30 日，该项目累计确认收入 198,079.66 万元，累计收款 196,851.14 万元，累计确认结算 176,825.74 万元。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -7594,124 +7678,59 @@
               "templateFree": true
             },
             "genericTitleRewrite": false,
-            "impact": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
-            "keyFigures": [],
-            "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-            "passed": true,
-            "stage": "债券融资",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerFact": "（二）公开发行公司债券，变更调整前后的募集资金用途分别属于偿还债务、 补充流动资金、固定资产投资项目、股权投资或资产收购等用途中的不同类别。",
-          "customerFollowUp": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-          "impactAssessment": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
-          "importance": "必看",
-          "isReference": true,
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "债券融资",
-          "matter_id": "listed-matter-a5e852a6c49bf7",
-          "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-          "publishedAt": "2026-08-01",
-          "referenceAnchor": "listed-detail-6b99b3eed7-5ed025ad",
-          "referenceMatterId": "listed-matter-a5e852a6c49bf7",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF",
-          "sources": [
-            {
-              "announcementId": "1225450179",
-              "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF"
-            },
-            {
-              "announcementId": "1225450171",
-              "announcementTitle": "公司债券募集资金管理与使用制度",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450171.PDF"
-            }
-          ],
-          "title": "必看｜华秦科技",
-          "whyImportant": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排；后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。"
-        },
-        {
-          "announcementTitle": "募集说明书（注册稿）",
-          "body": "国际医学再融资进入再融资阶段，关键数字为65.88%。",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "定增/再融资",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "再融资",
-          "company": "国际医学",
-          "conclusion": "若公司本次发行的定价基准日至发行日期间发生派息、送股、资本公积转增股本等除权、除息事项或因股份回购、员工股权激励计划等事项导致总股本发生变化，公司将根据具体情况对本次发行股票数量上限做出相应调整。根据公司披露的《2026 年半年度业绩预告》，预计 2026 年半年度公司扣除非经常性损益后归属于母公司股东的净利润同比减亏约 65.88%至 67.47%。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+            "impact": "子公司工商信息已变更，不改变既定募投项目的建设内容。",
             "keyFigures": [
               "2026 年",
+              "30 日",
+              "76,642.50 万元",
+              "64,801.69 万元",
+              "77,568.43 万元",
               "2026 年",
-              "65.88%",
-              "67.47%"
+              "30 日",
+              "198,079.66 万元"
             ],
-            "nextObservation": "后续关注交易所审核、证监会注册及募投落地。",
+            "nextObservation": "关注募投项目实施、产能释放及子公司后续投资。",
             "passed": true,
-            "stage": "再融资",
+            "stage": "经营治理",
             "stageEvidence": {
               "mode": "structured_matter_type",
               "sourceIds": []
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "国际医学再融资进入再融资阶段，关键数字为65.88%。",
-          "customerFollowUp": "关注交易所审核、证监会注册及募投落地。",
-          "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+          "customerFact": "东华科技披露两个重点项目累计确认收入76,642.50万元和198,079.66万元。",
+          "customerFollowUp": "关注项目回款、在手订单执行及下半年收入确认。",
+          "impactAssessment": "子公司工商信息已变更，不改变既定募投项目的建设内容。",
           "importance": "必看",
           "isReference": true,
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "再融资",
-          "matter_id": "listed-matter-e70fab32ad5dca",
-          "nextObservation": "后续关注交易所审核、证监会注册及募投落地。",
-          "publishedAt": "2026-08-01",
-          "referenceAnchor": "listed-detail-db1cef822d-b05abe5f",
-          "referenceMatterId": "listed-matter-e70fab32ad5dca",
+          "matterType": "经营治理",
+          "matter_id": "listed-matter-5de2e7b26619b0",
+          "nextObservation": "关注募投项目实施、产能释放及子公司后续投资。",
+          "publishedAt": "2026-07-31",
+          "referenceAnchor": "listed-detail-e6258a1765-15ffebba",
+          "referenceMatterId": "listed-matter-5de2e7b26619b0",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450631.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448127.PDF",
           "sources": [
             {
-              "announcementId": "1225450631",
-              "announcementTitle": "募集说明书（注册稿）",
+              "announcementId": "1225448127",
+              "announcementTitle": "东华科技2026年第二季度经营简报",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450631.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448127.PDF"
+            },
+            {
+              "announcementId": "1225448126",
+              "announcementTitle": "东华科技2026年半年度业绩快报",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448126.PDF"
             }
           ],
-          "title": "必看｜国际医学",
-          "whyImportant": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪；后续关注交易所审核、证监会注册及募投落地。"
+          "title": "必看｜东华科技",
+          "whyImportant": "子公司工商信息已变更，不改变既定募投项目的建设内容；关注募投项目实施、产能释放及子公司后续投资。"
         }
       ],
       "rawPath": "v2/data/daily/listed/cninfo-announcements-2026-08-03.json",
@@ -7794,9 +7813,9 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "国际医学再融资进入再融资阶段，关键数字为65.88%。",
+          "customerFact": "国际医学募集说明书（注册稿）；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "customerFollowUp": "关注交易所审核、证监会注册及募投落地。",
-          "event": "国际医学再融资进入再融资阶段，关键数字为65.88%。",
+          "event": "国际医学募集说明书（注册稿）；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
           "importance": "必看",
           "mandatoryCustomerHighlight": false,
@@ -7869,9 +7888,9 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "西安饮食股票于2026年7月28日至7月30日连续3个交易日收盘价涨幅偏离值累计超过20%；公司核查称近期经营正常、内外部经营环境未发生重大变化。",
+          "customerFact": "西安饮食公司股票交易异常波动的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "customerFollowUp": "关注股价波动、业绩兑现、监管核查及是否出现新增重大事项。",
-          "event": "西安饮食股票于2026年7月28日至7月30日连续3个交易日收盘价涨幅偏离值累计超过20%；公司核查称近期经营正常、内外部经营环境未发生重大变化。",
+          "event": "西安饮食公司股票交易异常波动的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "impactAssessment": "本次披露确认的是二级市场交易波动及公司核查结果，不代表经营基本面已同步改善。",
           "importance": "必看",
           "mandatoryCustomerHighlight": false,
@@ -7940,9 +7959,9 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "标准股份因2025年度财务报告内部控制审计被出具否定意见；若连续两个会计年度内控审计仍为否定或无法表示意见，将触发退市风险警示。",
+          "customerFact": "标准股份标准股份关于公司股票被实施其他风险警示相关事项的进展的补充公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "customerFollowUp": "关注整改完成证据、审计机构核验、风险警示撤销条件及下一年度内控审计意见。",
-          "event": "标准股份因2025年度财务报告内部控制审计被出具否定意见；若连续两个会计年度内控审计仍为否定或无法表示意见，将触发退市风险警示。",
+          "event": "标准股份标准股份关于公司股票被实施其他风险警示相关事项的进展的补充公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "impactAssessment": "风险警示尚未解除，整改成效及下一年度内部控制审计意见将直接影响风险等级。",
           "importance": "重点",
           "mandatoryCustomerHighlight": false,
@@ -10631,7 +10650,7 @@
       "tiles": [
         {
           "announcementTitle": "关于公司及相关当事人收到警示函的公告",
-          "body": "派瑞股份经营治理进入经营治理阶段，关键数字为22,715,044.25 元。",
+          "body": "派瑞股份公司及相关当事人收到警示函的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "business": {
             "category": "资本运作",
             "contentImportance": "内容重要",
@@ -10677,7 +10696,7 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "派瑞股份经营治理进入经营治理阶段，关键数字为22,715,044.25 元。",
+          "customerFact": "派瑞股份公司及相关当事人收到警示函的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
           "customerFollowUp": "关注募投项目实施、产能释放及子公司后续投资。",
           "impactAssessment": "子公司工商信息已变更，不改变既定募投项目的建设内容。",
           "importance": "必看",
@@ -10709,81 +10728,8 @@
           "whyImportant": "关注募投项目实施、产能释放及子公司后续投资。"
         },
         {
-          "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
-          "body": "（二）公开发行公司债券，变更调整前后的募集资金用途分别属于偿还债务、 补充流动资金、固定资产投资项目、股权投资或资产收购等用途中的不同类别。",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "募投补流",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "债券融资",
-          "canonicalDetailId": "listed-detail-6b99b3eed7-5ed025ad",
-          "company": "华秦科技",
-          "conclusion": "（二）公开发行公司债券，变更调整前后的募集资金用途分别属于偿还债务、 补充流动资金、固定资产投资项目、股权投资或资产收购等用途中的不同类别。第十三条在不影响募集资金使用计划正常进行的情况下，经公司董事会或者内设有权机构批准，可将暂时闲置的募集资金进行现金管理。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
-            "keyFigures": [],
-            "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-            "passed": true,
-            "stage": "债券融资",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerFact": "（二）公开发行公司债券，变更调整前后的募集资金用途分别属于偿还债务、 补充流动资金、固定资产投资项目、股权投资或资产收购等用途中的不同类别。",
-          "customerFollowUp": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-          "impactAssessment": "公司债融资已经进入发行或上市阶段，融资成本和期限结构将直接影响后续负债与资金安排。",
-          "importance": "必看",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "债券融资",
-          "matter_id": "listed-matter-a5e852a6c49bf7",
-          "nextObservation": "后续关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-          "publishedAt": "2026-08-01",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF",
-          "sources": [
-            {
-              "announcementId": "1225450179",
-              "announcementTitle": "关于拟申请注册发行科技创新公司债券的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450179.PDF"
-            },
-            {
-              "announcementId": "1225450171",
-              "announcementTitle": "公司债券募集资金管理与使用制度",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-01/1225450171.PDF"
-            }
-          ],
-          "title": "华秦科技｜债券融资",
-          "whyImportant": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。"
-        },
-        {
           "announcementTitle": "西安曲江文化旅游股份有限公司关于控股股东所持部分股份拍卖进展公告",
-          "body": "曲江文旅经营治理进入经营治理阶段，关键数字为3,000,000 股。",
+          "body": "曲江文旅披露控股股东所持部分股份司法拍卖进展；待核验竞拍结果、过户安排及对控制权的影响。",
           "business": {
             "category": "资本运作",
             "contentImportance": "内容重要",
@@ -10830,15 +10776,15 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "曲江文旅经营治理进入经营治理阶段，关键数字为3,000,000 股。",
-          "customerFollowUp": "关注募投项目实施、产能释放及子公司后续投资。",
+          "customerFact": "曲江文旅披露控股股东所持部分股份司法拍卖进展；待核验竞拍结果、过户安排及对控制权的影响。",
+          "customerFollowUp": "关注司法拍卖竞拍结果、股份过户及控制权影响。",
           "impactAssessment": "子公司工商信息已变更，不改变既定募投项目的建设内容。",
           "importance": "关注",
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
           "matterType": "经营治理",
           "matter_id": "listed-matter-3495face810286",
-          "nextObservation": "关注募投项目实施、产能释放及子公司后续投资。",
+          "nextObservation": "关注司法拍卖竞拍结果、股份过户及控制权影响。",
           "publishedAt": "2026-08-01",
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
@@ -10853,7 +10799,7 @@
             }
           ],
           "title": "曲江文旅｜经营治理",
-          "whyImportant": "关注募投项目实施、产能释放及子公司后续投资。"
+          "whyImportant": "关注司法拍卖竞拍结果、股份过户及控制权影响。"
         },
         {
           "announcementTitle": "彩虹股份关于控股股东部分股份解除质押的公告",
@@ -10926,6 +10872,88 @@
           ],
           "title": "彩虹股份｜股份质押",
           "whyImportant": "关注累计质押比例、解除质押、补充质押及质权实现风险。"
+        },
+        {
+          "announcementTitle": "东华科技2026年第二季度经营简报",
+          "body": "东华科技披露两个重点项目累计确认收入76,642.50万元和198,079.66万元。",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "募投补流",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "businessSubcategory": "募投补流",
+          "canonicalDetailId": "listed-detail-e6258a1765-15ffebba",
+          "company": "东华科技",
+          "conclusion": "截至 2026 年 6 月 30 日，该项目累计确认收入 76,642.50 万元，累计收款 64,801.69 万元，累计确认工程结算 77,568.43 万元。截至 2026 年 6 月 30 日，该项目累计确认收入 198,079.66 万元，累计收款 196,851.14 万元，累计确认结算 176,825.74 万元。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "子公司工商信息已变更，不改变既定募投项目的建设内容。",
+            "keyFigures": [
+              "2026 年",
+              "30 日",
+              "76,642.50 万元",
+              "64,801.69 万元",
+              "77,568.43 万元",
+              "2026 年",
+              "30 日",
+              "198,079.66 万元"
+            ],
+            "nextObservation": "关注募投项目实施、产能释放及子公司后续投资。",
+            "passed": true,
+            "stage": "经营治理",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerFact": "东华科技披露两个重点项目累计确认收入76,642.50万元和198,079.66万元。",
+          "customerFollowUp": "关注项目回款、在手订单执行及下半年收入确认。",
+          "impactAssessment": "子公司工商信息已变更，不改变既定募投项目的建设内容。",
+          "importance": "必看",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "经营治理",
+          "matter_id": "listed-matter-5de2e7b26619b0",
+          "nextObservation": "关注募投项目实施、产能释放及子公司后续投资。",
+          "publishedAt": "2026-07-31",
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448127.PDF",
+          "sources": [
+            {
+              "announcementId": "1225448127",
+              "announcementTitle": "东华科技2026年第二季度经营简报",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448127.PDF"
+            },
+            {
+              "announcementId": "1225448126",
+              "announcementTitle": "东华科技2026年半年度业绩快报",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-07-31/1225448126.PDF"
+            }
+          ],
+          "title": "东华科技｜经营治理",
+          "whyImportant": "关注项目回款、在手订单执行及下半年收入确认。"
         }
       ]
     },
@@ -12181,6 +12209,23 @@
     ],
     "focusCompanies": [
       {
+        "anchorId": "listed-detail-6b99b3eed7-271f4a73",
+        "business": {
+          "category": "资金与财务",
+          "contentImportance": "内容重要",
+          "priority": "standard",
+          "subcategory": "债务融资",
+          "targets": [
+            "财务负责人",
+            "资金部",
+            "董秘办"
+          ]
+        },
+        "company": "华秦科技",
+        "followText": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
+        "sourceSection": "section-04"
+      },
+      {
         "anchorId": "listed-detail-9998045120-afb82426",
         "business": {
           "category": "资本运作",
@@ -12214,23 +12259,6 @@
         "company": "炬光科技",
         "followText": "关注授予或归属条件、登记数量及费用影响。",
         "sourceSection": "section-05"
-      },
-      {
-        "anchorId": "listed-detail-6b99b3eed7-5ed025ad",
-        "business": {
-          "category": "资本运作",
-          "contentImportance": "内容重要",
-          "priority": "standard",
-          "subcategory": "募投补流",
-          "targets": [
-            "董秘办",
-            "财务",
-            "投融资负责人"
-          ]
-        },
-        "company": "华秦科技",
-        "followText": "关注募集资金到账、资金用途、存续期付息及到期偿付安排。",
-        "sourceSection": "section-03"
       },
       {
         "anchorId": "listed-detail-db1cef822d-b05abe5f",
@@ -27133,7 +27161,7 @@
       },
       "ma": {
         "evidence": [
-          "v2/data/source/ma/scans/scan-2026-08-03-morning.json"
+          "v2/data/source/ma/scans/scan-2026-08-03-midday.json"
         ],
         "ready": true,
         "releaseEligible": false,
@@ -27155,7 +27183,7 @@
       },
       "soe": {
         "evidence": [
-          "v2/data/source/soe/scans/scan-2026-08-03-morning.json"
+          "v2/data/source/soe/scans/scan-2026-08-03-midday.json"
         ],
         "ready": true,
         "releaseEligible": false,
@@ -27165,7 +27193,7 @@
       },
       "tender": {
         "evidence": [
-          "v2/data/source/tender/scans/scan-2026-08-03-morning.json"
+          "v2/data/source/tender/scans/scan-2026-08-03-midday.json"
         ],
         "ready": true,
         "releaseEligible": true,
@@ -27181,7 +27209,7 @@
       "sha256": "89d1faf58c06bc725a37c19d0b5527ae33cdab27be1f5deb6b084c3f9f944d84",
       "standard": "v1-source-and-editorial-quality"
     },
-    "slot": "morning",
+    "slot": "midday",
     "sourceConstraints": [
       {
         "channel": "tender",
@@ -27201,7 +27229,7 @@
     "year": "eventDate 所在自然年；仅展示结构化源中真实存在的年份"
   },
   "scanAsOf": "2026-08-03",
-  "scanSlot": "morning",
+  "scanSlot": "midday",
   "schemaVersion": "2.2",
   "soe": {
     "available": true,
@@ -27685,8 +27713,8 @@
     "recordCount": 98,
     "rejectedCandidateCount": 0,
     "scanAsOf": "2026-08-03",
-    "scanEvidence": "v2/data/source/soe/scans/scan-2026-08-03-morning.json",
-    "scanSlot": "morning",
+    "scanEvidence": "v2/data/source/soe/scans/scan-2026-08-03-midday.json",
+    "scanSlot": "midday",
     "scanStatus": "completed",
     "sourceAsOf": "2026-07-31",
     "summary": {
@@ -27715,14 +27743,14 @@
       "channel-tender.webp": "v2/assets/channel-tender.webp"
     },
     "equityEvents": "v2/data/source/equity/events-2026.json",
-    "equityScanEvidence": "v2/data/source/equity/scans/scan-2026-08-03-morning.json",
+    "equityScanEvidence": "v2/data/source/equity/scans/scan-2026-08-03-midday.json",
     "equityUniverse": "v2/data/source/equity/universe.json",
     "eventStore": "v2/data/source/events/unified-2026.json",
     "listedBusinessTaxonomy": "v2/data/source/listed/business-taxonomy.json",
     "listedDaily": "v2/data/daily/listed/listed-official-2026-08-03.json",
     "listedUniverse": "v2/data/source/listed/universe.json",
     "maAnnual": "v2/data/source/ma/events-2026.json",
-    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-08-03-morning.json",
+    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-08-03-midday.json",
     "observationPool": "v2/data/source/observation-pool.json",
     "privateAnnual": "v2/data/source/private/products-2026.json",
     "privateProductEvidence": [
@@ -27731,10 +27759,10 @@
     ],
     "privateUniverse": "v2/data/daily/private/security-private-fund-daily-2026-08-03.json + v2/data/source/private/universe.json",
     "soeAnnual": "v2/data/source/soe/events-2026.json",
-    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-08-03-morning.json",
+    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-08-03-midday.json",
     "sourceContract": "v2/config/source-contract.json",
     "tenderAnnualProjects": "v2/data/source/tender/events-2026.json",
-    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-08-03-morning.json",
+    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-08-03-midday.json",
     "v1HistoryIndex": "v2/data/source/v1-history-index.json"
   },
   "tender": {
