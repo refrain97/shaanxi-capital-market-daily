@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-04T13:25:06+08:00",
+  "updatedAt": "2026-08-04T13:27:49+08:00",
   "channels": {
     "listed": [
       {
@@ -20,9 +20,11 @@
           "width": 1242,
           "height": 1547
         },
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
-          "status": "pending"
+          "status": "completed",
+          "uploadedAt": "2026-08-04T13:27:49+08:00",
+          "verification": "exact_file_name"
         },
         "correction": {
           "revision": 2,
@@ -32,7 +34,7 @@
           "supersedesPublicPath": "archive/daily/listed/2026/2026年8月4日V2陕西上市公司早报.png",
           "supersedesBuildVersion": "6632689dccd8"
         },
-        "updatedAt": "2026-08-04T13:25:06+08:00"
+        "updatedAt": "2026-08-04T13:27:40+08:00"
       },
       {
         "date": "2026-08-03",
@@ -1078,7 +1080,7 @@
           "uploadedAt": "2026-08-04T08:58:49+08:00",
           "verification": "exact_file_name"
         },
-        "updatedAt": "2026-08-04T08:57:41+08:00"
+        "updatedAt": "2026-08-04T13:27:40+08:00"
       },
       {
         "date": "2026-08-03",
@@ -2119,7 +2121,7 @@
           "uploadedAt": "2026-08-04T08:58:40+08:00",
           "verification": "exact_file_name"
         },
-        "updatedAt": "2026-08-04T08:57:41+08:00"
+        "updatedAt": "2026-08-04T13:27:40+08:00"
       },
       {
         "date": "2026-08-03",
@@ -3115,7 +3117,7 @@
           "uploadedAt": "2026-08-04T08:58:58+08:00",
           "verification": "exact_file_name"
         },
-        "updatedAt": "2026-08-04T08:57:41+08:00"
+        "updatedAt": "2026-08-04T13:27:40+08:00"
       },
       {
         "date": "2026-08-03",

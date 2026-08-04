@@ -40,31 +40,27 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-08-04.json",
-        "sha256": "4f9f2a5b7c12a25172a673ba38f0c18e7047e461ba842a8e21a1aa0b3927dd85"
+        "sha256": "3b68fd975b7d84da94d1894a3fe3ec9df4b24ad5ff27b4bd7e32e30104d09fcc"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-08-04.json",
-        "sha256": "7bb6e5c97f7d65cebd38db5bead927f10f9ee2b4f8a4e2052dcdbb1b352b5d89"
+        "sha256": "9354a7a3ba17b3556519daa3ef5b0f6751f927ecbeec00985a3e9822e10cf12d"
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-08-04.json",
         "sha256": "262d7bc4f6f020d160019bdd6b0c2c1f71eef42b5c495d2e84dab89993f68b87"
       },
       {
-        "path": "v2/data/readiness/v2-ready-2026-08-04-midday.json",
-        "sha256": "1017bcd5705b1661996490bf9a15f33e3e3f959b158a127678fa1e0537a6879a"
+        "path": "v2/data/readiness/v2-ready-2026-08-04-evening.json",
+        "sha256": "8f4bdf1efa1db173b632fa8751aae8729766583905db45c8763640ee180685c7"
       },
       {
         "path": "v2/data/source/equity/events-2026.json",
         "sha256": "9f183472f97bcd97ac57fe6cec939e145a9e453ea9de7b85117ba666df67030f"
       },
       {
-        "path": "v2/data/source/equity/scans/scan-2026-07-31-midday.json",
-        "sha256": "5ec0a7fa057bba5b2163f3829c34815f899627922b0ab9a401e6e5136b15d8ad"
-      },
-      {
-        "path": "v2/data/source/equity/scans/scan-2026-08-03-midday.json",
-        "sha256": "5f905d83d4320cba247a7d4d68a6c04f09c973c20165739842c27133a2f166fb"
+        "path": "v2/data/source/equity/scans/scan-2026-08-04-evening.json",
+        "sha256": "a9343b6bca2cda8f000ee4325159da4639ce3bd70edfbd31005bfbf194c3ad07"
       },
       {
         "path": "v2/data/source/equity/universe.json",
@@ -72,7 +68,7 @@
       },
       {
         "path": "v2/data/source/events/unified-2026.json",
-        "sha256": "edc2eb21db66ad273595064cde8ec6fcc561400a1cbd3f124e14c48491903794"
+        "sha256": "3fdaec28b8526580f557f1595e765ef2119d9d192c9c453c2e6c2533985606dd"
       },
       {
         "path": "v2/data/source/listed/business-taxonomy.json",
@@ -87,8 +83,8 @@
         "sha256": "db41a0782237483409087b4a475da0c950cd0b013118b8b62d603129625a21cb"
       },
       {
-        "path": "v2/data/source/ma/scans/scan-2026-08-04-midday.json",
-        "sha256": "da588edc0c86220fe766763a0cdef72406121f694f02572d9f238b5a1ecd6f99"
+        "path": "v2/data/source/ma/scans/scan-2026-08-04-evening.json",
+        "sha256": "bea64d711029ff33cf571e5c50910e7e605f4014d3d2b9d5b41f73dc497f68ce"
       },
       {
         "path": "v2/data/source/observation-pool.json",
@@ -104,23 +100,23 @@
       },
       {
         "path": "v2/data/source/soe/events-2026.json",
-        "sha256": "9f1fbd9e458770baae83886388c0111cb043a43027114d99e6518ca5b308d30c"
+        "sha256": "8135ede9797df8b6184c24358c35ddab89a8b77078e062616fa7baf5e23fd5a6"
       },
       {
-        "path": "v2/data/source/soe/evidence/verified-2026-08-04-midday.json",
-        "sha256": "5b1c0fe60d8af177fcc2a8988ef1afd3bf4ba23565164e18fa08863d940558c1"
+        "path": "v2/data/source/soe/evidence/verified-2026-08-04-evening.json",
+        "sha256": "4239b03701d57874fadda751c7bdacc746d5b7cebafa50fd774e448e584af496"
       },
       {
-        "path": "v2/data/source/soe/scans/scan-2026-08-04-midday.json",
-        "sha256": "e26cd4c986124977913c226edfa20ec9705473f7e743d3906fecbcdd40bc63ab"
+        "path": "v2/data/source/soe/scans/scan-2026-08-04-evening.json",
+        "sha256": "bf6df1e4f4ebf4b0caa1af44317e23f42637e1503319339b6ade7fd9c8ed8138"
       },
       {
         "path": "v2/data/source/tender/events-2026.json",
         "sha256": "565ab4b7d84b3a1e583fa2938700f7000dec669595a19573e5d80dee802e2f84"
       },
       {
-        "path": "v2/data/source/tender/scans/scan-2026-08-04-midday.json",
-        "sha256": "5f7542a27c21f7d1f9ed4121a55f463c5ff5616c376f4cf7a69eff4f042992ce"
+        "path": "v2/data/source/tender/scans/scan-2026-08-04-evening.json",
+        "sha256": "de9baeac9b660d48d5ebe9679bf80f1392fccd9e4638354bccfd4582cdbcf083"
       },
       {
         "path": "v2/data/source/v1-history-index.json",
@@ -153,10 +149,10 @@
     ],
     "mode": "repeatable-derived-artifact",
     "notice": "本快照由列示规范数据与结构化证据稳定生成。",
-    "readiness": "v2/data/readiness/v2-ready-2026-08-04-midday.json",
+    "readiness": "v2/data/readiness/v2-ready-2026-08-04-evening.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "0f7a0d3f091e"
+    "version": "87ff7d13acf8"
   },
   "equity": {
     "customerBoundary": "建设中，已核验交易0笔、待回溯管理人187家。当前仅核验管理人公开身份，尚不作为正式日度交易库。",
@@ -2613,11 +2609,11 @@
       "statusLabel": "已核验交易0笔、待回溯管理人187家",
       "verifiedDealCount": 0
     },
-    "scanAsOf": "2026-08-03",
-    "scanCurrent": false,
-    "scanSlot": "midday",
+    "scanAsOf": "2026-08-04",
+    "scanCurrent": true,
+    "scanSlot": "evening",
     "scanStatus": "completed",
-    "sourceAsOf": "2026-08-03",
+    "sourceAsOf": "2026-08-04",
     "sourceBoundary": "AMAC仅核验管理人身份与地域口径，不据此推定投资项目。"
   },
   "homeHighlights": [
@@ -3467,15 +3463,34 @@
           "whyImportant": "关注产品到期赎回、实际收益、未到期余额及授权额度。"
         }
       ],
-      "customerNotice": "已完成扫描，4项内容暂缓刊发/复核",
+      "customerNotice": "已完成扫描，6项内容暂缓刊发/复核",
       "date": "2026-08-04",
       "editorialEvidence": {
-        "contentSha256": "dadf0fb0bed83ef0963d7c0b569d69625f8a34b74ac6ac3eb6033e27fc1ea7fe",
-        "path": "v2/data/daily/listed/editorial-evidence/2026-08-04/midday-dadf0fb0bed83ef0.json.gz",
-        "sha256": "65df34e0633d8e0cc644038848e17bef599258842a6442da4c52f51b4fdea290",
-        "slot": "midday"
+        "contentSha256": "37bb52b7c1dd0cf173b0142ae10ff3c408f376b2df150d9174c6ff5b513a35fd",
+        "path": "v2/data/daily/listed/editorial-evidence/2026-08-04/evening-37bb52b7c1dd0cf1.json.gz",
+        "sha256": "b92ac5fc6df5cccb7e8f6619bd7db649af32fea5663bf143f55739710d803c60",
+        "slot": "evening"
       },
       "editorialExcludedCandidates": [
+        {
+          "company": "延长石油国际",
+          "customerDisposition": "excluded_from_customer_highlights_pending_reliable_fact",
+          "discoveryStatus": "official_announcement_text_available_but_customer_fact_not_substantive",
+          "error": "上市公司非生命周期事项缺少原文实质事实，拒绝使用标题改写：延长石油国际:经营治理:盈利警告",
+          "importance": "关注",
+          "reason": "non_mandatory_low_priority_candidate_lacks_substantive_customer_fact",
+          "sourceAnnouncementIds": [
+            "1225458309"
+          ],
+          "sources": [
+            {
+              "announcementId": "1225458309",
+              "announcementTitle": "盈利警告",
+              "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0804/2026080401847.pdf"
+            }
+          ],
+          "status": "excluded"
+        },
         {
           "company": "科华生物",
           "customerDisposition": "excluded_from_customer_highlights_pending_reliable_fact",
@@ -4267,16 +4282,17 @@
         }
       ],
       "hkexOfficialReviewCompanyCount": 14,
+      "hkexPath": "v2/data/daily/listed/hkex-review-2026-08-04.json",
       "kpis": [
         {
           "clientLabel": "检索公告",
           "label": "巨潮逐主体检索公告",
-          "num": "34条"
+          "num": "41条"
         },
         {
           "clientLabel": "发布公司",
           "label": "窗口内发布公告公司",
-          "num": "16家"
+          "num": "21家"
         },
         {
           "clientLabel": "精选事项",
@@ -4286,7 +4302,7 @@
         {
           "clientLabel": "可读原文",
           "label": "已取得可靠正文的官方公告",
-          "num": "30条"
+          "num": "37条"
         }
       ],
       "lifecycleEventCount": 633,
@@ -4414,8 +4430,8 @@
       ],
       "matterIndex": [
         {
-          "_editorialEvidenceText": "5. 本员工持股计划实施有利于健全激励与约束机制，充分调动员工积极性， 有利于公司持续发展，不存在损害公司及全体股东利益的情形。\n三、本员工持股计划实施有利于健全公司的激励与约束机制，充分调动员工的工作积极性与创造性，有利于公司的持续发展，不存在损害公司及全体股东利益的情形，不存在公司以摊派、强行分配等方式强制员工参与的情形。\n第三条本员工持股计划首次授予的参加对象均为公司（含子公司）核心员工， 不存在单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女参与。2. 本员工持股计划变更、终止，本员工持股计划另有约定除外；\n上海科华生物工程股份有限公司 2026 年员工持股计划（草案） 2 风险提示 （一）本员工持股计划经公司股东会审议批准后方可实施，能否获得公司股东会批准，存在不确定性。（三）本员工持股计划认购资金不足的，存在不能成立或者低于预计规模的风险。\n上海科华生物工程股份有限公司 2026 年员工持股计划（草案）摘要 2 风险提示 （一）本员工持股计划经公司股东会审议批准后方可实施，能否获得公司股东会批准，存在不确定性。（三）本员工持股计划认购资金不足的，存在不能成立或者低于预计规模的风险。",
-          "_editorialEvidenceTitles": "董事会关于2026年员工持股计划（草案）的合规性说明\n董事会薪酬与考核委员会关于2026年员工持股计划相关事项的核查意见\n2026年员工持股计划管理办法\n2026年员工持股计划（草案）\n2026年员工持股计划（草案）摘要",
+          "_editorialEvidenceText": "上海科华生物工程股份有限公司 2026 年员工持股计划（草案） 2 风险提示 （一）本员工持股计划经公司股东会审议批准后方可实施，能否获得公司股东会批准，存在不确定性。（三）本员工持股计划认购资金不足的，存在不能成立或者低于预计规模的风险。\n上海科华生物工程股份有限公司 2026 年员工持股计划（草案）摘要 2 风险提示 （一）本员工持股计划经公司股东会审议批准后方可实施，能否获得公司股东会批准，存在不确定性。（三）本员工持股计划认购资金不足的，存在不能成立或者低于预计规模的风险。\n三、本员工持股计划实施有利于健全公司的激励与约束机制，充分调动员工的工作积极性与创造性，有利于公司的持续发展，不存在损害公司及全体股东利益的情形，不存在公司以摊派、强行分配等方式强制员工参与的情形。\n5. 本员工持股计划实施有利于健全激励与约束机制，充分调动员工积极性， 有利于公司持续发展，不存在损害公司及全体股东利益的情形。\n第三条本员工持股计划首次授予的参加对象均为公司（含子公司）核心员工， 不存在单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女参与。2. 本员工持股计划变更、终止，本员工持股计划另有约定除外；",
+          "_editorialEvidenceTitles": "2026年员工持股计划（草案）\n2026年员工持股计划（草案）摘要\n董事会薪酬与考核委员会关于2026年员工持股计划相关事项的核查意见\n董事会关于2026年员工持股计划（草案）的合规性说明\n2026年员工持股计划管理办法",
           "announcementTitle": "2026年员工持股计划（草案）",
           "attention": "关注授予或归属条件、登记数量及费用影响。",
           "baselineFacts": [],
@@ -4585,8 +4601,8 @@
           "whyImportant": "关注回购进度、成交区间及后续用途。"
         },
         {
-          "_editorialEvidenceText": "金杜根据《公司法》、《证券法》等有关法律、法规和中国证监会有关规定的要求，按照律师行业公认的业务标准、道德规范和勤勉尽责精神，现出具法律意见如下： 一、 公司实施本次激励计划的条件 （一）经中国证监会 2004 年 6 月 8 日以《关于核准上海科华生物工程股份有限公司公开发行股票的通知》（证监发行字[2004]92 号）核准以及深圳证券交易所《关于上海科华生物工程股份有限公司人民币普通股股票上市的通知》（深证上[2004]67 号）同意，公司自 200。\n本议案已经董事会薪酬与考核委员会审议通过，尚需提交公司2026年第一次临时股东会以特别决议方式审议。本议案已经董事会薪酬与考核委员会审议通过，尚需提交公司2026年第一次临时股东会以特别决议方式审议。\n四、本激励计划首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女，符合《上市公司股权激励管理办法》第八条规定，不存在不得成为激励对象的下列情形： （一）最近 12 个月内被证券交易所认定为不适当人选；六、本激励计划的有效期为自限制性股票首次授予登记完成之日起至激励对象获授的限制性股票全部解除限售或回购注销之日止，最长不超过 60 个月。\n北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司 2026 年限制性股票激励计划（草案）的独立财务顾问报告二〇二六年八月北京博星证券投资顾问有限公司独立财务顾问报告 1 目录目录 .....................................................................................................................................。\n四、本激励计划首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女，符合《上市公司股权激励管理办法》第八条规定，不存在不得成为激励对象的下列情形： （一）最近 12 个月内被证券交易所认定为不适当人选；六、本激励计划的有效期为自限制性股票首次授予登记完成之日起至激励对象获授的限制性股票全部解除限售或回购注销之日止，最长不超过 60 个月。\n1 上海科华生物工程股份有限公司 2026 年限制性股票激励计划考核管理办法上海科华生物工程股份有限公司（以下简称“公司”）为持续推进长期激励机制的建设，吸引和留住优秀人才，有效结合股东利益、公司利益和员工利益， 遵循收益与贡献对等的原则，推出 2026 年限制性股票激励计划（以下简称“本激励计划”）。首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女。\n四、公司不存在向激励对象提供贷款、贷款担保或任何其他财务资助的计划或安排。五、本激励计划实施有利于激发员工的积极性、创造性与责任心，提高公司的可持续发展能力，促进公司发展战略和经营目标的实现，不存在损害公司及全体股东利益的情形。",
-          "_editorialEvidenceTitles": "北京市金杜（广州）律师事务所关于上海科华生物工程股份有限公司2026年限制性股票激励计划的法律意见书\n第十届董事会第二十二次会议决议公告\n2026年限制性股票激励计划（草案）\n北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司2026年限制性股票激励计划（草案）的独立财务顾问报告\n2026年限制性股票激励计划（草案）摘要\n2026年限制性股票激励计划考核管理办法\n董事会薪酬与考核委员会关于2026年限制性股票激励计划相关事项的核查意见",
+          "_editorialEvidenceText": "金杜根据《公司法》、《证券法》等有关法律、法规和中国证监会有关规定的要求，按照律师行业公认的业务标准、道德规范和勤勉尽责精神，现出具法律意见如下： 一、 公司实施本次激励计划的条件 （一）经中国证监会 2004 年 6 月 8 日以《关于核准上海科华生物工程股份有限公司公开发行股票的通知》（证监发行字[2004]92 号）核准以及深圳证券交易所《关于上海科华生物工程股份有限公司人民币普通股股票上市的通知》（深证上[2004]67 号）同意，公司自 200。\n1 上海科华生物工程股份有限公司 2026 年限制性股票激励计划考核管理办法上海科华生物工程股份有限公司（以下简称“公司”）为持续推进长期激励机制的建设，吸引和留住优秀人才，有效结合股东利益、公司利益和员工利益， 遵循收益与贡献对等的原则，推出 2026 年限制性股票激励计划（以下简称“本激励计划”）。首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女。\n四、本激励计划首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女，符合《上市公司股权激励管理办法》第八条规定，不存在不得成为激励对象的下列情形： （一）最近 12 个月内被证券交易所认定为不适当人选；六、本激励计划的有效期为自限制性股票首次授予登记完成之日起至激励对象获授的限制性股票全部解除限售或回购注销之日止，最长不超过 60 个月。\n四、公司不存在向激励对象提供贷款、贷款担保或任何其他财务资助的计划或安排。五、本激励计划实施有利于激发员工的积极性、创造性与责任心，提高公司的可持续发展能力，促进公司发展战略和经营目标的实现，不存在损害公司及全体股东利益的情形。\n四、本激励计划首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女，符合《上市公司股权激励管理办法》第八条规定，不存在不得成为激励对象的下列情形： （一）最近 12 个月内被证券交易所认定为不适当人选；六、本激励计划的有效期为自限制性股票首次授予登记完成之日起至激励对象获授的限制性股票全部解除限售或回购注销之日止，最长不超过 60 个月。\n本议案已经董事会薪酬与考核委员会审议通过，尚需提交公司2026年第一次临时股东会以特别决议方式审议。本议案已经董事会薪酬与考核委员会审议通过，尚需提交公司2026年第一次临时股东会以特别决议方式审议。\n北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司 2026 年限制性股票激励计划（草案）的独立财务顾问报告二〇二六年八月北京博星证券投资顾问有限公司独立财务顾问报告 1 目录目录 .....................................................................................................................................。",
+          "_editorialEvidenceTitles": "北京市金杜（广州）律师事务所关于上海科华生物工程股份有限公司2026年限制性股票激励计划的法律意见书\n2026年限制性股票激励计划考核管理办法\n2026年限制性股票激励计划（草案）\n董事会薪酬与考核委员会关于2026年限制性股票激励计划相关事项的核查意见\n2026年限制性股票激励计划（草案）摘要\n第十届董事会第二十二次会议决议公告\n北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司2026年限制性股票激励计划（草案）的独立财务顾问报告",
           "announcementTitle": "2026年限制性股票激励计划（草案）",
           "attention": "关注授予或归属条件、登记数量及费用影响。",
           "baselineFacts": [],
@@ -5607,10 +5623,11 @@
         }
       ],
       "quarantineEvidence": {
-        "count": 4,
-        "path": "v2/data/daily/listed/editorial-quarantine-2026-08-04-midday.json",
-        "sha256": "82f5644e252cd24fd9597e4895c284fb7312bdea10d0b1365e8795e5616b5db8"
+        "count": 6,
+        "path": "v2/data/daily/listed/editorial-quarantine-2026-08-04-evening.json",
+        "sha256": "47fd0a372010279ca5dc65b58e44e80c9ef49d9a615601b33b3521568fd3e271"
       },
+      "rawPath": "v2/data/daily/listed/cninfo-announcements-2026-08-04.json",
       "rejectedCandidates": [
         {
           "announcementId": "1225456018",
@@ -5827,10 +5844,228 @@
       "sourceAcquisitionStatus": {
         "hasPendingOfficialTextVerification": true,
         "officialAnnouncementTextExtractionFailed": 4,
-        "officialAnnouncementsDiscovered": 34,
-        "reliableTextExtracted": 30
+        "officialAnnouncementsDiscovered": 41,
+        "reliableTextExtracted": 37
       },
       "sourceEvidence": [
+        {
+          "body": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim a。",
+          "company": "延长石油国际",
+          "discoveryPdfSha256": "afdf5809b341eb9cfcc641aba80b5f84496b06a21a6620d2606bcada415888d7",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225458309.PDF",
+          "excerpt": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim a。",
+          "hkexNewsId": "12271663",
+          "kind": "dynamic",
+          "matter_id": "1225458309",
+          "parser": "pdfkit",
+          "pdfSha256": "084aa7294b97b2ae890d303197e7ce1eb92d3ce655d81114f6440dcf26fac5ed",
+          "publishedAt": "2026-08-04",
+          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0804/2026080401847.pdf",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 2701,
+              "controlCharacters": 0,
+              "languageRatio": 0.9633,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9985
+            },
+            "reasons": []
+          },
+          "textSha256": "947a10178219f8fb65cf1a81e33d2f5823d9fd5ebb5dc324133b6d0f136a3838",
+          "title": "盈利警告"
+        },
+        {
+          "body": "证券代码：301171 证券简称：易点天下公告编号：2026-062 易点天下网络科技股份有限公司股票交易异常波动公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。一、股票交易异常波动的具体情况易点天下网络科技股份有限公司（以下简称“公司”）股票交易连续3个交易日（2026年7月31日、2026年8月3日、2026年8月4日）收盘价格涨幅偏离值累计超过30%，根据《深圳证券交易所交易规则》的有关规定，属于股。",
+          "company": "易点天下",
+          "discoveryPdfSha256": "05bb46afe3c7e03adda152f9ffeaa1455adb324c05087eb0acb243ab4bfd8edd",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225457896.PDF",
+          "excerpt": "证券代码：301171 证券简称：易点天下公告编号：2026-062 易点天下网络科技股份有限公司股票交易异常波动公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。一、股票交易异常波动的具体情况易点天下网络科技股份有限公司（以下简称“公司”）股票交易连续3个交易日（2026年7月31日、2026年8月3日、2026年8月4日）收盘价格涨幅偏离值累计超过30%，根据《深圳证券交易所交易规则》的有关规定，属于股。",
+          "hkexNewsId": "",
+          "kind": "risk",
+          "matter_id": "1225457896",
+          "parser": "pypdf",
+          "pdfSha256": "05bb46afe3c7e03adda152f9ffeaa1455adb324c05087eb0acb243ab4bfd8edd",
+          "publishedAt": "2026-08-04",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225457896.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 1209,
+              "controlCharacters": 0,
+              "languageRatio": 0.9049,
+              "mojibakeMarkers": 0,
+              "readableRatio": 1.0
+            },
+            "reasons": []
+          },
+          "textSha256": "cfdbf7861658f0feeadc299708cb8e6b24ef097cf0c3260d84454644a414a950",
+          "title": "股票交易异常波动公告"
+        },
+        {
+          "body": "1 香港交易及結算所有限公司及香港聯合交易所有限公司對本公告之內容概不負責，對其準確性或完整性亦不發表任何聲明，並明確表示概不就因本公告全部或任何部份內容而產生或因倚賴該等內容而引致之任何損失承擔任何責任。西安海天天綫科技股份有限公司 XI’AN HAITIAN ANTENNA TECHNOLOGIES CO., LTD.* （於中華人民共和國註冊成立之股份有限公司） （股份代號：8227） 董事會會議通告西安海天天綫科技股份有限公司（「 本公司 」）董。",
+          "company": "海天天线",
+          "discoveryPdfSha256": "2174e8bdb4b48f0a6354d8c90ffe9afc4ce483367e3b9714714982cf3506b466",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225457766.PDF",
+          "excerpt": "1 香港交易及結算所有限公司及香港聯合交易所有限公司對本公告之內容概不負責，對其準確性或完整性亦不發表任何聲明，並明確表示概不就因本公告全部或任何部份內容而產生或因倚賴該等內容而引致之任何損失承擔任何責任。西安海天天綫科技股份有限公司 XI’AN HAITIAN ANTENNA TECHNOLOGIES CO., LTD.* （於中華人民共和國註冊成立之股份有限公司） （股份代號：8227） 董事會會議通告西安海天天綫科技股份有限公司（「 本公司 」）董。",
+          "hkexNewsId": "",
+          "kind": "dynamic",
+          "matter_id": "1225457766",
+          "parser": "pypdf",
+          "pdfSha256": "2174e8bdb4b48f0a6354d8c90ffe9afc4ce483367e3b9714714982cf3506b466",
+          "publishedAt": "2026-08-04",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225457766.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 866,
+              "controlCharacters": 0,
+              "languageRatio": 0.8949,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9815
+            },
+            "reasons": []
+          },
+          "textSha256": "d8e04df57a18739ddf1e4b76d25aa01944593d0b52861f2227f924a7ec43add2",
+          "title": "董事会会议通告"
+        },
+        {
+          "body": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
+          "company": "新丰泰集团",
+          "discoveryPdfSha256": "f0fa3f57d65c824b5374185003915c62a98911ead998678c5e47ba74a8073be9",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225457248.PDF",
+          "excerpt": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
+          "hkexNewsId": "12270754",
+          "kind": "capital",
+          "matter_id": "1225457248",
+          "parser": "pdfkit",
+          "pdfSha256": "2d8d87f67052de679614d5c4e91e55dd3afdc47e0c23175417fee917dd4a2f16",
+          "publishedAt": "2026-08-04",
+          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0804/2026080400940.pdf",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 4302,
+              "controlCharacters": 0,
+              "languageRatio": 0.9454,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9991
+            },
+            "reasons": []
+          },
+          "textSha256": "02d92037b923d60497251f08a711ca3c94131ddf1167c11b436dac6500c26cfd",
+          "title": "截至二零二六年七月三十一日止股份发行人的证券变动月报表"
+        },
+        {
+          "body": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 To : Hong Kong Exchanges and Clearing Li。",
+          "company": "麦科医药-B",
+          "discoveryPdfSha256": "2221bc081b985ee5291ed4e0a946eceb3f424032a93fc8f9f95fef1eb8cf8ee7",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225457235.PDF",
+          "excerpt": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 To : Hong Kong Exchanges and Clearing Li。",
+          "hkexNewsId": "12270728",
+          "kind": "capital",
+          "matter_id": "1225457235",
+          "parser": "pdfkit",
+          "pdfSha256": "f568b92f579b8d55067b308522b68e1c9502a59724051e2e6a20ea448798c94a",
+          "publishedAt": "2026-08-04",
+          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0804/2026080400914.pdf",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 7210,
+              "controlCharacters": 0,
+              "languageRatio": 0.9492,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9994
+            },
+            "reasons": []
+          },
+          "textSha256": "3cc39ff8bb31e59b69351c361c7fbd00dbad7c9753a7ee75ad8556fffec79297",
+          "title": "截至二零二六年七月三十一日止股份发行人的证券变动月报表"
+        },
+        {
+          "body": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
+          "company": "巨子生物",
+          "discoveryPdfSha256": "7ddb7696843cf2db4fd6dab87960a8a566465ee87b7d2fc53ed4e41e3a771828",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225457205.PDF",
+          "excerpt": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
+          "hkexNewsId": "12270680",
+          "kind": "capital",
+          "matter_id": "1225457205",
+          "parser": "pdfkit",
+          "pdfSha256": "954a41e1ff1def8744cedc4799a424c03c3ad0ada67a4487d37ff25fb49d5b4e",
+          "publishedAt": "2026-08-04",
+          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0804/2026080400866.pdf",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 7134,
+              "controlCharacters": 0,
+              "languageRatio": 0.9507,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9994
+            },
+            "reasons": []
+          },
+          "textSha256": "b92fe87244895c1a17b0a7742672405c425892174f602b3baf3ed09070a00564",
+          "title": "截至2026年7月31日止股份发行人的证券变动月报表"
+        },
+        {
+          "body": "证券代码：300581 证券简称：晨曦航空公告编号：2026-039 西安晨曦航空科技股份有限公司关于使用部分闲置募集资金进行现金管理到期赎回的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。西安晨曦航空科技股份有限公司（以下简称“公司”）于 2026 年 4 月 27 日召开第五届董事会第十次会议审议通过了《关于使用部分闲置募集资金进行现金管理的议案》，为提高资金使用效率，合理利用闲置募集资金，增加公司。",
+          "company": "晨曦航空",
+          "discoveryPdfSha256": "7be77047adaed663101f39a435d7a2450baa67bbed08a8f9beb816721dc37b6b",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456631.PDF",
+          "excerpt": "证券代码：300581 证券简称：晨曦航空公告编号：2026-039 西安晨曦航空科技股份有限公司关于使用部分闲置募集资金进行现金管理到期赎回的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。西安晨曦航空科技股份有限公司（以下简称“公司”）于 2026 年 4 月 27 日召开第五届董事会第十次会议审议通过了《关于使用部分闲置募集资金进行现金管理的议案》，为提高资金使用效率，合理利用闲置募集资金，增加公司。",
+          "hkexNewsId": "",
+          "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "现金管理",
+            "customerDisposition": "daily",
+            "eventLabel": "现金管理",
+            "eventType": "cash_management",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-b79b4db900dcebb56a",
+            "mainSection": "capital",
+            "planId": "现金管理",
+            "stage": "redeemed",
+            "status": "active"
+          },
+          "matter_id": "1225456631",
+          "parser": "pypdf",
+          "pdfSha256": "7be77047adaed663101f39a435d7a2450baa67bbed08a8f9beb816721dc37b6b",
+          "publishedAt": "2026-08-04",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456631.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 1508,
+              "controlCharacters": 0,
+              "languageRatio": 0.8826,
+              "mojibakeMarkers": 0,
+              "readableRatio": 1.0
+            },
+            "reasons": []
+          },
+          "textSha256": "1e2ff1909b2c1cba24371c886510658d0a5d09e722648e300192c9353fd9ba2e",
+          "title": "西安晨曦航空科技股份有限公司关于使用部分闲置募集资金进行现金管理到期赎回的公告"
+        },
         {
           "body": "上海科华生物工程股份有限公司（以下简称“公司”）于 2026 年 8 月 3 日召开第十届董事会审计委员会第十六次会议、第十届董事会第二十二次会议，审议通过了《关于拟续聘会计师事务所的议案》，公司拟续聘容诚会计师事务所（特殊普通合伙）（以下简称“容诚会计师事务所”）为公司 2026 年度审计机构， 本议案尚需提交公司 2026 年第一次临时股东会审议。近三年在执业中相关民事诉讼承担民事责任的情况： 2023 年 9 月 21 日，北京金融法院就乐视网信息。",
           "company": "科华生物",
@@ -6912,7 +7147,7 @@
           "title": "截至二零二六年七月三十一日止月份之股份发行人的证券变动月报表"
         }
       ],
-      "subtitle": "2026-08-04｜逐主体检索110家正式观察池，34条公告、16家发布公告公司",
+      "subtitle": "2026-08-04｜逐主体检索110家正式观察池，41条公告、21家发布公告公司",
       "template": "v2-listed-v1-editorial",
       "tiles": [
         {
@@ -23220,23 +23455,24 @@
       "listed": {
         "evidence": [
           "v2/data/daily/listed/cninfo-announcements-2026-08-04.json",
+          "v2/data/daily/listed/editorial-evidence/2026-08-04/evening-37bb52b7c1dd0cf1.json.gz",
+          "v2/data/daily/listed/editorial-quarantine-2026-08-04-evening.json",
           "v2/data/daily/listed/hkex-review-2026-08-04.json",
-          "v2/data/daily/listed/listed-official-2026-08-04.json",
-          "v2/data/daily/listed/editorial-quarantine-2026-08-04-midday.json",
-          "v2/data/daily/listed/editorial-evidence/2026-08-04/midday-dadf0fb0bed83ef0.json.gz"
+          "v2/data/daily/listed/listed-official-2026-08-04.json"
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "listed_verified_bundle_evidence",
+        "result": "listed_primary_verified_41_announcements",
         "scanAsOf": "2026-08-04",
         "status": "completed"
       },
       "ma": {
-        "failureReasons": [],
+        "evidence": [
+          "v2/data/source/ma/scans/scan-2026-08-04-evening.json"
+        ],
         "ready": true,
-        "receipt": "v2/data/source/ma/scans/scan-2026-08-04-midday.json",
         "releaseEligible": false,
-        "result": "ma_verified_bundle_receipt",
+        "result": "ma_completed_event_on_scan_date_false",
         "scanAsOf": "2026-08-04",
         "status": "no_new"
       },
@@ -23248,27 +23484,27 @@
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "private_verified_bundle_evidence",
-        "scanAsOf": "2026-08-04",
-        "status": "completed"
-      },
-      "soe": {
-        "failureReasons": [],
-        "ready": true,
-        "receipt": "v2/data/source/soe/scans/scan-2026-08-04-midday.json",
-        "releaseEligible": false,
-        "result": "soe_verified_bundle_receipt",
+        "result": "private_daily_verified_observation_pool_92_new_products_0",
         "scanAsOf": "2026-08-04",
         "status": "no_new"
       },
-      "tender": {
-        "failureReasons": [
-          "tender-sx-government-procurement:补充来源受限，已由完整必需来源覆盖"
+      "soe": {
+        "evidence": [
+          "v2/data/source/soe/scans/scan-2026-08-04-evening.json"
         ],
         "ready": true,
-        "receipt": "v2/data/source/tender/scans/scan-2026-08-04-midday.json",
+        "releaseEligible": false,
+        "result": "soe_completed_event_on_scan_date_true",
+        "scanAsOf": "2026-08-04",
+        "status": "completed"
+      },
+      "tender": {
+        "evidence": [
+          "v2/data/source/tender/scans/scan-2026-08-04-evening.json"
+        ],
+        "ready": true,
         "releaseEligible": true,
-        "result": "tender_verified_bundle_receipt",
+        "result": "tender_degraded_event_on_scan_date_false",
         "scanAsOf": "2026-08-04",
         "status": "degraded"
       }
@@ -23280,7 +23516,7 @@
       "sha256": "9e936530dc510f05e5db332b985a22b14f6fae7fa85112b08197f0cd4289dda7",
       "standard": "v1-source-and-editorial-quality"
     },
-    "slot": "midday",
+    "slot": "evening",
     "sourceConstraints": [
       {
         "channel": "tender",
@@ -23300,7 +23536,7 @@
     "year": "eventDate 所在自然年；仅展示结构化源中真实存在的年份"
   },
   "scanAsOf": "2026-08-04",
-  "scanSlot": "midday",
+  "scanSlot": "evening",
   "schemaVersion": "2.2",
   "soe": {
     "available": true,
@@ -23314,87 +23550,119 @@
     "categoryRecords": {
       "产业经营": [
         {
-          "candidateId": "soe-v2-e2f208904eae5d5e8029",
+          "candidateId": "soe-v2-de2cf58ce60c574aab9a",
           "category": "产业经营",
           "entities": [
             "陕西煤业化工集团有限责任公司"
           ],
           "normalizationStatus": "official_source_verified",
           "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-31",
+          "publishedAt": "2026-08-04",
           "sourceName": "陕煤集团官网",
           "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429411&cid=37",
-          "title": "陕煤集团举办学习贯彻习近平党建思想培训班暨“五型”大讲堂",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
-          "verificationNote": "陕煤集团举办学习贯彻习近平党建思想培训班暨“五型”大讲堂- 宣传思想 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们"
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429439&cid=15",
+          "title": "蒲洁能化：POR项目→“0”到“1”的突破",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-08-04-evening.json",
+          "verificationNote": "蒲洁能化：POR项目→“0”到“1”的突破- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精"
         },
         {
-          "candidateId": "soe-v2-df91205a7ffa4353a8be",
+          "candidateId": "soe-v2-cfc903792ecec82afc58",
           "category": "产业经营",
           "entities": [
             "陕西煤业化工集团有限责任公司"
           ],
           "normalizationStatus": "official_source_verified",
           "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-31",
+          "publishedAt": "2026-08-04",
           "sourceName": "陕煤集团官网",
           "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429413&cid=42",
-          "title": "张家峁矿业：为民生“提质” 为幸福“加码”",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
-          "verificationNote": "张家峁矿业：为民生“提质” 为幸福“加码”- 造福员工 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精"
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429444&cid=37",
+          "title": "北元集团化工分公司：文明之花绽放在化工生产一线",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-08-04-evening.json",
+          "verificationNote": "北元集团化工分公司：文明之花绽放在化工生产一线- 宣传思想 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系"
         },
         {
-          "candidateId": "soe-v2-d03be738115e07287dc1",
+          "candidateId": "soe-v2-ba74ee2351773cda036f",
           "category": "产业经营",
           "entities": [
             "陕西煤业化工集团有限责任公司"
           ],
           "normalizationStatus": "official_source_verified",
           "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-31",
+          "publishedAt": "2026-08-04",
           "sourceName": "陕煤集团官网",
           "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429410&cid=15",
-          "title": "榆林化学召开120项目投料试车动员会",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
-          "verificationNote": "榆林化学召开120项目投料试车动员会- 基层要闻 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神标识"
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429441&cid=38",
+          "title": "陕化公司气化中心党支部：党建聚力控成本 算细生产效益账",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-08-04-evening.json",
+          "verificationNote": "陕化公司气化中心党支部：党建聚力控成本 算细生产效益账- 组织干部 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 "
         },
         {
-          "candidateId": "soe-v2-5d548ec9bf5c37b41658",
+          "candidateId": "soe-v2-b87d0f1a4a37072d04df",
           "category": "产业经营",
           "entities": [
             "陕西煤业化工集团有限责任公司"
           ],
           "normalizationStatus": "official_source_verified",
           "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-31",
+          "publishedAt": "2026-08-04",
           "sourceName": "陕煤集团官网",
           "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429405&cid=33",
-          "title": "陕煤集团2026年审计数智化转型与实务能力提升培训班圆满举办",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
-          "verificationNote": "陕煤集团2026年审计数智化转型与实务能力提升培训班圆满举办- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系"
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429448&cid=33",
+          "title": "府谷能源：打好降本增效组合拳 稳固经营发展基本盘",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-08-04-evening.json",
+          "verificationNote": "府谷能源：打好降本增效组合拳 稳固经营发展基本盘- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体"
         },
         {
-          "candidateId": "soe-v2-5b10d9f7b8c0e3678205",
+          "candidateId": "soe-v2-9637c47f1d74cca196c9",
           "category": "产业经营",
           "entities": [
             "陕西煤业化工集团有限责任公司"
           ],
           "normalizationStatus": "official_source_verified",
           "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-31",
+          "publishedAt": "2026-08-04",
           "sourceName": "陕煤集团官网",
           "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429415&cid=33",
-          "title": "蒲白铁运公司：开源节流提质效",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-31-closing.json",
-          "verificationNote": "蒲白铁运公司：开源节流提质效- 企业管理 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们 文化体系 精神标识 核心理"
+          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429443&cid=188",
+          "title": "暴雨夜的“生命托举”——陕煤运电消防队员桥洞积水救援纪实",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-08-04-evening.json",
+          "verificationNote": "暴雨夜的“生命托举”——陕煤运电消防队员桥洞积水救援纪实- 公益事业 陕西煤业化工集团有限责任公司 -官方网站 --> 中文 | English | 高级搜索 --> 网站首页 集团概况 企业简介 企业简介陕西煤业化工集团有限责任公司（简称陕煤集团）是陕西省委、省政府为充分发挥陕西煤炭资源优势，从培育壮大能源化工支柱产业出发，按照现代企业制度要求，经过重组发展起来的国有特大型能源化工企业，是陕西省能源化工产业的骨干企业，也是省内煤炭大基地开发建设的主体。陕煤集团自2004年成立以来，经过20多年的改革发展，通过投资新建、收购兼并、资产划转、内部重组等...... 责任报告 陕煤集团2023年度环境、社会、治理（ESG）报告 陕西煤业化工集团公司2022年企业社会责任报告 企业宣传片 组织机构 二级单位 联系我们"
         }
       ],
       "综合动态": [
+        {
+          "candidateId": "soe-v2-74032c5393fed88f4ff3",
+          "category": "综合动态",
+          "entities": [
+            "陕西省人民政府国有资产监督管理委员会"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-08-04",
+          "sourceName": "陕西省国资委信息要闻",
+          "sourceQuality": "official_public_disclosure",
+          "sourceUrl": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202608/t20260804_3663529.html",
+          "title": "【陕西交控】组织党员领导干部旁听职务犯罪庭审 2026-08-04",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-08-04-evening.json",
+          "verificationNote": "【陕西交控】组织党员领导干部旁听职务犯罪庭审-陕西省人民政府国有资产监督管理委员会 中国政府网 陕西省人民政府 繁简体 无障碍阅读 长者模式 新媒体分享 登录 注册 简体 繁体 EN 无障碍阅读 长者模式 新媒体分享 搜索 首页 机关简介 新闻动态 政务公开 驻委纪检监察组 互动交流 首页 > 国企之窗 > 学习园地 【陕西交控】组织党员领导干部旁听职务犯罪庭审 时间：2026-08-04 来源：陕西交控 分享： 扫一扫：分享至微信 X 为深入推进全面从严治党，扎实开展树立和践行正确政绩观学习教育，不断强化党员领导干部纪律意识和规矩意识，7月31日上午，陕西交控集团组织党员领导干部赴西安市中级人民法院，现场旁听职务犯罪案件公开庭审，将严肃庄重的庭审现场变为直击心灵的“沉浸式”廉政课堂，充分发挥典型案例的震慑作用"
+        },
+        {
+          "candidateId": "soe-v2-3dd2c3566f10d32689de",
+          "category": "综合动态",
+          "entities": [
+            "陕西省人民政府国有资产监督管理委员会"
+          ],
+          "normalizationStatus": "official_source_verified",
+          "noveltyStatus": "verified_v2_import",
+          "publishedAt": "2026-08-04",
+          "sourceName": "陕西省国资委信息要闻",
+          "sourceQuality": "official_public_disclosure",
+          "sourceUrl": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202608/t20260804_3663527.html",
+          "title": "【陕煤集团】举办2026年审计数智化转型与实务能力提升培训班 2026-08-04",
+          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-08-04-evening.json",
+          "verificationNote": "【陕煤集团】举办2026年审计数智化转型与实务能力提升培训班-陕西省人民政府国有资产监督管理委员会 中国政府网 陕西省人民政府 繁简体 无障碍阅读 长者模式 新媒体分享 登录 注册 简体 繁体 EN 无障碍阅读 长者模式 新媒体分享 搜索 首页 机关简介 新闻动态 政务公开 驻委纪检监察组 互动交流 首页 > 国企之窗 > 学习园地 【陕煤集团】举办2026年审计数智化转型与实务能力提升培训班 时间：2026-08-04 来源：陕煤集团 分享： 扫一扫：分享至微信 X 7月29日至31日，陕煤集团2026年审计数智化转型与实务能力提升培训班在神木市杏花园会议中心顺利举行。集团公司总审计师出席，审计部总经理、副总经理，集团审计部及各单位分管审计工作领导、审计机构负责人、内部审计人员及审计人才库人员共180人参加培"
+        },
         {
           "candidateId": "soe-v2-12706d3fe4d52bcc0088",
           "category": "综合动态",
@@ -23439,36 +23707,6 @@
           "sourceQuality": "official_public_disclosure",
           "sourceUrl": "https://sxgz.shaanxi.gov.cn/sy/gqzc/xxyd/202607/t20260724_3659957.html",
           "title": "【陕煤集团】文家坡发电公司：以党建红帆聚合力 凭安全长城保生产 用精益良方促增收",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-27-morning.json"
-        },
-        {
-          "candidateId": "soe-v2-9be460d87971d361adb6",
-          "category": "综合动态",
-          "entities": [
-            "陕西煤业化工集团有限责任公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-23",
-          "sourceName": "陕煤集团官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.shccig.com/index/Article/index.html?id=1429339&cid=14",
-          "title": "张文琪会见中铁二十三局党委书记、董事长王鹏一行",
-          "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-27-morning.json"
-        },
-        {
-          "candidateId": "soe-v2-89425a1091818eacac78",
-          "category": "综合动态",
-          "entities": [
-            "长安汇通集团有限责任公司"
-          ],
-          "normalizationStatus": "official_source_verified",
-          "noveltyStatus": "verified_v2_import",
-          "publishedAt": "2026-07-23",
-          "sourceName": "长安汇通官网",
-          "sourceQuality": "issuer_original",
-          "sourceUrl": "https://www.ca-ht.com/show/1282",
-          "title": "科创资本进地市：秦创投策源网络如何重构陕西科创版图",
           "verificationEvidence": "v2/data/source/soe/evidence/verified-2026-07-27-morning.json"
         }
       ],
@@ -23700,7 +23938,7 @@
       ]
     },
     "customerBoundary": "当前可查询的国企历史记录最早到2026-05-21；更早记录尚未完成系统回补，不能据此视为年初以来全量。",
-    "eventOnScanDate": false,
+    "eventOnScanDate": true,
     "focusRecords": [
       {
         "candidateId": "soe-backfill-edcbd95f281dbb09294a",
@@ -23773,36 +24011,36 @@
         "title": "麦科奥特通过港交所上市聆讯 长安汇通前瞻布局结出硕果"
       }
     ],
-    "isAsOfFallback": true,
-    "latestRecordDate": "2026-07-31",
+    "isAsOfFallback": false,
+    "latestRecordDate": "2026-08-04",
     "limits": [
       "当前事件库最早记录为2026-05-21，不能据此声明1月至5月20日全量",
       "新增事项须经V2专用证据批次和原始官方链接核验后入库"
     ],
     "networkVerified": true,
     "pageDate": "2026-08-04",
-    "recordCount": 98,
+    "recordCount": 106,
     "rejectedCandidateCount": 0,
     "scanAsOf": "2026-08-04",
-    "scanEvidence": "v2/data/source/soe/scans/scan-2026-08-04-midday.json",
-    "scanSlot": "midday",
+    "scanEvidence": "v2/data/source/soe/scans/scan-2026-08-04-evening.json",
+    "scanSlot": "evening",
     "scanStatus": "completed",
-    "sourceAsOf": "2026-07-31",
+    "sourceAsOf": "2026-08-04",
     "summary": {
       "earliestPublishedAt": "2026-05-21",
       "entityCount": 26,
-      "latestPublishedAt": "2026-07-31",
-      "recordCount": 98,
-      "verifiedImportCount": 37
+      "latestPublishedAt": "2026-08-04",
+      "recordCount": 106,
+      "verifiedImportCount": 45
     }
   },
   "sourceAsOf": {
-    "equity": "2026-08-03",
+    "equity": "2026-08-04",
     "listed": "2026-08-04",
     "ma": "2026-07-28",
     "privateProducts": "2026-08-04",
     "privateUniverse": "2026-08-04",
-    "soe": "2026-07-31",
+    "soe": "2026-08-04",
     "tender": "2026-07-29"
   },
   "sources": {
@@ -23814,14 +24052,14 @@
       "channel-tender.webp": "v2/assets/channel-tender.webp"
     },
     "equityEvents": "v2/data/source/equity/events-2026.json",
-    "equityScanEvidence": "v2/data/source/equity/scans/scan-2026-08-03-midday.json",
+    "equityScanEvidence": "v2/data/source/equity/scans/scan-2026-08-04-evening.json",
     "equityUniverse": "v2/data/source/equity/universe.json",
     "eventStore": "v2/data/source/events/unified-2026.json",
     "listedBusinessTaxonomy": "v2/data/source/listed/business-taxonomy.json",
     "listedDaily": "v2/data/daily/listed/listed-official-2026-08-04.json",
     "listedUniverse": "v2/data/source/listed/universe.json",
     "maAnnual": "v2/data/source/ma/events-2026.json",
-    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-08-04-midday.json",
+    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-08-04-evening.json",
     "observationPool": "v2/data/source/observation-pool.json",
     "privateAnnual": "v2/data/source/private/products-2026.json",
     "privateProductEvidence": [
@@ -23831,10 +24069,10 @@
     ],
     "privateUniverse": "v2/data/daily/private/security-private-fund-daily-2026-08-04.json + v2/data/source/private/universe.json",
     "soeAnnual": "v2/data/source/soe/events-2026.json",
-    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-08-04-midday.json",
+    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-08-04-evening.json",
     "sourceContract": "v2/config/source-contract.json",
     "tenderAnnualProjects": "v2/data/source/tender/events-2026.json",
-    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-08-04-midday.json",
+    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-08-04-evening.json",
     "v1HistoryIndex": "v2/data/source/v1-history-index.json"
   },
   "tender": {
