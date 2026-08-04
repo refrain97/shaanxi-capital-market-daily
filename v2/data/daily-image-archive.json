@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-04T08:55:15+08:00",
+  "updatedAt": "2026-08-04T08:57:41+08:00",
   "channels": {
     "listed": [
       {
@@ -20,11 +20,11 @@
           "width": 1242,
           "height": 1529
         },
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "pending"
         },
-        "updatedAt": "2026-08-04T08:55:08+08:00"
+        "updatedAt": "2026-08-04T08:57:41+08:00"
       },
       {
         "date": "2026-08-03",
@@ -1064,11 +1064,11 @@
           "width": 1242,
           "height": 1844
         },
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "pending"
         },
-        "updatedAt": "2026-08-04T08:55:10+08:00"
+        "updatedAt": "2026-08-04T08:57:41+08:00"
       },
       {
         "date": "2026-08-03",
@@ -2103,11 +2103,11 @@
           "width": 1242,
           "height": 2910
         },
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "pending"
         },
-        "updatedAt": "2026-08-04T08:55:13+08:00"
+        "updatedAt": "2026-08-04T08:57:41+08:00"
       },
       {
         "date": "2026-08-03",
@@ -3097,11 +3097,11 @@
           "width": 1242,
           "height": 1666
         },
-        "webStatus": "staged",
+        "webStatus": "published",
         "ima": {
           "status": "pending"
         },
-        "updatedAt": "2026-08-04T08:55:15+08:00"
+        "updatedAt": "2026-08-04T08:57:41+08:00"
       },
       {
         "date": "2026-08-03",
