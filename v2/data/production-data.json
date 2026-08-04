@@ -28,7 +28,7 @@
       },
       {
         "path": "v2/config/production-quality-contract.json",
-        "sha256": "89d1faf58c06bc725a37c19d0b5527ae33cdab27be1f5deb6b084c3f9f944d84"
+        "sha256": "9e936530dc510f05e5db332b985a22b14f6fae7fa85112b08197f0cd4289dda7"
       },
       {
         "path": "v2/config/source-contract.json",
@@ -40,35 +40,31 @@
       },
       {
         "path": "v2/data/daily/listed/cninfo-announcements-2026-08-04.json",
-        "sha256": "d802f53abe9fd2f7bfe0b00e1930b2e9482618b2e18cd738162fa5870980d15d"
+        "sha256": "4f9f2a5b7c12a25172a673ba38f0c18e7047e461ba842a8e21a1aa0b3927dd85"
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-08-04.json",
-        "sha256": "7e1a6ac074ed66b48b7dfdd1e5faba3366d3402655c2ee4453157c97b2c017d6"
+        "sha256": "4319c6fdfad50eff41bfb0089c8954552351fd33c90b283b7e9e42f3a14a4477"
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-08-04.json",
         "sha256": "262d7bc4f6f020d160019bdd6b0c2c1f71eef42b5c495d2e84dab89993f68b87"
       },
       {
-        "path": "v2/data/readiness/v2-ready-2026-08-04-morning.json",
-        "sha256": "a4b528da83cb1424a6244993707538f40bf0abb55b97dd3ecb81226e83abacb7"
+        "path": "v2/data/readiness/v2-ready-2026-08-04-midday.json",
+        "sha256": "1017bcd5705b1661996490bf9a15f33e3e3f959b158a127678fa1e0537a6879a"
       },
       {
         "path": "v2/data/source/equity/events-2026.json",
         "sha256": "9f183472f97bcd97ac57fe6cec939e145a9e453ea9de7b85117ba666df67030f"
       },
       {
-        "path": "v2/data/source/equity/scans/scan-2026-07-31-morning.json",
-        "sha256": "b3147f0cb1b681d4d93eb817700e79fc7023a79528e2e3128ca8fc4f966cc5bf"
+        "path": "v2/data/source/equity/scans/scan-2026-07-31-midday.json",
+        "sha256": "5ec0a7fa057bba5b2163f3829c34815f899627922b0ab9a401e6e5136b15d8ad"
       },
       {
-        "path": "v2/data/source/equity/scans/scan-2026-08-03-morning.json",
-        "sha256": "e459dd503a78fd092e603edfdfcd70ed3db08c5ed07b606d6e8a42f4cb12e5b8"
-      },
-      {
-        "path": "v2/data/source/equity/scans/scan-2026-08-04-morning.json",
-        "sha256": "4daa4929ba9394f95613f26105d0784f05386aed68fd3108a46f91bcae329c25"
+        "path": "v2/data/source/equity/scans/scan-2026-08-03-midday.json",
+        "sha256": "5f905d83d4320cba247a7d4d68a6c04f09c973c20165739842c27133a2f166fb"
       },
       {
         "path": "v2/data/source/equity/universe.json",
@@ -76,7 +72,7 @@
       },
       {
         "path": "v2/data/source/events/unified-2026.json",
-        "sha256": "56b5302bec03e08155ea2e0e6646d990bb8bb83e97acda343b940e8c79733453"
+        "sha256": "edc2eb21db66ad273595064cde8ec6fcc561400a1cbd3f124e14c48491903794"
       },
       {
         "path": "v2/data/source/listed/business-taxonomy.json",
@@ -91,8 +87,8 @@
         "sha256": "db41a0782237483409087b4a475da0c950cd0b013118b8b62d603129625a21cb"
       },
       {
-        "path": "v2/data/source/ma/scans/scan-2026-08-04-morning.json",
-        "sha256": "e12ed8b07b4753705d6a94057ae8f30899f9affbc52b3b2bcba58777210ed78f"
+        "path": "v2/data/source/ma/scans/scan-2026-08-04-midday.json",
+        "sha256": "da588edc0c86220fe766763a0cdef72406121f694f02572d9f238b5a1ecd6f99"
       },
       {
         "path": "v2/data/source/observation-pool.json",
@@ -108,23 +104,23 @@
       },
       {
         "path": "v2/data/source/soe/events-2026.json",
-        "sha256": "bf0a35b68674f7ab9f993815bb37773af3d875f3ce05d7e4813b1b5676c02e68"
+        "sha256": "9f1fbd9e458770baae83886388c0111cb043a43027114d99e6518ca5b308d30c"
       },
       {
-        "path": "v2/data/source/soe/evidence/verified-2026-08-04-morning.json",
-        "sha256": "e93ebb37c08678f75ded615c925aa897115d552655b2286ef42414b1cdc327ed"
+        "path": "v2/data/source/soe/evidence/verified-2026-08-04-midday.json",
+        "sha256": "5b1c0fe60d8af177fcc2a8988ef1afd3bf4ba23565164e18fa08863d940558c1"
       },
       {
-        "path": "v2/data/source/soe/scans/scan-2026-08-04-morning.json",
-        "sha256": "420caaa9ad4c014afb09d392d7a9c0aaa2cd3ae9140b675d6fd213e2bee849c1"
+        "path": "v2/data/source/soe/scans/scan-2026-08-04-midday.json",
+        "sha256": "e26cd4c986124977913c226edfa20ec9705473f7e743d3906fecbcdd40bc63ab"
       },
       {
         "path": "v2/data/source/tender/events-2026.json",
         "sha256": "565ab4b7d84b3a1e583fa2938700f7000dec669595a19573e5d80dee802e2f84"
       },
       {
-        "path": "v2/data/source/tender/scans/scan-2026-08-04-morning.json",
-        "sha256": "cf3f14a443d417fd587b73b0c311319398a847ef9c51a69edb2c67a912eaaf82"
+        "path": "v2/data/source/tender/scans/scan-2026-08-04-midday.json",
+        "sha256": "5f7542a27c21f7d1f9ed4121a55f463c5ff5616c376f4cf7a69eff4f042992ce"
       },
       {
         "path": "v2/data/source/v1-history-index.json",
@@ -132,7 +128,7 @@
       },
       {
         "path": "v2/scripts/build_daily_v2.py",
-        "sha256": "09ec80e8f004d3331f6c53f32f015dc5da4db0dff5a833872c333b26ce600185"
+        "sha256": "3207bbb03229679c5d6fde54a37c4c9979ba218a8c987d3c824d830c825995d8"
       },
       {
         "path": "v2/scripts/refresh_equity_private_events.py",
@@ -157,10 +153,10 @@
     ],
     "mode": "repeatable-derived-artifact",
     "notice": "本快照由列示规范数据与结构化证据稳定生成。",
-    "readiness": "v2/data/readiness/v2-ready-2026-08-04-morning.json",
+    "readiness": "v2/data/readiness/v2-ready-2026-08-04-midday.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "6632689dccd8"
+    "version": "a1d6bc76990e"
   },
   "equity": {
     "customerBoundary": "建设中，已核验交易0笔、待回溯管理人187家。当前仅核验管理人公开身份，尚不作为正式日度交易库。",
@@ -2617,33 +2613,33 @@
       "statusLabel": "已核验交易0笔、待回溯管理人187家",
       "verifiedDealCount": 0
     },
-    "scanAsOf": "2026-08-04",
-    "scanCurrent": true,
-    "scanSlot": "morning",
+    "scanAsOf": "2026-08-03",
+    "scanCurrent": false,
+    "scanSlot": "midday",
     "scanStatus": "completed",
-    "sourceAsOf": "2026-08-04",
+    "sourceAsOf": "2026-08-03",
     "sourceBoundary": "AMAC仅核验管理人身份与地域口径，不据此推定投资项目。"
   },
   "homeHighlights": [
     {
-      "body": "达刚控股回购公司股份的进展公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-      "category": "上市公司",
-      "company": "达刚控股",
-      "date": "2026-08-04",
-      "href": "listed.html#listed-detail-fc0b8f1caf-faa0f290",
-      "mode": "latest-specific",
-      "sortBasis": "公告日期倒序，同日按重要度排序",
-      "title": "必看｜达刚控股"
-    },
-    {
-      "body": "科华生物2026年员工持股计划管理办法；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+      "body": "科华生物披露限制性股票激励计划，首期解除限售比例40%。",
       "category": "上市公司",
       "company": "科华生物",
       "date": "2026-08-04",
-      "href": "listed.html#listed-detail-3cb15cb407-f62e73b3",
+      "href": "listed.html#listed-detail-3cb15cb407-9dd6716b",
       "mode": "latest-specific",
       "sortBasis": "公告日期倒序，同日按重要度排序",
-      "title": "必看｜科华生物"
+      "title": "重点｜科华生物双激励方案"
+    },
+    {
+      "body": "兴化股份2025年度内控审计为否定意见，股票于2026年5月6日开市起被实施其他风险警示（ST）。",
+      "category": "上市公司",
+      "company": "兴化股份",
+      "date": "2026-08-04",
+      "href": "listed.html#listed-detail-32ece285fe-36e8d7c8",
+      "mode": "latest-specific",
+      "sortBasis": "公告日期倒序，同日按重要度排序",
+      "title": "重点｜兴化股份"
     },
     {
       "body": "最近一只：滨利东方红32号私募证券投资基金；管理人：深圳市滨利投资管理有限公司。",
@@ -3141,7 +3137,7 @@
           "businessSubcategory": "股份回购",
           "canonicalDetailId": "listed-detail-fc0b8f1caf-faa0f290",
           "company": "达刚控股",
-          "conclusion": "2 方式累计回购公司股份数量为 2,515,000 股，占公司目前总股本的比例约为 0.792%，最高成交价为 9.51 元/股，最低成交价为 5.65 元/股；当前节点：首次实施。",
+          "conclusion": "达刚控股累计回购2,515,000股，成交区间5.65 元/股—9.51 元/股；当前节点：首次实施。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -3157,10 +3153,9 @@
             "genericTitleRewrite": false,
             "impact": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断。",
             "keyFigures": [
-              "2,515,000 股",
-              "0.792%",
-              "9.51 元",
-              "5.65 元"
+              "2,515,000股",
+              "5.65 元",
+              "9.51 元"
             ],
             "nextObservation": "后续关注回购进度、成交区间及后续用途。",
             "passed": true,
@@ -3174,7 +3169,7 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
-          "customerFact": "达刚控股回购公司股份的进展公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+          "customerFact": "达刚控股累计回购2,515,000股，成交区间5.65 元/股—9.51 元/股。",
           "customerFollowUp": "关注回购进度、成交区间及后续用途。",
           "eventLabel": "股份回购",
           "eventType": "buyback",
@@ -3190,10 +3185,13 @@
           "matterType": "股份回购",
           "matter_id": "listed-matter-29b65def494840",
           "nextObservation": "后续关注回购进度、成交区间及后续用途。",
-          "numbersHtml": "达刚控股回购公司股份的进展公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+          "numbersHtml": "达刚控股累计回购2,515,000股，成交区间5.65 元/股—9.51 元/股。",
           "planId": "2025年",
           "previousStage": "",
           "publishedAt": "2026-08-04",
+          "sourceAnnouncementIds": [
+            "1225453558"
+          ],
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
@@ -3206,7 +3204,7 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453558.PDF"
             }
           ],
-          "whyImportant": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断；后续关注回购进度、成交区间及后续用途。"
+          "whyImportant": "关注回购进度、成交区间及后续用途。"
         },
         {
           "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
@@ -3255,7 +3253,7 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
-          "customerFact": "爱科赛博累计回购73.6338万股，占总股本0.6382%；当前节点：阶段进展。",
+          "customerFact": "爱科赛博累计回购73.6338万股，占总股本0.6382%。",
           "customerFollowUp": "关注回购进度、成交区间及后续用途。",
           "eventLabel": "股份回购",
           "eventType": "buyback",
@@ -3271,10 +3269,13 @@
           "matterType": "股份回购",
           "matter_id": "listed-matter-6f3fdc52607c3d",
           "nextObservation": "后续关注回购进度、成交区间及后续用途。",
-          "numbersHtml": "爱科赛博累计回购73.6338万股，占总股本0.6382%；当前节点：阶段进展。",
+          "numbersHtml": "爱科赛博累计回购73.6338万股，占总股本0.6382%。",
           "planId": "2026年",
           "previousStage": "first_execution",
           "publishedAt": "2026-08-04",
+          "sourceAnnouncementIds": [
+            "1225453390"
+          ],
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
@@ -3287,7 +3288,7 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453390.PDF"
             }
           ],
-          "whyImportant": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断；后续关注回购进度、成交区间及后续用途。"
+          "whyImportant": "关注回购进度、成交区间及后续用途。"
         },
         {
           "announcementTitle": "关于回购公司股份的进展公告",
@@ -3339,7 +3340,7 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
-          "customerFact": "供销大集累计回购7,299,200股，成交金额9,999,904元，成交区间1.37 元/股—1.37 元/股；当前节点：阶段进展。",
+          "customerFact": "供销大集累计回购7,299,200股，成交金额9,999,904元，成交区间1.37 元/股—1.37 元/股。",
           "customerFollowUp": "关注回购进度、成交区间及后续用途。",
           "eventLabel": "股份回购",
           "eventType": "buyback",
@@ -3355,10 +3356,13 @@
           "matterType": "股份回购",
           "matter_id": "listed-matter-3f77bb284ab6fc",
           "nextObservation": "后续关注回购进度、成交区间及后续用途。",
-          "numbersHtml": "供销大集累计回购7,299,200股，成交金额9,999,904元，成交区间1.37 元/股—1.37 元/股；当前节点：阶段进展。",
+          "numbersHtml": "供销大集累计回购7,299,200股，成交金额9,999,904元，成交区间1.37 元/股—1.37 元/股。",
           "planId": "2026年",
           "previousStage": "first_execution",
           "publishedAt": "2026-08-04",
+          "sourceAnnouncementIds": [
+            "1225455001"
+          ],
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
@@ -3371,7 +3375,7 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225455001.PDF"
             }
           ],
-          "whyImportant": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断；后续关注回购进度、成交区间及后续用途。"
+          "whyImportant": "关注回购进度、成交区间及后续用途。"
         },
         {
           "announcementTitle": "北方光电股份有限公司使用暂时闲置的募集资金进行现金管理到期赎回的公告",
@@ -3425,7 +3429,7 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
-          "customerFact": "光电股份北方光电股份有限公司使用暂时闲置的募集资金进行现金管理到期赎回的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+          "customerFact": "光电股份使用闲置资金进行现金管理的产品已到期赎回，累计取得收益1,300,000 元。",
           "customerFollowUp": "关注产品到期赎回、实际收益、未到期余额及授权额度。",
           "eventLabel": "现金管理",
           "eventType": "cash_management",
@@ -3441,10 +3445,13 @@
           "matterType": "现金管理",
           "matter_id": "listed-matter-2a9eb00d47a47d",
           "nextObservation": "后续关注产品到期赎回、实际收益、未到期余额及授权额度。",
-          "numbersHtml": "光电股份北方光电股份有限公司使用暂时闲置的募集资金进行现金管理到期赎回的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+          "numbersHtml": "光电股份使用闲置资金进行现金管理的产品已到期赎回，累计取得收益1,300,000 元。",
           "planId": "现金管理",
           "previousStage": "authorized",
           "publishedAt": "2026-08-04",
+          "sourceAnnouncementIds": [
+            "1225453523"
+          ],
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
@@ -3457,10 +3464,17 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453523.PDF"
             }
           ],
-          "whyImportant": "资金购买、赎回与收益已经形成可核验现金流，需继续核对未到期余额和授权额度；后续关注产品到期赎回、实际收益、未到期余额及授权额度。"
+          "whyImportant": "关注产品到期赎回、实际收益、未到期余额及授权额度。"
         }
       ],
+      "customerNotice": "已完成扫描，4项内容暂缓刊发/复核",
       "date": "2026-08-04",
+      "editorialEvidence": {
+        "contentSha256": "dadf0fb0bed83ef0963d7c0b569d69625f8a34b74ac6ac3eb6033e27fc1ea7fe",
+        "path": "v2/data/daily/listed/editorial-evidence/2026-08-04/midday-dadf0fb0bed83ef0.json.gz",
+        "sha256": "65df34e0633d8e0cc644038848e17bef599258842a6442da4c52f51b4fdea290",
+        "slot": "midday"
+      },
       "editorialExcludedCandidates": [
         {
           "company": "科华生物",
@@ -3480,41 +3494,18 @@
             }
           ],
           "status": "excluded"
-        },
-        {
-          "company": "科华生物",
-          "customerDisposition": "excluded_from_customer_highlights_pending_reliable_fact",
-          "discoveryStatus": "official_announcement_text_available_but_customer_fact_not_substantive",
-          "error": "上市公司非生命周期事项缺少原文实质事实，拒绝使用标题改写：科华生物:经营治理:董事会关于2026年员工持股计划（草案）的合规性说明",
-          "importance": "关注",
-          "reason": "non_mandatory_low_priority_candidate_lacks_substantive_customer_fact",
-          "sourceAnnouncementIds": [
-            "1225456006",
-            "1225456007"
-          ],
-          "sources": [
-            {
-              "announcementId": "1225456006",
-              "announcementTitle": "董事会薪酬与考核委员会关于2026年员工持股计划相关事项的核查意见",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456006.PDF"
-            },
-            {
-              "announcementId": "1225456007",
-              "announcementTitle": "董事会关于2026年员工持股计划（草案）的合规性说明",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456007.PDF"
-            }
-          ],
-          "status": "excluded"
         }
       ],
       "editorialPolicy": "select_then_summarize_matter_level",
+      "editorialStatus": "completed_with_quarantine",
       "evidenceArchiveCollapsedByDefault": true,
       "fixed_columns": [
         {
           "items": [
             {
-              "announcementTitle": "关于<2026年限制性股票激励计划（草案）>及摘要的议案",
-              "body": "科华生物及摘要的议案；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+              "announcementTitle": "2026年员工持股计划（草案）",
+              "attention": "关注授予或归属条件、登记数量及费用影响。",
+              "body": "科华生物披露员工持股计划，首次受让标的股票锁定期12个月。",
               "business": {
                 "category": "激励与员工",
                 "contentImportance": "固定披露",
@@ -3528,9 +3519,9 @@
                 ]
               },
               "businessSubcategory": "股权激励",
-              "canonicalDetailId": "listed-detail-3cb15cb407-9dd6716b",
+              "canonicalDetailId": "listed-detail-3cb15cb407-118173eb",
               "company": "科华生物",
-              "conclusion": "本激励计划首次授予限制性股票的解除限售安排如下： 解除限售安排解除限售期间解除限售比例 12 上海科华生物工程股份有限公司 2026 年限制性股票激励计划（草案） 第一个解除限售期自首次授予登记完成之日起 12 个月后的首个交易日起至首次授予登记完成之日起 24 个月内的最后一个交易日当日止 40% 第二个解除限售期自首次授予登记完成之日起 24 个月后。",
+              "conclusion": "科华生物披露员工持股计划，首次受让标的股票锁定期12个月，首期解锁比例40%。",
               "contentQuality": {
                 "checks": {
                   "actualFact": true,
@@ -3546,11 +3537,111 @@
                 "genericTitleRewrite": false,
                 "impact": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
                 "keyFigures": [
-                  "2026 年",
-                  "12 个月",
-                  "24 个月",
-                  "40%",
-                  "24 个月"
+                  "12个月",
+                  "40%"
+                ],
+                "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
+                "passed": true,
+                "stage": "股权激励",
+                "stageEvidence": {
+                  "mode": "structured_matter_type",
+                  "sourceIds": []
+                },
+                "standard": "v2-substantive-five-field"
+              },
+              "customerFact": "科华生物披露员工持股计划，首次受让标的股票锁定期12个月。",
+              "customerFollowUp": "关注授予或归属条件、登记数量及费用影响。",
+              "impactAssessment": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
+              "importance": "必看",
+              "mandatoryCustomerHighlight": false,
+              "mandatoryRuleId": "",
+              "matterType": "股权激励",
+              "matter_id": "listed-matter-8dd21a240bf015",
+              "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
+              "publishedAt": "2026-08-04",
+              "sourceAnnouncementIds": [
+                "1225456003",
+                "1225456004",
+                "1225456007",
+                "1225456005",
+                "1225456006"
+              ],
+              "sourceConfidence": "verified-curated-matter-sources",
+              "sourceKeyword": "V2精读事项来源组",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456003.PDF",
+              "sources": [
+                {
+                  "announcementId": "1225456003",
+                  "announcementTitle": "2026年员工持股计划（草案）",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456003.PDF"
+                },
+                {
+                  "announcementId": "1225456004",
+                  "announcementTitle": "2026年员工持股计划（草案）摘要",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456004.PDF"
+                },
+                {
+                  "announcementId": "1225456007",
+                  "announcementTitle": "董事会关于2026年员工持股计划（草案）的合规性说明",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456007.PDF"
+                },
+                {
+                  "announcementId": "1225456005",
+                  "announcementTitle": "2026年员工持股计划管理办法",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456005.PDF"
+                },
+                {
+                  "announcementId": "1225456006",
+                  "announcementTitle": "董事会薪酬与考核委员会关于2026年员工持股计划相关事项的核查意见",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456006.PDF"
+                }
+              ],
+              "tag": "股权激励",
+              "title": "科华生物｜员工持股计划",
+              "whyImportant": "关注授予或归属条件、登记数量及费用影响。"
+            },
+            {
+              "announcementTitle": "2026年限制性股票激励计划（草案）",
+              "attention": "关注授予或归属条件、登记数量及费用影响。",
+              "body": "科华生物披露限制性股票激励计划，首期解除限售比例40%。",
+              "business": {
+                "category": "激励与员工",
+                "contentImportance": "固定披露",
+                "priority": "focus",
+                "subcategory": "股权激励",
+                "targets": [
+                  "董秘办",
+                  "人力",
+                  "财务",
+                  "激励对象"
+                ]
+              },
+              "businessSubcategory": "股权激励",
+              "canonicalDetailId": "listed-detail-3cb15cb407-9dd6716b",
+              "company": "科华生物",
+              "conclusion": "科华生物披露限制性股票激励计划，首期解除限售比例40%；当前节点：方案审议。",
+              "contentQuality": {
+                "checks": {
+                  "actualFact": true,
+                  "completeCustomerSentence": true,
+                  "impactAssessment": true,
+                  "keyFigures": true,
+                  "namedGovernanceFact": true,
+                  "nextObservation": true,
+                  "sourceEvidence": true,
+                  "stageChange": true,
+                  "templateFree": true
+                },
+                "genericTitleRewrite": false,
+                "impact": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
+                "keyFigures": [
+                  "40%"
                 ],
                 "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
                 "passed": true,
@@ -3572,7 +3663,7 @@
                 "standard": "v2-substantive-five-field"
               },
               "customerDisposition": "daily",
-              "customerFact": "科华生物及摘要的议案；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+              "customerFact": "科华生物披露限制性股票激励计划，首期解除限售比例40%。",
               "customerFollowUp": "关注授予或归属条件、登记数量及费用影响。",
               "eventLabel": "股权激励",
               "eventType": "equity_incentive",
@@ -3591,16 +3682,37 @@
               "planId": "2026年限制性股票激励计划",
               "previousStage": "",
               "publishedAt": "2026-08-04",
+              "sourceAnnouncementIds": [
+                "1225456009",
+                "1225456015",
+                "1225456014",
+                "1225456010",
+                "1225456008",
+                "1225456013",
+                "1225456012"
+              ],
               "sourceConfidence": "verified-curated-matter-sources",
               "sourceKeyword": "V2精读事项来源组",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456015.PDF",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456009.PDF",
               "sources": [
+                {
+                  "announcementId": "1225456009",
+                  "announcementTitle": "2026年限制性股票激励计划（草案）",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456009.PDF"
+                },
                 {
                   "announcementId": "1225456015",
                   "announcementTitle": "关于<2026年限制性股票激励计划（草案）>及摘要的议案",
                   "sourceName": "巨潮资讯",
                   "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456015.PDF"
+                },
+                {
+                  "announcementId": "1225456014",
+                  "announcementTitle": "北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司2026年限制性股票激励计划（草案）的独立财务顾问报告",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456014.PDF"
                 },
                 {
                   "announcementId": "1225456010",
@@ -3609,22 +3721,10 @@
                   "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456010.PDF"
                 },
                 {
-                  "announcementId": "1225456009",
-                  "announcementTitle": "2026年限制性股票激励计划（草案）",
-                  "sourceName": "巨潮资讯",
-                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456009.PDF"
-                },
-                {
                   "announcementId": "1225456008",
                   "announcementTitle": "2026年限制性股票激励计划（草案）摘要",
                   "sourceName": "巨潮资讯",
                   "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456008.PDF"
-                },
-                {
-                  "announcementId": "1225456014",
-                  "announcementTitle": "北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司2026年限制性股票激励计划（草案）的独立财务顾问报告",
-                  "sourceName": "巨潮资讯",
-                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456014.PDF"
                 },
                 {
                   "announcementId": "1225456013",
@@ -3641,88 +3741,6 @@
               ],
               "title": "科华生物｜股权激励",
               "whyImportant": "关注授予或归属条件、登记数量及费用影响。"
-            },
-            {
-              "announcementTitle": "上市公司股权激励计划自查表",
-              "body": "科华生物上市公司股权激励计划自查表；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-              "business": {
-                "category": "激励与员工",
-                "contentImportance": "固定披露",
-                "priority": "focus",
-                "subcategory": "股权激励",
-                "targets": [
-                  "董秘办",
-                  "人力",
-                  "财务",
-                  "激励对象"
-                ]
-              },
-              "businessSubcategory": "股权激励",
-              "canonicalDetailId": "listed-detail-3cb15cb407-595949e8",
-              "company": "科华生物",
-              "conclusion": "单个激励对象通过全部在有效期内的股权激励计划获授的公司股票累计是否超过公司股本总额 1%的说明是 （5）股权激励计划的有效期，股票期权的授权日或授权日的确定方式、可行权日、行权有效期和行权安排，限制性股票的授予日、限售期和解除限售锁定期安排等是 （6）限制性股票的授予价格、股票期权的行权价格及其确定方法；当前节点：方案审议。",
-              "contentQuality": {
-                "checks": {
-                  "actualFact": true,
-                  "completeCustomerSentence": true,
-                  "impactAssessment": true,
-                  "keyFigures": true,
-                  "namedGovernanceFact": true,
-                  "nextObservation": true,
-                  "sourceEvidence": true,
-                  "stageChange": true,
-                  "templateFree": true
-                },
-                "genericTitleRewrite": false,
-                "impact": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
-                "keyFigures": [
-                  "1%"
-                ],
-                "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
-                "passed": true,
-                "stage": "board_plan",
-                "stageEvidence": {
-                  "mode": "current_source_semantics",
-                  "sourceIds": [
-                    "1225456011"
-                  ]
-                },
-                "standard": "v2-substantive-five-field"
-              },
-              "customerDisposition": "daily",
-              "customerFact": "科华生物上市公司股权激励计划自查表；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-              "customerFollowUp": "关注授予或归属条件、登记数量及费用影响。",
-              "eventLabel": "股权激励",
-              "eventType": "equity_incentive",
-              "homepageEligible": false,
-              "impactAssessment": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
-              "importance": "重点",
-              "isNoChangeProgress": false,
-              "lifecycleId": "listed-lifecycle-0393d7e3d298c69210",
-              "lifecycleStage": "board_plan",
-              "lifecycleStatus": "active",
-              "mandatoryCustomerHighlight": false,
-              "mandatoryRuleId": "",
-              "matterType": "股权激励",
-              "matter_id": "listed-matter-39fc23f21bf948",
-              "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
-              "planId": "2026年",
-              "previousStage": "",
-              "publishedAt": "2026-08-04",
-              "sourceConfidence": "verified-curated-matter-sources",
-              "sourceKeyword": "V2精读事项来源组",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456011.PDF",
-              "sources": [
-                {
-                  "announcementId": "1225456011",
-                  "announcementTitle": "上市公司股权激励计划自查表",
-                  "sourceName": "巨潮资讯",
-                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456011.PDF"
-                }
-              ],
-              "title": "科华生物｜股权激励",
-              "whyImportant": "关注授予或归属条件、登记数量及费用影响。"
             }
           ],
           "title": "A. 股东会与治理"
@@ -3731,7 +3749,8 @@
           "items": [
             {
               "announcementTitle": "宝光股份关于公司董事、总经理辞职的公告",
-              "body": "宝光股份宝光股份关于公司董事、总经理辞职的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+              "attention": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
+              "body": "宝光股份总经理刘壮因工作变动辞职。",
               "business": {
                 "category": "综合事项",
                 "contentImportance": "固定披露",
@@ -3772,7 +3791,7 @@
                 "standard": "v2-substantive-five-field"
               },
               "customerDisposition": "daily",
-              "customerFact": "宝光股份宝光股份关于公司董事、总经理辞职的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+              "customerFact": "宝光股份总经理刘壮因工作变动辞职。",
               "customerFollowUp": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
               "eventLabel": "重大治理变更",
               "eventType": "governance_change",
@@ -3791,6 +3810,9 @@
               "planId": "2026年",
               "previousStage": "progress",
               "publishedAt": "2026-08-04",
+              "sourceAnnouncementIds": [
+                "1225453553"
+              ],
               "sourceConfidence": "verified-curated-matter-sources",
               "sourceKeyword": "V2精读事项来源组",
               "sourceName": "巨潮资讯",
@@ -3811,23 +3833,6 @@
         }
       ],
       "focusCompanies": [
-        {
-          "anchorId": "listed-detail-3cb15cb407-f62e73b3",
-          "business": {
-            "category": "资金与财务",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "担保",
-            "targets": [
-              "财务负责人",
-              "资金部",
-              "董秘办"
-            ]
-          },
-          "company": "科华生物",
-          "followText": "关注实际提款、担保余额和偿债安排。",
-          "sourceSection": "section-02"
-        },
         {
           "anchorId": "listed-detail-fc0b8f1caf-faa0f290",
           "business": {
@@ -3861,102 +3866,9 @@
           "company": "爱科赛博",
           "followText": "关注回购进度、成交区间及后续用途。",
           "sourceSection": "section-04"
-        }
-      ],
-      "follow_items": [
-        {
-          "announcementTitle": "2026年员工持股计划管理办法",
-          "body": "关注实际提款、担保余额和偿债安排。",
-          "business": {
-            "category": "资金与财务",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "担保",
-            "targets": [
-              "财务负责人",
-              "资金部",
-              "董秘办"
-            ]
-          },
-          "businessSubcategory": "担保",
-          "company": "科华生物",
-          "conclusion": "（十）本员工持股计划首次受让的标的股票自公司公告完成首次受让标的股票过户之日起分批解锁，锁定期分别为 12 个月、24 个月、36 个月，解锁比例分别为 40%、30%、30%。公司在 2026 年 9 月 30 日（不含）之后召开董事会确定本员工持股计划预留份额认购对象的，自公司公告完成预留受让标的股票过户之日起分批解锁。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
-            "keyFigures": [
-              "12 个月",
-              "24 个月",
-              "36 个月",
-              "40%",
-              "30%",
-              "30%",
-              "2026 年",
-              "30 日"
-            ],
-            "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
-            "passed": true,
-            "stage": "担保授信",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerFact": "科华生物2026年员工持股计划管理办法；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-          "customerFollowUp": "关注实际提款、担保余额和偿债安排。",
-          "impactAssessment": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
-          "importance": "必看",
-          "isReference": true,
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "担保授信",
-          "matter_id": "listed-matter-bebaf12053716d",
-          "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
-          "publishedAt": "2026-08-04",
-          "referenceAnchor": "listed-detail-3cb15cb407-f62e73b3",
-          "referenceMatterId": "listed-matter-bebaf12053716d",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456005.PDF",
-          "sources": [
-            {
-              "announcementId": "1225456005",
-              "announcementTitle": "2026年员工持股计划管理办法",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456005.PDF"
-            },
-            {
-              "announcementId": "1225456004",
-              "announcementTitle": "2026年员工持股计划（草案）摘要",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456004.PDF"
-            },
-            {
-              "announcementId": "1225456003",
-              "announcementTitle": "2026年员工持股计划（草案）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456003.PDF"
-            }
-          ],
-          "title": "科华生物｜关注担保",
-          "whyImportant": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险；后续关注实际提款、担保余额和偿债安排。"
         },
         {
-          "announcementTitle": "关于回购公司股份的进展公告",
-          "body": "关注回购进度、成交区间及后续用途。",
+          "anchorId": "listed-detail-f70dd7228b-50036ea9",
           "business": {
             "category": "资本运作",
             "contentImportance": "内容重要",
@@ -3968,9 +3880,47 @@
               "投融资负责人"
             ]
           },
+          "company": "供销大集",
+          "followText": "关注回购进度、成交区间及后续用途。",
+          "sourceSection": "section-04"
+        },
+        {
+          "anchorId": "listed-detail-51a0627115-6335aea1",
+          "business": {
+            "category": "资金与财务",
+            "contentImportance": "内容重要",
+            "priority": "focus",
+            "subcategory": "现金管理",
+            "targets": [
+              "财务负责人",
+              "资金部",
+              "董秘办"
+            ]
+          },
+          "company": "光电股份",
+          "followText": "关注产品到期赎回、实际收益、未到期余额及授权额度。",
+          "sourceSection": "section-04"
+        }
+      ],
+      "follow_items": [
+        {
+          "announcementTitle": "关于回购公司股份的进展公告",
+          "attention": "关注回购进度、成交区间及后续用途。",
+          "body": "关注回购进度、成交区间及后续用途。",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "重点跟踪",
+            "priority": "focus",
+            "subcategory": "股份回购",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
           "businessSubcategory": "股份回购",
           "company": "达刚控股",
-          "conclusion": "2 方式累计回购公司股份数量为 2,515,000 股，占公司目前总股本的比例约为 0.792%，最高成交价为 9.51 元/股，最低成交价为 5.65 元/股；当前节点：首次实施。",
+          "conclusion": "达刚控股累计回购2,515,000股，成交区间5.65 元/股—9.51 元/股；当前节点：首次实施。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -3986,10 +3936,9 @@
             "genericTitleRewrite": false,
             "impact": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断。",
             "keyFigures": [
-              "2,515,000 股",
-              "0.792%",
-              "9.51 元",
-              "5.65 元"
+              "2,515,000股",
+              "5.65 元",
+              "9.51 元"
             ],
             "nextObservation": "后续关注回购进度、成交区间及后续用途。",
             "passed": true,
@@ -4003,7 +3952,7 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
-          "customerFact": "达刚控股回购公司股份的进展公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+          "customerFact": "达刚控股累计回购2,515,000股，成交区间5.65 元/股—9.51 元/股。",
           "customerFollowUp": "关注回购进度、成交区间及后续用途。",
           "eventLabel": "股份回购",
           "eventType": "buyback",
@@ -4025,6 +3974,9 @@
           "publishedAt": "2026-08-04",
           "referenceAnchor": "listed-detail-fc0b8f1caf-faa0f290",
           "referenceMatterId": "listed-matter-29b65def494840",
+          "sourceAnnouncementIds": [
+            "1225453558"
+          ],
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
@@ -4037,231 +3989,17 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453558.PDF"
             }
           ],
+          "tag": "股份回购",
           "title": "达刚控股｜关注股份回购",
-          "whyImportant": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断；后续关注回购进度、成交区间及后续用途。"
-        },
-        {
-          "announcementTitle": "关于<2026年限制性股票激励计划（草案）>及摘要的议案",
-          "body": "关注授予或归属条件、登记数量及费用影响。",
-          "business": {
-            "category": "激励与员工",
-            "contentImportance": "固定披露",
-            "priority": "focus",
-            "subcategory": "股权激励",
-            "targets": [
-              "董秘办",
-              "人力",
-              "财务",
-              "激励对象"
-            ]
-          },
-          "businessSubcategory": "股权激励",
-          "company": "科华生物",
-          "conclusion": "本激励计划首次授予限制性股票的解除限售安排如下： 解除限售安排解除限售期间解除限售比例 12 上海科华生物工程股份有限公司 2026 年限制性股票激励计划（草案） 第一个解除限售期自首次授予登记完成之日起 12 个月后的首个交易日起至首次授予登记完成之日起 24 个月内的最后一个交易日当日止 40% 第二个解除限售期自首次授予登记完成之日起 24 个月后。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
-            "keyFigures": [
-              "2026 年",
-              "12 个月",
-              "24 个月",
-              "40%",
-              "24 个月"
-            ],
-            "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
-            "passed": true,
-            "stage": "board_plan",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225456008",
-                "1225456009",
-                "1225456010",
-                "1225456012",
-                "1225456013",
-                "1225456014",
-                "1225456015#agenda-1",
-                "1225456015#agenda-2",
-                "1225456015#agenda-3"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "customerFact": "科华生物及摘要的议案；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-          "customerFollowUp": "关注授予或归属条件、登记数量及费用影响。",
-          "eventLabel": "股权激励",
-          "eventType": "equity_incentive",
-          "homepageEligible": false,
-          "impactAssessment": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "isReference": true,
-          "lifecycleId": "listed-lifecycle-d23381fbd38789a4ce",
-          "lifecycleStage": "board_plan",
-          "lifecycleStatus": "active",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "股权激励",
-          "matter_id": "listed-matter-c9027846673c8f",
-          "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
-          "planId": "2026年限制性股票激励计划",
-          "previousStage": "",
-          "publishedAt": "2026-08-04",
-          "referenceAnchor": "listed-detail-3cb15cb407-9dd6716b",
-          "referenceMatterId": "listed-matter-c9027846673c8f",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456015.PDF",
-          "sources": [
-            {
-              "announcementId": "1225456015",
-              "announcementTitle": "关于<2026年限制性股票激励计划（草案）>及摘要的议案",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456015.PDF"
-            },
-            {
-              "announcementId": "1225456010",
-              "announcementTitle": "2026年限制性股票激励计划考核管理办法",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456010.PDF"
-            },
-            {
-              "announcementId": "1225456009",
-              "announcementTitle": "2026年限制性股票激励计划（草案）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456009.PDF"
-            },
-            {
-              "announcementId": "1225456008",
-              "announcementTitle": "2026年限制性股票激励计划（草案）摘要",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456008.PDF"
-            },
-            {
-              "announcementId": "1225456014",
-              "announcementTitle": "北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司2026年限制性股票激励计划（草案）的独立财务顾问报告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456014.PDF"
-            },
-            {
-              "announcementId": "1225456013",
-              "announcementTitle": "北京市金杜（广州）律师事务所关于上海科华生物工程股份有限公司2026年限制性股票激励计划的法律意见书",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456013.PDF"
-            },
-            {
-              "announcementId": "1225456012",
-              "announcementTitle": "董事会薪酬与考核委员会关于2026年限制性股票激励计划相关事项的核查意见",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456012.PDF"
-            }
-          ],
-          "title": "科华生物｜关注股权激励",
-          "whyImportant": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核；后续关注授予或归属条件、登记数量及费用影响。"
-        },
-        {
-          "announcementTitle": "上市公司股权激励计划自查表",
-          "body": "关注授予或归属条件、登记数量及费用影响。",
-          "business": {
-            "category": "激励与员工",
-            "contentImportance": "固定披露",
-            "priority": "focus",
-            "subcategory": "股权激励",
-            "targets": [
-              "董秘办",
-              "人力",
-              "财务",
-              "激励对象"
-            ]
-          },
-          "businessSubcategory": "股权激励",
-          "company": "科华生物",
-          "conclusion": "单个激励对象通过全部在有效期内的股权激励计划获授的公司股票累计是否超过公司股本总额 1%的说明是 （5）股权激励计划的有效期，股票期权的授权日或授权日的确定方式、可行权日、行权有效期和行权安排，限制性股票的授予日、限售期和解除限售锁定期安排等是 （6）限制性股票的授予价格、股票期权的行权价格及其确定方法；当前节点：方案审议。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
-            "keyFigures": [
-              "1%"
-            ],
-            "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
-            "passed": true,
-            "stage": "board_plan",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225456011"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "customerFact": "科华生物上市公司股权激励计划自查表；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-          "customerFollowUp": "关注授予或归属条件、登记数量及费用影响。",
-          "eventLabel": "股权激励",
-          "eventType": "equity_incentive",
-          "homepageEligible": false,
-          "impactAssessment": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "isReference": true,
-          "lifecycleId": "listed-lifecycle-0393d7e3d298c69210",
-          "lifecycleStage": "board_plan",
-          "lifecycleStatus": "active",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "股权激励",
-          "matter_id": "listed-matter-39fc23f21bf948",
-          "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
-          "planId": "2026年",
-          "previousStage": "",
-          "publishedAt": "2026-08-04",
-          "referenceAnchor": "listed-detail-3cb15cb407-595949e8",
-          "referenceMatterId": "listed-matter-39fc23f21bf948",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456011.PDF",
-          "sources": [
-            {
-              "announcementId": "1225456011",
-              "announcementTitle": "上市公司股权激励计划自查表",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456011.PDF"
-            }
-          ],
-          "title": "科华生物｜关注股权激励",
-          "whyImportant": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核；后续关注授予或归属条件、登记数量及费用影响。"
+          "whyImportant": "关注回购进度、成交区间及后续用途。"
         },
         {
           "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+          "attention": "关注回购进度、成交区间及后续用途。",
           "body": "关注回购进度、成交区间及后续用途。",
           "business": {
             "category": "资本运作",
-            "contentImportance": "内容重要",
+            "contentImportance": "重点跟踪",
             "priority": "focus",
             "subcategory": "股份回购",
             "targets": [
@@ -4302,7 +4040,7 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
-          "customerFact": "爱科赛博累计回购73.6338万股，占总股本0.6382%；当前节点：阶段进展。",
+          "customerFact": "爱科赛博累计回购73.6338万股，占总股本0.6382%。",
           "customerFollowUp": "关注回购进度、成交区间及后续用途。",
           "eventLabel": "股份回购",
           "eventType": "buyback",
@@ -4324,6 +4062,9 @@
           "publishedAt": "2026-08-04",
           "referenceAnchor": "listed-detail-aikesaibo",
           "referenceMatterId": "listed-matter-6f3fdc52607c3d",
+          "sourceAnnouncementIds": [
+            "1225453390"
+          ],
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
@@ -4336,24 +4077,28 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453390.PDF"
             }
           ],
+          "tag": "股份回购",
           "title": "爱科赛博｜关注股份回购",
-          "whyImportant": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断；后续关注回购进度、成交区间及后续用途。"
+          "whyImportant": "关注回购进度、成交区间及后续用途。"
         },
         {
-          "announcementTitle": "关于拟续聘会计师事务所的公告",
-          "body": "关注正式履职或整改、财务报表影响、审计意见及监管反馈。",
+          "announcementTitle": "关于回购公司股份的进展公告",
+          "attention": "关注回购进度、成交区间及后续用途。",
+          "body": "关注回购进度、成交区间及后续用途。",
           "business": {
-            "category": "综合事项",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "综合事项",
+            "category": "资本运作",
+            "contentImportance": "重点跟踪",
+            "priority": "focus",
+            "subcategory": "股份回购",
             "targets": [
-              "董秘办"
+              "董秘办",
+              "财务",
+              "投融资负责人"
             ]
           },
-          "businessSubcategory": "财务变更",
-          "company": "科华生物",
-          "conclusion": "（1）人员信息截至 2025 年 12 月 31 日，容诚会计师事务所共有合伙人 233 人，共有注册会计师 1,507 人，其中 856 人签署过证券服务业务审计报告。2026 年度年报审计费用为 140 万元（不含税），2026 年度内控审计费用为 30 万元（不含税），均较上期审计费用无变化；当前节点：实施完成。",
+          "businessSubcategory": "股份回购",
+          "company": "供销大集",
+          "conclusion": "供销大集累计回购7,299,200股，成交金额9,999,904元，成交区间1.37 元/股—1.37 元/股；当前节点：阶段进展。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -4367,69 +4112,161 @@
               "templateFree": true
             },
             "genericTitleRewrite": false,
-            "impact": "财务岗位、会计处理或审计结论发生实质变化，需评估对报表可靠性和内部控制的影响。",
+            "impact": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断。",
             "keyFigures": [
-              "2025 年",
-              "31 日",
-              "233 人",
-              "1,507 人",
-              "856 人",
-              "2026 年",
-              "140 万元",
-              "2026 年"
+              "7,299,200股",
+              "9,999,904元",
+              "1.37 元",
+              "1.37 元"
             ],
-            "nextObservation": "后续关注正式履职或整改、财务报表影响、审计意见及监管反馈。",
+            "nextObservation": "后续关注回购进度、成交区间及后续用途。",
             "passed": true,
-            "stage": "completed",
+            "stage": "progress",
             "stageEvidence": {
               "mode": "current_source_semantics",
               "sourceIds": [
-                "1225456019"
+                "1225455001"
               ]
             },
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
-          "customerFact": "科华生物拟续聘会计师事务所的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-          "customerFollowUp": "关注正式履职或整改、财务报表影响、审计意见及监管反馈。",
-          "eventLabel": "重大财务变更",
-          "eventType": "financial_change",
-          "homepageEligible": true,
-          "impactAssessment": "财务岗位、会计处理或审计结论发生实质变化，需评估对报表可靠性和内部控制的影响。",
+          "customerFact": "供销大集累计回购7,299,200股，成交金额9,999,904元，成交区间1.37 元/股—1.37 元/股。",
+          "customerFollowUp": "关注回购进度、成交区间及后续用途。",
+          "eventLabel": "股份回购",
+          "eventType": "buyback",
+          "homepageEligible": false,
+          "impactAssessment": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断。",
           "importance": "重点",
           "isNoChangeProgress": false,
           "isReference": true,
-          "lifecycleId": "listed-lifecycle-ed223b5c62964671fb",
-          "lifecycleStage": "completed",
-          "lifecycleStatus": "completed",
-          "mandatoryCustomerHighlight": true,
+          "lifecycleId": "listed-lifecycle-5229c6ce7c32de5672",
+          "lifecycleStage": "progress",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "重大财务变更",
-          "matter_id": "listed-matter-df5fc8805b12b5",
-          "nextObservation": "后续关注正式履职或整改、财务报表影响、审计意见及监管反馈。",
+          "matterType": "股份回购",
+          "matter_id": "listed-matter-3f77bb284ab6fc",
+          "nextObservation": "后续关注回购进度、成交区间及后续用途。",
           "planId": "2026年",
-          "previousStage": "",
+          "previousStage": "first_execution",
           "publishedAt": "2026-08-04",
-          "referenceAnchor": "listed-detail-3cb15cb407-7ecba0ac",
-          "referenceMatterId": "listed-matter-df5fc8805b12b5",
+          "referenceAnchor": "listed-detail-f70dd7228b-50036ea9",
+          "referenceMatterId": "listed-matter-3f77bb284ab6fc",
+          "sourceAnnouncementIds": [
+            "1225455001"
+          ],
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456019.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225455001.PDF",
           "sources": [
             {
-              "announcementId": "1225456019",
-              "announcementTitle": "关于拟续聘会计师事务所的公告",
+              "announcementId": "1225455001",
+              "announcementTitle": "关于回购公司股份的进展公告",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456019.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225455001.PDF"
             }
           ],
-          "title": "科华生物｜关注财务变更",
-          "whyImportant": "财务岗位、会计处理或审计结论发生实质变化，需评估对报表可靠性和内部控制的影响；后续关注正式履职或整改、财务报表影响、审计意见及监管反馈。"
+          "tag": "股份回购",
+          "title": "供销大集｜关注股份回购",
+          "whyImportant": "关注回购进度、成交区间及后续用途。"
+        },
+        {
+          "announcementTitle": "北方光电股份有限公司使用暂时闲置的募集资金进行现金管理到期赎回的公告",
+          "attention": "关注产品到期赎回、实际收益、未到期余额及授权额度。",
+          "body": "关注产品到期赎回、实际收益、未到期余额及授权额度。",
+          "business": {
+            "category": "资金与财务",
+            "contentImportance": "重点跟踪",
+            "priority": "focus",
+            "subcategory": "现金管理",
+            "targets": [
+              "财务负责人",
+              "资金部",
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "现金管理",
+          "company": "光电股份",
+          "conclusion": "公司控股子公司湖北新华光信息材料有限公司于 2026 年 2 月 2 日、2026 年 2 月 3 日分别购买了大额存单产品，现上述产品已到期赎回，累计取得收益 1,300,000 元。具体情况如下： 产品名称委托人名称产品金额 （万元） 起息日到期日年化收益率（%） 赎回金额 （万元） 本次收益 （元） 招商银行单位大额存单 2026 年第 1136；当前节点：到期赎回。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "资金购买、赎回与收益已经形成可核验现金流，需继续核对未到期余额和授权额度。",
+            "keyFigures": [
+              "2026 年",
+              "2 日",
+              "2026 年",
+              "3 日",
+              "1,300,000 元",
+              "2026 年"
+            ],
+            "nextObservation": "后续关注产品到期赎回、实际收益、未到期余额及授权额度。",
+            "passed": true,
+            "stage": "redeemed",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225453523"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "customerFact": "光电股份使用闲置资金进行现金管理的产品已到期赎回，累计取得收益1,300,000 元。",
+          "customerFollowUp": "关注产品到期赎回、实际收益、未到期余额及授权额度。",
+          "eventLabel": "现金管理",
+          "eventType": "cash_management",
+          "homepageEligible": false,
+          "impactAssessment": "资金购买、赎回与收益已经形成可核验现金流，需继续核对未到期余额和授权额度。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "isReference": true,
+          "lifecycleId": "listed-lifecycle-990557702acdeaf183",
+          "lifecycleStage": "redeemed",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "现金管理",
+          "matter_id": "listed-matter-2a9eb00d47a47d",
+          "nextObservation": "后续关注产品到期赎回、实际收益、未到期余额及授权额度。",
+          "planId": "现金管理",
+          "previousStage": "authorized",
+          "publishedAt": "2026-08-04",
+          "referenceAnchor": "listed-detail-51a0627115-6335aea1",
+          "referenceMatterId": "listed-matter-2a9eb00d47a47d",
+          "sourceAnnouncementIds": [
+            "1225453523"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453523.PDF",
+          "sources": [
+            {
+              "announcementId": "1225453523",
+              "announcementTitle": "北方光电股份有限公司使用暂时闲置的募集资金进行现金管理到期赎回的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453523.PDF"
+            }
+          ],
+          "tag": "现金管理",
+          "title": "光电股份｜关注现金管理",
+          "whyImportant": "关注产品到期赎回、实际收益、未到期余额及授权额度。"
         }
       ],
       "hkexOfficialReviewCompanyCount": 14,
-      "hkexPath": "v2/data/daily/listed/hkex-review-2026-08-04.json",
       "kpis": [
         {
           "clientLabel": "检索公告",
@@ -4484,29 +4321,13 @@
           "planId": "2026年限制性股票激励计划",
           "previousStage": "",
           "sourceAnnouncementIds": [
-            "1225456015",
-            "1225456010",
             "1225456009",
-            "1225456008",
+            "1225456015",
             "1225456014",
+            "1225456010",
+            "1225456008",
             "1225456013",
             "1225456012"
-          ],
-          "status": "active"
-        },
-        {
-          "company": "科华生物",
-          "currentStage": "board_plan",
-          "eventType": "equity_incentive",
-          "homepageEligible": false,
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lifecycleId": "listed-lifecycle-0393d7e3d298c69210",
-          "nodeStage": "board_plan",
-          "planId": "2026年",
-          "previousStage": "",
-          "sourceAnnouncementIds": [
-            "1225456011"
           ],
           "status": "active"
         },
@@ -4593,11 +4414,14 @@
       ],
       "matterIndex": [
         {
-          "announcementTitle": "2026年员工持股计划管理办法",
+          "_editorialEvidenceText": "上海科华生物工程股份有限公司 2026 年员工持股计划（草案） 2 风险提示 （一）本员工持股计划经公司股东会审议批准后方可实施，能否获得公司股东会批准，存在不确定性。（三）本员工持股计划认购资金不足的，存在不能成立或者低于预计规模的风险。\n上海科华生物工程股份有限公司 2026 年员工持股计划（草案）摘要 2 风险提示 （一）本员工持股计划经公司股东会审议批准后方可实施，能否获得公司股东会批准，存在不确定性。（三）本员工持股计划认购资金不足的，存在不能成立或者低于预计规模的风险。\n5. 本员工持股计划实施有利于健全激励与约束机制，充分调动员工积极性， 有利于公司持续发展，不存在损害公司及全体股东利益的情形。\n三、本员工持股计划实施有利于健全公司的激励与约束机制，充分调动员工的工作积极性与创造性，有利于公司的持续发展，不存在损害公司及全体股东利益的情形，不存在公司以摊派、强行分配等方式强制员工参与的情形。\n第三条本员工持股计划首次授予的参加对象均为公司（含子公司）核心员工， 不存在单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女参与。2. 本员工持股计划变更、终止，本员工持股计划另有约定除外；",
+          "_editorialEvidenceTitles": "2026年员工持股计划（草案）\n2026年员工持股计划（草案）摘要\n董事会关于2026年员工持股计划（草案）的合规性说明\n董事会薪酬与考核委员会关于2026年员工持股计划相关事项的核查意见\n2026年员工持股计划管理办法",
+          "announcementTitle": "2026年员工持股计划（草案）",
+          "attention": "关注授予或归属条件、登记数量及费用影响。",
           "baselineFacts": [],
-          "businessSubcategory": "担保",
+          "businessSubcategory": "股权激励",
           "company": "科华生物",
-          "conclusion": "（十）本员工持股计划首次受让的标的股票自公司公告完成首次受让标的股票过户之日起分批解锁，锁定期分别为 12 个月、24 个月、36 个月，解锁比例分别为 40%、30%、30%。公司在 2026 年 9 月 30 日（不含）之后召开董事会确定本员工持股计划预留份额认购对象的，自公司公告完成预留受让标的股票过户之日起分批解锁。",
+          "conclusion": "科华生物披露员工持股计划，首次受让标的股票锁定期12个月，首期解锁比例40%。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -4611,49 +4435,47 @@
               "templateFree": true
             },
             "genericTitleRewrite": false,
-            "impact": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
+            "impact": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
             "keyFigures": [
-              "12 个月",
-              "24 个月",
-              "36 个月",
-              "40%",
-              "30%",
-              "30%",
-              "2026 年",
-              "30 日"
+              "12个月",
+              "40%"
             ],
-            "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
+            "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
             "passed": true,
-            "stage": "担保授信",
+            "stage": "股权激励",
             "stageEvidence": {
               "mode": "structured_matter_type",
               "sourceIds": []
             },
             "standard": "v2-substantive-five-field"
           },
-          "impactAssessment": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
+          "customerFact": "科华生物披露员工持股计划，首次受让标的股票锁定期12个月。",
+          "customerFollowUp": "关注授予或归属条件、登记数量及费用影响。",
+          "impactAssessment": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
           "importance": "必看",
           "mainSection": "",
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "担保授信",
-          "matter_id": "listed-matter-bebaf12053716d",
-          "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
+          "matterType": "股权激励",
+          "matter_id": "listed-matter-8dd21a240bf015",
+          "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
           "publishedAt": "2026-08-04",
           "score": 38,
           "sourceAnnouncementIds": [
-            "1225456005",
+            "1225456003",
             "1225456004",
-            "1225456003"
+            "1225456007",
+            "1225456005",
+            "1225456006"
           ],
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456005.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456003.PDF",
           "sources": [
             {
-              "announcementId": "1225456005",
-              "announcementTitle": "2026年员工持股计划管理办法",
+              "announcementId": "1225456003",
+              "announcementTitle": "2026年员工持股计划（草案）",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456005.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456003.PDF"
             },
             {
               "announcementId": "1225456004",
@@ -4662,20 +4484,36 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456004.PDF"
             },
             {
-              "announcementId": "1225456003",
-              "announcementTitle": "2026年员工持股计划（草案）",
+              "announcementId": "1225456007",
+              "announcementTitle": "董事会关于2026年员工持股计划（草案）的合规性说明",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456003.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456007.PDF"
+            },
+            {
+              "announcementId": "1225456005",
+              "announcementTitle": "2026年员工持股计划管理办法",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456005.PDF"
+            },
+            {
+              "announcementId": "1225456006",
+              "announcementTitle": "董事会薪酬与考核委员会关于2026年员工持股计划相关事项的核查意见",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456006.PDF"
             }
           ],
-          "whyImportant": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险；后续关注实际提款、担保余额和偿债安排。"
+          "tag": "股权激励",
+          "whyImportant": "关注授予或归属条件、登记数量及费用影响。"
         },
         {
+          "_editorialEvidenceText": "1 证券代码：300103 证券简称：达刚控股公告编号：2026-50 达刚控股集团股份有限公司关于回购公司股份的进展公告达刚控股集团股份有限公司（以下简称“公司”）于 2025 年 12 月 30 日召开第六届董事会第十一次（临时）会议，审议通过了《关于回购公司股份方案的议案》，同意公司使用不低于人民币 2,000 万元（含）且不超过人民币 4,000 万元（含）自有资金及/或自筹资金通过深圳证券交易所交易系统以集中竞价交易方式回购部分公司股份，回购价。",
+          "_editorialEvidenceTitles": "关于回购公司股份的进展公告",
           "announcementTitle": "关于回购公司股份的进展公告",
+          "attention": "关注回购进度、成交区间及后续用途。",
           "baselineFacts": [],
           "businessSubcategory": "股份回购",
           "company": "达刚控股",
-          "conclusion": "2 方式累计回购公司股份数量为 2,515,000 股，占公司目前总股本的比例约为 0.792%，最高成交价为 9.51 元/股，最低成交价为 5.65 元/股；当前节点：首次实施。",
+          "conclusion": "达刚控股累计回购2,515,000股，成交区间5.65 元/股—9.51 元/股；当前节点：首次实施。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -4691,10 +4529,9 @@
             "genericTitleRewrite": false,
             "impact": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断。",
             "keyFigures": [
-              "2,515,000 股",
-              "0.792%",
-              "9.51 元",
-              "5.65 元"
+              "2,515,000股",
+              "5.65 元",
+              "9.51 元"
             ],
             "nextObservation": "后续关注回购进度、成交区间及后续用途。",
             "passed": true,
@@ -4708,6 +4545,8 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
+          "customerFact": "达刚控股累计回购2,515,000股，成交区间5.65 元/股—9.51 元/股。",
+          "customerFollowUp": "关注回购进度、成交区间及后续用途。",
           "eventLabel": "股份回购",
           "eventType": "buyback",
           "firstSeenAt": "2026-08-04",
@@ -4743,14 +4582,17 @@
             }
           ],
           "timelineLength": 1,
-          "whyImportant": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断；后续关注回购进度、成交区间及后续用途。"
+          "whyImportant": "关注回购进度、成交区间及后续用途。"
         },
         {
-          "announcementTitle": "关于<2026年限制性股票激励计划（草案）>及摘要的议案",
+          "_editorialEvidenceText": "1 上海科华生物工程股份有限公司 2026 年限制性股票激励计划考核管理办法上海科华生物工程股份有限公司（以下简称“公司”）为持续推进长期激励机制的建设，吸引和留住优秀人才，有效结合股东利益、公司利益和员工利益， 遵循收益与贡献对等的原则，推出 2026 年限制性股票激励计划（以下简称“本激励计划”）。首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女。\n金杜根据《公司法》、《证券法》等有关法律、法规和中国证监会有关规定的要求，按照律师行业公认的业务标准、道德规范和勤勉尽责精神，现出具法律意见如下： 一、 公司实施本次激励计划的条件 （一）经中国证监会 2004 年 6 月 8 日以《关于核准上海科华生物工程股份有限公司公开发行股票的通知》（证监发行字[2004]92 号）核准以及深圳证券交易所《关于上海科华生物工程股份有限公司人民币普通股股票上市的通知》（深证上[2004]67 号）同意，公司自 200。\n北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司 2026 年限制性股票激励计划（草案）的独立财务顾问报告二〇二六年八月北京博星证券投资顾问有限公司独立财务顾问报告 1 目录目录 .....................................................................................................................................。\n四、本激励计划首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女，符合《上市公司股权激励管理办法》第八条规定，不存在不得成为激励对象的下列情形： （一）最近 12 个月内被证券交易所认定为不适当人选；六、本激励计划的有效期为自限制性股票首次授予登记完成之日起至激励对象获授的限制性股票全部解除限售或回购注销之日止，最长不超过 60 个月。\n本议案已经董事会薪酬与考核委员会审议通过，尚需提交公司2026年第一次临时股东会以特别决议方式审议。本议案已经董事会薪酬与考核委员会审议通过，尚需提交公司2026年第一次临时股东会以特别决议方式审议。\n四、本激励计划首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女，符合《上市公司股权激励管理办法》第八条规定，不存在不得成为激励对象的下列情形： （一）最近 12 个月内被证券交易所认定为不适当人选；六、本激励计划的有效期为自限制性股票首次授予登记完成之日起至激励对象获授的限制性股票全部解除限售或回购注销之日止，最长不超过 60 个月。\n四、公司不存在向激励对象提供贷款、贷款担保或任何其他财务资助的计划或安排。五、本激励计划实施有利于激发员工的积极性、创造性与责任心，提高公司的可持续发展能力，促进公司发展战略和经营目标的实现，不存在损害公司及全体股东利益的情形。",
+          "_editorialEvidenceTitles": "2026年限制性股票激励计划考核管理办法\n北京市金杜（广州）律师事务所关于上海科华生物工程股份有限公司2026年限制性股票激励计划的法律意见书\n北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司2026年限制性股票激励计划（草案）的独立财务顾问报告\n2026年限制性股票激励计划（草案）摘要\n第十届董事会第二十二次会议决议公告\n2026年限制性股票激励计划（草案）\n董事会薪酬与考核委员会关于2026年限制性股票激励计划相关事项的核查意见",
+          "announcementTitle": "2026年限制性股票激励计划（草案）",
+          "attention": "关注授予或归属条件、登记数量及费用影响。",
           "baselineFacts": [],
           "businessSubcategory": "股权激励",
           "company": "科华生物",
-          "conclusion": "本激励计划首次授予限制性股票的解除限售安排如下： 解除限售安排解除限售期间解除限售比例 12 上海科华生物工程股份有限公司 2026 年限制性股票激励计划（草案） 第一个解除限售期自首次授予登记完成之日起 12 个月后的首个交易日起至首次授予登记完成之日起 24 个月内的最后一个交易日当日止 40% 第二个解除限售期自首次授予登记完成之日起 24 个月后。",
+          "conclusion": "科华生物披露限制性股票激励计划，首期解除限售比例40%；当前节点：方案审议。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -4766,11 +4608,7 @@
             "genericTitleRewrite": false,
             "impact": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
             "keyFigures": [
-              "2026 年",
-              "12 个月",
-              "24 个月",
-              "40%",
-              "24 个月"
+              "40%"
             ],
             "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
             "passed": true,
@@ -4792,6 +4630,8 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
+          "customerFact": "科华生物披露限制性股票激励计划，首期解除限售比例40%。",
+          "customerFollowUp": "关注授予或归属条件、登记数量及费用影响。",
           "eventLabel": "股权激励",
           "eventType": "equity_incentive",
           "firstSeenAt": "2026-08-04",
@@ -4814,22 +4654,34 @@
           "publishedAt": "2026-08-04",
           "score": 38,
           "sourceAnnouncementIds": [
-            "1225456015",
-            "1225456010",
             "1225456009",
-            "1225456008",
+            "1225456015",
             "1225456014",
+            "1225456010",
+            "1225456008",
             "1225456013",
             "1225456012"
           ],
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456015.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456009.PDF",
           "sources": [
+            {
+              "announcementId": "1225456009",
+              "announcementTitle": "2026年限制性股票激励计划（草案）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456009.PDF"
+            },
             {
               "announcementId": "1225456015",
               "announcementTitle": "关于<2026年限制性股票激励计划（草案）>及摘要的议案",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456015.PDF"
+            },
+            {
+              "announcementId": "1225456014",
+              "announcementTitle": "北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司2026年限制性股票激励计划（草案）的独立财务顾问报告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456014.PDF"
             },
             {
               "announcementId": "1225456010",
@@ -4838,22 +4690,10 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456010.PDF"
             },
             {
-              "announcementId": "1225456009",
-              "announcementTitle": "2026年限制性股票激励计划（草案）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456009.PDF"
-            },
-            {
               "announcementId": "1225456008",
               "announcementTitle": "2026年限制性股票激励计划（草案）摘要",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456008.PDF"
-            },
-            {
-              "announcementId": "1225456014",
-              "announcementTitle": "北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司2026年限制性股票激励计划（草案）的独立财务顾问报告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456014.PDF"
             },
             {
               "announcementId": "1225456013",
@@ -4869,82 +4709,13 @@
             }
           ],
           "timelineLength": 1,
-          "whyImportant": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核；后续关注授予或归属条件、登记数量及费用影响。"
+          "whyImportant": "关注授予或归属条件、登记数量及费用影响。"
         },
         {
-          "announcementTitle": "上市公司股权激励计划自查表",
-          "baselineFacts": [],
-          "businessSubcategory": "股权激励",
-          "company": "科华生物",
-          "conclusion": "单个激励对象通过全部在有效期内的股权激励计划获授的公司股票累计是否超过公司股本总额 1%的说明是 （5）股权激励计划的有效期，股票期权的授权日或授权日的确定方式、可行权日、行权有效期和行权安排，限制性股票的授予日、限售期和解除限售锁定期安排等是 （6）限制性股票的授予价格、股票期权的行权价格及其确定方法；当前节点：方案审议。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
-            "keyFigures": [
-              "1%"
-            ],
-            "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
-            "passed": true,
-            "stage": "board_plan",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225456011"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "eventLabel": "股权激励",
-          "eventType": "equity_incentive",
-          "firstSeenAt": "2026-08-04",
-          "homepageEligible": false,
-          "impactAssessment": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "lastSeenAt": "2026-08-04",
-          "lifecycleId": "listed-lifecycle-0393d7e3d298c69210",
-          "lifecycleStage": "board_plan",
-          "lifecycleStatus": "active",
-          "mainSection": "governance",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "股权激励",
-          "matter_id": "listed-matter-39fc23f21bf948",
-          "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
-          "planId": "2026年",
-          "previousStage": "",
-          "publishedAt": "2026-08-04",
-          "score": 21,
-          "sourceAnnouncementIds": [
-            "1225456011"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456011.PDF",
-          "sources": [
-            {
-              "announcementId": "1225456011",
-              "announcementTitle": "上市公司股权激励计划自查表",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456011.PDF"
-            }
-          ],
-          "timelineLength": 1,
-          "whyImportant": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核；后续关注授予或归属条件、登记数量及费用影响。"
-        },
-        {
+          "_editorialEvidenceText": "证券代码：688719 证券简称：爱科赛博公告编号：2026-040 西安爱科赛博电气股份有限公司关于 2026 年以集中竞价交易方式回购股份的进展公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示： 回购方案首次披露日 2026/7/23 回购方案实施期限 2026 年 7 月 22 日~2027 年 7 月 21 日预计回购金额 2,500.00万元~5,0。",
+          "_editorialEvidenceTitles": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
           "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
+          "attention": "关注回购进度、成交区间及后续用途。",
           "baselineFacts": [],
           "businessSubcategory": "股份回购",
           "company": "爱科赛博",
@@ -4978,6 +4749,8 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
+          "customerFact": "爱科赛博累计回购73.6338万股，占总股本0.6382%。",
+          "customerFollowUp": "关注回购进度、成交区间及后续用途。",
           "eventLabel": "股份回购",
           "eventType": "buyback",
           "firstSeenAt": "2026-07-23",
@@ -5013,10 +4786,13 @@
             }
           ],
           "timelineLength": 4,
-          "whyImportant": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断；后续关注回购进度、成交区间及后续用途。"
+          "whyImportant": "关注回购进度、成交区间及后续用途。"
         },
         {
+          "_editorialEvidenceText": "上海科华生物工程股份有限公司（以下简称“公司”）于 2026 年 8 月 3 日召开第十届董事会审计委员会第十六次会议、第十届董事会第二十二次会议，审议通过了《关于拟续聘会计师事务所的议案》，公司拟续聘容诚会计师事务所（特殊普通合伙）（以下简称“容诚会计师事务所”）为公司 2026 年度审计机构， 本议案尚需提交公司 2026 年第一次临时股东会审议。近三年在执业中相关民事诉讼承担民事责任的情况： 2023 年 9 月 21 日，北京金融法院就乐视网信息。",
+          "_editorialEvidenceTitles": "关于拟续聘会计师事务所的公告",
           "announcementTitle": "关于拟续聘会计师事务所的公告",
+          "attention": "关注正式履职或整改、财务报表影响、审计意见及监管反馈。",
           "baselineFacts": [],
           "businessSubcategory": "财务变更",
           "company": "科华生物",
@@ -5057,6 +4833,8 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
+          "customerFact": "科华生物拟续聘容诚会计师事务所为年度审计机构；年报审计费用140 万元、内控审计费用30 万元。",
+          "customerFollowUp": "关注正式履职或整改、财务报表影响、审计意见及监管反馈。",
           "eventLabel": "重大财务变更",
           "eventType": "financial_change",
           "firstSeenAt": "2026-08-04",
@@ -5092,10 +4870,13 @@
             }
           ],
           "timelineLength": 1,
-          "whyImportant": "财务岗位、会计处理或审计结论发生实质变化，需评估对报表可靠性和内部控制的影响；后续关注正式履职或整改、财务报表影响、审计意见及监管反馈。"
+          "whyImportant": "关注正式履职或整改、财务报表影响、审计意见及监管反馈。"
         },
         {
+          "_editorialEvidenceText": "股票代码：000564 股票简称：供销大集公告编号：2026-048 供销大集集团股份有限公司关于回购公司股份的进展公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、 误导性陈述或重大遗漏。供销大集集团股份有限公司（以下简称“公司”）于 2026 年 6 月 14 日召开第十一届董事会第二十二次会议，审议通过了《关于维护公司价值及股东权益进行股份回购的议案》，同意公司以集中竞价交易方式回购公司已发行的人民币普通股（A 股）股票。",
+          "_editorialEvidenceTitles": "关于回购公司股份的进展公告",
           "announcementTitle": "关于回购公司股份的进展公告",
+          "attention": "关注回购进度、成交区间及后续用途。",
           "baselineFacts": [],
           "businessSubcategory": "股份回购",
           "company": "供销大集",
@@ -5132,6 +4913,8 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
+          "customerFact": "供销大集累计回购7,299,200股，成交金额9,999,904元，成交区间1.37 元/股—1.37 元/股。",
+          "customerFollowUp": "关注回购进度、成交区间及后续用途。",
           "eventLabel": "股份回购",
           "eventType": "buyback",
           "firstSeenAt": "2026-07-29",
@@ -5167,10 +4950,13 @@
             }
           ],
           "timelineLength": 2,
-          "whyImportant": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断；后续关注回购进度、成交区间及后续用途。"
+          "whyImportant": "关注回购进度、成交区间及后续用途。"
         },
         {
+          "_editorialEvidenceText": "1 / 4 股票代码：002109 股票简称：ST 兴化编号：2026-040 陕西兴化化学股份有限公司关于公司股票交易被实施其他风险警示暨可能被实施退市风险警示相关事项的进展公告本公司及董事会全体成员保证信息披露内容的真实、准确和完整， 没有虚假记载、误导性陈述或重大遗漏。一、公司股票交易被实施其他风险警示暨可能被实施退市风险警示的相关情况陕西兴化化学股份有限公司（以下简称公司）2025年度被出具了否定意见的内部控制审计报告，触及《深圳证券交易所主板股。",
+          "_editorialEvidenceTitles": "关于公司股票交易被实施其他风险警示暨可能被实施退市风险警示相关事项的进展公告",
           "announcementTitle": "关于公司股票交易被实施其他风险警示暨可能被实施退市风险警示相关事项的进展公告",
+          "attention": "关注整改成效和风险警示撤销条件。",
           "baselineFacts": [],
           "businessSubcategory": "风险警示",
           "company": "兴化股份",
@@ -5203,6 +4989,8 @@
             },
             "standard": "v2-substantive-five-field"
           },
+          "customerFact": "兴化股份2025年度内控审计为否定意见，股票于2026年5月6日开市起被实施其他风险警示（ST）。",
+          "customerFollowUp": "关注整改成效和风险警示撤销条件。",
           "impactAssessment": "风险警示尚未解除，整改成效及下一年度内部控制审计意见将直接影响风险等级。",
           "importance": "重点",
           "mainSection": "",
@@ -5226,10 +5014,13 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453352.PDF"
             }
           ],
-          "whyImportant": "风险警示尚未解除，整改成效及下一年度内部控制审计意见将直接影响风险等级；后续关注整改完成证据、审计机构核验、风险警示撤销条件及下一年度内控审计意见。"
+          "whyImportant": "关注整改成效和风险警示撤销条件。"
         },
         {
+          "_editorialEvidenceText": "1 证券代码：600184 股票简称：光电股份编号：临 2026-32 北方光电股份有限公司关于使用暂时闲置的募集资金进行现金管理到期赎回的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示：  到期赎回现金管理产品：招商银行单位大额存单  到期赎回现金管理金额：收回本金合计人民币 20,000 万元  已履行的审议程序：北方光电股份有限公司（以下简称“公。",
+          "_editorialEvidenceTitles": "北方光电股份有限公司使用暂时闲置的募集资金进行现金管理到期赎回的公告",
           "announcementTitle": "北方光电股份有限公司使用暂时闲置的募集资金进行现金管理到期赎回的公告",
+          "attention": "关注产品到期赎回、实际收益、未到期余额及授权额度。",
           "baselineFacts": [],
           "businessSubcategory": "现金管理",
           "company": "光电股份",
@@ -5268,6 +5059,8 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
+          "customerFact": "光电股份使用闲置资金进行现金管理的产品已到期赎回，累计取得收益1,300,000 元。",
+          "customerFollowUp": "关注产品到期赎回、实际收益、未到期余额及授权额度。",
           "eventLabel": "现金管理",
           "eventType": "cash_management",
           "firstSeenAt": "2026-01-15",
@@ -5303,10 +5096,13 @@
             }
           ],
           "timelineLength": 9,
-          "whyImportant": "资金购买、赎回与收益已经形成可核验现金流，需继续核对未到期余额和授权额度；后续关注产品到期赎回、实际收益、未到期余额及授权额度。"
+          "whyImportant": "关注产品到期赎回、实际收益、未到期余额及授权额度。"
         },
         {
+          "_editorialEvidenceText": "1 证券代码：600379 证券简称：宝光股份公告编号：2026-019 陕西宝光真空电器股份有限公司关于公司董事、总经理辞职的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示： 陕西宝光真空电器股份有限公司（以下简称“公司”）董事会于 2026 年 8 月 3 日收到公司董事、总经理刘壮先生向董事会提交的书面《辞职报告》，刘壮先生由于工作变动原因，申请辞去公。",
+          "_editorialEvidenceTitles": "宝光股份关于公司董事、总经理辞职的公告",
           "announcementTitle": "宝光股份关于公司董事、总经理辞职的公告",
+          "attention": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
           "baselineFacts": [],
           "businessSubcategory": "治理变更",
           "company": "宝光股份",
@@ -5338,6 +5134,8 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
+          "customerFact": "宝光股份总经理刘壮因工作变动辞职。",
+          "customerFollowUp": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
           "eventLabel": "重大治理变更",
           "eventType": "governance_change",
           "firstSeenAt": "2026-04-11",
@@ -5373,111 +5171,17 @@
             }
           ],
           "timelineLength": 2,
-          "whyImportant": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性；后续关注人员履职、治理衔接、工商变更及控制权稳定性。"
-        }
-      ],
-      "opportunities": [
-        {
-          "announcementTitle": "关于回购公司股份的进展公告",
-          "body": "达刚控股回购公司股份的进展公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "股份回购",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "股份回购",
-          "company": "达刚控股",
-          "conclusion": "2 方式累计回购公司股份数量为 2,515,000 股，占公司目前总股本的比例约为 0.792%，最高成交价为 9.51 元/股，最低成交价为 5.65 元/股；当前节点：首次实施。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断。",
-            "keyFigures": [
-              "2,515,000 股",
-              "0.792%",
-              "9.51 元",
-              "5.65 元"
-            ],
-            "nextObservation": "后续关注回购进度、成交区间及后续用途。",
-            "passed": true,
-            "stage": "first_execution",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225453558"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "customerFact": "达刚控股回购公司股份的进展公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-          "customerFollowUp": "关注回购进度、成交区间及后续用途。",
-          "eventLabel": "股份回购",
-          "eventType": "buyback",
-          "homepageEligible": true,
-          "impactAssessment": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断。",
-          "importance": "必看",
-          "isNoChangeProgress": false,
-          "isReference": true,
-          "lifecycleId": "listed-lifecycle-0e378f3f6439895968",
-          "lifecycleStage": "first_execution",
-          "lifecycleStatus": "active",
-          "mandatoryCustomerHighlight": true,
-          "mandatoryRuleId": "",
-          "matterType": "股份回购",
-          "matter_id": "listed-matter-29b65def494840",
-          "nextObservation": "后续关注回购进度、成交区间及后续用途。",
-          "planId": "2025年",
-          "previousStage": "",
-          "publishedAt": "2026-08-04",
-          "referenceAnchor": "listed-detail-fc0b8f1caf-faa0f290",
-          "referenceMatterId": "listed-matter-29b65def494840",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453558.PDF",
-          "sources": [
-            {
-              "announcementId": "1225453558",
-              "announcementTitle": "关于回购公司股份的进展公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453558.PDF"
-            }
-          ],
-          "title": "必看｜达刚控股",
-          "whyImportant": "回购已进入实际执行或阶段更新，完成度应结合累计金额、股份比例和方案上下限判断；后续关注回购进度、成交区间及后续用途。"
+          "whyImportant": "关注人员履职、治理衔接、工商变更及控制权稳定性。"
         },
         {
-          "announcementTitle": "关于拟续聘会计师事务所的公告",
-          "body": "科华生物拟续聘会计师事务所的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-          "business": {
-            "category": "综合事项",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "综合事项",
-            "targets": [
-              "董秘办"
-            ]
-          },
-          "businessSubcategory": "财务变更",
-          "company": "科华生物",
-          "conclusion": "（1）人员信息截至 2025 年 12 月 31 日，容诚会计师事务所共有合伙人 233 人，共有注册会计师 1,507 人，其中 856 人签署过证券服务业务审计报告。2026 年度年报审计费用为 140 万元（不含税），2026 年度内控审计费用为 30 万元（不含税），均较上期审计费用无变化；当前节点：实施完成。",
+          "_editorialEvidenceText": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim a。",
+          "_editorialEvidenceTitles": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
+          "announcementTitle": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
+          "attention": "关注完整数据、安全性结果及后续临床开发安排。",
+          "baselineFacts": [],
+          "businessSubcategory": "创新药研发",
+          "company": "麦科医药-B",
+          "conclusion": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -5491,162 +5195,53 @@
               "templateFree": true
             },
             "genericTitleRewrite": false,
-            "impact": "财务岗位、会计处理或审计结论发生实质变化，需评估对报表可靠性和内部控制的影响。",
-            "keyFigures": [
-              "2025 年",
-              "31 日",
-              "233 人",
-              "1,507 人",
-              "856 人",
-              "2026 年",
-              "140 万元",
-              "2026 年"
-            ],
-            "nextObservation": "后续关注正式履职或整改、财务报表影响、审计意见及监管反馈。",
+            "impact": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+            "keyFigures": [],
+            "nextObservation": "后续关注完整数据、安全性结果及后续临床开发安排。",
             "passed": true,
-            "stage": "completed",
-            "stageEvidence": {
-              "mode": "current_source_semantics",
-              "sourceIds": [
-                "1225456019"
-              ]
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerDisposition": "daily",
-          "customerFact": "科华生物拟续聘会计师事务所的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-          "customerFollowUp": "关注正式履职或整改、财务报表影响、审计意见及监管反馈。",
-          "eventLabel": "重大财务变更",
-          "eventType": "financial_change",
-          "homepageEligible": true,
-          "impactAssessment": "财务岗位、会计处理或审计结论发生实质变化，需评估对报表可靠性和内部控制的影响。",
-          "importance": "重点",
-          "isNoChangeProgress": false,
-          "isReference": true,
-          "lifecycleId": "listed-lifecycle-ed223b5c62964671fb",
-          "lifecycleStage": "completed",
-          "lifecycleStatus": "completed",
-          "mandatoryCustomerHighlight": true,
-          "mandatoryRuleId": "",
-          "matterType": "重大财务变更",
-          "matter_id": "listed-matter-df5fc8805b12b5",
-          "nextObservation": "后续关注正式履职或整改、财务报表影响、审计意见及监管反馈。",
-          "planId": "2026年",
-          "previousStage": "",
-          "publishedAt": "2026-08-04",
-          "referenceAnchor": "listed-detail-3cb15cb407-7ecba0ac",
-          "referenceMatterId": "listed-matter-df5fc8805b12b5",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456019.PDF",
-          "sources": [
-            {
-              "announcementId": "1225456019",
-              "announcementTitle": "关于拟续聘会计师事务所的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456019.PDF"
-            }
-          ],
-          "title": "重点｜科华生物",
-          "whyImportant": "财务岗位、会计处理或审计结论发生实质变化，需评估对报表可靠性和内部控制的影响；后续关注正式履职或整改、财务报表影响、审计意见及监管反馈。"
-        },
-        {
-          "announcementTitle": "2026年员工持股计划管理办法",
-          "body": "科华生物2026年员工持股计划管理办法；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-          "business": {
-            "category": "资金与财务",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "担保",
-            "targets": [
-              "财务负责人",
-              "资金部",
-              "董秘办"
-            ]
-          },
-          "businessSubcategory": "担保",
-          "company": "科华生物",
-          "conclusion": "（十）本员工持股计划首次受让的标的股票自公司公告完成首次受让标的股票过户之日起分批解锁，锁定期分别为 12 个月、24 个月、36 个月，解锁比例分别为 40%、30%、30%。公司在 2026 年 9 月 30 日（不含）之后召开董事会确定本员工持股计划预留份额认购对象的，自公司公告完成预留受让标的股票过户之日起分批解锁。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
-            "keyFigures": [
-              "12 个月",
-              "24 个月",
-              "36 个月",
-              "40%",
-              "30%",
-              "30%",
-              "2026 年",
-              "30 日"
-            ],
-            "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
-            "passed": true,
-            "stage": "担保授信",
+            "stage": "临床进展",
             "stageEvidence": {
               "mode": "structured_matter_type",
               "sourceIds": []
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "科华生物2026年员工持股计划管理办法；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-          "customerFollowUp": "关注实际提款、担保余额和偿债安排。",
-          "impactAssessment": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
-          "importance": "必看",
-          "isReference": true,
+          "customerFact": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
+          "customerFollowUp": "关注完整数据、安全性结果及后续临床开发安排。",
+          "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+          "importance": "重点",
+          "mainSection": "",
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "担保授信",
-          "matter_id": "listed-matter-bebaf12053716d",
-          "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
-          "publishedAt": "2026-08-04",
-          "referenceAnchor": "listed-detail-3cb15cb407-f62e73b3",
-          "referenceMatterId": "listed-matter-bebaf12053716d",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
+          "matterType": "临床进展",
+          "matter_id": "listed-matter-670e3e860fd9e3",
+          "nextObservation": "后续关注完整数据、安全性结果及后续临床开发安排。",
+          "publishedAt": "2026-08-03",
+          "score": 9,
+          "sourceAnnouncementIds": [
+            "1225456445"
+          ],
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456005.PDF",
+          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304089.pdf",
           "sources": [
             {
-              "announcementId": "1225456005",
-              "announcementTitle": "2026年员工持股计划管理办法",
+              "announcementId": "1225456445",
+              "announcementTitle": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456005.PDF"
-            },
-            {
-              "announcementId": "1225456004",
-              "announcementTitle": "2026年员工持股计划（草案）摘要",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456004.PDF"
-            },
-            {
-              "announcementId": "1225456003",
-              "announcementTitle": "2026年员工持股计划（草案）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456003.PDF"
+              "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304089.pdf"
             }
           ],
-          "title": "必看｜科华生物",
-          "whyImportant": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险；后续关注实际提款、担保余额和偿债安排。"
-        },
+          "whyImportant": "关注完整数据、安全性结果及后续临床开发安排。"
+        }
+      ],
+      "opportunities": [
         {
-          "announcementTitle": "关于<2026年限制性股票激励计划（草案）>及摘要的议案",
-          "body": "科华生物及摘要的议案；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+          "announcementTitle": "2026年限制性股票激励计划（草案）",
+          "attention": "关注授予或归属条件、登记数量及费用影响。",
+          "body": "科华生物披露限制性股票激励计划，首期解除限售比例40%。",
           "business": {
             "category": "激励与员工",
-            "contentImportance": "固定披露",
+            "contentImportance": "重点",
             "priority": "focus",
             "subcategory": "股权激励",
             "targets": [
@@ -5658,7 +5253,7 @@
           },
           "businessSubcategory": "股权激励",
           "company": "科华生物",
-          "conclusion": "本激励计划首次授予限制性股票的解除限售安排如下： 解除限售安排解除限售期间解除限售比例 12 上海科华生物工程股份有限公司 2026 年限制性股票激励计划（草案） 第一个解除限售期自首次授予登记完成之日起 12 个月后的首个交易日起至首次授予登记完成之日起 24 个月内的最后一个交易日当日止 40% 第二个解除限售期自首次授予登记完成之日起 24 个月后。",
+          "conclusion": "科华生物披露限制性股票激励计划，首期解除限售比例40%；当前节点：方案审议。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -5674,11 +5269,7 @@
             "genericTitleRewrite": false,
             "impact": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核。",
             "keyFigures": [
-              "2026 年",
-              "12 个月",
-              "24 个月",
-              "40%",
-              "24 个月"
+              "40%"
             ],
             "nextObservation": "后续关注授予或归属条件、登记数量及费用影响。",
             "passed": true,
@@ -5700,7 +5291,7 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
-          "customerFact": "科华生物及摘要的议案；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+          "customerFact": "科华生物披露限制性股票激励计划，首期解除限售比例40%。",
           "customerFollowUp": "关注授予或归属条件、登记数量及费用影响。",
           "eventLabel": "股权激励",
           "eventType": "equity_incentive",
@@ -5722,16 +5313,37 @@
           "publishedAt": "2026-08-04",
           "referenceAnchor": "listed-detail-3cb15cb407-9dd6716b",
           "referenceMatterId": "listed-matter-c9027846673c8f",
+          "sourceAnnouncementIds": [
+            "1225456009",
+            "1225456015",
+            "1225456014",
+            "1225456010",
+            "1225456008",
+            "1225456013",
+            "1225456012"
+          ],
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456015.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456009.PDF",
           "sources": [
+            {
+              "announcementId": "1225456009",
+              "announcementTitle": "2026年限制性股票激励计划（草案）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456009.PDF"
+            },
             {
               "announcementId": "1225456015",
               "announcementTitle": "关于<2026年限制性股票激励计划（草案）>及摘要的议案",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456015.PDF"
+            },
+            {
+              "announcementId": "1225456014",
+              "announcementTitle": "北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司2026年限制性股票激励计划（草案）的独立财务顾问报告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456014.PDF"
             },
             {
               "announcementId": "1225456010",
@@ -5740,22 +5352,10 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456010.PDF"
             },
             {
-              "announcementId": "1225456009",
-              "announcementTitle": "2026年限制性股票激励计划（草案）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456009.PDF"
-            },
-            {
               "announcementId": "1225456008",
               "announcementTitle": "2026年限制性股票激励计划（草案）摘要",
               "sourceName": "巨潮资讯",
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456008.PDF"
-            },
-            {
-              "announcementId": "1225456014",
-              "announcementTitle": "北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司2026年限制性股票激励计划（草案）的独立财务顾问报告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456014.PDF"
             },
             {
               "announcementId": "1225456013",
@@ -5770,11 +5370,247 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456012.PDF"
             }
           ],
-          "title": "重点｜科华生物",
-          "whyImportant": "激励事项已出现可核验的授予、归属或作废结果，实际影响取决于股份来源、费用及后续考核；后续关注授予或归属条件、登记数量及费用影响。"
+          "title": "重点｜科华生物双激励方案",
+          "whyImportant": "关注授予或归属条件、登记数量及费用影响。"
+        },
+        {
+          "announcementTitle": "关于公司股票交易被实施其他风险警示暨可能被实施退市风险警示相关事项的进展公告",
+          "attention": "关注整改成效和风险警示撤销条件。",
+          "body": "兴化股份2025年度内控审计为否定意见，股票于2026年5月6日开市起被实施其他风险警示（ST）。",
+          "business": {
+            "category": "风险沟通",
+            "contentImportance": "重点",
+            "priority": "standard",
+            "subcategory": "风险警示",
+            "targets": [
+              "董秘",
+              "合规风控",
+              "控股股东",
+              "财务"
+            ]
+          },
+          "businessSubcategory": "风险警示",
+          "company": "兴化股份",
+          "conclusion": "兴化股份2025年度内控审计为否定意见，股票于2026年5月6日开市起被实施其他风险警示（ST）；将逐项消缺整改并每月至少披露一次整改进展和风险提示公告；若下一年度内控审计仍为否定或无法表示意见，可能被实施*ST。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "风险警示尚未解除，整改成效及下一年度内部控制审计意见将直接影响风险等级。",
+            "keyFigures": [
+              "2025年",
+              "2026年",
+              "6日"
+            ],
+            "nextObservation": "后续关注整改完成证据、审计机构核验、风险警示撤销条件及下一年度内控审计意见。",
+            "passed": true,
+            "stage": "风险警示",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerFact": "兴化股份2025年度内控审计为否定意见，股票于2026年5月6日开市起被实施其他风险警示（ST）。",
+          "customerFollowUp": "关注整改成效和风险警示撤销条件。",
+          "impactAssessment": "风险警示尚未解除，整改成效及下一年度内部控制审计意见将直接影响风险等级。",
+          "importance": "重点",
+          "isReference": true,
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "风险警示",
+          "matter_id": "listed-matter-5f0cfc22bc9c50",
+          "nextObservation": "后续关注整改完成证据、审计机构核验、风险警示撤销条件及下一年度内控审计意见。",
+          "publishedAt": "2026-08-04",
+          "referenceAnchor": "listed-detail-32ece285fe-36e8d7c8",
+          "referenceMatterId": "listed-matter-5f0cfc22bc9c50",
+          "sourceAnnouncementIds": [
+            "1225453352"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453352.PDF",
+          "sources": [
+            {
+              "announcementId": "1225453352",
+              "announcementTitle": "关于公司股票交易被实施其他风险警示暨可能被实施退市风险警示相关事项的进展公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453352.PDF"
+            }
+          ],
+          "title": "重点｜兴化股份",
+          "whyImportant": "关注整改成效和风险警示撤销条件。"
+        },
+        {
+          "announcementTitle": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
+          "attention": "关注完整数据、安全性结果及后续临床开发安排。",
+          "body": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
+          "business": {
+            "category": "综合事项",
+            "contentImportance": "重点",
+            "priority": "standard",
+            "subcategory": "综合事项",
+            "targets": [
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "创新药研发",
+          "company": "麦科医药-B",
+          "conclusion": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+            "keyFigures": [],
+            "nextObservation": "后续关注完整数据、安全性结果及后续临床开发安排。",
+            "passed": true,
+            "stage": "临床进展",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerFact": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
+          "customerFollowUp": "关注完整数据、安全性结果及后续临床开发安排。",
+          "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+          "importance": "重点",
+          "isReference": true,
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "临床进展",
+          "matter_id": "listed-matter-670e3e860fd9e3",
+          "nextObservation": "后续关注完整数据、安全性结果及后续临床开发安排。",
+          "publishedAt": "2026-08-03",
+          "referenceAnchor": "listed-detail-ee016264b1-87ff676c",
+          "referenceMatterId": "listed-matter-670e3e860fd9e3",
+          "sourceAnnouncementIds": [
+            "1225456445"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304089.pdf",
+          "sources": [
+            {
+              "announcementId": "1225456445",
+              "announcementTitle": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304089.pdf"
+            }
+          ],
+          "title": "重点｜麦科医药-B",
+          "whyImportant": "关注完整数据、安全性结果及后续临床开发安排。"
+        },
+        {
+          "announcementTitle": "宝光股份关于公司董事、总经理辞职的公告",
+          "attention": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "body": "宝光股份总经理刘壮因工作变动辞职。",
+          "business": {
+            "category": "综合事项",
+            "contentImportance": "重点",
+            "priority": "standard",
+            "subcategory": "综合事项",
+            "targets": [
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "治理变更",
+          "company": "宝光股份",
+          "conclusion": "宝光股份总经理刘壮因工作变动辞去非独立董事、总经理、董事会战略与 ESG 委员会委员、董事会提名委员会委员的职务；生效后不再担任公司任何职务；本次辞任不会导致董事会成员低于法定最低人数；公司将尽快完成新任董事补选并聘任总经理；当前节点：人员或制度变更。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
+            "keyFigures": [],
+            "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
+            "passed": true,
+            "stage": "changed",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225453553"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "customerFact": "宝光股份总经理刘壮因工作变动辞职。",
+          "customerFollowUp": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "eventLabel": "重大治理变更",
+          "eventType": "governance_change",
+          "homepageEligible": false,
+          "impactAssessment": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "isReference": true,
+          "lifecycleId": "listed-lifecycle-486b466d85fb8ba8d8",
+          "lifecycleStage": "changed",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "重大治理变更",
+          "matter_id": "listed-matter-2d4d84ff276e3c",
+          "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "planId": "2026年",
+          "previousStage": "progress",
+          "publishedAt": "2026-08-04",
+          "referenceAnchor": "listed-detail-75d1a12d3e-161c2027",
+          "referenceMatterId": "listed-matter-2d4d84ff276e3c",
+          "sourceAnnouncementIds": [
+            "1225453553"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453553.PDF",
+          "sources": [
+            {
+              "announcementId": "1225453553",
+              "announcementTitle": "宝光股份关于公司董事、总经理辞职的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225453553.PDF"
+            }
+          ],
+          "title": "重点｜宝光股份",
+          "whyImportant": "关注人员履职、治理衔接、工商变更及控制权稳定性。"
         }
       ],
-      "rawPath": "v2/data/daily/listed/cninfo-announcements-2026-08-04.json",
+      "quarantineEvidence": {
+        "count": 4,
+        "path": "v2/data/daily/listed/editorial-quarantine-2026-08-04-midday.json",
+        "sha256": "9cd18cbbee227907c8bbb9763d579f046ad97fcf3aa5aa11ea481f38ecc225ee"
+      },
       "rejectedCandidates": [
         {
           "announcementId": "1225456018",
@@ -5819,96 +5655,8 @@
       ],
       "risk_rows": [
         {
-          "announcementTitle": "2026年员工持股计划管理办法",
-          "business": {
-            "category": "资金与财务",
-            "contentImportance": "内容重要",
-            "priority": "standard",
-            "subcategory": "担保",
-            "targets": [
-              "财务负责人",
-              "资金部",
-              "董秘办"
-            ]
-          },
-          "businessSubcategory": "担保",
-          "canonicalDetailId": "listed-detail-3cb15cb407-f62e73b3",
-          "company": "科华生物",
-          "conclusion": "（十）本员工持股计划首次受让的标的股票自公司公告完成首次受让标的股票过户之日起分批解锁，锁定期分别为 12 个月、24 个月、36 个月，解锁比例分别为 40%、30%、30%。公司在 2026 年 9 月 30 日（不含）之后召开董事会确定本员工持股计划预留份额认购对象的，自公司公告完成预留受让标的股票过户之日起分批解锁。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
-            "keyFigures": [
-              "12 个月",
-              "24 个月",
-              "36 个月",
-              "40%",
-              "30%",
-              "30%",
-              "2026 年",
-              "30 日"
-            ],
-            "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
-            "passed": true,
-            "stage": "担保授信",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerFact": "科华生物2026年员工持股计划管理办法；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-          "customerFollowUp": "关注实际提款、担保余额和偿债安排。",
-          "event": "科华生物2026年员工持股计划管理办法；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
-          "impactAssessment": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
-          "importance": "必看",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "担保授信",
-          "matter_id": "listed-matter-bebaf12053716d",
-          "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
-          "publishedAt": "2026-08-04",
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456005.PDF",
-          "sources": [
-            {
-              "announcementId": "1225456005",
-              "announcementTitle": "2026年员工持股计划管理办法",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456005.PDF"
-            },
-            {
-              "announcementId": "1225456004",
-              "announcementTitle": "2026年员工持股计划（草案）摘要",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456004.PDF"
-            },
-            {
-              "announcementId": "1225456003",
-              "announcementTitle": "2026年员工持股计划（草案）",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456003.PDF"
-            }
-          ],
-          "tag": "担保",
-          "tagClass": "risk",
-          "whyImportant": "关注实际提款、担保余额和偿债安排。"
-        },
-        {
           "announcementTitle": "关于拟续聘会计师事务所的公告",
+          "attention": "关注正式履职或整改、财务报表影响、审计意见及监管反馈。",
           "business": {
             "category": "综合事项",
             "contentImportance": "内容重要",
@@ -5958,9 +5706,9 @@
             "standard": "v2-substantive-five-field"
           },
           "customerDisposition": "daily",
-          "customerFact": "科华生物拟续聘会计师事务所的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+          "customerFact": "科华生物拟续聘容诚会计师事务所为年度审计机构；年报审计费用140 万元、内控审计费用30 万元。",
           "customerFollowUp": "关注正式履职或整改、财务报表影响、审计意见及监管反馈。",
-          "event": "科华生物拟续聘会计师事务所的公告；原始公告正文关键信息待核验，暂不作阶段或数字判断。",
+          "event": "科华生物拟续聘容诚会计师事务所为年度审计机构；年报审计费用140 万元、内控审计费用30 万元。",
           "eventLabel": "重大财务变更",
           "eventType": "financial_change",
           "homepageEligible": true,
@@ -5978,6 +5726,9 @@
           "planId": "2026年",
           "previousStage": "",
           "publishedAt": "2026-08-04",
+          "sourceAnnouncementIds": [
+            "1225456019"
+          ],
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
@@ -5996,6 +5747,7 @@
         },
         {
           "announcementTitle": "关于公司股票交易被实施其他风险警示暨可能被实施退市风险警示相关事项的进展公告",
+          "attention": "关注整改成效和风险警示撤销条件。",
           "business": {
             "category": "风险沟通",
             "contentImportance": "内容重要",
@@ -6040,9 +5792,9 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "兴化股份2025年度内控审计为否定意见，股票于2026年5月6日开市起被实施其他风险警示（ST）；将逐项消缺整改并每月至少披露一次整改进展和风险提示公告。",
+          "customerFact": "兴化股份2025年度内控审计为否定意见，股票于2026年5月6日开市起被实施其他风险警示（ST）。",
           "customerFollowUp": "关注整改成效和风险警示撤销条件。",
-          "event": "兴化股份2025年度内控审计为否定意见，股票于2026年5月6日开市起被实施其他风险警示（ST）；将逐项消缺整改并每月至少披露一次整改进展和风险提示公告。",
+          "event": "兴化股份2025年度内控审计为否定意见，股票于2026年5月6日开市起被实施其他风险警示（ST）。",
           "impactAssessment": "风险警示尚未解除，整改成效及下一年度内部控制审计意见将直接影响风险等级。",
           "importance": "重点",
           "mandatoryCustomerHighlight": false,
@@ -6051,6 +5803,9 @@
           "matter_id": "listed-matter-5f0cfc22bc9c50",
           "nextObservation": "后续关注整改完成证据、审计机构核验、风险警示撤销条件及下一年度内控审计意见。",
           "publishedAt": "2026-08-04",
+          "sourceAnnouncementIds": [
+            "1225453352"
+          ],
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
@@ -6335,13 +6090,13 @@
           "kind": "dynamic",
           "lifecycleCandidate": {
             "businessSubcategory": "股权激励",
-            "customerDisposition": "daily",
+            "customerDisposition": "evidence_only",
             "eventLabel": "股权激励",
             "eventType": "equity_incentive",
             "homepageEligible": false,
             "importance": "重点",
             "isNoChangeProgress": false,
-            "isSupportingEvidence": false,
+            "isSupportingEvidence": true,
             "lifecycleId": "listed-lifecycle-0393d7e3d298c69210",
             "mainSection": "governance",
             "planId": "2026年",
@@ -7159,7 +6914,77 @@
       ],
       "subtitle": "2026-08-04｜逐主体检索110家正式观察池，34条公告、16家发布公告公司",
       "template": "v2-listed-v1-editorial",
-      "tiles": []
+      "tiles": [
+        {
+          "announcementTitle": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
+          "attention": "关注完整数据、安全性结果及后续临床开发安排。",
+          "body": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
+          "business": {
+            "category": "综合事项",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "综合事项",
+            "targets": [
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "创新药研发",
+          "canonicalDetailId": "listed-detail-ee016264b1-87ff676c",
+          "company": "麦科医药-B",
+          "conclusion": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+            "keyFigures": [],
+            "nextObservation": "后续关注完整数据、安全性结果及后续临床开发安排。",
+            "passed": true,
+            "stage": "临床进展",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerFact": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
+          "customerFollowUp": "关注完整数据、安全性结果及后续临床开发安排。",
+          "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
+          "importance": "重点",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "临床进展",
+          "matter_id": "listed-matter-670e3e860fd9e3",
+          "nextObservation": "后续关注完整数据、安全性结果及后续临床开发安排。",
+          "publishedAt": "2026-08-03",
+          "sourceAnnouncementIds": [
+            "1225456445"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304089.pdf",
+          "sources": [
+            {
+              "announcementId": "1225456445",
+              "announcementTitle": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304089.pdf"
+            }
+          ],
+          "title": "麦科医药-B｜临床进展",
+          "whyImportant": "关注完整数据、安全性结果及后续临床开发安排。"
+        }
+      ]
     },
     "entities": [
       {
@@ -8413,23 +8238,6 @@
     ],
     "focusCompanies": [
       {
-        "anchorId": "listed-detail-3cb15cb407-f62e73b3",
-        "business": {
-          "category": "资金与财务",
-          "contentImportance": "内容重要",
-          "priority": "standard",
-          "subcategory": "担保",
-          "targets": [
-            "财务负责人",
-            "资金部",
-            "董秘办"
-          ]
-        },
-        "company": "科华生物",
-        "followText": "关注实际提款、担保余额和偿债安排。",
-        "sourceSection": "section-02"
-      },
-      {
         "anchorId": "listed-detail-fc0b8f1caf-faa0f290",
         "business": {
           "category": "资本运作",
@@ -8462,6 +8270,40 @@
         "company": "爱科赛博",
         "followText": "关注回购进度、成交区间及后续用途。",
         "sourceSection": "section-04"
+      },
+      {
+        "anchorId": "listed-detail-f70dd7228b-50036ea9",
+        "business": {
+          "category": "资本运作",
+          "contentImportance": "内容重要",
+          "priority": "focus",
+          "subcategory": "股份回购",
+          "targets": [
+            "董秘办",
+            "财务",
+            "投融资负责人"
+          ]
+        },
+        "company": "供销大集",
+        "followText": "关注回购进度、成交区间及后续用途。",
+        "sourceSection": "section-04"
+      },
+      {
+        "anchorId": "listed-detail-51a0627115-6335aea1",
+        "business": {
+          "category": "资金与财务",
+          "contentImportance": "内容重要",
+          "priority": "focus",
+          "subcategory": "现金管理",
+          "targets": [
+            "财务负责人",
+            "资金部",
+            "董秘办"
+          ]
+        },
+        "company": "光电股份",
+        "followText": "关注产品到期赎回、实际收益、未到期余额及授权额度。",
+        "sourceSection": "section-04"
       }
     ],
     "isAsOfFallback": false,
@@ -8469,8 +8311,8 @@
     "pageDate": "2026-08-04",
     "sourceAsOf": "2026-08-04",
     "sourceCoverage": {
-      "linked": 20,
-      "total": 20,
+      "linked": 18,
+      "total": 18,
       "unmatched": []
     }
   },
@@ -23379,21 +23221,22 @@
         "evidence": [
           "v2/data/daily/listed/cninfo-announcements-2026-08-04.json",
           "v2/data/daily/listed/hkex-review-2026-08-04.json",
-          "v2/data/daily/listed/listed-official-2026-08-04.json"
+          "v2/data/daily/listed/listed-official-2026-08-04.json",
+          "v2/data/daily/listed/editorial-quarantine-2026-08-04-midday.json",
+          "v2/data/daily/listed/editorial-evidence/2026-08-04/midday-dadf0fb0bed83ef0.json.gz"
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "listed_primary_verified_34_announcements",
+        "result": "listed_verified_bundle_evidence",
         "scanAsOf": "2026-08-04",
         "status": "completed"
       },
       "ma": {
-        "evidence": [
-          "v2/data/source/ma/scans/scan-2026-08-04-morning.json"
-        ],
+        "failureReasons": [],
         "ready": true,
+        "receipt": "v2/data/source/ma/scans/scan-2026-08-04-midday.json",
         "releaseEligible": false,
-        "result": "ma_completed_event_on_scan_date_false",
+        "result": "ma_verified_bundle_receipt",
         "scanAsOf": "2026-08-04",
         "status": "no_new"
       },
@@ -23405,27 +23248,27 @@
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "private_daily_verified_observation_pool_92_new_products_0",
+        "result": "private_verified_bundle_evidence",
         "scanAsOf": "2026-08-04",
-        "status": "no_new"
+        "status": "completed"
       },
       "soe": {
-        "evidence": [
-          "v2/data/source/soe/scans/scan-2026-08-04-morning.json"
-        ],
+        "failureReasons": [],
         "ready": true,
+        "receipt": "v2/data/source/soe/scans/scan-2026-08-04-midday.json",
         "releaseEligible": false,
-        "result": "soe_completed_event_on_scan_date_false",
+        "result": "soe_verified_bundle_receipt",
         "scanAsOf": "2026-08-04",
         "status": "no_new"
       },
       "tender": {
-        "evidence": [
-          "v2/data/source/tender/scans/scan-2026-08-04-morning.json"
+        "failureReasons": [
+          "tender-sx-government-procurement:补充来源受限，已由完整必需来源覆盖"
         ],
         "ready": true,
+        "receipt": "v2/data/source/tender/scans/scan-2026-08-04-midday.json",
         "releaseEligible": true,
-        "result": "tender_degraded_event_on_scan_date_false",
+        "result": "tender_verified_bundle_receipt",
         "scanAsOf": "2026-08-04",
         "status": "degraded"
       }
@@ -23434,10 +23277,10 @@
     "failures": [],
     "qualityContract": {
       "path": "v2/config/production-quality-contract.json",
-      "sha256": "89d1faf58c06bc725a37c19d0b5527ae33cdab27be1f5deb6b084c3f9f944d84",
+      "sha256": "9e936530dc510f05e5db332b985a22b14f6fae7fa85112b08197f0cd4289dda7",
       "standard": "v1-source-and-editorial-quality"
     },
-    "slot": "morning",
+    "slot": "midday",
     "sourceConstraints": [
       {
         "channel": "tender",
@@ -23457,7 +23300,7 @@
     "year": "eventDate 所在自然年；仅展示结构化源中真实存在的年份"
   },
   "scanAsOf": "2026-08-04",
-  "scanSlot": "morning",
+  "scanSlot": "midday",
   "schemaVersion": "2.2",
   "soe": {
     "available": true,
@@ -23941,8 +23784,8 @@
     "recordCount": 98,
     "rejectedCandidateCount": 0,
     "scanAsOf": "2026-08-04",
-    "scanEvidence": "v2/data/source/soe/scans/scan-2026-08-04-morning.json",
-    "scanSlot": "morning",
+    "scanEvidence": "v2/data/source/soe/scans/scan-2026-08-04-midday.json",
+    "scanSlot": "midday",
     "scanStatus": "completed",
     "sourceAsOf": "2026-07-31",
     "summary": {
@@ -23954,7 +23797,7 @@
     }
   },
   "sourceAsOf": {
-    "equity": "2026-08-04",
+    "equity": "2026-08-03",
     "listed": "2026-08-04",
     "ma": "2026-07-28",
     "privateProducts": "2026-08-04",
@@ -23971,14 +23814,14 @@
       "channel-tender.webp": "v2/assets/channel-tender.webp"
     },
     "equityEvents": "v2/data/source/equity/events-2026.json",
-    "equityScanEvidence": "v2/data/source/equity/scans/scan-2026-08-04-morning.json",
+    "equityScanEvidence": "v2/data/source/equity/scans/scan-2026-08-03-midday.json",
     "equityUniverse": "v2/data/source/equity/universe.json",
     "eventStore": "v2/data/source/events/unified-2026.json",
     "listedBusinessTaxonomy": "v2/data/source/listed/business-taxonomy.json",
     "listedDaily": "v2/data/daily/listed/listed-official-2026-08-04.json",
     "listedUniverse": "v2/data/source/listed/universe.json",
     "maAnnual": "v2/data/source/ma/events-2026.json",
-    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-08-04-morning.json",
+    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-08-04-midday.json",
     "observationPool": "v2/data/source/observation-pool.json",
     "privateAnnual": "v2/data/source/private/products-2026.json",
     "privateProductEvidence": [
@@ -23988,10 +23831,10 @@
     ],
     "privateUniverse": "v2/data/daily/private/security-private-fund-daily-2026-08-04.json + v2/data/source/private/universe.json",
     "soeAnnual": "v2/data/source/soe/events-2026.json",
-    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-08-04-morning.json",
+    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-08-04-midday.json",
     "sourceContract": "v2/config/source-contract.json",
     "tenderAnnualProjects": "v2/data/source/tender/events-2026.json",
-    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-08-04-morning.json",
+    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-08-04-midday.json",
     "v1HistoryIndex": "v2/data/source/v1-history-index.json"
   },
   "tender": {
