@@ -1,32 +1,38 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-04T08:58:58+08:00",
+  "updatedAt": "2026-08-04T13:25:06+08:00",
   "channels": {
     "listed": [
       {
         "date": "2026-08-04",
         "channel": "listed",
         "label": "上市公司",
-        "fileName": "2026年8月4日V2陕西上市公司早报.png",
-        "publicPath": "archive/daily/listed/2026/2026年8月4日V2陕西上市公司早报.png",
-        "sourceBuildVersion": "6632689dccd8",
-        "snapshotPath": "v2/data/releases/2026-08-04/morning-production-data.json.gz",
-        "snapshotSha256": "68b261ae3c018a4b293d1d5c110616b6b266f4e3e9cc7c79f671a3045c7c9b1a",
-        "sha256": "d1e2411b861df027036ec4b1ae5a5e678e67a609de4880ea95979165a3e8ad14",
+        "fileName": "2026年8月4日V2陕西上市公司早报（修订版）.png",
+        "publicPath": "archive/daily/listed/2026/2026年8月4日V2陕西上市公司早报（修订版）.png",
+        "sourceBuildVersion": "0f7a0d3f091e",
+        "snapshotPath": "v2/data/releases/2026-08-04/correction-0f7a0d3f091e-production-data.json.gz",
+        "snapshotSha256": "b05c9f0051e358853a800edb70ef6f6e950f195f3a56c7dfaef225c065db4227",
+        "sha256": "e1700ec245602c9c8f15e2181bf42c21de0b76af24a062c778eb568337bb1ad5",
         "origin": "v2",
         "imageTemplate": "v1-structure-listed",
         "detailLimit": null,
         "dimensions": {
           "width": 1242,
-          "height": 1529
+          "height": 1547
         },
-        "webStatus": "published",
+        "webStatus": "staged",
         "ima": {
-          "status": "completed",
-          "uploadedAt": "2026-08-04T08:58:31+08:00",
-          "verification": "exact_file_name"
+          "status": "pending"
         },
-        "updatedAt": "2026-08-04T08:57:41+08:00"
+        "correction": {
+          "revision": 2,
+          "reason": "修复上市公司重点事项合并、实质摘要及科华生物激励比例，重发同日上市公司日图；其余未变化日图沿用已发布归档",
+          "correctedAt": "2026-08-04T13:25:06+08:00",
+          "supersedesSha256": "d1e2411b861df027036ec4b1ae5a5e678e67a609de4880ea95979165a3e8ad14",
+          "supersedesPublicPath": "archive/daily/listed/2026/2026年8月4日V2陕西上市公司早报.png",
+          "supersedesBuildVersion": "6632689dccd8"
+        },
+        "updatedAt": "2026-08-04T13:25:06+08:00"
       },
       {
         "date": "2026-08-03",
