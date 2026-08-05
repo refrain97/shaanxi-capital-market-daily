@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-05",
   "build": {
     "inputs": [
       {
@@ -39,36 +39,48 @@
         "sha256": "766ee1ca1e50d5568800389a2227876f664480a59c1815053c83bfa61577b475"
       },
       {
-        "path": "v2/data/daily/listed/cninfo-announcements-2026-08-04.json",
-        "sha256": "3b68fd975b7d84da94d1894a3fe3ec9df4b24ad5ff27b4bd7e32e30104d09fcc"
+        "path": "v2/data/daily/listed/cninfo-announcements-2026-08-05.json",
+        "sha256": "7deceb43950f33f94cafe1c7fbd1b82fec43de7983dc15039eec5437f57b3964"
       },
       {
-        "path": "v2/data/daily/listed/listed-official-2026-08-04.json",
-        "sha256": "9354a7a3ba17b3556519daa3ef5b0f6751f927ecbeec00985a3e9822e10cf12d"
+        "path": "v2/data/daily/listed/listed-official-2026-08-05.json",
+        "sha256": "917e6d18a4371cbfe1b26edb6a34a01b44a95629b5fb3cf8c17d6e1984156b54"
       },
       {
-        "path": "v2/data/daily/private/security-private-fund-daily-2026-08-04.json",
-        "sha256": "262d7bc4f6f020d160019bdd6b0c2c1f71eef42b5c495d2e84dab89993f68b87"
+        "path": "v2/data/daily/private/security-private-fund-daily-2026-08-05.json",
+        "sha256": "31eae88910f45cd01c1bb82ebf11bba024bc182fc90a1ab9adf31eabd081cd65"
       },
       {
-        "path": "v2/data/readiness/v2-ready-2026-08-04-evening.json",
-        "sha256": "8f4bdf1efa1db173b632fa8751aae8729766583905db45c8763640ee180685c7"
+        "path": "v2/data/readiness/v2-ready-2026-08-05-morning.json",
+        "sha256": "4405bb5bd12a002d4b8a5b13fceab53d5856e0ecbf24b9fdbc292d4e6bd172dd"
       },
       {
         "path": "v2/data/source/equity/events-2026.json",
         "sha256": "9f183472f97bcd97ac57fe6cec939e145a9e453ea9de7b85117ba666df67030f"
       },
       {
-        "path": "v2/data/source/equity/scans/scan-2026-08-04-evening.json",
-        "sha256": "a9343b6bca2cda8f000ee4325159da4639ce3bd70edfbd31005bfbf194c3ad07"
+        "path": "v2/data/source/equity/scans/scan-2026-07-31-morning.json",
+        "sha256": "b3147f0cb1b681d4d93eb817700e79fc7023a79528e2e3128ca8fc4f966cc5bf"
+      },
+      {
+        "path": "v2/data/source/equity/scans/scan-2026-08-03-morning.json",
+        "sha256": "e459dd503a78fd092e603edfdfcd70ed3db08c5ed07b606d6e8a42f4cb12e5b8"
+      },
+      {
+        "path": "v2/data/source/equity/scans/scan-2026-08-04-morning.json",
+        "sha256": "4daa4929ba9394f95613f26105d0784f05386aed68fd3108a46f91bcae329c25"
+      },
+      {
+        "path": "v2/data/source/equity/scans/scan-2026-08-05-morning.json",
+        "sha256": "8f96be6f2c4594ef85c3dab8720e076033575b07d011b6df73f6d2d10f36d362"
       },
       {
         "path": "v2/data/source/equity/universe.json",
-        "sha256": "f51d6167eb84d1de3a40d2d4bef8d169fd478507e7df2a2fd247893c34a0463b"
+        "sha256": "1943c4c7f0cadbee07103e64badd4d30ef03e8a003ac7f285c7399ae9ff077a4"
       },
       {
         "path": "v2/data/source/events/unified-2026.json",
-        "sha256": "3fdaec28b8526580f557f1595e765ef2119d9d192c9c453c2e6c2533985606dd"
+        "sha256": "2806c791fdf060e161aadee4c1ab7a59530f18eadbc01e73849de134a8a3917d"
       },
       {
         "path": "v2/data/source/listed/business-taxonomy.json",
@@ -83,12 +95,12 @@
         "sha256": "db41a0782237483409087b4a475da0c950cd0b013118b8b62d603129625a21cb"
       },
       {
-        "path": "v2/data/source/ma/scans/scan-2026-08-04-evening.json",
-        "sha256": "bea64d711029ff33cf571e5c50910e7e605f4014d3d2b9d5b41f73dc497f68ce"
+        "path": "v2/data/source/ma/scans/scan-2026-08-05-morning.json",
+        "sha256": "389a1d130de092511c112753ac0b832becc352e5c28d3076f1b828a4a125a4ff"
       },
       {
         "path": "v2/data/source/observation-pool.json",
-        "sha256": "31173e168dcb7af3d056a44042024abd3d1859ca9e73b3fa765ef4b3bc22918e"
+        "sha256": "0da46b4835eec8173bbbb28f8bc4c086e789b289251891348b082d6a243ddc94"
       },
       {
         "path": "v2/data/source/private/products-2026.json",
@@ -100,23 +112,23 @@
       },
       {
         "path": "v2/data/source/soe/events-2026.json",
-        "sha256": "8135ede9797df8b6184c24358c35ddab89a8b77078e062616fa7baf5e23fd5a6"
+        "sha256": "d2f8fe2a610c8c6eb22cda3cc458dc65e60cc6b5264d5c73c4c3d766e8665f14"
       },
       {
-        "path": "v2/data/source/soe/evidence/verified-2026-08-04-evening.json",
-        "sha256": "4239b03701d57874fadda751c7bdacc746d5b7cebafa50fd774e448e584af496"
+        "path": "v2/data/source/soe/evidence/verified-2026-08-05-morning.json",
+        "sha256": "19d4c3c0aa59319e4ab299bf65395e98d15f58e9eb2266626107b93cc819738d"
       },
       {
-        "path": "v2/data/source/soe/scans/scan-2026-08-04-evening.json",
-        "sha256": "bf6df1e4f4ebf4b0caa1af44317e23f42637e1503319339b6ade7fd9c8ed8138"
+        "path": "v2/data/source/soe/scans/scan-2026-08-05-morning.json",
+        "sha256": "dcc36bf696c4ab2014424763cef975ac929c59c72a156be180df449a7c39e633"
       },
       {
         "path": "v2/data/source/tender/events-2026.json",
         "sha256": "565ab4b7d84b3a1e583fa2938700f7000dec669595a19573e5d80dee802e2f84"
       },
       {
-        "path": "v2/data/source/tender/scans/scan-2026-08-04-evening.json",
-        "sha256": "de9baeac9b660d48d5ebe9679bf80f1392fccd9e4638354bccfd4582cdbcf083"
+        "path": "v2/data/source/tender/scans/scan-2026-08-05-morning.json",
+        "sha256": "645bc77e9550273f8686f390b6598185e14dd8bcbd3872cba1623b9563306ec7"
       },
       {
         "path": "v2/data/source/v1-history-index.json",
@@ -124,7 +136,7 @@
       },
       {
         "path": "v2/scripts/build_daily_v2.py",
-        "sha256": "3207bbb03229679c5d6fde54a37c4c9979ba218a8c987d3c824d830c825995d8"
+        "sha256": "7563b776221c47117a9a6f105f0bc08cd5cee836198b5fd0ae4709ef9315b986"
       },
       {
         "path": "v2/scripts/refresh_equity_private_events.py",
@@ -149,10 +161,10 @@
     ],
     "mode": "repeatable-derived-artifact",
     "notice": "本快照由列示规范数据与结构化证据稳定生成。",
-    "readiness": "v2/data/readiness/v2-ready-2026-08-04-evening.json",
+    "readiness": "v2/data/readiness/v2-ready-2026-08-05-morning.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "87ff7d13acf8"
+    "version": "258d2810f1a2"
   },
   "equity": {
     "customerBoundary": "建设中，已核验交易0笔、待回溯管理人187家。当前仅核验管理人公开身份，尚不作为正式日度交易库。",
@@ -2598,25 +2610,35 @@
       }
     ],
     "maturityStatus": "construction",
-    "pageDate": "2026-08-04",
+    "pageDate": "2026-08-05",
     "reviewExports": {
-      "managerPoolCsv": "v2/data/review/equity/equity-manager-pool-2026-08-04.csv",
-      "primaryDealReviewCsv": "v2/data/review/equity/equity-deal-backfill-worklist-2026-2026-08-04.csv"
+      "managerPoolCsv": "v2/data/review/equity/equity-manager-pool-2026-08-05.csv",
+      "primaryDealReviewCsv": "v2/data/review/equity/equity-deal-backfill-worklist-2026-2026-08-05.csv"
     },
     "reviewProgress": {
       "pendingManagerCount": 187,
-      "primaryReviewFile": "v2/data/review/equity/equity-deal-backfill-worklist-2026-2026-08-04.csv",
+      "primaryReviewFile": "v2/data/review/equity/equity-deal-backfill-worklist-2026-2026-08-05.csv",
       "statusLabel": "已核验交易0笔、待回溯管理人187家",
       "verifiedDealCount": 0
     },
-    "scanAsOf": "2026-08-04",
+    "scanAsOf": "2026-08-05",
     "scanCurrent": true,
-    "scanSlot": "evening",
+    "scanSlot": "morning",
     "scanStatus": "completed",
-    "sourceAsOf": "2026-08-04",
+    "sourceAsOf": "2026-08-05",
     "sourceBoundary": "AMAC仅核验管理人身份与地域口径，不据此推定投资项目。"
   },
   "homeHighlights": [
+    {
+      "body": "董事会会议审议情况会议审议并通过以下议案： （一）关于向金融机构申请融资的议案公司拟向西部信托有限公司。",
+      "category": "上市公司",
+      "company": "天地源",
+      "date": "2026-08-05",
+      "href": "listed.html#listed-detail-705a97daa3-bdf7e6bd",
+      "mode": "latest-specific",
+      "sortBasis": "公告日期倒序，同日按重要度排序",
+      "title": "必看｜天地源"
+    },
     {
       "body": "科华生物披露限制性股票激励计划，首期解除限售比例40%。",
       "category": "上市公司",
@@ -2628,22 +2650,12 @@
       "title": "重点｜科华生物双激励方案"
     },
     {
-      "body": "兴化股份2025年度内控审计为否定意见，股票于2026年5月6日开市起被实施其他风险警示（ST）。",
-      "category": "上市公司",
-      "company": "兴化股份",
-      "date": "2026-08-04",
-      "href": "listed.html#listed-detail-32ece285fe-36e8d7c8",
-      "mode": "latest-specific",
-      "sortBasis": "公告日期倒序，同日按重要度排序",
-      "title": "重点｜兴化股份"
-    },
-    {
-      "body": "最近一只：滨利东方红32号私募证券投资基金；管理人：深圳市滨利投资管理有限公司。",
+      "body": "最近一只：乾元强因子2号私募证券投资基金；管理人：深圳乾元资始私募证券基金管理有限公司。",
       "category": "证券私募",
-      "date": "2026-07-31",
-      "href": "private.html#fund-SCS415",
+      "date": "2026-08-04",
+      "href": "private.html#fund-SBAT63",
       "mode": "annual-with-latest",
-      "title": "全年备案 55 只"
+      "title": "全年备案 57 只"
     },
     {
       "body": "最近已核验项目：金钼股份收购并增资金沙钼业；审议。",
@@ -3203,6 +3215,128 @@
           "whyImportant": "关注回购进度、成交区间及后续用途。"
         },
         {
+          "announcementTitle": "关于深圳证券交易所上市审核中心审核公司发行股份及支付现金购买资产并募集配套资金暨关联交易事项会议安排的公告",
+          "attention": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "内容重要",
+            "priority": "focus",
+            "subcategory": "并购重组",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "businessSubcategory": "并购重组",
+          "canonicalDetailId": "listed-detail-ab6a50bd4e-99ab46f1",
+          "company": "华天科技",
+          "conclusion": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金；本次更新重组报告书及问询回复，交易仍处于深交所审核阶段；当前节点：方案审议。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+            "keyFigures": [
+              "100%",
+              "29.96亿元"
+            ],
+            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+            "passed": true,
+            "stage": "board_plan",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225458451",
+                "1225458454",
+                "1225458455"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "customerFact": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金。",
+          "customerFollowUp": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "eventLabel": "收并购",
+          "eventType": "ma",
+          "homepageEligible": false,
+          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+          "lifecycleStage": "board_plan",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "收并购",
+          "matter_id": "listed-matter-5ef1be98254bb7",
+          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "numbersHtml": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金。",
+          "planId": "发行股份及支付现金购买资产并募集配套资金",
+          "previousStage": "inquiry_reply",
+          "publishedAt": "2026-08-05",
+          "sourceAnnouncementIds": [
+            "1225458450",
+            "1225458454",
+            "1225458455",
+            "1225458451",
+            "1225458453",
+            "1225458452"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458450.PDF",
+          "sources": [
+            {
+              "announcementId": "1225458450",
+              "announcementTitle": "关于深圳证券交易所上市审核中心审核公司发行股份及支付现金购买资产并募集配套资金暨关联交易事项会议安排的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458450.PDF"
+            },
+            {
+              "announcementId": "1225458454",
+              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（上会稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458454.PDF"
+            },
+            {
+              "announcementId": "1225458455",
+              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（摘要）（上会稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458455.PDF"
+            },
+            {
+              "announcementId": "1225458451",
+              "announcementTitle": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（上会稿）修订说明的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458451.PDF"
+            },
+            {
+              "announcementId": "1225458453",
+              "announcementTitle": "北京市竞天公诚律师事务所关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之补充法律意见书（二）（上会稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458453.PDF"
+            },
+            {
+              "announcementId": "1225458452",
+              "announcementTitle": "华泰联合证券有限责任公司关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告（上会稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458452.PDF"
+            }
+          ],
+          "whyImportant": "关注审议审核、交易付款、资产交割、工商过户及并表进展。"
+        },
+        {
           "announcementTitle": "西安爱科赛博电气股份有限公司关于2026年以集中竞价交易方式回购股份的进展公告",
           "attention": "关注回购进度、成交区间及后续用途。",
           "business": {
@@ -3463,15 +3597,34 @@
           "whyImportant": "关注产品到期赎回、实际收益、未到期余额及授权额度。"
         }
       ],
-      "customerNotice": "已完成扫描，6项内容暂缓刊发/复核",
-      "date": "2026-08-04",
+      "customerNotice": "已完成扫描，7项内容暂缓刊发/复核",
+      "date": "2026-08-05",
       "editorialEvidence": {
-        "contentSha256": "37bb52b7c1dd0cf173b0142ae10ff3c408f376b2df150d9174c6ff5b513a35fd",
-        "path": "v2/data/daily/listed/editorial-evidence/2026-08-04/evening-37bb52b7c1dd0cf1.json.gz",
-        "sha256": "b92ac5fc6df5cccb7e8f6619bd7db649af32fea5663bf143f55739710d803c60",
-        "slot": "evening"
+        "contentSha256": "e2ea24bb57fc4ff79ab60a3019c1287072b208b3f977bcb783792abb3e7cfa7c",
+        "path": "v2/data/daily/listed/editorial-evidence/2026-08-05/morning-e2ea24bb57fc4ff7.json.gz",
+        "sha256": "72d9d2ebe3234ab95298c3ec32a8e77570ce4e89d504eff6e8da66eda9f70090",
+        "slot": "morning"
       },
       "editorialExcludedCandidates": [
+        {
+          "company": "炬光科技",
+          "customerDisposition": "excluded_from_customer_highlights_pending_reliable_fact",
+          "discoveryStatus": "official_announcement_text_available_but_customer_fact_not_substantive",
+          "error": "上市公司非生命周期事项缺少原文实质事实，拒绝使用标题改写：炬光科技:经营治理:西安炬光科技股份有限公司关于召开2026年半年度业绩说明会的公告",
+          "importance": "关注",
+          "reason": "non_mandatory_low_priority_candidate_lacks_substantive_customer_fact",
+          "sourceAnnouncementIds": [
+            "1225456686"
+          ],
+          "sources": [
+            {
+              "announcementId": "1225456686",
+              "announcementTitle": "西安炬光科技股份有限公司关于召开2026年半年度业绩说明会的公告",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225456686.PDF"
+            }
+          ],
+          "status": "excluded"
+        },
         {
           "company": "延长石油国际",
           "customerDisposition": "excluded_from_customer_highlights_pending_reliable_fact",
@@ -3517,6 +3670,82 @@
       "fixed_columns": [
         {
           "items": [
+            {
+              "announcementTitle": "2026年第二次临时股东会决议公告",
+              "attention": "关注已通过议案执行及相关工商或资金安排。",
+              "body": "会议召开和出席情况 1、现场会议召开时间：2026 年 08 月 04 日 14:00 2、网络投票时间：通过深圳证券交易所系统进行网络投票的具体时间为 20。",
+              "business": {
+                "category": "治理关系",
+                "contentImportance": "固定披露",
+                "priority": "standard",
+                "subcategory": "章程治理",
+                "targets": [
+                  "董秘办",
+                  "证券事务代表",
+                  "管理层"
+                ]
+              },
+              "businessSubcategory": "章程治理",
+              "canonicalDetailId": "listed-detail-fc0b8f1caf-b4a2aa28",
+              "company": "达刚控股",
+              "conclusion": "会议召开和出席情况 1、现场会议召开时间：2026 年 08 月 04 日 14:00 2、网络投票时间：通过深圳证券交易所系统进行网络投票的具体时间为 2026 年 08 月 04 日的 9:15—9：25，9：30—11:30，13:00—15:00。任期均自本次股东会审议通过之日起至第六届董事会届满止。",
+              "contentQuality": {
+                "checks": {
+                  "actualFact": true,
+                  "completeCustomerSentence": true,
+                  "impactAssessment": true,
+                  "keyFigures": true,
+                  "namedGovernanceFact": true,
+                  "nextObservation": true,
+                  "sourceEvidence": true,
+                  "stageChange": true,
+                  "templateFree": true
+                },
+                "genericTitleRewrite": false,
+                "impact": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
+                "keyFigures": [
+                  "2026 年",
+                  "04 日",
+                  "2026 年",
+                  "04 日"
+                ],
+                "nextObservation": "后续关注已通过议案执行及相关工商或资金安排。",
+                "passed": true,
+                "stage": "股东会",
+                "stageEvidence": {
+                  "mode": "structured_matter_type",
+                  "sourceIds": []
+                },
+                "standard": "v2-substantive-five-field"
+              },
+              "customerFact": "会议召开和出席情况 1、现场会议召开时间：2026 年 08 月 04 日 14:00 2、网络投票时间：通过深圳证券交易所系统进行网络投票的具体时间为 20。",
+              "customerFollowUp": "关注已通过议案执行及相关工商或资金安排。",
+              "impactAssessment": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
+              "importance": "关注",
+              "mandatoryCustomerHighlight": false,
+              "mandatoryRuleId": "",
+              "matterType": "股东会",
+              "matter_id": "listed-matter-5da7512c871365",
+              "nextObservation": "后续关注已通过议案执行及相关工商或资金安排。",
+              "publishedAt": "2026-08-05",
+              "sourceAnnouncementIds": [
+                "1225458304"
+              ],
+              "sourceConfidence": "verified-curated-matter-sources",
+              "sourceKeyword": "V2精读事项来源组",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458304.PDF",
+              "sources": [
+                {
+                  "announcementId": "1225458304",
+                  "announcementTitle": "2026年第二次临时股东会决议公告",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458304.PDF"
+                }
+              ],
+              "title": "达刚控股｜股东会",
+              "whyImportant": "关注已通过议案执行及相关工商或资金安排。"
+            },
             {
               "announcementTitle": "2026年员工持股计划（草案）",
               "attention": "关注授予或归属条件、登记数量及费用影响。",
@@ -3620,7 +3849,12 @@
               "tag": "股权激励",
               "title": "科华生物｜员工持股计划",
               "whyImportant": "关注授予或归属条件、登记数量及费用影响。"
-            },
+            }
+          ],
+          "title": "A. 股东会与治理"
+        },
+        {
+          "items": [
             {
               "announcementTitle": "2026年限制性股票激励计划（草案）",
               "attention": "关注授予或归属条件、登记数量及费用影响。",
@@ -3756,12 +3990,7 @@
               ],
               "title": "科华生物｜股权激励",
               "whyImportant": "关注授予或归属条件、登记数量及费用影响。"
-            }
-          ],
-          "title": "A. 股东会与治理"
-        },
-        {
-          "items": [
+            },
             {
               "announcementTitle": "宝光股份关于公司董事、总经理辞职的公告",
               "attention": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
@@ -3849,21 +4078,38 @@
       ],
       "focusCompanies": [
         {
-          "anchorId": "listed-detail-fc0b8f1caf-faa0f290",
+          "anchorId": "listed-detail-ab6a50bd4e-99ab46f1",
           "business": {
             "category": "资本运作",
             "contentImportance": "内容重要",
             "priority": "focus",
-            "subcategory": "股份回购",
+            "subcategory": "并购重组",
             "targets": [
               "董秘办",
               "财务",
               "投融资负责人"
             ]
           },
-          "company": "达刚控股",
-          "followText": "关注回购进度、成交区间及后续用途。",
+          "company": "华天科技",
+          "followText": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
           "sourceSection": "section-04"
+        },
+        {
+          "anchorId": "listed-detail-fc0b8f1caf-b4a2aa28",
+          "business": {
+            "category": "治理关系",
+            "contentImportance": "固定披露",
+            "priority": "standard",
+            "subcategory": "章程治理",
+            "targets": [
+              "董秘办",
+              "证券事务代表",
+              "管理层"
+            ]
+          },
+          "company": "达刚控股",
+          "followText": "关注已通过议案执行及相关工商或资金安排。",
+          "sourceSection": "section-05"
         },
         {
           "anchorId": "listed-detail-aikesaibo",
@@ -3898,26 +4144,214 @@
           "company": "供销大集",
           "followText": "关注回购进度、成交区间及后续用途。",
           "sourceSection": "section-04"
-        },
-        {
-          "anchorId": "listed-detail-51a0627115-6335aea1",
-          "business": {
-            "category": "资金与财务",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "现金管理",
-            "targets": [
-              "财务负责人",
-              "资金部",
-              "董秘办"
-            ]
-          },
-          "company": "光电股份",
-          "followText": "关注产品到期赎回、实际收益、未到期余额及授权额度。",
-          "sourceSection": "section-04"
         }
       ],
       "follow_items": [
+        {
+          "announcementTitle": "关于深圳证券交易所上市审核中心审核公司发行股份及支付现金购买资产并募集配套资金暨关联交易事项会议安排的公告",
+          "attention": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "body": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "重点跟踪",
+            "priority": "focus",
+            "subcategory": "并购重组",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "businessSubcategory": "并购重组",
+          "company": "华天科技",
+          "conclusion": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金；本次更新重组报告书及问询回复，交易仍处于深交所审核阶段；当前节点：方案审议。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+            "keyFigures": [
+              "100%",
+              "29.96亿元"
+            ],
+            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+            "passed": true,
+            "stage": "board_plan",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225458451",
+                "1225458454",
+                "1225458455"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "customerFact": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金。",
+          "customerFollowUp": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "eventLabel": "收并购",
+          "eventType": "ma",
+          "homepageEligible": false,
+          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "isReference": true,
+          "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+          "lifecycleStage": "board_plan",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "收并购",
+          "matter_id": "listed-matter-5ef1be98254bb7",
+          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "planId": "发行股份及支付现金购买资产并募集配套资金",
+          "previousStage": "inquiry_reply",
+          "publishedAt": "2026-08-05",
+          "referenceAnchor": "listed-detail-ab6a50bd4e-99ab46f1",
+          "referenceMatterId": "listed-matter-5ef1be98254bb7",
+          "sourceAnnouncementIds": [
+            "1225458450",
+            "1225458454",
+            "1225458455",
+            "1225458451",
+            "1225458453",
+            "1225458452"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458450.PDF",
+          "sources": [
+            {
+              "announcementId": "1225458450",
+              "announcementTitle": "关于深圳证券交易所上市审核中心审核公司发行股份及支付现金购买资产并募集配套资金暨关联交易事项会议安排的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458450.PDF"
+            },
+            {
+              "announcementId": "1225458454",
+              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（上会稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458454.PDF"
+            },
+            {
+              "announcementId": "1225458455",
+              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（摘要）（上会稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458455.PDF"
+            },
+            {
+              "announcementId": "1225458451",
+              "announcementTitle": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（上会稿）修订说明的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458451.PDF"
+            },
+            {
+              "announcementId": "1225458453",
+              "announcementTitle": "北京市竞天公诚律师事务所关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之补充法律意见书（二）（上会稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458453.PDF"
+            },
+            {
+              "announcementId": "1225458452",
+              "announcementTitle": "华泰联合证券有限责任公司关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告（上会稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458452.PDF"
+            }
+          ],
+          "tag": "并购重组",
+          "title": "华天科技｜关注并购重组",
+          "whyImportant": "关注审议审核、交易付款、资产交割、工商过户及并表进展。"
+        },
+        {
+          "announcementTitle": "2026年第二次临时股东会决议公告",
+          "attention": "关注已通过议案执行及相关工商或资金安排。",
+          "body": "关注已通过议案执行及相关工商或资金安排。",
+          "business": {
+            "category": "治理关系",
+            "contentImportance": "重点跟踪",
+            "priority": "standard",
+            "subcategory": "章程治理",
+            "targets": [
+              "董秘办",
+              "证券事务代表",
+              "管理层"
+            ]
+          },
+          "businessSubcategory": "章程治理",
+          "company": "达刚控股",
+          "conclusion": "会议召开和出席情况 1、现场会议召开时间：2026 年 08 月 04 日 14:00 2、网络投票时间：通过深圳证券交易所系统进行网络投票的具体时间为 2026 年 08 月 04 日的 9:15—9：25，9：30—11:30，13:00—15:00。任期均自本次股东会审议通过之日起至第六届董事会届满止。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
+            "keyFigures": [
+              "2026 年",
+              "04 日",
+              "2026 年",
+              "04 日"
+            ],
+            "nextObservation": "后续关注已通过议案执行及相关工商或资金安排。",
+            "passed": true,
+            "stage": "股东会",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerFact": "会议召开和出席情况 1、现场会议召开时间：2026 年 08 月 04 日 14:00 2、网络投票时间：通过深圳证券交易所系统进行网络投票的具体时间为 20。",
+          "customerFollowUp": "关注已通过议案执行及相关工商或资金安排。",
+          "impactAssessment": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
+          "importance": "关注",
+          "isReference": true,
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "股东会",
+          "matter_id": "listed-matter-5da7512c871365",
+          "nextObservation": "后续关注已通过议案执行及相关工商或资金安排。",
+          "publishedAt": "2026-08-05",
+          "referenceAnchor": "listed-detail-fc0b8f1caf-b4a2aa28",
+          "referenceMatterId": "listed-matter-5da7512c871365",
+          "sourceAnnouncementIds": [
+            "1225458304"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458304.PDF",
+          "sources": [
+            {
+              "announcementId": "1225458304",
+              "announcementTitle": "2026年第二次临时股东会决议公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458304.PDF"
+            }
+          ],
+          "tag": "章程治理",
+          "title": "达刚控股｜关注章程治理",
+          "whyImportant": "关注已通过议案执行及相关工商或资金安排。"
+        },
         {
           "announcementTitle": "关于回购公司股份的进展公告",
           "attention": "关注回购进度、成交区间及后续用途。",
@@ -4282,33 +4716,54 @@
         }
       ],
       "hkexOfficialReviewCompanyCount": 14,
-      "hkexPath": "v2/data/daily/listed/hkex-review-2026-08-04.json",
+      "hkexPath": "v2/data/daily/listed/hkex-review-2026-08-05.json",
       "kpis": [
         {
           "clientLabel": "检索公告",
           "label": "巨潮逐主体检索公告",
-          "num": "41条"
+          "num": "46条"
         },
         {
           "clientLabel": "发布公司",
           "label": "窗口内发布公告公司",
-          "num": "21家"
+          "num": "22家"
         },
         {
           "clientLabel": "精选事项",
           "label": "合并去重后的客户事项",
-          "num": "10项"
+          "num": "12项"
         },
         {
           "clientLabel": "可读原文",
           "label": "已取得可靠正文的官方公告",
-          "num": "37条"
+          "num": "44条"
         }
       ],
       "lifecycleEventCount": 633,
       "lifecyclePolicy": "listed-company-full-lifecycle",
       "lifecycleStorePath": "v2/data/source/listed/lifecycle-store.json",
       "lifecycleUpdates": [
+        {
+          "company": "华天科技",
+          "currentStage": "inquiry_reply",
+          "eventType": "ma",
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+          "nodeStage": "board_plan",
+          "planId": "发行股份及支付现金购买资产并募集配套资金",
+          "previousStage": "inquiry_reply",
+          "sourceAnnouncementIds": [
+            "1225458450",
+            "1225458454",
+            "1225458455",
+            "1225458451",
+            "1225458453",
+            "1225458452"
+          ],
+          "status": "active"
+        },
         {
           "company": "达刚控股",
           "currentStage": "first_execution",
@@ -4430,8 +4885,250 @@
       ],
       "matterIndex": [
         {
-          "_editorialEvidenceText": "上海科华生物工程股份有限公司 2026 年员工持股计划（草案） 2 风险提示 （一）本员工持股计划经公司股东会审议批准后方可实施，能否获得公司股东会批准，存在不确定性。（三）本员工持股计划认购资金不足的，存在不能成立或者低于预计规模的风险。\n上海科华生物工程股份有限公司 2026 年员工持股计划（草案）摘要 2 风险提示 （一）本员工持股计划经公司股东会审议批准后方可实施，能否获得公司股东会批准，存在不确定性。（三）本员工持股计划认购资金不足的，存在不能成立或者低于预计规模的风险。\n三、本员工持股计划实施有利于健全公司的激励与约束机制，充分调动员工的工作积极性与创造性，有利于公司的持续发展，不存在损害公司及全体股东利益的情形，不存在公司以摊派、强行分配等方式强制员工参与的情形。\n5. 本员工持股计划实施有利于健全激励与约束机制，充分调动员工积极性， 有利于公司持续发展，不存在损害公司及全体股东利益的情形。\n第三条本员工持股计划首次授予的参加对象均为公司（含子公司）核心员工， 不存在单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女参与。2. 本员工持股计划变更、终止，本员工持股计划另有约定除外；",
-          "_editorialEvidenceTitles": "2026年员工持股计划（草案）\n2026年员工持股计划（草案）摘要\n董事会薪酬与考核委员会关于2026年员工持股计划相关事项的核查意见\n董事会关于2026年员工持股计划（草案）的合规性说明\n2026年员工持股计划管理办法",
+          "_editorialEvidenceText": "T a n d e C o . , L t d . - 1 - www.tande.cn 天地源股份有限公司证券代码：600665 证券简称：天地源公告编号：临2026-054 债券代码：242114 债券简称：24天地一债券代码：242304 债券简称：25天地一债券代码：259269 债券简称：25天地二债券代码：259414 债券简称：25天地三天地源股份有限公司第十一届董事会第十八次会议决议公告本公司董事会及全体董事保证本公告内容不存在任何虚假记。",
+          "_editorialEvidenceTitles": "天地源股份有限公司第十一届董事会第十八次会议决议公告",
+          "announcementTitle": "天地源股份有限公司第十一届董事会第十八次会议决议公告",
+          "attention": "关注已通过议案的执行、人员履职和资金或工商安排。",
+          "baselineFacts": [],
+          "businessSubcategory": "董事会决议",
+          "company": "天地源",
+          "conclusion": "董事会会议审议情况会议审议并通过以下议案： （一）关于向金融机构申请融资的议案公司拟向西部信托有限公司申请不超过 5.25 亿元信托贷款，资金方为陕西省技术进步投资有限公司。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "董事会已经形成正式决策，实际影响取决于获通过议案的执行、审批和资金安排。",
+            "keyFigures": [
+              "5.25 亿元"
+            ],
+            "nextObservation": "后续关注已通过议案的执行、人员履职和资金或工商安排。",
+            "passed": true,
+            "stage": "董事会决议",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerFact": "董事会会议审议情况会议审议并通过以下议案： （一）关于向金融机构申请融资的议案公司拟向西部信托有限公司申请不超过 5.25 亿元信托贷款。",
+          "customerFollowUp": "关注已通过议案的执行、人员履职和资金或工商安排。",
+          "impactAssessment": "董事会已经形成正式决策，实际影响取决于获通过议案的执行、审批和资金安排。",
+          "importance": "必看",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "董事会决议",
+          "matter_id": "listed-matter-84550ae1a158bb",
+          "nextObservation": "后续关注已通过议案的执行、人员履职和资金或工商安排。",
+          "publishedAt": "2026-08-05",
+          "score": 13,
+          "sourceAnnouncementIds": [
+            "1225457843"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225457843.PDF",
+          "sources": [
+            {
+              "announcementId": "1225457843",
+              "announcementTitle": "天地源股份有限公司第十一届董事会第十八次会议决议公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225457843.PDF"
+            }
+          ],
+          "whyImportant": "关注已通过议案的执行、人员履职和资金或工商安排。"
+        },
+        {
+          "_editorialEvidenceText": "华泰联合证券有限责任公司关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告 （上会稿） 独立财务顾问签署日期：二〇二六年八月关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告 3-1-1 独立财务顾问声明和承诺华泰联合证券有限责任公司（以下简称“华泰联合”、“本独立财务顾问”）接受天水华天科技股份有限公司（以下简称“华天科技”、“上市公司”或“公司”）委托，担任本。\n北京市竞天公诚律师事务所关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之补充法律意见书（二） 北京市朝阳区建国路 77 号华贸中心 3 号写字楼 34 层邮编：100025 34th Floor, Tower 3, China Central Place, 77 Jianguo Road, Chaoyang District, Beijing 100025, China 电话/Tel: +86 10 5809 1000 传。\n证券代码：002185 证券简称：华天科技上市地：深圳证券交易所天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案） （上会稿） 交易类型交易对方名称发行股份及支付现金购买资产天水华天电子集团股份有限公司、西安后羿投资管理合伙企业（有限合伙）、西安芯天钰铂企业管理合伙企业（有限合伙）等 27 名交易对方募集配套资金不超过 35 名特定投资者独立财务顾问签署日期：二〇二六年八月 2-1-1 声明本部分所述词语或简称与本报。\n1 证券代码：002185 证券简称：华天科技公告编号：2026-049 天水华天科技股份有限公司关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（上会稿） 修订说明的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整没有虚假记载、误导性陈述或重大遗漏。天水华天科技股份有限公司（以下简称“公司”）拟通过发行股份及支付现金的方式购买天水华天电子集团股份有限公司、西安后羿投资管理合伙企业（有限合伙）、西安芯天钰铂企业管理合伙企业。\n证券代码：002185 证券简称：华天科技上市地：深圳证券交易所天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（摘要） （上会稿） 交易类型交易对方名称发行股份及支付现金购买资产天水华天电子集团股份有限公司、西安后羿投资管理合伙企业（有限合伙）、西安芯天钰铂企业管理合伙企业（有限合伙）等 27 名交易对方募集配套资金不超过 35 名特定投资者独立财务顾问签署日期：二〇二六年八月 1 声明本部分所述词语或简称与本报。\n证券代码：002185 证券简称：华天科技公告编号：2026-048 天水华天科技股份有限公司关于深圳证券交易所上市审核中心审核公司发行股份及支付现金购买资产并募集配套资金暨关联交易事项会议安排的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整， 没有虚假记载、误导性陈述或重大遗漏。天水华天科技股份有限公司（以下简称“公司”）拟通过发行股份及支付现金的方式购买天水华天电子集团股份有限公司、西安后羿投资管理合伙企业（有限合伙）、西安芯天钰铂企业。",
+          "_editorialEvidenceTitles": "华泰联合证券有限责任公司关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告（上会稿）\n北京市竞天公诚律师事务所关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之补充法律意见书（二）（上会稿）\n天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（上会稿）\n关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（上会稿）修订说明的公告\n天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（摘要）（上会稿）\n关于深圳证券交易所上市审核中心审核公司发行股份及支付现金购买资产并募集配套资金暨关联交易事项会议安排的公告",
+          "announcementTitle": "关于深圳证券交易所上市审核中心审核公司发行股份及支付现金购买资产并募集配套资金暨关联交易事项会议安排的公告",
+          "attention": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "baselineFacts": [],
+          "businessSubcategory": "并购重组",
+          "company": "华天科技",
+          "conclusion": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金；本次更新重组报告书及问询回复，交易仍处于深交所审核阶段；当前节点：方案审议。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+            "keyFigures": [
+              "100%",
+              "29.96亿元"
+            ],
+            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+            "passed": true,
+            "stage": "board_plan",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225458451",
+                "1225458454",
+                "1225458455"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "customerFact": "华天科技拟以发行股份及支付现金方式购买华羿微电100%股权，标的作价29.96亿元，并募集配套资金。",
+          "customerFollowUp": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "eventLabel": "收并购",
+          "eventType": "ma",
+          "firstSeenAt": "2026-07-31",
+          "homepageEligible": false,
+          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-08-05",
+          "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+          "lifecycleStage": "board_plan",
+          "lifecycleStatus": "active",
+          "mainSection": "capital",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "收并购",
+          "matter_id": "listed-matter-5ef1be98254bb7",
+          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "planId": "发行股份及支付现金购买资产并募集配套资金",
+          "previousStage": "inquiry_reply",
+          "publishedAt": "2026-08-05",
+          "score": 30,
+          "sourceAnnouncementIds": [
+            "1225458450",
+            "1225458454",
+            "1225458455",
+            "1225458451",
+            "1225458453",
+            "1225458452"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458450.PDF",
+          "sources": [
+            {
+              "announcementId": "1225458450",
+              "announcementTitle": "关于深圳证券交易所上市审核中心审核公司发行股份及支付现金购买资产并募集配套资金暨关联交易事项会议安排的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458450.PDF"
+            },
+            {
+              "announcementId": "1225458454",
+              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（上会稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458454.PDF"
+            },
+            {
+              "announcementId": "1225458455",
+              "announcementTitle": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（摘要）（上会稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458455.PDF"
+            },
+            {
+              "announcementId": "1225458451",
+              "announcementTitle": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（上会稿）修订说明的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458451.PDF"
+            },
+            {
+              "announcementId": "1225458453",
+              "announcementTitle": "北京市竞天公诚律师事务所关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之补充法律意见书（二）（上会稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458453.PDF"
+            },
+            {
+              "announcementId": "1225458452",
+              "announcementTitle": "华泰联合证券有限责任公司关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告（上会稿）",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458452.PDF"
+            }
+          ],
+          "timelineLength": 2,
+          "whyImportant": "关注审议审核、交易付款、资产交割、工商过户及并表进展。"
+        },
+        {
+          "_editorialEvidenceText": "证券代码：300103 证券简称：达刚控股公告编号：2026-51 达刚控股集团股份有限公司 2026 年第二次临时股东会决议公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、 误导性陈述或重大遗漏。特别提示： ● 本次股东会未出现否决提案的情形。",
+          "_editorialEvidenceTitles": "2026年第二次临时股东会决议公告",
+          "announcementTitle": "2026年第二次临时股东会决议公告",
+          "attention": "关注已通过议案执行及相关工商或资金安排。",
+          "baselineFacts": [],
+          "businessSubcategory": "章程治理",
+          "company": "达刚控股",
+          "conclusion": "会议召开和出席情况 1、现场会议召开时间：2026 年 08 月 04 日 14:00 2、网络投票时间：通过深圳证券交易所系统进行网络投票的具体时间为 2026 年 08 月 04 日的 9:15—9：25，9：30—11:30，13:00—15:00。任期均自本次股东会审议通过之日起至第六届董事会届满止。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
+            "keyFigures": [
+              "2026 年",
+              "04 日",
+              "2026 年",
+              "04 日"
+            ],
+            "nextObservation": "后续关注已通过议案执行及相关工商或资金安排。",
+            "passed": true,
+            "stage": "股东会",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerFact": "会议召开和出席情况 1、现场会议召开时间：2026 年 08 月 04 日 14:00 2、网络投票时间：通过深圳证券交易所系统进行网络投票的具体时间为 20。",
+          "customerFollowUp": "关注已通过议案执行及相关工商或资金安排。",
+          "impactAssessment": "股东会已经形成正式决议，事项影响取决于获通过议案的具体执行和后续落地。",
+          "importance": "关注",
+          "mainSection": "",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "股东会",
+          "matter_id": "listed-matter-5da7512c871365",
+          "nextObservation": "后续关注已通过议案执行及相关工商或资金安排。",
+          "publishedAt": "2026-08-05",
+          "score": 5,
+          "sourceAnnouncementIds": [
+            "1225458304"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458304.PDF",
+          "sources": [
+            {
+              "announcementId": "1225458304",
+              "announcementTitle": "2026年第二次临时股东会决议公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458304.PDF"
+            }
+          ],
+          "whyImportant": "关注已通过议案执行及相关工商或资金安排。"
+        },
+        {
+          "_editorialEvidenceText": "第三条本员工持股计划首次授予的参加对象均为公司（含子公司）核心员工， 不存在单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女参与。2. 本员工持股计划变更、终止，本员工持股计划另有约定除外；\n5. 本员工持股计划实施有利于健全激励与约束机制，充分调动员工积极性， 有利于公司持续发展，不存在损害公司及全体股东利益的情形。\n三、本员工持股计划实施有利于健全公司的激励与约束机制，充分调动员工的工作积极性与创造性，有利于公司的持续发展，不存在损害公司及全体股东利益的情形，不存在公司以摊派、强行分配等方式强制员工参与的情形。\n上海科华生物工程股份有限公司 2026 年员工持股计划（草案）摘要 2 风险提示 （一）本员工持股计划经公司股东会审议批准后方可实施，能否获得公司股东会批准，存在不确定性。（三）本员工持股计划认购资金不足的，存在不能成立或者低于预计规模的风险。\n上海科华生物工程股份有限公司 2026 年员工持股计划（草案） 2 风险提示 （一）本员工持股计划经公司股东会审议批准后方可实施，能否获得公司股东会批准，存在不确定性。（三）本员工持股计划认购资金不足的，存在不能成立或者低于预计规模的风险。",
+          "_editorialEvidenceTitles": "2026年员工持股计划管理办法\n董事会关于2026年员工持股计划（草案）的合规性说明\n董事会薪酬与考核委员会关于2026年员工持股计划相关事项的核查意见\n2026年员工持股计划（草案）摘要\n2026年员工持股计划（草案）",
           "announcementTitle": "2026年员工持股计划（草案）",
           "attention": "关注授予或归属条件、登记数量及费用影响。",
           "baselineFacts": [],
@@ -4601,8 +5298,8 @@
           "whyImportant": "关注回购进度、成交区间及后续用途。"
         },
         {
-          "_editorialEvidenceText": "金杜根据《公司法》、《证券法》等有关法律、法规和中国证监会有关规定的要求，按照律师行业公认的业务标准、道德规范和勤勉尽责精神，现出具法律意见如下： 一、 公司实施本次激励计划的条件 （一）经中国证监会 2004 年 6 月 8 日以《关于核准上海科华生物工程股份有限公司公开发行股票的通知》（证监发行字[2004]92 号）核准以及深圳证券交易所《关于上海科华生物工程股份有限公司人民币普通股股票上市的通知》（深证上[2004]67 号）同意，公司自 200。\n1 上海科华生物工程股份有限公司 2026 年限制性股票激励计划考核管理办法上海科华生物工程股份有限公司（以下简称“公司”）为持续推进长期激励机制的建设，吸引和留住优秀人才，有效结合股东利益、公司利益和员工利益， 遵循收益与贡献对等的原则，推出 2026 年限制性股票激励计划（以下简称“本激励计划”）。首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女。\n四、本激励计划首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女，符合《上市公司股权激励管理办法》第八条规定，不存在不得成为激励对象的下列情形： （一）最近 12 个月内被证券交易所认定为不适当人选；六、本激励计划的有效期为自限制性股票首次授予登记完成之日起至激励对象获授的限制性股票全部解除限售或回购注销之日止，最长不超过 60 个月。\n四、公司不存在向激励对象提供贷款、贷款担保或任何其他财务资助的计划或安排。五、本激励计划实施有利于激发员工的积极性、创造性与责任心，提高公司的可持续发展能力，促进公司发展战略和经营目标的实现，不存在损害公司及全体股东利益的情形。\n四、本激励计划首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女，符合《上市公司股权激励管理办法》第八条规定，不存在不得成为激励对象的下列情形： （一）最近 12 个月内被证券交易所认定为不适当人选；六、本激励计划的有效期为自限制性股票首次授予登记完成之日起至激励对象获授的限制性股票全部解除限售或回购注销之日止，最长不超过 60 个月。\n本议案已经董事会薪酬与考核委员会审议通过，尚需提交公司2026年第一次临时股东会以特别决议方式审议。本议案已经董事会薪酬与考核委员会审议通过，尚需提交公司2026年第一次临时股东会以特别决议方式审议。\n北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司 2026 年限制性股票激励计划（草案）的独立财务顾问报告二〇二六年八月北京博星证券投资顾问有限公司独立财务顾问报告 1 目录目录 .....................................................................................................................................。",
-          "_editorialEvidenceTitles": "北京市金杜（广州）律师事务所关于上海科华生物工程股份有限公司2026年限制性股票激励计划的法律意见书\n2026年限制性股票激励计划考核管理办法\n2026年限制性股票激励计划（草案）\n董事会薪酬与考核委员会关于2026年限制性股票激励计划相关事项的核查意见\n2026年限制性股票激励计划（草案）摘要\n第十届董事会第二十二次会议决议公告\n北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司2026年限制性股票激励计划（草案）的独立财务顾问报告",
+          "_editorialEvidenceText": "北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司 2026 年限制性股票激励计划（草案）的独立财务顾问报告二〇二六年八月北京博星证券投资顾问有限公司独立财务顾问报告 1 目录目录 .....................................................................................................................................。\n金杜根据《公司法》、《证券法》等有关法律、法规和中国证监会有关规定的要求，按照律师行业公认的业务标准、道德规范和勤勉尽责精神，现出具法律意见如下： 一、 公司实施本次激励计划的条件 （一）经中国证监会 2004 年 6 月 8 日以《关于核准上海科华生物工程股份有限公司公开发行股票的通知》（证监发行字[2004]92 号）核准以及深圳证券交易所《关于上海科华生物工程股份有限公司人民币普通股股票上市的通知》（深证上[2004]67 号）同意，公司自 200。\n本议案已经董事会薪酬与考核委员会审议通过，尚需提交公司2026年第一次临时股东会以特别决议方式审议。本议案已经董事会薪酬与考核委员会审议通过，尚需提交公司2026年第一次临时股东会以特别决议方式审议。\n1 上海科华生物工程股份有限公司 2026 年限制性股票激励计划考核管理办法上海科华生物工程股份有限公司（以下简称“公司”）为持续推进长期激励机制的建设，吸引和留住优秀人才，有效结合股东利益、公司利益和员工利益， 遵循收益与贡献对等的原则，推出 2026 年限制性股票激励计划（以下简称“本激励计划”）。首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女。\n四、公司不存在向激励对象提供贷款、贷款担保或任何其他财务资助的计划或安排。五、本激励计划实施有利于激发员工的积极性、创造性与责任心，提高公司的可持续发展能力，促进公司发展战略和经营目标的实现，不存在损害公司及全体股东利益的情形。\n四、本激励计划首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女，符合《上市公司股权激励管理办法》第八条规定，不存在不得成为激励对象的下列情形： （一）最近 12 个月内被证券交易所认定为不适当人选；六、本激励计划的有效期为自限制性股票首次授予登记完成之日起至激励对象获授的限制性股票全部解除限售或回购注销之日止，最长不超过 60 个月。\n四、本激励计划首次授予的激励对象不超过 6 人，包括公司董事、高级管理人员，不包括公司独立董事、单独或合计持有公司 5%以上股份的股东或实际控制人及其配偶、父母、子女，符合《上市公司股权激励管理办法》第八条规定，不存在不得成为激励对象的下列情形： （一）最近 12 个月内被证券交易所认定为不适当人选；六、本激励计划的有效期为自限制性股票首次授予登记完成之日起至激励对象获授的限制性股票全部解除限售或回购注销之日止，最长不超过 60 个月。",
+          "_editorialEvidenceTitles": "北京博星证券投资顾问有限公司关于上海科华生物工程股份有限公司2026年限制性股票激励计划（草案）的独立财务顾问报告\n北京市金杜（广州）律师事务所关于上海科华生物工程股份有限公司2026年限制性股票激励计划的法律意见书\n第十届董事会第二十二次会议决议公告\n2026年限制性股票激励计划考核管理办法\n董事会薪酬与考核委员会关于2026年限制性股票激励计划相关事项的核查意见\n2026年限制性股票激励计划（草案）摘要\n2026年限制性股票激励计划（草案）",
           "announcementTitle": "2026年限制性股票激励计划（草案）",
           "attention": "关注授予或归属条件、登记数量及费用影响。",
           "baselineFacts": [],
@@ -5188,66 +5885,6 @@
           ],
           "timelineLength": 2,
           "whyImportant": "关注人员履职、治理衔接、工商变更及控制权稳定性。"
-        },
-        {
-          "_editorialEvidenceText": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim a。",
-          "_editorialEvidenceTitles": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
-          "announcementTitle": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
-          "attention": "关注完整数据、安全性结果及后续临床开发安排。",
-          "baselineFacts": [],
-          "businessSubcategory": "创新药研发",
-          "company": "麦科医药-B",
-          "conclusion": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
-            "keyFigures": [],
-            "nextObservation": "后续关注完整数据、安全性结果及后续临床开发安排。",
-            "passed": true,
-            "stage": "临床进展",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerFact": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
-          "customerFollowUp": "关注完整数据、安全性结果及后续临床开发安排。",
-          "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
-          "importance": "重点",
-          "mainSection": "",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "临床进展",
-          "matter_id": "listed-matter-670e3e860fd9e3",
-          "nextObservation": "后续关注完整数据、安全性结果及后续临床开发安排。",
-          "publishedAt": "2026-08-03",
-          "score": 9,
-          "sourceAnnouncementIds": [
-            "1225456445"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304089.pdf",
-          "sources": [
-            {
-              "announcementId": "1225456445",
-              "announcementTitle": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304089.pdf"
-            }
-          ],
-          "whyImportant": "关注完整数据、安全性结果及后续临床开发安排。"
         }
       ],
       "opportunities": [
@@ -5468,77 +6105,6 @@
           "whyImportant": "关注整改成效和风险警示撤销条件。"
         },
         {
-          "announcementTitle": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
-          "attention": "关注完整数据、安全性结果及后续临床开发安排。",
-          "body": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
-          "business": {
-            "category": "综合事项",
-            "contentImportance": "重点",
-            "priority": "standard",
-            "subcategory": "综合事项",
-            "targets": [
-              "董秘办"
-            ]
-          },
-          "businessSubcategory": "创新药研发",
-          "company": "麦科医药-B",
-          "conclusion": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "nextObservation": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
-            "keyFigures": [],
-            "nextObservation": "后续关注完整数据、安全性结果及后续临床开发安排。",
-            "passed": true,
-            "stage": "临床进展",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerFact": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
-          "customerFollowUp": "关注完整数据、安全性结果及后续临床开发安排。",
-          "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
-          "importance": "重点",
-          "isReference": true,
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "临床进展",
-          "matter_id": "listed-matter-670e3e860fd9e3",
-          "nextObservation": "后续关注完整数据、安全性结果及后续临床开发安排。",
-          "publishedAt": "2026-08-03",
-          "referenceAnchor": "listed-detail-ee016264b1-87ff676c",
-          "referenceMatterId": "listed-matter-670e3e860fd9e3",
-          "sourceAnnouncementIds": [
-            "1225456445"
-          ],
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304089.pdf",
-          "sources": [
-            {
-              "announcementId": "1225456445",
-              "announcementTitle": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304089.pdf"
-            }
-          ],
-          "title": "重点｜麦科医药-B",
-          "whyImportant": "关注完整数据、安全性结果及后续临床开发安排。"
-        },
-        {
           "announcementTitle": "宝光股份关于公司董事、总经理辞职的公告",
           "attention": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
           "body": "宝光股份总经理刘壮因工作变动辞职。",
@@ -5620,14 +6186,89 @@
           ],
           "title": "重点｜宝光股份",
           "whyImportant": "关注人员履职、治理衔接、工商变更及控制权稳定性。"
+        },
+        {
+          "announcementTitle": "天地源股份有限公司第十一届董事会第十八次会议决议公告",
+          "attention": "关注已通过议案的执行、人员履职和资金或工商安排。",
+          "body": "董事会会议审议情况会议审议并通过以下议案： （一）关于向金融机构申请融资的议案公司拟向西部信托有限公司。",
+          "business": {
+            "category": "治理关系",
+            "contentImportance": "必看",
+            "priority": "standard",
+            "subcategory": "章程治理",
+            "targets": [
+              "董秘办",
+              "证券事务代表",
+              "管理层"
+            ]
+          },
+          "businessSubcategory": "董事会决议",
+          "company": "天地源",
+          "conclusion": "董事会会议审议情况会议审议并通过以下议案： （一）关于向金融机构申请融资的议案公司拟向西部信托有限公司申请不超过 5.25 亿元信托贷款，资金方为陕西省技术进步投资有限公司。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "nextObservation": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "董事会已经形成正式决策，实际影响取决于获通过议案的执行、审批和资金安排。",
+            "keyFigures": [
+              "5.25 亿元"
+            ],
+            "nextObservation": "后续关注已通过议案的执行、人员履职和资金或工商安排。",
+            "passed": true,
+            "stage": "董事会决议",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerFact": "董事会会议审议情况会议审议并通过以下议案： （一）关于向金融机构申请融资的议案公司拟向西部信托有限公司申请不超过 5.25 亿元信托贷款。",
+          "customerFollowUp": "关注已通过议案的执行、人员履职和资金或工商安排。",
+          "impactAssessment": "董事会已经形成正式决策，实际影响取决于获通过议案的执行、审批和资金安排。",
+          "importance": "必看",
+          "isReference": true,
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "董事会决议",
+          "matter_id": "listed-matter-84550ae1a158bb",
+          "nextObservation": "后续关注已通过议案的执行、人员履职和资金或工商安排。",
+          "publishedAt": "2026-08-05",
+          "referenceAnchor": "listed-detail-705a97daa3-bdf7e6bd",
+          "referenceMatterId": "listed-matter-84550ae1a158bb",
+          "sourceAnnouncementIds": [
+            "1225457843"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225457843.PDF",
+          "sources": [
+            {
+              "announcementId": "1225457843",
+              "announcementTitle": "天地源股份有限公司第十一届董事会第十八次会议决议公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225457843.PDF"
+            }
+          ],
+          "title": "必看｜天地源",
+          "whyImportant": "关注已通过议案的执行、人员履职和资金或工商安排。"
         }
       ],
       "quarantineEvidence": {
-        "count": 6,
-        "path": "v2/data/daily/listed/editorial-quarantine-2026-08-04-evening.json",
-        "sha256": "47fd0a372010279ca5dc65b58e44e80c9ef49d9a615601b33b3521568fd3e271"
+        "count": 7,
+        "path": "v2/data/daily/listed/editorial-quarantine-2026-08-05-morning.json",
+        "sha256": "a7504a35dab262e5d135974b0c92abd6c2e3b4917c3e8ae2f8377ea175e3cdf2"
       },
-      "rawPath": "v2/data/daily/listed/cninfo-announcements-2026-08-04.json",
+      "rawPath": "v2/data/daily/listed/cninfo-announcements-2026-08-05.json",
       "rejectedCandidates": [
         {
           "announcementId": "1225456018",
@@ -5648,26 +6289,6 @@
           "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225456017.PDF",
           "status": "pending_manual_verification",
           "title": "关于终止部分募投项目并将剩余募集资金永久补充流动资金的公告"
-        },
-        {
-          "announcementId": "1225454026",
-          "company": "世纪金花",
-          "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
-          "discoveryStatus": "official_announcement_found_text_extraction_failed",
-          "error": "ValueError:公告PDF文本质量门禁失败：replacement_or_mojibake_markers,readable_character_ratio,continuous_abnormal_symbols",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-03/1225454026.PDF",
-          "status": "pending_manual_verification",
-          "title": "百慕达注册办事处、主要股份登记及过户处地址变更"
-        },
-        {
-          "announcementId": "1225453910",
-          "company": "世纪金花",
-          "customerDisposition": "excluded_from_customer_highlights_pending_reliable_text",
-          "discoveryStatus": "official_announcement_found_text_extraction_failed",
-          "error": "ValueError:公告PDF文本质量门禁失败：readable_character_ratio,language_character_ratio,continuous_abnormal_symbols",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-03/1225453910.PDF",
-          "status": "pending_manual_verification",
-          "title": "截至二零二六年七月三十一日止月份股份发行人的证券变动月报表"
         }
       ],
       "risk_rows": [
@@ -5843,11 +6464,566 @@
       "schemaVersion": "2.1",
       "sourceAcquisitionStatus": {
         "hasPendingOfficialTextVerification": true,
-        "officialAnnouncementTextExtractionFailed": 4,
-        "officialAnnouncementsDiscovered": 41,
-        "reliableTextExtracted": 37
+        "officialAnnouncementTextExtractionFailed": 2,
+        "officialAnnouncementsDiscovered": 46,
+        "reliableTextExtracted": 44
       },
       "sourceEvidence": [
+        {
+          "body": "证券代码：002185 证券简称：华天科技上市地：深圳证券交易所天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（摘要） （上会稿） 交易类型交易对方名称发行股份及支付现金购买资产天水华天电子集团股份有限公司、西安后羿投资管理合伙企业（有限合伙）、西安芯天钰铂企业管理合伙企业（有限合伙）等 27 名交易对方募集配套资金不超过 35 名特定投资者独立财务顾问签署日期：二〇二六年八月 1 声明本部分所述词语或简称与本报。",
+          "company": "华天科技",
+          "discoveryPdfSha256": "54f8ae14b264a2a21537e67cee573908de3f41bf75e3e8fe5c0accb7fab39e58",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458455.PDF",
+          "excerpt": "证券代码：002185 证券简称：华天科技上市地：深圳证券交易所天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（摘要） （上会稿） 交易类型交易对方名称发行股份及支付现金购买资产天水华天电子集团股份有限公司、西安后羿投资管理合伙企业（有限合伙）、西安芯天钰铂企业管理合伙企业（有限合伙）等 27 名交易对方募集配套资金不超过 35 名特定投资者独立财务顾问签署日期：二〇二六年八月 1 声明本部分所述词语或简称与本报。",
+          "hkexNewsId": "",
+          "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "并购重组",
+            "customerDisposition": "daily",
+            "eventLabel": "收并购",
+            "eventType": "ma",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+            "mainSection": "capital",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
+            "stage": "board_plan",
+            "status": "active"
+          },
+          "matter_id": "1225458455",
+          "parser": "pypdf",
+          "pdfSha256": "54f8ae14b264a2a21537e67cee573908de3f41bf75e3e8fe5c0accb7fab39e58",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458455.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 36168,
+              "controlCharacters": 0,
+              "languageRatio": 0.8403,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9992
+            },
+            "reasons": []
+          },
+          "textSha256": "b0abb1648660870cbedc22ce9c76a41affc2dfcce824c42ce819985b4af1a29b",
+          "title": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（摘要）（上会稿）"
+        },
+        {
+          "body": "证券代码：002185 证券简称：华天科技上市地：深圳证券交易所天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案） （上会稿） 交易类型交易对方名称发行股份及支付现金购买资产天水华天电子集团股份有限公司、西安后羿投资管理合伙企业（有限合伙）、西安芯天钰铂企业管理合伙企业（有限合伙）等 27 名交易对方募集配套资金不超过 35 名特定投资者独立财务顾问签署日期：二〇二六年八月 2-1-1 声明本部分所述词语或简称与本报。",
+          "company": "华天科技",
+          "discoveryPdfSha256": "644dee7cffe2c0b14727b5bbfdf67ce91123a0027d7e1d2a758aef5a7f1fc5a3",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458454.PDF",
+          "excerpt": "证券代码：002185 证券简称：华天科技上市地：深圳证券交易所天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案） （上会稿） 交易类型交易对方名称发行股份及支付现金购买资产天水华天电子集团股份有限公司、西安后羿投资管理合伙企业（有限合伙）、西安芯天钰铂企业管理合伙企业（有限合伙）等 27 名交易对方募集配套资金不超过 35 名特定投资者独立财务顾问签署日期：二〇二六年八月 2-1-1 声明本部分所述词语或简称与本报。",
+          "hkexNewsId": "",
+          "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "并购重组",
+            "customerDisposition": "daily",
+            "eventLabel": "收并购",
+            "eventType": "ma",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+            "mainSection": "capital",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
+            "stage": "board_plan",
+            "status": "active"
+          },
+          "matter_id": "1225458454",
+          "parser": "pypdf",
+          "pdfSha256": "644dee7cffe2c0b14727b5bbfdf67ce91123a0027d7e1d2a758aef5a7f1fc5a3",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458454.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 45044,
+              "controlCharacters": 0,
+              "languageRatio": 0.6737,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9994
+            },
+            "reasons": []
+          },
+          "textSha256": "69cc0a309eee215721956db4e31da9996e9fe9ec5fc6a44db10b6b472aad039c",
+          "title": "天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（上会稿）"
+        },
+        {
+          "body": "北京市竞天公诚律师事务所关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之补充法律意见书（二） 北京市朝阳区建国路 77 号华贸中心 3 号写字楼 34 层邮编：100025 34th Floor, Tower 3, China Central Place, 77 Jianguo Road, Chaoyang District, Beijing 100025, China 电话/Tel: +86 10 5809 1000 传。",
+          "company": "华天科技",
+          "discoveryPdfSha256": "407201259f2fad672edf616cfce4d72f1377cf62e8311b098391a6a0aaea0f37",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458453.PDF",
+          "excerpt": "北京市竞天公诚律师事务所关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之补充法律意见书（二） 北京市朝阳区建国路 77 号华贸中心 3 号写字楼 34 层邮编：100025 34th Floor, Tower 3, China Central Place, 77 Jianguo Road, Chaoyang District, Beijing 100025, China 电话/Tel: +86 10 5809 1000 传。",
+          "hkexNewsId": "",
+          "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "并购重组",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "收并购",
+            "eventType": "ma",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+            "mainSection": "capital",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
+            "stage": "audit_valuation",
+            "status": "active"
+          },
+          "matter_id": "1225458453",
+          "parser": "pypdf",
+          "pdfSha256": "407201259f2fad672edf616cfce4d72f1377cf62e8311b098391a6a0aaea0f37",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458453.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 42180,
+              "controlCharacters": 0,
+              "languageRatio": 0.8361,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9997
+            },
+            "reasons": []
+          },
+          "textSha256": "2defc3d55476019c8adfb70a1488e1a30f865c07abf49c18d3c3e82b5211a578",
+          "title": "北京市竞天公诚律师事务所关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之补充法律意见书（二）（上会稿）"
+        },
+        {
+          "body": "华泰联合证券有限责任公司关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告 （上会稿） 独立财务顾问签署日期：二〇二六年八月关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告 3-1-1 独立财务顾问声明和承诺华泰联合证券有限责任公司（以下简称“华泰联合”、“本独立财务顾问”）接受天水华天科技股份有限公司（以下简称“华天科技”、“上市公司”或“公司”）委托，担任本。",
+          "company": "华天科技",
+          "discoveryPdfSha256": "673afe84bccd16b467a73704f814355360e5891b2013c00973124d68d91dff0b",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458452.PDF",
+          "excerpt": "华泰联合证券有限责任公司关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告 （上会稿） 独立财务顾问签署日期：二〇二六年八月关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告 3-1-1 独立财务顾问声明和承诺华泰联合证券有限责任公司（以下简称“华泰联合”、“本独立财务顾问”）接受天水华天科技股份有限公司（以下简称“华天科技”、“上市公司”或“公司”）委托，担任本。",
+          "hkexNewsId": "",
+          "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "并购重组",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "收并购",
+            "eventType": "ma",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+            "mainSection": "capital",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
+            "stage": "audit_valuation",
+            "status": "active"
+          },
+          "matter_id": "1225458452",
+          "parser": "pypdf",
+          "pdfSha256": "673afe84bccd16b467a73704f814355360e5891b2013c00973124d68d91dff0b",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458452.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 42973,
+              "controlCharacters": 0,
+              "languageRatio": 0.7462,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9994
+            },
+            "reasons": []
+          },
+          "textSha256": "548ef0d593761cd639092c7d8b0d01eb69cf71ac2774acd820e60f02625ed7c8",
+          "title": "华泰联合证券有限责任公司关于天水华天科技股份有限公司发行股份及支付现金购买资产并募集配套资金暨关联交易之独立财务顾问报告（上会稿）"
+        },
+        {
+          "body": "1 证券代码：002185 证券简称：华天科技公告编号：2026-049 天水华天科技股份有限公司关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（上会稿） 修订说明的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整没有虚假记载、误导性陈述或重大遗漏。天水华天科技股份有限公司（以下简称“公司”）拟通过发行股份及支付现金的方式购买天水华天电子集团股份有限公司、西安后羿投资管理合伙企业（有限合伙）、西安芯天钰铂企业管理合伙企业。",
+          "company": "华天科技",
+          "discoveryPdfSha256": "c3a1fb77fb83b42fd410788b7dcaa8d515fcd82631e136d47c8b49d8430b565d",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458451.PDF",
+          "excerpt": "1 证券代码：002185 证券简称：华天科技公告编号：2026-049 天水华天科技股份有限公司关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（上会稿） 修订说明的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整没有虚假记载、误导性陈述或重大遗漏。天水华天科技股份有限公司（以下简称“公司”）拟通过发行股份及支付现金的方式购买天水华天电子集团股份有限公司、西安后羿投资管理合伙企业（有限合伙）、西安芯天钰铂企业管理合伙企业。",
+          "hkexNewsId": "",
+          "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "并购重组",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "收并购",
+            "eventType": "ma",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+            "mainSection": "capital",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
+            "stage": "board_plan",
+            "status": "active"
+          },
+          "matter_id": "1225458451",
+          "parser": "pypdf",
+          "pdfSha256": "c3a1fb77fb83b42fd410788b7dcaa8d515fcd82631e136d47c8b49d8430b565d",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458451.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 1467,
+              "controlCharacters": 0,
+              "languageRatio": 0.9127,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9952
+            },
+            "reasons": []
+          },
+          "textSha256": "96f53dbf11d081982b0ecdb039aaf866f38eac1c2f22b8f4ac623504928016f4",
+          "title": "关于发行股份及支付现金购买资产并募集配套资金暨关联交易报告书（草案）（上会稿）修订说明的公告"
+        },
+        {
+          "body": "证券代码：002185 证券简称：华天科技公告编号：2026-048 天水华天科技股份有限公司关于深圳证券交易所上市审核中心审核公司发行股份及支付现金购买资产并募集配套资金暨关联交易事项会议安排的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整， 没有虚假记载、误导性陈述或重大遗漏。天水华天科技股份有限公司（以下简称“公司”）拟通过发行股份及支付现金的方式购买天水华天电子集团股份有限公司、西安后羿投资管理合伙企业（有限合伙）、西安芯天钰铂企业。",
+          "company": "华天科技",
+          "discoveryPdfSha256": "464821364f3795a9d95f02a4372d9d9ad1c1fc513be24635c9439257ba954011",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458450.PDF",
+          "excerpt": "证券代码：002185 证券简称：华天科技公告编号：2026-048 天水华天科技股份有限公司关于深圳证券交易所上市审核中心审核公司发行股份及支付现金购买资产并募集配套资金暨关联交易事项会议安排的公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整， 没有虚假记载、误导性陈述或重大遗漏。天水华天科技股份有限公司（以下简称“公司”）拟通过发行股份及支付现金的方式购买天水华天电子集团股份有限公司、西安后羿投资管理合伙企业（有限合伙）、西安芯天钰铂企业。",
+          "hkexNewsId": "",
+          "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "并购重组",
+            "customerDisposition": "daily",
+            "eventLabel": "收并购",
+            "eventType": "ma",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-cc0f74ed69946905c2",
+            "mainSection": "capital",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
+            "stage": "progress",
+            "status": "active"
+          },
+          "matter_id": "1225458450",
+          "parser": "pypdf",
+          "pdfSha256": "464821364f3795a9d95f02a4372d9d9ad1c1fc513be24635c9439257ba954011",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458450.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 529,
+              "controlCharacters": 0,
+              "languageRatio": 0.9301,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9981
+            },
+            "reasons": []
+          },
+          "textSha256": "811a8ea013b67c59da3784ee4e9ced100f753587650bf60079ae4c8f9f8a563d",
+          "title": "关于深圳证券交易所上市审核中心审核公司发行股份及支付现金购买资产并募集配套资金暨关联交易事项会议安排的公告"
+        },
+        {
+          "body": "浙江天册（深圳）律师事务所关于达刚控股集团股份有限公司 2026 年第二次临时股东会的法律意见书中国广东省深圳市南山区科发路 222 号康泰创新广场 34 层 518057 电话：0755-83739000 传真：0755-26907494 http://www.tclawfirm.com 法律意见书 1 浙江天册（深圳）律师事务所关于达刚控股集团股份有限公司 2026 年第二次临时股东会的法律意见书致：达刚控股集团股份有限公司浙江天册（深圳）律师事务所。",
+          "company": "达刚控股",
+          "discoveryPdfSha256": "a43df5f46f2a789d0e5d804a1f9d8c4978f8d1578f5578844cfc234f14a14024",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458305.PDF",
+          "excerpt": "浙江天册（深圳）律师事务所关于达刚控股集团股份有限公司 2026 年第二次临时股东会的法律意见书中国广东省深圳市南山区科发路 222 号康泰创新广场 34 层 518057 电话：0755-83739000 传真：0755-26907494 http://www.tclawfirm.com 法律意见书 1 浙江天册（深圳）律师事务所关于达刚控股集团股份有限公司 2026 年第二次临时股东会的法律意见书致：达刚控股集团股份有限公司浙江天册（深圳）律师事务所。",
+          "hkexNewsId": "",
+          "kind": "capital",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "evidence_only",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": true,
+            "lifecycleId": "listed-lifecycle-3237e979ab891ca325",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "changed",
+            "status": "active"
+          },
+          "matter_id": "1225458305",
+          "parser": "pypdf",
+          "pdfSha256": "a43df5f46f2a789d0e5d804a1f9d8c4978f8d1578f5578844cfc234f14a14024",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458305.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 3529,
+              "controlCharacters": 0,
+              "languageRatio": 0.8969,
+              "mojibakeMarkers": 0,
+              "readableRatio": 1.0
+            },
+            "reasons": []
+          },
+          "textSha256": "fa1e76c772a57fa549044c25979134a8a545593fcbe6af4d8879ac85699f1bca",
+          "title": "浙江天册（深圳）律师事务所关于达刚控股集团股份有限公司2026年第二次临时股东会的法律意见书"
+        },
+        {
+          "body": "证券代码：300103 证券简称：达刚控股公告编号：2026-51 达刚控股集团股份有限公司 2026 年第二次临时股东会决议公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、 误导性陈述或重大遗漏。特别提示： ● 本次股东会未出现否决提案的情形。",
+          "company": "达刚控股",
+          "discoveryPdfSha256": "9368631a40af0e37c33a1c4c1eaab74008d59bbf6e22f01bed6fa79e32389040",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458304.PDF",
+          "excerpt": "证券代码：300103 证券简称：达刚控股公告编号：2026-51 达刚控股集团股份有限公司 2026 年第二次临时股东会决议公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、 误导性陈述或重大遗漏。特别提示： ● 本次股东会未出现否决提案的情形。",
+          "hkexNewsId": "",
+          "kind": "capital",
+          "matter_id": "1225458304",
+          "parser": "pypdf",
+          "pdfSha256": "9368631a40af0e37c33a1c4c1eaab74008d59bbf6e22f01bed6fa79e32389040",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458304.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 1902,
+              "controlCharacters": 0,
+              "languageRatio": 0.8733,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9989
+            },
+            "reasons": []
+          },
+          "textSha256": "ec5d28206845d92cd166ac31b0a1b6f7e826716d55540a96ecaf63240229e63b",
+          "title": "2026年第二次临时股东会决议公告"
+        },
+        {
+          "body": "1 证券代码:601012 证券简称:隆基绿能公告编号：2026-042号债券代码:113053 债券简称:隆 22 转债债券代码:244101 债券简称:GK 隆基 01 债券代码:244386 债券简称:GK 隆基 02 隆基绿能科技股份有限公司关于提供担保的进展公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示：  担保对象及基本情况被担保人名称本次担保。",
+          "company": "隆基绿能",
+          "discoveryPdfSha256": "3bb59f2a4f072928454636d3e9ed72a91fd4920f853fbc252ac4c281703cf225",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458123.PDF",
+          "excerpt": "1 证券代码:601012 证券简称:隆基绿能公告编号：2026-042号债券代码:113053 债券简称:隆 22 转债债券代码:244101 债券简称:GK 隆基 01 债券代码:244386 债券简称:GK 隆基 02 隆基绿能科技股份有限公司关于提供担保的进展公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示：  担保对象及基本情况被担保人名称本次担保。",
+          "hkexNewsId": "",
+          "kind": "risk",
+          "matter_id": "1225458123",
+          "parser": "pypdf",
+          "pdfSha256": "3bb59f2a4f072928454636d3e9ed72a91fd4920f853fbc252ac4c281703cf225",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225458123.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 3942,
+              "controlCharacters": 0,
+              "languageRatio": 0.8767,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9982
+            },
+            "reasons": []
+          },
+          "textSha256": "e6e959fc8a5b72e8851fe7efefe79b3399bad3e86d69c841d2dfdd3358b97406",
+          "title": "关于提供担保的进展公告"
+        },
+        {
+          "body": "T a n d e C o . , L t d . - 1 - www.tande.cn 天地源股份有限公司证券代码：600665 证券简称：天地源公告编号：临2026-054 债券代码：242114 债券简称：24天地一债券代码：242304 债券简称：25天地一债券代码：259269 债券简称：25天地二债券代码：259414 债券简称：25天地三天地源股份有限公司第十一届董事会第十八次会议决议公告本公司董事会及全体董事保证本公告内容不存在任何虚假记。",
+          "company": "天地源",
+          "discoveryPdfSha256": "f01a99bb97f2de55d19ef1130566154314c9c5f7f1be8abf3add47a6137d171b",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225457843.PDF",
+          "excerpt": "T a n d e C o . , L t d . - 1 - www.tande.cn 天地源股份有限公司证券代码：600665 证券简称：天地源公告编号：临2026-054 债券代码：242114 债券简称：24天地一债券代码：242304 债券简称：25天地一债券代码：259269 债券简称：25天地二债券代码：259414 债券简称：25天地三天地源股份有限公司第十一届董事会第十八次会议决议公告本公司董事会及全体董事保证本公告内容不存在任何虚假记。",
+          "hkexNewsId": "",
+          "kind": "dynamic",
+          "matter_id": "1225457843",
+          "parser": "pypdf",
+          "pdfSha256": "f01a99bb97f2de55d19ef1130566154314c9c5f7f1be8abf3add47a6137d171b",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225457843.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 1180,
+              "controlCharacters": 0,
+              "languageRatio": 0.9017,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9992
+            },
+            "reasons": []
+          },
+          "textSha256": "1f62f1716ed8e42a5aceb2c9ac7d89251aa7dbb3cb99cfe78710d9937aaa99c2",
+          "title": "天地源股份有限公司第十一届董事会第十八次会议决议公告"
+        },
+        {
+          "body": "T a n d e C o . , L t d . 1 www.tande.cn 天地源股份有限公司证券代码：600665 证券简称：天地源公告编号：临 2026-055 债券代码：242114 债券简称：24天地一债券代码：242304 债券简称：25天地一债券代码：259269 债券简称：25天地二债券代码：259414 债券简称：25天地三天地源股份有限公司为下属公司提供担保的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或。",
+          "company": "天地源",
+          "discoveryPdfSha256": "6eadea56afecaa78bce0f3f8abdf962fcd0e6a7708c4b5d35873f5ae0ee7dba3",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225457842.PDF",
+          "excerpt": "T a n d e C o . , L t d . 1 www.tande.cn 天地源股份有限公司证券代码：600665 证券简称：天地源公告编号：临 2026-055 债券代码：242114 债券简称：24天地一债券代码：242304 债券简称：25天地一债券代码：259269 债券简称：25天地二债券代码：259414 债券简称：25天地三天地源股份有限公司为下属公司提供担保的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或。",
+          "hkexNewsId": "",
+          "kind": "risk",
+          "matter_id": "1225457842",
+          "parser": "pypdf",
+          "pdfSha256": "6eadea56afecaa78bce0f3f8abdf962fcd0e6a7708c4b5d35873f5ae0ee7dba3",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225457842.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 2190,
+              "controlCharacters": 0,
+              "languageRatio": 0.9068,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9968
+            },
+            "reasons": []
+          },
+          "textSha256": "f53b687c7d23dc6023bac71e348366b006239a9c69f0cedccd713e2655de60c4",
+          "title": "天地源股份有限公司为下属公司提供担保的公告"
+        },
+        {
+          "body": "证券代码：688167 证券简称：炬光科技公告编号：2026-068 西安炬光科技股份有限公司关于召开 2026 年半年度业绩说明会的公告重要内容提示：  会议召开时间：2026 年 8 月 12 日（星期三）15:00-17:00  会议召开地点：进门财经平台  会议召开方式：线上视频会议西安炬光科技股份有限公司（以下简称“公司”）将于 2026 年 8 月 8 日在上海证券交易所网站（www.sse.com.cn）披露公司《2026 年半年度报。",
+          "company": "炬光科技",
+          "discoveryPdfSha256": "00f807284148ec96b8fb2f4ddc1cbf57e7a072f7826400d1232db8c7869bbc9e",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225456686.PDF",
+          "excerpt": "证券代码：688167 证券简称：炬光科技公告编号：2026-068 西安炬光科技股份有限公司关于召开 2026 年半年度业绩说明会的公告重要内容提示：  会议召开时间：2026 年 8 月 12 日（星期三）15:00-17:00  会议召开地点：进门财经平台  会议召开方式：线上视频会议西安炬光科技股份有限公司（以下简称“公司”）将于 2026 年 8 月 8 日在上海证券交易所网站（www.sse.com.cn）披露公司《2026 年半年度报。",
+          "hkexNewsId": "",
+          "kind": "dynamic",
+          "matter_id": "1225456686",
+          "parser": "pypdf",
+          "pdfSha256": "00f807284148ec96b8fb2f4ddc1cbf57e7a072f7826400d1232db8c7869bbc9e",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225456686.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 1196,
+              "controlCharacters": 0,
+              "languageRatio": 0.8662,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9975
+            },
+            "reasons": []
+          },
+          "textSha256": "475618b56c3355856fcd714c46fd7deae5c5f0883d9cfbd99f5a0f2d99cf5c7f",
+          "title": "西安炬光科技股份有限公司关于召开2026年半年度业绩说明会的公告"
+        },
+        {
+          "body": "与会董事审议通过《关于适时召开公司 2026 年第二次临时股东会的议案》，形成会议决议如下： 鉴于控股股东金堆城钼业集团有限公司参与表决公司股东会审议的事项须获得陕西有色金属控股集团有限责任公司的必要批准，同意由董事长择机确定公司 2026 年第二次临时股东会的召开时间、股权登记日等具体事项，公司适时向全体股东发出召开股东会的通知。",
+          "company": "金钼股份",
+          "discoveryPdfSha256": "5d95fcb4c6af1288bf3124cfff080a5cf2c091f38f761fc858e8f81e00dc93b1",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225456670.PDF",
+          "excerpt": "与会董事审议通过《关于适时召开公司 2026 年第二次临时股东会的议案》，形成会议决议如下： 鉴于控股股东金堆城钼业集团有限公司参与表决公司股东会审议的事项须获得陕西有色金属控股集团有限责任公司的必要批准，同意由董事长择机确定公司 2026 年第二次临时股东会的召开时间、股权登记日等具体事项，公司适时向全体股东发出召开股东会的通知。",
+          "hkexNewsId": "",
+          "kind": "dynamic",
+          "matter_id": "1225456670",
+          "parser": "pypdf",
+          "pdfSha256": "5d95fcb4c6af1288bf3124cfff080a5cf2c091f38f761fc858e8f81e00dc93b1",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225456670.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 478,
+              "controlCharacters": 0,
+              "languageRatio": 0.9268,
+              "mojibakeMarkers": 0,
+              "readableRatio": 1.0
+            },
+            "reasons": []
+          },
+          "textSha256": "a23881b4225a49cb8e0906047adac916dd0898e9d3fcd9d3781bf029af5657f1",
+          "title": "金钼股份2026年第6次董事会会议决议公告"
+        },
+        {
+          "body": "证券代码：600302 证券简称：ST 标准公告编号：2026-040 西安标准工业股份有限公司关于副总经理退休离任的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示： 西安标准工业股份有限公司（以下简称“公司”）董事会于 2026 年 8 月 4 日收到公司副总经理闫云龙先生递交的书面辞职报告。",
+          "company": "标准股份",
+          "discoveryPdfSha256": "b0208f250e2ed48774dd24758667e42991a3d5a06e19fe7054a59474bab34a60",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225456667.PDF",
+          "excerpt": "证券代码：600302 证券简称：ST 标准公告编号：2026-040 西安标准工业股份有限公司关于副总经理退休离任的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。重要内容提示： 西安标准工业股份有限公司（以下简称“公司”）董事会于 2026 年 8 月 4 日收到公司副总经理闫云龙先生递交的书面辞职报告。",
+          "hkexNewsId": "",
+          "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "治理变更",
+            "customerDisposition": "daily",
+            "eventLabel": "重大治理变更",
+            "eventType": "governance_change",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-a1d86bce5ebd199bea",
+            "mainSection": "governance",
+            "planId": "2026年",
+            "stage": "changed",
+            "status": "active"
+          },
+          "matter_id": "1225456667",
+          "parser": "pypdf",
+          "pdfSha256": "b0208f250e2ed48774dd24758667e42991a3d5a06e19fe7054a59474bab34a60",
+          "publishedAt": "2026-08-05",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225456667.PDF",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 475,
+              "controlCharacters": 0,
+              "languageRatio": 0.9389,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9979
+            },
+            "reasons": []
+          },
+          "textSha256": "3b1d77af2d18fe7c79e1c5508f305b316e11724f93a8a1c0e040a083d782f3f9",
+          "title": "标准股份关于副总经理退休离任的公告"
+        },
+        {
+          "body": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
+          "company": "大唐西市",
+          "discoveryPdfSha256": "2e04f601f29ff81e75716bae856f55779a937008842518c53f8e97f29b7582e6",
+          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-04/1225458656.PDF",
+          "excerpt": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
+          "hkexNewsId": "12272075",
+          "kind": "capital",
+          "matter_id": "1225458656",
+          "parser": "pdfkit",
+          "pdfSha256": "23a97bf0d76072e8c36fdc4f3ea6e5958d527e78284b50b2b759f6eb1adfda58",
+          "publishedAt": "2026-08-04",
+          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0804/2026080402339.pdf",
+          "textQuality": {
+            "eligible": true,
+            "metrics": {
+              "abnormalRuns": 0,
+              "brokenCjkSpacing": 0,
+              "characters": 7179,
+              "controlCharacters": 0,
+              "languageRatio": 0.9493,
+              "mojibakeMarkers": 0,
+              "readableRatio": 0.9994
+            },
+            "reasons": []
+          },
+          "textSha256": "14277945cdfddd7561f28e99759a99933bbb948a426d51dd6169e03d7e765414",
+          "title": "截至二零二六年七月三十一日止之股份发行人的证券变动月报表"
+        },
         {
           "body": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim a。",
           "company": "延长石油国际",
@@ -6913,260 +8089,30 @@
           },
           "textSha256": "59144a3a8225884aff04bfc5c7ac62c0e2c7341341fb2016c76398176cc9615d",
           "title": "关于副总裁任职资格获核准的公告"
-        },
-        {
-          "body": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim a。",
-          "company": "麦科医药-B",
-          "discoveryPdfSha256": "7f23a54a5e9c0aca8d4c3e65cac4719b628d052da42bf4cd16bbba6a83771e17",
-          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-03/1225456445.PDF",
-          "excerpt": "Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited take no responsibility for the contents of this announcement, make no representation as to its accuracy or completeness and expressly disclaim a。",
-          "hkexNewsId": "12269845",
-          "kind": "dynamic",
-          "matter_id": "1225456445",
-          "parser": "pdfkit",
-          "pdfSha256": "df15cf6e3aa193b3749c7e9d9e054c9ea7e68f0574cc60bae8ff2a02cc15b355",
-          "publishedAt": "2026-08-03",
-          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304089.pdf",
-          "textQuality": {
-            "eligible": true,
-            "metrics": {
-              "abnormalRuns": 0,
-              "brokenCjkSpacing": 0,
-              "characters": 4517,
-              "controlCharacters": 0,
-              "languageRatio": 0.9635,
-              "mojibakeMarkers": 0,
-              "readableRatio": 0.9978
-            },
-            "reasons": []
-          },
-          "textSha256": "583895ffde48d5c66e9c4c08bec1cfac8b64b6cd9aeae874cda9aec37e8c39e4",
-          "title": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点"
-        },
-        {
-          "body": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
-          "company": "申港控股",
-          "discoveryPdfSha256": "30d7be65aba200f46af1d8d5b29aa009aad1c991f1a747350d353d352421f56a",
-          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-03/1225455862.PDF",
-          "excerpt": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
-          "hkexNewsId": "12269279",
-          "kind": "capital",
-          "matter_id": "1225455862",
-          "parser": "pdfkit",
-          "pdfSha256": "3d9b254e8d0d585a6f52ceb1b73ca3180a8037c2a1234c6dcbbaf8faabab85b8",
-          "publishedAt": "2026-08-03",
-          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0803/2026080303521.pdf",
-          "textQuality": {
-            "eligible": true,
-            "metrics": {
-              "abnormalRuns": 0,
-              "brokenCjkSpacing": 0,
-              "characters": 5965,
-              "controlCharacters": 0,
-              "languageRatio": 0.9505,
-              "mojibakeMarkers": 0,
-              "readableRatio": 0.9993
-            },
-            "reasons": []
-          },
-          "textSha256": "3656397e5f49ba0f083236cb1e240f2b78e126ef0e919752f0f0e751db5890c1",
-          "title": "截至二零二六年七月三十一日止之股份发行人的证券变动月报表"
-        },
-        {
-          "body": "FF301 Status: New Submission Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 To : Hong Kong Ex。",
-          "company": "海天天线",
-          "discoveryPdfSha256": "9a2253d970580e8a0514dec6e69499d50cb2defc353aecb8872bbcb30fcef249",
-          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-03/1225455411.PDF",
-          "excerpt": "FF301 Status: New Submission Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 To : Hong Kong Ex。",
-          "hkexNewsId": "12268728",
-          "kind": "dynamic",
-          "matter_id": "1225455411",
-          "parser": "pdfkit",
-          "pdfSha256": "7f30c40d3b458db5a506b99129bd75dc5a872d6ca4dcfe349f17390f7ea19626",
-          "publishedAt": "2026-08-03",
-          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/0803/2026080302970.pdf",
-          "textQuality": {
-            "eligible": true,
-            "metrics": {
-              "abnormalRuns": 0,
-              "brokenCjkSpacing": 0,
-              "characters": 6707,
-              "controlCharacters": 0,
-              "languageRatio": 0.9471,
-              "mojibakeMarkers": 0,
-              "readableRatio": 0.9994
-            },
-            "reasons": []
-          },
-          "textSha256": "4add0e064ec500a77791bea5628679519f29259ed9dbae379c99ab55ae571b03",
-          "title": "证券变动月报表 - 2026年7月份"
-        },
-        {
-          "body": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 To : Hong Kong Exchanges and Clearing Li。",
-          "company": "经发物业",
-          "discoveryPdfSha256": "e4b00b566e37a0a575c67696bfb072caf915794fca1489d188eb645974890200",
-          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-03/1225455147.PDF",
-          "excerpt": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 To : Hong Kong Exchanges and Clearing Li。",
-          "hkexNewsId": "12268480",
-          "kind": "capital",
-          "matter_id": "1225455147",
-          "parser": "pdfkit",
-          "pdfSha256": "c55f023acd5a38b0b1716901f3213d207b6ab402f3be563d781204665d44ea7a",
-          "publishedAt": "2026-08-03",
-          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080302722.pdf",
-          "textQuality": {
-            "eligible": true,
-            "metrics": {
-              "abnormalRuns": 0,
-              "brokenCjkSpacing": 0,
-              "characters": 6939,
-              "controlCharacters": 0,
-              "languageRatio": 0.9493,
-              "mojibakeMarkers": 0,
-              "readableRatio": 0.9994
-            },
-            "reasons": []
-          },
-          "textSha256": "dbc71d20f43d4875681caa978aa8af8437dbc49c4215f6c0c143fb021bb1aa6d",
-          "title": "截至二零二六年七月三十一日止月份之股份发行人的证券变动月报表"
-        },
-        {
-          "body": "FF301 Status: New Submission Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 To : Hong Kong Ex。",
-          "company": "彩虹新能源",
-          "discoveryPdfSha256": "e5fde2ebb78e8b6574a02471b78b86daf781c9a7a762f9a5693eec24a9f4ca1b",
-          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-03/1225454966.PDF",
-          "excerpt": "FF301 Status: New Submission Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 To : Hong Kong Ex。",
-          "hkexNewsId": "12268234",
-          "kind": "capital",
-          "matter_id": "1225454966",
-          "parser": "pdfkit",
-          "pdfSha256": "81e6721946c29447ef2746c76f5d281d02bd33e073df7ad3dafaf5ee431e98f5",
-          "publishedAt": "2026-08-03",
-          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080302458.pdf",
-          "textQuality": {
-            "eligible": true,
-            "metrics": {
-              "abnormalRuns": 0,
-              "brokenCjkSpacing": 0,
-              "characters": 6779,
-              "controlCharacters": 0,
-              "languageRatio": 0.9501,
-              "mojibakeMarkers": 0,
-              "readableRatio": 0.9994
-            },
-            "reasons": []
-          },
-          "textSha256": "a8ad208a537259f95216327bdf5f4ffa438e322c1b4e6beea96ecd5ac82c149d",
-          "title": "截至二零二六年七月三十一日止股份发行人的证券变动月报表"
-        },
-        {
-          "body": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
-          "company": "普汇中金国际",
-          "discoveryPdfSha256": "d3daa997262bd4510ccaffe2db6559a43a261cec8bdaa0acaa3c49f5f7d0635d",
-          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-03/1225453735.PDF",
-          "excerpt": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
-          "hkexNewsId": "12266996",
-          "kind": "capital",
-          "matter_id": "1225453735",
-          "parser": "pdfkit",
-          "pdfSha256": "6c11c9c1ec53de599333708710b1a2b504940dcd4fd9be6975f68cdc5d0eba3d",
-          "publishedAt": "2026-08-03",
-          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080301240.pdf",
-          "textQuality": {
-            "eligible": true,
-            "metrics": {
-              "abnormalRuns": 0,
-              "brokenCjkSpacing": 0,
-              "characters": 5998,
-              "controlCharacters": 0,
-              "languageRatio": 0.9498,
-              "mojibakeMarkers": 0,
-              "readableRatio": 0.9993
-            },
-            "reasons": []
-          },
-          "textSha256": "693d9e2363c00bbb24db4751ef75703632379a34d72a6fd66d79c8a8bb9c8707",
-          "title": "截至二零二六年七月三十一日止月份之股份发行人的证券变动月报表"
-        },
-        {
-          "body": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
-          "company": "西部水泥",
-          "discoveryPdfSha256": "5ed44e367c5d0e6ee68660211e839a6e9d98ff21f97b9bd74b553337463a40c9",
-          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-03/1225453313.PDF",
-          "excerpt": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
-          "hkexNewsId": "12266673",
-          "kind": "capital",
-          "matter_id": "1225453313",
-          "parser": "pdfkit",
-          "pdfSha256": "d8909e127395f67a2f2d1623b7514fbd30edce3af9a4d13858738a2389edda85",
-          "publishedAt": "2026-08-03",
-          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080300989.pdf",
-          "textQuality": {
-            "eligible": true,
-            "metrics": {
-              "abnormalRuns": 0,
-              "brokenCjkSpacing": 0,
-              "characters": 5992,
-              "controlCharacters": 0,
-              "languageRatio": 0.9498,
-              "mojibakeMarkers": 0,
-              "readableRatio": 0.9993
-            },
-            "reasons": []
-          },
-          "textSha256": "8278084bc9f77ba4bbcad7426c12a0114db3f5fe21ec7322bacddd209de5a663",
-          "title": "股份发行人的证券变动月报表"
-        },
-        {
-          "body": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
-          "company": "天瑞汽车内饰",
-          "discoveryPdfSha256": "5608c733af96b48d1980645ea047dd008daa013a7ca98216b9d09fd1af1f6a48",
-          "discoverySourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-03/1225452955.PDF",
-          "excerpt": "FF301 Monthly Return for Equity Issuer and Hong Kong Depositary Receipts listed under Chapter 19B of the Exchange Listing Rules on Movements in Securities For the month ended: 31 July 2026 Status: New Submission To : Hong Kong Ex。",
-          "hkexNewsId": "12265891",
-          "kind": "capital",
-          "matter_id": "1225452955",
-          "parser": "pdfkit",
-          "pdfSha256": "cca5e3f4ef7be1f0e3e5e16b2ff052e1575a3865729214180a8211cefe4322b7",
-          "publishedAt": "2026-08-03",
-          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080300229.pdf",
-          "textQuality": {
-            "eligible": true,
-            "metrics": {
-              "abnormalRuns": 0,
-              "brokenCjkSpacing": 0,
-              "characters": 6000,
-              "controlCharacters": 0,
-              "languageRatio": 0.9495,
-              "mojibakeMarkers": 0,
-              "readableRatio": 0.9993
-            },
-            "reasons": []
-          },
-          "textSha256": "dd40b87820784c0ac9148bbea74b9f3a65e183e132af0420384f50189b0af39a",
-          "title": "截至二零二六年七月三十一日止月份之股份发行人的证券变动月报表"
         }
       ],
-      "subtitle": "2026-08-04｜逐主体检索110家正式观察池，41条公告、21家发布公告公司",
+      "subtitle": "2026-08-05｜逐主体检索110家正式观察池，46条公告、22家发布公告公司",
       "template": "v2-listed-v1-editorial",
       "tiles": [
         {
-          "announcementTitle": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
-          "attention": "关注完整数据、安全性结果及后续临床开发安排。",
-          "body": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
+          "announcementTitle": "天地源股份有限公司第十一届董事会第十八次会议决议公告",
+          "attention": "关注已通过议案的执行、人员履职和资金或工商安排。",
+          "body": "董事会会议审议情况会议审议并通过以下议案： （一）关于向金融机构申请融资的议案公司拟向西部信托有限公司申请不超过 5.25 亿元信托贷款。",
           "business": {
-            "category": "综合事项",
+            "category": "治理关系",
             "contentImportance": "内容重要",
             "priority": "standard",
-            "subcategory": "综合事项",
+            "subcategory": "章程治理",
             "targets": [
-              "董秘办"
+              "董秘办",
+              "证券事务代表",
+              "管理层"
             ]
           },
-          "businessSubcategory": "创新药研发",
-          "canonicalDetailId": "listed-detail-ee016264b1-87ff676c",
-          "company": "麦科医药-B",
-          "conclusion": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
+          "businessSubcategory": "董事会决议",
+          "canonicalDetailId": "listed-detail-705a97daa3-bdf7e6bd",
+          "company": "天地源",
+          "conclusion": "董事会会议审议情况会议审议并通过以下议案： （一）关于向金融机构申请融资的议案公司拟向西部信托有限公司申请不超过 5.25 亿元信托贷款，资金方为陕西省技术进步投资有限公司。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -7180,44 +8126,46 @@
               "templateFree": true
             },
             "genericTitleRewrite": false,
-            "impact": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
-            "keyFigures": [],
-            "nextObservation": "后续关注完整数据、安全性结果及后续临床开发安排。",
+            "impact": "董事会已经形成正式决策，实际影响取决于获通过议案的执行、审批和资金安排。",
+            "keyFigures": [
+              "5.25 亿元"
+            ],
+            "nextObservation": "后续关注已通过议案的执行、人员履职和资金或工商安排。",
             "passed": true,
-            "stage": "临床进展",
+            "stage": "董事会决议",
             "stageEvidence": {
               "mode": "structured_matter_type",
               "sourceIds": []
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "麦科医药披露治疗急性缺血性脑卒中的II期临床试验达到主要终点，结果由公告确认。",
-          "customerFollowUp": "关注完整数据、安全性结果及后续临床开发安排。",
-          "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
-          "importance": "重点",
+          "customerFact": "董事会会议审议情况会议审议并通过以下议案： （一）关于向金融机构申请融资的议案公司拟向西部信托有限公司申请不超过 5.25 亿元信托贷款。",
+          "customerFollowUp": "关注已通过议案的执行、人员履职和资金或工商安排。",
+          "impactAssessment": "董事会已经形成正式决策，实际影响取决于获通过议案的执行、审批和资金安排。",
+          "importance": "必看",
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "临床进展",
-          "matter_id": "listed-matter-670e3e860fd9e3",
-          "nextObservation": "后续关注完整数据、安全性结果及后续临床开发安排。",
-          "publishedAt": "2026-08-03",
+          "matterType": "董事会决议",
+          "matter_id": "listed-matter-84550ae1a158bb",
+          "nextObservation": "后续关注已通过议案的执行、人员履职和资金或工商安排。",
+          "publishedAt": "2026-08-05",
           "sourceAnnouncementIds": [
-            "1225456445"
+            "1225457843"
           ],
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304089.pdf",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225457843.PDF",
           "sources": [
             {
-              "announcementId": "1225456445",
-              "announcementTitle": "自愿性公告 MT200605治疗急性缺血性脑卒中(AIS)的II期 临床试验达到主要终点",
+              "announcementId": "1225457843",
+              "announcementTitle": "天地源股份有限公司第十一届董事会第十八次会议决议公告",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304089.pdf"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-05/1225457843.PDF"
             }
           ],
-          "title": "麦科医药-B｜临床进展",
-          "whyImportant": "关注完整数据、安全性结果及后续临床开发安排。"
+          "title": "天地源｜董事会决议",
+          "whyImportant": "关注已通过议案的执行、人员履职和资金或工商安排。"
         }
       ]
     },
@@ -8473,21 +9421,38 @@
     ],
     "focusCompanies": [
       {
-        "anchorId": "listed-detail-fc0b8f1caf-faa0f290",
+        "anchorId": "listed-detail-ab6a50bd4e-99ab46f1",
         "business": {
           "category": "资本运作",
           "contentImportance": "内容重要",
           "priority": "focus",
-          "subcategory": "股份回购",
+          "subcategory": "并购重组",
           "targets": [
             "董秘办",
             "财务",
             "投融资负责人"
           ]
         },
-        "company": "达刚控股",
-        "followText": "关注回购进度、成交区间及后续用途。",
+        "company": "华天科技",
+        "followText": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
         "sourceSection": "section-04"
+      },
+      {
+        "anchorId": "listed-detail-fc0b8f1caf-b4a2aa28",
+        "business": {
+          "category": "治理关系",
+          "contentImportance": "固定披露",
+          "priority": "standard",
+          "subcategory": "章程治理",
+          "targets": [
+            "董秘办",
+            "证券事务代表",
+            "管理层"
+          ]
+        },
+        "company": "达刚控股",
+        "followText": "关注已通过议案执行及相关工商或资金安排。",
+        "sourceSection": "section-05"
       },
       {
         "anchorId": "listed-detail-aikesaibo",
@@ -8522,37 +9487,20 @@
         "company": "供销大集",
         "followText": "关注回购进度、成交区间及后续用途。",
         "sourceSection": "section-04"
-      },
-      {
-        "anchorId": "listed-detail-51a0627115-6335aea1",
-        "business": {
-          "category": "资金与财务",
-          "contentImportance": "内容重要",
-          "priority": "focus",
-          "subcategory": "现金管理",
-          "targets": [
-            "财务负责人",
-            "资金部",
-            "董秘办"
-          ]
-        },
-        "company": "光电股份",
-        "followText": "关注产品到期赎回、实际收益、未到期余额及授权额度。",
-        "sourceSection": "section-04"
       }
     ],
     "isAsOfFallback": false,
-    "latestEventDate": "2026-08-04",
-    "pageDate": "2026-08-04",
-    "sourceAsOf": "2026-08-04",
+    "latestEventDate": "2026-08-05",
+    "pageDate": "2026-08-05",
+    "sourceAsOf": "2026-08-05",
     "sourceCoverage": {
-      "linked": 18,
-      "total": 18,
+      "linked": 22,
+      "total": 22,
       "unmatched": []
     }
   },
   "ma": {
-    "pageDate": "2026-08-04",
+    "pageDate": "2026-08-05",
     "pendingProjects": [
       {
         "amount": "合计约6.75亿元；三方各受让681.6036万股",
@@ -9313,7 +10261,7 @@
         "updatedAt": ""
       }
     ],
-    "scanAsOf": "2026-08-04",
+    "scanAsOf": "2026-08-05",
     "sourceAsOf": "2026-07-28",
     "sourceCoverage": {
       "historicalExactDocumentBacklog": 1,
@@ -10024,7 +10972,7 @@
       }
     ]
   },
-  "pageDate": "2026-08-04",
+  "pageDate": "2026-08-05",
   "private": {
     "annualMonthCounts": {
       "2026-01": 0,
@@ -10034,7 +10982,7 @@
       "2026-05": 3,
       "2026-06": 12,
       "2026-07": 17,
-      "2026-08": 0
+      "2026-08": 2
     },
     "custodianStats": [
       {
@@ -10049,13 +10997,13 @@
       },
       {
         "count": 7,
-        "label": "国泰海通",
-        "name": "国泰海通证券股份有限公司"
-      },
-      {
-        "count": 6,
         "label": "华泰证券",
         "name": "华泰证券股份有限公司"
+      },
+      {
+        "count": 7,
+        "label": "国泰海通",
+        "name": "国泰海通证券股份有限公司"
       },
       {
         "count": 5,
@@ -10096,6 +11044,11 @@
         "count": 1,
         "label": "国元证券",
         "name": "国元证券股份有限公司"
+      },
+      {
+        "count": 1,
+        "label": "国金证券股份有限公司",
+        "name": "国金证券股份有限公司"
       },
       {
         "count": 1,
@@ -20526,7 +21479,7 @@
       "yearCancelDetailLimitHit": false
     },
     "excludedEvidence": [],
-    "latestEventDate": "2026-07-31",
+    "latestEventDate": "2026-08-04",
     "managerCounts": {
       "PF1": 87,
       "PF2": 5,
@@ -20815,9 +21768,9 @@
       {
         "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/101000031013.html",
         "evidence": [],
-        "filingCount": 1,
+        "filingCount": 2,
         "id": "101000031013",
-        "latestFiling": "2026-05-08",
+        "latestFiling": "2026-08-04",
         "name": "深圳乾元资始私募证券基金管理有限公司",
         "officeAddress": "陕西省西安市雁塔区锦业一路56号研祥城市广场A座1002室",
         "officeProvince": "陕西省",
@@ -21801,9 +22754,9 @@
       {
         "detailUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/manager/2008111918106744.html",
         "evidence": [],
-        "filingCount": 11,
+        "filingCount": 12,
         "id": "2008111918106744",
-        "latestFiling": "2026-07-23",
+        "latestFiling": "2026-08-04",
         "name": "陕西九和岛基金管理有限公司",
         "officeAddress": "陕西省西安市雁塔区曲江新区曲江池南路万众国际B座903-2室",
         "officeProvince": "陕西省",
@@ -22329,7 +23282,7 @@
         "id": "101000027983",
         "latestFiling": "2026-03-26",
         "name": "添佑私募基金管理（上海）有限公司",
-        "officeAddress": "",
+        "officeAddress": "陕西省西安市雁塔区陕西永利国际金融中心1405",
         "officeProvince": "云南省",
         "registerNo": "P1018901",
         "registerProvince": "上海市",
@@ -22396,9 +23349,37 @@
         "tier": "PF2"
       }
     ],
-    "pageDate": "2026-08-04",
+    "pageDate": "2026-08-05",
     "pendingEvidence": [],
     "products": [
+      {
+        "custodian": "国金证券股份有限公司",
+        "custodianLabel": "国金证券股份有限公司",
+        "establishDate": "2026-07-01",
+        "filingDate": "2026-08-04",
+        "fundName": "乾元强因子2号私募证券投资基金",
+        "fundNo": "SBAT63",
+        "managerName": "深圳乾元资始私募证券基金管理有限公司",
+        "relationLabel": "广东注册 / 陕西办公",
+        "sourcePath": "v2/data/daily/private/security-private-fund-daily-2026-08-05.json",
+        "sourceQuality": "amac-official-current-pool",
+        "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608041912103417.html",
+        "universeTier": "PF1"
+      },
+      {
+        "custodian": "华泰证券股份有限公司",
+        "custodianLabel": "华泰证券",
+        "establishDate": "2026-07-14",
+        "filingDate": "2026-08-04",
+        "fundName": "九和岛瑶光套利一号私募证券投资基金",
+        "fundNo": "SB6583",
+        "managerName": "陕西九和岛基金管理有限公司",
+        "relationLabel": "陕西注册 / 陕西办公",
+        "sourcePath": "v2/data/daily/private/security-private-fund-daily-2026-08-05.json",
+        "sourceQuality": "amac-official-current-pool",
+        "sourceUrl": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608041502107921.html",
+        "universeTier": "PF1"
+      },
       {
         "custodian": "兴业证券股份有限公司",
         "custodianLabel": "兴业证券",
@@ -23436,7 +24417,7 @@
         }
       }
     },
-    "sourceAsOf": "2026-08-04",
+    "sourceAsOf": "2026-08-05",
     "summary": {
       "cancellationCount": 3,
       "limitHit": true,
@@ -23448,75 +24429,75 @@
       "yearCancellationDetailChecked": 600,
       "yearCancellationDetailTotal": 658
     },
-    "universeAsOf": "2026-08-04"
+    "universeAsOf": "2026-08-05"
   },
   "readiness": {
     "channels": {
       "listed": {
         "evidence": [
-          "v2/data/daily/listed/cninfo-announcements-2026-08-04.json",
-          "v2/data/daily/listed/editorial-evidence/2026-08-04/evening-37bb52b7c1dd0cf1.json.gz",
-          "v2/data/daily/listed/editorial-quarantine-2026-08-04-evening.json",
-          "v2/data/daily/listed/hkex-review-2026-08-04.json",
-          "v2/data/daily/listed/listed-official-2026-08-04.json"
+          "v2/data/daily/listed/cninfo-announcements-2026-08-05.json",
+          "v2/data/daily/listed/editorial-evidence/2026-08-05/morning-e2ea24bb57fc4ff7.json.gz",
+          "v2/data/daily/listed/editorial-quarantine-2026-08-05-morning.json",
+          "v2/data/daily/listed/hkex-review-2026-08-05.json",
+          "v2/data/daily/listed/listed-official-2026-08-05.json"
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "listed_primary_verified_41_announcements",
-        "scanAsOf": "2026-08-04",
+        "result": "listed_primary_verified_46_announcements",
+        "scanAsOf": "2026-08-05",
         "status": "completed"
       },
       "ma": {
         "evidence": [
-          "v2/data/source/ma/scans/scan-2026-08-04-evening.json"
+          "v2/data/source/ma/scans/scan-2026-08-05-morning.json"
         ],
         "ready": true,
         "releaseEligible": false,
         "result": "ma_completed_event_on_scan_date_false",
-        "scanAsOf": "2026-08-04",
+        "scanAsOf": "2026-08-05",
         "status": "no_new"
       },
       "private": {
         "evidence": [
-          "v2/data/daily/private/security-private-fund-daily-2026-08-04.json",
+          "v2/data/daily/private/security-private-fund-daily-2026-08-05.json",
           "v2/data/source/private/products-2026.json",
           "v2/data/source/private/universe.json"
         ],
         "ready": true,
         "releaseEligible": false,
         "result": "private_daily_verified_observation_pool_92_new_products_0",
-        "scanAsOf": "2026-08-04",
+        "scanAsOf": "2026-08-05",
         "status": "no_new"
       },
       "soe": {
         "evidence": [
-          "v2/data/source/soe/scans/scan-2026-08-04-evening.json"
+          "v2/data/source/soe/scans/scan-2026-08-05-morning.json"
         ],
         "ready": true,
         "releaseEligible": false,
-        "result": "soe_completed_event_on_scan_date_true",
-        "scanAsOf": "2026-08-04",
-        "status": "completed"
+        "result": "soe_completed_event_on_scan_date_false",
+        "scanAsOf": "2026-08-05",
+        "status": "no_new"
       },
       "tender": {
         "evidence": [
-          "v2/data/source/tender/scans/scan-2026-08-04-evening.json"
+          "v2/data/source/tender/scans/scan-2026-08-05-morning.json"
         ],
         "ready": true,
         "releaseEligible": true,
         "result": "tender_degraded_event_on_scan_date_false",
-        "scanAsOf": "2026-08-04",
+        "scanAsOf": "2026-08-05",
         "status": "degraded"
       }
     },
-    "date": "2026-08-04",
+    "date": "2026-08-05",
     "failures": [],
     "qualityContract": {
       "path": "v2/config/production-quality-contract.json",
       "sha256": "9e936530dc510f05e5db332b985a22b14f6fae7fa85112b08197f0cd4289dda7",
       "standard": "v1-source-and-editorial-quality"
     },
-    "slot": "evening",
+    "slot": "morning",
     "sourceConstraints": [
       {
         "channel": "tender",
@@ -23535,8 +24516,8 @@
     "updatedAt": "当前记录最近一次可核验公开进展日期",
     "year": "eventDate 所在自然年；仅展示结构化源中真实存在的年份"
   },
-  "scanAsOf": "2026-08-04",
-  "scanSlot": "evening",
+  "scanAsOf": "2026-08-05",
+  "scanSlot": "morning",
   "schemaVersion": "2.2",
   "soe": {
     "available": true,
@@ -23938,7 +24919,7 @@
       ]
     },
     "customerBoundary": "当前可查询的国企历史记录最早到2026-05-21；更早记录尚未完成系统回补，不能据此视为年初以来全量。",
-    "eventOnScanDate": true,
+    "eventOnScanDate": false,
     "focusRecords": [
       {
         "candidateId": "soe-backfill-edcbd95f281dbb09294a",
@@ -24011,19 +24992,19 @@
         "title": "麦科奥特通过港交所上市聆讯 长安汇通前瞻布局结出硕果"
       }
     ],
-    "isAsOfFallback": false,
+    "isAsOfFallback": true,
     "latestRecordDate": "2026-08-04",
     "limits": [
       "当前事件库最早记录为2026-05-21，不能据此声明1月至5月20日全量",
       "新增事项须经V2专用证据批次和原始官方链接核验后入库"
     ],
     "networkVerified": true,
-    "pageDate": "2026-08-04",
+    "pageDate": "2026-08-05",
     "recordCount": 106,
     "rejectedCandidateCount": 0,
-    "scanAsOf": "2026-08-04",
-    "scanEvidence": "v2/data/source/soe/scans/scan-2026-08-04-evening.json",
-    "scanSlot": "evening",
+    "scanAsOf": "2026-08-05",
+    "scanEvidence": "v2/data/source/soe/scans/scan-2026-08-05-morning.json",
+    "scanSlot": "morning",
     "scanStatus": "completed",
     "sourceAsOf": "2026-08-04",
     "summary": {
@@ -24035,11 +25016,11 @@
     }
   },
   "sourceAsOf": {
-    "equity": "2026-08-04",
-    "listed": "2026-08-04",
+    "equity": "2026-08-05",
+    "listed": "2026-08-05",
     "ma": "2026-07-28",
-    "privateProducts": "2026-08-04",
-    "privateUniverse": "2026-08-04",
+    "privateProducts": "2026-08-05",
+    "privateUniverse": "2026-08-05",
     "soe": "2026-08-04",
     "tender": "2026-07-29"
   },
@@ -24052,27 +25033,28 @@
       "channel-tender.webp": "v2/assets/channel-tender.webp"
     },
     "equityEvents": "v2/data/source/equity/events-2026.json",
-    "equityScanEvidence": "v2/data/source/equity/scans/scan-2026-08-04-evening.json",
+    "equityScanEvidence": "v2/data/source/equity/scans/scan-2026-08-05-morning.json",
     "equityUniverse": "v2/data/source/equity/universe.json",
     "eventStore": "v2/data/source/events/unified-2026.json",
     "listedBusinessTaxonomy": "v2/data/source/listed/business-taxonomy.json",
-    "listedDaily": "v2/data/daily/listed/listed-official-2026-08-04.json",
+    "listedDaily": "v2/data/daily/listed/listed-official-2026-08-05.json",
     "listedUniverse": "v2/data/source/listed/universe.json",
     "maAnnual": "v2/data/source/ma/events-2026.json",
-    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-08-04-evening.json",
+    "maScanEvidence": "v2/data/source/ma/scans/scan-2026-08-05-morning.json",
     "observationPool": "v2/data/source/observation-pool.json",
     "privateAnnual": "v2/data/source/private/products-2026.json",
     "privateProductEvidence": [
       "v2/data/daily/private/security-private-fund-daily-2026-07-29.json",
       "v2/data/daily/private/security-private-fund-daily-2026-07-31.json",
-      "v2/data/daily/private/security-private-fund-daily-2026-08-04.json"
+      "v2/data/daily/private/security-private-fund-daily-2026-08-04.json",
+      "v2/data/daily/private/security-private-fund-daily-2026-08-05.json"
     ],
-    "privateUniverse": "v2/data/daily/private/security-private-fund-daily-2026-08-04.json + v2/data/source/private/universe.json",
+    "privateUniverse": "v2/data/daily/private/security-private-fund-daily-2026-08-05.json + v2/data/source/private/universe.json",
     "soeAnnual": "v2/data/source/soe/events-2026.json",
-    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-08-04-evening.json",
+    "soeScanEvidence": "v2/data/source/soe/scans/scan-2026-08-05-morning.json",
     "sourceContract": "v2/config/source-contract.json",
     "tenderAnnualProjects": "v2/data/source/tender/events-2026.json",
-    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-08-04-evening.json",
+    "tenderScanEvidence": "v2/data/source/tender/scans/scan-2026-08-05-morning.json",
     "v1HistoryIndex": "v2/data/source/v1-history-index.json"
   },
   "tender": {
@@ -24086,7 +25068,7 @@
       "withCandidateOrResultSignal": 3
     },
     "isAsOfFallback": true,
-    "pageDate": "2026-08-04",
+    "pageDate": "2026-08-05",
     "pending": [
       {
         "formalTitle": "陕西金资2026年面向专业投资者公开发行公司债券选定主承销商和联席主承销商项目",
@@ -24288,7 +25270,7 @@
         ]
       }
     ],
-    "scanAsOf": "2026-08-04",
+    "scanAsOf": "2026-08-05",
     "sourceAsOf": "2026-07-29"
   },
   "year": 2026
