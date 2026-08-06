@@ -135,11 +135,15 @@ const businessMeta=row=>{
   const business=row.business||{};
   return `<span class="business-path">${esc(business.category||"综合事项")} · ${esc(business.subcategory||"综合事项")}</span>${business.priority==="focus"?tag("业务重点","green"):""}${business.contentImportance?tag(business.contentImportance,business.contentImportance.includes("必看")||business.contentImportance==="内容重要"?"red":"gold"):""}<span class="targets">关注：${esc((business.targets||["公司公告"]).join("、"))}</span>`;
 };
+const isForecastAnnouncement=row=>row?.matterType==="业绩预告"||/(?:业绩预告|盈利预警|预盈|预亏|扭亏)/.test(String(row?.announcementTitle||""));
+const forecastAnnouncementLink=row=>isForecastAnnouncement(row)&&row?.sourceUrl
+  ?`<p class="source forecast-announcement-link">${external(row.sourceUrl,"公告原文 ↗")}</p>`
+  :"";
 const newsReference=({row,company,title,text})=>`<article class="news-reference"><div><b>${esc(company)}</b><span>${esc(title)}</span><p>${esc(text)}</p></div><a href="#${esc(row.referenceAnchor)}">查看主事项 →</a></article>`;
 const newsRow=({row,company,title,text,numbers="",follow=""})=>{
   if(row.isReference)return newsReference({row,company,title,text});
   const detailId=row.canonicalDetailId||row.focusAnchorId||"";
-  return `<article class="news-row${detailId?" canonical-detail":""}"${detailId?` id="${esc(detailId)}" tabindex="-1"`:""}><div class="news-company"><b>${esc(company)}</b><span>${esc(title||"")}</span><time>${esc(monthDay(row.publishedAt))}</time></div><div class="news-main"><div class="news-meta">${businessMeta(row)}</div>${numbers?`<div class="news-numbers">${numbers}</div>`:""}<p>${esc(text)}</p>${follow?`<small><b>关注要点：</b>${esc(follow)}</small>`:""}</div></article>`;
+  return `<article class="news-row${detailId?" canonical-detail":""}"${detailId?` id="${esc(detailId)}" tabindex="-1"`:""}><div class="news-company"><b>${esc(company)}</b><span>${esc(title||"")}</span><time>${esc(monthDay(row.publishedAt))}</time></div><div class="news-main"><div class="news-meta">${businessMeta(row)}</div>${numbers?`<div class="news-numbers">${numbers}</div>`:""}<p>${esc(text)}</p>${forecastAnnouncementLink(row)}${follow?`<small><b>关注要点：</b>${esc(follow)}</small>`:""}</div></article>`;
 };
 
 function home(data){
