@@ -44,7 +44,7 @@
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-08-10.json",
-        "sha256": "e1ded2c7c64cf7f8893271f3e0f2dd9d053769931385171e2452de303df5cdc1"
+        "sha256": "c62e07fffcb384c72acadc585185b557f82392ef8a4d0b1a73a066dd9b114106"
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-08-10.json",
@@ -144,7 +144,7 @@
       },
       {
         "path": "v2/scripts/build_daily_v2.py",
-        "sha256": "c0c261cf8bdea0db51c556edaad45f921676247a93cd6c2339ada7a0714efe9f"
+        "sha256": "a1faaef0d73c969a2781abfe5d56b243df0c74157e78b1ddfd560878a07a796f"
       },
       {
         "path": "v2/scripts/refresh_equity_private_events.py",
@@ -172,7 +172,7 @@
     "readiness": "v2/data/readiness/v2-ready-2026-08-10-morning.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "e67f09334cf9"
+    "version": "e7336395121b"
   },
   "equity": {
     "customerBoundary": "建设中，已核验交易0笔、待回溯管理人187家。当前仅核验管理人公开身份，尚不作为正式日度交易库。",
@@ -4151,15 +4151,20 @@
               "管理层"
             ]
           },
+          "businessSubcategory": "章程治理",
           "company": "华秦科技",
+          "customerFact": "华秦科技拟于公告所列日期召开股东会，审议拟申请注册发行科技创新公司债券的议案。",
+          "customerFollowUp": "关注股东会表决结果及通过议案的后续执行。",
           "followText": "关注股东会表决结果及通过议案的后续执行。",
+          "matterType": "股东会",
+          "referenceMatterId": "listed-matter-f79e2de653145e",
           "sourceSection": "section-04"
         },
         {
           "anchorId": "listed-detail-705a97daa3-89512a12",
           "business": {
             "category": "股东服务",
-            "contentImportance": "重点跟踪",
+            "contentImportance": "内容重要",
             "priority": "focus",
             "subcategory": "质押冻结",
             "targets": [
@@ -4168,8 +4173,13 @@
               "董秘办"
             ]
           },
+          "businessSubcategory": "股权质押",
           "company": "天地源",
+          "customerFact": "天地源西安高新技术产业开发区房地产开发有限公司（高新地产）新增质押50,000,000股，2026年8月6日起至2028年11月26日。",
+          "customerFollowUp": "关注累计质押比例、解除质押、补充质押及质权实现风险。",
           "followText": "关注累计质押比例、解除质押、补充质押及质权实现风险。",
+          "matterType": "股份质押",
+          "referenceMatterId": "listed-matter-aa1af1528cff79",
           "sourceSection": "section-03"
         },
         {
@@ -4185,8 +4195,13 @@
               "财务"
             ]
           },
+          "businessSubcategory": "对外投资",
           "company": "西安奕材-U",
+          "customerFact": "（二）增资后股权结构股东名称注册资本数额（人民币万元） 持股比例重庆两江奕欣半导体私募股权投资基金合伙企业（有限合伙） 850.1768 31.8048% 北。",
+          "customerFollowUp": "关注股东会审议、出资节奏和项目回报。",
           "followText": "关注股东会审议、出资节奏和项目回报。",
+          "matterType": "对外投资",
+          "referenceMatterId": "listed-matter-fd1afc9b3a6992",
           "sourceSection": "section-04"
         },
         {
@@ -4202,8 +4217,13 @@
               "财务"
             ]
           },
+          "businessSubcategory": "分红",
           "company": "高铁电气",
+          "customerFact": "高铁电气实施2025年年度权益分派。",
+          "customerFollowUp": "关注股权登记、除息和现金红利到账，以及分红后的现金流与资本安排。",
           "followText": "关注股权登记、除息和现金红利到账，以及分红后的现金流与资本安排。",
+          "matterType": "权益分派",
+          "referenceMatterId": "listed-matter-ea48c86483541b",
           "sourceSection": "section-04"
         }
       ],
@@ -5104,116 +5124,6 @@
             }
           ],
           "whyImportant": "关注组织调整落地及相关业务衔接。"
-        },
-        {
-          "_editorialEvidenceText": "证券代码：688167 证券简称：炬光科技西安炬光科技股份有限公司 2026 年度向特定对象发行 A 股股票预案二〇二六年八月 2 声明 1、本公司及董事会全体成员保证本预案内容真实、准确、完整，并确认不存在虚假记载、误导性陈述或重大遗漏，并对本预案内容的真实性、准确性、 完整性承担个别和连带的法律责任。2、本预案按照《中华人民共和国公司法》《中华人民共和国证券法》《上市公司证券发行注册管理办法》等要求编制。\n2 （二）审议通过《关于<公司 2026 年半年度募集资金存放、管理与实际使用情况的专项报告>的议案》 全体董事认为：2026 年上半年，公司募集资金的存放、管理与使用情况符合中国证监会、上海证券交易所相关法律法规及指引规定，符合《上市公司募集资金监管规则》及公司《募集资金管理办法》的要求，规范存放募集资金，不存在变相改变募集资金用途和损害股东利益的情况，不存在违规使用募集资金的情形。以上具体内容详见同日披露于上海证券交易所网站（www.sse.com.。\n证券代码：688167 证券简称：炬光科技公告编号：2026-072 西安炬光科技股份有限公司关于 2026 年度向特定对象发行 A 股股票预案披露的提示性公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性依法承担法律责任。西安炬光科技股份有限公司（以下简称“公司”）于 2026 年 8 月 6 日召开第四届董事会第二十六次会议，审议通过了公司 2026 年度向特定对象发行 A 股股票（。\n1 西安炬光科技股份有限公司董事会审计委员会关于公司 2026 年度向特定对象发行 A 股股票相关事项的书面审核意见根据《中华人民共和国公司法》（以下简称“《公司法》”）、《中华人民共和国证券法》（以下简称“《证券法》”）、《上市公司证券发行注册管理办法》（以下简称“《注册管理办法》”）等相关法律、法规、规范性文件以及《西安炬光科技股份有限公司章程》（以下简称“《公司章程》”）的有关规定，西安炬光科技股份有限公司（以下简称“公司”）董事会审计委员会在全面。\n证券代码：688167 证券简称：炬光科技公告编号：2026-074 西安炬光科技股份有限公司关于 2026 年度向特定对象发行 A 股股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性依法承担法律责任。西安炬光科技股份有限公司（以下简称“公司”）于 2026 年 8 月 6 日召开第四届董事会第二十六次会议，审议通过了。\n1 证券代码：688167 证券简称：炬光科技公告编号：2026-075 西安炬光科技股份有限公司关于 2026 年度向特定对象发行 A 股股票摊薄即期回报与公司采取填补措施及相关主体承诺的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。西安炬光科技股份有限公司（以下简称“公司”或“上市公司”）于 2026 年 8 月 6 日召开的第四届董事会第二十六次会议审议通过了公司。",
-          "_editorialEvidenceTitles": "西安炬光科技股份有限公司2026年度向特定对象发行A股股票预案\n西安炬光科技股份有限公司第四届董事会第二十六次会议决议公告\n西安炬光科技股份有限公司关于2026年度向特定对象发行A股股票预案披露的提示性公告\n西安炬光科技股份有限公司董事会审计委员会关于公司 2026 年度向特定对象发行A 股股票相关事项的书面审核意见\n西安炬光科技股份有限公司关于2026年度向特定对象发行A股股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告\n西安炬光科技股份有限公司关于2026年度向特定对象发行A股股票摊薄即期回报与公司采取填补措施及相关主体承诺的公告",
-          "announcementTitle": "关于提请股东会授权董事会及其授权人士全权办理公司本次向特定对象发行 A 股股票相关事宜的议案",
-          "attention": "关注交易所审核、证监会注册及募投落地。",
-          "baselineFacts": [],
-          "businessSubcategory": "再融资",
-          "company": "炬光科技",
-          "conclusion": "在预测公司总股本时，以截至 2026 年 6 月 30 日公司总股本 130,138,971 股为基础，仅考虑本次向特定对象发行股票的影响，不考虑其他因素（如资本公积转增股本、股票股利分配、股权激励、股份回购等）导致股本变动的情形。（十）审议通过《关于公司 2026 年度向特定对象发行 A 股股票摊薄即期回报与公司采取填补措施及相关主体承诺的议案》 根。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "currentActionPrecedesHistoricalBaseline": true,
-              "factSourceSupportsCurrentStage": true,
-              "factTypeMatchesMatterType": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "newVsCumulativeNumbersSeparated": true,
-              "nextObservation": true,
-              "noTruncatedTokenOrTableHeader": true,
-              "requiredActorNamed": true,
-              "requiredTimelineDates": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
-            "keyFigures": [
-              "2026 年",
-              "30 日",
-              "130,138,971 股",
-              "2026 年"
-            ],
-            "nextObservation": "后续关注交易所审核、证监会注册及募投落地。",
-            "passed": true,
-            "semanticGate": "v2-listed-semantic-current-source-v1",
-            "stage": "再融资",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerFact": "在预测公司总股本时，以截至 2026 年 6 月 30 日公司总股本 130,138,971 股为基础，仅考虑本次向特定对象发行股票的影响。",
-          "customerFollowUp": "关注交易所审核、证监会注册及募投落地。",
-          "homepageEligible": false,
-          "homepageMaterialityReason": "",
-          "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
-          "importance": "必看",
-          "mainSection": "",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "再融资",
-          "matter_id": "listed-matter-dbf6f08a8d0d38",
-          "nextObservation": "后续关注交易所审核、证监会注册及募投落地。",
-          "publishedAt": "2026-08-08",
-          "score": 42,
-          "sourceAnnouncementIds": [
-            "1225464369",
-            "1225464376",
-            "1225464325",
-            "1225464324",
-            "1225464346",
-            "1225464348"
-          ],
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464369.PDF",
-          "sources": [
-            {
-              "announcementId": "1225464369",
-              "announcementTitle": "关于提请股东会授权董事会及其授权人士全权办理公司本次向特定对象发行 A 股股票相关事宜的议案",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464369.PDF"
-            },
-            {
-              "announcementId": "1225464376",
-              "announcementTitle": "西安炬光科技股份有限公司2026年度向特定对象发行A股股票预案",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464376.PDF"
-            },
-            {
-              "announcementId": "1225464325",
-              "announcementTitle": "西安炬光科技股份有限公司关于2026年度向特定对象发行A股股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464325.PDF"
-            },
-            {
-              "announcementId": "1225464324",
-              "announcementTitle": "西安炬光科技股份有限公司关于2026年度向特定对象发行A股股票摊薄即期回报与公司采取填补措施及相关主体承诺的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464324.PDF"
-            },
-            {
-              "announcementId": "1225464346",
-              "announcementTitle": "西安炬光科技股份有限公司关于2026年度向特定对象发行A股股票预案披露的提示性公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464346.PDF"
-            },
-            {
-              "announcementId": "1225464348",
-              "announcementTitle": "西安炬光科技股份有限公司董事会审计委员会关于公司 2026 年度向特定对象发行A 股股票相关事项的书面审核意见",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464348.PDF"
-            }
-          ],
-          "whyImportant": "关注交易所审核、证监会注册及募投落地。"
         },
         {
           "_editorialEvidenceText": "证券代码：688281 证券简称：华秦科技陕西华秦科技实业股份有限公司 2026 年第二次临时股东会会议资料二零二六年八月目录 2026 年第二次临时股东会会议须知 .......................................................................... 1 2026 年第二次临时股东会会议议程 ..................................................。",
@@ -6544,8 +6454,8 @@
           "whyImportant": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。"
         },
         {
-          "_editorialEvidenceText": "特变电工股份有限公司证券代码：600089 证券简称：特变电工公告编号：临 2026-043 特变电工股份有限公司关于延长向不特定对象发行可转换公司债券股东会决议有效期及相关授权期限的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。特变电工股份有限公司（以下简称“公司”）于 2026 年 8 月 6 日召开公司 2026 年第十一次临时董事会会议，审议通过了《关于延长公司。\n会议审议通过了以下议案： 一、审议通过了关于变更回购股份用途并注销暨减少注册资本的议案。详见临 2026-041 号《特变电工股份有限公司关于变更回购股份用途并注销暨减少注册资本的公告》。",
-          "_editorialEvidenceTitles": "特变电工股份有限公司关于延长向不特定对象发行可转换公司债券股东会决议有效期及相关授权期限的公告\n特变电工股份有限公司2026年第十一次临时董事会会议决议公告",
+          "_editorialEvidenceText": "会议审议通过了以下议案： 一、审议通过了关于变更回购股份用途并注销暨减少注册资本的议案。详见临 2026-041 号《特变电工股份有限公司关于变更回购股份用途并注销暨减少注册资本的公告》。\n特变电工股份有限公司证券代码：600089 证券简称：特变电工公告编号：临 2026-043 特变电工股份有限公司关于延长向不特定对象发行可转换公司债券股东会决议有效期及相关授权期限的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。特变电工股份有限公司（以下简称“公司”）于 2026 年 8 月 6 日召开公司 2026 年第十一次临时董事会会议，审议通过了《关于延长公司。",
+          "_editorialEvidenceTitles": "特变电工股份有限公司2026年第十一次临时董事会会议决议公告\n特变电工股份有限公司关于延长向不特定对象发行可转换公司债券股东会决议有效期及相关授权期限的公告",
           "announcementTitle": "特变电工股份有限公司2026年第十一次临时董事会会议决议公告",
           "attention": "关注下一审核或注册节点、发行安排、资金到账及募投实施。",
           "baselineFacts": [],
@@ -7205,7 +7115,7 @@
       "quarantineEvidence": {
         "count": 11,
         "path": "v2/data/daily/listed/editorial-quarantine-2026-08-10-morning.json",
-        "sha256": "e8e2bfcf9fc0d84989b010edac4a934f3b2ee3f503bcf4742a6259db6ae83f58"
+        "sha256": "6672c37ebdebda21f4948f24465d0c98d537152f39169b86d789e8fbd4da057e"
       },
       "rejectedCandidates": [
         {
@@ -7219,130 +7129,7 @@
           "title": "北京市嘉源律师事务所关于航天动力2026年第一次临时股东会的法律意见书"
         }
       ],
-      "risk_rows": [
-        {
-          "announcementTitle": "关于提请股东会授权董事会及其授权人士全权办理公司本次向特定对象发行 A 股股票相关事宜的议案",
-          "attention": "关注交易所审核、证监会注册及募投落地。",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "定增/再融资",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "再融资",
-          "canonicalDetailId": "listed-detail-06379b1d3b-88a7b476",
-          "company": "炬光科技",
-          "conclusion": "在预测公司总股本时，以截至 2026 年 6 月 30 日公司总股本 130,138,971 股为基础，仅考虑本次向特定对象发行股票的影响，不考虑其他因素（如资本公积转增股本、股票股利分配、股权激励、股份回购等）导致股本变动的情形。（十）审议通过《关于公司 2026 年度向特定对象发行 A 股股票摊薄即期回报与公司采取填补措施及相关主体承诺的议案》 根。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "currentActionPrecedesHistoricalBaseline": true,
-              "factSourceSupportsCurrentStage": true,
-              "factTypeMatchesMatterType": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "newVsCumulativeNumbersSeparated": true,
-              "nextObservation": true,
-              "noTruncatedTokenOrTableHeader": true,
-              "requiredActorNamed": true,
-              "requiredTimelineDates": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
-            "keyFigures": [
-              "2026 年",
-              "30 日",
-              "130,138,971 股",
-              "2026 年"
-            ],
-            "nextObservation": "后续关注交易所审核、证监会注册及募投落地。",
-            "passed": true,
-            "semanticGate": "v2-listed-semantic-current-source-v1",
-            "stage": "再融资",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerFact": "在预测公司总股本时，以截至 2026 年 6 月 30 日公司总股本 130,138,971 股为基础，仅考虑本次向特定对象发行股票的影响。",
-          "customerFollowUp": "关注交易所审核、证监会注册及募投落地。",
-          "event": "在预测公司总股本时，以截至 2026 年 6 月 30 日公司总股本 130,138,971 股为基础，仅考虑本次向特定对象发行股票的影响。",
-          "homepageEligible": false,
-          "homepageMaterialityReason": "",
-          "impactAssessment": "该公告已形成可核验的事项进展，需结合原文事实与下一节点持续跟踪。",
-          "importance": "必看",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "再融资",
-          "matter_id": "listed-matter-dbf6f08a8d0d38",
-          "nextObservation": "后续关注交易所审核、证监会注册及募投落地。",
-          "publishedAt": "2026-08-08",
-          "sourceAnnouncementIds": [
-            "1225464369",
-            "1225464376",
-            "1225464325",
-            "1225464324",
-            "1225464346",
-            "1225464348"
-          ],
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464369.PDF",
-          "sources": [
-            {
-              "announcementId": "1225464369",
-              "announcementTitle": "关于提请股东会授权董事会及其授权人士全权办理公司本次向特定对象发行 A 股股票相关事宜的议案",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464369.PDF"
-            },
-            {
-              "announcementId": "1225464376",
-              "announcementTitle": "西安炬光科技股份有限公司2026年度向特定对象发行A股股票预案",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464376.PDF"
-            },
-            {
-              "announcementId": "1225464325",
-              "announcementTitle": "西安炬光科技股份有限公司关于2026年度向特定对象发行A股股票不存在直接或通过利益相关方向参与认购的投资者提供财务资助或补偿的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464325.PDF"
-            },
-            {
-              "announcementId": "1225464324",
-              "announcementTitle": "西安炬光科技股份有限公司关于2026年度向特定对象发行A股股票摊薄即期回报与公司采取填补措施及相关主体承诺的公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464324.PDF"
-            },
-            {
-              "announcementId": "1225464346",
-              "announcementTitle": "西安炬光科技股份有限公司关于2026年度向特定对象发行A股股票预案披露的提示性公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464346.PDF"
-            },
-            {
-              "announcementId": "1225464348",
-              "announcementTitle": "西安炬光科技股份有限公司董事会审计委员会关于公司 2026 年度向特定对象发行A 股股票相关事项的书面审核意见",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-08/1225464348.PDF"
-            }
-          ],
-          "tag": "再融资",
-          "tagClass": "watch",
-          "whyImportant": "关注交易所审核、证监会注册及募投落地。"
-        }
-      ],
+      "risk_rows": [],
       "schemaVersion": "2.1",
       "sourceAcquisitionStatus": {
         "hasPendingOfficialTextVerification": true,
@@ -11116,15 +10903,20 @@
             "管理层"
           ]
         },
+        "businessSubcategory": "章程治理",
         "company": "华秦科技",
+        "customerFact": "华秦科技拟于公告所列日期召开股东会，审议拟申请注册发行科技创新公司债券的议案。",
+        "customerFollowUp": "关注股东会表决结果及通过议案的后续执行。",
         "followText": "关注股东会表决结果及通过议案的后续执行。",
+        "matterType": "股东会",
+        "referenceMatterId": "listed-matter-f79e2de653145e",
         "sourceSection": "section-04"
       },
       {
         "anchorId": "listed-detail-705a97daa3-89512a12",
         "business": {
           "category": "股东服务",
-          "contentImportance": "重点跟踪",
+          "contentImportance": "内容重要",
           "priority": "focus",
           "subcategory": "质押冻结",
           "targets": [
@@ -11133,8 +10925,13 @@
             "董秘办"
           ]
         },
+        "businessSubcategory": "股权质押",
         "company": "天地源",
+        "customerFact": "天地源西安高新技术产业开发区房地产开发有限公司（高新地产）新增质押50,000,000股，2026年8月6日起至2028年11月26日。",
+        "customerFollowUp": "关注累计质押比例、解除质押、补充质押及质权实现风险。",
         "followText": "关注累计质押比例、解除质押、补充质押及质权实现风险。",
+        "matterType": "股份质押",
+        "referenceMatterId": "listed-matter-aa1af1528cff79",
         "sourceSection": "section-03"
       },
       {
@@ -11150,8 +10947,13 @@
             "财务"
           ]
         },
+        "businessSubcategory": "对外投资",
         "company": "西安奕材-U",
+        "customerFact": "（二）增资后股权结构股东名称注册资本数额（人民币万元） 持股比例重庆两江奕欣半导体私募股权投资基金合伙企业（有限合伙） 850.1768 31.8048% 北。",
+        "customerFollowUp": "关注股东会审议、出资节奏和项目回报。",
         "followText": "关注股东会审议、出资节奏和项目回报。",
+        "matterType": "对外投资",
+        "referenceMatterId": "listed-matter-fd1afc9b3a6992",
         "sourceSection": "section-04"
       },
       {
@@ -11167,8 +10969,13 @@
             "财务"
           ]
         },
+        "businessSubcategory": "分红",
         "company": "高铁电气",
+        "customerFact": "高铁电气实施2025年年度权益分派。",
+        "customerFollowUp": "关注股权登记、除息和现金红利到账，以及分红后的现金流与资本安排。",
         "followText": "关注股权登记、除息和现金红利到账，以及分红后的现金流与资本安排。",
+        "matterType": "权益分派",
+        "referenceMatterId": "listed-matter-ea48c86483541b",
         "sourceSection": "section-04"
       }
     ],
@@ -11177,8 +10984,8 @@
     "pageDate": "2026-08-10",
     "sourceAsOf": "2026-08-10",
     "sourceCoverage": {
-      "linked": 27,
-      "total": 27,
+      "linked": 26,
+      "total": 26,
       "unmatched": []
     }
   },
