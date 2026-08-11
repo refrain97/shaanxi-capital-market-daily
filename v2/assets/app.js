@@ -12,6 +12,8 @@ const monthDay=value=>{
 };
 const scanLabel=(data,channel)=>{
   const row=data.readiness?.channels?.[channel]||{};
+  if(row.ready&&row.status==="new_project")return `最新扫描${zhDate(row.scanAsOf)}：新增项目`;
+  if(row.ready&&row.status==="project_progress")return `最新扫描${zhDate(row.scanAsOf)}：项目进展`;
   if(row.ready&&row.status==="no_new")return `数据扫描已完成，今日无新增（${zhDate(row.scanAsOf)}）`;
   if(row.ready&&row.status==="degraded")return `数据扫描已完成，来源受限（${zhDate(row.scanAsOf)}）`;
   if(row.ready)return `数据扫描已完成（${zhDate(row.scanAsOf)}）`;
