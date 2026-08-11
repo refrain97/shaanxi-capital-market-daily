@@ -44,7 +44,7 @@
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-08-11.json",
-        "sha256": "7305bd1d967532f96cdf2588f0859cf7beddf960a7bbacb22cd783564a2115d1"
+        "sha256": "2b19408cab75f9324bdc6f3f1dd498733858a1c18274906334227ae4cdd48de6"
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-08-11.json",
@@ -100,11 +100,11 @@
       },
       {
         "path": "v2/data/source/ma/events-2026.json",
-        "sha256": "db41a0782237483409087b4a475da0c950cd0b013118b8b62d603129625a21cb"
+        "sha256": "5905346f4734ff75a51f8de28807f00ea9b26d7e487938407e0090cdbf27eb1d"
       },
       {
         "path": "v2/data/source/ma/scans/scan-2026-08-11-morning.json",
-        "sha256": "067d67ca6e39064c6c80805ae8e9f14dcc3ade64c57525dcb99b2005309c1cb7"
+        "sha256": "e3234a577e15cfcde3f3ff7d0f40338cda9749db341936205b2840b787a98b90"
       },
       {
         "path": "v2/data/source/observation-pool.json",
@@ -112,7 +112,7 @@
       },
       {
         "path": "v2/data/source/private/products-2026.json",
-        "sha256": "c9326dd6eb6ecc0eaf7c06df3db0df48d1a1204ebb98dc25a4c99487cb602f71"
+        "sha256": "3c7b6ef589021a016bd990c6e9435b468df83f18c32a72b1e5233b0ecaebd51f"
       },
       {
         "path": "v2/data/source/private/universe.json",
@@ -144,7 +144,7 @@
       },
       {
         "path": "v2/scripts/build_daily_v2.py",
-        "sha256": "f28e0645f65062c5c8901be170438e95bfc9ee3a572695b8e3510031b1e79568"
+        "sha256": "7436d68327b793c557514556344d9949a868127d87f3923fca5529b690f4e95d"
       },
       {
         "path": "v2/scripts/refresh_equity_private_events.py",
@@ -152,7 +152,7 @@
       },
       {
         "path": "v2/scripts/refresh_ma_events.py",
-        "sha256": "62fc2f5ca6d81722d9f08af2ee6fc3b945ffb53101cea160db452af2466c8c35"
+        "sha256": "a779956780313e8ea35481b051bf4491d536ffd067ada8bbc59e69d3c7fcf865"
       },
       {
         "path": "v2/scripts/refresh_soe_events.py",
@@ -164,7 +164,7 @@
       },
       {
         "path": "v2/scripts/scanner_common.py",
-        "sha256": "82a715629c00e977972058d0f25f6d0cb44e3f075cb4c2ea5e9ab0ac5971b684"
+        "sha256": "f0ed73b7d4998c2237745ac9b0a8de5520491257de9e1a0c0565318036fce08f"
       }
     ],
     "mode": "repeatable-derived-artifact",
@@ -172,7 +172,7 @@
     "readiness": "v2/data/readiness/v2-ready-2026-08-11-morning.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "c7376b704469"
+    "version": "920a03c8ffca"
   },
   "equity": {
     "customerBoundary": "建设中，已核验交易0笔、待回溯管理人187家。当前仅核验管理人公开身份，尚不作为正式日度交易库。",
@@ -2638,14 +2638,14 @@
   },
   "homeHighlights": [
     {
-      "body": "陕西金叶为西安明德理工学院向北京银行西安分行申请3,000万元两年期综合授信已签署连带责任保证合同。公。",
+      "body": "建设机械拟以发行股份及支付现金购买蒲城清洁能源公司100%股权并募集配套资金。",
       "category": "上市公司",
-      "company": "陕西金叶",
+      "company": "建设机械",
       "date": "2026-08-11",
-      "href": "listed.html#listed-detail-3d11f47147-bba7cb65",
+      "href": "listed.html#listed-detail-482dc5334a-820fcb9c",
       "mode": "latest-specific",
       "sortBasis": "公告日期倒序，同日按重要度排序",
-      "title": "必看｜陕西金叶"
+      "title": "重点｜建设机械"
     },
     {
       "body": "截至本公告披露日，本次交易相关审计、资产评估、尽职调查等工作正在稳步推进中，公司将在相关工作完成后。",
@@ -2666,12 +2666,12 @@
       "title": "全年备案 57 只"
     },
     {
-      "body": "最近已核验项目：金钼股份收购并增资金沙钼业；审议。",
+      "body": "最近已核验项目：建设机械筹划收购蒲城清洁能源公司100%股权；审议。",
       "category": "收并购",
-      "date": "2026-07-28",
-      "href": "ma.html#ma-d2c8431a2cb30745",
+      "date": "2026-08-11",
+      "href": "ma.html#ma-listed-25c65a1fd3d23642c6",
       "mode": "annual-with-latest",
-      "title": "全年收并购项目 26 个"
+      "title": "全年收并购项目 27 个"
     }
   ],
   "listed": {
@@ -3137,6 +3137,102 @@
     "daily": {
       "capital_rows": [
         {
+          "announcementTitle": "建设机械关于筹划重大事项暨关联交易事项的停牌公告",
+          "attention": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "内容重要",
+            "priority": "focus",
+            "subcategory": "并购重组",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "businessSubcategory": "并购重组",
+          "canonicalDetailId": "listed-detail-482dc5334a-820fcb9c",
+          "company": "建设机械",
+          "conclusion": "建设机械拟以发行股份及支付现金购买蒲城清洁能源公司100%股权并募集配套资金，构成关联交易及预计重大资产重组；交易尚处筹划，2026年8月11日开市起停牌，预计不超10个交易日；尚未签署正式协议，尚待内部决策及监管批准；当前节点：方案审议。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "currentActionPrecedesHistoricalBaseline": true,
+              "factSourceSupportsCurrentStage": true,
+              "factTypeMatchesMatterType": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "newVsCumulativeNumbersSeparated": true,
+              "nextObservation": true,
+              "noTruncatedTokenOrTableHeader": true,
+              "requiredActorNamed": true,
+              "requiredTimelineDates": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+            "keyFigures": [
+              "100%",
+              "2026年",
+              "11日"
+            ],
+            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+            "passed": true,
+            "semanticGate": "v2-listed-semantic-current-source-v1",
+            "stage": "board_plan",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225466386"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "customerFact": "建设机械拟发行股份及支付现金购买蒲城清洁能源公司100%股权并募集配套资金，构成关联交易；尚处筹划，2026年8月11日起停牌不超10个交易日，待方案及审批。",
+          "customerFollowUp": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "eventLabel": "收并购",
+          "eventSubtype": "",
+          "eventType": "ma",
+          "homepageEligible": true,
+          "homepageMaterialityReason": "重大交易实质方案或审核节点",
+          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-25c65a1fd3d23642c6",
+          "lifecycleStage": "board_plan",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "收并购",
+          "matter_id": "listed-matter-b99c820a185c7d",
+          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "numbersHtml": "建设机械拟发行股份及支付现金购买蒲城清洁能源公司100%股权并募集配套资金，构成关联交易；尚处筹划，2026年8月11日起停牌不超10个交易日，待方案及审批。",
+          "planId": "发行股份及支付现金购买资产并募集配套资金",
+          "previousStage": "",
+          "publishedAt": "2026-08-11",
+          "sourceAnnouncementIds": [
+            "1225466386"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466386.PDF",
+          "sources": [
+            {
+              "announcementId": "1225466386",
+              "announcementTitle": "建设机械关于筹划重大事项暨关联交易事项的停牌公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466386.PDF"
+            }
+          ],
+          "whyImportant": "关注审议审核、交易付款、资产交割、工商过户及并表进展。"
+        },
+        {
           "announcementTitle": "西安陕鼓动力股份有限公司关于发行股份购买资产暨关联交易事项的进展公告",
           "attention": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
           "business": {
@@ -3230,13 +3326,114 @@
             }
           ],
           "whyImportant": "关注审议审核、交易付款、资产交割、工商过户及并表进展。"
+        },
+        {
+          "announcementTitle": "西安晨曦航空科技股份有限公司关于控股股东减持计划期限届满的公告",
+          "attention": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+          "business": {
+            "category": "股东服务",
+            "contentImportance": "内容重要",
+            "priority": "focus",
+            "subcategory": "减持",
+            "targets": [
+              "控股股东",
+              "5%以上股东",
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "减持",
+          "canonicalDetailId": "listed-detail-8c28bdb512-ac1f7136",
+          "company": "晨曦航空",
+          "conclusion": "晨曦航空控股股东汇聚科技减持计划期限届满：原计划减持上限1% / 2%；2026年5月8日至2026年8月7日实际减持15,576,328股（2.83%），减持未超过计划，期末持股33.90%；当前节点：实施完成。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "currentActionPrecedesHistoricalBaseline": true,
+              "factSourceSupportsCurrentStage": true,
+              "factTypeMatchesMatterType": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "newVsCumulativeNumbersSeparated": true,
+              "nextObservation": true,
+              "noTruncatedTokenOrTableHeader": true,
+              "requiredActorNamed": true,
+              "requiredTimelineDates": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "本次披露会改变股东减持计划的执行状态；是否影响控制关系取决于实际减持数量与后续安排。",
+            "keyFigures": [
+              "1%",
+              "2%",
+              "2026年",
+              "8日",
+              "2026年",
+              "7日",
+              "15,576,328股",
+              "2.83%"
+            ],
+            "nextObservation": "后续关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+            "passed": true,
+            "semanticGate": "v2-listed-semantic-current-source-v1",
+            "stage": "completed",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225467006"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "customerFact": "晨曦航空控股股东汇聚科技减持计划届满：原计划上限1% / 2%；5月8日至8月7日实际减持15,576,328股（2.83%），期末持股33.90%。",
+          "customerFollowUp": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+          "eventLabel": "减持",
+          "eventSubtype": "",
+          "eventType": "reduction",
+          "homepageEligible": false,
+          "homepageMaterialityReason": "",
+          "impactAssessment": "本次披露会改变股东减持计划的执行状态；是否影响控制关系取决于实际减持数量与后续安排。",
+          "importance": "进度",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-a6463172a246e58bd6",
+          "lifecycleStage": "completed",
+          "lifecycleStatus": "completed",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "减持",
+          "matter_id": "listed-matter-9c63d06e86981b",
+          "nextObservation": "后续关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+          "numbersHtml": "晨曦航空控股股东汇聚科技减持计划届满：原计划上限1% / 2%；5月8日至8月7日实际减持15,576,328股（2.83%），期末持股33.90%。",
+          "planId": "控股股东减持计划期限届满的公告证券代码：300581证券简称：晨曦航空公告编号：|2026年",
+          "previousStage": "",
+          "publishedAt": "2026-08-10",
+          "sourceAnnouncementIds": [
+            "1225467006"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-10/1225467006.PDF",
+          "sources": [
+            {
+              "announcementId": "1225467006",
+              "announcementTitle": "西安晨曦航空科技股份有限公司关于控股股东减持计划期限届满的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-10/1225467006.PDF"
+            }
+          ],
+          "whyImportant": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。"
         }
       ],
-      "customerNotice": "已完成扫描，12项内容暂缓刊发/复核",
+      "customerNotice": "已完成扫描，10项内容暂缓刊发/复核",
       "date": "2026-08-11",
       "editorialEvidence": {
         "contentSha256": "18bf45b8cb4a9ef594054f82024d3bc1d03dddf4d6aaad7a6896b147e6d333ea",
-        "path": "v2/data/daily/listed/editorial-evidence/2026-08-11/morning-18bf45b8cb4a9ef5.json.gz",
+        "path": "v2/data/daily/listed/editorial-evidence/2026-08-11/recovery-5736cea28c1b24565b43a749c638713f3698fbb868790b8a454cc2b2760e482a.json.gz",
         "sha256": "5736cea28c1b24565b43a749c638713f3698fbb868790b8a454cc2b2760e482a",
         "slot": "morning"
       },
@@ -3266,7 +3463,101 @@
       "evidenceArchiveCollapsedByDefault": true,
       "fixed_columns": [
         {
-          "items": [],
+          "items": [
+            {
+              "announcementTitle": "宝光股份关于聘任公司副总经理的公告",
+              "attention": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
+              "body": "宝光股份聘任杨逍担任副总经理；聘期自公司本次董事会审议通过之日起至第八届董事会任期届满之日止。",
+              "business": {
+                "category": "治理关系",
+                "contentImportance": "固定披露",
+                "priority": "standard",
+                "subcategory": "章程治理",
+                "targets": [
+                  "董秘办",
+                  "证券事务代表",
+                  "管理层"
+                ]
+              },
+              "businessSubcategory": "治理变更",
+              "canonicalDetailId": "listed-detail-75d1a12d3e-161c2027",
+              "company": "宝光股份",
+              "conclusion": "宝光股份聘任杨逍担任副总经理；分管投融资等工作；聘期自公司本次董事会审议通过之日起至第八届董事会任期届满之日止；当前节点：实施完成。",
+              "contentQuality": {
+                "checks": {
+                  "actualFact": true,
+                  "completeCustomerSentence": true,
+                  "currentActionPrecedesHistoricalBaseline": true,
+                  "factSourceSupportsCurrentStage": true,
+                  "factTypeMatchesMatterType": true,
+                  "impactAssessment": true,
+                  "keyFigures": true,
+                  "namedGovernanceFact": true,
+                  "newVsCumulativeNumbersSeparated": true,
+                  "nextObservation": true,
+                  "noTruncatedTokenOrTableHeader": true,
+                  "requiredActorNamed": true,
+                  "requiredTimelineDates": true,
+                  "sourceEvidence": true,
+                  "stageChange": true,
+                  "templateFree": true
+                },
+                "genericTitleRewrite": false,
+                "impact": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
+                "keyFigures": [],
+                "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
+                "passed": true,
+                "semanticGate": "v2-listed-semantic-current-source-v1",
+                "stage": "completed",
+                "stageEvidence": {
+                  "mode": "current_source_semantics",
+                  "sourceIds": [
+                    "1225466006"
+                  ]
+                },
+                "standard": "v2-substantive-five-field"
+              },
+              "customerDisposition": "daily",
+              "customerFact": "宝光股份聘任杨逍担任副总经理；聘期自公司本次董事会审议通过之日起至第八届董事会任期届满之日止。",
+              "customerFollowUp": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
+              "eventLabel": "重大治理变更",
+              "eventSubtype": "",
+              "eventType": "governance_change",
+              "homepageEligible": false,
+              "homepageMaterialityReason": "",
+              "impactAssessment": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
+              "importance": "重点",
+              "isNoChangeProgress": false,
+              "lifecycleId": "listed-lifecycle-486b466d85fb8ba8d8",
+              "lifecycleStage": "completed",
+              "lifecycleStatus": "completed",
+              "mandatoryCustomerHighlight": false,
+              "mandatoryRuleId": "",
+              "matterType": "重大治理变更",
+              "matter_id": "listed-matter-2d4d84ff276e3c",
+              "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
+              "planId": "2026年",
+              "previousStage": "changed",
+              "publishedAt": "2026-08-11",
+              "sourceAnnouncementIds": [
+                "1225466006"
+              ],
+              "sourceConfidence": "verified-curated-matter-sources",
+              "sourceKeyword": "V2精读事项来源组",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466006.PDF",
+              "sources": [
+                {
+                  "announcementId": "1225466006",
+                  "announcementTitle": "宝光股份关于聘任公司副总经理的公告",
+                  "sourceName": "巨潮资讯",
+                  "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466006.PDF"
+                }
+              ],
+              "title": "宝光股份｜重大治理变更",
+              "whyImportant": "关注人员履职、治理衔接、工商变更及控制权稳定性。"
+            }
+          ],
           "title": "A. 股东会与治理"
         },
         {
@@ -3275,6 +3566,28 @@
         }
       ],
       "focusCompanies": [
+        {
+          "anchorId": "listed-detail-3d11f47147-bba7cb65",
+          "business": {
+            "category": "资金与财务",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "担保",
+            "targets": [
+              "财务负责人",
+              "资金部",
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "担保",
+          "company": "陕西金叶",
+          "customerFact": "陕西金叶为西安明德理工学院向北京银行西安分行申请3,000万元两年期综合授信已签署连带责任保证合同。",
+          "customerFollowUp": "关注实际提款、担保余额和偿债安排。",
+          "followText": "关注实际提款、担保余额和偿债安排。",
+          "matterType": "担保授信",
+          "referenceMatterId": "listed-matter-6873965536b93c",
+          "sourceSection": "section-02"
+        },
         {
           "anchorId": "listed-detail-f70dd7228b-ccff9f82",
           "business": {
@@ -3290,7 +3603,7 @@
           },
           "businessSubcategory": "股东股份司法拍卖",
           "company": "供销大集",
-          "customerFact": "供销大集控股股东一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日至9月8日在京东网首次司法拍卖；公司称不致控制权变更。",
+          "customerFact": "一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日10时至9月8日10时在京东网首次司法拍卖；公司称不致控制权变更。",
           "customerFollowUp": "关注竞拍结果、缴款、法院执行、股权过户及持股结构变化。",
           "followText": "关注竞拍结果、缴款、法院执行、股权过户及持股结构变化。",
           "matterType": "司法拍卖",
@@ -3298,29 +3611,139 @@
           "sourceSection": "section-02"
         },
         {
-          "anchorId": "listed-detail-482dc5334a-cdc84189",
+          "anchorId": "listed-detail-75d1a12d3e-161c2027",
           "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "并购重组",
+            "category": "治理关系",
+            "contentImportance": "固定披露",
+            "priority": "standard",
+            "subcategory": "章程治理",
             "targets": [
               "董秘办",
-              "财务",
-              "投融资负责人"
+              "证券事务代表",
+              "管理层"
             ]
           },
-          "businessSubcategory": "关联交易",
-          "company": "建设机械",
-          "customerFact": "本次重组的意向性文件根据陕煤集团出具的《关于对陕建机股份并购重组蒲城清洁能源公司立项的通知》， 对公司以发行股份及支付现金相结合的方式。",
-          "customerFollowUp": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
-          "followText": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
-          "matterType": "关联交易",
-          "referenceMatterId": "listed-matter-d2ae7f531a57cf",
-          "sourceSection": "section-03"
+          "businessSubcategory": "治理变更",
+          "company": "宝光股份",
+          "customerFact": "宝光股份聘任杨逍担任副总经理；聘期自公司本次董事会审议通过之日起至第八届董事会任期届满之日止。",
+          "customerFollowUp": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "followText": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "matterType": "重大治理变更",
+          "referenceMatterId": "listed-matter-2d4d84ff276e3c",
+          "sourceSection": "section-05"
+        },
+        {
+          "anchorId": "listed-detail-8c28bdb512-ac1f7136",
+          "business": {
+            "category": "股东服务",
+            "contentImportance": "内容重要",
+            "priority": "focus",
+            "subcategory": "减持",
+            "targets": [
+              "控股股东",
+              "5%以上股东",
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "减持",
+          "company": "晨曦航空",
+          "customerFact": "晨曦航空控股股东汇聚科技减持计划届满：原计划上限1% / 2%；5月8日至8月7日实际减持15,576,328股（2.83%），期末持股33.90%。",
+          "customerFollowUp": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+          "followText": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+          "matterType": "减持",
+          "referenceMatterId": "listed-matter-9c63d06e86981b",
+          "sourceSection": "section-04"
         }
       ],
       "follow_items": [
+        {
+          "announcementTitle": "关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告",
+          "attention": "关注实际提款、担保余额和偿债安排。",
+          "body": "关注实际提款、担保余额和偿债安排。",
+          "business": {
+            "category": "资金与财务",
+            "contentImportance": "重点跟踪",
+            "priority": "standard",
+            "subcategory": "担保",
+            "targets": [
+              "财务负责人",
+              "资金部",
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "担保",
+          "company": "陕西金叶",
+          "conclusion": "陕西金叶为西安明德理工学院向北京银行西安分行申请3,000万元两年期综合授信已签署连带责任保证合同；公告日实际担保余额18.0746亿元，占最近一期经审计净资产116.46%。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "currentActionPrecedesHistoricalBaseline": true,
+              "factSourceSupportsCurrentStage": true,
+              "factTypeMatchesMatterType": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "newVsCumulativeNumbersSeparated": true,
+              "nextObservation": true,
+              "noTruncatedTokenOrTableHeader": true,
+              "requiredActorNamed": true,
+              "requiredTimelineDates": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
+            "keyFigures": [
+              "3,000万元",
+              "18.0746亿元",
+              "116.46%"
+            ],
+            "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
+            "passed": true,
+            "semanticGate": "v2-listed-semantic-current-source-v1",
+            "stage": "担保授信",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerFact": "陕西金叶为西安明德理工学院向北京银行西安分行申请3,000万元两年期综合授信已签署连带责任保证合同。",
+          "customerFollowUp": "关注实际提款、担保余额和偿债安排。",
+          "homepageEligible": false,
+          "homepageMaterialityReason": "",
+          "impactAssessment": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
+          "importance": "必看",
+          "isReference": true,
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "担保授信",
+          "matter_id": "listed-matter-6873965536b93c",
+          "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
+          "publishedAt": "2026-08-11",
+          "referenceAnchor": "listed-detail-3d11f47147-bba7cb65",
+          "referenceMatterId": "listed-matter-6873965536b93c",
+          "sourceAnnouncementIds": [
+            "1225465690"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225465690.PDF",
+          "sources": [
+            {
+              "announcementId": "1225465690",
+              "announcementTitle": "关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225465690.PDF"
+            }
+          ],
+          "tag": "担保",
+          "title": "陕西金叶｜关注担保",
+          "whyImportant": "关注实际提款、担保余额和偿债安排。"
+        },
         {
           "announcementTitle": "关于公司控股股东一致行动人所持部分公司股份将被司法拍卖的进展公告",
           "attention": "关注竞拍结果、缴款、法院执行、股权过户及持股结构变化。",
@@ -3338,7 +3761,7 @@
           },
           "businessSubcategory": "股东股份司法拍卖",
           "company": "供销大集",
-          "conclusion": "供销大集控股股东一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日至9月8日在京东网首次司法拍卖；公司称不致控制权变更。",
+          "conclusion": "供销大集控股股东一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日10时至9月8日10时在京东网首次司法拍卖；公司称不致控制权变更。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -3376,7 +3799,7 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "供销大集控股股东一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日至9月8日在京东网首次司法拍卖；公司称不致控制权变更。",
+          "customerFact": "一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日10时至9月8日10时在京东网首次司法拍卖；公司称不致控制权变更。",
           "customerFollowUp": "关注竞拍结果、缴款、法院执行、股权过户及持股结构变化。",
           "homepageEligible": false,
           "homepageMaterialityReason": "",
@@ -3411,23 +3834,23 @@
           "whyImportant": "关注竞拍结果、缴款、法院执行、股权过户及持股结构变化。"
         },
         {
-          "announcementTitle": "建设机械关于筹划重大事项暨关联交易事项的停牌公告",
-          "attention": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
-          "body": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
+          "announcementTitle": "宝光股份关于聘任公司副总经理的公告",
+          "attention": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "body": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
           "business": {
-            "category": "资本运作",
+            "category": "治理关系",
             "contentImportance": "重点跟踪",
-            "priority": "focus",
-            "subcategory": "并购重组",
+            "priority": "standard",
+            "subcategory": "章程治理",
             "targets": [
               "董秘办",
-              "财务",
-              "投融资负责人"
+              "证券事务代表",
+              "管理层"
             ]
           },
-          "businessSubcategory": "关联交易",
-          "company": "建设机械",
-          "conclusion": "本次重组的意向性文件根据陕煤集团出具的《关于对陕建机股份并购重组蒲城清洁能源公司立项的通知》， 对公司以发行股份及支付现金相结合的方式，收购蒲城清洁能源公司 100%股权，并同步募集配套资金予以立项。） （三）交易方式本次交易拟由公司发行 A 股股份及支付现金购买蒲城清洁能源公司 100%股权，并同步于 A 股募集配套资金。",
+          "businessSubcategory": "治理变更",
+          "company": "宝光股份",
+          "conclusion": "宝光股份聘任杨逍担任副总经理；分管投融资等工作；聘期自公司本次董事会审议通过之日起至第八届董事会任期届满之日止；当前节点：实施完成。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -3448,54 +3871,168 @@
               "templateFree": true
             },
             "genericTitleRewrite": false,
-            "impact": "关联交易已经进入审议或执行节点，需结合交易定价、公允性、额度及实际履行情况评估对经营和治理的影响。",
-            "keyFigures": [
-              "100%",
-              "100%"
-            ],
-            "nextObservation": "后续关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
+            "impact": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
+            "keyFigures": [],
+            "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
             "passed": true,
             "semanticGate": "v2-listed-semantic-current-source-v1",
-            "stage": "关联交易",
+            "stage": "completed",
             "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225466006"
+              ]
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "本次重组的意向性文件根据陕煤集团出具的《关于对陕建机股份并购重组蒲城清洁能源公司立项的通知》， 对公司以发行股份及支付现金相结合的方式。",
-          "customerFollowUp": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
+          "customerDisposition": "daily",
+          "customerFact": "宝光股份聘任杨逍担任副总经理；聘期自公司本次董事会审议通过之日起至第八届董事会任期届满之日止。",
+          "customerFollowUp": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "eventLabel": "重大治理变更",
+          "eventSubtype": "",
+          "eventType": "governance_change",
           "homepageEligible": false,
           "homepageMaterialityReason": "",
-          "impactAssessment": "关联交易已经进入审议或执行节点，需结合交易定价、公允性、额度及实际履行情况评估对经营和治理的影响。",
-          "importance": "必看",
+          "impactAssessment": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
           "isReference": true,
+          "lifecycleId": "listed-lifecycle-486b466d85fb8ba8d8",
+          "lifecycleStage": "completed",
+          "lifecycleStatus": "completed",
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "关联交易",
-          "matter_id": "listed-matter-d2ae7f531a57cf",
-          "nextObservation": "后续关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
+          "matterType": "重大治理变更",
+          "matter_id": "listed-matter-2d4d84ff276e3c",
+          "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "planId": "2026年",
+          "previousStage": "changed",
           "publishedAt": "2026-08-11",
-          "referenceAnchor": "listed-detail-482dc5334a-cdc84189",
-          "referenceMatterId": "listed-matter-d2ae7f531a57cf",
+          "referenceAnchor": "listed-detail-75d1a12d3e-161c2027",
+          "referenceMatterId": "listed-matter-2d4d84ff276e3c",
           "sourceAnnouncementIds": [
-            "1225466386"
+            "1225466006"
           ],
           "sourceConfidence": "verified-curated-matter-sources",
           "sourceKeyword": "V2精读事项来源组",
           "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466386.PDF",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466006.PDF",
           "sources": [
             {
-              "announcementId": "1225466386",
-              "announcementTitle": "建设机械关于筹划重大事项暨关联交易事项的停牌公告",
+              "announcementId": "1225466006",
+              "announcementTitle": "宝光股份关于聘任公司副总经理的公告",
               "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466386.PDF"
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466006.PDF"
             }
           ],
-          "tag": "关联交易",
-          "title": "建设机械｜关注关联交易",
-          "whyImportant": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。"
+          "tag": "治理变更",
+          "title": "宝光股份｜关注治理变更",
+          "whyImportant": "关注人员履职、治理衔接、工商变更及控制权稳定性。"
+        },
+        {
+          "announcementTitle": "西安晨曦航空科技股份有限公司关于控股股东减持计划期限届满的公告",
+          "attention": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+          "body": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+          "business": {
+            "category": "股东服务",
+            "contentImportance": "重点跟踪",
+            "priority": "focus",
+            "subcategory": "减持",
+            "targets": [
+              "控股股东",
+              "5%以上股东",
+              "董秘办"
+            ]
+          },
+          "businessSubcategory": "减持",
+          "company": "晨曦航空",
+          "conclusion": "晨曦航空控股股东汇聚科技减持计划期限届满：原计划减持上限1% / 2%；2026年5月8日至2026年8月7日实际减持15,576,328股（2.83%），减持未超过计划，期末持股33.90%；当前节点：实施完成。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "currentActionPrecedesHistoricalBaseline": true,
+              "factSourceSupportsCurrentStage": true,
+              "factTypeMatchesMatterType": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "newVsCumulativeNumbersSeparated": true,
+              "nextObservation": true,
+              "noTruncatedTokenOrTableHeader": true,
+              "requiredActorNamed": true,
+              "requiredTimelineDates": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "本次披露会改变股东减持计划的执行状态；是否影响控制关系取决于实际减持数量与后续安排。",
+            "keyFigures": [
+              "1%",
+              "2%",
+              "2026年",
+              "8日",
+              "2026年",
+              "7日",
+              "15,576,328股",
+              "2.83%"
+            ],
+            "nextObservation": "后续关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+            "passed": true,
+            "semanticGate": "v2-listed-semantic-current-source-v1",
+            "stage": "completed",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225467006"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "customerFact": "晨曦航空控股股东汇聚科技减持计划届满：原计划上限1% / 2%；5月8日至8月7日实际减持15,576,328股（2.83%），期末持股33.90%。",
+          "customerFollowUp": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+          "eventLabel": "减持",
+          "eventSubtype": "",
+          "eventType": "reduction",
+          "homepageEligible": false,
+          "homepageMaterialityReason": "",
+          "impactAssessment": "本次披露会改变股东减持计划的执行状态；是否影响控制关系取决于实际减持数量与后续安排。",
+          "importance": "进度",
+          "isNoChangeProgress": false,
+          "isReference": true,
+          "lifecycleId": "listed-lifecycle-a6463172a246e58bd6",
+          "lifecycleStage": "completed",
+          "lifecycleStatus": "completed",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "减持",
+          "matter_id": "listed-matter-9c63d06e86981b",
+          "nextObservation": "后续关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+          "planId": "控股股东减持计划期限届满的公告证券代码：300581证券简称：晨曦航空公告编号：|2026年",
+          "previousStage": "",
+          "publishedAt": "2026-08-10",
+          "referenceAnchor": "listed-detail-8c28bdb512-ac1f7136",
+          "referenceMatterId": "listed-matter-9c63d06e86981b",
+          "sourceAnnouncementIds": [
+            "1225467006"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-10/1225467006.PDF",
+          "sources": [
+            {
+              "announcementId": "1225467006",
+              "announcementTitle": "西安晨曦航空科技股份有限公司关于控股股东减持计划期限届满的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-10/1225467006.PDF"
+            }
+          ],
+          "tag": "减持",
+          "title": "晨曦航空｜关注减持",
+          "whyImportant": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。"
         }
       ],
       "hkexOfficialReviewCompanyCount": 14,
@@ -3513,7 +4050,7 @@
         {
           "clientLabel": "精选事项",
           "label": "合并去重后的客户事项",
-          "num": "8项"
+          "num": "10项"
         },
         {
           "clientLabel": "可读原文",
@@ -3521,10 +4058,44 @@
           "num": "36条"
         }
       ],
-      "lifecycleEventCount": 637,
+      "lifecycleEventCount": 639,
       "lifecyclePolicy": "listed-company-full-lifecycle",
       "lifecycleStorePath": "v2/data/source/listed/lifecycle-store.json",
       "lifecycleUpdates": [
+        {
+          "company": "建设机械",
+          "currentStage": "board_plan",
+          "eventType": "ma",
+          "evidenceAttachments": [],
+          "homepageEligible": true,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-25c65a1fd3d23642c6",
+          "nodeStage": "board_plan",
+          "planId": "发行股份及支付现金购买资产并募集配套资金",
+          "previousStage": "",
+          "sourceAnnouncementIds": [
+            "1225466386"
+          ],
+          "status": "active"
+        },
+        {
+          "company": "宝光股份",
+          "currentStage": "completed",
+          "eventType": "governance_change",
+          "evidenceAttachments": [],
+          "homepageEligible": false,
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-486b466d85fb8ba8d8",
+          "nodeStage": "completed",
+          "planId": "2026年",
+          "previousStage": "changed",
+          "sourceAnnouncementIds": [
+            "1225466006"
+          ],
+          "status": "completed"
+        },
         {
           "company": "陕鼓动力",
           "currentStage": "board_plan",
@@ -3541,6 +4112,23 @@
             "1225465662"
           ],
           "status": "active"
+        },
+        {
+          "company": "晨曦航空",
+          "currentStage": "completed",
+          "eventType": "reduction",
+          "evidenceAttachments": [],
+          "homepageEligible": false,
+          "importance": "进度",
+          "isNoChangeProgress": false,
+          "lifecycleId": "listed-lifecycle-a6463172a246e58bd6",
+          "nodeStage": "completed",
+          "planId": "控股股东减持计划期限届满的公告证券代码：300581证券简称：晨曦航空公告编号：|2026年",
+          "previousStage": "",
+          "sourceAnnouncementIds": [
+            "1225467006"
+          ],
+          "status": "completed"
         }
       ],
       "matterIndex": [
@@ -3592,7 +4180,7 @@
           "customerFact": "陕西金叶为西安明德理工学院向北京银行西安分行申请3,000万元两年期综合授信已签署连带责任保证合同。",
           "customerFollowUp": "关注实际提款、担保余额和偿债安排。",
           "homepageEligible": false,
-          "homepageMaterialityReason": "经核验的当日重要事项",
+          "homepageMaterialityReason": "",
           "impactAssessment": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
           "importance": "必看",
           "mainSection": "",
@@ -3626,7 +4214,7 @@
           "baselineFacts": [],
           "businessSubcategory": "股东股份司法拍卖",
           "company": "供销大集",
-          "conclusion": "供销大集控股股东一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日至9月8日在京东网首次司法拍卖；公司称不致控制权变更。",
+          "conclusion": "供销大集控股股东一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日10时至9月8日10时在京东网首次司法拍卖；公司称不致控制权变更。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -3664,7 +4252,7 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "供销大集控股股东一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日至9月8日在京东网首次司法拍卖；公司称不致控制权变更。",
+          "customerFact": "一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日10时至9月8日10时在京东网首次司法拍卖；公司称不致控制权变更。",
           "customerFollowUp": "关注竞拍结果、缴款、法院执行、股权过户及持股结构变化。",
           "homepageEligible": false,
           "homepageMaterialityReason": "",
@@ -3697,11 +4285,11 @@
           "_editorialEvidenceText": "证券代码：600984 证券简称：建设机械公告编号：2026-039 陕西建设机械股份有限公司关于筹划重大事项暨关联交易事项的停牌公告本公司及董事会全体成员保证公告内容不存在虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。 重要内容提示：  证券停复牌情况：适用因筹划发行股份及支付现金购买资产并募集配套资金暨关联交易事项,本公司的相关证券停复牌情况如下： 证券代码证券简称停复牌类型停牌起始日停牌期间停牌终止日复牌日 600984 建设机械 A 股停牌 2026/8/11 一、停牌事由和工作安排 2026 年 8 月 10 日，陕西建设机械股份有限公司（以下简称“建设机械”或“公司”）收到控股股东陕西煤业化工集团有限责任公司（以下简称“陕煤集团”）的《关于对陕建机股份并购重组蒲城清洁能源公司立项的通知》，对公司以发行股份及支付现金相结合的方式，收购蒲城清洁能源化工有限责任公司（以下简称“蒲城清洁能源公司”）100%股权，并同步募集配套资金予以立项。根据《上市公司重大资产重组管理办法》等相关法律法规的规定，本次交易构成关联交易，预计构成重大资产重组，本次交易不会导致公司实际控制人变更。 因本次交易尚处于筹划阶段，存在不确定性，为保证公平信息披露，维护投资者利益，避免造成公司股价异常波动，根据上海证券交易所相关规定，经公司申请，公司 A 股股票（证券简称：建设机械，证券代码：600984）自 2026 年 8 月 11 日开市起开始停牌，预计停牌时间不超过 10 个交易日。 停牌期间，公司将积极推进本次交易各项工作，及时履行信息披露义务。待上述事项确定后，公司将及时发布相关公告并申请公司 A 股股票复牌。敬请广大投资者关注后续公告，并注意投资风险。 二、本次交易的基本情况 （一）交易标的基本情况本次交易涉及的标的资产为蒲城清洁能源公司 100%股权。 蒲城清洁能源公司是一家技术领先、运营稳健的现代煤化工企业，主要从事聚乙烯 （PE）、聚丙烯（PP）等聚烯烃产品的生产与销售。 公司名称蒲城清洁能源化工有限责任公司统一社会信用代码 916105266815657354 公司类型有限责任公司（非上市） 注册地址陕西省渭南市蒲城县孙镇平路庙（渭北煤化工业园） 法定代表人封建利注册资本 700,000 万元企业类型其他有限责任公司成立时间 2008 年 11 月 11 日经营范围一般项目：化工产品生产（不含许可类化工产品）；化工产品销售（不含许可类化工产品）；固体废物治理；热力生产和供应；危险化学品应急救援服务；基础化学原料制造（不含危险化学品等许可类化学品的制造） (除依法须经批准的项目外，凭营业执照依法自主开展经营活动)。许可项目：危险化学品生产；危险化学品经营；发电、输电、供电业务；检验检测服务；自来水生产与供应；燃气经营；货物进出口(依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准)。 （二）交易对方的基本情况本次交易初步确定的交易对方包括陕西化工集团有限公司、三峡资本控股有限责任公司。其中，陕西化工集团有限公司为陕煤集团的全资子公司，两家公司基本情况如下： 1、陕西化工集团有限公司公司名称陕西化工集团有限公司统一社会信用代码 91610131MA6TX3WH5K 注册地址西安市高新区锦业一路 2 号陕西煤业化工集团研发大楼 21 层法定代表人屈战成注册资本 2,723,700 万元企业类型有限责任公司成立时间 2015 年 11 月 2 日经营范围一般经营项目：化工产品（不含危险、监控、易制毒化学品）的开发、销售；化工技术研发、技术推广、技术转让。（以上经营范围除国家规定的专控及前置许可项目） 2、三峡资本控股有限责任公司公司名称三峡资本控股有限责任公司统一社会信用代码 91110108335463656N 注册地址北京市通州区粮市街 2 号院 5 号楼 22 层 2205 室法定代表人卢海林注册资本 714,285.71429 万元企业类型有限责任公司成立时间 2015 年 3 月 20 日经营范围实业投资；股权投资；资产管理；投资咨询。（“1、未经有关部门批准，不得以公开方式募集资金；2、不得公开开展证券类产品和金融衍生品交易活动；3、不得发放贷款；4、不得对所投资企业以外的其他企业提供担保； 5、不得向投资者承诺投资本金不受损失或者承诺最低收益”；1、未经有关部门批准，不得以公开方式募集资金；2、不得公开开展证券类产品和金融衍生品交易活动；3、不得发放贷款；4、不得对所投资企业以外的其他企业提供担保；5、不得向投资者承诺投资本金不受损失或者承诺最低收益”；市场主体依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事国家和本市产业政策禁止和限制类项目的经营活动。） （三）交易方式本次交易拟由公司发行 A 股股份及支付现金购买蒲城清洁能源公司 100%股权，并同步于 A 股募集配套资金，所募配套资金全额用于支付交易对价。本次交易目前尚存在不确定性，具体交易方式、交易方案以后续公告的重组预案或重组报告书披露的信息为准。 三、本次重组的意向性文件根据陕煤集团出具的《关于对陕建机股份并购重组蒲城清洁能源公司立项的通知》， 对公司以发行股份及支付现金相结合的方式，收购蒲城清洁能源公司 100%股权，并同步募集配套资金予以立项。 四、风险提示截至本公告披露日，本次交易仍处于筹划阶段，交易各方尚未签署正式的交易协议， 本次交易尚需履行必要的内部决策程序，并经有权监管机构批准后方可正式实施，本次交易最终能否实施尚存在不确定性。敬请广大投资者理性投资，注意投资风险。 五、备查文件 （一）经公司董事长签字并加盖公司公章的停牌申请； （二）陕煤集团出具的《关于对陕建机股份并购重组蒲城清洁能源公司立项的通知》； （三）交易对方关于不存在《上市公司监管指引第 7 号——上市公司重大资产重组相关股票异常交易监管》第十二条情形的说明文件； （四）上海证券交易所要求的其他文件。 特此公告。 陕西建设机械股份有限公司董事会 2026 年 8 月 11 日",
           "_editorialEvidenceTitles": "建设机械关于筹划重大事项暨关联交易事项的停牌公告",
           "announcementTitle": "建设机械关于筹划重大事项暨关联交易事项的停牌公告",
-          "attention": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
+          "attention": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
           "baselineFacts": [],
-          "businessSubcategory": "关联交易",
+          "businessSubcategory": "并购重组",
           "company": "建设机械",
-          "conclusion": "本次重组的意向性文件根据陕煤集团出具的《关于对陕建机股份并购重组蒲城清洁能源公司立项的通知》， 对公司以发行股份及支付现金相结合的方式，收购蒲城清洁能源公司 100%股权，并同步募集配套资金予以立项。） （三）交易方式本次交易拟由公司发行 A 股股份及支付现金购买蒲城清洁能源公司 100%股权，并同步于 A 股募集配套资金。",
+          "conclusion": "建设机械拟以发行股份及支付现金购买蒲城清洁能源公司100%股权并募集配套资金，构成关联交易及预计重大资产重组；交易尚处筹划，2026年8月11日开市起停牌，预计不超10个交易日；尚未签署正式协议，尚待内部决策及监管批准；当前节点：方案审议。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -3722,33 +4310,48 @@
               "templateFree": true
             },
             "genericTitleRewrite": false,
-            "impact": "关联交易已经进入审议或执行节点，需结合交易定价、公允性、额度及实际履行情况评估对经营和治理的影响。",
+            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
             "keyFigures": [
               "100%",
-              "100%"
+              "2026年",
+              "11日"
             ],
-            "nextObservation": "后续关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
+            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
             "passed": true,
             "semanticGate": "v2-listed-semantic-current-source-v1",
-            "stage": "关联交易",
+            "stage": "board_plan",
             "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225466386"
+              ]
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "本次重组的意向性文件根据陕煤集团出具的《关于对陕建机股份并购重组蒲城清洁能源公司立项的通知》， 对公司以发行股份及支付现金相结合的方式。",
-          "customerFollowUp": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
-          "homepageEligible": false,
-          "homepageMaterialityReason": "",
-          "impactAssessment": "关联交易已经进入审议或执行节点，需结合交易定价、公允性、额度及实际履行情况评估对经营和治理的影响。",
-          "importance": "必看",
-          "mainSection": "",
+          "customerDisposition": "daily",
+          "customerFact": "建设机械拟发行股份及支付现金购买蒲城清洁能源公司100%股权并募集配套资金，构成关联交易；尚处筹划，2026年8月11日起停牌不超10个交易日，待方案及审批。",
+          "customerFollowUp": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "eventLabel": "收并购",
+          "eventSubtype": "",
+          "eventType": "ma",
+          "firstSeenAt": "2026-08-11",
+          "homepageEligible": true,
+          "homepageMaterialityReason": "重大交易实质方案或审核节点",
+          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-08-11",
+          "lifecycleId": "listed-lifecycle-25c65a1fd3d23642c6",
+          "lifecycleStage": "board_plan",
+          "lifecycleStatus": "active",
+          "mainSection": "capital",
           "mandatoryCustomerHighlight": false,
           "mandatoryRuleId": "",
-          "matterType": "关联交易",
-          "matter_id": "listed-matter-d2ae7f531a57cf",
-          "nextObservation": "后续关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
+          "matterType": "收并购",
+          "matter_id": "listed-matter-b99c820a185c7d",
+          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "planId": "发行股份及支付现金购买资产并募集配套资金",
+          "previousStage": "",
           "publishedAt": "2026-08-11",
           "score": 22,
           "sourceAnnouncementIds": [
@@ -3764,7 +4367,93 @@
               "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466386.PDF"
             }
           ],
-          "whyImportant": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。"
+          "timelineLength": 1,
+          "whyImportant": "关注审议审核、交易付款、资产交割、工商过户及并表进展。"
+        },
+        {
+          "_editorialEvidenceText": "1 证券代码：600379 证券简称：宝光股份编号：2026-020 陕西宝光真空电器股份有限公司关于聘任公司副总经理的公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。 陕西宝光真空电器股份有限公司（以下简称“公司”）于 2026 年 8 月 10 日召开第八届董事会第十八次会议，审议并通过《关于聘任公司副总经理的议案》。结合公司经营发展需要，依据法律法规、规范性文件及《公司章程》规定，经公司第八届董事会提名委员会审核通过，董事会同意聘任杨逍先生担任公司副总经理，分管投融资等工作，聘期自公司本次董事会审议通过之日起至第八届董事会任期届满之日止。 截至本公告日，杨逍先生未持有公司股份。不存在《公司法》《上海证券交易所上市公司自律监管指引第 1 号——规范运作》等法律法规及《公司章程》规定的不得担任上市公司高级管理人员的情形；不存在被中国证监会或证券交易所认定不适合担任上市公司高级管理人员的情形；未受过中国证监会、证券交易所及其他有关部门处罚或惩戒；不存在其他法律、行政法规或部门规章规定的其他不得担任上市公司高级管理人员的情形。与公司的现任其他董事、高级管理人员、控股股东及持股 5%以上的股东不存在关联关系，符合担任公司高级管理人员的任职资格。 杨逍先生简历见附件。 特此公告。 陕西宝光真空电器股份有限公司董事会 2026 年 8 月 11 日 2 附件：杨逍先生简历。 杨逍：男，汉族，1994 年 6 月出生，中共党员，硕士研究生学历，曾任德勤管理咨询（上海）有限公司北京分公司高级咨询顾问，明阳智慧能源集团股份公司投融资策划经理，广东明阳电气股份有限公司投资及投资者关系经理。 截至目前，未持有陕西宝光真空电器股份有限公司股票。 不存在《公司法》《上海证券交易所上市公司自律监管指引第 1 号——规范运作》 等法律法规及《陕西宝光真空电器股份有限公司章程》规定的不得担任上市公司高级管理人员的情形；不存在被中国证券监督管理委员会采取不得担任上市公司高级管理人员的市场禁入措施，期限尚未届满的情形；不存在被证券交易所公开认定为不适合担任上市公司高级管理人员，且期限未满的情形；不存在最近 36 个月内受到中国证监会行政处罚、最近 36 个月内受到证券交易所公开谴责或者 3 次以上通报批评的情形；不存在因涉嫌犯罪被司法机关立案侦查或者涉嫌违法违规被中国证监会立案调查， 尚未有明确结论意见的情形；不存在重大失信等不良记录情形；不存在其他法律、行政法规或部门规章规定的其他不得担任上市公司高级管理人员的情形。与陕西宝光真空电器股份有限公司的现任其他董事、高级管理人员、控股股东及持股 5%以上的股东不存在关联关系。",
+          "_editorialEvidenceTitles": "宝光股份关于聘任公司副总经理的公告",
+          "announcementTitle": "宝光股份关于聘任公司副总经理的公告",
+          "attention": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "baselineFacts": [],
+          "businessSubcategory": "治理变更",
+          "company": "宝光股份",
+          "conclusion": "宝光股份聘任杨逍担任副总经理；分管投融资等工作；聘期自公司本次董事会审议通过之日起至第八届董事会任期届满之日止；当前节点：实施完成。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "currentActionPrecedesHistoricalBaseline": true,
+              "factSourceSupportsCurrentStage": true,
+              "factTypeMatchesMatterType": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "newVsCumulativeNumbersSeparated": true,
+              "nextObservation": true,
+              "noTruncatedTokenOrTableHeader": true,
+              "requiredActorNamed": true,
+              "requiredTimelineDates": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
+            "keyFigures": [],
+            "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
+            "passed": true,
+            "semanticGate": "v2-listed-semantic-current-source-v1",
+            "stage": "completed",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225466006"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "customerFact": "宝光股份聘任杨逍担任副总经理；聘期自公司本次董事会审议通过之日起至第八届董事会任期届满之日止。",
+          "customerFollowUp": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "eventLabel": "重大治理变更",
+          "eventSubtype": "",
+          "eventType": "governance_change",
+          "firstSeenAt": "2026-04-11",
+          "homepageEligible": false,
+          "homepageMaterialityReason": "",
+          "impactAssessment": "董事会及核心管理岗位已经落定或调整，后续重点是履职衔接、职责分工及控制权稳定性。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-08-11",
+          "lifecycleId": "listed-lifecycle-486b466d85fb8ba8d8",
+          "lifecycleStage": "completed",
+          "lifecycleStatus": "completed",
+          "mainSection": "governance",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "重大治理变更",
+          "matter_id": "listed-matter-2d4d84ff276e3c",
+          "nextObservation": "后续关注人员履职、治理衔接、工商变更及控制权稳定性。",
+          "planId": "2026年",
+          "previousStage": "changed",
+          "publishedAt": "2026-08-11",
+          "score": 11,
+          "sourceAnnouncementIds": [
+            "1225466006"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466006.PDF",
+          "sources": [
+            {
+              "announcementId": "1225466006",
+              "announcementTitle": "宝光股份关于聘任公司副总经理的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466006.PDF"
+            }
+          ],
+          "timelineLength": 3,
+          "whyImportant": "关注人员履职、治理衔接、工商变更及控制权稳定性。"
         },
         {
           "_editorialEvidenceText": "www.shaangu.com- 1 - 证券代码：601369 证券简称：陕鼓动力公告编号：临 2026-038 西安陕鼓动力股份有限公司关于发行股份购买资产暨关联交易事项的进展公告本公司董事会及全体董事保证本公告内容不存在任何虚假记载、误导性陈述或者重大遗漏，并对其内容的真实性、准确性和完整性承担法律责任。 一、本次交易的基本情况西安陕鼓动力股份有限公司（以下简称“公司”）拟通过发行股份的方式购买陕西秦风气体股份有限公司（以下简称“标的公司”）少数股东持有的合计 36.06%的股权（以下简称“本次交易”），其中，陕西化工集团有限公司、陕西延长石油（集团）有限责任公司及陕西金融控股集团有限公司分别持有标的公司 10.00%的股权，西安恒博隆企业管理咨询合伙企业（有限合伙）持有标的公司 6.06%的股权。本次交易构成关联交易，预计不构成《上市公司重大资产重组管理办法》规定的重大资产重组，亦不构成重组上市。 二、本次交易进展情况因筹划本次交易相关事项，公司股票自 2026 年 6 月 29 日（星期一）开市起开始停牌，停牌时间不超过 10 个交易日，具体内容详见公司于 2026 年 6 月 27 日披露的《西安陕鼓动力股份有限公司关于筹划发行股份购买资产暨关联交易事项的停牌公告》（公告编号：临 2026-026）。停牌期间，公司根据相关规定披露了重大事项进展公告，具体内容详见公司于 2026 年 7 月 4 日披露的《西安陕鼓动力股份有限公司关于筹划发行股份购买资产暨关联交易事项的停牌进展公告》（公告编号：临 2026-027）。 2026 年 7 月 10 日，公司召开第九届董事会第二十七次会议，审议通过了《关于<西安陕鼓动力股份有限公司发行股份购买资产暨关联交易预案>及其摘要的议案》等与本次交易相关的议案，具体内容详见公司于 2026 年 7 月 11 日披露的相关公告及文件。 根据有关规定，经向上海证券交易所申请，公司股票（证券简称：陕鼓动力，证券代码 601369）自 2026 年 7 月 13 日（星期一）开市起复牌，具体内容详见公司于 2026 年 7 月 11 日披露的《西安陕鼓动力股份有限公司关于发行股份购买资产暨关联交易事项的一般风险提示暨公司股票复牌的提示性公告》（公告编号：临 2026-033）。 截至本公告披露日，本次交易相关审计、资产评估、尽职调查等工作正在稳步推进中，公司将在相关工作完成后，再次召开董事会会议审议本次交易相关事项。 三、风险提示 www.shaangu.com- 2 - 本次交易方案尚需公司董事会、股东会审议批准，并获得有权监管机构批准、核准或同意注册后方可正式实施，本次交易能否获得相关批准、核准或同意注册以及最终获得批准、核准或同意注册的时间存在不确定性。公司于 2026 年 7 月 11 日披露的《西安陕鼓动力股份有限公司发行股份购买资产暨关联交易预案》中详细披露了本次交易存在的风险因素及尚需履行的程序。公司将继续推进本次交易相关工作，严格按照相关法律法规的规定和要求，根据本次交易进展情况履行相关信息披露义务。敬请广大投资者注意投资风险。 特此公告。 西安陕鼓动力股份有限公司董事会 2026 年 8 月 11 日",
@@ -4100,6 +4789,100 @@
           "whyImportant": "关注收入与利润趋势、经营现金流改善、毛利率和资产质量变化。"
         },
         {
+          "_editorialEvidenceText": "证券代码：300581 证券简称：晨曦航空公告编号：2026-040 西安晨曦航空科技股份有限公司关于控股股东减持计划期限届满的公告公司股东汇聚科技保证向本公司提供的信息内容真实、准确、 完整，没有虚假记载、误导性陈述或重大遗漏。 本公司及董事会全体成员保证公告内容与信息披露义务人提供的信息一致。 西安晨曦航空科技股份有限公司（以下简称“公司”）于 2026 年 4 月 13 日在巨潮资讯网（http://www.cninfo.com.cn）上披露了《关于控股股东减持股份计划预披露公告》（公告编号：2026-012），公司控股股东西安汇聚科技有限责任公司（以下简称“汇聚科技”）持本公司股份 20,205.3278 万股（占公司总股本的 36.73%），计划自该公告发布之日起 15 个交易日后的三个月内通过集中竞价交易方式减持本公司股份不超过公司总股本的 1%；通过大宗交易方式减持本公司股份不超过公司总股本的 2%。若此期间公司有送股、资本公积转增股本等股本变动事项，则对该数量进行相应的调整。 公司于近日收到汇聚科技出具的《股份减持计划期限届满的告知函》，2026 年 5 月 8 日至 2026 年 8 月 7 日，汇聚科技通过集中竞价方式累计减持公司股票 4,636,400 股，通过大宗交易方式累计减持公司股票 10,939,928 股，累计减持股数达到公司总股本的 2.83%。截至本公告披露日，汇聚科技本次减持计划期限届满，减持股份总数未超过减持计划披露的股份数量。 公司根据《深圳证券交易所创业板股票上市规则》《深圳证券交易所上市公司自律监管指引第 2 号——创业板上市公司规范运作》《深圳证券交易所上市公司自律监管指引第 18 号——股东及董事、高级管理人员减持股份》等相关法律、 法规、规范性文件及《公司章程》的规定，现将有关情况公告如下： 一、控股股东减持情况 1、控股股东本次减持股份情况股东名称减持方式减持期间减持均价 （元/股） 减持股数 （股） 减持比例（占总股本） 汇聚科技集中竞价减持 2026 年 5 月 8 日 -2026 年 6 月 30 日 12.7767 1,273,700 0.23% 2026 年 7 月 1 日 -2026 年 7 月 31 日 10.0871 3,362,700 0.61% 2026 年 8 月 1 日 -2026 年 8 月 7 日 / / / 大宗交易减持 2026 年 5 月 8 日 -2026 年 6 月 30 日 10.3299 10,939,928 1.99% 2026 年 7 月 1 日 -2026 年 7 月 31 日 / / / 2026 年 8 月 1 日 -2026 年 8 月 7 日 / / / 合计 15,576,328 2.83% 注：公司股东汇聚科技本次减持的股份来源为首次公开发行前已持有的股份及上市后转送的股份。本表若出现总数与分项数值之和不符的情况，均为四舍五入原因造成。 2、控股股东及其一致行动人本次减持前后持股情况股东名称股份性质本次减持前持有股份本次减持后持有股份股数 （万股） 占总股本比例（%） 股数 （万股） 占总股本比例（%） 汇聚科技持有股份 20,205.3278 36.73% 18,647.6950 33.90% 其中：无限售条件股份 20,205.3278 36.73% 18,647.6950 33.90% 有限售条件股份 / / / / 寰宇星控持有股份 6,106.7952 11.10% 6,106.7952 11.10% 其中：无限售条件股份 6,106.7952 11.10% 6,106.7952 11.10% 有限售条件股份 / / / / 合计持有股份 26,312.123 47.83% 24,754.4902 45.00% 其中：无限售条件股份 26,312.123 47.83% 24,754.4902 45.00% 有限售条件股份 / / / / 注：本表若出现总数与分项数值之和不符的情况，均为四舍五入原因造成。 二、其他相关说明 1、本次减持符合《深圳证券交易所创业板股票上市规则》《深圳证券交易所上市公司自律监管指引第 2 号——创业板上市公司规范运作》《深圳证券交易所上市公司自律监管指引第 18 号——股东及董事、高级管理人员减持股份》等相关法律、法规、规范性文件及《公司章程》的规定。 2、本次减持情况与控股股东此前已披露的意向、减持计划一致，不存在违反任何承诺的情形。 3、截至本公告日，控股股东汇聚科技减持股份数量未超过计划减持股份数量，本次减持计划期限届满。 4、本次减持计划实施后，汇聚科技仍是公司控股股东，吴坚仍为公司的实际控制人，本次减持不会影响公司的治理结构和持续经营，不会导致公司的控制权发生变更。 敬请广大投资者理性投资。 三、备查文件 1、汇聚科技出具的《股份减持计划期限届满的告知函》。 2、深交所要求的其他文件。 特此公告! 西安晨曦航空科技股份有限公司董事会 2026 年 8 月 10 日",
+          "_editorialEvidenceTitles": "西安晨曦航空科技股份有限公司关于控股股东减持计划期限届满的公告",
+          "announcementTitle": "西安晨曦航空科技股份有限公司关于控股股东减持计划期限届满的公告",
+          "attention": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+          "baselineFacts": [],
+          "businessSubcategory": "减持",
+          "company": "晨曦航空",
+          "conclusion": "晨曦航空控股股东汇聚科技减持计划期限届满：原计划减持上限1% / 2%；2026年5月8日至2026年8月7日实际减持15,576,328股（2.83%），减持未超过计划，期末持股33.90%；当前节点：实施完成。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "currentActionPrecedesHistoricalBaseline": true,
+              "factSourceSupportsCurrentStage": true,
+              "factTypeMatchesMatterType": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "newVsCumulativeNumbersSeparated": true,
+              "nextObservation": true,
+              "noTruncatedTokenOrTableHeader": true,
+              "requiredActorNamed": true,
+              "requiredTimelineDates": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "本次披露会改变股东减持计划的执行状态；是否影响控制关系取决于实际减持数量与后续安排。",
+            "keyFigures": [
+              "1%",
+              "2%",
+              "2026年",
+              "8日",
+              "2026年",
+              "7日",
+              "15,576,328股",
+              "2.83%"
+            ],
+            "nextObservation": "后续关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+            "passed": true,
+            "semanticGate": "v2-listed-semantic-current-source-v1",
+            "stage": "completed",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225467006"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "customerFact": "晨曦航空控股股东汇聚科技减持计划届满：原计划上限1% / 2%；5月8日至8月7日实际减持15,576,328股（2.83%），期末持股33.90%。",
+          "customerFollowUp": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+          "eventLabel": "减持",
+          "eventSubtype": "",
+          "eventType": "reduction",
+          "firstSeenAt": "2026-08-11",
+          "homepageEligible": false,
+          "homepageMaterialityReason": "",
+          "impactAssessment": "本次披露会改变股东减持计划的执行状态；是否影响控制关系取决于实际减持数量与后续安排。",
+          "importance": "进度",
+          "isNoChangeProgress": false,
+          "lastSeenAt": "2026-08-11",
+          "lifecycleId": "listed-lifecycle-a6463172a246e58bd6",
+          "lifecycleStage": "completed",
+          "lifecycleStatus": "completed",
+          "mainSection": "capital",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "减持",
+          "matter_id": "listed-matter-9c63d06e86981b",
+          "nextObservation": "后续关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+          "planId": "控股股东减持计划期限届满的公告证券代码：300581证券简称：晨曦航空公告编号：|2026年",
+          "previousStage": "",
+          "publishedAt": "2026-08-10",
+          "score": 13,
+          "sourceAnnouncementIds": [
+            "1225467006"
+          ],
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-10/1225467006.PDF",
+          "sources": [
+            {
+              "announcementId": "1225467006",
+              "announcementTitle": "西安晨曦航空科技股份有限公司关于控股股东减持计划期限届满的公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-10/1225467006.PDF"
+            }
+          ],
+          "timelineLength": 1,
+          "whyImportant": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。"
+        },
+        {
           "_editorialEvidenceText": "1 证券代码：002246 证券简称：北化股份公告编号：2026-036 北方化学工业股份有限公司第六届董事会第七次会议决议公告本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。 一、董事会会议召开情况北方化学工业股份有限公司（以下简称“公司”）第六届董事会第七次会议的会议通知及材料于 2026 年 7 月 27 日前以邮件、传真、专人送达方式送至全体董事。会议于 2026 年 8 月 6 日在四川省泸州市公司总部办公楼三楼会议室以现场结合通讯方式召开。本次会议应出席董事人数 9 人，实际出席董事人数 9 人， 其中：非独立董事杨和成先生、马辉先生、杜兰平先生、潘健先生、独立董事吕先锫先生、邓华民先生以现场方式出席会议，非独立董事蒲加顺先生、尉伟华先生、独立董事肖忠良先生以通讯方式出席会议。本次会议由董事长蒲加顺先生主持，公司董事会秘书及部分高级管理人员列席了会议，会议的召集、召开符合《公司法》和《公司章程》的规定。 二、董事会会议审议情况经与会董事认真审议，采取记名投票表决，形成以下决议： （一）会议 9 票同意，0 票反对，0 票弃权，审议通过了《2026 年半年度总经理工作报告》。 （二）会议 9 票同意，0 票反对，0 票弃权，审议通过了《2026 年半年度报告全文及摘要》。 没有董事对公司半年度报告及半年度报告摘要内容的真实性、准确性、完整 2 性无法保证或存在异议。 该议案已经公司第六届董事会审计委员会 2026 年第三次会议审议通过。 《2026 年半年度报告摘要》登载于 2026 年 8 月 10 日的《中国证券报》《证券时报》和巨潮资讯网，全文登载于 2026 年 8 月 10 日的巨潮资讯网。 （三）会议 9 票同意，0 票反对，0 票弃权，审议通过了《2026 年半年度募集资金存放、管理与使用情况专项报告》。 该议案已经公司第六届董事会审计委员会 2026 年第三次会议审议通过。 该报告全文登载于 2026 年 8 月 10 日的巨潮资讯网。 （四）会议 3 票同意，0 票反对，0 票弃权，审议通过了《关于兵工财务有限责任公司 2026 年半年度持续风险评估报告》。 关联董事蒲加顺、杨和成、马辉、杜兰平、尉伟华、潘健回避表决。 该议案已经第六届董事会独立董事专门会议 2026 年第二次会议审议通过， 全体独立董事过半数同意。 该议案已经公司第六届董事会审计委员会 2026 年第三次会议审议通过。 该报告全文登载于 2026 年 8 月 10 日的《中国证券报》《证券时报》和巨潮资讯网，相关独立董事专门会议意见登载于 2026 年 8 月 10 日的巨潮资讯网。 （五）会议 9 票同意，0 票反对，0 票弃权，审议通过了《关于制定“质量回报双提升”专项行动方案的议案》。 具体内容登载于 2026 年 8 月 10 日的《中国证券报》《证券时报》和巨潮资讯网。 （六）会议 9 票同意，0 票反对，0 票弃权，审议通过了《关于公司部分组织机构调整的议案》。 根据经营管理需要，公司拟调整部分组织机构。一是拟成立纤维素新材料分公司；二是拟撤销并注销销售分公司，成立商务中心。董事会授权经营管理层具体办理上述组织机构调整相关事宜。 3 该议案已经公司第六届董事会战略委员会 2026 年第三次会议审议通过。 （七）会议 9 票同意，0 票反对，0 票弃权，审议通过了《关于制定<市值管理制度>的议案》。 具体内容登载于 2026 年 8 月 10 日的巨潮资讯网。 （八）会议 9 票同意，0 票反对，0 票弃权，审议通过了《关于修订<董事会决议跟踪落实及后评价制度>的议案》。 具体内容登载于 2026 年 8 月 10 日的巨潮资讯网。 （九）会议 9 票同意，0 票反对，0 票弃权，审议通过了《关于修订<董事长工作规则>的议案》。 具体内容登载于 2026 年 8 月 10 日的巨潮资讯网。 （十）会议 9 票同意，0 票反对，0 票弃权，审议通过了《关于修订<重大事项内部报告制度>的议案》。 具体内容登载于 2026 年 8 月 10 日的巨潮资讯网。 （十一）会议 9 票同意，0 票反对，0 票弃权，审议通过了《关于修订<年报信息披露重大差错责任追究制度>的议案》。 具体内容登载于 2026 年 8 月 10 日的巨潮资讯网。 三、备查文件 （一）经与会董事签字并加盖董事会印章的董事会决议； （二）深交所要求的其他文件。 特此公告。 北方化学工业股份有限公司董事会二〇二六年八月十日",
           "_editorialEvidenceTitles": "第六届董事会第七次会议决议公告",
           "announcementTitle": "关于公司部分组织机构调整的议案",
@@ -4171,6 +4954,105 @@
         }
       ],
       "opportunities": [
+        {
+          "announcementTitle": "建设机械关于筹划重大事项暨关联交易事项的停牌公告",
+          "attention": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "body": "建设机械拟以发行股份及支付现金购买蒲城清洁能源公司100%股权并募集配套资金。",
+          "business": {
+            "category": "资本运作",
+            "contentImportance": "重点",
+            "priority": "focus",
+            "subcategory": "并购重组",
+            "targets": [
+              "董秘办",
+              "财务",
+              "投融资负责人"
+            ]
+          },
+          "businessSubcategory": "并购重组",
+          "company": "建设机械",
+          "conclusion": "建设机械拟以发行股份及支付现金购买蒲城清洁能源公司100%股权并募集配套资金，构成关联交易及预计重大资产重组；交易尚处筹划，2026年8月11日开市起停牌，预计不超10个交易日；尚未签署正式协议，尚待内部决策及监管批准；当前节点：方案审议。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "currentActionPrecedesHistoricalBaseline": true,
+              "factSourceSupportsCurrentStage": true,
+              "factTypeMatchesMatterType": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "newVsCumulativeNumbersSeparated": true,
+              "nextObservation": true,
+              "noTruncatedTokenOrTableHeader": true,
+              "requiredActorNamed": true,
+              "requiredTimelineDates": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+            "keyFigures": [
+              "100%",
+              "2026年",
+              "11日"
+            ],
+            "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+            "passed": true,
+            "semanticGate": "v2-listed-semantic-current-source-v1",
+            "stage": "board_plan",
+            "stageEvidence": {
+              "mode": "current_source_semantics",
+              "sourceIds": [
+                "1225466386"
+              ]
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerDisposition": "daily",
+          "customerFact": "建设机械拟发行股份及支付现金购买蒲城清洁能源公司100%股权并募集配套资金，构成关联交易；尚处筹划，2026年8月11日起停牌不超10个交易日，待方案及审批。",
+          "customerFollowUp": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "eventLabel": "收并购",
+          "eventSubtype": "",
+          "eventType": "ma",
+          "homepageEligible": true,
+          "homepageMaterialityReason": "重大交易实质方案或审核节点",
+          "impactAssessment": "交易的治理、担保或审批条件已有实质推进，但在付款、交割及并表完成前仍不能视为交易完成。",
+          "importance": "重点",
+          "isNoChangeProgress": false,
+          "isReference": true,
+          "lifecycleId": "listed-lifecycle-25c65a1fd3d23642c6",
+          "lifecycleStage": "board_plan",
+          "lifecycleStatus": "active",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "收并购",
+          "matter_id": "listed-matter-b99c820a185c7d",
+          "nextObservation": "后续关注审议审核、交易付款、资产交割、工商过户及并表进展。",
+          "planId": "发行股份及支付现金购买资产并募集配套资金",
+          "previousStage": "",
+          "publishedAt": "2026-08-11",
+          "referenceAnchor": "listed-detail-482dc5334a-820fcb9c",
+          "referenceMatterId": "listed-matter-b99c820a185c7d",
+          "sourceAnnouncementIds": [
+            "1225466386"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466386.PDF",
+          "sources": [
+            {
+              "announcementId": "1225466386",
+              "announcementTitle": "建设机械关于筹划重大事项暨关联交易事项的停牌公告",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466386.PDF"
+            }
+          ],
+          "title": "重点｜建设机械",
+          "whyImportant": "关注审议审核、交易付款、资产交割、工商过户及并表进展。"
+        },
         {
           "announcementTitle": "西安陕鼓动力股份有限公司关于发行股份购买资产暨关联交易事项的进展公告",
           "attention": "关注审议审核、交易付款、资产交割、工商过户及并表进展。",
@@ -4465,99 +5347,12 @@
           ],
           "title": "重点｜天力复合",
           "whyImportant": "关注收入与利润趋势、经营现金流改善、毛利率和资产质量变化。"
-        },
-        {
-          "announcementTitle": "关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告",
-          "attention": "关注实际提款、担保余额和偿债安排。",
-          "body": "陕西金叶为西安明德理工学院向北京银行西安分行申请3,000万元两年期综合授信已签署连带责任保证合同。",
-          "business": {
-            "category": "资金与财务",
-            "contentImportance": "必看",
-            "priority": "standard",
-            "subcategory": "担保",
-            "targets": [
-              "财务负责人",
-              "资金部",
-              "董秘办"
-            ]
-          },
-          "businessSubcategory": "担保",
-          "company": "陕西金叶",
-          "conclusion": "陕西金叶为西安明德理工学院向北京银行西安分行申请3,000万元两年期综合授信已签署连带责任保证合同；公告日实际担保余额18.0746亿元，占最近一期经审计净资产116.46%。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "currentActionPrecedesHistoricalBaseline": true,
-              "factSourceSupportsCurrentStage": true,
-              "factTypeMatchesMatterType": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "newVsCumulativeNumbersSeparated": true,
-              "nextObservation": true,
-              "noTruncatedTokenOrTableHeader": true,
-              "requiredActorNamed": true,
-              "requiredTimelineDates": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
-            "keyFigures": [
-              "3,000万元",
-              "18.0746亿元",
-              "116.46%"
-            ],
-            "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
-            "passed": true,
-            "semanticGate": "v2-listed-semantic-current-source-v1",
-            "stage": "担保授信",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerFact": "陕西金叶为西安明德理工学院向北京银行西安分行申请3,000万元两年期综合授信已签署连带责任保证合同。",
-          "customerFollowUp": "关注实际提款、担保余额和偿债安排。",
-          "homepageEligible": false,
-          "homepageMaterialityReason": "经核验的当日重要事项",
-          "impactAssessment": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
-          "importance": "必看",
-          "isReference": true,
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "担保授信",
-          "matter_id": "listed-matter-6873965536b93c",
-          "nextObservation": "后续关注实际提款、担保余额和偿债安排。",
-          "publishedAt": "2026-08-11",
-          "referenceAnchor": "listed-detail-3d11f47147-bba7cb65",
-          "referenceMatterId": "listed-matter-6873965536b93c",
-          "sourceAnnouncementIds": [
-            "1225465690"
-          ],
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225465690.PDF",
-          "sources": [
-            {
-              "announcementId": "1225465690",
-              "announcementTitle": "关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225465690.PDF"
-            }
-          ],
-          "title": "必看｜陕西金叶",
-          "whyImportant": "关注实际提款、担保余额和偿债安排。"
         }
       ],
       "quarantineEvidence": {
-        "count": 12,
-        "path": "v2/data/runs/quarantine-ledgers/2026-08-11/morning-48ae7bc0a6cb6b7183b70657e39232a942e96bc7c19ad8f071aa9d0c704f9470.json",
-        "sha256": "48ae7bc0a6cb6b7183b70657e39232a942e96bc7c19ad8f071aa9d0c704f9470"
+        "count": 10,
+        "path": "v2/data/runs/quarantine-ledgers/2026-08-11/morning-4a0121f5b91a55f474a0aa69f8ddd56320924adb18f4644c4f16544f051b28f6.json",
+        "sha256": "4a0121f5b91a55f474a0aa69f8ddd56320924adb18f4644c4f16544f051b28f6"
       },
       "rejectedCandidates": [
         {
@@ -4650,7 +5445,7 @@
           "customerFollowUp": "关注实际提款、担保余额和偿债安排。",
           "event": "陕西金叶为西安明德理工学院向北京银行西安分行申请3,000万元两年期综合授信已签署连带责任保证合同。",
           "homepageEligible": false,
-          "homepageMaterialityReason": "经核验的当日重要事项",
+          "homepageMaterialityReason": "",
           "impactAssessment": "本次融资与担保会增加集团或关联主体的或有负债暴露，需结合担保余额、净资产比例及偿付情况判断风险。",
           "importance": "必看",
           "mandatoryCustomerHighlight": false,
@@ -4695,7 +5490,7 @@
           "businessSubcategory": "股东股份司法拍卖",
           "canonicalDetailId": "listed-detail-f70dd7228b-ccff9f82",
           "company": "供销大集",
-          "conclusion": "供销大集控股股东一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日至9月8日在京东网首次司法拍卖；公司称不致控制权变更。",
+          "conclusion": "供销大集控股股东一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日10时至9月8日10时在京东网首次司法拍卖；公司称不致控制权变更。",
           "contentQuality": {
             "checks": {
               "actualFact": true,
@@ -4733,9 +5528,9 @@
             },
             "standard": "v2-substantive-five-field"
           },
-          "customerFact": "供销大集控股股东一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日至9月8日在京东网首次司法拍卖；公司称不致控制权变更。",
+          "customerFact": "一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日10时至9月8日10时在京东网首次司法拍卖；公司称不致控制权变更。",
           "customerFollowUp": "关注竞拍结果、缴款、法院执行、股权过户及持股结构变化。",
-          "event": "供销大集控股股东一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日至9月8日在京东网首次司法拍卖；公司称不致控制权变更。",
+          "event": "一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日10时至9月8日10时在京东网首次司法拍卖；公司称不致控制权变更。",
           "homepageEligible": false,
           "homepageMaterialityReason": "",
           "impactAssessment": "控股股东一致行动人所持股份进入司法拍卖安排，后续成交、过户和持股结构变化仍需持续核验。",
@@ -4811,6 +5606,21 @@
           "excerpt": "重要内容提示：  证券停复牌情况：适用因筹划发行股份及支付现金购买资产并募集配套资金暨关联交易事项,本公司的相关证券停复牌情况如下： 证券代码证券简称停复牌类型停牌起始日停牌期间停牌终止日复牌日 600984 建设机械 A 股停牌 2026/8/11 一、停牌事由和工作安排 2026 年 8 月 10 日，陕西建设机械股份有限公司（以下简称“建设机械”或“公司”）收到控股股东陕西煤业化工集团有限责任公司（以下简称“陕煤集团”）的《关于对陕建机股份并购重。",
           "hkexNewsId": "",
           "kind": "dynamic",
+          "lifecycleCandidate": {
+            "businessSubcategory": "并购重组",
+            "customerDisposition": "daily",
+            "eventLabel": "收并购",
+            "eventType": "ma",
+            "homepageEligible": false,
+            "importance": "重点",
+            "isNoChangeProgress": false,
+            "isSupportingEvidence": false,
+            "lifecycleId": "listed-lifecycle-25c65a1fd3d23642c6",
+            "mainSection": "capital",
+            "planId": "发行股份及支付现金购买资产并募集配套资金",
+            "stage": "board_plan",
+            "status": "active"
+          },
           "matter_id": "1225466386",
           "parser": "pypdf",
           "pdfSha256": "2916f2774a50e20649f5e029ffa97c076257c17b0d801023ce96c4e28a15c7f0",
@@ -4903,7 +5713,7 @@
             "customerDisposition": "daily",
             "eventLabel": "重大治理变更",
             "eventType": "governance_change",
-            "homepageEligible": true,
+            "homepageEligible": false,
             "importance": "重点",
             "isNoChangeProgress": false,
             "isSupportingEvidence": false,
@@ -5397,8 +6207,8 @@
             "customerDisposition": "daily",
             "eventLabel": "减持",
             "eventType": "reduction",
-            "homepageEligible": true,
-            "importance": "必看",
+            "homepageEligible": false,
+            "importance": "进度",
             "isNoChangeProgress": false,
             "isSupportingEvidence": false,
             "lifecycleId": "listed-lifecycle-a6463172a246e58bd6",
@@ -5868,90 +6678,6 @@
       "template": "v2-listed-v1-editorial",
       "tiles": [
         {
-          "announcementTitle": "建设机械关于筹划重大事项暨关联交易事项的停牌公告",
-          "attention": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
-          "body": "本次重组的意向性文件根据陕煤集团出具的《关于对陕建机股份并购重组蒲城清洁能源公司立项的通知》， 对公司以发行股份及支付现金相结合的方式。",
-          "business": {
-            "category": "资本运作",
-            "contentImportance": "内容重要",
-            "priority": "focus",
-            "subcategory": "并购重组",
-            "targets": [
-              "董秘办",
-              "财务",
-              "投融资负责人"
-            ]
-          },
-          "businessSubcategory": "关联交易",
-          "canonicalDetailId": "listed-detail-482dc5334a-cdc84189",
-          "company": "建设机械",
-          "conclusion": "本次重组的意向性文件根据陕煤集团出具的《关于对陕建机股份并购重组蒲城清洁能源公司立项的通知》， 对公司以发行股份及支付现金相结合的方式，收购蒲城清洁能源公司 100%股权，并同步募集配套资金予以立项。） （三）交易方式本次交易拟由公司发行 A 股股份及支付现金购买蒲城清洁能源公司 100%股权，并同步于 A 股募集配套资金。",
-          "contentQuality": {
-            "checks": {
-              "actualFact": true,
-              "completeCustomerSentence": true,
-              "currentActionPrecedesHistoricalBaseline": true,
-              "factSourceSupportsCurrentStage": true,
-              "factTypeMatchesMatterType": true,
-              "impactAssessment": true,
-              "keyFigures": true,
-              "namedGovernanceFact": true,
-              "newVsCumulativeNumbersSeparated": true,
-              "nextObservation": true,
-              "noTruncatedTokenOrTableHeader": true,
-              "requiredActorNamed": true,
-              "requiredTimelineDates": true,
-              "sourceEvidence": true,
-              "stageChange": true,
-              "templateFree": true
-            },
-            "genericTitleRewrite": false,
-            "impact": "关联交易已经进入审议或执行节点，需结合交易定价、公允性、额度及实际履行情况评估对经营和治理的影响。",
-            "keyFigures": [
-              "100%",
-              "100%"
-            ],
-            "nextObservation": "后续关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
-            "passed": true,
-            "semanticGate": "v2-listed-semantic-current-source-v1",
-            "stage": "关联交易",
-            "stageEvidence": {
-              "mode": "structured_matter_type",
-              "sourceIds": []
-            },
-            "standard": "v2-substantive-five-field"
-          },
-          "customerFact": "本次重组的意向性文件根据陕煤集团出具的《关于对陕建机股份并购重组蒲城清洁能源公司立项的通知》， 对公司以发行股份及支付现金相结合的方式。",
-          "customerFollowUp": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
-          "homepageEligible": false,
-          "homepageMaterialityReason": "",
-          "impactAssessment": "关联交易已经进入审议或执行节点，需结合交易定价、公允性、额度及实际履行情况评估对经营和治理的影响。",
-          "importance": "必看",
-          "mandatoryCustomerHighlight": false,
-          "mandatoryRuleId": "",
-          "matterType": "关联交易",
-          "matter_id": "listed-matter-d2ae7f531a57cf",
-          "nextObservation": "后续关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
-          "publishedAt": "2026-08-11",
-          "sourceAnnouncementIds": [
-            "1225466386"
-          ],
-          "sourceConfidence": "verified-curated-matter-sources",
-          "sourceKeyword": "V2精读事项来源组",
-          "sourceName": "巨潮资讯",
-          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466386.PDF",
-          "sources": [
-            {
-              "announcementId": "1225466386",
-              "announcementTitle": "建设机械关于筹划重大事项暨关联交易事项的停牌公告",
-              "sourceName": "巨潮资讯",
-              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466386.PDF"
-            }
-          ],
-          "title": "建设机械｜关联交易",
-          "whyImportant": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。"
-        },
-        {
           "announcementTitle": "2026年半年度报告",
           "attention": "关注收入与利润趋势、经营现金流改善、毛利率和资产质量变化。",
           "body": "北化股份上半年营业收入13.3651亿元、同比增长18.16%。",
@@ -6226,6 +6952,87 @@
           ],
           "title": "天力复合｜定期报告",
           "whyImportant": "关注收入与利润趋势、经营现金流改善、毛利率和资产质量变化。"
+        },
+        {
+          "announcementTitle": "关于公司部分组织机构调整的议案",
+          "attention": "关注组织调整落地及相关业务衔接。",
+          "body": "北化股份董事会审议组织机构调整：设立纤维素新材料分公司；注销销售分公司并设商务中心。",
+          "business": {
+            "category": "治理关系",
+            "contentImportance": "内容重要",
+            "priority": "standard",
+            "subcategory": "章程治理",
+            "targets": [
+              "董秘办",
+              "证券事务代表",
+              "管理层"
+            ]
+          },
+          "businessSubcategory": "组织调整",
+          "canonicalDetailId": "listed-detail-877932a80d-e570b0a2",
+          "company": "北化股份",
+          "conclusion": "北化股份董事会审议组织机构调整：设立纤维素新材料分公司；注销销售分公司并设商务中心。",
+          "contentQuality": {
+            "checks": {
+              "actualFact": true,
+              "completeCustomerSentence": true,
+              "currentActionPrecedesHistoricalBaseline": true,
+              "factSourceSupportsCurrentStage": true,
+              "factTypeMatchesMatterType": true,
+              "impactAssessment": true,
+              "keyFigures": true,
+              "namedGovernanceFact": true,
+              "newVsCumulativeNumbersSeparated": true,
+              "nextObservation": true,
+              "noTruncatedTokenOrTableHeader": true,
+              "requiredActorNamed": true,
+              "requiredTimelineDates": true,
+              "sourceEvidence": true,
+              "stageChange": true,
+              "templateFree": true
+            },
+            "genericTitleRewrite": false,
+            "impact": "组织调整已形成董事会决策，实际影响取决于后续业务衔接和执行。",
+            "keyFigures": [],
+            "nextObservation": "关注组织调整落地及相关业务衔接。",
+            "passed": true,
+            "semanticGate": "v2-listed-semantic-current-source-v1",
+            "stage": "经营调整",
+            "stageEvidence": {
+              "mode": "structured_matter_type",
+              "sourceIds": []
+            },
+            "standard": "v2-substantive-five-field"
+          },
+          "customerFact": "北化股份董事会审议组织机构调整：设立纤维素新材料分公司；注销销售分公司并设商务中心。",
+          "customerFollowUp": "关注组织调整落地及相关业务衔接。",
+          "homepageEligible": false,
+          "homepageMaterialityReason": "",
+          "impactAssessment": "组织调整已形成董事会决策，实际影响取决于后续业务衔接和执行。",
+          "importance": "关注",
+          "mandatoryCustomerHighlight": false,
+          "mandatoryRuleId": "",
+          "matterType": "经营调整",
+          "matter_id": "listed-matter-a2848a24dbf513",
+          "nextObservation": "关注组织调整落地及相关业务衔接。",
+          "publishedAt": "2026-08-10",
+          "sourceAnnouncementIds": [
+            "1225464230"
+          ],
+          "sourceConfidence": "verified-curated-matter-sources",
+          "sourceKeyword": "V2精读事项来源组",
+          "sourceName": "巨潮资讯",
+          "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-10/1225464230.PDF",
+          "sources": [
+            {
+              "announcementId": "1225464230",
+              "announcementTitle": "关于公司部分组织机构调整的议案",
+              "sourceName": "巨潮资讯",
+              "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-10/1225464230.PDF"
+            }
+          ],
+          "title": "北化股份｜经营调整",
+          "whyImportant": "关注组织调整落地及相关业务衔接。"
         }
       ]
     },
@@ -7481,6 +8288,28 @@
     ],
     "focusCompanies": [
       {
+        "anchorId": "listed-detail-3d11f47147-bba7cb65",
+        "business": {
+          "category": "资金与财务",
+          "contentImportance": "内容重要",
+          "priority": "standard",
+          "subcategory": "担保",
+          "targets": [
+            "财务负责人",
+            "资金部",
+            "董秘办"
+          ]
+        },
+        "businessSubcategory": "担保",
+        "company": "陕西金叶",
+        "customerFact": "陕西金叶为西安明德理工学院向北京银行西安分行申请3,000万元两年期综合授信已签署连带责任保证合同。",
+        "customerFollowUp": "关注实际提款、担保余额和偿债安排。",
+        "followText": "关注实际提款、担保余额和偿债安排。",
+        "matterType": "担保授信",
+        "referenceMatterId": "listed-matter-6873965536b93c",
+        "sourceSection": "section-02"
+      },
+      {
         "anchorId": "listed-detail-f70dd7228b-ccff9f82",
         "business": {
           "category": "股东服务",
@@ -7495,7 +8324,7 @@
         },
         "businessSubcategory": "股东股份司法拍卖",
         "company": "供销大集",
-        "customerFact": "供销大集控股股东一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日至9月8日在京东网首次司法拍卖；公司称不致控制权变更。",
+        "customerFact": "一致行动人新合作集团、河南新合作合计370,473,232股（2.05%）将于9月7日10时至9月8日10时在京东网首次司法拍卖；公司称不致控制权变更。",
         "customerFollowUp": "关注竞拍结果、缴款、法院执行、股权过户及持股结构变化。",
         "followText": "关注竞拍结果、缴款、法院执行、股权过户及持股结构变化。",
         "matterType": "司法拍卖",
@@ -7503,26 +8332,48 @@
         "sourceSection": "section-02"
       },
       {
-        "anchorId": "listed-detail-482dc5334a-cdc84189",
+        "anchorId": "listed-detail-75d1a12d3e-161c2027",
         "business": {
-          "category": "资本运作",
-          "contentImportance": "内容重要",
-          "priority": "focus",
-          "subcategory": "并购重组",
+          "category": "治理关系",
+          "contentImportance": "固定披露",
+          "priority": "standard",
+          "subcategory": "章程治理",
           "targets": [
             "董秘办",
-            "财务",
-            "投融资负责人"
+            "证券事务代表",
+            "管理层"
           ]
         },
-        "businessSubcategory": "关联交易",
-        "company": "建设机械",
-        "customerFact": "本次重组的意向性文件根据陕煤集团出具的《关于对陕建机股份并购重组蒲城清洁能源公司立项的通知》， 对公司以发行股份及支付现金相结合的方式。",
-        "customerFollowUp": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
-        "followText": "关注交易定价、审议程序、实际履行金额及同类交易额度使用情况。",
-        "matterType": "关联交易",
-        "referenceMatterId": "listed-matter-d2ae7f531a57cf",
-        "sourceSection": "section-03"
+        "businessSubcategory": "治理变更",
+        "company": "宝光股份",
+        "customerFact": "宝光股份聘任杨逍担任副总经理；聘期自公司本次董事会审议通过之日起至第八届董事会任期届满之日止。",
+        "customerFollowUp": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
+        "followText": "关注人员履职、治理衔接、工商变更及控制权稳定性。",
+        "matterType": "重大治理变更",
+        "referenceMatterId": "listed-matter-2d4d84ff276e3c",
+        "sourceSection": "section-05"
+      },
+      {
+        "anchorId": "listed-detail-8c28bdb512-ac1f7136",
+        "business": {
+          "category": "股东服务",
+          "contentImportance": "内容重要",
+          "priority": "focus",
+          "subcategory": "减持",
+          "targets": [
+            "控股股东",
+            "5%以上股东",
+            "董秘办"
+          ]
+        },
+        "businessSubcategory": "减持",
+        "company": "晨曦航空",
+        "customerFact": "晨曦航空控股股东汇聚科技减持计划届满：原计划上限1% / 2%；5月8日至8月7日实际减持15,576,328股（2.83%），期末持股33.90%。",
+        "customerFollowUp": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+        "followText": "关注实施窗口、首次交易、数量或时间过半及计划完成情况。",
+        "matterType": "减持",
+        "referenceMatterId": "listed-matter-9c63d06e86981b",
+        "sourceSection": "section-04"
       }
     ],
     "isAsOfFallback": false,
@@ -7530,8 +8381,8 @@
     "pageDate": "2026-08-11",
     "sourceAsOf": "2026-08-11",
     "sourceCoverage": {
-      "linked": 13,
-      "total": 13,
+      "linked": 18,
+      "total": 18,
       "unmatched": []
     }
   },
@@ -7568,6 +8419,34 @@
       }
     ],
     "projects": [
+      {
+        "amount": "未披露",
+        "dimension": "已上市公司",
+        "entityType": "listed",
+        "eventDate": "2026-08-11",
+        "fact": "拟发行股份及支付现金购买蒲城清洁能源公司100%股权并募集配套资金；构成关联交易，处于筹划及停牌阶段",
+        "id": "ma-listed-25c65a1fd3d23642c6",
+        "importance": "必看",
+        "industry": "",
+        "matter": "拟发行股份及支付现金购买蒲城清洁能源公司100%股权并募集配套资金；构成关联交易，处于筹划及停牌阶段",
+        "nextStep": "",
+        "plannedNextDate": "",
+        "plannedNextLabel": "",
+        "progress": "必看",
+        "reportedDate": "2026-08-11",
+        "sourceName": "巨潮资讯",
+        "sourceReviewStatus": "verified_listed_original_cross_projection",
+        "sourceStatus": "verified",
+        "sourceTitle": "建设机械关于筹划重大事项暨关联交易事项的停牌公告",
+        "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466386.PDF",
+        "sourceVerified": true,
+        "stage": "announced",
+        "stageGroup": "审议",
+        "stageText": "审议",
+        "subject": "建设机械",
+        "title": "建设机械筹划收购蒲城清洁能源公司100%股权",
+        "updatedAt": "2026-08-11"
+      },
       {
         "amount": "收购24%股权对价17.3087亿元；2026-07-28披露按34%持股比例拟增资7.82亿元",
         "dimension": "已上市公司",
@@ -8298,14 +9177,42 @@
       }
     ],
     "scanAsOf": "2026-08-11",
-    "sourceAsOf": "2026-07-28",
+    "sourceAsOf": "2026-08-11",
     "sourceCoverage": {
       "historicalExactDocumentBacklog": 1,
-      "linked": 25,
-      "reviewed": 26,
-      "total": 26
+      "linked": 26,
+      "reviewed": 27,
+      "total": 27
     },
     "verifiedProjects": [
+      {
+        "amount": "未披露",
+        "dimension": "已上市公司",
+        "entityType": "listed",
+        "eventDate": "2026-08-11",
+        "fact": "拟发行股份及支付现金购买蒲城清洁能源公司100%股权并募集配套资金；构成关联交易，处于筹划及停牌阶段",
+        "id": "ma-listed-25c65a1fd3d23642c6",
+        "importance": "必看",
+        "industry": "",
+        "matter": "拟发行股份及支付现金购买蒲城清洁能源公司100%股权并募集配套资金；构成关联交易，处于筹划及停牌阶段",
+        "nextStep": "",
+        "plannedNextDate": "",
+        "plannedNextLabel": "",
+        "progress": "必看",
+        "reportedDate": "2026-08-11",
+        "sourceName": "巨潮资讯",
+        "sourceReviewStatus": "verified_listed_original_cross_projection",
+        "sourceStatus": "verified",
+        "sourceTitle": "建设机械关于筹划重大事项暨关联交易事项的停牌公告",
+        "sourceUrl": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466386.PDF",
+        "sourceVerified": true,
+        "stage": "announced",
+        "stageGroup": "审议",
+        "stageText": "审议",
+        "subject": "建设机械",
+        "title": "建设机械筹划收购蒲城清洁能源公司100%股权",
+        "updatedAt": "2026-08-11"
+      },
       {
         "amount": "收购24%股权对价17.3087亿元；2026-07-28披露按34%持股比例拟增资7.82亿元",
         "dimension": "已上市公司",
@@ -21385,6 +22292,28 @@
         "tier": "PF2"
       }
     ],
+    "monthlyFilingReviews": {
+      "2026-01": {
+        "establishedInMonthFiledLater": {
+          "count": 5,
+          "filingMonths": [
+            "2026-02"
+          ],
+          "fundNos": [
+            "SBQA24",
+            "SBPM56",
+            "SBNF40",
+            "SBQA87",
+            "SBPB06"
+          ]
+        },
+        "evidenceStatus": "historical_official_migration_verified",
+        "filingCount": 0,
+        "label": "官方复核完成，备案0只",
+        "method": "AMAC官方产品公示迁移快照按备案日期复核",
+        "status": "official_historical_migration_verified_no_filings"
+      }
+    },
     "pageDate": "2026-08-11",
     "pendingEvidence": [],
     "products": [
@@ -23054,7 +23983,7 @@
   "sourceAsOf": {
     "equity": "2026-08-10",
     "listed": "2026-08-11",
-    "ma": "2026-07-28",
+    "ma": "2026-08-11",
     "privateProducts": "2026-08-11",
     "privateUniverse": "2026-08-11",
     "soe": "2026-08-04",
