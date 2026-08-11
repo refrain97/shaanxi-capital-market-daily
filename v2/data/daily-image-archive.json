@@ -1,8 +1,31 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-10T09:09:56+08:00",
+  "updatedAt": "2026-08-11T09:27:52+08:00",
   "channels": {
     "listed": [
+      {
+        "date": "2026-08-11",
+        "channel": "listed",
+        "label": "上市公司",
+        "fileName": "2026年8月11日V2陕西上市公司早报.png",
+        "publicPath": "archive/daily/listed/2026/2026年8月11日V2陕西上市公司早报.png",
+        "sourceBuildVersion": "c7376b704469",
+        "snapshotPath": "v2/data/releases/2026-08-11/morning-production-data.json.gz",
+        "snapshotSha256": "e4ed9558aa4a8a134aad3ff098243cb0123346dc8d444b344495fbef0c3e95c4",
+        "sha256": "bdc54947d24e5aa4f4e9b14fa6b35f590a1e295086900f2739aaacbe7041d2bb",
+        "origin": "v2",
+        "imageTemplate": "v1-structure-listed",
+        "detailLimit": null,
+        "dimensions": {
+          "width": 1242,
+          "height": 1378
+        },
+        "webStatus": "staged",
+        "ima": {
+          "status": "pending"
+        },
+        "updatedAt": "2026-08-11T09:27:44+08:00"
+      },
       {
         "date": "2026-08-10",
         "channel": "listed",
@@ -1133,6 +1156,29 @@
     ],
     "private": [
       {
+        "date": "2026-08-11",
+        "channel": "private",
+        "label": "证券私募",
+        "fileName": "2026年8月11日V2证券私募行业动态日报.png",
+        "publicPath": "archive/daily/private/2026/2026年8月11日V2证券私募行业动态日报.png",
+        "sourceBuildVersion": "c7376b704469",
+        "snapshotPath": "v2/data/releases/2026-08-11/morning-production-data.json.gz",
+        "snapshotSha256": "e4ed9558aa4a8a134aad3ff098243cb0123346dc8d444b344495fbef0c3e95c4",
+        "sha256": "b1096f98e5ca073656f987791a4191602b3c4bd7a5f86c760e1c75eb90b33a4b",
+        "origin": "v2",
+        "imageTemplate": "v1-structure-private",
+        "detailLimit": 10,
+        "dimensions": {
+          "width": 1242,
+          "height": 1844
+        },
+        "webStatus": "staged",
+        "ima": {
+          "status": "pending"
+        },
+        "updatedAt": "2026-08-11T09:27:46+08:00"
+      },
+      {
         "date": "2026-08-10",
         "channel": "private",
         "label": "证券私募",
@@ -2249,6 +2295,29 @@
     ],
     "ma": [
       {
+        "date": "2026-08-11",
+        "channel": "ma",
+        "label": "收并购",
+        "fileName": "2026年8月11日V2陕西收并购日报.png",
+        "publicPath": "archive/daily/ma/2026/2026年8月11日V2陕西收并购日报.png",
+        "sourceBuildVersion": "c7376b704469",
+        "snapshotPath": "v2/data/releases/2026-08-11/morning-production-data.json.gz",
+        "snapshotSha256": "e4ed9558aa4a8a134aad3ff098243cb0123346dc8d444b344495fbef0c3e95c4",
+        "sha256": "4822eb2c3b98fb38c38772380d846eb2d9348749dcb5ad91d9b1b349dced2dc2",
+        "origin": "v2",
+        "imageTemplate": "v1-structure-ma",
+        "detailLimit": 10,
+        "dimensions": {
+          "width": 1242,
+          "height": 2910
+        },
+        "webStatus": "staged",
+        "ima": {
+          "status": "pending"
+        },
+        "updatedAt": "2026-08-11T09:27:49+08:00"
+      },
+      {
         "date": "2026-08-10",
         "channel": "ma",
         "label": "收并购",
@@ -3319,6 +3388,29 @@
       }
     ],
     "tender": [
+      {
+        "date": "2026-08-11",
+        "channel": "tender",
+        "label": "金融招投标",
+        "fileName": "2026年8月11日V2陕西金融招投标日报.png",
+        "publicPath": "archive/daily/tender/2026/2026年8月11日V2陕西金融招投标日报.png",
+        "sourceBuildVersion": "c7376b704469",
+        "snapshotPath": "v2/data/releases/2026-08-11/morning-production-data.json.gz",
+        "snapshotSha256": "e4ed9558aa4a8a134aad3ff098243cb0123346dc8d444b344495fbef0c3e95c4",
+        "sha256": "ba5978ab2220aa6c6f3d78f7876d73fe6dc5202465e1cc9e50d5e1c4a951d2ea",
+        "origin": "v2",
+        "imageTemplate": "v1-structure-tender",
+        "detailLimit": null,
+        "dimensions": {
+          "width": 1242,
+          "height": 1666
+        },
+        "webStatus": "staged",
+        "ima": {
+          "status": "pending"
+        },
+        "updatedAt": "2026-08-11T09:27:52+08:00"
+      },
       {
         "date": "2026-08-10",
         "channel": "tender",
