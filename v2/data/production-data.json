@@ -44,7 +44,7 @@
       },
       {
         "path": "v2/data/daily/listed/listed-official-2026-08-11.json",
-        "sha256": "2b19408cab75f9324bdc6f3f1dd498733858a1c18274906334227ae4cdd48de6"
+        "sha256": "d920ec55a0ccbff1ec04ca491b1dc1d67ff33571f0d9fc003074341f0a85db68"
       },
       {
         "path": "v2/data/daily/private/security-private-fund-daily-2026-08-11.json",
@@ -172,7 +172,7 @@
     "readiness": "v2/data/readiness/v2-ready-2026-08-11-morning.json",
     "schema": "v2-production-2",
     "script": "v2/scripts/build_daily_v2.py",
-    "version": "920a03c8ffca"
+    "version": "36d7ab3146f0"
   },
   "equity": {
     "customerBoundary": "建设中，已核验交易0笔、待回溯管理人187家。当前仅核验管理人公开身份，尚不作为正式日度交易库。",
@@ -5351,8 +5351,8 @@
       ],
       "quarantineEvidence": {
         "count": 10,
-        "path": "v2/data/runs/quarantine-ledgers/2026-08-11/morning-4a0121f5b91a55f474a0aa69f8ddd56320924adb18f4644c4f16544f051b28f6.json",
-        "sha256": "4a0121f5b91a55f474a0aa69f8ddd56320924adb18f4644c4f16544f051b28f6"
+        "path": "v2/data/runs/quarantine-ledgers/2026-08-11/morning-5b292c6a8d21a4b74d05cd8d641cce969f826bc212a49d729fea127077a4ded1.json",
+        "sha256": "5b292c6a8d21a4b74d05cd8d641cce969f826bc212a49d729fea127077a4ded1"
       },
       "rejectedCandidates": [
         {
