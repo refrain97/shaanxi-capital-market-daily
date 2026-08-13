@@ -1,32 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-13T09:47:53+08:00",
+  "updatedAt": "2026-08-13T13:51:26+08:00",
   "channels": {
     "listed": [
       {
         "date": "2026-08-13",
         "channel": "listed",
         "label": "上市公司",
-        "fileName": "2026年8月13日V2陕西上市公司早报.png",
-        "publicPath": "archive/daily/listed/2026/2026年8月13日V2陕西上市公司早报.png",
-        "sourceBuildVersion": "943c14b556c6",
-        "snapshotPath": "v2/data/releases/2026-08-13/morning-production-data.json.gz",
-        "snapshotSha256": "c72e638baf2cf31559edf8a8ea9d0a25ccf3409309f106a7d7e737335ecb04bb",
-        "sha256": "772db0da8e82a413c5b1572ac5e7fbce7b306cf1b7e0cae9eae4a32eea16a848",
+        "fileName": "2026年8月13日V2陕西上市公司早报（修订版）.png",
+        "publicPath": "archive/daily/listed/2026/2026年8月13日V2陕西上市公司早报（修订版）.png",
+        "sourceBuildVersion": "dd2c242cf377",
+        "snapshotPath": "v2/data/releases/2026-08-13/correction-dd2c242cf377-production-data.json.gz",
+        "snapshotSha256": "d4f33a452cbb06ddd79c56b62944b174eb700aa573028c29f90d2ddd01cca2b4",
+        "sha256": "167623170e16a0f87cff38685d9b1aacaa9548fe4564f4d4ff82f804ddfa772f",
         "origin": "v2",
         "imageTemplate": "v1-structure-listed",
         "detailLimit": null,
         "dimensions": {
           "width": 1242,
-          "height": 1676
+          "height": 1681
         },
-        "webStatus": "published",
+        "webStatus": "staged",
         "ima": {
-          "status": "completed",
-          "uploadedAt": "2026-08-13T09:47:26+08:00",
-          "verification": "exact_file_name"
+          "status": "pending"
         },
-        "updatedAt": "2026-08-13T09:43:53+08:00"
+        "correction": {
+          "revision": 2,
+          "reason": "补交付同一冻结快照日图，修正未完成的当日图像交付。",
+          "forcedReissue": true,
+          "correctedAt": "2026-08-13T13:51:26+08:00",
+          "supersedesSha256": "772db0da8e82a413c5b1572ac5e7fbce7b306cf1b7e0cae9eae4a32eea16a848",
+          "supersedesPublicPath": "archive/daily/listed/2026/2026年8月13日V2陕西上市公司早报.png",
+          "supersedesBuildVersion": "943c14b556c6"
+        },
+        "updatedAt": "2026-08-13T13:51:26+08:00"
       },
       {
         "date": "2026-08-12",
@@ -1229,11 +1236,11 @@
         "date": "2026-08-13",
         "channel": "private",
         "label": "证券私募",
-        "fileName": "2026年8月13日V2证券私募行业动态日报.png",
-        "publicPath": "archive/daily/private/2026/2026年8月13日V2证券私募行业动态日报.png",
-        "sourceBuildVersion": "943c14b556c6",
-        "snapshotPath": "v2/data/releases/2026-08-13/morning-production-data.json.gz",
-        "snapshotSha256": "c72e638baf2cf31559edf8a8ea9d0a25ccf3409309f106a7d7e737335ecb04bb",
+        "fileName": "2026年8月13日V2证券私募行业动态日报（修订版）.png",
+        "publicPath": "archive/daily/private/2026/2026年8月13日V2证券私募行业动态日报（修订版）.png",
+        "sourceBuildVersion": "dd2c242cf377",
+        "snapshotPath": "v2/data/releases/2026-08-13/correction-dd2c242cf377-production-data.json.gz",
+        "snapshotSha256": "d4f33a452cbb06ddd79c56b62944b174eb700aa573028c29f90d2ddd01cca2b4",
         "sha256": "69586fe1bb8dd12497b0aa4588a4cbcf824658ec77cca05b437e6c603849eeab",
         "origin": "v2",
         "imageTemplate": "v1-structure-private",
@@ -1242,13 +1249,20 @@
           "width": 1242,
           "height": 1844
         },
-        "webStatus": "published",
+        "webStatus": "staged",
         "ima": {
-          "status": "pending_retry",
-          "lastError": "not_indexed_yet",
-          "updatedAt": "2026-08-13T09:47:44+08:00"
+          "status": "pending"
         },
-        "updatedAt": "2026-08-13T09:43:53+08:00"
+        "correction": {
+          "revision": 2,
+          "reason": "补交付同一冻结快照日图，修正未完成的当日图像交付。",
+          "forcedReissue": true,
+          "correctedAt": "2026-08-13T13:51:26+08:00",
+          "supersedesSha256": "69586fe1bb8dd12497b0aa4588a4cbcf824658ec77cca05b437e6c603849eeab",
+          "supersedesPublicPath": "archive/daily/private/2026/2026年8月13日V2证券私募行业动态日报.png",
+          "supersedesBuildVersion": "943c14b556c6"
+        },
+        "updatedAt": "2026-08-13T13:51:26+08:00"
       },
       {
         "date": "2026-08-12",
@@ -2437,11 +2451,11 @@
         "date": "2026-08-13",
         "channel": "ma",
         "label": "收并购",
-        "fileName": "2026年8月13日V2陕西收并购日报.png",
-        "publicPath": "archive/daily/ma/2026/2026年8月13日V2陕西收并购日报.png",
-        "sourceBuildVersion": "943c14b556c6",
-        "snapshotPath": "v2/data/releases/2026-08-13/morning-production-data.json.gz",
-        "snapshotSha256": "c72e638baf2cf31559edf8a8ea9d0a25ccf3409309f106a7d7e737335ecb04bb",
+        "fileName": "2026年8月13日V2陕西收并购日报（修订版）.png",
+        "publicPath": "archive/daily/ma/2026/2026年8月13日V2陕西收并购日报（修订版）.png",
+        "sourceBuildVersion": "dd2c242cf377",
+        "snapshotPath": "v2/data/releases/2026-08-13/correction-dd2c242cf377-production-data.json.gz",
+        "snapshotSha256": "d4f33a452cbb06ddd79c56b62944b174eb700aa573028c29f90d2ddd01cca2b4",
         "sha256": "f280535ce75901887a874a2c8d144c9ae110bc58a85429df4d4ac0bed33e5d11",
         "origin": "v2",
         "imageTemplate": "v1-structure-ma",
@@ -2450,13 +2464,20 @@
           "width": 1242,
           "height": 2910
         },
-        "webStatus": "published",
+        "webStatus": "staged",
         "ima": {
-          "status": "completed",
-          "uploadedAt": "2026-08-13T09:47:35+08:00",
-          "verification": "exact_file_name"
+          "status": "pending"
         },
-        "updatedAt": "2026-08-13T09:43:53+08:00"
+        "correction": {
+          "revision": 2,
+          "reason": "补交付同一冻结快照日图，修正未完成的当日图像交付。",
+          "forcedReissue": true,
+          "correctedAt": "2026-08-13T13:51:26+08:00",
+          "supersedesSha256": "f280535ce75901887a874a2c8d144c9ae110bc58a85429df4d4ac0bed33e5d11",
+          "supersedesPublicPath": "archive/daily/ma/2026/2026年8月13日V2陕西收并购日报.png",
+          "supersedesBuildVersion": "943c14b556c6"
+        },
+        "updatedAt": "2026-08-13T13:51:26+08:00"
       },
       {
         "date": "2026-08-12",
@@ -3601,11 +3622,11 @@
         "date": "2026-08-13",
         "channel": "tender",
         "label": "金融招投标",
-        "fileName": "2026年8月13日V2陕西金融招投标日报.png",
-        "publicPath": "archive/daily/tender/2026/2026年8月13日V2陕西金融招投标日报.png",
-        "sourceBuildVersion": "943c14b556c6",
-        "snapshotPath": "v2/data/releases/2026-08-13/morning-production-data.json.gz",
-        "snapshotSha256": "c72e638baf2cf31559edf8a8ea9d0a25ccf3409309f106a7d7e737335ecb04bb",
+        "fileName": "2026年8月13日V2陕西金融招投标日报（修订版）.png",
+        "publicPath": "archive/daily/tender/2026/2026年8月13日V2陕西金融招投标日报（修订版）.png",
+        "sourceBuildVersion": "dd2c242cf377",
+        "snapshotPath": "v2/data/releases/2026-08-13/correction-dd2c242cf377-production-data.json.gz",
+        "snapshotSha256": "d4f33a452cbb06ddd79c56b62944b174eb700aa573028c29f90d2ddd01cca2b4",
         "sha256": "882a8c9cddd954909fa9ac58186c2cf961d799c2ec7a95d97b1c310561b0fab9",
         "origin": "v2",
         "imageTemplate": "v1-structure-tender",
@@ -3614,13 +3635,20 @@
           "width": 1242,
           "height": 1666
         },
-        "webStatus": "published",
+        "webStatus": "staged",
         "ima": {
-          "status": "completed",
-          "uploadedAt": "2026-08-13T09:47:53+08:00",
-          "verification": "exact_file_name"
+          "status": "pending"
         },
-        "updatedAt": "2026-08-13T09:43:53+08:00"
+        "correction": {
+          "revision": 2,
+          "reason": "补交付同一冻结快照日图，修正未完成的当日图像交付。",
+          "forcedReissue": true,
+          "correctedAt": "2026-08-13T13:51:26+08:00",
+          "supersedesSha256": "882a8c9cddd954909fa9ac58186c2cf961d799c2ec7a95d97b1c310561b0fab9",
+          "supersedesPublicPath": "archive/daily/tender/2026/2026年8月13日V2陕西金融招投标日报.png",
+          "supersedesBuildVersion": "943c14b556c6"
+        },
+        "updatedAt": "2026-08-13T13:51:26+08:00"
       },
       {
         "date": "2026-08-12",
