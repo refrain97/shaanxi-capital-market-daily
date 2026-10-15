@@ -8776,6 +8776,14 @@ window.PROTOTYPE = {
   ],
   "publications": [
     {
+      "id": "1a9d9d510927e5b679fe",
+      "date": "2026-10-15",
+      "compiledAt": "2026-10-15T17:25:58+08:00",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "snapshotUrl": "publications/1a9d9d510927e5b679fe/index.html",
+      "publishedAt": "2026-10-15T18:09:02+08:00"
+    },
+    {
       "id": "7682eb4e690a4ae96572",
       "date": "2026-10-15",
       "compiledAt": "2026-10-15T17:25:58+08:00",
