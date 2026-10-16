@@ -5,19 +5,16 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-15-446ced73e39b",
-      "compiledAt": "2026-10-15T19:38:42+08:00",
-      "cutoff": "2026-10-15T17:07:38+08:00",
+      "id": "2026-10-16-b03832e1d308",
+      "compiledAt": "2026-10-16T08:07:57+08:00",
+      "cutoff": "2026-10-16T07:56:00+08:00",
       "windowStart": "2026-10-14",
-      "windowEnd": "2026-10-15",
-      "researchCutoff": "2026-10-15T17:07:38+08:00",
-      "sourceDiscoveryCutoff": "2026-10-15T17:07:38+08:00",
+      "windowEnd": "2026-10-16",
+      "researchCutoff": "2026-10-16T07:56:00+08:00",
+      "sourceDiscoveryCutoff": "2026-10-16T07:56:00+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
-        "production-f017db440eae4a7cc4cb010e",
-        "production-8772206ade64c4a62d7a6be5",
-        "production-072567654e508ee5cf9e4507",
-        "production-af10250509776a8c77bdc685"
+        "production-cfaaf951f6a3aaafc22c3754"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -68,7 +65,8 @@ window.PROTOTYPE = {
       "production-f017db440eae4a7cc4cb010e": "2026-10-15T17:23:59+08:00",
       "production-072567654e508ee5cf9e4507": "2026-10-15T17:25:57+08:00",
       "production-af10250509776a8c77bdc685": "2026-10-15T18:30:39+08:00",
-      "production-8772206ade64c4a62d7a6be5": "2026-10-15T19:35:29+08:00"
+      "production-8772206ade64c4a62d7a6be5": "2026-10-15T19:35:29+08:00",
+      "production-cfaaf951f6a3aaafc22c3754": "2026-10-16T08:07:57+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -343,6 +341,13 @@ window.PROTOTYPE = {
           "action": "套期保值",
           "group": "套期保值",
           "level": "deep"
+        },
+        "production-cfaaf951f6a3aaafc22c3754": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "天地源股份有限公司2026年10月16日披露，2026年7—9月实现合同销售金额72,586.58万元，同比下降17.00%；1—9月累计实现合同销售金额238,040.60万元，同比下降22.84%。公司提示，上述销售数据可能与定期报告披露的数据存在差异，相关阶段性数据仅供投资者参考。"
         }
       }
     },
@@ -351,15 +356,14 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-10-15-446ced73e39b",
-      "editionId": "selection-3c1aaa3fa004f3f21607",
+      "status": "no_eligible_highlights",
+      "sourceEditionId": "2026-10-16-b03832e1d308",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
       "windowStart": "2026-10-14",
-      "windowEnd": "2026-10-15",
-      "cutoff": "2026-10-15T17:07:38+08:00",
+      "windowEnd": "2026-10-16",
+      "cutoff": "2026-10-16T07:56:00+08:00",
       "partial": true
     }
   },
@@ -599,6 +603,14 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "炬光科技",
       "code": "688167.SH",
+      "market": "SH",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-600665-sh",
+      "type": "listed",
+      "name": "天地源",
+      "code": "600665.SH",
       "market": "SH",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     }
@@ -8712,6 +8724,52 @@ window.PROTOTYPE = {
           }
         }
       ]
+    },
+    {
+      "id": "production-event-b939e45ebfcc6398ece9",
+      "objectId": "listed-600665-sh",
+      "type": "季度经营数据披露",
+      "topics": [
+        "房地产销售",
+        "开工竣工",
+        "房地产出租"
+      ],
+      "updates": [
+        {
+          "id": "production-cfaaf951f6a3aaafc22c3754",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "第三季度合同销售金额72,586.58万元，同比下降17.00%",
+          "summary": "天地源股份有限公司2026年10月16日披露，2026年7—9月实现合同销售金额72,586.58万元，同比下降17.00%；1—9月累计实现合同销售金额238,040.60万元，同比下降22.84%。公司提示，上述销售数据可能与定期报告披露的数据存在差异，相关阶段性数据仅供投资者参考。",
+          "stage": "披露2026年7—9月及1—9月房地产经营数据；阶段性销售数据可能与定期报告存在差异",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T08:07:57+08:00",
+          "compiledAt": "2026-10-16T08:07:57+08:00",
+          "researchCutoff": "2026-10-16T07:56:00+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "天地源",
+          "version": "cfaaf951f6a3aaafc22c3754a20b9cb75eca3b77e9beec2192c1bcfe9d8cbcf3",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "天地源股份有限公司2026年第三季度房地产项目经营情况简报",
+              "publisher": "天地源股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1页第二节；物理第2页数据限定及落款",
+              "retrievedAt": "2026-10-16T07:56:39+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225606775.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -9243,6 +9301,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "acf79031ae536e7647fc",
+      "date": "2026-10-15",
+      "compiledAt": "2026-10-15T19:38:42+08:00",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "snapshotUrl": "publications/acf79031ae536e7647fc/index.html",
+      "publishedAt": "2026-10-15T20:02:04+08:00"
+    },
     {
       "id": "76fab73963e1d824f1da",
       "date": "2026-10-15",
