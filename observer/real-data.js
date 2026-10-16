@@ -730,7 +730,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-10-16-6cb43fa847f0",
       "editionId": "selection-f4eadf28defcd3cb4972",
       "selectionMode": "current"
