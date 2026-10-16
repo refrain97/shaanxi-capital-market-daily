@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-16-b01e821e5ce6",
-      "compiledAt": "2026-10-16T14:30:30+08:00",
+      "id": "2026-10-16-454aeac477c5",
+      "compiledAt": "2026-10-16T14:43:57+08:00",
       "cutoff": "2026-10-15T17:07:38+08:00",
       "windowStart": "2026-10-08",
       "windowEnd": "2026-10-15",
@@ -21,6 +21,7 @@ window.PROTOTYPE = {
         "production-47327da3c517df42cb7deafc",
         "production-eaba31db1ae93ae1af3c1763",
         "production-cefcd22b9edc929156ef26ab",
+        "production-b508e4586d51362abe925c56",
         "production-8b7f3b0be400542aba36bf09",
         "production-5cad9adf9d1007ca22900a3f",
         "production-4963d300c8705d777266b329",
@@ -99,7 +100,8 @@ window.PROTOTYPE = {
       "production-307fa4ec1724d912de6e734e": "2026-10-16T12:57:21+08:00",
       "production-005b5517f8d390addecf1942": "2026-10-16T13:11:05+08:00",
       "production-404ec293ca491e58425b6543": "2026-10-16T13:12:59+08:00",
-      "production-47327da3c517df42cb7deafc": "2026-10-16T14:28:24+08:00"
+      "production-47327da3c517df42cb7deafc": "2026-10-16T14:28:24+08:00",
+      "production-b508e4586d51362abe925c56": "2026-10-16T14:41:16+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -503,6 +505,13 @@ window.PROTOTYPE = {
           "action": "股权激励",
           "group": "激励与员工持股",
           "level": "deep"
+        },
+        "production-b508e4586d51362abe925c56": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安经发物业股份有限公司于2026年10月14日披露中期分红通函及配套文件，拟于11月3日召开临时股东会，审议截至2026年6月30日止六个月每股人民币0.20元（含税）的中期股息方案。方案尚待股东批准，公告列明除净日为11月9日、股息记录日为11月11日，预计12月18日派付；H股以港币派付的金额及汇率仍待公布。"
         }
       }
     },
@@ -512,8 +521,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-10-16-b01e821e5ce6",
-      "editionId": "selection-5f425df8fa29a60235b2",
+      "sourceEditionId": "2026-10-16-454aeac477c5",
+      "editionId": "selection-ef289425b6bf74f566ec",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -832,6 +841,14 @@ window.PROTOTYPE = {
       "name": "曲江文旅",
       "code": "600706.SH",
       "market": "SH",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-1354-hk",
+      "type": "listed",
+      "name": "经发物业",
+      "code": "1354.HK",
+      "market": "HK",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     }
   ],
@@ -10197,6 +10214,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。本次公开名单仅逐名列示Hong Wang的获授数量，其余10名骨干员工按合计披露；4名外籍骨干员工姓名为脱敏形式且无逐人份额。9月名单同样仅披露15名骨干员工合计权益，不推算个人分配或认购资金。 草案规定个人考核实行百分制，但已核材料未列分数与个人归属比例的具体映射；不据此计算个人实际可归属数量。 当前公告已明确本批次三期归属安排。草案另按2026年三季报披露前后区分考核年度，本轮未提供三季报实际披露日依据，因此未另行断言本批次适用的具体考核年度或计算可归属数量。 相关历史限定于2026年本计划的草案、首次授予及调整、9月预留授予与公示、10月剩余预留授予；不声称覆盖公司其他独立计划及全部历史退出记录。 本轮未提供10月剩余预留批次的后续公示结果、归属或登记完成材料；9月批次公示结果不移用于本次。 本稿使用留存原件及补入材料，按2026年10月15日披露归档。当前原件实际取得时间为当日17:11:47至17:11:50，晚于输入记录的17:07:38研究截止字段，不能据日级披露日期声称该分钟之前已可见；历史补取时间亦不等于事项发生时间。 本候选尚待独立核查；历史候选及其旧状态不构成本次进展的核查通过依据。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T14:34:45+08:00",
           "updatedAt": "2026-10-16T14:28:24+08:00",
           "compiledAt": "2026-10-16T14:28:24+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -10451,9 +10469,172 @@ window.PROTOTYPE = {
           }
         }
       ]
+    },
+    {
+      "id": "production-event-cb23ff6d4c60dcba74d9",
+      "objectId": "listed-1354-hk",
+      "type": "现金分红",
+      "topics": [
+        "2026年中期股息",
+        "每股人民币0.20元（含税）",
+        "临时股东会待审议",
+        "派息时间安排更新"
+      ],
+      "updates": [
+        {
+          "id": "production-b508e4586d51362abe925c56",
+          "date": "2026-10-14",
+          "time": "",
+          "title": "经发物业更新中期派息安排，每股人民币0.20元待股东审议",
+          "summary": "西安经发物业股份有限公司于2026年10月14日披露中期分红通函及配套文件，拟于11月3日召开临时股东会，审议截至2026年6月30日止六个月每股人民币0.20元（含税）的中期股息方案。方案尚待股东批准，公告列明除净日为11月9日、股息记录日为11月11日，预计12月18日派付；H股以港币派付的金额及汇率仍待公布。",
+          "stage": "发布分红通函、股东会通告及委任表格，并更新派息时间安排；拟于2026年11月3日提交股东会审议，尚未获股东批准或完成派付",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T14:41:16+08:00",
+          "compiledAt": "2026-10-16T14:41:16+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "經發物業",
+          "version": "b508e4586d51362abe925c561948025ce6559d6f3059331909de54de7f2139be",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "截至2026年6月30日止六個月的中期股息",
+              "publisher": "西安经发物业股份有限公司（港交所披露易刊载）",
+              "date": "2026-10-14",
+              "location": "物理第1页：公告日期、更新理由、股息信息及派息安排表",
+              "retrievedAt": "2026-10-15T17:08:53+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1014/2026101401212_c.pdf"
+            },
+            {
+              "title": "臨時股東會代表委任表格",
+              "publisher": "西安经发物业股份有限公司（港交所披露易刊载）",
+              "date": "2026-10-14",
+              "location": "物理第1页：会议安排及普通决议案",
+              "retrievedAt": "2026-10-15T17:08:53+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1014/2026101401208_c.pdf"
+            },
+            {
+              "title": "臨時股東會通告",
+              "publisher": "西安经发物业股份有限公司（港交所披露易刊载）",
+              "date": "2026-10-14",
+              "location": "物理第1页：会议日期、分红议案及落款日期",
+              "retrievedAt": "2026-10-15T17:08:54+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1014/2026101401206_c.pdf"
+            },
+            {
+              "title": "(1)建議派發中期股息 及 (2)臨時股東會通告",
+              "publisher": "西安经发物业股份有限公司（港交所披露易刊载）",
+              "date": "2026-10-14",
+              "location": "物理第6页（印刷第4页）：建议派发中期股息",
+              "retrievedAt": "2026-10-15T17:08:55+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1014/2026101401204_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-ef289425b6bf74f566ec",
+      "date": "2026-10-16",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "compiledAt": "2026-10-16T14:43:58+08:00",
+      "researchCutoff": "2026-10-15T17:07:38+08:00",
+      "sourceDiscoveryCutoff": "2026-10-15T17:07:38+08:00",
+      "updateIds": [
+        "production-402b3fb2810c5ab1db7a6a56",
+        "production-af10250509776a8c77bdc685",
+        "production-47327da3c517df42cb7deafc",
+        "production-b816580b9e06a785883cbd77"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-ef289425b6bf74f566ec/page-01.png",
+          "width": 1080,
+          "height": 1942,
+          "sha256": "507ebb016bbc5ded3b46dd2d5cd7217bd37aa08bebe6785917e21d2dee05c25c"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-16-454aeac477c5",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-10",
+      "rangeEnd": "2026-10-16",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-402b3fb2810c5ab1db7a6a56",
+          "version": "402b3fb2810c5ab1db7a6a566512c4355987f9a17ec26005c524785f5f95fbf9",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家子公司各51%股权：已收价款6,553.50万元，完成工商变更",
+          "business": "投资银行",
+          "share": {
+            "title": "已收半数股权转让款，完成工商变更",
+            "facts": "公告，全资子公司转让金叶玉阳、新疆金叶各51%股权，已收6,553.50万元，占总价50%；两家标的已完成股东变更工商备案登记。尾款6,553.50万元须交割满一年并满足历史风险核查条款后支付，本次未披露到账或具体交割日期。"
+          }
+        },
+        {
+          "eventId": "production-event-2e3716b18c911c20fb1f",
+          "updateId": "production-af10250509776a8c77bdc685",
+          "version": "af10250509776a8c77bdc685649cd2a55cdf00c3e24956709aad407c06f98cb3",
+          "objectName": "陕鼓动力",
+          "type": "listed",
+          "category": "并购重组",
+          "date": "2026-10-10",
+          "title": "收购秦风气体36.06%股权仍在推进，尚待后续审议审批",
+          "business": "投资银行",
+          "share": {
+            "title": "拟购36.06%股权仍待审议审批",
+            "facts": "公告，拟发行股份购买秦风气体36.06%股权，仍待后续董事会、股东会及监管审批。本次未披露新增审批或交割完成节点，未更新7月预案尚未确定的交易作价及各方股份对价；恒博隆所持标的股权亦未披露解押完成。"
+          }
+        },
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-47327da3c517df42cb7deafc",
+          "version": "47327da3c517df42cb7deafc7de03e08d708f513aaceb4b4984ee379a8804d2d",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-15",
+          "title": "向11人授予剩余43.10万股预留激励权益",
+          "business": "股份管理",
+          "share": {
+            "title": "向11人授予剩余43.10万股预留激励权益",
+            "facts": "以10月14日为授予日，按259.51元/股向11人授予剩余43.10万股预留第二类限制性股票。本批次授予满12个月且满足条件后方可分期归属，尚未完成归属、登记或上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-d390bfc62684ea15a5bb",
+          "updateId": "production-b816580b9e06a785883cbd77",
+          "version": "b816580b9e06a785883cbd7723d51d652758ee621be18035b081b4a11065ab6c",
+          "objectName": "曲江文旅",
+          "type": "listed",
+          "category": "司法拍卖",
+          "date": "2026-10-13",
+          "title": "控股股东800万股拍卖披露竞价结果，一致行动人竞得160万股",
+          "business": "股份管理",
+          "share": {
+            "title": "800万股拍卖披露结果，仍待裁定及过户",
+            "facts": "控股股东800万股于10月9日至10日被司法拍卖，成交价合计5,640万元；一致行动人陕西圣都广场数字电影院线有限公司竞得160万股。后续仍涉及余款缴纳、法院成交裁定及过户，尚不能认定减持完成或价款到账。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-5f425df8fa29a60235b2",
       "date": "2026-10-16",
@@ -11594,6 +11775,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "0f01203992f0177db0c7",
+      "date": "2026-10-16",
+      "compiledAt": "2026-10-16T14:30:30+08:00",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "snapshotUrl": "publications/0f01203992f0177db0c7/index.html",
+      "publishedAt": "2026-10-16T14:34:45+08:00"
+    },
     {
       "id": "afa10b5ad42490210aef",
       "date": "2026-10-16",
