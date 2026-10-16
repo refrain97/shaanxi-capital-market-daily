@@ -536,7 +536,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-10-16-a0b80ee38178",
       "editionId": "selection-0719bee0148023cad788",
       "selectionMode": "current"
@@ -10633,6 +10633,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。历史覆盖限定为本次结果公告、同计划原公告及原计划直接引用的2025年司法划转公告，不代表全部历史减持或股份变动记录。 结果公告提供各股东汇总数量、成交日期区间、价格区间及金额，未提供集中竞价逐笔成交清单；本文不推算逐日成交、不计算投资利润，也不将成交金额表述为净到账资金。 两份历史公告于2026年10月16日本轮补入，保留其原披露日期和实际取得时间；原发现窗口未推进。本候选尚待独立核查。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T15:33:28+08:00",
           "updatedAt": "2026-10-16T15:27:57+08:00",
           "compiledAt": "2026-10-16T15:27:57+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -12277,6 +12278,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "dbb654395a33dff1cbda",
+      "date": "2026-10-16",
+      "compiledAt": "2026-10-16T15:27:57+08:00",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "snapshotUrl": "publications/dbb654395a33dff1cbda/index.html",
+      "publishedAt": "2026-10-16T15:33:28+08:00"
+    },
     {
       "id": "4b099737180ff0534b3f",
       "date": "2026-10-16",
