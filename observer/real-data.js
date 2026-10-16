@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-16-5ae36cc777a1",
-      "compiledAt": "2026-10-16T09:21:52+08:00",
+      "id": "2026-10-16-0b16d0b80580",
+      "compiledAt": "2026-10-16T10:31:38+08:00",
       "cutoff": "2026-10-16T07:56:00+08:00",
       "windowStart": "2026-10-14",
       "windowEnd": "2026-10-16",
@@ -16,6 +16,7 @@ window.PROTOTYPE = {
       "updateIds": [
         "production-cfaaf951f6a3aaafc22c3754",
         "production-c5a838015b77eef450187dd9",
+        "production-7325b6fad4d87876c4926db2",
         "production-402b3fb2810c5ab1db7a6a56"
       ],
       "status": "public",
@@ -70,7 +71,8 @@ window.PROTOTYPE = {
       "production-8772206ade64c4a62d7a6be5": "2026-10-15T19:35:29+08:00",
       "production-cfaaf951f6a3aaafc22c3754": "2026-10-16T08:07:57+08:00",
       "production-402b3fb2810c5ab1db7a6a56": "2026-10-16T09:02:28+08:00",
-      "production-c5a838015b77eef450187dd9": "2026-10-16T09:21:52+08:00"
+      "production-c5a838015b77eef450187dd9": "2026-10-16T09:21:52+08:00",
+      "production-7325b6fad4d87876c4926db2": "2026-10-16T10:31:38+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -364,6 +366,13 @@ window.PROTOTYPE = {
           "action": "对外投资",
           "group": "投资与定增",
           "level": "deep"
+        },
+        "production-7325b6fad4d87876c4926db2": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "中国西电电气股份有限公司2026年10月16日公告，计划于2026年10月23日14:00—15:00在上证路演中心以网络文字互动形式召开2026年第三季度业绩说明会，在信息披露允许的范围内就投资者关心的问题进行交流。"
         }
       }
     },
@@ -372,9 +381,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-10-16-5ae36cc777a1",
-      "editionId": "selection-04eee09df3a133d9898f",
+      "status": "committed",
+      "sourceEditionId": "2026-10-16-0b16d0b80580",
+      "editionId": "selection-222937b67d34e3fafa9a",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -637,6 +646,14 @@ window.PROTOTYPE = {
       "name": "陕西金叶",
       "code": "000812.SZ",
       "market": "SZ",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-601179-sh",
+      "type": "listed",
+      "name": "中国西电",
+      "code": "601179.SH",
+      "market": "SH",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     }
   ],
@@ -9122,9 +9139,98 @@ window.PROTOTYPE = {
           }
         }
       ]
+    },
+    {
+      "id": "production-event-12f8f89cb4ee8e9265ed",
+      "objectId": "listed-601179-sh",
+      "type": "投资者关系活动",
+      "topics": [
+        "2026年第三季度业绩说明会",
+        "网络文字互动"
+      ],
+      "updates": [
+        {
+          "id": "production-7325b6fad4d87876c4926db2",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "拟于10月23日召开第三季度业绩说明会",
+          "summary": "中国西电电气股份有限公司2026年10月16日公告，计划于2026年10月23日14:00—15:00在上证路演中心以网络文字互动形式召开2026年第三季度业绩说明会，在信息披露允许的范围内就投资者关心的问题进行交流。",
+          "stage": "召开安排已公告，计划于2026年10月23日举行",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T10:31:38+08:00",
+          "compiledAt": "2026-10-16T10:31:38+08:00",
+          "researchCutoff": "2026-10-16T07:56:00+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "中国西电",
+          "version": "7325b6fad4d87876c4926db2650b60fd5e26ea8d905624f1c922dc1b607acef9",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "中国西电关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "中国西电电气股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1—2页召开安排、第3页落款",
+              "retrievedAt": "2026-10-16T07:56:48+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225605992.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-222937b67d34e3fafa9a",
+      "date": "2026-10-16",
+      "cutoff": "2026-10-16T07:56:00+08:00",
+      "compiledAt": "2026-10-16T10:31:38+08:00",
+      "researchCutoff": "2026-10-16T07:56:00+08:00",
+      "sourceDiscoveryCutoff": "2026-10-16T07:56:00+08:00",
+      "updateIds": [
+        "production-402b3fb2810c5ab1db7a6a56"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-222937b67d34e3fafa9a/page-01.png",
+          "width": 1080,
+          "height": 800,
+          "sha256": "195db56cbdcb30bcef9c1ed9e836dc6ef50185b135a423bf90d476e11c85dec7"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-16-0b16d0b80580",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-16",
+      "rangeEnd": "2026-10-16",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-402b3fb2810c5ab1db7a6a56",
+          "version": "402b3fb2810c5ab1db7a6a566512c4355987f9a17ec26005c524785f5f95fbf9",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家子公司各51%股权：已收价款6,553.50万元，完成工商变更",
+          "business": "投资银行",
+          "share": {
+            "title": "已收半数股权转让款，完成工商变更",
+            "facts": "公告，全资子公司转让金叶玉阳、新疆金叶各51%股权，已收6,553.50万元，占总价50%；两家标的已完成股东变更工商备案登记。尾款6,553.50万元须交割满一年并满足历史风险核查条款后支付，本次未披露到账或具体交割日期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-04eee09df3a133d9898f",
       "date": "2026-10-16",
@@ -9741,6 +9847,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "a1b78bff17dc97e29f27",
+      "date": "2026-10-16",
+      "compiledAt": "2026-10-16T09:21:52+08:00",
+      "cutoff": "2026-10-16T07:56:00+08:00",
+      "snapshotUrl": "publications/a1b78bff17dc97e29f27/index.html",
+      "publishedAt": "2026-10-16T09:40:35+08:00"
+    },
     {
       "id": "0d0f58073cfc2073d2f3",
       "date": "2026-10-16",
