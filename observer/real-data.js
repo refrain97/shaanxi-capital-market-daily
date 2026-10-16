@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-16-85e9a07171c5",
-      "compiledAt": "2026-10-16T17:27:17+08:00",
+      "id": "2026-10-16-13431477507b",
+      "compiledAt": "2026-10-16T17:41:03+08:00",
       "cutoff": "2026-10-15T17:07:38+08:00",
       "windowStart": "2026-10-08",
       "windowEnd": "2026-10-15",
@@ -34,8 +34,10 @@ window.PROTOTYPE = {
         "production-b816580b9e06a785883cbd77",
         "production-a40f418bddfa13f86d5b9419",
         "production-8bf9e203849dc19fbbedb5a0",
+        "production-4ddc9b6f7ff94d4f9624bfe3",
         "production-1efccd4714aaced42300aaa2",
         "production-244df99a8d8f7eee71604205",
+        "production-f6d7acd8dba5310810570611",
         "production-e4c7d785b1a02a70764f39b8",
         "production-dc8642495d43125739372324",
         "production-d7a82833a3cf1e39cc2c799c",
@@ -126,7 +128,9 @@ window.PROTOTYPE = {
       "production-e4c7d785b1a02a70764f39b8": "2026-10-16T17:16:28+08:00",
       "production-d7a82833a3cf1e39cc2c799c": "2026-10-16T17:20:11+08:00",
       "production-57d2f276f5822db0a4c2caee": "2026-10-16T17:22:14+08:00",
-      "production-a40f418bddfa13f86d5b9419": "2026-10-16T17:13:05+08:00"
+      "production-a40f418bddfa13f86d5b9419": "2026-10-16T17:13:05+08:00",
+      "production-4ddc9b6f7ff94d4f9624bfe3": "2026-10-16T17:34:11+08:00",
+      "production-f6d7acd8dba5310810570611": "2026-10-16T17:36:21+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -625,6 +629,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "华仁药业2026年10月9日公告，全资子公司青岛华仁医药有限公司于10月8日收到山东省青岛市中级人民法院的受理案件通知书。青岛华仁请求判令中民信投集团有限公司偿付本金人民币3.08亿元及暂计至2026年9月15日的利息13,138,766.67元，并请求判令国药药材股份有限公司承担连带清偿责任；截至公告披露日，案件尚未开庭审理，对公司本期及期后利润的影响存在不确定性。"
+        },
+        "production-4ddc9b6f7ff94d4f9624bfe3": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "广电网络2026年10月13日披露，西安启望计算机系统工程有限责任公司以铜川分公司未按约定支付“雪亮工程”项目合同款为由，将公司及铜川分公司诉至铜川市耀州区人民法院，要求支付合同款人民币4,941.98万元及逾期利息并承担诉讼费用，公司近日收到法院通知，案件处于立案待审理阶段。公告称，相关诉讼、仲裁事项对公司本期或期后利润的具体影响暂无法判断。"
+        },
+        "production-f6d7acd8dba5310810570611": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "华仁药业2026年10月9日公告，截至披露日，公司及子公司连续十二个月累计发生的其他尚未披露诉讼、仲裁事项涉及人民币107,126,493.69元，占2025年度经审计净资产绝对值的12.79%。附件所列案件包括一审阶段、已结案及撤诉结案等不同状态，累计涉案金额不代表全部为未结案件金额。"
         }
       }
     },
@@ -634,8 +652,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-10-16-85e9a07171c5",
-      "editionId": "selection-01d46383e96b9d2a5edf",
+      "sourceEditionId": "2026-10-16-13431477507b",
+      "editionId": "selection-9ce19465438f76c65e59",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -2917,6 +2935,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。资料覆盖本次2025年度补偿方案、持续督导、债权人通知和股份注销结果；未提供针对4月公告520,093股表述的正式勘误，早期原文冲突仍保留。 10月公告未解释房屋补偿公式列示输入与结果之间的0.01元差异；长岭电气专利分摊公式另有股份数标签与元单位不一致的问题。补偿表按公告金额列示，不能据此验证未披露的底层精度。 所覆盖资料未提供10月完成公告之后的注册资本及工商变更完成依据，也未提供2026、2027年度承诺完成结果。 所覆盖资料未证明瑕疵房产权证问题、租赁相关责任或2025年度审计关注事项已经解决；也未证明原股份锁定延长条件是否触发，不能据此推定剩余股份的精确解禁日和当前出售安排。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T17:32:16+08:00",
           "updatedAt": "2026-10-16T17:13:05+08:00",
           "compiledAt": "2026-10-16T17:13:05+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -11622,6 +11641,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T17:32:16+08:00",
           "updatedAt": "2026-10-16T17:14:37+08:00",
           "compiledAt": "2026-10-16T17:14:37+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -11667,6 +11687,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T17:32:16+08:00",
           "updatedAt": "2026-10-16T17:25:37+08:00",
           "compiledAt": "2026-10-16T17:25:37+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -11721,6 +11742,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T17:32:16+08:00",
           "updatedAt": "2026-10-16T17:27:16+08:00",
           "compiledAt": "2026-10-16T17:27:16+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -11766,6 +11788,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T17:32:16+08:00",
           "updatedAt": "2026-10-16T17:18:12+08:00",
           "compiledAt": "2026-10-16T17:18:12+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -11812,6 +11835,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T17:32:16+08:00",
           "updatedAt": "2026-10-16T17:16:28+08:00",
           "compiledAt": "2026-10-16T17:16:28+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -11857,6 +11881,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T17:32:16+08:00",
           "updatedAt": "2026-10-16T17:20:11+08:00",
           "compiledAt": "2026-10-16T17:20:11+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -11902,6 +11927,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T17:32:16+08:00",
           "updatedAt": "2026-10-16T17:22:14+08:00",
           "compiledAt": "2026-10-16T17:22:14+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -11927,9 +11953,246 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-c546307ddc5ddccf234e",
+      "objectId": "listed-600831-sh",
+      "type": "合同纠纷诉讼",
+      "topics": [
+        "铜川雪亮工程",
+        "西安启望计算机系统工程有限责任公司",
+        "合同款诉请"
+      ],
+      "updates": [
+        {
+          "id": "production-4ddc9b6f7ff94d4f9624bfe3",
+          "date": "2026-10-13",
+          "time": "",
+          "title": "铜川“雪亮工程”合同纠纷立案待审理",
+          "summary": "广电网络2026年10月13日披露，西安启望计算机系统工程有限责任公司以铜川分公司未按约定支付“雪亮工程”项目合同款为由，将公司及铜川分公司诉至铜川市耀州区人民法院，要求支付合同款人民币4,941.98万元及逾期利息并承担诉讼费用，公司近日收到法院通知，案件处于立案待审理阶段。公告称，相关诉讼、仲裁事项对公司本期或期后利润的具体影响暂无法判断。",
+          "stage": "收到法院通知，案件处于立案待审理阶段",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T17:34:11+08:00",
+          "compiledAt": "2026-10-16T17:34:11+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "广电网络",
+          "version": "4ddc9b6f7ff94d4f9624bfe3664326700d793d7871e2d87bca14087a5cd5d78f",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于累计诉讼、仲裁进展情况的公告",
+              "publisher": "陕西广电网络传媒（集团）股份有限公司",
+              "date": "2026-10-13",
+              "location": "第1页公司名称；第2页案件表、案件说明及利润影响说明；公告落款日期为2026年10月12日",
+              "retrievedAt": "2026-10-15T17:08:16+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601509.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-aa93047a7f973e605cd9",
+      "objectId": "listed-300110-sz",
+      "type": "累计诉讼仲裁披露",
+      "topics": [
+        "连续十二个月其他诉讼仲裁",
+        "案件分类及进展"
+      ],
+      "updates": [
+        {
+          "id": "production-f6d7acd8dba5310810570611",
+          "date": "2026-10-09",
+          "time": "",
+          "title": "披露连续十二个月其他诉讼仲裁，涉案金额合计1.0713亿元",
+          "summary": "华仁药业2026年10月9日公告，截至披露日，公司及子公司连续十二个月累计发生的其他尚未披露诉讼、仲裁事项涉及人民币107,126,493.69元，占2025年度经审计净资产绝对值的12.79%。附件所列案件包括一审阶段、已结案及撤诉结案等不同状态，累计涉案金额不代表全部为未结案件金额。",
+          "stage": "披露连续十二个月其他尚未披露案件，包含一审、已结案和撤诉结案状态",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T17:36:21+08:00",
+          "compiledAt": "2026-10-16T17:36:21+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "华仁药业",
+          "version": "f6d7acd8dba531081057061188e2e078d06fde1b381e0799903b5cefdc65f77d",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于子公司涉及重大诉讼的公告",
+              "publisher": "华仁药业股份有限公司",
+              "date": "2026-10-09",
+              "location": "第2—3页第二节；第3页落款；第4页附件",
+              "retrievedAt": "2026-10-09T20:35:21+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225598499.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-9ce19465438f76c65e59",
+      "date": "2026-10-16",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "compiledAt": "2026-10-16T17:41:03+08:00",
+      "researchCutoff": "2026-10-15T17:07:38+08:00",
+      "sourceDiscoveryCutoff": "2026-10-15T17:07:38+08:00",
+      "updateIds": [
+        "production-402b3fb2810c5ab1db7a6a56",
+        "production-af10250509776a8c77bdc685",
+        "production-47327da3c517df42cb7deafc",
+        "production-0d97fa7c51e2d9d6f9d44688",
+        "production-a40f418bddfa13f86d5b9419",
+        "production-b816580b9e06a785883cbd77",
+        "production-244df99a8d8f7eee71604205"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-9ce19465438f76c65e59/page-01.png",
+          "width": 1080,
+          "height": 2686,
+          "sha256": "a4454a497f5da60cabc7d2b8114adc97a4ecc1f9f89784b610007db5519c28ce"
+        },
+        {
+          "file": "assets/editions/selection-9ce19465438f76c65e59/page-02.png",
+          "width": 1080,
+          "height": 748,
+          "sha256": "1fcb2e1824e0444e4488c61d9afbf562aa39283fc3f18464b4f18d9f532f15b1"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-16-13431477507b",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-10",
+      "rangeEnd": "2026-10-16",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-402b3fb2810c5ab1db7a6a56",
+          "version": "402b3fb2810c5ab1db7a6a566512c4355987f9a17ec26005c524785f5f95fbf9",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家子公司各51%股权：已收价款6,553.50万元，完成工商变更",
+          "business": "投资银行",
+          "share": {
+            "title": "已收半数股权转让款，完成工商变更",
+            "facts": "公告，全资子公司转让金叶玉阳、新疆金叶各51%股权，已收6,553.50万元，占总价50%；两家标的已完成股东变更工商备案登记。尾款6,553.50万元须交割满一年并满足历史风险核查条款后支付，本次未披露到账或具体交割日期。"
+          }
+        },
+        {
+          "eventId": "production-event-2e3716b18c911c20fb1f",
+          "updateId": "production-af10250509776a8c77bdc685",
+          "version": "af10250509776a8c77bdc685649cd2a55cdf00c3e24956709aad407c06f98cb3",
+          "objectName": "陕鼓动力",
+          "type": "listed",
+          "category": "并购重组",
+          "date": "2026-10-10",
+          "title": "收购秦风气体36.06%股权仍在推进，尚待后续审议审批",
+          "business": "投资银行",
+          "share": {
+            "title": "拟购36.06%股权仍待审议审批",
+            "facts": "公告，拟发行股份购买秦风气体36.06%股权，仍待后续董事会、股东会及监管审批。本次未披露新增审批或交割完成节点，未更新7月预案尚未确定的交易作价及各方股份对价；恒博隆所持标的股权亦未披露解押完成。"
+          }
+        },
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-47327da3c517df42cb7deafc",
+          "version": "47327da3c517df42cb7deafc7de03e08d708f513aaceb4b4984ee379a8804d2d",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-15",
+          "title": "向11人授予剩余43.10万股预留激励权益",
+          "business": "股份管理",
+          "share": {
+            "title": "向11人授予剩余43.10万股预留激励权益",
+            "facts": "以10月14日为授予日，按259.51元/股向11人授予剩余43.10万股预留第二类限制性股票。本批次授予满12个月且满足条件后方可分期归属，尚未完成归属、登记或上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-6b623fb3c43cdfb6861b",
+          "updateId": "production-0d97fa7c51e2d9d6f9d44688",
+          "version": "0d97fa7c51e2d9d6f9d44688513e1d43e390e0d826d1ba385199c8cb18101b85",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励调整",
+          "date": "2026-10-14",
+          "title": "调整2024年股权激励：授予价降至43.78元/股，未归属数量调整为55.0135万股",
+          "business": "股份管理",
+          "share": {
+            "title": "激励授予价下调，未归属数量调整",
+            "facts": "董事会已通过因权益分派调整2024年激励计划：首次及预留授予价由65.56元/股降至43.78元/股，已授予未归属数量调至55.0135万股。该数量未扣除同日另案作废的3,042股，本次不代表新授予或实际归属。"
+          }
+        },
+        {
+          "eventId": "real-fenghuo-changling-acquisition",
+          "updateId": "production-a40f418bddfa13f86d5b9419",
+          "version": "a40f418bddfa13f86d5b9419a1dd2b03804dd2047eb9a2322ef4673d82afd63a",
+          "objectName": "烽火电子",
+          "type": "listed",
+          "category": "并购",
+          "date": "2026-10-13",
+          "title": "完成长岭科技2025年度补偿股份注销，共868,395股",
+          "business": "股份管理",
+          "share": {
+            "title": "完成2025年度业绩补偿股份注销",
+            "facts": "公告，长岭科技收购涉及的2025年度业绩补偿股份868,395股已于10月12日定向回购注销，总价人民币1元。注册资本变更等仍为后续安排，本次不代表截至2027年度的全部承诺履行结束。"
+          }
+        },
+        {
+          "eventId": "production-event-d390bfc62684ea15a5bb",
+          "updateId": "production-b816580b9e06a785883cbd77",
+          "version": "b816580b9e06a785883cbd7723d51d652758ee621be18035b081b4a11065ab6c",
+          "objectName": "曲江文旅",
+          "type": "listed",
+          "category": "司法拍卖",
+          "date": "2026-10-13",
+          "title": "控股股东800万股拍卖披露竞价结果，一致行动人竞得160万股",
+          "business": "股份管理",
+          "share": {
+            "title": "800万股拍卖披露结果，仍待裁定及过户",
+            "facts": "控股股东800万股于10月9日至10日被司法拍卖，成交价合计5,640万元；一致行动人陕西圣都广场数字电影院线有限公司竞得160万股。后续仍涉及余款缴纳、法院成交裁定及过户，尚不能认定减持完成或价款到账。"
+          }
+        },
+        {
+          "eventId": "production-event-06d104e51b0e9f3022b7",
+          "updateId": "production-244df99a8d8f7eee71604205",
+          "version": "244df99a8d8f7eee71604205d8fcdd553043f9bf0fed72849695d14def85db96",
+          "objectName": "瑞联新材",
+          "type": "listed",
+          "category": "减持计划实施结果及权益变动",
+          "date": "2026-10-10",
+          "title": "七名股东减持区间届满，四人合计减持286.42万股",
+          "business": "股份管理",
+          "share": {
+            "title": "减持区间届满，四人合计减持286.42万股",
+            "facts": "七名股东6月29日至9月28日的减持计划区间届满。四人合计减持286.42万股，成交金额合计119,203,201.06元；其中两人完成计划、两人部分实施，王银彬、袁江波、胡湛未实施。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-01d46383e96b9d2a5edf",
       "date": "2026-10-16",
@@ -13648,6 +13911,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "b0d796e119a3a8ff8826",
+      "date": "2026-10-16",
+      "compiledAt": "2026-10-16T17:27:17+08:00",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "snapshotUrl": "publications/b0d796e119a3a8ff8826/index.html",
+      "publishedAt": "2026-10-16T17:32:16+08:00"
+    },
     {
       "id": "0a7256b31824d03ddcf5",
       "date": "2026-10-16",
