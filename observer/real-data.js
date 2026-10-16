@@ -59,7 +59,6 @@ window.PROTOTYPE = {
       "production-0717d336cfb97cacfc335c23": "2026-10-09T04:25:18+08:00",
       "production-0afefe66c6a41e61dac128f1": "2026-10-09T08:42:05+08:00",
       "production-f1c8ff03150d13a120f30f26": "2026-10-09T20:47:09+08:00",
-      "production-9ae4eabe05e605c7f9ec82ca": "2026-10-09T21:12:41+08:00",
       "production-39e80aa027dc312825b3022a": "2026-10-09T21:10:57+08:00",
       "production-bf66b8af03dcab9a55772d65": "2026-10-09T21:16:10+08:00",
       "production-3d23860ddfe87d53f867d102": "2026-10-09T21:14:23+08:00",
@@ -130,14 +129,14 @@ window.PROTOTYPE = {
         },
         "real-fenghuo-ma-20250402": {
           "version": "listed-scope-20261009",
-          "action": "并购重组",
-          "group": "并购重组",
+          "action": "股份回购",
+          "group": "回购",
           "level": "deep"
         },
         "real-fenghuo-ma-20260828": {
           "version": "listed-scope-20261009",
-          "action": "并购重组",
-          "group": "并购重组",
+          "action": "股份回购",
+          "group": "回购",
           "level": "deep"
         },
         "production-2091a88e275bfeeeb9fadbb8": {
@@ -280,13 +279,6 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "西安三角防务股份有限公司2026年10月8日公告，2026年第三季度共有570张“三角转债”完成转股，票面金额合计57,000.00元，转成公司股票2,510股。截至第三季度末，剩余可转债8,998,758张，票面总额899,875,800.00元。"
         },
-        "production-9ae4eabe05e605c7f9ec82ca": {
-          "version": "listed-scope-20261009",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "高铁电气2026年9月30日公告，公司董事会于9月29日审议通过提名林建为第三届董事会董事的议案，拟提交10月21日召开的2026年第一次临时股东会选举。林建尚待股东会选举，当选后将担任董事会科技创新委员会召集人，任期自股东会审议通过之日起至第三届董事会任期届满时止。"
-        },
         "production-39e80aa027dc312825b3022a": {
           "version": "listed-scope-20261009",
           "action": "其他",
@@ -381,7 +373,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-10-16-0b16d0b80580",
       "editionId": "selection-222937b67d34e3fafa9a",
       "selectionMode": "current"
@@ -8033,61 +8025,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-65b3d517ab2b813879a3",
-      "objectId": "listed-688285-sh",
-      "type": "董事提名及选举安排",
-      "topics": [
-        "林建",
-        "第三届董事会",
-        "2026年第一次临时股东会"
-      ],
-      "updates": [
-        {
-          "id": "production-9ae4eabe05e605c7f9ec82ca",
-          "date": "2026-09-30",
-          "time": "",
-          "title": "提名林建为董事候选人，拟于10月21日提交股东会选举",
-          "summary": "高铁电气2026年9月30日公告，公司董事会于9月29日审议通过提名林建为第三届董事会董事的议案，拟提交10月21日召开的2026年第一次临时股东会选举。林建尚待股东会选举，当选后将担任董事会科技创新委员会召集人，任期自股东会审议通过之日起至第三届董事会任期届满时止。",
-          "stage": "9月29日董事会通过提名，拟提交10月21日股东会选举",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-10-15T17:35:57+08:00",
-          "updatedAt": "2026-10-09T21:12:41+08:00",
-          "compiledAt": "2026-10-09T21:12:41+08:00",
-          "researchCutoff": "2026-10-09T20:29:39+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "高铁电气",
-          "version": "9ae4eabe05e605c7f9ec82ca38804e8317ea55c190d3c43b34705fa5c6e9d448",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "高铁电气：关于提名董事、聘任高级管理人员的公告",
-              "publisher": "中铁高铁电气装备股份有限公司董事会",
-              "date": "2026-09-30",
-              "location": "物理第1页：提名董事、聘任高级管理人员情况及落款",
-              "retrievedAt": "2026-10-09T20:30:41+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-09-30/1225586534.PDF"
-            },
-            {
-              "title": "高铁电气：关于召开2026年第一次临时股东会的通知",
-              "publisher": "中铁高铁电气装备股份有限公司董事会",
-              "date": "2026-09-30",
-              "location": "物理第1页：会议日期与届次；物理第2页：会议审议事项表",
-              "retrievedAt": "2026-10-09T20:30:41+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-09-30/1225586625.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-ac3ad86bcb4aab14161d",
       "objectId": "listed-688285-sh",
       "type": "高级管理人员聘任",
@@ -9159,6 +9096,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T10:35:22+08:00",
           "updatedAt": "2026-10-16T10:31:38+08:00",
           "compiledAt": "2026-10-16T10:31:38+08:00",
           "researchCutoff": "2026-10-16T07:56:00+08:00",
@@ -9403,130 +9341,6 @@ window.PROTOTYPE = {
           "share": {
             "title": "拟购36.06%股权仍待审议审批",
             "facts": "公告，拟发行股份购买秦风气体36.06%股权，仍待后续董事会、股东会及监管审批。本次未披露新增审批或交割完成节点，未更新7月预案尚未确定的交易作价及各方股份对价；恒博隆所持标的股权亦未披露解押完成。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-152673e5bf4fbde97fdd",
-      "date": "2026-10-15",
-      "cutoff": "2026-10-09T20:29:39+08:00",
-      "compiledAt": "2026-10-15T16:20:54+08:00",
-      "researchCutoff": "2026-10-09T20:29:39+08:00",
-      "sourceDiscoveryCutoff": "2026-10-09T20:29:39+08:00",
-      "updateIds": [
-        "production-f5937c0d057c642988feb45c",
-        "real-fenghuo-ma-20260828",
-        "production-2be1f22073c4410c056c74b7",
-        "production-1b2b9727854046df882fce48",
-        "production-a542a54f86127e0069a83859",
-        "production-2091a88e275bfeeeb9fadbb8"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-152673e5bf4fbde97fdd/page-01.png",
-          "width": 1080,
-          "height": 2552,
-          "sha256": "7b6205a1b98c49414a66fc3b85ea604150d995e6a743ca53795670bf9656a839"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-09-afa3d34facbb",
-      "selectionMode": "historical_preview",
-      "previewLabel": "已核历史选编",
-      "rangeStart": "2026-08-28",
-      "rangeEnd": "2026-09-29",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-175ad032815a33a88964",
-          "updateId": "production-f5937c0d057c642988feb45c",
-          "version": "f5937c0d057c642988feb45ccb25629948545d48ab0e2eccb94ed62e2b44625e",
-          "objectName": "康惠股份",
-          "type": "listed",
-          "category": "预重整",
-          "date": "2026-09-25",
-          "title": "陕西友帮预重整延期一个月，债权申报与投资方案仍待推进",
-          "business": "投资银行",
-          "share": {
-            "title": "预重整获准延期一个月，方案仍待确定",
-            "facts": "控股子公司陕西友帮预重整获准延长一个月，审计评估已完成，仍与意向投资人沟通方案；部分大额债权人尚未申报债权。延期不代表正式进入破产重整或投资资金到账。"
-          }
-        },
-        {
-          "eventId": "real-fenghuo-changling-acquisition",
-          "updateId": "real-fenghuo-ma-20260828",
-          "version": "8927934443bb1ef80861470df204cadbd49c1044e38eb1e9b934fba9073dc3b4",
-          "objectName": "烽火电子",
-          "type": "listed",
-          "category": "并购",
-          "date": "2026-08-28",
-          "title": "收购长岭科技后，对价项目累计投入2.5亿元，一名售股股东股份已解除限售",
-          "business": "投资银行",
-          "share": {
-            "title": "现金对价累计投入2.5亿元，部分股份解限",
-            "facts": "半年报显示，收购长岭科技现金对价项目累计投入2.5亿元，上半年新增投入为零；售股股东金创和信获配的59,851,239股已解除限售，另两名售股股东对价股份仍在限售表内。"
-          }
-        },
-        {
-          "eventId": "production-event-559e3089ce0262bbb6a6",
-          "updateId": "production-2be1f22073c4410c056c74b7",
-          "version": "2be1f22073c4410c056c74b7c3d8a8652f083eeba7f9f679a0301d0f4b8a2764",
-          "objectName": "爱科赛博",
-          "type": "listed",
-          "category": "股权激励",
-          "date": "2026-09-29",
-          "title": "400万股激励方案获股东会通过，纳入AIDC测试电源收入考核",
-          "business": "股份管理",
-          "share": {
-            "title": "400万股激励方案获股东会通过",
-            "facts": "9月28日股东会通过限制性股票激励计划，拟向不超过149人授予400万股第二类限制性股票，授予价格不低于31.20元/股；已核材料未证明已实际授予或归属。"
-          }
-        },
-        {
-          "eventId": "production-event-8288c3dfce82b4bd8e67",
-          "updateId": "production-1b2b9727854046df882fce48",
-          "version": "1b2b9727854046df882fce4826e4e0938f2c3251f77f5afaa9a3098f1bedaf18",
-          "objectName": "供销大集",
-          "type": "listed",
-          "category": "股东增持",
-          "date": "2026-09-28",
-          "title": "供销商贸增持供销大集计划时间过半，截至9月24日尚未实施",
-          "business": "股份管理",
-          "share": {
-            "title": "增持计划时间过半，尚未实施",
-            "facts": "供销商贸原拟自6月25日起6个月内增持人民币3,000万至5,000万元。截至9月24日，因半年报窗口期及自身资金安排等因素尚未增持，仍存在延迟或无法实施的风险。"
-          }
-        },
-        {
-          "eventId": "production-event-d04c30e0ee131cbe46c0",
-          "updateId": "production-a542a54f86127e0069a83859",
-          "version": "a542a54f86127e0069a838590c35be97047b30f3924a66d8a979a4a24b120ae9",
-          "objectName": "源杰科技",
-          "type": "listed",
-          "category": "股东减持计划",
-          "date": "2026-09-25",
-          "title": "实控人及三名一致行动人拟合计减持不超28.85万股",
-          "business": "股份管理",
-          "share": {
-            "title": "四名股东拟合计减持不超过28.85万股",
-            "facts": "实控人ZHANG XINGANG及三名一致行动人拟合计减持不超过28.85万股，占总股本不超过0.2317%。计划期间为2026年10月26日至2027年1月25日，预披露期停牌则开始时间顺延，实际实施仍不确定。"
-          }
-        },
-        {
-          "eventId": "production-event-9bf223825bbdb1335e2b",
-          "updateId": "production-2091a88e275bfeeeb9fadbb8",
-          "version": "2091a88e275bfeeeb9fadbb8da4728e05b24475f1ae1dbe1f8ee589d610e9a59",
-          "objectName": "西测测试",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-18",
-          "title": "募集资金现金管理授权降至6,000万元，自有资金上限维持2亿元",
-          "business": "机构理财",
-          "share": {
-            "title": "募集资金现金管理上限降至6,000万元",
-            "facts": "董事会批准，公司及控股子公司闲置募集资金现金管理上限降至6,000万元，闲置自有资金上限维持2亿元，自批准日起12个月内循环使用。上述金额为授权上限，不代表已投入。"
           }
         }
       ]
@@ -9847,6 +9661,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "77a497d7ef12f9afdb37",
+      "date": "2026-10-16",
+      "compiledAt": "2026-10-16T10:31:38+08:00",
+      "cutoff": "2026-10-16T07:56:00+08:00",
+      "snapshotUrl": "publications/77a497d7ef12f9afdb37/index.html",
+      "publishedAt": "2026-10-16T10:35:22+08:00"
+    },
     {
       "id": "a1b78bff17dc97e29f27",
       "date": "2026-10-16",
