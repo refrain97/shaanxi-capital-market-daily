@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-16-a0b80ee38178",
-      "compiledAt": "2026-10-16T15:27:57+08:00",
+      "id": "2026-10-16-7d1e6f73af42",
+      "compiledAt": "2026-10-16T16:31:12+08:00",
       "cutoff": "2026-10-15T17:07:38+08:00",
       "windowStart": "2026-10-08",
       "windowEnd": "2026-10-15",
@@ -31,6 +31,8 @@ window.PROTOTYPE = {
         "production-0dece4ad493c8ae5090d11be",
         "production-005b5517f8d390addecf1942",
         "production-b816580b9e06a785883cbd77",
+        "production-8bf9e203849dc19fbbedb5a0",
+        "production-1efccd4714aaced42300aaa2",
         "production-244df99a8d8f7eee71604205"
       ],
       "status": "public",
@@ -104,7 +106,9 @@ window.PROTOTYPE = {
       "production-404ec293ca491e58425b6543": "2026-10-16T13:12:59+08:00",
       "production-47327da3c517df42cb7deafc": "2026-10-16T14:28:24+08:00",
       "production-b508e4586d51362abe925c56": "2026-10-16T14:41:16+08:00",
-      "production-244df99a8d8f7eee71604205": "2026-10-16T15:27:57+08:00"
+      "production-244df99a8d8f7eee71604205": "2026-10-16T15:27:57+08:00",
+      "production-1efccd4714aaced42300aaa2": "2026-10-16T16:29:25+08:00",
+      "production-8bf9e203849dc19fbbedb5a0": "2026-10-16T16:31:12+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -528,6 +532,20 @@ window.PROTOTYPE = {
           "action": "减持",
           "group": "股东股份变动",
           "level": "deep"
+        },
+        "production-1efccd4714aaced42300aaa2": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西广电网络传媒（集团）股份有限公司2026年10月13日披露公告（落款10月12日），公司及下属分子公司自前次披露以来新增诉讼、仲裁案件23笔，均未结，累计涉案金额5669.29万元，未考虑延迟支付的利息及违约金、诉讼费用等。上述事项对公司本期或期后利润的具体影响暂无法判断，最终影响金额以审计机构年度审计确认结果为准。"
+        },
+        "production-8bf9e203849dc19fbbedb5a0": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "科华生物2026年10月13日公告，控股子公司苏州天隆生物科技有限公司近日收到国家药品监督管理局颁发的诺如病毒GⅠ和GⅡ型核酸分型检测试剂盒（荧光PCR法）医疗器械注册证，证号为国械注准20263402120，有效期为2026年10月9日至2031年10月8日。公告未披露具体收证日期，公司目前尚无法预测该产品对未来营业收入的影响。"
         }
       }
     },
@@ -536,9 +554,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-10-16-a0b80ee38178",
-      "editionId": "selection-0719bee0148023cad788",
+      "status": "committed",
+      "sourceEditionId": "2026-10-16-7d1e6f73af42",
+      "editionId": "selection-854a08c20ae5cd533828",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -10935,9 +10953,208 @@ window.PROTOTYPE = {
           }
         }
       ]
+    },
+    {
+      "id": "production-event-de2ce0ecab861d818400",
+      "objectId": "listed-600831-sh",
+      "type": "诉讼仲裁进展",
+      "topics": [
+        "累计新增案件",
+        "未结案件",
+        "损益影响待定"
+      ],
+      "updates": [
+        {
+          "id": "production-1efccd4714aaced42300aaa2",
+          "date": "2026-10-13",
+          "time": "",
+          "title": "新增23笔诉讼仲裁案件，涉案5669.29万元",
+          "summary": "陕西广电网络传媒（集团）股份有限公司2026年10月13日披露公告（落款10月12日），公司及下属分子公司自前次披露以来新增诉讼、仲裁案件23笔，均未结，累计涉案金额5669.29万元，未考虑延迟支付的利息及违约金、诉讼费用等。上述事项对公司本期或期后利润的具体影响暂无法判断，最终影响金额以审计机构年度审计确认结果为准。",
+          "stage": "自前次诉讼仲裁公告以来新增23笔案件，均未结，累计涉案金额5669.29万元",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T16:29:25+08:00",
+          "compiledAt": "2026-10-16T16:29:25+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "广电网络",
+          "version": "1efccd4714aaced42300aaa2843e92c95d8f3a1022d43d464c58f24123208900",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于累计诉讼、仲裁进展情况的公告",
+              "publisher": "陕西广电网络传媒（集团）股份有限公司",
+              "date": "2026-10-13",
+              "location": "第1页重要内容提示及案件基本情况；第2页案件表、利润影响说明及落款（2026年10月12日）",
+              "retrievedAt": "2026-10-15T17:08:16+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601509.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-f353997822cc47522307",
+      "objectId": "listed-002022-sz",
+      "type": "产品注册",
+      "topics": [
+        "苏州天隆",
+        "诺如病毒核酸分型检测试剂盒"
+      ],
+      "updates": [
+        {
+          "id": "production-8bf9e203849dc19fbbedb5a0",
+          "date": "2026-10-13",
+          "time": "",
+          "title": "控股子公司苏州天隆诺如病毒检测试剂盒获注册证",
+          "summary": "科华生物2026年10月13日公告，控股子公司苏州天隆生物科技有限公司近日收到国家药品监督管理局颁发的诺如病毒GⅠ和GⅡ型核酸分型检测试剂盒（荧光PCR法）医疗器械注册证，证号为国械注准20263402120，有效期为2026年10月9日至2031年10月8日。公告未披露具体收证日期，公司目前尚无法预测该产品对未来营业收入的影响。",
+          "stage": "控股子公司近日已收到医疗器械注册证，具体收证日未披露",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T16:31:12+08:00",
+          "compiledAt": "2026-10-16T16:31:12+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "科华生物",
+          "version": "8bf9e203849dc19fbbedb5a08d6289aa8028a0f228377d8ddc42cb09e4e7bd5d",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于产品获得医疗器械注册证的公告",
+              "publisher": "上海科华生物工程股份有限公司",
+              "date": "2026-10-13",
+              "location": "物理第1页：首段、产品表格、表后说明及落款",
+              "retrievedAt": "2026-10-15T17:09:25+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225600632.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-854a08c20ae5cd533828",
+      "date": "2026-10-16",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "compiledAt": "2026-10-16T16:31:13+08:00",
+      "researchCutoff": "2026-10-15T17:07:38+08:00",
+      "sourceDiscoveryCutoff": "2026-10-15T17:07:38+08:00",
+      "updateIds": [
+        "production-402b3fb2810c5ab1db7a6a56",
+        "production-af10250509776a8c77bdc685",
+        "production-47327da3c517df42cb7deafc",
+        "production-b816580b9e06a785883cbd77",
+        "production-244df99a8d8f7eee71604205"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-854a08c20ae5cd533828/page-01.png",
+          "width": 1080,
+          "height": 2260,
+          "sha256": "eb81b96c1c3d5aca5f6856f2bc2396828a858d6a5a354351f8723ac205aa56d0"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-16-7d1e6f73af42",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-10",
+      "rangeEnd": "2026-10-16",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-402b3fb2810c5ab1db7a6a56",
+          "version": "402b3fb2810c5ab1db7a6a566512c4355987f9a17ec26005c524785f5f95fbf9",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家子公司各51%股权：已收价款6,553.50万元，完成工商变更",
+          "business": "投资银行",
+          "share": {
+            "title": "已收半数股权转让款，完成工商变更",
+            "facts": "公告，全资子公司转让金叶玉阳、新疆金叶各51%股权，已收6,553.50万元，占总价50%；两家标的已完成股东变更工商备案登记。尾款6,553.50万元须交割满一年并满足历史风险核查条款后支付，本次未披露到账或具体交割日期。"
+          }
+        },
+        {
+          "eventId": "production-event-2e3716b18c911c20fb1f",
+          "updateId": "production-af10250509776a8c77bdc685",
+          "version": "af10250509776a8c77bdc685649cd2a55cdf00c3e24956709aad407c06f98cb3",
+          "objectName": "陕鼓动力",
+          "type": "listed",
+          "category": "并购重组",
+          "date": "2026-10-10",
+          "title": "收购秦风气体36.06%股权仍在推进，尚待后续审议审批",
+          "business": "投资银行",
+          "share": {
+            "title": "拟购36.06%股权仍待审议审批",
+            "facts": "公告，拟发行股份购买秦风气体36.06%股权，仍待后续董事会、股东会及监管审批。本次未披露新增审批或交割完成节点，未更新7月预案尚未确定的交易作价及各方股份对价；恒博隆所持标的股权亦未披露解押完成。"
+          }
+        },
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-47327da3c517df42cb7deafc",
+          "version": "47327da3c517df42cb7deafc7de03e08d708f513aaceb4b4984ee379a8804d2d",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-15",
+          "title": "向11人授予剩余43.10万股预留激励权益",
+          "business": "股份管理",
+          "share": {
+            "title": "向11人授予剩余43.10万股预留激励权益",
+            "facts": "以10月14日为授予日，按259.51元/股向11人授予剩余43.10万股预留第二类限制性股票。本批次授予满12个月且满足条件后方可分期归属，尚未完成归属、登记或上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-d390bfc62684ea15a5bb",
+          "updateId": "production-b816580b9e06a785883cbd77",
+          "version": "b816580b9e06a785883cbd7723d51d652758ee621be18035b081b4a11065ab6c",
+          "objectName": "曲江文旅",
+          "type": "listed",
+          "category": "司法拍卖",
+          "date": "2026-10-13",
+          "title": "控股股东800万股拍卖披露竞价结果，一致行动人竞得160万股",
+          "business": "股份管理",
+          "share": {
+            "title": "800万股拍卖披露结果，仍待裁定及过户",
+            "facts": "控股股东800万股于10月9日至10日被司法拍卖，成交价合计5,640万元；一致行动人陕西圣都广场数字电影院线有限公司竞得160万股。后续仍涉及余款缴纳、法院成交裁定及过户，尚不能认定减持完成或价款到账。"
+          }
+        },
+        {
+          "eventId": "production-event-06d104e51b0e9f3022b7",
+          "updateId": "production-244df99a8d8f7eee71604205",
+          "version": "244df99a8d8f7eee71604205d8fcdd553043f9bf0fed72849695d14def85db96",
+          "objectName": "瑞联新材",
+          "type": "listed",
+          "category": "减持计划实施结果及权益变动",
+          "date": "2026-10-10",
+          "title": "七名股东减持区间届满，四人合计减持286.42万股",
+          "business": "股份管理",
+          "share": {
+            "title": "减持区间届满，四人合计减持286.42万股",
+            "facts": "七名股东6月29日至9月28日的减持计划区间届满。四人合计减持286.42万股，成交金额合计119,203,201.06元；其中两人完成计划、两人部分实施，王银彬、袁江波、胡湛未实施。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-0719bee0148023cad788",
       "date": "2026-10-16",
@@ -12278,6 +12495,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "16342562180bc5d40e8b",
+      "date": "2026-10-16",
+      "compiledAt": "2026-10-16T15:27:57+08:00",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "snapshotUrl": "publications/16342562180bc5d40e8b/index.html",
+      "publishedAt": "2026-10-16T16:22:33+08:00"
+    },
     {
       "id": "dbb654395a33dff1cbda",
       "date": "2026-10-16",
