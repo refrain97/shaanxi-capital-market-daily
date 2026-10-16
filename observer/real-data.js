@@ -72,6 +72,7 @@ window.PROTOTYPE = {
       "production-0717d336cfb97cacfc335c23": "2026-10-09T04:25:18+08:00",
       "production-0afefe66c6a41e61dac128f1": "2026-10-09T08:42:05+08:00",
       "production-f1c8ff03150d13a120f30f26": "2026-10-09T20:47:09+08:00",
+      "production-9ae4eabe05e605c7f9ec82ca": "2026-10-09T21:12:41+08:00",
       "production-39e80aa027dc312825b3022a": "2026-10-09T21:10:57+08:00",
       "production-bf66b8af03dcab9a55772d65": "2026-10-09T21:16:10+08:00",
       "production-3d23860ddfe87d53f867d102": "2026-10-09T21:14:23+08:00",
@@ -309,6 +310,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "西安三角防务股份有限公司2026年10月8日公告，2026年第三季度共有570张“三角转债”完成转股，票面金额合计57,000.00元，转成公司股票2,510股。截至第三季度末，剩余可转债8,998,758张，票面总额899,875,800.00元。"
         },
+        "production-9ae4eabe05e605c7f9ec82ca": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "高铁电气2026年9月30日公告，公司董事会于9月29日审议通过提名林建为第三届董事会董事的议案，拟提交10月21日召开的2026年第一次临时股东会选举。林建尚待股东会选举，当选后将担任董事会科技创新委员会召集人，任期自股东会审议通过之日起至第三届董事会任期届满时止。"
+        },
         "production-39e80aa027dc312825b3022a": {
           "version": "listed-scope-20261009",
           "action": "其他",
@@ -520,7 +528,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-10-16-454aeac477c5",
       "editionId": "selection-ef289425b6bf74f566ec",
       "selectionMode": "current"
@@ -8228,6 +8236,61 @@ window.PROTOTYPE = {
       ]
     },
     {
+      "id": "production-event-65b3d517ab2b813879a3",
+      "objectId": "listed-688285-sh",
+      "type": "董事提名及选举安排",
+      "topics": [
+        "林建",
+        "第三届董事会",
+        "2026年第一次临时股东会"
+      ],
+      "updates": [
+        {
+          "id": "production-9ae4eabe05e605c7f9ec82ca",
+          "date": "2026-09-30",
+          "time": "",
+          "title": "提名林建为董事候选人，拟于10月21日提交股东会选举",
+          "summary": "高铁电气2026年9月30日公告，公司董事会于9月29日审议通过提名林建为第三届董事会董事的议案，拟提交10月21日召开的2026年第一次临时股东会选举。林建尚待股东会选举，当选后将担任董事会科技创新委员会召集人，任期自股东会审议通过之日起至第三届董事会任期届满时止。",
+          "stage": "9月29日董事会通过提名，拟提交10月21日股东会选举",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-15T17:35:57+08:00",
+          "updatedAt": "2026-10-09T21:12:41+08:00",
+          "compiledAt": "2026-10-09T21:12:41+08:00",
+          "researchCutoff": "2026-10-09T20:29:39+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "高铁电气",
+          "version": "9ae4eabe05e605c7f9ec82ca38804e8317ea55c190d3c43b34705fa5c6e9d448",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "高铁电气：关于提名董事、聘任高级管理人员的公告",
+              "publisher": "中铁高铁电气装备股份有限公司董事会",
+              "date": "2026-09-30",
+              "location": "物理第1页：提名董事、聘任高级管理人员情况及落款",
+              "retrievedAt": "2026-10-09T20:30:41+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-09-30/1225586534.PDF"
+            },
+            {
+              "title": "高铁电气：关于召开2026年第一次临时股东会的通知",
+              "publisher": "中铁高铁电气装备股份有限公司董事会",
+              "date": "2026-09-30",
+              "location": "物理第1页：会议日期与届次；物理第2页：会议审议事项表",
+              "retrievedAt": "2026-10-09T20:30:41+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-09-30/1225586625.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
       "id": "production-event-ac3ad86bcb4aab14161d",
       "objectId": "listed-688285-sh",
       "type": "高级管理人员聘任",
@@ -10491,6 +10554,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T14:54:38+08:00",
           "updatedAt": "2026-10-16T14:41:16+08:00",
           "compiledAt": "2026-10-16T14:41:16+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -11775,6 +11839,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "13d4abd1bb3fe669edf2",
+      "date": "2026-10-16",
+      "compiledAt": "2026-10-16T14:43:57+08:00",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "snapshotUrl": "publications/13d4abd1bb3fe669edf2/index.html",
+      "publishedAt": "2026-10-16T14:54:38+08:00"
+    },
     {
       "id": "0f01203992f0177db0c7",
       "date": "2026-10-16",
