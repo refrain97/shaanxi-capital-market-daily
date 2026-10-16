@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-16-b81e1388452e",
-      "compiledAt": "2026-10-16T11:47:26+08:00",
+      "id": "2026-10-16-fcf29ce2bbe5",
+      "compiledAt": "2026-10-16T12:11:54+08:00",
       "cutoff": "2026-10-15T17:07:38+08:00",
       "windowStart": "2026-10-08",
       "windowEnd": "2026-10-15",
@@ -14,9 +14,11 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-10-15T17:07:38+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-f951d2764e7d9b9fb7140f4a",
         "production-cb1f21d99599449c785ef751",
         "production-c69a93664b6ec0420f8c5f83",
-        "production-605b69989ddd15817fa8e313"
+        "production-605b69989ddd15817fa8e313",
+        "production-3bcf24c86f9ea11854323164"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -73,7 +75,9 @@ window.PROTOTYPE = {
       "production-7325b6fad4d87876c4926db2": "2026-10-16T10:31:38+08:00",
       "production-605b69989ddd15817fa8e313": "2026-10-16T11:17:41+08:00",
       "production-cb1f21d99599449c785ef751": "2026-10-16T11:30:38+08:00",
-      "production-c69a93664b6ec0420f8c5f83": "2026-10-16T11:40:05+08:00"
+      "production-c69a93664b6ec0420f8c5f83": "2026-10-16T11:40:05+08:00",
+      "production-f951d2764e7d9b9fb7140f4a": "2026-10-16T12:06:50+08:00",
+      "production-3bcf24c86f9ea11854323164": "2026-10-16T12:04:59+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -388,6 +392,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安炬光科技股份有限公司2026年10月15日公告，董事会于10月14日审议通过组织架构调整议案，同意将全球光子工艺和制造服务事业部更名为压印光学和模组事业部，将战略增长研发部整合至总公司研发体系统一管理。"
+        },
+        "production-f951d2764e7d9b9fb7140f4a": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安泰金新能科技股份有限公司2026年10月15日公告，2026年半年度利润分配以方案实施前总股本160,000,000股为基数，每股派发现金红利人民币0.10元（含税），共计16,000,000元。股权登记日为2026年10月20日，除息日及现金红利发放日均为10月21日，本次披露为实施安排，尚非完成发放。"
+        },
+        "production-3bcf24c86f9ea11854323164": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安旅游2026年10月14日披露，下属子公司迭部县扎尕那康养置业有限公司近日收到甘肃省迭部县人民法院送达的民事起诉状，原告甘肃第六建设集团股份有限公司请求支付工程款39,948,967.53元、逾期付款利息3,368,363.78元、工程进度款违约金1,830,341.91元，承担诉讼费等实现债权费用，并请求就涉案工程折价、拍卖所得价款享有建设工程价款优先受偿权。案件目前处于起诉阶段，上述金额为原告诉请，对公司本期或期后利润的影响尚不确定。"
         }
       }
     },
@@ -396,9 +414,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-10-16-b81e1388452e",
-      "editionId": "selection-5a9dac73d4b1bfddda32",
+      "status": "committed",
+      "sourceEditionId": "2026-10-16-fcf29ce2bbe5",
+      "editionId": "selection-21c750afffe689e74d94",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -685,6 +703,22 @@ window.PROTOTYPE = {
       "name": "瑞联新材",
       "code": "688550.SH",
       "market": "SH",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-688813-sh",
+      "type": "listed",
+      "name": "泰金新能",
+      "code": "688813.SH",
+      "market": "SH",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-000610-sz",
+      "type": "listed",
+      "name": "西安旅游",
+      "code": "000610.SZ",
+      "market": "SZ",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     }
   ],
@@ -9299,9 +9333,159 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-a375dc53c5554f5f8180",
+      "objectId": "listed-688813-sh",
+      "type": "权益分派",
+      "topics": [
+        "2026年半年度现金分红",
+        "股权登记及派息安排"
+      ],
+      "updates": [
+        {
+          "id": "production-f951d2764e7d9b9fb7140f4a",
+          "date": "2026-10-15",
+          "time": "",
+          "title": "披露半年度分红安排：每股派0.10元，10月21日发放",
+          "summary": "西安泰金新能科技股份有限公司2026年10月15日公告，2026年半年度利润分配以方案实施前总股本160,000,000股为基数，每股派发现金红利人民币0.10元（含税），共计16,000,000元。股权登记日为2026年10月20日，除息日及现金红利发放日均为10月21日，本次披露为实施安排，尚非完成发放。",
+          "stage": "披露分红实施安排：股权登记日2026年10月20日，除息日及现金红利发放日2026年10月21日；尚未证明完成发放",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T12:06:51+08:00",
+          "compiledAt": "2026-10-16T12:06:51+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "泰金新能",
+          "version": "f951d2764e7d9b9fb7140f4a02afd4df03a4e1ece46e7d89b864f0a1273274b2",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安泰金新能科技股份有限公司2026年半年度权益分派实施公告",
+              "publisher": "西安泰金新能科技股份有限公司",
+              "date": "2026-10-15",
+              "location": "物理第1页公告标题及分配年度、第2页分配方案及日期表、第3页币种说明、第4页落款",
+              "retrievedAt": "2026-10-15T17:11:56+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605712.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-05f8640bdfa3b90e717e",
+      "objectId": "listed-000610-sz",
+      "type": "诉讼",
+      "topics": [
+        "子公司建设工程合同纠纷",
+        "收到民事起诉状"
+      ],
+      "updates": [
+        {
+          "id": "production-3bcf24c86f9ea11854323164",
+          "date": "2026-10-14",
+          "time": "",
+          "title": "西安旅游子公司收到建设工程合同纠纷起诉状",
+          "summary": "西安旅游2026年10月14日披露，下属子公司迭部县扎尕那康养置业有限公司近日收到甘肃省迭部县人民法院送达的民事起诉状，原告甘肃第六建设集团股份有限公司请求支付工程款39,948,967.53元、逾期付款利息3,368,363.78元、工程进度款违约金1,830,341.91元，承担诉讼费等实现债权费用，并请求就涉案工程折价、拍卖所得价款享有建设工程价款优先受偿权。案件目前处于起诉阶段，上述金额为原告诉请，对公司本期或期后利润的影响尚不确定。",
+          "stage": "子公司收到法院送达的民事起诉状，案件处于起诉阶段",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T12:04:59+08:00",
+          "compiledAt": "2026-10-16T12:04:59+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "*ST西旅",
+          "version": "3bcf24c86f9ea1185432316440b6c6143750e78f68c81ed5be53b8c1780e6bdb",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安旅游股份有限公司关于子公司重大诉讼的公告",
+              "publisher": "西安旅游股份有限公司",
+              "date": "2026-10-14",
+              "location": "物理第1—3页；公告落款日期为2026年10月13日",
+              "retrievedAt": "2026-10-15T17:07:48+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603727.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-21c750afffe689e74d94",
+      "date": "2026-10-16",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "compiledAt": "2026-10-16T12:11:55+08:00",
+      "researchCutoff": "2026-10-15T17:07:38+08:00",
+      "sourceDiscoveryCutoff": "2026-10-15T17:07:38+08:00",
+      "updateIds": [
+        "production-402b3fb2810c5ab1db7a6a56",
+        "production-af10250509776a8c77bdc685"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-21c750afffe689e74d94/page-01.png",
+          "width": 1080,
+          "height": 1172,
+          "sha256": "500ca1192f8a376bd20501776d8c031d0f53d97fb45b8b88668f54a928cdac5f"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-16-fcf29ce2bbe5",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-10",
+      "rangeEnd": "2026-10-16",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-402b3fb2810c5ab1db7a6a56",
+          "version": "402b3fb2810c5ab1db7a6a566512c4355987f9a17ec26005c524785f5f95fbf9",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家子公司各51%股权：已收价款6,553.50万元，完成工商变更",
+          "business": "投资银行",
+          "share": {
+            "title": "已收半数股权转让款，完成工商变更",
+            "facts": "公告，全资子公司转让金叶玉阳、新疆金叶各51%股权，已收6,553.50万元，占总价50%；两家标的已完成股东变更工商备案登记。尾款6,553.50万元须交割满一年并满足历史风险核查条款后支付，本次未披露到账或具体交割日期。"
+          }
+        },
+        {
+          "eventId": "production-event-2e3716b18c911c20fb1f",
+          "updateId": "production-af10250509776a8c77bdc685",
+          "version": "af10250509776a8c77bdc685649cd2a55cdf00c3e24956709aad407c06f98cb3",
+          "objectName": "陕鼓动力",
+          "type": "listed",
+          "category": "并购重组",
+          "date": "2026-10-10",
+          "title": "收购秦风气体36.06%股权仍在推进，尚待后续审议审批",
+          "business": "投资银行",
+          "share": {
+            "title": "拟购36.06%股权仍待审议审批",
+            "facts": "公告，拟发行股份购买秦风气体36.06%股权，仍待后续董事会、股东会及监管审批。本次未披露新增审批或交割完成节点，未更新7月预案尚未确定的交易作价及各方股份对价；恒博隆所持标的股权亦未披露解押完成。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-5a9dac73d4b1bfddda32",
       "date": "2026-10-16",
@@ -10018,6 +10202,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "dba02a1a4ae4eb947340",
+      "date": "2026-10-16",
+      "compiledAt": "2026-10-16T11:47:26+08:00",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "snapshotUrl": "publications/dba02a1a4ae4eb947340/index.html",
+      "publishedAt": "2026-10-16T12:02:53+08:00"
+    },
     {
       "id": "d40fc268212c8e345ca8",
       "date": "2026-10-16",
