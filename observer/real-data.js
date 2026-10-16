@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-16-7b0a88172296",
-      "compiledAt": "2026-10-16T11:17:57+08:00",
+      "id": "2026-10-16-5d7032a5d032",
+      "compiledAt": "2026-10-16T11:32:39+08:00",
       "cutoff": "2026-10-15T17:07:38+08:00",
       "windowStart": "2026-10-08",
       "windowEnd": "2026-10-15",
@@ -14,6 +14,7 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-10-15T17:07:38+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-cb1f21d99599449c785ef751",
         "production-605b69989ddd15817fa8e313"
       ],
       "status": "public",
@@ -69,7 +70,8 @@ window.PROTOTYPE = {
       "production-402b3fb2810c5ab1db7a6a56": "2026-10-16T09:02:28+08:00",
       "production-c5a838015b77eef450187dd9": "2026-10-16T09:21:52+08:00",
       "production-7325b6fad4d87876c4926db2": "2026-10-16T10:31:38+08:00",
-      "production-605b69989ddd15817fa8e313": "2026-10-16T11:17:41+08:00"
+      "production-605b69989ddd15817fa8e313": "2026-10-16T11:17:41+08:00",
+      "production-cb1f21d99599449c785ef751": "2026-10-16T11:30:38+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -370,6 +372,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西煤业股份有限公司2026年10月15日公告，2026年半年度利润分配以9,695,000,000股为基数，每股派发现金红利人民币0.058元（含税），合计562,310,000元。股权登记日为2026年10月21日，除息日及现金红利发放日均为10月22日，本次为实施安排公告，尚未到发放日。"
+        },
+        "production-cb1f21d99599449c785ef751": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "瑞联新材2026年10月15日公告，股东、董事长刘晓春于10月13日办理了100万股公司股份的解除质押手续，占其所持股份的11.46%、公司总股本的0.57%。"
         }
       }
     },
@@ -379,8 +388,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-10-16-7b0a88172296",
-      "editionId": "selection-b7b21e96d1c2f2e5f054",
+      "sourceEditionId": "2026-10-16-5d7032a5d032",
+      "editionId": "selection-b02b95aa8b06ca69062f",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -658,6 +667,14 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "陕西煤业",
       "code": "601225.SH",
+      "market": "SH",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-688550-sh",
+      "type": "listed",
+      "name": "瑞联新材",
+      "code": "688550.SH",
       "market": "SH",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     }
@@ -9155,6 +9172,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T11:20:21+08:00",
           "updatedAt": "2026-10-16T11:17:41+08:00",
           "compiledAt": "2026-10-16T11:17:41+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -9180,9 +9198,114 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-c578218e0d82ce9d7940",
+      "objectId": "listed-688550-sh",
+      "type": "股份解除质押",
+      "topics": [
+        "刘晓春",
+        "部分股份解除质押"
+      ],
+      "updates": [
+        {
+          "id": "production-cb1f21d99599449c785ef751",
+          "date": "2026-10-15",
+          "time": "",
+          "title": "董事长刘晓春解除质押100万股",
+          "summary": "瑞联新材2026年10月15日公告，股东、董事长刘晓春于10月13日办理了100万股公司股份的解除质押手续，占其所持股份的11.46%、公司总股本的0.57%。",
+          "stage": "2026年10月13日办理解除质押",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T11:30:38+08:00",
+          "compiledAt": "2026-10-16T11:30:38+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "瑞联新材",
+          "version": "cb1f21d99599449c785ef75155f13a0736f39e22985ef130de137123f1c4662d",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于股东部分股份解除质押的公告",
+              "publisher": "西安瑞联新材料股份有限公司",
+              "date": "2026-10-15",
+              "location": "物理第1页重要内容提示及解除质押情况表；物理第2页落款",
+              "retrievedAt": "2026-10-15T17:11:55+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225604991.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-b02b95aa8b06ca69062f",
+      "date": "2026-10-16",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "compiledAt": "2026-10-16T11:32:39+08:00",
+      "researchCutoff": "2026-10-15T17:07:38+08:00",
+      "sourceDiscoveryCutoff": "2026-10-15T17:07:38+08:00",
+      "updateIds": [
+        "production-402b3fb2810c5ab1db7a6a56",
+        "production-af10250509776a8c77bdc685"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-b02b95aa8b06ca69062f/page-01.png",
+          "width": 1080,
+          "height": 1172,
+          "sha256": "500ca1192f8a376bd20501776d8c031d0f53d97fb45b8b88668f54a928cdac5f"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-16-5d7032a5d032",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-10",
+      "rangeEnd": "2026-10-16",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-402b3fb2810c5ab1db7a6a56",
+          "version": "402b3fb2810c5ab1db7a6a566512c4355987f9a17ec26005c524785f5f95fbf9",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家子公司各51%股权：已收价款6,553.50万元，完成工商变更",
+          "business": "投资银行",
+          "share": {
+            "title": "已收半数股权转让款，完成工商变更",
+            "facts": "公告，全资子公司转让金叶玉阳、新疆金叶各51%股权，已收6,553.50万元，占总价50%；两家标的已完成股东变更工商备案登记。尾款6,553.50万元须交割满一年并满足历史风险核查条款后支付，本次未披露到账或具体交割日期。"
+          }
+        },
+        {
+          "eventId": "production-event-2e3716b18c911c20fb1f",
+          "updateId": "production-af10250509776a8c77bdc685",
+          "version": "af10250509776a8c77bdc685649cd2a55cdf00c3e24956709aad407c06f98cb3",
+          "objectName": "陕鼓动力",
+          "type": "listed",
+          "category": "并购重组",
+          "date": "2026-10-10",
+          "title": "收购秦风气体36.06%股权仍在推进，尚待后续审议审批",
+          "business": "投资银行",
+          "share": {
+            "title": "拟购36.06%股权仍待审议审批",
+            "facts": "公告，拟发行股份购买秦风气体36.06%股权，仍待后续董事会、股东会及监管审批。本次未披露新增审批或交割完成节点，未更新7月预案尚未确定的交易作价及各方股份对价；恒博隆所持标的股权亦未披露解押完成。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-b7b21e96d1c2f2e5f054",
       "date": "2026-10-16",
@@ -9779,6 +9902,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "718e8d8d710e7eee5cee",
+      "date": "2026-10-16",
+      "compiledAt": "2026-10-16T11:17:57+08:00",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "snapshotUrl": "publications/718e8d8d710e7eee5cee/index.html",
+      "publishedAt": "2026-10-16T11:20:21+08:00"
+    },
     {
       "id": "1db31da93819916cc2ba",
       "date": "2026-10-16",
