@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-16-d3f4bb616d2d",
-      "compiledAt": "2026-10-16T13:04:27+08:00",
+      "id": "2026-10-16-5f3cf7031b60",
+      "compiledAt": "2026-10-16T13:18:54+08:00",
       "cutoff": "2026-10-15T17:07:38+08:00",
       "windowStart": "2026-10-08",
       "windowEnd": "2026-10-15",
@@ -23,9 +23,11 @@ window.PROTOTYPE = {
         "production-8b7f3b0be400542aba36bf09",
         "production-5cad9adf9d1007ca22900a3f",
         "production-4963d300c8705d777266b329",
+        "production-404ec293ca491e58425b6543",
         "production-3bcf24c86f9ea11854323164",
         "production-307fa4ec1724d912de6e734e",
         "production-0dece4ad493c8ae5090d11be",
+        "production-005b5517f8d390addecf1942",
         "production-b816580b9e06a785883cbd77"
       ],
       "status": "public",
@@ -93,7 +95,9 @@ window.PROTOTYPE = {
       "production-eaba31db1ae93ae1af3c1763": "2026-10-16T12:30:19+08:00",
       "production-b816580b9e06a785883cbd77": "2026-10-16T12:56:25+08:00",
       "production-8b7f3b0be400542aba36bf09": "2026-10-16T12:59:12+08:00",
-      "production-307fa4ec1724d912de6e734e": "2026-10-16T12:57:21+08:00"
+      "production-307fa4ec1724d912de6e734e": "2026-10-16T12:57:21+08:00",
+      "production-005b5517f8d390addecf1942": "2026-10-16T13:11:05+08:00",
+      "production-404ec293ca491e58425b6543": "2026-10-16T13:12:59+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -477,6 +481,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安标准工业股份有限公司（ST标准）2026年10月14日公告，董事会于10月13日审议通过开展金融类资产质押业务，任意时点质押额度不超过0.65亿元，其中公司本部、子公司标准菀坪及标准国贸分别为0.30亿元、0.20亿元及0.15亿元，额度不共享、自押自用。授权自董事会审议通过之日起一年内有效，无需提交股东会审议；具体合作金融机构待综合评估后确定，本次公告未披露实际质押或贷款到账情况。"
+        },
+        "production-005b5517f8d390addecf1942": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安标准工业股份有限公司（ST标准）2026年10月14日公告，董事会于10月13日审议通过聘任土军勇为董事会秘书，任期自董事会审议通过之日起至第十届董事会届满之日止。公司已就本次聘任向上海证券交易所完成备案，审核结果无异议通过。"
+        },
+        "production-404ec293ca491e58425b6543": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "农心科技2026年10月14日公告，公司股票于10月12日至13日连续两个交易日收盘价格涨幅偏离值累计超过20%，构成股票交易异常波动。公司称，经自查及向控股股东、实际控制人核实，截至公告披露日不存在应披露而未披露的重大信息，主营业务及经营情况未发生重大变化；油化工、煤化工价格波动及可能出现的厄尔尼诺现象对公司经营的直接影响尚不能判断，并提示短期上涨过快可能出现下跌风险。"
         }
       }
     },
@@ -486,8 +504,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-10-16-d3f4bb616d2d",
-      "editionId": "selection-a18436975fa5a50b5cbe",
+      "sourceEditionId": "2026-10-16-5f3cf7031b60",
+      "editionId": "selection-fc4f50f22d72a6318d6b",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -9792,6 +9810,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。本次依据五份留存原件及其相关原页形成有界研究，不代表控股股东全部债务、冻结或减持历史已经覆盖。未发现previous-review.json或retrieval-directories.json；previous-gaps.json所列四页原图缺口已补核。 拍卖公告按三名竞得人汇总成交结果，未披露十笔80万股各自的独立成交价。本文完整列示公告可核实的竞得人汇总结果，不冒称十笔逐笔成交清单，不补猜各笔价格。 原件未披露本次股份最初取得方式、取得成本、债权转让对价及拍卖时债务余额；不计算减持利润、债务清偿比例或偿债后余额。 历史材料中的800万股、1,835.8215万股及328万股冻结属于不同披露时点或笔次，现有原件未提供逐股衔接清单。本文仅作同一债务关系的历史对照，不将各笔机械相加，也不认定本次拍卖股份与2023年冻结股份完全相同。 2023年度报告物理页118的冻结表表头为“股权数额（万元）”，正文则明确写800万股。本文采用正文股份数量，不将表内800.00解释为800万元债权或股份价值。 三份补入历史原件的已核披露日期未提供，故来源日期留空，另保留报告期间、公告落款及URL日期线索。补入取得时间不改变原资料日期；本次未联网核验链接当前可访问性。 未取得本次800万股拍卖在进展公告之后的缴款、法院成交裁定及过户完成证明。本文停留在已披露竞价结果阶段，不因约定期限经过而推定完成。 进展公告留存取得时间晚于输入标注的2026年10月15日17:07:38研究截止，历史原件于10月16日补入；这些取得时间均如实列示，不据此声称材料在原截止分钟已全部取得。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T13:09:16+08:00",
           "updatedAt": "2026-10-16T12:56:25+08:00",
           "compiledAt": "2026-10-16T12:56:25+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -9965,6 +9984,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T13:09:16+08:00",
           "updatedAt": "2026-10-16T12:59:12+08:00",
           "compiledAt": "2026-10-16T12:59:12+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -10012,6 +10032,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T13:09:16+08:00",
           "updatedAt": "2026-10-16T12:57:21+08:00",
           "compiledAt": "2026-10-16T12:57:21+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -10045,9 +10066,184 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-c16bec4895a68bd4a9bd",
+      "objectId": "listed-600302-sh",
+      "type": "董事会秘书聘任",
+      "topics": [
+        "第十届董事会秘书岗位衔接",
+        "土军勇聘任",
+        "交易所备案完成"
+      ],
+      "updates": [
+        {
+          "id": "production-005b5517f8d390addecf1942",
+          "date": "2026-10-14",
+          "time": "",
+          "title": "聘任土军勇为董事会秘书，已完成交易所备案",
+          "summary": "西安标准工业股份有限公司（ST标准）2026年10月14日公告，董事会于10月13日审议通过聘任土军勇为董事会秘书，任期自董事会审议通过之日起至第十届董事会届满之日止。公司已就本次聘任向上海证券交易所完成备案，审核结果无异议通过。",
+          "stage": "2026年10月13日董事会审议通过聘任土军勇为董事会秘书，任期自审议通过之日起至第十届董事会届满之日止；公告披露已完成交易所备案，审核结果无异议通过",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T13:11:05+08:00",
+          "compiledAt": "2026-10-16T13:11:05+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST标准",
+          "version": "005b5517f8d390addecf19427eccb324e92b0af0413cb8df13bcb4624258f5ac",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "标准股份关于聘任董事会秘书的公告",
+              "publisher": "西安标准工业股份有限公司",
+              "date": "2026-10-14",
+              "location": "物理第1页主体信息；第2页董事会审议、任期、备案及落款",
+              "retrievedAt": "2026-10-15T17:08:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603215.PDF"
+            },
+            {
+              "title": "标准股份第十届董事会第三次会议决议公告",
+              "publisher": "西安标准工业股份有限公司",
+              "date": "2026-10-14",
+              "location": "物理第1页，董事会会议召开情况及第一项议案",
+              "retrievedAt": "2026-10-15T17:08:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603222.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-4977c99b7e506317cf77",
+      "objectId": "listed-001231-sz",
+      "type": "股票交易异常波动",
+      "topics": [
+        "股票交易异常波动核查",
+        "经营情况及交易风险提示"
+      ],
+      "updates": [
+        {
+          "id": "production-404ec293ca491e58425b6543",
+          "date": "2026-10-14",
+          "time": "",
+          "title": "披露股价异动核查结果，称经营情况未发生重大变化",
+          "summary": "农心科技2026年10月14日公告，公司股票于10月12日至13日连续两个交易日收盘价格涨幅偏离值累计超过20%，构成股票交易异常波动。公司称，经自查及向控股股东、实际控制人核实，截至公告披露日不存在应披露而未披露的重大信息，主营业务及经营情况未发生重大变化；油化工、煤化工价格波动及可能出现的厄尔尼诺现象对公司经营的直接影响尚不能判断，并提示短期上涨过快可能出现下跌风险。",
+          "stage": "披露10月12日至13日股票交易异常波动核查结果及风险提示",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T13:12:59+08:00",
+          "compiledAt": "2026-10-16T13:12:59+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "农心科技",
+          "version": "404ec293ca491e58425b65438450ab85a2e8b1631e39f974b1d48a11804ede5b",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "农心作物科技股份有限公司关于股票交易异常波动的公告",
+              "publisher": "农心作物科技股份有限公司",
+              "date": "2026-10-14",
+              "location": "物理第1页重要内容提示及异常波动情况说明；第3页风险提示及落款",
+              "retrievedAt": "2026-10-15T17:07:51+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603558.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-fc4f50f22d72a6318d6b",
+      "date": "2026-10-16",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "compiledAt": "2026-10-16T13:18:55+08:00",
+      "researchCutoff": "2026-10-15T17:07:38+08:00",
+      "sourceDiscoveryCutoff": "2026-10-15T17:07:38+08:00",
+      "updateIds": [
+        "production-402b3fb2810c5ab1db7a6a56",
+        "production-af10250509776a8c77bdc685",
+        "production-b816580b9e06a785883cbd77"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-fc4f50f22d72a6318d6b/page-01.png",
+          "width": 1080,
+          "height": 1624,
+          "sha256": "318457c7390d37c68756fb64a5d493ba3b6cec198738737af0cc560449067552"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-16-5f3cf7031b60",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-10",
+      "rangeEnd": "2026-10-16",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-402b3fb2810c5ab1db7a6a56",
+          "version": "402b3fb2810c5ab1db7a6a566512c4355987f9a17ec26005c524785f5f95fbf9",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家子公司各51%股权：已收价款6,553.50万元，完成工商变更",
+          "business": "投资银行",
+          "share": {
+            "title": "已收半数股权转让款，完成工商变更",
+            "facts": "公告，全资子公司转让金叶玉阳、新疆金叶各51%股权，已收6,553.50万元，占总价50%；两家标的已完成股东变更工商备案登记。尾款6,553.50万元须交割满一年并满足历史风险核查条款后支付，本次未披露到账或具体交割日期。"
+          }
+        },
+        {
+          "eventId": "production-event-2e3716b18c911c20fb1f",
+          "updateId": "production-af10250509776a8c77bdc685",
+          "version": "af10250509776a8c77bdc685649cd2a55cdf00c3e24956709aad407c06f98cb3",
+          "objectName": "陕鼓动力",
+          "type": "listed",
+          "category": "并购重组",
+          "date": "2026-10-10",
+          "title": "收购秦风气体36.06%股权仍在推进，尚待后续审议审批",
+          "business": "投资银行",
+          "share": {
+            "title": "拟购36.06%股权仍待审议审批",
+            "facts": "公告，拟发行股份购买秦风气体36.06%股权，仍待后续董事会、股东会及监管审批。本次未披露新增审批或交割完成节点，未更新7月预案尚未确定的交易作价及各方股份对价；恒博隆所持标的股权亦未披露解押完成。"
+          }
+        },
+        {
+          "eventId": "production-event-d390bfc62684ea15a5bb",
+          "updateId": "production-b816580b9e06a785883cbd77",
+          "version": "b816580b9e06a785883cbd7723d51d652758ee621be18035b081b4a11065ab6c",
+          "objectName": "曲江文旅",
+          "type": "listed",
+          "category": "司法拍卖",
+          "date": "2026-10-13",
+          "title": "控股股东800万股拍卖披露竞价结果，一致行动人竞得160万股",
+          "business": "股份管理",
+          "share": {
+            "title": "800万股拍卖披露结果，仍待裁定及过户",
+            "facts": "控股股东800万股于10月9日至10日被司法拍卖，成交价合计5,640万元；一致行动人陕西圣都广场数字电影院线有限公司竞得160万股。后续仍涉及余款缴纳、法院成交裁定及过户，尚不能认定减持完成或价款到账。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-a18436975fa5a50b5cbe",
       "date": "2026-10-16",
@@ -11020,6 +11216,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "4c5a94c48b41f500c9ca",
+      "date": "2026-10-16",
+      "compiledAt": "2026-10-16T13:04:27+08:00",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "snapshotUrl": "publications/4c5a94c48b41f500c9ca/index.html",
+      "publishedAt": "2026-10-16T13:09:16+08:00"
+    },
     {
       "id": "9df3595fb774e24e8110",
       "date": "2026-10-16",
