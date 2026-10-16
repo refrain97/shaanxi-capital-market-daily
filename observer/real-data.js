@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-16-f3935f2344e5",
-      "compiledAt": "2026-10-16T19:15:36+08:00",
+      "id": "2026-10-16-6cb43fa847f0",
+      "compiledAt": "2026-10-16T21:28:38+08:00",
       "cutoff": "2026-10-15T17:07:38+08:00",
       "windowStart": "2026-10-08",
       "windowEnd": "2026-10-15",
@@ -32,6 +32,7 @@ window.PROTOTYPE = {
         "production-0d97fa7c51e2d9d6f9d44688",
         "production-005b5517f8d390addecf1942",
         "production-b816580b9e06a785883cbd77",
+        "production-a4575d2af4f24425b8239105",
         "production-a40f418bddfa13f86d5b9419",
         "production-8bf9e203849dc19fbbedb5a0",
         "production-4ddc9b6f7ff94d4f9624bfe3",
@@ -49,6 +50,7 @@ window.PROTOTYPE = {
         "production-d7a82833a3cf1e39cc2c799c",
         "production-92d79837e0d36f3cedc60360",
         "production-7bbe65d05ada8dc7f10bd495",
+        "production-66f5d7a2793c488d57520450",
         "production-57d2f276f5822db0a4c2caee",
         "production-e3330ddbb0702645116e5c30",
         "production-8a7311749b69c7fb3248b852"
@@ -144,7 +146,9 @@ window.PROTOTYPE = {
       "production-87f816da962821fbc94b8ae4": "2026-10-16T18:24:16+08:00",
       "production-37e35a2ea70897fd94623770": "2026-10-16T18:26:34+08:00",
       "production-6cfdc48db0d0f112c41e814b": "2026-10-16T18:28:47+08:00",
-      "production-c9f79ce45d5010a063f5e34b": "2026-10-16T19:04:52+08:00"
+      "production-c9f79ce45d5010a063f5e34b": "2026-10-16T19:04:52+08:00",
+      "production-66f5d7a2793c488d57520450": "2026-10-16T21:26:07+08:00",
+      "production-a4575d2af4f24425b8239105": "2026-10-16T21:20:37+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -705,6 +709,19 @@ window.PROTOTYPE = {
           "action": "股份回购",
           "group": "回购",
           "level": "deep"
+        },
+        "production-66f5d7a2793c488d57520450": {
+          "version": "listed-scope-20261009",
+          "action": "解禁",
+          "group": "股东股份变动",
+          "level": "deep"
+        },
+        "production-a4575d2af4f24425b8239105": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "金堆城钼业股份有限公司2026年10月13日披露业绩快报，2026年前三季度实现营业收入人民币1,244,554.58万元，同比增长14.34%；归属于上市公司股东的净利润人民币299,384.32万元，同比增长30.94%。上述数据为初步核算数据，未经会计师事务所审计，具体以公司2026年第三季度报告披露数据为准。"
         }
       }
     },
@@ -713,9 +730,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-10-16-f3935f2344e5",
-      "editionId": "selection-698f3ec0f38ba39ec18a",
+      "status": "committed",
+      "sourceEditionId": "2026-10-16-6cb43fa847f0",
+      "editionId": "selection-f4eadf28defcd3cb4972",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -1105,6 +1122,22 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "特变电工",
       "code": "600089.SH",
+      "market": "SH",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-001286-sz",
+      "type": "listed",
+      "name": "陕西能源",
+      "code": "001286.SZ",
+      "market": "SZ",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-601958-sh",
+      "type": "listed",
+      "name": "金钼股份",
+      "code": "601958.SH",
       "market": "SH",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     }
@@ -12630,9 +12663,426 @@ window.PROTOTYPE = {
           }
         }
       ]
+    },
+    {
+      "id": "production-event-19422b080ca4c7c9b604",
+      "objectId": "listed-001286-sz",
+      "type": "解禁",
+      "topics": [
+        "首发前限售股上市流通",
+        "陕西投资集团有限公司",
+        "保荐机构核查"
+      ],
+      "updates": [
+        {
+          "id": "production-66f5d7a2793c488d57520450",
+          "date": "2026-10-09",
+          "time": "",
+          "title": "披露陕投集团24亿股解禁安排，占总股本64%",
+          "summary": "陕西能源2026年10月9日公告，控股股东陕西投资集团有限公司持有的24亿股首发前限售股，安排于2026年10月12日上市流通，占公司总股本64%。该批股份原承诺自上市之日起锁定36个月，2023年因触发股价条件延长6个月。中信证券、西部证券对本次解禁上市流通事项无异议。当前留存材料证明的是上市流通安排，尚未据后续材料确认实际完成；解禁数量不代表减持计划或实际出售数量。",
+          "stage": "已披露2026年10月12日上市流通安排，保荐机构发表无异议意见；未据后续材料确认实际完成",
+          "depth": "deep",
+          "coverage": "本事项有限历史研究；不等于观察池全量已更新。未取得上市流通安排实施后的中国结算数据或其他完成依据，本文仅表述2026年10月9日披露的安排，不确认10月12日实际完成。 历史核查限定于陕投集团本批首发前股份的锁定承诺、延长期及本次解禁安排，未扩展为公司全部股东的解禁或减持全历史。 上市公告书封面仅标2023年4月，留存元数据未核定其具体披露日，因此按月份记录，未以URL中的日期代替核实。 两份历史原件于2026年10月16日本轮补入，用于核实旧事实；未推进原发现窗口或后续动态覆盖，未声称这些文件已于原研究截止时取得。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T21:26:07+08:00",
+          "compiledAt": "2026-10-16T21:26:07+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西能源",
+          "version": "66f5d7a2793c488d5752045026b774db6a9cb752e24a76c2c4590932f31216e5",
+          "important": true,
+          "production": true,
+          "prototype": false,
+          "history": [
+            {
+              "date": "2023-04",
+              "text": "上市公告书载明，控股股东、实际控制人陕投集团承诺自上市之日起锁定股份36个月；上市后6个月内连续20个交易日收盘价均低于发行价，或6个月期末收盘价低于发行价，将自动延长锁定6个月。发行价按相关除权除息情形调整。"
+            },
+            {
+              "date": "2023-10-11",
+              "text": "公司公告称，2023年10月10日上市后6个月期末收盘价为8.91元/股，低于除息调整后的发行价9.25元/股，触发延长锁定条件。陕投集团所持股份锁定期延至2026年10月10日，具体解除限售日期以公司后续披露的上市流通日期为准。"
+            },
+            {
+              "date": "2026-10-09",
+              "text": "公司披露陕投集团24亿股首发前股份的解禁安排，上市流通日期为2026年10月12日；公告列示的变动后股本数据仍以中国结算深圳分公司出具的数据为准。"
+            }
+          ],
+          "business": [
+            "本次涉及控股股东陕投集团的存量股份管理。可讨论其解禁后的持有安排、承诺跟踪及股份管理服务，但是否出售、出售方式和资金用途均须向股东确认，不能将24亿股解禁量视为可执行减持规模或现金需求。",
+            "中信证券、西部证券已作为保荐人出具本次核查意见。公司承担披露及承诺履行监督事项，股东决定其持股安排；后续服务讨论应区分两类主体，并保留已有保荐服务安排。"
+          ],
+          "details": [
+            {
+              "label": "披露日期",
+              "value": "2026年10月9日"
+            },
+            {
+              "label": "股东及股份来源",
+              "value": "控股股东陕西投资集团有限公司；首次公开发行前已发行股份；本次涉及1户股东"
+            },
+            {
+              "label": "数量与比例",
+              "value": "2,400,000,000股，即24亿股，占总股本64%"
+            },
+            {
+              "label": "锁定安排",
+              "value": "原承诺自上市之日起36个月，触发条件后延长6个月；2023年公告明确延至2026年10月10日"
+            },
+            {
+              "label": "上市流通日期及阶段",
+              "value": "2026年10月9日公告安排于2026年10月12日上市流通；未据后续材料确认实际完成"
+            },
+            {
+              "label": "股份权利限制",
+              "value": "当次公告及核查意见载明，本次解除限售股份不存在被质押、冻结的情形"
+            },
+            {
+              "label": "持股与减持承诺",
+              "value": "陕投集团历史承诺拟长期持有；是否减持根据资金需求、投资安排等因素确定，并受既有承诺及届时有效规定约束。本次材料未披露具体减持计划或成交"
+            }
+          ],
+          "sources": [
+            {
+              "title": "陕西能源投资集团股份有限公司首次公开发行前已发行的部分限售股解禁上市流通提示性公告",
+              "publisher": "陕西能源投资集团股份有限公司",
+              "date": "2026-10-09",
+              "location": "物理页1—8；关键安排及股本表在物理页7",
+              "retrievedAt": "2026-10-09T20:34:08+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225596736.PDF"
+            },
+            {
+              "title": "中信证券股份有限公司、西部证券股份有限公司关于陕西能源投资集团股份有限公司首次公开发行前已发行的部分限售股解禁上市流通的核查意见",
+              "publisher": "中信证券股份有限公司、西部证券股份有限公司",
+              "date": "2026-10-09",
+              "location": "物理页1—13；股东及锁定期在物理页2，关键表格及结论在物理页10—11",
+              "retrievedAt": "2026-10-09T20:34:07+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225596737.PDF"
+            },
+            {
+              "title": "陕西能源投资股份有限公司首次公开发行股票并在主板上市之上市公告书",
+              "publisher": "陕西能源投资股份有限公司",
+              "date": "2023-04",
+              "location": "物理页1封面仅标月份；物理页35（印刷页34）陕投集团锁定承诺",
+              "retrievedAt": "2026-10-16T21:08:58.808324+08:00",
+              "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2023-04-06/68078a29-c72d-45c1-992a-1251c615c243.PDF"
+            },
+            {
+              "title": "陕西能源投资股份有限公司关于控股股东所持股份延长锁定期的公告",
+              "publisher": "陕西能源投资股份有限公司",
+              "date": "2023-10-11",
+              "location": "物理页1—3；延长触发条件、终止日期及后续披露限定在物理页2",
+              "retrievedAt": "2026-10-16T21:20:38.487829+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2023-10-11/1218010727.PDF"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "本次股东解禁明细，依据2026年10月9日披露的安排",
+              "columns": [
+                "股东",
+                "所持限售股份总数（股）",
+                "本次解除限售数量（股）",
+                "占总股本比例"
+              ],
+              "rows": [
+                [
+                  "陕西投资集团有限公司",
+                  "2,400,000,000",
+                  "2,400,000,000",
+                  "64.00%"
+                ]
+              ]
+            },
+            {
+              "caption": "公告列示的解禁前后股本结构：变动前基于2026年9月30日股本结构表，变动后最终以中国结算深圳分公司数据为准",
+              "columns": [
+                "股份性质",
+                "变动前数量（股）",
+                "变动前比例",
+                "增减数量（股）",
+                "安排完成后数量（股）",
+                "安排完成后比例"
+              ],
+              "rows": [
+                [
+                  "有限售条件股份（均为首发前限售股）",
+                  "2,400,000,000",
+                  "64.00%",
+                  "-2,400,000,000",
+                  "0",
+                  "0.00%"
+                ],
+                [
+                  "无限售条件股份",
+                  "1,350,000,000",
+                  "36.00%",
+                  "+2,400,000,000",
+                  "3,750,000,000",
+                  "100.00%"
+                ],
+                [
+                  "总股本",
+                  "3,750,000,000",
+                  "100.00%",
+                  "不变",
+                  "3,750,000,000",
+                  "100.00%"
+                ]
+              ]
+            }
+          ],
+          "shareContent": {
+            "title": "陕西能源披露24亿股解禁安排",
+            "insight": "该批股份经历首发锁定36个月及2023年触发条件后的延长6个月，本次披露承接的是这项锁定安排。",
+            "facts": [
+              "2026年10月9日公告：陕投集团24亿股首发前限售股安排于10月12日上市流通，占总股本64%。",
+              "中信证券、西部证券对本次事项无异议；尚未据后续材料确认实际完成，解禁不代表已减持。"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "production-event-68ec2e801d6d69842f1e",
+      "objectId": "listed-601958-sh",
+      "type": "业绩快报",
+      "topics": [
+        "2026年前三季度",
+        "初步核算数据"
+      ],
+      "updates": [
+        {
+          "id": "production-a4575d2af4f24425b8239105",
+          "date": "2026-10-13",
+          "time": "",
+          "title": "披露前三季度业绩快报：归母净利润同比增长30.94%",
+          "summary": "金堆城钼业股份有限公司2026年10月13日披露业绩快报，2026年前三季度实现营业收入人民币1,244,554.58万元，同比增长14.34%；归属于上市公司股东的净利润人民币299,384.32万元，同比增长30.94%。上述数据为初步核算数据，未经会计师事务所审计，具体以公司2026年第三季度报告披露数据为准。",
+          "stage": "披露未经审计的2026年前三季度初步核算业绩",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T21:20:37+08:00",
+          "compiledAt": "2026-10-16T21:20:37+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "金钼股份",
+          "version": "a4575d2af4f24425b8239105cf25e23846d33a7064a807fad11392dce2db8ab5",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "金钼股份2026年前三季度业绩快报公告",
+              "publisher": "金堆城钼业股份有限公司",
+              "date": "2026-10-13",
+              "location": "物理第1页主要财务数据表及风险限定；物理第2页经营业绩说明、落款",
+              "retrievedAt": "2026-10-15T17:08:27+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225600568.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-f4eadf28defcd3cb4972",
+      "date": "2026-10-16",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "compiledAt": "2026-10-16T21:30:14+08:00",
+      "researchCutoff": "2026-10-15T17:07:38+08:00",
+      "sourceDiscoveryCutoff": "2026-10-15T17:07:38+08:00",
+      "updateIds": [
+        "production-402b3fb2810c5ab1db7a6a56",
+        "production-af10250509776a8c77bdc685",
+        "production-47327da3c517df42cb7deafc",
+        "production-0d97fa7c51e2d9d6f9d44688",
+        "production-a40f418bddfa13f86d5b9419",
+        "production-b816580b9e06a785883cbd77",
+        "production-c9f79ce45d5010a063f5e34b",
+        "production-244df99a8d8f7eee71604205",
+        "production-66f5d7a2793c488d57520450",
+        "production-a4575d2af4f24425b8239105"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-f4eadf28defcd3cb4972/page-01.png",
+          "width": 1080,
+          "height": 2686,
+          "sha256": "e4707d5a72ce93e188209eca4c386c94342c18f7941eb5d61947aaa361253e9a"
+        },
+        {
+          "file": "assets/editions/selection-f4eadf28defcd3cb4972/page-02.png",
+          "width": 1080,
+          "height": 1890,
+          "sha256": "560ee37233264a3e4dfd91b376a8a04c31034c7fc4521ca6de0e32f7dd283e4a"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-16-6cb43fa847f0",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-09",
+      "rangeEnd": "2026-10-16",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-402b3fb2810c5ab1db7a6a56",
+          "version": "402b3fb2810c5ab1db7a6a566512c4355987f9a17ec26005c524785f5f95fbf9",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家子公司各51%股权：已收价款6,553.50万元，完成工商变更",
+          "business": "投资银行",
+          "share": {
+            "title": "已收半数股权转让款，完成工商变更",
+            "facts": "公告，全资子公司转让金叶玉阳、新疆金叶各51%股权，已收6,553.50万元，占总价50%；两家标的已完成股东变更工商备案登记。尾款6,553.50万元须交割满一年并满足历史风险核查条款后支付，本次未披露到账或具体交割日期。"
+          }
+        },
+        {
+          "eventId": "production-event-2e3716b18c911c20fb1f",
+          "updateId": "production-af10250509776a8c77bdc685",
+          "version": "af10250509776a8c77bdc685649cd2a55cdf00c3e24956709aad407c06f98cb3",
+          "objectName": "陕鼓动力",
+          "type": "listed",
+          "category": "并购重组",
+          "date": "2026-10-10",
+          "title": "收购秦风气体36.06%股权仍在推进，尚待后续审议审批",
+          "business": "投资银行",
+          "share": {
+            "title": "拟购36.06%股权仍待审议审批",
+            "facts": "公告，拟发行股份购买秦风气体36.06%股权，仍待后续董事会、股东会及监管审批。本次未披露新增审批或交割完成节点，未更新7月预案尚未确定的交易作价及各方股份对价；恒博隆所持标的股权亦未披露解押完成。"
+          }
+        },
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-47327da3c517df42cb7deafc",
+          "version": "47327da3c517df42cb7deafc7de03e08d708f513aaceb4b4984ee379a8804d2d",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-15",
+          "title": "向11人授予剩余43.10万股预留激励权益",
+          "business": "股份管理",
+          "share": {
+            "title": "向11人授予剩余43.10万股预留激励权益",
+            "facts": "以10月14日为授予日，按259.51元/股向11人授予剩余43.10万股预留第二类限制性股票。本批次授予满12个月且满足条件后方可分期归属，尚未完成归属、登记或上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-6b623fb3c43cdfb6861b",
+          "updateId": "production-0d97fa7c51e2d9d6f9d44688",
+          "version": "0d97fa7c51e2d9d6f9d44688513e1d43e390e0d826d1ba385199c8cb18101b85",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励调整",
+          "date": "2026-10-14",
+          "title": "调整2024年股权激励：授予价降至43.78元/股，未归属数量调整为55.0135万股",
+          "business": "股份管理",
+          "share": {
+            "title": "激励授予价下调，未归属数量调整",
+            "facts": "董事会已通过因权益分派调整2024年激励计划：首次及预留授予价由65.56元/股降至43.78元/股，已授予未归属数量调至55.0135万股。该数量未扣除同日另案作废的3,042股，本次不代表新授予或实际归属。"
+          }
+        },
+        {
+          "eventId": "real-fenghuo-changling-acquisition",
+          "updateId": "production-a40f418bddfa13f86d5b9419",
+          "version": "a40f418bddfa13f86d5b9419a1dd2b03804dd2047eb9a2322ef4673d82afd63a",
+          "objectName": "烽火电子",
+          "type": "listed",
+          "category": "并购",
+          "date": "2026-10-13",
+          "title": "完成长岭科技2025年度补偿股份注销，共868,395股",
+          "business": "股份管理",
+          "share": {
+            "title": "完成2025年度业绩补偿股份注销",
+            "facts": "公告，长岭科技收购涉及的2025年度业绩补偿股份868,395股已于10月12日定向回购注销，总价人民币1元。注册资本变更等仍为后续安排，本次不代表截至2027年度的全部承诺履行结束。"
+          }
+        },
+        {
+          "eventId": "production-event-d390bfc62684ea15a5bb",
+          "updateId": "production-b816580b9e06a785883cbd77",
+          "version": "b816580b9e06a785883cbd7723d51d652758ee621be18035b081b4a11065ab6c",
+          "objectName": "曲江文旅",
+          "type": "listed",
+          "category": "司法拍卖",
+          "date": "2026-10-13",
+          "title": "控股股东800万股拍卖披露竞价结果，一致行动人竞得160万股",
+          "business": "股份管理",
+          "share": {
+            "title": "800万股拍卖披露结果，仍待裁定及过户",
+            "facts": "控股股东800万股于10月9日至10日被司法拍卖，成交价合计5,640万元；一致行动人陕西圣都广场数字电影院线有限公司竞得160万股。后续仍涉及余款缴纳、法院成交裁定及过户，尚不能认定减持完成或价款到账。"
+          }
+        },
+        {
+          "eventId": "production-event-f42ac7ed09b89a0cb99e",
+          "updateId": "production-c9f79ce45d5010a063f5e34b",
+          "version": "c9f79ce45d5010a063f5e34b719f0ddb719b35e772287b6502653812c549dfbe",
+          "objectName": "特变电工",
+          "type": "listed",
+          "category": "股份回购及后续注销",
+          "date": "2026-10-12",
+          "title": "完成32,543,837股回购股份注销，工商变更尚待办理",
+          "business": "股份管理",
+          "share": {
+            "title": "回购股份注销完成，工商变更尚待办理",
+            "facts": "完成32,543,837股已回购股份注销，占注销前总股本0.64%，总股本减至5,020,248,734股。该批股份原拟用于员工持股或股权激励，2026年改为注销减资；工商变更登记与备案尚待办理。"
+          }
+        },
+        {
+          "eventId": "production-event-06d104e51b0e9f3022b7",
+          "updateId": "production-244df99a8d8f7eee71604205",
+          "version": "244df99a8d8f7eee71604205d8fcdd553043f9bf0fed72849695d14def85db96",
+          "objectName": "瑞联新材",
+          "type": "listed",
+          "category": "减持计划实施结果及权益变动",
+          "date": "2026-10-10",
+          "title": "七名股东减持区间届满，四人合计减持286.42万股",
+          "business": "股份管理",
+          "share": {
+            "title": "减持区间届满，四人合计减持286.42万股",
+            "facts": "七名股东6月29日至9月28日的减持计划区间届满。四人合计减持286.42万股，成交金额合计119,203,201.06元；其中两人完成计划、两人部分实施，王银彬、袁江波、胡湛未实施。"
+          }
+        },
+        {
+          "eventId": "production-event-19422b080ca4c7c9b604",
+          "updateId": "production-66f5d7a2793c488d57520450",
+          "version": "66f5d7a2793c488d5752045026b774db6a9cb752e24a76c2c4590932f31216e5",
+          "objectName": "陕西能源",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-10-09",
+          "title": "披露陕投集团24亿股解禁安排，占总股本64%",
+          "business": "股份管理",
+          "share": {
+            "title": "披露24亿股解禁安排，占总股本64%",
+            "facts": "公告，控股股东陕西投资集团有限公司所持24亿股首发前限售股，安排于10月12日上市流通，占总股本64%。尚未据后续材料确认实际完成；解禁不代表减持计划或实际出售。"
+          }
+        },
+        {
+          "eventId": "production-event-68ec2e801d6d69842f1e",
+          "updateId": "production-a4575d2af4f24425b8239105",
+          "version": "a4575d2af4f24425b8239105cf25e23846d33a7064a807fad11392dce2db8ab5",
+          "objectName": "金钼股份",
+          "type": "listed",
+          "category": "业绩快报",
+          "date": "2026-10-13",
+          "title": "披露前三季度业绩快报：归母净利润同比增长30.94%",
+          "business": "上市公司业绩",
+          "share": {
+            "title": "前三季度归母净利润同比增长30.94%",
+            "facts": "披露前三季度业绩快报：营业收入1,244,554.58万元，同比增长14.34%；归母净利润299,384.32万元，同比增长30.94%。金额均为人民币，数据为初步核算、未经审计，具体以2026年第三季度报告为准。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-698f3ec0f38ba39ec18a",
       "date": "2026-10-16",
@@ -14805,6 +15255,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "f0cf22b9b12285faeaf0",
+      "date": "2026-10-16",
+      "compiledAt": "2026-10-16T19:15:36+08:00",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "snapshotUrl": "publications/f0cf22b9b12285faeaf0/index.html",
+      "publishedAt": "2026-10-16T19:42:23+08:00"
+    },
     {
       "id": "84a8ca68299558ae93ef",
       "date": "2026-10-16",
