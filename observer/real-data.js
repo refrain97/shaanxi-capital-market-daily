@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-16-fcf29ce2bbe5",
-      "compiledAt": "2026-10-16T12:11:54+08:00",
+      "id": "2026-10-16-6595dd4eb0ca",
+      "compiledAt": "2026-10-16T12:21:22+08:00",
       "cutoff": "2026-10-15T17:07:38+08:00",
       "windowStart": "2026-10-08",
       "windowEnd": "2026-10-15",
@@ -18,7 +18,10 @@ window.PROTOTYPE = {
         "production-cb1f21d99599449c785ef751",
         "production-c69a93664b6ec0420f8c5f83",
         "production-605b69989ddd15817fa8e313",
-        "production-3bcf24c86f9ea11854323164"
+        "production-cefcd22b9edc929156ef26ab",
+        "production-4963d300c8705d777266b329",
+        "production-3bcf24c86f9ea11854323164",
+        "production-0dece4ad493c8ae5090d11be"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -77,7 +80,10 @@ window.PROTOTYPE = {
       "production-cb1f21d99599449c785ef751": "2026-10-16T11:30:38+08:00",
       "production-c69a93664b6ec0420f8c5f83": "2026-10-16T11:40:05+08:00",
       "production-f951d2764e7d9b9fb7140f4a": "2026-10-16T12:06:50+08:00",
-      "production-3bcf24c86f9ea11854323164": "2026-10-16T12:04:59+08:00"
+      "production-3bcf24c86f9ea11854323164": "2026-10-16T12:04:59+08:00",
+      "production-0dece4ad493c8ae5090d11be": "2026-10-16T12:16:55+08:00",
+      "production-4963d300c8705d777266b329": "2026-10-16T12:18:37+08:00",
+      "production-cefcd22b9edc929156ef26ab": "2026-10-16T12:15:09+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -406,6 +412,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安旅游2026年10月14日披露，下属子公司迭部县扎尕那康养置业有限公司近日收到甘肃省迭部县人民法院送达的民事起诉状，原告甘肃第六建设集团股份有限公司请求支付工程款39,948,967.53元、逾期付款利息3,368,363.78元、工程进度款违约金1,830,341.91元，承担诉讼费等实现债权费用，并请求就涉案工程折价、拍卖所得价款享有建设工程价款优先受偿权。案件目前处于起诉阶段，上述金额为原告诉请，对公司本期或期后利润的影响尚不确定。"
+        },
+        "production-0dece4ad493c8ae5090d11be": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安银行2026年10月14日披露，董事会于10月13日审议通过提名徐江旻为第六届董事会独立董事候选人的议案。该议案尚需提交股东会审议，任职资格经监管部门核准后方可开始履职。"
+        },
+        "production-4963d300c8705d777266b329": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安银行2026年10月14日披露，10月13日召开的第六届董事会第三十九次会议审议通过提名史跃峰为第六届董事会独立董事候选人的议案。该议案尚需提交股东会审议，史跃峰须在任职资格经监管部门核准后开始履职。"
+        },
+        "production-cefcd22b9edc929156ef26ab": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安银行2026年10月14日披露，10月13日召开的董事会审议通过聘任田丽为副行长、首席合规官的议案，表决结果为10票同意、0票反对、0票弃权。田丽须在任职资格经监管部门核准后开始履职。"
         }
       }
     },
@@ -415,8 +442,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-10-16-fcf29ce2bbe5",
-      "editionId": "selection-21c750afffe689e74d94",
+      "sourceEditionId": "2026-10-16-6595dd4eb0ca",
+      "editionId": "selection-feb1ebe27c652dc8ce54",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -719,6 +746,14 @@ window.PROTOTYPE = {
       "name": "西安旅游",
       "code": "000610.SZ",
       "market": "SZ",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-600928-sh",
+      "type": "listed",
+      "name": "西安银行",
+      "code": "600928.SH",
+      "market": "SH",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     }
   ],
@@ -9353,6 +9388,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T12:14:10+08:00",
           "updatedAt": "2026-10-16T12:06:51+08:00",
           "compiledAt": "2026-10-16T12:06:51+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -9398,6 +9434,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T12:14:10+08:00",
           "updatedAt": "2026-10-16T12:04:59+08:00",
           "compiledAt": "2026-10-16T12:04:59+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -9423,9 +9460,235 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-e1825fe53608d78536b4",
+      "objectId": "listed-600928-sh",
+      "type": "上市公司人事",
+      "topics": [
+        "徐江旻独立董事提名",
+        "候选人及提名人声明"
+      ],
+      "updates": [
+        {
+          "id": "production-0dece4ad493c8ae5090d11be",
+          "date": "2026-10-14",
+          "time": "",
+          "title": "董事会通过徐江旻独立董事候选人提名",
+          "summary": "西安银行2026年10月14日披露，董事会于10月13日审议通过提名徐江旻为第六届董事会独立董事候选人的议案。该议案尚需提交股东会审议，任职资格经监管部门核准后方可开始履职。",
+          "stage": "董事会审议通过提名，尚需股东会审议及监管任职资格核准",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T12:16:55+08:00",
+          "compiledAt": "2026-10-16T12:16:55+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安银行",
+          "version": "0dece4ad493c8ae5090d11beb2673507525102cfc6810443fb7eb04f0eec2a23",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安银行股份有限公司第六届董事会第三十九次会议决议公告",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-14",
+              "location": "物理第1页第一项议案、第2页首句；公告落款日期为2026年10月13日",
+              "retrievedAt": "2026-10-15T17:08:19+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603837.PDF"
+            },
+            {
+              "title": "西安银行股份有限公司独立董事候选人声明与承诺（徐江旻）",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-14",
+              "location": "物理第1页首段、第4页落款",
+              "retrievedAt": "2026-10-15T17:08:18+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603857.PDF"
+            },
+            {
+              "title": "西安银行股份有限公司独立董事提名人声明与承诺（徐江旻）",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-14",
+              "location": "物理第1页首段、第4页落款",
+              "retrievedAt": "2026-10-15T17:08:18+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603856.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-67d70957a2cfb8a6f694",
+      "objectId": "listed-600928-sh",
+      "type": "上市公司人事",
+      "topics": [
+        "史跃峰独立董事提名",
+        "候选人及提名人声明"
+      ],
+      "updates": [
+        {
+          "id": "production-4963d300c8705d777266b329",
+          "date": "2026-10-14",
+          "time": "",
+          "title": "董事会同意提名史跃峰为独立董事候选人",
+          "summary": "西安银行2026年10月14日披露，10月13日召开的第六届董事会第三十九次会议审议通过提名史跃峰为第六届董事会独立董事候选人的议案。该议案尚需提交股东会审议，史跃峰须在任职资格经监管部门核准后开始履职。",
+          "stage": "董事会审议通过提名，尚需股东会审议及监管任职资格核准",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T12:18:37+08:00",
+          "compiledAt": "2026-10-16T12:18:37+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安银行",
+          "version": "4963d300c8705d777266b329f079b13041e9de2f5c324a7da7d3f40eb097c50c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安银行股份有限公司第六届董事会第三十九次会议决议公告",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-14",
+              "location": "物理第1页会议日期；第2页第二项议案及公告落款",
+              "retrievedAt": "2026-10-15T17:08:19+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603837.PDF"
+            },
+            {
+              "title": "西安银行股份有限公司独立董事提名人声明与承诺（史跃峰）",
+              "publisher": "西安银行股份有限公司董事会",
+              "date": "2026-10-14",
+              "location": "物理第1页提名对象；第4页落款日期为2026年10月13日",
+              "retrievedAt": "2026-10-15T17:08:19+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603845.PDF"
+            },
+            {
+              "title": "西安银行股份有限公司独立董事候选人声明与承诺（史跃峰）",
+              "publisher": "西安银行股份有限公司（声明人：史跃峰）",
+              "date": "2026-10-14",
+              "location": "物理第1页候选人声明；第4页落款日期为2026年10月13日",
+              "retrievedAt": "2026-10-15T17:08:19+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603839.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-0671d98bc9abc22e21f8",
+      "objectId": "listed-600928-sh",
+      "type": "上市公司人事",
+      "topics": [
+        "田丽聘任副行长及首席合规官"
+      ],
+      "updates": [
+        {
+          "id": "production-cefcd22b9edc929156ef26ab",
+          "date": "2026-10-14",
+          "time": "",
+          "title": "董事会同意聘任田丽为副行长、首席合规官，履职待监管核准",
+          "summary": "西安银行2026年10月14日披露，10月13日召开的董事会审议通过聘任田丽为副行长、首席合规官的议案，表决结果为10票同意、0票反对、0票弃权。田丽须在任职资格经监管部门核准后开始履职。",
+          "stage": "董事会审议通过聘任，任职资格经监管核准后开始履职",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T12:15:09+08:00",
+          "compiledAt": "2026-10-16T12:15:09+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安银行",
+          "version": "cefcd22b9edc929156ef26ab3fc0349b5dec5f0f4da2a33bb2c1eea9ce5b1f6b",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安银行股份有限公司第六届董事会第三十九次会议决议公告",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-14",
+              "location": "物理第1页会议日期、第2页第三项聘任议案；公告落款日期为2026年10月13日",
+              "retrievedAt": "2026-10-15T17:08:19+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603837.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-feb1ebe27c652dc8ce54",
+      "date": "2026-10-16",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "compiledAt": "2026-10-16T12:21:23+08:00",
+      "researchCutoff": "2026-10-15T17:07:38+08:00",
+      "sourceDiscoveryCutoff": "2026-10-15T17:07:38+08:00",
+      "updateIds": [
+        "production-402b3fb2810c5ab1db7a6a56",
+        "production-af10250509776a8c77bdc685"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-feb1ebe27c652dc8ce54/page-01.png",
+          "width": 1080,
+          "height": 1172,
+          "sha256": "500ca1192f8a376bd20501776d8c031d0f53d97fb45b8b88668f54a928cdac5f"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-16-6595dd4eb0ca",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-10",
+      "rangeEnd": "2026-10-16",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-402b3fb2810c5ab1db7a6a56",
+          "version": "402b3fb2810c5ab1db7a6a566512c4355987f9a17ec26005c524785f5f95fbf9",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家子公司各51%股权：已收价款6,553.50万元，完成工商变更",
+          "business": "投资银行",
+          "share": {
+            "title": "已收半数股权转让款，完成工商变更",
+            "facts": "公告，全资子公司转让金叶玉阳、新疆金叶各51%股权，已收6,553.50万元，占总价50%；两家标的已完成股东变更工商备案登记。尾款6,553.50万元须交割满一年并满足历史风险核查条款后支付，本次未披露到账或具体交割日期。"
+          }
+        },
+        {
+          "eventId": "production-event-2e3716b18c911c20fb1f",
+          "updateId": "production-af10250509776a8c77bdc685",
+          "version": "af10250509776a8c77bdc685649cd2a55cdf00c3e24956709aad407c06f98cb3",
+          "objectName": "陕鼓动力",
+          "type": "listed",
+          "category": "并购重组",
+          "date": "2026-10-10",
+          "title": "收购秦风气体36.06%股权仍在推进，尚待后续审议审批",
+          "business": "投资银行",
+          "share": {
+            "title": "拟购36.06%股权仍待审议审批",
+            "facts": "公告，拟发行股份购买秦风气体36.06%股权，仍待后续董事会、股东会及监管审批。本次未披露新增审批或交割完成节点，未更新7月预案尚未确定的交易作价及各方股份对价；恒博隆所持标的股权亦未披露解押完成。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-21c750afffe689e74d94",
       "date": "2026-10-16",
@@ -10202,6 +10465,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "6ec7ce312904c001e7f0",
+      "date": "2026-10-16",
+      "compiledAt": "2026-10-16T12:11:54+08:00",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "snapshotUrl": "publications/6ec7ce312904c001e7f0/index.html",
+      "publishedAt": "2026-10-16T12:14:10+08:00"
+    },
     {
       "id": "dba02a1a4ae4eb947340",
       "date": "2026-10-16",
