@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-16-13431477507b",
-      "compiledAt": "2026-10-16T17:41:03+08:00",
+      "id": "2026-10-16-25cadf8540ae",
+      "compiledAt": "2026-10-16T18:34:08+08:00",
       "cutoff": "2026-10-15T17:07:38+08:00",
       "windowStart": "2026-10-08",
       "windowEnd": "2026-10-15",
@@ -36,11 +36,17 @@ window.PROTOTYPE = {
         "production-8bf9e203849dc19fbbedb5a0",
         "production-4ddc9b6f7ff94d4f9624bfe3",
         "production-1efccd4714aaced42300aaa2",
+        "production-87f816da962821fbc94b8ae4",
+        "production-6cfdc48db0d0f112c41e814b",
+        "production-37e35a2ea70897fd94623770",
+        "production-2c6a95268875ef947e44047f",
         "production-244df99a8d8f7eee71604205",
         "production-f6d7acd8dba5310810570611",
+        "production-ee89651265d3ff6041b5c36a",
         "production-e4c7d785b1a02a70764f39b8",
         "production-dc8642495d43125739372324",
         "production-d7a82833a3cf1e39cc2c799c",
+        "production-92d79837e0d36f3cedc60360",
         "production-7bbe65d05ada8dc7f10bd495",
         "production-57d2f276f5822db0a4c2caee",
         "production-e3330ddbb0702645116e5c30",
@@ -130,7 +136,13 @@ window.PROTOTYPE = {
       "production-57d2f276f5822db0a4c2caee": "2026-10-16T17:22:14+08:00",
       "production-a40f418bddfa13f86d5b9419": "2026-10-16T17:13:05+08:00",
       "production-4ddc9b6f7ff94d4f9624bfe3": "2026-10-16T17:34:11+08:00",
-      "production-f6d7acd8dba5310810570611": "2026-10-16T17:36:21+08:00"
+      "production-f6d7acd8dba5310810570611": "2026-10-16T17:36:21+08:00",
+      "production-ee89651265d3ff6041b5c36a": "2026-10-16T18:32:17+08:00",
+      "production-92d79837e0d36f3cedc60360": "2026-10-16T18:34:08+08:00",
+      "production-2c6a95268875ef947e44047f": "2026-10-16T18:22:26+08:00",
+      "production-87f816da962821fbc94b8ae4": "2026-10-16T18:24:16+08:00",
+      "production-37e35a2ea70897fd94623770": "2026-10-16T18:26:34+08:00",
+      "production-6cfdc48db0d0f112c41e814b": "2026-10-16T18:28:47+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -643,6 +655,48 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "华仁药业2026年10月9日公告，截至披露日，公司及子公司连续十二个月累计发生的其他尚未披露诉讼、仲裁事项涉及人民币107,126,493.69元，占2025年度经审计净资产绝对值的12.79%。附件所列案件包括一审阶段、已结案及撤诉结案等不同状态，累计涉案金额不代表全部为未结案件金额。"
+        },
+        "production-ee89651265d3ff6041b5c36a": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕鼓动力2026年10月9日披露的股东会议案显示，公司拟续聘致同会计师事务所（特殊普通合伙）为2026年度审计机构，聘期一年，审计费用总计95万元，其中财务报表审计70万元、内部控制审计25万元。该议案已于9月29日获董事会通过，按本次资料披露阶段，尚需股东会审议，并自股东会审议通过之日起生效。"
+        },
+        "production-92d79837e0d36f3cedc60360": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西煤业股份有限公司于2026年10月9日披露9月主要运营数据（公告落款10月8日）：当月煤炭产量1,500.00万吨，同比增长3.02%；总发电量51.55亿千瓦时，同比增长41.12%。上述数据来自公司内部统计，可能与定期报告披露的数据存在差异，不构成对未来经营状况的预测或承诺。"
+        },
+        "production-2c6a95268875ef947e44047f": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安旅游股份有限公司2026年10月10日披露，近日通过中国执行信息公开网查询获悉，子公司迭部县扎尕那康养置业有限公司因与甘肃建投土木工程建设集团有限责任公司的建设工程施工合同纠纷，被迭部县人民法院列为被执行人，执行标的45,708,808.00元。截至公告披露日，公司尚未收到该法院送达的相关法律文书。"
+        },
+        "production-87f816da962821fbc94b8ae4": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西部金属材料股份有限公司2026年10月10日公告，2026年半年度权益分派以488,214,274股为基数，每10股派发现金红利0.5元（含税），合计24,410,713.70元（含税），不送红股、不以公积金转增股本。股权登记日为2026年10月16日，除息日为10月19日；委托中国结算深圳分公司代派的现金红利安排于10月19日划入股东资金账户，西北有色金属研究院的现金红利由公司自行派发。"
+        },
+        "production-37e35a2ea70897fd94623770": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "环球印务2026年10月10日披露公告（落款10月9日），近日收到一审民事判决书，判令金湖县行千里网络传媒服务中心（有限合伙）于判决生效之日起十日内向公司支付代偿款人民币18,325,928.12元及资金占用利息。李仁东、连学旺及霍城领凯信息技术有限公司承担相应连带清偿责任，公司其余诉讼请求被驳回；各方仍可上诉，最终判决结果及后续执行存在不确定性。"
+        },
+        "production-6cfdc48db0d0f112c41e814b": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "金花企业（集团）股份有限公司2026年10月10日公告，控股股东、实际控制人邢博越将此前质押予江西济民可信集团有限公司的53,270,000股股份办理延期，质押到期日由2026年9月18日延至2027年9月16日。本次不涉及新增股份质押或质押解除；截至公告披露日，邢博越累计质押73,970,000股，占其持股总数的78.03%、公司总股本的19.82%。"
         }
       }
     },
@@ -651,9 +705,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
-      "sourceEditionId": "2026-10-16-13431477507b",
-      "editionId": "selection-9ce19465438f76c65e59",
+      "status": "reused",
+      "sourceEditionId": "2026-10-16-25cadf8540ae",
+      "editionId": "selection-fc0dfa1793674674c525",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -11974,6 +12028,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T17:44:20+08:00",
           "updatedAt": "2026-10-16T17:34:11+08:00",
           "compiledAt": "2026-10-16T17:34:11+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -12019,6 +12074,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T17:44:20+08:00",
           "updatedAt": "2026-10-16T17:36:21+08:00",
           "compiledAt": "2026-10-16T17:36:21+08:00",
           "researchCutoff": "2026-10-15T17:07:38+08:00",
@@ -12044,9 +12100,435 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-3c6339e8def159b2a977",
+      "objectId": "listed-601369-sh",
+      "type": "续聘会计师事务所",
+      "topics": [
+        "2026年度审计",
+        "续聘致同",
+        "股东会待审"
+      ],
+      "updates": [
+        {
+          "id": "production-ee89651265d3ff6041b5c36a",
+          "date": "2026-10-09",
+          "time": "",
+          "title": "拟续聘致同，2026年度审计费用95万元",
+          "summary": "陕鼓动力2026年10月9日披露的股东会议案显示，公司拟续聘致同会计师事务所（特殊普通合伙）为2026年度审计机构，聘期一年，审计费用总计95万元，其中财务报表审计70万元、内部控制审计25万元。该议案已于9月29日获董事会通过，按本次资料披露阶段，尚需股东会审议，并自股东会审议通过之日起生效。",
+          "stage": "2026年9月29日董事会通过，9月30日披露；10月9日提供会议议案，尚待10月16日股东会审议，自股东会通过之日起生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T18:32:17+08:00",
+          "compiledAt": "2026-10-16T18:32:17+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕鼓动力",
+          "version": "ee89651265d3ff6041b5c36a4ab2226087079f81374a9c27b6f89721d0dd01aa",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安陕鼓动力股份有限公司2026年第三次临时股东会议案",
+              "publisher": "西安陕鼓动力股份有限公司",
+              "date": "2026-10-09",
+              "location": "物理第8页，审计收费、聘任建议及落款",
+              "retrievedAt": "2026-10-09T20:34:26+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225597248.PDF"
+            },
+            {
+              "title": "西安陕鼓动力股份有限公司关于续聘会计师事务所的公告",
+              "publisher": "西安陕鼓动力股份有限公司",
+              "date": "2026-09-30",
+              "location": "物理第3页，董事会审议和表决情况、生效日期",
+              "retrievedAt": "2026-10-09T20:30:36+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-09-30/1225586709.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-666265222986cdfe96ea",
+      "objectId": "listed-601225-sh",
+      "type": "月度运营数据披露",
+      "topics": [
+        "煤炭产销",
+        "发售电量"
+      ],
+      "updates": [
+        {
+          "id": "production-92d79837e0d36f3cedc60360",
+          "date": "2026-10-09",
+          "time": "",
+          "title": "披露9月运营数据：煤炭产量同比增长3.02%，发电量增长41.12%",
+          "summary": "陕西煤业股份有限公司于2026年10月9日披露9月主要运营数据（公告落款10月8日）：当月煤炭产量1,500.00万吨，同比增长3.02%；总发电量51.55亿千瓦时，同比增长41.12%。上述数据来自公司内部统计，可能与定期报告披露的数据存在差异，不构成对未来经营状况的预测或承诺。",
+          "stage": "已披露2026年9月及累计主要运营数据",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T18:34:08+08:00",
+          "compiledAt": "2026-10-16T18:34:08+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西煤业",
+          "version": "92d79837e0d36f3cedc60360306502435ab8c01c50c89a29901675df89691ee6",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西煤业股份有限公司2026年9月主要运营数据公告",
+              "publisher": "陕西煤业股份有限公司",
+              "date": "2026-10-09",
+              "location": "物理第1页：运营数据表、表后说明及落款；原件落款日期为2026年10月8日",
+              "retrievedAt": "2026-10-09T20:34:26+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225596167.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-5be42a25a3801c2c4b0e",
+      "objectId": "listed-000610-sz",
+      "type": "诉讼执行进展",
+      "topics": [
+        "建设工程合同纠纷",
+        "子公司被列为被执行人"
+      ],
+      "updates": [
+        {
+          "id": "production-2c6a95268875ef947e44047f",
+          "date": "2026-10-10",
+          "time": "",
+          "title": "西安旅游子公司被列为被执行人，执行标的45,708,808.00元",
+          "summary": "西安旅游股份有限公司2026年10月10日披露，近日通过中国执行信息公开网查询获悉，子公司迭部县扎尕那康养置业有限公司因与甘肃建投土木工程建设集团有限责任公司的建设工程施工合同纠纷，被迭部县人民法院列为被执行人，执行标的45,708,808.00元。截至公告披露日，公司尚未收到该法院送达的相关法律文书。",
+          "stage": "公司查询获悉子公司被列为被执行人，尚未收到相关法律文书",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T18:22:26+08:00",
+          "compiledAt": "2026-10-16T18:22:26+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "*ST西旅",
+          "version": "2c6a95268875ef947e44047f582db4e7dc3f555ad3ca2595ee074af40ef7fd29",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于子公司重大诉讼的进展公告",
+              "publisher": "西安旅游股份有限公司",
+              "date": "2026-10-10",
+              "location": "物理第1页：诉讼基本情况及进展；第2页：落款日期2026年10月9日",
+              "retrievedAt": "2026-10-15T17:07:49+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599714.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-0c42b92603234e108426",
+      "objectId": "listed-002149-sz",
+      "type": "权益分派",
+      "topics": [
+        "现金分红",
+        "股权登记日",
+        "除息及派息安排"
+      ],
+      "updates": [
+        {
+          "id": "production-87f816da962821fbc94b8ae4",
+          "date": "2026-10-10",
+          "time": "",
+          "title": "披露半年度分红实施安排：每10股派0.5元，10月16日股权登记",
+          "summary": "西部金属材料股份有限公司2026年10月10日公告，2026年半年度权益分派以488,214,274股为基数，每10股派发现金红利0.5元（含税），合计24,410,713.70元（含税），不送红股、不以公积金转增股本。股权登记日为2026年10月16日，除息日为10月19日；委托中国结算深圳分公司代派的现金红利安排于10月19日划入股东资金账户，西北有色金属研究院的现金红利由公司自行派发。",
+          "stage": "披露实施安排；股权登记日为2026年10月16日，除息日及委托代派现金红利日期为2026年10月19日",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T18:24:16+08:00",
+          "compiledAt": "2026-10-16T18:24:16+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西部材料",
+          "version": "87f816da962821fbc94b8ae4de19a6e3f16788e215940697075e6b45fd598f0f",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西部金属材料股份有限公司2026年半年度权益分派实施公告",
+              "publisher": "西部金属材料股份有限公司",
+              "date": "2026-10-10",
+              "location": "物理第1页利润分配方案、第2页分红派息日期及分配方法、第3页落款",
+              "retrievedAt": "2026-10-15T17:07:53+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599089.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-a754360af2d8f0eefb2e",
+      "objectId": "listed-002799-sz",
+      "type": "担保代偿追偿诉讼进展",
+      "topics": [
+        "一审判决",
+        "代偿款追偿",
+        "连带清偿责任"
+      ],
+      "updates": [
+        {
+          "id": "production-37e35a2ea70897fd94623770",
+          "date": "2026-10-10",
+          "time": "",
+          "title": "代偿款追偿案收到一审判决",
+          "summary": "环球印务2026年10月10日披露公告（落款10月9日），近日收到一审民事判决书，判令金湖县行千里网络传媒服务中心（有限合伙）于判决生效之日起十日内向公司支付代偿款人民币18,325,928.12元及资金占用利息。李仁东、连学旺及霍城领凯信息技术有限公司承担相应连带清偿责任，公司其余诉讼请求被驳回；各方仍可上诉，最终判决结果及后续执行存在不确定性。",
+          "stage": "收到一审民事判决书；判决生效及后续执行仍存在不确定性",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T18:26:34+08:00",
+          "compiledAt": "2026-10-16T18:26:34+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "环球印务",
+          "version": "37e35a2ea70897fd94623770f5fc2ea74914715f0168dfce05b637fd61eeff23",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于诉讼进展的公告",
+              "publisher": "西安环球印务股份有限公司",
+              "date": "2026-10-10",
+              "location": "第1页特别提示；第2页诉讼进展；第3页风险提示及落款（2026年10月9日）",
+              "retrievedAt": "2026-10-15T17:07:59+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599243.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-0860b8e0347ac004317d",
+      "objectId": "listed-600080-sh",
+      "type": "股份质押延期",
+      "topics": [
+        "控股股东股份质押延期"
+      ],
+      "updates": [
+        {
+          "id": "production-6cfdc48db0d0f112c41e814b",
+          "date": "2026-10-10",
+          "time": "",
+          "title": "控股股东邢博越5,327万股质押延期至2027年9月16日",
+          "summary": "金花企业（集团）股份有限公司2026年10月10日公告，控股股东、实际控制人邢博越将此前质押予江西济民可信集团有限公司的53,270,000股股份办理延期，质押到期日由2026年9月18日延至2027年9月16日。本次不涉及新增股份质押或质押解除；截至公告披露日，邢博越累计质押73,970,000股，占其持股总数的78.03%、公司总股本的19.82%。",
+          "stage": "53,270,000股既有质押到期日由2026年9月18日延至2027年9月16日",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-16T18:28:47+08:00",
+          "compiledAt": "2026-10-16T18:28:47+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST金花",
+          "version": "6cfdc48db0d0f112c41e814b960d5f4c4d2386a32f6ae25e8bc8096d8a5a28c0",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "金花企业（集团）股份有限公司关于控股股东部分股份质押延期的公告",
+              "publisher": "金花企业（集团）股份有限公司",
+              "date": "2026-10-10",
+              "location": "物理第1页事项说明、第2页质押延期及累计质押表、第3页落款",
+              "retrievedAt": "2026-10-15T17:08:09+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599347.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-fc0dfa1793674674c525",
+      "date": "2026-10-16",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "compiledAt": "2026-10-16T18:34:09+08:00",
+      "researchCutoff": "2026-10-15T17:07:38+08:00",
+      "sourceDiscoveryCutoff": "2026-10-15T17:07:38+08:00",
+      "updateIds": [
+        "production-402b3fb2810c5ab1db7a6a56",
+        "production-af10250509776a8c77bdc685",
+        "production-47327da3c517df42cb7deafc",
+        "production-0d97fa7c51e2d9d6f9d44688",
+        "production-a40f418bddfa13f86d5b9419",
+        "production-b816580b9e06a785883cbd77",
+        "production-244df99a8d8f7eee71604205"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-fc0dfa1793674674c525/page-01.png",
+          "width": 1080,
+          "height": 2686,
+          "sha256": "a4454a497f5da60cabc7d2b8114adc97a4ecc1f9f89784b610007db5519c28ce"
+        },
+        {
+          "file": "assets/editions/selection-fc0dfa1793674674c525/page-02.png",
+          "width": 1080,
+          "height": 748,
+          "sha256": "1fcb2e1824e0444e4488c61d9afbf562aa39283fc3f18464b4f18d9f532f15b1"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-16-25cadf8540ae",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-10",
+      "rangeEnd": "2026-10-16",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-402b3fb2810c5ab1db7a6a56",
+          "version": "402b3fb2810c5ab1db7a6a566512c4355987f9a17ec26005c524785f5f95fbf9",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家子公司各51%股权：已收价款6,553.50万元，完成工商变更",
+          "business": "投资银行",
+          "share": {
+            "title": "已收半数股权转让款，完成工商变更",
+            "facts": "公告，全资子公司转让金叶玉阳、新疆金叶各51%股权，已收6,553.50万元，占总价50%；两家标的已完成股东变更工商备案登记。尾款6,553.50万元须交割满一年并满足历史风险核查条款后支付，本次未披露到账或具体交割日期。"
+          }
+        },
+        {
+          "eventId": "production-event-2e3716b18c911c20fb1f",
+          "updateId": "production-af10250509776a8c77bdc685",
+          "version": "af10250509776a8c77bdc685649cd2a55cdf00c3e24956709aad407c06f98cb3",
+          "objectName": "陕鼓动力",
+          "type": "listed",
+          "category": "并购重组",
+          "date": "2026-10-10",
+          "title": "收购秦风气体36.06%股权仍在推进，尚待后续审议审批",
+          "business": "投资银行",
+          "share": {
+            "title": "拟购36.06%股权仍待审议审批",
+            "facts": "公告，拟发行股份购买秦风气体36.06%股权，仍待后续董事会、股东会及监管审批。本次未披露新增审批或交割完成节点，未更新7月预案尚未确定的交易作价及各方股份对价；恒博隆所持标的股权亦未披露解押完成。"
+          }
+        },
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-47327da3c517df42cb7deafc",
+          "version": "47327da3c517df42cb7deafc7de03e08d708f513aaceb4b4984ee379a8804d2d",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-15",
+          "title": "向11人授予剩余43.10万股预留激励权益",
+          "business": "股份管理",
+          "share": {
+            "title": "向11人授予剩余43.10万股预留激励权益",
+            "facts": "以10月14日为授予日，按259.51元/股向11人授予剩余43.10万股预留第二类限制性股票。本批次授予满12个月且满足条件后方可分期归属，尚未完成归属、登记或上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-6b623fb3c43cdfb6861b",
+          "updateId": "production-0d97fa7c51e2d9d6f9d44688",
+          "version": "0d97fa7c51e2d9d6f9d44688513e1d43e390e0d826d1ba385199c8cb18101b85",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励调整",
+          "date": "2026-10-14",
+          "title": "调整2024年股权激励：授予价降至43.78元/股，未归属数量调整为55.0135万股",
+          "business": "股份管理",
+          "share": {
+            "title": "激励授予价下调，未归属数量调整",
+            "facts": "董事会已通过因权益分派调整2024年激励计划：首次及预留授予价由65.56元/股降至43.78元/股，已授予未归属数量调至55.0135万股。该数量未扣除同日另案作废的3,042股，本次不代表新授予或实际归属。"
+          }
+        },
+        {
+          "eventId": "real-fenghuo-changling-acquisition",
+          "updateId": "production-a40f418bddfa13f86d5b9419",
+          "version": "a40f418bddfa13f86d5b9419a1dd2b03804dd2047eb9a2322ef4673d82afd63a",
+          "objectName": "烽火电子",
+          "type": "listed",
+          "category": "并购",
+          "date": "2026-10-13",
+          "title": "完成长岭科技2025年度补偿股份注销，共868,395股",
+          "business": "股份管理",
+          "share": {
+            "title": "完成2025年度业绩补偿股份注销",
+            "facts": "公告，长岭科技收购涉及的2025年度业绩补偿股份868,395股已于10月12日定向回购注销，总价人民币1元。注册资本变更等仍为后续安排，本次不代表截至2027年度的全部承诺履行结束。"
+          }
+        },
+        {
+          "eventId": "production-event-d390bfc62684ea15a5bb",
+          "updateId": "production-b816580b9e06a785883cbd77",
+          "version": "b816580b9e06a785883cbd7723d51d652758ee621be18035b081b4a11065ab6c",
+          "objectName": "曲江文旅",
+          "type": "listed",
+          "category": "司法拍卖",
+          "date": "2026-10-13",
+          "title": "控股股东800万股拍卖披露竞价结果，一致行动人竞得160万股",
+          "business": "股份管理",
+          "share": {
+            "title": "800万股拍卖披露结果，仍待裁定及过户",
+            "facts": "控股股东800万股于10月9日至10日被司法拍卖，成交价合计5,640万元；一致行动人陕西圣都广场数字电影院线有限公司竞得160万股。后续仍涉及余款缴纳、法院成交裁定及过户，尚不能认定减持完成或价款到账。"
+          }
+        },
+        {
+          "eventId": "production-event-06d104e51b0e9f3022b7",
+          "updateId": "production-244df99a8d8f7eee71604205",
+          "version": "244df99a8d8f7eee71604205d8fcdd553043f9bf0fed72849695d14def85db96",
+          "objectName": "瑞联新材",
+          "type": "listed",
+          "category": "减持计划实施结果及权益变动",
+          "date": "2026-10-10",
+          "title": "七名股东减持区间届满，四人合计减持286.42万股",
+          "business": "股份管理",
+          "share": {
+            "title": "减持区间届满，四人合计减持286.42万股",
+            "facts": "七名股东6月29日至9月28日的减持计划区间届满。四人合计减持286.42万股，成交金额合计119,203,201.06元；其中两人完成计划、两人部分实施，王银彬、袁江波、胡湛未实施。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-9ce19465438f76c65e59",
       "date": "2026-10-16",
@@ -13911,6 +14393,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "9c17aa8e80a9faa1c1da",
+      "date": "2026-10-16",
+      "compiledAt": "2026-10-16T17:41:03+08:00",
+      "cutoff": "2026-10-15T17:07:38+08:00",
+      "snapshotUrl": "publications/9c17aa8e80a9faa1c1da/index.html",
+      "publishedAt": "2026-10-16T17:44:20+08:00"
+    },
     {
       "id": "b0d796e119a3a8ff8826",
       "date": "2026-10-16",
