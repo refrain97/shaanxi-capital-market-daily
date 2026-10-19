@@ -813,8 +813,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "share_failed",
+      "status": "committed",
       "sourceEditionId": "2026-10-19-0a92cca18812",
+      "editionId": "selection-1d91de66d35b5a3f849e",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -13898,6 +13899,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。本次仅围绕该控股股东本批首发前股份核对发行基线、锁定承诺、2025年转增和本次解禁安排，不构成公司全部股东、全部解禁或减持历史研究。 本次材料未提供该股东对应的减持计划、成交记录及成本依据，不能据解禁推断减持意愿、成交款、利润或资金配置需求。 未独立重建上市后逐日股价以回算自动延长锁定条件；本文仅陈述原始承诺、本次披露安排及公司和保荐人对履约情况的明确结论。 未核查用于计算当前最低减持价格的全部历次除权除息资料，因此仅保留价格调整原则，不给出当前价格下限。 上市公告书和2025年半年报的来源记录未提供独立日期字段，正文按原件封面分别保留2023年10月、2025年8月精度，未仅凭URL补造具体披露日。 研究截止记录为2026-10-16T07:56:00+08:00，当期原件实际取得时间为07:56:32，历史补件取得时间为08:19。本文使用本轮获准留存材料，不声称这些取得记录能证明当期公告在截止分钟之前已经公开；发现窗口未推进。 本轮未联网、未发布；ready仅表示候选证据已具备进入独立核查的条件。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T10:02:28+08:00",
           "updatedAt": "2026-10-19T09:42:01+08:00",
           "compiledAt": "2026-10-19T09:42:01+08:00",
           "researchCutoff": "2026-10-16T07:56:00+08:00",
@@ -14063,6 +14065,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T10:02:28+08:00",
           "updatedAt": "2026-10-19T09:59:33+08:00",
           "compiledAt": "2026-10-19T09:59:33+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -14108,6 +14111,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T10:02:28+08:00",
           "updatedAt": "2026-10-19T09:59:32+08:00",
           "compiledAt": "2026-10-19T09:59:32+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -14153,6 +14157,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T10:02:28+08:00",
           "updatedAt": "2026-10-19T09:59:32+08:00",
           "compiledAt": "2026-10-19T09:59:32+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -14199,6 +14204,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T10:02:28+08:00",
           "updatedAt": "2026-10-19T09:59:33+08:00",
           "compiledAt": "2026-10-19T09:59:33+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -14227,6 +14233,50 @@ window.PROTOTYPE = {
     }
   ],
   "editions": [
+    {
+      "id": "selection-1d91de66d35b5a3f849e",
+      "date": "2026-10-19",
+      "cutoff": "2026-10-19T09:28:12+08:00",
+      "compiledAt": "2026-10-19T10:06:44+08:00",
+      "researchCutoff": "2026-10-19T09:28:12+08:00",
+      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
+      "updateIds": [
+        "production-24ccc3dab93962f9134c0c41"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-1d91de66d35b5a3f849e/page-01.png",
+          "width": 1080,
+          "height": 746,
+          "sha256": "ad4e08411d343337c1132f14bd4d987480ba96276cef2b3c9d6fc8136fc76a6d"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-19-0a92cca18812",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-16",
+      "rangeEnd": "2026-10-16",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-092d57f7b8b9fed8b81a",
+          "updateId": "production-24ccc3dab93962f9134c0c41",
+          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
+          "objectName": "陕西华达",
+          "type": "listed",
+          "category": "首发前股份解除限售及上市流通安排",
+          "date": "2026-10-16",
+          "title": "控股股东5,308.03万股拟于10月19日解除限售",
+          "business": "股份管理",
+          "share": {
+            "title": "5,308.03万股拟于10月19日解禁",
+            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-f527c049f894e0f4501e",
       "date": "2026-10-16",
@@ -14737,6 +14787,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "300b4f1b49be3588e86e",
+      "date": "2026-10-19",
+      "compiledAt": "2026-10-19T09:59:33+08:00",
+      "cutoff": "2026-10-19T09:28:12+08:00",
+      "snapshotUrl": "publications/300b4f1b49be3588e86e/index.html",
+      "publishedAt": "2026-10-19T10:02:28+08:00"
+    },
     {
       "id": "f92fc8892b65aacfd9cb",
       "date": "2026-10-19",
