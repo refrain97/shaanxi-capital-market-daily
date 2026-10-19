@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-19-88774fee9745",
-      "compiledAt": "2026-10-19T11:02:39+08:00",
+      "id": "2026-10-19-ea00c5e0e168",
+      "compiledAt": "2026-10-19T11:20:50+08:00",
       "cutoff": "2026-10-19T09:28:12+08:00",
       "windowStart": "2026-10-15",
       "windowEnd": "2026-10-19",
@@ -21,6 +21,7 @@ window.PROTOTYPE = {
         "production-4d66a5753c446ef3c52292d3",
         "production-465533cb874bc8ec888d6d3d",
         "production-3dec5c5c0e1c0826ea9ae871",
+        "production-1288efe869466332bbfd3009",
         "production-127e319dcf9fb01be65887d0",
         "production-036b679f225b23e84754fbb2",
         "production-7497432f091b17c9dfec8598",
@@ -110,6 +111,7 @@ window.PROTOTYPE = {
       "production-7bbe65d05ada8dc7f10bd495": "2026-10-16T17:14:37+08:00",
       "production-e3330ddbb0702645116e5c30": "2026-10-16T17:25:37+08:00",
       "production-8a7311749b69c7fb3248b852": "2026-10-16T17:27:16+08:00",
+      "production-dc8642495d43125739372324": "2026-10-16T17:18:12+08:00",
       "production-e4c7d785b1a02a70764f39b8": "2026-10-16T17:16:28+08:00",
       "production-d7a82833a3cf1e39cc2c799c": "2026-10-16T17:20:11+08:00",
       "production-57d2f276f5822db0a4c2caee": "2026-10-16T17:22:14+08:00",
@@ -153,7 +155,8 @@ window.PROTOTYPE = {
       "production-5aa3a6f5e5da4fabc6a222c2": "2026-10-19T11:02:38+08:00",
       "production-1b0cf9e7659490793fd97288": "2026-10-19T11:02:38+08:00",
       "production-51d35fa15125c9e71a40847b": "2026-10-19T11:02:38+08:00",
-      "production-7497432f091b17c9dfec8598": "2026-10-19T11:02:38+08:00"
+      "production-7497432f091b17c9dfec8598": "2026-10-19T11:02:38+08:00",
+      "production-1288efe869466332bbfd3009": "2026-10-19T11:20:50+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -625,6 +628,20 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "蓝晓科技2026年10月8日公告，2026年第三季度共有3,044张“蓝晓转02”完成转股，票面金额合计304,400元人民币，转为5,137股公司股票。公司总股本由509,135,722股增至509,140,859股；截至9月30日，剩余可转债5,455,263张，票面总金额545,526,300元人民币。"
         },
+        "production-dc8642495d43125739372324": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "绿能慧充数字能源技术股份有限公司2026年10月9日公告，计划于2026年10月16日16:00—17:00通过上证路演中心网络互动召开2026年半年度业绩说明会，就半年度经营成果、财务指标及投资者关注的问题进行交流。本次资料披露的是会议安排，实际召开情况尚未核实。"
+        },
+        "production-1288efe869466332bbfd3009": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "绿能慧充于2026年10月17日披露，公司已于10月16日16:00—17:00在上证路演中心以网络文字互动方式召开2026年半年度业绩说明会，就半年度业绩和经营情况与投资者交流。对于回购、增持问题，公司仅表示如有相关安排将及时履行信息披露义务，本次未披露具体计划。"
+        },
         "production-e4c7d785b1a02a70764f39b8": {
           "version": "listed-scope-20261009",
           "action": "其他",
@@ -914,8 +931,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-10-19-88774fee9745",
-      "editionId": "selection-ef2dfb75bcbd366e0a6a",
+      "sourceEditionId": "2026-10-19-ea00c5e0e168",
+      "editionId": "selection-411e10aeac392ae7b434",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -1266,6 +1283,14 @@ window.PROTOTYPE = {
       "name": "蓝晓科技",
       "code": "300487.SZ",
       "market": "SZ",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-600212-sh",
+      "type": "listed",
+      "name": "绿能慧充",
+      "code": "600212.SH",
+      "market": "SH",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -12136,6 +12161,86 @@ window.PROTOTYPE = {
       ]
     },
     {
+      "id": "production-event-f03dcb75a1ac052d3d19",
+      "objectId": "listed-600212-sh",
+      "type": "业绩说明会安排",
+      "topics": [
+        "2026年半年度业绩说明会",
+        "投资者网络互动"
+      ],
+      "updates": [
+        {
+          "id": "production-dc8642495d43125739372324",
+          "date": "2026-10-09",
+          "time": "",
+          "title": "公告拟于10月16日召开半年度业绩说明会",
+          "summary": "绿能慧充数字能源技术股份有限公司2026年10月9日公告，计划于2026年10月16日16:00—17:00通过上证路演中心网络互动召开2026年半年度业绩说明会，就半年度经营成果、财务指标及投资者关注的问题进行交流。本次资料披露的是会议安排，实际召开情况尚未核实。",
+          "stage": "已公告拟于2026年10月16日16:00至17:00召开网络业绩说明会",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T17:32:16+08:00",
+          "updatedAt": "2026-10-16T17:18:12+08:00",
+          "compiledAt": "2026-10-16T17:18:12+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "绿能慧充",
+          "version": "dc8642495d43125739372324a4f8d4c379fd6bfba70a2179281051a84d6d8f21",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "绿能慧充关于召开2026年半年度业绩说明会的公告",
+              "publisher": "绿能慧充数字能源技术股份有限公司",
+              "date": "2026-10-09",
+              "location": "物理第1页会议安排及说明会类型；第2页公告落款",
+              "retrievedAt": "2026-10-09T20:35:19+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225596402.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
+          "id": "production-1288efe869466332bbfd3009",
+          "date": "2026-10-17",
+          "time": "",
+          "title": "已召开2026年半年度业绩说明会",
+          "summary": "绿能慧充于2026年10月17日披露，公司已于10月16日16:00—17:00在上证路演中心以网络文字互动方式召开2026年半年度业绩说明会，就半年度业绩和经营情况与投资者交流。对于回购、增持问题，公司仅表示如有相关安排将及时履行信息披露义务，本次未披露具体计划。",
+          "stage": "2026年10月16日16:00至17:00已召开网络业绩说明会，10月17日披露召开情况及问答",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:20:50+08:00",
+          "compiledAt": "2026-10-19T11:20:50+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "绿能慧充",
+          "version": "1288efe869466332bbfd30097f6f7f0599f54d296b09a5c1030ec5e69950da89",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "绿能慧充关于2026年半年度业绩说明会召开情况的公告",
+              "publisher": "绿能慧充数字能源技术股份有限公司",
+              "date": "2026-10-17",
+              "location": "物理第1页会议召开情况、第2页问题3答复、第3页落款",
+              "retrievedAt": "2026-10-19T09:32:00+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225609196.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
       "id": "production-event-291ce1b39d5aba4d355a",
       "objectId": "listed-601012-sh",
       "type": "可转债季度转股统计",
@@ -14884,6 +14989,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T11:18:25+08:00",
           "updatedAt": "2026-10-19T10:45:12+08:00",
           "compiledAt": "2026-10-19T10:45:12+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -14953,6 +15059,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T11:18:25+08:00",
           "updatedAt": "2026-10-19T10:46:42+08:00",
           "compiledAt": "2026-10-19T10:46:42+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -14998,6 +15105,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T11:18:25+08:00",
           "updatedAt": "2026-10-19T10:46:41+08:00",
           "compiledAt": "2026-10-19T10:46:41+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -15043,6 +15151,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T11:18:25+08:00",
           "updatedAt": "2026-10-19T10:46:41+08:00",
           "compiledAt": "2026-10-19T10:46:41+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -15088,6 +15197,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T11:18:25+08:00",
           "updatedAt": "2026-10-19T10:46:42+08:00",
           "compiledAt": "2026-10-19T10:46:42+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -15134,6 +15244,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T11:18:25+08:00",
           "updatedAt": "2026-10-19T10:58:58+08:00",
           "compiledAt": "2026-10-19T10:58:58+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -15204,6 +15315,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T11:18:25+08:00",
           "updatedAt": "2026-10-19T11:02:38+08:00",
           "compiledAt": "2026-10-19T11:02:38+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -15250,6 +15362,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T11:18:25+08:00",
           "updatedAt": "2026-10-19T11:02:38+08:00",
           "compiledAt": "2026-10-19T11:02:38+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -15295,6 +15408,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T11:18:25+08:00",
           "updatedAt": "2026-10-19T11:02:38+08:00",
           "compiledAt": "2026-10-19T11:02:38+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -15341,6 +15455,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T11:18:25+08:00",
           "updatedAt": "2026-10-19T11:02:39+08:00",
           "compiledAt": "2026-10-19T11:02:39+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -15369,6 +15484,98 @@ window.PROTOTYPE = {
     }
   ],
   "editions": [
+    {
+      "id": "selection-411e10aeac392ae7b434",
+      "date": "2026-10-19",
+      "cutoff": "2026-10-19T09:28:12+08:00",
+      "compiledAt": "2026-10-19T11:30:27+08:00",
+      "researchCutoff": "2026-10-19T09:28:12+08:00",
+      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
+      "updateIds": [
+        "production-826cf481a1c57f1ffc867413",
+        "production-24ccc3dab93962f9134c0c41",
+        "production-c58b78b9aa4be6a3fd06533b",
+        "production-1b0cf9e7659490793fd97288"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-411e10aeac392ae7b434/page-01.png",
+          "width": 1080,
+          "height": 2208,
+          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-19-ea00c5e0e168",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-24",
+      "rangeEnd": "2026-10-19",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-48bfa7422007cff7b15e",
+          "updateId": "production-826cf481a1c57f1ffc867413",
+          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
+          "objectName": "西安中科西光航天科技集团有限公司",
+          "type": "enterprise",
+          "category": "发行股份及支付现金购买资产",
+          "date": "2026-10-19",
+          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
+          "business": "投资银行",
+          "share": {
+            "title": "收购方案仍在协商，尽调审计评估未完成",
+            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
+          }
+        },
+        {
+          "eventId": "production-event-092d57f7b8b9fed8b81a",
+          "updateId": "production-24ccc3dab93962f9134c0c41",
+          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
+          "objectName": "陕西华达",
+          "type": "listed",
+          "category": "首发前股份解除限售及上市流通安排",
+          "date": "2026-10-16",
+          "title": "控股股东5,308.03万股拟于10月19日解除限售",
+          "business": "股份管理",
+          "share": {
+            "title": "5,308.03万股拟于10月19日解禁",
+            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-c58b78b9aa4be6a3fd06533b",
+          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-09-24",
+          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
+          "business": "机构理财",
+          "share": {
+            "title": "购买2,100万元结构性存款",
+            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
+          }
+        },
+        {
+          "eventId": "production-event-b3d6fa2271bbc9c92477",
+          "updateId": "production-1b0cf9e7659490793fd97288",
+          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "业绩预告",
+          "date": "2026-10-16",
+          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
+          "business": "上市公司业绩",
+          "share": {
+            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
+            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-ef2dfb75bcbd366e0a6a",
       "date": "2026-10-19",
@@ -15925,6 +16132,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "0c04e63e9a289da2f4ff",
+      "date": "2026-10-19",
+      "compiledAt": "2026-10-19T11:02:39+08:00",
+      "cutoff": "2026-10-19T09:28:12+08:00",
+      "snapshotUrl": "publications/0c04e63e9a289da2f4ff/index.html",
+      "publishedAt": "2026-10-19T11:18:25+08:00"
+    },
     {
       "id": "f9af9696394ceb5a4ed2",
       "date": "2026-10-19",
