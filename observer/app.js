@@ -142,7 +142,12 @@
     return ids.map(id=>{
       const rows=list.filter(u=>u.object.id===id);
       if(!compact||rows.some(u=>u.reading?.level!=='brief'))return rows.map(eventHTML).join('');
-      return `<section class="brief-company"><h3><a class="object-link" href="#object/${id}">${esc(objectName(rows[0]))}</a><span class="code">${esc(rows[0].object.code)}</span></h3>${rows.map(u=>briefHTML(u)).join('')}</section>`;
+      const heading=`<h3><a class="object-link" href="#object/${id}">${esc(objectName(rows[0]))}</a><span class="code">${esc(rows[0].object.code)}</span></h3>`;
+      if(rows.length===1)return `<section class="brief-company">${heading}${briefHTML(rows[0])}</section>`;
+      const order={'经营情况':0,'诉讼仲裁及案件进展':1,'融资担保进展':2};
+      const selected=rows.slice().sort((a,b)=>(order[a.event.type]??3)-(order[b.event.type]??3)).slice(0,2);
+      const requested=route().query.get('update');
+      return `<section class="brief-company">${heading}<p class="brief-digest">${selected.map(u=>rich(displayTitle(u))).join('；')}。</p><details class="brief-company-details"${rows.some(u=>u.id===requested)?' open':''}><summary>查看当日 ${rows.length} 项及原文</summary>${rows.map(u=>briefHTML(u)).join('')}</details></section>`;
     }).join('');
   }
   function conciseNotice() {
@@ -161,6 +166,7 @@
   function directoryRows(type, query) { const q=query.trim().toLowerCase(); const items = D.objects.filter(o=>(!type||o.type===type)&&`${o.name} ${o.code}`.toLowerCase().includes(q)); return items.length?items.map(objectRow).join(''):'<p class="empty-state">未找到匹配对象，请尝试简称、代码或登记编号。</p>'; }
   function renderFeedPage(page) {
     const config=views[page], s=pageState();
+    if(page==='private'&&D.meta.privateFilingHistory&&!s.filingDefaultApplied){s.tab='filings';s.filingDefaultApplied=true;}
     let list=updates, fs=['全部','上市公司','证券私募','大型平台','并购','股权融资'];
     if (['listed','private','platform'].includes(page)) list=list.filter(u=>u.object.type===page);
     if (page==='listed') fs=readingPolicy?['全部',...readingPolicy.groups,'其他动态']:real?['全部',...new Set(list.map(u=>u.event.type))]:['全部','现金管理','减持','并购','回购','股份解押'];
@@ -170,7 +176,8 @@
     if (page==='equity') { list=list.filter(u=>u.event.topics.includes('股权融资')); fs=[]; }
     let html=heading(config,page==='home'?editionDate():'')+notice();
     if(page==='home'&&production)html+='<div class="selection-entry"><a href="#share">查看业务重点快讯与分享图 ↗</a></div>';
-    if (page==='listed'||page==='private') html+=sectionTabs([['recent','最近动态'],['directory','观察对象',D.objects.filter(o=>o.type===page).length]]);
+    if (page==='listed'||page==='private') html+=sectionTabs([['recent','最近动态'],...(page==='private'&&D.meta.privateFilingHistory?[['filings','年内备案']]:[]),['directory','观察对象',D.objects.filter(o=>o.type===page).length]]);
+    if(page==='private'&&s.tab==='filings')return html+privateFilingsHTML();
     if (s.tab==='directory' && ['listed','private'].includes(page)) return html+directoryHTML(page);
     if (page==='mergers') html+=production?'<p class="section-note">同一交易按事项连续记录；本期来源覆盖边界见上方说明。</p>':real?'<p class="section-note">样本可从全部110家上市观察对象中选取；本轮仅核查下列交易，未扫描整个观察池。</p>':'<p class="section-note">覆盖全部 110 家上市观察对象，并关注陕西企业作为收购方或标的的交易。</p>';
     if (page==='platform') html+=real?'<p class="section-note">本轮只研究选定重大事项，平台对象目录待名单明确后完善。</p>':'<p class="section-note">平台名单待明确；当前展示重大事项示例。</p>';
@@ -188,6 +195,15 @@
       if(current.length) return html+`<h2 class="edition-section-title" id="current-edition">本轮新编与更新 <span>资料日期分别保留</span></h2>`+feedHTML(current,true)+(historical.length?'<h2 class="edition-section-title archive-section-title">历史内容 <span>按原资料日期回看</span></h2>'+feedHTML(historical):'<div class="end-note">已读完当前筛选的本轮内容。<a href="#history">历史回看 ↗</a></div>');
     }
     return html+feedHTML(filtered);
+  }
+  function privateFilingsHTML(managerId=null) {
+    const h=D.meta.privateFilingHistory;
+    if(!h)return '';
+    const managers=h.managers.filter(m=>!managerId||m.objectId===managerId);
+    const products=h.products.filter(p=>!managerId||p.objectId===managerId);
+    const complete=managers.length>0&&managers.every(m=>m.status==='complete');
+    const count=month=>products.filter(p=>p.filedAt.startsWith(month)).length;
+    return `<section class="private-filings"><h2 class="object-section-title">${h.start.slice(0,4)}年产品备案</h2><p class="section-note">${fmt(h.start)}—${fmt(h.end)} · ${managerId?'本管理人':h.scopeCount+'家名单管理人'} · 本次公示可查 ${products.length} 只。核对 ${timeText(h.checkedAt)}。</p><p class="section-note">${esc(h.notice)}</p><div class="table-scroll"><table><thead><tr><th>备案月份</th><th>本次可查数量</th><th>覆盖情况</th></tr></thead><tbody>${h.months.slice().reverse().map(m=>`<tr><td>${esc(m.month)}${m.month===h.end.slice(0,7)?'（截至'+esc(h.end.slice(5).replace('-','月'))+'日）':''}</td><td>${!complete&&!count(m.month)?'未完整覆盖':(complete?'':'至少 ')+count(m.month)+' 只'}</td><td>${complete?'名单内当前公示分页已核':managers.filter(m=>m.status==='complete').length+'/'+managers.length+'家完整，其余有缺口'}</td></tr>`).join('')}</tbody></table></div>${h.months.slice().reverse().map(m=>{const list=products.filter(p=>p.filedAt.startsWith(m.month));return list.length?`<details class="filing-month"><summary>${esc(m.month)} · ${list.length}只 · 查看产品明细</summary>${list.map(p=>`<div class="filing-product"><strong>${esc(p.name)}</strong><span class="code">${esc(p.filingNo)}</span><p>${esc(p.managerName)} · 备案 ${fmt(p.filedAt)}<br>当前公示托管：${esc(p.custodian||'未披露')} · ${esc(p.state||'状态未提供')} <a href="${esc(p.url)}" target="_blank" rel="noopener">AMAC原文 ↗</a></p></div>`).join('')}</details>`:'';}).join('')}${!complete?`<details class="filing-month"><summary>查看未完整覆盖的管理人</summary>${managers.filter(m=>m.status!=='complete').map(m=>`<p>${esc(m.name)} · ${esc(m.registrationNo)} · ${m.status==='partial'?'部分取得':'未完整取得'}</p>`).join('')}</details>`:''}</section>`;
   }
   function identityHTML(o) {
     const marketName={SZ:'深圳证券交易所',SH:'上海证券交易所',BJ:'北京证券交易所',HK:'香港交易所'};
@@ -213,7 +229,7 @@
     if(real) html+=notice();
     if(readingPolicy&&o.type==='listed'&&pageState().tab==='recent')return html+feedHTML(list,true);
     if(pageState().tab==='recent') html+=list.length?`<div class="object-content">${list.map(eventHTML).join('')}</div>`:`<div class="empty-state"><strong>${real?'本轮未核查该对象的近期动态':'已保留基础身份，暂未编排动态示例'}</strong>这不代表该对象近期没有动态。<br><a class="text-link" href="#${parent}">返回客群页</a></div>`;
-    else html+=`<div class="object-content">${objectHistoryHTML(o,list,pageState().tab)}</div>`;
+    else html+=`<div class="object-content">${o.type==='private'&&pageState().tab==='products'&&D.meta.privateFilingHistory?privateFilingsHTML(o.id):objectHistoryHTML(o,list,pageState().tab)}</div>`;
     return html;
   }
   function renderHistory(value) {

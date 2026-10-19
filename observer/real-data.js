@@ -199,49 +199,50 @@ window.PROTOTYPE = {
       "production-81800e11b68cc285d2486ad4": "2026-10-19T12:40:53+08:00"
     },
     "readingPolicy": {
-      "version": "listed-scope-20261009",
+      "version": "listed-scope-20261019",
       "groups": [
         "股东股份变动",
         "激励与员工持股",
         "回购",
         "并购重组",
-        "投资与定增",
+        "股权投资与融资",
+        "金融投资",
         "理财与现金管理",
         "套期保值"
       ],
       "updates": {
         "real-cash-20260424": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "现金管理",
           "group": "理财与现金管理",
           "level": "deep"
         },
         "real-cash-20260827": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "现金管理",
           "group": "理财与现金管理",
           "level": "deep"
         },
         "real-u-superconductor-disposal-20260415": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "减持",
           "group": "股东股份变动",
           "level": "deep"
         },
         "real-u-superconductor-disposal-20260812": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "减持",
           "group": "股东股份变动",
           "level": "deep"
         },
         "real-u-blt-buyback-result-20250301": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "股份回购",
           "group": "回购",
           "level": "deep"
         },
         "real-u-blt-buyback-resale-20260529": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "股份回购",
           "group": "回购",
           "level": "deep"
@@ -325,12 +326,6 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "9月28日股东会通过增额议案，公司及合并报表范围内子公司向中国银行新增申请人民币1亿元综合授信，期限自审议通过之日起一年，可在授权范围和有效期内循环使用。 5月明细与9月方案均列原申请基数54,270万元；两次申请授权金额合计64,270万元，不代表银行已批、实际借款或到账。4月公告54,070万元的历史记载差异仍未获解释。"
         },
-        "production-3df54d8b8c0e1113ca395cfb": {
-          "version": "listed-scope-20261009",
-          "action": "对外投资",
-          "group": "投资与定增",
-          "level": "deep"
-        },
         "production-2be1f22073c4410c056c74b7": {
           "version": "listed-scope-20261009",
           "action": "股权激励",
@@ -389,12 +384,6 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "9月24日中报确认，2026年上半年支付2025年度末期及特别股息合计人民币12.85087亿元，每股合计人民币1.2104元。 两项股息5月28日获批，公告安排6月25日或前后派付；此次是支付情况披露。公司董事不建议派付2026年中期股息。"
-        },
-        "production-0717d336cfb97cacfc335c23": {
-          "version": "listed-scope-20261009",
-          "action": "对外投资",
-          "group": "投资与定增",
-          "level": "deep"
         },
         "production-0afefe66c6a41e61dac128f1": {
           "version": "listed-scope-20261009",
@@ -492,10 +481,11 @@ window.PROTOTYPE = {
           "level": "deep"
         },
         "production-c5a838015b77eef450187dd9": {
-          "version": "listed-scope-20261009",
-          "action": "对外投资",
-          "group": "投资与定增",
-          "level": "deep"
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "2026年10月16日披露：土建工程、部分洁净室及相关配套设施已完成建设。 首批设备预计近期开始进厂，后续调试；预计2026年底至2027年初开始形成产能，进度仍有不确定性。 项目总投资约12.51亿元人民币，以实际投入为准，并非本次新增投入或已支付金额。"
         },
         "production-7325b6fad4d87876c4926db2": {
           "version": "listed-scope-20261009",
@@ -778,16 +768,18 @@ window.PROTOTYPE = {
           "summary": "金堆城钼业股份有限公司2026年10月13日披露业绩快报，2026年前三季度实现营业收入人民币1,244,554.58万元，同比增长14.34%；归属于上市公司股东的净利润人民币299,384.32万元，同比增长30.94%。上述数据为初步核算数据，未经会计师事务所审计，具体以公司2026年第三季度报告披露数据为准。"
         },
         "production-be4ff010d9fc0b9404dda99b": {
-          "version": "listed-scope-20261009",
-          "action": "对外投资",
-          "group": "投资与定增",
-          "level": "deep"
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕鼓动力2026年10月9日提供的股东会议案，继续提交陕鼓高端装备产业创新研究中心建设方案：由上市公司实施，拟投资不超过人民币67,262万元，最终投资金额以实际投资为准；资金来源为企业自筹，建设周期34个月。该方案已于9月29日获董事会通过，拟提交10月16日股东会审议。10月9日材料与9月30日专项公告所列投资上限、地点、建筑面积、周期及资金来源一致，属于同一方案的会议配套。按研究截止2026年10月15日17:07:38及本轮已取得资料，尚无股东会批准、开工或实际投入金额的证据。"
         },
         "production-dd1b4e463557030a20f7ca13": {
-          "version": "listed-scope-20261009",
-          "action": "对外投资",
-          "group": "投资与定增",
-          "level": "deep"
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕鼓动力2026年10月17日公告，10月16日召开的股东会通过陕鼓高端装备产业创新研究中心投资议案，同意票占出席会议有效表决权的98.7421%。根据9月30日专项公告及10月9日会议议案，项目由上市公司实施，拟投资不超过人民币67,262万元，最终投资金额以实际投资为准，资金来源为企业自筹，建设周期34个月。本次进展为股东会批准，相关公告未披露开工、实际投入或付款金额。"
         },
         "production-c0340ea725d93ecddd53b1aa": {
           "version": "listed-scope-20261009",
@@ -806,7 +798,7 @@ window.PROTOTYPE = {
         "production-3a28c2e4df72a10db01ab24e": {
           "version": "listed-scope-20261009",
           "action": "对外投资",
-          "group": "投资与定增",
+          "group": "股权投资与融资",
           "level": "deep"
         },
         "production-9e8ac1778e4ab9b9dd7b65f2": {
@@ -1053,7 +1045,7 @@ window.PROTOTYPE = {
           "summary": "西部证券2026年10月16日披露公告（落款10月15日），2026年半年度分红以剔除回购专户股份后的4,463,433,805股为基数，每10股派发现金红利人民币0.10元（含税），拟分配44,634,338.05元（含税）。股权登记日为2026年10月22日，除权除息日为10月23日，委托中国结算深圳分公司代派的现金红利计划于10月23日划入股东资金账户。"
         },
         "production-5fd6c39c9c415abdfdec7a7d": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
@@ -1087,16 +1079,18 @@ window.PROTOTYPE = {
           "level": "deep"
         },
         "production-c2149dee1d85cea6894374cd": {
-          "version": "listed-scope-20261009",
-          "action": "对外投资",
-          "group": "投资与定增",
-          "level": "deep"
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "绿能慧充在2026年10月17日公告中披露，公司于10月16日业绩说明会上表示，咸阳研发及生产制造基地一期部分厂房已交付并投入使用，未说明具体交付、投用日期及面积。2023年年度报告记载，该项目原计划总投资约15亿元，其中一期投资7.5亿元；这些金额属于历史计划，不是本次新增或已完成投资。项目后续采用代建、合资及股权回购安排，部分厂房投用不能据以认定整个一期或基地已完工，也不能证明协议约定的验收、回购及付款条件已经满足。"
         },
         "production-81800e11b68cc285d2486ad4": {
-          "version": "listed-scope-20261009",
-          "action": "对外投资",
-          "group": "投资与定增",
-          "level": "deep"
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "诺瓦星云2026年10月9日公告，全资子公司深圳市诺瓦星云数字技术有限责任公司近日以人民币6473万元竞得深圳市龙岗区坂田街道G03101-0021地块使用权，并签署成交确认书。这是9月7日董事会审议通过的未来显示湾区科技园项目的实施进展，项目不超过人民币6.5亿元的投资总额已包含土地竞买款。原方案拟新建生产厂房及相关产线，建设周期预计36个月，最终以实际建设情况为准。截至本次进展公告，土地出让合同、权属手续及项目相关报批尚待办理。"
         }
       }
     },
@@ -1115,6 +1109,1776 @@ window.PROTOTYPE = {
       "windowEnd": "2026-10-19",
       "cutoff": "2026-10-19T09:28:12+08:00",
       "partial": true
+    },
+    "privateFilingHistory": {
+      "start": "2026-01-01",
+      "end": "2026-10-19",
+      "checkedAt": "2026-10-19T22:05:13+08:00",
+      "scopeCount": 92,
+      "completeManagers": 92,
+      "partialManagers": 0,
+      "failedManagers": 0,
+      "notice": "按既有管理人名单及备案日统计本次AMAC公示可查产品，不是完整注销/清算历史。已清算产品仅在本次公示仍返回且可核实时计入；当前未返回不证明从未备案。托管及运作状态为查询时公示，不倒推备案当时状态；缺口不填零。",
+      "managers": [
+        {
+          "objectId": "private-101000026383",
+          "name": "上海屹成投资管理中心(有限合伙)",
+          "registrationNo": "P1024465",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000024132",
+          "name": "上海忠石私募基金管理有限公司",
+          "registrationNo": "P1018089",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1903261107103383",
+          "name": "五牛（海南）私募基金管理合伙企业（有限合伙）",
+          "registrationNo": "P1069852",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-2105211711106800",
+          "name": "佳睿（晋江）私募基金管理有限公司",
+          "registrationNo": "P1072551",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2107141320103302",
+          "name": "共青城瀛岳私募基金管理有限公司",
+          "registrationNo": "P1072644",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-2303081121100381",
+          "name": "北京霆云山私募基金管理有限公司",
+          "registrationNo": "P1074620",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-101000044913",
+          "name": "博汇康宁（深圳）投资基金管理有限公司",
+          "registrationNo": "P1030701",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2012291919106869",
+          "name": "国富联合（青岛）私募基金管理有限公司",
+          "registrationNo": "P1072582",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2003171100101302",
+          "name": "天榕（青岛）基金管理有限公司",
+          "registrationNo": "P1071521",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2108171432114024",
+          "name": "孤岩量子私募基金管理(西安)有限公司",
+          "registrationNo": "P1072755",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1808101319100964",
+          "name": "汉中林园投资基金管理合伙企业（有限合伙）",
+          "registrationNo": "P1069402",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000004262",
+          "name": "海南利和私募基金管理有限公司",
+          "registrationNo": "P1006149",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2104261451107240",
+          "name": "海南名策私募基金管理有限公司",
+          "registrationNo": "P1072899",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1609091201100265",
+          "name": "海南天辉私募基金管理有限公司",
+          "registrationNo": "P1060527",
+          "status": "complete",
+          "visibleProducts": 3
+        },
+        {
+          "objectId": "private-101000031013",
+          "name": "深圳乾元资始私募证券基金管理有限公司",
+          "registrationNo": "P1020814",
+          "status": "complete",
+          "visibleProducts": 5
+        },
+        {
+          "objectId": "private-101000038619",
+          "name": "深圳前海长征私募证券基金管理有限公司",
+          "registrationNo": "P1028873",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000019713",
+          "name": "深圳国盛祥隆私募证券基金管理有限公司",
+          "registrationNo": "P1013255",
+          "status": "complete",
+          "visibleProducts": 3
+        },
+        {
+          "objectId": "private-101000026975",
+          "name": "深圳基成资本管理有限公司",
+          "registrationNo": "P1018506",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000007655",
+          "name": "深圳市滨利投资管理有限公司",
+          "registrationNo": "P1006086",
+          "status": "complete",
+          "visibleProducts": 6
+        },
+        {
+          "objectId": "private-101000034660",
+          "name": "深圳开济资产管理有限公司",
+          "registrationNo": "P1024334",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000029070",
+          "name": "深圳德丰嘉禾私募证券基金管理有限公司",
+          "registrationNo": "P1020249",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000040949",
+          "name": "深圳景润投资管理有限公司",
+          "registrationNo": "P1028836",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000032866",
+          "name": "深圳格尚资产管理有限公司",
+          "registrationNo": "P1022811",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000047461",
+          "name": "深圳永宁资产管理有限公司",
+          "registrationNo": "P1030942",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000025441",
+          "name": "深圳汇长安资产管理有限公司",
+          "registrationNo": "P1016676",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000034419",
+          "name": "深圳融智天成国际资本管理股份有限公司",
+          "registrationNo": "P1024278",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000041857",
+          "name": "深圳鑫泰禾私募证券投资基金管理有限公司",
+          "registrationNo": "P1028974",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-1809181551101419",
+          "name": "西咸新区旷特投资管理有限公司",
+          "registrationNo": "P1069468",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-1701061825108832",
+          "name": "西安久上基金管理有限公司",
+          "registrationNo": "P1065633",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000010288",
+          "name": "西安兆峻资产管理有限公司",
+          "registrationNo": "P1005640",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1708151102103892",
+          "name": "西安关天私募证券投资基金有限公司",
+          "registrationNo": "P1068719",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1705251735106902",
+          "name": "西安力天私募基金管理有限公司",
+          "registrationNo": "P1064879",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1709111805102816",
+          "name": "西安博成基金管理有限公司",
+          "registrationNo": "P1067542",
+          "status": "complete",
+          "visibleProducts": 3
+        },
+        {
+          "objectId": "private-1903221844101307",
+          "name": "西安古城吴氏私募基金管理有限公司",
+          "registrationNo": "P1070561",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1704181432105117",
+          "name": "西安合鑫投资管理有限公司",
+          "registrationNo": "P1063141",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1704262127109859",
+          "name": "西安国子资本管理有限公司",
+          "registrationNo": "P1065741",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1609271347111122",
+          "name": "西安地坤投资管理有限公司",
+          "registrationNo": "P1060835",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2009181331107731",
+          "name": "西安天勤汇理私募基金管理有限公司",
+          "registrationNo": "P1071793",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-1806051725102032",
+          "name": "西安好奇投资管理有限公司",
+          "registrationNo": "P1069423",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1705261123107174",
+          "name": "西安宽格宏略基金管理有限公司",
+          "registrationNo": "P1064611",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1709221136104106",
+          "name": "西安恒捷汇理资产管理有限公司",
+          "registrationNo": "P1068400",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1912031802107663",
+          "name": "西安悦枫资产管理有限公司",
+          "registrationNo": "P1071509",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2110081708117945",
+          "name": "西安招融博瑞私募基金管理有限公司",
+          "registrationNo": "P1072794",
+          "status": "complete",
+          "visibleProducts": 2
+        },
+        {
+          "objectId": "private-1708292135105512",
+          "name": "西安晟泽资产管理有限公司",
+          "registrationNo": "P1067411",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1811231117101176",
+          "name": "西安景弘基金管理有限公司",
+          "registrationNo": "P1070133",
+          "status": "complete",
+          "visibleProducts": 3
+        },
+        {
+          "objectId": "private-1610270841106387",
+          "name": "西安景曜投资管理有限公司",
+          "registrationNo": "P1062077",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1710131530109018",
+          "name": "西安智本私募基金管理有限公司",
+          "registrationNo": "P1067745",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1912121441104548",
+          "name": "西安曲江祥汇私募基金管理有限公司",
+          "registrationNo": "P1070763",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-1711281250109293",
+          "name": "西安柏石私募基金管理有限公司",
+          "registrationNo": "P1069047",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-1711241752102480",
+          "name": "西安榴花私募基金管理有限公司",
+          "registrationNo": "P1067746",
+          "status": "complete",
+          "visibleProducts": 2
+        },
+        {
+          "objectId": "private-1703241729101117",
+          "name": "西安江岳私募基金管理有限公司",
+          "registrationNo": "P1064313",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-1703131611108607",
+          "name": "西安沣相投资管理有限公司",
+          "registrationNo": "P1062559",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-1708101546105022",
+          "name": "西安波普私募基金管理有限公司",
+          "registrationNo": "P1065520",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1711101618109089",
+          "name": "西安瀑布资产管理有限公司",
+          "registrationNo": "P1067590",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-101000051182",
+          "name": "西安玖润投资管理有限公司",
+          "registrationNo": "P1033308",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-1704131628105857",
+          "name": "西安蒙特卡罗基金管理有限公司",
+          "registrationNo": "P1066586",
+          "status": "complete",
+          "visibleProducts": 8
+        },
+        {
+          "objectId": "private-1707261443105960",
+          "name": "西安蒲公英基金管理有限公司",
+          "registrationNo": "P1065652",
+          "status": "complete",
+          "visibleProducts": 2
+        },
+        {
+          "objectId": "private-101000014030",
+          "name": "西安蓝鲸私募基金管理有限公司",
+          "registrationNo": "P1008048",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1812271707108231",
+          "name": "西安豹亚基金管理合伙企业（有限合伙）",
+          "registrationNo": "P1070648",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1704241118107277",
+          "name": "西安达人私募基金管理有限公司",
+          "registrationNo": "P1065146",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2302071706100055",
+          "name": "西安迈睿恒力私募基金管理有限公司",
+          "registrationNo": "P1074554",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-1905221720103058",
+          "name": "西安铂石基金管理有限公司",
+          "registrationNo": "P1071114",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1705191036105983",
+          "name": "西安阿而法私募基金管理合伙企业（有限合伙）",
+          "registrationNo": "P1063733",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "name": "陕西九和岛基金管理有限公司",
+          "registrationNo": "P1071318",
+          "status": "complete",
+          "visibleProducts": 15
+        },
+        {
+          "objectId": "private-101000050603",
+          "name": "陕西云从投资管理有限公司",
+          "registrationNo": "P1032427",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000000726",
+          "name": "陕西亿星私募基金管理有限公司",
+          "registrationNo": "P1002931",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2007071048106707",
+          "name": "陕西佑仓资产管理有限公司",
+          "registrationNo": "P1071381",
+          "status": "complete",
+          "visibleProducts": 2
+        },
+        {
+          "objectId": "private-101000006845",
+          "name": "陕西先锋投资有限公司",
+          "registrationNo": "P1007930",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2006291629103361",
+          "name": "陕西卓信永诚私募基金管理有限公司",
+          "registrationNo": "P1071732",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000003440",
+          "name": "陕西博盛隆投资有限公司",
+          "registrationNo": "P1001411",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000014468",
+          "name": "陕西君研私募基金管理有限公司",
+          "registrationNo": "P1008049",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1807241211108100",
+          "name": "陕西大安基金管理有限公司",
+          "registrationNo": "P1069167",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2003092254101539",
+          "name": "陕西安泽众赢投资有限公司",
+          "registrationNo": "P1070963",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000015685",
+          "name": "陕西德盈私募基金管理有限公司",
+          "registrationNo": "P1009868",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1609090904100604",
+          "name": "陕西方德磐石私募基金管理有限公司",
+          "registrationNo": "P1061088",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000007176",
+          "name": "陕西景唐投资管理有限公司",
+          "registrationNo": "P1005988",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1804231017107072",
+          "name": "陕西沣上投资管理合伙企业（有限合伙）",
+          "registrationNo": "P1069753",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1610250945101223",
+          "name": "陕西济仁投资管理有限公司",
+          "registrationNo": "P1066746",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1806131406100721",
+          "name": "陕西瑞友晨盛资产管理有限公司",
+          "registrationNo": "P1070785",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2105141101101292",
+          "name": "陕西碣石私募基金管理有限公司",
+          "registrationNo": "P1072485",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2012101805104621",
+          "name": "陕西禄格私募基金管理有限公司",
+          "registrationNo": "P1072306",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-1609220851102223",
+          "name": "陕西趋势投资管理有限公司",
+          "registrationNo": "P1060669",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000024937",
+          "name": "陕西路路金基金管理有限公司",
+          "registrationNo": "P1019175",
+          "status": "complete",
+          "visibleProducts": 3
+        },
+        {
+          "objectId": "private-2107201836101899",
+          "name": "陕西鑫旅私募基金管理有限公司",
+          "registrationNo": "P1072863",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000012244",
+          "name": "陕西铁马投资管理有限公司",
+          "registrationNo": "P1007845",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-1706082037101131",
+          "name": "陕西顺义成投资管理有限公司",
+          "registrationNo": "P1064558",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-2103262010107683",
+          "name": "青岛华源锦成私募基金管理有限公司",
+          "registrationNo": "P1072146",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000040485",
+          "name": "上海卓铸私募基金管理有限公司",
+          "registrationNo": "P1027840",
+          "status": "complete",
+          "visibleProducts": 0
+        },
+        {
+          "objectId": "private-101000026206",
+          "name": "深圳抱朴容易私募证券基金管理有限公司",
+          "registrationNo": "P1020607",
+          "status": "complete",
+          "visibleProducts": 2
+        },
+        {
+          "objectId": "private-101000027983",
+          "name": "添佑私募基金管理（上海）有限公司",
+          "registrationNo": "P1018901",
+          "status": "complete",
+          "visibleProducts": 1
+        },
+        {
+          "objectId": "private-1705251723108664",
+          "name": "苏州水润山禾私募基金管理有限公司",
+          "registrationNo": "P1064295",
+          "status": "complete",
+          "visibleProducts": 4
+        },
+        {
+          "objectId": "private-2111231329102046",
+          "name": "龙泉云锋私募基金管理有限公司",
+          "registrationNo": "P1073744",
+          "status": "complete",
+          "visibleProducts": 2
+        }
+      ],
+      "products": [
+        {
+          "objectId": "private-1705251723108664",
+          "id": "2610121728102030",
+          "managerName": "苏州水润山禾私募基金管理有限公司",
+          "name": "水润山禾嘉陵江2号私募证券投资基金",
+          "filingNo": "SGF651",
+          "filedAt": "2026-10-12",
+          "establishedAt": "2026-09-29",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2610121728102030.html",
+          "retrievedAt": "2026-10-19T22:05:10+08:00"
+        },
+        {
+          "objectId": "private-101000031013",
+          "id": "2609300859109534",
+          "managerName": "深圳乾元资始私募证券基金管理有限公司",
+          "name": "乾元光辉岁月稳进36号私募证券投资基金",
+          "filingNo": "SEW470",
+          "filedAt": "2026-09-30",
+          "establishedAt": "2026-09-15",
+          "custodian": "财通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2609300859109534.html",
+          "retrievedAt": "2026-10-19T22:04:19+08:00"
+        },
+        {
+          "objectId": "private-1705251723108664",
+          "id": "2609091739111643",
+          "managerName": "苏州水润山禾私募基金管理有限公司",
+          "name": "水润山禾嘉陵江1号私募证券投资基金",
+          "filingNo": "SCJ393",
+          "filedAt": "2026-09-09",
+          "establishedAt": "2026-08-25",
+          "custodian": "华鑫证券有限责任公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2609091739111643.html",
+          "retrievedAt": "2026-10-19T22:05:10+08:00"
+        },
+        {
+          "objectId": "private-1709111805102816",
+          "id": "2609081550105542",
+          "managerName": "西安博成基金管理有限公司",
+          "name": "博成开元昭盈私募证券投资基金",
+          "filingNo": "SCN813",
+          "filedAt": "2026-09-08",
+          "establishedAt": "2026-09-02",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2609081550105542.html",
+          "retrievedAt": "2026-10-19T22:04:31+08:00"
+        },
+        {
+          "objectId": "private-101000031013",
+          "id": "2609041407107897",
+          "managerName": "深圳乾元资始私募证券基金管理有限公司",
+          "name": "乾元强因子3号私募证券投资基金",
+          "filingNo": "SEK101",
+          "filedAt": "2026-09-04",
+          "establishedAt": "2026-09-01",
+          "custodian": "财通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2609041407107897.html",
+          "retrievedAt": "2026-10-19T22:04:19+08:00"
+        },
+        {
+          "objectId": "private-2110081708117945",
+          "id": "2609041407107389",
+          "managerName": "西安招融博瑞私募基金管理有限公司",
+          "name": "招融森荣多资产配置2号私募证券投资基金",
+          "filingNo": "SED438",
+          "filedAt": "2026-09-04",
+          "establishedAt": "2026-08-20",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2609041407107389.html",
+          "retrievedAt": "2026-10-19T22:04:36+08:00"
+        },
+        {
+          "objectId": "private-1703241729101117",
+          "id": "2609031740102791",
+          "managerName": "西安江岳私募基金管理有限公司",
+          "name": "江岳青城山28期私募证券投资基金",
+          "filingNo": "SEG218",
+          "filedAt": "2026-09-03",
+          "establishedAt": "2026-08-26",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2609031740102791.html",
+          "retrievedAt": "2026-10-19T22:04:43+08:00"
+        },
+        {
+          "objectId": "private-101000019713",
+          "id": "2608311559103795",
+          "managerName": "深圳国盛祥隆私募证券基金管理有限公司",
+          "name": "国盛祥隆恒远征程一号私募证券投资基金",
+          "filingNo": "SCZ229",
+          "filedAt": "2026-08-31",
+          "establishedAt": "2026-08-26",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608311559103795.html",
+          "retrievedAt": "2026-10-19T22:04:21+08:00"
+        },
+        {
+          "objectId": "private-1705251723108664",
+          "id": "2608191751104843",
+          "managerName": "苏州水润山禾私募基金管理有限公司",
+          "name": "水润山禾长江7号私募证券投资基金",
+          "filingNo": "SCX541",
+          "filedAt": "2026-08-19",
+          "establishedAt": "2026-08-04",
+          "custodian": "华鑫证券有限责任公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608191751104843.html",
+          "retrievedAt": "2026-10-19T22:05:10+08:00"
+        },
+        {
+          "objectId": "private-101000019713",
+          "id": "2608191751102128",
+          "managerName": "深圳国盛祥隆私募证券基金管理有限公司",
+          "name": "国盛祥隆观势逐焰私募证券投资基金",
+          "filingNo": "SCW505",
+          "filedAt": "2026-08-19",
+          "establishedAt": "2026-08-10",
+          "custodian": "国金证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608191751102128.html",
+          "retrievedAt": "2026-10-19T22:04:21+08:00"
+        },
+        {
+          "objectId": "private-101000026206",
+          "id": "2608191751102308",
+          "managerName": "深圳抱朴容易私募证券基金管理有限公司",
+          "name": "抱朴精选进取五号FOF私募证券投资基金",
+          "filingNo": "SCH840",
+          "filedAt": "2026-08-19",
+          "establishedAt": "2026-08-10",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608191751102308.html",
+          "retrievedAt": "2026-10-19T22:05:09+08:00"
+        },
+        {
+          "objectId": "private-1704131628105857",
+          "id": "2608141353105970",
+          "managerName": "西安蒙特卡罗基金管理有限公司",
+          "name": "蒙特卡罗定制6号私募证券投资基金",
+          "filingNo": "SCN424",
+          "filedAt": "2026-08-14",
+          "establishedAt": "2026-08-10",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608141353105970.html",
+          "retrievedAt": "2026-10-19T22:04:46+08:00"
+        },
+        {
+          "objectId": "private-101000031013",
+          "id": "2608131450108378",
+          "managerName": "深圳乾元资始私募证券基金管理有限公司",
+          "name": "乾元定制九号私募证券投资基金",
+          "filingNo": "SCH459",
+          "filedAt": "2026-08-13",
+          "establishedAt": "2026-08-07",
+          "custodian": "南京证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608131450108378.html",
+          "retrievedAt": "2026-10-19T22:04:19+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2608111635127129",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛取道同行私募证券投资基金",
+          "filingNo": "SAGL87",
+          "filedAt": "2026-08-11",
+          "establishedAt": "2026-07-23",
+          "custodian": "华泰证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608111635127129.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-101000031013",
+          "id": "2608041912103417",
+          "managerName": "深圳乾元资始私募证券基金管理有限公司",
+          "name": "乾元强因子2号私募证券投资基金",
+          "filingNo": "SBAT63",
+          "filedAt": "2026-08-04",
+          "establishedAt": "2026-07-01",
+          "custodian": "国金证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608041912103417.html",
+          "retrievedAt": "2026-10-19T22:04:19+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2608041502107921",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛瑶光套利一号私募证券投资基金",
+          "filingNo": "SB6583",
+          "filedAt": "2026-08-04",
+          "establishedAt": "2026-07-14",
+          "custodian": "华泰证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608041502107921.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-101000007655",
+          "id": "2607311837101565",
+          "managerName": "深圳市滨利投资管理有限公司",
+          "name": "滨利东方红32号私募证券投资基金",
+          "filingNo": "SCS415",
+          "filedAt": "2026-07-31",
+          "establishedAt": "2026-07-23",
+          "custodian": "兴业证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607311837101565.html",
+          "retrievedAt": "2026-10-19T22:04:23+08:00"
+        },
+        {
+          "objectId": "private-101000024937",
+          "id": "2607311837101503",
+          "managerName": "陕西路路金基金管理有限公司",
+          "name": "路路金君安1号私募证券投资基金",
+          "filingNo": "SCK691",
+          "filedAt": "2026-07-31",
+          "establishedAt": "2026-07-23",
+          "custodian": "兴业证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607311837101503.html",
+          "retrievedAt": "2026-10-19T22:05:05+08:00"
+        },
+        {
+          "objectId": "private-101000024937",
+          "id": "2607311837101443",
+          "managerName": "陕西路路金基金管理有限公司",
+          "name": "路路金君恒1号私募证券投资基金",
+          "filingNo": "SCK314",
+          "filedAt": "2026-07-31",
+          "establishedAt": "2026-07-22",
+          "custodian": "兴业证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607311837101443.html",
+          "retrievedAt": "2026-10-19T22:05:05+08:00"
+        },
+        {
+          "objectId": "private-1704131628105857",
+          "id": "2607300937108771",
+          "managerName": "西安蒙特卡罗基金管理有限公司",
+          "name": "蒙特卡罗康成1号私募证券投资基金",
+          "filingNo": "SCA671",
+          "filedAt": "2026-07-30",
+          "establishedAt": "2026-07-07",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607300937108771.html",
+          "retrievedAt": "2026-10-19T22:04:46+08:00"
+        },
+        {
+          "objectId": "private-1609091201100265",
+          "id": "2607281339109876",
+          "managerName": "海南天辉私募基金管理有限公司",
+          "name": "天辉先知私募证券投资基金",
+          "filingNo": "SBEK76",
+          "filedAt": "2026-07-28",
+          "establishedAt": "2026-07-14",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607281339109876.html",
+          "retrievedAt": "2026-10-19T22:04:18+08:00"
+        },
+        {
+          "objectId": "private-101000007655",
+          "id": "2607241347108754",
+          "managerName": "深圳市滨利投资管理有限公司",
+          "name": "滨利东方红31号私募证券投资基金",
+          "filingNo": "SCM543",
+          "filedAt": "2026-07-24",
+          "establishedAt": "2026-07-17",
+          "custodian": "兴业证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607241347108754.html",
+          "retrievedAt": "2026-10-19T22:04:23+08:00"
+        },
+        {
+          "objectId": "private-101000007655",
+          "id": "2607241727104417",
+          "managerName": "深圳市滨利投资管理有限公司",
+          "name": "滨利成长价值27号私募证券投资基金",
+          "filingNo": "SAQR62",
+          "filedAt": "2026-07-24",
+          "establishedAt": "2026-07-07",
+          "custodian": "中国国际金融股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607241727104417.html",
+          "retrievedAt": "2026-10-19T22:04:23+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2607231628103490",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛宏观3号私募证券投资基金",
+          "filingNo": "SBAU66",
+          "filedAt": "2026-07-23",
+          "establishedAt": "2026-07-07",
+          "custodian": "国信证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607231628103490.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-1912121441104548",
+          "id": "2607161430104661",
+          "managerName": "西安曲江祥汇私募基金管理有限公司",
+          "name": "西安曲江祥汇晨泽长盈私募证券投资基金",
+          "filingNo": "SB2470",
+          "filedAt": "2026-07-16",
+          "establishedAt": "2026-06-16",
+          "custodian": "华泰证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607161430104661.html",
+          "retrievedAt": "2026-10-19T22:04:40+08:00"
+        },
+        {
+          "objectId": "private-101000007655",
+          "id": "2607131647104329",
+          "managerName": "深圳市滨利投资管理有限公司",
+          "name": "滨利丰裕七号私募证券投资基金",
+          "filingNo": "SBTH63",
+          "filedAt": "2026-07-13",
+          "establishedAt": "2026-06-30",
+          "custodian": "中信建投证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607131647104329.html",
+          "retrievedAt": "2026-10-19T22:04:23+08:00"
+        },
+        {
+          "objectId": "private-1711241752102480",
+          "id": "2607091456106673",
+          "managerName": "西安榴花私募基金管理有限公司",
+          "name": "榴花卓越成长10号私募证券投资基金",
+          "filingNo": "SANG14",
+          "filedAt": "2026-07-09",
+          "establishedAt": "2026-06-26",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607091456106673.html",
+          "retrievedAt": "2026-10-19T22:04:42+08:00"
+        },
+        {
+          "objectId": "private-2012101805104621",
+          "id": "2607080903108151",
+          "managerName": "陕西禄格私募基金管理有限公司",
+          "name": "禄格永兴2号私募证券投资基金",
+          "filingNo": "SBPV13",
+          "filedAt": "2026-07-08",
+          "establishedAt": "2026-06-11",
+          "custodian": "中信证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607080903108151.html",
+          "retrievedAt": "2026-10-19T22:05:04+08:00"
+        },
+        {
+          "objectId": "private-1711281250109293",
+          "id": "2607080903108425",
+          "managerName": "西安柏石私募基金管理有限公司",
+          "name": "柏石银针5号私募证券投资基金",
+          "filingNo": "SAVP97",
+          "filedAt": "2026-07-08",
+          "establishedAt": "2026-06-18",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607080903108425.html",
+          "retrievedAt": "2026-10-19T22:04:41+08:00"
+        },
+        {
+          "objectId": "private-101000051182",
+          "id": "2607071514103769",
+          "managerName": "西安玖润投资管理有限公司",
+          "name": "玖润行业精选2号私募证券投资基金",
+          "filingNo": "SB6426",
+          "filedAt": "2026-07-07",
+          "establishedAt": "2026-06-24",
+          "custodian": "中信建投证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607071514103769.html",
+          "retrievedAt": "2026-10-19T22:04:45+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2607021724102306",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛荣成聚鑫2号私募证券投资基金",
+          "filingNo": "SBPG58",
+          "filedAt": "2026-07-02",
+          "establishedAt": "2026-06-10",
+          "custodian": "光大证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607021724102306.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-1609091201100265",
+          "id": "2607011926100346",
+          "managerName": "海南天辉私募基金管理有限公司",
+          "name": "天辉潮汐私募证券投资基金",
+          "filingNo": "SAVM06",
+          "filedAt": "2026-07-01",
+          "establishedAt": "2026-06-17",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607011926100346.html",
+          "retrievedAt": "2026-10-19T22:04:18+08:00"
+        },
+        {
+          "objectId": "private-2107141320103302",
+          "id": "2607011338109145",
+          "managerName": "共青城瀛岳私募基金管理有限公司",
+          "name": "瀛岳智升私募证券投资基金",
+          "filingNo": "SAQQ68",
+          "filedAt": "2026-07-01",
+          "establishedAt": "2026-06-10",
+          "custodian": "华泰证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607011338109145.html",
+          "retrievedAt": "2026-10-19T22:04:13+08:00"
+        },
+        {
+          "objectId": "private-1703131611108607",
+          "id": "2606301818100701",
+          "managerName": "西安沣相投资管理有限公司",
+          "name": "沣相元亨私募证券投资基金",
+          "filingNo": "SAFD45",
+          "filedAt": "2026-06-30",
+          "establishedAt": "2026-06-03",
+          "custodian": "光大证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606301818100701.html",
+          "retrievedAt": "2026-10-19T22:04:43+08:00"
+        },
+        {
+          "objectId": "private-101000024937",
+          "id": "2606261718100244",
+          "managerName": "陕西路路金基金管理有限公司",
+          "name": "路路金君合1号私募证券投资基金",
+          "filingNo": "SARL35",
+          "filedAt": "2026-06-26",
+          "establishedAt": "2026-06-03",
+          "custodian": "兴业证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606261718100244.html",
+          "retrievedAt": "2026-10-19T22:05:05+08:00"
+        },
+        {
+          "objectId": "private-2009181331107731",
+          "id": "2606251418104061",
+          "managerName": "西安天勤汇理私募基金管理有限公司",
+          "name": "天勤汇理五号私募证券投资基金",
+          "filingNo": "SAVY00",
+          "filedAt": "2026-06-25",
+          "establishedAt": "2026-06-10",
+          "custodian": "中信证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606251418104061.html",
+          "retrievedAt": "2026-10-19T22:04:34+08:00"
+        },
+        {
+          "objectId": "private-1709111805102816",
+          "id": "2606171628104028",
+          "managerName": "西安博成基金管理有限公司",
+          "name": "博成骏智私募证券投资基金",
+          "filingNo": "SBSS20",
+          "filedAt": "2026-06-17",
+          "establishedAt": "2026-06-01",
+          "custodian": "华泰证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606171628104028.html",
+          "retrievedAt": "2026-10-19T22:04:31+08:00"
+        },
+        {
+          "objectId": "private-1705251723108664",
+          "id": "2606171628106479",
+          "managerName": "苏州水润山禾私募基金管理有限公司",
+          "name": "水润山禾长江3号私募证券投资基金",
+          "filingNo": "SBFL97",
+          "filedAt": "2026-06-17",
+          "establishedAt": "2026-04-29",
+          "custodian": "浙商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606171628106479.html",
+          "retrievedAt": "2026-10-19T22:05:10+08:00"
+        },
+        {
+          "objectId": "private-1903261107103383",
+          "id": "2606151851101126",
+          "managerName": "五牛（海南）私募基金管理合伙企业（有限合伙）",
+          "name": "五牛基金8号私募证券投资基金",
+          "filingNo": "SBRJ52",
+          "filedAt": "2026-06-15",
+          "establishedAt": "2026-06-01",
+          "custodian": "国元证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606151851101126.html",
+          "retrievedAt": "2026-10-19T22:04:12+08:00"
+        },
+        {
+          "objectId": "private-1609091201100265",
+          "id": "2606101448109486",
+          "managerName": "海南天辉私募基金管理有限公司",
+          "name": "天辉炼金私募证券投资基金",
+          "filingNo": "SANG03",
+          "filedAt": "2026-06-10",
+          "establishedAt": "2026-06-01",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606101448109486.html",
+          "retrievedAt": "2026-10-19T22:04:18+08:00"
+        },
+        {
+          "objectId": "private-2007071048106707",
+          "id": "2606101857100711",
+          "managerName": "陕西佑仓资产管理有限公司",
+          "name": "佑仓棋昭一号私募证券投资基金",
+          "filingNo": "SAEB19",
+          "filedAt": "2026-06-10",
+          "establishedAt": "2026-05-08",
+          "custodian": "华福证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606101857100711.html",
+          "retrievedAt": "2026-10-19T22:04:58+08:00"
+        },
+        {
+          "objectId": "private-1704131628105857",
+          "id": "2606081714124632",
+          "managerName": "西安蒙特卡罗基金管理有限公司",
+          "name": "蒙特卡罗专享1号私募证券投资基金",
+          "filingNo": "SALL69",
+          "filedAt": "2026-06-08",
+          "establishedAt": "2026-05-26",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606081714124632.html",
+          "retrievedAt": "2026-10-19T22:04:46+08:00"
+        },
+        {
+          "objectId": "private-1704131628105857",
+          "id": "2606030942109185",
+          "managerName": "西安蒙特卡罗基金管理有限公司",
+          "name": "蒙特卡罗恒泰聚盈1号私募证券投资基金",
+          "filingNo": "SAJL79",
+          "filedAt": "2026-06-03",
+          "establishedAt": "2026-05-18",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606030942109185.html",
+          "retrievedAt": "2026-10-19T22:04:46+08:00"
+        },
+        {
+          "objectId": "private-1704131628105857",
+          "id": "2606021006107262",
+          "managerName": "西安蒙特卡罗基金管理有限公司",
+          "name": "蒙特卡罗远航5号私募证券投资基金",
+          "filingNo": "SBTU81",
+          "filedAt": "2026-06-02",
+          "establishedAt": "2026-05-18",
+          "custodian": "中国银河证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606021006107262.html",
+          "retrievedAt": "2026-10-19T22:04:46+08:00"
+        },
+        {
+          "objectId": "private-1811231117101176",
+          "id": "2606020829107542",
+          "managerName": "西安景弘基金管理有限公司",
+          "name": "景弘价值长赢六号私募证券投资基金",
+          "filingNo": "SAZW70",
+          "filedAt": "2026-06-02",
+          "establishedAt": "2026-05-22",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606020829107542.html",
+          "retrievedAt": "2026-10-19T22:04:38+08:00"
+        },
+        {
+          "objectId": "private-1707261443105960",
+          "id": "2605261618106987",
+          "managerName": "西安蒲公英基金管理有限公司",
+          "name": "蒲公英新视野私募证券投资基金",
+          "filingNo": "SAFK24",
+          "filedAt": "2026-05-26",
+          "establishedAt": "2026-04-29",
+          "custodian": "中信证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2605261618106987.html",
+          "retrievedAt": "2026-10-19T22:04:49+08:00"
+        },
+        {
+          "objectId": "private-2303081121100381",
+          "id": "2605251716102949",
+          "managerName": "北京霆云山私募基金管理有限公司",
+          "name": "霆云山远扬私募证券投资基金",
+          "filingNo": "SACS31",
+          "filedAt": "2026-05-25",
+          "establishedAt": "2026-05-12",
+          "custodian": "广发证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2605251716102949.html",
+          "retrievedAt": "2026-10-19T22:04:13+08:00"
+        },
+        {
+          "objectId": "private-101000031013",
+          "id": "2605081723104525",
+          "managerName": "深圳乾元资始私募证券基金管理有限公司",
+          "name": "乾元强因子1号私募证券投资基金",
+          "filingNo": "SBTT86",
+          "filedAt": "2026-05-08",
+          "establishedAt": "2026-05-06",
+          "custodian": "财通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2605081723104525.html",
+          "retrievedAt": "2026-10-19T22:04:19+08:00"
+        },
+        {
+          "objectId": "private-1811231117101176",
+          "id": "2604301825102425",
+          "managerName": "西安景弘基金管理有限公司",
+          "name": "景弘金选私募证券投资基金",
+          "filingNo": "SADY26",
+          "filedAt": "2026-04-30",
+          "establishedAt": "2026-04-27",
+          "custodian": "中信证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604301825102425.html",
+          "retrievedAt": "2026-10-19T22:04:38+08:00"
+        },
+        {
+          "objectId": "private-101000026206",
+          "id": "2604231728104441",
+          "managerName": "深圳抱朴容易私募证券基金管理有限公司",
+          "name": "抱朴指增精选FOF壹号私募证券投资基金",
+          "filingNo": "SBVW55",
+          "filedAt": "2026-04-23",
+          "establishedAt": "2026-04-15",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604231728104441.html",
+          "retrievedAt": "2026-10-19T22:05:09+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2604231728101822",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛传承一号私募证券投资基金",
+          "filingNo": "SBVT15",
+          "filedAt": "2026-04-23",
+          "establishedAt": "2026-04-20",
+          "custodian": "国信证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604231728101822.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-101000007655",
+          "id": "2604222017109324",
+          "managerName": "深圳市滨利投资管理有限公司",
+          "name": "滨利汉威丰沛5号私募证券投资基金",
+          "filingNo": "SBUL97",
+          "filedAt": "2026-04-23",
+          "establishedAt": "2026-04-10",
+          "custodian": "兴业证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604222017109324.html",
+          "retrievedAt": "2026-10-19T22:04:23+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2604211116106643",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛岩川私募证券投资基金",
+          "filingNo": "SBWC72",
+          "filedAt": "2026-04-21",
+          "establishedAt": "2026-04-16",
+          "custodian": "华泰证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604211116106643.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2604211116107985",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛宏道原宏观多策略私募证券投资基金",
+          "filingNo": "SBTU04",
+          "filedAt": "2026-04-21",
+          "establishedAt": "2026-03-26",
+          "custodian": "光大证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604211116107985.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2604201551104119",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛廷晟量化一号私募证券投资基金",
+          "filingNo": "SBTA04",
+          "filedAt": "2026-04-20",
+          "establishedAt": "2026-04-15",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604201551104119.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2604171541104361",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛木卫三私募证券投资基金",
+          "filingNo": "SBUD35",
+          "filedAt": "2026-04-17",
+          "establishedAt": "2026-04-08",
+          "custodian": "中信建投证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604171541104361.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-1711241752102480",
+          "id": "2604071917117721",
+          "managerName": "西安榴花私募基金管理有限公司",
+          "name": "榴花精选成长9号私募证券投资基金",
+          "filingNo": "SBRH65",
+          "filedAt": "2026-04-08",
+          "establishedAt": "2026-03-03",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604071917117721.html",
+          "retrievedAt": "2026-10-19T22:04:42+08:00"
+        },
+        {
+          "objectId": "private-101000027983",
+          "id": "2603251915109035",
+          "managerName": "添佑私募基金管理（上海）有限公司",
+          "name": "添佑启元一号私募证券投资基金",
+          "filingNo": "SBRW61",
+          "filedAt": "2026-03-26",
+          "establishedAt": "2026-02-13",
+          "custodian": "华泰证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603251915109035.html",
+          "retrievedAt": "2026-10-19T22:05:10+08:00"
+        },
+        {
+          "objectId": "private-1707261443105960",
+          "id": "2603261527103678",
+          "managerName": "西安蒲公英基金管理有限公司",
+          "name": "蒲公英新经济私募证券投资基金",
+          "filingNo": "SACC03",
+          "filedAt": "2026-03-26",
+          "establishedAt": "2026-03-11",
+          "custodian": "中信证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603261527103678.html",
+          "retrievedAt": "2026-10-19T22:04:49+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2603251448106774",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛荣成精选1号私募证券投资基金",
+          "filingNo": "SBPG91",
+          "filedAt": "2026-03-25",
+          "establishedAt": "2026-03-18",
+          "custodian": "光大证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603251448106774.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-1811231117101176",
+          "id": "2603231643102021",
+          "managerName": "西安景弘基金管理有限公司",
+          "name": "景弘价值长赢七号私募证券投资基金",
+          "filingNo": "SBFH38",
+          "filedAt": "2026-03-23",
+          "establishedAt": "2026-03-04",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603231643102021.html",
+          "retrievedAt": "2026-10-19T22:04:38+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2603191030107776",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛荣成精选2号私募证券投资基金",
+          "filingNo": "SBSS43",
+          "filedAt": "2026-03-19",
+          "establishedAt": "2026-03-12",
+          "custodian": "光大证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603191030107776.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-1809181551101419",
+          "id": "2603181707100624",
+          "managerName": "西咸新区旷特投资管理有限公司",
+          "name": "旷特华寰均衡1号私募证券投资基金",
+          "filingNo": "SBPZ83",
+          "filedAt": "2026-03-18",
+          "establishedAt": "2026-03-03",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603181707100624.html",
+          "retrievedAt": "2026-10-19T22:04:29+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2603021638102444",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛金猫一号私募证券投资基金",
+          "filingNo": "SBND22",
+          "filedAt": "2026-03-02",
+          "establishedAt": "2026-02-11",
+          "custodian": "华泰证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603021638102444.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-101000041857",
+          "id": "2602271455105060",
+          "managerName": "深圳鑫泰禾私募证券投资基金管理有限公司",
+          "name": "鑫泰禾智选2号私募证券投资基金",
+          "filingNo": "SBPQ43",
+          "filedAt": "2026-02-27",
+          "establishedAt": "2026-02-09",
+          "custodian": "中信建投证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602271455105060.html",
+          "retrievedAt": "2026-10-19T22:04:28+08:00"
+        },
+        {
+          "objectId": "private-1704131628105857",
+          "id": "2602251747104062",
+          "managerName": "西安蒙特卡罗基金管理有限公司",
+          "name": "蒙特卡罗卓富9号私募证券投资基金",
+          "filingNo": "SBRT78",
+          "filedAt": "2026-02-25",
+          "establishedAt": "2026-02-11",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602251747104062.html",
+          "retrievedAt": "2026-10-19T22:04:46+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2602121507107460",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛天仓五FOF私募证券投资基金",
+          "filingNo": "SBQA24",
+          "filedAt": "2026-02-12",
+          "establishedAt": "2026-01-26",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602121507107460.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-2110081708117945",
+          "id": "2602121048109407",
+          "managerName": "西安招融博瑞私募基金管理有限公司",
+          "name": "招融森荣多资产配置1号私募证券投资基金",
+          "filingNo": "SBPM56",
+          "filedAt": "2026-02-12",
+          "establishedAt": "2026-01-16",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602121048109407.html",
+          "retrievedAt": "2026-10-19T22:04:36+08:00"
+        },
+        {
+          "objectId": "private-101000007655",
+          "id": "2602121507105584",
+          "managerName": "深圳市滨利投资管理有限公司",
+          "name": "滨利丰裕驷号私募证券投资基金",
+          "filingNo": "SBNF40",
+          "filedAt": "2026-02-12",
+          "establishedAt": "2026-01-26",
+          "custodian": "兴业证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602121507105584.html",
+          "retrievedAt": "2026-10-19T22:04:23+08:00"
+        },
+        {
+          "objectId": "private-1704131628105857",
+          "id": "2602101919100303",
+          "managerName": "西安蒙特卡罗基金管理有限公司",
+          "name": "蒙特卡罗定制10号私募证券投资基金",
+          "filingNo": "SBQA87",
+          "filedAt": "2026-02-10",
+          "establishedAt": "2026-01-26",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602101919100303.html",
+          "retrievedAt": "2026-10-19T22:04:46+08:00"
+        },
+        {
+          "objectId": "private-101000019713",
+          "id": "2602101919102330",
+          "managerName": "深圳国盛祥隆私募证券基金管理有限公司",
+          "name": "国盛祥隆之仁一号私募证券投资基金",
+          "filingNo": "SBPB06",
+          "filedAt": "2026-02-10",
+          "establishedAt": "2026-01-21",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602101919102330.html",
+          "retrievedAt": "2026-10-19T22:04:21+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2602061653107093",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛玉衡量化私募证券投资基金",
+          "filingNo": "SBPA60",
+          "filedAt": "2026-02-06",
+          "establishedAt": "2026-01-19",
+          "custodian": "兴业证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602061653107093.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-1711101618109089",
+          "id": "2602051936100061",
+          "managerName": "西安瀑布资产管理有限公司",
+          "name": "瀑布暮山紫6期私募证券投资基金",
+          "filingNo": "SVV024",
+          "filedAt": "2026-02-05",
+          "establishedAt": "2026-01-20",
+          "custodian": "中信建投证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602051936100061.html",
+          "retrievedAt": "2026-10-19T22:04:44+08:00"
+        },
+        {
+          "objectId": "private-2111231329102046",
+          "id": "2602031721100087",
+          "managerName": "龙泉云锋私募基金管理有限公司",
+          "name": "云锋无尘壹号私募证券投资基金",
+          "filingNo": "SBMW99",
+          "filedAt": "2026-02-03",
+          "establishedAt": "2026-01-09",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602031721100087.html",
+          "retrievedAt": "2026-10-19T22:05:12+08:00"
+        },
+        {
+          "objectId": "private-2007071048106707",
+          "id": "2602021941101782",
+          "managerName": "陕西佑仓资产管理有限公司",
+          "name": "佑仓互智臻选一号私募证券投资基金",
+          "filingNo": "SBKB06",
+          "filedAt": "2026-02-02",
+          "establishedAt": "2025-12-29",
+          "custodian": "华鑫证券有限责任公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602021941101782.html",
+          "retrievedAt": "2026-10-19T22:04:58+08:00"
+        },
+        {
+          "objectId": "private-1709111805102816",
+          "id": "2601301713103796",
+          "managerName": "西安博成基金管理有限公司",
+          "name": "博成定增精选私募证券投资基金",
+          "filingNo": "SBLC06",
+          "filedAt": "2026-01-30",
+          "establishedAt": "2026-01-06",
+          "custodian": "中信建投证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2601301713103796.html",
+          "retrievedAt": "2026-10-19T22:04:31+08:00"
+        },
+        {
+          "objectId": "private-2302071706100055",
+          "id": "2601211440105561",
+          "managerName": "西安迈睿恒力私募基金管理有限公司",
+          "name": "迈睿恒力CTA宏观一号私募证券投资基金",
+          "filingNo": "SBJL81",
+          "filedAt": "2026-01-21",
+          "establishedAt": "2026-01-13",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2601211440105561.html",
+          "retrievedAt": "2026-10-19T22:04:51+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2601091542103664",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛睿驰1号私募证券投资基金",
+          "filingNo": "SBNG98",
+          "filedAt": "2026-01-09",
+          "establishedAt": "2025-12-31",
+          "custodian": "中信建投证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2601091542103664.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-1704131628105857",
+          "id": "2601071650103418",
+          "managerName": "西安蒙特卡罗基金管理有限公司",
+          "name": "蒙特卡罗泽秦新启1号私募证券投资基金",
+          "filingNo": "SBNF68",
+          "filedAt": "2026-01-07",
+          "establishedAt": "2025-12-29",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2601071650103418.html",
+          "retrievedAt": "2026-10-19T22:04:46+08:00"
+        },
+        {
+          "objectId": "private-2111231329102046",
+          "id": "2601071528103713",
+          "managerName": "龙泉云锋私募基金管理有限公司",
+          "name": "云锋七星贰号FOF私募证券投资基金",
+          "filingNo": "SBMQ38",
+          "filedAt": "2026-01-07",
+          "establishedAt": "2025-12-23",
+          "custodian": "中信建投证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2601071528103713.html",
+          "retrievedAt": "2026-10-19T22:05:12+08:00"
+        }
+      ],
+      "months": [
+        {
+          "month": "2026-01",
+          "count": 5,
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92
+        },
+        {
+          "month": "2026-02",
+          "count": 11,
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92
+        },
+        {
+          "month": "2026-03",
+          "count": 7,
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92
+        },
+        {
+          "month": "2026-04",
+          "count": 9,
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92
+        },
+        {
+          "month": "2026-05",
+          "count": 3,
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92
+        },
+        {
+          "month": "2026-06",
+          "count": 12,
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92
+        },
+        {
+          "month": "2026-07",
+          "count": 17,
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92
+        },
+        {
+          "month": "2026-08",
+          "count": 9,
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92
+        },
+        {
+          "month": "2026-09",
+          "count": 6,
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92
+        },
+        {
+          "month": "2026-10",
+          "count": 1,
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92
+        }
+      ]
     }
   },
   "objects": [
@@ -11538,6 +13302,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。公开预留名单及授予公告仅披露15名骨干员工的合计权益，未逐人列示姓名、具体职务及分配数量，无法据此计算个人认购资金或权益。 草案未给出个人绩效分数与归属比例的具体映射，也不提供未来考核结果，不能据此计算个人实际可归属数量。 本文资料范围未覆盖2026年9月22日之后的新增进展；43.10万股剩余预留数量仅代表9月11日披露口径，不代表研究截止时的最新余额。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T12:43:49+08:00",
           "updatedAt": "2026-10-19T12:11:25+08:00",
           "compiledAt": "2026-10-19T12:11:25+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -16671,6 +18436,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T12:43:49+08:00",
           "updatedAt": "2026-10-19T12:00:56+08:00",
           "compiledAt": "2026-10-19T12:00:56+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -16733,6 +18499,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T12:43:49+08:00",
           "updatedAt": "2026-10-19T12:13:24+08:00",
           "compiledAt": "2026-10-19T12:13:24+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -16787,6 +18554,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T12:43:49+08:00",
           "updatedAt": "2026-10-19T12:15:02+08:00",
           "compiledAt": "2026-10-19T12:15:02+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -16834,6 +18602,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T12:43:49+08:00",
           "updatedAt": "2026-10-19T12:16:58+08:00",
           "compiledAt": "2026-10-19T12:16:58+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -16896,6 +18665,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。本次仅形成截至10月15日已披露文件所支持的股东会批准进展，不声称截至本轮编制时仍未签约、未交割或未收款，也不声称此后没有新进展。 公告未逐一列示四名卖方最终现金对价、各自保证金分摊及锁定安排；本文保留该披露边界，不以持股比例推算确定收款。现金支付方式已有明确依据。 历史覆盖限于2025年度持股及账面变化、2026年9月方案和10月股东会进展；未核初始取得成本及全部投资沿革，不计算退出回报率。 年报在本轮补入，实际取得时间为2026年10月19日12:22:14.564140（北京时间），晚于输入中原研究截止时间；不倒填为原截止时已经取得的证据，不推进原来源发现窗口。 年报来源记录未提供披露日期，本文保留未知状态；URL中的日期不单独作为确切披露日证据。 留存检索轨迹中的查询及作者自述未作为正文事实依据。本轮未联网，仅使用哈希核对一致的四份原件及对应文本、原页图片。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T12:43:49+08:00",
           "updatedAt": "2026-10-19T12:28:44+08:00",
           "compiledAt": "2026-10-19T12:28:44+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -17085,6 +18855,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。本次说明会未披露具体投用厂房、面积、产能、交付日期及单体或整体竣工验收日期；正文仅表述一期部分厂房已交付投用，不推断全部完工或付款条件已触发。 本轮留存材料未证明履约保证金实际退还、绿能慧充出资实际到账、代建资产受让完成、贷款余额或股权回购付款完成；相关内容仅按历史协议安排表达，不作当前余额或完成状态判断。 原方案采用2023年年度报告及2025年同项目公告交叉支持，未取得2023-062原始公告，不宣称覆盖全部立项沿革。2023年年度报告第29页对该公告的引用标题含“西安子公司”，与2025年两份公告的引用标题不同；本稿不沿用该引用标题推断实施主体，合资及回购主体依据2025年明确披露。 历史覆盖限于本次提供的四份原件；不宣称部分厂房投用系首次披露，也不以说明会日期代替实际交付或投用日期。 2023年年度报告的确切披露日期未由留存元数据独立确认，文章来源日期留空，不将URL日期当作已核披露时刻。 本轮复用留存原件并核验哈希，未联网；补充历史原件的取得时间晚于原发现截止，不据此推进发现窗口或虚构较早取得时间。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T12:43:49+08:00",
           "updatedAt": "2026-10-19T12:30:10+08:00",
           "compiledAt": "2026-10-19T12:30:10+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -17244,6 +19015,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。已核范围仅为本项目2026年9月7日方案、配套董事会决议及10月9日进展公告，不构成全公司投资历史或截至10月19日的后续进展核查。 已核公告未披露具体土地成交日期、土地款实际支付情况及建设周期的具体起算日；正文保留“近日”“竞得金额”和预计周期，不推定付款、开工或确定竣工日。 已核公告未披露具体融资方式、融资服务机构及证券服务需求，业务段落仅列待确认事项。 原方案于2026年10月19日12:37补入，晚于输入研究截止2026年10月19日09:28；本轮仅补核9月7日历史依据，未推进原发现窗口或将补入时间写成事件发生时间。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T12:43:49+08:00",
           "updatedAt": "2026-10-19T12:40:53+08:00",
           "compiledAt": "2026-10-19T12:40:53+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -17359,922 +19131,6 @@ window.PROTOTYPE = {
     }
   ],
   "editions": [
-    {
-      "id": "selection-ce973d6bf673e69e66c7",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T12:41:50+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-316124b32f1e5ee79216af2b",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-ce973d6bf673e69e66c7/page-01.png",
-          "width": 1080,
-          "height": 2634,
-          "sha256": "8da104f2ad769ca63a635f404ec8c365bef165983cb313ee1125f4fede5f45b1"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-fcc0a4f55855",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-1e5cebc76f34eaba913c",
-          "updateId": "production-316124b32f1e5ee79216af2b",
-          "version": "316124b32f1e5ee79216af2b6c5f3f5e2e56d0995f2a77248f78d49254b95b11",
-          "objectName": "荣信文化",
-          "type": "listed",
-          "category": "并购重组",
-          "date": "2026-10-15",
-          "title": "出售CDP 25%股权获股东会通过，最终价款仍待交割确定",
-          "business": "投资银行",
-          "share": {
-            "title": "出售CDP25%股权获股东会通过，价款待定",
-            "facts": "2026年10月15日，荣信文化股东会同意全资子公司荣信国际出售CDP25%股权。9月方案中，SCHOLASTIC INC.拟以7,100万美元为基础对价收购CDP全部股权，最终价款须调整，并非荣信国际确定可收金额；现有材料未证明签约、交割或收款完成。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-5f794265d3b49f163c3c",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T12:33:57+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-316124b32f1e5ee79216af2b",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-5f794265d3b49f163c3c/page-01.png",
-          "width": 1080,
-          "height": 2634,
-          "sha256": "8da104f2ad769ca63a635f404ec8c365bef165983cb313ee1125f4fede5f45b1"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-f8a1dbe1c249",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-1e5cebc76f34eaba913c",
-          "updateId": "production-316124b32f1e5ee79216af2b",
-          "version": "316124b32f1e5ee79216af2b6c5f3f5e2e56d0995f2a77248f78d49254b95b11",
-          "objectName": "荣信文化",
-          "type": "listed",
-          "category": "并购重组",
-          "date": "2026-10-15",
-          "title": "出售CDP 25%股权获股东会通过，最终价款仍待交割确定",
-          "business": "投资银行",
-          "share": {
-            "title": "出售CDP25%股权获股东会通过，价款待定",
-            "facts": "2026年10月15日，荣信文化股东会同意全资子公司荣信国际出售CDP25%股权。9月方案中，SCHOLASTIC INC.拟以7,100万美元为基础对价收购CDP全部股权，最终价款须调整，并非荣信国际确定可收金额；现有材料未证明签约、交割或收款完成。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-f75f96ad618992dd2a5c",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T12:20:06+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-f75f96ad618992dd2a5c/page-01.png",
-          "width": 1080,
-          "height": 2208,
-          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-63f3d8cda192",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-795c2aa3fda96a71c545",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T12:12:19+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-795c2aa3fda96a71c545/page-01.png",
-          "width": 1080,
-          "height": 2208,
-          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-1dcd317f8995",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-95871be3dda2e11726fb",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T11:57:23+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-95871be3dda2e11726fb/page-01.png",
-          "width": 1080,
-          "height": 2208,
-          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-cebe2c726990",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-8442ff828feb9dc7b07d",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T11:44:33+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-8442ff828feb9dc7b07d/page-01.png",
-          "width": 1080,
-          "height": 2208,
-          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-3e72c728cd0e",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-411e10aeac392ae7b434",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T11:30:27+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-411e10aeac392ae7b434/page-01.png",
-          "width": 1080,
-          "height": 2208,
-          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-ea00c5e0e168",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-ef2dfb75bcbd366e0a6a",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T11:06:36+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-ef2dfb75bcbd366e0a6a/page-01.png",
-          "width": 1080,
-          "height": 2208,
-          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-88774fee9745",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-705d3c181ec6fdf56d79",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T10:37:27+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-705d3c181ec6fdf56d79/page-01.png",
-          "width": 1080,
-          "height": 1252,
-          "sha256": "6efe511160cd167d9d580f54486b02a68b9508374d5f5a8741dafaac168fdc63"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-1f561d4fc9cc",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-16",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-9b45281fb52e2b2dbc3e",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T10:22:43+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-24ccc3dab93962f9134c0c41"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-9b45281fb52e2b2dbc3e/page-01.png",
-          "width": 1080,
-          "height": 746,
-          "sha256": "ad4e08411d343337c1132f14bd4d987480ba96276cef2b3c9d6fc8136fc76a6d"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-4a8b035c9a5e",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-10-16",
-      "rangeEnd": "2026-10-16",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-1d91de66d35b5a3f849e",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T10:06:44+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-24ccc3dab93962f9134c0c41"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-1d91de66d35b5a3f849e/page-01.png",
-          "width": 1080,
-          "height": 746,
-          "sha256": "ad4e08411d343337c1132f14bd4d987480ba96276cef2b3c9d6fc8136fc76a6d"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-0a92cca18812",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-10-16",
-      "rangeEnd": "2026-10-16",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        }
-      ]
-    },
     {
       "id": "2026-10-09-21072c1ad540",
       "date": "2026-10-09",
@@ -18591,6 +19447,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "1a231910fd7ae1e80d80",
+      "date": "2026-10-19",
+      "compiledAt": "2026-10-19T12:40:53+08:00",
+      "cutoff": "2026-10-19T09:28:12+08:00",
+      "snapshotUrl": "publications/1a231910fd7ae1e80d80/index.html",
+      "publishedAt": "2026-10-19T12:43:49+08:00"
+    },
     {
       "id": "b60682ac03a71c99e700",
       "date": "2026-10-19",
