@@ -151,7 +151,8 @@
     const shareText=current&&s.status==='no_eligible_highlights'?'本期暂无可入图新重点':current&&['pending_retry','share_failed'].includes(s.status)?'本期图片待完成':current&&['committed','reused'].includes(s.status)&&s.selectionMode==='current'?'本期精选已导出':'历史精选可回看';
     return `<div class="reading-notice"><span>${coverage?'最近全方向查询范围':'本期资料范围'} ${fmt(coverage?.windowStart||p.windowStart)}—${fmt(coverage?.windowEnd||p.windowEnd)}${coverage?.partial?' · 来源覆盖有缺口':''} · 已核内容陆续更新</span>${publicOutput?'':'<a href="#review">核查与覆盖记录 ↗</a>'}<span class="small muted">${p.status==='public'?'':'本地预览 · 未公开 · '}${shareText}</span></div>`;
   }
-  function applyFilter(list) { const f = pageState().filter; if (f==='全部'||f==='全部动态') return list; return list.filter(u=>u.reading?.group===f||u.event.type===f||types[u.object.type]===f||u.event.topics.includes(f)); }
+  function hasTopic(event,topic) { const tags=event.topics||[]; return tags.includes(topic)||(topic==='并购'&&tags.includes('并购重组')); }
+  function applyFilter(list) { const f = pageState().filter; if (f==='全部'||f==='全部动态') return list; return list.filter(u=>u.reading?.group===f||u.event.type===f||types[u.object.type]===f||hasTopic(u.event,f)); }
   function directoryHTML(type) {
     const count = D.objects.filter(o=>o.type===type).length;
     return `<div class="directory-toolbar"><label class="search-field"><input id="directory-search" type="search" placeholder="输入名称、代码或登记编号" aria-label="筛选观察对象" value="${esc(pageState().query || '')}"></label><span class="small muted">${count} 个${publicOutput?'公开对象':'素材对象 · 名单未更新'}</span></div><div class="directory" id="directory-results">${directoryRows(type,pageState().query || '')}</div><p class="section-note">${publicOutput?'对象身份以已公开核实的字段及其资料时点为准；未收录动态不代表没有发生事件。':'基础身份沿用用户素材；未编排动态的对象仅展示已有身份，本轮未核查其近期事件。'}</p>`;
@@ -165,7 +166,7 @@
     if (page==='listed') fs=readingPolicy?['全部',...readingPolicy.groups,'其他动态']:real?['全部',...new Set(list.map(u=>u.event.type))]:['全部','现金管理','减持','并购','回购','股份解押'];
     if (page==='private') fs=['全部','产品备案','人员变化','机构变化','新纳入'];
     if (page==='platform') fs=real?['全部',...new Set(list.map(u=>u.event.type))]:['全部','基金设立'];
-    if (page==='mergers') { list=list.filter(u=>u.event.topics.includes('并购')); fs=[]; }
+    if (page==='mergers') { list=list.filter(u=>hasTopic(u.event,'并购')); fs=[]; }
     if (page==='equity') { list=list.filter(u=>u.event.topics.includes('股权融资')); fs=[]; }
     let html=heading(config,page==='home'?editionDate():'')+notice();
     if(page==='home'&&production)html+='<div class="selection-entry"><a href="#share">查看业务重点快讯与分享图 ↗</a></div>';

@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-19-1f561d4fc9cc",
-      "compiledAt": "2026-10-19T10:34:40+08:00",
+      "id": "2026-10-19-88774fee9745",
+      "compiledAt": "2026-10-19T11:02:39+08:00",
       "cutoff": "2026-10-19T09:28:12+08:00",
       "windowStart": "2026-10-15",
       "windowEnd": "2026-10-19",
@@ -16,10 +16,20 @@ window.PROTOTYPE = {
       "updateIds": [
         "production-826cf481a1c57f1ffc867413",
         "production-e08892db0b207e8412b1c0f6",
+        "production-b2a91485080ec18e46e10677",
         "production-74b54b243a385d95f5de1c12",
+        "production-4d66a5753c446ef3c52292d3",
         "production-465533cb874bc8ec888d6d3d",
         "production-3dec5c5c0e1c0826ea9ae871",
+        "production-127e319dcf9fb01be65887d0",
+        "production-036b679f225b23e84754fbb2",
+        "production-7497432f091b17c9dfec8598",
+        "production-5aa3a6f5e5da4fabc6a222c2",
+        "production-51d35fa15125c9e71a40847b",
         "production-24ccc3dab93962f9134c0c41",
+        "production-1b0cf9e7659490793fd97288",
+        "production-81348fe7a50f6469adffe552",
+        "production-70a741182f87a5ad4ed5de7a",
         "production-c58b78b9aa4be6a3fd06533b"
       ],
       "status": "public",
@@ -133,7 +143,17 @@ window.PROTOTYPE = {
       "production-465533cb874bc8ec888d6d3d": "2026-10-19T09:59:32+08:00",
       "production-74b54b243a385d95f5de1c12": "2026-10-19T09:59:32+08:00",
       "production-826cf481a1c57f1ffc867413": "2026-10-19T10:22:42+08:00",
-      "production-c58b78b9aa4be6a3fd06533b": "2026-10-19T10:34:40+08:00"
+      "production-c58b78b9aa4be6a3fd06533b": "2026-10-19T10:34:40+08:00",
+      "production-70a741182f87a5ad4ed5de7a": "2026-10-19T10:45:12+08:00",
+      "production-b2a91485080ec18e46e10677": "2026-10-19T10:46:41+08:00",
+      "production-4d66a5753c446ef3c52292d3": "2026-10-19T10:46:41+08:00",
+      "production-036b679f225b23e84754fbb2": "2026-10-19T10:46:41+08:00",
+      "production-127e319dcf9fb01be65887d0": "2026-10-19T10:46:41+08:00",
+      "production-81348fe7a50f6469adffe552": "2026-10-19T10:58:58+08:00",
+      "production-5aa3a6f5e5da4fabc6a222c2": "2026-10-19T11:02:38+08:00",
+      "production-1b0cf9e7659490793fd97288": "2026-10-19T11:02:38+08:00",
+      "production-51d35fa15125c9e71a40847b": "2026-10-19T11:02:38+08:00",
+      "production-7497432f091b17c9dfec8598": "2026-10-19T11:02:38+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -815,6 +835,76 @@ window.PROTOTYPE = {
           "action": "现金管理",
           "group": "理财与现金管理",
           "level": "deep"
+        },
+        "production-70a741182f87a5ad4ed5de7a": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "康惠股份2026年10月10日公告，拟新增2026年度日常关联交易预计额度人民币2,000万元，其中亿安天下1,500万元、安华数据500万元，涉及两关联方向北京康惠智创、上海康惠智创提供技术服务，增加后年度预计总额为7,480万元。该议案已于10月9日获董事会审议通过、关联董事回避表决，10月17日披露的会议资料将其列入10月26日股东会审议事项，尚待股东会审议；上述金额为预计额度，不代表实际发生额。"
+        },
+        "production-b2a91485080ec18e46e10677": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西建工集团股份有限公司2026年10月17日披露，陕西化建工程有限责任公司签订的北京国华疆来科技集团有限公司民丰国华疆来100万千瓦光伏治沙项目工程总承包（EPC）合同列入2026年7月至9月新签较大施工项目合同，金额为人民币25.75亿元。公告未披露具体签订日，并说明上述数据为阶段性统计数据，最终以定期报告为准。"
+        },
+        "production-4d66a5753c446ef3c52292d3": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西建工集团股份有限公司2026年10月17日披露，陕西建工第十六建设有限公司签订的云境智算中心项目（EPC）合同列入2026年7月至9月新签较大施工项目合同，金额为人民币11.55亿元。公告未披露具体签订日，并说明上述数据为阶段性统计数据，最终以定期报告为准。"
+        },
+        "production-036b679f225b23e84754fbb2": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "农心作物科技股份有限公司2026年10月17日公告，公司股票10月14日至16日连续三个交易日收盘价格跌幅偏离值累计超过20%，属于股票交易异常波动。公司表示，经自查并向控股股东及实际控制人核实，截至公告披露日不存在应披露而未披露的重大信息，主营业务及经营情况正常、未发生重大变化，并提示近期股价波动及交易风险。"
+        },
+        "production-127e319dcf9fb01be65887d0": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西建工集团股份有限公司2026年10月17日披露，陕西建工第一建设集团有限公司签订的巴州嘉旭时代200MW/800MWh构网型独立储能电站项目EPC总承包工程合同列入2026年7月至9月新签较大施工项目合同，金额为人民币10.5亿元。公告未披露具体签订日，并说明上述数据为阶段性统计数据，最终以定期报告为准。"
+        },
+        "production-81348fe7a50f6469adffe552": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "据2026年10月10日公告及10月17日披露的股东会资料，康惠股份（含全资及控股子公司）拟新增申请不超过人民币35亿元综合授信，议案已于10月9日经董事会通过，尚待10月26日股东会审议。控股股东悦合智创、关联方北京十纪科技及实际控制人李红明、王雪芳拟提供无偿连带责任保证且无需公司反担保；授信期限为具体合同签订日起一年，额度使用期为本次股东会审议通过日至2026年年度股东会召开日，具体授信以实际审批为准，申请额度不代表实际融资到账。"
+        },
+        "production-5aa3a6f5e5da4fabc6a222c2": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西能源投资集团股份有限公司2026年10月16日披露，2026年第三季度发电量144.07亿千瓦时，同比下降5.37%；煤炭产量656.80万吨，同比增长12.51%。上述数据来自公司内部统计，可能与定期报告披露数据存在差异，不构成对未来经营状况的预测或承诺。"
+        },
+        "production-1b0cf9e7659490793fd97288": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营业收入约106,200.00万元，同比增长约68.50%；归母净利润约44,100.00万元，扣非归母净利润约-15,300.00万元，同比减亏约31.00%。上述数据为公司初步核算结果，未经注册会计师审计，具体财务数据以正式披露的2026年第三季度报告为准。"
+        },
+        "production-51d35fa15125c9e71a40847b": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安奕斯伟材料科技股份有限公司2026年10月16日公告，计划于2026年10月23日9:30—10:30在上证路演中心召开2026年第三季度业绩说明会，以视频录播结合网络互动方式，就第三季度经营成果及财务指标等与投资者交流。"
+        },
+        "production-7497432f091b17c9dfec8598": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西宝光真空电器股份有限公司2026年10月16日公告，计划于2026年10月26日15:00—16:00在上证路演中心以网络互动方式召开2026年第三季度业绩说明会，就第三季度经营成果及财务指标等与投资者交流。"
         }
       }
     },
@@ -824,8 +914,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-10-19-1f561d4fc9cc",
-      "editionId": "selection-705d3c181ec6fdf56d79",
+      "sourceEditionId": "2026-10-19-88774fee9745",
+      "editionId": "selection-ef2dfb75bcbd366e0a6a",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -1304,6 +1394,14 @@ window.PROTOTYPE = {
       "name": "晨曦航空",
       "code": "300581.SZ",
       "market": "SZ",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-600379-sh",
+      "type": "listed",
+      "name": "宝光股份",
+      "code": "600379.SH",
+      "market": "SH",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     }
   ],
@@ -14463,6 +14561,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。现金管理执行资料截至2026年9月24日，未覆盖其后至研究截止日的全部新增购买、赎回及余额变化；本次2,100万元产品尚无赎回及实际收益资料。 2022—2025年授权沿革依据公司2025年半年度专项报告追述，未逐份核对各年度独立授权公告。本轮授权周年日期属于连续条款推算，原公告未直接列示完整起止日期及首尾日包含口径。 九笔历史产品采用2026年9月24日公告列示范围，不代表完整全年流水；该表未逐笔提供实际赎回到账日期，不能将表列到期日直接视为到账日，也不据此计算全年收益或回报率。 未取得本次购买时及研究截止时公司全部可动用募集资金余额；2025年末含利息余额仅作历史背景，授权上限亦不代表待配置资金。 2026-021公告将其所述4,200万元产品称为挂钩型结构性存款，9月公告逐笔列示产品名称和起息日。原件未提供足以逐笔匹配的产品编号，本文不只凭合计金额相同认定两份公告中的记录一一对应。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T10:39:41+08:00",
           "updatedAt": "2026-10-19T10:34:40+08:00",
           "compiledAt": "2026-10-19T10:34:40+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -14763,9 +14862,605 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-91449cddc960d07a2f31",
+      "objectId": "listed-603139-sh",
+      "type": "新增日常关联交易预计额度",
+      "topics": [
+        "关联方技术服务",
+        "新增预计额度",
+        "关联董事回避",
+        "提交股东会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-70a741182f87a5ad4ed5de7a",
+          "date": "2026-10-10",
+          "time": "",
+          "title": "拟新增2,000万元日常关联交易预计额度",
+          "summary": "康惠股份2026年10月10日公告，拟新增2026年度日常关联交易预计额度人民币2,000万元，其中亿安天下1,500万元、安华数据500万元，涉及两关联方向北京康惠智创、上海康惠智创提供技术服务，增加后年度预计总额为7,480万元。该议案已于10月9日获董事会审议通过、关联董事回避表决，10月17日披露的会议资料将其列入10月26日股东会审议事项，尚待股东会审议；上述金额为预计额度，不代表实际发生额。",
+          "stage": "2026年10月9日董事会审议通过，关联董事回避；尚需提交10月26日股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T10:45:12+08:00",
+          "compiledAt": "2026-10-19T10:45:12+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "康惠股份",
+          "version": "70a741182f87a5ad4ed5de7a3c4233983b10ee5c6fca44f53d1df6d0d5f5ae98",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "康惠股份关于新增2026年度日常关联交易预计额度的公告",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-10",
+              "location": "物理第2—3页：预计额度表及脚注；第5页：技术服务内容",
+              "retrievedAt": "2026-10-15T17:08:28+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599922.PDF"
+            },
+            {
+              "title": "康惠股份第六届董事会第十七次会议决议公告",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-10",
+              "location": "物理第2页：第三项议案及表决结果",
+              "retrievedAt": "2026-10-15T17:08:28+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599920.PDF"
+            },
+            {
+              "title": "康惠股份关于召开2026年第六次临时股东会的通知",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-10",
+              "location": "物理第1页：会议日期；第2页：第三项议案",
+              "retrievedAt": "2026-10-15T17:08:28+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599919.PDF"
+            },
+            {
+              "title": "康惠股份2026年第六次临时股东会会议资料",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-17",
+              "location": "物理第5页：会议议程；第10—13页：第三项议案",
+              "retrievedAt": "2026-10-19T09:31:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225607988.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-76c3ebddbdc645597073",
+      "objectId": "listed-600248-sh",
+      "type": "工程合同签订",
+      "topics": [
+        "陕西化建工程有限责任公司",
+        "民丰国华疆来光伏治沙项目EPC合同"
+      ],
+      "updates": [
+        {
+          "id": "production-b2a91485080ec18e46e10677",
+          "date": "2026-10-17",
+          "time": "",
+          "title": "披露民丰国华疆来光伏治沙EPC新签合同，金额25.75亿元",
+          "summary": "陕西建工集团股份有限公司2026年10月17日披露，陕西化建工程有限责任公司签订的北京国华疆来科技集团有限公司民丰国华疆来100万千瓦光伏治沙项目工程总承包（EPC）合同列入2026年7月至9月新签较大施工项目合同，金额为人民币25.75亿元。公告未披露具体签订日，并说明上述数据为阶段性统计数据，最终以定期报告为准。",
+          "stage": "列入2026年7至9月新签较大施工项目合同，未披露具体签订日",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T10:46:42+08:00",
+          "compiledAt": "2026-10-19T10:46:42+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕建股份",
+          "version": "b2a91485080ec18e46e10677dbfac3ba2a727bd4321ece85651c455901eac017",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西建工集团股份有限公司2026年1-9月经营情况简报",
+              "publisher": "陕西建工集团股份有限公司",
+              "date": "2026-10-17",
+              "location": "物理第1页“二、7-9月新签较大合同情况”表格第1项、表后说明及落款",
+              "retrievedAt": "2026-10-19T09:30:58+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225608018.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-0eda132ef9094d1edf93",
+      "objectId": "listed-600248-sh",
+      "type": "工程合同签订",
+      "topics": [
+        "陕西建工第十六建设有限公司",
+        "云境智算中心EPC合同"
+      ],
+      "updates": [
+        {
+          "id": "production-4d66a5753c446ef3c52292d3",
+          "date": "2026-10-17",
+          "time": "",
+          "title": "披露云境智算中心EPC新签合同，金额11.55亿元",
+          "summary": "陕西建工集团股份有限公司2026年10月17日披露，陕西建工第十六建设有限公司签订的云境智算中心项目（EPC）合同列入2026年7月至9月新签较大施工项目合同，金额为人民币11.55亿元。公告未披露具体签订日，并说明上述数据为阶段性统计数据，最终以定期报告为准。",
+          "stage": "列入2026年7至9月新签较大施工项目合同，未披露具体签订日",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T10:46:41+08:00",
+          "compiledAt": "2026-10-19T10:46:41+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕建股份",
+          "version": "4d66a5753c446ef3c52292d3bb366d14de8561d327f51ab50d679a957fd49800",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西建工集团股份有限公司2026年1-9月经营情况简报",
+              "publisher": "陕西建工集团股份有限公司",
+              "date": "2026-10-17",
+              "location": "物理第1页“二、7-9月新签较大合同情况”表格第3项、表后说明及落款",
+              "retrievedAt": "2026-10-19T09:30:58+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225608018.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-8ce78999745af95e22e0",
+      "objectId": "listed-001231-sz",
+      "type": "股票交易异常波动",
+      "topics": [
+        "10月14日至16日股价下跌异动核查",
+        "经营情况及交易风险提示"
+      ],
+      "updates": [
+        {
+          "id": "production-036b679f225b23e84754fbb2",
+          "date": "2026-10-17",
+          "time": "",
+          "title": "披露10月14日至16日股价下跌异动核查结果",
+          "summary": "农心作物科技股份有限公司2026年10月17日公告，公司股票10月14日至16日连续三个交易日收盘价格跌幅偏离值累计超过20%，属于股票交易异常波动。公司表示，经自查并向控股股东及实际控制人核实，截至公告披露日不存在应披露而未披露的重大信息，主营业务及经营情况正常、未发生重大变化，并提示近期股价波动及交易风险。",
+          "stage": "披露连续三个交易日跌幅偏离值累计超过20%的核查结果及风险提示",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T10:46:41+08:00",
+          "compiledAt": "2026-10-19T10:46:41+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "农心科技",
+          "version": "036b679f225b23e84754fbb2f1d02ae7e92f9dbe5d73527233d4b91ad011d5dc",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "农心作物科技股份有限公司关于股票交易异常波动的公告",
+              "publisher": "农心作物科技股份有限公司",
+              "date": "2026-10-17",
+              "location": "物理第1页重要内容提示及异常波动说明；第3页风险提示及落款",
+              "retrievedAt": "2026-10-19T09:30:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225608864.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-9ea89d01187c56df48d4",
+      "objectId": "listed-600248-sh",
+      "type": "工程合同签订",
+      "topics": [
+        "陕西建工第一建设集团有限公司",
+        "巴州嘉旭时代储能电站EPC合同"
+      ],
+      "updates": [
+        {
+          "id": "production-127e319dcf9fb01be65887d0",
+          "date": "2026-10-17",
+          "time": "",
+          "title": "披露巴州嘉旭时代储能电站EPC新签合同，金额10.5亿元",
+          "summary": "陕西建工集团股份有限公司2026年10月17日披露，陕西建工第一建设集团有限公司签订的巴州嘉旭时代200MW/800MWh构网型独立储能电站项目EPC总承包工程合同列入2026年7月至9月新签较大施工项目合同，金额为人民币10.5亿元。公告未披露具体签订日，并说明上述数据为阶段性统计数据，最终以定期报告为准。",
+          "stage": "披露该项目列入2026年7至9月新签合同，未披露具体签订日",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T10:46:42+08:00",
+          "compiledAt": "2026-10-19T10:46:42+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕建股份",
+          "version": "127e319dcf9fb01be65887d0f7e9d4ee66441cf601ee445a88f44a4d58596baf",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西建工集团股份有限公司2026年1-9月经营情况简报",
+              "publisher": "陕西建工集团股份有限公司",
+              "date": "2026-10-17",
+              "location": "物理第1页“二、7-9月新签较大合同情况”表格第4项、表后说明及落款",
+              "retrievedAt": "2026-10-19T09:30:58+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225608018.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-df3cabb016a8ed42841d",
+      "objectId": "listed-603139-sh",
+      "type": "综合授信及配套关联方担保",
+      "topics": [
+        "新增综合授信申请",
+        "接受无偿关联方担保",
+        "提交股东会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-81348fe7a50f6469adffe552",
+          "date": "2026-10-10",
+          "time": "",
+          "title": "拟新增申请不超过35亿元综合授信，接受关联方无偿担保",
+          "summary": "据2026年10月10日公告及10月17日披露的股东会资料，康惠股份（含全资及控股子公司）拟新增申请不超过人民币35亿元综合授信，议案已于10月9日经董事会通过，尚待10月26日股东会审议。控股股东悦合智创、关联方北京十纪科技及实际控制人李红明、王雪芳拟提供无偿连带责任保证且无需公司反担保；授信期限为具体合同签订日起一年，额度使用期为本次股东会审议通过日至2026年年度股东会召开日，具体授信以实际审批为准，申请额度不代表实际融资到账。",
+          "stage": "2026年10月9日董事会审议通过，拟提交10月26日股东会审议；具体授信仍以金融机构实际审批为准",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T10:58:58+08:00",
+          "compiledAt": "2026-10-19T10:58:58+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "康惠股份",
+          "version": "81348fe7a50f6469adffe55279350992a907adc9ecc29ca5249758b88cd35d97",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "康惠股份关于增加综合授信及接受关联方担保的公告",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-10",
+              "location": "物理第1、3、4页",
+              "retrievedAt": "2026-10-15T17:08:28+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599915.PDF"
+            },
+            {
+              "title": "康惠股份第六届董事会第十七次会议决议公告",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-10",
+              "location": "物理第1页，议案一",
+              "retrievedAt": "2026-10-15T17:08:28+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599920.PDF"
+            },
+            {
+              "title": "康惠股份关于召开2026年第六次临时股东会的通知",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-10",
+              "location": "物理第1—2页，会议日期及议案表",
+              "retrievedAt": "2026-10-15T17:08:28+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599919.PDF"
+            },
+            {
+              "title": "康惠股份2026年第六次临时股东会会议资料",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-17",
+              "location": "物理第5—7页，会议议程及议案一；议案落款2026年10月26日为拟召开会议日期",
+              "retrievedAt": "2026-10-19T09:31:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225607988.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-8dc772a1776bc4edfeee",
+      "objectId": "listed-001286-sz",
+      "type": "季度运营数据披露",
+      "topics": [
+        "2026年第三季度",
+        "电力生产",
+        "煤炭产销"
+      ],
+      "updates": [
+        {
+          "id": "production-5aa3a6f5e5da4fabc6a222c2",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "第三季度发电量同比下降5.37%，煤炭产量增长12.51%",
+          "summary": "陕西能源投资集团股份有限公司2026年10月16日披露，2026年第三季度发电量144.07亿千瓦时，同比下降5.37%；煤炭产量656.80万吨，同比增长12.51%。上述数据来自公司内部统计，可能与定期报告披露数据存在差异，不构成对未来经营状况的预测或承诺。",
+          "stage": "已自愿披露2026年第三季度及年内累计主要运营数据",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:02:38+08:00",
+          "compiledAt": "2026-10-19T11:02:38+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西能源",
+          "version": "5aa3a6f5e5da4fabc6a222c2ee33320069279e61ee32f1ea6c4d5b01805a5a48",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西能源投资集团股份有限公司关于2026年第三季度主要运营数据的自愿性信息披露公告",
+              "publisher": "陕西能源投资集团股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1页：主要运营数据表、表下注释及落款",
+              "retrievedAt": "2026-10-16T07:56:21+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225606349.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-b3d6fa2271bbc9c92477",
+      "objectId": "listed-688783-sh",
+      "type": "业绩预告",
+      "topics": [
+        "第三季度业绩初步测算",
+        "归母净利润",
+        "扣非净利润"
+      ],
+      "updates": [
+        {
+          "id": "production-1b0cf9e7659490793fd97288",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
+          "summary": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营业收入约106,200.00万元，同比增长约68.50%；归母净利润约44,100.00万元，扣非归母净利润约-15,300.00万元，同比减亏约31.00%。上述数据为公司初步核算结果，未经注册会计师审计，具体财务数据以正式披露的2026年第三季度报告为准。",
+          "stage": "自愿披露第三季度业绩预告，数据未经审计，正式季度报告尚待披露",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:02:38+08:00",
+          "compiledAt": "2026-10-19T11:02:38+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安奕材",
+          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于2026年第三季度业绩预告的自愿性披露公告",
+              "publisher": "西安奕斯伟材料科技股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1页：预告期间及业绩预告；第3页：风险提示、其他说明及落款",
+              "retrievedAt": "2026-10-16T07:57:12+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225607169.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-73981791eebcbe17dabd",
+      "objectId": "listed-688783-sh",
+      "type": "业绩说明会安排",
+      "topics": [
+        "投资者交流",
+        "2026年第三季度业绩说明会"
+      ],
+      "updates": [
+        {
+          "id": "production-51d35fa15125c9e71a40847b",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "拟于10月23日召开第三季度业绩说明会",
+          "summary": "西安奕斯伟材料科技股份有限公司2026年10月16日公告，计划于2026年10月23日9:30—10:30在上证路演中心召开2026年第三季度业绩说明会，以视频录播结合网络互动方式，就第三季度经营成果及财务指标等与投资者交流。",
+          "stage": "公告计划于2026年10月23日上午9:30至10:30召开，尚未召开",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:02:38+08:00",
+          "compiledAt": "2026-10-19T11:02:38+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安奕材",
+          "version": "51d35fa15125c9e71a40847bd87218db83a02b12a40b7577663c6239a5ff59d5",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "西安奕斯伟材料科技股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1—2页：会议安排及说明会类型；第3页：落款",
+              "retrievedAt": "2026-10-16T07:57:12+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225607124.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-20bb59cb08b485b2eb77",
+      "objectId": "listed-600379-sh",
+      "type": "投资者关系活动",
+      "topics": [
+        "2026年第三季度业绩说明会",
+        "网络互动",
+        "提问预征集"
+      ],
+      "updates": [
+        {
+          "id": "production-7497432f091b17c9dfec8598",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "拟于10月26日召开第三季度业绩说明会",
+          "summary": "陕西宝光真空电器股份有限公司2026年10月16日公告，计划于2026年10月26日15:00—16:00在上证路演中心以网络互动方式召开2026年第三季度业绩说明会，就第三季度经营成果及财务指标等与投资者交流。",
+          "stage": "已公告召开安排，计划于2026年10月26日15:00至16:00召开",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:02:39+08:00",
+          "compiledAt": "2026-10-19T11:02:39+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "宝光股份",
+          "version": "7497432f091b17c9dfec8598bbc49aa78f3c951906dc426b1ba23a494fa3c1ba",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "宝光股份关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "陕西宝光真空电器股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1页：会议安排及说明会类型；第2页：落款",
+              "retrievedAt": "2026-10-16T07:56:37+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225606061.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-ef2dfb75bcbd366e0a6a",
+      "date": "2026-10-19",
+      "cutoff": "2026-10-19T09:28:12+08:00",
+      "compiledAt": "2026-10-19T11:06:36+08:00",
+      "researchCutoff": "2026-10-19T09:28:12+08:00",
+      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
+      "updateIds": [
+        "production-826cf481a1c57f1ffc867413",
+        "production-24ccc3dab93962f9134c0c41",
+        "production-c58b78b9aa4be6a3fd06533b",
+        "production-1b0cf9e7659490793fd97288"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-ef2dfb75bcbd366e0a6a/page-01.png",
+          "width": 1080,
+          "height": 2208,
+          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-19-88774fee9745",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-24",
+      "rangeEnd": "2026-10-19",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-48bfa7422007cff7b15e",
+          "updateId": "production-826cf481a1c57f1ffc867413",
+          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
+          "objectName": "西安中科西光航天科技集团有限公司",
+          "type": "enterprise",
+          "category": "发行股份及支付现金购买资产",
+          "date": "2026-10-19",
+          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
+          "business": "投资银行",
+          "share": {
+            "title": "收购方案仍在协商，尽调审计评估未完成",
+            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
+          }
+        },
+        {
+          "eventId": "production-event-092d57f7b8b9fed8b81a",
+          "updateId": "production-24ccc3dab93962f9134c0c41",
+          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
+          "objectName": "陕西华达",
+          "type": "listed",
+          "category": "首发前股份解除限售及上市流通安排",
+          "date": "2026-10-16",
+          "title": "控股股东5,308.03万股拟于10月19日解除限售",
+          "business": "股份管理",
+          "share": {
+            "title": "5,308.03万股拟于10月19日解禁",
+            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-c58b78b9aa4be6a3fd06533b",
+          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-09-24",
+          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
+          "business": "机构理财",
+          "share": {
+            "title": "购买2,100万元结构性存款",
+            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
+          }
+        },
+        {
+          "eventId": "production-event-b3d6fa2271bbc9c92477",
+          "updateId": "production-1b0cf9e7659490793fd97288",
+          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "业绩预告",
+          "date": "2026-10-16",
+          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
+          "business": "上市公司业绩",
+          "share": {
+            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
+            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-705d3c181ec6fdf56d79",
       "date": "2026-10-19",
@@ -14910,200 +15605,6 @@ window.PROTOTYPE = {
           "share": {
             "title": "5,308.03万股拟于10月19日解禁",
             "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-f527c049f894e0f4501e",
-      "date": "2026-10-16",
-      "cutoff": "2026-10-15T17:07:38+08:00",
-      "compiledAt": "2026-10-16T22:26:59+08:00",
-      "researchCutoff": "2026-10-15T17:07:38+08:00",
-      "sourceDiscoveryCutoff": "2026-10-15T17:07:38+08:00",
-      "updateIds": [
-        "production-402b3fb2810c5ab1db7a6a56",
-        "production-af10250509776a8c77bdc685",
-        "production-47327da3c517df42cb7deafc",
-        "production-0d97fa7c51e2d9d6f9d44688",
-        "production-a40f418bddfa13f86d5b9419",
-        "production-b816580b9e06a785883cbd77",
-        "production-c9f79ce45d5010a063f5e34b",
-        "production-244df99a8d8f7eee71604205",
-        "production-66f5d7a2793c488d57520450",
-        "production-a4575d2af4f24425b8239105"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-f527c049f894e0f4501e/page-01.png",
-          "width": 1080,
-          "height": 2686,
-          "sha256": "e4707d5a72ce93e188209eca4c386c94342c18f7941eb5d61947aaa361253e9a"
-        },
-        {
-          "file": "assets/editions/selection-f527c049f894e0f4501e/page-02.png",
-          "width": 1080,
-          "height": 1890,
-          "sha256": "c3204cad50adb798435c1c4372fbb132dd1a58c0524012c73aebb06489e03b65"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-16-6cb43fa847f0",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-10-09",
-      "rangeEnd": "2026-10-16",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-6cf42803d379d6f0fa63",
-          "updateId": "production-402b3fb2810c5ab1db7a6a56",
-          "version": "402b3fb2810c5ab1db7a6a566512c4355987f9a17ec26005c524785f5f95fbf9",
-          "objectName": "陕西金叶",
-          "type": "listed",
-          "category": "子公司控股股权出售进展",
-          "date": "2026-10-16",
-          "title": "出售两家子公司各51%股权：已收价款6,553.50万元，完成工商变更",
-          "business": "投资银行",
-          "share": {
-            "title": "已收半数股权转让款，完成工商变更",
-            "facts": "公告，全资子公司转让金叶玉阳、新疆金叶各51%股权，已收6,553.50万元，占总价50%；两家标的已完成股东变更工商备案登记。尾款6,553.50万元须交割满一年并满足历史风险核查条款后支付，本次未披露到账或具体交割日期。"
-          }
-        },
-        {
-          "eventId": "production-event-2e3716b18c911c20fb1f",
-          "updateId": "production-af10250509776a8c77bdc685",
-          "version": "af10250509776a8c77bdc685649cd2a55cdf00c3e24956709aad407c06f98cb3",
-          "objectName": "陕鼓动力",
-          "type": "listed",
-          "category": "并购重组",
-          "date": "2026-10-10",
-          "title": "收购秦风气体36.06%股权仍在推进，尚待后续审议审批",
-          "business": "投资银行",
-          "share": {
-            "title": "拟购36.06%股权仍待审议审批",
-            "facts": "公告，拟发行股份购买秦风气体36.06%股权，仍待后续董事会、股东会及监管审批。本次未披露新增审批或交割完成节点，未更新7月预案尚未确定的交易作价及各方股份对价；恒博隆所持标的股权亦未披露解押完成。"
-          }
-        },
-        {
-          "eventId": "production-event-15df8edde01e463577ca",
-          "updateId": "production-47327da3c517df42cb7deafc",
-          "version": "47327da3c517df42cb7deafc7de03e08d708f513aaceb4b4984ee379a8804d2d",
-          "objectName": "炬光科技",
-          "type": "listed",
-          "category": "股权激励",
-          "date": "2026-10-15",
-          "title": "向11人授予剩余43.10万股预留激励权益",
-          "business": "股份管理",
-          "share": {
-            "title": "向11人授予剩余43.10万股预留激励权益",
-            "facts": "以10月14日为授予日，按259.51元/股向11人授予剩余43.10万股预留第二类限制性股票。本批次授予满12个月且满足条件后方可分期归属，尚未完成归属、登记或上市流通。"
-          }
-        },
-        {
-          "eventId": "production-event-6b623fb3c43cdfb6861b",
-          "updateId": "production-0d97fa7c51e2d9d6f9d44688",
-          "version": "0d97fa7c51e2d9d6f9d44688513e1d43e390e0d826d1ba385199c8cb18101b85",
-          "objectName": "源杰科技",
-          "type": "listed",
-          "category": "股权激励调整",
-          "date": "2026-10-14",
-          "title": "调整2024年股权激励：授予价降至43.78元/股，未归属数量调整为55.0135万股",
-          "business": "股份管理",
-          "share": {
-            "title": "激励授予价下调，未归属数量调整",
-            "facts": "董事会已通过因权益分派调整2024年激励计划：首次及预留授予价由65.56元/股降至43.78元/股，已授予未归属数量调至55.0135万股。该数量未扣除同日另案作废的3,042股，本次不代表新授予或实际归属。"
-          }
-        },
-        {
-          "eventId": "real-fenghuo-changling-acquisition",
-          "updateId": "production-a40f418bddfa13f86d5b9419",
-          "version": "a40f418bddfa13f86d5b9419a1dd2b03804dd2047eb9a2322ef4673d82afd63a",
-          "objectName": "烽火电子",
-          "type": "listed",
-          "category": "并购",
-          "date": "2026-10-13",
-          "title": "完成长岭科技2025年度补偿股份注销，共868,395股",
-          "business": "股份管理",
-          "share": {
-            "title": "完成2025年度业绩补偿股份注销",
-            "facts": "公告，长岭科技收购涉及的2025年度业绩补偿股份868,395股已于10月12日定向回购注销，总价人民币1元。注册资本变更等仍为后续安排，本次不代表截至2027年度的全部承诺履行结束。"
-          }
-        },
-        {
-          "eventId": "production-event-d390bfc62684ea15a5bb",
-          "updateId": "production-b816580b9e06a785883cbd77",
-          "version": "b816580b9e06a785883cbd7723d51d652758ee621be18035b081b4a11065ab6c",
-          "objectName": "曲江文旅",
-          "type": "listed",
-          "category": "司法拍卖",
-          "date": "2026-10-13",
-          "title": "控股股东800万股拍卖披露竞价结果，一致行动人竞得160万股",
-          "business": "股份管理",
-          "share": {
-            "title": "800万股拍卖披露结果，仍待裁定及过户",
-            "facts": "控股股东800万股于10月9日至10日被司法拍卖，成交价合计5,640万元；一致行动人陕西圣都广场数字电影院线有限公司竞得160万股。后续仍涉及余款缴纳、法院成交裁定及过户，尚不能认定减持完成或价款到账。"
-          }
-        },
-        {
-          "eventId": "production-event-f42ac7ed09b89a0cb99e",
-          "updateId": "production-c9f79ce45d5010a063f5e34b",
-          "version": "c9f79ce45d5010a063f5e34b719f0ddb719b35e772287b6502653812c549dfbe",
-          "objectName": "特变电工",
-          "type": "listed",
-          "category": "股份回购及后续注销",
-          "date": "2026-10-12",
-          "title": "完成32,543,837股回购股份注销，工商变更尚待办理",
-          "business": "股份管理",
-          "share": {
-            "title": "回购股份注销完成，工商变更尚待办理",
-            "facts": "完成32,543,837股已回购股份注销，占注销前总股本0.64%，总股本减至5,020,248,734股。该批股份原拟用于员工持股或股权激励，2026年改为注销减资；工商变更登记与备案尚待办理。"
-          }
-        },
-        {
-          "eventId": "production-event-06d104e51b0e9f3022b7",
-          "updateId": "production-244df99a8d8f7eee71604205",
-          "version": "244df99a8d8f7eee71604205d8fcdd553043f9bf0fed72849695d14def85db96",
-          "objectName": "瑞联新材",
-          "type": "listed",
-          "category": "减持计划实施结果及权益变动",
-          "date": "2026-10-10",
-          "title": "七名股东减持区间届满，四人合计减持286.42万股",
-          "business": "股份管理",
-          "share": {
-            "title": "减持区间届满，四人合计减持286.42万股",
-            "facts": "七名股东6月29日至9月28日的减持计划区间届满。四人合计减持286.42万股，成交金额合计119,203,201.06元；其中两人完成计划、两人部分实施，王银彬、袁江波、胡湛未实施。"
-          }
-        },
-        {
-          "eventId": "production-event-19422b080ca4c7c9b604",
-          "updateId": "production-66f5d7a2793c488d57520450",
-          "version": "66f5d7a2793c488d5752045026b774db6a9cb752e24a76c2c4590932f31216e5",
-          "objectName": "陕西能源",
-          "type": "listed",
-          "category": "解禁",
-          "date": "2026-10-09",
-          "title": "披露陕投集团24亿股解禁安排，占总股本64%",
-          "business": "股份管理",
-          "share": {
-            "title": "披露24亿股解禁安排，占总股本64%",
-            "facts": "公告，控股股东陕西投资集团有限公司所持24亿股首发前限售股，安排于10月12日上市流通，占总股本64%。尚未据后续材料确认实际完成；解禁不代表减持计划或实际出售。"
-          }
-        },
-        {
-          "eventId": "production-event-68ec2e801d6d69842f1e",
-          "updateId": "production-a4575d2af4f24425b8239105",
-          "version": "a4575d2af4f24425b8239105cf25e23846d33a7064a807fad11392dce2db8ab5",
-          "objectName": "金钼股份",
-          "type": "listed",
-          "category": "业绩快报",
-          "date": "2026-10-13",
-          "title": "披露前三季度业绩快报：归母净利润同比增长30.94%",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "前三季度归母净利润同比增长30.94%",
-            "facts": "披露前三季度业绩快报：营业收入1,244,554.58万元，同比增长14.34%；归母净利润299,384.32万元，同比增长30.94%。金额均为人民币，数据为初步核算、未经审计，具体以2026年第三季度报告为准。"
           }
         }
       ]
@@ -15424,6 +15925,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "f9af9696394ceb5a4ed2",
+      "date": "2026-10-19",
+      "compiledAt": "2026-10-19T10:34:40+08:00",
+      "cutoff": "2026-10-19T09:28:12+08:00",
+      "snapshotUrl": "publications/f9af9696394ceb5a4ed2/index.html",
+      "publishedAt": "2026-10-19T10:39:41+08:00"
+    },
     {
       "id": "b146a8b1005f0049a894",
       "date": "2026-10-19",
