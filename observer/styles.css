@@ -1921,12 +1921,6 @@ table caption { text-align:left; color:var(--muted); font-size:12px; line-height
 .brief-company{padding:12px 0;border-bottom:1px solid var(--line,#deded8)}
 .brief-company h3{font-size:15px;margin:0 0 5px;display:flex;gap:12px;align-items:baseline}
 .brief-row{font-size:15px;line-height:1.75;padding:4px 0;overflow-wrap:anywhere;scroll-margin-top:110px}
-.brief-digest{font-size:15px;line-height:1.75;margin:4px 0 7px;overflow-wrap:anywhere}
-.brief-company-details>summary{font-size:13px;color:var(--muted);cursor:pointer;width:fit-content}
-.brief-company-details[open]>summary{margin-bottom:8px}
-.private-filings{margin-top:18px}.filing-month{padding:12px 0;border-bottom:1px solid var(--line)}
-.filing-month>summary{cursor:pointer;font-size:14px}.filing-product{padding:10px 0;font-size:14px;overflow-wrap:anywhere}
-.filing-product p{margin:4px 0;line-height:1.65}.filing-product .code{margin-left:8px}
 .selection-entry{margin:8px 0 14px;font-size:13px;color:var(--green);text-align:right}
 .news-edition-note{padding:16px 0 20px;border-bottom:1px solid var(--line);margin-bottom:20px}
 .news-edition-note strong{font-size:20px}.news-edition-note p{margin:5px 0;color:var(--muted);font-size:13px;line-height:1.6}
