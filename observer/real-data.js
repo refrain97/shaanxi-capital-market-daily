@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-19-3e72c728cd0e",
-      "compiledAt": "2026-10-19T11:42:13+08:00",
+      "id": "2026-10-19-cebe2c726990",
+      "compiledAt": "2026-10-19T11:54:14+08:00",
       "cutoff": "2026-10-19T09:28:12+08:00",
       "windowStart": "2026-10-15",
       "windowEnd": "2026-10-19",
@@ -25,14 +25,24 @@ window.PROTOTYPE = {
         "production-1288efe869466332bbfd3009",
         "production-127e319dcf9fb01be65887d0",
         "production-036b679f225b23e84754fbb2",
+        "production-f7cb74f1226a9264c313432c",
+        "production-ec3627724d08f778cc50003c",
+        "production-de8cc136ac1ee219d1dcf56c",
+        "production-b7339f16506ee76c2c3a663a",
+        "production-a391884d97175dcaf7d7c189",
+        "production-9fb88d1c8653dfcc15935bed",
         "production-7497432f091b17c9dfec8598",
         "production-5aa3a6f5e5da4fabc6a222c2",
         "production-51d35fa15125c9e71a40847b",
+        "production-2caabe65e5d999591f36b5f9",
+        "production-2bc174a30d1d9428daab687b",
         "production-24ccc3dab93962f9134c0c41",
         "production-1b0cf9e7659490793fd97288",
         "production-a4f78a8aca8f006aa14523dc",
         "production-81348fe7a50f6469adffe552",
         "production-70a741182f87a5ad4ed5de7a",
+        "production-d3e33660b2493a65096bf41f",
+        "production-184ca8417a2bd070cc0b4994",
         "production-c58b78b9aa4be6a3fd06533b"
       ],
       "status": "public",
@@ -160,7 +170,17 @@ window.PROTOTYPE = {
       "production-7497432f091b17c9dfec8598": "2026-10-19T11:02:38+08:00",
       "production-1288efe869466332bbfd3009": "2026-10-19T11:20:50+08:00",
       "production-dd1b4e463557030a20f7ca13": "2026-10-19T11:39:50+08:00",
-      "production-a4f78a8aca8f006aa14523dc": "2026-10-19T11:42:13+08:00"
+      "production-a4f78a8aca8f006aa14523dc": "2026-10-19T11:42:13+08:00",
+      "production-184ca8417a2bd070cc0b4994": "2026-10-19T11:48:40+08:00",
+      "production-d3e33660b2493a65096bf41f": "2026-10-19T11:48:40+08:00",
+      "production-ec3627724d08f778cc50003c": "2026-10-19T11:50:43+08:00",
+      "production-b7339f16506ee76c2c3a663a": "2026-10-19T11:50:43+08:00",
+      "production-2bc174a30d1d9428daab687b": "2026-10-19T11:50:43+08:00",
+      "production-a391884d97175dcaf7d7c189": "2026-10-19T11:50:43+08:00",
+      "production-de8cc136ac1ee219d1dcf56c": "2026-10-19T11:54:13+08:00",
+      "production-9fb88d1c8653dfcc15935bed": "2026-10-19T11:54:13+08:00",
+      "production-2caabe65e5d999591f36b5f9": "2026-10-19T11:54:13+08:00",
+      "production-f7cb74f1226a9264c313432c": "2026-10-19T11:54:13+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261009",
@@ -754,6 +774,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "2026年10月12日，莱特光电披露规模为52,477.90万元的“莱特转债”（118077）发行结果：原股东缴款认购404,476手，网上投资者缴款认购118,595手，弃购的1,708手由中信证券全部包销，包销金额1,708,000元、比例0.33%。网上认购缴款已于10月8日结束，公告对10月12日划款及登记仍作安排性表述，本轮原件未确认募集资金到账、登记或上市完成。"
         },
+        "production-f7cb74f1226a9264c313432c": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "莱特光电2026年10月16日公告，本次可转债募集资金总额为人民币524,779,000.00元，扣除发行费用后的净额为人民币517,876,887.77元，募集资金已于10月12日全部到账。公司及全资子公司蒲城莱特已开立募集资金专户，并按各自参与主体与中信证券及相关银行签署三方、四方监管协议。"
+        },
         "production-3a28c2e4df72a10db01ab24e": {
           "version": "listed-scope-20261009",
           "action": "对外投资",
@@ -939,6 +966,69 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "据2026年10月10日公告及10月17日披露的股东会会议资料，康惠股份拟为子公司新增不超过35亿元担保额度，其中北京康惠智创300,000万元、上海康惠智创50,000万元，额度使用期限自2026年第六次临时股东会审议通过之日起一年。该议案已于10月9日获董事会通过，尚需股东会以特别决议审议；10月10日公告明确，除已披露的担保外，本次尚未签订担保协议。"
+        },
+        "production-184ca8417a2bd070cc0b4994": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "中国西电2026年10月1日公告，朱琦琦因工作原因于9月29日离任公司董事、总经理及董事会战略委员会委员，离任后不再担任公司及控股子公司任何职务。截至公告披露日，朱琦琦已做好离任交接工作。"
+        },
+        "production-d3e33660b2493a65096bf41f": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "中国西电2026年10月1日公告，公司第五届董事会第十四次会议于9月30日审议通过聘任雷明为公司总经理，任期与第五届董事会任期一致。"
+        },
+        "production-ec3627724d08f778cc50003c": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西金叶2026年10月16日公告，全资子公司云南金明源印刷有限公司与浙江浙银金融租赁股份有限公司已签署融资租赁合同，以部分机器设备开展售后回租，租赁本金人民币7,000万元、期限36个月。陕西金叶已签署配套保证合同，提供不可撤销的连带责任保证，保证本金人民币7,000万元；公告未明确披露融资款实际到账情况。"
+        },
+        "production-b7339f16506ee76c2c3a663a": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西黑猫2026年10月16日披露三季报，前三季度营业收入约人民币73.15亿元，同比下降6.84%，归属于上市公司股东的净亏损约人民币6.36亿元。报告已于10月15日经董事会审议通过，第三季度财务报表未经审计。"
+        },
+        "production-2bc174a30d1d9428daab687b": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西黑猫2026年10月16日公告，董事会于10月15日审议通过向控股股东陕西黄河矿业（集团）有限责任公司增加2026年度借款额度50,000万元，增加后年内累计借款不超过250,000万元，无需提交股东会审议。在额度内可分批借还、循环使用，利率不高于同期贷款市场报价利率且无需提供担保；本次披露为额度审批，未披露新增额度项下借款已到账。"
+        },
+        "production-a391884d97175dcaf7d7c189": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西黑猫2026年10月16日公告，计划于10月23日10:00—11:00通过上证路演中心网络互动方式召开2026年第三季度业绩说明会。投资者可于10月16日至10月22日16:00前，通过上证路演中心“提问预征集”栏目或公司邮箱提交问题。"
+        },
+        "production-de8cc136ac1ee219d1dcf56c": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西黑猫2026年10月16日公告，2026年第三季度焦炭产量95.56万吨、销量104.67万吨、不含税销售收入169,833.10万元。上述数据来源于公司报告期内统计，未经审计。"
+        },
+        "production-9fb88d1c8653dfcc15935bed": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西部超导2026年10月16日公告，2026年半年度权益分派以649,664,497股为基数，每股派发现金红利0.2元（含税），合计129,932,899.40元。股权登记日为2026年10月22日，除息日及现金红利发放日均安排在10月23日。"
+        },
+        "production-2caabe65e5d999591f36b5f9": {
+          "version": "listed-scope-20261009",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西部证券2026年10月16日披露公告（落款10月15日），2026年半年度分红以剔除回购专户股份后的4,463,433,805股为基数，每10股派发现金红利人民币0.10元（含税），拟分配44,634,338.05元（含税）。股权登记日为2026年10月22日，除权除息日为10月23日，委托中国结算深圳分公司代派的现金红利计划于10月23日划入股东资金账户。"
         }
       }
     },
@@ -948,8 +1038,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-10-19-3e72c728cd0e",
-      "editionId": "selection-8442ff828feb9dc7b07d",
+      "sourceEditionId": "2026-10-19-cebe2c726990",
+      "editionId": "selection-95871be3dda2e11726fb",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -1444,6 +1534,22 @@ window.PROTOTYPE = {
       "name": "宝光股份",
       "code": "600379.SH",
       "market": "SH",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-601015-sh",
+      "type": "listed",
+      "name": "陕西黑猫",
+      "code": "601015.SH",
+      "market": "SH",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-002673-sz",
+      "type": "listed",
+      "name": "西部证券",
+      "code": "002673.SZ",
+      "market": "SZ",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     }
   ],
@@ -13345,6 +13451,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。研究截止为2026年10月19日09:28:12（北京时间）；本文资料覆盖2026年9月30日投资方案、10月9日会议议案及10月17日决议和配套法律意见，不代表期间公告的完整覆盖。 相关原件未披露具体资金构成、分期筹措安排、已有金融合作机构、建设周期起算日及实际投入或付款金额，也未提供规划审批和施工许可已经完成的依据。股东会批准不能代替建设实施及资金支付证据。 历史对照限于已披露投资方案及后续审议进展，未覆盖更早立项或方案形成过程，不主张本次为首次立项。 技术能力、经营改善和土地价值提升属于公司预期；相关材料未提供量化收益测算，不能据此推算项目回报或公司估值。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T11:46:27+08:00",
           "updatedAt": "2026-10-19T11:39:50+08:00",
           "compiledAt": "2026-10-19T11:39:50+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -13559,6 +13666,40 @@ window.PROTOTYPE = {
               "location": "物理第1—2页，中签结果及公告日期",
               "retrievedAt": "2026-10-09T20:34:30+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225595346.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
+          "id": "production-f7cb74f1226a9264c313432c",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "可转债募集资金到账，已开立专户并签署监管协议",
+          "summary": "莱特光电2026年10月16日公告，本次可转债募集资金总额为人民币524,779,000.00元，扣除发行费用后的净额为人民币517,876,887.77元，募集资金已于10月12日全部到账。公司及全资子公司蒲城莱特已开立募集资金专户，并按各自参与主体与中信证券及相关银行签署三方、四方监管协议。",
+          "stage": "公告确认募集资金于2026年10月12日全部到账，公司及全资子公司已开立募集资金专户并签署监管协议；本公告未证明债券上市完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:54:14+08:00",
+          "compiledAt": "2026-10-19T11:54:14+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "莱特光电",
+          "version": "f7cb74f1226a9264c313432c893f63c7140913755538c219c5478caad02f22ce",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西莱特光电材料股份有限公司关于开立募集资金专户并签署募集资金专户存储三方及四方监管协议的公告",
+              "publisher": "陕西莱特光电材料股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1页募集资金基本情况；第2页专户开立及协议签署情况",
+              "retrievedAt": "2026-10-16T07:56:56+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225607153.PDF"
             }
           ],
           "tables": []
@@ -15683,6 +15824,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T11:46:27+08:00",
           "updatedAt": "2026-10-19T11:42:13+08:00",
           "compiledAt": "2026-10-19T11:42:13+08:00",
           "researchCutoff": "2026-10-19T09:28:12+08:00",
@@ -15732,9 +15874,536 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-262ef8126e20c8d70277",
+      "objectId": "listed-601179-sh",
+      "type": "董事及高级管理人员离任",
+      "topics": [
+        "朱琦琦",
+        "董事离任",
+        "总经理离任",
+        "战略委员会委员离任"
+      ],
+      "updates": [
+        {
+          "id": "production-184ca8417a2bd070cc0b4994",
+          "date": "2026-10-01",
+          "time": "",
+          "title": "朱琦琦因工作原因辞去董事、总经理等职务",
+          "summary": "中国西电2026年10月1日公告，朱琦琦因工作原因于9月29日离任公司董事、总经理及董事会战略委员会委员，离任后不再担任公司及控股子公司任何职务。截至公告披露日，朱琦琦已做好离任交接工作。",
+          "stage": "辞职已生效，离任交接已完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:48:40+08:00",
+          "compiledAt": "2026-10-19T11:48:40+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "中国西电",
+          "version": "184ca8417a2bd070cc0b4994e81e8f75c7a0336f1f7aeb813032587e35ed058e",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "中国西电关于公司董事、总经理离任及聘任总经理并补选非独立董事的公告",
+              "publisher": "中国西电电气股份有限公司董事会",
+              "date": "2026-10-01",
+              "location": "物理第1页：离任说明及基本情况表；第2页：离任交接；第3页：落款",
+              "retrievedAt": "2026-10-09T20:30:35+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225589968.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-5b096db02b57aca6f25f",
+      "objectId": "listed-601179-sh",
+      "type": "高级管理人员聘任",
+      "topics": [
+        "雷明",
+        "总经理聘任"
+      ],
+      "updates": [
+        {
+          "id": "production-d3e33660b2493a65096bf41f",
+          "date": "2026-10-01",
+          "time": "",
+          "title": "聘任雷明为总经理",
+          "summary": "中国西电2026年10月1日公告，公司第五届董事会第十四次会议于9月30日审议通过聘任雷明为公司总经理，任期与第五届董事会任期一致。",
+          "stage": "2026年9月30日董事会审议通过聘任",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:48:40+08:00",
+          "compiledAt": "2026-10-19T11:48:40+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "中国西电",
+          "version": "d3e33660b2493a65096bf41f282921200f6a113c4972118e130abf31f6fd8dc3",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "中国西电第五届董事会第十四次会议决议公告",
+              "publisher": "中国西电电气股份有限公司董事会",
+              "date": "2026-10-01",
+              "location": "物理第1页：会议时间及总经理聘任议案；第2页：落款",
+              "retrievedAt": "2026-10-09T20:30:34+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225589975.PDF"
+            },
+            {
+              "title": "中国西电关于公司董事、总经理离任及聘任总经理并补选非独立董事的公告",
+              "publisher": "中国西电电气股份有限公司董事会",
+              "date": "2026-10-01",
+              "location": "物理第2页：聘任总经理及任期；第3页：落款",
+              "retrievedAt": "2026-10-09T20:30:35+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225589968.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-03d238b12b2740eb981f",
+      "objectId": "listed-000812-sz",
+      "type": "融资租赁及担保",
+      "topics": [
+        "子公司售后回租融资",
+        "连带责任保证"
+      ],
+      "updates": [
+        {
+          "id": "production-ec3627724d08f778cc50003c",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "子公司签署7,000万元售后回租合同，公司提供连带责任保证",
+          "summary": "陕西金叶2026年10月16日公告，全资子公司云南金明源印刷有限公司与浙江浙银金融租赁股份有限公司已签署融资租赁合同，以部分机器设备开展售后回租，租赁本金人民币7,000万元、期限36个月。陕西金叶已签署配套保证合同，提供不可撤销的连带责任保证，保证本金人民币7,000万元；公告未明确披露融资款实际到账情况。",
+          "stage": "融资租赁合同及配套保证合同已签署；未明确披露融资款实际到账",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。公告未明确披露融资款实际到账情况，短记保留该限定。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:50:43+08:00",
+          "compiledAt": "2026-10-19T11:50:43+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西金叶",
+          "version": "ec3627724d08f778cc50003cd0fa60abdd2235e0219ea1352792450684f2ddf4",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于公司向银行等金融机构申请综合授信敞口额度及担保事项的进展公告",
+              "publisher": "陕西金叶科教集团股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第2—3页融资租赁进展，第5页保证合同，第6页落款",
+              "retrievedAt": "2026-10-16T07:56:18+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225606093.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-edc7b8cc35a27372cf6e",
+      "objectId": "listed-601015-sh",
+      "type": "季度报告披露",
+      "topics": [
+        "2026年第三季度报告",
+        "财务业绩",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-b7339f16506ee76c2c3a663a",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "披露三季报：前三季度归母净亏损约6.36亿元",
+          "summary": "陕西黑猫2026年10月16日披露三季报，前三季度营业收入约人民币73.15亿元，同比下降6.84%，归属于上市公司股东的净亏损约人民币6.36亿元。报告已于10月15日经董事会审议通过，第三季度财务报表未经审计。",
+          "stage": "2026年10月15日董事会审议通过，10月16日披露；财务报表未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:50:44+08:00",
+          "compiledAt": "2026-10-19T11:50:44+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西黑猫",
+          "version": "b7339f16506ee76c2c3a663a55875408123d89a424ef2728f289406d2ca9d5cd",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西黑猫：2026年第三季度报告",
+              "publisher": "陕西黑猫焦化股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1页审计状态及主要会计数据；第8页落款日期为2026年10月15日",
+              "retrievedAt": "2026-10-16T07:56:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225606314.PDF"
+            },
+            {
+              "title": "陕西黑猫：第六届董事会第十九次会议决议公告",
+              "publisher": "陕西黑猫焦化股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1页会议召开日期及第一项议案，第2页落款",
+              "retrievedAt": "2026-10-16T07:56:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225606294.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-c4d33f3d79f178120e11",
+      "objectId": "listed-601015-sh",
+      "type": "控股股东借款额度增加",
+      "topics": [
+        "2026年度控股股东借款",
+        "额度增加",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-2bc174a30d1d9428daab687b",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "董事会批准增加控股股东借款额度50,000万元",
+          "summary": "陕西黑猫2026年10月16日公告，董事会于10月15日审议通过向控股股东陕西黄河矿业（集团）有限责任公司增加2026年度借款额度50,000万元，增加后年内累计借款不超过250,000万元，无需提交股东会审议。在额度内可分批借还、循环使用，利率不高于同期贷款市场报价利率且无需提供担保；本次披露为额度审批，未披露新增额度项下借款已到账。",
+          "stage": "2026年10月15日董事会审议通过增加借款额度，无需提交股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。公告未披露新增额度项下借款的实际到账情况，短记仅表述额度审批。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:50:44+08:00",
+          "compiledAt": "2026-10-19T11:50:44+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西黑猫",
+          "version": "2bc174a30d1d9428daab687b5137c37673a23ab1048f207b93b4214630c05d21",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西黑猫：关于增加公司2026年向控股股东借款额度的公告",
+              "publisher": "陕西黑猫焦化股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1页额度及借款条件，第2页审议程序，第3页落款",
+              "retrievedAt": "2026-10-16T07:56:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225606272.PDF"
+            },
+            {
+              "title": "陕西黑猫：第六届董事会第十九次会议决议公告",
+              "publisher": "陕西黑猫焦化股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1—2页第二项议案及表决结果",
+              "retrievedAt": "2026-10-16T07:56:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225606294.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-2f6d17dd1c0852ec00c7",
+      "objectId": "listed-601015-sh",
+      "type": "业绩说明会预告",
+      "topics": [
+        "投资者关系",
+        "第三季度业绩说明会"
+      ],
+      "updates": [
+        {
+          "id": "production-a391884d97175dcaf7d7c189",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "拟于10月23日召开第三季度业绩说明会",
+          "summary": "陕西黑猫2026年10月16日公告，计划于10月23日10:00—11:00通过上证路演中心网络互动方式召开2026年第三季度业绩说明会。投资者可于10月16日至10月22日16:00前，通过上证路演中心“提问预征集”栏目或公司邮箱提交问题。",
+          "stage": "公告拟于2026年10月23日10:00—11:00召开网络业绩说明会",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:50:44+08:00",
+          "compiledAt": "2026-10-19T11:50:44+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西黑猫",
+          "version": "a391884d97175dcaf7d7c1892c76fd53a19318e6ff9aa50d07f34f7de77d5a46",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西黑猫：关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "陕西黑猫焦化股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1页重要提示及会议安排，第2页投资者参加方式及落款",
+              "retrievedAt": "2026-10-16T07:56:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225606259.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-3de43a8bd88f15da3216",
+      "objectId": "listed-601015-sh",
+      "type": "季度经营数据披露",
+      "topics": [
+        "产品产销",
+        "产品价格",
+        "原材料采购价格"
+      ],
+      "updates": [
+        {
+          "id": "production-de8cc136ac1ee219d1dcf56c",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "披露第三季度经营数据：焦炭销量104.67万吨",
+          "summary": "陕西黑猫2026年10月16日公告，2026年第三季度焦炭产量95.56万吨、销量104.67万吨、不含税销售收入169,833.10万元。上述数据来源于公司报告期内统计，未经审计。",
+          "stage": "披露2026年第三季度经营统计数据，未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:54:13+08:00",
+          "compiledAt": "2026-10-19T11:54:13+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西黑猫",
+          "version": "de8cc136ac1ee219d1dcf56c3588249f72abeff09e6b17b809f3bde498b4d787",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西黑猫：2026年第三季度主要经营数据公告",
+              "publisher": "陕西黑猫焦化股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1页主要产品产销收入表；第2页数据说明及落款",
+              "retrievedAt": "2026-10-16T07:56:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225606288.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-cb6109429a3fadd29bb2",
+      "objectId": "listed-688122-sh",
+      "type": "利润分配",
+      "topics": [
+        "半年度现金分红",
+        "股权登记及红利发放安排"
+      ],
+      "updates": [
+        {
+          "id": "production-9fb88d1c8653dfcc15935bed",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "半年度每股派0.2元，拟于10月23日发放",
+          "summary": "西部超导2026年10月16日公告，2026年半年度权益分派以649,664,497股为基数，每股派发现金红利0.2元（含税），合计129,932,899.40元。股权登记日为2026年10月22日，除息日及现金红利发放日均安排在10月23日。",
+          "stage": "权益分派实施安排已公告，股权登记日为2026年10月22日，除息日及现金红利发放日为2026年10月23日；尚非已发放",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:54:13+08:00",
+          "compiledAt": "2026-10-19T11:54:13+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西部超导",
+          "version": "9fb88d1c8653dfcc15935bed189c8c606ce575211cbc4965f459d68ec262e0dd",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年半年度权益分派实施公告",
+              "publisher": "西部超导材料科技股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1—2页分配方案及相关日期表",
+              "retrievedAt": "2026-10-16T07:56:56+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225607233.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-d7385b43bb2f6fc23f92",
+      "objectId": "listed-002673-sz",
+      "type": "权益分派",
+      "topics": [
+        "2026年半年度现金分红",
+        "差异化权益分派",
+        "登记及派息安排"
+      ],
+      "updates": [
+        {
+          "id": "production-2caabe65e5d999591f36b5f9",
+          "date": "2026-10-16",
+          "time": "",
+          "title": "半年度每10股派0.10元，拟于10月23日派息",
+          "summary": "西部证券2026年10月16日披露公告（落款10月15日），2026年半年度分红以剔除回购专户股份后的4,463,433,805股为基数，每10股派发现金红利人民币0.10元（含税），拟分配44,634,338.05元（含税）。股权登记日为2026年10月22日，除权除息日为10月23日，委托中国结算深圳分公司代派的现金红利计划于10月23日划入股东资金账户。",
+          "stage": "已公告实施安排；股权登记日为2026年10月22日，除权除息及计划派息日为2026年10月23日，尚未完成派息",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-19T11:54:14+08:00",
+          "compiledAt": "2026-10-19T11:54:14+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西部证券",
+          "version": "2caabe65e5d999591f36b5f9b6dc50d561b8210e8f9b1fbbce0f9ced837a1d69",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年半年度分红派息实施公告",
+              "publisher": "西部证券股份有限公司",
+              "date": "2026-10-16",
+              "location": "物理第1页分红方案；第3—4页登记、除息及派息安排；第5页落款2026年10月15日",
+              "retrievedAt": "2026-10-16T07:56:23+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225607637.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-95871be3dda2e11726fb",
+      "date": "2026-10-19",
+      "cutoff": "2026-10-19T09:28:12+08:00",
+      "compiledAt": "2026-10-19T11:57:23+08:00",
+      "researchCutoff": "2026-10-19T09:28:12+08:00",
+      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
+      "updateIds": [
+        "production-826cf481a1c57f1ffc867413",
+        "production-24ccc3dab93962f9134c0c41",
+        "production-c58b78b9aa4be6a3fd06533b",
+        "production-1b0cf9e7659490793fd97288"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-95871be3dda2e11726fb/page-01.png",
+          "width": 1080,
+          "height": 2208,
+          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-19-cebe2c726990",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-24",
+      "rangeEnd": "2026-10-19",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-48bfa7422007cff7b15e",
+          "updateId": "production-826cf481a1c57f1ffc867413",
+          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
+          "objectName": "西安中科西光航天科技集团有限公司",
+          "type": "enterprise",
+          "category": "发行股份及支付现金购买资产",
+          "date": "2026-10-19",
+          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
+          "business": "投资银行",
+          "share": {
+            "title": "收购方案仍在协商，尽调审计评估未完成",
+            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
+          }
+        },
+        {
+          "eventId": "production-event-092d57f7b8b9fed8b81a",
+          "updateId": "production-24ccc3dab93962f9134c0c41",
+          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
+          "objectName": "陕西华达",
+          "type": "listed",
+          "category": "首发前股份解除限售及上市流通安排",
+          "date": "2026-10-16",
+          "title": "控股股东5,308.03万股拟于10月19日解除限售",
+          "business": "股份管理",
+          "share": {
+            "title": "5,308.03万股拟于10月19日解禁",
+            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-c58b78b9aa4be6a3fd06533b",
+          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-09-24",
+          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
+          "business": "机构理财",
+          "share": {
+            "title": "购买2,100万元结构性存款",
+            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
+          }
+        },
+        {
+          "eventId": "production-event-b3d6fa2271bbc9c92477",
+          "updateId": "production-1b0cf9e7659490793fd97288",
+          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "业绩预告",
+          "date": "2026-10-16",
+          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
+          "business": "上市公司业绩",
+          "share": {
+            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
+            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-8442ff828feb9dc7b07d",
       "date": "2026-10-19",
@@ -16475,6 +17144,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "06215d540f0282a303d9",
+      "date": "2026-10-19",
+      "compiledAt": "2026-10-19T11:42:13+08:00",
+      "cutoff": "2026-10-19T09:28:12+08:00",
+      "snapshotUrl": "publications/06215d540f0282a303d9/index.html",
+      "publishedAt": "2026-10-19T11:46:27+08:00"
+    },
     {
       "id": "0d0d495a8e8a8fd58ada",
       "date": "2026-10-19",
