@@ -1152,7 +1152,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-10-20-3acef8eec3fd",
       "editionId": "selection-a0c9021d5cbb2a27d0fb",
       "selectionMode": "current"
@@ -19414,6 +19414,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-20T20:56:40+08:00",
           "updatedAt": "2026-10-20T20:52:49+08:00",
           "compiledAt": "2026-10-20T20:52:49+08:00",
           "researchCutoff": "2026-10-20T08:14:36+08:00",
@@ -21526,6 +21527,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-20T20:56:40+08:00",
           "updatedAt": "2026-10-20T20:40:40+08:00",
           "compiledAt": "2026-10-20T20:40:40+08:00",
           "researchCutoff": "2026-10-20T08:14:36+08:00",
@@ -21572,6 +21574,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-20T20:56:40+08:00",
           "updatedAt": "2026-10-20T20:40:40+08:00",
           "compiledAt": "2026-10-20T20:40:40+08:00",
           "researchCutoff": "2026-10-20T08:14:36+08:00",
@@ -22212,6 +22215,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "7a38188566e8a617de1e",
+      "date": "2026-10-20",
+      "compiledAt": "2026-10-20T20:52:49+08:00",
+      "cutoff": "2026-10-20T08:14:36+08:00",
+      "snapshotUrl": "publications/7a38188566e8a617de1e/index.html",
+      "publishedAt": "2026-10-20T20:56:40+08:00"
+    },
     {
       "id": "b597274c5af2702998d0",
       "date": "2026-10-20",
