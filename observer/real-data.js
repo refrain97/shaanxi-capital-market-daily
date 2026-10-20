@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-20-6e738a41d942",
-      "compiledAt": "2026-10-20T20:22:54+08:00",
+      "id": "2026-10-20-3acef8eec3fd",
+      "compiledAt": "2026-10-20T20:52:49+08:00",
       "cutoff": "2026-10-20T08:14:36+08:00",
       "windowStart": "2026-10-18",
       "windowEnd": "2026-10-20",
@@ -18,9 +18,12 @@ window.PROTOTYPE = {
         "production-b103bfece0cf21fe3c58e9f3",
         "production-9f4d45dbfb09ba7edffeea1e",
         "production-7edf3f3502d11931cfd07589",
+        "production-4bf2d480e94c95957b884e41",
         "production-1a27c263716844ff08aef865",
         "production-0fe0e25156a7227d6577227c",
-        "production-09bf9325e329131f1fcc2e90"
+        "production-09bf9325e329131f1fcc2e90",
+        "production-acb3d14bbdc10401a02a08b1",
+        "production-68ee9480c0b3ceba20be1b75"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -174,7 +177,10 @@ window.PROTOTYPE = {
       "production-b103bfece0cf21fe3c58e9f3": "2026-10-20T19:59:08+08:00",
       "production-0fe0e25156a7227d6577227c": "2026-10-20T20:04:38+08:00",
       "production-9f4d45dbfb09ba7edffeea1e": "2026-10-20T20:15:08+08:00",
-      "production-1a27c263716844ff08aef865": "2026-10-20T20:22:53+08:00"
+      "production-1a27c263716844ff08aef865": "2026-10-20T20:22:53+08:00",
+      "production-68ee9480c0b3ceba20be1b75": "2026-10-20T20:40:40+08:00",
+      "production-acb3d14bbdc10401a02a08b1": "2026-10-20T20:40:40+08:00",
+      "production-4bf2d480e94c95957b884e41": "2026-10-20T20:52:49+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -945,6 +951,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营业收入约106,200.00万元，同比增长约68.50%；归母净利润约44,100.00万元，扣非归母净利润约-15,300.00万元，同比减亏约31.00%。上述数据为公司初步核算结果，未经注册会计师审计，具体财务数据以正式披露的2026年第三季度报告为准。"
         },
+        "production-4bf2d480e94c95957b884e41": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安奕材于2026年10月20日披露未经审计的第三季度报告：第三季度归母净利润4.41亿元、扣非归母净利润-1.53亿元，前三季度累计分别为1.51亿元、-4.73亿元（均为人民币）。公司披露，报告期内持有上市公司股票的公允价值变动带来约5.73亿元浮动收益，推动利润总额及净利润增长。"
+        },
         "production-51d35fa15125c9e71a40847b": {
           "version": "listed-scope-20261009",
           "action": "其他",
@@ -1117,6 +1130,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安奕斯伟材料科技股份有限公司2026年10月20日披露的三季报显示，第二工厂持续扩产，预计2026年底随着该工厂达产，公司产能将达到约120万片/月。该数字为公司整体产能预期，并非第二工厂单体产能或已实现的达产结果。"
+        },
+        "production-68ee9480c0b3ceba20be1b75": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "达刚控股2026年10月19日公告，近日收到独立董事谭秋勤通知，其已参加深圳证券交易所举办的上市公司独立董事任前培训（线上），并取得深圳证券交易所创业企业培训中心颁发的《上市公司独立董事培训证明》。"
+        },
+        "production-acb3d14bbdc10401a02a08b1": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "天力复合2026年10月19日披露投资者关系活动记录表，当日开展特定对象调研及现场参观，由财务负责人蒙歆元、董事会秘书何波接待。公司表示，现阶段化工用材整体需求不及预期，行业景气度何时修复仍存在不确定性。"
         }
       }
     },
@@ -1126,8 +1153,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-10-20-6e738a41d942",
-      "editionId": "selection-636f7605800783b40cdd",
+      "sourceEditionId": "2026-10-20-3acef8eec3fd",
+      "editionId": "selection-a0c9021d5cbb2a27d0fb",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -3521,6 +3548,15 @@ window.PROTOTYPE = {
       "publicRelation": "公开融资原文明确的陕西科研成果转化关联；注册地址及统一社会信用代码本轮未核实。"
     },
     {
+      "id": "listed-920576-bj",
+      "type": "listed",
+      "name": "天力复合",
+      "code": "920576.BJ",
+      "market": "BJ",
+      "asOf": "2026-03-31",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000516-sz",
       "type": "listed",
       "name": "国际医学",
@@ -3825,16 +3861,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "天润科技",
       "code": "920564.BJ",
-      "market": "BJ",
-      "asOf": "2026-03-31",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-920576-bj",
-      "type": "listed",
-      "name": "天力复合",
-      "code": "920576.BJ",
       "market": "BJ",
       "asOf": "2026-03-31",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
@@ -19377,6 +19403,40 @@ window.PROTOTYPE = {
             }
           ],
           "tables": []
+        },
+        {
+          "id": "production-4bf2d480e94c95957b884e41",
+          "date": "2026-10-20",
+          "time": "",
+          "title": "第三季度归母净利润4.41亿元，扣非仍亏损1.53亿元",
+          "summary": "西安奕材于2026年10月20日披露未经审计的第三季度报告：第三季度归母净利润4.41亿元、扣非归母净利润-1.53亿元，前三季度累计分别为1.51亿元、-4.73亿元（均为人民币）。公司披露，报告期内持有上市公司股票的公允价值变动带来约5.73亿元浮动收益，推动利润总额及净利润增长。",
+          "stage": "正式第三季度报告已披露，财务报表未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-20T20:52:49+08:00",
+          "compiledAt": "2026-10-20T20:52:49+08:00",
+          "researchCutoff": "2026-10-20T08:14:36+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安奕材",
+          "version": "4bf2d480e94c95957b884e41724fe8fd0e560c3cd712a3ad8d0c5cad91227864",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年第三季度报告",
+              "publisher": "西安奕斯伟材料科技股份有限公司",
+              "date": "2026-10-20",
+              "location": "物理第1—4、6页；第14页落款日期为2026年10月19日",
+              "retrievedAt": "2026-10-20T08:15:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611250.PDF"
+            }
+          ],
+          "tables": []
         }
       ]
     },
@@ -21421,6 +21481,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-20T20:37:49+08:00",
           "updatedAt": "2026-10-20T20:22:53+08:00",
           "compiledAt": "2026-10-20T20:22:53+08:00",
           "researchCutoff": "2026-10-20T08:14:36+08:00",
@@ -21446,9 +21507,159 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-11bac7995594e8e7a542",
+      "objectId": "listed-300103-sz",
+      "type": "独立董事培训动态",
+      "topics": [
+        "谭秋勤取得独立董事培训证明"
+      ],
+      "updates": [
+        {
+          "id": "production-68ee9480c0b3ceba20be1b75",
+          "date": "2026-10-19",
+          "time": "",
+          "title": "独立董事谭秋勤取得独立董事培训证明",
+          "summary": "达刚控股2026年10月19日公告，近日收到独立董事谭秋勤通知，其已参加深圳证券交易所举办的上市公司独立董事任前培训（线上），并取得深圳证券交易所创业企业培训中心颁发的《上市公司独立董事培训证明》。",
+          "stage": "已参加培训并取得培训证明",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-20T20:40:40+08:00",
+          "compiledAt": "2026-10-20T20:40:40+08:00",
+          "researchCutoff": "2026-10-20T08:14:36+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "达刚控股",
+          "version": "68ee9480c0b3ceba20be1b7529fdcc4a3339eef7825160c3121588ad20dac9fe",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于独立董事取得独立董事培训证明的公告",
+              "publisher": "达刚控股集团股份有限公司",
+              "date": "2026-10-19",
+              "location": "物理第1页正文第三段及落款",
+              "retrievedAt": "2026-10-20T08:14:56+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-19/1225610334.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-196b056cc3068bb73fbd",
+      "objectId": "listed-920576-bj",
+      "type": "投资者关系活动",
+      "topics": [
+        "特定对象调研及现场参观",
+        "化工需求与核电产品情况",
+        "产品报价及原材料采购"
+      ],
+      "updates": [
+        {
+          "id": "production-acb3d14bbdc10401a02a08b1",
+          "date": "2026-10-19",
+          "time": "",
+          "title": "接待机构调研，称化工用材需求不及预期",
+          "summary": "天力复合2026年10月19日披露投资者关系活动记录表，当日开展特定对象调研及现场参观，由财务负责人蒙歆元、董事会秘书何波接待。公司表示，现阶段化工用材整体需求不及预期，行业景气度何时修复仍存在不确定性。",
+          "stage": "已于2026年10月19日开展调研接待并披露问答",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-20T20:40:40+08:00",
+          "compiledAt": "2026-10-20T20:40:40+08:00",
+          "researchCutoff": "2026-10-20T08:14:36+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "天力复合",
+          "version": "acb3d14bbdc10401a02a08b17f2627c83819e7c5c5e4b64943d9c29e4fa1a3b9",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "投资者关系活动记录表",
+              "publisher": "西安天力金属复合材料股份有限公司",
+              "date": "2026-10-19",
+              "location": "物理第1页活动类别及活动情况、第2页问题1回答、第4页落款",
+              "retrievedAt": "2026-10-20T08:15:42+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-19/1225610929.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-a0c9021d5cbb2a27d0fb",
+      "date": "2026-10-20",
+      "cutoff": "2026-10-20T08:14:36+08:00",
+      "compiledAt": "2026-10-20T20:54:14+08:00",
+      "researchCutoff": "2026-10-20T08:14:36+08:00",
+      "sourceDiscoveryCutoff": "2026-10-20T08:14:36+08:00",
+      "updateIds": [
+        "production-9f4d45dbfb09ba7edffeea1e",
+        "production-4bf2d480e94c95957b884e41"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-a0c9021d5cbb2a27d0fb/page-01.png",
+          "width": 1080,
+          "height": 1252,
+          "sha256": "8d666bdc5ebfb1b2a01acaf3af4d8ce6486aa5c35745b4c0a9b737527a5bab37"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-20-3acef8eec3fd",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-20",
+      "rangeEnd": "2026-10-20",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-ab69380a2771959827e1",
+          "updateId": "production-9f4d45dbfb09ba7edffeea1e",
+          "version": "9f4d45dbfb09ba7edffeea1e95bf76cf93c552b8308ba7db79caa5d466744141",
+          "objectName": "莱特光电",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-20",
+          "title": "通过55,000万元募集资金现金管理授权，含可转债资金40,000万元",
+          "business": "机构理财",
+          "share": {
+            "title": "不超过5.5亿元闲置募集资金现金管理获批",
+            "facts": "公告，董事会于10月19日通过不超过5.5亿元暂时闲置募集资金现金管理授权，其中IPO资金不超过1.5亿元、可转债资金不超过4亿元。授权自审议通过之日起12个月内有效，额度内可循环使用；本次未披露该授权下具体产品购买结果。"
+          }
+        },
+        {
+          "eventId": "production-event-b3d6fa2271bbc9c92477",
+          "updateId": "production-4bf2d480e94c95957b884e41",
+          "version": "4bf2d480e94c95957b884e41724fe8fd0e560c3cd712a3ad8d0c5cad91227864",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "业绩预告",
+          "date": "2026-10-20",
+          "title": "第三季度归母净利润4.41亿元，扣非仍亏损1.53亿元",
+          "business": "上市公司业绩",
+          "share": {
+            "title": "三季度归母净利4.41亿元，扣非仍亏损",
+            "facts": "披露未经审计的三季报：第三季度归母净利润4.41亿元，扣非归母净亏损1.53亿元；报告期内持有上市公司股票的公允价值变动带来约5.73亿元浮动收益，推动利润增长。金额均为人民币。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-636f7605800783b40cdd",
       "date": "2026-10-20",
@@ -21533,774 +21744,6 @@ window.PROTOTYPE = {
           "share": {
             "title": "不超过5.5亿元闲置募集资金现金管理获批",
             "facts": "公告，董事会于10月19日通过不超过5.5亿元暂时闲置募集资金现金管理授权，其中IPO资金不超过1.5亿元、可转债资金不超过4亿元。授权自审议通过之日起12个月内有效，额度内可循环使用；本次未披露该授权下具体产品购买结果。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-ce973d6bf673e69e66c7",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T12:41:50+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-316124b32f1e5ee79216af2b",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-ce973d6bf673e69e66c7/page-01.png",
-          "width": 1080,
-          "height": 2634,
-          "sha256": "8da104f2ad769ca63a635f404ec8c365bef165983cb313ee1125f4fede5f45b1"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-fcc0a4f55855",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-1e5cebc76f34eaba913c",
-          "updateId": "production-316124b32f1e5ee79216af2b",
-          "version": "316124b32f1e5ee79216af2b6c5f3f5e2e56d0995f2a77248f78d49254b95b11",
-          "objectName": "荣信文化",
-          "type": "listed",
-          "category": "并购重组",
-          "date": "2026-10-15",
-          "title": "出售CDP 25%股权获股东会通过，最终价款仍待交割确定",
-          "business": "投资银行",
-          "share": {
-            "title": "出售CDP25%股权获股东会通过，价款待定",
-            "facts": "2026年10月15日，荣信文化股东会同意全资子公司荣信国际出售CDP25%股权。9月方案中，SCHOLASTIC INC.拟以7,100万美元为基础对价收购CDP全部股权，最终价款须调整，并非荣信国际确定可收金额；现有材料未证明签约、交割或收款完成。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-5f794265d3b49f163c3c",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T12:33:57+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-316124b32f1e5ee79216af2b",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-5f794265d3b49f163c3c/page-01.png",
-          "width": 1080,
-          "height": 2634,
-          "sha256": "8da104f2ad769ca63a635f404ec8c365bef165983cb313ee1125f4fede5f45b1"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-f8a1dbe1c249",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-1e5cebc76f34eaba913c",
-          "updateId": "production-316124b32f1e5ee79216af2b",
-          "version": "316124b32f1e5ee79216af2b6c5f3f5e2e56d0995f2a77248f78d49254b95b11",
-          "objectName": "荣信文化",
-          "type": "listed",
-          "category": "并购重组",
-          "date": "2026-10-15",
-          "title": "出售CDP 25%股权获股东会通过，最终价款仍待交割确定",
-          "business": "投资银行",
-          "share": {
-            "title": "出售CDP25%股权获股东会通过，价款待定",
-            "facts": "2026年10月15日，荣信文化股东会同意全资子公司荣信国际出售CDP25%股权。9月方案中，SCHOLASTIC INC.拟以7,100万美元为基础对价收购CDP全部股权，最终价款须调整，并非荣信国际确定可收金额；现有材料未证明签约、交割或收款完成。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-f75f96ad618992dd2a5c",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T12:20:06+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-f75f96ad618992dd2a5c/page-01.png",
-          "width": 1080,
-          "height": 2208,
-          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-63f3d8cda192",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-795c2aa3fda96a71c545",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T12:12:19+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-795c2aa3fda96a71c545/page-01.png",
-          "width": 1080,
-          "height": 2208,
-          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-1dcd317f8995",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-95871be3dda2e11726fb",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T11:57:23+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-95871be3dda2e11726fb/page-01.png",
-          "width": 1080,
-          "height": 2208,
-          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-cebe2c726990",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-8442ff828feb9dc7b07d",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T11:44:33+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-8442ff828feb9dc7b07d/page-01.png",
-          "width": 1080,
-          "height": 2208,
-          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-3e72c728cd0e",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-411e10aeac392ae7b434",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T11:30:27+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-411e10aeac392ae7b434/page-01.png",
-          "width": 1080,
-          "height": 2208,
-          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-ea00c5e0e168",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-ef2dfb75bcbd366e0a6a",
-      "date": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
-      "compiledAt": "2026-10-19T11:06:36+08:00",
-      "researchCutoff": "2026-10-19T09:28:12+08:00",
-      "sourceDiscoveryCutoff": "2026-10-19T09:28:12+08:00",
-      "updateIds": [
-        "production-826cf481a1c57f1ffc867413",
-        "production-24ccc3dab93962f9134c0c41",
-        "production-c58b78b9aa4be6a3fd06533b",
-        "production-1b0cf9e7659490793fd97288"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-ef2dfb75bcbd366e0a6a/page-01.png",
-          "width": 1080,
-          "height": 2208,
-          "sha256": "461f18518f1d43fa2e2e0456e6b1ec8ed88d78d7ee3b63d77650399cd4942f99"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-19-88774fee9745",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-09-24",
-      "rangeEnd": "2026-10-19",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-48bfa7422007cff7b15e",
-          "updateId": "production-826cf481a1c57f1ffc867413",
-          "version": "826cf481a1c57f1ffc8674134c4e459744007186da054d7d995522c915c70602",
-          "objectName": "西安中科西光航天科技集团有限公司",
-          "type": "enterprise",
-          "category": "发行股份及支付现金购买资产",
-          "date": "2026-10-19",
-          "title": "金利华电拟购中科西光82.50%股权，尽调、审计及评估仍未完成",
-          "business": "投资银行",
-          "share": {
-            "title": "收购方案仍在协商，尽调审计评估未完成",
-            "facts": "2026年10月19日，金利华电披露拟发行股份及支付现金购买西安中科西光航天科技集团有限公司82.50%股权，并募集配套资金。本次为5月预案后续进展，方案仍在协商，尽调、审计及评估尚未完成，仍需审议及监管审核注册，尚未进入正式实施阶段。"
-          }
-        },
-        {
-          "eventId": "production-event-092d57f7b8b9fed8b81a",
-          "updateId": "production-24ccc3dab93962f9134c0c41",
-          "version": "24ccc3dab93962f9134c0c41453b6de9deb8891f61b1b29d0fd06bfbbe3593f8",
-          "objectName": "陕西华达",
-          "type": "listed",
-          "category": "首发前股份解除限售及上市流通安排",
-          "date": "2026-10-16",
-          "title": "控股股东5,308.03万股拟于10月19日解除限售",
-          "business": "股份管理",
-          "share": {
-            "title": "5,308.03万股拟于10月19日解禁",
-            "facts": "公告，控股股东陕西电子西京电气集团有限公司所持5,308.03万股首发前股份拟于10月19日上市流通，占总股本35.0973%。本次为上市流通安排，不代表已流通或已减持。"
-          }
-        },
-        {
-          "eventId": "production-event-7c1a23474426fbf29870",
-          "updateId": "production-c58b78b9aa4be6a3fd06533b",
-          "version": "c58b78b9aa4be6a3fd06533b5e06f98661a4dc436ea70410e83940a43720bb5c",
-          "objectName": "晨曦航空",
-          "type": "listed",
-          "category": "现金管理",
-          "date": "2026-09-24",
-          "title": "购买2,100万元结构性存款，延续闲置募集资金现金管理",
-          "business": "机构理财",
-          "share": {
-            "title": "购买2,100万元结构性存款",
-            "facts": "2026年9月24日，晨曦航空披露使用闲置募集资金购买中国银行2,100万元保本浮动收益型结构性存款，当日起息，约定10月26日到期。截至披露日，相关现金管理未到期余额为2,100万元，含本次购买；尚未取得本次产品赎回及实际收益资料。"
-          }
-        },
-        {
-          "eventId": "production-event-b3d6fa2271bbc9c92477",
-          "updateId": "production-1b0cf9e7659490793fd97288",
-          "version": "1b0cf9e7659490793fd97288be4fb4260210063cd8ddfbf2550ca72438594335",
-          "objectName": "西安奕材",
-          "type": "listed",
-          "category": "业绩预告",
-          "date": "2026-10-16",
-          "title": "预计第三季度归母净利润约44,100万元，扣非仍亏损",
-          "business": "上市公司业绩",
-          "share": {
-            "title": "预计三季度归母盈利4.41亿元，扣非仍亏损",
-            "facts": "西安奕斯伟材料科技股份有限公司2026年10月16日披露，预计2026年第三季度营收约10.62亿元，同比增长约68.50%；归母净利润约4.41亿元，扣非归母净亏损约1.53亿元。数据为初步核算结果，未经审计，以正式三季报为准。"
           }
         }
       ]
@@ -22769,6 +22212,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "b597274c5af2702998d0",
+      "date": "2026-10-20",
+      "compiledAt": "2026-10-20T20:22:54+08:00",
+      "cutoff": "2026-10-20T08:14:36+08:00",
+      "snapshotUrl": "publications/b597274c5af2702998d0/index.html",
+      "publishedAt": "2026-10-20T20:37:49+08:00"
+    },
     {
       "id": "243dc3f009ea0392d9d4",
       "date": "2026-10-20",
