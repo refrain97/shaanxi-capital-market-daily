@@ -5,17 +5,17 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-19-2cc4d37518a7",
-      "compiledAt": "2026-10-19T22:39:03+08:00",
-      "cutoff": "2026-10-19T22:09:47+08:00",
-      "windowStart": "2026-05-08",
-      "windowEnd": "2026-08-18",
-      "researchCutoff": "2026-10-19T22:09:47+08:00",
-      "sourceDiscoveryCutoff": "2026-09-21T22:41:52+08:00",
+      "id": "2026-10-20-68e3e004e92b",
+      "compiledAt": "2026-10-20T19:24:22+08:00",
+      "cutoff": "2026-10-20T08:14:36+08:00",
+      "windowStart": "2026-10-18",
+      "windowEnd": "2026-10-20",
+      "researchCutoff": "2026-10-20T08:14:36+08:00",
+      "sourceDiscoveryCutoff": "2026-10-20T08:14:36+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
-        "production-b04225e15ea01319d461be77",
-        "production-147fb93451c0f90434bb2181"
+        "production-7edf3f3502d11931cfd07589",
+        "production-09bf9325e329131f1fcc2e90"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -162,7 +162,9 @@ window.PROTOTYPE = {
       "production-c2149dee1d85cea6894374cd": "2026-10-19T12:30:10+08:00",
       "production-81800e11b68cc285d2486ad4": "2026-10-19T12:40:53+08:00",
       "production-b04225e15ea01319d461be77": "2026-10-19T22:27:08+08:00",
-      "production-147fb93451c0f90434bb2181": "2026-10-19T22:39:02+08:00"
+      "production-147fb93451c0f90434bb2181": "2026-10-19T22:39:02+08:00",
+      "production-09bf9325e329131f1fcc2e90": "2026-10-20T19:24:21+08:00",
+      "production-7edf3f3502d11931cfd07589": "2026-10-20T19:24:21+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -748,14 +750,14 @@ window.PROTOTYPE = {
           "summary": "陕鼓动力2026年10月17日公告，10月16日召开的股东会通过陕鼓高端装备产业创新研究中心投资议案，同意票占出席会议有效表决权的98.7421%。根据9月30日专项公告及10月9日会议议案，项目由上市公司实施，拟投资不超过人民币67,262万元，最终投资金额以实际投资为准，资金来源为企业自筹，建设周期34个月。本次进展为股东会批准，相关公告未披露开工、实际投入或付款金额。"
         },
         "production-c0340ea725d93ecddd53b1aa": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
           "summary": "2026年10月12日，莱特光电披露规模为52,477.90万元的“莱特转债”（118077）发行结果：原股东缴款认购404,476手，网上投资者缴款认购118,595手，弃购的1,708手由中信证券全部包销，包销金额1,708,000元、比例0.33%。网上认购缴款已于10月8日结束，公告对10月12日划款及登记仍作安排性表述，本轮原件未确认募集资金到账、登记或上市完成。"
         },
         "production-f7cb74f1226a9264c313432c": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
@@ -1057,6 +1059,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "诺瓦星云2026年10月9日公告，全资子公司深圳市诺瓦星云数字技术有限责任公司近日以人民币6473万元竞得深圳市龙岗区坂田街道G03101-0021地块使用权，并签署成交确认书。这是9月7日董事会审议通过的未来显示湾区科技园项目的实施进展，项目不超过人民币6.5亿元的投资总额已包含土地竞买款。原方案拟新建生产厂房及相关产线，建设周期预计36个月，最终以实际建设情况为准。截至本次进展公告，土地出让合同、权属手续及项目相关报批尚待办理。"
+        },
+        "production-09bf9325e329131f1fcc2e90": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安奕斯伟材料科技股份有限公司2026年10月20日公告，近日收到股东陕西省集成电路产业投资基金（有限合伙）的承诺函，承诺自2026年10月28日至2027年4月27日不以任何方式转让或减持所持公司股票，期间因资本公积转增、送股、配股、增发等产生的股份亦适用该承诺。截至公告日，该股东持有317,256,738股，占公司股份的7.86%，承诺期尚未开始。"
+        },
+        "production-7edf3f3502d11931cfd07589": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西广电网络传媒（集团）股份有限公司2026年10月20日披露公告（落款10月19日）：截至9月30日已偿还前期逾期金融债务2,616.12万元；截至本次公告披露日，新增逾期金融债务16,295.53万元，累计逾期36,344.87万元，占最近一期经审计净资产的67.02%。公司表示目前处于预重整阶段，除维系生产经营的必要开支外，不得对外清偿债务，有关债务清偿将依法合规进行。"
         }
       }
     },
@@ -1065,8 +1081,8 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "pending_retry",
-      "sourceEditionId": "2026-10-19-2cc4d37518a7",
+      "status": "no_eligible_highlights",
+      "sourceEditionId": "2026-10-20-68e3e004e92b",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -1078,10 +1094,10 @@ window.PROTOTYPE = {
     "privateFilingHistory": {
       "start": "2026-01-01",
       "end": "2026-10-20",
-      "checkedAt": "2026-10-20T08:20:16+08:00",
+      "checkedAt": "2026-10-20T19:08:00+08:00",
       "scopeCount": 92,
-      "completeManagers": 78,
-      "partialManagers": 14,
+      "completeManagers": 92,
+      "partialManagers": 0,
       "failedManagers": 0,
       "notice": "按既有管理人名单及备案日汇总留存公示中已查得的产品，不是完整注销/清算历史。已清算产品有可核记录也计入；未查得不证明从未备案。托管及运作状态为各条取得时公示，日常只补增量，不每天复查全部旧产品；缺口不填零。",
       "managers": [
@@ -1635,98 +1651,98 @@ window.PROTOTYPE = {
           "objectId": "private-1806131406100721",
           "name": "陕西瑞友晨盛资产管理有限公司",
           "registrationNo": "P1070785",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 0
         },
         {
           "objectId": "private-2105141101101292",
           "name": "陕西碣石私募基金管理有限公司",
           "registrationNo": "P1072485",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 0
         },
         {
           "objectId": "private-2012101805104621",
           "name": "陕西禄格私募基金管理有限公司",
           "registrationNo": "P1072306",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 1
         },
         {
           "objectId": "private-1609220851102223",
           "name": "陕西趋势投资管理有限公司",
           "registrationNo": "P1060669",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 0
         },
         {
           "objectId": "private-101000024937",
           "name": "陕西路路金基金管理有限公司",
           "registrationNo": "P1019175",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 3
         },
         {
           "objectId": "private-2107201836101899",
           "name": "陕西鑫旅私募基金管理有限公司",
           "registrationNo": "P1072863",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 0
         },
         {
           "objectId": "private-101000012244",
           "name": "陕西铁马投资管理有限公司",
           "registrationNo": "P1007845",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 0
         },
         {
           "objectId": "private-1706082037101131",
           "name": "陕西顺义成投资管理有限公司",
           "registrationNo": "P1064558",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 0
         },
         {
           "objectId": "private-2103262010107683",
           "name": "青岛华源锦成私募基金管理有限公司",
           "registrationNo": "P1072146",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 0
         },
         {
           "objectId": "private-101000040485",
           "name": "上海卓铸私募基金管理有限公司",
           "registrationNo": "P1027840",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 0
         },
         {
           "objectId": "private-101000026206",
           "name": "深圳抱朴容易私募证券基金管理有限公司",
           "registrationNo": "P1020607",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 2
         },
         {
           "objectId": "private-101000027983",
           "name": "添佑私募基金管理（上海）有限公司",
           "registrationNo": "P1018901",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 1
         },
         {
           "objectId": "private-1705251723108664",
           "name": "苏州水润山禾私募基金管理有限公司",
           "registrationNo": "P1064295",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 4
         },
         {
           "objectId": "private-2111231329102046",
           "name": "龙泉云锋私募基金管理有限公司",
           "registrationNo": "P1073744",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 2
         }
       ],
@@ -2838,8 +2854,8 @@ window.PROTOTYPE = {
         },
         {
           "month": "2026-10",
-          "coverageComplete": false,
-          "coveredManagers": 78,
+          "coverageComplete": true,
+          "coveredManagers": 92,
           "scopeCount": 92,
           "count": 1
         }
@@ -20848,6 +20864,97 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-46e8da2270c6a4d56ddf",
+      "objectId": "listed-688783-sh",
+      "type": "股东自愿不减持承诺",
+      "topics": [
+        "陕西集成电路基金",
+        "六个月不转让或减持承诺"
+      ],
+      "updates": [
+        {
+          "id": "production-09bf9325e329131f1fcc2e90",
+          "date": "2026-10-20",
+          "time": "",
+          "title": "陕西集成电路基金承诺自10月28日起六个月不减持",
+          "summary": "西安奕斯伟材料科技股份有限公司2026年10月20日公告，近日收到股东陕西省集成电路产业投资基金（有限合伙）的承诺函，承诺自2026年10月28日至2027年4月27日不以任何方式转让或减持所持公司股票，期间因资本公积转增、送股、配股、增发等产生的股份亦适用该承诺。截至公告日，该股东持有317,256,738股，占公司股份的7.86%，承诺期尚未开始。",
+          "stage": "公司已收到股东承诺函，承诺期间为2026年10月28日至2027年4月27日，尚未开始",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-20T19:24:22+08:00",
+          "compiledAt": "2026-10-20T19:24:22+08:00",
+          "researchCutoff": "2026-10-20T08:14:36+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安奕材",
+          "version": "09bf9325e329131f1fcc2e90671488b1b6b30d58efda2e931a458899890c1b25",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于持股5%以上股东自愿承诺不减持公司股份的公告",
+              "publisher": "西安奕斯伟材料科技股份有限公司",
+              "date": "2026-10-20",
+              "location": "物理第1页：收到承诺函说明、承诺内容及持股情况表",
+              "retrievedAt": "2026-10-20T08:15:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611255.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-b744505583b686effe04",
+      "objectId": "listed-600831-sh",
+      "type": "金融债务逾期进展",
+      "topics": [
+        "前期逾期债务部分偿还",
+        "新增银行及融资租赁债务逾期",
+        "累计逾期余额"
+      ],
+      "updates": [
+        {
+          "id": "production-7edf3f3502d11931cfd07589",
+          "date": "2026-10-20",
+          "time": "",
+          "title": "新增金融债务逾期16,295.53万元，累计逾期36,344.87万元",
+          "summary": "陕西广电网络传媒（集团）股份有限公司2026年10月20日披露公告（落款10月19日）：截至9月30日已偿还前期逾期金融债务2,616.12万元；截至本次公告披露日，新增逾期金融债务16,295.53万元，累计逾期36,344.87万元，占最近一期经审计净资产的67.02%。公司表示目前处于预重整阶段，除维系生产经营的必要开支外，不得对外清偿债务，有关债务清偿将依法合规进行。",
+          "stage": "截至9月30日已偿还前期逾期债务2616.12万元；截至公告披露日新增逾期16295.53万元，累计逾期36344.87万元",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-20T19:24:22+08:00",
+          "compiledAt": "2026-10-20T19:24:22+08:00",
+          "researchCutoff": "2026-10-20T08:14:36+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "广电网络",
+          "version": "7edf3f3502d11931cfd07589ecae795deb4305932d52310f9d11e0da80fcb43a",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于部分金融债务逾期进展的公告",
+              "publisher": "陕西广电网络传媒（集团）股份有限公司",
+              "date": "2026-10-20",
+              "location": "物理第1页：金融债务逾期进展、新增逾期表及累计金额；物理第2页：公告落款2026年10月19日",
+              "retrievedAt": "2026-10-20T08:15:16+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225610775.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -22083,6 +22190,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "2cfc3c026bbc99ee9419",
+      "date": "2026-10-20",
+      "compiledAt": "2026-10-19T22:39:03+08:00",
+      "cutoff": "2026-10-19T22:09:47+08:00",
+      "snapshotUrl": "publications/2cfc3c026bbc99ee9419/index.html",
+      "publishedAt": "2026-10-20T19:02:37+08:00"
+    },
     {
       "id": "6053f9768b2709f934d6",
       "date": "2026-10-20",
