@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-20-315a7ad83a42",
-      "compiledAt": "2026-10-20T20:15:09+08:00",
+      "id": "2026-10-20-6e738a41d942",
+      "compiledAt": "2026-10-20T20:22:54+08:00",
       "cutoff": "2026-10-20T08:14:36+08:00",
       "windowStart": "2026-10-18",
       "windowEnd": "2026-10-20",
@@ -18,6 +18,7 @@ window.PROTOTYPE = {
         "production-b103bfece0cf21fe3c58e9f3",
         "production-9f4d45dbfb09ba7edffeea1e",
         "production-7edf3f3502d11931cfd07589",
+        "production-1a27c263716844ff08aef865",
         "production-0fe0e25156a7227d6577227c",
         "production-09bf9325e329131f1fcc2e90"
       ],
@@ -172,7 +173,8 @@ window.PROTOTYPE = {
       "production-e23c757849867445ff34faa7": "2026-10-20T19:59:08+08:00",
       "production-b103bfece0cf21fe3c58e9f3": "2026-10-20T19:59:08+08:00",
       "production-0fe0e25156a7227d6577227c": "2026-10-20T20:04:38+08:00",
-      "production-9f4d45dbfb09ba7edffeea1e": "2026-10-20T20:15:08+08:00"
+      "production-9f4d45dbfb09ba7edffeea1e": "2026-10-20T20:15:08+08:00",
+      "production-1a27c263716844ff08aef865": "2026-10-20T20:22:53+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1108,6 +1110,13 @@ window.PROTOTYPE = {
           "action": "现金管理",
           "group": "理财与现金管理",
           "level": "deep"
+        },
+        "production-1a27c263716844ff08aef865": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安奕斯伟材料科技股份有限公司2026年10月20日披露的三季报显示，第二工厂持续扩产，预计2026年底随着该工厂达产，公司产能将达到约120万片/月。该数字为公司整体产能预期，并非第二工厂单体产能或已实现的达产结果。"
         }
       }
     },
@@ -1117,8 +1126,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-10-20-315a7ad83a42",
-      "editionId": "selection-e23ccdcffc43dd373af8",
+      "sourceEditionId": "2026-10-20-6e738a41d942",
+      "editionId": "selection-636f7605800783b40cdd",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -17315,6 +17324,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-20T20:20:38+08:00",
           "updatedAt": "2026-10-20T20:04:38+08:00",
           "compiledAt": "2026-10-20T20:04:38+08:00",
           "researchCutoff": "2026-10-20T08:14:36+08:00",
@@ -21173,6 +21183,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。2026年7—9月没有已提供的逐笔产品原页，当前只引用公告的12个月汇总；不宣称已核完整流水，不拆分该季度交易、收益或受托机构。 历史产品表未提供逐笔实际利息收入及实际到账日；原文“赎回”与约定期限分别展示，不将约定到期日写成实际到账日，不以预期年化收益率计算实际收益。 原件未明确2026年2月授权与本次IPO资金额度的替代或终止安排；本文不作可叠加或已经替代的判断，不据此计算新增可配置资金。 本次两份原件未披露该授权下的具体产品、受托机构、购买金额和收益；此为授权阶段的披露边界，不等于已经确认公司未发生交易。 当前公告取得时间晚于输入研究截止2026年10月20日08:14:36，历史补件取得时间亦晚于该截止。本稿依本轮授权使用留存及补入材料，保留各自资料日期和取得时间，不声称这些材料在截止分钟以前已经可见，也不推进原发现窗口。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-20T20:20:38+08:00",
           "updatedAt": "2026-10-20T20:15:08+08:00",
           "compiledAt": "2026-10-20T20:15:08+08:00",
           "researchCutoff": "2026-10-20T08:14:36+08:00",
@@ -21390,9 +21401,98 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-b74e46c4d12787eb596d",
+      "objectId": "listed-688783-sh",
+      "type": "自营工厂扩产进展",
+      "topics": [
+        "第二工厂持续扩产",
+        "年底产能预期"
+      ],
+      "updates": [
+        {
+          "id": "production-1a27c263716844ff08aef865",
+          "date": "2026-10-20",
+          "time": "",
+          "title": "第二工厂持续扩产，预计年底达产后公司产能约120万片/月",
+          "summary": "西安奕斯伟材料科技股份有限公司2026年10月20日披露的三季报显示，第二工厂持续扩产，预计2026年底随着该工厂达产，公司产能将达到约120万片/月。该数字为公司整体产能预期，并非第二工厂单体产能或已实现的达产结果。",
+          "stage": "报告披露第二工厂持续扩产，预计2026年底达产；尚未确认达产完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-20T20:22:53+08:00",
+          "compiledAt": "2026-10-20T20:22:53+08:00",
+          "researchCutoff": "2026-10-20T08:14:36+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安奕材",
+          "version": "1a27c263716844ff08aef865b7405ac10e1be930d38515b20d2892da367d4ec5",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年第三季度报告",
+              "publisher": "西安奕斯伟材料科技股份有限公司",
+              "date": "2026-10-20",
+              "location": "物理第6—7页，三、其他提醒事项",
+              "retrievedAt": "2026-10-20T08:15:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611250.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-636f7605800783b40cdd",
+      "date": "2026-10-20",
+      "cutoff": "2026-10-20T08:14:36+08:00",
+      "compiledAt": "2026-10-20T20:35:22+08:00",
+      "researchCutoff": "2026-10-20T08:14:36+08:00",
+      "sourceDiscoveryCutoff": "2026-10-20T08:14:36+08:00",
+      "updateIds": [
+        "production-9f4d45dbfb09ba7edffeea1e"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-636f7605800783b40cdd/page-01.png",
+          "width": 1080,
+          "height": 800,
+          "sha256": "21c319fc935347a32eb4ebdb8b17cbccf28b73f871b8cd0afa9e4d0162837d4e"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-20-6e738a41d942",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-20",
+      "rangeEnd": "2026-10-20",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-ab69380a2771959827e1",
+          "updateId": "production-9f4d45dbfb09ba7edffeea1e",
+          "version": "9f4d45dbfb09ba7edffeea1e95bf76cf93c552b8308ba7db79caa5d466744141",
+          "objectName": "莱特光电",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-20",
+          "title": "通过55,000万元募集资金现金管理授权，含可转债资金40,000万元",
+          "business": "机构理财",
+          "share": {
+            "title": "不超过5.5亿元闲置募集资金现金管理获批",
+            "facts": "公告，董事会于10月19日通过不超过5.5亿元暂时闲置募集资金现金管理授权，其中IPO资金不超过1.5亿元、可转债资金不超过4亿元。授权自审议通过之日起12个月内有效，额度内可循环使用；本次未披露该授权下具体产品购买结果。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-e23ccdcffc43dd373af8",
       "date": "2026-10-20",
@@ -22669,6 +22769,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "243dc3f009ea0392d9d4",
+      "date": "2026-10-20",
+      "compiledAt": "2026-10-20T20:15:09+08:00",
+      "cutoff": "2026-10-20T08:14:36+08:00",
+      "snapshotUrl": "publications/243dc3f009ea0392d9d4/index.html",
+      "publishedAt": "2026-10-20T20:20:38+08:00"
+    },
     {
       "id": "78e2e92c3daa209c0afc",
       "date": "2026-10-20",
