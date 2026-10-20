@@ -20616,6 +20616,14 @@ window.PROTOTYPE = {
   ],
   "publications": [
     {
+      "id": "dc05a622da0ae604bcd7",
+      "date": "2026-10-20",
+      "compiledAt": "2026-10-19T22:39:03+08:00",
+      "cutoff": "2026-10-19T22:09:47+08:00",
+      "snapshotUrl": "publications/dc05a622da0ae604bcd7/index.html",
+      "publishedAt": "2026-10-20T08:26:20+08:00"
+    },
+    {
       "id": "75f17d04bba499944c04",
       "date": "2026-10-19",
       "compiledAt": "2026-10-19T22:39:03+08:00",
