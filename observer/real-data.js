@@ -922,7 +922,7 @@ window.PROTOTYPE = {
           "summary": "陕西能源投资集团股份有限公司2026年10月16日披露，2026年第三季度发电量144.07亿千瓦时，同比下降5.37%；煤炭产量656.80万吨，同比增长12.51%。上述数据来自公司内部统计，可能与定期报告披露数据存在差异，不构成对未来经营状况的预测或承诺。"
         },
         "production-1b0cf9e7659490793fd97288": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
@@ -20884,6 +20884,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-20T19:26:36+08:00",
           "updatedAt": "2026-10-20T19:24:22+08:00",
           "compiledAt": "2026-10-20T19:24:22+08:00",
           "researchCutoff": "2026-10-20T08:14:36+08:00",
@@ -20930,6 +20931,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-20T19:26:36+08:00",
           "updatedAt": "2026-10-20T19:24:22+08:00",
           "compiledAt": "2026-10-20T19:24:22+08:00",
           "researchCutoff": "2026-10-20T08:14:36+08:00",
@@ -22190,6 +22192,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "d4489cda8599140a07e5",
+      "date": "2026-10-20",
+      "compiledAt": "2026-10-20T19:24:22+08:00",
+      "cutoff": "2026-10-20T08:14:36+08:00",
+      "snapshotUrl": "publications/d4489cda8599140a07e5/index.html",
+      "publishedAt": "2026-10-20T19:26:36+08:00"
+    },
     {
       "id": "2cfc3c026bbc99ee9419",
       "date": "2026-10-20",
