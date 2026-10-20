@@ -1065,23 +1065,23 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "historical_supplement_no_daily_image",
+      "status": "pending_retry",
       "sourceEditionId": "2026-10-19-2cc4d37518a7",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
-      "windowStart": "2026-10-15",
-      "windowEnd": "2026-10-19",
-      "cutoff": "2026-10-19T09:28:12+08:00",
+      "windowStart": "2026-10-18",
+      "windowEnd": "2026-10-20",
+      "cutoff": "2026-10-20T08:14:36+08:00",
       "partial": true
     },
     "privateFilingHistory": {
       "start": "2026-01-01",
-      "end": "2026-10-19",
-      "checkedAt": "2026-10-19T22:05:13+08:00",
+      "end": "2026-10-20",
+      "checkedAt": "2026-10-20T08:20:16+08:00",
       "scopeCount": 92,
-      "completeManagers": 92,
-      "partialManagers": 0,
+      "completeManagers": 78,
+      "partialManagers": 14,
       "failedManagers": 0,
       "notice": "按既有管理人名单及备案日汇总留存公示中已查得的产品，不是完整注销/清算历史。已清算产品有可核记录也计入；未查得不证明从未备案。托管及运作状态为各条取得时公示，日常只补增量，不每天复查全部旧产品；缺口不填零。",
       "managers": [
@@ -1635,98 +1635,98 @@ window.PROTOTYPE = {
           "objectId": "private-1806131406100721",
           "name": "陕西瑞友晨盛资产管理有限公司",
           "registrationNo": "P1070785",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 0
         },
         {
           "objectId": "private-2105141101101292",
           "name": "陕西碣石私募基金管理有限公司",
           "registrationNo": "P1072485",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 0
         },
         {
           "objectId": "private-2012101805104621",
           "name": "陕西禄格私募基金管理有限公司",
           "registrationNo": "P1072306",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 1
         },
         {
           "objectId": "private-1609220851102223",
           "name": "陕西趋势投资管理有限公司",
           "registrationNo": "P1060669",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 0
         },
         {
           "objectId": "private-101000024937",
           "name": "陕西路路金基金管理有限公司",
           "registrationNo": "P1019175",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 3
         },
         {
           "objectId": "private-2107201836101899",
           "name": "陕西鑫旅私募基金管理有限公司",
           "registrationNo": "P1072863",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 0
         },
         {
           "objectId": "private-101000012244",
           "name": "陕西铁马投资管理有限公司",
           "registrationNo": "P1007845",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 0
         },
         {
           "objectId": "private-1706082037101131",
           "name": "陕西顺义成投资管理有限公司",
           "registrationNo": "P1064558",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 0
         },
         {
           "objectId": "private-2103262010107683",
           "name": "青岛华源锦成私募基金管理有限公司",
           "registrationNo": "P1072146",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 0
         },
         {
           "objectId": "private-101000040485",
           "name": "上海卓铸私募基金管理有限公司",
           "registrationNo": "P1027840",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 0
         },
         {
           "objectId": "private-101000026206",
           "name": "深圳抱朴容易私募证券基金管理有限公司",
           "registrationNo": "P1020607",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 2
         },
         {
           "objectId": "private-101000027983",
           "name": "添佑私募基金管理（上海）有限公司",
           "registrationNo": "P1018901",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 1
         },
         {
           "objectId": "private-1705251723108664",
           "name": "苏州水润山禾私募基金管理有限公司",
           "registrationNo": "P1064295",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 4
         },
         {
           "objectId": "private-2111231329102046",
           "name": "龙泉云锋私募基金管理有限公司",
           "registrationNo": "P1073744",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 2
         }
       ],
@@ -1849,19 +1849,6 @@ window.PROTOTYPE = {
           "retrievedAt": "2026-10-19T22:05:10+08:00"
         },
         {
-          "objectId": "private-101000019713",
-          "id": "2608191751102128",
-          "managerName": "深圳国盛祥隆私募证券基金管理有限公司",
-          "name": "国盛祥隆观势逐焰私募证券投资基金",
-          "filingNo": "SCW505",
-          "filedAt": "2026-08-19",
-          "establishedAt": "2026-08-10",
-          "custodian": "国金证券股份有限公司",
-          "state": "正在运作",
-          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608191751102128.html",
-          "retrievedAt": "2026-10-19T22:04:21+08:00"
-        },
-        {
           "objectId": "private-101000026206",
           "id": "2608191751102308",
           "managerName": "深圳抱朴容易私募证券基金管理有限公司",
@@ -1873,6 +1860,19 @@ window.PROTOTYPE = {
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608191751102308.html",
           "retrievedAt": "2026-10-19T22:05:09+08:00"
+        },
+        {
+          "objectId": "private-101000019713",
+          "id": "2608191751102128",
+          "managerName": "深圳国盛祥隆私募证券基金管理有限公司",
+          "name": "国盛祥隆观势逐焰私募证券投资基金",
+          "filingNo": "SCW505",
+          "filedAt": "2026-08-19",
+          "establishedAt": "2026-08-10",
+          "custodian": "国金证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2608191751102128.html",
+          "retrievedAt": "2026-10-19T22:04:21+08:00"
         },
         {
           "objectId": "private-1704131628105857",
@@ -2006,19 +2006,6 @@ window.PROTOTYPE = {
         },
         {
           "objectId": "private-101000007655",
-          "id": "2607241347108754",
-          "managerName": "深圳市滨利投资管理有限公司",
-          "name": "滨利东方红31号私募证券投资基金",
-          "filingNo": "SCM543",
-          "filedAt": "2026-07-24",
-          "establishedAt": "2026-07-17",
-          "custodian": "兴业证券股份有限公司",
-          "state": "正在运作",
-          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607241347108754.html",
-          "retrievedAt": "2026-10-19T22:04:23+08:00"
-        },
-        {
-          "objectId": "private-101000007655",
           "id": "2607241727104417",
           "managerName": "深圳市滨利投资管理有限公司",
           "name": "滨利成长价值27号私募证券投资基金",
@@ -2028,6 +2015,19 @@ window.PROTOTYPE = {
           "custodian": "中国国际金融股份有限公司",
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607241727104417.html",
+          "retrievedAt": "2026-10-19T22:04:23+08:00"
+        },
+        {
+          "objectId": "private-101000007655",
+          "id": "2607241347108754",
+          "managerName": "深圳市滨利投资管理有限公司",
+          "name": "滨利东方红31号私募证券投资基金",
+          "filingNo": "SCM543",
+          "filedAt": "2026-07-24",
+          "establishedAt": "2026-07-17",
+          "custodian": "兴业证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607241347108754.html",
           "retrievedAt": "2026-10-19T22:04:23+08:00"
         },
         {
@@ -2083,19 +2083,6 @@ window.PROTOTYPE = {
           "retrievedAt": "2026-10-19T22:04:42+08:00"
         },
         {
-          "objectId": "private-2012101805104621",
-          "id": "2607080903108151",
-          "managerName": "陕西禄格私募基金管理有限公司",
-          "name": "禄格永兴2号私募证券投资基金",
-          "filingNo": "SBPV13",
-          "filedAt": "2026-07-08",
-          "establishedAt": "2026-06-11",
-          "custodian": "中信证券股份有限公司",
-          "state": "正在运作",
-          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607080903108151.html",
-          "retrievedAt": "2026-10-19T22:05:04+08:00"
-        },
-        {
           "objectId": "private-1711281250109293",
           "id": "2607080903108425",
           "managerName": "西安柏石私募基金管理有限公司",
@@ -2107,6 +2094,19 @@ window.PROTOTYPE = {
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607080903108425.html",
           "retrievedAt": "2026-10-19T22:04:41+08:00"
+        },
+        {
+          "objectId": "private-2012101805104621",
+          "id": "2607080903108151",
+          "managerName": "陕西禄格私募基金管理有限公司",
+          "name": "禄格永兴2号私募证券投资基金",
+          "filingNo": "SBPV13",
+          "filedAt": "2026-07-08",
+          "establishedAt": "2026-06-11",
+          "custodian": "中信证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2607080903108151.html",
+          "retrievedAt": "2026-10-19T22:05:04+08:00"
         },
         {
           "objectId": "private-101000051182",
@@ -2200,19 +2200,6 @@ window.PROTOTYPE = {
           "retrievedAt": "2026-10-19T22:04:34+08:00"
         },
         {
-          "objectId": "private-1709111805102816",
-          "id": "2606171628104028",
-          "managerName": "西安博成基金管理有限公司",
-          "name": "博成骏智私募证券投资基金",
-          "filingNo": "SBSS20",
-          "filedAt": "2026-06-17",
-          "establishedAt": "2026-06-01",
-          "custodian": "华泰证券股份有限公司",
-          "state": "正在运作",
-          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606171628104028.html",
-          "retrievedAt": "2026-10-19T22:04:31+08:00"
-        },
-        {
           "objectId": "private-1705251723108664",
           "id": "2606171628106479",
           "managerName": "苏州水润山禾私募基金管理有限公司",
@@ -2224,6 +2211,19 @@ window.PROTOTYPE = {
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606171628106479.html",
           "retrievedAt": "2026-10-19T22:05:10+08:00"
+        },
+        {
+          "objectId": "private-1709111805102816",
+          "id": "2606171628104028",
+          "managerName": "西安博成基金管理有限公司",
+          "name": "博成骏智私募证券投资基金",
+          "filingNo": "SBSS20",
+          "filedAt": "2026-06-17",
+          "establishedAt": "2026-06-01",
+          "custodian": "华泰证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606171628104028.html",
+          "retrievedAt": "2026-10-19T22:04:31+08:00"
         },
         {
           "objectId": "private-1903261107103383",
@@ -2239,19 +2239,6 @@ window.PROTOTYPE = {
           "retrievedAt": "2026-10-19T22:04:12+08:00"
         },
         {
-          "objectId": "private-1609091201100265",
-          "id": "2606101448109486",
-          "managerName": "海南天辉私募基金管理有限公司",
-          "name": "天辉炼金私募证券投资基金",
-          "filingNo": "SANG03",
-          "filedAt": "2026-06-10",
-          "establishedAt": "2026-06-01",
-          "custodian": "招商证券股份有限公司",
-          "state": "正在运作",
-          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606101448109486.html",
-          "retrievedAt": "2026-10-19T22:04:18+08:00"
-        },
-        {
           "objectId": "private-2007071048106707",
           "id": "2606101857100711",
           "managerName": "陕西佑仓资产管理有限公司",
@@ -2263,6 +2250,19 @@ window.PROTOTYPE = {
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606101857100711.html",
           "retrievedAt": "2026-10-19T22:04:58+08:00"
+        },
+        {
+          "objectId": "private-1609091201100265",
+          "id": "2606101448109486",
+          "managerName": "海南天辉私募基金管理有限公司",
+          "name": "天辉炼金私募证券投资基金",
+          "filingNo": "SANG03",
+          "filedAt": "2026-06-10",
+          "establishedAt": "2026-06-01",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2606101448109486.html",
+          "retrievedAt": "2026-10-19T22:04:18+08:00"
         },
         {
           "objectId": "private-1704131628105857",
@@ -2409,19 +2409,6 @@ window.PROTOTYPE = {
         },
         {
           "objectId": "private-2008111918106744",
-          "id": "2604211116106643",
-          "managerName": "陕西九和岛基金管理有限公司",
-          "name": "九和岛岩川私募证券投资基金",
-          "filingNo": "SBWC72",
-          "filedAt": "2026-04-21",
-          "establishedAt": "2026-04-16",
-          "custodian": "华泰证券股份有限公司",
-          "state": "正在运作",
-          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604211116106643.html",
-          "retrievedAt": "2026-10-19T22:04:52+08:00"
-        },
-        {
-          "objectId": "private-2008111918106744",
           "id": "2604211116107985",
           "managerName": "陕西九和岛基金管理有限公司",
           "name": "九和岛宏道原宏观多策略私募证券投资基金",
@@ -2431,6 +2418,19 @@ window.PROTOTYPE = {
           "custodian": "光大证券股份有限公司",
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604211116107985.html",
+          "retrievedAt": "2026-10-19T22:04:52+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2604211116106643",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛岩川私募证券投资基金",
+          "filingNo": "SBWC72",
+          "filedAt": "2026-04-21",
+          "establishedAt": "2026-04-16",
+          "custodian": "华泰证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2604211116106643.html",
           "retrievedAt": "2026-10-19T22:04:52+08:00"
         },
         {
@@ -2473,19 +2473,6 @@ window.PROTOTYPE = {
           "retrievedAt": "2026-10-19T22:04:42+08:00"
         },
         {
-          "objectId": "private-101000027983",
-          "id": "2603251915109035",
-          "managerName": "添佑私募基金管理（上海）有限公司",
-          "name": "添佑启元一号私募证券投资基金",
-          "filingNo": "SBRW61",
-          "filedAt": "2026-03-26",
-          "establishedAt": "2026-02-13",
-          "custodian": "华泰证券股份有限公司",
-          "state": "正在运作",
-          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603251915109035.html",
-          "retrievedAt": "2026-10-19T22:05:10+08:00"
-        },
-        {
           "objectId": "private-1707261443105960",
           "id": "2603261527103678",
           "managerName": "西安蒲公英基金管理有限公司",
@@ -2497,6 +2484,19 @@ window.PROTOTYPE = {
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603261527103678.html",
           "retrievedAt": "2026-10-19T22:04:49+08:00"
+        },
+        {
+          "objectId": "private-101000027983",
+          "id": "2603251915109035",
+          "managerName": "添佑私募基金管理（上海）有限公司",
+          "name": "添佑启元一号私募证券投资基金",
+          "filingNo": "SBRW61",
+          "filedAt": "2026-03-26",
+          "establishedAt": "2026-02-13",
+          "custodian": "华泰证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2603251915109035.html",
+          "retrievedAt": "2026-10-19T22:05:10+08:00"
         },
         {
           "objectId": "private-2008111918106744",
@@ -2603,19 +2603,6 @@ window.PROTOTYPE = {
           "retrievedAt": "2026-10-19T22:04:52+08:00"
         },
         {
-          "objectId": "private-2110081708117945",
-          "id": "2602121048109407",
-          "managerName": "西安招融博瑞私募基金管理有限公司",
-          "name": "招融森荣多资产配置1号私募证券投资基金",
-          "filingNo": "SBPM56",
-          "filedAt": "2026-02-12",
-          "establishedAt": "2026-01-16",
-          "custodian": "招商证券股份有限公司",
-          "state": "正在运作",
-          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602121048109407.html",
-          "retrievedAt": "2026-10-19T22:04:36+08:00"
-        },
-        {
           "objectId": "private-101000007655",
           "id": "2602121507105584",
           "managerName": "深圳市滨利投资管理有限公司",
@@ -2629,17 +2616,17 @@ window.PROTOTYPE = {
           "retrievedAt": "2026-10-19T22:04:23+08:00"
         },
         {
-          "objectId": "private-1704131628105857",
-          "id": "2602101919100303",
-          "managerName": "西安蒙特卡罗基金管理有限公司",
-          "name": "蒙特卡罗定制10号私募证券投资基金",
-          "filingNo": "SBQA87",
-          "filedAt": "2026-02-10",
-          "establishedAt": "2026-01-26",
+          "objectId": "private-2110081708117945",
+          "id": "2602121048109407",
+          "managerName": "西安招融博瑞私募基金管理有限公司",
+          "name": "招融森荣多资产配置1号私募证券投资基金",
+          "filingNo": "SBPM56",
+          "filedAt": "2026-02-12",
+          "establishedAt": "2026-01-16",
           "custodian": "招商证券股份有限公司",
           "state": "正在运作",
-          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602101919100303.html",
-          "retrievedAt": "2026-10-19T22:04:46+08:00"
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602121048109407.html",
+          "retrievedAt": "2026-10-19T22:04:36+08:00"
         },
         {
           "objectId": "private-101000019713",
@@ -2653,6 +2640,19 @@ window.PROTOTYPE = {
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602101919102330.html",
           "retrievedAt": "2026-10-19T22:04:21+08:00"
+        },
+        {
+          "objectId": "private-1704131628105857",
+          "id": "2602101919100303",
+          "managerName": "西安蒙特卡罗基金管理有限公司",
+          "name": "蒙特卡罗定制10号私募证券投资基金",
+          "filingNo": "SBQA87",
+          "filedAt": "2026-02-10",
+          "establishedAt": "2026-01-26",
+          "custodian": "招商证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2602101919100303.html",
+          "retrievedAt": "2026-10-19T22:04:46+08:00"
         },
         {
           "objectId": "private-2008111918106744",
@@ -2776,71 +2776,71 @@ window.PROTOTYPE = {
         {
           "month": "2026-01",
           "count": 5,
-          "coverageComplete": true,
-          "coveredManagers": 92,
+          "coverageComplete": false,
+          "coveredManagers": 78,
           "scopeCount": 92
         },
         {
           "month": "2026-02",
           "count": 11,
-          "coverageComplete": true,
-          "coveredManagers": 92,
+          "coverageComplete": false,
+          "coveredManagers": 78,
           "scopeCount": 92
         },
         {
           "month": "2026-03",
           "count": 7,
-          "coverageComplete": true,
-          "coveredManagers": 92,
+          "coverageComplete": false,
+          "coveredManagers": 78,
           "scopeCount": 92
         },
         {
           "month": "2026-04",
           "count": 9,
-          "coverageComplete": true,
-          "coveredManagers": 92,
+          "coverageComplete": false,
+          "coveredManagers": 78,
           "scopeCount": 92
         },
         {
           "month": "2026-05",
           "count": 3,
-          "coverageComplete": true,
-          "coveredManagers": 92,
+          "coverageComplete": false,
+          "coveredManagers": 78,
           "scopeCount": 92
         },
         {
           "month": "2026-06",
           "count": 12,
-          "coverageComplete": true,
-          "coveredManagers": 92,
+          "coverageComplete": false,
+          "coveredManagers": 78,
           "scopeCount": 92
         },
         {
           "month": "2026-07",
           "count": 17,
-          "coverageComplete": true,
-          "coveredManagers": 92,
+          "coverageComplete": false,
+          "coveredManagers": 78,
           "scopeCount": 92
         },
         {
           "month": "2026-08",
           "count": 9,
-          "coverageComplete": true,
-          "coveredManagers": 92,
+          "coverageComplete": false,
+          "coveredManagers": 78,
           "scopeCount": 92
         },
         {
           "month": "2026-09",
           "count": 6,
-          "coverageComplete": true,
-          "coveredManagers": 92,
+          "coverageComplete": false,
+          "coveredManagers": 78,
           "scopeCount": 92
         },
         {
           "month": "2026-10",
           "count": 1,
-          "coverageComplete": true,
-          "coveredManagers": 92,
+          "coverageComplete": false,
+          "coveredManagers": 78,
           "scopeCount": 92
         }
       ]
@@ -19131,6 +19131,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。已补足人才基金历史投资的金额、表列股权比例和决策时间；已核材料仍未注明该项投资对应融资轮次、整轮融资总额或共同投资方，正文不将其称为A轮，也不冒称覆盖全部融资历史。 募集说明书的决策时间与本次文章回述的获得投资时间属于不同口径；现有材料未明确二者的交割对应关系，正文不合并计数、不认定为两笔投资。 本次融资精确金额、各投资方出资额、估值、持股比例和具体到账安排未在留存正文披露，不作推算。 募集说明书采用第三方留存副本，具体披露日期未知；仅引用已经查看原图的相关页，不声称已核完整报告或当前在线版本。 补充的H3、H4报道主体均为西安穹顶医疗科技有限公司，与本事项主体不同，已排除，不列为中科光凝文章来源。 本轮未联网。留存检索轨迹可证明此前执行过查询，但未附可独立核读的搜索结果原文，不以作者自述的查询结论证明历史记录不存在。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T22:48:11+08:00",
           "updatedAt": "2026-10-19T22:32:32+08:00",
           "compiledAt": "2026-10-19T22:32:32+08:00",
           "researchCutoff": "2026-10-19T22:09:47+08:00",
@@ -19246,6 +19247,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。历史范围限于所提供的2023年Pre-A轮报道及其天使轮追述、2025年A轮报道、两只基金截至2025年6月末的投资记录和本轮A+披露，不声称已覆盖全部融资历史。 本轮及前轮材料未提供完整出资法律主体名单、各方出资额、估值和到账明细；保留原文机构简称与金额精度，不推算估值或资金全部到账。 两只基金的决策日期与平台所述获得支持月份尚无逐笔签约、付款连接材料。本文仅分别报告原文口径，不将两条基金记录自行认定为某一轮全部出资，也不由金额和股权比例倒算估值。 基金股权比例仅为募集说明书截至2025年6月末的披露口径，不能用于表示本轮融资后的持股比例。 募集说明书使用第三方留存副本，具体发布日期未知；前轮材料分别为媒体报道和转载，未冒充公司或投资方官方公告。 本轮未联网，未推进来源发现窗口。五份来源文件的SHA-256均与输入清单一致；已查看所提供的四张PDF原页。独立核查尚未执行。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T22:48:11+08:00",
           "updatedAt": "2026-10-19T22:39:03+08:00",
           "compiledAt": "2026-10-19T22:39:03+08:00",
           "researchCutoff": "2026-10-19T22:09:47+08:00",
@@ -20613,6 +20615,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "75f17d04bba499944c04",
+      "date": "2026-10-19",
+      "compiledAt": "2026-10-19T22:39:03+08:00",
+      "cutoff": "2026-10-19T22:09:47+08:00",
+      "snapshotUrl": "publications/75f17d04bba499944c04/index.html",
+      "publishedAt": "2026-10-19T22:48:11+08:00"
+    },
     {
       "id": "1a231910fd7ae1e80d80",
       "date": "2026-10-19",
