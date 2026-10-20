@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#25473d">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%2325473d' d='M4 13h6v15H4zM13 4h6v24h-6z'/%3E%3Cpath fill='%23a76845' d='M22 18h6v10h-6z'/%3E%3C/svg%3E">
+  <title>陕西资本观察 · 网页产品原型</title>
+  <link rel="stylesheet" href="styles.css?v=f03d95bef6f6a193">
+  <script defer src="mode.js?v=f03d95bef6f6a193"></script>
+<style id="reading-scope-20261019">
+.brief-digest{font-size:15px;line-height:1.75;margin:4px 0 7px;overflow-wrap:anywhere}
+.brief-company-details>summary{font-size:13px;color:var(--muted);cursor:pointer;width:fit-content}
+.brief-company-details[open]>summary{margin-bottom:8px}
+.private-filings{margin-top:18px}.filing-month{padding:12px 0;border-bottom:1px solid var(--line)}
+.filing-month>summary{cursor:pointer;font-size:14px}.filing-product{padding:10px 0;font-size:14px;overflow-wrap:anywhere}
+.filing-product p{margin:4px 0;line-height:1.65}.filing-product .code{margin-left:8px}
+.filing-layout{display:grid;grid-template-columns:minmax(0,1fr) 174px;gap:42px;align-items:start}
+.filing-intro .section-note{margin-bottom:10px}.filing-month{scroll-margin-top:112px;padding:16px 0 10px}
+.filing-month>h3{display:flex;align-items:baseline;gap:16px;margin:0 0 8px;font-size:23px;font-weight:600}
+.filing-month>h3 span{font-size:13px;font-weight:400;color:var(--muted)}
+.filing-product{padding:11px 0;border-top:1px solid var(--line)}
+.filing-product-title{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;line-height:1.6}
+.filing-product-title>a{font-weight:600;font-size:16px}.filing-product-title .code{margin:0;font-size:12px;color:var(--muted)}
+.filing-date{margin-left:16px;color:var(--muted)}.filing-product-meta{color:var(--muted);font-size:13px}
+.filing-sidebar{position:sticky;top:108px;border-left:1px solid var(--line);padding-left:20px;margin-top:20px}
+.filing-sidebar h3{font-size:13px;margin:0 0 10px;color:var(--muted);font-weight:500}
+.filing-sidebar nav a{display:flex;justify-content:space-between;gap:8px;padding:7px 0;font-size:13px}
+.filing-sidebar strong{font-weight:500}.filing-sidebar small{font-size:11px;color:var(--muted);font-weight:400}
+.filing-gap{font-size:12px;color:var(--muted);margin:8px 0}.filing-coverage{font-size:13px;padding:18px 0}
+.filing-coverage summary{cursor:pointer;color:var(--muted)}
+@media(max-width:760px){.filing-layout{display:block}.filing-sidebar{position:static;border-left:0;border-top:1px solid var(--line);padding:16px 0 0;margin-top:16px}.filing-sidebar nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}.filing-month>h3{font-size:21px;gap:12px;flex-wrap:wrap}.filing-product-title>a{font-size:15px}.filing-date{margin-left:10px}.filing-month{scroll-margin-top:100px}}
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至正文</a>
+  <header class="site-header">
+    <div class="masthead shell">
+      <a class="brand" href="#home" aria-label="陕西资本观察 综合首页"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>陕西资本观察</span></a>
+      <div class="header-tools"><span class="edition-tag">第一版原型</span><a href="#history" data-nav="history">历史回看</a><a href="#share" data-nav="share">精选分享 <span aria-hidden="true">↗</span></a><button class="search-trigger" data-action="search" aria-label="查找公司或管理人"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg><span>查找对象</span></button></div>
+    </div>
+    <nav class="top-nav shell" aria-label="主导航"><a href="#home" data-nav="home">综合首页</a><span class="nav-group-label">客群</span><a href="#listed" data-nav="listed">上市公司</a><a href="#private" data-nav="private">证券私募</a><a href="#platform" data-nav="platform">大型平台</a><span class="nav-group-label topic-label">专题</span><a href="#mergers" data-nav="mergers">并购</a><a href="#equity" data-nav="equity">股权融资</a></nav>
+  </header>
+  <main id="main" class="shell" tabindex="-1"></main>
+  <footer class="site-footer shell"><div class="footer-note"><span>陕西资本观察 <span class="footer-dot">/</span> 第一阶段 · 产品体验</span><span>基础身份来自用户素材，事件均为原型示例。</span></div><address class="footer-contact"><span>华泰证券西安锦业路证券营业部</span><a href="mailto:wangyue021243@htsc.com">wangyue021243@htsc.com</a></address></footer>
+  <dialog id="search-dialog" aria-labelledby="search-title"><div class="dialog-head"><h2 id="search-title">查找观察对象</h2><button class="icon-button" data-action="close-search" aria-label="关闭查找">×</button></div><label class="search-field"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg><input id="global-search" type="search" placeholder="公司、管理人名称 / 证券代码 / 登记编号" autocomplete="off"></label><p class="muted small">使用提供的观察池查找；未联网更新。</p><div id="search-results"></div></dialog>
+</body>
+</html>

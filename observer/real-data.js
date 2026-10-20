@@ -2775,73 +2775,73 @@ window.PROTOTYPE = {
       "months": [
         {
           "month": "2026-01",
-          "count": 5,
-          "coverageComplete": false,
-          "coveredManagers": 78,
-          "scopeCount": 92
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92,
+          "count": 5
         },
         {
           "month": "2026-02",
-          "count": 11,
-          "coverageComplete": false,
-          "coveredManagers": 78,
-          "scopeCount": 92
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92,
+          "count": 11
         },
         {
           "month": "2026-03",
-          "count": 7,
-          "coverageComplete": false,
-          "coveredManagers": 78,
-          "scopeCount": 92
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92,
+          "count": 7
         },
         {
           "month": "2026-04",
-          "count": 9,
-          "coverageComplete": false,
-          "coveredManagers": 78,
-          "scopeCount": 92
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92,
+          "count": 9
         },
         {
           "month": "2026-05",
-          "count": 3,
-          "coverageComplete": false,
-          "coveredManagers": 78,
-          "scopeCount": 92
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92,
+          "count": 3
         },
         {
           "month": "2026-06",
-          "count": 12,
-          "coverageComplete": false,
-          "coveredManagers": 78,
-          "scopeCount": 92
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92,
+          "count": 12
         },
         {
           "month": "2026-07",
-          "count": 17,
-          "coverageComplete": false,
-          "coveredManagers": 78,
-          "scopeCount": 92
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92,
+          "count": 17
         },
         {
           "month": "2026-08",
-          "count": 9,
-          "coverageComplete": false,
-          "coveredManagers": 78,
-          "scopeCount": 92
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92,
+          "count": 9
         },
         {
           "month": "2026-09",
-          "count": 6,
-          "coverageComplete": false,
-          "coveredManagers": 78,
-          "scopeCount": 92
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92,
+          "count": 6
         },
         {
           "month": "2026-10",
-          "count": 1,
           "coverageComplete": false,
           "coveredManagers": 78,
-          "scopeCount": 92
+          "scopeCount": 92,
+          "count": 1
         }
       ]
     }
@@ -20615,6 +20615,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "d4fd25b1edcebe5cdc8e",
+      "date": "2026-10-20",
+      "compiledAt": "2026-10-19T22:39:03+08:00",
+      "cutoff": "2026-10-19T22:09:47+08:00",
+      "snapshotUrl": "publications/d4fd25b1edcebe5cdc8e/index.html",
+      "publishedAt": "2026-10-20T18:41:30+08:00"
+    },
     {
       "id": "dc05a622da0ae604bcd7",
       "date": "2026-10-20",
