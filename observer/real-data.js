@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-20-68e3e004e92b",
-      "compiledAt": "2026-10-20T19:24:22+08:00",
+      "id": "2026-10-20-bb86c9a8af63",
+      "compiledAt": "2026-10-20T19:59:09+08:00",
       "cutoff": "2026-10-20T08:14:36+08:00",
       "windowStart": "2026-10-18",
       "windowEnd": "2026-10-20",
@@ -14,6 +14,8 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-10-20T08:14:36+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-e23c757849867445ff34faa7",
+        "production-b103bfece0cf21fe3c58e9f3",
         "production-7edf3f3502d11931cfd07589",
         "production-09bf9325e329131f1fcc2e90"
       ],
@@ -164,7 +166,9 @@ window.PROTOTYPE = {
       "production-b04225e15ea01319d461be77": "2026-10-19T22:27:08+08:00",
       "production-147fb93451c0f90434bb2181": "2026-10-19T22:39:02+08:00",
       "production-09bf9325e329131f1fcc2e90": "2026-10-20T19:24:21+08:00",
-      "production-7edf3f3502d11931cfd07589": "2026-10-20T19:24:21+08:00"
+      "production-7edf3f3502d11931cfd07589": "2026-10-20T19:24:21+08:00",
+      "production-e23c757849867445ff34faa7": "2026-10-20T19:59:08+08:00",
+      "production-b103bfece0cf21fe3c58e9f3": "2026-10-20T19:59:08+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1073,6 +1077,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西广电网络传媒（集团）股份有限公司2026年10月20日披露公告（落款10月19日）：截至9月30日已偿还前期逾期金融债务2,616.12万元；截至本次公告披露日，新增逾期金融债务16,295.53万元，累计逾期36,344.87万元，占最近一期经审计净资产的67.02%。公司表示目前处于预重整阶段，除维系生产经营的必要开支外，不得对外清偿债务，有关债务清偿将依法合规进行。"
+        },
+        "production-e23c757849867445ff34faa7": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "隆基绿能2026年10月20日公告，“隆22转债”持有人可自愿回售部分或全部未转股债券，申报期为2026年10月27日至11月2日，回售价格为人民币101.29元/张（含当期利息），资金计划于11月5日发放，回售期间继续交易但停止转股。公告提示其所述当时收盘价高于回售价格，选择回售可能造成损失；本次回售结果尚待申报期结束后披露。"
+        },
+        "production-b103bfece0cf21fe3c58e9f3": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安奕材2026年10月20日披露的第三季度报告称，公司正推进第三工厂建设与投产，规划该厂满产后公司总产能达到180万至200万片/月。上述产能为附带满产条件的前瞻规划，报告未披露第三工厂具体满产日期，相关陈述不构成实质承诺。"
         }
       }
     },
@@ -1082,7 +1100,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-10-20-68e3e004e92b",
+      "sourceEditionId": "2026-10-20-bb86c9a8af63",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -20957,6 +20975,105 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-7810bfd79baa83d29090",
+      "objectId": "listed-601012-sh",
+      "type": "可转债回售安排",
+      "topics": [
+        "隆22转债",
+        "有条件回售条款生效",
+        "回售申报及资金发放安排"
+      ],
+      "updates": [
+        {
+          "id": "production-e23c757849867445ff34faa7",
+          "date": "2026-10-20",
+          "time": "",
+          "title": "公布“隆22转债”自愿回售安排",
+          "summary": "隆基绿能2026年10月20日公告，“隆22转债”持有人可自愿回售部分或全部未转股债券，申报期为2026年10月27日至11月2日，回售价格为人民币101.29元/张（含当期利息），资金计划于11月5日发放，回售期间继续交易但停止转股。公告提示其所述当时收盘价高于回售价格，选择回售可能造成损失；本次回售结果尚待申报期结束后披露。",
+          "stage": "已公告回售安排，申报期为2026年10月27日至11月2日，资金发放日安排为11月5日；尚未开始申报，未披露执行结果",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-20T19:59:09+08:00",
+          "compiledAt": "2026-10-20T19:59:09+08:00",
+          "researchCutoff": "2026-10-20T08:14:36+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "隆基绿能",
+          "version": "e23c757849867445ff34faa799093cdf205100b9ef3a4bc4256811d4b940e1f2",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于“隆22转债”可选择回售的公告",
+              "publisher": "隆基绿能科技股份有限公司",
+              "date": "2026-10-20",
+              "location": "物理第1页重要内容提示、第3页回售安排及期间交易、第4页落款",
+              "retrievedAt": "2026-10-20T08:15:17+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225610632.PDF"
+            },
+            {
+              "title": "中国国际金融股份有限公司关于隆基绿能科技股份有限公司可转换公司债券回售有关事项的核查意见",
+              "publisher": "中国国际金融股份有限公司",
+              "date": "2026-10-20",
+              "location": "物理第3页回售安排、第4页交易安排及意见、第5页签章；签章日期为2026年10月19日",
+              "retrievedAt": "2026-10-20T08:15:17+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225610646.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-2ce94cbccc4f5593d877",
+      "objectId": "listed-688783-sh",
+      "type": "自营工厂建设进展",
+      "topics": [
+        "第三工厂建设与投产推进",
+        "满产后公司产能规划"
+      ],
+      "updates": [
+        {
+          "id": "production-b103bfece0cf21fe3c58e9f3",
+          "date": "2026-10-20",
+          "time": "",
+          "title": "推进第三工厂建设与投产",
+          "summary": "西安奕材2026年10月20日披露的第三季度报告称，公司正推进第三工厂建设与投产，规划该厂满产后公司总产能达到180万至200万片/月。上述产能为附带满产条件的前瞻规划，报告未披露第三工厂具体满产日期，相关陈述不构成实质承诺。",
+          "stage": "披露正在推进第三工厂建设与投产，满产后产能为前瞻规划，未确认建成或满产",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。本次报告未披露第三工厂具体满产日期。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-20T19:59:08+08:00",
+          "compiledAt": "2026-10-20T19:59:08+08:00",
+          "researchCutoff": "2026-10-20T08:14:36+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安奕材",
+          "version": "b103bfece0cf21fe3c58e9f3fb7316ca22c1fdf4a0051ca4d27bfb16a64dafc8",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年第三季度报告",
+              "publisher": "西安奕斯伟材料科技股份有限公司",
+              "date": "2026-10-20",
+              "location": "物理第6页“其他提醒事项”、第7页前瞻性陈述；报告落款日期为2026年10月19日",
+              "retrievedAt": "2026-10-20T08:15:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225611250.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -22192,6 +22309,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "0c5b8c05070cee55fafa",
+      "date": "2026-10-20",
+      "compiledAt": "2026-10-20T19:24:22+08:00",
+      "cutoff": "2026-10-20T08:14:36+08:00",
+      "snapshotUrl": "publications/0c5b8c05070cee55fafa/index.html",
+      "publishedAt": "2026-10-20T19:47:46+08:00"
+    },
     {
       "id": "d4489cda8599140a07e5",
       "date": "2026-10-20",
