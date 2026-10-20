@@ -2853,6 +2853,7 @@ window.PROTOTYPE = {
       "name": "西部超导",
       "code": "688122.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2860,6 +2861,7 @@ window.PROTOTYPE = {
       "type": "private",
       "name": "西安柏石私募基金管理有限公司",
       "code": "P1069047",
+      "asOf": "2026-08-13",
       "publicRelation": "本次核查AMAC公示列注册地陕西省西安市，办公地浙江省杭州市（公示更新2026-04-09）。"
     },
     {
@@ -2867,6 +2869,7 @@ window.PROTOTYPE = {
       "type": "private",
       "name": "添佑私募基金管理（上海）有限公司",
       "code": "P1018901",
+      "asOf": "2026-08-13",
       "publicRelation": "本次核查AMAC公示列办公地址为陕西省西安市雁塔区（公示更新2026-08-18）；不据此推断迁址日期。"
     },
     {
@@ -2875,6 +2878,7 @@ window.PROTOTYPE = {
       "name": "铂力特",
       "code": "688333.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2883,6 +2887,7 @@ window.PROTOTYPE = {
       "name": "陕鼓动力",
       "code": "601369.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2891,6 +2896,7 @@ window.PROTOTYPE = {
       "name": "烽火电子",
       "code": "000561.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2899,6 +2905,7 @@ window.PROTOTYPE = {
       "name": "长安汇通",
       "code": "陕西国有资本运营平台",
       "market": "—",
+      "asOf": "2026-09-21（定向身份核查）",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2907,6 +2914,7 @@ window.PROTOTYPE = {
       "name": "奇点能源",
       "code": "储能系统企业",
       "market": "—",
+      "asOf": "2026-09-21（定向身份核查）",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2915,6 +2923,7 @@ window.PROTOTYPE = {
       "name": "西测测试",
       "code": "301306.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2923,6 +2932,7 @@ window.PROTOTYPE = {
       "name": "陕煤集团",
       "code": "陕西煤业化工集团有限责任公司",
       "market": "—",
+      "asOf": "2026-09-23（本事项有限身份核查）",
       "publicRelation": "所关注的黄陵店头电厂二期项目位于陕西省延安市黄陵县店头镇。"
     },
     {
@@ -2931,6 +2941,7 @@ window.PROTOTYPE = {
       "name": "航天动力",
       "code": "600343.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2939,6 +2950,7 @@ window.PROTOTYPE = {
       "name": "光电股份",
       "code": "600184.SH",
       "market": "SH",
+      "asOf": "2026-07-22",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2947,6 +2959,7 @@ window.PROTOTYPE = {
       "name": "爱科赛博",
       "code": "688719.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2955,6 +2968,7 @@ window.PROTOTYPE = {
       "name": "康拓医疗",
       "code": "688314.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2963,6 +2977,7 @@ window.PROTOTYPE = {
       "name": "航天电子",
       "code": "600879.SH",
       "market": "SH",
+      "asOf": "2026-07-22",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2971,6 +2986,7 @@ window.PROTOTYPE = {
       "name": "农心科技",
       "code": "001231.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2979,6 +2995,7 @@ window.PROTOTYPE = {
       "name": "供销大集",
       "code": "000564.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2987,6 +3004,7 @@ window.PROTOTYPE = {
       "name": "源杰科技",
       "code": "688498.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -2995,6 +3013,7 @@ window.PROTOTYPE = {
       "name": "康惠股份",
       "code": "603139.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3003,6 +3022,7 @@ window.PROTOTYPE = {
       "name": "宝钛股份",
       "code": "600456.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3011,6 +3031,7 @@ window.PROTOTYPE = {
       "name": "科华生物",
       "code": "002022.SZ",
       "market": "SZ",
+      "asOf": "2026-07-22",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3019,6 +3040,7 @@ window.PROTOTYPE = {
       "name": "广电网络",
       "code": "600831.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3027,6 +3049,7 @@ window.PROTOTYPE = {
       "name": "巨子生物",
       "code": "2367.HK",
       "market": "HK",
+      "asOf": "2026-07-13",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3035,6 +3058,7 @@ window.PROTOTYPE = {
       "name": "ST炼石",
       "code": "000697.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3043,6 +3067,7 @@ window.PROTOTYPE = {
       "name": "三角防务",
       "code": "300775.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3051,6 +3076,7 @@ window.PROTOTYPE = {
       "name": "高铁电气",
       "code": "688285.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3059,6 +3085,7 @@ window.PROTOTYPE = {
       "name": "标准股份",
       "code": "600302.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3067,6 +3094,7 @@ window.PROTOTYPE = {
       "name": "金花股份",
       "code": "600080.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3075,6 +3103,7 @@ window.PROTOTYPE = {
       "name": "兴化股份",
       "code": "002109.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3083,6 +3112,7 @@ window.PROTOTYPE = {
       "name": "炬光科技",
       "code": "688167.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3091,6 +3121,7 @@ window.PROTOTYPE = {
       "name": "天地源",
       "code": "600665.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3099,6 +3130,7 @@ window.PROTOTYPE = {
       "name": "陕西金叶",
       "code": "000812.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3107,6 +3139,7 @@ window.PROTOTYPE = {
       "name": "中国西电",
       "code": "601179.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3115,6 +3148,7 @@ window.PROTOTYPE = {
       "name": "陕西煤业",
       "code": "601225.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3123,6 +3157,7 @@ window.PROTOTYPE = {
       "name": "瑞联新材",
       "code": "688550.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3131,6 +3166,7 @@ window.PROTOTYPE = {
       "name": "泰金新能",
       "code": "688813.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3139,6 +3175,7 @@ window.PROTOTYPE = {
       "name": "西安旅游",
       "code": "000610.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3147,6 +3184,7 @@ window.PROTOTYPE = {
       "name": "西安银行",
       "code": "600928.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3155,6 +3193,7 @@ window.PROTOTYPE = {
       "name": "曲江文旅",
       "code": "600706.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3163,6 +3202,7 @@ window.PROTOTYPE = {
       "name": "经发物业",
       "code": "1354.HK",
       "market": "HK",
+      "asOf": "2026-07-13",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3171,6 +3211,7 @@ window.PROTOTYPE = {
       "name": "北方长龙",
       "code": "301357.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3179,6 +3220,7 @@ window.PROTOTYPE = {
       "name": "西部材料",
       "code": "002149.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3187,6 +3229,7 @@ window.PROTOTYPE = {
       "name": "蓝晓科技",
       "code": "300487.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3195,6 +3238,7 @@ window.PROTOTYPE = {
       "name": "绿能慧充",
       "code": "600212.SH",
       "market": "SH",
+      "asOf": "2026-07-22",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3203,6 +3247,7 @@ window.PROTOTYPE = {
       "name": "隆基绿能",
       "code": "601012.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3211,6 +3256,7 @@ window.PROTOTYPE = {
       "name": "环球印务",
       "code": "002799.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3219,6 +3265,7 @@ window.PROTOTYPE = {
       "name": "华仁药业",
       "code": "300110.SZ",
       "market": "SZ",
+      "asOf": "2026-07-22",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3227,6 +3274,7 @@ window.PROTOTYPE = {
       "name": "特变电工",
       "code": "600089.SH",
       "market": "SH",
+      "asOf": "2026-07-22",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3235,6 +3283,7 @@ window.PROTOTYPE = {
       "name": "陕西能源",
       "code": "001286.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3243,6 +3292,7 @@ window.PROTOTYPE = {
       "name": "金钼股份",
       "code": "601958.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3251,6 +3301,7 @@ window.PROTOTYPE = {
       "name": "莱特光电",
       "code": "688150.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3259,6 +3310,7 @@ window.PROTOTYPE = {
       "name": "西安奕材-U",
       "code": "688783.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3266,6 +3318,7 @@ window.PROTOTYPE = {
       "type": "private",
       "name": "苏州水润山禾私募基金管理有限公司",
       "code": "P1064295",
+      "asOf": "2026-08-13",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3274,6 +3327,7 @@ window.PROTOTYPE = {
       "name": "达刚控股",
       "code": "300103.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3282,6 +3336,7 @@ window.PROTOTYPE = {
       "name": "陕国投A",
       "code": "000563.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3290,6 +3345,7 @@ window.PROTOTYPE = {
       "name": "天和防务",
       "code": "300397.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3298,6 +3354,7 @@ window.PROTOTYPE = {
       "name": "陕西华达",
       "code": "301517.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3306,6 +3363,7 @@ window.PROTOTYPE = {
       "name": "陕建股份",
       "code": "600248.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3314,6 +3372,7 @@ window.PROTOTYPE = {
       "name": "西安中科西光航天科技集团有限公司",
       "code": "91610138MAB0QBL297",
       "market": "非上市企业",
+      "asOf": "",
       "source": "巨潮资讯·定向交易主体发行人目录",
       "publicRelation": "已核实公开原件列示注册地址：陕西省西咸新区空港新城商务中心二期4号楼5层"
     },
@@ -3323,6 +3382,7 @@ window.PROTOTYPE = {
       "name": "晨曦航空",
       "code": "300581.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3331,6 +3391,7 @@ window.PROTOTYPE = {
       "name": "宝光股份",
       "code": "600379.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3339,6 +3400,7 @@ window.PROTOTYPE = {
       "name": "陕西黑猫",
       "code": "601015.SH",
       "market": "SH",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3347,6 +3409,7 @@ window.PROTOTYPE = {
       "name": "西部证券",
       "code": "002673.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3355,6 +3418,7 @@ window.PROTOTYPE = {
       "name": "节能环境",
       "code": "300140.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3363,6 +3427,7 @@ window.PROTOTYPE = {
       "name": "荣信文化",
       "code": "301231.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3371,6 +3436,7 @@ window.PROTOTYPE = {
       "name": "诺瓦星云",
       "code": "301589.SZ",
       "market": "SZ",
+      "asOf": "2026-03-31",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3379,6 +3445,7 @@ window.PROTOTYPE = {
       "name": "西安中科光凝科技有限公司",
       "code": "未上市企业",
       "market": "非上市企业",
+      "asOf": "",
       "source": "西安市科技金融公共服务平台·西财金服公开资讯",
       "publicRelation": "公开融资原文明确的陕西科研成果转化关联；注册地址及统一社会信用代码本轮未核实。"
     },
@@ -3388,8 +3455,1409 @@ window.PROTOTYPE = {
       "name": "西安穹顶医疗科技有限公司",
       "code": "未上市企业",
       "market": "非上市企业",
+      "asOf": "",
       "source": "西安市科技金融公共服务平台·西财金服公开资讯",
       "publicRelation": "公开融资原文明确的陕西科研成果转化关联；注册地址及统一社会信用代码本轮未核实。"
+    },
+    {
+      "id": "listed-000516-sz",
+      "type": "listed",
+      "name": "国际医学",
+      "code": "000516.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-000721-sz",
+      "type": "listed",
+      "name": "西安饮食",
+      "code": "000721.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-000768-sz",
+      "type": "listed",
+      "name": "中航西飞",
+      "code": "000768.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-000837-sz",
+      "type": "listed",
+      "name": "秦川机床",
+      "code": "000837.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-001299-sz",
+      "type": "listed",
+      "name": "美能能源",
+      "code": "001299.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-002267-sz",
+      "type": "listed",
+      "name": "陕天然气",
+      "code": "002267.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-002864-sz",
+      "type": "listed",
+      "name": "盘龙药业",
+      "code": "002864.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-003009-sz",
+      "type": "listed",
+      "name": "中天火箭",
+      "code": "003009.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-300164-sz",
+      "type": "listed",
+      "name": "通源石油",
+      "code": "300164.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-300831-sz",
+      "type": "listed",
+      "name": "派瑞股份",
+      "code": "300831.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-300861-sz",
+      "type": "listed",
+      "name": "美畅股份",
+      "code": "300861.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-301031-sz",
+      "type": "listed",
+      "name": "中熔电气",
+      "code": "301031.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-301171-sz",
+      "type": "listed",
+      "name": "易点天下",
+      "code": "301171.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-302132-sz",
+      "type": "listed",
+      "name": "中航成飞",
+      "code": "302132.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-600217-sh",
+      "type": "listed",
+      "name": "中再资环",
+      "code": "600217.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-600455-sh",
+      "type": "listed",
+      "name": "博通股份",
+      "code": "600455.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-600707-sh",
+      "type": "listed",
+      "name": "彩虹股份",
+      "code": "600707.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-600893-sh",
+      "type": "listed",
+      "name": "航发动力",
+      "code": "600893.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-600984-sh",
+      "type": "listed",
+      "name": "建设机械",
+      "code": "600984.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-601568-sh",
+      "type": "listed",
+      "name": "北元集团",
+      "code": "601568.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-603402-sh",
+      "type": "listed",
+      "name": "陕西旅游",
+      "code": "603402.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-605033-sh",
+      "type": "listed",
+      "name": "美邦股份",
+      "code": "605033.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-605168-sh",
+      "type": "listed",
+      "name": "三人行",
+      "code": "605168.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-688101-sh",
+      "type": "listed",
+      "name": "三达膜",
+      "code": "688101.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-688102-sh",
+      "type": "listed",
+      "name": "斯瑞新材",
+      "code": "688102.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-688269-sh",
+      "type": "listed",
+      "name": "凯立新材",
+      "code": "688269.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-688281-sh",
+      "type": "listed",
+      "name": "华秦科技",
+      "code": "688281.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-688334-sh",
+      "type": "listed",
+      "name": "西高院",
+      "code": "688334.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-920098-bj",
+      "type": "listed",
+      "name": "科隆新材",
+      "code": "920098.BJ",
+      "market": "BJ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-920519-bj",
+      "type": "listed",
+      "name": "万德股份",
+      "code": "920519.BJ",
+      "market": "BJ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-920564-bj",
+      "type": "listed",
+      "name": "天润科技",
+      "code": "920564.BJ",
+      "market": "BJ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-920576-bj",
+      "type": "listed",
+      "name": "天力复合",
+      "code": "920576.BJ",
+      "market": "BJ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-920599-bj",
+      "type": "listed",
+      "name": "同力股份",
+      "code": "920599.BJ",
+      "market": "BJ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-920640-bj",
+      "type": "listed",
+      "name": "富士达",
+      "code": "920640.BJ",
+      "market": "BJ",
+      "asOf": "2026-03-31",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-0438-hk",
+      "type": "listed",
+      "name": "彩虹新能源",
+      "code": "0438.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-2335-hk",
+      "type": "listed",
+      "name": "麦科医药-B",
+      "code": "2335.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-2418-hk",
+      "type": "listed",
+      "name": "德银天下",
+      "code": "2418.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-8227-hk",
+      "type": "listed",
+      "name": "海天天线",
+      "code": "8227.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-2233-hk",
+      "type": "listed",
+      "name": "西部水泥",
+      "code": "2233.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-6162-hk",
+      "type": "listed",
+      "name": "天瑞汽车内饰",
+      "code": "6162.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-1771-hk",
+      "type": "listed",
+      "name": "新丰泰集团",
+      "code": "1771.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-8631-hk",
+      "type": "listed",
+      "name": "申港控股",
+      "code": "8631.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-0162-hk",
+      "type": "listed",
+      "name": "世纪金花",
+      "code": "0162.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-0620-hk",
+      "type": "listed",
+      "name": "大唐西市",
+      "code": "0620.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-0346-hk",
+      "type": "listed",
+      "name": "延长石油国际",
+      "code": "0346.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-0997-hk",
+      "type": "listed",
+      "name": "普汇中金国际",
+      "code": "0997.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-002185-sz",
+      "type": "listed",
+      "name": "华天科技",
+      "code": "002185.SZ",
+      "market": "SZ",
+      "asOf": "2026-07-22",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-002140-sz",
+      "type": "listed",
+      "name": "东华科技",
+      "code": "002140.SZ",
+      "market": "SZ",
+      "asOf": "2026-07-22",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-002246-sz",
+      "type": "listed",
+      "name": "北化股份",
+      "code": "002246.SZ",
+      "market": "SZ",
+      "asOf": "2026-07-22",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-300527-sz",
+      "type": "listed",
+      "name": "ST应急",
+      "code": "300527.SZ",
+      "market": "SZ",
+      "asOf": "2026-07-22",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-000659-sz",
+      "type": "listed",
+      "name": "珠海中富",
+      "code": "000659.SZ",
+      "market": "SZ",
+      "asOf": "2026-07-22",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000026383",
+      "type": "private",
+      "name": "上海屹成投资管理中心(有限合伙)",
+      "code": "P1024465",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000024132",
+      "type": "private",
+      "name": "上海忠石私募基金管理有限公司",
+      "code": "P1018089",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1903261107103383",
+      "type": "private",
+      "name": "五牛（海南）私募基金管理合伙企业（有限合伙）",
+      "code": "P1069852",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2105211711106800",
+      "type": "private",
+      "name": "佳睿（晋江）私募基金管理有限公司",
+      "code": "P1072551",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2107141320103302",
+      "type": "private",
+      "name": "共青城瀛岳私募基金管理有限公司",
+      "code": "P1072644",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2303081121100381",
+      "type": "private",
+      "name": "北京霆云山私募基金管理有限公司",
+      "code": "P1074620",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000044913",
+      "type": "private",
+      "name": "博汇康宁（深圳）投资基金管理有限公司",
+      "code": "P1030701",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2012291919106869",
+      "type": "private",
+      "name": "国富联合（青岛）私募基金管理有限公司",
+      "code": "P1072582",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2003171100101302",
+      "type": "private",
+      "name": "天榕（青岛）基金管理有限公司",
+      "code": "P1071521",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2108171432114024",
+      "type": "private",
+      "name": "孤岩量子私募基金管理(西安)有限公司",
+      "code": "P1072755",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1808101319100964",
+      "type": "private",
+      "name": "汉中林园投资基金管理合伙企业（有限合伙）",
+      "code": "P1069402",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000004262",
+      "type": "private",
+      "name": "海南利和私募基金管理有限公司",
+      "code": "P1006149",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2104261451107240",
+      "type": "private",
+      "name": "海南名策私募基金管理有限公司",
+      "code": "P1072899",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1609091201100265",
+      "type": "private",
+      "name": "海南天辉私募基金管理有限公司",
+      "code": "P1060527",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000031013",
+      "type": "private",
+      "name": "深圳乾元资始私募证券基金管理有限公司",
+      "code": "P1020814",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000038619",
+      "type": "private",
+      "name": "深圳前海长征私募证券基金管理有限公司",
+      "code": "P1028873",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000019713",
+      "type": "private",
+      "name": "深圳国盛祥隆私募证券基金管理有限公司",
+      "code": "P1013255",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000026975",
+      "type": "private",
+      "name": "深圳基成资本管理有限公司",
+      "code": "P1018506",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000007655",
+      "type": "private",
+      "name": "深圳市滨利投资管理有限公司",
+      "code": "P1006086",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000034660",
+      "type": "private",
+      "name": "深圳开济资产管理有限公司",
+      "code": "P1024334",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000029070",
+      "type": "private",
+      "name": "深圳德丰嘉禾私募证券基金管理有限公司",
+      "code": "P1020249",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000040949",
+      "type": "private",
+      "name": "深圳景润投资管理有限公司",
+      "code": "P1028836",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000032866",
+      "type": "private",
+      "name": "深圳格尚资产管理有限公司",
+      "code": "P1022811",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000047461",
+      "type": "private",
+      "name": "深圳永宁资产管理有限公司",
+      "code": "P1030942",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000025441",
+      "type": "private",
+      "name": "深圳汇长安资产管理有限公司",
+      "code": "P1016676",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000034419",
+      "type": "private",
+      "name": "深圳融智天成国际资本管理股份有限公司",
+      "code": "P1024278",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000041857",
+      "type": "private",
+      "name": "深圳鑫泰禾私募证券投资基金管理有限公司",
+      "code": "P1028974",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1809181551101419",
+      "type": "private",
+      "name": "西咸新区旷特投资管理有限公司",
+      "code": "P1069468",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1701061825108832",
+      "type": "private",
+      "name": "西安久上基金管理有限公司",
+      "code": "P1065633",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000010288",
+      "type": "private",
+      "name": "西安兆峻资产管理有限公司",
+      "code": "P1005640",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1708151102103892",
+      "type": "private",
+      "name": "西安关天私募证券投资基金有限公司",
+      "code": "P1068719",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1705251735106902",
+      "type": "private",
+      "name": "西安力天私募基金管理有限公司",
+      "code": "P1064879",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1709111805102816",
+      "type": "private",
+      "name": "西安博成基金管理有限公司",
+      "code": "P1067542",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1903221844101307",
+      "type": "private",
+      "name": "西安古城吴氏私募基金管理有限公司",
+      "code": "P1070561",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1704181432105117",
+      "type": "private",
+      "name": "西安合鑫投资管理有限公司",
+      "code": "P1063141",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1704262127109859",
+      "type": "private",
+      "name": "西安国子资本管理有限公司",
+      "code": "P1065741",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1609271347111122",
+      "type": "private",
+      "name": "西安地坤投资管理有限公司",
+      "code": "P1060835",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2009181331107731",
+      "type": "private",
+      "name": "西安天勤汇理私募基金管理有限公司",
+      "code": "P1071793",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1806051725102032",
+      "type": "private",
+      "name": "西安好奇投资管理有限公司",
+      "code": "P1069423",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1705261123107174",
+      "type": "private",
+      "name": "西安宽格宏略基金管理有限公司",
+      "code": "P1064611",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1709221136104106",
+      "type": "private",
+      "name": "西安恒捷汇理资产管理有限公司",
+      "code": "P1068400",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1912031802107663",
+      "type": "private",
+      "name": "西安悦枫资产管理有限公司",
+      "code": "P1071509",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2110081708117945",
+      "type": "private",
+      "name": "西安招融博瑞私募基金管理有限公司",
+      "code": "P1072794",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1708292135105512",
+      "type": "private",
+      "name": "西安晟泽资产管理有限公司",
+      "code": "P1067411",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1811231117101176",
+      "type": "private",
+      "name": "西安景弘基金管理有限公司",
+      "code": "P1070133",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1610270841106387",
+      "type": "private",
+      "name": "西安景曜投资管理有限公司",
+      "code": "P1062077",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1710131530109018",
+      "type": "private",
+      "name": "西安智本私募基金管理有限公司",
+      "code": "P1067745",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1912121441104548",
+      "type": "private",
+      "name": "西安曲江祥汇私募基金管理有限公司",
+      "code": "P1070763",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1711241752102480",
+      "type": "private",
+      "name": "西安榴花私募基金管理有限公司",
+      "code": "P1067746",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1703241729101117",
+      "type": "private",
+      "name": "西安江岳私募基金管理有限公司",
+      "code": "P1064313",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1703131611108607",
+      "type": "private",
+      "name": "西安沣相投资管理有限公司",
+      "code": "P1062559",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1708101546105022",
+      "type": "private",
+      "name": "西安波普私募基金管理有限公司",
+      "code": "P1065520",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1711101618109089",
+      "type": "private",
+      "name": "西安瀑布资产管理有限公司",
+      "code": "P1067590",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000051182",
+      "type": "private",
+      "name": "西安玖润投资管理有限公司",
+      "code": "P1033308",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1704131628105857",
+      "type": "private",
+      "name": "西安蒙特卡罗基金管理有限公司",
+      "code": "P1066586",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1707261443105960",
+      "type": "private",
+      "name": "西安蒲公英基金管理有限公司",
+      "code": "P1065652",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000014030",
+      "type": "private",
+      "name": "西安蓝鲸私募基金管理有限公司",
+      "code": "P1008048",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1812271707108231",
+      "type": "private",
+      "name": "西安豹亚基金管理合伙企业（有限合伙）",
+      "code": "P1070648",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1704241118107277",
+      "type": "private",
+      "name": "西安达人私募基金管理有限公司",
+      "code": "P1065146",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2302071706100055",
+      "type": "private",
+      "name": "西安迈睿恒力私募基金管理有限公司",
+      "code": "P1074554",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1905221720103058",
+      "type": "private",
+      "name": "西安铂石基金管理有限公司",
+      "code": "P1071114",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1705191036105983",
+      "type": "private",
+      "name": "西安阿而法私募基金管理合伙企业（有限合伙）",
+      "code": "P1063733",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2008111918106744",
+      "type": "private",
+      "name": "陕西九和岛基金管理有限公司",
+      "code": "P1071318",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000050603",
+      "type": "private",
+      "name": "陕西云从投资管理有限公司",
+      "code": "P1032427",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000000726",
+      "type": "private",
+      "name": "陕西亿星私募基金管理有限公司",
+      "code": "P1002931",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2007071048106707",
+      "type": "private",
+      "name": "陕西佑仓资产管理有限公司",
+      "code": "P1071381",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000006845",
+      "type": "private",
+      "name": "陕西先锋投资有限公司",
+      "code": "P1007930",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2006291629103361",
+      "type": "private",
+      "name": "陕西卓信永诚私募基金管理有限公司",
+      "code": "P1071732",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000003440",
+      "type": "private",
+      "name": "陕西博盛隆投资有限公司",
+      "code": "P1001411",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000014468",
+      "type": "private",
+      "name": "陕西君研私募基金管理有限公司",
+      "code": "P1008049",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1807241211108100",
+      "type": "private",
+      "name": "陕西大安基金管理有限公司",
+      "code": "P1069167",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2003092254101539",
+      "type": "private",
+      "name": "陕西安泽众赢投资有限公司",
+      "code": "P1070963",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000015685",
+      "type": "private",
+      "name": "陕西德盈私募基金管理有限公司",
+      "code": "P1009868",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1609090904100604",
+      "type": "private",
+      "name": "陕西方德磐石私募基金管理有限公司",
+      "code": "P1061088",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000007176",
+      "type": "private",
+      "name": "陕西景唐投资管理有限公司",
+      "code": "P1005988",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1804231017107072",
+      "type": "private",
+      "name": "陕西沣上投资管理合伙企业（有限合伙）",
+      "code": "P1069753",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1610250945101223",
+      "type": "private",
+      "name": "陕西济仁投资管理有限公司",
+      "code": "P1066746",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1806131406100721",
+      "type": "private",
+      "name": "陕西瑞友晨盛资产管理有限公司",
+      "code": "P1070785",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2105141101101292",
+      "type": "private",
+      "name": "陕西碣石私募基金管理有限公司",
+      "code": "P1072485",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2012101805104621",
+      "type": "private",
+      "name": "陕西禄格私募基金管理有限公司",
+      "code": "P1072306",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1609220851102223",
+      "type": "private",
+      "name": "陕西趋势投资管理有限公司",
+      "code": "P1060669",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000024937",
+      "type": "private",
+      "name": "陕西路路金基金管理有限公司",
+      "code": "P1019175",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2107201836101899",
+      "type": "private",
+      "name": "陕西鑫旅私募基金管理有限公司",
+      "code": "P1072863",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000012244",
+      "type": "private",
+      "name": "陕西铁马投资管理有限公司",
+      "code": "P1007845",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-1706082037101131",
+      "type": "private",
+      "name": "陕西顺义成投资管理有限公司",
+      "code": "P1064558",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2103262010107683",
+      "type": "private",
+      "name": "青岛华源锦成私募基金管理有限公司",
+      "code": "P1072146",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000040485",
+      "type": "private",
+      "name": "上海卓铸私募基金管理有限公司",
+      "code": "P1027840",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-101000026206",
+      "type": "private",
+      "name": "深圳抱朴容易私募证券基金管理有限公司",
+      "code": "P1020607",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "private-2111231329102046",
+      "type": "private",
+      "name": "龙泉云锋私募基金管理有限公司",
+      "code": "P1073744",
+      "market": "AMAC",
+      "asOf": "2026-08-13",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     }
   ],
   "events": [
@@ -20615,6 +22083,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "6053f9768b2709f934d6",
+      "date": "2026-10-20",
+      "compiledAt": "2026-10-19T22:39:03+08:00",
+      "cutoff": "2026-10-19T22:09:47+08:00",
+      "snapshotUrl": "publications/6053f9768b2709f934d6/index.html",
+      "publishedAt": "2026-10-20T18:48:33+08:00"
+    },
     {
       "id": "d4fd25b1edcebe5cdc8e",
       "date": "2026-10-20",
