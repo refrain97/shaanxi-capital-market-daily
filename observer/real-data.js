@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-21-f8d6b15474e9",
-      "compiledAt": "2026-10-21T08:36:41+08:00",
+      "id": "2026-10-21-9d419b4ac629",
+      "compiledAt": "2026-10-21T08:49:35+08:00",
       "cutoff": "2026-10-21T08:02:15+08:00",
       "windowStart": "2026-10-19",
       "windowEnd": "2026-10-21",
@@ -17,11 +17,14 @@ window.PROTOTYPE = {
         "production-d7037ffef9554e23e36ca8e1",
         "production-d43e30558850004319b47ad9",
         "production-d1ec27423a5bbbec61125a5b",
+        "production-bf4a5aafe7940b508185654e",
         "production-6966d98768e1541fcedd066c",
         "production-4f3e0a06cc2806e7e76f5367",
         "production-4c9cb211a74d8d63ef6925e9",
+        "production-4b6d44a084ea8e55f9344c1a",
         "production-4325b49dde939302b776c0db",
-        "production-297270f7bfbc39e25bf82be2"
+        "production-297270f7bfbc39e25bf82be2",
+        "production-0a4e00bfe25f4039ed12b426"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -187,7 +190,10 @@ window.PROTOTYPE = {
       "production-4325b49dde939302b776c0db": "2026-10-21T08:34:11+08:00",
       "production-d1ec27423a5bbbec61125a5b": "2026-10-21T08:34:11+08:00",
       "production-297270f7bfbc39e25bf82be2": "2026-10-21T08:36:40+08:00",
-      "production-6966d98768e1541fcedd066c": "2026-10-21T08:36:40+08:00"
+      "production-6966d98768e1541fcedd066c": "2026-10-21T08:36:40+08:00",
+      "production-4b6d44a084ea8e55f9344c1a": "2026-10-21T08:43:28+08:00",
+      "production-0a4e00bfe25f4039ed12b426": "2026-10-21T08:43:28+08:00",
+      "production-bf4a5aafe7940b508185654e": "2026-10-21T08:49:35+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1207,6 +1213,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "北方化学工业股份有限公司2026年10月21日披露，董事会于10月19日审议通过《远期外汇交易业务管理制度》修订，制度经董事会审议通过后生效，原制度同时废止。制度规定，年度远期外汇交易业务计划须按规定经董事会批准后方可开展业务。"
+        },
+        "production-4b6d44a084ea8e55f9344c1a": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北化股份2026年10月21日公告，董事会于10月19日同意续聘立信会计师事务所（特殊普通合伙）为2026年度财务报表及内部控制审计机构，聘期一年。审计费用拟为人民币80万元（含税），其中年报审计50万元、内部控制审计30万元；续聘事项尚需股东会审议，并自审议通过之日起生效。"
+        },
+        "production-0a4e00bfe25f4039ed12b426": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北化股份2026年10月21日披露，董事会于10月19日审议通过修订《全面预算管理办法》。修订后的办法自董事会审议通过后生效并施行，原办法同时废止。"
+        },
+        "production-bf4a5aafe7940b508185654e": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西省天然气股份有限公司2026年10月21日公告，董事会于10月19日收到闫禹衡的书面辞职报告，其因工作调动辞去第七届董事会董事、副总经理及战略委员会、薪酬与考核委员会委员职务，辞职报告自送达董事会时即时生效。辞职后其将不在公司及控股子公司担任任何职务，公司表示将尽快完成董事补选等相关工作。"
         }
       }
     },
@@ -1216,7 +1243,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-10-21-f8d6b15474e9",
+      "sourceEditionId": "2026-10-21-9d419b4ac629",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -3637,6 +3664,15 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-002267-sz",
+      "type": "listed",
+      "name": "陕天然气",
+      "code": "002267.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000516-sz",
       "type": "listed",
       "name": "国际医学",
@@ -3681,16 +3717,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "美能能源",
       "code": "001299.SZ",
-      "market": "SZ",
-      "asOf": "2026-03-31",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-002267-sz",
-      "type": "listed",
-      "name": "陕天然气",
-      "code": "002267.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
@@ -14048,6 +14074,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T08:41:00+08:00",
           "updatedAt": "2026-10-21T08:34:11+08:00",
           "compiledAt": "2026-10-21T08:34:11+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -14330,6 +14357,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T08:41:00+08:00",
           "updatedAt": "2026-10-21T08:36:40+08:00",
           "compiledAt": "2026-10-21T08:36:40+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -22075,6 +22103,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T08:41:00+08:00",
           "updatedAt": "2026-10-21T08:34:11+08:00",
           "compiledAt": "2026-10-21T08:34:11+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -22120,6 +22149,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T08:41:00+08:00",
           "updatedAt": "2026-10-21T08:34:11+08:00",
           "compiledAt": "2026-10-21T08:34:11+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -22173,6 +22203,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T08:41:00+08:00",
           "updatedAt": "2026-10-21T08:36:40+08:00",
           "compiledAt": "2026-10-21T08:36:40+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -22201,6 +22232,165 @@ window.PROTOTYPE = {
               "location": "物理第3页第十条、第6页第二十八条",
               "retrievedAt": "2026-10-21T08:03:32+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612818.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-aadeab30620a86b48f68",
+      "objectId": "listed-002246-sz",
+      "type": "续聘审计机构",
+      "topics": [
+        "2026年度审计",
+        "立信会计师事务所"
+      ],
+      "updates": [
+        {
+          "id": "production-4b6d44a084ea8e55f9344c1a",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "拟续聘立信，年度审计费用80万元",
+          "summary": "北化股份2026年10月21日公告，董事会于10月19日同意续聘立信会计师事务所（特殊普通合伙）为2026年度财务报表及内部控制审计机构，聘期一年。审计费用拟为人民币80万元（含税），其中年报审计50万元、内部控制审计30万元；续聘事项尚需股东会审议，并自审议通过之日起生效。",
+          "stage": "2026年10月19日董事会审议通过，尚需股东会审议并自通过之日起生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T08:43:29+08:00",
+          "compiledAt": "2026-10-21T08:43:29+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北化股份",
+          "version": "4b6d44a084ea8e55f9344c1a2d5020e4e65b0e00ccd3d1c1b1b003194e9a593b",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于续聘会计师事务所的公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第4页审计收费、第5页董事会审议及生效日期",
+              "retrievedAt": "2026-10-21T08:03:31+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612820.PDF"
+            },
+            {
+              "title": "第六届董事会独立董事专门会议2026年第三次会议决议",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1页议案1；第2页落款日期为2026年10月19日",
+              "retrievedAt": "2026-10-21T08:03:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612814.PDF"
+            },
+            {
+              "title": "第六届董事会第八次会议决议公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1—2页议案（二）",
+              "retrievedAt": "2026-10-21T08:03:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612813.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-892b94c9615ad8624150",
+      "objectId": "listed-002246-sz",
+      "type": "内部管理制度修订",
+      "topics": [
+        "全面预算管理办法"
+      ],
+      "updates": [
+        {
+          "id": "production-0a4e00bfe25f4039ed12b426",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "董事会通过修订全面预算管理办法",
+          "summary": "北化股份2026年10月21日披露，董事会于10月19日审议通过修订《全面预算管理办法》。修订后的办法自董事会审议通过后生效并施行，原办法同时废止。",
+          "stage": "2026年10月19日董事会审议通过修订，按办法约定自董事会通过后生效施行",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T08:43:28+08:00",
+          "compiledAt": "2026-10-21T08:43:28+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北化股份",
+          "version": "0a4e00bfe25f4039ed12b426b5e04fb89ebb0d4f464582e6e02fde0ae873a76b",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第六届董事会第八次会议决议公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1页会议召开情况、第3页议案（五）及落款",
+              "retrievedAt": "2026-10-21T08:03:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612813.PDF"
+            },
+            {
+              "title": "全面预算管理办法",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第11页第三十条",
+              "retrievedAt": "2026-10-21T08:03:31+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612819.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-c6bf77969977651ad9d6",
+      "objectId": "listed-002267-sz",
+      "type": "董事及高级管理人员辞任",
+      "topics": [
+        "董事辞任",
+        "副总经理辞任",
+        "董事会专门委员会委员辞任"
+      ],
+      "updates": [
+        {
+          "id": "production-bf4a5aafe7940b508185654e",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "董事、副总经理闫禹衡因工作调动辞任",
+          "summary": "陕西省天然气股份有限公司2026年10月21日公告，董事会于10月19日收到闫禹衡的书面辞职报告，其因工作调动辞去第七届董事会董事、副总经理及战略委员会、薪酬与考核委员会委员职务，辞职报告自送达董事会时即时生效。辞职后其将不在公司及控股子公司担任任何职务，公司表示将尽快完成董事补选等相关工作。",
+          "stage": "2026年10月19日董事会收到辞职报告，辞职自送达时即时生效；董事补选尚待办理",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T08:49:35+08:00",
+          "compiledAt": "2026-10-21T08:49:35+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕天然气",
+          "version": "bf4a5aafe7940b508185654e531ae2e89a0a7faad1fe4506aa2a945c367d1fbe",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于董事、副总经理辞职的公告",
+              "publisher": "陕西省天然气股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1页“一、辞职情况”，第2页续文及落款",
+              "retrievedAt": "2026-10-21T08:02:27+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612741.PDF"
             }
           ],
           "tables": []
@@ -22821,6 +23011,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "4363c50888fe4dfa6fba",
+      "date": "2026-10-21",
+      "compiledAt": "2026-10-21T08:36:41+08:00",
+      "cutoff": "2026-10-21T08:02:15+08:00",
+      "snapshotUrl": "publications/4363c50888fe4dfa6fba/index.html",
+      "publishedAt": "2026-10-21T08:41:00+08:00"
+    },
     {
       "id": "454149a50246c973fb3f",
       "date": "2026-10-21",
