@@ -79,7 +79,6 @@ window.PROTOTYPE = {
       "production-4963d300c8705d777266b329": "2026-10-16T12:18:37+08:00",
       "production-cefcd22b9edc929156ef26ab": "2026-10-16T12:15:09+08:00",
       "production-5cad9adf9d1007ca22900a3f": "2026-10-16T12:28:38+08:00",
-      "production-eaba31db1ae93ae1af3c1763": "2026-10-16T12:30:19+08:00",
       "production-b816580b9e06a785883cbd77": "2026-10-16T12:56:25+08:00",
       "production-8b7f3b0be400542aba36bf09": "2026-10-16T12:59:12+08:00",
       "production-307fa4ec1724d912de6e734e": "2026-10-16T12:57:21+08:00",
@@ -506,14 +505,14 @@ window.PROTOTYPE = {
           "summary": "西安旅游2026年10月14日披露，下属子公司迭部县扎尕那康养置业有限公司近日收到甘肃省迭部县人民法院送达的民事起诉状，原告甘肃第六建设集团股份有限公司请求支付工程款39,948,967.53元、逾期付款利息3,368,363.78元、工程进度款违约金1,830,341.91元，承担诉讼费等实现债权费用，并请求就涉案工程折价、拍卖所得价款享有建设工程价款优先受偿权。案件目前处于起诉阶段，上述金额为原告诉请，对公司本期或期后利润的影响尚不确定。"
         },
         "production-0dece4ad493c8ae5090d11be": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
           "summary": "西安银行2026年10月14日披露，董事会于10月13日审议通过提名徐江旻为第六届董事会独立董事候选人的议案。该议案尚需提交股东会审议，任职资格经监管部门核准后方可开始履职。"
         },
         "production-4963d300c8705d777266b329": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
@@ -532,13 +531,6 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安银行2026年10月14日披露，董事会于10月13日以10票同意、0票反对、0票弃权审议通过聘任郭广涛为副行长的议案。郭广涛将在任职资格经监管部门核准后开始履职。"
-        },
-        "production-eaba31db1ae93ae1af3c1763": {
-          "version": "listed-scope-20261009",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "西安银行2026年10月14日披露，董事会于10月13日审议通过召开2026年第一次临时股东会的议案，并授权董事长根据实际情况确定召开时间、议程安排等事项。本公告未披露股东会的具体召开时间及议程。"
         },
         "production-b816580b9e06a785883cbd77": {
           "version": "listed-scope-20261009",
@@ -1144,20 +1136,20 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "historical_supplement_no_daily_image",
+      "status": "no_eligible_highlights",
       "sourceEditionId": "2026-10-20-fa983de5d58c",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
-      "windowStart": "2026-10-18",
-      "windowEnd": "2026-10-20",
-      "cutoff": "2026-10-20T08:14:36+08:00",
+      "windowStart": "2026-10-19",
+      "windowEnd": "2026-10-21",
+      "cutoff": "2026-10-21T08:02:15+08:00",
       "partial": true
     },
     "privateFilingHistory": {
       "start": "2026-01-01",
-      "end": "2026-10-20",
-      "checkedAt": "2026-10-20T19:08:00+08:00",
+      "end": "2026-10-21",
+      "checkedAt": "2026-10-21T08:04:59+08:00",
       "scopeCount": 92,
       "completeManagers": 92,
       "partialManagers": 0,
@@ -14124,51 +14116,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-6b9a111ef51c67be1b66",
-      "objectId": "listed-600928-sh",
-      "type": "公司治理及会议程序",
-      "topics": [
-        "临时股东会召开授权"
-      ],
-      "updates": [
-        {
-          "id": "production-eaba31db1ae93ae1af3c1763",
-          "date": "2026-10-14",
-          "time": "",
-          "title": "董事会同意召开2026年第一次临时股东会",
-          "summary": "西安银行2026年10月14日披露，董事会于10月13日审议通过召开2026年第一次临时股东会的议案，并授权董事长根据实际情况确定召开时间、议程安排等事项。本公告未披露股东会的具体召开时间及议程。",
-          "stage": "董事会同意召开并授权董事长确定时间及议程，具体安排尚未披露",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-10-16T12:35:23+08:00",
-          "updatedAt": "2026-10-16T12:30:19+08:00",
-          "compiledAt": "2026-10-16T12:30:19+08:00",
-          "researchCutoff": "2026-10-15T17:07:38+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "西安银行",
-          "version": "eaba31db1ae93ae1af3c1763b53acd0d140b524b5bb2e7125fa1df755d950a86",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "西安银行股份有限公司第六届董事会第三十九次会议决议公告",
-              "publisher": "西安银行股份有限公司",
-              "date": "2026-10-14",
-              "location": "物理第1页会议日期；第2页第五项议案",
-              "retrievedAt": "2026-10-15T17:08:19+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603837.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-d390bfc62684ea15a5bb",
       "objectId": "listed-600706-sh",
       "type": "司法拍卖",
@@ -22382,6 +22329,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "8cc16d8f40e0f9ff48b7",
+      "date": "2026-10-21",
+      "compiledAt": "2026-10-20T21:49:39+08:00",
+      "cutoff": "2026-10-20T18:42:10+08:00",
+      "snapshotUrl": "publications/8cc16d8f40e0f9ff48b7/index.html",
+      "publishedAt": "2026-10-21T08:01:46+08:00"
+    },
     {
       "id": "b6c82ed19aebf6152317",
       "date": "2026-10-20",
