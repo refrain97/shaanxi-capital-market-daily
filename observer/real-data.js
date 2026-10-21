@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-21-6e958c481db2",
-      "compiledAt": "2026-10-21T09:41:20+08:00",
+      "id": "2026-10-21-90a76de0fb77",
+      "compiledAt": "2026-10-21T10:14:51+08:00",
       "cutoff": "2026-10-21T08:02:15+08:00",
       "windowStart": "2026-10-19",
       "windowEnd": "2026-10-21",
@@ -32,7 +32,8 @@ window.PROTOTYPE = {
         "production-1f67575a7df8726e5bb74f5b",
         "production-0a4e00bfe25f4039ed12b426",
         "production-9bb997c56e95e0b262052723",
-        "production-37ea0dd24a2f7acd47957b92"
+        "production-37ea0dd24a2f7acd47957b92",
+        "production-1f1ed36f0ac6326f47e9ea3a"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -209,7 +210,8 @@ window.PROTOTYPE = {
       "production-f1841421c1efa500145da3e3": "2026-10-21T09:12:32+08:00",
       "production-9bb997c56e95e0b262052723": "2026-10-21T09:23:26+08:00",
       "production-f89c027c0a251a4f100d558c": "2026-10-21T09:28:45+08:00",
-      "production-37ea0dd24a2f7acd47957b92": "2026-10-21T09:41:19+08:00"
+      "production-37ea0dd24a2f7acd47957b92": "2026-10-21T09:41:19+08:00",
+      "production-1f1ed36f0ac6326f47e9ea3a": "2026-10-21T10:14:51+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1303,6 +1305,12 @@ window.PROTOTYPE = {
           "action": "减持",
           "group": "股东股份变动",
           "level": "deep"
+        },
+        "production-1f1ed36f0ac6326f47e9ea3a": {
+          "version": "listed-scope-20261019",
+          "action": "股权激励",
+          "group": "激励与员工持股",
+          "level": "deep"
         }
       }
     },
@@ -1311,9 +1319,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-10-21-6e958c481db2",
-      "editionId": "selection-5e824aabd16a49dafea3",
+      "status": "committed",
+      "sourceEditionId": "2026-10-21-90a76de0fb77",
+      "editionId": "selection-b210c5358f2ec4a7dd16",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -3101,6 +3109,9 @@ window.PROTOTYPE = {
       "code": "688122.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3109,6 +3120,9 @@ window.PROTOTYPE = {
       "name": "西安柏石私募基金管理有限公司",
       "code": "P1069047",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册",
+      "rosterAsOf": "2026-08-13",
       "publicRelation": "本次核查AMAC公示列注册地陕西省西安市，办公地浙江省杭州市（公示更新2026-04-09）。"
     },
     {
@@ -3117,6 +3131,9 @@ window.PROTOTYPE = {
       "name": "添佑私募基金管理（上海）有限公司",
       "code": "P1018901",
       "asOf": "2026-08-13",
+      "rosterTier": "PF2",
+      "rosterCategory": "陕西股权关联",
+      "rosterAsOf": "2026-08-13",
       "publicRelation": "本次核查AMAC公示列办公地址为陕西省西安市雁塔区（公示更新2026-08-18）；不据此推断迁址日期。"
     },
     {
@@ -3126,6 +3143,9 @@ window.PROTOTYPE = {
       "code": "688333.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3135,6 +3155,9 @@ window.PROTOTYPE = {
       "code": "601369.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3144,6 +3167,9 @@ window.PROTOTYPE = {
       "code": "000561.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3171,6 +3197,9 @@ window.PROTOTYPE = {
       "code": "301306.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3189,6 +3218,9 @@ window.PROTOTYPE = {
       "code": "600343.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3198,6 +3230,9 @@ window.PROTOTYPE = {
       "code": "600184.SH",
       "market": "SH",
       "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3207,6 +3242,9 @@ window.PROTOTYPE = {
       "code": "688719.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3216,6 +3254,9 @@ window.PROTOTYPE = {
       "code": "688314.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3225,6 +3266,9 @@ window.PROTOTYPE = {
       "code": "600879.SH",
       "market": "SH",
       "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3234,6 +3278,9 @@ window.PROTOTYPE = {
       "code": "001231.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3243,6 +3290,9 @@ window.PROTOTYPE = {
       "code": "000564.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3252,6 +3302,9 @@ window.PROTOTYPE = {
       "code": "688498.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3261,6 +3314,9 @@ window.PROTOTYPE = {
       "code": "603139.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3270,6 +3326,9 @@ window.PROTOTYPE = {
       "code": "600456.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3279,6 +3338,9 @@ window.PROTOTYPE = {
       "code": "002022.SZ",
       "market": "SZ",
       "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3288,6 +3350,9 @@ window.PROTOTYPE = {
       "code": "600831.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3297,6 +3362,9 @@ window.PROTOTYPE = {
       "code": "2367.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3306,6 +3374,9 @@ window.PROTOTYPE = {
       "code": "000697.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3315,6 +3386,9 @@ window.PROTOTYPE = {
       "code": "300775.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3324,6 +3398,9 @@ window.PROTOTYPE = {
       "code": "688285.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3333,6 +3410,9 @@ window.PROTOTYPE = {
       "code": "600302.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3342,6 +3422,9 @@ window.PROTOTYPE = {
       "code": "600080.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3351,6 +3434,9 @@ window.PROTOTYPE = {
       "code": "002109.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3360,6 +3446,9 @@ window.PROTOTYPE = {
       "code": "688167.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3369,6 +3458,9 @@ window.PROTOTYPE = {
       "code": "600665.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3378,6 +3470,9 @@ window.PROTOTYPE = {
       "code": "000812.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3387,6 +3482,9 @@ window.PROTOTYPE = {
       "code": "601179.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3396,6 +3494,9 @@ window.PROTOTYPE = {
       "code": "601225.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3405,6 +3506,9 @@ window.PROTOTYPE = {
       "code": "688550.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3414,6 +3518,9 @@ window.PROTOTYPE = {
       "code": "688813.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3423,6 +3530,9 @@ window.PROTOTYPE = {
       "code": "000610.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3432,6 +3542,9 @@ window.PROTOTYPE = {
       "code": "600928.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3441,6 +3554,9 @@ window.PROTOTYPE = {
       "code": "600706.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3450,6 +3566,9 @@ window.PROTOTYPE = {
       "code": "1354.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3459,6 +3578,9 @@ window.PROTOTYPE = {
       "code": "301357.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3468,6 +3590,9 @@ window.PROTOTYPE = {
       "code": "002149.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3477,6 +3602,9 @@ window.PROTOTYPE = {
       "code": "300487.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3486,6 +3614,9 @@ window.PROTOTYPE = {
       "code": "600212.SH",
       "market": "SH",
       "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3495,6 +3626,9 @@ window.PROTOTYPE = {
       "code": "601012.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3504,6 +3638,9 @@ window.PROTOTYPE = {
       "code": "002799.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3513,6 +3650,9 @@ window.PROTOTYPE = {
       "code": "300110.SZ",
       "market": "SZ",
       "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3522,6 +3662,9 @@ window.PROTOTYPE = {
       "code": "600089.SH",
       "market": "SH",
       "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3531,6 +3674,9 @@ window.PROTOTYPE = {
       "code": "001286.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3540,6 +3686,9 @@ window.PROTOTYPE = {
       "code": "601958.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3549,6 +3698,9 @@ window.PROTOTYPE = {
       "code": "688150.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3558,6 +3710,9 @@ window.PROTOTYPE = {
       "code": "688783.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3566,6 +3721,9 @@ window.PROTOTYPE = {
       "name": "苏州水润山禾私募基金管理有限公司",
       "code": "P1064295",
       "asOf": "2026-08-13",
+      "rosterTier": "PF2",
+      "rosterCategory": "陕西基金业协会会员观察",
+      "rosterAsOf": "2026-08-13",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3575,6 +3733,9 @@ window.PROTOTYPE = {
       "code": "300103.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3584,6 +3745,9 @@ window.PROTOTYPE = {
       "code": "000563.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3593,6 +3757,9 @@ window.PROTOTYPE = {
       "code": "300397.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3602,6 +3769,9 @@ window.PROTOTYPE = {
       "code": "301517.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3611,6 +3781,9 @@ window.PROTOTYPE = {
       "code": "600248.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3630,6 +3803,9 @@ window.PROTOTYPE = {
       "code": "300581.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3639,6 +3815,9 @@ window.PROTOTYPE = {
       "code": "600379.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3648,6 +3827,9 @@ window.PROTOTYPE = {
       "code": "601015.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3657,6 +3839,9 @@ window.PROTOTYPE = {
       "code": "002673.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3666,6 +3851,9 @@ window.PROTOTYPE = {
       "code": "300140.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3675,6 +3863,9 @@ window.PROTOTYPE = {
       "code": "301231.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3684,6 +3875,9 @@ window.PROTOTYPE = {
       "code": "301589.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3713,6 +3907,9 @@ window.PROTOTYPE = {
       "code": "920576.BJ",
       "market": "BJ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3722,6 +3919,9 @@ window.PROTOTYPE = {
       "code": "002140.SZ",
       "market": "SZ",
       "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3731,6 +3931,9 @@ window.PROTOTYPE = {
       "code": "002246.SZ",
       "market": "SZ",
       "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3740,6 +3943,9 @@ window.PROTOTYPE = {
       "code": "002267.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3749,6 +3955,21 @@ window.PROTOTYPE = {
       "code": "000837.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-920519-bj",
+      "type": "listed",
+      "name": "万德股份",
+      "code": "920519.BJ",
+      "market": "BJ",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
@@ -3758,6 +3979,9 @@ window.PROTOTYPE = {
       "code": "000516.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3768,6 +3992,9 @@ window.PROTOTYPE = {
       "code": "000721.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3778,6 +4005,9 @@ window.PROTOTYPE = {
       "code": "000768.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3788,6 +4018,9 @@ window.PROTOTYPE = {
       "code": "001299.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3798,6 +4031,9 @@ window.PROTOTYPE = {
       "code": "002864.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3808,6 +4044,9 @@ window.PROTOTYPE = {
       "code": "003009.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3818,6 +4057,9 @@ window.PROTOTYPE = {
       "code": "300164.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3828,6 +4070,9 @@ window.PROTOTYPE = {
       "code": "300831.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3838,6 +4083,9 @@ window.PROTOTYPE = {
       "code": "300861.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3848,6 +4096,9 @@ window.PROTOTYPE = {
       "code": "301031.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3858,6 +4109,9 @@ window.PROTOTYPE = {
       "code": "301171.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3868,6 +4122,9 @@ window.PROTOTYPE = {
       "code": "302132.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3878,6 +4135,9 @@ window.PROTOTYPE = {
       "code": "600217.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3888,6 +4148,9 @@ window.PROTOTYPE = {
       "code": "600455.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3898,6 +4161,9 @@ window.PROTOTYPE = {
       "code": "600707.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3908,6 +4174,9 @@ window.PROTOTYPE = {
       "code": "600893.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3918,6 +4187,9 @@ window.PROTOTYPE = {
       "code": "600984.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3928,6 +4200,9 @@ window.PROTOTYPE = {
       "code": "601568.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3938,6 +4213,9 @@ window.PROTOTYPE = {
       "code": "603402.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3948,6 +4226,9 @@ window.PROTOTYPE = {
       "code": "605033.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3958,6 +4239,9 @@ window.PROTOTYPE = {
       "code": "605168.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3968,6 +4252,9 @@ window.PROTOTYPE = {
       "code": "688101.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3978,6 +4265,9 @@ window.PROTOTYPE = {
       "code": "688102.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3988,6 +4278,9 @@ window.PROTOTYPE = {
       "code": "688269.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -3998,6 +4291,9 @@ window.PROTOTYPE = {
       "code": "688281.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4008,6 +4304,9 @@ window.PROTOTYPE = {
       "code": "688334.SH",
       "market": "SH",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4018,16 +4317,9 @@ window.PROTOTYPE = {
       "code": "920098.BJ",
       "market": "BJ",
       "asOf": "2026-03-31",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-920519-bj",
-      "type": "listed",
-      "name": "万德股份",
-      "code": "920519.BJ",
-      "market": "BJ",
-      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4038,6 +4330,9 @@ window.PROTOTYPE = {
       "code": "920564.BJ",
       "market": "BJ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4048,6 +4343,9 @@ window.PROTOTYPE = {
       "code": "920599.BJ",
       "market": "BJ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4058,6 +4356,9 @@ window.PROTOTYPE = {
       "code": "920640.BJ",
       "market": "BJ",
       "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4068,6 +4369,9 @@ window.PROTOTYPE = {
       "code": "0438.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4078,6 +4382,9 @@ window.PROTOTYPE = {
       "code": "2335.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4088,6 +4395,9 @@ window.PROTOTYPE = {
       "code": "2418.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4098,6 +4408,9 @@ window.PROTOTYPE = {
       "code": "8227.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4108,6 +4421,9 @@ window.PROTOTYPE = {
       "code": "2233.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4118,6 +4434,9 @@ window.PROTOTYPE = {
       "code": "6162.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4128,6 +4447,9 @@ window.PROTOTYPE = {
       "code": "1771.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4138,6 +4460,9 @@ window.PROTOTYPE = {
       "code": "8631.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4148,6 +4473,9 @@ window.PROTOTYPE = {
       "code": "0162.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4158,6 +4486,9 @@ window.PROTOTYPE = {
       "code": "0620.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4168,6 +4499,9 @@ window.PROTOTYPE = {
       "code": "0346.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4178,6 +4512,9 @@ window.PROTOTYPE = {
       "code": "0997.HK",
       "market": "HK",
       "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4188,6 +4525,9 @@ window.PROTOTYPE = {
       "code": "002185.SZ",
       "market": "SZ",
       "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4198,6 +4538,9 @@ window.PROTOTYPE = {
       "code": "300527.SZ",
       "market": "SZ",
       "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4208,6 +4551,9 @@ window.PROTOTYPE = {
       "code": "000659.SZ",
       "market": "SZ",
       "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4218,6 +4564,9 @@ window.PROTOTYPE = {
       "code": "P1024465",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4228,6 +4577,9 @@ window.PROTOTYPE = {
       "code": "P1018089",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4238,6 +4590,9 @@ window.PROTOTYPE = {
       "code": "P1069852",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4248,6 +4603,9 @@ window.PROTOTYPE = {
       "code": "P1072551",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4258,6 +4616,9 @@ window.PROTOTYPE = {
       "code": "P1072644",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4268,6 +4629,9 @@ window.PROTOTYPE = {
       "code": "P1074620",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4278,6 +4642,9 @@ window.PROTOTYPE = {
       "code": "P1030701",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4288,6 +4655,9 @@ window.PROTOTYPE = {
       "code": "P1072582",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4298,6 +4668,9 @@ window.PROTOTYPE = {
       "code": "P1071521",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4308,6 +4681,9 @@ window.PROTOTYPE = {
       "code": "P1072755",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4318,6 +4694,9 @@ window.PROTOTYPE = {
       "code": "P1069402",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4328,6 +4707,9 @@ window.PROTOTYPE = {
       "code": "P1006149",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4338,6 +4720,9 @@ window.PROTOTYPE = {
       "code": "P1072899",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4348,6 +4733,9 @@ window.PROTOTYPE = {
       "code": "P1060527",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4358,6 +4746,9 @@ window.PROTOTYPE = {
       "code": "P1020814",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4368,6 +4759,9 @@ window.PROTOTYPE = {
       "code": "P1028873",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4378,6 +4772,9 @@ window.PROTOTYPE = {
       "code": "P1013255",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4388,6 +4785,9 @@ window.PROTOTYPE = {
       "code": "P1018506",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4398,6 +4798,9 @@ window.PROTOTYPE = {
       "code": "P1006086",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4408,6 +4811,9 @@ window.PROTOTYPE = {
       "code": "P1024334",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4418,6 +4824,9 @@ window.PROTOTYPE = {
       "code": "P1020249",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4428,6 +4837,9 @@ window.PROTOTYPE = {
       "code": "P1028836",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4438,6 +4850,9 @@ window.PROTOTYPE = {
       "code": "P1022811",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4448,6 +4863,9 @@ window.PROTOTYPE = {
       "code": "P1030942",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4458,6 +4876,9 @@ window.PROTOTYPE = {
       "code": "P1016676",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4468,6 +4889,9 @@ window.PROTOTYPE = {
       "code": "P1024278",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4478,6 +4902,9 @@ window.PROTOTYPE = {
       "code": "P1028974",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4488,6 +4915,9 @@ window.PROTOTYPE = {
       "code": "P1069468",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4498,6 +4928,9 @@ window.PROTOTYPE = {
       "code": "P1065633",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4508,6 +4941,9 @@ window.PROTOTYPE = {
       "code": "P1005640",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4518,6 +4954,9 @@ window.PROTOTYPE = {
       "code": "P1068719",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4528,6 +4967,9 @@ window.PROTOTYPE = {
       "code": "P1064879",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4538,6 +4980,9 @@ window.PROTOTYPE = {
       "code": "P1067542",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4548,6 +4993,9 @@ window.PROTOTYPE = {
       "code": "P1070561",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4558,6 +5006,9 @@ window.PROTOTYPE = {
       "code": "P1063141",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4568,6 +5019,9 @@ window.PROTOTYPE = {
       "code": "P1065741",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4578,6 +5032,9 @@ window.PROTOTYPE = {
       "code": "P1060835",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4588,6 +5045,9 @@ window.PROTOTYPE = {
       "code": "P1071793",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4598,6 +5058,9 @@ window.PROTOTYPE = {
       "code": "P1069423",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4608,6 +5071,9 @@ window.PROTOTYPE = {
       "code": "P1064611",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4618,6 +5084,9 @@ window.PROTOTYPE = {
       "code": "P1068400",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4628,6 +5097,9 @@ window.PROTOTYPE = {
       "code": "P1071509",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4638,6 +5110,9 @@ window.PROTOTYPE = {
       "code": "P1072794",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4648,6 +5123,9 @@ window.PROTOTYPE = {
       "code": "P1067411",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4658,6 +5136,9 @@ window.PROTOTYPE = {
       "code": "P1070133",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4668,6 +5149,9 @@ window.PROTOTYPE = {
       "code": "P1062077",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4678,6 +5162,9 @@ window.PROTOTYPE = {
       "code": "P1067745",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4688,6 +5175,9 @@ window.PROTOTYPE = {
       "code": "P1070763",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4698,6 +5188,9 @@ window.PROTOTYPE = {
       "code": "P1067746",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4708,6 +5201,9 @@ window.PROTOTYPE = {
       "code": "P1064313",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4718,6 +5214,9 @@ window.PROTOTYPE = {
       "code": "P1062559",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4728,6 +5227,9 @@ window.PROTOTYPE = {
       "code": "P1065520",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4738,6 +5240,9 @@ window.PROTOTYPE = {
       "code": "P1067590",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4748,6 +5253,9 @@ window.PROTOTYPE = {
       "code": "P1033308",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4758,6 +5266,9 @@ window.PROTOTYPE = {
       "code": "P1066586",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4768,6 +5279,9 @@ window.PROTOTYPE = {
       "code": "P1065652",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4778,6 +5292,9 @@ window.PROTOTYPE = {
       "code": "P1008048",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4788,6 +5305,9 @@ window.PROTOTYPE = {
       "code": "P1070648",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4798,6 +5318,9 @@ window.PROTOTYPE = {
       "code": "P1065146",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4808,6 +5331,9 @@ window.PROTOTYPE = {
       "code": "P1074554",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4818,6 +5344,9 @@ window.PROTOTYPE = {
       "code": "P1071114",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4828,6 +5357,9 @@ window.PROTOTYPE = {
       "code": "P1063733",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4838,6 +5370,9 @@ window.PROTOTYPE = {
       "code": "P1071318",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4848,6 +5383,9 @@ window.PROTOTYPE = {
       "code": "P1032427",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4858,6 +5396,9 @@ window.PROTOTYPE = {
       "code": "P1002931",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4868,6 +5409,9 @@ window.PROTOTYPE = {
       "code": "P1071381",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4878,6 +5422,9 @@ window.PROTOTYPE = {
       "code": "P1007930",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4888,6 +5435,9 @@ window.PROTOTYPE = {
       "code": "P1071732",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4898,6 +5448,9 @@ window.PROTOTYPE = {
       "code": "P1001411",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4908,6 +5461,9 @@ window.PROTOTYPE = {
       "code": "P1008049",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4918,6 +5474,9 @@ window.PROTOTYPE = {
       "code": "P1069167",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4928,6 +5487,9 @@ window.PROTOTYPE = {
       "code": "P1070963",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4938,6 +5500,9 @@ window.PROTOTYPE = {
       "code": "P1009868",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4948,6 +5513,9 @@ window.PROTOTYPE = {
       "code": "P1061088",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4958,6 +5526,9 @@ window.PROTOTYPE = {
       "code": "P1005988",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4968,6 +5539,9 @@ window.PROTOTYPE = {
       "code": "P1069753",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4978,6 +5552,9 @@ window.PROTOTYPE = {
       "code": "P1066746",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4988,6 +5565,9 @@ window.PROTOTYPE = {
       "code": "P1070785",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -4998,6 +5578,9 @@ window.PROTOTYPE = {
       "code": "P1072485",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -5008,6 +5591,9 @@ window.PROTOTYPE = {
       "code": "P1072306",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -5018,6 +5604,9 @@ window.PROTOTYPE = {
       "code": "P1060669",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -5028,6 +5617,9 @@ window.PROTOTYPE = {
       "code": "P1019175",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -5038,6 +5630,9 @@ window.PROTOTYPE = {
       "code": "P1072863",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -5048,6 +5643,9 @@ window.PROTOTYPE = {
       "code": "P1007845",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -5058,6 +5656,9 @@ window.PROTOTYPE = {
       "code": "P1064558",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西注册、办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -5068,6 +5669,9 @@ window.PROTOTYPE = {
       "code": "P1072146",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF1",
+      "rosterCategory": "陕西办公",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -5078,6 +5682,9 @@ window.PROTOTYPE = {
       "code": "P1027840",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF2",
+      "rosterCategory": "西安分支及办公关联",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -5088,6 +5695,9 @@ window.PROTOTYPE = {
       "code": "P1020607",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF2",
+      "rosterCategory": "西安分支及办公关联",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
@@ -5098,6 +5708,9 @@ window.PROTOTYPE = {
       "code": "P1073744",
       "market": "AMAC",
       "asOf": "2026-08-13",
+      "rosterTier": "PF2",
+      "rosterCategory": "陕西基金业协会会员观察",
+      "rosterAsOf": "2026-08-13",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     }
@@ -23165,9 +23778,348 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-dd8b3efc1496cced6eb4",
+      "objectId": "listed-920519-bj",
+      "type": "股权激励",
+      "topics": [
+        "2026年限制性股票激励计划",
+        "股东会审议通过",
+        "考核办法及激励对象名单",
+        "授予协议及办理授权",
+        "内幕信息知情人交易自查",
+        "股东会法律意见"
+      ],
+      "updates": [
+        {
+          "id": "production-1f1ed36f0ac6326f47e9ea3a",
+          "date": "2026-10-20",
+          "time": "",
+          "title": "股东会通过110.4184万股限制性股票激励计划",
+          "summary": "万德股份10月20日披露，10月19日召开的股东会审议通过2026年限制性股票激励计划及四项配套议案。计划拟向75人一次性授予110.4184万股回购股份，占草案公布日总股本约1.24%，授予价格为5.37元/股，无预留权益。本轮材料尚不能证明实际授予、认购缴款、协议签署或股份登记完成。",
+          "stage": "2026年10月19日股东会审议通过激励计划及四项配套议案；10月20日披露会议法律意见和内幕信息知情人交易自查报告，当前材料未证明实际授予、协议签署或股份登记完成",
+          "depth": "deep",
+          "coverage": "本事项有限历史研究；不等于观察池全量已更新。本稿仅核对本计划及直接相关回购余额、执行结果和近期披露，不声称覆盖公司全部回购、激励、注销或划转历史；2024年期初持股不被进一步描述为某次尚未核实的具体回购交易。 2023年核心员工认定原决议未在本轮提供。本稿采用已披露、经公示核查且本次股东会通过的名单分类，不将2023年逐人认定沿革表述为本轮已独立核实事实；该项不影响本次名单人数、分配数量及审议结果。 69名核心员工及其他员工已披露姓名与类别，但本次名单未列其逐人拟授予数量；本稿仅列公告提供的类别合计，不推算个人份额。 交易自查报告未披露四名相关人员逐笔交易数量、金额和日期；本稿仅归属为公司自查结论，不作新的增持执行报道或逐笔交易合规判断。 本轮未联网。14份留存PDF的SHA-256已与sources.json逐一核对一致。复用search-trace.json仅确认已有来源及检索轨迹，不将作者自述检索结果作为正文证据。 本次年报于2026年10月21日10:02:46补入，晚于输入所列08:02:15研究截止标记；本候选使用本轮授权补充材料，不倒称为原截止前已核读，也不推进原发现覆盖范围。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T10:14:51+08:00",
+          "compiledAt": "2026-10-21T10:14:51+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "万德股份",
+          "version": "1f1ed36f0ac6326f47e9ea3a611bd2e30bd680b9e69dab8c91ac6d5d70a7029f",
+          "important": true,
+          "production": true,
+          "prototype": false,
+          "history": [
+            {
+              "date": "2025-04-25",
+              "text": "2024年年报披露，回购专用证券账户期初持股260,898股，当年增加843,286股，期末持股1,104,184股。该记录明确了本次拟授予数量与已核单轮回购数量之间的差额属于2024年期初已有持股。"
+            },
+            {
+              "date": "2025-07-28",
+              "text": "公司披露2024年7月25日至2025年7月24日这一轮回购结果：原计划使用自有资金450万至900万元、回购50万至100万股；实际回购843,286股，支付5,915,555.21元，不含交易费用。回购股份拟用于股权激励或员工持股计划。"
+            },
+            {
+              "date": "2026-09-17",
+              "text": "半年度权益分派实施公告披露，分配基数扣除了公司回购股份1,104,184股。该近期披露与2024年末回购专户余额、本次激励计划拟授予数量相同；不能据此推断两个时点之间每日均无股份变动。"
+            },
+            {
+              "date": "2026-09-30",
+              "text": "公司披露9月29日董事会通过激励草案、考核办法、激励对象名单、签署授予协议及办理授权五项议案，当时均须提交股东会审议；召开股东会的程序议案亦获通过。"
+            },
+            {
+              "date": "2026-10-12",
+              "text": "公司披露，激励对象名单于10月1日至10月10日在内部公示，公示期满未收到异议；薪酬与考核委员会认为名单人员符合激励对象条件。当时名单仍待股东会审议。"
+            }
+          ],
+          "business": [
+            "公司主要从事油品添加剂、炼油助剂、油田化学品及其他精细化工产品的生产与销售。本计划将员工持股收益与公司业绩、个人考核相联系，考核目标不代表公司业绩承诺。",
+            "本次进入股东会批准后的实施阶段。公司后续授予、收款、验资与登记安排，以及员工认购资金和证券账户办理，可作为进一步沟通事项，具体需求和承办安排须向客户确认。历史回购支出不能写成本次新增回购资金需求。",
+            "国浩律师（西安）事务所已担任本计划专项法律顾问，并出具本次股东会法律意见。公司实施事务与员工个人认购服务应分别确认，不能将已有法律服务写成待承接业务。"
+          ],
+          "details": [
+            {
+              "label": "本次审议结果",
+              "value": "激励草案、考核办法、激励对象名单、签署授予协议、授权董事会办理相关事项五项议案均通过。杨青、李航放、杨荣丽回避表决后，各议案同意37,962,448股，占有效表决权股份的100%；反对、弃权均为0股。"
+            },
+            {
+              "label": "规模与参与人",
+              "value": "拟向75人授予110.4184万股，占草案公布日总股本约1.24%，一次性授予、无预留。对象包括6名董事及高级管理人员、23名核心员工及46名其他员工。"
+            },
+            {
+              "label": "股份及认购资金来源",
+              "value": "股份来源为公司从二级市场回购的人民币A股普通股；授予价格5.37元/股，激励对象以自筹资金认购。公司承诺不提供贷款、贷款担保或其他财务资助。"
+            },
+            {
+              "label": "历史股份数量衔接",
+              "value": "2024年回购专户期初260,898股＋本期增加843,286股＝期末1,104,184股。2026年9月权益分派公告披露的回购股份、本次拟授予股份均为1,104,184股。上述证据支持披露时点的数量衔接，不代表逐日账户流水审计。"
+            },
+            {
+              "label": "实施程序",
+              "value": "按计划，股东会审议通过后60日内完成授予、公告、登记等程序；有获授权益条件的，从条件成就后起算，不得授出权益的期间不计入。实际授予日由董事会确定。当前通过签署协议和办理授权议案，不等于协议已签署或登记已完成。"
+            },
+            {
+              "label": "解除限售安排",
+              "value": "两个解除限售期各占50%：分别为授予日起12个月后的首个交易日至授予日起24个月内的最后一个交易日，以及授予日起24个月后的首个交易日至授予日起36个月内的最后一个交易日。须满足相应条件，未成就部分不得递延解除限售。"
+            },
+            {
+              "label": "公司及个人考核",
+              "value": "以2025年净利润为基数，2026年、2027年增长率分别不低于55%、65%；净利润指经审计归母净利润，并剔除本次及有效期内其他股权激励、员工持股计划股份支付费用影响。个人A、B、C等级对应解除限售比例100%、80%、0%。公司考核未达标部分按授予价格加同期存款利息回购注销，个人考核未达标部分按授予价格回购注销，均不得递延。"
+            },
+            {
+              "label": "股份支付影响",
+              "value": "草案按公布前一交易日收盘数据预测权益费用总额585.22万元；假设2026年10月授予且全部满足解除限售条件，2026—2028年预计摊销分别为73.15万元、390.15万元、121.92万元。这是附带假设的预测成本，实际金额取决于实际授予等情况。"
+            },
+            {
+              "label": "交易自查",
+              "value": "公司对2026年3月30日至9月30日进行了自查，披露4名内幕信息知情人存在股票买卖，并分别说明原因；公司自查结论为未发现利用或泄露本计划内幕信息的行为。该结论属于公司自查陈述，不是本稿对逐笔交易作出的独立认定。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "2026年第二次临时股东会决议公告",
+              "publisher": "西安万德能源化学股份有限公司",
+              "date": "2026-10-20",
+              "location": "物理页1—5；会议日期、五项议案表决及律师意见",
+              "retrievedAt": "2026-10-20T18:53:20+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225612265.PDF"
+            },
+            {
+              "title": "国浩律师（西安）事务所关于西安万德能源化学股份有限公司2026年第二次临时股东会的法律意见书",
+              "publisher": "国浩律师（西安）事务所",
+              "date": "2026-10-20",
+              "location": "物理页2—5，会议及表决；物理页6签署页出具日期为2026年10月19日",
+              "retrievedAt": "2026-10-21T08:02:56+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225612261.PDF"
+            },
+            {
+              "title": "关于2026年限制性股票激励计划内幕信息知情人买卖公司股票情况的自查报告",
+              "publisher": "西安万德能源化学股份有限公司",
+              "date": "2026-10-20",
+              "location": "物理页1—2，自查范围、交易说明及结论",
+              "retrievedAt": "2026-10-21T08:02:55+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225612263.PDF"
+            },
+            {
+              "title": "2026年限制性股票激励计划（草案）",
+              "publisher": "西安万德能源化学股份有限公司",
+              "date": "2026-09-30",
+              "location": "物理页5、11、13—18、22—23、28—30、32—33；计划条款、分配、考核及实施程序",
+              "retrievedAt": "2026-10-09T20:30:47+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-09-30/1225591876.PDF"
+            },
+            {
+              "title": "2026年限制性股票激励计划激励对象名单",
+              "publisher": "西安万德能源化学股份有限公司",
+              "date": "2026-09-30",
+              "location": "物理页1分配表及脚注；物理页2—4员工名单",
+              "retrievedAt": "2026-10-09T20:30:48+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-09-30/1225591875.PDF"
+            },
+            {
+              "title": "第五届董事会第六次会议决议公告",
+              "publisher": "西安万德能源化学股份有限公司",
+              "date": "2026-09-30",
+              "location": "物理页1—6，五项激励议案及召开股东会议案",
+              "retrievedAt": "2026-10-09T20:30:47+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-09-30/1225591877.PDF"
+            },
+            {
+              "title": "董事会薪酬与考核委员会关于2026年限制性股票激励计划激励对象名单的核查意见及公示情况说明的公告",
+              "publisher": "西安万德能源化学股份有限公司董事会薪酬与考核委员会",
+              "date": "2026-10-12",
+              "location": "物理页1—2，公示情况及核查结论",
+              "retrievedAt": "2026-10-15T17:08:42+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225601656.PDF"
+            },
+            {
+              "title": "2024年年度报告",
+              "publisher": "西安万德能源化学股份有限公司",
+              "date": "2025-04-25",
+              "location": "物理页1封面；物理页38回购说明；物理页40—41回购专户持股变动；物理页157库存股附注",
+              "retrievedAt": "2026-10-21T10:02:46.316737+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2025-04-25/1223330491.PDF"
+            },
+            {
+              "title": "回购股份结果公告",
+              "publisher": "西安万德能源化学股份有限公司",
+              "date": "2025-07-28",
+              "location": "物理页1—3、5，原方案、执行结果及后续用途",
+              "retrievedAt": "2026-10-16T13:49:13.860208+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2025-07-28/1224318753.PDF"
+            },
+            {
+              "title": "2026年半年度权益分派实施公告",
+              "publisher": "西安万德能源化学股份有限公司",
+              "date": "2026-09-17",
+              "location": "物理页1，扣除回购股份的分配基数；物理页2，权益登记日",
+              "retrievedAt": "2026-09-23T15:36:28+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-09-17/1225569394.PDF"
+            },
+            {
+              "title": "国浩律师（西安）事务所关于西安万德能源化学股份有限公司2026年限制性股票激励计划（草案）之法律意见书",
+              "publisher": "国浩律师（西安）事务所",
+              "date": "2026-09-30",
+              "location": "物理页3专项法律顾问委托；物理页7证券代码对应；物理页23—24结论及签署",
+              "retrievedAt": "2026-10-09T20:30:48+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-09-30/1225591872.PDF"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "计划拟授予分配，尚非实际授予结果",
+              "columns": [
+                "对象",
+                "职务或类别",
+                "拟授予数量（万股）"
+              ],
+              "rows": [
+                [
+                  "汪希领",
+                  "董事、总经理",
+                  "4.50"
+                ],
+                [
+                  "李建军",
+                  "副总经理",
+                  "3.70"
+                ],
+                [
+                  "杨青",
+                  "董事、副总经理",
+                  "4.20"
+                ],
+                [
+                  "卢哲",
+                  "董事会秘书",
+                  "3.00"
+                ],
+                [
+                  "常兆军",
+                  "职工董事",
+                  "2.10"
+                ],
+                [
+                  "胡健",
+                  "财务负责人",
+                  "2.50"
+                ],
+                [
+                  "23名核心员工",
+                  "核心员工",
+                  "49.90"
+                ],
+                [
+                  "46名其他员工",
+                  "对公司经营业绩和未来发展有直接影响的其他员工",
+                  "40.5184"
+                ],
+                [
+                  "合计75人",
+                  "全部拟激励对象",
+                  "110.4184"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-b210c5358f2ec4a7dd16",
+      "date": "2026-10-21",
+      "cutoff": "2026-10-21T08:02:15+08:00",
+      "compiledAt": "2026-10-21T10:16:06+08:00",
+      "researchCutoff": "2026-10-21T08:02:15+08:00",
+      "sourceDiscoveryCutoff": "2026-10-21T08:02:15+08:00",
+      "updateIds": [
+        "production-ae252879488977f0f4b932c2",
+        "production-37ea0dd24a2f7acd47957b92",
+        "production-1f1ed36f0ac6326f47e9ea3a",
+        "production-f89c027c0a251a4f100d558c"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-b210c5358f2ec4a7dd16/page-01.png",
+          "width": 1080,
+          "height": 1942,
+          "sha256": "d9fe71fa1bd9fa225022bb13535a0a56d704bdf676d09c8d3b4b8f98840a8c87"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-21-90a76de0fb77",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-20",
+      "rangeEnd": "2026-10-21",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-61997847d92e22900916",
+          "updateId": "production-ae252879488977f0f4b932c2",
+          "version": "ae252879488977f0f4b932c2cf3da8bcf4148ccf4e43e3acbaf3d378e4a1954b",
+          "objectName": "秦川机床",
+          "type": "listed",
+          "category": "减持",
+          "date": "2026-10-21",
+          "title": "陕西产投减持计划到期未实施，持股仍为9.89%",
+          "business": "股份管理",
+          "share": {
+            "title": "减持计划届满未实施，持股仍为9.89%",
+            "facts": "陕西省产业投资有限公司减持计划于10月19日届满，期间未减持。原拟7月22日至10月19日集中竞价减持不超过10,231,458股、占总股本1%；持股比例仍为9.89%。"
+          }
+        },
+        {
+          "eventId": "production-event-bda18783f0c58f21562f",
+          "updateId": "production-37ea0dd24a2f7acd47957b92",
+          "version": "37ea0dd24a2f7acd47957b924ce9b5a368a5080facf8f6fb8afbbaaa48420cb1",
+          "objectName": "荣信文化",
+          "type": "listed",
+          "category": "减持",
+          "date": "2026-10-20",
+          "title": "一致行动人大宗交易减持11.6万股，相关计划尚未完成",
+          "business": "股份管理",
+          "share": {
+            "title": "大宗交易减持11.6万股，计划尚未完成",
+            "facts": "公告，许昌乐乐趣企业管理合伙企业（有限合伙）当日通过大宗交易减持11.6万股，占总股本0.1374%。三名一致行动人合计持股比例由36.14%降至36.00%；此次对应9月9日披露的合计减持不超过248.9742万股计划，计划尚未履行完毕。"
+          }
+        },
+        {
+          "eventId": "production-event-dd8b3efc1496cced6eb4",
+          "updateId": "production-1f1ed36f0ac6326f47e9ea3a",
+          "version": "1f1ed36f0ac6326f47e9ea3a611bd2e30bd680b9e69dab8c91ac6d5d70a7029f",
+          "objectName": "万德股份",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-20",
+          "title": "股东会通过110.4184万股限制性股票激励计划",
+          "business": "股份管理",
+          "share": {
+            "title": "110.4184万股限制性股票激励计划获通过",
+            "facts": "万德股份10月20日披露，10月19日股东会通过2026年限制性股票激励计划，拟以5.37元/股向75人一次性授予110.4184万股回购股份，无预留权益。现有材料尚不能证明实际授予、认购缴款、协议签署或股份登记完成。"
+          }
+        },
+        {
+          "eventId": "production-event-446551fedcd803a71aba",
+          "updateId": "production-f89c027c0a251a4f100d558c",
+          "version": "f89c027c0a251a4f100d558cbc3958b0e3ac98eabc79d8d964ade4fc19c0a7f9",
+          "objectName": "光电股份",
+          "type": "listed",
+          "category": "现金管理赎回进展",
+          "date": "2026-10-21",
+          "title": "湖北新华光收回募集资金现金管理本金1.6亿元，本息已归还专户",
+          "business": "机构理财",
+          "share": {
+            "title": "收回现金管理本金1.6亿元，本息归还专户",
+            "facts": "公告，控股子公司湖北新华光信息材料有限公司于10月19日、20日支取七天通知存款，收回募集资金现金管理本金1.6亿元，取得本次收益28,763.90元，本金及收益均已归还募集资金专户。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-5e824aabd16a49dafea3",
       "date": "2026-10-21",
@@ -24004,6 +24956,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "b8945af5857eb3d7e47f",
+      "date": "2026-10-21",
+      "compiledAt": "2026-10-21T09:41:20+08:00",
+      "cutoff": "2026-10-21T08:02:15+08:00",
+      "snapshotUrl": "publications/b8945af5857eb3d7e47f/index.html",
+      "publishedAt": "2026-10-21T09:47:13+08:00"
+    },
     {
       "id": "146ac1e49cae2eb200b8",
       "date": "2026-10-21",
