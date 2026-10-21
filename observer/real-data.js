@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-21-e334f4dd7cdc",
-      "compiledAt": "2026-10-21T08:26:33+08:00",
+      "id": "2026-10-21-f8d6b15474e9",
+      "compiledAt": "2026-10-21T08:36:41+08:00",
       "cutoff": "2026-10-21T08:02:15+08:00",
       "windowStart": "2026-10-19",
       "windowEnd": "2026-10-21",
@@ -14,9 +14,14 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-10-21T08:02:15+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-d7037ffef9554e23e36ca8e1",
         "production-d43e30558850004319b47ad9",
+        "production-d1ec27423a5bbbec61125a5b",
+        "production-6966d98768e1541fcedd066c",
         "production-4f3e0a06cc2806e7e76f5367",
-        "production-4c9cb211a74d8d63ef6925e9"
+        "production-4c9cb211a74d8d63ef6925e9",
+        "production-4325b49dde939302b776c0db",
+        "production-297270f7bfbc39e25bf82be2"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -177,7 +182,12 @@ window.PROTOTYPE = {
       "production-c8b7078afb2e82eae0ed96c3": "2026-10-20T21:49:39+08:00",
       "production-4c9cb211a74d8d63ef6925e9": "2026-10-21T08:26:32+08:00",
       "production-4f3e0a06cc2806e7e76f5367": "2026-10-21T08:26:32+08:00",
-      "production-d43e30558850004319b47ad9": "2026-10-21T08:26:32+08:00"
+      "production-d43e30558850004319b47ad9": "2026-10-21T08:26:32+08:00",
+      "production-d7037ffef9554e23e36ca8e1": "2026-10-21T08:34:11+08:00",
+      "production-4325b49dde939302b776c0db": "2026-10-21T08:34:11+08:00",
+      "production-d1ec27423a5bbbec61125a5b": "2026-10-21T08:34:11+08:00",
+      "production-297270f7bfbc39e25bf82be2": "2026-10-21T08:36:40+08:00",
+      "production-6966d98768e1541fcedd066c": "2026-10-21T08:36:40+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -517,6 +527,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "西安银行2026年10月14日披露，董事会于10月13日审议通过提名徐江旻为第六届董事会独立董事候选人的议案。该议案尚需提交股东会审议，任职资格经监管部门核准后方可开始履职。"
         },
+        "production-4325b49dde939302b776c0db": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安银行2026年10月21日披露，选举徐江旻为第六届董事会独立董事的议案已列入拟于11月5日召开的2026年第一次临时股东会议程。该事项尚待股东会选举，独立董事任职资格经监管部门核准后方开始履职。"
+        },
         "production-4963d300c8705d777266b329": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -551,6 +568,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安银行2026年10月14日披露，董事会于10月13日审议通过召开2026年第一次临时股东会的议案，并授权董事长根据实际情况确定召开时间、议程安排等事项。本公告未披露股东会的具体召开时间及议程。"
+        },
+        "production-6966d98768e1541fcedd066c": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安银行2026年10月21日披露，拟于11月5日9时30分在西安银行大厦三楼会议室召开2026年第一次临时股东会，采用现场投票与网络投票相结合的方式。股权登记日为10月29日。"
         },
         "production-b816580b9e06a785883cbd77": {
           "version": "listed-scope-20261009",
@@ -1162,6 +1186,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "北方光电股份有限公司2026年10月21日公告，计划于10月28日15:00—16:00在上证路演中心召开2026年第三季度业绩说明会，采用视频录播结合网络文字互动的方式。"
+        },
+        "production-d7037ffef9554e23e36ca8e1": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "科华生物2026年10月21日公告，控股子公司苏州天隆生物科技有限公司近日收到七项呼吸道病原体核酸检测试剂盒（荧光PCR法）的医疗器械注册证，证号为国械注准20263402158，有效期为2026年10月19日至2031年10月18日。公告未披露具体收证日期，公司尚无法预测该产品对未来营业收入的影响。"
+        },
+        "production-d1ec27423a5bbbec61125a5b": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北化股份2026年10月21日公告，拟于11月6日14:50召开2026年第一次临时股东会，采用现场表决与网络投票相结合的方式，股权登记日为10月30日。本次会议审议《关于续聘会计师事务所的议案》，该议案已获董事会审议通过，尚待股东会审议。"
+        },
+        "production-297270f7bfbc39e25bf82be2": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北方化学工业股份有限公司2026年10月21日披露，董事会于10月19日审议通过《远期外汇交易业务管理制度》修订，制度经董事会审议通过后生效，原制度同时废止。制度规定，年度远期外汇交易业务计划须按规定经董事会批准后方可开展业务。"
         }
       }
     },
@@ -1171,7 +1216,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-10-21-e334f4dd7cdc",
+      "sourceEditionId": "2026-10-21-f8d6b15474e9",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -3583,6 +3628,15 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-002246-sz",
+      "type": "listed",
+      "name": "北化股份",
+      "code": "002246.SZ",
+      "market": "SZ",
+      "asOf": "2026-07-22",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000516-sz",
       "type": "listed",
       "name": "国际医学",
@@ -4037,16 +4091,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "华天科技",
       "code": "002185.SZ",
-      "market": "SZ",
-      "asOf": "2026-07-22",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-002246-sz",
-      "type": "listed",
-      "name": "北化股份",
-      "code": "002246.SZ",
       "market": "SZ",
       "asOf": "2026-07-22",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
@@ -13993,6 +14037,48 @@ window.PROTOTYPE = {
             }
           ],
           "tables": []
+        },
+        {
+          "id": "production-4325b49dde939302b776c0db",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "将于11月5日提请股东会选举徐江旻为独立董事",
+          "summary": "西安银行2026年10月21日披露，选举徐江旻为第六届董事会独立董事的议案已列入拟于11月5日召开的2026年第一次临时股东会议程。该事项尚待股东会选举，独立董事任职资格经监管部门核准后方开始履职。",
+          "stage": "选举议案已列入2026年11月5日临时股东会议程，尚待股东会选举及监管任职资格核准",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T08:34:11+08:00",
+          "compiledAt": "2026-10-21T08:34:11+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安银行",
+          "version": "4325b49dde939302b776c0db68732e4994a5dba504a61ceb5d6c14704893566f",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安银行股份有限公司2026年第一次临时股东会会议材料",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第6页；材料落款为拟召开会议日期2026年11月5日",
+              "retrievedAt": "2026-10-21T08:02:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612570.PDF"
+            },
+            {
+              "title": "西安银行股份有限公司关于召开2026年第一次临时股东会的通知",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1页会议日期、第2页议案表",
+              "retrievedAt": "2026-10-21T08:02:41+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612412.PDF"
+            }
+          ],
+          "tables": []
         }
       ]
     },
@@ -14066,6 +14152,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T08:29:55+08:00",
           "updatedAt": "2026-10-21T08:26:32+08:00",
           "compiledAt": "2026-10-21T08:26:32+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -14229,6 +14316,48 @@ window.PROTOTYPE = {
               "location": "物理第1页会议日期；第2页第五项议案",
               "retrievedAt": "2026-10-15T17:08:19+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603837.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
+          "id": "production-6966d98768e1541fcedd066c",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "拟于11月5日召开临时股东会",
+          "summary": "西安银行2026年10月21日披露，拟于11月5日9时30分在西安银行大厦三楼会议室召开2026年第一次临时股东会，采用现场投票与网络投票相结合的方式。股权登记日为10月29日。",
+          "stage": "已披露具体会议安排，拟于2026年11月5日9点30分召开，股权登记日为10月29日",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T08:36:40+08:00",
+          "compiledAt": "2026-10-21T08:36:40+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安银行",
+          "version": "6966d98768e1541fcedd066c7b5006d55e55be9aa40d3fed2d596036cdb73490",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安银行股份有限公司关于召开2026年第一次临时股东会的通知",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1页会议安排、第4页股权登记日表、第5页落款",
+              "retrievedAt": "2026-10-21T08:02:41+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612412.PDF"
+            },
+            {
+              "title": "西安银行股份有限公司2026年第一次临时股东会会议材料",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第3页会议议程",
+              "retrievedAt": "2026-10-21T08:02:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612570.PDF"
             }
           ],
           "tables": []
@@ -21855,6 +21984,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。本次公告未披露实际补流金额，完成时间仅表述为“近日”；短记保留该披露边界。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T08:29:55+08:00",
           "updatedAt": "2026-10-21T08:26:33+08:00",
           "compiledAt": "2026-10-21T08:26:33+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -21899,6 +22029,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T08:29:55+08:00",
           "updatedAt": "2026-10-21T08:26:33+08:00",
           "compiledAt": "2026-10-21T08:26:33+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -21919,6 +22050,157 @@ window.PROTOTYPE = {
               "location": "物理第1页召开安排、第2页召开地点及方式",
               "retrievedAt": "2026-10-21T08:03:30+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225611801.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-f9ac3a8c22d3dfb0e7e0",
+      "objectId": "listed-002022-sz",
+      "type": "产品注册",
+      "topics": [
+        "苏州天隆",
+        "七项呼吸道病原体核酸检测试剂盒"
+      ],
+      "updates": [
+        {
+          "id": "production-d7037ffef9554e23e36ca8e1",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "控股子公司苏州天隆七项呼吸道检测试剂盒获注册证",
+          "summary": "科华生物2026年10月21日公告，控股子公司苏州天隆生物科技有限公司近日收到七项呼吸道病原体核酸检测试剂盒（荧光PCR法）的医疗器械注册证，证号为国械注准20263402158，有效期为2026年10月19日至2031年10月18日。公告未披露具体收证日期，公司尚无法预测该产品对未来营业收入的影响。",
+          "stage": "控股子公司近日已收到医疗器械注册证，具体收证日期未披露",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T08:34:11+08:00",
+          "compiledAt": "2026-10-21T08:34:11+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "科华生物",
+          "version": "d7037ffef9554e23e36ca8e127bcfe1fafb80c87e535dc3117f590d767aac2a5",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于产品获得医疗器械注册证的公告",
+              "publisher": "上海科华生物工程股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1页正文及产品注册证表格",
+              "retrievedAt": "2026-10-21T08:03:36+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612810.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-241e82785ebebb2cb4c6",
+      "objectId": "listed-002246-sz",
+      "type": "股东会召开通知",
+      "topics": [
+        "2026年第一次临时股东会",
+        "续聘审计议案待审"
+      ],
+      "updates": [
+        {
+          "id": "production-d1ec27423a5bbbec61125a5b",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "拟于11月6日召开临时股东会审议续聘审计机构议案",
+          "summary": "北化股份2026年10月21日公告，拟于11月6日14:50召开2026年第一次临时股东会，采用现场表决与网络投票相结合的方式，股权登记日为10月30日。本次会议审议《关于续聘会计师事务所的议案》，该议案已获董事会审议通过，尚待股东会审议。",
+          "stage": "董事会同意召开，通知定于2026年11月6日召开，尚未召开",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T08:34:11+08:00",
+          "compiledAt": "2026-10-21T08:34:11+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北化股份",
+          "version": "d1ec27423a5bbbec61125a5b320cfa544e1cde1248ffed94e43dd0bc158473f2",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于召开2026年第一次临时股东会的通知",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1页会议安排、第2页提案表及审议阶段",
+              "retrievedAt": "2026-10-21T08:03:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612815.PDF"
+            },
+            {
+              "title": "第六届董事会第八次会议决议公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第3页第八项召开股东会议案",
+              "retrievedAt": "2026-10-21T08:03:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612813.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-091de942afb74a1cf826",
+      "objectId": "listed-002246-sz",
+      "type": "内部管理制度修订",
+      "topics": [
+        "远期外汇交易业务管理制度",
+        "汇率风险管理"
+      ],
+      "updates": [
+        {
+          "id": "production-297270f7bfbc39e25bf82be2",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "董事会通过远期外汇交易管理制度修订",
+          "summary": "北方化学工业股份有限公司2026年10月21日披露，董事会于10月19日审议通过《远期外汇交易业务管理制度》修订，制度经董事会审议通过后生效，原制度同时废止。制度规定，年度远期外汇交易业务计划须按规定经董事会批准后方可开展业务。",
+          "stage": "2026年10月19日董事会审议通过制度修订，原制度同时废止",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T08:36:40+08:00",
+          "compiledAt": "2026-10-21T08:36:40+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北化股份",
+          "version": "297270f7bfbc39e25bf82be2d21ca7d4da46d5a5da2ce21a0b55eeba0b1ff6dc",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "北方化学工业股份有限公司第六届董事会第八次会议决议公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1页会议召开情况、第3页第七项议案及落款",
+              "retrievedAt": "2026-10-21T08:03:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612813.PDF"
+            },
+            {
+              "title": "北方化学工业股份有限公司远期外汇交易业务管理制度",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第3页第十条、第6页第二十八条",
+              "retrievedAt": "2026-10-21T08:03:32+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612818.PDF"
             }
           ],
           "tables": []
@@ -22539,6 +22821,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "454149a50246c973fb3f",
+      "date": "2026-10-21",
+      "compiledAt": "2026-10-21T08:26:33+08:00",
+      "cutoff": "2026-10-21T08:02:15+08:00",
+      "snapshotUrl": "publications/454149a50246c973fb3f/index.html",
+      "publishedAt": "2026-10-21T08:29:55+08:00"
+    },
     {
       "id": "c53e70689d7854110579",
       "date": "2026-10-21",
