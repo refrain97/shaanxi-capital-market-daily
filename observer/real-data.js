@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-21-9d419b4ac629",
-      "compiledAt": "2026-10-21T08:49:35+08:00",
+      "id": "2026-10-21-fb4248248ce7",
+      "compiledAt": "2026-10-21T09:02:35+08:00",
       "cutoff": "2026-10-21T08:02:15+08:00",
       "windowStart": "2026-10-19",
       "windowEnd": "2026-10-21",
@@ -18,12 +18,15 @@ window.PROTOTYPE = {
         "production-d43e30558850004319b47ad9",
         "production-d1ec27423a5bbbec61125a5b",
         "production-bf4a5aafe7940b508185654e",
+        "production-ae252879488977f0f4b932c2",
+        "production-76dc3769df382a9ea3c4fd47",
         "production-6966d98768e1541fcedd066c",
         "production-4f3e0a06cc2806e7e76f5367",
         "production-4c9cb211a74d8d63ef6925e9",
         "production-4b6d44a084ea8e55f9344c1a",
         "production-4325b49dde939302b776c0db",
         "production-297270f7bfbc39e25bf82be2",
+        "production-1f67575a7df8726e5bb74f5b",
         "production-0a4e00bfe25f4039ed12b426"
       ],
       "status": "public",
@@ -193,7 +196,10 @@ window.PROTOTYPE = {
       "production-6966d98768e1541fcedd066c": "2026-10-21T08:36:40+08:00",
       "production-4b6d44a084ea8e55f9344c1a": "2026-10-21T08:43:28+08:00",
       "production-0a4e00bfe25f4039ed12b426": "2026-10-21T08:43:28+08:00",
-      "production-bf4a5aafe7940b508185654e": "2026-10-21T08:49:35+08:00"
+      "production-bf4a5aafe7940b508185654e": "2026-10-21T08:49:35+08:00",
+      "production-ae252879488977f0f4b932c2": "2026-10-21T08:56:12+08:00",
+      "production-1f67575a7df8726e5bb74f5b": "2026-10-21T09:02:34+08:00",
+      "production-76dc3769df382a9ea3c4fd47": "2026-10-21T09:02:34+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1234,6 +1240,26 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西省天然气股份有限公司2026年10月21日公告，董事会于10月19日收到闫禹衡的书面辞职报告，其因工作调动辞去第七届董事会董事、副总经理及战略委员会、薪酬与考核委员会委员职务，辞职报告自送达董事会时即时生效。辞职后其将不在公司及控股子公司担任任何职务，公司表示将尽快完成董事补选等相关工作。"
+        },
+        "production-ae252879488977f0f4b932c2": {
+          "version": "listed-scope-20261019",
+          "action": "减持",
+          "group": "股东股份变动",
+          "level": "deep"
+        },
+        "production-1f67575a7df8726e5bb74f5b": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北化股份2026年10月21日披露，全资子公司山西新华防化装备研究院有限责任公司已于10月19日与关联方山西新华防护器材有限责任公司签订《房屋使用权租赁合同》和《综合服务协议》，相关议案已获董事会审议通过。两项协议约定期间均为2026年10月27日至2029年10月26日，费用合计784.06万元/年，其中房屋使用权租赁费用403.89万元/年、综合服务费用380.17万元/年，均不含增值税。"
+        },
+        "production-76dc3769df382a9ea3c4fd47": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北化股份2026年10月21日披露，公司第六届董事会第八次会议于10月19日召开，以9票同意、0票反对、0票弃权审议通过《关于修订〈财务管理制度〉的议案》。"
         }
       }
     },
@@ -1242,8 +1268,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-10-21-9d419b4ac629",
+      "status": "committed",
+      "sourceEditionId": "2026-10-21-fb4248248ce7",
+      "editionId": "selection-9e050957b9a2caf4eb37",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -3673,6 +3700,15 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-000837-sz",
+      "type": "listed",
+      "name": "秦川机床",
+      "code": "000837.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000516-sz",
       "type": "listed",
       "name": "国际医学",
@@ -3697,16 +3733,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "中航西飞",
       "code": "000768.SZ",
-      "market": "SZ",
-      "asOf": "2026-03-31",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-000837-sz",
-      "type": "listed",
-      "name": "秦川机床",
-      "code": "000837.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
@@ -22257,6 +22283,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T08:51:48+08:00",
           "updatedAt": "2026-10-21T08:43:29+08:00",
           "compiledAt": "2026-10-21T08:43:29+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -22317,6 +22344,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T08:51:48+08:00",
           "updatedAt": "2026-10-21T08:43:28+08:00",
           "compiledAt": "2026-10-21T08:43:28+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -22371,6 +22399,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T08:51:48+08:00",
           "updatedAt": "2026-10-21T08:49:35+08:00",
           "compiledAt": "2026-10-21T08:49:35+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -22396,9 +22425,287 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-61997847d92e22900916",
+      "objectId": "listed-000837-sz",
+      "type": "减持",
+      "topics": [
+        "陕西产投减持计划",
+        "期限届满未实施减持"
+      ],
+      "updates": [
+        {
+          "id": "production-ae252879488977f0f4b932c2",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "陕西产投减持计划到期未实施，持股仍为9.89%",
+          "summary": "秦川机床2026年10月21日披露，陕西省产业投资有限公司的减持计划已于10月19日期限届满，计划期间未减持。陕西产投原拟于7月22日至10月19日以集中竞价方式减持不超过10,231,458股、占公司总股本1%；本次计划前后均持有101,196,554股、占总股本9.89%，全部为无限售条件股份。",
+          "stage": "截至2026年10月19日减持计划期限届满，计划期间未减持",
+          "depth": "deep",
+          "coverage": "本事项有限历史研究；不等于观察池全量已更新。本稿仅覆盖2026年6月30日披露的同一减持计划及其到期结果，不代表陕西产投全部历史股份交易记录。 两份已核公告未说明本次未实施减持的具体原因，不据原计划中的资金需求推断股东当前资金状况。 股份来源按本次预披露公告的明确记载表述，未扩展核查2014年重组全套文件，不提出取得成本或投资利润主张。 历史原件于本轮补入。取得时间不等于披露时刻，不能据此证明该材料在既定研究截止的具体分钟已可见；本次未联网，也未推进原发现窗口。 尚待独立核查候选内容与证据对应关系。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T08:56:12+08:00",
+          "compiledAt": "2026-10-21T08:56:12+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "秦川机床",
+          "version": "ae252879488977f0f4b932c2cf3da8bcf4148ccf4e43e3acbaf3d378e4a1954b",
+          "important": true,
+          "production": true,
+          "prototype": false,
+          "history": [
+            {
+              "date": "2026-06-30",
+              "text": "公司披露陕西产投减持计划：因股东自身资金需求，拟于2026年7月22日至10月19日以集中竞价方式减持不超过10,231,458股、占总股本1%，法律法规规定的窗口期不减持，价格根据减持时的市场价格确定。预披露时陕西产投持股101,196,554股、占9.89%。"
+            },
+            {
+              "date": "2026-10-21",
+              "text": "公司披露截至2026年10月19日本次计划期限届满，陕西产投未减持；本次计划前后持股数量及比例不变。"
+            }
+          ],
+          "business": [
+            "本次结果对应陕西产投作为持股股东的股份处置安排。原计划因股东自身资金需求提出，但计划期间没有发生减持，不能将计划上限视为已成交股份或已实现变现资金。",
+            "可围绕陕西产投后续资金安排及是否仍有股份处置需求开展沟通，具体需求须由股东确认；秦川机床承担本事项的信息披露工作。现有材料不足以推断新的减持安排。"
+          ],
+          "details": [
+            {
+              "label": "股东身份",
+              "value": "陕西省产业投资有限公司，持股5%以上股东；原计划公告说明其不属于公司控股股东、实际控制人。"
+            },
+            {
+              "label": "股份来源",
+              "value": "据2026年6月30日预披露公告，为公司重大资产重组时换股吸收合并原控股股东秦川集团发行的股份。"
+            },
+            {
+              "label": "原计划方式与定价",
+              "value": "集中竞价交易；价格根据减持时的市场价格确定。"
+            },
+            {
+              "label": "计划期间",
+              "value": "2026年7月22日至10月19日，法律法规规定的窗口期不减持。"
+            },
+            {
+              "label": "执行结果",
+              "value": "期限届满，计划期间未减持；无本次减持成交均价可列示。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "关于持股5%以上股东股份减持计划期限届满未减持的公告",
+              "publisher": "秦川机床工具集团股份公司",
+              "date": "2026-10-21",
+              "location": "物理第1页：原计划回顾、执行结果及持股表；第2页：其他说明及落款",
+              "retrievedAt": "2026-10-21T08:02:25+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613002.PDF"
+            },
+            {
+              "title": "关于持股5%以上股东减持股份预披露公告",
+              "publisher": "秦川机床工具集团股份公司",
+              "date": "2026-06-30",
+              "location": "物理第1—2页：股东身份、股份来源及计划安排；第3页：落款",
+              "retrievedAt": "2026-10-21T08:53:37.558778+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-06-30/1225397559.PDF"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "陕西产投本次减持计划与执行结果",
+              "columns": [
+                "项目",
+                "原计划或计划前",
+                "期限届满结果或计划后"
+              ],
+              "rows": [
+                [
+                  "减持数量",
+                  "不超过10,231,458股",
+                  "未减持"
+                ],
+                [
+                  "减持股份占公司总股本比例",
+                  "不超过1%",
+                  "未减持"
+                ],
+                [
+                  "持股数量",
+                  "101,196,554股",
+                  "101,196,554股"
+                ],
+                [
+                  "持股比例",
+                  "9.89%",
+                  "9.89%"
+                ],
+                [
+                  "无限售条件股份",
+                  "101,196,554股",
+                  "101,196,554股"
+                ],
+                [
+                  "有限售条件股份",
+                  "0股",
+                  "0股"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-event-845f4203676aacebadc7",
+      "objectId": "listed-002246-sz",
+      "type": "日常关联交易协议签署",
+      "topics": [
+        "防化装备研究院",
+        "新华防护",
+        "房屋使用权租赁",
+        "综合服务"
+      ],
+      "updates": [
+        {
+          "id": "production-1f67575a7df8726e5bb74f5b",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "全资子公司续签租赁及综合服务协议，年费用784.06万元",
+          "summary": "北化股份2026年10月21日披露，全资子公司山西新华防化装备研究院有限责任公司已于10月19日与关联方山西新华防护器材有限责任公司签订《房屋使用权租赁合同》和《综合服务协议》，相关议案已获董事会审议通过。两项协议约定期间均为2026年10月27日至2029年10月26日，费用合计784.06万元/年，其中房屋使用权租赁费用403.89万元/年、综合服务费用380.17万元/年，均不含增值税。",
+          "stage": "2026年10月19日董事会审议通过并签署协议，约定合同期间为2026年10月27日至2029年10月26日",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T09:02:34+08:00",
+          "compiledAt": "2026-10-21T09:02:34+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北化股份",
+          "version": "1f67575a7df8726e5bb74f5b8542bdd1ae3799b66054b4ef0e13da9b6dbe98ce",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于签署日常关联交易协议的公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1—4页：交易主体、金额及协议期限",
+              "retrievedAt": "2026-10-21T08:03:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612816.PDF"
+            },
+            {
+              "title": "关于调整2026年度日常关联交易预计的公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第5页：协议签署情况",
+              "retrievedAt": "2026-10-21T08:03:32+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612817.PDF"
+            },
+            {
+              "title": "第六届董事会第八次会议决议公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第2页：第（三）项议案",
+              "retrievedAt": "2026-10-21T08:03:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612813.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-e27e451de37c8b28b8bf",
+      "objectId": "listed-002246-sz",
+      "type": "内部管理制度修订",
+      "topics": [
+        "财务管理制度"
+      ],
+      "updates": [
+        {
+          "id": "production-76dc3769df382a9ea3c4fd47",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "董事会通过修订财务管理制度议案",
+          "summary": "北化股份2026年10月21日披露，公司第六届董事会第八次会议于10月19日召开，以9票同意、0票反对、0票弃权审议通过《关于修订〈财务管理制度〉的议案》。",
+          "stage": "2026年10月19日董事会审议通过修订",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T09:02:34+08:00",
+          "compiledAt": "2026-10-21T09:02:34+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北化股份",
+          "version": "76dc3769df382a9ea3c4fd47cb5cf32fddcbfec8efb19c8a61a2f7f779c4a6b8",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第六届董事会第八次会议决议公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1页：会议召开情况；物理第3页：第（六）项议案及公告落款",
+              "retrievedAt": "2026-10-21T08:03:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612813.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-9e050957b9a2caf4eb37",
+      "date": "2026-10-21",
+      "cutoff": "2026-10-21T08:02:15+08:00",
+      "compiledAt": "2026-10-21T09:03:49+08:00",
+      "researchCutoff": "2026-10-21T08:02:15+08:00",
+      "sourceDiscoveryCutoff": "2026-10-21T08:02:15+08:00",
+      "updateIds": [
+        "production-ae252879488977f0f4b932c2"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-9e050957b9a2caf4eb37/page-01.png",
+          "width": 1080,
+          "height": 746,
+          "sha256": "5da241406a9ffcf5fd8679870c94872acf091e40729317b000c250923b80164a"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-21-fb4248248ce7",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-21",
+      "rangeEnd": "2026-10-21",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-61997847d92e22900916",
+          "updateId": "production-ae252879488977f0f4b932c2",
+          "version": "ae252879488977f0f4b932c2cf3da8bcf4148ccf4e43e3acbaf3d378e4a1954b",
+          "objectName": "秦川机床",
+          "type": "listed",
+          "category": "减持",
+          "date": "2026-10-21",
+          "title": "陕西产投减持计划到期未实施，持股仍为9.89%",
+          "business": "股份管理",
+          "share": {
+            "title": "减持计划届满未实施，持股仍为9.89%",
+            "facts": "陕西省产业投资有限公司减持计划于10月19日届满，期间未减持。原拟7月22日至10月19日集中竞价减持不超过10,231,458股、占总股本1%；持股比例仍为9.89%。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-a0c9021d5cbb2a27d0fb",
       "date": "2026-10-20",
@@ -23011,6 +23318,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "f292fe6edf9ee724560b",
+      "date": "2026-10-21",
+      "compiledAt": "2026-10-21T08:49:35+08:00",
+      "cutoff": "2026-10-21T08:02:15+08:00",
+      "snapshotUrl": "publications/f292fe6edf9ee724560b/index.html",
+      "publishedAt": "2026-10-21T08:51:48+08:00"
+    },
     {
       "id": "4363c50888fe4dfa6fba",
       "date": "2026-10-21",
