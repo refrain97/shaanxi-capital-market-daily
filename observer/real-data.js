@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-21-fb4248248ce7",
-      "compiledAt": "2026-10-21T09:02:35+08:00",
+      "id": "2026-10-21-0c41caa59d5b",
+      "compiledAt": "2026-10-21T09:12:33+08:00",
       "cutoff": "2026-10-21T08:02:15+08:00",
       "windowStart": "2026-10-19",
       "windowEnd": "2026-10-21",
@@ -14,12 +14,14 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-10-21T08:02:15+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-f1841421c1efa500145da3e3",
         "production-d7037ffef9554e23e36ca8e1",
         "production-d43e30558850004319b47ad9",
         "production-d1ec27423a5bbbec61125a5b",
         "production-bf4a5aafe7940b508185654e",
         "production-ae252879488977f0f4b932c2",
         "production-76dc3769df382a9ea3c4fd47",
+        "production-72fc90abf0e443379555235d",
         "production-6966d98768e1541fcedd066c",
         "production-4f3e0a06cc2806e7e76f5367",
         "production-4c9cb211a74d8d63ef6925e9",
@@ -199,7 +201,9 @@ window.PROTOTYPE = {
       "production-bf4a5aafe7940b508185654e": "2026-10-21T08:49:35+08:00",
       "production-ae252879488977f0f4b932c2": "2026-10-21T08:56:12+08:00",
       "production-1f67575a7df8726e5bb74f5b": "2026-10-21T09:02:34+08:00",
-      "production-76dc3769df382a9ea3c4fd47": "2026-10-21T09:02:34+08:00"
+      "production-76dc3769df382a9ea3c4fd47": "2026-10-21T09:02:34+08:00",
+      "production-72fc90abf0e443379555235d": "2026-10-21T09:12:32+08:00",
+      "production-f1841421c1efa500145da3e3": "2026-10-21T09:12:32+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1260,6 +1264,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "北化股份2026年10月21日披露，公司第六届董事会第八次会议于10月19日召开，以9票同意、0票反对、0票弃权审议通过《关于修订〈财务管理制度〉的议案》。"
+        },
+        "production-72fc90abf0e443379555235d": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北化股份2026年10月21日公告，2026年度日常关联交易预计总额较原预计增加22,550万元，其中向关联人销售产品、商品净增加2,500万元，接受关联方提供的劳务增加20,050万元，均为预计额度调整。该议案已于10月19日获董事会审议通过，公告披露深交所已同意豁免提交股东会审议。"
+        },
+        "production-f1841421c1efa500145da3e3": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北化股份2026年10月21日披露三季报，前三季度营业收入1,976,634,893.04元，同比增长7.72%；归属于上市公司股东的净利润307,605,856.45元，同比增长63.29%。第三季度单季营业收入640,127,954.28元，同比下降9.06%，归属于上市公司股东的净利润82,313,433.79元，同比增长0.81%；本次财务会计报告未经审计。"
         }
       }
     },
@@ -1269,8 +1287,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-10-21-fb4248248ce7",
-      "editionId": "selection-9e050957b9a2caf4eb37",
+      "sourceEditionId": "2026-10-21-0c41caa59d5b",
+      "editionId": "selection-84134e96f63063bc375f",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -22445,6 +22463,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。本稿仅覆盖2026年6月30日披露的同一减持计划及其到期结果，不代表陕西产投全部历史股份交易记录。 两份已核公告未说明本次未实施减持的具体原因，不据原计划中的资金需求推断股东当前资金状况。 股份来源按本次预披露公告的明确记载表述，未扩展核查2014年重组全套文件，不提出取得成本或投资利润主张。 历史原件于本轮补入。取得时间不等于披露时刻，不能据此证明该材料在既定研究截止的具体分钟已可见；本次未联网，也未推进原发现窗口。 尚待独立核查候选内容与证据对应关系。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T09:05:46+08:00",
           "updatedAt": "2026-10-21T08:56:12+08:00",
           "compiledAt": "2026-10-21T08:56:12+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -22574,6 +22593,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T09:05:46+08:00",
           "updatedAt": "2026-10-21T09:02:34+08:00",
           "compiledAt": "2026-10-21T09:02:34+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -22634,6 +22654,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T09:05:46+08:00",
           "updatedAt": "2026-10-21T09:02:34+08:00",
           "compiledAt": "2026-10-21T09:02:34+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -22659,9 +22680,162 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-dd0fc988b01d6fbe4e98",
+      "objectId": "listed-002246-sz",
+      "type": "年度日常关联交易预计调整",
+      "topics": [
+        "2026年度关联交易预计",
+        "销售产品商品",
+        "工程技术服务",
+        "租赁及综合服务"
+      ],
+      "updates": [
+        {
+          "id": "production-72fc90abf0e443379555235d",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "调增2026年度日常关联交易预计22,550万元",
+          "summary": "北化股份2026年10月21日公告，2026年度日常关联交易预计总额较原预计增加22,550万元，其中向关联人销售产品、商品净增加2,500万元，接受关联方提供的劳务增加20,050万元，均为预计额度调整。该议案已于10月19日获董事会审议通过，公告披露深交所已同意豁免提交股东会审议。",
+          "stage": "2026年10月19日董事会审议通过，公告披露深交所已同意豁免提交股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T09:12:32+08:00",
+          "compiledAt": "2026-10-21T09:12:32+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北化股份",
+          "version": "72fc90abf0e443379555235dc74de0a1cc7e30a5a5e3cd6c2bdfcc7f9494b3c3",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于调整2026年度日常关联交易预计的公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1—3页：调整内容、审议阶段及跨页调整表；第6页：落款日期",
+              "retrievedAt": "2026-10-21T08:03:32+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612817.PDF"
+            },
+            {
+              "title": "第六届董事会独立董事专门会议2026年第三次会议决议",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第2页：调整金额及分类；决议落款日期为2026年10月19日",
+              "retrievedAt": "2026-10-21T08:03:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612814.PDF"
+            },
+            {
+              "title": "第六届董事会第八次会议决议公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1页：会议日期；第2页：第四项议案表决结果",
+              "retrievedAt": "2026-10-21T08:03:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612813.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-dcc77dc0fbd91a6825c5",
+      "objectId": "listed-002246-sz",
+      "type": "季度报告披露",
+      "topics": [
+        "2026年第三季度报告",
+        "经营业绩",
+        "现金流量"
+      ],
+      "updates": [
+        {
+          "id": "production-f1841421c1efa500145da3e3",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "前三季度归母净利润同比增长63.29%",
+          "summary": "北化股份2026年10月21日披露三季报，前三季度营业收入1,976,634,893.04元，同比增长7.72%；归属于上市公司股东的净利润307,605,856.45元，同比增长63.29%。第三季度单季营业收入640,127,954.28元，同比下降9.06%，归属于上市公司股东的净利润82,313,433.79元，同比增长0.81%；本次财务会计报告未经审计。",
+          "stage": "已披露2026年第三季度报告，财务会计报告未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-21T09:12:32+08:00",
+          "compiledAt": "2026-10-21T09:12:32+08:00",
+          "researchCutoff": "2026-10-21T08:02:15+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北化股份",
+          "version": "f1841421c1efa500145da3e3d38f0aaf2f4c535a9e28630097d83c41c6eb6146",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年第三季度报告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第2页：主要会计数据和财务指标；第11页：未经审计说明及落款日期",
+              "retrievedAt": "2026-10-21T08:03:34+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612811.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-84134e96f63063bc375f",
+      "date": "2026-10-21",
+      "cutoff": "2026-10-21T08:02:15+08:00",
+      "compiledAt": "2026-10-21T09:19:20+08:00",
+      "researchCutoff": "2026-10-21T08:02:15+08:00",
+      "sourceDiscoveryCutoff": "2026-10-21T08:02:15+08:00",
+      "updateIds": [
+        "production-ae252879488977f0f4b932c2"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-84134e96f63063bc375f/page-01.png",
+          "width": 1080,
+          "height": 746,
+          "sha256": "5da241406a9ffcf5fd8679870c94872acf091e40729317b000c250923b80164a"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-21-0c41caa59d5b",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-21",
+      "rangeEnd": "2026-10-21",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-61997847d92e22900916",
+          "updateId": "production-ae252879488977f0f4b932c2",
+          "version": "ae252879488977f0f4b932c2cf3da8bcf4148ccf4e43e3acbaf3d378e4a1954b",
+          "objectName": "秦川机床",
+          "type": "listed",
+          "category": "减持",
+          "date": "2026-10-21",
+          "title": "陕西产投减持计划到期未实施，持股仍为9.89%",
+          "business": "股份管理",
+          "share": {
+            "title": "减持计划届满未实施，持股仍为9.89%",
+            "facts": "陕西省产业投资有限公司减持计划于10月19日届满，期间未减持。原拟7月22日至10月19日集中竞价减持不超过10,231,458股、占总股本1%；持股比例仍为9.89%。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-9e050957b9a2caf4eb37",
       "date": "2026-10-21",
@@ -23318,6 +23492,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "c32c526b4997c478e7d7",
+      "date": "2026-10-21",
+      "compiledAt": "2026-10-21T09:02:35+08:00",
+      "cutoff": "2026-10-21T08:02:15+08:00",
+      "snapshotUrl": "publications/c32c526b4997c478e7d7/index.html",
+      "publishedAt": "2026-10-21T09:05:46+08:00"
+    },
     {
       "id": "f292fe6edf9ee724560b",
       "date": "2026-10-21",
