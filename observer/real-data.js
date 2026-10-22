@@ -5,35 +5,18 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-21-90a76de0fb77",
-      "compiledAt": "2026-10-21T10:14:51+08:00",
-      "cutoff": "2026-10-21T08:02:15+08:00",
-      "windowStart": "2026-10-19",
-      "windowEnd": "2026-10-21",
-      "researchCutoff": "2026-10-21T08:02:15+08:00",
-      "sourceDiscoveryCutoff": "2026-10-21T08:02:15+08:00",
+      "id": "2026-10-22-6e5be06ccc5f",
+      "compiledAt": "2026-10-22T08:36:58+08:00",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "windowStart": "2026-10-20",
+      "windowEnd": "2026-10-22",
+      "researchCutoff": "2026-10-22T08:24:29+08:00",
+      "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
-        "production-f89c027c0a251a4f100d558c",
-        "production-f1841421c1efa500145da3e3",
-        "production-d7037ffef9554e23e36ca8e1",
-        "production-d43e30558850004319b47ad9",
-        "production-d1ec27423a5bbbec61125a5b",
-        "production-bf4a5aafe7940b508185654e",
-        "production-ae252879488977f0f4b932c2",
-        "production-76dc3769df382a9ea3c4fd47",
-        "production-72fc90abf0e443379555235d",
-        "production-6966d98768e1541fcedd066c",
-        "production-4f3e0a06cc2806e7e76f5367",
-        "production-4c9cb211a74d8d63ef6925e9",
-        "production-4b6d44a084ea8e55f9344c1a",
-        "production-4325b49dde939302b776c0db",
-        "production-297270f7bfbc39e25bf82be2",
-        "production-1f67575a7df8726e5bb74f5b",
-        "production-0a4e00bfe25f4039ed12b426",
-        "production-9bb997c56e95e0b262052723",
-        "production-37ea0dd24a2f7acd47957b92",
-        "production-1f1ed36f0ac6326f47e9ea3a"
+        "production-4b657d557c60a615404bbe16",
+        "production-3825af4e393d9aafe8cfb913",
+        "production-1ebe8c13d086dcd1b2e2944f"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -211,7 +194,10 @@ window.PROTOTYPE = {
       "production-9bb997c56e95e0b262052723": "2026-10-21T09:23:26+08:00",
       "production-f89c027c0a251a4f100d558c": "2026-10-21T09:28:45+08:00",
       "production-37ea0dd24a2f7acd47957b92": "2026-10-21T09:41:19+08:00",
-      "production-1f1ed36f0ac6326f47e9ea3a": "2026-10-21T10:14:51+08:00"
+      "production-1f1ed36f0ac6326f47e9ea3a": "2026-10-21T10:14:51+08:00",
+      "production-4b657d557c60a615404bbe16": "2026-10-22T08:36:56+08:00",
+      "production-3825af4e393d9aafe8cfb913": "2026-10-22T08:36:56+08:00",
+      "production-1ebe8c13d086dcd1b2e2944f": "2026-10-22T08:36:56+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1311,6 +1297,27 @@ window.PROTOTYPE = {
           "action": "股权激励",
           "group": "激励与员工持股",
           "level": "deep"
+        },
+        "production-4b657d557c60a615404bbe16": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安高压电器研究院股份有限公司2026年10月22日公告，根据《企业会计准则解释第20号》及新保险合同准则变更会计政策，按财政部相关文件规定的起始日期执行，无需提交董事会和股东会审议。公司表示，本次变更不会对财务状况、经营成果和现金流量产生重大影响，不涉及以前年度追溯调整。"
+        },
+        "production-3825af4e393d9aafe8cfb913": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西美邦药业集团股份有限公司2026年10月22日披露，董事会于10月20日通过前三季度利润分配预案，拟每10股派发现金红利0.5元（含税），按截至9月30日总股本计算合计拟派人民币676万元（含税），无需再次提交股东会审议。分配以实施权益分派股权登记日总股本为基数，具体日期待实施公告明确；若股本变动，拟维持每股分配比例不变并调整总额。"
+        },
+        "production-1ebe8c13d086dcd1b2e2944f": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西美邦药业集团股份有限公司2026年10月22日披露，2026年1—9月杀菌剂、杀虫剂及其他产品销售金额分别为43,088.15万元、19,394.50万元和7,362.03万元，均为不含税口径。上述数据来自公司内部统计，未经审计。"
         }
       }
     },
@@ -1319,21 +1326,20 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
-      "sourceEditionId": "2026-10-21-90a76de0fb77",
-      "editionId": "selection-b210c5358f2ec4a7dd16",
+      "status": "no_eligible_highlights",
+      "sourceEditionId": "2026-10-22-6e5be06ccc5f",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
-      "windowStart": "2026-10-19",
-      "windowEnd": "2026-10-21",
-      "cutoff": "2026-10-21T08:02:15+08:00",
+      "windowStart": "2026-10-20",
+      "windowEnd": "2026-10-22",
+      "cutoff": "2026-10-22T08:24:29+08:00",
       "partial": true
     },
     "privateFilingHistory": {
       "start": "2026-01-01",
-      "end": "2026-10-21",
-      "checkedAt": "2026-10-21T08:04:59+08:00",
+      "end": "2026-10-22",
+      "checkedAt": "2026-10-22T08:27:48+08:00",
       "scopeCount": 92,
       "completeManagers": 92,
       "partialManagers": 0,
@@ -3973,6 +3979,30 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-688334-sh",
+      "type": "listed",
+      "name": "西高院",
+      "code": "688334.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-605033-sh",
+      "type": "listed",
+      "name": "美邦股份",
+      "code": "605033.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000516-sz",
       "type": "listed",
       "name": "国际医学",
@@ -4220,19 +4250,6 @@ window.PROTOTYPE = {
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
     {
-      "id": "listed-605033-sh",
-      "type": "listed",
-      "name": "美邦股份",
-      "code": "605033.SH",
-      "market": "SH",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
       "id": "listed-605168-sh",
       "type": "listed",
       "name": "三人行",
@@ -4289,19 +4306,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "华秦科技",
       "code": "688281.SH",
-      "market": "SH",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-688334-sh",
-      "type": "listed",
-      "name": "西高院",
-      "code": "688334.SH",
       "market": "SH",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -23802,6 +23806,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。本稿仅核对本计划及直接相关回购余额、执行结果和近期披露，不声称覆盖公司全部回购、激励、注销或划转历史；2024年期初持股不被进一步描述为某次尚未核实的具体回购交易。 2023年核心员工认定原决议未在本轮提供。本稿采用已披露、经公示核查且本次股东会通过的名单分类，不将2023年逐人认定沿革表述为本轮已独立核实事实；该项不影响本次名单人数、分配数量及审议结果。 69名核心员工及其他员工已披露姓名与类别，但本次名单未列其逐人拟授予数量；本稿仅列公告提供的类别合计，不推算个人份额。 交易自查报告未披露四名相关人员逐笔交易数量、金额和日期；本稿仅归属为公司自查结论，不作新的增持执行报道或逐笔交易合规判断。 本轮未联网。14份留存PDF的SHA-256已与sources.json逐一核对一致。复用search-trace.json仅确认已有来源及检索轨迹，不将作者自述检索结果作为正文证据。 本次年报于2026年10月21日10:02:46补入，晚于输入所列08:02:15研究截止标记；本候选使用本轮授权补充材料，不倒称为原截止前已核读，也不推进原发现覆盖范围。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-21T10:19:16+08:00",
           "updatedAt": "2026-10-21T10:14:51+08:00",
           "compiledAt": "2026-10-21T10:14:51+08:00",
           "researchCutoff": "2026-10-21T08:02:15+08:00",
@@ -24023,6 +24028,149 @@ window.PROTOTYPE = {
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "production-event-45131ed221d135533286",
+      "objectId": "listed-688334-sh",
+      "type": "会计政策变更",
+      "topics": [
+        "执行准则解释第20号",
+        "执行新保险合同准则"
+      ],
+      "updates": [
+        {
+          "id": "production-4b657d557c60a615404bbe16",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "按财政部规定变更会计政策，不涉及以前年度追溯调整",
+          "summary": "西安高压电器研究院股份有限公司2026年10月22日公告，根据《企业会计准则解释第20号》及新保险合同准则变更会计政策，按财政部相关文件规定的起始日期执行，无需提交董事会和股东会审议。公司表示，本次变更不会对财务状况、经营成果和现金流量产生重大影响，不涉及以前年度追溯调整。",
+          "stage": "已披露按财政部规定起始日期执行新会计政策，无需提交董事会和股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T08:36:56+08:00",
+          "compiledAt": "2026-10-22T08:36:56+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西高院",
+          "version": "4b657d557c60a615404bbe16e6a77ae6c63f8ea4f1d09a1ff51a75945f87e90f",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安高压电器研究院股份有限公司关于会计政策变更的公告",
+              "publisher": "西安高压电器研究院股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1—3页",
+              "retrievedAt": "2026-10-22T08:25:13+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613534.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-eba5d37692a5a65d9109",
+      "objectId": "listed-605033-sh",
+      "type": "权益分派",
+      "topics": [
+        "前三季度现金分红预案"
+      ],
+      "updates": [
+        {
+          "id": "production-3825af4e393d9aafe8cfb913",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "前三季度拟每10股派0.5元，合计拟派676万元",
+          "summary": "陕西美邦药业集团股份有限公司2026年10月22日披露，董事会于10月20日通过前三季度利润分配预案，拟每10股派发现金红利0.5元（含税），按截至9月30日总股本计算合计拟派人民币676万元（含税），无需再次提交股东会审议。分配以实施权益分派股权登记日总股本为基数，具体日期待实施公告明确；若股本变动，拟维持每股分配比例不变并调整总额。",
+          "stage": "2026年10月20日董事会审议通过，无需再次提交股东会；尚未披露实施日期",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T08:36:57+08:00",
+          "compiledAt": "2026-10-22T08:36:57+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "美邦股份",
+          "version": "3825af4e393d9aafe8cfb9133c3373d1e562d001c88c957e1d4cd40304ed286d",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西美邦药业集团股份有限公司关于公司2026年前三季度利润分配预案的公告",
+              "publisher": "陕西美邦药业集团股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1—2页；公告落款2026年10月21日",
+              "retrievedAt": "2026-10-22T08:25:01+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613673.PDF"
+            },
+            {
+              "title": "陕西美邦药业集团股份有限公司第三届董事会第十五次会议决议公告",
+              "publisher": "陕西美邦药业集团股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第2页第三项议案；公告落款2026年10月21日",
+              "retrievedAt": "2026-10-22T08:25:02+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613671.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-2cf966e1bcafab546ed1",
+      "objectId": "listed-605033-sh",
+      "type": "经营数据披露",
+      "topics": [
+        "产品产销",
+        "产品售价",
+        "原材料采购价格"
+      ],
+      "updates": [
+        {
+          "id": "production-1ebe8c13d086dcd1b2e2944f",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "披露前三季度经营数据：杀菌剂销售金额43,088.15万元",
+          "summary": "陕西美邦药业集团股份有限公司2026年10月22日披露，2026年1—9月杀菌剂、杀虫剂及其他产品销售金额分别为43,088.15万元、19,394.50万元和7,362.03万元，均为不含税口径。上述数据来自公司内部统计，未经审计。",
+          "stage": "披露2026年1至9月内部统计经营数据，未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T08:36:57+08:00",
+          "compiledAt": "2026-10-22T08:36:57+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "美邦股份",
+          "version": "1ebe8c13d086dcd1b2e2944f694d649d9f0187e551c7621b38a6980bd4dffe02",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西美邦药业集团股份有限公司2026年第三季度主要经营数据公告",
+              "publisher": "陕西美邦药业集团股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页主要产品产销及收入表、第2页数据口径说明；公告落款2026年10月21日",
+              "retrievedAt": "2026-10-22T08:25:01+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613674.PDF"
+            }
+          ],
+          "tables": []
         }
       ]
     }
@@ -24956,6 +25104,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "04bc7488a776f5b04edf",
+      "date": "2026-10-21",
+      "compiledAt": "2026-10-21T10:14:51+08:00",
+      "cutoff": "2026-10-21T08:02:15+08:00",
+      "snapshotUrl": "publications/04bc7488a776f5b04edf/index.html",
+      "publishedAt": "2026-10-21T10:19:16+08:00"
+    },
     {
       "id": "b8945af5857eb3d7e47f",
       "date": "2026-10-21",
