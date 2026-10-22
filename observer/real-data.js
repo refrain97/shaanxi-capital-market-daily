@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-22-0998671b1092",
-      "compiledAt": "2026-10-22T09:59:55+08:00",
+      "id": "2026-10-22-b99b30e14395",
+      "compiledAt": "2026-10-22T10:12:49+08:00",
       "cutoff": "2026-10-22T08:24:29+08:00",
       "windowStart": "2026-10-20",
       "windowEnd": "2026-10-22",
@@ -19,10 +19,12 @@ window.PROTOTYPE = {
         "production-cd2adfb919023cb9136af212",
         "production-b8b3204770a7e290ee35a80e",
         "production-a101f6d9895d95bd4a2ea675",
+        "production-8d5442cfa5d9e0b706c6c63e",
         "production-69f7e4d0aab958a907dcc859",
         "production-4b657d557c60a615404bbe16",
         "production-4279d42d0a89c03cf0bd327a",
         "production-3825af4e393d9aafe8cfb913",
+        "production-304048e360f797cb3318559b",
         "production-2325978ef8944a5bcc4bc43e",
         "production-1ebe8c13d086dcd1b2e2944f",
         "production-0dae1797f023da017d25eced",
@@ -176,6 +178,7 @@ window.PROTOTYPE = {
       "production-147fb93451c0f90434bb2181": "2026-10-19T22:39:02+08:00",
       "production-09bf9325e329131f1fcc2e90": "2026-10-20T19:24:21+08:00",
       "production-7edf3f3502d11931cfd07589": "2026-10-20T19:24:21+08:00",
+      "production-e23c757849867445ff34faa7": "2026-10-20T19:59:08+08:00",
       "production-b103bfece0cf21fe3c58e9f3": "2026-10-20T19:59:08+08:00",
       "production-0fe0e25156a7227d6577227c": "2026-10-20T20:04:38+08:00",
       "production-9f4d45dbfb09ba7edffeea1e": "2026-10-20T20:15:08+08:00",
@@ -216,7 +219,9 @@ window.PROTOTYPE = {
       "production-4279d42d0a89c03cf0bd327a": "2026-10-22T09:43:34+08:00",
       "production-07ed700c56b916eb0f14988f": "2026-10-22T09:43:34+08:00",
       "production-2325978ef8944a5bcc4bc43e": "2026-10-22T09:43:34+08:00",
-      "production-d9507aa0df51626036f8f49e": "2026-10-22T09:59:54+08:00"
+      "production-d9507aa0df51626036f8f49e": "2026-10-22T09:59:54+08:00",
+      "production-8d5442cfa5d9e0b706c6c63e": "2026-10-22T10:12:48+08:00",
+      "production-304048e360f797cb3318559b": "2026-10-22T10:12:48+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1175,6 +1180,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "陕西广电网络传媒（集团）股份有限公司2026年10月20日披露公告（落款10月19日）：截至9月30日已偿还前期逾期金融债务2,616.12万元；截至本次公告披露日，新增逾期金融债务16,295.53万元，累计逾期36,344.87万元，占最近一期经审计净资产的67.02%。公司表示目前处于预重整阶段，除维系生产经营的必要开支外，不得对外清偿债务，有关债务清偿将依法合规进行。"
         },
+        "production-e23c757849867445ff34faa7": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "隆基绿能2026年10月20日公告，“隆22转债”持有人可自愿回售部分或全部未转股债券，申报期为2026年10月27日至11月2日，回售价格为人民币101.29元/张（含当期利息），资金计划于11月5日发放，回售期间继续交易但停止转股。公告提示其所述当时收盘价高于回售价格，选择回售可能造成损失；本次回售结果尚待申报期结束后披露。"
+        },
         "production-b103bfece0cf21fe3c58e9f3": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -1399,6 +1411,20 @@ window.PROTOTYPE = {
           "action": "股份回购",
           "group": "回购",
           "level": "deep"
+        },
+        "production-8d5442cfa5d9e0b706c6c63e": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安高压电器研究院股份有限公司2026年10月22日披露未经审计的第三季度报告，前三季度营业收入为人民币695,301,891.27元，同比增长6.82%；归属于上市公司股东的净利润为人民币220,562,044.28元，同比增长11.67%。第三季度单季归属于上市公司股东的净利润为人民币81,387,833.98元，同比增长25.60%。"
+        },
+        "production-304048e360f797cb3318559b": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安国际医学投资股份有限公司2026年10月22日披露，子公司西安国际医学中心有限公司在2026年年初至第三季度报告期末收到售后回租融资款。该报告未单独披露这笔融资的金额、出租人及具体到账日期。"
         }
       }
     },
@@ -1408,8 +1434,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-10-22-0998671b1092",
-      "editionId": "selection-eb96de75f07ee53ec007",
+      "sourceEditionId": "2026-10-22-b99b30e14395",
+      "editionId": "selection-04b9685a8adfe664c9c0",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -4106,8 +4132,7 @@ window.PROTOTYPE = {
       "rosterTier": "L1",
       "rosterCategory": "陕西辖区A股",
       "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
       "id": "listed-000721-sz",
@@ -22360,6 +22385,61 @@ window.PROTOTYPE = {
       ]
     },
     {
+      "id": "production-event-7810bfd79baa83d29090",
+      "objectId": "listed-601012-sh",
+      "type": "可转债回售安排",
+      "topics": [
+        "隆22转债",
+        "有条件回售条款生效",
+        "回售申报及资金发放安排"
+      ],
+      "updates": [
+        {
+          "id": "production-e23c757849867445ff34faa7",
+          "date": "2026-10-20",
+          "time": "",
+          "title": "公布“隆22转债”自愿回售安排",
+          "summary": "隆基绿能2026年10月20日公告，“隆22转债”持有人可自愿回售部分或全部未转股债券，申报期为2026年10月27日至11月2日，回售价格为人民币101.29元/张（含当期利息），资金计划于11月5日发放，回售期间继续交易但停止转股。公告提示其所述当时收盘价高于回售价格，选择回售可能造成损失；本次回售结果尚待申报期结束后披露。",
+          "stage": "已公告回售安排，申报期为2026年10月27日至11月2日，资金发放日安排为11月5日；尚未开始申报，未披露执行结果",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-20T20:01:25+08:00",
+          "updatedAt": "2026-10-20T19:59:09+08:00",
+          "compiledAt": "2026-10-20T19:59:09+08:00",
+          "researchCutoff": "2026-10-20T08:14:36+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "隆基绿能",
+          "version": "e23c757849867445ff34faa799093cdf205100b9ef3a4bc4256811d4b940e1f2",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于“隆22转债”可选择回售的公告",
+              "publisher": "隆基绿能科技股份有限公司",
+              "date": "2026-10-20",
+              "location": "物理第1页重要内容提示、第3页回售安排及期间交易、第4页落款",
+              "retrievedAt": "2026-10-20T08:15:17+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225610632.PDF"
+            },
+            {
+              "title": "中国国际金融股份有限公司关于隆基绿能科技股份有限公司可转换公司债券回售有关事项的核查意见",
+              "publisher": "中国国际金融股份有限公司",
+              "date": "2026-10-20",
+              "location": "物理第3页回售安排、第4页交易安排及意见、第5页签章；签章日期为2026年10月19日",
+              "retrievedAt": "2026-10-20T08:15:17+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225610646.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
       "id": "production-event-2ce94cbccc4f5593d877",
       "objectId": "listed-688783-sh",
       "type": "自营工厂建设进展",
@@ -24631,6 +24711,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。资料范围限于本次首次回购公告及同一方案8月28日回购报告书，不代表公司全部回购、激励或员工持股历史。 未留存9月价格调整及此前月度进展的独立公告原件；价格调整明确依据10月22日公告回溯，首次实施阶段依据该公告，不声称已经完整覆盖此前逐月披露。 首次回购公告实际取得时间为2026年10月22日08:24:44，晚于原研究截止08:24:29；历史报告书于09:55:01补入。本候选使用已授权留存材料，只有日级披露日期，不能证明公告在原截止分钟之前已公开，也不推进原发现窗口。 两份材料未披露本次回购股份后续具体授予对象、授予价格或过户安排；本候选仅表述回购用途，不认定已完成激励授予或员工受让。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T10:05:02+08:00",
           "updatedAt": "2026-10-22T09:59:54+08:00",
           "compiledAt": "2026-10-22T09:59:54+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -24737,9 +24818,143 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-07d50f71bbd0d1f3e37d",
+      "objectId": "listed-688334-sh",
+      "type": "定期报告披露",
+      "topics": [
+        "第三季度业绩",
+        "未经审计财务报表"
+      ],
+      "updates": [
+        {
+          "id": "production-8d5442cfa5d9e0b706c6c63e",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "前三季度归母净利润同比增长11.67%",
+          "summary": "西安高压电器研究院股份有限公司2026年10月22日披露未经审计的第三季度报告，前三季度营业收入为人民币695,301,891.27元，同比增长6.82%；归属于上市公司股东的净利润为人民币220,562,044.28元，同比增长11.67%。第三季度单季归属于上市公司股东的净利润为人民币81,387,833.98元，同比增长25.60%。",
+          "stage": "披露2026年第三季度未经审计财务报告",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T10:12:48+08:00",
+          "compiledAt": "2026-10-22T10:12:48+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西高院",
+          "version": "8d5442cfa5d9e0b706c6c63e5b132c690d8cb6a8201ebf00a222f54806297107",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年第三季度报告",
+              "publisher": "西安高压电器研究院股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页主要会计数据和财务指标、审计状态；第2页报告期定义；第13页落款日期为2026年10月20日",
+              "retrievedAt": "2026-10-22T08:25:13+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613533.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-aec3f84b715dcce5e7d8",
+      "objectId": "listed-000516-sz",
+      "type": "售后回租融资",
+      "topics": [
+        "西安国际医学中心有限公司",
+        "收到售后回租融资款"
+      ],
+      "updates": [
+        {
+          "id": "production-304048e360f797cb3318559b",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "披露子公司前三季度收到售后回租融资款",
+          "summary": "西安国际医学投资股份有限公司2026年10月22日披露，子公司西安国际医学中心有限公司在2026年年初至第三季度报告期末收到售后回租融资款。该报告未单独披露这笔融资的金额、出租人及具体到账日期。",
+          "stage": "季报披露子公司年初至报告期末收到售后回租融资款",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。当前报告未单独披露该售后回租融资的金额、出租人及具体到账日期；长期应付款变动比例不能作为融资金额。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T10:12:48+08:00",
+          "compiledAt": "2026-10-22T10:12:48+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "国际医学",
+          "version": "304048e360f797cb3318559b7eba847d38505aac064a83732911a7ca47959518",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年三季度报告",
+              "publisher": "西安国际医学投资股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第3页“主要会计数据和财务指标发生变动的情况及原因”第6项",
+              "retrievedAt": "2026-10-22T08:24:36+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613968.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-04b9685a8adfe664c9c0",
+      "date": "2026-10-22",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "compiledAt": "2026-10-22T10:16:52+08:00",
+      "researchCutoff": "2026-10-22T08:24:29+08:00",
+      "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
+      "updateIds": [
+        "production-d9507aa0df51626036f8f49e"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-04b9685a8adfe664c9c0/page-01.png",
+          "width": 1080,
+          "height": 800,
+          "sha256": "1bfba81814812234615aa00e79f48f5c795e89873bd53b1f00c46b30bbbc5224"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-22-b99b30e14395",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-22",
+      "rangeEnd": "2026-10-22",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-b9729420827d6a1d7cfa",
+          "updateId": "production-d9507aa0df51626036f8f49e",
+          "version": "d9507aa0df51626036f8f49ef8afbb7eabb261ce03611d24ba99af767e01c6e3",
+          "objectName": "盘龙药业",
+          "type": "listed",
+          "category": "股份回购",
+          "date": "2026-10-22",
+          "title": "首次回购116,175股，成交金额235.50万元",
+          "business": "股份管理",
+          "share": {
+            "title": "首次回购成交235.50万元",
+            "facts": "公告，10月21日首次通过集中竞价回购116,175股，占总股本0.085%，成交235.50万元（不含交易费用），相当于1,000万元计划下限的23.55%；公司表示将在回购期限内继续实施。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-eb96de75f07ee53ec007",
       "date": "2026-10-22",
@@ -25712,6 +25927,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "b2c3e685b38512b1db75",
+      "date": "2026-10-22",
+      "compiledAt": "2026-10-22T09:59:55+08:00",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "snapshotUrl": "publications/b2c3e685b38512b1db75/index.html",
+      "publishedAt": "2026-10-22T10:05:02+08:00"
+    },
     {
       "id": "4761a4c58c6a5f04aa0a",
       "date": "2026-10-22",
