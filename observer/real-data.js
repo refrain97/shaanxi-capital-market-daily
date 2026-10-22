@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-22-a43d0fee616e",
-      "compiledAt": "2026-10-22T08:52:58+08:00",
+      "id": "2026-10-22-824d204c1ea7",
+      "compiledAt": "2026-10-22T09:21:51+08:00",
       "cutoff": "2026-10-22T08:24:29+08:00",
       "windowStart": "2026-10-20",
       "windowEnd": "2026-10-22",
@@ -14,12 +14,16 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-e2671904e6f83a7f24aee3d7",
+        "production-cd2adfb919023cb9136af212",
         "production-b8b3204770a7e290ee35a80e",
         "production-a101f6d9895d95bd4a2ea675",
+        "production-7a578c921545f36387068016",
         "production-69f7e4d0aab958a907dcc859",
         "production-4b657d557c60a615404bbe16",
         "production-3825af4e393d9aafe8cfb913",
-        "production-1ebe8c13d086dcd1b2e2944f"
+        "production-1ebe8c13d086dcd1b2e2944f",
+        "production-0dae1797f023da017d25eced"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -202,7 +206,11 @@ window.PROTOTYPE = {
       "production-1ebe8c13d086dcd1b2e2944f": "2026-10-22T08:36:56+08:00",
       "production-69f7e4d0aab958a907dcc859": "2026-10-22T08:52:57+08:00",
       "production-b8b3204770a7e290ee35a80e": "2026-10-22T08:52:57+08:00",
-      "production-a101f6d9895d95bd4a2ea675": "2026-10-22T08:52:57+08:00"
+      "production-a101f6d9895d95bd4a2ea675": "2026-10-22T08:52:57+08:00",
+      "production-7a578c921545f36387068016": "2026-10-22T09:21:49+08:00",
+      "production-cd2adfb919023cb9136af212": "2026-10-22T09:21:49+08:00",
+      "production-0dae1797f023da017d25eced": "2026-10-22T09:21:49+08:00",
+      "production-e2671904e6f83a7f24aee3d7": "2026-10-22T09:21:49+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -829,6 +837,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "莱特光电2026年10月20日公告，董事会于10月19日审议通过将蒲城莱特生产车间数智化升级改造项目拟投入募集资金由人民币3,400.00万元调至2,709.79万元，生产研发基地生产车间1、3、4项目的49,077.90万元保持不变。同期批准拟以募集资金向全资子公司蒲城莱特光电新材料有限公司增资40,000.00万元（全部计入资本公积，注册资本不变）、提供不超过人民币11,787.69万元借款用于募投项目，并拟置换预先投入募投项目及已支付发行费用的自筹资金人民币24,477,332.42元；当前原件未披露上述增资、借款划付或置换已完成。"
         },
+        "production-e2671904e6f83a7f24aee3d7": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "莱特光电2026年10月22日公告，10月8日至21日公司股票已有10个交易日收盘价低于当期转股价格的85%（即38.10元/股）；若未来20个交易日内再有5个交易日低于该水平，预计将触发“莱特转债”转股价格向下修正条件。是否下修仍待触发条件后由董事会审议决定，截至公告披露日该债券暂未上市交易。"
+        },
         "production-3a28c2e4df72a10db01ab24e": {
           "version": "listed-scope-20261009",
           "action": "对外投资",
@@ -1337,6 +1352,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "宝光股份2026年10月22日公告，董事会于10月21日审议通过聘任袁军为担任公司战略顾问，协助总经理负责智能制造、精益管理及其他工作。聘任期限三年，自本次董事会审议通过之日起生效。"
+        },
+        "production-7a578c921545f36387068016": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "宝光股份于2026年10月22日披露第三季度报告，该报告已于10月21日获董事会审议通过。未经审计的报告显示，前三季度营业收入为人民币1,035,062,749.65元，同比增长8.66%；归属于上市公司股东的净利润为59,664,457.86元，同比增长20.59%。"
+        },
+        "production-cd2adfb919023cb9136af212": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "盘龙药业2026年10月22日公告，盛苑因工作变动不再担任公司持续督导保荐代表人，中泰证券委派郭强接替，相关业务已交接完毕。变更后，公司2023年向特定对象发行股票项目由杨圣志、郭强担任持续督导保荐代表人，持续督导至规定的督导义务结束。"
+        },
+        "production-0dae1797f023da017d25eced": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "盘龙药业2026年10月22日公告，公司及控股子公司经自查，本年度累计补缴税款及滞纳金16,698,636.73元，截至公告披露日已全部缴纳完毕，本次补缴不涉及行政处罚。上述款项计入2026年当期损益，不涉及前期财务数据追溯调整，对年度归母净利润的具体影响以2026年度经审计财务报表为准。"
         }
       }
     },
@@ -1346,7 +1382,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-10-22-a43d0fee616e",
+      "sourceEditionId": "2026-10-22-824d204c1ea7",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -4022,6 +4058,18 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-002864-sz",
+      "type": "listed",
+      "name": "盘龙药业",
+      "code": "002864.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000516-sz",
       "type": "listed",
       "name": "国际医学",
@@ -4065,19 +4113,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "美能能源",
       "code": "001299.SZ",
-      "market": "SZ",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-002864-sz",
-      "type": "listed",
-      "name": "盘龙药业",
-      "code": "002864.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -18318,6 +18353,40 @@ window.PROTOTYPE = {
             }
           ],
           "tables": []
+        },
+        {
+          "id": "production-e2671904e6f83a7f24aee3d7",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "提示“莱特转债”可能触发转股价格下修条件",
+          "summary": "莱特光电2026年10月22日公告，10月8日至21日公司股票已有10个交易日收盘价低于当期转股价格的85%（即38.10元/股）；若未来20个交易日内再有5个交易日低于该水平，预计将触发“莱特转债”转股价格向下修正条件。是否下修仍待触发条件后由董事会审议决定，截至公告披露日该债券暂未上市交易。",
+          "stage": "披露转股价格下修条件预警，尚未确认触发或决定下修；截至公告披露日，莱特转债暂未上市交易",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T09:21:50+08:00",
+          "compiledAt": "2026-10-22T09:21:50+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "莱特光电",
+          "version": "e2671904e6f83a7f24aee3d7853603cc76606524d72706696616785cbc430752",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西莱特光电材料股份有限公司关于“莱特转债”预计触发转股价格向下修正条件的提示性公告",
+              "publisher": "陕西莱特光电材料股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第2页，可转债上市情况；物理第3页，预计触发情况及后续安排；物理第4页，公告落款",
+              "retrievedAt": "2026-10-22T08:25:05+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225614121.PDF"
+            }
+          ],
+          "tables": []
         }
       ]
     },
@@ -24286,6 +24355,149 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-e6df75bfb4eac0632c9a",
+      "objectId": "listed-600379-sh",
+      "type": "定期报告审议及披露",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议通过"
+      ],
+      "updates": [
+        {
+          "id": "production-7a578c921545f36387068016",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "披露三季报：前三季度归母净利润同比增长20.59%",
+          "summary": "宝光股份于2026年10月22日披露第三季度报告，该报告已于10月21日获董事会审议通过。未经审计的报告显示，前三季度营业收入为人民币1,035,062,749.65元，同比增长8.66%；归属于上市公司股东的净利润为59,664,457.86元，同比增长20.59%。",
+          "stage": "2026年10月21日董事会审议通过第三季度报告；报告财务表格尚待原页核对",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T09:21:49+08:00",
+          "compiledAt": "2026-10-22T09:21:49+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "宝光股份",
+          "version": "7a578c921545f36387068016045cb58ed6d04064a75d14adf6df94199e83654f",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "宝光股份第八届董事会第二十二次会议决议公告",
+              "publisher": "陕西宝光真空电器股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页，会议召开情况及第一项议案",
+              "retrievedAt": "2026-10-22T08:24:53+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613852.PDF"
+            },
+            {
+              "title": "宝光股份2026年第三季度报告",
+              "publisher": "陕西宝光真空电器股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页，审计提示及主要会计数据表；报告落款日期为2026年10月21日",
+              "retrievedAt": "2026-10-22T08:24:52+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613870.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-be3f60c5d0de6b7bac9a",
+      "objectId": "listed-002864-sz",
+      "type": "持续督导保荐代表人变更",
+      "topics": [
+        "保荐代表人更换",
+        "持续督导业务交接"
+      ],
+      "updates": [
+        {
+          "id": "production-cd2adfb919023cb9136af212",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "持续督导保荐代表人变更，郭强接替盛苑",
+          "summary": "盘龙药业2026年10月22日公告，盛苑因工作变动不再担任公司持续督导保荐代表人，中泰证券委派郭强接替，相关业务已交接完毕。变更后，公司2023年向特定对象发行股票项目由杨圣志、郭强担任持续督导保荐代表人，持续督导至规定的督导义务结束。",
+          "stage": "中泰证券委派郭强接替盛苑，相关业务已交接完毕；变更后由杨圣志、郭强承担持续督导",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T09:21:50+08:00",
+          "compiledAt": "2026-10-22T09:21:50+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "盘龙药业",
+          "version": "cd2adfb919023cb9136af212438b1e7cf55f8fd40592d0a75a3505ea29cc359e",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于变更持续督导保荐代表人的公告",
+              "publisher": "陕西盘龙药业集团股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页，保荐代表人变更及持续督导安排；物理第2页，公告落款",
+              "retrievedAt": "2026-10-22T08:24:43+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225614136.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-5be4588da03003393cf2",
+      "objectId": "listed-002864-sz",
+      "type": "税务事项",
+      "topics": [
+        "自查补税",
+        "滞纳金缴纳"
+      ],
+      "updates": [
+        {
+          "id": "production-0dae1797f023da017d25eced",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "及控股子公司完成本年度累计16,698,636.73元税款及滞纳金补缴",
+          "summary": "盘龙药业2026年10月22日公告，公司及控股子公司经自查，本年度累计补缴税款及滞纳金16,698,636.73元，截至公告披露日已全部缴纳完毕，本次补缴不涉及行政处罚。上述款项计入2026年当期损益，不涉及前期财务数据追溯调整，对年度归母净利润的具体影响以2026年度经审计财务报表为准。",
+          "stage": "截至公告披露日，本年度累计补缴税款及滞纳金16,698,636.73元，已全部缴纳完毕",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T09:21:50+08:00",
+          "compiledAt": "2026-10-22T09:21:50+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "盘龙药业",
+          "version": "0dae1797f023da017d25eced3f84314e67268a031528375bf126126a09cd3f8b",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于税务事项的公告",
+              "publisher": "陕西盘龙药业集团股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页，基本情况、对公司的影响和风险提示",
+              "retrievedAt": "2026-10-22T08:24:43+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225614135.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -25217,6 +25429,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "f9b45af49e9b26e4ad3c",
+      "date": "2026-10-22",
+      "compiledAt": "2026-10-22T08:52:58+08:00",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "snapshotUrl": "publications/f9b45af49e9b26e4ad3c/index.html",
+      "publishedAt": "2026-10-22T09:06:00+08:00"
+    },
     {
       "id": "cf587385261c1a756769",
       "date": "2026-10-22",
