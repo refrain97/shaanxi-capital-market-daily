@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-22-6e5be06ccc5f",
-      "compiledAt": "2026-10-22T08:36:58+08:00",
+      "id": "2026-10-22-a43d0fee616e",
+      "compiledAt": "2026-10-22T08:52:58+08:00",
       "cutoff": "2026-10-22T08:24:29+08:00",
       "windowStart": "2026-10-20",
       "windowEnd": "2026-10-22",
@@ -14,6 +14,9 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-b8b3204770a7e290ee35a80e",
+        "production-a101f6d9895d95bd4a2ea675",
+        "production-69f7e4d0aab958a907dcc859",
         "production-4b657d557c60a615404bbe16",
         "production-3825af4e393d9aafe8cfb913",
         "production-1ebe8c13d086dcd1b2e2944f"
@@ -166,7 +169,6 @@ window.PROTOTYPE = {
       "production-147fb93451c0f90434bb2181": "2026-10-19T22:39:02+08:00",
       "production-09bf9325e329131f1fcc2e90": "2026-10-20T19:24:21+08:00",
       "production-7edf3f3502d11931cfd07589": "2026-10-20T19:24:21+08:00",
-      "production-e23c757849867445ff34faa7": "2026-10-20T19:59:08+08:00",
       "production-b103bfece0cf21fe3c58e9f3": "2026-10-20T19:59:08+08:00",
       "production-0fe0e25156a7227d6577227c": "2026-10-20T20:04:38+08:00",
       "production-9f4d45dbfb09ba7edffeea1e": "2026-10-20T20:15:08+08:00",
@@ -197,7 +199,10 @@ window.PROTOTYPE = {
       "production-1f1ed36f0ac6326f47e9ea3a": "2026-10-21T10:14:51+08:00",
       "production-4b657d557c60a615404bbe16": "2026-10-22T08:36:56+08:00",
       "production-3825af4e393d9aafe8cfb913": "2026-10-22T08:36:56+08:00",
-      "production-1ebe8c13d086dcd1b2e2944f": "2026-10-22T08:36:56+08:00"
+      "production-1ebe8c13d086dcd1b2e2944f": "2026-10-22T08:36:56+08:00",
+      "production-69f7e4d0aab958a907dcc859": "2026-10-22T08:52:57+08:00",
+      "production-b8b3204770a7e290ee35a80e": "2026-10-22T08:52:57+08:00",
+      "production-a101f6d9895d95bd4a2ea675": "2026-10-22T08:52:57+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1142,13 +1147,6 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "陕西广电网络传媒（集团）股份有限公司2026年10月20日披露公告（落款10月19日）：截至9月30日已偿还前期逾期金融债务2,616.12万元；截至本次公告披露日，新增逾期金融债务16,295.53万元，累计逾期36,344.87万元，占最近一期经审计净资产的67.02%。公司表示目前处于预重整阶段，除维系生产经营的必要开支外，不得对外清偿债务，有关债务清偿将依法合规进行。"
         },
-        "production-e23c757849867445ff34faa7": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "隆基绿能2026年10月20日公告，“隆22转债”持有人可自愿回售部分或全部未转股债券，申报期为2026年10月27日至11月2日，回售价格为人民币101.29元/张（含当期利息），资金计划于11月5日发放，回售期间继续交易但停止转股。公告提示其所述当时收盘价高于回售价格，选择回售可能造成损失；本次回售结果尚待申报期结束后披露。"
-        },
         "production-b103bfece0cf21fe3c58e9f3": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -1318,6 +1316,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西美邦药业集团股份有限公司2026年10月22日披露，2026年1—9月杀菌剂、杀虫剂及其他产品销售金额分别为43,088.15万元、19,394.50万元和7,362.03万元，均为不含税口径。上述数据来自公司内部统计，未经审计。"
+        },
+        "production-69f7e4d0aab958a907dcc859": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "宝光股份2026年10月22日公告，张军、袁军为因工作变动辞去副总经理职务，辞职报告于10月20日送达董事会并生效。辞任后，张军不再担任公司任何职务，袁军为仍在公司担任战略顾问。"
+        },
+        "production-b8b3204770a7e290ee35a80e": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "宝光股份2026年10月22日公告，董事会于10月21日审议通过聘任李鹏担任公司副总经理，分管技术研发等工作，协助总经理工作并对董事会负责。聘期与公司第八届董事会任期一致。"
+        },
+        "production-a101f6d9895d95bd4a2ea675": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "宝光股份2026年10月22日公告，董事会于10月21日审议通过聘任袁军为担任公司战略顾问，协助总经理负责智能制造、精益管理及其他工作。聘任期限三年，自本次董事会审议通过之日起生效。"
         }
       }
     },
@@ -1327,7 +1346,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-10-22-6e5be06ccc5f",
+      "sourceEditionId": "2026-10-22-a43d0fee616e",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -22201,61 +22220,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-7810bfd79baa83d29090",
-      "objectId": "listed-601012-sh",
-      "type": "可转债回售安排",
-      "topics": [
-        "隆22转债",
-        "有条件回售条款生效",
-        "回售申报及资金发放安排"
-      ],
-      "updates": [
-        {
-          "id": "production-e23c757849867445ff34faa7",
-          "date": "2026-10-20",
-          "time": "",
-          "title": "公布“隆22转债”自愿回售安排",
-          "summary": "隆基绿能2026年10月20日公告，“隆22转债”持有人可自愿回售部分或全部未转股债券，申报期为2026年10月27日至11月2日，回售价格为人民币101.29元/张（含当期利息），资金计划于11月5日发放，回售期间继续交易但停止转股。公告提示其所述当时收盘价高于回售价格，选择回售可能造成损失；本次回售结果尚待申报期结束后披露。",
-          "stage": "已公告回售安排，申报期为2026年10月27日至11月2日，资金发放日安排为11月5日；尚未开始申报，未披露执行结果",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-10-20T20:01:25+08:00",
-          "updatedAt": "2026-10-20T19:59:09+08:00",
-          "compiledAt": "2026-10-20T19:59:09+08:00",
-          "researchCutoff": "2026-10-20T08:14:36+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "隆基绿能",
-          "version": "e23c757849867445ff34faa799093cdf205100b9ef3a4bc4256811d4b940e1f2",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "关于“隆22转债”可选择回售的公告",
-              "publisher": "隆基绿能科技股份有限公司",
-              "date": "2026-10-20",
-              "location": "物理第1页重要内容提示、第3页回售安排及期间交易、第4页落款",
-              "retrievedAt": "2026-10-20T08:15:17+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225610632.PDF"
-            },
-            {
-              "title": "中国国际金融股份有限公司关于隆基绿能科技股份有限公司可转换公司债券回售有关事项的核查意见",
-              "publisher": "中国国际金融股份有限公司",
-              "date": "2026-10-20",
-              "location": "物理第3页回售安排、第4页交易安排及意见、第5页签章；签章日期为2026年10月19日",
-              "retrievedAt": "2026-10-20T08:15:17+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-20/1225610646.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-2ce94cbccc4f5593d877",
       "objectId": "listed-688783-sh",
       "type": "自营工厂建设进展",
@@ -24050,6 +24014,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T08:41:59+08:00",
           "updatedAt": "2026-10-22T08:36:56+08:00",
           "compiledAt": "2026-10-22T08:36:56+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -24094,6 +24059,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T08:41:59+08:00",
           "updatedAt": "2026-10-22T08:36:57+08:00",
           "compiledAt": "2026-10-22T08:36:57+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -24148,6 +24114,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T08:41:59+08:00",
           "updatedAt": "2026-10-22T08:36:57+08:00",
           "compiledAt": "2026-10-22T08:36:57+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -24168,6 +24135,149 @@ window.PROTOTYPE = {
               "location": "物理第1页主要产品产销及收入表、第2页数据口径说明；公告落款2026年10月21日",
               "retrievedAt": "2026-10-22T08:25:01+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613674.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-e3c4d1877d85a0015eed",
+      "objectId": "listed-600379-sh",
+      "type": "公司治理及人员变动",
+      "topics": [
+        "张军辞任副总经理",
+        "袁军为辞任副总经理"
+      ],
+      "updates": [
+        {
+          "id": "production-69f7e4d0aab958a907dcc859",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "两名副总经理辞任，袁军为仍任战略顾问",
+          "summary": "宝光股份2026年10月22日公告，张军、袁军为因工作变动辞去副总经理职务，辞职报告于10月20日送达董事会并生效。辞任后，张军不再担任公司任何职务，袁军为仍在公司担任战略顾问。",
+          "stage": "两名副总经理辞职报告于2026年10月20日送达董事会并生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T08:52:57+08:00",
+          "compiledAt": "2026-10-22T08:52:57+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "宝光股份",
+          "version": "69f7e4d0aab958a907dcc859a6d9363a08677e97e9bd7fa8e781fbf7951d9ac1",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "宝光股份关于公司副总经理辞职及聘任公司副总经理的公告",
+              "publisher": "陕西宝光真空电器股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页重要内容提示、离任情况及生效条款",
+              "retrievedAt": "2026-10-22T08:24:52+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613855.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-0e4b3ec028cd95444533",
+      "objectId": "listed-600379-sh",
+      "type": "公司治理及人员变动",
+      "topics": [
+        "李鹏聘任副总经理",
+        "董事会审议通过"
+      ],
+      "updates": [
+        {
+          "id": "production-b8b3204770a7e290ee35a80e",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "聘任李鹏为副总经理，分管技术研发等工作",
+          "summary": "宝光股份2026年10月22日公告，董事会于10月21日审议通过聘任李鹏担任公司副总经理，分管技术研发等工作，协助总经理工作并对董事会负责。聘期与公司第八届董事会任期一致。",
+          "stage": "2026年10月21日董事会审议通过聘任李鹏为副总经理",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T08:52:58+08:00",
+          "compiledAt": "2026-10-22T08:52:58+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "宝光股份",
+          "version": "b8b3204770a7e290ee35a80ef0c5c6e9f35bb1172efad093d8119c790f8b6d20",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "宝光股份关于公司副总经理辞职及聘任公司副总经理的公告",
+              "publisher": "陕西宝光真空电器股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第2页副总经理聘任情况",
+              "retrievedAt": "2026-10-22T08:24:52+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613855.PDF"
+            },
+            {
+              "title": "宝光股份第八届董事会第二十二次会议决议公告",
+              "publisher": "陕西宝光真空电器股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页第二项议案",
+              "retrievedAt": "2026-10-22T08:24:53+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613852.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-64b921a49d48f9cafc51",
+      "objectId": "listed-600379-sh",
+      "type": "公司治理及人员变动",
+      "topics": [
+        "袁军为战略顾问聘任",
+        "三年聘期"
+      ],
+      "updates": [
+        {
+          "id": "production-a101f6d9895d95bd4a2ea675",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "聘任袁军为为战略顾问，聘期三年",
+          "summary": "宝光股份2026年10月22日公告，董事会于10月21日审议通过聘任袁军为担任公司战略顾问，协助总经理负责智能制造、精益管理及其他工作。聘任期限三年，自本次董事会审议通过之日起生效。",
+          "stage": "2026年10月21日董事会审议通过，战略顾问聘任自审议通过之日起生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T08:52:58+08:00",
+          "compiledAt": "2026-10-22T08:52:58+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "宝光股份",
+          "version": "a101f6d9895d95bd4a2ea675d3982f5a980a3b4e72a4d5ceee3f9ef755a636d0",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "宝光股份第八届董事会第二十二次会议决议公告",
+              "publisher": "陕西宝光真空电器股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页会议召开情况及第三项议案",
+              "retrievedAt": "2026-10-22T08:24:53+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613852.PDF"
             }
           ],
           "tables": []
@@ -25104,6 +25214,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "10cd40908dd4c250426a",
+      "date": "2026-10-22",
+      "compiledAt": "2026-10-22T08:36:58+08:00",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "snapshotUrl": "publications/10cd40908dd4c250426a/index.html",
+      "publishedAt": "2026-10-22T08:41:59+08:00"
+    },
     {
       "id": "04bc7488a776f5b04edf",
       "date": "2026-10-21",
