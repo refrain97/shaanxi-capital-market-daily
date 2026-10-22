@@ -406,7 +406,7 @@ window.PROTOTYPE = {
           "summary": "西安三角防务股份有限公司2026年10月8日公告，2026年第三季度共有570张“三角转债”完成转股，票面金额合计57,000.00元，转成公司股票2,510股。截至第三季度末，剩余可转债8,998,758张，票面总额899,875,800.00元。"
         },
         "production-9ae4eabe05e605c7f9ec82ca": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
@@ -1107,7 +1107,7 @@ window.PROTOTYPE = {
           "summary": "陕西建工集团股份有限公司2026年10月17日披露，2026年9月公司及子公司为8家合并报表范围内子公司提供担保合计24.44亿元。担保方式为连带保证、共同还款，期限为11个月至180个月，本次事项在年度授权担保额度范围内，无需再次提交董事会、股东会审议。"
         },
         "production-6c965895432b4829b55ac480": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
@@ -24160,6 +24160,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T08:55:15+08:00",
           "updatedAt": "2026-10-22T08:52:57+08:00",
           "compiledAt": "2026-10-22T08:52:57+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -24205,6 +24206,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T08:55:15+08:00",
           "updatedAt": "2026-10-22T08:52:58+08:00",
           "compiledAt": "2026-10-22T08:52:58+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -24258,6 +24260,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T08:55:15+08:00",
           "updatedAt": "2026-10-22T08:52:58+08:00",
           "compiledAt": "2026-10-22T08:52:58+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -25214,6 +25217,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "cf587385261c1a756769",
+      "date": "2026-10-22",
+      "compiledAt": "2026-10-22T08:52:58+08:00",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "snapshotUrl": "publications/cf587385261c1a756769/index.html",
+      "publishedAt": "2026-10-22T08:55:15+08:00"
+    },
     {
       "id": "10cd40908dd4c250426a",
       "date": "2026-10-22",
