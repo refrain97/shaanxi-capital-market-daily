@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-22-824d204c1ea7",
-      "compiledAt": "2026-10-22T09:21:51+08:00",
+      "id": "2026-10-22-52aa40016ecb",
+      "compiledAt": "2026-10-22T09:43:36+08:00",
       "cutoff": "2026-10-22T08:24:29+08:00",
       "windowStart": "2026-10-20",
       "windowEnd": "2026-10-22",
@@ -18,12 +18,14 @@ window.PROTOTYPE = {
         "production-cd2adfb919023cb9136af212",
         "production-b8b3204770a7e290ee35a80e",
         "production-a101f6d9895d95bd4a2ea675",
-        "production-7a578c921545f36387068016",
         "production-69f7e4d0aab958a907dcc859",
         "production-4b657d557c60a615404bbe16",
+        "production-4279d42d0a89c03cf0bd327a",
         "production-3825af4e393d9aafe8cfb913",
+        "production-2325978ef8944a5bcc4bc43e",
         "production-1ebe8c13d086dcd1b2e2944f",
-        "production-0dae1797f023da017d25eced"
+        "production-0dae1797f023da017d25eced",
+        "production-07ed700c56b916eb0f14988f"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -207,10 +209,12 @@ window.PROTOTYPE = {
       "production-69f7e4d0aab958a907dcc859": "2026-10-22T08:52:57+08:00",
       "production-b8b3204770a7e290ee35a80e": "2026-10-22T08:52:57+08:00",
       "production-a101f6d9895d95bd4a2ea675": "2026-10-22T08:52:57+08:00",
-      "production-7a578c921545f36387068016": "2026-10-22T09:21:49+08:00",
       "production-cd2adfb919023cb9136af212": "2026-10-22T09:21:49+08:00",
       "production-0dae1797f023da017d25eced": "2026-10-22T09:21:49+08:00",
-      "production-e2671904e6f83a7f24aee3d7": "2026-10-22T09:21:49+08:00"
+      "production-e2671904e6f83a7f24aee3d7": "2026-10-22T09:21:49+08:00",
+      "production-4279d42d0a89c03cf0bd327a": "2026-10-22T09:43:34+08:00",
+      "production-07ed700c56b916eb0f14988f": "2026-10-22T09:43:34+08:00",
+      "production-2325978ef8944a5bcc4bc43e": "2026-10-22T09:43:34+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -419,6 +423,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "高铁电气2026年9月30日公告，公司董事会于9月29日审议通过提名林建为第三届董事会董事的议案，拟提交10月21日召开的2026年第一次临时股东会选举。林建尚待股东会选举，当选后将担任董事会科技创新委员会召集人，任期自股东会审议通过之日起至第三届董事会任期届满时止。"
+        },
+        "production-2325978ef8944a5bcc4bc43e": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "高铁电气2026年10月22日公告，10月21日召开的2026年第一次临时股东会审议通过聘任林建为公司第三届董事会董事的议案，林建当选。"
         },
         "production-39e80aa027dc312825b3022a": {
           "version": "listed-scope-20261009",
@@ -1353,13 +1364,6 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "宝光股份2026年10月22日公告，董事会于10月21日审议通过聘任袁军为担任公司战略顾问，协助总经理负责智能制造、精益管理及其他工作。聘任期限三年，自本次董事会审议通过之日起生效。"
         },
-        "production-7a578c921545f36387068016": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "宝光股份于2026年10月22日披露第三季度报告，该报告已于10月21日获董事会审议通过。未经审计的报告显示，前三季度营业收入为人民币1,035,062,749.65元，同比增长8.66%；归属于上市公司股东的净利润为59,664,457.86元，同比增长20.59%。"
-        },
         "production-cd2adfb919023cb9136af212": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -1373,6 +1377,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "盘龙药业2026年10月22日公告，公司及控股子公司经自查，本年度累计补缴税款及滞纳金16,698,636.73元，截至公告披露日已全部缴纳完毕，本次补缴不涉及行政处罚。上述款项计入2026年当期损益，不涉及前期财务数据追溯调整，对年度归母净利润的具体影响以2026年度经审计财务报表为准。"
+        },
+        "production-4279d42d0a89c03cf0bd327a": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "高铁电气2026年10月22日公告，2026年前三季度合并报表口径累计计提信用减值损失和资产减值损失预计合计1,776.49万元，其中信用减值损失1,448.73万元、资产减值损失327.76万元。本次计提未经会计师事务所审计，最终以年度审计确认数据为准。"
+        },
+        "production-07ed700c56b916eb0f14988f": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "康惠股份2026年10月22日公告，全资子公司北京康惠智创科技有限公司近日与皖江金融租赁股份有限公司签署直接租赁合同，融资金额人民币16,000万元、期限60个月，用于购买算力服务器，康惠股份已签署保证合同提供连带责任保证。本次担保在2025年年度股东会预计额度内，被担保人资产负债率超过70%；公告未披露融资实际到账或服务器交付完成情况。"
         }
       }
     },
@@ -1382,7 +1400,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-10-22-824d204c1ea7",
+      "sourceEditionId": "2026-10-22-52aa40016ecb",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -13412,6 +13430,48 @@ window.PROTOTYPE = {
             }
           ],
           "tables": []
+        },
+        {
+          "id": "production-2325978ef8944a5bcc4bc43e",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "林建当选高铁电气第三届董事会董事",
+          "summary": "高铁电气2026年10月22日公告，10月21日召开的2026年第一次临时股东会审议通过聘任林建为公司第三届董事会董事的议案，林建当选。",
+          "stage": "10月21日股东会审议通过，林建当选第三届董事会董事",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T09:43:35+08:00",
+          "compiledAt": "2026-10-22T09:43:35+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "高铁电气",
+          "version": "2325978ef8944a5bcc4bc43ede67b5cf59778366a0df6c5c9a9086973fac4a8d",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "高铁电气：2026年第一次临时股东会决议公告",
+              "publisher": "中铁高铁电气装备股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页会议日期；第2页选举结果表；第3页公告落款",
+              "retrievedAt": "2026-10-22T08:25:12+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225614150.PDF"
+            },
+            {
+              "title": "高铁电气：2026年第一次临时股东会法律意见书",
+              "publisher": "北京市康达律师事务所",
+              "date": "2026-10-22",
+              "location": "物理第4页表决结果及结论；第5页签章，签署日期为2026年10月21日，10月22日披露",
+              "retrievedAt": "2026-10-22T08:25:11+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225614168.PDF"
+            }
+          ],
+          "tables": []
         }
       ]
     },
@@ -18364,6 +18424,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T09:24:04+08:00",
           "updatedAt": "2026-10-22T09:21:50+08:00",
           "compiledAt": "2026-10-22T09:21:50+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -24357,59 +24418,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-e6df75bfb4eac0632c9a",
-      "objectId": "listed-600379-sh",
-      "type": "定期报告审议及披露",
-      "topics": [
-        "2026年第三季度报告",
-        "董事会审议通过"
-      ],
-      "updates": [
-        {
-          "id": "production-7a578c921545f36387068016",
-          "date": "2026-10-22",
-          "time": "",
-          "title": "披露三季报：前三季度归母净利润同比增长20.59%",
-          "summary": "宝光股份于2026年10月22日披露第三季度报告，该报告已于10月21日获董事会审议通过。未经审计的报告显示，前三季度营业收入为人民币1,035,062,749.65元，同比增长8.66%；归属于上市公司股东的净利润为59,664,457.86元，同比增长20.59%。",
-          "stage": "2026年10月21日董事会审议通过第三季度报告；报告财务表格尚待原页核对",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "updatedAt": "2026-10-22T09:21:49+08:00",
-          "compiledAt": "2026-10-22T09:21:49+08:00",
-          "researchCutoff": "2026-10-22T08:24:29+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "宝光股份",
-          "version": "7a578c921545f36387068016045cb58ed6d04064a75d14adf6df94199e83654f",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "宝光股份第八届董事会第二十二次会议决议公告",
-              "publisher": "陕西宝光真空电器股份有限公司",
-              "date": "2026-10-22",
-              "location": "物理第1页，会议召开情况及第一项议案",
-              "retrievedAt": "2026-10-22T08:24:53+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613852.PDF"
-            },
-            {
-              "title": "宝光股份2026年第三季度报告",
-              "publisher": "陕西宝光真空电器股份有限公司",
-              "date": "2026-10-22",
-              "location": "物理第1页，审计提示及主要会计数据表；报告落款日期为2026年10月21日",
-              "retrievedAt": "2026-10-22T08:24:52+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613870.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-be3f60c5d0de6b7bac9a",
       "objectId": "listed-002864-sz",
       "type": "持续督导保荐代表人变更",
@@ -24428,6 +24436,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T09:24:04+08:00",
           "updatedAt": "2026-10-22T09:21:50+08:00",
           "compiledAt": "2026-10-22T09:21:50+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -24473,6 +24482,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T09:24:04+08:00",
           "updatedAt": "2026-10-22T09:21:50+08:00",
           "compiledAt": "2026-10-22T09:21:50+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -24493,6 +24503,97 @@ window.PROTOTYPE = {
               "location": "物理第1页，基本情况、对公司的影响和风险提示",
               "retrievedAt": "2026-10-22T08:24:43+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225614135.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-de32a91320a7faf502b9",
+      "objectId": "listed-688285-sh",
+      "type": "计提信用及资产减值损失",
+      "topics": [
+        "2026年前三季度减值准备"
+      ],
+      "updates": [
+        {
+          "id": "production-4279d42d0a89c03cf0bd327a",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "前三季度预计计提减值损失1,776.49万元",
+          "summary": "高铁电气2026年10月22日公告，2026年前三季度合并报表口径累计计提信用减值损失和资产减值损失预计合计1,776.49万元，其中信用减值损失1,448.73万元、资产减值损失327.76万元。本次计提未经会计师事务所审计，最终以年度审计确认数据为准。",
+          "stage": "披露前三季度减值计提情况，未经审计，最终以年度审计确认数据为准",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T09:43:34+08:00",
+          "compiledAt": "2026-10-22T09:43:34+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "高铁电气",
+          "version": "4279d42d0a89c03cf0bd327ae01eb32c7f84f9ea0c9dc1cfe247ec5c1b45ccca",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "高铁电气：关于计提信用减值损失和资产减值损失的公告",
+              "publisher": "中铁高铁电气装备股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页计提情况表及说明；第2页影响、审计限定和落款",
+              "retrievedAt": "2026-10-22T08:25:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225614170.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-575e52decb61951dbecb",
+      "objectId": "listed-603139-sh",
+      "type": "融资租赁及配套担保",
+      "topics": [
+        "北京康惠智创",
+        "皖江金融租赁",
+        "直接租赁",
+        "连带责任保证"
+      ],
+      "updates": [
+        {
+          "id": "production-07ed700c56b916eb0f14988f",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "为全资子公司16,000万元融资租赁提供担保",
+          "summary": "康惠股份2026年10月22日公告，全资子公司北京康惠智创科技有限公司近日与皖江金融租赁股份有限公司签署直接租赁合同，融资金额人民币16,000万元、期限60个月，用于购买算力服务器，康惠股份已签署保证合同提供连带责任保证。本次担保在2025年年度股东会预计额度内，被担保人资产负债率超过70%；公告未披露融资实际到账或服务器交付完成情况。",
+          "stage": "直接租赁合同及配套保证合同已签署，未披露融资实际到账或服务器交付完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。当前公告未披露融资实际到账或服务器交付完成情况；短记仅表述合同已签署。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T09:43:35+08:00",
+          "compiledAt": "2026-10-22T09:43:35+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "康惠股份",
+          "version": "07ed700c56b916eb0f14988f280a548888070b40d4941dcbb8cd85a8d9ee02c3",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "康惠股份关于为全资子公司提供担保的进展公告",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页担保及风险提示；第2页合同签署；第3—4页合同主要内容及公告落款",
+              "retrievedAt": "2026-10-22T08:25:00+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225614379.PDF"
             }
           ],
           "tables": []
@@ -25429,6 +25530,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "32aa93d523dcb4d2b605",
+      "date": "2026-10-22",
+      "compiledAt": "2026-10-22T09:21:51+08:00",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "snapshotUrl": "publications/32aa93d523dcb4d2b605/index.html",
+      "publishedAt": "2026-10-22T09:24:04+08:00"
+    },
     {
       "id": "f9b45af49e9b26e4ad3c",
       "date": "2026-10-22",
