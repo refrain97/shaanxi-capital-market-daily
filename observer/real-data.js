@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-22-b99b30e14395",
-      "compiledAt": "2026-10-22T10:12:49+08:00",
+      "id": "2026-10-22-47fd741677ec",
+      "compiledAt": "2026-10-22T10:25:05+08:00",
       "cutoff": "2026-10-22T08:24:29+08:00",
       "windowStart": "2026-10-20",
       "windowEnd": "2026-10-22",
@@ -20,11 +20,13 @@ window.PROTOTYPE = {
         "production-b8b3204770a7e290ee35a80e",
         "production-a101f6d9895d95bd4a2ea675",
         "production-8d5442cfa5d9e0b706c6c63e",
+        "production-77a3b73a55aa940f35982eca",
         "production-69f7e4d0aab958a907dcc859",
         "production-4b657d557c60a615404bbe16",
         "production-4279d42d0a89c03cf0bd327a",
         "production-3825af4e393d9aafe8cfb913",
         "production-304048e360f797cb3318559b",
+        "production-276d767411daa620d8c503bd",
         "production-2325978ef8944a5bcc4bc43e",
         "production-1ebe8c13d086dcd1b2e2944f",
         "production-0dae1797f023da017d25eced",
@@ -213,6 +215,7 @@ window.PROTOTYPE = {
       "production-69f7e4d0aab958a907dcc859": "2026-10-22T08:52:57+08:00",
       "production-b8b3204770a7e290ee35a80e": "2026-10-22T08:52:57+08:00",
       "production-a101f6d9895d95bd4a2ea675": "2026-10-22T08:52:57+08:00",
+      "production-7a578c921545f36387068016": "2026-10-22T09:21:49+08:00",
       "production-cd2adfb919023cb9136af212": "2026-10-22T09:21:49+08:00",
       "production-0dae1797f023da017d25eced": "2026-10-22T09:21:49+08:00",
       "production-e2671904e6f83a7f24aee3d7": "2026-10-22T09:21:49+08:00",
@@ -221,7 +224,9 @@ window.PROTOTYPE = {
       "production-2325978ef8944a5bcc4bc43e": "2026-10-22T09:43:34+08:00",
       "production-d9507aa0df51626036f8f49e": "2026-10-22T09:59:54+08:00",
       "production-8d5442cfa5d9e0b706c6c63e": "2026-10-22T10:12:48+08:00",
-      "production-304048e360f797cb3318559b": "2026-10-22T10:12:48+08:00"
+      "production-304048e360f797cb3318559b": "2026-10-22T10:12:48+08:00",
+      "production-276d767411daa620d8c503bd": "2026-10-22T10:25:04+08:00",
+      "production-77a3b73a55aa940f35982eca": "2026-10-22T10:25:04+08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1378,6 +1383,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "宝光股份2026年10月22日公告，董事会于10月21日审议通过聘任袁军为担任公司战略顾问，协助总经理负责智能制造、精益管理及其他工作。聘任期限三年，自本次董事会审议通过之日起生效。"
         },
+        "production-7a578c921545f36387068016": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "宝光股份于2026年10月22日披露第三季度报告，该报告已于10月21日获董事会审议通过。未经审计的报告显示，前三季度营业收入为人民币1,035,062,749.65元，同比增长8.66%；归属于上市公司股东的净利润为59,664,457.86元，同比增长20.59%。"
+        },
         "production-cd2adfb919023cb9136af212": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -1425,6 +1437,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安国际医学投资股份有限公司2026年10月22日披露，子公司西安国际医学中心有限公司在2026年年初至第三季度报告期末收到售后回租融资款。该报告未单独披露这笔融资的金额、出租人及具体到账日期。"
+        },
+        "production-276d767411daa620d8c503bd": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "高铁电气于2026年10月22日披露三季报：前三季度营业收入997,274,522.45元，同比增长23.11%；归母净利润38,687,579.63元，同比增长6.49%。第三季度归母净利润6,226,748.95元，同比下降21.34%；上述金额均为人民币，财务报表未经审计。"
+        },
+        "production-77a3b73a55aa940f35982eca": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "中国西电于2026年10月22日披露三季报：前三季度营业收入1,879,119.44万元，同比增长10.80%；归母净利润115,391.59万元，同比增长22.95%。第三季度归母净利润46,584.78万元，同比增长36.88%；上述金额均为人民币，财务报表未经审计。"
         }
       }
     },
@@ -1433,9 +1459,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
-      "sourceEditionId": "2026-10-22-b99b30e14395",
-      "editionId": "selection-04b9685a8adfe664c9c0",
+      "status": "reused",
+      "sourceEditionId": "2026-10-22-47fd741677ec",
+      "editionId": "selection-ab460ab65a056ae1a1e1",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -24508,6 +24534,60 @@ window.PROTOTYPE = {
       ]
     },
     {
+      "id": "production-event-e6df75bfb4eac0632c9a",
+      "objectId": "listed-600379-sh",
+      "type": "定期报告审议及披露",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议通过"
+      ],
+      "updates": [
+        {
+          "id": "production-7a578c921545f36387068016",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "披露三季报：前三季度归母净利润同比增长20.59%",
+          "summary": "宝光股份于2026年10月22日披露第三季度报告，该报告已于10月21日获董事会审议通过。未经审计的报告显示，前三季度营业收入为人民币1,035,062,749.65元，同比增长8.66%；归属于上市公司股东的净利润为59,664,457.86元，同比增长20.59%。",
+          "stage": "2026年10月21日董事会审议通过第三季度报告；报告财务表格尚待原页核对",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T09:24:04+08:00",
+          "updatedAt": "2026-10-22T09:21:49+08:00",
+          "compiledAt": "2026-10-22T09:21:49+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "宝光股份",
+          "version": "7a578c921545f36387068016045cb58ed6d04064a75d14adf6df94199e83654f",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "宝光股份第八届董事会第二十二次会议决议公告",
+              "publisher": "陕西宝光真空电器股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页，会议召开情况及第一项议案",
+              "retrievedAt": "2026-10-22T08:24:53+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613852.PDF"
+            },
+            {
+              "title": "宝光股份2026年第三季度报告",
+              "publisher": "陕西宝光真空电器股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页，审计提示及主要会计数据表；报告落款日期为2026年10月21日",
+              "retrievedAt": "2026-10-22T08:24:52+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613870.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
       "id": "production-event-be3f60c5d0de6b7bac9a",
       "objectId": "listed-002864-sz",
       "type": "持续督导保荐代表人变更",
@@ -24838,6 +24918,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T10:19:08+08:00",
           "updatedAt": "2026-10-22T10:12:48+08:00",
           "compiledAt": "2026-10-22T10:12:48+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -24883,6 +24964,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。当前报告未单独披露该售后回租融资的金额、出租人及具体到账日期；长期应付款变动比例不能作为融资金额。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T10:19:08+08:00",
           "updatedAt": "2026-10-22T10:12:48+08:00",
           "compiledAt": "2026-10-22T10:12:48+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -24908,9 +24990,143 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-4e3e545b1139ccfd5763",
+      "objectId": "listed-688285-sh",
+      "type": "定期报告披露",
+      "topics": [
+        "2026年第三季度报告",
+        "业绩披露"
+      ],
+      "updates": [
+        {
+          "id": "production-276d767411daa620d8c503bd",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "前三季度归母净利润同比增长6.49%，第三季度下降21.34%",
+          "summary": "高铁电气于2026年10月22日披露三季报：前三季度营业收入997,274,522.45元，同比增长23.11%；归母净利润38,687,579.63元，同比增长6.49%。第三季度归母净利润6,226,748.95元，同比下降21.34%；上述金额均为人民币，财务报表未经审计。",
+          "stage": "第三季度报告已披露，财务报表未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T10:25:04+08:00",
+          "compiledAt": "2026-10-22T10:25:04+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "高铁电气",
+          "version": "276d767411daa620d8c503bdb2ca2374b0a17677d45fce2c6dadd6bcff185b80",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "高铁电气：2026年三季度报告",
+              "publisher": "中铁高铁电气装备股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页主要会计数据和财务指标、审计状态；第2页报告期定义；第12页落款",
+              "retrievedAt": "2026-10-22T08:25:11+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225614165.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-0122bb5c257dfcc6fbb2",
+      "objectId": "listed-601179-sh",
+      "type": "定期报告披露",
+      "topics": [
+        "2026年第三季度报告",
+        "业绩披露"
+      ],
+      "updates": [
+        {
+          "id": "production-77a3b73a55aa940f35982eca",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "前三季度归母净利润同比增长22.95%",
+          "summary": "中国西电于2026年10月22日披露三季报：前三季度营业收入1,879,119.44万元，同比增长10.80%；归母净利润115,391.59万元，同比增长22.95%。第三季度归母净利润46,584.78万元，同比增长36.88%；上述金额均为人民币，财务报表未经审计。",
+          "stage": "第三季度报告已披露，财务报表未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-10-22T10:25:05+08:00",
+          "compiledAt": "2026-10-22T10:25:05+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "中国西电",
+          "version": "77a3b73a55aa940f35982ecaa7acf553ce079c832183dbbbb54d95a20219fadb",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "中国西电第三季度报告",
+              "publisher": "中国西电电气股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页主要会计数据和财务指标、审计状态；第2页报告期定义；第12页董事会落款为2026年10月21日",
+              "retrievedAt": "2026-10-22T08:24:59+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225614154.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-ab460ab65a056ae1a1e1",
+      "date": "2026-10-22",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "compiledAt": "2026-10-22T10:43:04+08:00",
+      "researchCutoff": "2026-10-22T08:24:29+08:00",
+      "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
+      "updateIds": [
+        "production-d9507aa0df51626036f8f49e"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-ab460ab65a056ae1a1e1/page-01.png",
+          "width": 1080,
+          "height": 800,
+          "sha256": "1bfba81814812234615aa00e79f48f5c795e89873bd53b1f00c46b30bbbc5224"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-10-22-47fd741677ec",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-22",
+      "rangeEnd": "2026-10-22",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-b9729420827d6a1d7cfa",
+          "updateId": "production-d9507aa0df51626036f8f49e",
+          "version": "d9507aa0df51626036f8f49ef8afbb7eabb261ce03611d24ba99af767e01c6e3",
+          "objectName": "盘龙药业",
+          "type": "listed",
+          "category": "股份回购",
+          "date": "2026-10-22",
+          "title": "首次回购116,175股，成交金额235.50万元",
+          "business": "股份管理",
+          "share": {
+            "title": "首次回购成交235.50万元",
+            "facts": "公告，10月21日首次通过集中竞价回购116,175股，占总股本0.085%，成交235.50万元（不含交易费用），相当于1,000万元计划下限的23.55%；公司表示将在回购期限内继续实施。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-04b9685a8adfe664c9c0",
       "date": "2026-10-22",
@@ -25927,6 +26143,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "e3b0658b17ff32567a27",
+      "date": "2026-10-22",
+      "compiledAt": "2026-10-22T10:12:49+08:00",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "snapshotUrl": "publications/e3b0658b17ff32567a27/index.html",
+      "publishedAt": "2026-10-22T10:19:08+08:00"
+    },
     {
       "id": "b2c3e685b38512b1db75",
       "date": "2026-10-22",
