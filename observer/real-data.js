@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-87a633c6e4aa",
-      "compiledAt": "2026-11-04T06:17:24-08:00",
+      "id": "2026-11-04-7e11329a3be6",
+      "compiledAt": "2026-11-04T06:33:36-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -53,6 +53,8 @@ window.PROTOTYPE = {
         "production-82fac279f6e6f1050990b31e",
         "production-6511cb33c2e09ca18b6fc407",
         "production-03ad256b5ea60149555fffa6",
+        "production-b5070f9062323edb41f98cb2",
+        "production-8739c2f403c6973f8108f1d0",
         "production-7c1ca1ebe676a041eac37e44",
         "production-5fd8d12ff90d654e0694ed00",
         "production-597fbd19172dec08268f2a20",
@@ -315,7 +317,9 @@ window.PROTOTYPE = {
       "production-e7a5cfcc56bb57c93dd65150": "2026-11-04T06:13:42-08:00",
       "production-7c1ca1ebe676a041eac37e44": "2026-11-04T06:17:23-08:00",
       "production-597fbd19172dec08268f2a20": "2026-11-04T06:17:23-08:00",
-      "production-33a5eebc677fa8640e3f2df5": "2026-11-04T06:17:23-08:00"
+      "production-33a5eebc677fa8640e3f2df5": "2026-11-04T06:17:23-08:00",
+      "production-b5070f9062323edb41f98cb2": "2026-11-04T06:33:34-08:00",
+      "production-8739c2f403c6973f8108f1d0": "2026-11-04T06:33:34-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1930,6 +1934,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "特变电工2026年10月24日公告，第二大股东新疆宏联创业投资有限公司于10月22日将质押给广发证券股份有限公司的2,080万股公司股票解除质押。解除后，新疆宏联所持公司股份不存在质押情形。"
+        },
+        "production-b5070f9062323edb41f98cb2": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西中天火箭技术股份有限公司2026年10月24日披露，董事会于10月23日以9票同意、0票反对、0票弃权审议通过2026年第三季度报告。该季度财务会计报告未经审计。"
+        },
+        "production-8739c2f403c6973f8108f1d0": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西中天火箭技术股份有限公司2026年10月24日披露的第三季度报告显示，截至2026年9月30日，应付债券余额为0.00元，期初为491,124,335.78元，公司将该项减少主要归因于本期可转债提前赎回。该报告未经审计，未披露具体赎回日期及现金兑付明细。"
         }
       }
     },
@@ -1939,8 +1957,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-04-87a633c6e4aa",
-      "editionId": "selection-a94c72cb1f1c10217632",
+      "sourceEditionId": "2026-11-04-7e11329a3be6",
+      "editionId": "selection-7250e15b55eaf6d0a9ab",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -4700,6 +4718,18 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-003009-sz",
+      "type": "listed",
+      "name": "中天火箭",
+      "code": "003009.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000721-sz",
       "type": "listed",
       "name": "西安饮食",
@@ -4730,19 +4760,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "美能能源",
       "code": "001299.SZ",
-      "market": "SZ",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-003009-sz",
-      "type": "listed",
-      "name": "中天火箭",
-      "code": "003009.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -17617,6 +17634,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T22:25:58+08:00",
           "updatedAt": "2026-11-04T06:17:23-08:00",
           "compiledAt": "2026-11-04T06:17:23-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -29304,6 +29322,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。本轮留存原件仅为8月29日原方案和10月23日进展公告。10月15日公告及产权交易所挂牌条款全文未留存，未作为文章来源，也未沿用上一稿关于其他交易条款不变的表述；降价历史仅依据10月23日公告明确回述。 本次公告未披露保证金具体金额、全部交易价款到账或交割完成。付款期限、分期安排及股份锁定安排未从本轮两份原件中核实，不作补充推断；截至公告披露日尚未签约是已明确披露的阶段。 本轮未取得完整评估报告，不解释具体资产的评估增值来源，不据账面资产净额与成交价差额推算出售收益。 历史范围仅覆盖本次转让原方案及当前公告明确回述的挂牌进展，不宣称完成全历史核查。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T22:25:58+08:00",
           "updatedAt": "2026-11-04T06:13:42-08:00",
           "compiledAt": "2026-11-04T06:13:42-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -29438,6 +29457,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。公告未披露本期发行完成的具体日期，仅称“近日”。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T22:25:58+08:00",
           "updatedAt": "2026-11-04T06:17:23-08:00",
           "compiledAt": "2026-11-04T06:17:23-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -29483,6 +29503,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T22:25:58+08:00",
           "updatedAt": "2026-11-04T06:17:23-08:00",
           "compiledAt": "2026-11-04T06:17:23-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -29508,9 +29529,253 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-3905b78ece45d9594733",
+      "objectId": "listed-003009-sz",
+      "type": "季度报告审议及披露",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议通过"
+      ],
+      "updates": [
+        {
+          "id": "production-b5070f9062323edb41f98cb2",
+          "date": "2026-10-24",
+          "time": "",
+          "title": "董事会通过2026年第三季度报告",
+          "summary": "陕西中天火箭技术股份有限公司2026年10月24日披露，董事会于10月23日以9票同意、0票反对、0票弃权审议通过2026年第三季度报告。该季度财务会计报告未经审计。",
+          "stage": "2026年10月23日董事会审议通过，报告于10月24日披露",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T06:33:34-08:00",
+          "compiledAt": "2026-11-04T06:33:34-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "中天火箭",
+          "version": "b5070f9062323edb41f98cb27751f69a8ab19bd9ec232296ee72944003bc1508",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西中天火箭技术股份有限公司第四届董事会第三十四次会议决议公告",
+              "publisher": "陕西中天火箭技术股份有限公司",
+              "date": "2026-10-24",
+              "location": "物理第1页：会议日期、审议议案及表决结果；第2页：落款日期为2026年10月23日",
+              "retrievedAt": "2026-11-04T14:23:58+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620619.PDF"
+            },
+            {
+              "title": "陕西中天火箭技术股份有限公司2026年第三季度报告",
+              "publisher": "陕西中天火箭技术股份有限公司",
+              "date": "2026-10-24",
+              "location": "物理第1页：报告标题；第11页：审计情况",
+              "retrievedAt": "2026-11-04T14:23:58+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620617.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-02dd49d45a03d5e80ec2",
+      "objectId": "listed-003009-sz",
+      "type": "可转债提前赎回财务结果",
+      "topics": [
+        "可转债提前赎回",
+        "季度报告科目变动"
+      ],
+      "updates": [
+        {
+          "id": "production-8739c2f403c6973f8108f1d0",
+          "date": "2026-10-24",
+          "time": "",
+          "title": "三季报披露可转债提前赎回，应付债券期末余额为零",
+          "summary": "陕西中天火箭技术股份有限公司2026年10月24日披露的第三季度报告显示，截至2026年9月30日，应付债券余额为0.00元，期初为491,124,335.78元，公司将该项减少主要归因于本期可转债提前赎回。该报告未经审计，未披露具体赎回日期及现金兑付明细。",
+          "stage": "季度报告披露本期发生可转债提前赎回，应付债券列示为0",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。本报告未披露具体赎回日期及现金兑付明细；应付债券账面余额的减少不能直接作为现金赎回金额。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T06:33:35-08:00",
+          "compiledAt": "2026-11-04T06:33:35-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "中天火箭",
+          "version": "8739c2f403c6973f8108f1d0be6ac1183f6da7709364054c00f00336188ad4a2",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西中天火箭技术股份有限公司2026年第三季度报告",
+              "publisher": "陕西中天火箭技术股份有限公司",
+              "date": "2026-10-24",
+              "location": "物理第3页：应付债券变动原因；第6—7页：合并资产负债表日期、单位及余额；第11页：审计情况",
+              "retrievedAt": "2026-11-04T14:23:58+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620617.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-7250e15b55eaf6d0a9ab",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T22:42:06+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-82fac279f6e6f1050990b31e",
+        "production-e7a5cfcc56bb57c93dd65150",
+        "production-a7387fc29a61a56e97783a85",
+        "production-4730bc2e36b4451431d2b953",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-7250e15b55eaf6d0a9ab/page-01.png",
+          "width": 1080,
+          "height": 2526,
+          "sha256": "749ca2898692918e0f4018ab0be46f8e949e95b1d526c61e9fb1c721bffdf01a"
+        },
+        {
+          "file": "assets/editions/selection-7250e15b55eaf6d0a9ab/page-02.png",
+          "width": 1080,
+          "height": 1174,
+          "sha256": "c540f7adf981981dff82ab51053add0bf2a61411568ce63ab27eb0012b018fd6"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-7e11329a3be6",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74372daae3b102096f35",
+          "updateId": "production-82fac279f6e6f1050990b31e",
+          "version": "82fac279f6e6f1050990b31e0403a37fc756b8dc585fab18827d11451b87c5b1",
+          "objectName": "ST兴化",
+          "type": "listed",
+          "category": "股权收购付款进展",
+          "date": "2026-10-26",
+          "title": "披露兴化新能源20%股权收购年初付款进展",
+          "business": "投资银行",
+          "share": {
+            "title": "披露年初收购付款，未明确价款全部付清",
+            "facts": "全资子公司兴化化工于年初支付向延长集团收购兴化新能源20%股权的款项，原转让价16,294.42万元。股权交割过户已于2025年12月26日公告完成；本次未单列实付金额、具体付款日，也未明确全部价款付清。"
+          }
+        },
+        {
+          "eventId": "production-event-b4f7bc9131a0700e57d6",
+          "updateId": "production-e7a5cfcc56bb57c93dd65150",
+          "version": "e7a5cfcc56bb57c93dd65150c0360dd59106344d60f735f23ec0679f54d3fe2c",
+          "objectName": "航天动力",
+          "type": "listed",
+          "category": "控股子公司股权出售进展",
+          "date": "2026-10-23",
+          "title": "出售江苏机电51%股权征得原股东受让，尚未签约",
+          "business": "投资银行",
+          "share": {
+            "title": "51%股权挂牌征得受让方，尚未签约",
+            "facts": "公告，江苏航天动力机电有限公司51%股权第二次挂牌征得江苏大中电机股份有限公司一个意向受让方，成交价2,080.31万元。受让方已通过资格审核并足额缴纳保证金；截至公告日尚未签约，不能据此认定全款到账或交割完成。"
+          }
+        },
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-c6aaa11c92051491b551",
+          "updateId": "production-4730bc2e36b4451431d2b953",
+          "version": "4730bc2e36b4451431d2b9535a98bd19b3dea4a3cb451a543ddecc007f3e91eb",
+          "objectName": "供销大集",
+          "type": "listed",
+          "category": "司法拍卖被动减持及过户进展",
+          "date": "2026-10-24",
+          "title": "新合作集团剩余1.2亿股司法拍卖股份完成过户",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余1.2亿股司法拍卖股份完成过户",
+            "facts": "截至10月21日，新合作集团剩余1.2亿股完成过户，本次被拍卖的349,125,080股已全部过户。中合农信及一致行动人持股比例由22.80%降至22.13%，控制权不变。受让方仍须遵守受让后六个月不得减持、自2025年5月15日起36个月不得转让的要求。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-a94c72cb1f1c10217632",
       "date": "2026-11-04",
@@ -32323,6 +32588,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "5d995b1fc56ce675e2db",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T06:17:24-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/5d995b1fc56ce675e2db/index.html",
+      "publishedAt": "2026-11-04T22:25:58+08:00"
+    },
     {
       "id": "90c8fa6c4a8b425deb7b",
       "date": "2026-11-04",
