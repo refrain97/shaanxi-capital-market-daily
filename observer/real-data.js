@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-47bd908bc200",
-      "compiledAt": "2026-11-04T04:35:35-08:00",
+      "id": "2026-11-04-af5e57e10173",
+      "compiledAt": "2026-11-04T04:46:53-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -24,6 +24,7 @@ window.PROTOTYPE = {
         "production-cb5dcdd9e7dd4105fd380a5f",
         "production-b8cb87be78710915b6d8267f",
         "production-b216cbe6f29cc4a521e08529",
+        "production-af7a9aa50e4b2a910a173f95",
         "production-a7387fc29a61a56e97783a85",
         "production-a17e1eacd70b84fdf475be3b",
         "production-9b2916bdefbefaf64ede4392",
@@ -285,7 +286,8 @@ window.PROTOTYPE = {
       "production-67bbce89f8e1a16531b971df": "2026-11-04T04:15:37-08:00",
       "production-4730bc2e36b4451431d2b953": "2026-11-04T04:29:52-08:00",
       "production-98b20f0a8a3ca1604d64f1d9": "2026-11-04T04:30:57-08:00",
-      "production-0965089d538d5954f759d2d2": "2026-11-04T04:35:35-08:00"
+      "production-0965089d538d5954f759d2d2": "2026-11-04T04:35:35-08:00",
+      "production-af7a9aa50e4b2a910a173f95": "2026-11-04T04:46:52-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1798,6 +1800,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西华达于2026年10月27日披露未经审计的2026年第三季度报告：前三季度营业收入343,944,827.20元，同比下降20.09%，归属于上市公司股东的净利润为-55,726,869.21元。第三季度营业收入112,612,902.01元，同比下降36.17%，归属于上市公司股东的净利润为-18,026,095.27元。"
+        },
+        "production-af7a9aa50e4b2a910a173f95": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "通源石油2026年10月27日披露的三季报显示，2026年1—9月支付其他与投资活动有关的现金为人民币5,200万元，主要因新增向参股公司一龙恒业提供财务资助。同期收到一龙恒业偿还的到期财务资助款同比增加，报告未单列对其新增资助及收回款项的具体金额。"
         }
       }
     },
@@ -1807,8 +1816,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-04-47bd908bc200",
-      "editionId": "selection-0ed1790728be1d444066",
+      "sourceEditionId": "2026-11-04-af5e57e10173",
+      "editionId": "selection-3f4fec2088cbc7716163",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -28016,6 +28025,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。资料覆盖未包含2026年8月11日、10月20日前序公告原件；拍卖区间、成交明细及截至10月16日的过户情况依据10月24日公告回溯，不评价前序披露是否及时，不代表已覆盖本事项全部公告。 现有资料不包含成交价款划付、债务清偿及股东实际收款凭证，不能据成交金额推断实际到账、可支配资金或处置利润。 3月核查意见能够说明原重组股份来源、解除限售安排及后续认购承诺，但不是4月1日实际完成登记的证明；其公开披露日期未核定，3月27日仅为文件落款日期。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T20:41:10+08:00",
           "updatedAt": "2026-11-04T04:29:52-08:00",
           "compiledAt": "2026-11-04T04:29:52-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -28324,6 +28334,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T20:41:10+08:00",
           "updatedAt": "2026-11-04T04:30:57-08:00",
           "compiledAt": "2026-11-04T04:30:57-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -28369,6 +28380,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T20:41:10+08:00",
           "updatedAt": "2026-11-04T04:35:35-08:00",
           "compiledAt": "2026-11-04T04:35:35-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -28394,9 +28406,163 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-2503281eb5b790d17f07",
+      "objectId": "listed-300164-sz",
+      "type": "财务资助执行",
+      "topics": [
+        "一龙恒业",
+        "新增财务资助",
+        "到期款偿还"
+      ],
+      "updates": [
+        {
+          "id": "production-af7a9aa50e4b2a910a173f95",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "披露对一龙恒业新增财务资助及到期款收回情况",
+          "summary": "通源石油2026年10月27日披露的三季报显示，2026年1—9月支付其他与投资活动有关的现金为人民币5,200万元，主要因新增向参股公司一龙恒业提供财务资助。同期收到一龙恒业偿还的到期财务资助款同比增加，报告未单列对其新增资助及收回款项的具体金额。",
+          "stage": "披露报告期新增财务资助及收到到期偿还款",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T04:46:52-08:00",
+          "compiledAt": "2026-11-04T04:46:52-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "通源石油",
+          "version": "af7a9aa50e4b2a910a173f9581e697b77acc1cd76ce5581c423b42cfb6623bbc",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "通源石油科技集团股份有限公司2026年第三季度报告",
+              "publisher": "通源石油科技集团股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第5页现金流量表项目变动说明；第13页落款",
+              "retrievedAt": "2026-11-04T14:24:00+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225624721.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-3f4fec2088cbc7716163",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T20:55:10+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-a7387fc29a61a56e97783a85",
+        "production-4730bc2e36b4451431d2b953",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-3f4fec2088cbc7716163/page-01.png",
+          "width": 1080,
+          "height": 2526,
+          "sha256": "418c51d76f650ef7941cf1139379b9448ba3da03963e70276315e9061fcd57e0"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-af5e57e10173",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-c6aaa11c92051491b551",
+          "updateId": "production-4730bc2e36b4451431d2b953",
+          "version": "4730bc2e36b4451431d2b9535a98bd19b3dea4a3cb451a543ddecc007f3e91eb",
+          "objectName": "供销大集",
+          "type": "listed",
+          "category": "司法拍卖被动减持及过户进展",
+          "date": "2026-10-24",
+          "title": "新合作集团剩余1.2亿股司法拍卖股份完成过户",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余1.2亿股司法拍卖股份完成过户",
+            "facts": "截至10月21日，新合作集团剩余1.2亿股完成过户，本次被拍卖的349,125,080股已全部过户。中合农信及一致行动人持股比例由22.80%降至22.13%，控制权不变。受让方仍须遵守受让后六个月不得减持、自2025年5月15日起36个月不得转让的要求。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-0ed1790728be1d444066",
       "date": "2026-11-04",
@@ -30609,6 +30775,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "4325ca041eb0b1920562",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T04:35:35-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/4325ca041eb0b1920562/index.html",
+      "publishedAt": "2026-11-04T20:41:10+08:00"
+    },
     {
       "id": "d50b867592dbc607dd3e",
       "date": "2026-11-04",
