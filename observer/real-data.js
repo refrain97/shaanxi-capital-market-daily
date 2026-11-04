@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-8193339611cd",
-      "compiledAt": "2026-11-04T07:30:45-08:00",
+      "id": "2026-11-04-1d35c26ad0aa",
+      "compiledAt": "2026-11-04T07:39:12-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -71,13 +71,16 @@ window.PROTOTYPE = {
         "production-13995227879e82a52d84257c",
         "production-0a5d8c5a2397b71c0b0f42fc",
         "production-e7a5cfcc56bb57c93dd65150",
+        "production-d57e113d299485eacb53fc23",
         "production-c3a75abb59f47d2bb90bc13b",
+        "production-be21aeb63f21ca04bb1f9c64",
         "production-b8f3c77e2cf87d44d74a388d",
         "production-a431458e51419d1af6f6b643",
         "production-6821f0f2b9767dc02d733ba1",
         "production-604d8efbc958b6c96b87f507",
         "production-5a34087d0434a9018278a5fa",
         "production-3c748e5aa0c1edf2164b48c2",
+        "production-2ae9b3a0433cc19ad2c0d927",
         "production-16b30d5e9b8a99281bc40687",
         "production-00d41855747aecbc7a4a4cc9",
         "production-7d91d336fddff6cf46afd3fa"
@@ -351,7 +354,10 @@ window.PROTOTYPE = {
       "production-625b951ed6ec4285ccd8382a": "2026-11-04T07:27:22-08:00",
       "production-16b30d5e9b8a99281bc40687": "2026-11-04T07:30:44-08:00",
       "production-5a34087d0434a9018278a5fa": "2026-11-04T07:30:44-08:00",
-      "production-c3a75abb59f47d2bb90bc13b": "2026-11-04T07:30:44-08:00"
+      "production-c3a75abb59f47d2bb90bc13b": "2026-11-04T07:30:44-08:00",
+      "production-2ae9b3a0433cc19ad2c0d927": "2026-11-04T07:39:10-08:00",
+      "production-be21aeb63f21ca04bb1f9c64": "2026-11-04T07:39:10-08:00",
+      "production-d57e113d299485eacb53fc23": "2026-11-04T07:39:10-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2091,6 +2097,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕国投A于2026年10月23日公告，拟于2026年11月11日14:50召开2026年第二次临时股东会，采用现场表决与网络投票相结合的方式。股权登记日为2026年11月4日。"
+        },
+        "production-2ae9b3a0433cc19ad2c0d927": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "源杰科技2026年10月23日公告，预计2026年第三季度营业收入65,000.00万至70,000.00万元，同比增长264.56%至292.60%；归属于母公司所有者的净利润40,300.00万至45,300.00万元，同比增长578.85%至659.70%。公司表示，目前生产经营活动及订单交付正常开展，上述业绩数据为预计数。"
+        },
+        "production-be21aeb63f21ca04bb1f9c64": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "华仁药业2026年10月23日公告，全资子公司华仁药业（日照）有限公司近日收到复合磷酸氢钾注射液《药品注册证书》，批准文号为国药准字H20266308，批准后视同通过一致性评价。上市许可持有人为华仁日照，生产企业为山东华鲁制药有限公司；公司将推进生产及销售，未来销售情况及对业绩的影响仍具有不确定性。"
+        },
+        "production-d57e113d299485eacb53fc23": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "世纪金花商业控股有限公司2026年10月23日公告，孙昌宇获委任为非执行董事及薪酬委员会、审核委员会成员，自当日起生效。张伟、黄致华同日起分别不再担任薪酬委员会、审核委员会成员，二人仍分别担任执行董事、非执行董事。"
         }
       }
     },
@@ -2100,8 +2127,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-04-8193339611cd",
-      "editionId": "selection-d1dc3d8ff2a6304052dd",
+      "sourceEditionId": "2026-11-04-1d35c26ad0aa",
+      "editionId": "selection-39809c8abd56baf57ed6",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -4885,6 +4912,18 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-0162-hk",
+      "type": "listed",
+      "name": "世纪金花",
+      "code": "0162.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000768-sz",
       "type": "listed",
       "name": "中航西飞",
@@ -5227,19 +5266,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "申港控股",
       "code": "8631.HK",
-      "market": "HK",
-      "asOf": "2026-07-13",
-      "rosterTier": "L2",
-      "rosterCategory": "陕西总部或主要办公",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-0162-hk",
-      "type": "listed",
-      "name": "世纪金花",
-      "code": "0162.HK",
       "market": "HK",
       "asOf": "2026-07-13",
       "rosterTier": "L2",
@@ -30253,6 +30279,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:35:23+08:00",
           "updatedAt": "2026-11-04T07:22:55-08:00",
           "compiledAt": "2026-11-04T07:22:55-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30305,6 +30332,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:35:23+08:00",
           "updatedAt": "2026-11-04T07:22:55-08:00",
           "compiledAt": "2026-11-04T07:22:55-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30359,6 +30387,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。本候选历史覆盖限于9月披露的本轮重新拍卖安排及10月流拍结果。9月公告另引用9月2日临2026-066号公告，该原件未在本次输入中，未核实更早处置过程，不声称覆盖本批全部拍卖历史。 两份已读公告未披露本批股份的最初取得来源、重新拍卖的具体原因、实际起拍金额及本次流拍原因；正文不作相关判断，也不计算成本、利润、成交款或均价。 已读材料未明确后续处置时间，不推断本批股份后来已重新拍卖、成交、付款或过户。 本次仅使用留存原件和目录定位材料，未联网。目录未列为文章来源；候选尚待独立核查。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:35:23+08:00",
           "updatedAt": "2026-11-04T07:27:22-08:00",
           "compiledAt": "2026-11-04T07:27:22-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30473,6 +30502,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:35:23+08:00",
           "updatedAt": "2026-11-04T07:30:44-08:00",
           "compiledAt": "2026-11-04T07:30:44-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30517,6 +30547,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:35:23+08:00",
           "updatedAt": "2026-11-04T07:30:44-08:00",
           "compiledAt": "2026-11-04T07:30:44-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30562,6 +30593,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:35:23+08:00",
           "updatedAt": "2026-11-04T07:30:44-08:00",
           "compiledAt": "2026-11-04T07:30:44-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30595,9 +30627,317 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-0a841208051bf5e65a06",
+      "objectId": "listed-688498-sh",
+      "type": "生产经营及季度业绩预计",
+      "topics": [
+        "第三季度业绩预计",
+        "订单交付",
+        "产品研发及生产运营"
+      ],
+      "updates": [
+        {
+          "id": "production-2ae9b3a0433cc19ad2c0d927",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "预计第三季度归母净利润40,300万至45,300万元",
+          "summary": "源杰科技2026年10月23日公告，预计2026年第三季度营业收入65,000.00万至70,000.00万元，同比增长264.56%至292.60%；归属于母公司所有者的净利润40,300.00万至45,300.00万元，同比增长578.85%至659.70%。公司表示，目前生产经营活动及订单交付正常开展，上述业绩数据为预计数。",
+          "stage": "披露第三季度收入和利润预计区间，说明当前生产经营及订单交付正常开展",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:39:10-08:00",
+          "compiledAt": "2026-11-04T07:39:10-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "源杰科技",
+          "version": "2ae9b3a0433cc19ad2c0d9276c3a7b88827bf9a59efcb837319bf915f6ab0fa3",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西源杰半导体科技股份有限公司关于公司近期生产经营情况的公告",
+              "publisher": "陕西源杰半导体科技股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页“二、公司生产经营情况”；第2页落款",
+              "retrievedAt": "2026-11-04T14:24:41+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225617693.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-b68e005d642d1b70fdd2",
+      "objectId": "listed-300110-sz",
+      "type": "子公司药品注册获批",
+      "topics": [
+        "华仁日照",
+        "复合磷酸氢钾注射液",
+        "取得药品注册证书"
+      ],
+      "updates": [
+        {
+          "id": "production-be21aeb63f21ca04bb1f9c64",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "全资子公司获复合磷酸氢钾注射液注册证书",
+          "summary": "华仁药业2026年10月23日公告，全资子公司华仁药业（日照）有限公司近日收到复合磷酸氢钾注射液《药品注册证书》，批准文号为国药准字H20266308，批准后视同通过一致性评价。上市许可持有人为华仁日照，生产企业为山东华鲁制药有限公司；公司将推进生产及销售，未来销售情况及对业绩的影响仍具有不确定性。",
+          "stage": "近日收到药品注册证书，批准后视同通过一致性评价；生产销售尚待推进",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:39:11-08:00",
+          "compiledAt": "2026-11-04T07:39:11-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "华仁药业",
+          "version": "be21aeb63f21ca04bb1f9c64355b6845582d7d84cd22f02b73d22ed799deb613",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于全资子公司复合磷酸氢钾注射液取得药品注册证书的公告",
+              "publisher": "华仁药业股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页收证事项；第2页药品基本情况及风险提示；第3页落款",
+              "retrievedAt": "2026-11-04T14:25:49+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225618426.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-c4459c8a1ef133519b46",
+      "objectId": "listed-0162-hk",
+      "type": "董事委任及委员会组成调整",
+      "topics": [
+        "孙昌宇非执行董事委任",
+        "薪酬及审核委员会调整",
+        "配套董事名单"
+      ],
+      "updates": [
+        {
+          "id": "production-d57e113d299485eacb53fc23",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "世纪金花委任孙昌宇为非执行董事并调整委员会成员",
+          "summary": "世纪金花商业控股有限公司2026年10月23日公告，孙昌宇获委任为非执行董事及薪酬委员会、审核委员会成员，自当日起生效。张伟、黄致华同日起分别不再担任薪酬委员会、审核委员会成员，二人仍分别担任执行董事、非执行董事。",
+          "stage": "孙昌宇获委任非执行董事及薪酬、审核委员会成员，同日生效；张伟及黄致华分别不再任薪酬及审核委员会成员",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:39:11-08:00",
+          "compiledAt": "2026-11-04T07:39:11-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "世紀金花",
+          "version": "d57e113d299485eacb53fc23a9c18c5c6b1605a8c0bfb7419020af000de81740",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "委任非執行董事 及 董事委員會組成之調整",
+              "publisher": "世紀金花商業控股有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页董事委任；第3页委员会调整、董事组成及落款",
+              "retrievedAt": "2026-11-04T14:25:31+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1023/2026102301552_c.pdf"
+            },
+            {
+              "title": "董事名單與其角色和職能",
+              "publisher": "世紀金花商業控股有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页董事名单及委员会职务表",
+              "retrievedAt": "2026-11-04T14:25:29+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1023/2026102301554_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-39809c8abd56baf57ed6",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T23:45:38+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-82fac279f6e6f1050990b31e",
+        "production-e7a5cfcc56bb57c93dd65150",
+        "production-a7387fc29a61a56e97783a85",
+        "production-625b951ed6ec4285ccd8382a",
+        "production-4730bc2e36b4451431d2b953",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-39809c8abd56baf57ed6/page-01.png",
+          "width": 1080,
+          "height": 2474,
+          "sha256": "2477b6bf08ebe812f824c3f8eaef3710bb024b508b892e7f5feafc2e45d41a84"
+        },
+        {
+          "file": "assets/editions/selection-39809c8abd56baf57ed6/page-02.png",
+          "width": 1080,
+          "height": 1678,
+          "sha256": "72a57eae8654c6ee1628ce8ab1fb62c43d1381e5ac610d5acd9b6e48dbeb496b"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-1d35c26ad0aa",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74372daae3b102096f35",
+          "updateId": "production-82fac279f6e6f1050990b31e",
+          "version": "82fac279f6e6f1050990b31e0403a37fc756b8dc585fab18827d11451b87c5b1",
+          "objectName": "ST兴化",
+          "type": "listed",
+          "category": "股权收购付款进展",
+          "date": "2026-10-26",
+          "title": "披露兴化新能源20%股权收购年初付款进展",
+          "business": "投资银行",
+          "share": {
+            "title": "披露年初收购付款，未明确价款全部付清",
+            "facts": "全资子公司兴化化工于年初支付向延长集团收购兴化新能源20%股权的款项，原转让价16,294.42万元。股权交割过户已于2025年12月26日公告完成；本次未单列实付金额、具体付款日，也未明确全部价款付清。"
+          }
+        },
+        {
+          "eventId": "production-event-b4f7bc9131a0700e57d6",
+          "updateId": "production-e7a5cfcc56bb57c93dd65150",
+          "version": "e7a5cfcc56bb57c93dd65150c0360dd59106344d60f735f23ec0679f54d3fe2c",
+          "objectName": "航天动力",
+          "type": "listed",
+          "category": "控股子公司股权出售进展",
+          "date": "2026-10-23",
+          "title": "出售江苏机电51%股权征得原股东受让，尚未签约",
+          "business": "投资银行",
+          "share": {
+            "title": "51%股权挂牌征得受让方，尚未签约",
+            "facts": "公告，江苏航天动力机电有限公司51%股权第二次挂牌征得江苏大中电机股份有限公司一个意向受让方，成交价2,080.31万元。受让方已通过资格审核并足额缴纳保证金；截至公告日尚未签约，不能据此认定全款到账或交割完成。"
+          }
+        },
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-fc135dbe65b2af786374",
+          "updateId": "production-625b951ed6ec4285ccd8382a",
+          "version": "625b951ed6ec4285ccd8382a6c436a4589c05443275fa737fb256e4449406ad0",
+          "objectName": "曲江文旅",
+          "type": "listed",
+          "category": "司法拍卖进展",
+          "date": "2026-10-27",
+          "title": "控股股东800万股重新拍卖流拍",
+          "business": "股份管理",
+          "share": {
+            "title": "800万股重新司法拍卖流拍",
+            "facts": "控股股东西安曲江旅游投资（集团）有限公司持有的800万股于10月24日至25日重新司法拍卖，占总股本3.14%。据10月26日平台结果，本次拍卖流拍，未成交，不代表股份已转让或过户。"
+          }
+        },
+        {
+          "eventId": "production-event-c6aaa11c92051491b551",
+          "updateId": "production-4730bc2e36b4451431d2b953",
+          "version": "4730bc2e36b4451431d2b9535a98bd19b3dea4a3cb451a543ddecc007f3e91eb",
+          "objectName": "供销大集",
+          "type": "listed",
+          "category": "司法拍卖被动减持及过户进展",
+          "date": "2026-10-24",
+          "title": "新合作集团剩余1.2亿股司法拍卖股份完成过户",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余1.2亿股司法拍卖股份完成过户",
+            "facts": "截至10月21日，新合作集团剩余1.2亿股完成过户，本次被拍卖的349,125,080股已全部过户。中合农信及一致行动人持股比例由22.80%降至22.13%，控制权不变。受让方仍须遵守受让后六个月不得减持、自2025年5月15日起36个月不得转让的要求。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-d1dc3d8ff2a6304052dd",
       "date": "2026-11-04",
@@ -34010,6 +34350,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "3b15f16e62a6dac3d705",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T07:30:45-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/3b15f16e62a6dac3d705/index.html",
+      "publishedAt": "2026-11-04T23:35:23+08:00"
+    },
     {
       "id": "3d841ee69ce751613a63",
       "date": "2026-11-04",
