@@ -2261,7 +2261,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-11-04-80e7d9f2aebf",
       "editionId": "selection-225b3d4f80879b8ecbfe",
       "selectionMode": "current"
