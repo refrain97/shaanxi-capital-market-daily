@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-65fa3486e882",
-      "compiledAt": "2026-11-04T01:25:02-08:00",
+      "id": "2026-11-04-4b3c478c34b2",
+      "compiledAt": "2026-11-04T01:53:14-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -22,7 +22,9 @@ window.PROTOTYPE = {
         "production-b216cbe6f29cc4a521e08529",
         "production-a7387fc29a61a56e97783a85",
         "production-a17e1eacd70b84fdf475be3b",
+        "production-9b2916bdefbefaf64ede4392",
         "production-8f139dc27179ab817a34d92a",
+        "production-84a51d628468d495d4546f44",
         "production-6680fd3c4d8b003c6326c346",
         "production-5d273cf3a0c2438eb7494f40",
         "production-4374316e5de52764e167aa8c",
@@ -247,7 +249,9 @@ window.PROTOTYPE = {
       "production-cda17b0ad54085d1212cc390": "2026-11-03T23:55:05-08:00",
       "production-a7387fc29a61a56e97783a85": "2026-11-04T00:29:52-08:00",
       "production-dd9f6e3cfe5c47bc7df9d75a": "2026-11-04T01:25:01-08:00",
-      "production-5d273cf3a0c2438eb7494f40": "2026-11-04T01:25:01-08:00"
+      "production-5d273cf3a0c2438eb7494f40": "2026-11-04T01:25:01-08:00",
+      "production-9b2916bdefbefaf64ede4392": "2026-11-04T01:53:13-08:00",
+      "production-84a51d628468d495d4546f44": "2026-11-04T01:53:13-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1624,6 +1628,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "中熔电气2026年10月27日公告，董事会于10月26日同意聘任刘进为财务负责人，任期自董事会审议通过之日起至第四届董事会任期届满之日止。李文松因个人原因辞任，自董事会通过新任财务负责人聘任之日起正式离任，不再担任公司及子公司任何职务。"
+        },
+        "production-9b2916bdefbefaf64ede4392": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "环球印务2026年10月27日披露，董事会于10月26日审议通过董事、高级管理人员及其他班子成员2025年度经营业绩考核情况与绩效年薪兑现方案，关联董事思奇甬、石宗礼、赵建平回避表决，表决结果为4票同意、0票反对、0票弃权。该议案拟提交11月11日召开的2026年第一次临时股东会审议；本次决议及通知未披露兑现金额或实际发放情况。"
+        },
+        "production-84a51d628468d495d4546f44": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "环球印务2026年10月27日披露，董事会于10月26日以7票同意、0票反对、0票弃权审议通过“十五五”发展规划议案。该议案拟提交11月11日召开的2026年第一次临时股东会审议，所供决议及通知未披露规划正文或具体目标。"
         }
       }
     },
@@ -1633,8 +1651,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-04-65fa3486e882",
-      "editionId": "selection-5c7e584ac6a5c7201282",
+      "sourceEditionId": "2026-11-04-4b3c478c34b2",
+      "editionId": "selection-4f820a81d1ffb9d667e1",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -26359,6 +26377,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T17:28:30+08:00",
           "updatedAt": "2026-11-04T01:25:01-08:00",
           "compiledAt": "2026-11-04T01:25:01-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -26412,6 +26431,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T17:28:30+08:00",
           "updatedAt": "2026-11-04T01:25:02-08:00",
           "compiledAt": "2026-11-04T01:25:02-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -26445,9 +26465,177 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-508fd2f8f9f7d64564ac",
+      "objectId": "listed-002799-sz",
+      "type": "年度绩效考核及薪酬兑现方案",
+      "topics": [
+        "2025年度经营业绩考核",
+        "绩效年薪",
+        "关联董事回避"
+      ],
+      "updates": [
+        {
+          "id": "production-9b2916bdefbefaf64ede4392",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "董事会通过2025年度绩效年薪兑现方案，尚待股东会审议",
+          "summary": "环球印务2026年10月27日披露，董事会于10月26日审议通过董事、高级管理人员及其他班子成员2025年度经营业绩考核情况与绩效年薪兑现方案，关联董事思奇甬、石宗礼、赵建平回避表决，表决结果为4票同意、0票反对、0票弃权。该议案拟提交11月11日召开的2026年第一次临时股东会审议；本次决议及通知未披露兑现金额或实际发放情况。",
+          "stage": "董事会审议通过，尚需股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。所供董事会决议及股东会通知未披露兑现金额或实际发放情况；短记仅表述方案审议阶段。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T01:53:13-08:00",
+          "compiledAt": "2026-11-04T01:53:13-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "环球印务",
+          "version": "9b2916bdefbefaf64ede4392a04e17b574d6163bbae6e5b1680f155bd7b3b554",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第六届董事会第二十次会议决议公告",
+              "publisher": "西安环球印务股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页会议召开情况、第2页议案3；第3页落款日期为2026年10月26日",
+              "retrievedAt": "2026-11-04T14:23:56+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225625671.PDF"
+            },
+            {
+              "title": "关于召开2026年第一次临时股东会的通知",
+              "publisher": "西安环球印务股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页会议时间、第2页提案2.00",
+              "retrievedAt": "2026-11-04T14:23:55+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225625672.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-4f7bb03e2aa3996c9154",
+      "objectId": "listed-002799-sz",
+      "type": "发展规划审议",
+      "topics": [
+        "十五五发展规划",
+        "董事会审议",
+        "提交股东会"
+      ],
+      "updates": [
+        {
+          "id": "production-84a51d628468d495d4546f44",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "董事会通过“十五五”发展规划议案，尚待股东会审议",
+          "summary": "环球印务2026年10月27日披露，董事会于10月26日以7票同意、0票反对、0票弃权审议通过“十五五”发展规划议案。该议案拟提交11月11日召开的2026年第一次临时股东会审议，所供决议及通知未披露规划正文或具体目标。",
+          "stage": "董事会7票同意审议通过，尚需股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。所供董事会决议及股东会通知未披露规划正文或具体目标；短记仅表述议案审议动作。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T01:53:14-08:00",
+          "compiledAt": "2026-11-04T01:53:14-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "环球印务",
+          "version": "84a51d628468d495d4546f446c2b404dc7980340107935279cbeebe18531960d",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第六届董事会第二十次会议决议公告",
+              "publisher": "西安环球印务股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页会议召开情况及议案2、第2页顶部表决结果；第3页落款日期为2026年10月26日",
+              "retrievedAt": "2026-11-04T14:23:56+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225625671.PDF"
+            },
+            {
+              "title": "关于召开2026年第一次临时股东会的通知",
+              "publisher": "西安环球印务股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页会议时间、第2页提案1.00",
+              "retrievedAt": "2026-11-04T14:23:55+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225625672.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-4f820a81d1ffb9d667e1",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T17:53:16+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-a7387fc29a61a56e97783a85",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-4f820a81d1ffb9d667e1/page-01.png",
+          "width": 1080,
+          "height": 1358,
+          "sha256": "63cd3c146eb7ecf3252c84fd8adff0135480d3c4ad411071661d79ac9f8d53cb"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-4b3c478c34b2",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-27",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-5c7e584ac6a5c7201282",
       "date": "2026-11-04",
@@ -27740,6 +27928,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "9e4ad68b97faaa707154",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T01:25:02-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/9e4ad68b97faaa707154/index.html",
+      "publishedAt": "2026-11-04T17:28:30+08:00"
+    },
     {
       "id": "27a39ade5f7bbdaf96ac",
       "date": "2026-11-04",
