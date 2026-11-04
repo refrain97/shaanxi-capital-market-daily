@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-03-e64c75d4815c",
-      "compiledAt": "2026-11-03T22:57:53-08:00",
+      "id": "2026-11-03-61646d761bda",
+      "compiledAt": "2026-11-03T23:14:22-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -14,9 +14,13 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-f81270e62613b4ff7c2ed5bf",
         "production-cb5dcdd9e7dd4105fd380a5f",
+        "production-a737182bbe3892d05e6a55e8",
+        "production-a17e1eacd70b84fdf475be3b",
         "production-8f139dc27179ab817a34d92a",
         "production-6680fd3c4d8b003c6326c346",
+        "production-3a5220aee8226bdddaebbeb3",
         "production-35e86d3c86079f1b05425452",
         "production-2433d62b0a62de14de27f816"
       ],
@@ -133,7 +137,6 @@ window.PROTOTYPE = {
       "production-74b54b243a385d95f5de1c12": "2026-10-19T09:59:32+08:00",
       "production-826cf481a1c57f1ffc867413": "2026-10-19T10:22:42+08:00",
       "production-c58b78b9aa4be6a3fd06533b": "2026-10-19T10:34:40+08:00",
-      "production-70a741182f87a5ad4ed5de7a": "2026-10-19T10:45:12+08:00",
       "production-b2a91485080ec18e46e10677": "2026-10-19T10:46:41+08:00",
       "production-4d66a5753c446ef3c52292d3": "2026-10-19T10:46:41+08:00",
       "production-036b679f225b23e84754fbb2": "2026-10-19T10:46:41+08:00",
@@ -226,7 +229,11 @@ window.PROTOTYPE = {
       "production-6680fd3c4d8b003c6326c346": "2026-11-03T22:57:52-08:00",
       "production-2433d62b0a62de14de27f816": "2026-11-03T22:57:52-08:00",
       "production-35e86d3c86079f1b05425452": "2026-11-03T22:57:52-08:00",
-      "production-cb5dcdd9e7dd4105fd380a5f": "2026-11-03T22:57:52-08:00"
+      "production-cb5dcdd9e7dd4105fd380a5f": "2026-11-03T22:57:52-08:00",
+      "production-a17e1eacd70b84fdf475be3b": "2026-11-03T23:14:20-08:00",
+      "production-3a5220aee8226bdddaebbeb3": "2026-11-03T23:14:20-08:00",
+      "production-f81270e62613b4ff7c2ed5bf": "2026-11-03T23:14:20-08:00",
+      "production-a737182bbe3892d05e6a55e8": "2026-11-03T23:14:20-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -976,13 +983,6 @@ window.PROTOTYPE = {
           "group": "理财与现金管理",
           "level": "deep"
         },
-        "production-70a741182f87a5ad4ed5de7a": {
-          "version": "listed-scope-20261009",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "康惠股份2026年10月10日公告，拟新增2026年度日常关联交易预计额度人民币2,000万元，其中亿安天下1,500万元、安华数据500万元，涉及两关联方向北京康惠智创、上海康惠智创提供技术服务，增加后年度预计总额为7,480万元。该议案已于10月9日获董事会审议通过、关联董事回避表决，10月17日披露的会议资料将其列入10月26日股东会审议事项，尚待股东会审议；上述金额为预计额度，不代表实际发生额。"
-        },
         "production-b2a91485080ec18e46e10677": {
           "version": "listed-scope-20261009",
           "action": "其他",
@@ -1012,7 +1012,7 @@ window.PROTOTYPE = {
           "summary": "陕西建工集团股份有限公司2026年10月17日披露，陕西建工第一建设集团有限公司签订的巴州嘉旭时代200MW/800MWh构网型独立储能电站项目EPC总承包工程合同列入2026年7月至9月新签较大施工项目合同，金额为人民币10.5亿元。公告未披露具体签订日，并说明上述数据为阶段性统计数据，最终以定期报告为准。"
         },
         "production-81348fe7a50f6469adffe552": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
@@ -1054,7 +1054,7 @@ window.PROTOTYPE = {
           "summary": "陕西宝光真空电器股份有限公司2026年10月16日公告，计划于2026年10月26日15:00—16:00在上证路演中心以网络互动方式召开2026年第三季度业绩说明会，就第三季度经营成果及财务指标等与投资者交流。"
         },
         "production-a4f78a8aca8f006aa14523dc": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
@@ -1533,6 +1533,34 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "炬光科技2026年10月27日公告，定于2026年11月3日15:00—17:00在进门财经平台以线上视频会议方式召开第三季度业绩说明会。本件为会议安排通知，未披露实际召开结果。"
+        },
+        "production-a17e1eacd70b84fdf475be3b": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西部证券2026年10月27日披露，2026年度第九期短期融资券已于10月22日发行，实际发行总额5亿元人民币，期限172天，票面利率1.45%。"
+        },
+        "production-3a5220aee8226bdddaebbeb3": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北方长龙2026年10月27日披露，董事会于10月26日审议通过组织架构调整议案，同意优化调整现有组织架构，并授权管理层负责具体实施及进一步细化。"
+        },
+        "production-f81270e62613b4ff7c2ed5bf": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北方长龙2026年10月27日披露，董事会于10月26日审议通过聘任李英顺女士为公司副总经理，任期自本次董事会审议通过之日起至第三届董事会任期届满之日止。"
+        },
+        "production-a737182bbe3892d05e6a55e8": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北方长龙2026年10月27日披露，公司第三届董事会第五次会议于10月26日审议通过《2026年第三季度报告》议案，表决结果为7票同意、0票反对、0票弃权。"
         }
       }
     },
@@ -1542,8 +1570,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-03-e64c75d4815c",
-      "editionId": "selection-4eda5f8977cc1cecced0",
+      "sourceEditionId": "2026-11-03-61646d761bda",
+      "editionId": "selection-2a1dc02010ee70b865c1",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -20353,78 +20381,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-91449cddc960d07a2f31",
-      "objectId": "listed-603139-sh",
-      "type": "新增日常关联交易预计额度",
-      "topics": [
-        "关联方技术服务",
-        "新增预计额度",
-        "关联董事回避",
-        "提交股东会审议"
-      ],
-      "updates": [
-        {
-          "id": "production-70a741182f87a5ad4ed5de7a",
-          "date": "2026-10-10",
-          "time": "",
-          "title": "拟新增2,000万元日常关联交易预计额度",
-          "summary": "康惠股份2026年10月10日公告，拟新增2026年度日常关联交易预计额度人民币2,000万元，其中亿安天下1,500万元、安华数据500万元，涉及两关联方向北京康惠智创、上海康惠智创提供技术服务，增加后年度预计总额为7,480万元。该议案已于10月9日获董事会审议通过、关联董事回避表决，10月17日披露的会议资料将其列入10月26日股东会审议事项，尚待股东会审议；上述金额为预计额度，不代表实际发生额。",
-          "stage": "2026年10月9日董事会审议通过，关联董事回避；尚需提交10月26日股东会审议",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-10-19T11:18:25+08:00",
-          "updatedAt": "2026-10-19T10:45:12+08:00",
-          "compiledAt": "2026-10-19T10:45:12+08:00",
-          "researchCutoff": "2026-10-19T09:28:12+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "康惠股份",
-          "version": "70a741182f87a5ad4ed5de7a3c4233983b10ee5c6fca44f53d1df6d0d5f5ae98",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "康惠股份关于新增2026年度日常关联交易预计额度的公告",
-              "publisher": "陕西康惠制药股份有限公司",
-              "date": "2026-10-10",
-              "location": "物理第2—3页：预计额度表及脚注；第5页：技术服务内容",
-              "retrievedAt": "2026-10-15T17:08:28+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599922.PDF"
-            },
-            {
-              "title": "康惠股份第六届董事会第十七次会议决议公告",
-              "publisher": "陕西康惠制药股份有限公司",
-              "date": "2026-10-10",
-              "location": "物理第2页：第三项议案及表决结果",
-              "retrievedAt": "2026-10-15T17:08:28+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599920.PDF"
-            },
-            {
-              "title": "康惠股份关于召开2026年第六次临时股东会的通知",
-              "publisher": "陕西康惠制药股份有限公司",
-              "date": "2026-10-10",
-              "location": "物理第1页：会议日期；第2页：第三项议案",
-              "retrievedAt": "2026-10-15T17:08:28+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599919.PDF"
-            },
-            {
-              "title": "康惠股份2026年第六次临时股东会会议资料",
-              "publisher": "陕西康惠制药股份有限公司",
-              "date": "2026-10-17",
-              "location": "物理第5页：会议议程；第10—13页：第三项议案",
-              "retrievedAt": "2026-10-19T09:31:10+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225607988.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-76c3ebddbdc645597073",
       "objectId": "listed-600248-sh",
       "type": "工程合同签订",
@@ -25582,6 +25538,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。未留存2025年11月、2026年4月两笔大额存单购买当时的独立公告。本文分别依据2026年2月25日、10月23日赎回公告回溯购买事实，不将这些记录当作购买当日已公开的证据；两笔本金、期间、收益及到账状态均已有赎回原件支持。 现有原件没有解释新产品本金较前笔增加部分的资金构成，不将其认定为收益转投；不据三笔记录推算全年收益、全部资金余额或新增可配置额度。 未核查2026年10月27日之后的执行结果，2027年1月27日仅为新产品约定到期日。 本轮未联网；复用了留存检索轨迹及原件，但不将上一轮作者自述的查询结果作为独立事实证据。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T15:02:16+08:00",
           "updatedAt": "2026-11-03T22:53:50-08:00",
           "compiledAt": "2026-11-03T22:53:50-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -25732,6 +25689,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T15:02:16+08:00",
           "updatedAt": "2026-11-03T22:57:52-08:00",
           "compiledAt": "2026-11-03T22:57:52-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -25776,6 +25734,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T15:02:16+08:00",
           "updatedAt": "2026-11-03T22:57:52-08:00",
           "compiledAt": "2026-11-03T22:57:52-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -25821,6 +25780,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T15:02:16+08:00",
           "updatedAt": "2026-11-03T22:57:53-08:00",
           "compiledAt": "2026-11-03T22:57:53-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -25866,6 +25826,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T15:02:16+08:00",
           "updatedAt": "2026-11-03T22:57:52-08:00",
           "compiledAt": "2026-11-03T22:57:52-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -25891,9 +25852,249 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-dfc4e63e2d2b279b094b",
+      "objectId": "listed-002673-sz",
+      "type": "债券发行",
+      "topics": [
+        "短期融资券",
+        "发行结果"
+      ],
+      "updates": [
+        {
+          "id": "production-a17e1eacd70b84fdf475be3b",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "发行5亿元短期融资券，票面利率1.45%",
+          "summary": "西部证券2026年10月27日披露，2026年度第九期短期融资券已于10月22日发行，实际发行总额5亿元人民币，期限172天，票面利率1.45%。",
+          "stage": "2026年度第九期短期融资券已于10月22日发行，公告列示实际发行总额5亿元人民币",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T23:14:20-08:00",
+          "compiledAt": "2026-11-03T23:14:20-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西部证券",
+          "version": "a17e1eacd70b84fdf475be3b645c7945abdeff105b23b879e4f4a5bcae0cd6e9",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年度第九期短期融资券发行结果公告",
+              "publisher": "西部证券股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页发行说明、第2页发行情况表；公告落款2026年10月26日",
+              "retrievedAt": "2026-11-04T14:23:55+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225622117.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-ac700a302a70e140aa9e",
+      "objectId": "listed-301357-sz",
+      "type": "组织架构调整",
+      "topics": [
+        "组织架构优化",
+        "董事会授权实施"
+      ],
+      "updates": [
+        {
+          "id": "production-3a5220aee8226bdddaebbeb3",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "董事会同意调整组织架构，授权管理层实施",
+          "summary": "北方长龙2026年10月27日披露，董事会于10月26日审议通过组织架构调整议案，同意优化调整现有组织架构，并授权管理层负责具体实施及进一步细化。",
+          "stage": "2026年10月26日董事会审议通过，授权管理层实施及细化",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T23:14:21-08:00",
+          "compiledAt": "2026-11-03T23:14:21-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北方长龙",
+          "version": "3a5220aee8226bdddaebbeb30baf1e7e1f11e91fd0ec3a25b2c3c290fb7d0ad7",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于调整公司组织架构的公告",
+              "publisher": "北方长龙新材料技术股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页调整及授权说明、第2页组织架构图；公告落款2026年10月26日",
+              "retrievedAt": "2026-11-04T14:24:09+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225623049.PDF"
+            },
+            {
+              "title": "第三届董事会第五次会议决议公告",
+              "publisher": "北方长龙新材料技术股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第2页第二项议案；公告落款2026年10月26日",
+              "retrievedAt": "2026-11-04T14:24:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225623046.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-752649fe71cdda1332fc",
+      "objectId": "listed-301357-sz",
+      "type": "高级管理人员聘任",
+      "topics": [
+        "聘任副总经理",
+        "李英顺"
+      ],
+      "updates": [
+        {
+          "id": "production-f81270e62613b4ff7c2ed5bf",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "聘任李英顺为副总经理",
+          "summary": "北方长龙2026年10月27日披露，董事会于10月26日审议通过聘任李英顺女士为公司副总经理，任期自本次董事会审议通过之日起至第三届董事会任期届满之日止。",
+          "stage": "2026年10月26日董事会审议通过聘任，任期自审议通过日起至第三届董事会任期届满",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T23:14:21-08:00",
+          "compiledAt": "2026-11-03T23:14:21-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北方长龙",
+          "version": "f81270e62613b4ff7c2ed5bf502534ab9f89bb9c1ab69b84c07a049d8ce5f816",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于聘任副总经理的公告",
+              "publisher": "北方长龙新材料技术股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页聘任副总经理的情况；公告落款2026年10月26日",
+              "retrievedAt": "2026-11-04T14:24:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225623047.PDF"
+            },
+            {
+              "title": "第三届董事会第五次会议决议公告",
+              "publisher": "北方长龙新材料技术股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第2页第三项议案；公告落款2026年10月26日",
+              "retrievedAt": "2026-11-04T14:24:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225623046.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-6bf896e72b15005731a2",
+      "objectId": "listed-301357-sz",
+      "type": "定期报告审议",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-a737182bbe3892d05e6a55e8",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "董事会审议通过2026年第三季度报告",
+          "summary": "北方长龙2026年10月27日披露，公司第三届董事会第五次会议于10月26日审议通过《2026年第三季度报告》议案，表决结果为7票同意、0票反对、0票弃权。",
+          "stage": "2026年10月26日董事会审议通过第三季度报告",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T23:14:21-08:00",
+          "compiledAt": "2026-11-03T23:14:21-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北方长龙",
+          "version": "a737182bbe3892d05e6a55e8bd95376b007148ff2f9e5500519471ed916fc1f1",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第三届董事会第五次会议决议公告",
+              "publisher": "北方长龙新材料技术股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页董事会召开情况及第一项议案；第2页落款2026年10月26日",
+              "retrievedAt": "2026-11-04T14:24:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225623046.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-2a1dc02010ee70b865c1",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T15:14:23+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-2a1dc02010ee70b865c1/page-01.png",
+          "width": 1080,
+          "height": 854,
+          "sha256": "b2bac9ba8a17227826eb733e47c8138ea801586beed2621392a4a57bd84c2eba"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-03-61646d761bda",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-27",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-4eda5f8977cc1cecced0",
       "date": "2026-11-04",
@@ -26934,6 +27135,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "81030af6e2b83dccc540",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-03T22:57:53-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/81030af6e2b83dccc540/index.html",
+      "publishedAt": "2026-11-04T15:02:16+08:00"
+    },
     {
       "id": "3ad6bca012f876d2af2a",
       "date": "2026-11-04",
