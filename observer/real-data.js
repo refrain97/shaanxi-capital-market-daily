@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-71961dcd715a",
-      "compiledAt": "2026-11-04T05:38:55-08:00",
+      "id": "2026-11-04-a07e71e20267",
+      "compiledAt": "2026-11-04T06:00:19-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -50,9 +50,14 @@ window.PROTOTYPE = {
         "production-08637df62c133e717152fbaf",
         "production-d8c1b49fc9bd2b7f1efbd092",
         "production-a2f2466fec1bfb3ffc4e96fb",
+        "production-82fac279f6e6f1050990b31e",
         "production-6511cb33c2e09ca18b6fc407",
         "production-03ad256b5ea60149555fffa6",
+        "production-5fd8d12ff90d654e0694ed00",
         "production-4730bc2e36b4451431d2b953",
+        "production-31c89b730d576c9aa12672b0",
+        "production-29cc1823b3230cf3cc8e24d0",
+        "production-13995227879e82a52d84257c",
         "production-7d91d336fddff6cf46afd3fa"
       ],
       "status": "public",
@@ -297,7 +302,12 @@ window.PROTOTYPE = {
       "production-a2f2466fec1bfb3ffc4e96fb": "2026-11-04T05:00:57-08:00",
       "production-03ad256b5ea60149555fffa6": "2026-11-04T05:22:32-08:00",
       "production-6511cb33c2e09ca18b6fc407": "2026-11-04T05:22:32-08:00",
-      "production-583c58cb40bdf57c421a651b": "2026-11-04T05:38:55-08:00"
+      "production-583c58cb40bdf57c421a651b": "2026-11-04T05:38:55-08:00",
+      "production-5fd8d12ff90d654e0694ed00": "2026-11-04T05:48:45-08:00",
+      "production-29cc1823b3230cf3cc8e24d0": "2026-11-04T05:48:45-08:00",
+      "production-13995227879e82a52d84257c": "2026-11-04T05:48:45-08:00",
+      "production-31c89b730d576c9aa12672b0": "2026-11-04T05:48:45-08:00",
+      "production-82fac279f6e6f1050990b31e": "2026-11-04T06:00:18-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1851,6 +1861,40 @@ window.PROTOTYPE = {
           "action": "套期保值",
           "group": "套期保值",
           "level": "deep"
+        },
+        "production-5fd8d12ff90d654e0694ed00": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西莱特光电材料股份有限公司2026年10月24日公告，定于2026年10月30日15:00—16:00在价值在线以网络文字互动方式召开2026年第三季度业绩说明会。本公告披露的是会议安排，不能据此确认会议已实际召开。"
+        },
+        "production-29cc1823b3230cf3cc8e24d0": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西华秦科技实业股份有限公司2026年10月24日公告，2026年前三季度合并报表口径计提信用减值损失和资产减值损失合计3,724.61万元，减少合并报表利润总额3,724.61万元。本次计提未经审计，最终以会计师事务所年度审计确认的数据为准。"
+        },
+        "production-13995227879e82a52d84257c": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安瑞联新材料股份有限公司2026年10月24日公告，计划于2026年11月2日09:00—10:00在上证路演中心以网络互动方式召开2026年第三季度业绩说明会。本公告披露的是会议安排，不能据此确认会议已实际召开。"
+        },
+        "production-31c89b730d576c9aa12672b0": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "航天时代电子技术股份有限公司2026年10月24日公告，近日已按照约定时限完成2026年度第二期超短期融资券兑付。公告未披露该期具体兑付日期及实际兑付本息金额。"
+        },
+        "production-82fac279f6e6f1050990b31e": {
+          "version": "listed-scope-20261019",
+          "action": "并购重组",
+          "group": "并购重组",
+          "level": "deep"
         }
       }
     },
@@ -1860,8 +1904,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-04-71961dcd715a",
-      "editionId": "selection-dff27d82c0a39c360c24",
+      "sourceEditionId": "2026-11-04-a07e71e20267",
+      "editionId": "selection-19ac34fdb24acedad162",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -4609,6 +4653,18 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-688281-sh",
+      "type": "listed",
+      "name": "华秦科技",
+      "code": "688281.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000721-sz",
       "type": "listed",
       "name": "西安饮食",
@@ -4847,19 +4903,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "凯立新材",
       "code": "688269.SH",
-      "market": "SH",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-688281-sh",
-      "type": "listed",
-      "name": "华秦科技",
-      "code": "688281.SH",
       "market": "SH",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -28618,6 +28661,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。本报告未单列上述改造项目的投资额及完工时间；公司在建工程总额不能作为这些项目的单独投资额。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T21:44:44+08:00",
           "updatedAt": "2026-11-04T05:22:32-08:00",
           "compiledAt": "2026-11-04T05:22:32-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -28662,6 +28706,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T21:44:44+08:00",
           "updatedAt": "2026-11-04T05:22:32-08:00",
           "compiledAt": "2026-11-04T05:22:32-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -28708,6 +28753,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。本稿限于2026年1月授权公告、半年报及三季报，不代表公司全部套期历史或完整交易流水。 未取得2026年第一次临时股东大会决议原件。半年报可支持“审批股东会公告披露日期为2月11日”，本稿保留原授权的生效条件，不将该披露日期写成会议日，也不推算准确授权截止日。 三季报未提供与半年报同等明细的期货账户、保证金占用、交易机构及套期损益拆分；不将半年末数据冒充9月末状态，不据投资收益合计倒推套期损益。 半年报第105页只明确披露相关预付款余额及未结算原因，未说明具体合同用途和所对应的期货账户；因此不据此判断全部服务机构、具体交易对手或机构迁移。 半年报来源元数据未单列披露日期，正文封面只标2026年8月，本稿保留月级日期；URL中的日期不替代已核披露时间。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T21:44:44+08:00",
           "updatedAt": "2026-11-04T05:38:55-08:00",
           "compiledAt": "2026-11-04T05:38:55-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -28851,9 +28897,443 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-df63e5830900a5db50a0",
+      "objectId": "listed-688150-sh",
+      "type": "业绩说明会安排",
+      "topics": [
+        "2026年第三季度业绩说明会",
+        "投资者交流"
+      ],
+      "updates": [
+        {
+          "id": "production-5fd8d12ff90d654e0694ed00",
+          "date": "2026-10-24",
+          "time": "",
+          "title": "拟于10月30日召开三季度业绩说明会",
+          "summary": "陕西莱特光电材料股份有限公司2026年10月24日公告，定于2026年10月30日15:00—16:00在价值在线以网络文字互动方式召开2026年第三季度业绩说明会。本公告披露的是会议安排，不能据此确认会议已实际召开。",
+          "stage": "公告安排于2026年10月30日15:00—16:00召开网络文字互动业绩说明会；本原件不证明会议实际举行",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T05:48:45-08:00",
+          "compiledAt": "2026-11-04T05:48:45-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "莱特光电",
+          "version": "5fd8d12ff90d654e0694ed00578cd0d15608854f0fe7168e6db3c09c8a569aef",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西莱特光电材料股份有限公司关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "陕西莱特光电材料股份有限公司",
+              "date": "2026-10-24",
+              "location": "物理第1页说明会类型、第2页会议安排、第3页落款",
+              "retrievedAt": "2026-11-04T14:24:32+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225617926.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-f7b2331f9672a3cddfec",
+      "objectId": "listed-688281-sh",
+      "type": "资产减值计提",
+      "topics": [
+        "信用减值",
+        "资产减值",
+        "未经审计"
+      ],
+      "updates": [
+        {
+          "id": "production-29cc1823b3230cf3cc8e24d0",
+          "date": "2026-10-24",
+          "time": "",
+          "title": "前三季度计提减值准备3,724.61万元",
+          "summary": "陕西华秦科技实业股份有限公司2026年10月24日公告，2026年前三季度合并报表口径计提信用减值损失和资产减值损失合计3,724.61万元，减少合并报表利润总额3,724.61万元。本次计提未经审计，最终以会计师事务所年度审计确认的数据为准。",
+          "stage": "披露2026年前三季度减值计提结果，未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T05:48:46-08:00",
+          "compiledAt": "2026-11-04T05:48:46-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "华秦科技",
+          "version": "29cc1823b3230cf3cc8e24d003e195e4e014a9ddb209a4398b563b674480682f",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于2026年前三季度计提资产减值准备的公告",
+              "publisher": "陕西华秦科技实业股份有限公司",
+              "date": "2026-10-24",
+              "location": "物理第1—2页计提表格及脚注、第3页利润影响和未经审计说明",
+              "retrievedAt": "2026-11-04T14:24:35+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620430.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-586a762bc90f1a4ca0f6",
+      "objectId": "listed-688550-sh",
+      "type": "投资者关系活动",
+      "topics": [
+        "业绩说明会召开安排"
+      ],
+      "updates": [
+        {
+          "id": "production-13995227879e82a52d84257c",
+          "date": "2026-10-24",
+          "time": "",
+          "title": "拟于11月2日召开三季度业绩说明会",
+          "summary": "西安瑞联新材料股份有限公司2026年10月24日公告，计划于2026年11月2日09:00—10:00在上证路演中心以网络互动方式召开2026年第三季度业绩说明会。本公告披露的是会议安排，不能据此确认会议已实际召开。",
+          "stage": "公告计划于2026年11月2日09:00—10:00召开网络业绩说明会",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T05:48:46-08:00",
+          "compiledAt": "2026-11-04T05:48:46-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "瑞联新材",
+          "version": "13995227879e82a52d84257c5d22aa9dae8d7a9b10bb240d40135da243617d05",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "西安瑞联新材料股份有限公司",
+              "date": "2026-10-24",
+              "location": "物理第1页会议计划及召开方式、第2页落款",
+              "retrievedAt": "2026-11-04T14:24:41+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225618767.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-86ff9d7a6ca712f19901",
+      "objectId": "listed-600879-sh",
+      "type": "债券兑付",
+      "topics": [
+        "第二期超短期融资券兑付完成"
+      ],
+      "updates": [
+        {
+          "id": "production-31c89b730d576c9aa12672b0",
+          "date": "2026-10-24",
+          "time": "",
+          "title": "完成2026年度第二期超短期融资券兑付",
+          "summary": "航天时代电子技术股份有限公司2026年10月24日公告，近日已按照约定时限完成2026年度第二期超短期融资券兑付。公告未披露该期具体兑付日期及实际兑付本息金额。",
+          "stage": "公告确认近日已按约定时限完成兑付",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T05:48:46-08:00",
+          "compiledAt": "2026-11-04T05:48:46-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "航天电子",
+          "version": "31c89b730d576c9aa12672b06fc2c6e1899fd6264461451c8af2de4985d56fc4",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "航天时代电子技术股份有限公司关于2026年度第四期超短期融资券完成发行及2026年度第二期超短期融资券完成兑付的公告",
+              "publisher": "航天时代电子技术股份有限公司",
+              "date": "2026-10-24",
+              "location": "物理第1页第二期超短期融资券兑付段及落款",
+              "retrievedAt": "2026-11-04T14:25:49+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225619071.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-74372daae3b102096f35",
+      "objectId": "listed-002109-sz",
+      "type": "股权收购付款进展",
+      "topics": [
+        "兴化化工",
+        "兴化新能源20%股权",
+        "年初支付股权款"
+      ],
+      "updates": [
+        {
+          "id": "production-82fac279f6e6f1050990b31e",
+          "date": "2026-10-26",
+          "time": "",
+          "title": "披露兴化新能源20%股权收购年初付款进展",
+          "summary": "ST兴化2026年10月26日披露的三季报说明，全资子公司兴化化工于2026年年初支付了购买兴化新能源20%股权的款项。该交易原方案为向控股股东延长集团现金收购，转让价16,294.42万元；公司已于2025年12月26日公告完成股权交割过户，兴化化工持股由80%增至100%。本次属于既有收购的付款披露，季报未单独列示该交易的实际付款金额、具体付款日或明确确认全部价款付清。",
+          "stage": "季报确认年初兴化化工已支付购买兴化新能源20%股权的款项",
+          "depth": "deep",
+          "coverage": "本事项有限历史研究；不等于观察池全量已更新。三份已读原件未单独披露本笔交易的实际付款金额、具体付款日及明确的全部价款付清结论。本文仅确认年初发生付款，不把合并现金流量表项目金额直接认定为该交易实付金额。 交割公告只表述近日完成，未披露具体工商过户日；本文以2025年12月26日公告为历史节点，不将公告日当作交割日。 留存材料未包含最终签署的股权转让协议全文，付款期限仅按原方案条款介绍，不据此认定实际付款是否按期完成；已读公告未单列锁定安排，不作不存在锁定约束的断言。 历史覆盖限定为本笔20%股权收购的2025年10月原方案、2025年12月交割公告及2026年三季报付款说明，不代表全公司或全部交易历史。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T06:00:18-08:00",
+          "compiledAt": "2026-11-04T06:00:18-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST兴化",
+          "version": "82fac279f6e6f1050990b31e0403a37fc756b8dc585fab18827d11451b87c5b1",
+          "important": true,
+          "production": true,
+          "prototype": false,
+          "history": [
+            {
+              "date": "2025-10-23",
+              "text": "公司披露董事会于10月22日审议通过收购议案：兴化化工拟以自有资金或自筹资金，通过非公开协议转让方式现金收购延长集团持有的兴化新能源20%股权，转让价16,294.42万元。公告时股权转让协议尚未签署，所列条款以最终签署文件为准。"
+            },
+            {
+              "date": "2025-12-26",
+              "text": "公司公告兴化新能源近日已完成企业类型及20%股权过户的变更登记，取得新营业执照。结合原持股80%的披露，兴化化工在此次交割后持有兴化新能源100%股权；公告未给出具体交割日。"
+            },
+            {
+              "date": "2026-10-26",
+              "text": "三季报将年初兴化化工支付购买兴化新能源20%股权款项列为筹资活动现金流量净额变动原因。付款发生时间仅披露为年初，不据此认定为第三季度新增收购或当季付款。"
+            }
+          ],
+          "business": [
+            "兴化新能源披露的经营范围包括化工产品生产及许可范围内的危险化学品生产。原收购公告将交易定位为内部资源整合，并明确不影响上市公司合并报表范围；本事项体现的是对原已控股企业剩余股权的收购。",
+            "服务讨论应区分买方兴化化工与卖方延长集团，可围绕交割后的资金安排及内部股权管理了解需求，具体需求仍待客户确认。原方案已披露粤开证券作为上市公司向特定对象发行A股股票的保荐人出具核查意见，不能据此认定本次交易尚待聘请中介，也不能把历史对价当作卖方当前可配置资金。"
+          ],
+          "details": [
+            {
+              "label": "交易主体",
+              "value": "买方为陕西延长石油兴化化工有限公司，系上市公司全资子公司；卖方为陕西延长石油（集团）有限责任公司，原方案披露其为上市公司控股股东；标的为陕西延长石油兴化新能源有限公司20%股权。"
+            },
+            {
+              "label": "交易性质",
+              "value": "原公告认定构成关联交易，不构成重大资产重组或重组上市，在董事会审议权限内，无需提交股东会审议。"
+            },
+            {
+              "label": "价格与定价依据",
+              "value": "原方案转让价为人民币16,294.42万元；以2025年6月30日为评估基准日，采用资产基础法，标的全部股东权益评估价值为81,472.08万元。该转让价不等同于本次季报单独确认的实际付款金额。"
+            },
+            {
+              "label": "原方案支付及交割安排",
+              "value": "原方案列示以现金向卖方指定账户付款，在完成工商过户后15个工作日内一次性支付；工商过户日为股权交割日，至迟不晚于协议生效后30日。公告时协议尚未签署，上述为原披露条款，不作为实际履约日期或已按期付清的证明。"
+            },
+            {
+              "label": "当前可确认阶段",
+              "value": "2025年12月已公告完成交割过户；2026年三季报确认年初发生收购付款。不能进一步确认具体付款日及全部价款付清。"
+            },
+            {
+              "label": "资料日期",
+              "value": "本次季报披露日期采用留存来源记录的2026年10月26日，报告落款为2026年10月23日。研究截止为2026年10月27日；三份原件实际取得时间均在2026年11月4日，不将取得时间写为事项发生或披露时间。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "陕西兴化化学股份有限公司2026年第三季度报告",
+              "publisher": "陕西兴化化学股份有限公司",
+              "date": "2026-10-26",
+              "location": "物理第3页付款原因说明；第9—10页合并现金流量表；第11页未经审计说明及落款。披露日期据留存来源记录，落款日期为2026年10月23日",
+              "retrievedAt": "2026-11-04T14:23:51+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-26/1225619549.PDF"
+            },
+            {
+              "title": "关于兴化化工收购兴化新能源20%股权暨关联交易的公告",
+              "publisher": "陕西兴化化学股份有限公司",
+              "date": "2025-10-23",
+              "location": "物理第1—2页主体及方案；第7页原股权结构；第8—10页定价及支付交割条款；第12—14页交易影响、中介意见及落款",
+              "retrievedAt": "2026-11-04T03:54:56.892176-08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2025-10-23/1224724963.PDF"
+            },
+            {
+              "title": "关于兴化化工收购兴化新能源20%股权暨关联交易完成资产交割过户的公告",
+              "publisher": "陕西兴化化学股份有限公司",
+              "date": "2025-12-26",
+              "location": "物理第1页完成交割过户说明；第2页新营业执照信息及公告落款",
+              "retrievedAt": "2026-11-04T05:55:02.036883-08:00",
+              "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2025-12-26/289aa7a4-a23a-4786-8830-c14b6e103c5f.PDF"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "本次收购的卖方、权益及对价",
+              "columns": [
+                "卖方",
+                "买方",
+                "转让权益",
+                "原方案现金对价",
+                "交割后的持股结果",
+                "付款证据边界"
+              ],
+              "rows": [
+                [
+                  "陕西延长石油（集团）有限责任公司",
+                  "陕西延长石油兴化化工有限公司",
+                  "兴化新能源20%股权",
+                  "人民币16,294.42万元",
+                  "据2025年12月交割公告及原持股披露，兴化化工持股由80%增至100%",
+                  "季报确认2026年年初发生付款，未单独披露实际付款金额及全部付清状态"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-19ac34fdb24acedad162",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T22:02:12+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-82fac279f6e6f1050990b31e",
+        "production-a7387fc29a61a56e97783a85",
+        "production-4730bc2e36b4451431d2b953",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-19ac34fdb24acedad162/page-01.png",
+          "width": 1080,
+          "height": 2554,
+          "sha256": "65455695d471d98e654826a75ae14396e576ff5363747ff2d3d03cf45372e54f"
+        },
+        {
+          "file": "assets/editions/selection-19ac34fdb24acedad162/page-02.png",
+          "width": 1080,
+          "height": 854,
+          "sha256": "87a261227c363890abdc19e06a57d95e74f41e3b06f654a2d8a925de3cd77dd9"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-a07e71e20267",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74372daae3b102096f35",
+          "updateId": "production-82fac279f6e6f1050990b31e",
+          "version": "82fac279f6e6f1050990b31e0403a37fc756b8dc585fab18827d11451b87c5b1",
+          "objectName": "ST兴化",
+          "type": "listed",
+          "category": "股权收购付款进展",
+          "date": "2026-10-26",
+          "title": "披露兴化新能源20%股权收购年初付款进展",
+          "business": "投资银行",
+          "share": {
+            "title": "披露年初收购付款，未明确价款全部付清",
+            "facts": "全资子公司兴化化工于年初支付向延长集团收购兴化新能源20%股权的款项，原转让价16,294.42万元。股权交割过户已于2025年12月26日公告完成；本次未单列实付金额、具体付款日，也未明确全部价款付清。"
+          }
+        },
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-c6aaa11c92051491b551",
+          "updateId": "production-4730bc2e36b4451431d2b953",
+          "version": "4730bc2e36b4451431d2b9535a98bd19b3dea4a3cb451a543ddecc007f3e91eb",
+          "objectName": "供销大集",
+          "type": "listed",
+          "category": "司法拍卖被动减持及过户进展",
+          "date": "2026-10-24",
+          "title": "新合作集团剩余1.2亿股司法拍卖股份完成过户",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余1.2亿股司法拍卖股份完成过户",
+            "facts": "截至10月21日，新合作集团剩余1.2亿股完成过户，本次被拍卖的349,125,080股已全部过户。中合农信及一致行动人持股比例由22.80%降至22.13%，控制权不变。受让方仍须遵守受让后六个月不得减持、自2025年5月15日起36个月不得转让的要求。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-dff27d82c0a39c360c24",
       "date": "2026-11-04",
@@ -31390,6 +31870,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "d3529e7e81678926710e",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T05:38:55-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/d3529e7e81678926710e/index.html",
+      "publishedAt": "2026-11-04T21:44:44+08:00"
+    },
     {
       "id": "dbc1c9a898d502e88737",
       "date": "2026-11-04",
