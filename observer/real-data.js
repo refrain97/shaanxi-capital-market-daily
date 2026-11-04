@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-03-61646d761bda",
-      "compiledAt": "2026-11-03T23:14:22-08:00",
+      "id": "2026-11-03-43c0e5e8cd75",
+      "compiledAt": "2026-11-03T23:39:52-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -15,14 +15,17 @@ window.PROTOTYPE = {
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
         "production-f81270e62613b4ff7c2ed5bf",
+        "production-f6d64af72d32d3fedc2cdfee",
         "production-cb5dcdd9e7dd4105fd380a5f",
+        "production-b216cbe6f29cc4a521e08529",
         "production-a737182bbe3892d05e6a55e8",
         "production-a17e1eacd70b84fdf475be3b",
         "production-8f139dc27179ab817a34d92a",
         "production-6680fd3c4d8b003c6326c346",
         "production-3a5220aee8226bdddaebbeb3",
         "production-35e86d3c86079f1b05425452",
-        "production-2433d62b0a62de14de27f816"
+        "production-2433d62b0a62de14de27f816",
+        "production-0d0e7919d79dc24dfbe58400"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -137,6 +140,7 @@ window.PROTOTYPE = {
       "production-74b54b243a385d95f5de1c12": "2026-10-19T09:59:32+08:00",
       "production-826cf481a1c57f1ffc867413": "2026-10-19T10:22:42+08:00",
       "production-c58b78b9aa4be6a3fd06533b": "2026-10-19T10:34:40+08:00",
+      "production-70a741182f87a5ad4ed5de7a": "2026-10-19T10:45:12+08:00",
       "production-b2a91485080ec18e46e10677": "2026-10-19T10:46:41+08:00",
       "production-4d66a5753c446ef3c52292d3": "2026-10-19T10:46:41+08:00",
       "production-036b679f225b23e84754fbb2": "2026-10-19T10:46:41+08:00",
@@ -233,7 +237,10 @@ window.PROTOTYPE = {
       "production-a17e1eacd70b84fdf475be3b": "2026-11-03T23:14:20-08:00",
       "production-3a5220aee8226bdddaebbeb3": "2026-11-03T23:14:20-08:00",
       "production-f81270e62613b4ff7c2ed5bf": "2026-11-03T23:14:20-08:00",
-      "production-a737182bbe3892d05e6a55e8": "2026-11-03T23:14:20-08:00"
+      "production-a737182bbe3892d05e6a55e8": "2026-11-03T23:14:20-08:00",
+      "production-b216cbe6f29cc4a521e08529": "2026-11-03T23:39:51-08:00",
+      "production-f6d64af72d32d3fedc2cdfee": "2026-11-03T23:39:51-08:00",
+      "production-0d0e7919d79dc24dfbe58400": "2026-11-03T23:39:51-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -983,6 +990,20 @@ window.PROTOTYPE = {
           "group": "理财与现金管理",
           "level": "deep"
         },
+        "production-70a741182f87a5ad4ed5de7a": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "康惠股份2026年10月10日公告，拟新增2026年度日常关联交易预计额度人民币2,000万元，其中亿安天下1,500万元、安华数据500万元，涉及两关联方向北京康惠智创、上海康惠智创提供技术服务，增加后年度预计总额为7,480万元。该议案已于10月9日获董事会审议通过、关联董事回避表决，10月17日披露的会议资料将其列入10月26日股东会审议事项，尚待股东会审议；上述金额为预计额度，不代表实际发生额。"
+        },
+        "production-0d0e7919d79dc24dfbe58400": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "康惠股份2026年10月27日公告，10月26日召开的2026年第六次临时股东会审议通过《关于新增2026年度日常关联交易预计额度的议案》，关联股东嘉兴悦合智创科技合伙企业（有限合伙）回避表决。本次决议公告未列明具体额度金额，审议通过不代表相关交易已实际发生。"
+        },
         "production-b2a91485080ec18e46e10677": {
           "version": "listed-scope-20261009",
           "action": "其他",
@@ -1561,6 +1582,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "北方长龙2026年10月27日披露，公司第三届董事会第五次会议于10月26日审议通过《2026年第三季度报告》议案，表决结果为7票同意、0票反对、0票弃权。"
+        },
+        "production-b216cbe6f29cc4a521e08529": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北方长龙2026年10月27日披露，公司2026年第三季度计提信用减值损失7,832,031.15元、资产减值损失-108,851.64元，合计7,723,179.51元。公告称，本次计提将使第三季度利润总额减少7,723,179.51元，相关数据未经审计，最终以会计师事务所审计的财务数据为准。"
+        },
+        "production-f6d64af72d32d3fedc2cdfee": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西华达2026年10月27日公告，2026年1—9月计提信用减值准备17,302,745.75元、资产减值准备28,897,283.66元，合计46,200,029.41元。公告称，本次计提将减少同期归属于上市公司股东的净利润及所有者权益各46,200,029.41元。"
         }
       }
     },
@@ -1570,8 +1605,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-03-61646d761bda",
-      "editionId": "selection-2a1dc02010ee70b865c1",
+      "sourceEditionId": "2026-11-03-43c0e5e8cd75",
+      "editionId": "selection-8f6b333050b5b02212f6",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -20381,6 +20416,120 @@ window.PROTOTYPE = {
       ]
     },
     {
+      "id": "production-event-91449cddc960d07a2f31",
+      "objectId": "listed-603139-sh",
+      "type": "新增日常关联交易预计额度",
+      "topics": [
+        "关联方技术服务",
+        "新增预计额度",
+        "关联董事回避",
+        "提交股东会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-70a741182f87a5ad4ed5de7a",
+          "date": "2026-10-10",
+          "time": "",
+          "title": "拟新增2,000万元日常关联交易预计额度",
+          "summary": "康惠股份2026年10月10日公告，拟新增2026年度日常关联交易预计额度人民币2,000万元，其中亿安天下1,500万元、安华数据500万元，涉及两关联方向北京康惠智创、上海康惠智创提供技术服务，增加后年度预计总额为7,480万元。该议案已于10月9日获董事会审议通过、关联董事回避表决，10月17日披露的会议资料将其列入10月26日股东会审议事项，尚待股东会审议；上述金额为预计额度，不代表实际发生额。",
+          "stage": "2026年10月9日董事会审议通过，关联董事回避；尚需提交10月26日股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-19T11:18:25+08:00",
+          "updatedAt": "2026-10-19T10:45:12+08:00",
+          "compiledAt": "2026-10-19T10:45:12+08:00",
+          "researchCutoff": "2026-10-19T09:28:12+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "康惠股份",
+          "version": "70a741182f87a5ad4ed5de7a3c4233983b10ee5c6fca44f53d1df6d0d5f5ae98",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "康惠股份关于新增2026年度日常关联交易预计额度的公告",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-10",
+              "location": "物理第2—3页：预计额度表及脚注；第5页：技术服务内容",
+              "retrievedAt": "2026-10-15T17:08:28+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599922.PDF"
+            },
+            {
+              "title": "康惠股份第六届董事会第十七次会议决议公告",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-10",
+              "location": "物理第2页：第三项议案及表决结果",
+              "retrievedAt": "2026-10-15T17:08:28+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599920.PDF"
+            },
+            {
+              "title": "康惠股份关于召开2026年第六次临时股东会的通知",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-10",
+              "location": "物理第1页：会议日期；第2页：第三项议案",
+              "retrievedAt": "2026-10-15T17:08:28+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599919.PDF"
+            },
+            {
+              "title": "康惠股份2026年第六次临时股东会会议资料",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-17",
+              "location": "物理第5页：会议议程；第10—13页：第三项议案",
+              "retrievedAt": "2026-10-19T09:31:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225607988.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
+          "id": "production-0d0e7919d79dc24dfbe58400",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "股东会通过新增年度日常关联交易预计额度议案",
+          "summary": "康惠股份2026年10月27日公告，10月26日召开的2026年第六次临时股东会审议通过《关于新增2026年度日常关联交易预计额度的议案》，关联股东嘉兴悦合智创科技合伙企业（有限合伙）回避表决。本次决议公告未列明具体额度金额，审议通过不代表相关交易已实际发生。",
+          "stage": "2026年10月26日股东会审议通过，关联股东回避表决",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。当前决议公告及配套法律意见书未列明具体新增额度金额；短记仅记录本次审议进展。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T23:39:51-08:00",
+          "compiledAt": "2026-11-03T23:39:51-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "康惠股份",
+          "version": "0d0e7919d79dc24dfbe58400b3a2a4e455b4b6ca92d59feb5923bea900999690",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "康惠股份2026年第六次临时股东会决议公告",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页会议日期；第3页第三项议案审议结果及关联股东回避；第4页落款",
+              "retrievedAt": "2026-11-04T14:24:25+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225624982.PDF"
+            },
+            {
+              "title": "北京市金杜律师事务所上海分所关于陕西康惠制药股份有限公司2026年第六次临时股东会之法律意见书",
+              "publisher": "北京市金杜律师事务所上海分所",
+              "date": "2026-10-27",
+              "location": "物理第6页第三项议案表决及关联股东回避；第8页签章日期为2026年10月26日",
+              "retrievedAt": "2026-11-04T14:24:25+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225624985.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
       "id": "production-event-76c3ebddbdc645597073",
       "objectId": "listed-600248-sh",
       "type": "工程合同签订",
@@ -25872,6 +26021,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T15:16:35+08:00",
           "updatedAt": "2026-11-03T23:14:20-08:00",
           "compiledAt": "2026-11-03T23:14:20-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -25917,6 +26067,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T15:16:35+08:00",
           "updatedAt": "2026-11-03T23:14:21-08:00",
           "compiledAt": "2026-11-03T23:14:21-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -25970,6 +26121,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T15:16:35+08:00",
           "updatedAt": "2026-11-03T23:14:21-08:00",
           "compiledAt": "2026-11-03T23:14:21-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -26023,6 +26175,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T15:16:35+08:00",
           "updatedAt": "2026-11-03T23:14:21-08:00",
           "compiledAt": "2026-11-03T23:14:21-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -26048,9 +26201,144 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-24b33da7d6cc2073c40f",
+      "objectId": "listed-301357-sz",
+      "type": "资产减值计提",
+      "topics": [
+        "第三季度信用减值损失",
+        "资产减值损失"
+      ],
+      "updates": [
+        {
+          "id": "production-b216cbe6f29cc4a521e08529",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "披露第三季度减值损失合计7,723,179.51元",
+          "summary": "北方长龙2026年10月27日披露，公司2026年第三季度计提信用减值损失7,832,031.15元、资产减值损失-108,851.64元，合计7,723,179.51元。公告称，本次计提将使第三季度利润总额减少7,723,179.51元，相关数据未经审计，最终以会计师事务所审计的财务数据为准。",
+          "stage": "披露2026年第三季度计提结果，相关数据未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T23:39:51-08:00",
+          "compiledAt": "2026-11-03T23:39:51-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北方长龙",
+          "version": "b216cbe6f29cc4a521e08529e65306f56adf0289d160af207183d43b32a4894f",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于2026年第三季度计提信用减值损失及资产减值损失的公告",
+              "publisher": "北方长龙新材料技术股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1—2页计提金额及跨页明细表；第4页利润影响、审计限定及落款（2026年10月26日）",
+              "retrievedAt": "2026-11-04T14:24:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225623048.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-633926065a6c97484399",
+      "objectId": "listed-301517-sz",
+      "type": "计提减值准备",
+      "topics": [
+        "2026年前三季度",
+        "信用减值准备",
+        "存货跌价准备"
+      ],
+      "updates": [
+        {
+          "id": "production-f6d64af72d32d3fedc2cdfee",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "前三季度计提减值准备合计46,200,029.41元",
+          "summary": "陕西华达2026年10月27日公告，2026年1—9月计提信用减值准备17,302,745.75元、资产减值准备28,897,283.66元，合计46,200,029.41元。公告称，本次计提将减少同期归属于上市公司股东的净利润及所有者权益各46,200,029.41元。",
+          "stage": "披露2026年1—9月计提信用及资产减值准备",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T23:39:51-08:00",
+          "compiledAt": "2026-11-03T23:39:51-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西华达",
+          "version": "f6d64af72d32d3fedc2cdfeeb335ec546224eef41fdad12c977bfc3ad524e01b",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于2026年前三季度计提资产减值准备的公告",
+              "publisher": "陕西华达科技股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页计提期间及金额；第2页计提明细表；第6页利润和权益影响及落款",
+              "retrievedAt": "2026-11-04T14:24:11+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225626111.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-8f6b333050b5b02212f6",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T15:39:54+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-8f6b333050b5b02212f6/page-01.png",
+          "width": 1080,
+          "height": 854,
+          "sha256": "b2bac9ba8a17227826eb733e47c8138ea801586beed2621392a4a57bd84c2eba"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-03-43c0e5e8cd75",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-27",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-2a1dc02010ee70b865c1",
       "date": "2026-11-04",
@@ -27135,6 +27423,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "8935a06493c6b6a79bc6",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-03T23:14:22-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/8935a06493c6b6a79bc6/index.html",
+      "publishedAt": "2026-11-04T15:16:35+08:00"
+    },
     {
       "id": "81030af6e2b83dccc540",
       "date": "2026-11-04",
