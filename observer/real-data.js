@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-03-ee461a5e0ffd",
-      "compiledAt": "2026-11-03T22:11:25-08:00",
+      "id": "2026-11-03-fe1137390c7c",
+      "compiledAt": "2026-11-03T22:19:43-08:00",
       "cutoff": "2026-10-22T08:24:29+08:00",
       "windowStart": "2026-10-20",
       "windowEnd": "2026-10-22",
@@ -35,7 +35,9 @@ window.PROTOTYPE = {
         "production-1ebe8c13d086dcd1b2e2944f",
         "production-0dae1797f023da017d25eced",
         "production-07ed700c56b916eb0f14988f",
-        "production-cacadc4cf8316a7ee9c4d9b3"
+        "production-cacadc4cf8316a7ee9c4d9b3",
+        "production-4c48731d0dfcb8527a616819",
+        "production-36806ad28070e32e156f8a0e"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -236,7 +238,9 @@ window.PROTOTYPE = {
       "production-8a75c9fc7e0fbf2f8413461a": "2026-11-03T22:01:45-08:00",
       "production-dcd91e5888149a038cbd6147": "2026-11-03T22:08:22-08:00",
       "production-8c067cce03c5291286b3aecc": "2026-11-03T22:09:57-08:00",
-      "production-cacadc4cf8316a7ee9c4d9b3": "2026-11-03T22:11:24-08:00"
+      "production-cacadc4cf8316a7ee9c4d9b3": "2026-11-03T22:11:24-08:00",
+      "production-36806ad28070e32e156f8a0e": "2026-11-03T22:18:01-08:00",
+      "production-4c48731d0dfcb8527a616819": "2026-11-03T22:19:43-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1495,6 +1499,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西同力重工股份有限公司2026年10月21日公告，薛晓强因个人原因辞任，自当日起不再担任董事、常务副总经理，离任后不再担任公司及其控股子公司其他职务。公司表示将尽快完成新任非独立董事的补选工作。"
+        },
+        "production-36806ad28070e32e156f8a0e": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "蓝晓科技2026年10月21日公告，持股5%以上股东田晓军近日已办理两笔合计116万股股份质押展期，质权人为广发证券股份有限公司，到期日均由2026年10月22日延至2027年9月22日，质押用途为个人融资。本次展期前后，其累计质押股份均为270万股。"
+        },
+        "production-4c48731d0dfcb8527a616819": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "中国天瑞汽车内饰件有限公司2026年10月21日公告，当日股东特别大会通过批准股份合并的普通决议案，赞成票为181,440,000股，占实际投票股份的100%，反对票为0股。本公告未确认股份合并已生效。"
         }
       }
     },
@@ -1504,8 +1522,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-03-ee461a5e0ffd",
-      "editionId": "selection-df3dea0b0e5e125f5944",
+      "sourceEditionId": "2026-11-03-fe1137390c7c",
+      "editionId": "selection-2959dff27d398c9eef19",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -4217,6 +4235,18 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-6162-hk",
+      "type": "listed",
+      "name": "天瑞汽车内饰",
+      "code": "6162.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000721-sz",
       "type": "listed",
       "name": "西安饮食",
@@ -4598,19 +4628,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "西部水泥",
       "code": "2233.HK",
-      "market": "HK",
-      "asOf": "2026-07-13",
-      "rosterTier": "L2",
-      "rosterCategory": "陕西总部或主要办公",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-6162-hk",
-      "type": "listed",
-      "name": "天瑞汽车内饰",
-      "code": "6162.HK",
       "market": "HK",
       "asOf": "2026-07-13",
       "rosterTier": "L2",
@@ -23903,6 +23920,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。未留存本笔2026年7月21日购买时的独立公告；购买主体、日期及金额由10月22日赎回公告明确回溯披露，不表述为7月21日已取得的公开信息。 现有材料不构成同授权下全部产品的逐笔流水，不能据此推算公司当前总余额、剩余额度、全年收益或本次收回资金的后续用途。 本次原件实际取得时间为2026年10月22日08:25:58，晚于输入研究截止08:24:29；本稿使用明确允许复用的留存版本，不声称其在该分钟截止前已经取得或可见。 本轮未联网，未推进发现窗口；ready仅表示候选可提交独立核查，不代表已经通过独立核查或获准发布。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T14:16:11+08:00",
           "updatedAt": "2026-11-03T22:08:22-08:00",
           "compiledAt": "2026-11-03T22:08:22-08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -25358,6 +25376,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T14:16:11+08:00",
           "updatedAt": "2026-11-03T22:09:57-08:00",
           "compiledAt": "2026-11-03T22:09:57-08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -25404,6 +25423,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T14:16:11+08:00",
           "updatedAt": "2026-11-03T22:11:24-08:00",
           "compiledAt": "2026-11-03T22:11:24-08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -25429,9 +25449,159 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-3da01f9104c3bbea6e60",
+      "objectId": "listed-300487-sz",
+      "type": "股份质押展期",
+      "topics": [
+        "田晓军",
+        "广发证券",
+        "116万股质押展期"
+      ],
+      "updates": [
+        {
+          "id": "production-36806ad28070e32e156f8a0e",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "田晓军116万股质押展期至2027年9月22日",
+          "summary": "蓝晓科技2026年10月21日公告，持股5%以上股东田晓军近日已办理两笔合计116万股股份质押展期，质权人为广发证券股份有限公司，到期日均由2026年10月22日延至2027年9月22日，质押用途为个人融资。本次展期前后，其累计质押股份均为270万股。",
+          "stage": "近日已办理两笔合计1,160,000股质押展期，质押到期日由2026年10月22日延至2027年9月22日",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T22:18:01-08:00",
+          "compiledAt": "2026-11-03T22:18:01-08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "蓝晓科技",
+          "version": "36806ad28070e32e156f8a0eb5039116f5bf3845e4fa6cefe667f56c23f94c99",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于持股5%以上股东部分股份质押展期的公告",
+              "publisher": "西安蓝晓科技新材料股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1页：本次股份质押展期的基本情况、股东股份累计被质押情况；物理第2页：公告落款",
+              "retrievedAt": "2026-10-22T08:24:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225613726.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-9c0c3e933c99e5cdf085",
+      "objectId": "listed-6162-hk",
+      "type": "股份合并及交易单位调整",
+      "topics": [
+        "股份合并议案获股东批准"
+      ],
+      "updates": [
+        {
+          "id": "production-4c48731d0dfcb8527a616819",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "中国天瑞汽车内饰件股份合并议案获股东批准",
+          "summary": "中国天瑞汽车内饰件有限公司2026年10月21日公告，当日股东特别大会通过批准股份合并的普通决议案，赞成票为181,440,000股，占实际投票股份的100%，反对票为0股。本公告未确认股份合并已生效。",
+          "stage": "股东特别大会通过股份合并普通决议案；本公告未确认股份合并已生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T22:19:43-08:00",
+          "compiledAt": "2026-11-03T22:19:43-08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "天瑞汽車內飾",
+          "version": "4c48731d0dfcb8527a6168191ca2b488bb4482375c9765f20f42d21def319ca8",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "於二零二六年十月二十一日舉行之股東特別大會投票表決結果",
+              "publisher": "中国天瑞汽车内饰件有限公司（港交所披露易刊载）",
+              "date": "2026-10-21",
+              "location": "物理第1页会议日期及主体；第2页表决结果表、通过结论及落款",
+              "retrievedAt": "2026-10-22T08:25:39+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1021/2026102100505_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-2959dff27d398c9eef19",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "compiledAt": "2026-11-04T14:19:45+08:00",
+      "researchCutoff": "2026-10-22T08:24:29+08:00",
+      "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
+      "updateIds": [
+        "production-d9507aa0df51626036f8f49e",
+        "production-dcd91e5888149a038cbd6147"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-2959dff27d398c9eef19/page-01.png",
+          "width": 1080,
+          "height": 1198,
+          "sha256": "1bb1654ca078114289a988c847fb8279e6c18b960b21be9839bcd0cfdedb271b"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-03-fe1137390c7c",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-22",
+      "rangeEnd": "2026-10-22",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-b9729420827d6a1d7cfa",
+          "updateId": "production-d9507aa0df51626036f8f49e",
+          "version": "d9507aa0df51626036f8f49ef8afbb7eabb261ce03611d24ba99af767e01c6e3",
+          "objectName": "盘龙药业",
+          "type": "listed",
+          "category": "股份回购",
+          "date": "2026-10-22",
+          "title": "首次回购116,175股，成交金额235.50万元",
+          "business": "股份管理",
+          "share": {
+            "title": "首次回购成交235.50万元",
+            "facts": "公告，10月21日首次通过集中竞价回购116,175股，占总股本0.085%，成交235.50万元（不含交易费用），相当于1,000万元计划下限的23.55%；公司表示将在回购期限内继续实施。"
+          }
+        },
+        {
+          "eventId": "production-event-446551fedcd803a71aba",
+          "updateId": "production-dcd91e5888149a038cbd6147",
+          "version": "dcd91e5888149a038cbd6147527b624ba8b018ce25cd9ebcafe0ec10d2652d4e",
+          "objectName": "光电股份",
+          "type": "listed",
+          "category": "现金管理赎回进展",
+          "date": "2026-10-22",
+          "title": "西安子公司收回5,000万元定期存款，本息已归还募集资金专户",
+          "business": "机构理财",
+          "share": {
+            "title": "5,000万元定存到期，本息归还募集资金专户",
+            "facts": "公告，全资子公司西安北方光电科技防务有限公司于7月21日购买的5,000万元定期存款，已于10月21日到期赎回，取得收益12.5万元，本金及收益均已归还募集资金专户。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-df3dea0b0e5e125f5944",
       "date": "2026-11-04",
@@ -26368,6 +26538,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "4b05bb9914277ed7e69d",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-03T22:11:25-08:00",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "snapshotUrl": "publications/4b05bb9914277ed7e69d/index.html",
+      "publishedAt": "2026-11-04T14:16:11+08:00"
+    },
     {
       "id": "d5b5122d1cfb6024a9ec",
       "date": "2026-11-04",
