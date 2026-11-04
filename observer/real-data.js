@@ -1623,7 +1623,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-11-04-734938d57026",
       "editionId": "selection-47c3831692b1caa96035",
       "selectionMode": "current"
@@ -16107,6 +16107,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。公开名单仅逐名列示Hong Wang的获授数量，其余10名骨干员工按合计披露；4名外籍骨干员工姓名采用脱敏形式，未列逐人份额，不推算个人分配或认购金额。 本稿所据三份原文未列员工认购资金来源、具体公司及个人考核公式，也未提供未来考核结果；不据此判断融资安排、适用的具体考核年度或未来实际可归属数量。 资料覆盖本次10月剩余预留授予及其公示结果，不构成公司全部激励计划、其他批次或历史退出记录的完整梳理。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T16:34:06+08:00",
           "updatedAt": "2026-11-04T00:29:52-08:00",
           "compiledAt": "2026-11-04T00:29:52-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -27610,6 +27611,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "950ff9a2cf694579a4f5",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T00:29:53-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/950ff9a2cf694579a4f5/index.html",
+      "publishedAt": "2026-11-04T16:34:06+08:00"
+    },
     {
       "id": "3f1a86946b96cce9b142",
       "date": "2026-11-04",
