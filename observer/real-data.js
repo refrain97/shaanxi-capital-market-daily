@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-ea24bbffe510",
-      "compiledAt": "2026-11-04T07:09:37-08:00",
+      "id": "2026-11-04-8193339611cd",
+      "compiledAt": "2026-11-04T07:30:45-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -34,6 +34,7 @@ window.PROTOTYPE = {
         "production-84a51d628468d495d4546f44",
         "production-67bbce89f8e1a16531b971df",
         "production-6680fd3c4d8b003c6326c346",
+        "production-625b951ed6ec4285ccd8382a",
         "production-5d273cf3a0c2438eb7494f40",
         "production-583c58cb40bdf57c421a651b",
         "production-4374316e5de52764e167aa8c",
@@ -70,9 +71,14 @@ window.PROTOTYPE = {
         "production-13995227879e82a52d84257c",
         "production-0a5d8c5a2397b71c0b0f42fc",
         "production-e7a5cfcc56bb57c93dd65150",
+        "production-c3a75abb59f47d2bb90bc13b",
+        "production-b8f3c77e2cf87d44d74a388d",
+        "production-a431458e51419d1af6f6b643",
         "production-6821f0f2b9767dc02d733ba1",
         "production-604d8efbc958b6c96b87f507",
+        "production-5a34087d0434a9018278a5fa",
         "production-3c748e5aa0c1edf2164b48c2",
+        "production-16b30d5e9b8a99281bc40687",
         "production-00d41855747aecbc7a4a4cc9",
         "production-7d91d336fddff6cf46afd3fa"
       ],
@@ -339,7 +345,13 @@ window.PROTOTYPE = {
       "production-6821f0f2b9767dc02d733ba1": "2026-11-04T07:09:35-08:00",
       "production-00d41855747aecbc7a4a4cc9": "2026-11-04T07:09:35-08:00",
       "production-604d8efbc958b6c96b87f507": "2026-11-04T07:09:35-08:00",
-      "production-3c748e5aa0c1edf2164b48c2": "2026-11-04T07:09:35-08:00"
+      "production-3c748e5aa0c1edf2164b48c2": "2026-11-04T07:09:35-08:00",
+      "production-a431458e51419d1af6f6b643": "2026-11-04T07:22:55-08:00",
+      "production-b8f3c77e2cf87d44d74a388d": "2026-11-04T07:22:55-08:00",
+      "production-625b951ed6ec4285ccd8382a": "2026-11-04T07:27:22-08:00",
+      "production-16b30d5e9b8a99281bc40687": "2026-11-04T07:30:44-08:00",
+      "production-5a34087d0434a9018278a5fa": "2026-11-04T07:30:44-08:00",
+      "production-c3a75abb59f47d2bb90bc13b": "2026-11-04T07:30:44-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2038,6 +2050,47 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西省国际信托股份有限公司2026年10月23日披露，10月21日召开的第十届董事会第四十五次会议审议通过《关于修订〈董事会提名委员会工作细则〉的议案》，修订后的细则自董事会审议通过之日起执行。"
+        },
+        "production-a431458e51419d1af6f6b643": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕国投A于2026年10月23日披露，公司董事会已于10月21日审议通过修订《董事会薪酬与考核委员会工作细则》。修订后的细则自董事会决议通过之日起执行。"
+        },
+        "production-b8f3c77e2cf87d44d74a388d": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕国投A于2026年10月23日披露2026年第三季度报告，该报告已获10月21日召开的董事会审议通过。公司第三季度财务会计报告未经审计。"
+        },
+        "production-625b951ed6ec4285ccd8382a": {
+          "version": "listed-scope-20261019",
+          "action": "减持",
+          "group": "股东股份变动",
+          "level": "deep"
+        },
+        "production-16b30d5e9b8a99281bc40687": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕国投A于2026年10月23日公告，10月21日召开的董事会审议通过《关于审议公司内部机构有关情况的议案》，按照《公司章程》《董事会议事规则》有关规定，明确了内部管理机构的范围。"
+        },
+        "production-5a34087d0434a9018278a5fa": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕国投A于2026年10月23日公告，10月21日召开的董事会审议通过《关于修订〈全面预算管理暂行办法〉的议案》，为加强预算管理、优化资源配置，依据相关法律法规及内部制度修订该办法。"
+        },
+        "production-c3a75abb59f47d2bb90bc13b": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕国投A于2026年10月23日公告，拟于2026年11月11日14:50召开2026年第二次临时股东会，采用现场表决与网络投票相结合的方式。股权登记日为2026年11月4日。"
         }
       }
     },
@@ -2047,8 +2100,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-04-ea24bbffe510",
-      "editionId": "selection-b2775431b5e67f408380",
+      "sourceEditionId": "2026-11-04-8193339611cd",
+      "editionId": "selection-d1dc3d8ff2a6304052dd",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -26680,6 +26733,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:20:00+08:00",
           "updatedAt": "2026-11-04T07:09:36-08:00",
           "compiledAt": "2026-11-04T07:09:36-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -29963,6 +30017,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:20:00+08:00",
           "updatedAt": "2026-11-04T07:05:15-08:00",
           "compiledAt": "2026-11-04T07:05:15-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30008,6 +30063,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:20:00+08:00",
           "updatedAt": "2026-11-04T07:05:14-08:00",
           "compiledAt": "2026-11-04T07:05:14-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30053,6 +30109,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:20:00+08:00",
           "updatedAt": "2026-11-04T07:09:35-08:00",
           "compiledAt": "2026-11-04T07:09:35-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30098,6 +30155,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:20:00+08:00",
           "updatedAt": "2026-11-04T07:09:36-08:00",
           "compiledAt": "2026-11-04T07:09:36-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30142,6 +30200,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:20:00+08:00",
           "updatedAt": "2026-11-04T07:09:36-08:00",
           "compiledAt": "2026-11-04T07:09:36-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30175,9 +30234,532 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-d87912ac5089d9a09677",
+      "objectId": "listed-000563-sz",
+      "type": "治理制度修订",
+      "topics": [
+        "董事会薪酬与考核委员会工作细则"
+      ],
+      "updates": [
+        {
+          "id": "production-a431458e51419d1af6f6b643",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "陕国投A修订董事会薪酬与考核委员会工作细则",
+          "summary": "陕国投A于2026年10月23日披露，公司董事会已于10月21日审议通过修订《董事会薪酬与考核委员会工作细则》。修订后的细则自董事会决议通过之日起执行。",
+          "stage": "2026年10月21日董事会审议通过修订",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:22:55-08:00",
+          "compiledAt": "2026-11-04T07:22:55-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕国投Ａ",
+          "version": "a431458e51419d1af6f6b643f817e4d4e2f98919e7425e7c2288faa56c12a320",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第十届董事会第四十五次会议决议公告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第4页，第14项议案",
+              "retrievedAt": "2026-11-04T14:23:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616940.PDF"
+            },
+            {
+              "title": "董事会薪酬与考核委员会工作细则",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页审议日期；物理第4页第二十五条",
+              "retrievedAt": "2026-11-04T14:23:41+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616953.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-6dc8421a2cb48cdf05f5",
+      "objectId": "listed-000563-sz",
+      "type": "定期报告审议及披露",
+      "topics": [
+        "2026年第三季度报告"
+      ],
+      "updates": [
+        {
+          "id": "production-b8f3c77e2cf87d44d74a388d",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "陕国投A披露2026年第三季度报告，财务会计报告未经审计",
+          "summary": "陕国投A于2026年10月23日披露2026年第三季度报告，该报告已获10月21日召开的董事会审议通过。公司第三季度财务会计报告未经审计。",
+          "stage": "董事会已审议通过并披露第三季度报告，财务会计报告未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:22:55-08:00",
+          "compiledAt": "2026-11-04T07:22:55-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕国投Ａ",
+          "version": "b8f3c77e2cf87d44d74a388dc9fda347bcdf0c2d660f131855349c397056952a",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第十届董事会第四十五次会议决议公告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页会议召开情况；物理第3—4页第12项议案",
+              "retrievedAt": "2026-11-04T14:23:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616940.PDF"
+            },
+            {
+              "title": "2026年三季度报告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第10页，审计报告及落款",
+              "retrievedAt": "2026-11-04T14:23:47+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616938.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-fc135dbe65b2af786374",
+      "objectId": "listed-600706-sh",
+      "type": "司法拍卖进展",
+      "topics": [
+        "控股股东股份处置",
+        "上海浦东法院800万股司法拍卖",
+        "重新拍卖流拍"
+      ],
+      "updates": [
+        {
+          "id": "production-625b951ed6ec4285ccd8382a",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "控股股东800万股重新拍卖流拍",
+          "summary": "曲江文旅2026年10月27日披露，上海市浦东新区人民法院于10月24日10时至10月25日10时，对控股股东西安曲江旅游投资（集团）有限公司持有的800万股进行网络司法拍卖，分四笔、每笔200万股。根据10月26日平台页面显示的结果，本次拍卖流拍。该批股份为无限售条件流通股，占公司总股本3.14%。9月公告已披露本轮重新拍卖安排；本次进展为未成交，不代表股份已转让或过户。",
+          "stage": "披露10月24日至25日司法拍卖流拍，800万股未成交",
+          "depth": "deep",
+          "coverage": "本事项有限历史研究；不等于观察池全量已更新。本候选历史覆盖限于9月披露的本轮重新拍卖安排及10月流拍结果。9月公告另引用9月2日临2026-066号公告，该原件未在本次输入中，未核实更早处置过程，不声称覆盖本批全部拍卖历史。 两份已读公告未披露本批股份的最初取得来源、重新拍卖的具体原因、实际起拍金额及本次流拍原因；正文不作相关判断，也不计算成本、利润、成交款或均价。 已读材料未明确后续处置时间，不推断本批股份后来已重新拍卖、成交、付款或过户。 本次仅使用留存原件和目录定位材料，未联网。目录未列为文章来源；候选尚待独立核查。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:27:22-08:00",
+          "compiledAt": "2026-11-04T07:27:22-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "曲江文旅",
+          "version": "625b951ed6ec4285ccd8382a6c436a4589c05443275fa737fb256e4449406ad0",
+          "important": true,
+          "production": true,
+          "prototype": false,
+          "history": [
+            {
+              "date": "2026-09-16",
+              "text": "公司披露本批800万股拟于10月24日至25日重新拍卖，分四笔各200万股；每笔起拍价按起拍日前20个交易日收盘价均价的90%乘以该笔股数确定。公告披露时，该部分股份处于冻结状态。"
+            },
+            {
+              "date": "2026-10-27",
+              "text": "公司披露本批股份于10月24日至25日拍卖，根据10月26日平台页面显示的结果，本次流拍；公司于10月26日收到控股股东通知。"
+            }
+          ],
+          "business": [
+            "本次处置主体是控股股东，标的是其持有的上市公司股份，不能将拍卖金额视为上市公司融资。围绕股东股份处置安排及后续信息披露衔接可讨论服务事项，实际委托需求和已有服务安排仍待客户确认；流拍结果不能支持已取得出售回款的判断。"
+          ],
+          "details": [
+            {
+              "label": "处置主体与标的",
+              "value": "西安曲江旅游投资（集团）有限公司持有的曲江文旅800万股无限售条件流通股，占公司总股本3.14%。"
+            },
+            {
+              "label": "原安排与实际执行",
+              "value": "9月公告安排10月24日10时至25日10时拍卖，延时除外；10月公告记载的拍卖期间、法院及四笔各200万股的拆分与该安排一致，结果为流拍。"
+            },
+            {
+              "label": "起拍价格口径",
+              "value": "9月公告披露的是按起拍日前20个交易日收盘价均价确定的起拍价规则，并非固定金额或成交价；本次未据此估算实际起拍金额、成交款或减持均价。"
+            },
+            {
+              "label": "控股股东持股快照",
+              "value": "截至10月公告披露日，旅游投资集团持有63,357,732股，占公司总股本24.84%。该快照不用于倒推本批股份此前的减持数量。"
+            },
+            {
+              "label": "公司披露的影响",
+              "value": "公司表示，本次事项不会影响生产经营，也不会导致控股股东及实际控制人发生变更。"
+            },
+            {
+              "label": "日期与资料边界",
+              "value": "本次披露日期为2026年10月27日，收函和公告落款日期为10月26日；历史公告披露日期为9月16日，落款为9月15日。研究截止为2026年10月27日23:59:59（北京时间），两份留存原件均于11月4日取得，不以取得时间替代披露日期。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "西安曲江文化旅游股份有限公司关于控股股东所持部分股份拍卖进展公告",
+              "publisher": "西安曲江文化旅游股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页重要内容提示及本次司法拍卖情况进展；第2页其他相关说明及落款",
+              "retrievedAt": "2026-11-04T14:24:18+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225626450.PDF"
+            },
+            {
+              "title": "西安曲江文化旅游股份有限公司关于控股股东所持部分股份拍卖进展暨部分股份拟被重新拍卖的公告",
+              "publisher": "西安曲江文化旅游股份有限公司",
+              "date": "2026-09-16",
+              "location": "物理第1页重要内容提示；第2页本次拟被重新拍卖股份情况及落款",
+              "retrievedAt": "2026-11-04T07:14:37.413988-08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-09-16/1225566378.PDF"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "上海浦东法院本批800万股：原安排与执行结果",
+              "columns": [
+                "项目",
+                "9月披露的安排",
+                "10月披露的结果"
+              ],
+              "rows": [
+                [
+                  "标的与拆分",
+                  "800万股，四笔各200万股",
+                  "800万股，四笔各200万股"
+                ],
+                [
+                  "拍卖期间",
+                  "10月24日10时至25日10时，延时除外",
+                  "10月24日10时至25日10时"
+                ],
+                [
+                  "定价及阶段",
+                  "每笔起拍价为起拍日前20个交易日收盘价均价的90%乘以该笔股数",
+                  "平台10月26日页面显示流拍，未成交"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-event-7ec97968c76ef16a126b",
+      "objectId": "listed-000563-sz",
+      "type": "内部机构管理",
+      "topics": [
+        "内部管理机构范围"
+      ],
+      "updates": [
+        {
+          "id": "production-16b30d5e9b8a99281bc40687",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "陕国投A董事会审议通过内部机构议案，明确管理机构范围",
+          "summary": "陕国投A于2026年10月23日公告，10月21日召开的董事会审议通过《关于审议公司内部机构有关情况的议案》，按照《公司章程》《董事会议事规则》有关规定，明确了内部管理机构的范围。",
+          "stage": "董事会审议通过，明确内部管理机构范围",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:30:44-08:00",
+          "compiledAt": "2026-11-04T07:30:44-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕国投Ａ",
+          "version": "16b30d5e9b8a99281bc406873359e4b084eeea4fdb76ca7ef39a363ee9f4b50e",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第十届董事会第四十五次会议决议公告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页会议召开情况、第4页第15项议案、第5页落款",
+              "retrievedAt": "2026-11-04T14:23:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616940.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-ce7300f2ea7c2027947d",
+      "objectId": "listed-000563-sz",
+      "type": "内部管理制度修订",
+      "topics": [
+        "全面预算管理暂行办法"
+      ],
+      "updates": [
+        {
+          "id": "production-5a34087d0434a9018278a5fa",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "陕国投A董事会通过修订《全面预算管理暂行办法》",
+          "summary": "陕国投A于2026年10月23日公告，10月21日召开的董事会审议通过《关于修订〈全面预算管理暂行办法〉的议案》，为加强预算管理、优化资源配置，依据相关法律法规及内部制度修订该办法。",
+          "stage": "董事会审议通过修订",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:30:44-08:00",
+          "compiledAt": "2026-11-04T07:30:44-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕国投Ａ",
+          "version": "5a34087d0434a9018278a5facddb20310ed639bf693812ac93395801f47b2a54",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第十届董事会第四十五次会议决议公告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页会议召开情况、第4页第16项议案、第5页落款",
+              "retrievedAt": "2026-11-04T14:23:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616940.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-388ad5e9123dab114b83",
+      "objectId": "listed-000563-sz",
+      "type": "股东会召开安排",
+      "topics": [
+        "2026年第二次临时股东会",
+        "会议通知"
+      ],
+      "updates": [
+        {
+          "id": "production-c3a75abb59f47d2bb90bc13b",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "陕国投A拟于11月11日召开2026年第二次临时股东会",
+          "summary": "陕国投A于2026年10月23日公告，拟于2026年11月11日14:50召开2026年第二次临时股东会，采用现场表决与网络投票相结合的方式。股权登记日为2026年11月4日。",
+          "stage": "已公告拟于2026年11月11日召开股东会",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:30:44-08:00",
+          "compiledAt": "2026-11-04T07:30:44-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕国投Ａ",
+          "version": "c3a75abb59f47d2bb90bc13bdc462a174849422abf7fb336e4db14a069fb8e3c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第十届董事会第四十五次会议决议公告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第3页第11项议案、第5页落款",
+              "retrievedAt": "2026-11-04T14:23:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616940.PDF"
+            },
+            {
+              "title": "关于召开2026年第二次临时股东会的通知",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页会议基本情况、第5页落款",
+              "retrievedAt": "2026-11-04T14:23:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616941.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-d1dc3d8ff2a6304052dd",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T23:32:17+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-82fac279f6e6f1050990b31e",
+        "production-e7a5cfcc56bb57c93dd65150",
+        "production-a7387fc29a61a56e97783a85",
+        "production-625b951ed6ec4285ccd8382a",
+        "production-4730bc2e36b4451431d2b953",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-d1dc3d8ff2a6304052dd/page-01.png",
+          "width": 1080,
+          "height": 2474,
+          "sha256": "2477b6bf08ebe812f824c3f8eaef3710bb024b508b892e7f5feafc2e45d41a84"
+        },
+        {
+          "file": "assets/editions/selection-d1dc3d8ff2a6304052dd/page-02.png",
+          "width": 1080,
+          "height": 1678,
+          "sha256": "72a57eae8654c6ee1628ce8ab1fb62c43d1381e5ac610d5acd9b6e48dbeb496b"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-8193339611cd",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74372daae3b102096f35",
+          "updateId": "production-82fac279f6e6f1050990b31e",
+          "version": "82fac279f6e6f1050990b31e0403a37fc756b8dc585fab18827d11451b87c5b1",
+          "objectName": "ST兴化",
+          "type": "listed",
+          "category": "股权收购付款进展",
+          "date": "2026-10-26",
+          "title": "披露兴化新能源20%股权收购年初付款进展",
+          "business": "投资银行",
+          "share": {
+            "title": "披露年初收购付款，未明确价款全部付清",
+            "facts": "全资子公司兴化化工于年初支付向延长集团收购兴化新能源20%股权的款项，原转让价16,294.42万元。股权交割过户已于2025年12月26日公告完成；本次未单列实付金额、具体付款日，也未明确全部价款付清。"
+          }
+        },
+        {
+          "eventId": "production-event-b4f7bc9131a0700e57d6",
+          "updateId": "production-e7a5cfcc56bb57c93dd65150",
+          "version": "e7a5cfcc56bb57c93dd65150c0360dd59106344d60f735f23ec0679f54d3fe2c",
+          "objectName": "航天动力",
+          "type": "listed",
+          "category": "控股子公司股权出售进展",
+          "date": "2026-10-23",
+          "title": "出售江苏机电51%股权征得原股东受让，尚未签约",
+          "business": "投资银行",
+          "share": {
+            "title": "51%股权挂牌征得受让方，尚未签约",
+            "facts": "公告，江苏航天动力机电有限公司51%股权第二次挂牌征得江苏大中电机股份有限公司一个意向受让方，成交价2,080.31万元。受让方已通过资格审核并足额缴纳保证金；截至公告日尚未签约，不能据此认定全款到账或交割完成。"
+          }
+        },
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-fc135dbe65b2af786374",
+          "updateId": "production-625b951ed6ec4285ccd8382a",
+          "version": "625b951ed6ec4285ccd8382a6c436a4589c05443275fa737fb256e4449406ad0",
+          "objectName": "曲江文旅",
+          "type": "listed",
+          "category": "司法拍卖进展",
+          "date": "2026-10-27",
+          "title": "控股股东800万股重新拍卖流拍",
+          "business": "股份管理",
+          "share": {
+            "title": "800万股重新司法拍卖流拍",
+            "facts": "控股股东西安曲江旅游投资（集团）有限公司持有的800万股于10月24日至25日重新司法拍卖，占总股本3.14%。据10月26日平台结果，本次拍卖流拍，未成交，不代表股份已转让或过户。"
+          }
+        },
+        {
+          "eventId": "production-event-c6aaa11c92051491b551",
+          "updateId": "production-4730bc2e36b4451431d2b953",
+          "version": "4730bc2e36b4451431d2b9535a98bd19b3dea4a3cb451a543ddecc007f3e91eb",
+          "objectName": "供销大集",
+          "type": "listed",
+          "category": "司法拍卖被动减持及过户进展",
+          "date": "2026-10-24",
+          "title": "新合作集团剩余1.2亿股司法拍卖股份完成过户",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余1.2亿股司法拍卖股份完成过户",
+            "facts": "截至10月21日，新合作集团剩余1.2亿股完成过户，本次被拍卖的349,125,080股已全部过户。中合农信及一致行动人持股比例由22.80%降至22.13%，控制权不变。受让方仍须遵守受让后六个月不得减持、自2025年5月15日起36个月不得转让的要求。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-b2775431b5e67f408380",
       "date": "2026-11-04",
@@ -33428,6 +34010,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "3d841ee69ce751613a63",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T07:09:37-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/3d841ee69ce751613a63/index.html",
+      "publishedAt": "2026-11-04T23:20:00+08:00"
+    },
     {
       "id": "abfd2af6bb3a79372f69",
       "date": "2026-11-04",
