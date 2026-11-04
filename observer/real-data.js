@@ -105,7 +105,6 @@ window.PROTOTYPE = {
       "production-8bf9e203849dc19fbbedb5a0": "2026-10-16T16:31:12+08:00",
       "production-0d97fa7c51e2d9d6f9d44688": "2026-10-16T16:47:32+08:00",
       "production-7bbe65d05ada8dc7f10bd495": "2026-10-16T17:14:37+08:00",
-      "production-e3330ddbb0702645116e5c30": "2026-10-16T17:25:37+08:00",
       "production-8a7311749b69c7fb3248b852": "2026-10-16T17:27:16+08:00",
       "production-dc8642495d43125739372324": "2026-10-16T17:18:12+08:00",
       "production-e4c7d785b1a02a70764f39b8": "2026-10-16T17:16:28+08:00",
@@ -718,13 +717,6 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "北方长龙2026年10月9日公告，控股子公司沈阳顺义科技股份有限公司近日收到“一种交互式电子技术手册系统软件V1.0”的计算机软件著作权登记证书，登记号为2026SR0996992，取得方式为原始取得，权利范围为全部权利。具体收证日期未披露；公司表示，此次获证不会对公司及子公司近期生产经营产生重大影响。"
-        },
-        "production-e3330ddbb0702645116e5c30": {
-          "version": "listed-scope-20261009",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "西部材料2026年10月8日披露，董事会于9月29日审议通过2027—2029年股东回报规划，尚须提交股东会审议，自股东会审议通过之日起实施。规划规定，在扣除非经常性损益后实现盈利的前提下，最近三年现金累计分配利润不少于最近三年年均可分配利润的30%；最近一期经审计资产负债率超过70%时，公司可不进行现金分红。"
         },
         "production-8a7311749b69c7fb3248b852": {
           "version": "listed-scope-20261009",
@@ -1615,7 +1607,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-11-03-b0f3d3c32caa",
       "editionId": "selection-5b9b54edf169eec656ee",
       "selectionMode": "current"
@@ -3880,18 +3872,6 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
-      "id": "listed-002149-sz",
-      "type": "listed",
-      "name": "西部材料",
-      "code": "002149.SZ",
-      "market": "SZ",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
-    },
-    {
       "id": "listed-300487-sz",
       "type": "listed",
       "name": "蓝晓科技",
@@ -3948,6 +3928,18 @@ window.PROTOTYPE = {
       "asOf": "2026-07-22",
       "rosterTier": "L3",
       "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-002149-sz",
+      "type": "listed",
+      "name": "西部材料",
+      "code": "002149.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
       "rosterAsOf": "2026-07-27",
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
@@ -16836,60 +16828,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-3a349d9d2147b21ee3dd",
-      "objectId": "listed-002149-sz",
-      "type": "股东回报规划",
-      "topics": [
-        "现金分红政策",
-        "规划审议及生效条件"
-      ],
-      "updates": [
-        {
-          "id": "production-e3330ddbb0702645116e5c30",
-          "date": "2026-10-08",
-          "time": "",
-          "title": "董事会通过2027—2029年股东回报规划，尚待股东会审议",
-          "summary": "西部材料2026年10月8日披露，董事会于9月29日审议通过2027—2029年股东回报规划，尚须提交股东会审议，自股东会审议通过之日起实施。规划规定，在扣除非经常性损益后实现盈利的前提下，最近三年现金累计分配利润不少于最近三年年均可分配利润的30%；最近一期经审计资产负债率超过70%时，公司可不进行现金分红。",
-          "stage": "董事会审议通过，待股东会审议；自股东会审议通过之日起实施",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-10-16T17:32:16+08:00",
-          "updatedAt": "2026-10-16T17:25:37+08:00",
-          "compiledAt": "2026-10-16T17:25:37+08:00",
-          "researchCutoff": "2026-10-15T17:07:38+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "西部材料",
-          "version": "e3330ddbb0702645116e5c302202eb678bdb9cb9b18383a6a12ec35646af6554",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "西部金属材料股份有限公司未来三年（2027-2029年）股东回报规划",
-              "publisher": "西部金属材料股份有限公司",
-              "date": "2026-10-08",
-              "location": "物理第2页现金分红条件和比例；第4页生效条款及落款",
-              "retrievedAt": "2026-10-09T20:34:10+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225590953.PDF"
-            },
-            {
-              "title": "西部金属材料股份有限公司第八届董事会第二十七次会议决议公告",
-              "publisher": "西部金属材料股份有限公司",
-              "date": "2026-10-08",
-              "location": "物理第1页会议日期；第6页第四项议案；第9页落款",
-              "retrievedAt": "2026-10-09T20:34:09+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225590955.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-8e7147bc7673d40b968e",
       "objectId": "listed-300487-sz",
       "type": "可转债季度转股统计",
@@ -20592,6 +20530,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。当前两份原件未载明具体额度、金融机构审批或融资到账情况；短记仅记录股东会审议进展。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T15:57:37+08:00",
           "updatedAt": "2026-11-03T23:55:05-08:00",
           "compiledAt": "2026-11-03T23:55:05-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -20927,6 +20866,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。当前两份原件未载明具体担保额度或担保合同签署情况；短记仅记录股东会审议进展。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T15:57:37+08:00",
           "updatedAt": "2026-11-03T23:55:05-08:00",
           "compiledAt": "2026-11-03T23:55:05-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -27353,6 +27293,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "27e57e8688b7c690c1db",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-03T23:55:06-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/27e57e8688b7c690c1db/index.html",
+      "publishedAt": "2026-11-04T15:57:37+08:00"
+    },
     {
       "id": "3e6c24e769727b3e3f12",
       "date": "2026-11-04",
