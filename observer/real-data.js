@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-d0212987de60",
-      "compiledAt": "2026-11-04T06:49:28-08:00",
+      "id": "2026-11-04-ea24bbffe510",
+      "compiledAt": "2026-11-04T07:09:37-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -53,6 +53,7 @@ window.PROTOTYPE = {
         "production-82fac279f6e6f1050990b31e",
         "production-6511cb33c2e09ca18b6fc407",
         "production-03ad256b5ea60149555fffa6",
+        "production-dab69bf53db3ecb716f90096",
         "production-d68264772c317bc2ebc4d629",
         "production-d34f2d6228095488f0dafc8e",
         "production-b5070f9062323edb41f98cb2",
@@ -67,7 +68,12 @@ window.PROTOTYPE = {
         "production-30b7874787b38220c6afb78f",
         "production-29cc1823b3230cf3cc8e24d0",
         "production-13995227879e82a52d84257c",
+        "production-0a5d8c5a2397b71c0b0f42fc",
         "production-e7a5cfcc56bb57c93dd65150",
+        "production-6821f0f2b9767dc02d733ba1",
+        "production-604d8efbc958b6c96b87f507",
+        "production-3c748e5aa0c1edf2164b48c2",
+        "production-00d41855747aecbc7a4a4cc9",
         "production-7d91d336fddff6cf46afd3fa"
       ],
       "status": "public",
@@ -327,7 +333,13 @@ window.PROTOTYPE = {
       "production-30b7874787b38220c6afb78f": "2026-11-04T06:46:26-08:00",
       "production-d68264772c317bc2ebc4d629": "2026-11-04T06:46:26-08:00",
       "production-d34f2d6228095488f0dafc8e": "2026-11-04T06:49:27-08:00",
-      "production-7d7f03d8bc6acbcc745e1970": "2026-11-04T06:49:27-08:00"
+      "production-7d7f03d8bc6acbcc745e1970": "2026-11-04T06:49:27-08:00",
+      "production-dab69bf53db3ecb716f90096": "2026-11-04T07:05:14-08:00",
+      "production-0a5d8c5a2397b71c0b0f42fc": "2026-11-04T07:05:14-08:00",
+      "production-6821f0f2b9767dc02d733ba1": "2026-11-04T07:09:35-08:00",
+      "production-00d41855747aecbc7a4a4cc9": "2026-11-04T07:09:35-08:00",
+      "production-604d8efbc958b6c96b87f507": "2026-11-04T07:09:35-08:00",
+      "production-3c748e5aa0c1edf2164b48c2": "2026-11-04T07:09:35-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1641,6 +1653,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "中国天瑞汽车内饰件有限公司2026年10月21日公告，当日股东特别大会通过批准股份合并的普通决议案，赞成票为181,440,000股，占实际投票股份的100%，反对票为0股。本公告未确认股份合并已生效。"
         },
+        "production-00d41855747aecbc7a4a4cc9": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "中国天瑞汽车内饰件有限公司2026年10月22日公告及10月23日翌日披露报表显示，40合1股份合并于10月23日生效，合并后已发行股份总数为60,000,000股。公告另安排自2026年11月6日起，每手买卖单位由8,000股现有股份更改为1,000股合并股份。"
+        },
         "production-8f139dc27179ab817a34d92a": {
           "version": "listed-scope-20261019",
           "action": "现金管理",
@@ -1984,6 +2003,41 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安饮食2026年10月24日披露的三季报显示，年初至报告期末确认拆迁安置补偿款；截至9月30日，其他应收款为26,523,873.48元，较上年末增加135.62%，主要原因是应收拆迁安置补偿款增加。报告未单列本次补偿款的确认金额及收款进度。"
+        },
+        "production-dab69bf53db3ecb716f90096": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安饮食2026年10月24日披露的三季报显示，报告期内公司已接管天顺大厦房产并转入固定资产核算。报告将此列为其他非流动金融资产较上年末减少100%的主要原因，该科目上年末余额为15,415,747.04元。"
+        },
+        "production-0a5d8c5a2397b71c0b0f42fc": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安饮食2026年10月24日披露的三季报显示，截至2026年9月30日，公司合并报表预计负债为4,347,828.98元，主要因报告期内子公司房屋提前终止租赁，按照或有事项准则于期末确认预计负债。报告未披露相关子公司名称及该事项实际支付情况。"
+        },
+        "production-6821f0f2b9767dc02d733ba1": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西华秦科技实业股份有限公司2026年10月23日公告，定于10月30日15:00—16:00在“价值在线”以网络互动方式召开2026年第三季度业绩说明会。本次资料为会议安排，未包含实际召开结果。"
+        },
+        "production-604d8efbc958b6c96b87f507": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西省国际信托股份有限公司2026年10月23日公告，2025年第四季度及2026年前三季度合计计提减值准备-19,685.32万元，即净转回19,685.32万元，董事会审计委员会已同意该事项。剔除合并结构化主体影响并扣除企业所得税后，合计增加上述期间净利润6,530.87万元。"
+        },
+        "production-3c748e5aa0c1edf2164b48c2": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西省国际信托股份有限公司2026年10月23日披露，10月21日召开的第十届董事会第四十五次会议审议通过《关于修订〈董事会提名委员会工作细则〉的议案》，修订后的细则自董事会审议通过之日起执行。"
         }
       }
     },
@@ -1993,8 +2047,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-04-d0212987de60",
-      "editionId": "selection-f59b463a3651bb658101",
+      "sourceEditionId": "2026-11-04-ea24bbffe510",
+      "editionId": "selection-b2775431b5e67f408380",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -26615,6 +26669,48 @@ window.PROTOTYPE = {
             }
           ],
           "tables": []
+        },
+        {
+          "id": "production-00d41855747aecbc7a4a4cc9",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "中国天瑞汽车内饰件40合1股份合并生效",
+          "summary": "中国天瑞汽车内饰件有限公司2026年10月22日公告及10月23日翌日披露报表显示，40合1股份合并于10月23日生效，合并后已发行股份总数为60,000,000股。公告另安排自2026年11月6日起，每手买卖单位由8,000股现有股份更改为1,000股合并股份。",
+          "stage": "10月22日公告确认全部条件达成；10月23日翌日披露报表确认40合1股份合并引起的股数变动；每手买卖单位调整安排于11月6日生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:09:36-08:00",
+          "compiledAt": "2026-11-04T07:09:36-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "天瑞汽車內飾",
+          "version": "00d41855747aecbc7a4a4cc9fa9a50f814169e850e39f7ee83095250d7a2d822",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "股份合併於2026年10月23日生效",
+              "publisher": "中國天瑞汽車內飾件有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页，股份合并生效及每手买卖单位安排",
+              "retrievedAt": "2026-11-04T14:25:10+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1022/2026102200460_c.pdf"
+            },
+            {
+              "title": "翌日披露報表",
+              "publisher": "中國天瑞汽車內飾件有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页，第一章节A部股本变动表",
+              "retrievedAt": "2026-11-04T14:25:09+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1023/2026102300363_c.pdf"
+            }
+          ],
+          "tables": []
         }
       ]
     },
@@ -29684,6 +29780,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:03:34+08:00",
           "updatedAt": "2026-11-04T06:46:26-08:00",
           "compiledAt": "2026-11-04T06:46:26-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -29729,6 +29826,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:03:34+08:00",
           "updatedAt": "2026-11-04T06:46:27-08:00",
           "compiledAt": "2026-11-04T06:46:27-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -29773,6 +29871,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:03:34+08:00",
           "updatedAt": "2026-11-04T06:49:27-08:00",
           "compiledAt": "2026-11-04T06:49:27-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -29818,6 +29917,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。本报告未单列本次拆迁安置补偿款的确认金额及收款进度；其他应收款余额及营业外收入总额均不能直接视为补偿款金额。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:03:34+08:00",
           "updatedAt": "2026-11-04T06:49:27-08:00",
           "compiledAt": "2026-11-04T06:49:27-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -29843,9 +29943,387 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-2379b9a101094a76317c",
+      "objectId": "listed-000721-sz",
+      "type": "房产接管及会计核算转换",
+      "topics": [
+        "天顺大厦",
+        "固定资产核算"
+      ],
+      "updates": [
+        {
+          "id": "production-dab69bf53db3ecb716f90096",
+          "date": "2026-10-24",
+          "time": "",
+          "title": "已接管天顺大厦房产并转入固定资产核算",
+          "summary": "西安饮食2026年10月24日披露的三季报显示，报告期内公司已接管天顺大厦房产并转入固定资产核算。报告将此列为其他非流动金融资产较上年末减少100%的主要原因，该科目上年末余额为15,415,747.04元。",
+          "stage": "报告期已接管房产并转入固定资产核算",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:05:15-08:00",
+          "compiledAt": "2026-11-04T07:05:15-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安饮食",
+          "version": "dab69bf53db3ecb716f900963c77a02ac436739a939da088e157e8aa8bbe4e58",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安饮食股份有限公司2026年第三季度报告",
+              "publisher": "西安饮食股份有限公司",
+              "date": "2026-10-24",
+              "location": "物理第4页主要会计数据变动说明；第7页合并资产负债表",
+              "retrievedAt": "2026-11-04T14:23:48+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225618530.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-987a14be991d3ccfea89",
+      "objectId": "listed-000721-sz",
+      "type": "租赁预计负债确认",
+      "topics": [
+        "提前终止租赁",
+        "预计负债"
+      ],
+      "updates": [
+        {
+          "id": "production-0a5d8c5a2397b71c0b0f42fc",
+          "date": "2026-10-24",
+          "time": "",
+          "title": "子公司提前终止房屋租赁，期末确认预计负债",
+          "summary": "西安饮食2026年10月24日披露的三季报显示，截至2026年9月30日，公司合并报表预计负债为4,347,828.98元，主要因报告期内子公司房屋提前终止租赁，按照或有事项准则于期末确认预计负债。报告未披露相关子公司名称及该事项实际支付情况。",
+          "stage": "因子公司房屋提前终止租赁于期末确认预计负债",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:05:14-08:00",
+          "compiledAt": "2026-11-04T07:05:14-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安饮食",
+          "version": "0a5d8c5a2397b71c0b0f42fc26271dd12b0e9d8d2e54e01602db3fa5e6c6ffff",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安饮食股份有限公司2026年第三季度报告",
+              "publisher": "西安饮食股份有限公司",
+              "date": "2026-10-24",
+              "location": "物理第4页主要会计数据变动说明；第7—8页合并资产负债表",
+              "retrievedAt": "2026-11-04T14:23:48+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225618530.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-edc28ea179ef1e46a06c",
+      "objectId": "listed-688281-sh",
+      "type": "投资者沟通安排",
+      "topics": [
+        "第三季度业绩说明会",
+        "网络互动"
+      ],
+      "updates": [
+        {
+          "id": "production-6821f0f2b9767dc02d733ba1",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "拟于10月30日召开第三季度业绩说明会",
+          "summary": "陕西华秦科技实业股份有限公司2026年10月23日公告，定于10月30日15:00—16:00在“价值在线”以网络互动方式召开2026年第三季度业绩说明会。本次资料为会议安排，未包含实际召开结果。",
+          "stage": "公告拟于2026年10月30日15:00—16:00召开，未取得实际召开结果",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:09:35-08:00",
+          "compiledAt": "2026-11-04T07:09:35-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "华秦科技",
+          "version": "6821f0f2b9767dc02d733ba17a6f1ab5fa258f3be291cf56e93d165438b1ffc0",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "陕西华秦科技实业股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1—3页，会议安排及公告落款",
+              "retrievedAt": "2026-11-04T14:24:35+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616311.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-dccb9c2fd59a31ee8b50",
+      "objectId": "listed-000563-sz",
+      "type": "资产减值准备",
+      "topics": [
+        "2025年第四季度及2026年前三季度",
+        "减值准备转回"
+      ],
+      "updates": [
+        {
+          "id": "production-604d8efbc958b6c96b87f507",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "陕国投A披露2025年第四季度及2026年前三季度减值准备净转回",
+          "summary": "陕西省国际信托股份有限公司2026年10月23日公告，2025年第四季度及2026年前三季度合计计提减值准备-19,685.32万元，即净转回19,685.32万元，董事会审计委员会已同意该事项。剔除合并结构化主体影响并扣除企业所得税后，合计增加上述期间净利润6,530.87万元。",
+          "stage": "已披露减值准备计提及转回情况，审计委员会同意",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:09:36-08:00",
+          "compiledAt": "2026-11-04T07:09:36-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕国投Ａ",
+          "version": "604d8efbc958b6c96b87f5076b9ee9380c63445cf1a06dc262eec6f7f486a6f1",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于计提资产减值准备的公告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页计提情况；第2页明细表、表下注释及财务影响；第3页审计委员会意见及公告落款",
+              "retrievedAt": "2026-11-04T14:23:42+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616951.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-191db27df57a6dba8d09",
+      "objectId": "listed-000563-sz",
+      "type": "治理制度修订",
+      "topics": [
+        "董事会提名委员会工作细则"
+      ],
+      "updates": [
+        {
+          "id": "production-3c748e5aa0c1edf2164b48c2",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "陕国投A董事会通过提名委员会工作细则修订",
+          "summary": "陕西省国际信托股份有限公司2026年10月23日披露，10月21日召开的第十届董事会第四十五次会议审议通过《关于修订〈董事会提名委员会工作细则〉的议案》，修订后的细则自董事会审议通过之日起执行。",
+          "stage": "2026年10月21日董事会审议通过修订",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:09:36-08:00",
+          "compiledAt": "2026-11-04T07:09:36-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕国投Ａ",
+          "version": "3c748e5aa0c1edf2164b48c2997f7e6db0d18707976e174fc7333085de7954bf",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "董事会提名委员会工作细则",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页标题及审议日期；第4页第二十四条",
+              "retrievedAt": "2026-11-04T14:23:41+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616952.PDF"
+            },
+            {
+              "title": "第十届董事会第四十五次会议决议公告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第4页第13项议案；第5页公告落款",
+              "retrievedAt": "2026-11-04T14:23:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616940.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-b2775431b5e67f408380",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T23:16:49+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-82fac279f6e6f1050990b31e",
+        "production-e7a5cfcc56bb57c93dd65150",
+        "production-a7387fc29a61a56e97783a85",
+        "production-4730bc2e36b4451431d2b953",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-b2775431b5e67f408380/page-01.png",
+          "width": 1080,
+          "height": 2526,
+          "sha256": "749ca2898692918e0f4018ab0be46f8e949e95b1d526c61e9fb1c721bffdf01a"
+        },
+        {
+          "file": "assets/editions/selection-b2775431b5e67f408380/page-02.png",
+          "width": 1080,
+          "height": 1174,
+          "sha256": "c540f7adf981981dff82ab51053add0bf2a61411568ce63ab27eb0012b018fd6"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-ea24bbffe510",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74372daae3b102096f35",
+          "updateId": "production-82fac279f6e6f1050990b31e",
+          "version": "82fac279f6e6f1050990b31e0403a37fc756b8dc585fab18827d11451b87c5b1",
+          "objectName": "ST兴化",
+          "type": "listed",
+          "category": "股权收购付款进展",
+          "date": "2026-10-26",
+          "title": "披露兴化新能源20%股权收购年初付款进展",
+          "business": "投资银行",
+          "share": {
+            "title": "披露年初收购付款，未明确价款全部付清",
+            "facts": "全资子公司兴化化工于年初支付向延长集团收购兴化新能源20%股权的款项，原转让价16,294.42万元。股权交割过户已于2025年12月26日公告完成；本次未单列实付金额、具体付款日，也未明确全部价款付清。"
+          }
+        },
+        {
+          "eventId": "production-event-b4f7bc9131a0700e57d6",
+          "updateId": "production-e7a5cfcc56bb57c93dd65150",
+          "version": "e7a5cfcc56bb57c93dd65150c0360dd59106344d60f735f23ec0679f54d3fe2c",
+          "objectName": "航天动力",
+          "type": "listed",
+          "category": "控股子公司股权出售进展",
+          "date": "2026-10-23",
+          "title": "出售江苏机电51%股权征得原股东受让，尚未签约",
+          "business": "投资银行",
+          "share": {
+            "title": "51%股权挂牌征得受让方，尚未签约",
+            "facts": "公告，江苏航天动力机电有限公司51%股权第二次挂牌征得江苏大中电机股份有限公司一个意向受让方，成交价2,080.31万元。受让方已通过资格审核并足额缴纳保证金；截至公告日尚未签约，不能据此认定全款到账或交割完成。"
+          }
+        },
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-c6aaa11c92051491b551",
+          "updateId": "production-4730bc2e36b4451431d2b953",
+          "version": "4730bc2e36b4451431d2b9535a98bd19b3dea4a3cb451a543ddecc007f3e91eb",
+          "objectName": "供销大集",
+          "type": "listed",
+          "category": "司法拍卖被动减持及过户进展",
+          "date": "2026-10-24",
+          "title": "新合作集团剩余1.2亿股司法拍卖股份完成过户",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余1.2亿股司法拍卖股份完成过户",
+            "facts": "截至10月21日，新合作集团剩余1.2亿股完成过户，本次被拍卖的349,125,080股已全部过户。中合农信及一致行动人持股比例由22.80%降至22.13%，控制权不变。受让方仍须遵守受让后六个月不得减持、自2025年5月15日起36个月不得转让的要求。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-f59b463a3651bb658101",
       "date": "2026-11-04",
@@ -32950,6 +33428,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "abfd2af6bb3a79372f69",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T06:49:28-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/abfd2af6bb3a79372f69/index.html",
+      "publishedAt": "2026-11-04T23:03:34+08:00"
+    },
     {
       "id": "68049fdb0d57580ce2a4",
       "date": "2026-11-04",
