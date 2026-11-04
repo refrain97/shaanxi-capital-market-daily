@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-af5e57e10173",
-      "compiledAt": "2026-11-04T04:46:53-08:00",
+      "id": "2026-11-04-aa4883c9dad9",
+      "compiledAt": "2026-11-04T05:00:58-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -47,6 +47,8 @@ window.PROTOTYPE = {
         "production-0d0e7919d79dc24dfbe58400",
         "production-0965089d538d5954f759d2d2",
         "production-08637df62c133e717152fbaf",
+        "production-d8c1b49fc9bd2b7f1efbd092",
+        "production-a2f2466fec1bfb3ffc4e96fb",
         "production-4730bc2e36b4451431d2b953",
         "production-7d91d336fddff6cf46afd3fa"
       ],
@@ -287,7 +289,9 @@ window.PROTOTYPE = {
       "production-4730bc2e36b4451431d2b953": "2026-11-04T04:29:52-08:00",
       "production-98b20f0a8a3ca1604d64f1d9": "2026-11-04T04:30:57-08:00",
       "production-0965089d538d5954f759d2d2": "2026-11-04T04:35:35-08:00",
-      "production-af7a9aa50e4b2a910a173f95": "2026-11-04T04:46:52-08:00"
+      "production-af7a9aa50e4b2a910a173f95": "2026-11-04T04:46:52-08:00",
+      "production-d8c1b49fc9bd2b7f1efbd092": "2026-11-04T05:00:57-08:00",
+      "production-a2f2466fec1bfb3ffc4e96fb": "2026-11-04T05:00:57-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1807,6 +1811,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "通源石油2026年10月27日披露的三季报显示，2026年1—9月支付其他与投资活动有关的现金为人民币5,200万元，主要因新增向参股公司一龙恒业提供财务资助。同期收到一龙恒业偿还的到期财务资助款同比增加，报告未单列对其新增资助及收回款项的具体金额。"
+        },
+        "production-d8c1b49fc9bd2b7f1efbd092": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西兴化化学股份有限公司2026年10月26日公告，第八届董事会第十三次会议以通讯方式召开，表决截至2026年10月23日12时，9名董事全部参与表决，以9票同意、0票反对、0票弃权审议通过《公司2026年第三季度报告》。"
+        },
+        "production-a2f2466fec1bfb3ffc4e96fb": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西烽火电子股份有限公司2026年10月26日披露的第三季度报告载明，公司于2026年9月17日归还向控股股东陕西烽火通信集团有限公司借入的5000万元本金，该笔借款实际存续86天，合计利息支出274,722.22元。截至2026年第三季度末，该笔关联借款本息已全部清偿，借款业务已完结。"
         }
       }
     },
@@ -1816,8 +1834,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-04-af5e57e10173",
-      "editionId": "selection-3f4fec2088cbc7716163",
+      "sourceEditionId": "2026-11-04-aa4883c9dad9",
+      "editionId": "selection-5c154d9262cc0bdd85c8",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -28427,6 +28445,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T20:57:57+08:00",
           "updatedAt": "2026-11-04T04:46:52-08:00",
           "compiledAt": "2026-11-04T04:46:52-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -28452,9 +28471,215 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-dacc7f563e2c705b11d8",
+      "objectId": "listed-002109-sz",
+      "type": "定期报告审议",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-d8c1b49fc9bd2b7f1efbd092",
+          "date": "2026-10-26",
+          "time": "",
+          "title": "陕西兴化化学董事会审议通过2026年第三季度报告",
+          "summary": "陕西兴化化学股份有限公司2026年10月26日公告，第八届董事会第十三次会议以通讯方式召开，表决截至2026年10月23日12时，9名董事全部参与表决，以9票同意、0票反对、0票弃权审议通过《公司2026年第三季度报告》。",
+          "stage": "董事会审议通过第三季度报告；会议表决截至10月23日12时",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T05:00:57-08:00",
+          "compiledAt": "2026-11-04T05:00:57-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST兴化",
+          "version": "d8c1b49fc9bd2b7f1efbd092a32c15b3b385455eb9a1ea4e4a5a0cd8e8b33821",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第八届董事会第十三次会议决议公告",
+              "publisher": "陕西兴化化学股份有限公司",
+              "date": "2026-10-26",
+              "location": "物理第1页会议召开及审议情况；第2页落款",
+              "retrievedAt": "2026-11-04T14:23:51+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-26/1225619551.PDF"
+            },
+            {
+              "title": "2026年第三季度报告",
+              "publisher": "陕西兴化化学股份有限公司",
+              "date": "2026-10-26",
+              "location": "物理第1页公司全称、证券代码及报告名称",
+              "retrievedAt": "2026-11-04T14:23:51+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-26/1225619549.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-8acfc08dc6fde2fc34b6",
+      "objectId": "listed-000561-sz",
+      "type": "关联借款清偿",
+      "topics": [
+        "关联借款",
+        "本息清偿"
+      ],
+      "updates": [
+        {
+          "id": "production-a2f2466fec1bfb3ffc4e96fb",
+          "date": "2026-10-26",
+          "time": "",
+          "title": "5000万元关联借款本息已全部清偿",
+          "summary": "陕西烽火电子股份有限公司2026年10月26日披露的第三季度报告载明，公司于2026年9月17日归还向控股股东陕西烽火通信集团有限公司借入的5000万元本金，该笔借款实际存续86天，合计利息支出274,722.22元。截至2026年第三季度末，该笔关联借款本息已全部清偿，借款业务已完结。",
+          "stage": "2026年9月17日归还本金，截至三季度末本息全部清偿",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T05:00:57-08:00",
+          "compiledAt": "2026-11-04T05:00:57-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "烽火电子",
+          "version": "a2f2466fec1bfb3ffc4e96fbf8f606bd3dbfbfd29dde14c0e4a9871295330cf4",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年第三季度报告",
+              "publisher": "陕西烽火电子股份有限公司",
+              "date": "2026-10-26",
+              "location": "物理第4页“三、其他重要事项”；第11页报告落款为2026年10月23日，披露日采用来源记录",
+              "retrievedAt": "2026-11-04T14:23:41+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-26/1225620916.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-5c154d9262cc0bdd85c8",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T21:16:21+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-a7387fc29a61a56e97783a85",
+        "production-4730bc2e36b4451431d2b953",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-5c154d9262cc0bdd85c8/page-01.png",
+          "width": 1080,
+          "height": 2526,
+          "sha256": "418c51d76f650ef7941cf1139379b9448ba3da03963e70276315e9061fcd57e0"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-aa4883c9dad9",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-c6aaa11c92051491b551",
+          "updateId": "production-4730bc2e36b4451431d2b953",
+          "version": "4730bc2e36b4451431d2b9535a98bd19b3dea4a3cb451a543ddecc007f3e91eb",
+          "objectName": "供销大集",
+          "type": "listed",
+          "category": "司法拍卖被动减持及过户进展",
+          "date": "2026-10-24",
+          "title": "新合作集团剩余1.2亿股司法拍卖股份完成过户",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余1.2亿股司法拍卖股份完成过户",
+            "facts": "截至10月21日，新合作集团剩余1.2亿股完成过户，本次被拍卖的349,125,080股已全部过户。中合农信及一致行动人持股比例由22.80%降至22.13%，控制权不变。受让方仍须遵守受让后六个月不得减持、自2025年5月15日起36个月不得转让的要求。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-3f4fec2088cbc7716163",
       "date": "2026-11-04",
@@ -30775,6 +31000,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "e381f2c9e4c944c720f9",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T04:46:53-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/e381f2c9e4c944c720f9/index.html",
+      "publishedAt": "2026-11-04T20:57:57+08:00"
+    },
     {
       "id": "4325ca041eb0b1920562",
       "date": "2026-11-04",
