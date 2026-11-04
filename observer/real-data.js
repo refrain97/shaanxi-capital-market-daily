@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-10de516c92a1",
-      "compiledAt": "2026-11-04T08:14:18-08:00",
+      "id": "2026-11-04-fe57dda01096",
+      "compiledAt": "2026-11-04T08:42:49-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -71,9 +71,11 @@ window.PROTOTYPE = {
         "production-13995227879e82a52d84257c",
         "production-0a5d8c5a2397b71c0b0f42fc",
         "production-ee8503b001e354a802cdcd4a",
+        "production-ed0d607d99bac20af8113c39",
         "production-e7a5cfcc56bb57c93dd65150",
         "production-d57e113d299485eacb53fc23",
         "production-ce9ea92cae98988c915a20ad",
+        "production-c5a249fa23ed535f0982c731",
         "production-c3a75abb59f47d2bb90bc13b",
         "production-be21aeb63f21ca04bb1f9c64",
         "production-b8f3c77e2cf87d44d74a388d",
@@ -85,6 +87,7 @@ window.PROTOTYPE = {
         "production-5a34087d0434a9018278a5fa",
         "production-3c748e5aa0c1edf2164b48c2",
         "production-2ae9b3a0433cc19ad2c0d927",
+        "production-287542e2177819c0c5069865",
         "production-16b30d5e9b8a99281bc40687",
         "production-0ad8fdcc0fedf9f53b180781",
         "production-00d41855747aecbc7a4a4cc9",
@@ -367,7 +370,10 @@ window.PROTOTYPE = {
       "production-6016d4420071e6107a4f62c6": "2026-11-04T07:57:58-08:00",
       "production-ce9ea92cae98988c915a20ad": "2026-11-04T08:11:08-08:00",
       "production-ee8503b001e354a802cdcd4a": "2026-11-04T08:12:10-08:00",
-      "production-0ad8fdcc0fedf9f53b180781": "2026-11-04T08:14:18-08:00"
+      "production-0ad8fdcc0fedf9f53b180781": "2026-11-04T08:14:18-08:00",
+      "production-287542e2177819c0c5069865": "2026-11-04T08:41:11-08:00",
+      "production-c5a249fa23ed535f0982c731": "2026-11-04T08:42:02-08:00",
+      "production-ed0d607d99bac20af8113c39": "2026-11-04T08:42:49-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2163,6 +2169,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕国投A于2026年10月23日公告，10月21日召开的董事会会议审议通过提名徐秉惠为公司第十一届董事会独立董事候选人的议案，并提请2026年第二次临时股东会以累积投票制方式选举。其任职资格和独立性尚需经深圳证券交易所审核无异议后，股东会方可审议。"
+        },
+        "production-287542e2177819c0c5069865": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西省国际信托股份有限公司（陕国投A）2026年10月23日公告，10月21日召开的董事会会议审议通过提名任海云为第十一届董事会独立董事候选人的议案。其任职资格和独立性尚需经深圳证券交易所审核无异议后，方可提交2026年第二次临时股东会以累积投票制方式选举。"
+        },
+        "production-c5a249fa23ed535f0982c731": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕国投A于2026年10月23日披露，董事会审议通过提名黄卓为第十一届董事会独立董事候选人，黄卓由中证中小投资者服务中心有限责任公司等三名股东联合提名。其任职资格和独立性尚需经深交所审核无异议后提交股东会选举，任职资格另需国家金融监督管理总局陕西监管局核准。"
+        },
+        "production-ed0d607d99bac20af8113c39": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕国投A于2026年10月23日公告，董事会已审议通过提名郑权为公司第十一届董事会董事候选人的议案。该提名将提交2026年第二次临时股东会以累积投票制方式选举，郑权的任职资格尚需国家金融监督管理总局陕西监管局核准。"
         }
       }
     },
@@ -2171,9 +2198,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-11-04-10de516c92a1",
-      "editionId": "selection-fecbacc78ad311fff5e9",
+      "status": "committed",
+      "sourceEditionId": "2026-11-04-fe57dda01096",
+      "editionId": "selection-a9d441968fddcfc609ab",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -30841,6 +30868,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T00:39:16+08:00",
           "updatedAt": "2026-11-04T07:51:14-08:00",
           "compiledAt": "2026-11-04T07:51:14-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30894,6 +30922,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T00:39:16+08:00",
           "updatedAt": "2026-11-04T07:57:58-08:00",
           "compiledAt": "2026-11-04T07:57:58-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30939,6 +30968,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T00:39:16+08:00",
           "updatedAt": "2026-11-04T08:11:08-08:00",
           "compiledAt": "2026-11-04T08:11:08-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30992,6 +31022,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T00:39:16+08:00",
           "updatedAt": "2026-11-04T08:12:10-08:00",
           "compiledAt": "2026-11-04T08:12:10-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -31046,6 +31077,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T00:39:16+08:00",
           "updatedAt": "2026-11-04T08:14:18-08:00",
           "compiledAt": "2026-11-04T08:14:18-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -31071,9 +31103,324 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-0e49d132ba40d56fa704",
+      "objectId": "listed-000563-sz",
+      "type": "独立董事提名",
+      "topics": [
+        "第十一届董事会",
+        "任海云",
+        "候选人及提名人声明"
+      ],
+      "updates": [
+        {
+          "id": "production-287542e2177819c0c5069865",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "陕国投A董事会通过任海云独立董事候选人提名",
+          "summary": "陕西省国际信托股份有限公司（陕国投A）2026年10月23日公告，10月21日召开的董事会会议审议通过提名任海云为第十一届董事会独立董事候选人的议案。其任职资格和独立性尚需经深圳证券交易所审核无异议后，方可提交2026年第二次临时股东会以累积投票制方式选举。",
+          "stage": "董事会审议通过提名；任职资格和独立性尚需深交所审核无异议后提交股东会选举",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T08:41:11-08:00",
+          "compiledAt": "2026-11-04T08:41:11-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕国投Ａ",
+          "version": "287542e2177819c0c5069865cebaa00ad31f57e119494dfb32764335c0fb23b5",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第十届董事会第四十五次会议决议公告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页会议日期、第2页第8项议案及选举安排、第3页审核条件、第5页落款",
+              "retrievedAt": "2026-11-04T14:23:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616940.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-c825f6a5c77e750a6933",
+      "objectId": "listed-000563-sz",
+      "type": "独立董事提名",
+      "topics": [
+        "第十一届董事会",
+        "黄卓",
+        "股东联合提名"
+      ],
+      "updates": [
+        {
+          "id": "production-c5a249fa23ed535f0982c731",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "陕国投A董事会通过黄卓独立董事候选人提名",
+          "summary": "陕国投A于2026年10月23日披露，董事会审议通过提名黄卓为第十一届董事会独立董事候选人，黄卓由中证中小投资者服务中心有限责任公司等三名股东联合提名。其任职资格和独立性尚需经深交所审核无异议后提交股东会选举，任职资格另需国家金融监督管理总局陕西监管局核准。",
+          "stage": "董事会审议通过提名；尚待深交所审核无异议及股东会选举，任职资格另需金融监管部门核准",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T08:42:02-08:00",
+          "compiledAt": "2026-11-04T08:42:02-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕国投Ａ",
+          "version": "c5a249fa23ed535f0982c731beae0f411ae89d2c03581793a0cd181f8ec2d73c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第十届董事会第四十五次会议决议公告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第2—3页、第5页",
+              "retrievedAt": "2026-11-04T14:23:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616940.PDF"
+            },
+            {
+              "title": "独立董事提名人声明与承诺（黄卓）",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页；声明落款日期为2026年10月21日",
+              "retrievedAt": "2026-11-04T14:23:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616945.PDF"
+            },
+            {
+              "title": "2026年第二次临时股东会议案",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第12页，议案二",
+              "retrievedAt": "2026-11-04T14:23:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616942.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-e0cefa4bda8d480c5440",
+      "objectId": "listed-000563-sz",
+      "type": "董事提名",
+      "topics": [
+        "第十一届董事会",
+        "郑权"
+      ],
+      "updates": [
+        {
+          "id": "production-ed0d607d99bac20af8113c39",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "陕国投A董事会通过郑权董事候选人提名，待股东会选举及任职资格核准",
+          "summary": "陕国投A于2026年10月23日公告，董事会已审议通过提名郑权为公司第十一届董事会董事候选人的议案。该提名将提交2026年第二次临时股东会以累积投票制方式选举，郑权的任职资格尚需国家金融监督管理总局陕西监管局核准。",
+          "stage": "董事会审议通过提名，待股东会选举；任职资格尚需金融监管部门核准",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T08:42:49-08:00",
+          "compiledAt": "2026-11-04T08:42:49-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕国投Ａ",
+          "version": "ed0d607d99bac20af8113c39b53df3c4d0545c0c7d425401b700ff198502e9cf",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第十届董事会第四十五次会议决议公告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页主体信息、第2页提名及选举安排、第3页任职资格核准要求、第5页落款日期",
+              "retrievedAt": "2026-11-04T14:23:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616940.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-a9d441968fddcfc609ab",
+      "date": "2026-11-05",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-05T00:44:59+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-82fac279f6e6f1050990b31e",
+        "production-e7a5cfcc56bb57c93dd65150",
+        "production-a7387fc29a61a56e97783a85",
+        "production-625b951ed6ec4285ccd8382a",
+        "production-4730bc2e36b4451431d2b953",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-a9d441968fddcfc609ab/page-01.png",
+          "width": 1080,
+          "height": 2474,
+          "sha256": "2477b6bf08ebe812f824c3f8eaef3710bb024b508b892e7f5feafc2e45d41a84"
+        },
+        {
+          "file": "assets/editions/selection-a9d441968fddcfc609ab/page-02.png",
+          "width": 1080,
+          "height": 1678,
+          "sha256": "72a57eae8654c6ee1628ce8ab1fb62c43d1381e5ac610d5acd9b6e48dbeb496b"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-fe57dda01096",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74372daae3b102096f35",
+          "updateId": "production-82fac279f6e6f1050990b31e",
+          "version": "82fac279f6e6f1050990b31e0403a37fc756b8dc585fab18827d11451b87c5b1",
+          "objectName": "ST兴化",
+          "type": "listed",
+          "category": "股权收购付款进展",
+          "date": "2026-10-26",
+          "title": "披露兴化新能源20%股权收购年初付款进展",
+          "business": "投资银行",
+          "share": {
+            "title": "披露年初收购付款，未明确价款全部付清",
+            "facts": "全资子公司兴化化工于年初支付向延长集团收购兴化新能源20%股权的款项，原转让价16,294.42万元。股权交割过户已于2025年12月26日公告完成；本次未单列实付金额、具体付款日，也未明确全部价款付清。"
+          }
+        },
+        {
+          "eventId": "production-event-b4f7bc9131a0700e57d6",
+          "updateId": "production-e7a5cfcc56bb57c93dd65150",
+          "version": "e7a5cfcc56bb57c93dd65150c0360dd59106344d60f735f23ec0679f54d3fe2c",
+          "objectName": "航天动力",
+          "type": "listed",
+          "category": "控股子公司股权出售进展",
+          "date": "2026-10-23",
+          "title": "出售江苏机电51%股权征得原股东受让，尚未签约",
+          "business": "投资银行",
+          "share": {
+            "title": "51%股权挂牌征得受让方，尚未签约",
+            "facts": "公告，江苏航天动力机电有限公司51%股权第二次挂牌征得江苏大中电机股份有限公司一个意向受让方，成交价2,080.31万元。受让方已通过资格审核并足额缴纳保证金；截至公告日尚未签约，不能据此认定全款到账或交割完成。"
+          }
+        },
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-fc135dbe65b2af786374",
+          "updateId": "production-625b951ed6ec4285ccd8382a",
+          "version": "625b951ed6ec4285ccd8382a6c436a4589c05443275fa737fb256e4449406ad0",
+          "objectName": "曲江文旅",
+          "type": "listed",
+          "category": "司法拍卖进展",
+          "date": "2026-10-27",
+          "title": "控股股东800万股重新拍卖流拍",
+          "business": "股份管理",
+          "share": {
+            "title": "800万股重新司法拍卖流拍",
+            "facts": "控股股东西安曲江旅游投资（集团）有限公司持有的800万股于10月24日至25日重新司法拍卖，占总股本3.14%。据10月26日平台结果，本次拍卖流拍，未成交，不代表股份已转让或过户。"
+          }
+        },
+        {
+          "eventId": "production-event-c6aaa11c92051491b551",
+          "updateId": "production-4730bc2e36b4451431d2b953",
+          "version": "4730bc2e36b4451431d2b9535a98bd19b3dea4a3cb451a543ddecc007f3e91eb",
+          "objectName": "供销大集",
+          "type": "listed",
+          "category": "司法拍卖被动减持及过户进展",
+          "date": "2026-10-24",
+          "title": "新合作集团剩余1.2亿股司法拍卖股份完成过户",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余1.2亿股司法拍卖股份完成过户",
+            "facts": "截至10月21日，新合作集团剩余1.2亿股完成过户，本次被拍卖的349,125,080股已全部过户。中合农信及一致行动人持股比例由22.80%降至22.13%，控制权不变。受让方仍须遵守受让后六个月不得减持、自2025年5月15日起36个月不得转让的要求。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-fecbacc78ad311fff5e9",
       "date": "2026-11-05",
@@ -34972,6 +35319,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "8175a555eb96a6cd7e33",
+      "date": "2026-11-05",
+      "compiledAt": "2026-11-04T08:14:18-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/8175a555eb96a6cd7e33/index.html",
+      "publishedAt": "2026-11-05T00:39:16+08:00"
+    },
     {
       "id": "b7ed6cb54705c73baa0b",
       "date": "2026-11-04",
