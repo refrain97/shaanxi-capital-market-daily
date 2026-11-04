@@ -2269,7 +2269,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-11-04-847d7ac4197e",
       "editionId": "selection-90513848a83c1199facf",
       "selectionMode": "current"
