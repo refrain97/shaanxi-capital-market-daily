@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-03-0c78ffddbe49",
-      "compiledAt": "2026-11-03T22:01:45-08:00",
+      "id": "2026-11-03-ee461a5e0ffd",
+      "compiledAt": "2026-11-03T22:11:25-08:00",
       "cutoff": "2026-10-22T08:24:29+08:00",
       "windowStart": "2026-10-20",
       "windowEnd": "2026-10-22",
@@ -15,11 +15,13 @@ window.PROTOTYPE = {
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
         "production-e2671904e6f83a7f24aee3d7",
+        "production-dcd91e5888149a038cbd6147",
         "production-d9507aa0df51626036f8f49e",
         "production-cd2adfb919023cb9136af212",
         "production-b8b3204770a7e290ee35a80e",
         "production-a101f6d9895d95bd4a2ea675",
         "production-8d5442cfa5d9e0b706c6c63e",
+        "production-8c067cce03c5291286b3aecc",
         "production-8a75c9fc7e0fbf2f8413461a",
         "production-77a3b73a55aa940f35982eca",
         "production-6da053ada00a87d56efc7538",
@@ -32,7 +34,8 @@ window.PROTOTYPE = {
         "production-2325978ef8944a5bcc4bc43e",
         "production-1ebe8c13d086dcd1b2e2944f",
         "production-0dae1797f023da017d25eced",
-        "production-07ed700c56b916eb0f14988f"
+        "production-07ed700c56b916eb0f14988f",
+        "production-cacadc4cf8316a7ee9c4d9b3"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -230,7 +233,10 @@ window.PROTOTYPE = {
       "production-276d767411daa620d8c503bd": "2026-10-22T10:25:04+08:00",
       "production-77a3b73a55aa940f35982eca": "2026-10-22T10:25:04+08:00",
       "production-6da053ada00a87d56efc7538": "2026-11-03T21:58:03-08:00",
-      "production-8a75c9fc7e0fbf2f8413461a": "2026-11-03T22:01:45-08:00"
+      "production-8a75c9fc7e0fbf2f8413461a": "2026-11-03T22:01:45-08:00",
+      "production-dcd91e5888149a038cbd6147": "2026-11-03T22:08:22-08:00",
+      "production-8c067cce03c5291286b3aecc": "2026-11-03T22:09:57-08:00",
+      "production-cacadc4cf8316a7ee9c4d9b3": "2026-11-03T22:11:24-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1333,6 +1339,12 @@ window.PROTOTYPE = {
           "group": "理财与现金管理",
           "level": "deep"
         },
+        "production-dcd91e5888149a038cbd6147": {
+          "version": "listed-scope-20261019",
+          "action": "现金管理",
+          "group": "理财与现金管理",
+          "level": "deep"
+        },
         "production-37ea0dd24a2f7acd47957b92": {
           "version": "listed-scope-20261019",
           "action": "减持",
@@ -1469,6 +1481,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安国际医学投资股份有限公司于2026年10月22日披露第三季度报告，前三季度营业收入约30.81亿元，同比增长2.86%；归属于上市公司股东的净亏损约7038.52万元，同比收窄76.03%。第三季度财务会计报告未经审计。"
+        },
+        "production-8c067cce03c5291286b3aecc": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "国际医学2026年10月22日披露的三季报显示，子公司西安国际医学中心有限公司质子中心项目已达到预定可使用状态，相关在建工程和预付工程设备款转入固定资产核算。"
+        },
+        "production-cacadc4cf8316a7ee9c4d9b3": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西同力重工股份有限公司2026年10月21日公告，薛晓强因个人原因辞任，自当日起不再担任董事、常务副总经理，离任后不再担任公司及其控股子公司其他职务。公司表示将尽快完成新任非独立董事的补选工作。"
         }
       }
     },
@@ -1478,8 +1504,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-03-0c78ffddbe49",
-      "editionId": "selection-a2d3987323a68e62abb4",
+      "sourceEditionId": "2026-11-03-ee461a5e0ffd",
+      "editionId": "selection-df3dea0b0e5e125f5944",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -4179,6 +4205,18 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-920599-bj",
+      "type": "listed",
+      "name": "同力股份",
+      "code": "920599.BJ",
+      "market": "BJ",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000721-sz",
       "type": "listed",
       "name": "西安饮食",
@@ -4482,19 +4520,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "天润科技",
       "code": "920564.BJ",
-      "market": "BJ",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-920599-bj",
-      "type": "listed",
-      "name": "同力股份",
-      "code": "920599.BJ",
       "market": "BJ",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -23867,6 +23892,119 @@ window.PROTOTYPE = {
               ]
             }
           ]
+        },
+        {
+          "id": "production-dcd91e5888149a038cbd6147",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "西安子公司收回5,000万元定期存款，本息已归还募集资金专户",
+          "summary": "光电股份2026年10月22日公告，全资子公司西安北方光电科技防务有限公司于7月21日购买的5,000万元定期存款已于10月21日到期赎回，取得收益125,000元，本金及收益均已归还募集资金专户。受托人为招商银行西安分行西安城东支行，公告表列年化收益率为1.00%。",
+          "stage": "2026年10月21日已赎回本金5,000万元，取得收益125,000元，本金及收益均已归还募集资金专户",
+          "depth": "deep",
+          "coverage": "本事项有限历史研究；不等于观察池全量已更新。未留存本笔2026年7月21日购买时的独立公告；购买主体、日期及金额由10月22日赎回公告明确回溯披露，不表述为7月21日已取得的公开信息。 现有材料不构成同授权下全部产品的逐笔流水，不能据此推算公司当前总余额、剩余额度、全年收益或本次收回资金的后续用途。 本次原件实际取得时间为2026年10月22日08:25:58，晚于输入研究截止08:24:29；本稿使用明确允许复用的留存版本，不声称其在该分钟截止前已经取得或可见。 本轮未联网，未推进发现窗口；ready仅表示候选可提交独立核查，不代表已经通过独立核查或获准发布。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T22:08:22-08:00",
+          "compiledAt": "2026-11-03T22:08:22-08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "光电股份",
+          "version": "dcd91e5888149a038cbd6147527b624ba8b018ce25cd9ebcafe0ec10d2652d4e",
+          "important": true,
+          "production": true,
+          "prototype": false,
+          "history": [
+            {
+              "date": "2026-04-25",
+              "text": "公司披露，4月23日董事会通过现金管理授权，公司及子公司可使用不超过8.6亿元暂时闲置募集资金，期限自董事会审议通过之日起12个月，额度可循环滚动使用。产品须安全性高、流动性好、有保本约定，产品期限不超过12个月。"
+            },
+            {
+              "date": "2026-10-21",
+              "text": "此前披露的赎回主体为控股子公司湖北新华光信息材料有限公司，其于10月19日、20日支取七天通知存款，收回本金16,000万元、取得本次收益28,763.90元。本次西安子公司的定期存款属于另一笔执行记录，分别呈现。"
+            },
+            {
+              "date": "2026-10-22",
+              "text": "本次公告回溯披露西安子公司于7月21日购买5,000万元定期存款，并列示10月21日赎回相同本金、取得收益125,000元；本息均已归还募集资金专户。该购买节点按本次披露时点记录。"
+            }
+          ],
+          "business": [
+            "本笔资金主体为西安北方光电科技防务有限公司，资金性质为暂时闲置募集资金，已有招商银行服务安排。可围绕募投付款计划、资金闲置期限和现金管理产品期限匹配讨论后续服务；实际可配置金额及新增需求须向公司确认。",
+            "8.6亿元是公司及子公司的循环使用授权上限，不能视为本次新增可配置资金。已收回本金也不能直接认定为可再次购买产品的资金，仍需结合募投使用安排及公告披露的产品条件。"
+          ],
+          "details": [
+            {
+              "label": "执行与披露",
+              "value": "购买及起息日为2026年7月21日，赎回日为10月21日，公告披露日期为10月22日。"
+            },
+            {
+              "label": "实际收回",
+              "value": "本金5,000万元，收益125,000元；本金及收益均已归还募集资金专户。"
+            },
+            {
+              "label": "授权起算",
+              "value": "授权自2026年4月23日董事会审议通过之日起12个月内有效，额度不超过8.6亿元，可循环滚动使用。"
+            },
+            {
+              "label": "收益口径",
+              "value": "年化收益率1.00%及收益125,000元均按本次公告呈现，不另行假设计息天数或计息基准。"
+            },
+            {
+              "label": "覆盖边界",
+              "value": "仅呈现本笔存款及直接相关授权、赎回对照，不据此计算公司当前现金管理总余额、剩余额度或全年收益。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "北方光电股份有限公司关于使用暂时闲置的募集资金进行现金管理到期赎回的公告",
+              "publisher": "北方光电股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页全文及赎回明细表",
+              "retrievedAt": "2026-10-22T08:25:58+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613532.PDF"
+            },
+            {
+              "title": "北方光电股份有限公司关于使用暂时闲置的募集资金进行现金管理的公告",
+              "publisher": "北方光电股份有限公司",
+              "date": "2026-04-25",
+              "location": "物理第1页审议日期，第2页现金管理目的、主体、额度、期限及产品条件",
+              "retrievedAt": "2026-10-16T21:33:40.849723+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-04-25/1225182258.PDF"
+            },
+            {
+              "title": "北方光电股份有限公司关于使用暂时闲置的募集资金进行现金管理到期赎回的公告",
+              "publisher": "北方光电股份有限公司",
+              "date": "2026-10-21",
+              "location": "物理第1页正文及支取明细表",
+              "retrievedAt": "2026-10-21T08:03:30+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225611799.PDF"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "西安子公司本次定期存款赎回明细；金额及收益按公告原单位列示",
+              "columns": [
+                "产品",
+                "受托人",
+                "产品金额（万元）",
+                "起息日",
+                "赎回日",
+                "表列年化收益率",
+                "赎回本金（万元）",
+                "本次收益（元）"
+              ],
+              "rows": [
+                [
+                  "定期存款",
+                  "招商银行西安分行西安城东支行",
+                  "5,000",
+                  "2026-07-21",
+                  "2026-10-21",
+                  "1.00%",
+                  "5,000",
+                  "125,000"
+                ]
+              ]
+            }
+          ]
         }
       ]
     },
@@ -25119,6 +25257,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T14:06:47+08:00",
           "updatedAt": "2026-11-03T21:58:03-08:00",
           "compiledAt": "2026-11-03T21:58:03-08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -25172,6 +25311,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T14:06:47+08:00",
           "updatedAt": "2026-11-03T22:01:45-08:00",
           "compiledAt": "2026-11-03T22:01:45-08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -25197,9 +25337,161 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-669634a1219feaf93a80",
+      "objectId": "listed-000516-sz",
+      "type": "自建项目进展",
+      "topics": [
+        "西安国际医学中心质子中心",
+        "达到预定可使用状态",
+        "转入固定资产"
+      ],
+      "updates": [
+        {
+          "id": "production-8c067cce03c5291286b3aecc",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "子公司质子中心项目达到预定可使用状态并转固",
+          "summary": "国际医学2026年10月22日披露的三季报显示，子公司西安国际医学中心有限公司质子中心项目已达到预定可使用状态，相关在建工程和预付工程设备款转入固定资产核算。",
+          "stage": "季报披露质子中心项目已达到预定可使用状态，相关工程及预付设备款转入固定资产核算",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T22:09:57-08:00",
+          "compiledAt": "2026-11-03T22:09:57-08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "国际医学",
+          "version": "8c067cce03c5291286b3aecc514c170a4afb168d1abb8cca5b424b3bbdd4d296",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安国际医学投资股份有限公司2026年第三季度报告",
+              "publisher": "西安国际医学投资股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第3页“主要会计数据和财务指标发生变动的情况及原因”第3项；第10页落款",
+              "retrievedAt": "2026-10-22T08:24:36+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613968.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-731e355b61b728de7fe9",
+      "objectId": "listed-920599-bj",
+      "type": "董事及高级管理人员离任",
+      "topics": [
+        "薛晓强",
+        "董事辞任",
+        "常务副总经理辞任"
+      ],
+      "updates": [
+        {
+          "id": "production-cacadc4cf8316a7ee9c4d9b3",
+          "date": "2026-10-21",
+          "time": "",
+          "title": "薛晓强辞任董事及常务副总经理",
+          "summary": "陕西同力重工股份有限公司2026年10月21日公告，薛晓强因个人原因辞任，自当日起不再担任董事、常务副总经理，离任后不再担任公司及其控股子公司其他职务。公司表示将尽快完成新任非独立董事的补选工作。",
+          "stage": "薛晓强自2026年10月21日起不再担任董事及常务副总经理，非独立董事补选尚待完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T22:11:24-08:00",
+          "compiledAt": "2026-11-03T22:11:24-08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "同力股份",
+          "version": "cacadc4cf8316a7ee9c4d9b396d27d6b7b0f4a7a965e3f006396786d93249b0e",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西同力重工股份有限公司董事、高级管理人员离任公告",
+              "publisher": "陕西同力重工股份有限公司",
+              "date": "2026-10-21",
+              "location": "第1页“一、董事、高级管理人员离任的基本情况”“二、合规性说明及影响”；第2页落款",
+              "retrievedAt": "2026-10-22T08:25:21+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225614149.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-df3dea0b0e5e125f5944",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "compiledAt": "2026-11-04T14:13:53+08:00",
+      "researchCutoff": "2026-10-22T08:24:29+08:00",
+      "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
+      "updateIds": [
+        "production-d9507aa0df51626036f8f49e",
+        "production-dcd91e5888149a038cbd6147"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-df3dea0b0e5e125f5944/page-01.png",
+          "width": 1080,
+          "height": 1198,
+          "sha256": "1bb1654ca078114289a988c847fb8279e6c18b960b21be9839bcd0cfdedb271b"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-03-ee461a5e0ffd",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-22",
+      "rangeEnd": "2026-10-22",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-b9729420827d6a1d7cfa",
+          "updateId": "production-d9507aa0df51626036f8f49e",
+          "version": "d9507aa0df51626036f8f49ef8afbb7eabb261ce03611d24ba99af767e01c6e3",
+          "objectName": "盘龙药业",
+          "type": "listed",
+          "category": "股份回购",
+          "date": "2026-10-22",
+          "title": "首次回购116,175股，成交金额235.50万元",
+          "business": "股份管理",
+          "share": {
+            "title": "首次回购成交235.50万元",
+            "facts": "公告，10月21日首次通过集中竞价回购116,175股，占总股本0.085%，成交235.50万元（不含交易费用），相当于1,000万元计划下限的23.55%；公司表示将在回购期限内继续实施。"
+          }
+        },
+        {
+          "eventId": "production-event-446551fedcd803a71aba",
+          "updateId": "production-dcd91e5888149a038cbd6147",
+          "version": "dcd91e5888149a038cbd6147527b624ba8b018ce25cd9ebcafe0ec10d2652d4e",
+          "objectName": "光电股份",
+          "type": "listed",
+          "category": "现金管理赎回进展",
+          "date": "2026-10-22",
+          "title": "西安子公司收回5,000万元定期存款，本息已归还募集资金专户",
+          "business": "机构理财",
+          "share": {
+            "title": "5,000万元定存到期，本息归还募集资金专户",
+            "facts": "公告，全资子公司西安北方光电科技防务有限公司于7月21日购买的5,000万元定期存款，已于10月21日到期赎回，取得收益12.5万元，本金及收益均已归还募集资金专户。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-a2d3987323a68e62abb4",
       "date": "2026-11-04",
@@ -25372,234 +25664,6 @@ window.PROTOTYPE = {
           "share": {
             "title": "首次回购成交235.50万元",
             "facts": "公告，10月21日首次通过集中竞价回购116,175股，占总股本0.085%，成交235.50万元（不含交易费用），相当于1,000万元计划下限的23.55%；公司表示将在回购期限内继续实施。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-b210c5358f2ec4a7dd16",
-      "date": "2026-10-21",
-      "cutoff": "2026-10-21T08:02:15+08:00",
-      "compiledAt": "2026-10-21T10:16:06+08:00",
-      "researchCutoff": "2026-10-21T08:02:15+08:00",
-      "sourceDiscoveryCutoff": "2026-10-21T08:02:15+08:00",
-      "updateIds": [
-        "production-ae252879488977f0f4b932c2",
-        "production-37ea0dd24a2f7acd47957b92",
-        "production-1f1ed36f0ac6326f47e9ea3a",
-        "production-f89c027c0a251a4f100d558c"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-b210c5358f2ec4a7dd16/page-01.png",
-          "width": 1080,
-          "height": 1942,
-          "sha256": "d9fe71fa1bd9fa225022bb13535a0a56d704bdf676d09c8d3b4b8f98840a8c87"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-21-90a76de0fb77",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-10-20",
-      "rangeEnd": "2026-10-21",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-61997847d92e22900916",
-          "updateId": "production-ae252879488977f0f4b932c2",
-          "version": "ae252879488977f0f4b932c2cf3da8bcf4148ccf4e43e3acbaf3d378e4a1954b",
-          "objectName": "秦川机床",
-          "type": "listed",
-          "category": "减持",
-          "date": "2026-10-21",
-          "title": "陕西产投减持计划到期未实施，持股仍为9.89%",
-          "business": "股份管理",
-          "share": {
-            "title": "减持计划届满未实施，持股仍为9.89%",
-            "facts": "陕西省产业投资有限公司减持计划于10月19日届满，期间未减持。原拟7月22日至10月19日集中竞价减持不超过10,231,458股、占总股本1%；持股比例仍为9.89%。"
-          }
-        },
-        {
-          "eventId": "production-event-bda18783f0c58f21562f",
-          "updateId": "production-37ea0dd24a2f7acd47957b92",
-          "version": "37ea0dd24a2f7acd47957b924ce9b5a368a5080facf8f6fb8afbbaaa48420cb1",
-          "objectName": "荣信文化",
-          "type": "listed",
-          "category": "减持",
-          "date": "2026-10-20",
-          "title": "一致行动人大宗交易减持11.6万股，相关计划尚未完成",
-          "business": "股份管理",
-          "share": {
-            "title": "大宗交易减持11.6万股，计划尚未完成",
-            "facts": "公告，许昌乐乐趣企业管理合伙企业（有限合伙）当日通过大宗交易减持11.6万股，占总股本0.1374%。三名一致行动人合计持股比例由36.14%降至36.00%；此次对应9月9日披露的合计减持不超过248.9742万股计划，计划尚未履行完毕。"
-          }
-        },
-        {
-          "eventId": "production-event-dd8b3efc1496cced6eb4",
-          "updateId": "production-1f1ed36f0ac6326f47e9ea3a",
-          "version": "1f1ed36f0ac6326f47e9ea3a611bd2e30bd680b9e69dab8c91ac6d5d70a7029f",
-          "objectName": "万德股份",
-          "type": "listed",
-          "category": "股权激励",
-          "date": "2026-10-20",
-          "title": "股东会通过110.4184万股限制性股票激励计划",
-          "business": "股份管理",
-          "share": {
-            "title": "110.4184万股限制性股票激励计划获通过",
-            "facts": "万德股份10月20日披露，10月19日股东会通过2026年限制性股票激励计划，拟以5.37元/股向75人一次性授予110.4184万股回购股份，无预留权益。现有材料尚不能证明实际授予、认购缴款、协议签署或股份登记完成。"
-          }
-        },
-        {
-          "eventId": "production-event-446551fedcd803a71aba",
-          "updateId": "production-f89c027c0a251a4f100d558c",
-          "version": "f89c027c0a251a4f100d558cbc3958b0e3ac98eabc79d8d964ade4fc19c0a7f9",
-          "objectName": "光电股份",
-          "type": "listed",
-          "category": "现金管理赎回进展",
-          "date": "2026-10-21",
-          "title": "湖北新华光收回募集资金现金管理本金1.6亿元，本息已归还专户",
-          "business": "机构理财",
-          "share": {
-            "title": "收回现金管理本金1.6亿元，本息归还专户",
-            "facts": "公告，控股子公司湖北新华光信息材料有限公司于10月19日、20日支取七天通知存款，收回募集资金现金管理本金1.6亿元，取得本次收益28,763.90元，本金及收益均已归还募集资金专户。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-5e824aabd16a49dafea3",
-      "date": "2026-10-21",
-      "cutoff": "2026-10-21T08:02:15+08:00",
-      "compiledAt": "2026-10-21T09:42:36+08:00",
-      "researchCutoff": "2026-10-21T08:02:15+08:00",
-      "sourceDiscoveryCutoff": "2026-10-21T08:02:15+08:00",
-      "updateIds": [
-        "production-ae252879488977f0f4b932c2",
-        "production-37ea0dd24a2f7acd47957b92",
-        "production-f89c027c0a251a4f100d558c"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-5e824aabd16a49dafea3/page-01.png",
-          "width": 1080,
-          "height": 1570,
-          "sha256": "2e6f79f91f2f06c9f5a072dd7ca730448a5ba7427b42cb0749fdcd2368fa299a"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-21-6e958c481db2",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-10-20",
-      "rangeEnd": "2026-10-21",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-61997847d92e22900916",
-          "updateId": "production-ae252879488977f0f4b932c2",
-          "version": "ae252879488977f0f4b932c2cf3da8bcf4148ccf4e43e3acbaf3d378e4a1954b",
-          "objectName": "秦川机床",
-          "type": "listed",
-          "category": "减持",
-          "date": "2026-10-21",
-          "title": "陕西产投减持计划到期未实施，持股仍为9.89%",
-          "business": "股份管理",
-          "share": {
-            "title": "减持计划届满未实施，持股仍为9.89%",
-            "facts": "陕西省产业投资有限公司减持计划于10月19日届满，期间未减持。原拟7月22日至10月19日集中竞价减持不超过10,231,458股、占总股本1%；持股比例仍为9.89%。"
-          }
-        },
-        {
-          "eventId": "production-event-bda18783f0c58f21562f",
-          "updateId": "production-37ea0dd24a2f7acd47957b92",
-          "version": "37ea0dd24a2f7acd47957b924ce9b5a368a5080facf8f6fb8afbbaaa48420cb1",
-          "objectName": "荣信文化",
-          "type": "listed",
-          "category": "减持",
-          "date": "2026-10-20",
-          "title": "一致行动人大宗交易减持11.6万股，相关计划尚未完成",
-          "business": "股份管理",
-          "share": {
-            "title": "大宗交易减持11.6万股，计划尚未完成",
-            "facts": "公告，许昌乐乐趣企业管理合伙企业（有限合伙）当日通过大宗交易减持11.6万股，占总股本0.1374%。三名一致行动人合计持股比例由36.14%降至36.00%；此次对应9月9日披露的合计减持不超过248.9742万股计划，计划尚未履行完毕。"
-          }
-        },
-        {
-          "eventId": "production-event-446551fedcd803a71aba",
-          "updateId": "production-f89c027c0a251a4f100d558c",
-          "version": "f89c027c0a251a4f100d558cbc3958b0e3ac98eabc79d8d964ade4fc19c0a7f9",
-          "objectName": "光电股份",
-          "type": "listed",
-          "category": "现金管理赎回进展",
-          "date": "2026-10-21",
-          "title": "湖北新华光收回募集资金现金管理本金1.6亿元，本息已归还专户",
-          "business": "机构理财",
-          "share": {
-            "title": "收回现金管理本金1.6亿元，本息归还专户",
-            "facts": "公告，控股子公司湖北新华光信息材料有限公司于10月19日、20日支取七天通知存款，收回募集资金现金管理本金1.6亿元，取得本次收益28,763.90元，本金及收益均已归还募集资金专户。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-db621a73cf5f169d7387",
-      "date": "2026-10-21",
-      "cutoff": "2026-10-21T08:02:15+08:00",
-      "compiledAt": "2026-10-21T09:34:18+08:00",
-      "researchCutoff": "2026-10-21T08:02:15+08:00",
-      "sourceDiscoveryCutoff": "2026-10-21T08:02:15+08:00",
-      "updateIds": [
-        "production-ae252879488977f0f4b932c2",
-        "production-f89c027c0a251a4f100d558c"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-db621a73cf5f169d7387/page-01.png",
-          "width": 1080,
-          "height": 1198,
-          "sha256": "60dc61e314a1922ee49b781e7e30c90b0946a9b6c0df11508aa025b48b96eefe"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-21-debaf6272fa1",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-10-21",
-      "rangeEnd": "2026-10-21",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-61997847d92e22900916",
-          "updateId": "production-ae252879488977f0f4b932c2",
-          "version": "ae252879488977f0f4b932c2cf3da8bcf4148ccf4e43e3acbaf3d378e4a1954b",
-          "objectName": "秦川机床",
-          "type": "listed",
-          "category": "减持",
-          "date": "2026-10-21",
-          "title": "陕西产投减持计划到期未实施，持股仍为9.89%",
-          "business": "股份管理",
-          "share": {
-            "title": "减持计划届满未实施，持股仍为9.89%",
-            "facts": "陕西省产业投资有限公司减持计划于10月19日届满，期间未减持。原拟7月22日至10月19日集中竞价减持不超过10,231,458股、占总股本1%；持股比例仍为9.89%。"
-          }
-        },
-        {
-          "eventId": "production-event-446551fedcd803a71aba",
-          "updateId": "production-f89c027c0a251a4f100d558c",
-          "version": "f89c027c0a251a4f100d558cbc3958b0e3ac98eabc79d8d964ade4fc19c0a7f9",
-          "objectName": "光电股份",
-          "type": "listed",
-          "category": "现金管理赎回进展",
-          "date": "2026-10-21",
-          "title": "湖北新华光收回募集资金现金管理本金1.6亿元，本息已归还专户",
-          "business": "机构理财",
-          "share": {
-            "title": "收回现金管理本金1.6亿元，本息归还专户",
-            "facts": "公告，控股子公司湖北新华光信息材料有限公司于10月19日、20日支取七天通知存款，收回募集资金现金管理本金1.6亿元，取得本次收益28,763.90元，本金及收益均已归还募集资金专户。"
           }
         }
       ]
@@ -26304,6 +26368,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "d5b5122d1cfb6024a9ec",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-03T22:01:45-08:00",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "snapshotUrl": "publications/d5b5122d1cfb6024a9ec/index.html",
+      "publishedAt": "2026-11-04T14:06:47+08:00"
+    },
     {
       "id": "f4a0b8a7bf5c4f13cd02",
       "date": "2026-10-23",
