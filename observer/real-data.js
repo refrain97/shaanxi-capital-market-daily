@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-10-22-47fd741677ec",
-      "compiledAt": "2026-10-22T10:25:05+08:00",
+      "id": "2026-11-03-0c78ffddbe49",
+      "compiledAt": "2026-11-03T22:01:45-08:00",
       "cutoff": "2026-10-22T08:24:29+08:00",
       "windowStart": "2026-10-20",
       "windowEnd": "2026-10-22",
@@ -20,7 +20,9 @@ window.PROTOTYPE = {
         "production-b8b3204770a7e290ee35a80e",
         "production-a101f6d9895d95bd4a2ea675",
         "production-8d5442cfa5d9e0b706c6c63e",
+        "production-8a75c9fc7e0fbf2f8413461a",
         "production-77a3b73a55aa940f35982eca",
+        "production-6da053ada00a87d56efc7538",
         "production-69f7e4d0aab958a907dcc859",
         "production-4b657d557c60a615404bbe16",
         "production-4279d42d0a89c03cf0bd327a",
@@ -226,7 +228,9 @@ window.PROTOTYPE = {
       "production-8d5442cfa5d9e0b706c6c63e": "2026-10-22T10:12:48+08:00",
       "production-304048e360f797cb3318559b": "2026-10-22T10:12:48+08:00",
       "production-276d767411daa620d8c503bd": "2026-10-22T10:25:04+08:00",
-      "production-77a3b73a55aa940f35982eca": "2026-10-22T10:25:04+08:00"
+      "production-77a3b73a55aa940f35982eca": "2026-10-22T10:25:04+08:00",
+      "production-6da053ada00a87d56efc7538": "2026-11-03T21:58:03-08:00",
+      "production-8a75c9fc7e0fbf2f8413461a": "2026-11-03T22:01:45-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1451,6 +1455,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "中国西电于2026年10月22日披露三季报：前三季度营业收入1,879,119.44万元，同比增长10.80%；归母净利润115,391.59万元，同比增长22.95%。第三季度归母净利润46,584.78万元，同比增长36.88%；上述金额均为人民币，财务报表未经审计。"
+        },
+        "production-6da053ada00a87d56efc7538": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西美邦药业集团股份有限公司于2026年10月22日披露2026年第三季度报告，该报告已于10月20日获第三届董事会第十五次会议以9票赞成、0票反对、0票弃权审议通过。第三季度财务报表未经审计。"
+        },
+        "production-8a75c9fc7e0fbf2f8413461a": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安国际医学投资股份有限公司于2026年10月22日披露第三季度报告，前三季度营业收入约30.81亿元，同比增长2.86%；归属于上市公司股东的净亏损约7038.52万元，同比收窄76.03%。第三季度财务会计报告未经审计。"
         }
       }
     },
@@ -1459,9 +1477,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-10-22-47fd741677ec",
-      "editionId": "selection-ab460ab65a056ae1a1e1",
+      "status": "committed",
+      "sourceEditionId": "2026-11-03-0c78ffddbe49",
+      "editionId": "selection-a2d3987323a68e62abb4",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -25010,6 +25028,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-23T08:03:05+08:00",
           "updatedAt": "2026-10-22T10:25:04+08:00",
           "compiledAt": "2026-10-22T10:25:04+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -25055,6 +25074,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-23T08:03:05+08:00",
           "updatedAt": "2026-10-22T10:25:05+08:00",
           "compiledAt": "2026-10-22T10:25:05+08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -25080,9 +25100,150 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-5d07e2fc71a7da8e1359",
+      "objectId": "listed-605033-sh",
+      "type": "定期报告审议及披露",
+      "topics": [
+        "第三季度报告"
+      ],
+      "updates": [
+        {
+          "id": "production-6da053ada00a87d56efc7538",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "披露2026年第三季度报告，董事会已审议通过",
+          "summary": "陕西美邦药业集团股份有限公司于2026年10月22日披露2026年第三季度报告，该报告已于10月20日获第三届董事会第十五次会议以9票赞成、0票反对、0票弃权审议通过。第三季度财务报表未经审计。",
+          "stage": "2026年10月20日董事会审议通过，季度报告已披露",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T21:58:03-08:00",
+          "compiledAt": "2026-11-03T21:58:03-08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "美邦股份",
+          "version": "6da053ada00a87d56efc7538537f73ef323eff436378f8f93583fa5eecce2d46",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西美邦药业集团股份有限公司2026年第三季度报告",
+              "publisher": "陕西美邦药业集团股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页：报告名称及审计状态",
+              "retrievedAt": "2026-10-22T08:25:02+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613672.PDF"
+            },
+            {
+              "title": "陕西美邦药业集团股份有限公司第三届董事会第十五次会议决议公告",
+              "publisher": "陕西美邦药业集团股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页：会议召开情况；第2页：第二项议案及表决结果。公告落款日期为2026年10月21日",
+              "retrievedAt": "2026-10-22T08:25:02+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613671.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-df94c339fa5a245fc4ad",
+      "objectId": "listed-000516-sz",
+      "type": "定期报告披露",
+      "topics": [
+        "2026年第三季度报告",
+        "业绩披露"
+      ],
+      "updates": [
+        {
+          "id": "production-8a75c9fc7e0fbf2f8413461a",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "前三季度归母净亏损约7038.52万元，同比收窄76.03%",
+          "summary": "西安国际医学投资股份有限公司于2026年10月22日披露第三季度报告，前三季度营业收入约30.81亿元，同比增长2.86%；归属于上市公司股东的净亏损约7038.52万元，同比收窄76.03%。第三季度财务会计报告未经审计。",
+          "stage": "第三季度报告已披露，财务会计报告未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-03T22:01:45-08:00",
+          "compiledAt": "2026-11-03T22:01:45-08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "国际医学",
+          "version": "8a75c9fc7e0fbf2f8413461a7d3769964704971c20fd535b87d9eccf8ca5014b",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安国际医学投资股份有限公司2026年第三季度报告",
+              "publisher": "西安国际医学投资股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页报告名称、第2页主要会计数据和财务指标、第10页审计报告及落款",
+              "retrievedAt": "2026-10-22T08:24:36+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613968.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-a2d3987323a68e62abb4",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "compiledAt": "2026-11-04T14:04:21+08:00",
+      "researchCutoff": "2026-10-22T08:24:29+08:00",
+      "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
+      "updateIds": [
+        "production-d9507aa0df51626036f8f49e"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-a2d3987323a68e62abb4/page-01.png",
+          "width": 1080,
+          "height": 800,
+          "sha256": "1bfba81814812234615aa00e79f48f5c795e89873bd53b1f00c46b30bbbc5224"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-03-0c78ffddbe49",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-22",
+      "rangeEnd": "2026-10-22",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-b9729420827d6a1d7cfa",
+          "updateId": "production-d9507aa0df51626036f8f49e",
+          "version": "d9507aa0df51626036f8f49ef8afbb7eabb261ce03611d24ba99af767e01c6e3",
+          "objectName": "盘龙药业",
+          "type": "listed",
+          "category": "股份回购",
+          "date": "2026-10-22",
+          "title": "首次回购116,175股，成交金额235.50万元",
+          "business": "股份管理",
+          "share": {
+            "title": "首次回购成交235.50万元",
+            "facts": "公告，10月21日首次通过集中竞价回购116,175股，占总股本0.085%，成交235.50万元（不含交易费用），相当于1,000万元计划下限的23.55%；公司表示将在回购期限内继续实施。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-ab460ab65a056ae1a1e1",
       "date": "2026-10-22",
@@ -26143,6 +26304,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "f4a0b8a7bf5c4f13cd02",
+      "date": "2026-10-23",
+      "compiledAt": "2026-10-22T10:25:05+08:00",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "snapshotUrl": "publications/f4a0b8a7bf5c4f13cd02/index.html",
+      "publishedAt": "2026-10-23T08:03:05+08:00"
+    },
     {
       "id": "e3b0658b17ff32567a27",
       "date": "2026-10-22",

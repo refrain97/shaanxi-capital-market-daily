@@ -154,7 +154,10 @@
     const p=production||{},coverage=D.meta.discoveryCoverage;
     const s=D.meta.shareStatus,current=s?.sourceEditionId===p.id;
     const shareText=current&&s.status==='no_eligible_highlights'?'本期暂无可入图新重点':current&&['pending_retry','share_failed'].includes(s.status)?'本期图片待完成':current&&['committed','reused'].includes(s.status)&&s.selectionMode==='current'?'本期精选已导出':'历史精选可回看';
-    return `<div class="reading-notice"><span>${coverage?'最近全方向查询范围':'本期资料范围'} ${fmt(coverage?.windowStart||p.windowStart)}—${fmt(coverage?.windowEnd||p.windowEnd)}${coverage?.partial?' · 来源覆盖有缺口':''} · 已核内容陆续更新</span>${publicOutput?'':'<a href="#review">核查与覆盖记录 ↗</a>'}<span class="small muted">${p.status==='public'?'':'本地预览 · 未公开 · '}${shareText}</span></div>`;
+    const cutoff=coverage?.cutoff||p.sourceDiscoveryCutoff||p.cutoff;
+    const age=cutoff?Date.now()-Date.parse(cutoff):NaN;
+    const freshness=Number.isFinite(age)&&age>48*60*60*1000?'资料更新存在延迟，近期动态尚待补齐':'已核内容按原资料日期呈现';
+    return `<div class="reading-notice"><span>${coverage?'最近全方向查询范围':'本期资料范围'} ${fmt(coverage?.windowStart||p.windowStart)}—${fmt(coverage?.windowEnd||p.windowEnd)}${coverage?.partial?' · 来源覆盖有缺口':''} · ${freshness}</span>${publicOutput?'':'<a href="#review">核查与覆盖记录 ↗</a>'}<span class="small muted">${p.status==='public'?'':'本地预览 · 未公开 · '}${shareText}</span></div>`;
   }
   function hasTopic(event,topic) { const tags=event.topics||[]; return tags.includes(topic)||(topic==='并购'&&tags.includes('并购重组'))||(topic==='股权融资'&&['股权融资','企业股权融资','陕西企业股权融资'].includes(event.type)); }
   function applyFilter(list) { const f = pageState().filter; if (f==='全部'||f==='全部动态') return list; return list.filter(u=>u.reading?.group===f||u.event.type===f||types[u.object.type]===f||hasTopic(u.event,f)); }
