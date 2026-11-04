@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-25e6d0bc3f58",
-      "compiledAt": "2026-11-04T03:31:18-08:00",
+      "id": "2026-11-04-72480d7be436",
+      "compiledAt": "2026-11-04T03:45:19-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -40,6 +40,7 @@ window.PROTOTYPE = {
         "production-35e86d3c86079f1b05425452",
         "production-2433d62b0a62de14de27f816",
         "production-0d0e7919d79dc24dfbe58400",
+        "production-08637df62c133e717152fbaf",
         "production-7d91d336fddff6cf46afd3fa"
       ],
       "status": "public",
@@ -271,7 +272,8 @@ window.PROTOTYPE = {
       "production-e92f5a43661279c797772c52": "2026-11-04T03:04:29-08:00",
       "production-4111dfb3ed113bbbf817f56b": "2026-11-04T03:22:17-08:00",
       "production-38837150a87328d45b59a38e": "2026-11-04T03:31:17-08:00",
-      "production-d45db36f552a0e09bb477f27": "2026-11-04T03:31:17-08:00"
+      "production-d45db36f552a0e09bb477f27": "2026-11-04T03:31:17-08:00",
+      "production-08637df62c133e717152fbaf": "2026-11-04T03:45:18-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1736,6 +1738,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "中熔电气2026年10月27日披露的第三季度报告显示，公司本年赛诺克项目持续建设，产线安装设备增加。报告期末公司在建工程余额为22,694.29万元，该金额为公司整体口径，报告未单列赛诺克项目金额。"
+        },
+        "production-08637df62c133e717152fbaf": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西莱特光电材料股份有限公司于2026年10月27日披露未经审计的第三季度报告：第三季度营业收入176,444,247.25元，同比增长34.42%，归母净利润60,450,914.11元，同比增长13.22%。前三季度营业收入483,081,790.96元，同比增长14.19%，归母净利润170,477,580.41元，同比下降5.22%；上述金额均为人民币。"
         }
       }
     },
@@ -1745,8 +1754,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-04-25e6d0bc3f58",
-      "editionId": "selection-cab53777cf8b55dba2aa",
+      "sourceEditionId": "2026-11-04-72480d7be436",
+      "editionId": "selection-b5255d5effb66177f06b",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -27676,6 +27685,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T19:39:24+08:00",
           "updatedAt": "2026-11-04T03:31:17-08:00",
           "compiledAt": "2026-11-04T03:31:17-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -27722,6 +27732,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T19:39:24+08:00",
           "updatedAt": "2026-11-04T03:31:17-08:00",
           "compiledAt": "2026-11-04T03:31:17-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -27747,9 +27758,146 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-c4ad9e1668297713f8ae",
+      "objectId": "listed-688150-sh",
+      "type": "定期报告披露",
+      "topics": [
+        "2026年第三季度业绩",
+        "未经审计财务数据"
+      ],
+      "updates": [
+        {
+          "id": "production-08637df62c133e717152fbaf",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "第三季度营收增长34.42%，前三季度归母净利润下降5.22%",
+          "summary": "陕西莱特光电材料股份有限公司于2026年10月27日披露未经审计的第三季度报告：第三季度营业收入176,444,247.25元，同比增长34.42%，归母净利润60,450,914.11元，同比增长13.22%。前三季度营业收入483,081,790.96元，同比增长14.19%，归母净利润170,477,580.41元，同比下降5.22%；上述金额均为人民币。",
+          "stage": "披露2026年第三季度报告，财务报表未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T03:45:18-08:00",
+          "compiledAt": "2026-11-04T03:45:18-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "莱特光电",
+          "version": "08637df62c133e717152fbaf40cf575ff223227e5404a25b3755dd09599de2f7",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西莱特光电材料股份有限公司2026年第三季度报告",
+              "publisher": "陕西莱特光电材料股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页主要会计数据及审计标识；第2页报告期间注释；第12页落款日期为2026年10月26日",
+              "retrievedAt": "2026-11-04T14:24:32+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225626171.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-b5255d5effb66177f06b",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T19:47:51+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-a7387fc29a61a56e97783a85",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-b5255d5effb66177f06b/page-01.png",
+          "width": 1080,
+          "height": 2102,
+          "sha256": "8573361c9da7b547f23bdcdf7b1d3e54c3ad02df784ea35bb8b39d9c221baa3b"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-72480d7be436",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-cab53777cf8b55dba2aa",
       "date": "2026-11-04",
@@ -29578,6 +29726,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "59f50d6a5623534e6c11",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T03:31:18-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/59f50d6a5623534e6c11/index.html",
+      "publishedAt": "2026-11-04T19:39:24+08:00"
+    },
     {
       "id": "1795ba216947e9f3b4c0",
       "date": "2026-11-04",
