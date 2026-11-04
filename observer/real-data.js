@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-72480d7be436",
-      "compiledAt": "2026-11-04T03:45:19-08:00",
+      "id": "2026-11-04-7617c630d1da",
+      "compiledAt": "2026-11-04T03:52:06-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -38,6 +38,7 @@ window.PROTOTYPE = {
         "production-3a5220aee8226bdddaebbeb3",
         "production-38837150a87328d45b59a38e",
         "production-35e86d3c86079f1b05425452",
+        "production-2ff84e16e679813411250572",
         "production-2433d62b0a62de14de27f816",
         "production-0d0e7919d79dc24dfbe58400",
         "production-08637df62c133e717152fbaf",
@@ -273,7 +274,8 @@ window.PROTOTYPE = {
       "production-4111dfb3ed113bbbf817f56b": "2026-11-04T03:22:17-08:00",
       "production-38837150a87328d45b59a38e": "2026-11-04T03:31:17-08:00",
       "production-d45db36f552a0e09bb477f27": "2026-11-04T03:31:17-08:00",
-      "production-08637df62c133e717152fbaf": "2026-11-04T03:45:18-08:00"
+      "production-08637df62c133e717152fbaf": "2026-11-04T03:45:18-08:00",
+      "production-2ff84e16e679813411250572": "2026-11-04T03:52:05-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1745,6 +1747,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西莱特光电材料股份有限公司于2026年10月27日披露未经审计的第三季度报告：第三季度营业收入176,444,247.25元，同比增长34.42%，归母净利润60,450,914.11元，同比增长13.22%。前三季度营业收入483,081,790.96元，同比增长14.19%，归母净利润170,477,580.41元，同比下降5.22%；上述金额均为人民币。"
+        },
+        "production-2ff84e16e679813411250572": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "通源石油2026年10月27日披露的三季报显示，公司此前中标的阿尔及利亚EPF和天然气压缩机项目，披露合同金额为8.97亿元人民币，截至报告披露仍未签署正式合同。公司提示，合同签署及执行可能受政策、市场、业主方筹资等因素影响，签署及实施进度、效果均存在不确定性。"
         }
       }
     },
@@ -1754,8 +1763,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-04-72480d7be436",
-      "editionId": "selection-b5255d5effb66177f06b",
+      "sourceEditionId": "2026-11-04-7617c630d1da",
+      "editionId": "selection-2aa40bfdf794d8ef4139",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -4491,6 +4500,18 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-300164-sz",
+      "type": "listed",
+      "name": "通源石油",
+      "code": "300164.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000721-sz",
       "type": "listed",
       "name": "西安饮食",
@@ -4534,19 +4555,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "中天火箭",
       "code": "003009.SZ",
-      "market": "SZ",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-300164-sz",
-      "type": "listed",
-      "name": "通源石油",
-      "code": "300164.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -27778,6 +27786,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T19:50:19+08:00",
           "updatedAt": "2026-11-04T03:45:18-08:00",
           "compiledAt": "2026-11-04T03:45:18-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -27803,9 +27812,147 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-b876c260d9b07c2235a1",
+      "objectId": "listed-300164-sz",
+      "type": "中标项目签约风险提示",
+      "topics": [
+        "阿尔及利亚",
+        "EPF和天然气压缩机项目",
+        "尚未签署正式合同"
+      ],
+      "updates": [
+        {
+          "id": "production-2ff84e16e679813411250572",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "阿尔及利亚EPF和天然气压缩机项目尚未签署正式合同",
+          "summary": "通源石油2026年10月27日披露的三季报显示，公司此前中标的阿尔及利亚EPF和天然气压缩机项目，披露合同金额为8.97亿元人民币，截至报告披露仍未签署正式合同。公司提示，合同签署及执行可能受政策、市场、业主方筹资等因素影响，签署及实施进度、效果均存在不确定性。",
+          "stage": "既有中标项目截至报告披露仍未签署正式合同",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T03:52:05-08:00",
+          "compiledAt": "2026-11-04T03:52:05-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "通源石油",
+          "version": "2ff84e16e6798134112505729e5466a201bb38fd78c9b3996403fe8d7ab73a79",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "通源石油科技集团股份有限公司2026年第三季度报告",
+              "publisher": "通源石油科技集团股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第7页“三、其他重要事项”；第13页落款",
+              "retrievedAt": "2026-11-04T14:24:00+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225624721.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-2aa40bfdf794d8ef4139",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T20:02:43+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-a7387fc29a61a56e97783a85",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-2aa40bfdf794d8ef4139/page-01.png",
+          "width": 1080,
+          "height": 2102,
+          "sha256": "8573361c9da7b547f23bdcdf7b1d3e54c3ad02df784ea35bb8b39d9c221baa3b"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-7617c630d1da",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-b5255d5effb66177f06b",
       "date": "2026-11-04",
@@ -29726,6 +29873,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "e90973a2fcac335b40e0",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T03:45:19-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/e90973a2fcac335b40e0/index.html",
+      "publishedAt": "2026-11-04T19:50:19+08:00"
+    },
     {
       "id": "59f50d6a5623534e6c11",
       "date": "2026-11-04",
