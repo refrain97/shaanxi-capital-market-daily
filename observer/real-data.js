@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-5cf5b9df174b",
-      "compiledAt": "2026-11-04T02:50:40-08:00",
+      "id": "2026-11-04-bd4ea0ab7b4f",
+      "compiledAt": "2026-11-04T03:22:18-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -17,6 +17,7 @@ window.PROTOTYPE = {
         "production-f81270e62613b4ff7c2ed5bf",
         "production-f6d64af72d32d3fedc2cdfee",
         "production-f5f12bc06521d80e20b5d085",
+        "production-e92f5a43661279c797772c52",
         "production-dd9f6e3cfe5c47bc7df9d75a",
         "production-cda17b0ad54085d1212cc390",
         "production-cb5dcdd9e7dd4105fd380a5f",
@@ -31,6 +32,8 @@ window.PROTOTYPE = {
         "production-6680fd3c4d8b003c6326c346",
         "production-5d273cf3a0c2438eb7494f40",
         "production-4374316e5de52764e167aa8c",
+        "production-4111dfb3ed113bbbf817f56b",
+        "production-3f5843fba3ac0a13c036d3d8",
         "production-3a5220aee8226bdddaebbeb3",
         "production-35e86d3c86079f1b05425452",
         "production-2433d62b0a62de14de27f816",
@@ -261,7 +264,10 @@ window.PROTOTYPE = {
       "production-7d91d336fddff6cf46afd3fa": "2026-11-04T02:24:20-08:00",
       "production-b8cb87be78710915b6d8267f": "2026-11-04T02:25:29-08:00",
       "production-f5f12bc06521d80e20b5d085": "2026-11-04T02:43:07-08:00",
-      "production-9963374367866ff1e689a477": "2026-11-04T02:50:39-08:00"
+      "production-9963374367866ff1e689a477": "2026-11-04T02:50:39-08:00",
+      "production-3f5843fba3ac0a13c036d3d8": "2026-11-04T03:04:29-08:00",
+      "production-e92f5a43661279c797772c52": "2026-11-04T03:04:29-08:00",
+      "production-4111dfb3ed113bbbf817f56b": "2026-11-04T03:22:17-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1691,6 +1697,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安环球印务股份有限公司2026年10月27日披露，公司董事会于10月26日以7票同意、0票反对、0票弃权审议通过2026年第三季度报告。公司第三季度财务会计报告未经审计。"
+        },
+        "production-3f5843fba3ac0a13c036d3d8": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "环球印务2026年10月27日披露，董事会于10月26日审议通过董事、高级管理人员及其他班子成员2024—2025年任期经营业绩考核与激励兑现方案，关联董事回避后以4票同意、0票反对、0票弃权通过。该议案尚需提交拟于11月11日召开的股东会审议，本次原件未披露具体兑现金额。"
+        },
+        "production-e92f5a43661279c797772c52": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西华达2026年10月27日披露，10月26日召开的2026年第二次临时股东会审议通过部分募投项目结项并将节余募集资金永久补充流动资金的议案。本次决议公告及配套法律意见书未列明补流金额，也未披露资金已转出或补流完成。"
+        },
+        "production-4111dfb3ed113bbbf817f56b": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西省天然气股份有限公司于2026年10月27日披露2026年第三季度报告，该报告已于10月23日经第七届董事会第四次会议审议通过。公司第三季度财务会计报告未经审计。"
         }
       }
     },
@@ -1700,8 +1727,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-04-5cf5b9df174b",
-      "editionId": "selection-040baea1fcb077a91ed3",
+      "sourceEditionId": "2026-11-04-bd4ea0ab7b4f",
+      "editionId": "selection-fa62b03db423ded7d55b",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -27412,6 +27439,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T18:59:05+08:00",
           "updatedAt": "2026-11-04T02:50:39-08:00",
           "compiledAt": "2026-11-04T02:50:39-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -27445,9 +27473,355 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-f5d41270e3e418a831ef",
+      "objectId": "listed-002799-sz",
+      "type": "任期考核及薪酬激励兑现方案",
+      "topics": [
+        "2024—2025年任期考核",
+        "任期激励兑现",
+        "关联董事回避"
+      ],
+      "updates": [
+        {
+          "id": "production-3f5843fba3ac0a13c036d3d8",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "董事会通过2024—2025年任期考核及激励兑现方案",
+          "summary": "环球印务2026年10月27日披露，董事会于10月26日审议通过董事、高级管理人员及其他班子成员2024—2025年任期经营业绩考核与激励兑现方案，关联董事回避后以4票同意、0票反对、0票弃权通过。该议案尚需提交拟于11月11日召开的股东会审议，本次原件未披露具体兑现金额。",
+          "stage": "董事会审议通过，尚需股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。本次两份原件未披露具体兑现金额；不影响说明本次审议进展。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T03:04:29-08:00",
+          "compiledAt": "2026-11-04T03:04:29-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "环球印务",
+          "version": "3f5843fba3ac0a13c036d3d8845ce6e85f4e5e9a31c0c96d19254930d96b1b95",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第六届董事会第二十次会议决议公告",
+              "publisher": "西安环球印务股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页会议召开情况、第2页议案4",
+              "retrievedAt": "2026-11-04T14:23:56+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225625671.PDF"
+            },
+            {
+              "title": "关于召开2026年第一次临时股东会的通知",
+              "publisher": "西安环球印务股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页会议时间、第2页提案3.00",
+              "retrievedAt": "2026-11-04T14:23:55+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225625672.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-9d15ec51504b458985fb",
+      "objectId": "listed-301517-sz",
+      "type": "募投项目结项及节余募集资金永久补流",
+      "topics": [
+        "部分募投项目结项",
+        "节余募集资金永久补充流动资金",
+        "股东会审议通过"
+      ],
+      "updates": [
+        {
+          "id": "production-e92f5a43661279c797772c52",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "股东会通过部分募投项目结项及节余募集资金永久补流议案",
+          "summary": "陕西华达2026年10月27日披露，10月26日召开的2026年第二次临时股东会审议通过部分募投项目结项并将节余募集资金永久补充流动资金的议案。本次决议公告及配套法律意见书未列明补流金额，也未披露资金已转出或补流完成。",
+          "stage": "2026年10月26日第二次临时股东会审议通过结项补流议案",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。本次两份原件未列明补流金额，未披露资金转出或补流完成情况；短记仅记录股东会批准阶段。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T03:04:30-08:00",
+          "compiledAt": "2026-11-04T03:04:30-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西华达",
+          "version": "e92f5a43661279c797772c5299ba3c526b567fe682cd1c7980fc4b810b1394ce",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年第二次临时股东会决议公告",
+              "publisher": "陕西华达科技股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页会议召开情况、第3页提案审议表决情况",
+              "retrievedAt": "2026-11-04T14:24:12+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225626109.PDF"
+            },
+            {
+              "title": "北京金诚同达（西安）律师事务所关于陕西华达科技股份有限公司2026年第二次临时股东会的法律意见书",
+              "publisher": "北京金诚同达（西安）律师事务所",
+              "date": "2026-10-27",
+              "location": "物理第6页表决结果",
+              "retrievedAt": "2026-11-04T14:24:12+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225626110.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-72615d3db2c089c2690d",
+      "objectId": "listed-002267-sz",
+      "type": "定期报告审议及披露",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议",
+        "未经审计"
+      ],
+      "updates": [
+        {
+          "id": "production-4111dfb3ed113bbbf817f56b",
+          "date": "2026-10-27",
+          "time": "",
+          "title": "披露2026年第三季度报告，已获董事会审议通过",
+          "summary": "陕西省天然气股份有限公司于2026年10月27日披露2026年第三季度报告，该报告已于10月23日经第七届董事会第四次会议审议通过。公司第三季度财务会计报告未经审计。",
+          "stage": "2026年10月23日董事会审议通过，2026年10月27日披露；第三季度财务会计报告未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T03:22:17-08:00",
+          "compiledAt": "2026-11-04T03:22:17-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕天然气",
+          "version": "4111dfb3ed113bbbf817f56bfc3e5931a0d9da40e25ccf6a56d748a59a2a7720",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第七届董事会第四次会议决议公告",
+              "publisher": "陕西省天然气股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页，会议召开情况及第三季度报告议案",
+              "retrievedAt": "2026-11-04T14:23:53+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225625262.PDF"
+            },
+            {
+              "title": "2026年第三季度报告",
+              "publisher": "陕西省天然气股份有限公司",
+              "date": "2026-10-27",
+              "location": "物理第1页，报告名称；物理第12页，审计报告及落款",
+              "retrievedAt": "2026-11-04T14:23:53+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-27/1225625260.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-fa62b03db423ded7d55b",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T19:22:19+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-a7387fc29a61a56e97783a85",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-fa62b03db423ded7d55b/page-01.png",
+          "width": 1080,
+          "height": 2102,
+          "sha256": "8573361c9da7b547f23bdcdf7b1d3e54c3ad02df784ea35bb8b39d9c221baa3b"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-bd4ea0ab7b4f",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "selection-e7770e80104434596291",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T19:11:18+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-a7387fc29a61a56e97783a85",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-e7770e80104434596291/page-01.png",
+          "width": 1080,
+          "height": 2102,
+          "sha256": "8573361c9da7b547f23bdcdf7b1d3e54c3ad02df784ea35bb8b39d9c221baa3b"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-8cc5a9cc999d",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-040baea1fcb077a91ed3",
       "date": "2026-11-04",
@@ -29000,6 +29374,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "9d1aa7f82ec760b9f4c0",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T02:50:40-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/9d1aa7f82ec760b9f4c0/index.html",
+      "publishedAt": "2026-11-04T18:59:05+08:00"
+    },
     {
       "id": "6d08eaee63f18c3eed2f",
       "date": "2026-11-04",
