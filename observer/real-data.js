@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-7e11329a3be6",
-      "compiledAt": "2026-11-04T06:33:36-08:00",
+      "id": "2026-11-04-d0212987de60",
+      "compiledAt": "2026-11-04T06:49:28-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -53,14 +53,18 @@ window.PROTOTYPE = {
         "production-82fac279f6e6f1050990b31e",
         "production-6511cb33c2e09ca18b6fc407",
         "production-03ad256b5ea60149555fffa6",
+        "production-d68264772c317bc2ebc4d629",
+        "production-d34f2d6228095488f0dafc8e",
         "production-b5070f9062323edb41f98cb2",
         "production-8739c2f403c6973f8108f1d0",
+        "production-7d7f03d8bc6acbcc745e1970",
         "production-7c1ca1ebe676a041eac37e44",
         "production-5fd8d12ff90d654e0694ed00",
         "production-597fbd19172dec08268f2a20",
         "production-4730bc2e36b4451431d2b953",
         "production-33a5eebc677fa8640e3f2df5",
         "production-31c89b730d576c9aa12672b0",
+        "production-30b7874787b38220c6afb78f",
         "production-29cc1823b3230cf3cc8e24d0",
         "production-13995227879e82a52d84257c",
         "production-e7a5cfcc56bb57c93dd65150",
@@ -319,7 +323,11 @@ window.PROTOTYPE = {
       "production-597fbd19172dec08268f2a20": "2026-11-04T06:17:23-08:00",
       "production-33a5eebc677fa8640e3f2df5": "2026-11-04T06:17:23-08:00",
       "production-b5070f9062323edb41f98cb2": "2026-11-04T06:33:34-08:00",
-      "production-8739c2f403c6973f8108f1d0": "2026-11-04T06:33:34-08:00"
+      "production-8739c2f403c6973f8108f1d0": "2026-11-04T06:33:34-08:00",
+      "production-30b7874787b38220c6afb78f": "2026-11-04T06:46:26-08:00",
+      "production-d68264772c317bc2ebc4d629": "2026-11-04T06:46:26-08:00",
+      "production-d34f2d6228095488f0dafc8e": "2026-11-04T06:49:27-08:00",
+      "production-7d7f03d8bc6acbcc745e1970": "2026-11-04T06:49:27-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1948,6 +1956,34 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西中天火箭技术股份有限公司2026年10月24日披露的第三季度报告显示，截至2026年9月30日，应付债券余额为0.00元，期初为491,124,335.78元，公司将该项减少主要归因于本期可转债提前赎回。该报告未经审计，未披露具体赎回日期及现金兑付明细。"
+        },
+        "production-30b7874787b38220c6afb78f": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安爱科赛博电气股份有限公司于2026年10月24日披露未经审计的第三季度报告，第三季度归母净利润为人民币5,387,981.52元。前三季度营业收入为人民币702,889,979.23元，同比增长15.59%；归母净利润为人民币-11,442,601.45元，累计仍亏损。"
+        },
+        "production-d68264772c317bc2ebc4d629": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安旅游股份有限公司于2026年10月24日披露第三季度报告，前三季度营业收入为334,106,204.99元，同比下降12.02%；归母净利润为-79,170,708.25元。公司第三季度财务会计报告未经审计。"
+        },
+        "production-d34f2d6228095488f0dafc8e": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安饮食2026年10月24日披露三季报，前三季度营业收入370,988,274.78元，同比下降14.05%；归属于上市公司股东的净利润为-55,815,174.49元，同比减亏34.12%。该季度财务会计报告未经审计。"
+        },
+        "production-7d7f03d8bc6acbcc745e1970": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安饮食2026年10月24日披露的三季报显示，年初至报告期末确认拆迁安置补偿款；截至9月30日，其他应收款为26,523,873.48元，较上年末增加135.62%，主要原因是应收拆迁安置补偿款增加。报告未单列本次补偿款的确认金额及收款进度。"
         }
       }
     },
@@ -1957,8 +1993,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-04-7e11329a3be6",
-      "editionId": "selection-7250e15b55eaf6d0a9ab",
+      "sourceEditionId": "2026-11-04-d0212987de60",
+      "editionId": "selection-f59b463a3651bb658101",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -4739,8 +4775,7 @@ window.PROTOTYPE = {
       "rosterTier": "L1",
       "rosterCategory": "陕西辖区A股",
       "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
       "id": "listed-000768-sz",
@@ -29549,6 +29584,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T22:44:54+08:00",
           "updatedAt": "2026-11-04T06:33:34-08:00",
           "compiledAt": "2026-11-04T06:33:34-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -29602,6 +29638,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。本报告未披露具体赎回日期及现金兑付明细；应付债券账面余额的减少不能直接作为现金赎回金额。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T22:44:54+08:00",
           "updatedAt": "2026-11-04T06:33:35-08:00",
           "compiledAt": "2026-11-04T06:33:35-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -29627,9 +29664,334 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-4e4098791993857d8d3a",
+      "objectId": "listed-688719-sh",
+      "type": "季度业绩",
+      "topics": [
+        "单季归母净利润扭亏",
+        "前三季度累计亏损"
+      ],
+      "updates": [
+        {
+          "id": "production-30b7874787b38220c6afb78f",
+          "date": "2026-10-24",
+          "time": "",
+          "title": "第三季度归母净利润为正，前三季度仍亏损",
+          "summary": "西安爱科赛博电气股份有限公司于2026年10月24日披露未经审计的第三季度报告，第三季度归母净利润为人民币5,387,981.52元。前三季度营业收入为人民币702,889,979.23元，同比增长15.59%；归母净利润为人民币-11,442,601.45元，累计仍亏损。",
+          "stage": "披露未经审计的2026年第三季度财务报告",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T06:46:26-08:00",
+          "compiledAt": "2026-11-04T06:46:26-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "爱科赛博",
+          "version": "30b7874787b38220c6afb78fdf59cb69b733e0cd6c6dd44da8ceea0bd3ca8301",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安爱科赛博电气股份有限公司2026年第三季度报告",
+              "publisher": "西安爱科赛博电气股份有限公司",
+              "date": "2026-10-24",
+              "location": "物理第1页主要会计数据和财务指标、审计状态；第2页报告期定义",
+              "retrievedAt": "2026-11-04T14:24:42+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620551.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-ece1ff72e8d62d54e0a6",
+      "objectId": "listed-000610-sz",
+      "type": "定期报告披露",
+      "topics": [
+        "2026年第三季度报告",
+        "季度业绩"
+      ],
+      "updates": [
+        {
+          "id": "production-d68264772c317bc2ebc4d629",
+          "date": "2026-10-24",
+          "time": "",
+          "title": "西安旅游前三季度营收下降12.02%，归母净利润仍为负",
+          "summary": "西安旅游股份有限公司于2026年10月24日披露第三季度报告，前三季度营业收入为334,106,204.99元，同比下降12.02%；归母净利润为-79,170,708.25元。公司第三季度财务会计报告未经审计。",
+          "stage": "已披露2026年第三季度报告，财务会计报告未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T06:46:27-08:00",
+          "compiledAt": "2026-11-04T06:46:27-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "*ST西旅",
+          "version": "d68264772c317bc2ebc4d629a3c35c2dea55ca9d227a7c5e2a88e7561531e3d5",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安旅游股份有限公司2026年第三季度报告",
+              "publisher": "西安旅游股份有限公司",
+              "date": "2026-10-24",
+              "location": "物理第2页主要会计数据和财务指标；第11页审计报告",
+              "retrievedAt": "2026-11-04T14:23:48+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225621541.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-3bed603d3d2c8ebd5c4b",
+      "objectId": "listed-000721-sz",
+      "type": "季度业绩",
+      "topics": [
+        "前三季度财务结果"
+      ],
+      "updates": [
+        {
+          "id": "production-d34f2d6228095488f0dafc8e",
+          "date": "2026-10-24",
+          "time": "",
+          "title": "前三季度营收同比下降14.05%，归母亏损收窄",
+          "summary": "西安饮食2026年10月24日披露三季报，前三季度营业收入370,988,274.78元，同比下降14.05%；归属于上市公司股东的净利润为-55,815,174.49元，同比减亏34.12%。该季度财务会计报告未经审计。",
+          "stage": "披露未经审计的2026年第三季度财务报告",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T06:49:27-08:00",
+          "compiledAt": "2026-11-04T06:49:27-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安饮食",
+          "version": "d34f2d6228095488f0dafc8e5589f99e9b2046aa4aa8099f54d7f41b5fad68f6",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安饮食股份有限公司2026年第三季度报告",
+              "publisher": "西安饮食股份有限公司",
+              "date": "2026-10-24",
+              "location": "物理第3页主要会计数据和财务指标；第12页审计报告及落款（2026年10月23日）",
+              "retrievedAt": "2026-11-04T14:23:48+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225618530.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-14e7a47fd064fa90676b",
+      "objectId": "listed-000721-sz",
+      "type": "拆迁安置补偿款确认",
+      "topics": [
+        "补偿款确认",
+        "应收款项"
+      ],
+      "updates": [
+        {
+          "id": "production-7d7f03d8bc6acbcc745e1970",
+          "date": "2026-10-24",
+          "time": "",
+          "title": "确认拆迁安置补偿款，相关应收款增加",
+          "summary": "西安饮食2026年10月24日披露的三季报显示，年初至报告期末确认拆迁安置补偿款；截至9月30日，其他应收款为26,523,873.48元，较上年末增加135.62%，主要原因是应收拆迁安置补偿款增加。报告未单列本次补偿款的确认金额及收款进度。",
+          "stage": "报告期确认补偿款，期末应收拆迁安置补偿款增加",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。本报告未单列本次拆迁安置补偿款的确认金额及收款进度；其他应收款余额及营业外收入总额均不能直接视为补偿款金额。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T06:49:27-08:00",
+          "compiledAt": "2026-11-04T06:49:27-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安饮食",
+          "version": "7d7f03d8bc6acbcc745e19700250b577ca00af4a4b736c1b371b6efdca5f0bc9",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安饮食股份有限公司2026年第三季度报告",
+              "publisher": "西安饮食股份有限公司",
+              "date": "2026-10-24",
+              "location": "物理第3页非经常性损益说明；第4页其他应收款及营业外收入变动说明；第7页合并资产负债表",
+              "retrievedAt": "2026-11-04T14:23:48+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225618530.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-f59b463a3651bb658101",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T23:00:20+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-82fac279f6e6f1050990b31e",
+        "production-e7a5cfcc56bb57c93dd65150",
+        "production-a7387fc29a61a56e97783a85",
+        "production-4730bc2e36b4451431d2b953",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-f59b463a3651bb658101/page-01.png",
+          "width": 1080,
+          "height": 2526,
+          "sha256": "749ca2898692918e0f4018ab0be46f8e949e95b1d526c61e9fb1c721bffdf01a"
+        },
+        {
+          "file": "assets/editions/selection-f59b463a3651bb658101/page-02.png",
+          "width": 1080,
+          "height": 1174,
+          "sha256": "c540f7adf981981dff82ab51053add0bf2a61411568ce63ab27eb0012b018fd6"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-d0212987de60",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74372daae3b102096f35",
+          "updateId": "production-82fac279f6e6f1050990b31e",
+          "version": "82fac279f6e6f1050990b31e0403a37fc756b8dc585fab18827d11451b87c5b1",
+          "objectName": "ST兴化",
+          "type": "listed",
+          "category": "股权收购付款进展",
+          "date": "2026-10-26",
+          "title": "披露兴化新能源20%股权收购年初付款进展",
+          "business": "投资银行",
+          "share": {
+            "title": "披露年初收购付款，未明确价款全部付清",
+            "facts": "全资子公司兴化化工于年初支付向延长集团收购兴化新能源20%股权的款项，原转让价16,294.42万元。股权交割过户已于2025年12月26日公告完成；本次未单列实付金额、具体付款日，也未明确全部价款付清。"
+          }
+        },
+        {
+          "eventId": "production-event-b4f7bc9131a0700e57d6",
+          "updateId": "production-e7a5cfcc56bb57c93dd65150",
+          "version": "e7a5cfcc56bb57c93dd65150c0360dd59106344d60f735f23ec0679f54d3fe2c",
+          "objectName": "航天动力",
+          "type": "listed",
+          "category": "控股子公司股权出售进展",
+          "date": "2026-10-23",
+          "title": "出售江苏机电51%股权征得原股东受让，尚未签约",
+          "business": "投资银行",
+          "share": {
+            "title": "51%股权挂牌征得受让方，尚未签约",
+            "facts": "公告，江苏航天动力机电有限公司51%股权第二次挂牌征得江苏大中电机股份有限公司一个意向受让方，成交价2,080.31万元。受让方已通过资格审核并足额缴纳保证金；截至公告日尚未签约，不能据此认定全款到账或交割完成。"
+          }
+        },
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-c6aaa11c92051491b551",
+          "updateId": "production-4730bc2e36b4451431d2b953",
+          "version": "4730bc2e36b4451431d2b9535a98bd19b3dea4a3cb451a543ddecc007f3e91eb",
+          "objectName": "供销大集",
+          "type": "listed",
+          "category": "司法拍卖被动减持及过户进展",
+          "date": "2026-10-24",
+          "title": "新合作集团剩余1.2亿股司法拍卖股份完成过户",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余1.2亿股司法拍卖股份完成过户",
+            "facts": "截至10月21日，新合作集团剩余1.2亿股完成过户，本次被拍卖的349,125,080股已全部过户。中合农信及一致行动人持股比例由22.80%降至22.13%，控制权不变。受让方仍须遵守受让后六个月不得减持、自2025年5月15日起36个月不得转让的要求。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-7250e15b55eaf6d0a9ab",
       "date": "2026-11-04",
@@ -32588,6 +32950,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "68049fdb0d57580ce2a4",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T06:33:36-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/68049fdb0d57580ce2a4/index.html",
+      "publishedAt": "2026-11-04T22:44:54+08:00"
+    },
     {
       "id": "5d995b1fc56ce675e2db",
       "date": "2026-11-04",
