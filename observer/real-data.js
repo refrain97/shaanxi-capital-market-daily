@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-1d35c26ad0aa",
-      "compiledAt": "2026-11-04T07:39:12-08:00",
+      "id": "2026-11-04-5298b0f92ac6",
+      "compiledAt": "2026-11-04T07:57:58-08:00",
       "cutoff": "2026-10-27T23:59:59+08:00",
       "windowStart": "2026-10-21",
       "windowEnd": "2026-10-27",
@@ -76,8 +76,10 @@ window.PROTOTYPE = {
         "production-be21aeb63f21ca04bb1f9c64",
         "production-b8f3c77e2cf87d44d74a388d",
         "production-a431458e51419d1af6f6b643",
+        "production-9290f876d1806ef9e315d1a0",
         "production-6821f0f2b9767dc02d733ba1",
         "production-604d8efbc958b6c96b87f507",
+        "production-6016d4420071e6107a4f62c6",
         "production-5a34087d0434a9018278a5fa",
         "production-3c748e5aa0c1edf2164b48c2",
         "production-2ae9b3a0433cc19ad2c0d927",
@@ -357,7 +359,9 @@ window.PROTOTYPE = {
       "production-c3a75abb59f47d2bb90bc13b": "2026-11-04T07:30:44-08:00",
       "production-2ae9b3a0433cc19ad2c0d927": "2026-11-04T07:39:10-08:00",
       "production-be21aeb63f21ca04bb1f9c64": "2026-11-04T07:39:10-08:00",
-      "production-d57e113d299485eacb53fc23": "2026-11-04T07:39:10-08:00"
+      "production-d57e113d299485eacb53fc23": "2026-11-04T07:39:10-08:00",
+      "production-9290f876d1806ef9e315d1a0": "2026-11-04T07:51:14-08:00",
+      "production-6016d4420071e6107a4f62c6": "2026-11-04T07:57:58-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2118,6 +2122,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "世纪金花商业控股有限公司2026年10月23日公告，孙昌宇获委任为非执行董事及薪酬委员会、审核委员会成员，自当日起生效。张伟、黄致华同日起分别不再担任薪酬委员会、审核委员会成员，二人仍分别担任执行董事、非执行董事。"
+        },
+        "production-9290f876d1806ef9e315d1a0": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西省国际信托股份有限公司（陕国投A）2026年10月23日披露，董事会于10月21日审议通过提名姚卫东为第十一届董事会董事候选人的议案。该项非独立董事提名尚待2026年第二次临时股东会以累积投票制方式选举。"
+        },
+        "production-6016d4420071e6107a4f62c6": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕国投A于2026年10月23日公告，董事会于10月21日审议通过提名解志炯为公司第十一届董事会董事候选人的议案。该提名尚待2026年第二次临时股东会以累积投票制方式选举。"
         }
       }
     },
@@ -2127,8 +2145,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-04-1d35c26ad0aa",
-      "editionId": "selection-39809c8abd56baf57ed6",
+      "sourceEditionId": "2026-11-04-5298b0f92ac6",
+      "editionId": "selection-3c046ecb88448424a0f9",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -30648,6 +30666,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:50:03+08:00",
           "updatedAt": "2026-11-04T07:39:10-08:00",
           "compiledAt": "2026-11-04T07:39:10-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30694,6 +30713,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:50:03+08:00",
           "updatedAt": "2026-11-04T07:39:11-08:00",
           "compiledAt": "2026-11-04T07:39:11-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30740,6 +30760,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T23:50:03+08:00",
           "updatedAt": "2026-11-04T07:39:11-08:00",
           "compiledAt": "2026-11-04T07:39:11-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -30773,9 +30794,269 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-334ccc4ddb7beefac445",
+      "objectId": "listed-000563-sz",
+      "type": "董事提名",
+      "topics": [
+        "第十一届董事会",
+        "姚卫东"
+      ],
+      "updates": [
+        {
+          "id": "production-9290f876d1806ef9e315d1a0",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "陕国投A董事会通过姚卫东董事候选人提名，待股东会选举",
+          "summary": "陕西省国际信托股份有限公司（陕国投A）2026年10月23日披露，董事会于10月21日审议通过提名姚卫东为第十一届董事会董事候选人的议案。该项非独立董事提名尚待2026年第二次临时股东会以累积投票制方式选举。",
+          "stage": "董事会于2026年10月21日审议通过提名，待股东会选举",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:51:14-08:00",
+          "compiledAt": "2026-11-04T07:51:14-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕国投Ａ",
+          "version": "9290f876d1806ef9e315d1a05528e48da274f45a121123217a9811a226c7a284",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第十届董事会第四十五次会议决议公告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页会议召开情况及议案1、第2页选举安排、第5页落款",
+              "retrievedAt": "2026-11-04T14:23:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616940.PDF"
+            },
+            {
+              "title": "2026年第二次临时股东会议案",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第3页议案一",
+              "retrievedAt": "2026-11-04T14:23:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616942.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-a4011986960ec098f9f5",
+      "objectId": "listed-000563-sz",
+      "type": "董事提名",
+      "topics": [
+        "第十一届董事会",
+        "解志炯"
+      ],
+      "updates": [
+        {
+          "id": "production-6016d4420071e6107a4f62c6",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "陕国投A提名解志炯为第十一届董事会董事候选人",
+          "summary": "陕国投A于2026年10月23日公告，董事会于10月21日审议通过提名解志炯为公司第十一届董事会董事候选人的议案。该提名尚待2026年第二次临时股东会以累积投票制方式选举。",
+          "stage": "董事会于2026年10月21日审议通过提名，待股东会选举",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T07:57:58-08:00",
+          "compiledAt": "2026-11-04T07:57:58-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕国投Ａ",
+          "version": "6016d4420071e6107a4f62c6ffc1029b36f83a884894d1ebd4675ed5e6cb2dbc",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第十届董事会第四十五次会议决议公告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页会议召开情况及议案2、第2页选举安排、第5页落款",
+              "retrievedAt": "2026-11-04T14:23:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616940.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-3c046ecb88448424a0f9",
+      "date": "2026-11-04",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "compiledAt": "2026-11-04T23:57:59+08:00",
+      "researchCutoff": "2026-10-27T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "updateIds": [
+        "production-82fac279f6e6f1050990b31e",
+        "production-e7a5cfcc56bb57c93dd65150",
+        "production-a7387fc29a61a56e97783a85",
+        "production-625b951ed6ec4285ccd8382a",
+        "production-4730bc2e36b4451431d2b953",
+        "production-7d91d336fddff6cf46afd3fa",
+        "production-f5f12bc06521d80e20b5d085",
+        "production-8f139dc27179ab817a34d92a"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-3c046ecb88448424a0f9/page-01.png",
+          "width": 1080,
+          "height": 2474,
+          "sha256": "2477b6bf08ebe812f824c3f8eaef3710bb024b508b892e7f5feafc2e45d41a84"
+        },
+        {
+          "file": "assets/editions/selection-3c046ecb88448424a0f9/page-02.png",
+          "width": 1080,
+          "height": 1678,
+          "sha256": "72a57eae8654c6ee1628ce8ab1fb62c43d1381e5ac610d5acd9b6e48dbeb496b"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-04-5298b0f92ac6",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-17",
+      "rangeEnd": "2026-10-27",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74372daae3b102096f35",
+          "updateId": "production-82fac279f6e6f1050990b31e",
+          "version": "82fac279f6e6f1050990b31e0403a37fc756b8dc585fab18827d11451b87c5b1",
+          "objectName": "ST兴化",
+          "type": "listed",
+          "category": "股权收购付款进展",
+          "date": "2026-10-26",
+          "title": "披露兴化新能源20%股权收购年初付款进展",
+          "business": "投资银行",
+          "share": {
+            "title": "披露年初收购付款，未明确价款全部付清",
+            "facts": "全资子公司兴化化工于年初支付向延长集团收购兴化新能源20%股权的款项，原转让价16,294.42万元。股权交割过户已于2025年12月26日公告完成；本次未单列实付金额、具体付款日，也未明确全部价款付清。"
+          }
+        },
+        {
+          "eventId": "production-event-b4f7bc9131a0700e57d6",
+          "updateId": "production-e7a5cfcc56bb57c93dd65150",
+          "version": "e7a5cfcc56bb57c93dd65150c0360dd59106344d60f735f23ec0679f54d3fe2c",
+          "objectName": "航天动力",
+          "type": "listed",
+          "category": "控股子公司股权出售进展",
+          "date": "2026-10-23",
+          "title": "出售江苏机电51%股权征得原股东受让，尚未签约",
+          "business": "投资银行",
+          "share": {
+            "title": "51%股权挂牌征得受让方，尚未签约",
+            "facts": "公告，江苏航天动力机电有限公司51%股权第二次挂牌征得江苏大中电机股份有限公司一个意向受让方，成交价2,080.31万元。受让方已通过资格审核并足额缴纳保证金；截至公告日尚未签约，不能据此认定全款到账或交割完成。"
+          }
+        },
+        {
+          "eventId": "production-event-15df8edde01e463577ca",
+          "updateId": "production-a7387fc29a61a56e97783a85",
+          "version": "a7387fc29a61a56e97783a853a12d6cc1e09ddc04ed5d7b2d6f78c883122bbee",
+          "objectName": "炬光科技",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-27",
+          "title": "剩余预留激励名单公示无异议，涉及11人、43.10万股",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余预留激励名单公示无异议，资格核查通过",
+            "facts": "剩余预留激励名单公示无异议，资格核查通过。对应批次以10月14日为授予日，按259.51元/股向11人授予43.10万股第二类限制性股票，满12个月后满足条件方可分期归属。本次为公示及核查结果，不代表再次授予或股份已归属、登记、上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-fc135dbe65b2af786374",
+          "updateId": "production-625b951ed6ec4285ccd8382a",
+          "version": "625b951ed6ec4285ccd8382a6c436a4589c05443275fa737fb256e4449406ad0",
+          "objectName": "曲江文旅",
+          "type": "listed",
+          "category": "司法拍卖进展",
+          "date": "2026-10-27",
+          "title": "控股股东800万股重新拍卖流拍",
+          "business": "股份管理",
+          "share": {
+            "title": "800万股重新司法拍卖流拍",
+            "facts": "控股股东西安曲江旅游投资（集团）有限公司持有的800万股于10月24日至25日重新司法拍卖，占总股本3.14%。据10月26日平台结果，本次拍卖流拍，未成交，不代表股份已转让或过户。"
+          }
+        },
+        {
+          "eventId": "production-event-c6aaa11c92051491b551",
+          "updateId": "production-4730bc2e36b4451431d2b953",
+          "version": "4730bc2e36b4451431d2b9535a98bd19b3dea4a3cb451a543ddecc007f3e91eb",
+          "objectName": "供销大集",
+          "type": "listed",
+          "category": "司法拍卖被动减持及过户进展",
+          "date": "2026-10-24",
+          "title": "新合作集团剩余1.2亿股司法拍卖股份完成过户",
+          "business": "股份管理",
+          "share": {
+            "title": "剩余1.2亿股司法拍卖股份完成过户",
+            "facts": "截至10月21日，新合作集团剩余1.2亿股完成过户，本次被拍卖的349,125,080股已全部过户。中合农信及一致行动人持股比例由22.80%降至22.13%，控制权不变。受让方仍须遵守受让后六个月不得减持、自2025年5月15日起36个月不得转让的要求。"
+          }
+        },
+        {
+          "eventId": "production-event-c9b10051577c3140bd77",
+          "updateId": "production-7d91d336fddff6cf46afd3fa",
+          "version": "7d91d336fddff6cf46afd3fadd53a88e5f06b0ec904f8c34e4f7140ba07dbc60",
+          "objectName": "爱科赛博",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-09-17",
+          "title": "博智汇643.72万股解禁，9月末全部列为无限售股份",
+          "business": "股份管理",
+          "share": {
+            "title": "643.72万股解禁，9月末全列无限售股",
+            "facts": "爱科赛博员工持股平台西安博智汇企业咨询服务有限合伙企业所持643.72万股（占5.58%），安排于2026年9月28日上市流通；10月24日披露的三季报显示，9月末已全部列为无限售股。解禁不等于具体减持计划、已出售或员工已获现金，也不代表个人间接持股及合伙份额转让限制全部解除。"
+          }
+        },
+        {
+          "eventId": "production-event-7c1a23474426fbf29870",
+          "updateId": "production-f5f12bc06521d80e20b5d085",
+          "version": "f5f12bc06521d80e20b5d0853191c5553476e1338e9b91becac8d1411d7e8f64",
+          "objectName": "晨曦航空",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回2,100万元结构性存款，披露收益3.15万元",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回2,100万元结构性存款，收益3.15万元",
+            "facts": "以闲置募集资金购买的2,100万元中国银行人民币结构性存款已全部赎回，理财收益3.15万元，未单独列明实际到账日期。截至披露日，闲置募集资金现金管理未到期余额为0万元。"
+          }
+        },
+        {
+          "eventId": "production-event-c3d2452a2e343cb5e7d9",
+          "updateId": "production-8f139dc27179ab817a34d92a",
+          "version": "8f139dc27179ab817a34d92ade84379768e8439709c6cf1b29aba366a11c8330",
+          "objectName": "北化股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-27",
+          "title": "赎回25,690万元大额存单，另购25,830万元结构性存款",
+          "business": "机构理财",
+          "share": {
+            "title": "赎回存单本息到账，另购结构性存款",
+            "facts": "北化股份2026年10月21日赎回25,690万元大额存单，本息全部到账。10月27日公告披露，公司于10月23日使用闲置募集资金25,830万元购买建设银行泸州分行保本浮动收益型结构性存款，期限96天，约定2027年1月27日到期，截至公告日尚未到期。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-39809c8abd56baf57ed6",
       "date": "2026-11-04",
@@ -34350,6 +34631,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "b7ed6cb54705c73baa0b",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-04T07:39:12-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/b7ed6cb54705c73baa0b/index.html",
+      "publishedAt": "2026-11-04T23:50:03+08:00"
+    },
     {
       "id": "3b15f16e62a6dac3d705",
       "date": "2026-11-04",
