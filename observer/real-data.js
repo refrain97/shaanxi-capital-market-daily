@@ -1534,8 +1534,8 @@ window.PROTOTYPE = {
     },
     "privateFilingHistory": {
       "start": "2026-01-01",
-      "end": "2026-10-22",
-      "checkedAt": "2026-10-22T08:27:48+08:00",
+      "end": "2026-10-27",
+      "checkedAt": "2026-11-04T14:27:53+08:00",
       "scopeCount": 92,
       "completeManagers": 92,
       "partialManagers": 0,
@@ -25470,6 +25470,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T14:22:10+08:00",
           "updatedAt": "2026-11-03T22:18:01-08:00",
           "compiledAt": "2026-11-03T22:18:01-08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -25514,6 +25515,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-04T14:22:10+08:00",
           "updatedAt": "2026-11-03T22:19:43-08:00",
           "compiledAt": "2026-11-03T22:19:43-08:00",
           "researchCutoff": "2026-10-22T08:24:29+08:00",
@@ -26538,6 +26540,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "3279f9fdc4386d6169d8",
+      "date": "2026-11-04",
+      "compiledAt": "2026-11-03T22:19:43-08:00",
+      "cutoff": "2026-10-22T08:24:29+08:00",
+      "snapshotUrl": "publications/3279f9fdc4386d6169d8/index.html",
+      "publishedAt": "2026-11-04T14:22:10+08:00"
+    },
     {
       "id": "4b05bb9914277ed7e69d",
       "date": "2026-11-04",
