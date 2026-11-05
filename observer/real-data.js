@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-a9ccb6713c19",
-      "compiledAt": "2026-11-04T17:34:21-08:00",
+      "id": "2026-11-04-41bab11dd39e",
+      "compiledAt": "2026-11-04T17:52:00-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -16,12 +16,15 @@ window.PROTOTYPE = {
       "updateIds": [
         "production-e74a9c430789a23ef97e0ab9",
         "production-c7794a553ec11c1af58df314",
+        "production-c69e01bfe411b23c7c7ad7e7",
         "production-b8d7123b8b600ba65839dd83",
         "production-a8cc48632581f2148af4856c",
         "production-91db4dab0430af90585695d8",
         "production-8034bb30bd2ebbbea44032be",
         "production-6e334afa9911d31486480862",
+        "production-6b316b170fa769a9e682043f",
         "production-63351df0acb39ea8c61b551a",
+        "production-50fc3c8062a9f0dcfd5a2ad3",
         "production-14972cc78c994e4ee8e53e14",
         "production-09f10a9e6400e371697bd6c6",
         "production-ff57ff9059de128b625b71e2"
@@ -326,7 +329,10 @@ window.PROTOTYPE = {
       "production-09f10a9e6400e371697bd6c6": "2026-11-04T17:34:19-08:00",
       "production-91db4dab0430af90585695d8": "2026-11-04T17:34:19-08:00",
       "production-a8cc48632581f2148af4856c": "2026-11-04T17:34:19-08:00",
-      "production-e74a9c430789a23ef97e0ab9": "2026-11-04T17:34:19-08:00"
+      "production-e74a9c430789a23ef97e0ab9": "2026-11-04T17:34:19-08:00",
+      "production-6b316b170fa769a9e682043f": "2026-11-04T17:51:59-08:00",
+      "production-c69e01bfe411b23c7c7ad7e7": "2026-11-04T17:51:59-08:00",
+      "production-50fc3c8062a9f0dcfd5a2ad3": "2026-11-04T17:51:59-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -558,7 +564,7 @@ window.PROTOTYPE = {
           "summary": "西安标准工业股份有限公司（ST标准）2026年9月30日披露其他风险警示事项整改进展，标准海菱2025年度缺失签收单据销售业务的流转梳理工作已完成。截至2026年9月末，标准海菱已完成员工安置法定程序，审计机构已出具清算审计报告正式文件，评估报告和清算方案仍为初稿，清算工作继续推进。"
         },
         "production-3d23860ddfe87d53f867d102": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
@@ -1278,7 +1284,7 @@ window.PROTOTYPE = {
           "summary": "瑞联新材2026年10月16日公告，股东、董事长刘晓春于10月14日办理138万股公司股份质押，质权人为浙江轻工联典当有限责任公司，融资资金用于个人资金需求，质押期限至办理解除质押登记手续之日止。本次质押后，其累计质押609万股，占其所持股份的69.82%、公司总股本的3.46%。"
         },
         "production-8254030b83feb26a4fd74747": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
@@ -2281,6 +2287,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "三人行2026年10月31日公告，计划于11月24日09:00—10:00通过上证路演中心网络互动方式召开2026年第三季度业绩说明会。投资者可于11月17日至11月23日16:00前通过上证路演中心“提问预征集”栏目提问。"
+        },
+        "production-6b316b170fa769a9e682043f": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "炼石航空2026年10月31日披露，因对参股公司朗星无人机系统有限公司的认缴出资未全额实缴，陕西省西安市中级人民法院裁定公司在未实缴出资人民币7500万元范围内，对朗星无人机不能清偿的到期债务承担补充赔偿责任。2026年9月，公司银行账户中的509万元被该法院冻结，披露时尚未被执行划转。"
+        },
+        "production-c69e01bfe411b23c7c7ad7e7": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "源杰科技2026年10月31日披露，2026年前三季度确认各项减值准备合计2786.35万元，其中信用减值损失1933.60万元、存货减值852.75万元，合计影响同期合并报表利润总额2786.35万元。相关议案已于10月30日经董事会审议通过。"
+        },
+        "production-50fc3c8062a9f0dcfd5a2ad3": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "泰金新能2026年10月31日披露，董事会于10月30日审议通过新增2026年度向西安瑞鑫科金属材料有限责任公司购买原材料、采购商品及接受劳务的日常关联交易预计额度2800万元。该事项无需提交股东会审议，具体协议将在交易实际发生时签署。"
         }
       }
     },
@@ -2290,7 +2317,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-04-a9ccb6713c19",
+      "sourceEditionId": "2026-11-04-41bab11dd39e",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -32419,6 +32446,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T09:39:05+08:00",
           "updatedAt": "2026-11-04T17:30:33-08:00",
           "compiledAt": "2026-11-04T17:30:33-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32480,6 +32508,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T09:39:05+08:00",
           "updatedAt": "2026-11-04T17:34:19-08:00",
           "compiledAt": "2026-11-04T17:34:19-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32525,6 +32554,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T09:39:05+08:00",
           "updatedAt": "2026-11-04T17:34:20-08:00",
           "compiledAt": "2026-11-04T17:34:20-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32570,6 +32600,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T09:39:05+08:00",
           "updatedAt": "2026-11-04T17:34:20-08:00",
           "compiledAt": "2026-11-04T17:34:20-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32623,6 +32654,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T09:39:05+08:00",
           "updatedAt": "2026-11-04T17:34:20-08:00",
           "compiledAt": "2026-11-04T17:34:20-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32643,6 +32675,160 @@ window.PROTOTYPE = {
               "location": "物理第1—2页会议安排及问题征集；第3页落款",
               "retrievedAt": "2026-11-05T08:06:46+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647905.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-f7473de149f84f57f144",
+      "objectId": "listed-000697-sz",
+      "type": "诉讼及资金冻结",
+      "topics": [
+        "朗星无人机",
+        "未实缴出资补充赔偿责任",
+        "银行账户资金冻结"
+      ],
+      "updates": [
+        {
+          "id": "production-6b316b170fa769a9e682043f",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "披露509万元账户资金被冻结，尚未执行划转",
+          "summary": "炼石航空2026年10月31日披露，因对参股公司朗星无人机系统有限公司的认缴出资未全额实缴，陕西省西安市中级人民法院裁定公司在未实缴出资人民币7500万元范围内，对朗星无人机不能清偿的到期债务承担补充赔偿责任。2026年9月，公司银行账户中的509万元被该法院冻结，披露时尚未被执行划转。",
+          "stage": "三季报披露法院裁定补充赔偿责任及2026年9月账户资金冻结；披露时尚未执行划转",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T17:51:59-08:00",
+          "compiledAt": "2026-11-04T17:51:59-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "炼石航空",
+          "version": "6b316b170fa769a9e682043fe710e6be712fed2a09948fbbb0edca528cee689f",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "炼石航空科技股份有限公司2026年第三季度报告",
+              "publisher": "炼石航空科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第5页“三、其他重要事项”",
+              "retrievedAt": "2026-11-05T08:04:37+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648114.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-a11d86819952211dd812",
+      "objectId": "listed-688498-sh",
+      "type": "资产减值计提",
+      "topics": [
+        "2026年前三季度",
+        "信用减值损失",
+        "存货减值"
+      ],
+      "updates": [
+        {
+          "id": "production-c69e01bfe411b23c7c7ad7e7",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "前三季度计提减值准备2786.35万元",
+          "summary": "源杰科技2026年10月31日披露，2026年前三季度确认各项减值准备合计2786.35万元，其中信用减值损失1933.60万元、存货减值852.75万元，合计影响同期合并报表利润总额2786.35万元。相关议案已于10月30日经董事会审议通过。",
+          "stage": "董事会审议通过并披露2026年前三季度减值计提，合计2,786.35万元",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T17:51:59-08:00",
+          "compiledAt": "2026-11-04T17:51:59-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "源杰科技",
+          "version": "c69e01bfe411b23c7c7ad7e769e999d21dea079e1034e5bf1bd0435492cffd33",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西源杰半导体科技股份有限公司关于2026年前三季度计提资产减值准备的公告",
+              "publisher": "陕西源杰半导体科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页计提金额表、第2页利润影响及公告落款",
+              "retrievedAt": "2026-11-05T08:07:00+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648236.PDF"
+            },
+            {
+              "title": "陕西源杰半导体科技股份有限公司第二届董事会第三十四次会议决议公告",
+              "publisher": "陕西源杰半导体科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页会议日期及第二项议案、第2页表决结果",
+              "retrievedAt": "2026-11-05T08:06:59+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648269.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-798fdea7cb10608c5041",
+      "objectId": "listed-688813-sh",
+      "type": "日常关联交易",
+      "topics": [
+        "新增关联采购预计额度",
+        "董事会审议通过",
+        "保荐机构核查"
+      ],
+      "updates": [
+        {
+          "id": "production-50fc3c8062a9f0dcfd5a2ad3",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "新增对西安瑞鑫科关联采购预计额度2800万元",
+          "summary": "泰金新能2026年10月31日披露，董事会于10月30日审议通过新增2026年度向西安瑞鑫科金属材料有限责任公司购买原材料、采购商品及接受劳务的日常关联交易预计额度2800万元。该事项无需提交股东会审议，具体协议将在交易实际发生时签署。",
+          "stage": "2026年10月30日董事会审议通过新增预计额度，无需提交股东会；保荐机构无异议，具体协议在交易实际发生时签署",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T17:51:59-08:00",
+          "compiledAt": "2026-11-04T17:51:59-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "泰金新能",
+          "version": "50fc3c8062a9f0dcfd5a2ad3131aaa48d4b2b29c4cfd7cf3c7e4cd6fc5ed221c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安泰金新能科技股份有限公司关于增加2026年度日常关联交易预计额度的公告",
+              "publisher": "西安泰金新能科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页审议程序、第2页额度表、第3页协议签署安排；第4页落款日期为2026年10月30日",
+              "retrievedAt": "2026-11-05T08:07:05+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648720.PDF"
+            },
+            {
+              "title": "中信建投证券股份有限公司关于西安泰金新能科技股份有限公司增加2026年度日常关联交易预计额度的核查意见",
+              "publisher": "中信建投证券股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页审议程序、第2页额度表、第3页协议签署安排、第4页意见；第5页签章日期为2026年10月30日",
+              "retrievedAt": "2026-11-05T08:07:05+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648741.PDF"
             }
           ],
           "tables": []
@@ -37569,6 +37755,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "1ee411d3d20015ea4cbf",
+      "date": "2026-11-05",
+      "compiledAt": "2026-11-04T17:34:21-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/1ee411d3d20015ea4cbf/index.html",
+      "publishedAt": "2026-11-05T09:39:05+08:00"
+    },
     {
       "id": "2d7e48aff831112a4f37",
       "date": "2026-11-05",
