@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-464276a3156a",
-      "compiledAt": "2026-11-04T16:52:07-08:00",
+      "id": "2026-11-04-a9ccb6713c19",
+      "compiledAt": "2026-11-04T17:34:21-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -14,11 +14,16 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-e74a9c430789a23ef97e0ab9",
         "production-c7794a553ec11c1af58df314",
         "production-b8d7123b8b600ba65839dd83",
+        "production-a8cc48632581f2148af4856c",
+        "production-91db4dab0430af90585695d8",
         "production-8034bb30bd2ebbbea44032be",
+        "production-6e334afa9911d31486480862",
         "production-63351df0acb39ea8c61b551a",
         "production-14972cc78c994e4ee8e53e14",
+        "production-09f10a9e6400e371697bd6c6",
         "production-ff57ff9059de128b625b71e2"
       ],
       "status": "public",
@@ -316,7 +321,12 @@ window.PROTOTYPE = {
       "production-8034bb30bd2ebbbea44032be": "2026-11-04T16:24:34-08:00",
       "production-ff57ff9059de128b625b71e2": "2026-11-04T16:35:47-08:00",
       "production-c7794a553ec11c1af58df314": "2026-11-04T16:39:23-08:00",
-      "production-b8d7123b8b600ba65839dd83": "2026-11-04T16:52:07-08:00"
+      "production-b8d7123b8b600ba65839dd83": "2026-11-04T16:52:07-08:00",
+      "production-6e334afa9911d31486480862": "2026-11-04T17:30:33-08:00",
+      "production-09f10a9e6400e371697bd6c6": "2026-11-04T17:34:19-08:00",
+      "production-91db4dab0430af90585695d8": "2026-11-04T17:34:19-08:00",
+      "production-a8cc48632581f2148af4856c": "2026-11-04T17:34:19-08:00",
+      "production-e74a9c430789a23ef97e0ab9": "2026-11-04T17:34:19-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2236,6 +2246,41 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西建设机械股份有限公司于2026年10月31日披露三季报：前三季度营业收入约人民币16.52亿元，同比下降6.71%；归属于上市公司股东的净亏损约人民币8.18亿元，同比收窄13.00%。报告已于10月30日经审计委员会及董事会审议通过，第三季度财务报表未经审计。"
+        },
+        "production-6e334afa9911d31486480862": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "珠海中富2026年10月31日披露，董事会于10月30日审议通过为全资子公司上海富粤食品科技有限公司的厂房及附属设施租赁债务提供合计约4130万元担保，拟承担无限连带清偿责任，担保有效期至原合同约定租赁期限届满之日起两年。该事项尚待拟于11月16日召开的股东会审议；公告提示，公司及控股子公司对外担保总额超过最近一期经审计净资产的100%，上述担保均为合并报表范围内公司及控股子公司之间的担保。"
+        },
+        "production-09f10a9e6400e371697bd6c6": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西部材料2026年10月31日公告，公司股票10月28日至30日连续三个交易日收盘价格涨幅偏离值累计超过20%，构成股票交易异常波动。公司称经营情况正常，公司及控股股东不存在应披露而未披露或处于筹划阶段的重大事项，并提示公司最新静态市盈率、市净率均高于同行业。"
+        },
+        "production-91db4dab0430af90585695d8": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西旅游2026年10月31日公告，拟于11月10日15:00—16:00在价值在线以网络互动方式召开2026年第三季度业绩说明会。投资者可于11月10日前进行会前提问，公司将在信息披露允许范围内回答投资者普遍关注的问题。"
+        },
+        "production-a8cc48632581f2148af4856c": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "华天科技2026年10月31日披露第三季度报告；公司董事会已于10月30日以9票同意、0票反对、0票弃权审议通过该报告。第三季度财务会计报告未经审计。"
+        },
+        "production-e74a9c430789a23ef97e0ab9": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "三人行2026年10月31日公告，计划于11月24日09:00—10:00通过上证路演中心网络互动方式召开2026年第三季度业绩说明会。投资者可于11月17日至11月23日16:00前通过上证路演中心“提问预征集”栏目提问。"
         }
       }
     },
@@ -2245,7 +2290,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-04-464276a3156a",
+      "sourceEditionId": "2026-11-04-a9ccb6713c19",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -5073,6 +5118,54 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-000659-sz",
+      "type": "listed",
+      "name": "珠海中富",
+      "code": "000659.SZ",
+      "market": "SZ",
+      "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-603402-sh",
+      "type": "listed",
+      "name": "陕西旅游",
+      "code": "603402.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-002185-sz",
+      "type": "listed",
+      "name": "华天科技",
+      "code": "002185.SZ",
+      "market": "SZ",
+      "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-605168-sh",
+      "type": "listed",
+      "name": "三人行",
+      "code": "605168.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000768-sz",
       "type": "listed",
       "name": "中航西飞",
@@ -5207,32 +5300,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "北元集团",
       "code": "601568.SH",
-      "market": "SH",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-603402-sh",
-      "type": "listed",
-      "name": "陕西旅游",
-      "code": "603402.SH",
-      "market": "SH",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-605168-sh",
-      "type": "listed",
-      "name": "三人行",
-      "code": "605168.SH",
       "market": "SH",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -5450,36 +5517,10 @@ window.PROTOTYPE = {
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
     {
-      "id": "listed-002185-sz",
-      "type": "listed",
-      "name": "华天科技",
-      "code": "002185.SZ",
-      "market": "SZ",
-      "asOf": "2026-07-22",
-      "rosterTier": "L3",
-      "rosterCategory": "陕西经营或资本关联",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
       "id": "listed-300527-sz",
       "type": "listed",
       "name": "ST应急",
       "code": "300527.SZ",
-      "market": "SZ",
-      "asOf": "2026-07-22",
-      "rosterTier": "L3",
-      "rosterCategory": "陕西经营或资本关联",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-000659-sz",
-      "type": "listed",
-      "name": "珠海中富",
-      "code": "000659.SZ",
       "market": "SZ",
       "asOf": "2026-07-22",
       "rosterTier": "L3",
@@ -32357,6 +32398,256 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-1be75cb6b595a5dc8e68",
+      "objectId": "listed-000659-sz",
+      "type": "对子公司提供担保",
+      "topics": [
+        "上海富粤",
+        "厂房租赁担保",
+        "股东会待审议"
+      ],
+      "updates": [
+        {
+          "id": "production-6e334afa9911d31486480862",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "拟为上海富粤厂房租赁提供约4130万元担保，尚待股东会审议",
+          "summary": "珠海中富2026年10月31日披露，董事会于10月30日审议通过为全资子公司上海富粤食品科技有限公司的厂房及附属设施租赁债务提供合计约4130万元担保，拟承担无限连带清偿责任，担保有效期至原合同约定租赁期限届满之日起两年。该事项尚待拟于11月16日召开的股东会审议；公告提示，公司及控股子公司对外担保总额超过最近一期经审计净资产的100%，上述担保均为合并报表范围内公司及控股子公司之间的担保。",
+          "stage": "董事会审议通过；拟提交2026年11月16日股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T17:30:33-08:00",
+          "compiledAt": "2026-11-04T17:30:33-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "珠海中富",
+          "version": "6e334afa9911d31486480862dedefe8cb83c934cddada7dff81745c279ca47fe",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于为全资子公司提供担保的公告",
+              "publisher": "珠海中富实业股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1—3页；公告落款日期为2026年10月30日",
+              "retrievedAt": "2026-11-05T08:08:13+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650562.PDF"
+            },
+            {
+              "title": "第十二届董事会2026年第六次会议决议公告",
+              "publisher": "珠海中富实业股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1—2页",
+              "retrievedAt": "2026-11-05T08:08:14+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650560.PDF"
+            },
+            {
+              "title": "关于召开2026年第二次临时股东会的通知",
+              "publisher": "珠海中富实业股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1—2页，会议时间及提案表",
+              "retrievedAt": "2026-11-05T08:08:13+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650561.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-4b8d6f9f7abe62de61a1",
+      "objectId": "listed-002149-sz",
+      "type": "股票交易异常波动",
+      "topics": [
+        "异常波动核查",
+        "估值及经营风险提示"
+      ],
+      "updates": [
+        {
+          "id": "production-09f10a9e6400e371697bd6c6",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "披露连续三个交易日股价异常波动核查结果",
+          "summary": "西部材料2026年10月31日公告，公司股票10月28日至30日连续三个交易日收盘价格涨幅偏离值累计超过20%，构成股票交易异常波动。公司称经营情况正常，公司及控股股东不存在应披露而未披露或处于筹划阶段的重大事项，并提示公司最新静态市盈率、市净率均高于同行业。",
+          "stage": "披露连续三个交易日异常波动核查结果及风险提示",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T17:34:19-08:00",
+          "compiledAt": "2026-11-04T17:34:19-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西部材料",
+          "version": "09f10a9e6400e371697bd6c64f3486874e920abf4064b2bc89d00f54a4d33aaf",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西部金属材料股份有限公司股票交易异常波动公告",
+              "publisher": "西部金属材料股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页异常波动情况及核查说明；第2页风险提示、落款",
+              "retrievedAt": "2026-11-05T08:04:47+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648422.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-144e54dc90cde697ef0f",
+      "objectId": "listed-603402-sh",
+      "type": "业绩说明会安排",
+      "topics": [
+        "2026年第三季度业绩说明会",
+        "网络互动"
+      ],
+      "updates": [
+        {
+          "id": "production-91db4dab0430af90585695d8",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "拟于11月10日召开第三季度业绩说明会",
+          "summary": "陕西旅游2026年10月31日公告，拟于11月10日15:00—16:00在价值在线以网络互动方式召开2026年第三季度业绩说明会。投资者可于11月10日前进行会前提问，公司将在信息披露允许范围内回答投资者普遍关注的问题。",
+          "stage": "公告拟于2026年11月10日15:00至16:00召开网络业绩说明会",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T17:34:20-08:00",
+          "compiledAt": "2026-11-04T17:34:20-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西旅游",
+          "version": "91db4dab0430af90585695d87665adb2041201c7f11b38480b135622b136e242",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西旅游：关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "陕西旅游文化产业股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1—2页会议安排及参与方式；第3页落款",
+              "retrievedAt": "2026-11-05T08:06:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647581.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-b57374bb48b9a8f62686",
+      "objectId": "listed-002185-sz",
+      "type": "定期报告审议及披露",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-a8cc48632581f2148af4856c",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "披露第三季度报告，财务会计报告未经审计",
+          "summary": "华天科技2026年10月31日披露第三季度报告；公司董事会已于10月30日以9票同意、0票反对、0票弃权审议通过该报告。第三季度财务会计报告未经审计。",
+          "stage": "10月30日董事会审议通过，10月31日披露；第三季度财务会计报告未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T17:34:20-08:00",
+          "compiledAt": "2026-11-04T17:34:20-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "华天科技",
+          "version": "a8cc48632581f2148af4856c3accac2b0324aae5f0510b88c9b8c1de70498c5c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第八届董事会第十九次会议决议公告",
+              "publisher": "天水华天科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页会议日期及第一项议案；第2页落款",
+              "retrievedAt": "2026-11-05T08:08:01+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647313.PDF"
+            },
+            {
+              "title": "2026年三季度报告",
+              "publisher": "天水华天科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第11页审计报告说明及落款",
+              "retrievedAt": "2026-11-05T08:08:01+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647311.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-ed74187742770862cdc0",
+      "objectId": "listed-605168-sh",
+      "type": "投资者关系活动安排",
+      "topics": [
+        "第三季度业绩说明会",
+        "网络互动"
+      ],
+      "updates": [
+        {
+          "id": "production-e74a9c430789a23ef97e0ab9",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "拟于11月24日召开第三季度业绩说明会",
+          "summary": "三人行2026年10月31日公告，计划于11月24日09:00—10:00通过上证路演中心网络互动方式召开2026年第三季度业绩说明会。投资者可于11月17日至11月23日16:00前通过上证路演中心“提问预征集”栏目提问。",
+          "stage": "公告计划于2026年11月24日09:00—10:00召开网络业绩说明会，尚未召开",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T17:34:20-08:00",
+          "compiledAt": "2026-11-04T17:34:20-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "三人行",
+          "version": "e74a9c430789a23ef97e0ab9664e1dce3ffdcb0ab578d0a0eddfabea685d10b0",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "三人行：关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "三人行未来科技集团股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1—2页会议安排及问题征集；第3页落款",
+              "retrievedAt": "2026-11-05T08:06:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647905.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -37278,6 +37569,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "2d7e48aff831112a4f37",
+      "date": "2026-11-05",
+      "compiledAt": "2026-11-04T16:52:07-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/2d7e48aff831112a4f37/index.html",
+      "publishedAt": "2026-11-05T09:11:44+08:00"
+    },
     {
       "id": "a5ccc4b41c3aaf0ff93e",
       "date": "2026-11-05",
