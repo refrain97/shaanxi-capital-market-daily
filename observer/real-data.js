@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-c8c6b0d04795",
-      "compiledAt": "2026-11-04T16:39:24-08:00",
+      "id": "2026-11-04-464276a3156a",
+      "compiledAt": "2026-11-04T16:52:07-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -15,6 +15,7 @@ window.PROTOTYPE = {
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
         "production-c7794a553ec11c1af58df314",
+        "production-b8d7123b8b600ba65839dd83",
         "production-8034bb30bd2ebbbea44032be",
         "production-63351df0acb39ea8c61b551a",
         "production-14972cc78c994e4ee8e53e14",
@@ -314,7 +315,8 @@ window.PROTOTYPE = {
       "production-14972cc78c994e4ee8e53e14": "2026-11-04T16:24:34-08:00",
       "production-8034bb30bd2ebbbea44032be": "2026-11-04T16:24:34-08:00",
       "production-ff57ff9059de128b625b71e2": "2026-11-04T16:35:47-08:00",
-      "production-c7794a553ec11c1af58df314": "2026-11-04T16:39:23-08:00"
+      "production-c7794a553ec11c1af58df314": "2026-11-04T16:39:23-08:00",
+      "production-b8d7123b8b600ba65839dd83": "2026-11-04T16:52:07-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2227,6 +2229,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "达刚控股2026年10月31日披露，张莎因个人原因辞去总裁职务，自10月30日起生效，辞任后继续担任公司董事。公司10月30日董事会同意聘任苏元朋、韦海莉分别为总裁、董事会秘书，任期均自本次董事会审议通过之日起至第六届董事会任期届满之日止；董事会秘书任职生效后，董事长陈可不再代行该职责。"
+        },
+        "production-b8d7123b8b600ba65839dd83": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西建设机械股份有限公司于2026年10月31日披露三季报：前三季度营业收入约人民币16.52亿元，同比下降6.71%；归属于上市公司股东的净亏损约人民币8.18亿元，同比收窄13.00%。报告已于10月30日经审计委员会及董事会审议通过，第三季度财务报表未经审计。"
         }
       }
     },
@@ -2236,7 +2245,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-04-c8c6b0d04795",
+      "sourceEditionId": "2026-11-04-464276a3156a",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -32196,6 +32205,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T08:44:26+08:00",
           "updatedAt": "2026-11-04T16:35:47-08:00",
           "compiledAt": "2026-11-04T16:35:47-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32250,6 +32260,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T08:44:26+08:00",
           "updatedAt": "2026-11-04T16:39:23-08:00",
           "compiledAt": "2026-11-04T16:39:23-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32278,6 +32289,68 @@ window.PROTOTYPE = {
               "location": "物理第1—2页，总裁辞任及高级管理人员聘任",
               "retrievedAt": "2026-11-05T08:05:02+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649495.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-5215ffd6bb7ebeb9073c",
+      "objectId": "listed-600984-sh",
+      "type": "定期报告",
+      "topics": [
+        "三季报",
+        "审计委员会审议",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-b8d7123b8b600ba65839dd83",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "披露三季报：前三季度营收16.52亿元，归母净亏损8.18亿元",
+          "summary": "陕西建设机械股份有限公司于2026年10月31日披露三季报：前三季度营业收入约人民币16.52亿元，同比下降6.71%；归属于上市公司股东的净亏损约人民币8.18亿元，同比收窄13.00%。报告已于10月30日经审计委员会及董事会审议通过，第三季度财务报表未经审计。",
+          "stage": "2026年10月30日审计委员会及董事会审议通过，10月31日披露；财务核心表格待原页核验",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T16:52:07-08:00",
+          "compiledAt": "2026-11-04T16:52:07-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "建设机械",
+          "version": "b8d7123b8b600ba65839dd838ee768eec570c60fe13d727e08601642c7841b9d",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "建设机械2026年第三季度报告",
+              "publisher": "陕西建设机械股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页主要财务数据及审计状态，第11页合并利润表",
+              "retrievedAt": "2026-11-05T08:06:28+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648151.PDF"
+            },
+            {
+              "title": "建设机械第八届董事会第三十五次会议决议公告",
+              "publisher": "陕西建设机械股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页会议日期、议案及表决结果",
+              "retrievedAt": "2026-11-05T08:06:28+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648156.PDF"
+            },
+            {
+              "title": "建设机械2026年第六次审计委员会决议",
+              "publisher": "陕西建设机械股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页会议日期、议案及表决结果",
+              "retrievedAt": "2026-11-05T08:06:28+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648261.PDF"
             }
           ],
           "tables": []
@@ -37204,6 +37277,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "d131317bf85cec12d9b8",
+      "date": "2026-11-05",
+      "compiledAt": "2026-11-04T16:39:24-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/d131317bf85cec12d9b8/index.html",
+      "publishedAt": "2026-11-05T08:44:26+08:00"
+    },
     {
       "id": "344a90c0d0e85fa06a5f",
       "date": "2026-11-05",
