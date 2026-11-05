@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-e6033f7e32af",
-      "compiledAt": "2026-11-04T18:05:11-08:00",
+      "id": "2026-11-04-8bea40aed13b",
+      "compiledAt": "2026-11-04T18:23:29-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -30,7 +30,8 @@ window.PROTOTYPE = {
         "production-2e2e3d64525806695548da91",
         "production-14972cc78c994e4ee8e53e14",
         "production-09f10a9e6400e371697bd6c6",
-        "production-ff57ff9059de128b625b71e2"
+        "production-ff57ff9059de128b625b71e2",
+        "production-31538a5cdfd937a7a48a4612"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -338,7 +339,8 @@ window.PROTOTYPE = {
       "production-50fc3c8062a9f0dcfd5a2ad3": "2026-11-04T17:51:59-08:00",
       "production-f18b4eadc0a38dda9d70321b": "2026-11-04T18:05:09-08:00",
       "production-2e2e3d64525806695548da91": "2026-11-04T18:05:09-08:00",
-      "production-858ec060cfe5fb6b54b9c38c": "2026-11-04T18:05:09-08:00"
+      "production-858ec060cfe5fb6b54b9c38c": "2026-11-04T18:05:09-08:00",
+      "production-31538a5cdfd937a7a48a4612": "2026-11-04T18:23:28-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2335,6 +2337,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "2026年10月31日，陕西建工集团股份有限公司公告，董事会于10月29日审议通过前三季度计提资产减值准备事项，信用减值损失和资产减值损失合计230,431.60万元，包含相关减值转回。本次计提将减少公司2026年前三季度合并报表利润总额230,431.60万元。"
+        },
+        "production-31538a5cdfd937a7a48a4612": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "东华科技2026年10月28日披露，董事会于10月26日审议通过2026年前三季度利润分配预案，拟每10股派现金股利0.5元（含税），不送红股、不转增股本，尚需提交股东会审议。按董事会审议日总股本708,013,872股计算，拟派现金股利35,400,693.60元；若实施前总股本发生变化，将保持分配比例不变并调整总额。"
         }
       }
     },
@@ -2344,7 +2353,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-04-e6033f7e32af",
+      "sourceEditionId": "2026-11-04-8bea40aed13b",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -14574,6 +14583,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T10:10:38+08:00",
           "updatedAt": "2026-11-04T18:05:10-08:00",
           "compiledAt": "2026-11-04T18:05:10-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -30948,6 +30958,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T10:10:38+08:00",
           "updatedAt": "2026-11-04T18:05:09-08:00",
           "compiledAt": "2026-11-04T18:05:09-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32960,6 +32971,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T10:10:38+08:00",
           "updatedAt": "2026-11-04T18:05:10-08:00",
           "compiledAt": "2026-11-04T18:05:10-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32988,6 +33000,58 @@ window.PROTOTYPE = {
               "location": "物理第1页会议召开情况及第二项议案",
               "retrievedAt": "2026-11-05T08:05:38+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650322.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-2a9b7d23508d8caf221f",
+      "objectId": "listed-002140-sz",
+      "type": "权益分派",
+      "topics": [
+        "现金分红预案"
+      ],
+      "updates": [
+        {
+          "id": "production-31538a5cdfd937a7a48a4612",
+          "date": "2026-10-28",
+          "time": "",
+          "title": "拟前三季度每10股派0.5元，尚需股东会审议",
+          "summary": "东华科技2026年10月28日披露，董事会于10月26日审议通过2026年前三季度利润分配预案，拟每10股派现金股利0.5元（含税），不送红股、不转增股本，尚需提交股东会审议。按董事会审议日总股本708,013,872股计算，拟派现金股利35,400,693.60元；若实施前总股本发生变化，将保持分配比例不变并调整总额。",
+          "stage": "2026年10月26日董事会审议通过，尚需股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T18:23:29-08:00",
+          "compiledAt": "2026-11-04T18:23:29-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "东华科技",
+          "version": "31538a5cdfd937a7a48a4612975e92558f1f9ac2ceb66a9154a84315e31afa23",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "东华科技八届十九次董事会（现场结合通讯方式）决议公告",
+              "publisher": "东华工程科技股份有限公司",
+              "date": "2026-10-28",
+              "location": "物理第1页第二项议案；第2页落款日期为2026年10月27日",
+              "retrievedAt": "2026-11-05T08:08:08+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628649.PDF"
+            },
+            {
+              "title": "东华科技关于2026年前三季度利润分配预案的公告",
+              "publisher": "东华工程科技股份有限公司",
+              "date": "2026-10-28",
+              "location": "物理第1页审议程序、第1至2页分配方案；第3页落款日期为2026年10月27日",
+              "retrievedAt": "2026-11-05T08:08:09+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628412.PDF"
             }
           ],
           "tables": []
@@ -37914,6 +37978,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "7225de772658fd9adab5",
+      "date": "2026-11-05",
+      "compiledAt": "2026-11-04T18:05:11-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/7225de772658fd9adab5/index.html",
+      "publishedAt": "2026-11-05T10:10:38+08:00"
+    },
     {
       "id": "6c3f12ecb609d816c462",
       "date": "2026-11-05",
