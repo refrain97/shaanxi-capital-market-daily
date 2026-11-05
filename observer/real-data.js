@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-8bea40aed13b",
-      "compiledAt": "2026-11-04T18:23:29-08:00",
+      "id": "2026-11-04-ce85f49203b4",
+      "compiledAt": "2026-11-04T18:39:45-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -31,6 +31,7 @@ window.PROTOTYPE = {
         "production-14972cc78c994e4ee8e53e14",
         "production-09f10a9e6400e371697bd6c6",
         "production-ff57ff9059de128b625b71e2",
+        "production-6ac654ef6e973cc87f1a9cd4",
         "production-31538a5cdfd937a7a48a4612"
       ],
       "status": "public",
@@ -340,7 +341,8 @@ window.PROTOTYPE = {
       "production-f18b4eadc0a38dda9d70321b": "2026-11-04T18:05:09-08:00",
       "production-2e2e3d64525806695548da91": "2026-11-04T18:05:09-08:00",
       "production-858ec060cfe5fb6b54b9c38c": "2026-11-04T18:05:09-08:00",
-      "production-31538a5cdfd937a7a48a4612": "2026-11-04T18:23:28-08:00"
+      "production-31538a5cdfd937a7a48a4612": "2026-11-04T18:23:28-08:00",
+      "production-6ac654ef6e973cc87f1a9cd4": "2026-11-04T18:39:45-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2344,6 +2346,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "东华科技2026年10月28日披露，董事会于10月26日审议通过2026年前三季度利润分配预案，拟每10股派现金股利0.5元（含税），不送红股、不转增股本，尚需提交股东会审议。按董事会审议日总股本708,013,872股计算，拟派现金股利35,400,693.60元；若实施前总股本发生变化，将保持分配比例不变并调整总额。"
+        },
+        "production-6ac654ef6e973cc87f1a9cd4": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "东华科技2026年10月28日披露，公司八届十九次董事会于10月26日审议通过《关于修订董事会秘书工作制度的议案》。修订后的2026版制度于10月28日发布，规定经董事会审议通过后生效、自发布之日起施行，原旧版文件即行废止。"
         }
       }
     },
@@ -2353,7 +2362,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-04-8bea40aed13b",
+      "sourceEditionId": "2026-11-04-ce85f49203b4",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -33024,6 +33033,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T10:25:55+08:00",
           "updatedAt": "2026-11-04T18:23:29-08:00",
           "compiledAt": "2026-11-04T18:23:29-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33052,6 +33062,58 @@ window.PROTOTYPE = {
               "location": "物理第1页审议程序、第1至2页分配方案；第3页落款日期为2026年10月27日",
               "retrievedAt": "2026-11-05T08:08:09+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628412.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-30e9bb6ba43511fa86c7",
+      "objectId": "listed-002140-sz",
+      "type": "治理制度修订",
+      "topics": [
+        "董事会秘书工作制度"
+      ],
+      "updates": [
+        {
+          "id": "production-6ac654ef6e973cc87f1a9cd4",
+          "date": "2026-10-28",
+          "time": "",
+          "title": "董事会通过修订董事会秘书工作制度",
+          "summary": "东华科技2026年10月28日披露，公司八届十九次董事会于10月26日审议通过《关于修订董事会秘书工作制度的议案》。修订后的2026版制度于10月28日发布，规定经董事会审议通过后生效、自发布之日起施行，原旧版文件即行废止。",
+          "stage": "2026年10月26日董事会审议通过修订，制度规定自发布之日起施行",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T18:39:45-08:00",
+          "compiledAt": "2026-11-04T18:39:45-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "东华科技",
+          "version": "6ac654ef6e973cc87f1a9cd4cc959262279ee868a4baf86dac13f0cc2862d643",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "东华科技八届十九次董事会（现场结合通讯方式）决议公告",
+              "publisher": "东华工程科技股份有限公司",
+              "date": "2026-10-28",
+              "location": "第1页第二部分第（三）项；第2页首段",
+              "retrievedAt": "2026-11-05T08:08:08+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628649.PDF"
+            },
+            {
+              "title": "东华科技董事会秘书工作制度（2026版）",
+              "publisher": "东华工程科技股份有限公司",
+              "date": "2026-10-28",
+              "location": "第1页标题及审议日期；第7页第三十二条",
+              "retrievedAt": "2026-11-05T08:08:07+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628651.PDF"
             }
           ],
           "tables": []
@@ -37978,6 +38040,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "5c040ad3808ade7b1ef2",
+      "date": "2026-11-05",
+      "compiledAt": "2026-11-04T18:23:29-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/5c040ad3808ade7b1ef2/index.html",
+      "publishedAt": "2026-11-05T10:25:55+08:00"
+    },
     {
       "id": "7225de772658fd9adab5",
       "date": "2026-11-05",
