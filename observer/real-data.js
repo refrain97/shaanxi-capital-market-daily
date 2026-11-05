@@ -5,102 +5,18 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-90e2f312e5a1",
-      "compiledAt": "2026-11-04T10:32:00-08:00",
-      "cutoff": "2026-10-27T23:59:59+08:00",
-      "windowStart": "2026-10-21",
-      "windowEnd": "2026-10-27",
-      "researchCutoff": "2026-10-27T23:59:59+08:00",
-      "sourceDiscoveryCutoff": "2026-10-27T23:59:59+08:00",
+      "id": "2026-11-04-373f50266533",
+      "compiledAt": "2026-11-04T16:24:35-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "windowStart": "2026-10-26",
+      "windowEnd": "2026-11-01",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
-        "production-f81270e62613b4ff7c2ed5bf",
-        "production-f6d64af72d32d3fedc2cdfee",
-        "production-f5f12bc06521d80e20b5d085",
-        "production-e92f5a43661279c797772c52",
-        "production-dd9f6e3cfe5c47bc7df9d75a",
-        "production-d45db36f552a0e09bb477f27",
-        "production-cda17b0ad54085d1212cc390",
-        "production-cb5dcdd9e7dd4105fd380a5f",
-        "production-b8cb87be78710915b6d8267f",
-        "production-b216cbe6f29cc4a521e08529",
-        "production-af7a9aa50e4b2a910a173f95",
-        "production-a7387fc29a61a56e97783a85",
-        "production-a17e1eacd70b84fdf475be3b",
-        "production-9b2916bdefbefaf64ede4392",
-        "production-9963374367866ff1e689a477",
-        "production-98b20f0a8a3ca1604d64f1d9",
-        "production-8f139dc27179ab817a34d92a",
-        "production-84a51d628468d495d4546f44",
-        "production-67bbce89f8e1a16531b971df",
-        "production-6680fd3c4d8b003c6326c346",
-        "production-625b951ed6ec4285ccd8382a",
-        "production-5d273cf3a0c2438eb7494f40",
-        "production-583c58cb40bdf57c421a651b",
-        "production-4374316e5de52764e167aa8c",
-        "production-4111dfb3ed113bbbf817f56b",
-        "production-3f5843fba3ac0a13c036d3d8",
-        "production-3a5220aee8226bdddaebbeb3",
-        "production-38837150a87328d45b59a38e",
-        "production-35e86d3c86079f1b05425452",
-        "production-2ff84e16e679813411250572",
-        "production-2433d62b0a62de14de27f816",
-        "production-23dab836bf2260b34ca3781c",
-        "production-0d0e7919d79dc24dfbe58400",
-        "production-0965089d538d5954f759d2d2",
-        "production-08637df62c133e717152fbaf",
-        "production-d8c1b49fc9bd2b7f1efbd092",
-        "production-a2f2466fec1bfb3ffc4e96fb",
-        "production-82fac279f6e6f1050990b31e",
-        "production-6511cb33c2e09ca18b6fc407",
-        "production-03ad256b5ea60149555fffa6",
-        "production-dab69bf53db3ecb716f90096",
-        "production-d68264772c317bc2ebc4d629",
-        "production-d34f2d6228095488f0dafc8e",
-        "production-b5070f9062323edb41f98cb2",
-        "production-8739c2f403c6973f8108f1d0",
-        "production-7d7f03d8bc6acbcc745e1970",
-        "production-7c1ca1ebe676a041eac37e44",
-        "production-5fd8d12ff90d654e0694ed00",
-        "production-597fbd19172dec08268f2a20",
-        "production-4730bc2e36b4451431d2b953",
-        "production-33a5eebc677fa8640e3f2df5",
-        "production-31c89b730d576c9aa12672b0",
-        "production-30b7874787b38220c6afb78f",
-        "production-29cc1823b3230cf3cc8e24d0",
-        "production-1d8e0b364f62934b139054d2",
-        "production-13995227879e82a52d84257c",
-        "production-0a5d8c5a2397b71c0b0f42fc",
-        "production-ee8503b001e354a802cdcd4a",
-        "production-ed0d607d99bac20af8113c39",
-        "production-ec1a4819750c9027a17a7f64",
-        "production-e7a5cfcc56bb57c93dd65150",
-        "production-d57e113d299485eacb53fc23",
-        "production-ce9ea92cae98988c915a20ad",
-        "production-c5a249fa23ed535f0982c731",
-        "production-c3a75abb59f47d2bb90bc13b",
-        "production-be21aeb63f21ca04bb1f9c64",
-        "production-b8f3c77e2cf87d44d74a388d",
-        "production-addd361d6da4af75b680bf12",
-        "production-a431458e51419d1af6f6b643",
-        "production-9d0b2884a116453f29d90f39",
-        "production-9290f876d1806ef9e315d1a0",
-        "production-87a2e4a642b6b715d19f9156",
-        "production-7bfc50bdf2508841c5353163",
-        "production-6821f0f2b9767dc02d733ba1",
-        "production-604d8efbc958b6c96b87f507",
-        "production-6016d4420071e6107a4f62c6",
-        "production-5a34087d0434a9018278a5fa",
-        "production-49330173030a92fa58de764a",
-        "production-3c748e5aa0c1edf2164b48c2",
-        "production-3528690b4695259b648472dc",
-        "production-2ae9b3a0433cc19ad2c0d927",
-        "production-287542e2177819c0c5069865",
-        "production-16b30d5e9b8a99281bc40687",
-        "production-0ad8fdcc0fedf9f53b180781",
-        "production-00d41855747aecbc7a4a4cc9",
-        "production-9fdc436613e81042ec568e37",
-        "production-7d91d336fddff6cf46afd3fa"
+        "production-8034bb30bd2ebbbea44032be",
+        "production-63351df0acb39ea8c61b551a",
+        "production-14972cc78c994e4ee8e53e14"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -391,7 +307,10 @@ window.PROTOTYPE = {
       "production-49330173030a92fa58de764a": "2026-11-04T09:12:25-08:00",
       "production-ec1a4819750c9027a17a7f64": "2026-11-04T09:15:04-08:00",
       "production-1d8e0b364f62934b139054d2": "2026-11-04T09:50:11-08:00",
-      "production-9fdc436613e81042ec568e37": "2026-11-04T10:32:00-08:00"
+      "production-9fdc436613e81042ec568e37": "2026-11-04T10:32:00-08:00",
+      "production-63351df0acb39ea8c61b551a": "2026-11-04T16:24:34-08:00",
+      "production-14972cc78c994e4ee8e53e14": "2026-11-04T16:24:34-08:00",
+      "production-8034bb30bd2ebbbea44032be": "2026-11-04T16:24:34-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2269,6 +2188,27 @@ window.PROTOTYPE = {
           "action": "并购重组",
           "group": "并购重组",
           "level": "deep"
+        },
+        "production-63351df0acb39ea8c61b551a": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "东华科技2026年10月31日披露，公司及全资、控股子公司第三季度新签约订单47个、金额540,771.34万元，截至报告期末累计已签约未完工订单1,020个、金额6,473,836.34万元，统计不含实业及新材料销售。上述数据具有阶段性且未经审计，项目可能发生合同变更或终止，未来确认的营业收入与合同金额并不完全一致。"
+        },
+        "production-14972cc78c994e4ee8e53e14": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "隆基绿能2026年10月31日公告，董事会已审议通过前三季度计提资产减值准备议案，公司拟计提112,089.09万元，全额计入2026年1—9月经营业绩，预计减少同期合并净利润95,198.22万元。本次计提未经审计，最终金额以会计师事务所年度审计确认为准。"
+        },
+        "production-8034bb30bd2ebbbea44032be": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "隆基绿能2026年10月31日公告，公司董事会于10月30日以通讯表决方式审议通过《2026年第三季度报告》，表决结果为9票同意、0票反对、0票弃权。"
         }
       }
     },
@@ -2277,15 +2217,14 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
-      "sourceEditionId": "2026-11-04-90e2f312e5a1",
-      "editionId": "selection-fb19b2bcc71d6aed8d2b",
+      "status": "no_eligible_highlights",
+      "sourceEditionId": "2026-11-04-373f50266533",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
-      "windowStart": "2026-10-21",
-      "windowEnd": "2026-10-27",
-      "cutoff": "2026-10-27T23:59:59+08:00",
+      "windowStart": "2026-10-26",
+      "windowEnd": "2026-11-01",
+      "cutoff": "2026-11-01T23:59:59+08:00",
       "partial": true
     },
     "privateFilingHistory": {
@@ -32074,6 +32013,149 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-ecd39c16e644586d0e1e",
+      "objectId": "listed-002140-sz",
+      "type": "经营情况披露",
+      "topics": [
+        "季度订单",
+        "经营合同履行"
+      ],
+      "updates": [
+        {
+          "id": "production-63351df0acb39ea8c61b551a",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "第三季度新签订单47个、金额540,771.34万元",
+          "summary": "东华科技2026年10月31日披露，公司及全资、控股子公司第三季度新签约订单47个、金额540,771.34万元，截至报告期末累计已签约未完工订单1,020个、金额6,473,836.34万元，统计不含实业及新材料销售。上述数据具有阶段性且未经审计，项目可能发生合同变更或终止，未来确认的营业收入与合同金额并不完全一致。",
+          "stage": "披露第三季度订单及截至2026年9月30日的重大经营合同履行情况，数据未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T16:24:34-08:00",
+          "compiledAt": "2026-11-04T16:24:34-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "东华科技",
+          "version": "63351df0acb39ea8c61b551a85e9541ec25894e6bce730f99b6eeaa08d265d96",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "东华工程科技股份有限公司2026年第三季度经营情况简报",
+              "publisher": "东华工程科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页生产经营整体情况表；第6页其他情况说明及落款（落款日期为2026年10月30日）",
+              "retrievedAt": "2026-11-05T08:08:07+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225646951.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-0987bd57762c0bbd5755",
+      "objectId": "listed-601012-sh",
+      "type": "资产减值准备",
+      "topics": [
+        "2026年前三季度资产减值准备",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-14972cc78c994e4ee8e53e14",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "董事会通过前三季度拟计提112,089.09万元减值准备议案",
+          "summary": "隆基绿能2026年10月31日公告，董事会已审议通过前三季度计提资产减值准备议案，公司拟计提112,089.09万元，全额计入2026年1—9月经营业绩，预计减少同期合并净利润95,198.22万元。本次计提未经审计，最终金额以会计师事务所年度审计确认为准。",
+          "stage": "董事会已审议通过，拟计提资产减值准备112,089.09万元；未经审计，最终金额以年度审计确认为准",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T16:24:34-08:00",
+          "compiledAt": "2026-11-04T16:24:34-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "隆基绿能",
+          "version": "14972cc78c994e4ee8e53e14915c8bf8088cedb01ef7678ac4b57f3f7ac4cffd",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于2026年前三季度计提资产减值准备的公告",
+              "publisher": "隆基绿能科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页计提概述；第2页财务影响及审计限定",
+              "retrievedAt": "2026-11-05T08:06:29+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647904.PDF"
+            },
+            {
+              "title": "第六届董事会2026年第五次会议决议公告",
+              "publisher": "隆基绿能科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页第二项议案",
+              "retrievedAt": "2026-11-05T08:06:30+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647840.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-145e7cccda78043c1010",
+      "objectId": "listed-601012-sh",
+      "type": "季度报告审议",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-8034bb30bd2ebbbea44032be",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "董事会审议通过2026年第三季度报告",
+          "summary": "隆基绿能2026年10月31日公告，公司董事会于10月30日以通讯表决方式审议通过《2026年第三季度报告》，表决结果为9票同意、0票反对、0票弃权。",
+          "stage": "2026年10月30日董事会审议通过第三季度报告，表决结果为9同意、0票反对、0票弃权",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T16:24:34-08:00",
+          "compiledAt": "2026-11-04T16:24:34-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "隆基绿能",
+          "version": "8034bb30bd2ebbbea44032bee5a515fee1330b33469714880806134f51cb1273",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第六届董事会2026年第五次会议决议公告",
+              "publisher": "隆基绿能科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页会议召开情况及第一项议案",
+              "retrievedAt": "2026-11-05T08:06:30+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647840.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -36995,6 +37077,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "ca4c22ea92457d72b693",
+      "date": "2026-11-05",
+      "compiledAt": "2026-11-04T10:32:00-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/ca4c22ea92457d72b693/index.html",
+      "publishedAt": "2026-11-05T08:13:06+08:00"
+    },
     {
       "id": "e5f918a2ac78b58e1670",
       "date": "2026-11-05",
