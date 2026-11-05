@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-41bab11dd39e",
-      "compiledAt": "2026-11-04T17:52:00-08:00",
+      "id": "2026-11-04-e6033f7e32af",
+      "compiledAt": "2026-11-04T18:05:11-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -14,17 +14,20 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-f18b4eadc0a38dda9d70321b",
         "production-e74a9c430789a23ef97e0ab9",
         "production-c7794a553ec11c1af58df314",
         "production-c69e01bfe411b23c7c7ad7e7",
         "production-b8d7123b8b600ba65839dd83",
         "production-a8cc48632581f2148af4856c",
         "production-91db4dab0430af90585695d8",
+        "production-858ec060cfe5fb6b54b9c38c",
         "production-8034bb30bd2ebbbea44032be",
         "production-6e334afa9911d31486480862",
         "production-6b316b170fa769a9e682043f",
         "production-63351df0acb39ea8c61b551a",
         "production-50fc3c8062a9f0dcfd5a2ad3",
+        "production-2e2e3d64525806695548da91",
         "production-14972cc78c994e4ee8e53e14",
         "production-09f10a9e6400e371697bd6c6",
         "production-ff57ff9059de128b625b71e2"
@@ -332,7 +335,10 @@ window.PROTOTYPE = {
       "production-e74a9c430789a23ef97e0ab9": "2026-11-04T17:34:19-08:00",
       "production-6b316b170fa769a9e682043f": "2026-11-04T17:51:59-08:00",
       "production-c69e01bfe411b23c7c7ad7e7": "2026-11-04T17:51:59-08:00",
-      "production-50fc3c8062a9f0dcfd5a2ad3": "2026-11-04T17:51:59-08:00"
+      "production-50fc3c8062a9f0dcfd5a2ad3": "2026-11-04T17:51:59-08:00",
+      "production-f18b4eadc0a38dda9d70321b": "2026-11-04T18:05:09-08:00",
+      "production-2e2e3d64525806695548da91": "2026-11-04T18:05:09-08:00",
+      "production-858ec060cfe5fb6b54b9c38c": "2026-11-04T18:05:09-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -569,6 +575,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "金花企业（集团）股份有限公司于2026年9月30日披露，公司9月召开半年度业绩说明会，就风险处置、内控整改等回应投资者，并持续完善治理及内部审计机制。公司仍处其他风险警示期间；公告提示，若连续两个会计年度财务报告内部控制被出具无法表示意见或否定意见的审计报告，或未按规定披露相关审计报告，公司股票将被实施退市风险警示。"
+        },
+        "production-858ec060cfe5fb6b54b9c38c": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "2026年10月31日，金花企业（集团）股份有限公司公告，10月开展资金安全管理专项培训，并由监察审计部门对大额业务往来清单涉及的业务开展专项抽查、向审计委员会汇报。公司仍处于其他风险警示期间，本次披露为阶段性整改进展。"
         },
         "production-8cc88ef455fafc1c30e3c54e": {
           "version": "listed-scope-20261009",
@@ -2080,6 +2093,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "源杰科技2026年10月23日公告，预计2026年第三季度营业收入65,000.00万至70,000.00万元，同比增长264.56%至292.60%；归属于母公司所有者的净利润40,300.00万至45,300.00万元，同比增长578.85%至659.70%。公司表示，目前生产经营活动及订单交付正常开展，上述业绩数据为预计数。"
         },
+        "production-f18b4eadc0a38dda9d70321b": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "2026年10月31日，陕西源杰半导体科技股份有限公司披露未经审计的第三季度报告：第三季度营业收入约人民币6.84亿元，同比增长283.55%；归属于上市公司股东的净利润约人民币4.17亿元，同比增长598.96%。报告已于10月30日经董事会审议通过。"
+        },
         "production-be21aeb63f21ca04bb1f9c64": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -2308,6 +2328,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "泰金新能2026年10月31日披露，董事会于10月30日审议通过新增2026年度向西安瑞鑫科金属材料有限责任公司购买原材料、采购商品及接受劳务的日常关联交易预计额度2800万元。该事项无需提交股东会审议，具体协议将在交易实际发生时签署。"
+        },
+        "production-2e2e3d64525806695548da91": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "2026年10月31日，陕西建工集团股份有限公司公告，董事会于10月29日审议通过前三季度计提资产减值准备事项，信用减值损失和资产减值损失合计230,431.60万元，包含相关减值转回。本次计提将减少公司2026年前三季度合并报表利润总额230,431.60万元。"
         }
       }
     },
@@ -2317,7 +2344,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-04-41bab11dd39e",
+      "sourceEditionId": "2026-11-04-e6033f7e32af",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -14533,6 +14560,40 @@ window.PROTOTYPE = {
               "location": "物理第1—2页",
               "retrievedAt": "2026-10-09T20:30:28+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-09-30/1225586604.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
+          "id": "production-858ec060cfe5fb6b54b9c38c",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "披露10月内控整改进展，开展资金安全培训及专项抽查",
+          "summary": "2026年10月31日，金花企业（集团）股份有限公司公告，10月开展资金安全管理专项培训，并由监察审计部门对大额业务往来清单涉及的业务开展专项抽查、向审计委员会汇报。公司仍处于其他风险警示期间，本次披露为阶段性整改进展。",
+          "stage": "披露10月资金安全培训、大额业务往来专项抽查及持续内控整改措施，仍处其他风险警示期间",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T18:05:10-08:00",
+          "compiledAt": "2026-11-04T18:05:10-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST金花",
+          "version": "858ec060cfe5fb6b54b9c38ccc23a1085f7572c3065b8f8a0cadf05c6fe39c64",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "金花企业（集团）股份有限公司关于公司股票被实施其他风险警示事项的进展公告",
+              "publisher": "金花企业（集团）股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页风险警示情况；第2页整改措施及进展、其他说明",
+              "retrievedAt": "2026-11-05T08:05:34+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649837.PDF"
             }
           ],
           "tables": []
@@ -30876,6 +30937,48 @@ window.PROTOTYPE = {
             }
           ],
           "tables": []
+        },
+        {
+          "id": "production-f18b4eadc0a38dda9d70321b",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "第三季度归母净利润约4.17亿元，同比增长598.96%",
+          "summary": "2026年10月31日，陕西源杰半导体科技股份有限公司披露未经审计的第三季度报告：第三季度营业收入约人民币6.84亿元，同比增长283.55%；归属于上市公司股东的净利润约人民币4.17亿元，同比增长598.96%。报告已于10月30日经董事会审议通过。",
+          "stage": "2026年10月30日董事会审议通过第三季度报告，本轮披露未经审计季度财务数据；关键财务表格尚待原页核验",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T18:05:09-08:00",
+          "compiledAt": "2026-11-04T18:05:09-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "源杰科技",
+          "version": "f18b4eadc0a38dda9d70321bc05e625509fcf07e2ce1aa3859117a8089b26551",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西源杰半导体科技股份有限公司2026年第三季度报告",
+              "publisher": "陕西源杰半导体科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页主要财务数据及审计状态；第2页报告期定义；报告落款日期为2026年10月30日",
+              "retrievedAt": "2026-11-05T08:07:01+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648199.PDF"
+            },
+            {
+              "title": "陕西源杰半导体科技股份有限公司第二届董事会第三十四次会议决议公告",
+              "publisher": "陕西源杰半导体科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页会议召开情况及第一项议案",
+              "retrievedAt": "2026-11-05T08:06:59+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648269.PDF"
+            }
+          ],
+          "tables": []
         }
       ]
     },
@@ -32701,6 +32804,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T09:54:23+08:00",
           "updatedAt": "2026-11-04T17:51:59-08:00",
           "compiledAt": "2026-11-04T17:51:59-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32747,6 +32851,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T09:54:23+08:00",
           "updatedAt": "2026-11-04T17:51:59-08:00",
           "compiledAt": "2026-11-04T17:51:59-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32801,6 +32906,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T09:54:23+08:00",
           "updatedAt": "2026-11-04T17:51:59-08:00",
           "compiledAt": "2026-11-04T17:51:59-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32829,6 +32935,59 @@ window.PROTOTYPE = {
               "location": "物理第1页审议程序、第2页额度表、第3页协议签署安排、第4页意见；第5页签章日期为2026年10月30日",
               "retrievedAt": "2026-11-05T08:07:05+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648741.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-be6e7ed95aec414af702",
+      "objectId": "listed-600248-sh",
+      "type": "资产减值准备",
+      "topics": [
+        "2026年前三季度信用及资产减值",
+        "减少合并报表利润总额"
+      ],
+      "updates": [
+        {
+          "id": "production-2e2e3d64525806695548da91",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "前三季度计提减值准备230,431.60万元",
+          "summary": "2026年10月31日，陕西建工集团股份有限公司公告，董事会于10月29日审议通过前三季度计提资产减值准备事项，信用减值损失和资产减值损失合计230,431.60万元，包含相关减值转回。本次计提将减少公司2026年前三季度合并报表利润总额230,431.60万元。",
+          "stage": "2026年10月29日董事会审议通过前三季度计提资产减值准备事项",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T18:05:10-08:00",
+          "compiledAt": "2026-11-04T18:05:10-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕建股份",
+          "version": "2e2e3d64525806695548da9140901569c0bd79d8e80256a8ad489c03d7114579",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西建工集团股份有限公司关于2026年前三季度计提资产减值准备的公告",
+              "publisher": "陕西建工集团股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页计提概况及分类表；第3页合同资产转回、利润影响及决策程序",
+              "retrievedAt": "2026-11-05T08:05:39+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650319.PDF"
+            },
+            {
+              "title": "陕西建工集团股份有限公司第九届董事会第五次会议决议公告",
+              "publisher": "陕西建工集团股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页会议召开情况及第二项议案",
+              "retrievedAt": "2026-11-05T08:05:38+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650322.PDF"
             }
           ],
           "tables": []
@@ -37755,6 +37914,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "6c3f12ecb609d816c462",
+      "date": "2026-11-05",
+      "compiledAt": "2026-11-04T17:52:00-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/6c3f12ecb609d816c462/index.html",
+      "publishedAt": "2026-11-05T09:54:23+08:00"
+    },
     {
       "id": "1ee411d3d20015ea4cbf",
       "date": "2026-11-05",
