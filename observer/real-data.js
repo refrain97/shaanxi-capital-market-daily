@@ -2290,8 +2290,8 @@ window.PROTOTYPE = {
     },
     "privateFilingHistory": {
       "start": "2026-01-01",
-      "end": "2026-10-27",
-      "checkedAt": "2026-11-04T14:27:53+08:00",
+      "end": "2026-11-01",
+      "checkedAt": "2026-11-05T08:10:38+08:00",
       "scopeCount": 92,
       "completeManagers": 92,
       "partialManagers": 0,
@@ -2492,7 +2492,7 @@ window.PROTOTYPE = {
           "name": "西咸新区旷特投资管理有限公司",
           "registrationNo": "P1069468",
           "status": "complete",
-          "visibleProducts": 1
+          "visibleProducts": 2
         },
         {
           "objectId": "private-1701061825108832",
@@ -2944,6 +2944,19 @@ window.PROTOTYPE = {
         }
       ],
       "products": [
+        {
+          "objectId": "private-1809181551101419",
+          "id": "2610291033108109",
+          "managerName": "西咸新区旷特投资管理有限公司",
+          "name": "旷特铮巍私募证券投资基金",
+          "filingNo": "SET060",
+          "filedAt": "2026-10-29",
+          "establishedAt": "2026-10-26",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2610291033108109.html",
+          "retrievedAt": "2026-11-05T08:08:34+08:00"
+        },
         {
           "objectId": "private-1705251723108664",
           "id": "2610121728102030",
@@ -4054,7 +4067,14 @@ window.PROTOTYPE = {
           "coverageComplete": true,
           "coveredManagers": 92,
           "scopeCount": 92,
-          "count": 1
+          "count": 2
+        },
+        {
+          "month": "2026-11",
+          "coverageComplete": true,
+          "coveredManagers": 92,
+          "scopeCount": 92,
+          "count": 0
         }
       ]
     }
@@ -31931,6 +31951,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。预案明确尚未确定交易作价、两名卖方现金及股份对价比例、发行数量；这些属于当时披露的待定条款。本文不填入推算金额，不将股权出让比例等同于现金分配或上市公司持股比例。 配套融资具体金额、业绩补偿及过渡期间损益安排仍待后续披露。现有材料支持方案及进展报道，不支持实际付款、交割、发行登记或融资到账的结论。 资料范围限定为8月预案及9月29日、10月24日两份进展公告；未对研究截止后的进展作判断，不声称覆盖公司全部历史。 正文不量化标的盈利改善、资产增厚或交易估值，也未采用缺少留存原页图的其他财务表格数字。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T02:35:42+08:00",
           "updatedAt": "2026-11-04T10:32:00-08:00",
           "compiledAt": "2026-11-04T10:32:00-08:00",
           "researchCutoff": "2026-10-27T23:59:59+08:00",
@@ -36974,6 +36995,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "e5f918a2ac78b58e1670",
+      "date": "2026-11-05",
+      "compiledAt": "2026-11-04T10:32:00-08:00",
+      "cutoff": "2026-10-27T23:59:59+08:00",
+      "snapshotUrl": "publications/e5f918a2ac78b58e1670/index.html",
+      "publishedAt": "2026-11-05T02:35:42+08:00"
+    },
     {
       "id": "74ca119f8bad58c357b8",
       "date": "2026-11-05",
