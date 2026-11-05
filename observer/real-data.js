@@ -32315,6 +32315,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T08:57:01+08:00",
           "updatedAt": "2026-11-04T16:52:07-08:00",
           "compiledAt": "2026-11-04T16:52:07-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -37277,6 +37278,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "a5ccc4b41c3aaf0ff93e",
+      "date": "2026-11-05",
+      "compiledAt": "2026-11-04T16:52:07-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/a5ccc4b41c3aaf0ff93e/index.html",
+      "publishedAt": "2026-11-05T08:57:01+08:00"
+    },
     {
       "id": "d131317bf85cec12d9b8",
       "date": "2026-11-05",
