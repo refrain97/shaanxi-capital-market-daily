@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-373f50266533",
-      "compiledAt": "2026-11-04T16:24:35-08:00",
+      "id": "2026-11-04-c8c6b0d04795",
+      "compiledAt": "2026-11-04T16:39:24-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -14,9 +14,11 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-c7794a553ec11c1af58df314",
         "production-8034bb30bd2ebbbea44032be",
         "production-63351df0acb39ea8c61b551a",
-        "production-14972cc78c994e4ee8e53e14"
+        "production-14972cc78c994e4ee8e53e14",
+        "production-ff57ff9059de128b625b71e2"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -310,7 +312,9 @@ window.PROTOTYPE = {
       "production-9fdc436613e81042ec568e37": "2026-11-04T10:32:00-08:00",
       "production-63351df0acb39ea8c61b551a": "2026-11-04T16:24:34-08:00",
       "production-14972cc78c994e4ee8e53e14": "2026-11-04T16:24:34-08:00",
-      "production-8034bb30bd2ebbbea44032be": "2026-11-04T16:24:34-08:00"
+      "production-8034bb30bd2ebbbea44032be": "2026-11-04T16:24:34-08:00",
+      "production-ff57ff9059de128b625b71e2": "2026-11-04T16:35:47-08:00",
+      "production-c7794a553ec11c1af58df314": "2026-11-04T16:39:23-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2209,6 +2213,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "隆基绿能2026年10月31日公告，公司董事会于10月30日以通讯表决方式审议通过《2026年第三季度报告》，表决结果为9票同意、0票反对、0票弃权。"
+        },
+        "production-ff57ff9059de128b625b71e2": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "东华科技2026年10月28日披露，董事会于10月26日审议通过修订投资者关系管理制度的议案，并发布2026版制度。制度规定自发布之日起施行，原旧版文件即行废止。"
+        },
+        "production-c7794a553ec11c1af58df314": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "达刚控股2026年10月31日披露，张莎因个人原因辞去总裁职务，自10月30日起生效，辞任后继续担任公司董事。公司10月30日董事会同意聘任苏元朋、韦海莉分别为总裁、董事会秘书，任期均自本次董事会审议通过之日起至第六届董事会任期届满之日止；董事会秘书任职生效后，董事长陈可不再代行该职责。"
         }
       }
     },
@@ -2218,7 +2236,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-04-373f50266533",
+      "sourceEditionId": "2026-11-04-c8c6b0d04795",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -32033,6 +32051,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T08:28:52+08:00",
           "updatedAt": "2026-11-04T16:24:34-08:00",
           "compiledAt": "2026-11-04T16:24:34-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32078,6 +32097,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T08:28:52+08:00",
           "updatedAt": "2026-11-04T16:24:34-08:00",
           "compiledAt": "2026-11-04T16:24:34-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32131,6 +32151,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T08:28:52+08:00",
           "updatedAt": "2026-11-04T16:24:34-08:00",
           "compiledAt": "2026-11-04T16:24:34-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -32151,6 +32172,112 @@ window.PROTOTYPE = {
               "location": "物理第1页会议召开情况及第一项议案",
               "retrievedAt": "2026-11-05T08:06:30+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647840.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-09d173bbc8bb8a984985",
+      "objectId": "listed-002140-sz",
+      "type": "治理制度修订",
+      "topics": [
+        "投资者关系管理制度"
+      ],
+      "updates": [
+        {
+          "id": "production-ff57ff9059de128b625b71e2",
+          "date": "2026-10-28",
+          "time": "",
+          "title": "董事会通过投资者关系管理制度修订",
+          "summary": "东华科技2026年10月28日披露，董事会于10月26日审议通过修订投资者关系管理制度的议案，并发布2026版制度。制度规定自发布之日起施行，原旧版文件即行废止。",
+          "stage": "2026年10月26日董事会审议通过修订，制度规定自发布之日起施行",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T16:35:47-08:00",
+          "compiledAt": "2026-11-04T16:35:47-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "东华科技",
+          "version": "ff57ff9059de128b625b71e2883a39277ed47694182d92d1c6f20beb33ff88db",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "东华科技八届十九次董事会（现场结合通讯方式）决议公告",
+              "publisher": "东华工程科技股份有限公司",
+              "date": "2026-10-28",
+              "location": "物理第2页：第四项议案及修订文本发布说明",
+              "retrievedAt": "2026-11-05T08:08:08+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628649.PDF"
+            },
+            {
+              "title": "东华科技投资者关系管理制度（2026版）",
+              "publisher": "东华工程科技股份有限公司",
+              "date": "2026-10-28",
+              "location": "物理第1页：审议日期；物理第5页：第二十六条",
+              "retrievedAt": "2026-11-05T08:08:07+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628650.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-9a96978afb5049d487ee",
+      "objectId": "listed-300103-sz",
+      "type": "高级管理人员调整",
+      "topics": [
+        "张莎辞任总裁",
+        "聘任苏元朋为总裁",
+        "聘任韦海莉为董事会秘书"
+      ],
+      "updates": [
+        {
+          "id": "production-c7794a553ec11c1af58df314",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "聘任苏元朋为总裁、韦海莉为董事会秘书",
+          "summary": "达刚控股2026年10月31日披露，张莎因个人原因辞去总裁职务，自10月30日起生效，辞任后继续担任公司董事。公司10月30日董事会同意聘任苏元朋、韦海莉分别为总裁、董事会秘书，任期均自本次董事会审议通过之日起至第六届董事会任期届满之日止；董事会秘书任职生效后，董事长陈可不再代行该职责。",
+          "stage": "2026年10月30日董事会审议通过聘任，张莎辞任总裁同日生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-04T16:39:23-08:00",
+          "compiledAt": "2026-11-04T16:39:23-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "达刚控股",
+          "version": "c7794a553ec11c1af58df314953d87ddda3dff68cfcef7f1dd56ac7d4e1c5ea0",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第六届董事会第二十一次（临时）会议决议公告",
+              "publisher": "达刚控股集团股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页，会议召开情况及聘任议案",
+              "retrievedAt": "2026-11-05T08:05:02+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649496.PDF"
+            },
+            {
+              "title": "关于公司部分高级管理人员调整的公告",
+              "publisher": "达刚控股集团股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1—2页，总裁辞任及高级管理人员聘任",
+              "retrievedAt": "2026-11-05T08:05:02+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649495.PDF"
             }
           ],
           "tables": []
@@ -37077,6 +37204,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "344a90c0d0e85fa06a5f",
+      "date": "2026-11-05",
+      "compiledAt": "2026-11-04T16:24:35-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/344a90c0d0e85fa06a5f/index.html",
+      "publishedAt": "2026-11-05T08:28:52+08:00"
+    },
     {
       "id": "ca4c22ea92457d72b693",
       "date": "2026-11-05",
