@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-05-4b7ecd2b6ed9",
-      "compiledAt": "2026-11-05T19:17:47-08:00",
+      "id": "2026-11-05-f3469569e1a0",
+      "compiledAt": "2026-11-05T19:33:58-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -36,6 +36,7 @@ window.PROTOTYPE = {
         "production-09f10a9e6400e371697bd6c6",
         "production-eeae0bf5db12bcdc4e6d4fa1",
         "production-d90000dabeee8611cbffb192",
+        "production-d74c85c04a863d6f281c8c4c",
         "production-c3ad64745687caebb9fe6cd2",
         "production-b5f03fad5a03336713b4354e",
         "production-9eb4f111d32e8675dd83bb11",
@@ -44,11 +45,14 @@ window.PROTOTYPE = {
         "production-87d9e36ade84cce83fdcd926",
         "production-7b8cd30d7e2b9f3bf00e08e0",
         "production-6f586b29192198cbc6a09340",
+        "production-5312da14e399347f940d5faa",
         "production-502375d7206ec7e3fa1a6216",
         "production-49963c2a05a103a74d123151",
         "production-42e955320b5d35846be7d060",
         "production-2947fcab17be17cee2508db6",
+        "production-21e8ba242101d1e3e94b99c8",
         "production-0c9bcf00be372e208a232c48",
+        "production-0933b035c0ff10f36e95e045",
         "production-ff57ff9059de128b625b71e2",
         "production-6ac654ef6e973cc87f1a9cd4",
         "production-31538a5cdfd937a7a48a4612"
@@ -379,7 +383,11 @@ window.PROTOTYPE = {
       "production-b5f03fad5a03336713b4354e": "2026-11-05T18:59:33-08:00",
       "production-2947fcab17be17cee2508db6": "2026-11-05T18:59:33-08:00",
       "production-42e955320b5d35846be7d060": "2026-11-05T18:59:33-08:00",
-      "production-49963c2a05a103a74d123151": "2026-11-05T19:17:46-08:00"
+      "production-49963c2a05a103a74d123151": "2026-11-05T19:17:46-08:00",
+      "production-5312da14e399347f940d5faa": "2026-11-05T19:33:55-08:00",
+      "production-d74c85c04a863d6f281c8c4c": "2026-11-05T19:33:55-08:00",
+      "production-0933b035c0ff10f36e95e045": "2026-11-05T19:33:55-08:00",
+      "production-21e8ba242101d1e3e94b99c8": "2026-11-05T19:33:55-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2517,6 +2525,34 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安银行2026年10月30日披露，10月29日召开的董事会审议通过《内幕信息及知情人管理制度》修订议案，表决结果为同意10票、反对0票、弃权0票。修订后的制度自董事会审议通过之日起生效实施，原制度同时废止。"
+        },
+        "production-5312da14e399347f940d5faa": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安银行2026年10月30日披露第三季度报告，报告已于10月29日经董事会审议通过，财务报表未经审计。2026年前三季度，公司实现营业收入人民币84.36亿元，同比增长9.69%；归属于母公司股东的净利润人民币21.94亿元，同比增长7.93%。"
+        },
+        "production-d74c85c04a863d6f281c8c4c": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "宝钛股份2026年10月30日公告，董事会已审议通过修改公司章程的议案，拟新增条款要求重大经营管理事项经党委前置研究讨论后，再由董事会等按照职权和规定程序作出决定。该议案尚需提交公司股东会审议。"
+        },
+        "production-0933b035c0ff10f36e95e045": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "宝钛股份2026年10月30日公告，公司董事会于10月29日以8票同意、0票反对、0票弃权，审议通过制定《公司可持续发展（ESG）管理制度》的议案。"
+        },
+        "production-21e8ba242101d1e3e94b99c8": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "宝钛股份2026年10月30日公告，董事会已授权董事长择机确定2026年第一次临时股东会的召开时间、股权登记日等事项。控股股东宝钛集团有限公司参会表决尚需取得陕西有色金属控股集团有限责任公司的必要批复，公司将适时发出会议通知，具体召开时间及股权登记日尚待确定。"
         }
       }
     },
@@ -2526,7 +2562,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-05-4b7ecd2b6ed9",
+      "sourceEditionId": "2026-11-05-f3469569e1a0",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -34028,6 +34064,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T11:23:56+08:00",
           "updatedAt": "2026-11-05T19:17:46-08:00",
           "compiledAt": "2026-11-05T19:17:46-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -34056,6 +34093,191 @@ window.PROTOTYPE = {
               "location": "物理第10页，第三十一条",
               "retrievedAt": "2026-11-05T08:06:26+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644388.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-f05829f6d39ec26f9ecf",
+      "objectId": "listed-600928-sh",
+      "type": "定期报告",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-5312da14e399347f940d5faa",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "披露三季报：前三季度归母净利润21.94亿元",
+          "summary": "西安银行2026年10月30日披露第三季度报告，报告已于10月29日经董事会审议通过，财务报表未经审计。2026年前三季度，公司实现营业收入人民币84.36亿元，同比增长9.69%；归属于母公司股东的净利润人民币21.94亿元，同比增长7.93%。",
+          "stage": "董事会已审议通过并披露，财务报表未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T19:33:55-08:00",
+          "compiledAt": "2026-11-05T19:33:55-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安银行",
+          "version": "5312da14e399347f940d5faa62535db7317159e8280554ce5d7d455317d13d2c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安银行股份有限公司第六届董事会第四十次会议决议公告",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页，会议召开情况及第一项议案；公告落款日期为2026年10月29日",
+              "retrievedAt": "2026-11-05T08:06:26+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644384.PDF"
+            },
+            {
+              "title": "西安银行股份有限公司2026年第三季度报告",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页重要内容提示、第2页主要会计数据、第5页季度经营情况；报告落款日期为2026年10月29日",
+              "retrievedAt": "2026-11-05T08:06:26+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644376.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-7cb92c123952b748dc92",
+      "objectId": "listed-600456-sh",
+      "type": "公司治理",
+      "topics": [
+        "章程新增重大经营管理事项党委前置研究条款"
+      ],
+      "updates": [
+        {
+          "id": "production-d74c85c04a863d6f281c8c4c",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "拟在章程中新增党委前置研究条款",
+          "summary": "宝钛股份2026年10月30日公告，董事会已审议通过修改公司章程的议案，拟新增条款要求重大经营管理事项经党委前置研究讨论后，再由董事会等按照职权和规定程序作出决定。该议案尚需提交公司股东会审议。",
+          "stage": "董事会审议通过，尚需提交股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T19:33:57-08:00",
+          "compiledAt": "2026-11-05T19:33:57-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "宝钛股份",
+          "version": "d74c85c04a863d6f281c8c4c1b6d2b72c65f85a2063a1b45388873fc004ce310",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "宝鸡钛业股份有限公司第八届董事会第十五次会议决议公告",
+              "publisher": "宝鸡钛业股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第2页第五项议案、第3页公告落款",
+              "retrievedAt": "2026-11-05T08:05:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639085.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-5d3075c1461ec8b05049",
+      "objectId": "listed-600456-sh",
+      "type": "公司治理",
+      "topics": [
+        "制定可持续发展（ESG）管理制度"
+      ],
+      "updates": [
+        {
+          "id": "production-0933b035c0ff10f36e95e045",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会通过制定ESG管理制度议案",
+          "summary": "宝钛股份2026年10月30日公告，公司董事会于10月29日以8票同意、0票反对、0票弃权，审议通过制定《公司可持续发展（ESG）管理制度》的议案。",
+          "stage": "董事会已审议通过制定制度议案",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T19:33:56-08:00",
+          "compiledAt": "2026-11-05T19:33:56-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "宝钛股份",
+          "version": "0933b035c0ff10f36e95e04565afed99b8156ae1f8e76f5a1d8aad1ab830410c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "宝鸡钛业股份有限公司第八届董事会第十五次会议决议公告",
+              "publisher": "宝鸡钛业股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议日期、第2页第六项议案、第3页公告落款",
+              "retrievedAt": "2026-11-05T08:05:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639085.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-1aefa8937944309d9b37",
+      "objectId": "listed-600456-sh",
+      "type": "股东会安排",
+      "topics": [
+        "授权董事长择机确定临时股东会时间及股权登记日"
+      ],
+      "updates": [
+        {
+          "id": "production-21e8ba242101d1e3e94b99c8",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "授权董事长择机确定临时股东会安排",
+          "summary": "宝钛股份2026年10月30日公告，董事会已授权董事长择机确定2026年第一次临时股东会的召开时间、股权登记日等事项。控股股东宝钛集团有限公司参会表决尚需取得陕西有色金属控股集团有限责任公司的必要批复，公司将适时发出会议通知，具体召开时间及股权登记日尚待确定。",
+          "stage": "董事会已授权择机确定会议安排，具体召开时间及股权登记日尚未确定",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T19:33:56-08:00",
+          "compiledAt": "2026-11-05T19:33:56-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "宝钛股份",
+          "version": "21e8ba242101d1e3e94b99c8a1e791866ff44b11ce1f906b7aee2a26b14397e5",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "宝鸡钛业股份有限公司第八届董事会第十五次会议决议公告",
+              "publisher": "宝鸡钛业股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第2—3页第七项议案及第3页公告落款",
+              "retrievedAt": "2026-11-05T08:05:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639085.PDF"
             }
           ],
           "tables": []
@@ -38982,6 +39204,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "e2a21a4e782722649bcc",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T19:17:47-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/e2a21a4e782722649bcc/index.html",
+      "publishedAt": "2026-11-06T11:23:56+08:00"
+    },
     {
       "id": "257d96fc78b24ff187ef",
       "date": "2026-11-06",
