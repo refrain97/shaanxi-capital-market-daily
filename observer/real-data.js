@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-05-e89914cf1e09",
-      "compiledAt": "2026-11-05T16:27:15-08:00",
+      "id": "2026-11-05-3514254d5746",
+      "compiledAt": "2026-11-05T17:04:57-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -21,6 +21,7 @@ window.PROTOTYPE = {
         "production-be9995f7a57c1ac9eb9f5a0f",
         "production-b8d7123b8b600ba65839dd83",
         "production-a8cc48632581f2148af4856c",
+        "production-a2d1f8012a4cbef38047eacd",
         "production-9898880d0ae363985436ebd6",
         "production-91db4dab0430af90585695d8",
         "production-858ec060cfe5fb6b54b9c38c",
@@ -348,7 +349,8 @@ window.PROTOTYPE = {
       "production-6ac654ef6e973cc87f1a9cd4": "2026-11-04T18:39:45-08:00",
       "production-be9995f7a57c1ac9eb9f5a0f": "2026-11-05T16:07:06-08:00",
       "production-281913575f05d6942cd53692": "2026-11-05T16:09:23-08:00",
-      "production-9898880d0ae363985436ebd6": "2026-11-05T16:27:15-08:00"
+      "production-9898880d0ae363985436ebd6": "2026-11-05T16:27:15-08:00",
+      "production-a2d1f8012a4cbef38047eacd": "2026-11-05T17:04:56-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2380,6 +2382,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "金花企业（集团）股份有限公司2026年10月31日公告，董事会于10月29日审议通过将已结项募投项目节余募集资金8,931.11万元永久补充流动资金，并在转款后注销募集资金专户；金额含利息收入、现金管理收益，具体以资金转出当日专户余额为准，尚需提交拟于11月16日召开的股东会审议。项目仍有部分工程施工款、设备款、质保金等未支付，资金转出后剩余待付款项将由自有资金支付。"
+        },
+        "production-a2d1f8012a4cbef38047eacd": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "金花企业（集团）股份有限公司（ST金花）2026年10月31日公告，公司董事会于10月29日审议通过《公司2026年第三季度报告》，表决结果为5票同意、0票反对、0票弃权。"
         }
       }
     },
@@ -2389,7 +2398,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-05-e89914cf1e09",
+      "sourceEditionId": "2026-11-05-3514254d5746",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -33319,6 +33328,58 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-2473ee17dc17e199768a",
+      "objectId": "listed-600080-sh",
+      "type": "第三季度报告审议",
+      "topics": [
+        "2026年第三季度报告董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-a2d1f8012a4cbef38047eacd",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "董事会审议通过2026年第三季度报告",
+          "summary": "金花企业（集团）股份有限公司（ST金花）2026年10月31日公告，公司董事会于10月29日审议通过《公司2026年第三季度报告》，表决结果为5票同意、0票反对、0票弃权。",
+          "stage": "2026年10月29日董事会以5票同意、0票反对、0票弃权审议通过第三季度报告",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T17:04:56-08:00",
+          "compiledAt": "2026-11-05T17:04:56-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST金花",
+          "version": "a2d1f8012a4cbef38047eacd67c2bf7d54a0c163b29dd8e8cfde4798fc97e780",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "金花企业（集团）股份有限公司第十一届董事会第四次会议决议公告",
+              "publisher": "金花企业（集团）股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页会议召开情况及第一项议案，第2页公告署期",
+              "retrievedAt": "2026-11-05T08:05:34+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649810.PDF"
+            },
+            {
+              "title": "金花企业（集团）股份有限公司第十一届董事会第四次会议决议及签字页",
+              "publisher": "金花企业（集团）股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页第一项议案；第2页决议署期为2026年10月29日",
+              "retrievedAt": "2026-11-05T08:05:35+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649790.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -38240,6 +38301,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "cb14e66cdc095cfa2615",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T16:27:15-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/cb14e66cdc095cfa2615/index.html",
+      "publishedAt": "2026-11-06T08:52:33+08:00"
+    },
     {
       "id": "d1e9892e628dabfedd52",
       "date": "2026-11-06",
