@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-05-1f07241a12a1",
-      "compiledAt": "2026-11-05T21:08:30-08:00",
+      "id": "2026-11-05-e12f431543f6",
+      "compiledAt": "2026-11-05T22:30:22-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -20,12 +20,14 @@ window.PROTOTYPE = {
         "production-9898880d0ae363985436ebd6",
         "production-91db4dab0430af90585695d8",
         "production-858ec060cfe5fb6b54b9c38c",
+        "production-8034bb30bd2ebbbea44032be",
         "production-6e334afa9911d31486480862",
         "production-63351df0acb39ea8c61b551a",
         "production-50fc3c8062a9f0dcfd5a2ad3",
-        "production-2e2e3d64525806695548da91",
+        "production-4d44a58d12deef412180edae",
         "production-14972cc78c994e4ee8e53e14",
         "production-09f10a9e6400e371697bd6c6",
+        "production-005b0dbd7c3f6495ef3267bb",
         "production-ff8cf9fff2633f2f19a099b3",
         "production-fa6efcaac08c570cabd1968a",
         "production-eeae0bf5db12bcdc4e6d4fa1",
@@ -33,7 +35,6 @@ window.PROTOTYPE = {
         "production-d7b6c60bd2495a5444f965bd",
         "production-d74c85c04a863d6f281c8c4c",
         "production-d57d9abb64f8f59d0993dd4f",
-        "production-c3ad64745687caebb9fe6cd2",
         "production-b5f03fad5a03336713b4354e",
         "production-a278957d9932c3a3066c0748",
         "production-9eb4f111d32e8675dd83bb11",
@@ -45,11 +46,9 @@ window.PROTOTYPE = {
         "production-73e9a31555683f0ecc95ce47",
         "production-71f001619ed3993257afc836",
         "production-6f586b29192198cbc6a09340",
-        "production-5312da14e399347f940d5faa",
         "production-502375d7206ec7e3fa1a6216",
         "production-49963c2a05a103a74d123151",
         "production-42e955320b5d35846be7d060",
-        "production-42125a415db3392e321d2f79",
         "production-3b8cffa13bec8e4884351466",
         "production-2947fcab17be17cee2508db6",
         "production-235e3b7e80d5d00975b724c2",
@@ -57,7 +56,6 @@ window.PROTOTYPE = {
         "production-1056a523261bb8a121acd38d",
         "production-0c59e2806ecb94b5fe980374",
         "production-0933b035c0ff10f36e95e045",
-        "production-025420cc891c037fe5aa1101",
         "production-ff57ff9059de128b625b71e2",
         "production-6ac654ef6e973cc87f1a9cd4",
         "production-31538a5cdfd937a7a48a4612"
@@ -353,6 +351,7 @@ window.PROTOTYPE = {
       "production-9fdc436613e81042ec568e37": "2026-11-04T10:32:00-08:00",
       "production-63351df0acb39ea8c61b551a": "2026-11-04T16:24:34-08:00",
       "production-14972cc78c994e4ee8e53e14": "2026-11-04T16:24:34-08:00",
+      "production-8034bb30bd2ebbbea44032be": "2026-11-04T16:24:34-08:00",
       "production-ff57ff9059de128b625b71e2": "2026-11-04T16:35:47-08:00",
       "production-c7794a553ec11c1af58df314": "2026-11-04T16:39:23-08:00",
       "production-6e334afa9911d31486480862": "2026-11-04T17:30:33-08:00",
@@ -361,7 +360,6 @@ window.PROTOTYPE = {
       "production-e74a9c430789a23ef97e0ab9": "2026-11-04T17:34:19-08:00",
       "production-c69e01bfe411b23c7c7ad7e7": "2026-11-04T17:51:59-08:00",
       "production-50fc3c8062a9f0dcfd5a2ad3": "2026-11-04T17:51:59-08:00",
-      "production-2e2e3d64525806695548da91": "2026-11-04T18:05:09-08:00",
       "production-858ec060cfe5fb6b54b9c38c": "2026-11-04T18:05:09-08:00",
       "production-31538a5cdfd937a7a48a4612": "2026-11-04T18:23:28-08:00",
       "production-6ac654ef6e973cc87f1a9cd4": "2026-11-04T18:39:45-08:00",
@@ -370,7 +368,6 @@ window.PROTOTYPE = {
       "production-9eb4f111d32e8675dd83bb11": "2026-11-05T17:38:35-08:00",
       "production-eeae0bf5db12bcdc4e6d4fa1": "2026-11-05T17:38:35-08:00",
       "production-87d9e36ade84cce83fdcd926": "2026-11-05T17:38:35-08:00",
-      "production-c3ad64745687caebb9fe6cd2": "2026-11-05T17:54:26-08:00",
       "production-95ac60a7ca6d36e43c857c8b": "2026-11-05T17:54:26-08:00",
       "production-9154142253613e54ae99f5ed": "2026-11-05T17:54:26-08:00",
       "production-502375d7206ec7e3fa1a6216": "2026-11-05T18:37:40-08:00",
@@ -380,7 +377,6 @@ window.PROTOTYPE = {
       "production-2947fcab17be17cee2508db6": "2026-11-05T18:59:33-08:00",
       "production-42e955320b5d35846be7d060": "2026-11-05T18:59:33-08:00",
       "production-49963c2a05a103a74d123151": "2026-11-05T19:17:46-08:00",
-      "production-5312da14e399347f940d5faa": "2026-11-05T19:33:55-08:00",
       "production-d74c85c04a863d6f281c8c4c": "2026-11-05T19:33:55-08:00",
       "production-0933b035c0ff10f36e95e045": "2026-11-05T19:33:55-08:00",
       "production-21e8ba242101d1e3e94b99c8": "2026-11-05T19:33:55-08:00",
@@ -390,14 +386,14 @@ window.PROTOTYPE = {
       "production-ff8cf9fff2633f2f19a099b3": "2026-11-05T20:28:49-08:00",
       "production-1056a523261bb8a121acd38d": "2026-11-05T20:28:49-08:00",
       "production-0c59e2806ecb94b5fe980374": "2026-11-05T20:32:55-08:00",
-      "production-42125a415db3392e321d2f79": "2026-11-05T20:32:55-08:00",
       "production-73e9a31555683f0ecc95ce47": "2026-11-05T20:32:55-08:00",
       "production-71f001619ed3993257afc836": "2026-11-05T20:32:55-08:00",
       "production-fa6efcaac08c570cabd1968a": "2026-11-05T20:51:09-08:00",
       "production-3b8cffa13bec8e4884351466": "2026-11-05T20:51:09-08:00",
       "production-a278957d9932c3a3066c0748": "2026-11-05T20:51:09-08:00",
-      "production-025420cc891c037fe5aa1101": "2026-11-05T21:08:29-08:00",
-      "production-d57d9abb64f8f59d0993dd4f": "2026-11-05T21:08:29-08:00"
+      "production-d57d9abb64f8f59d0993dd4f": "2026-11-05T21:08:29-08:00",
+      "production-4d44a58d12deef412180edae": "2026-11-05T22:30:21-08:00",
+      "production-005b0dbd7c3f6495ef3267bb": "2026-11-05T22:30:21-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2291,6 +2287,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "隆基绿能2026年10月31日公告，董事会已审议通过前三季度计提资产减值准备议案，公司拟计提112,089.09万元，全额计入2026年1—9月经营业绩，预计减少同期合并净利润95,198.22万元。本次计提未经审计，最终金额以会计师事务所年度审计确认为准。"
         },
+        "production-8034bb30bd2ebbbea44032be": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "隆基绿能2026年10月31日公告，公司董事会于10月30日以通讯表决方式审议通过《2026年第三季度报告》，表决结果为9票同意、0票反对、0票弃权。"
+        },
         "production-ff57ff9059de128b625b71e2": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -2347,13 +2350,6 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "泰金新能2026年10月31日披露，董事会于10月30日审议通过新增2026年度向西安瑞鑫科金属材料有限责任公司购买原材料、采购商品及接受劳务的日常关联交易预计额度2800万元。该事项无需提交股东会审议，具体协议将在交易实际发生时签署。"
         },
-        "production-2e2e3d64525806695548da91": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "2026年10月31日，陕西建工集团股份有限公司公告，董事会于10月29日审议通过前三季度计提资产减值准备事项，信用减值损失和资产减值损失合计230,431.60万元，包含相关减值转回。本次计提将减少公司2026年前三季度合并报表利润总额230,431.60万元。"
-        },
         "production-31538a5cdfd937a7a48a4612": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -2402,13 +2398,6 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "特变电工2026年10月30日披露，2026年前三季度公司电站发电量为2,097,385.89万千瓦时，上网电量为1,975,590.80万千瓦时。截至2026年9月末，公司电站装机容量为10,980.39MW。"
-        },
-        "production-c3ad64745687caebb9fe6cd2": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "特变电工股份有限公司2026年10月30日公告，十一届八次董事会于10月29日以电子通信方式召开，以11票同意、0票反对、0票弃权审议通过公司2026年第三季度报告。"
         },
         "production-95ac60a7ca6d36e43c857c8b": {
           "version": "listed-scope-20261019",
@@ -2473,13 +2462,6 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "西安银行2026年10月30日披露，10月29日召开的董事会审议通过《内幕信息及知情人管理制度》修订议案，表决结果为同意10票、反对0票、弃权0票。修订后的制度自董事会审议通过之日起生效实施，原制度同时废止。"
         },
-        "production-5312da14e399347f940d5faa": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "西安银行2026年10月30日披露第三季度报告，报告已于10月29日经董事会审议通过，财务报表未经审计。2026年前三季度，公司实现营业收入人民币84.36亿元，同比增长9.69%；归属于母公司股东的净利润人民币21.94亿元，同比增长7.93%。"
-        },
         "production-d74c85c04a863d6f281c8c4c": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -2540,13 +2522,6 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "美邦股份2026年10月30日披露，全资子公司陕西诺正农化科技有限公司于10月28日与中国民生银行股份有限公司西安分行签订人民币2,000.00万元综合授信合同，公司同步签署最高额保证合同，为其提供连带责任保证。公告未披露该笔授信的实际提款情况。"
         },
-        "production-42125a415db3392e321d2f79": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "博通股份2026年10月30日披露的第三季度报告显示，联营企业西安博捷科技发展有限公司于2026年9月被登记机关恢复公司登记，恢复为吊销状态。截至2026年9月30日及报告披露日，西安博捷仍为吊销状态，长期处于停滞状态、未开展经营业务。"
-        },
         "production-73e9a31555683f0ecc95ce47": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -2582,19 +2557,26 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "中航西飞2026年10月30日公告，公司董事会于10月29日批准《关于调整2026年固定资产投资暨修理计划的议案》。该公告未披露具体项目、金额、调整方向及实际支付情况。"
         },
-        "production-025420cc891c037fe5aa1101": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "北元化工2026年10月30日披露未经审计的三季报：前三季度营业收入约人民币63.68亿元，同比下降5.82%，归属于上市公司股东的净亏损约人民币3774.13万元。同日披露的经营数据显示，前三季度烧碱、水泥不含税销售均价同比分别下降22.83%、15.86%。"
-        },
         "production-d57d9abb64f8f59d0993dd4f": {
           "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
           "summary": "凯立新材2026年10月30日公告，第三季度合并报表口径计提信用减值损失和资产减值损失合计人民币1170.87万元，转回或转销资产减值损失人民币1647.32万元，合计增加合并报表利润总额人民币476.45万元，未计算所得税影响。相关数据未经审计，最终以会计师事务所年度审计确认的金额为准。"
+        },
+        "production-4d44a58d12deef412180edae": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "三人行2026年10月31日披露未经审计的三季报：前三季度归母净利润1.10亿元，同比下降23.65%；第三季度归母净利润3142.81万元，同比增长12533.76%。公司说明，第三季度同比大增主要因2025年第三季度华润饮料股票公允价值变动收益为负3722.61万元，影响上年同期利润基数。"
+        },
+        "production-005b0dbd7c3f6495ef3267bb": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "炼石航空2026年10月31日披露三季报：第三季度归母净利润2132.98万元，同比增长128.68%；前三季度归母净亏损2947.85万元，同比收窄83.17%。本次季度财务会计报告未经审计。"
         }
       }
     },
@@ -2603,9 +2585,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-11-05-1f07241a12a1",
-      "editionId": "selection-9cf58b5d596713dff8c9",
+      "status": "committed",
+      "sourceEditionId": "2026-11-05-e12f431543f6",
+      "editionId": "selection-48c8ad0efc8bb661bf39",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -5481,18 +5463,6 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
-      "id": "listed-600455-sh",
-      "type": "listed",
-      "name": "博通股份",
-      "code": "600455.SH",
-      "market": "SH",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
-    },
-    {
       "id": "listed-601568-sh",
       "type": "listed",
       "name": "北元集团",
@@ -5585,6 +5555,19 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "中再资环",
       "code": "600217.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-600455-sh",
+      "type": "listed",
+      "name": "博通股份",
+      "code": "600455.SH",
       "market": "SH",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -32345,6 +32328,52 @@ window.PROTOTYPE = {
       ]
     },
     {
+      "id": "production-event-145e7cccda78043c1010",
+      "objectId": "listed-601012-sh",
+      "type": "季度报告审议",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-8034bb30bd2ebbbea44032be",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "董事会审议通过2026年第三季度报告",
+          "summary": "隆基绿能2026年10月31日公告，公司董事会于10月30日以通讯表决方式审议通过《2026年第三季度报告》，表决结果为9票同意、0票反对、0票弃权。",
+          "stage": "2026年10月30日董事会审议通过第三季度报告，表决结果为9同意、0票反对、0票弃权",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T08:28:52+08:00",
+          "updatedAt": "2026-11-04T16:24:34-08:00",
+          "compiledAt": "2026-11-04T16:24:34-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "隆基绿能",
+          "version": "8034bb30bd2ebbbea44032bee5a515fee1330b33469714880806134f51cb1273",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第六届董事会2026年第五次会议决议公告",
+              "publisher": "隆基绿能科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页会议召开情况及第一项议案",
+              "retrievedAt": "2026-11-05T08:06:30+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647840.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
       "id": "production-event-09d173bbc8bb8a984985",
       "objectId": "listed-002140-sz",
       "type": "治理制度修订",
@@ -32764,60 +32793,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-be6e7ed95aec414af702",
-      "objectId": "listed-600248-sh",
-      "type": "资产减值准备",
-      "topics": [
-        "2026年前三季度信用及资产减值",
-        "减少合并报表利润总额"
-      ],
-      "updates": [
-        {
-          "id": "production-2e2e3d64525806695548da91",
-          "date": "2026-10-31",
-          "time": "",
-          "title": "前三季度计提减值准备230,431.60万元",
-          "summary": "2026年10月31日，陕西建工集团股份有限公司公告，董事会于10月29日审议通过前三季度计提资产减值准备事项，信用减值损失和资产减值损失合计230,431.60万元，包含相关减值转回。本次计提将减少公司2026年前三季度合并报表利润总额230,431.60万元。",
-          "stage": "2026年10月29日董事会审议通过前三季度计提资产减值准备事项",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-05T10:10:38+08:00",
-          "updatedAt": "2026-11-04T18:05:10-08:00",
-          "compiledAt": "2026-11-04T18:05:10-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "陕建股份",
-          "version": "2e2e3d64525806695548da9140901569c0bd79d8e80256a8ad489c03d7114579",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "陕西建工集团股份有限公司关于2026年前三季度计提资产减值准备的公告",
-              "publisher": "陕西建工集团股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1页计提概况及分类表；第3页合同资产转回、利润影响及决策程序",
-              "retrievedAt": "2026-11-05T08:05:39+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650319.PDF"
-            },
-            {
-              "title": "陕西建工集团股份有限公司第九届董事会第五次会议决议公告",
-              "publisher": "陕西建工集团股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1页会议召开情况及第二项议案",
-              "retrievedAt": "2026-11-05T08:05:38+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650322.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-2a9b7d23508d8caf221f",
       "objectId": "listed-002140-sz",
       "type": "权益分派",
@@ -33173,51 +33148,6 @@ window.PROTOTYPE = {
               "location": "物理第1页装机容量及发电量正文、第1—2页跨页表、第2页落款",
               "retrievedAt": "2026-11-05T08:08:02+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643210.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
-      "id": "production-event-3608687502dcfd349a01",
-      "objectId": "listed-600089-sh",
-      "type": "定期报告审议",
-      "topics": [
-        "董事会审议季度报告"
-      ],
-      "updates": [
-        {
-          "id": "production-c3ad64745687caebb9fe6cd2",
-          "date": "2026-10-30",
-          "time": "",
-          "title": "董事会审议通过2026年第三季度报告",
-          "summary": "特变电工股份有限公司2026年10月30日公告，十一届八次董事会于10月29日以电子通信方式召开，以11票同意、0票反对、0票弃权审议通过公司2026年第三季度报告。",
-          "stage": "2026年10月29日董事会审议通过2026年第三季度报告",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-06T09:59:17+08:00",
-          "updatedAt": "2026-11-05T17:54:27-08:00",
-          "compiledAt": "2026-11-05T17:54:27-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "特变电工",
-          "version": "c3ad64745687caebb9fe6cd2f655c74e6bebebdcd09950572c6fc6185abea301",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "特变电工股份有限公司十一届八次董事会会议决议公告",
-              "publisher": "特变电工股份有限公司",
-              "date": "2026-10-30",
-              "location": "物理第1页：会议召开情况及第一项议案",
-              "retrievedAt": "2026-11-05T08:08:03+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643188.PDF"
             }
           ],
           "tables": []
@@ -33655,60 +33585,6 @@ window.PROTOTYPE = {
               "location": "物理第10页，第三十一条",
               "retrievedAt": "2026-11-05T08:06:26+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644388.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
-      "id": "production-event-f05829f6d39ec26f9ecf",
-      "objectId": "listed-600928-sh",
-      "type": "定期报告",
-      "topics": [
-        "2026年第三季度报告",
-        "董事会审议"
-      ],
-      "updates": [
-        {
-          "id": "production-5312da14e399347f940d5faa",
-          "date": "2026-10-30",
-          "time": "",
-          "title": "披露三季报：前三季度归母净利润21.94亿元",
-          "summary": "西安银行2026年10月30日披露第三季度报告，报告已于10月29日经董事会审议通过，财务报表未经审计。2026年前三季度，公司实现营业收入人民币84.36亿元，同比增长9.69%；归属于母公司股东的净利润人民币21.94亿元，同比增长7.93%。",
-          "stage": "董事会已审议通过并披露，财务报表未经审计",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-06T11:44:26+08:00",
-          "updatedAt": "2026-11-05T19:33:55-08:00",
-          "compiledAt": "2026-11-05T19:33:55-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "西安银行",
-          "version": "5312da14e399347f940d5faa62535db7317159e8280554ce5d7d455317d13d2c",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "西安银行股份有限公司第六届董事会第四十次会议决议公告",
-              "publisher": "西安银行股份有限公司",
-              "date": "2026-10-30",
-              "location": "物理第1页，会议召开情况及第一项议案；公告落款日期为2026年10月29日",
-              "retrievedAt": "2026-11-05T08:06:26+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644384.PDF"
-            },
-            {
-              "title": "西安银行股份有限公司2026年第三季度报告",
-              "publisher": "西安银行股份有限公司",
-              "date": "2026-10-30",
-              "location": "物理第1页重要内容提示、第2页主要会计数据、第5页季度经营情况；报告落款日期为2026年10月29日",
-              "retrievedAt": "2026-11-05T08:06:26+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644376.PDF"
             }
           ],
           "tables": []
@@ -34416,52 +34292,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-ad7add519d850294f66e",
-      "objectId": "listed-600455-sh",
-      "type": "联营企业登记状态变更",
-      "topics": [
-        "西安博捷恢复公司登记",
-        "仍处吊销状态"
-      ],
-      "updates": [
-        {
-          "id": "production-42125a415db3392e321d2f79",
-          "date": "2026-10-30",
-          "time": "",
-          "title": "联营企业西安博捷恢复公司登记，仍处吊销状态",
-          "summary": "博通股份2026年10月30日披露的第三季度报告显示，联营企业西安博捷科技发展有限公司于2026年9月被登记机关恢复公司登记，恢复为吊销状态。截至2026年9月30日及报告披露日，西安博捷仍为吊销状态，长期处于停滞状态、未开展经营业务。",
-          "stage": "2026年9月恢复公司登记，截至9月30日及报告披露日仍为吊销状态",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-06T12:38:38+08:00",
-          "updatedAt": "2026-11-05T20:32:56-08:00",
-          "compiledAt": "2026-11-05T20:32:56-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "博通股份",
-          "version": "42125a415db3392e321d2f79290d5275b5fc545eef27f0802d08f42abf55ac69",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "博通股份2026年第三季度报告",
-              "publisher": "西安博通资讯股份有限公司",
-              "date": "2026-10-30",
-              "location": "物理第5页“三、其他提醒事项”",
-              "retrievedAt": "2026-11-05T08:05:43+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639389.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-525a7ed31c233b160fc1",
       "objectId": "listed-601568-sh",
       "type": "固定资产报废",
@@ -34714,60 +34544,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-ca0b36363bec2264caf7",
-      "objectId": "listed-601568-sh",
-      "type": "定期报告及经营数据",
-      "topics": [
-        "2026年第三季度报告",
-        "前三季度主要产品产销及价格"
-      ],
-      "updates": [
-        {
-          "id": "production-025420cc891c037fe5aa1101",
-          "date": "2026-10-30",
-          "time": "",
-          "title": "前三季度营收63.68亿元，归母净亏损3774.13万元",
-          "summary": "北元化工2026年10月30日披露未经审计的三季报：前三季度营业收入约人民币63.68亿元，同比下降5.82%，归属于上市公司股东的净亏损约人民币3774.13万元。同日披露的经营数据显示，前三季度烧碱、水泥不含税销售均价同比分别下降22.83%、15.86%。",
-          "stage": "10月29日董事会通过第三季度报告，10月30日披露报告及前三季度经营数据。",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-06T13:21:15+08:00",
-          "updatedAt": "2026-11-05T21:08:29-08:00",
-          "compiledAt": "2026-11-05T21:08:29-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "北元化工",
-          "version": "025420cc891c037fe5aa110174de3e0a99a33bdb4714c6d839c857ecb68f4825",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "陕西北元化工集团股份有限公司2026年第三季度报告",
-              "publisher": "陕西北元化工集团股份有限公司",
-              "date": "2026-10-30",
-              "location": "物理第1页主要会计数据和财务指标、审计状态；第16页落款",
-              "retrievedAt": "2026-11-05T08:06:39+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640000.PDF"
-            },
-            {
-              "title": "陕西北元化工集团股份有限公司2026年前三季度主要经营数据公告",
-              "publisher": "陕西北元化工集团股份有限公司",
-              "date": "2026-10-30",
-              "location": "物理第1页主要产品价格变动情况；第2页落款",
-              "retrievedAt": "2026-11-05T08:06:40+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639997.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-f4d02dc4a2c8b267fc91",
       "objectId": "listed-688269-sh",
       "type": "资产减值准备",
@@ -34813,9 +34589,161 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-304d2bafdb725873bea6",
+      "objectId": "listed-605168-sh",
+      "type": "定期报告",
+      "topics": [
+        "2026年第三季度报告",
+        "季度与累计利润",
+        "上年同期金融资产估值影响"
+      ],
+      "updates": [
+        {
+          "id": "production-4d44a58d12deef412180edae",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "前三季度归母净利润1.10亿元，同比下降23.65%",
+          "summary": "三人行2026年10月31日披露未经审计的三季报：前三季度归母净利润1.10亿元，同比下降23.65%；第三季度归母净利润3142.81万元，同比增长12533.76%。公司说明，第三季度同比大增主要因2025年第三季度华润饮料股票公允价值变动收益为负3722.61万元，影响上年同期利润基数。",
+          "stage": "第三季度报告已披露，主要业绩及上年同期比较原因已核对原页",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T22:30:21-08:00",
+          "compiledAt": "2026-11-05T22:30:21-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "三人行",
+          "version": "4d44a58d12deef412180edae65bd6e5412bbb67d7206a2bd0c554c2383e74423",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "三人行未来科技集团股份有限公司2026年第三季度报告",
+              "publisher": "三人行未来科技集团股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页审计状态及主要财务数据；第3页财务指标变动原因",
+              "retrievedAt": "2026-11-05T08:06:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647976.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-465cc843f6a8c1dc1d08",
+      "objectId": "listed-000697-sz",
+      "type": "定期报告",
+      "topics": [
+        "2026年第三季度报告",
+        "第三季度盈利",
+        "前三季度亏损收窄"
+      ],
+      "updates": [
+        {
+          "id": "production-005b0dbd7c3f6495ef3267bb",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "第三季度归母净利润2132.98万元，前三季度仍亏损",
+          "summary": "炼石航空2026年10月31日披露三季报：第三季度归母净利润2132.98万元，同比增长128.68%；前三季度归母净亏损2947.85万元，同比收窄83.17%。本次季度财务会计报告未经审计。",
+          "stage": "第三季度报告已披露，财务会计报告未经审计；主要业绩已核对原页",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T22:30:21-08:00",
+          "compiledAt": "2026-11-05T22:30:21-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "炼石航空",
+          "version": "005b0dbd7c3f6495ef3267bb782734c190480ce7b694b5b3709e554136bc4beb",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "炼石航空科技股份有限公司2026年第三季度报告",
+              "publisher": "炼石航空科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第2页主要会计数据和财务指标；第10页审计报告",
+              "retrievedAt": "2026-11-05T08:04:37+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648114.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-48c8ad0efc8bb661bf39",
+      "date": "2026-11-06",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-06T14:32:04+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-48c8ad0efc8bb661bf39/page-01.png",
+          "width": 1080,
+          "height": 1172,
+          "sha256": "b90a7df2e0daab5809dda3bccfef41cfad35e6277278f6ddbb7e0556526c507c"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-05-e12f431543f6",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-30",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-9cf58b5d596713dff8c9",
       "date": "2026-11-06",
@@ -40018,6 +39946,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "982844d50338b72b8224",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T21:08:30-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/982844d50338b72b8224/index.html",
+      "publishedAt": "2026-11-06T14:11:35+08:00"
+    },
     {
       "id": "4b4ac6f08b266e3eb941",
       "date": "2026-11-06",
