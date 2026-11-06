@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-05-3514254d5746",
-      "compiledAt": "2026-11-05T17:04:57-08:00",
+      "id": "2026-11-05-ff7bb038a9ec",
+      "compiledAt": "2026-11-05T17:38:38-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -34,6 +34,10 @@ window.PROTOTYPE = {
         "production-281913575f05d6942cd53692",
         "production-14972cc78c994e4ee8e53e14",
         "production-09f10a9e6400e371697bd6c6",
+        "production-eeae0bf5db12bcdc4e6d4fa1",
+        "production-9eb4f111d32e8675dd83bb11",
+        "production-87d9e36ade84cce83fdcd926",
+        "production-7b8cd30d7e2b9f3bf00e08e0",
         "production-ff57ff9059de128b625b71e2",
         "production-6ac654ef6e973cc87f1a9cd4",
         "production-31538a5cdfd937a7a48a4612"
@@ -349,7 +353,11 @@ window.PROTOTYPE = {
       "production-be9995f7a57c1ac9eb9f5a0f": "2026-11-05T16:07:06-08:00",
       "production-281913575f05d6942cd53692": "2026-11-05T16:09:23-08:00",
       "production-9898880d0ae363985436ebd6": "2026-11-05T16:27:15-08:00",
-      "production-a2d1f8012a4cbef38047eacd": "2026-11-05T17:04:56-08:00"
+      "production-a2d1f8012a4cbef38047eacd": "2026-11-05T17:04:56-08:00",
+      "production-7b8cd30d7e2b9f3bf00e08e0": "2026-11-05T17:38:35-08:00",
+      "production-9eb4f111d32e8675dd83bb11": "2026-11-05T17:38:35-08:00",
+      "production-eeae0bf5db12bcdc4e6d4fa1": "2026-11-05T17:38:35-08:00",
+      "production-87d9e36ade84cce83fdcd926": "2026-11-05T17:38:35-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -546,7 +554,7 @@ window.PROTOTYPE = {
           "summary": "2026年9月20日董事会批准与集团内长青保理开展不超过10,000万元业务，额度自通过之日起一年内有效，具体金额、费率及期限以合同为准。 下游无追索权保理期限不超过3年，上游有追索权保理期限不超过6个月；公告所述过去12个月累计634.13万元不代表本次新增到账或当前余额。"
         },
         "production-f1c8ff03150d13a120f30f26": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
@@ -2382,6 +2390,34 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "金花企业（集团）股份有限公司（ST金花）2026年10月31日公告，公司董事会于10月29日审议通过《公司2026年第三季度报告》，表决结果为5票同意、0票反对、0票弃权。"
+        },
+        "production-7b8cd30d7e2b9f3bf00e08e0": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "建设机械2026年10月30日披露，股东柴昭一于10月28日向佛山市兴和典当有限公司质押531万股，用于办理融资业务，质押期限至2027年10月27日。本次办理完成后，其累计质押5,528万股，占其持股的79.46%、公司总股本约4.40%。"
+        },
+        "production-9eb4f111d32e8675dd83bb11": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西部材料2026年10月30日披露，董事会于10月28日审议通过第九届董事会审计委员会委员选举议案，拟由董南雁担任召集人，郑树军、李永宁担任委员。议案尚需提交拟于11月20日召开的2026年第三次临时股东会审议，任期自股东会审议通过之日起至第九届董事会任期届满之日止。"
+        },
+        "production-eeae0bf5db12bcdc4e6d4fa1": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西旅游2026年10月30日披露，董事会秘书傅航因个人身体原因申请休假，公司董事会已于10月29日审议通过由董事长马婷在其休假期间代行董事会秘书职责，代行期限为2026年10月29日至2027年1月28日。"
+        },
+        "production-87d9e36ade84cce83fdcd926": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "特变电工2026年10月30日披露，2026年前三季度公司电站发电量为2,097,385.89万千瓦时，上网电量为1,975,590.80万千瓦时。截至2026年9月末，公司电站装机容量为10,980.39MW。"
         }
       }
     },
@@ -2391,7 +2427,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-05-3514254d5746",
+      "sourceEditionId": "2026-11-05-ff7bb038a9ec",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -33190,6 +33226,204 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-f73979fc41328c615ee6",
+      "objectId": "listed-600984-sh",
+      "type": "股权质押",
+      "topics": [
+        "股东股份质押",
+        "个人融资"
+      ],
+      "updates": [
+        {
+          "id": "production-7b8cd30d7e2b9f3bf00e08e0",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "股东柴昭一质押531万股",
+          "summary": "建设机械2026年10月30日披露，股东柴昭一于10月28日向佛山市兴和典当有限公司质押531万股，用于办理融资业务，质押期限至2027年10月27日。本次办理完成后，其累计质押5,528万股，占其持股的79.46%、公司总股本约4.40%。",
+          "stage": "2026年10月28日办理质押，公司10月29日收到告知函，10月30日披露",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T17:38:35-08:00",
+          "compiledAt": "2026-11-05T17:38:35-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "建设机械",
+          "version": "7b8cd30d7e2b9f3bf00e08e0e380e77b8e01c9e2b51ed3ec91eba7645308e3b2",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "建设机械关于公司股东部分股票质押的公告",
+              "publisher": "陕西建设机械股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1—2页；公告落款日期为2026年10月29日",
+              "retrievedAt": "2026-11-05T08:06:29+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225641669.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-191d0ca5fbb3d9543edc",
+      "objectId": "listed-002149-sz",
+      "type": "审计委员会换届",
+      "topics": [
+        "审计委员会委员选举",
+        "任期生效条件",
+        "股东会审议安排"
+      ],
+      "updates": [
+        {
+          "id": "production-9eb4f111d32e8675dd83bb11",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "拟选举新一届审计委员会，尚待股东会审议",
+          "summary": "西部材料2026年10月30日披露，董事会于10月28日审议通过第九届董事会审计委员会委员选举议案，拟由董南雁担任召集人，郑树军、李永宁担任委员。议案尚需提交拟于11月20日召开的2026年第三次临时股东会审议，任期自股东会审议通过之日起至第九届董事会任期届满之日止。",
+          "stage": "2026年10月28日董事会审议通过，尚需提交第三次临时股东会审议；任期自股东会审议通过之日起计算",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T17:38:36-08:00",
+          "compiledAt": "2026-11-05T17:38:36-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西部材料",
+          "version": "9eb4f111d32e8675dd83bb110e755f6ae16596f7b4880827ecc5f657353f2a76",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西部金属材料股份有限公司第八届董事会第二十八次会议决议公告",
+              "publisher": "西部金属材料股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议日期、第3页第四及第五项议案、第4页落款",
+              "retrievedAt": "2026-11-05T08:04:51+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644070.PDF"
+            },
+            {
+              "title": "西部金属材料股份有限公司关于召开2026年第三次临时股东会的通知",
+              "publisher": "西部金属材料股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议时间、第2页提案表及审议说明",
+              "retrievedAt": "2026-11-05T08:04:51+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644071.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-0542fc619cd25183d98f",
+      "objectId": "listed-603402-sh",
+      "type": "董事会秘书职责代行",
+      "topics": [
+        "董事会秘书休假",
+        "董事长暂时代行职责"
+      ],
+      "updates": [
+        {
+          "id": "production-eeae0bf5db12bcdc4e6d4fa1",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事长马婷在傅航休假期间代行董秘职责",
+          "summary": "陕西旅游2026年10月30日披露，董事会秘书傅航因个人身体原因申请休假，公司董事会已于10月29日审议通过由董事长马婷在其休假期间代行董事会秘书职责，代行期限为2026年10月29日至2027年1月28日。",
+          "stage": "董事会审议通过，马婷于2026年10月29日至2027年1月28日代行董事会秘书职责",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T17:38:36-08:00",
+          "compiledAt": "2026-11-05T17:38:36-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西旅游",
+          "version": "eeae0bf5db12bcdc4e6d4fa1c6fec30a8d2e320b77303e5acbdf22aa591a5d7a",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西旅游：第四届董事会第十四次会议决议公告",
+              "publisher": "陕西旅游文化产业股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页第一项议案",
+              "retrievedAt": "2026-11-05T08:06:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644925.PDF"
+            },
+            {
+              "title": "陕西旅游：关于董事长暂时代行董事会秘书职责的公告",
+              "publisher": "陕西旅游文化产业股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页正文首段及落款",
+              "retrievedAt": "2026-11-05T08:06:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644920.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-812db206c343899eae88",
+      "objectId": "listed-600089-sh",
+      "type": "经营数据披露",
+      "topics": [
+        "装机容量",
+        "发电量",
+        "上网电量"
+      ],
+      "updates": [
+        {
+          "id": "production-87d9e36ade84cce83fdcd926",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "披露前三季度发电量2,097,385.89万千瓦时",
+          "summary": "特变电工2026年10月30日披露，2026年前三季度公司电站发电量为2,097,385.89万千瓦时，上网电量为1,975,590.80万千瓦时。截至2026年9月末，公司电站装机容量为10,980.39MW。",
+          "stage": "披露2026年前三季度发电量及9月末装机容量",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T17:38:37-08:00",
+          "compiledAt": "2026-11-05T17:38:37-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "特变电工",
+          "version": "87d9e36ade84cce83fdcd926c31b15d4e88958d3d336631a6a70f254e688cd64",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "特变电工股份有限公司2026年前三季度发电量情况公告",
+              "publisher": "特变电工股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页装机容量及发电量正文、第1—2页跨页表、第2页落款",
+              "retrievedAt": "2026-11-05T08:08:02+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643210.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -38111,6 +38345,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "11dad58fdf53daf1349f",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T17:04:57-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/11dad58fdf53daf1349f/index.html",
+      "publishedAt": "2026-11-06T09:27:24+08:00"
+    },
     {
       "id": "5a22d81ae53f89269440",
       "date": "2026-11-06",
