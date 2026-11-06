@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-05-08ea21066ad3",
-      "compiledAt": "2026-11-05T20:51:11-08:00",
+      "id": "2026-11-05-1f07241a12a1",
+      "compiledAt": "2026-11-05T21:08:30-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -40,6 +40,7 @@ window.PROTOTYPE = {
         "production-d90000dabeee8611cbffb192",
         "production-d7b6c60bd2495a5444f965bd",
         "production-d74c85c04a863d6f281c8c4c",
+        "production-d57d9abb64f8f59d0993dd4f",
         "production-c3ad64745687caebb9fe6cd2",
         "production-b5f03fad5a03336713b4354e",
         "production-a278957d9932c3a3066c0748",
@@ -65,6 +66,7 @@ window.PROTOTYPE = {
         "production-0c9bcf00be372e208a232c48",
         "production-0c59e2806ecb94b5fe980374",
         "production-0933b035c0ff10f36e95e045",
+        "production-025420cc891c037fe5aa1101",
         "production-ff57ff9059de128b625b71e2",
         "production-6ac654ef6e973cc87f1a9cd4",
         "production-31538a5cdfd937a7a48a4612"
@@ -411,7 +413,9 @@ window.PROTOTYPE = {
       "production-71f001619ed3993257afc836": "2026-11-05T20:32:55-08:00",
       "production-fa6efcaac08c570cabd1968a": "2026-11-05T20:51:09-08:00",
       "production-3b8cffa13bec8e4884351466": "2026-11-05T20:51:09-08:00",
-      "production-a278957d9932c3a3066c0748": "2026-11-05T20:51:09-08:00"
+      "production-a278957d9932c3a3066c0748": "2026-11-05T20:51:09-08:00",
+      "production-025420cc891c037fe5aa1101": "2026-11-05T21:08:29-08:00",
+      "production-d57d9abb64f8f59d0993dd4f": "2026-11-05T21:08:29-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2658,6 +2662,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "中航西飞2026年10月30日公告，公司董事会于10月29日批准《关于调整2026年固定资产投资暨修理计划的议案》。该公告未披露具体项目、金额、调整方向及实际支付情况。"
+        },
+        "production-025420cc891c037fe5aa1101": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北元化工2026年10月30日披露未经审计的三季报：前三季度营业收入约人民币63.68亿元，同比下降5.82%，归属于上市公司股东的净亏损约人民币3774.13万元。同日披露的经营数据显示，前三季度烧碱、水泥不含税销售均价同比分别下降22.83%、15.86%。"
+        },
+        "production-d57d9abb64f8f59d0993dd4f": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "凯立新材2026年10月30日公告，第三季度合并报表口径计提信用减值损失和资产减值损失合计人民币1170.87万元，转回或转销资产减值损失人民币1647.32万元，合计增加合并报表利润总额人民币476.45万元，未计算所得税影响。相关数据未经审计，最终以会计师事务所年度审计确认的金额为准。"
         }
       }
     },
@@ -2667,8 +2685,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-05-08ea21066ad3",
-      "editionId": "selection-16f3a57068bcb323f064",
+      "sourceEditionId": "2026-11-05-1f07241a12a1",
+      "editionId": "selection-9cf58b5d596713dff8c9",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -5592,6 +5610,18 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-688269-sh",
+      "type": "listed",
+      "name": "凯立新材",
+      "code": "688269.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-001299-sz",
       "type": "listed",
       "name": "美能能源",
@@ -5700,19 +5730,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "斯瑞新材",
       "code": "688102.SH",
-      "market": "SH",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-688269-sh",
-      "type": "listed",
-      "name": "凯立新材",
-      "code": "688269.SH",
       "market": "SH",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -35111,6 +35128,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T12:57:33+08:00",
           "updatedAt": "2026-11-05T20:51:10-08:00",
           "compiledAt": "2026-11-05T20:51:10-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -35171,6 +35189,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T12:57:33+08:00",
           "updatedAt": "2026-11-05T20:51:09-08:00",
           "compiledAt": "2026-11-05T20:51:09-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -35225,6 +35244,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。当前公告未披露具体项目、金额、调整方向及实际支付情况，不影响表述本次董事会批准计划调整的事实。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T12:57:33+08:00",
           "updatedAt": "2026-11-05T20:51:10-08:00",
           "compiledAt": "2026-11-05T20:51:10-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -35250,9 +35270,168 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-ca0b36363bec2264caf7",
+      "objectId": "listed-601568-sh",
+      "type": "定期报告及经营数据",
+      "topics": [
+        "2026年第三季度报告",
+        "前三季度主要产品产销及价格"
+      ],
+      "updates": [
+        {
+          "id": "production-025420cc891c037fe5aa1101",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "前三季度营收63.68亿元，归母净亏损3774.13万元",
+          "summary": "北元化工2026年10月30日披露未经审计的三季报：前三季度营业收入约人民币63.68亿元，同比下降5.82%，归属于上市公司股东的净亏损约人民币3774.13万元。同日披露的经营数据显示，前三季度烧碱、水泥不含税销售均价同比分别下降22.83%、15.86%。",
+          "stage": "10月29日董事会通过第三季度报告，10月30日披露报告及前三季度经营数据。",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T21:08:29-08:00",
+          "compiledAt": "2026-11-05T21:08:29-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北元化工",
+          "version": "025420cc891c037fe5aa110174de3e0a99a33bdb4714c6d839c857ecb68f4825",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西北元化工集团股份有限公司2026年第三季度报告",
+              "publisher": "陕西北元化工集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页主要会计数据和财务指标、审计状态；第16页落款",
+              "retrievedAt": "2026-11-05T08:06:39+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640000.PDF"
+            },
+            {
+              "title": "陕西北元化工集团股份有限公司2026年前三季度主要经营数据公告",
+              "publisher": "陕西北元化工集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页主要产品价格变动情况；第2页落款",
+              "retrievedAt": "2026-11-05T08:06:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639997.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-f4d02dc4a2c8b267fc91",
+      "objectId": "listed-688269-sh",
+      "type": "资产减值准备",
+      "topics": [
+        "信用减值",
+        "资产减值",
+        "转回或转销"
+      ],
+      "updates": [
+        {
+          "id": "production-d57d9abb64f8f59d0993dd4f",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "第三季度减值计提及转回或转销合计增加利润总额476.45万元",
+          "summary": "凯立新材2026年10月30日公告，第三季度合并报表口径计提信用减值损失和资产减值损失合计人民币1170.87万元，转回或转销资产减值损失人民币1647.32万元，合计增加合并报表利润总额人民币476.45万元，未计算所得税影响。相关数据未经审计，最终以会计师事务所年度审计确认的金额为准。",
+          "stage": "披露第三季度计提及转回或转销情况，数据未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T21:08:29-08:00",
+          "compiledAt": "2026-11-05T21:08:29-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "凯立新材",
+          "version": "d57d9abb64f8f59d0993dd4f68ca8878a4d8d0bf373f40be44748d1871a040af",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安凯立新材料股份有限公司关于2026年第三季度计提资产减值准备的公告",
+              "publisher": "西安凯立新材料股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页计提及减少金额表；第2页利润影响、审计限定及落款",
+              "retrievedAt": "2026-11-05T08:06:54+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225642084.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-9cf58b5d596713dff8c9",
+      "date": "2026-11-06",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-06T13:18:29+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-9cf58b5d596713dff8c9/page-01.png",
+          "width": 1080,
+          "height": 1172,
+          "sha256": "b90a7df2e0daab5809dda3bccfef41cfad35e6277278f6ddbb7e0556526c507c"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-05-1f07241a12a1",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-30",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-16f3a57068bcb323f064",
       "date": "2026-11-06",
@@ -40395,6 +40574,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "4283fe2cf603aed0e639",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T20:51:11-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/4283fe2cf603aed0e639/index.html",
+      "publishedAt": "2026-11-06T12:57:33+08:00"
+    },
     {
       "id": "f93913b352d7f468ced9",
       "date": "2026-11-06",
