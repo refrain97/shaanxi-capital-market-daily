@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-05-7dea6e88736b",
-      "compiledAt": "2026-11-05T17:54:28-08:00",
+      "id": "2026-11-05-d0c5aa035dc8",
+      "compiledAt": "2026-11-05T18:37:42-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -35,12 +35,15 @@ window.PROTOTYPE = {
         "production-14972cc78c994e4ee8e53e14",
         "production-09f10a9e6400e371697bd6c6",
         "production-eeae0bf5db12bcdc4e6d4fa1",
+        "production-d90000dabeee8611cbffb192",
         "production-c3ad64745687caebb9fe6cd2",
         "production-9eb4f111d32e8675dd83bb11",
         "production-95ac60a7ca6d36e43c857c8b",
         "production-9154142253613e54ae99f5ed",
         "production-87d9e36ade84cce83fdcd926",
         "production-7b8cd30d7e2b9f3bf00e08e0",
+        "production-6f586b29192198cbc6a09340",
+        "production-502375d7206ec7e3fa1a6216",
         "production-ff57ff9059de128b625b71e2",
         "production-6ac654ef6e973cc87f1a9cd4",
         "production-31538a5cdfd937a7a48a4612"
@@ -363,7 +366,10 @@ window.PROTOTYPE = {
       "production-87d9e36ade84cce83fdcd926": "2026-11-05T17:38:35-08:00",
       "production-c3ad64745687caebb9fe6cd2": "2026-11-05T17:54:26-08:00",
       "production-95ac60a7ca6d36e43c857c8b": "2026-11-05T17:54:26-08:00",
-      "production-9154142253613e54ae99f5ed": "2026-11-05T17:54:26-08:00"
+      "production-9154142253613e54ae99f5ed": "2026-11-05T17:54:26-08:00",
+      "production-502375d7206ec7e3fa1a6216": "2026-11-05T18:37:40-08:00",
+      "production-6f586b29192198cbc6a09340": "2026-11-05T18:37:40-08:00",
+      "production-d90000dabeee8611cbffb192": "2026-11-05T18:37:40-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2445,6 +2451,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "特变电工股份有限公司2026年10月30日公告，2026年度第二期科技创新债券“26特变股份MTN002（科创债）”已发行完毕，发行额度5亿元人民币，募集资金已于10月29日全额到账。债券期限5+N年，发行利率2.1%，起息日为2026年10月29日，主承销商为招商银行股份有限公司。"
+        },
+        "production-502375d7206ec7e3fa1a6216": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西部材料2026年10月30日披露，董事会于10月28日审议通过提名李建峰、郑树军、康彦、黄张洪、乔丰为第九届董事会非独立董事候选人的议案。该议案拟提交11月20日召开的2026年第三次临时股东会，以累积投票制、等额选举方式表决，尚待股东会选举。"
+        },
+        "production-6f586b29192198cbc6a09340": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安银行2026年10月30日披露，10月29日召开的第六届董事会第四十次会议审议通过《西安银行股份有限公司2026年第三季度第三支柱信息披露报告》，表决结果为同意10票、反对0票、弃权0票。"
+        },
+        "production-d90000dabeee8611cbffb192": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "中航成飞2026年10月30日披露，10月28日召开的第八届董事会第十三次会议审议通过修订《董事会权责清单》的议案，表决结果为同意11票、反对0票、弃权0票。"
         }
       }
     },
@@ -2454,7 +2481,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-05-7dea6e88736b",
+      "sourceEditionId": "2026-11-05-d0c5aa035dc8",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -5330,6 +5357,18 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-302132-sz",
+      "type": "listed",
+      "name": "中航成飞",
+      "code": "302132.SZ",
+      "market": "SZ",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000768-sz",
       "type": "listed",
       "name": "中航西飞",
@@ -5386,19 +5425,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "易点天下",
       "code": "301171.SZ",
-      "market": "SZ",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-302132-sz",
-      "type": "listed",
-      "name": "中航成飞",
-      "code": "302132.SZ",
       "market": "SZ",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -33594,6 +33620,157 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-ee0efb6c1e4101044aff",
+      "objectId": "listed-002149-sz",
+      "type": "董事换届",
+      "topics": [
+        "非独立董事候选人提名",
+        "任职资格审核",
+        "股东会选举安排"
+      ],
+      "updates": [
+        {
+          "id": "production-502375d7206ec7e3fa1a6216",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "提名五名非独立董事候选人，拟于11月20日提交股东会选举",
+          "summary": "西部材料2026年10月30日披露，董事会于10月28日审议通过提名李建峰、郑树军、康彦、黄张洪、乔丰为第九届董事会非独立董事候选人的议案。该议案拟提交11月20日召开的2026年第三次临时股东会，以累积投票制、等额选举方式表决，尚待股东会选举。",
+          "stage": "2026年10月28日董事会通过五名非独立董事候选人提名，拟提交11月20日第三次临时股东会选举；尚未当选",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T18:37:40-08:00",
+          "compiledAt": "2026-11-05T18:37:40-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西部材料",
+          "version": "502375d7206ec7e3fa1a6216d2f8d705c1fea6275490fe960033e7dde98df03b",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西部金属材料股份有限公司关于董事会换届选举的公告",
+              "publisher": "西部金属材料股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页，一、董事会换届选举情况",
+              "retrievedAt": "2026-11-05T08:04:50+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644072.PDF"
+            },
+            {
+              "title": "西部金属材料股份有限公司关于召开2026年第三次临时股东会的通知",
+              "publisher": "西部金属材料股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议时间；第2页提案1及选举方式",
+              "retrievedAt": "2026-11-05T08:04:51+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644071.PDF"
+            },
+            {
+              "title": "西部金属材料股份有限公司第八届董事会第二十八次会议决议公告",
+              "publisher": "西部金属材料股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1—2页，第二项议案",
+              "retrievedAt": "2026-11-05T08:04:51+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644070.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-22a0cab142858fae30eb",
+      "objectId": "listed-600928-sh",
+      "type": "监管信息报告",
+      "topics": [
+        "第三支柱信息披露报告",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-6f586b29192198cbc6a09340",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会通过2026年第三季度第三支柱信息披露报告",
+          "summary": "西安银行2026年10月30日披露，10月29日召开的第六届董事会第四十次会议审议通过《西安银行股份有限公司2026年第三季度第三支柱信息披露报告》，表决结果为同意10票、反对0票、弃权0票。",
+          "stage": "董事会审议通过",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T18:37:40-08:00",
+          "compiledAt": "2026-11-05T18:37:40-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安银行",
+          "version": "6f586b29192198cbc6a09340a10a5156e2b398e2049aaaa4800d48af1e8f2c89",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安银行股份有限公司第六届董事会第四十次会议决议公告",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议召开情况及第二项议案；第2页首行表决结果；公告落款2026年10月29日",
+              "retrievedAt": "2026-11-05T08:06:26+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644384.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-59f797ffbf76b8a88189",
+      "objectId": "listed-302132-sz",
+      "type": "公司治理制度修订",
+      "topics": [
+        "董事会权责清单修订"
+      ],
+      "updates": [
+        {
+          "id": "production-d90000dabeee8611cbffb192",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会通过《董事会权责清单》修订",
+          "summary": "中航成飞2026年10月30日披露，10月28日召开的第八届董事会第十三次会议审议通过修订《董事会权责清单》的议案，表决结果为同意11票、反对0票、弃权0票。",
+          "stage": "2026年10月28日董事会审议通过",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T18:37:41-08:00",
+          "compiledAt": "2026-11-05T18:37:41-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "中航成飞",
+          "version": "d90000dabeee8611cbffb19211bafe74a2fdeddb99634d518fb4406cc0e0825d",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第八届董事会第十三次会议决议公告",
+              "publisher": "中航成飞股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议召开情况及第二项议案；公告落款2026年10月29日",
+              "retrievedAt": "2026-11-05T08:05:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644255.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -38515,6 +38692,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "a60a9dc23447c510c34b",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T17:54:28-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/a60a9dc23447c510c34b/index.html",
+      "publishedAt": "2026-11-06T10:21:55+08:00"
+    },
     {
       "id": "c5b822eec78eaae8d71f",
       "date": "2026-11-06",
