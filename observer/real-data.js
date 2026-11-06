@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-04-ce85f49203b4",
-      "compiledAt": "2026-11-04T18:39:45-08:00",
+      "id": "2026-11-05-d910e5f6f302",
+      "compiledAt": "2026-11-05T16:09:23-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -18,6 +18,7 @@ window.PROTOTYPE = {
         "production-e74a9c430789a23ef97e0ab9",
         "production-c7794a553ec11c1af58df314",
         "production-c69e01bfe411b23c7c7ad7e7",
+        "production-be9995f7a57c1ac9eb9f5a0f",
         "production-b8d7123b8b600ba65839dd83",
         "production-a8cc48632581f2148af4856c",
         "production-91db4dab0430af90585695d8",
@@ -28,6 +29,7 @@ window.PROTOTYPE = {
         "production-63351df0acb39ea8c61b551a",
         "production-50fc3c8062a9f0dcfd5a2ad3",
         "production-2e2e3d64525806695548da91",
+        "production-281913575f05d6942cd53692",
         "production-14972cc78c994e4ee8e53e14",
         "production-09f10a9e6400e371697bd6c6",
         "production-ff57ff9059de128b625b71e2",
@@ -342,7 +344,9 @@ window.PROTOTYPE = {
       "production-2e2e3d64525806695548da91": "2026-11-04T18:05:09-08:00",
       "production-858ec060cfe5fb6b54b9c38c": "2026-11-04T18:05:09-08:00",
       "production-31538a5cdfd937a7a48a4612": "2026-11-04T18:23:28-08:00",
-      "production-6ac654ef6e973cc87f1a9cd4": "2026-11-04T18:39:45-08:00"
+      "production-6ac654ef6e973cc87f1a9cd4": "2026-11-04T18:39:45-08:00",
+      "production-be9995f7a57c1ac9eb9f5a0f": "2026-11-05T16:07:06-08:00",
+      "production-281913575f05d6942cd53692": "2026-11-05T16:09:23-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2353,6 +2357,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "东华科技2026年10月28日披露，公司八届十九次董事会于10月26日审议通过《关于修订董事会秘书工作制度的议案》。修订后的2026版制度于10月28日发布，规定经董事会审议通过后生效、自发布之日起施行，原旧版文件即行废止。"
+        },
+        "production-be9995f7a57c1ac9eb9f5a0f": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "据2026年10月31日披露的公告，陕西中天火箭技术股份有限公司董事会已于10月30日审议通过召开2026年第三次临时股东会的议案，现场会议拟于11月16日14:30召开。会议采取现场投票与网络投票相结合的方式，股权登记日为11月11日，目前为会议召集阶段。"
+        },
+        "production-281913575f05d6942cd53692": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "中天火箭2026年10月31日披露，董事会于10月30日审议通过独立董事换届议案，提名张西安、席文圣、付斌3人为第五届董事会独立董事候选人，任职资格须经深交所备案审核无异议后提交股东会审议。付斌截至股东大会通知发出之日尚未取得深交所认可的独立董事资格证书，已承诺参加最近一次独立董事培训并取得相关证书。"
         }
       }
     },
@@ -2362,7 +2380,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-04-ce85f49203b4",
+      "sourceEditionId": "2026-11-05-d910e5f6f302",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -33086,6 +33104,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T10:43:05+08:00",
           "updatedAt": "2026-11-04T18:39:45-08:00",
           "compiledAt": "2026-11-04T18:39:45-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33114,6 +33133,122 @@ window.PROTOTYPE = {
               "location": "第1页标题及审议日期；第7页第三十二条",
               "retrievedAt": "2026-11-05T08:08:07+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628651.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-0fce8e5b6e4831e19c8b",
+      "objectId": "listed-003009-sz",
+      "type": "临时股东会召集通知",
+      "topics": [
+        "2026年第三次临时股东会",
+        "会议召集"
+      ],
+      "updates": [
+        {
+          "id": "production-be9995f7a57c1ac9eb9f5a0f",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "拟于11月16日召开2026年第三次临时股东会",
+          "summary": "据2026年10月31日披露的公告，陕西中天火箭技术股份有限公司董事会已于10月30日审议通过召开2026年第三次临时股东会的议案，现场会议拟于11月16日14:30召开。会议采取现场投票与网络投票相结合的方式，股权登记日为11月11日，目前为会议召集阶段。",
+          "stage": "董事会审议通过召开会议并发出通知，拟于2026年11月16日召开，尚未召开",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T16:07:06-08:00",
+          "compiledAt": "2026-11-05T16:07:06-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "中天火箭",
+          "version": "be9995f7a57c1ac9eb9f5a0fc544ea2e175473d266e6b87725db89cedd69e61d",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西中天火箭技术股份有限公司第四届董事会第三十五次会议决议公告",
+              "publisher": "陕西中天火箭技术股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第2页，议案（三）；公告落款日期为2026年10月30日",
+              "retrievedAt": "2026-11-05T08:05:02+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649053.PDF"
+            },
+            {
+              "title": "陕西中天火箭技术股份有限公司关于召开2026年第三次临时股东会的通知公告",
+              "publisher": "陕西中天火箭技术股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1—2页，召开会议基本情况",
+              "retrievedAt": "2026-11-05T08:05:01+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649054.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-1e012506a5129b72f592",
+      "objectId": "listed-003009-sz",
+      "type": "独立董事候选人提名及配套声明",
+      "topics": [
+        "第五届董事会",
+        "独立董事换届",
+        "候选人声明",
+        "付斌培训承诺"
+      ],
+      "updates": [
+        {
+          "id": "production-281913575f05d6942cd53692",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "提名张西安、席文圣、付斌为第五届董事会独立董事候选人",
+          "summary": "中天火箭2026年10月31日披露，董事会于10月30日审议通过独立董事换届议案，提名张西安、席文圣、付斌3人为第五届董事会独立董事候选人，任职资格须经深交所备案审核无异议后提交股东会审议。付斌截至股东大会通知发出之日尚未取得深交所认可的独立董事资格证书，已承诺参加最近一次独立董事培训并取得相关证书。",
+          "stage": "2026年10月30日董事会审议通过独立董事换届议案，提名张西安、席文圣、付斌；任职资格须经深交所审核无异议后提交股东会审议，尚非当选就任",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T16:09:23-08:00",
+          "compiledAt": "2026-11-05T16:09:23-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "中天火箭",
+          "version": "281913575f05d6942cd53692913839e2f8b8c4fd4182077e5bcc1a8fc1e15627",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西中天火箭技术股份有限公司关于董事会换届选举的公告",
+              "publisher": "陕西中天火箭技术股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1—2页；文件落款2026年10月30日",
+              "retrievedAt": "2026-11-05T08:05:01+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649055.PDF"
+            },
+            {
+              "title": "陕西中天火箭技术股份有限公司第四届董事会第三十五次会议决议公告",
+              "publisher": "陕西中天火箭技术股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第2页，议案（二）",
+              "retrievedAt": "2026-11-05T08:05:02+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649053.PDF"
+            },
+            {
+              "title": "陕西中天火箭技术股份有限公司独立董事候选人书面承诺（付斌）",
+              "publisher": "陕西中天火箭技术股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页；承诺人付斌，落款2026年10月30日",
+              "retrievedAt": "2026-11-05T08:04:58+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649063.PDF"
             }
           ],
           "tables": []
@@ -38040,6 +38175,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "ff4aabd233b641613a5f",
+      "date": "2026-11-05",
+      "compiledAt": "2026-11-04T18:39:45-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/ff4aabd233b641613a5f/index.html",
+      "publishedAt": "2026-11-05T10:43:05+08:00"
+    },
     {
       "id": "5c040ad3808ade7b1ef2",
       "date": "2026-11-05",
