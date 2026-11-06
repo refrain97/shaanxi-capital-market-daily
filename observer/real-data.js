@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-05-d910e5f6f302",
-      "compiledAt": "2026-11-05T16:09:23-08:00",
+      "id": "2026-11-05-e89914cf1e09",
+      "compiledAt": "2026-11-05T16:27:15-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -21,6 +21,7 @@ window.PROTOTYPE = {
         "production-be9995f7a57c1ac9eb9f5a0f",
         "production-b8d7123b8b600ba65839dd83",
         "production-a8cc48632581f2148af4856c",
+        "production-9898880d0ae363985436ebd6",
         "production-91db4dab0430af90585695d8",
         "production-858ec060cfe5fb6b54b9c38c",
         "production-8034bb30bd2ebbbea44032be",
@@ -346,7 +347,8 @@ window.PROTOTYPE = {
       "production-31538a5cdfd937a7a48a4612": "2026-11-04T18:23:28-08:00",
       "production-6ac654ef6e973cc87f1a9cd4": "2026-11-04T18:39:45-08:00",
       "production-be9995f7a57c1ac9eb9f5a0f": "2026-11-05T16:07:06-08:00",
-      "production-281913575f05d6942cd53692": "2026-11-05T16:09:23-08:00"
+      "production-281913575f05d6942cd53692": "2026-11-05T16:09:23-08:00",
+      "production-9898880d0ae363985436ebd6": "2026-11-05T16:27:15-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2371,6 +2373,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "中天火箭2026年10月31日披露，董事会于10月30日审议通过独立董事换届议案，提名张西安、席文圣、付斌3人为第五届董事会独立董事候选人，任职资格须经深交所备案审核无异议后提交股东会审议。付斌截至股东大会通知发出之日尚未取得深交所认可的独立董事资格证书，已承诺参加最近一次独立董事培训并取得相关证书。"
+        },
+        "production-9898880d0ae363985436ebd6": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "金花企业（集团）股份有限公司2026年10月31日公告，董事会于10月29日审议通过将已结项募投项目节余募集资金8,931.11万元永久补充流动资金，并在转款后注销募集资金专户；金额含利息收入、现金管理收益，具体以资金转出当日专户余额为准，尚需提交拟于11月16日召开的股东会审议。项目仍有部分工程施工款、设备款、质保金等未支付，资金转出后剩余待付款项将由自有资金支付。"
         }
       }
     },
@@ -2380,7 +2389,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-05-d910e5f6f302",
+      "sourceEditionId": "2026-11-05-e89914cf1e09",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -33158,6 +33167,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T08:15:53+08:00",
           "updatedAt": "2026-11-05T16:07:06-08:00",
           "compiledAt": "2026-11-05T16:07:06-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33213,6 +33223,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T08:15:53+08:00",
           "updatedAt": "2026-11-05T16:09:23-08:00",
           "compiledAt": "2026-11-05T16:09:23-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33249,6 +33260,59 @@ window.PROTOTYPE = {
               "location": "物理第1页；承诺人付斌，落款2026年10月30日",
               "retrievedAt": "2026-11-05T08:04:58+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649063.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-cdfb581f1cc624e438f2",
+      "objectId": "listed-600080-sh",
+      "type": "募投项目节余募集资金永久补流",
+      "topics": [
+        "节余募集资金永久补流",
+        "募集资金专户拟注销"
+      ],
+      "updates": [
+        {
+          "id": "production-9898880d0ae363985436ebd6",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "拟将8,931.11万元节余募集资金永久补流",
+          "summary": "金花企业（集团）股份有限公司2026年10月31日公告，董事会于10月29日审议通过将已结项募投项目节余募集资金8,931.11万元永久补充流动资金，并在转款后注销募集资金专户；金额含利息收入、现金管理收益，具体以资金转出当日专户余额为准，尚需提交拟于11月16日召开的股东会审议。项目仍有部分工程施工款、设备款、质保金等未支付，资金转出后剩余待付款项将由自有资金支付。",
+          "stage": "2026年10月29日董事会审议通过，保荐机构无异议，拟提交11月16日股东会审议；尚无补流转款及专户注销完成依据",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T16:27:15-08:00",
+          "compiledAt": "2026-11-05T16:27:15-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST金花",
+          "version": "9898880d0ae363985436ebd62076518db03822d0230cee814e41cb97d4c97969",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "金花企业（集团）股份有限公司关于募投项目节余募集资金永久补流及注销募集资金专户的公告",
+              "publisher": "金花企业（集团）股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1—4页；第2页资金使用及节余表与脚注，第3页使用计划及审批程序",
+              "retrievedAt": "2026-11-05T08:05:36+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649776.PDF"
+            },
+            {
+              "title": "金花企业(集团)股份有限公司关于召开2026年第一次临时股东会的通知",
+              "publisher": "金花企业（集团）股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页会议日期、第2页议案表",
+              "retrievedAt": "2026-11-05T08:05:36+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649777.PDF"
             }
           ],
           "tables": []
@@ -38175,6 +38239,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "438ade2fd1803a6459db",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T16:09:23-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/438ade2fd1803a6459db/index.html",
+      "publishedAt": "2026-11-06T08:15:53+08:00"
+    },
     {
       "id": "ff4aabd233b641613a5f",
       "date": "2026-11-05",
