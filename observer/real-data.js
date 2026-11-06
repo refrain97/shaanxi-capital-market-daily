@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-05-d0c5aa035dc8",
-      "compiledAt": "2026-11-05T18:37:42-08:00",
+      "id": "2026-11-05-1234a8db1a5e",
+      "compiledAt": "2026-11-05T18:59:35-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -37,6 +37,7 @@ window.PROTOTYPE = {
         "production-eeae0bf5db12bcdc4e6d4fa1",
         "production-d90000dabeee8611cbffb192",
         "production-c3ad64745687caebb9fe6cd2",
+        "production-b5f03fad5a03336713b4354e",
         "production-9eb4f111d32e8675dd83bb11",
         "production-95ac60a7ca6d36e43c857c8b",
         "production-9154142253613e54ae99f5ed",
@@ -44,6 +45,9 @@ window.PROTOTYPE = {
         "production-7b8cd30d7e2b9f3bf00e08e0",
         "production-6f586b29192198cbc6a09340",
         "production-502375d7206ec7e3fa1a6216",
+        "production-42e955320b5d35846be7d060",
+        "production-2947fcab17be17cee2508db6",
+        "production-0c9bcf00be372e208a232c48",
         "production-ff57ff9059de128b625b71e2",
         "production-6ac654ef6e973cc87f1a9cd4",
         "production-31538a5cdfd937a7a48a4612"
@@ -369,7 +373,11 @@ window.PROTOTYPE = {
       "production-9154142253613e54ae99f5ed": "2026-11-05T17:54:26-08:00",
       "production-502375d7206ec7e3fa1a6216": "2026-11-05T18:37:40-08:00",
       "production-6f586b29192198cbc6a09340": "2026-11-05T18:37:40-08:00",
-      "production-d90000dabeee8611cbffb192": "2026-11-05T18:37:40-08:00"
+      "production-d90000dabeee8611cbffb192": "2026-11-05T18:37:40-08:00",
+      "production-0c9bcf00be372e208a232c48": "2026-11-05T18:59:33-08:00",
+      "production-b5f03fad5a03336713b4354e": "2026-11-05T18:59:33-08:00",
+      "production-2947fcab17be17cee2508db6": "2026-11-05T18:59:33-08:00",
+      "production-42e955320b5d35846be7d060": "2026-11-05T18:59:33-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2472,6 +2480,34 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "中航成飞2026年10月30日披露，10月28日召开的第八届董事会第十三次会议审议通过修订《董事会权责清单》的议案，表决结果为同意11票、反对0票、弃权0票。"
+        },
+        "production-0c9bcf00be372e208a232c48": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西旅游文化产业股份有限公司2026年10月30日披露，董事会于10月29日以9票同意、0票反对、0票弃权审议通过2026年第三季度报告议案，该议案此前已经董事会审计委员会审议通过。公司同日披露第三季度报告，季度财务报表未经审计。"
+        },
+        "production-b5f03fad5a03336713b4354e": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安银行股份有限公司2026年10月30日披露，董事会于10月29日以10票同意、0票反对、0票弃权审议通过组织架构调整议案。该决议公告未披露具体调整内容及实施结果。"
+        },
+        "production-2947fcab17be17cee2508db6": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安银行股份有限公司2026年10月30日披露，董事会于10月29日以10票同意、0票反对、0票弃权审议通过重大信息内部报告制度修订议案。该决议公告未披露具体修订条款及生效安排。"
+        },
+        "production-42e955320b5d35846be7d060": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西同力重工股份有限公司2026年10月30日披露，2026年前三季度无人驾驶产品出货量1300多台，占公司同期总出货量的27%。同期海外出货量2104台（含施工外带），占总出货量的43%，同比增长63%。"
         }
       }
     },
@@ -2481,7 +2517,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-05-d0c5aa035dc8",
+      "sourceEditionId": "2026-11-05-1234a8db1a5e",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -33766,6 +33802,192 @@ window.PROTOTYPE = {
               "location": "物理第1页会议召开情况及第二项议案；公告落款2026年10月29日",
               "retrievedAt": "2026-11-05T08:05:33+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644255.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-79f775959b84c68ecd63",
+      "objectId": "listed-603402-sh",
+      "type": "定期报告审议",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-0c9bcf00be372e208a232c48",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会审议通过2026年第三季度报告",
+          "summary": "陕西旅游文化产业股份有限公司2026年10月30日披露，董事会于10月29日以9票同意、0票反对、0票弃权审议通过2026年第三季度报告议案，该议案此前已经董事会审计委员会审议通过。公司同日披露第三季度报告，季度财务报表未经审计。",
+          "stage": "2026年10月29日董事会审议通过第三季度报告，10月30日披露",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T18:59:33-08:00",
+          "compiledAt": "2026-11-05T18:59:33-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西旅游",
+          "version": "0c9bcf00be372e208a232c48bf3fc3e2beed23caf71185259008fd7e93bd341e",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西旅游文化产业股份有限公司第四届董事会第十四次会议决议公告",
+              "publisher": "陕西旅游文化产业股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页，会议召开情况及第二项议案",
+              "retrievedAt": "2026-11-05T08:06:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644925.PDF"
+            },
+            {
+              "title": "陕西旅游文化产业股份有限公司2026年第三季度报告",
+              "publisher": "陕西旅游文化产业股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页，报告标题、公告编号及审计状态；披露日期为2026年10月30日",
+              "retrievedAt": "2026-11-05T08:06:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644922.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-80706f3358304c6e7745",
+      "objectId": "listed-600928-sh",
+      "type": "公司治理",
+      "topics": [
+        "组织架构调整"
+      ],
+      "updates": [
+        {
+          "id": "production-b5f03fad5a03336713b4354e",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会通过组织架构调整议案",
+          "summary": "西安银行股份有限公司2026年10月30日披露，董事会于10月29日以10票同意、0票反对、0票弃权审议通过组织架构调整议案。该决议公告未披露具体调整内容及实施结果。",
+          "stage": "董事会审议通过组织架构调整议案",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T18:59:34-08:00",
+          "compiledAt": "2026-11-05T18:59:34-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安银行",
+          "version": "b5f03fad5a03336713b4354ef627dd0dd0cef3d93de4ccfc2cc301a627c1cc0e",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安银行股份有限公司第六届董事会第四十次会议决议公告",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议日期、第2页第三项议案；公告落款2026年10月29日",
+              "retrievedAt": "2026-11-05T08:06:26+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644384.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-df86af2399d808d01ab0",
+      "objectId": "listed-600928-sh",
+      "type": "公司治理制度修订",
+      "topics": [
+        "重大信息内部报告制度"
+      ],
+      "updates": [
+        {
+          "id": "production-2947fcab17be17cee2508db6",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会通过重大信息内部报告制度修订议案",
+          "summary": "西安银行股份有限公司2026年10月30日披露，董事会于10月29日以10票同意、0票反对、0票弃权审议通过重大信息内部报告制度修订议案。该决议公告未披露具体修订条款及生效安排。",
+          "stage": "董事会审议通过制度修订议案",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T18:59:33-08:00",
+          "compiledAt": "2026-11-05T18:59:33-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安银行",
+          "version": "2947fcab17be17cee2508db6b0ef09ad1dc43d798cc935a4ade5cccf0c9a5c85",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安银行股份有限公司第六届董事会第四十次会议决议公告",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议日期、第2页第五项议案；公告落款2026年10月29日",
+              "retrievedAt": "2026-11-05T08:06:26+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644384.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-0ef07c49cee0c73a8a5a",
+      "objectId": "listed-920599-bj",
+      "type": "生产经营动态",
+      "topics": [
+        "无人驾驶产品出货",
+        "海外业务"
+      ],
+      "updates": [
+        {
+          "id": "production-42e955320b5d35846be7d060",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "前三季度无人驾驶产品出货1300多台，海外出货同比增长63%",
+          "summary": "陕西同力重工股份有限公司2026年10月30日披露，2026年前三季度无人驾驶产品出货量1300多台，占公司同期总出货量的27%。同期海外出货量2104台（含施工外带），占总出货量的43%，同比增长63%。",
+          "stage": "披露2026年前三季度生产经营情况",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T18:59:34-08:00",
+          "compiledAt": "2026-11-05T18:59:34-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "同力股份",
+          "version": "42e955320b5d35846be7d0605f41cec77ccce28956c429580397e009ce747ea5",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西同力重工股份有限公司关于公司近期生产经营情况的公告",
+              "publisher": "陕西同力重工股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页公司名称、第2页公司生产经营情况及公告落款",
+              "retrievedAt": "2026-11-05T08:07:12+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225647376.PDF"
             }
           ],
           "tables": []
