@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-05-9312b2c2dc85",
-      "compiledAt": "2026-11-05T20:32:58-08:00",
+      "id": "2026-11-05-08ea21066ad3",
+      "compiledAt": "2026-11-05T20:51:11-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -35,12 +35,14 @@ window.PROTOTYPE = {
         "production-14972cc78c994e4ee8e53e14",
         "production-09f10a9e6400e371697bd6c6",
         "production-ff8cf9fff2633f2f19a099b3",
+        "production-fa6efcaac08c570cabd1968a",
         "production-eeae0bf5db12bcdc4e6d4fa1",
         "production-d90000dabeee8611cbffb192",
         "production-d7b6c60bd2495a5444f965bd",
         "production-d74c85c04a863d6f281c8c4c",
         "production-c3ad64745687caebb9fe6cd2",
         "production-b5f03fad5a03336713b4354e",
+        "production-a278957d9932c3a3066c0748",
         "production-9eb4f111d32e8675dd83bb11",
         "production-95ac60a7ca6d36e43c857c8b",
         "production-9154142253613e54ae99f5ed",
@@ -55,6 +57,7 @@ window.PROTOTYPE = {
         "production-49963c2a05a103a74d123151",
         "production-42e955320b5d35846be7d060",
         "production-42125a415db3392e321d2f79",
+        "production-3b8cffa13bec8e4884351466",
         "production-2947fcab17be17cee2508db6",
         "production-235e3b7e80d5d00975b724c2",
         "production-21e8ba242101d1e3e94b99c8",
@@ -405,7 +408,10 @@ window.PROTOTYPE = {
       "production-0c59e2806ecb94b5fe980374": "2026-11-05T20:32:55-08:00",
       "production-42125a415db3392e321d2f79": "2026-11-05T20:32:55-08:00",
       "production-73e9a31555683f0ecc95ce47": "2026-11-05T20:32:55-08:00",
-      "production-71f001619ed3993257afc836": "2026-11-05T20:32:55-08:00"
+      "production-71f001619ed3993257afc836": "2026-11-05T20:32:55-08:00",
+      "production-fa6efcaac08c570cabd1968a": "2026-11-05T20:51:09-08:00",
+      "production-3b8cffa13bec8e4884351466": "2026-11-05T20:51:09-08:00",
+      "production-a278957d9932c3a3066c0748": "2026-11-05T20:51:09-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2631,6 +2637,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "中航西飞2026年10月30日披露，董事会于10月29日以11票同意、0票反对、0票弃权，批准修订《董事会向经理层授权管理办法》。本次决议公告未披露具体修订条款。"
+        },
+        "production-fa6efcaac08c570cabd1968a": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北元化工2026年10月30日公告，董事会于10月29日审议通过日常关联交易预计调整，将2026年向陕煤运销集团榆中销售有限公司采购原材料的预计金额由80,000万元增加45,000万元至125,000万元，无需提交股东会审议。公告列示，年初至披露日与该关联方累计已发生交易金额为58,892.64万元。"
+        },
+        "production-3b8cffa13bec8e4884351466": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北元化工2026年10月30日公告，董事会于10月29日审议通过2026年前三季度计提资产减值准备议案，本期计提合计人民币289,566,355.58元，尚需提交股东会审议。结合本期坏账准备转回及存货跌价准备转销，公告披露上述事项合计减少前三季度利润总额人民币75,702,660.03元。"
+        },
+        "production-a278957d9932c3a3066c0748": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "中航西飞2026年10月30日公告，公司董事会于10月29日批准《关于调整2026年固定资产投资暨修理计划的议案》。该公告未披露具体项目、金额、调整方向及实际支付情况。"
         }
       }
     },
@@ -2640,8 +2667,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-05-9312b2c2dc85",
-      "editionId": "selection-ef89979492e115e45225",
+      "sourceEditionId": "2026-11-05-08ea21066ad3",
+      "editionId": "selection-16f3a57068bcb323f064",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -34802,6 +34829,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T12:38:38+08:00",
           "updatedAt": "2026-11-05T20:28:49-08:00",
           "compiledAt": "2026-11-05T20:28:49-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -34855,6 +34883,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T12:38:38+08:00",
           "updatedAt": "2026-11-05T20:28:50-08:00",
           "compiledAt": "2026-11-05T20:28:50-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -34900,6 +34929,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T12:38:38+08:00",
           "updatedAt": "2026-11-05T20:32:55-08:00",
           "compiledAt": "2026-11-05T20:32:55-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -34945,6 +34975,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T12:38:38+08:00",
           "updatedAt": "2026-11-05T20:32:56-08:00",
           "compiledAt": "2026-11-05T20:32:56-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -34989,6 +35020,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T12:38:38+08:00",
           "updatedAt": "2026-11-05T20:32:56-08:00",
           "compiledAt": "2026-11-05T20:32:56-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -35034,6 +35066,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T12:38:38+08:00",
           "updatedAt": "2026-11-05T20:32:57-08:00",
           "compiledAt": "2026-11-05T20:32:57-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -35059,9 +35092,227 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-2dfb1081d9f1fbf6c338",
+      "objectId": "listed-601568-sh",
+      "type": "日常关联交易",
+      "topics": [
+        "2026年度榆中销售原材料采购预计调整"
+      ],
+      "updates": [
+        {
+          "id": "production-fa6efcaac08c570cabd1968a",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "将2026年向榆中销售采购原材料预计额调至125,000万元",
+          "summary": "北元化工2026年10月30日公告，董事会于10月29日审议通过日常关联交易预计调整，将2026年向陕煤运销集团榆中销售有限公司采购原材料的预计金额由80,000万元增加45,000万元至125,000万元，无需提交股东会审议。公告列示，年初至披露日与该关联方累计已发生交易金额为58,892.64万元。",
+          "stage": "独立董事同意提交董事会，10月29日董事会审议通过，无需提交股东会。",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T20:51:10-08:00",
+          "compiledAt": "2026-11-05T20:51:10-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北元化工",
+          "version": "fa6efcaac08c570cabd1968ab3d5bbbdfa91a9d7024a7f2c11201805b7ad2b49",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西北元化工集团股份有限公司关于调整2026年度部分日常关联交易预计的公告",
+              "publisher": "陕西北元化工集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页重要内容提示；第2页审议程序及本次调整表",
+              "retrievedAt": "2026-11-05T08:06:37+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640010.PDF"
+            },
+            {
+              "title": "陕西北元化工集团股份有限公司第三届董事会第十九次会议决议公告",
+              "publisher": "陕西北元化工集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1—2页第二项议案",
+              "retrievedAt": "2026-11-05T08:06:38+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640008.PDF"
+            },
+            {
+              "title": "陕西北元化工集团股份有限公司第三届董事会独立董事专门会议2026年第四次会议审核意见",
+              "publisher": "陕西北元化工集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页第一项意见；第3—6页签署日期为2026年10月29日",
+              "retrievedAt": "2026-11-05T08:06:36+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640023.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-adbe32233357020f114c",
+      "objectId": "listed-601568-sh",
+      "type": "资产减值",
+      "topics": [
+        "2026年前三季度计提资产减值准备"
+      ],
+      "updates": [
+        {
+          "id": "production-3b8cffa13bec8e4884351466",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "前三季度计提资产减值准备2.90亿元，尚需股东会审议",
+          "summary": "北元化工2026年10月30日公告，董事会于10月29日审议通过2026年前三季度计提资产减值准备议案，本期计提合计人民币289,566,355.58元，尚需提交股东会审议。结合本期坏账准备转回及存货跌价准备转销，公告披露上述事项合计减少前三季度利润总额人民币75,702,660.03元。",
+          "stage": "10月29日董事会审议通过，尚需股东会审议。",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T20:51:09-08:00",
+          "compiledAt": "2026-11-05T20:51:09-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北元化工",
+          "version": "3b8cffa13bec8e4884351466c02b94f165ffb0bab13938196f350084a55b48f8",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西北元化工集团股份有限公司关于2026年前三季度计提资产减值准备的公告",
+              "publisher": "陕西北元化工集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页计提表及脚注；第2页利润影响、审批程序",
+              "retrievedAt": "2026-11-05T08:06:38+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640007.PDF"
+            },
+            {
+              "title": "陕西北元化工集团股份有限公司第三届董事会第十九次会议决议公告",
+              "publisher": "陕西北元化工集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第2—3页第四项议案",
+              "retrievedAt": "2026-11-05T08:06:38+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640008.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-613ebda2b6da7685d60d",
+      "objectId": "listed-000768-sz",
+      "type": "固定资产投资及修理计划调整",
+      "topics": [
+        "年度固定资产投资计划",
+        "修理计划",
+        "董事会批准调整"
+      ],
+      "updates": [
+        {
+          "id": "production-a278957d9932c3a3066c0748",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会批准调整2026年固定资产投资暨修理计划",
+          "summary": "中航西飞2026年10月30日公告，公司董事会于10月29日批准《关于调整2026年固定资产投资暨修理计划的议案》。该公告未披露具体项目、金额、调整方向及实际支付情况。",
+          "stage": "2026年10月29日董事会批准调整年度计划",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。当前公告未披露具体项目、金额、调整方向及实际支付情况，不影响表述本次董事会批准计划调整的事实。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T20:51:10-08:00",
+          "compiledAt": "2026-11-05T20:51:10-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "中航西飞",
+          "version": "a278957d9932c3a3066c0748d16888b54244928ac4391bebb76a64582e7b0502",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "中航西安飞机工业集团股份有限公司第九届董事会第二十三次会议决议公告",
+              "publisher": "中航西安飞机工业集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议召开情况；第2页第二项议案及落款",
+              "retrievedAt": "2026-11-05T08:04:38+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225642414.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-16f3a57068bcb323f064",
+      "date": "2026-11-06",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-06T12:54:49+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-16f3a57068bcb323f064/page-01.png",
+          "width": 1080,
+          "height": 1172,
+          "sha256": "b90a7df2e0daab5809dda3bccfef41cfad35e6277278f6ddbb7e0556526c507c"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-05-08ea21066ad3",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-30",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-ef89979492e115e45225",
       "date": "2026-11-06",
@@ -40144,6 +40395,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "f93913b352d7f468ced9",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T20:32:58-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/f93913b352d7f468ced9/index.html",
+      "publishedAt": "2026-11-06T12:38:38+08:00"
+    },
     {
       "id": "405e1487b02310113870",
       "date": "2026-11-06",
