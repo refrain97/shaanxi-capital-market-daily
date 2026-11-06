@@ -14,12 +14,9 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
-        "production-f18b4eadc0a38dda9d70321b",
         "production-e74a9c430789a23ef97e0ab9",
         "production-c7794a553ec11c1af58df314",
         "production-c69e01bfe411b23c7c7ad7e7",
-        "production-be9995f7a57c1ac9eb9f5a0f",
-        "production-a2d1f8012a4cbef38047eacd",
         "production-9898880d0ae363985436ebd6",
         "production-91db4dab0430af90585695d8",
         "production-858ec060cfe5fb6b54b9c38c",
@@ -27,7 +24,6 @@ window.PROTOTYPE = {
         "production-63351df0acb39ea8c61b551a",
         "production-50fc3c8062a9f0dcfd5a2ad3",
         "production-2e2e3d64525806695548da91",
-        "production-281913575f05d6942cd53692",
         "production-14972cc78c994e4ee8e53e14",
         "production-09f10a9e6400e371697bd6c6",
         "production-ff8cf9fff2633f2f19a099b3",
@@ -365,15 +361,11 @@ window.PROTOTYPE = {
       "production-e74a9c430789a23ef97e0ab9": "2026-11-04T17:34:19-08:00",
       "production-c69e01bfe411b23c7c7ad7e7": "2026-11-04T17:51:59-08:00",
       "production-50fc3c8062a9f0dcfd5a2ad3": "2026-11-04T17:51:59-08:00",
-      "production-f18b4eadc0a38dda9d70321b": "2026-11-04T18:05:09-08:00",
       "production-2e2e3d64525806695548da91": "2026-11-04T18:05:09-08:00",
       "production-858ec060cfe5fb6b54b9c38c": "2026-11-04T18:05:09-08:00",
       "production-31538a5cdfd937a7a48a4612": "2026-11-04T18:23:28-08:00",
       "production-6ac654ef6e973cc87f1a9cd4": "2026-11-04T18:39:45-08:00",
-      "production-be9995f7a57c1ac9eb9f5a0f": "2026-11-05T16:07:06-08:00",
-      "production-281913575f05d6942cd53692": "2026-11-05T16:09:23-08:00",
       "production-9898880d0ae363985436ebd6": "2026-11-05T16:27:15-08:00",
-      "production-a2d1f8012a4cbef38047eacd": "2026-11-05T17:04:56-08:00",
       "production-7b8cd30d7e2b9f3bf00e08e0": "2026-11-05T17:38:35-08:00",
       "production-9eb4f111d32e8675dd83bb11": "2026-11-05T17:38:35-08:00",
       "production-eeae0bf5db12bcdc4e6d4fa1": "2026-11-05T17:38:35-08:00",
@@ -2154,13 +2146,6 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "源杰科技2026年10月23日公告，预计2026年第三季度营业收入65,000.00万至70,000.00万元，同比增长264.56%至292.60%；归属于母公司所有者的净利润40,300.00万至45,300.00万元，同比增长578.85%至659.70%。公司表示，目前生产经营活动及订单交付正常开展，上述业绩数据为预计数。"
         },
-        "production-f18b4eadc0a38dda9d70321b": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "2026年10月31日，陕西源杰半导体科技股份有限公司披露未经审计的第三季度报告：第三季度营业收入约人民币6.84亿元，同比增长283.55%；归属于上市公司股东的净利润约人民币4.17亿元，同比增长598.96%。报告已于10月30日经董事会审议通过。"
-        },
         "production-be21aeb63f21ca04bb1f9c64": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -2383,33 +2368,12 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "东华科技2026年10月28日披露，公司八届十九次董事会于10月26日审议通过《关于修订董事会秘书工作制度的议案》。修订后的2026版制度于10月28日发布，规定经董事会审议通过后生效、自发布之日起施行，原旧版文件即行废止。"
         },
-        "production-be9995f7a57c1ac9eb9f5a0f": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "据2026年10月31日披露的公告，陕西中天火箭技术股份有限公司董事会已于10月30日审议通过召开2026年第三次临时股东会的议案，现场会议拟于11月16日14:30召开。会议采取现场投票与网络投票相结合的方式，股权登记日为11月11日，目前为会议召集阶段。"
-        },
-        "production-281913575f05d6942cd53692": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "中天火箭2026年10月31日披露，董事会于10月30日审议通过独立董事换届议案，提名张西安、席文圣、付斌3人为第五届董事会独立董事候选人，任职资格须经深交所备案审核无异议后提交股东会审议。付斌截至股东大会通知发出之日尚未取得深交所认可的独立董事资格证书，已承诺参加最近一次独立董事培训并取得相关证书。"
-        },
         "production-9898880d0ae363985436ebd6": {
           "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
           "summary": "金花企业（集团）股份有限公司2026年10月31日公告，董事会于10月29日审议通过将已结项募投项目节余募集资金8,931.11万元永久补充流动资金，并在转款后注销募集资金专户；金额含利息收入、现金管理收益，具体以资金转出当日专户余额为准，尚需提交拟于11月16日召开的股东会审议。项目仍有部分工程施工款、设备款、质保金等未支付，资金转出后剩余待付款项将由自有资金支付。"
-        },
-        "production-a2d1f8012a4cbef38047eacd": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "金花企业（集团）股份有限公司（ST金花）2026年10月31日公告，公司董事会于10月29日审议通过《公司2026年第三季度报告》，表决结果为5票同意、0票反对、0票弃权。"
         },
         "production-7b8cd30d7e2b9f3bf00e08e0": {
           "version": "listed-scope-20261019",
@@ -31047,49 +31011,6 @@ window.PROTOTYPE = {
             }
           ],
           "tables": []
-        },
-        {
-          "id": "production-f18b4eadc0a38dda9d70321b",
-          "date": "2026-10-31",
-          "time": "",
-          "title": "第三季度归母净利润约4.17亿元，同比增长598.96%",
-          "summary": "2026年10月31日，陕西源杰半导体科技股份有限公司披露未经审计的第三季度报告：第三季度营业收入约人民币6.84亿元，同比增长283.55%；归属于上市公司股东的净利润约人民币4.17亿元，同比增长598.96%。报告已于10月30日经董事会审议通过。",
-          "stage": "2026年10月30日董事会审议通过第三季度报告，本轮披露未经审计季度财务数据；关键财务表格尚待原页核验",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-05T10:10:38+08:00",
-          "updatedAt": "2026-11-04T18:05:09-08:00",
-          "compiledAt": "2026-11-04T18:05:09-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "源杰科技",
-          "version": "f18b4eadc0a38dda9d70321bc05e625509fcf07e2ce1aa3859117a8089b26551",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "陕西源杰半导体科技股份有限公司2026年第三季度报告",
-              "publisher": "陕西源杰半导体科技股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1页主要财务数据及审计状态；第2页报告期定义；报告落款日期为2026年10月30日",
-              "retrievedAt": "2026-11-05T08:07:01+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648199.PDF"
-            },
-            {
-              "title": "陕西源杰半导体科技股份有限公司第二届董事会第三十四次会议决议公告",
-              "publisher": "陕西源杰半导体科技股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1页会议召开情况及第一项议案",
-              "retrievedAt": "2026-11-05T08:06:59+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648269.PDF"
-            }
-          ],
-          "tables": []
         }
       ]
     },
@@ -33003,124 +32924,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-0fce8e5b6e4831e19c8b",
-      "objectId": "listed-003009-sz",
-      "type": "临时股东会召集通知",
-      "topics": [
-        "2026年第三次临时股东会",
-        "会议召集"
-      ],
-      "updates": [
-        {
-          "id": "production-be9995f7a57c1ac9eb9f5a0f",
-          "date": "2026-10-31",
-          "time": "",
-          "title": "拟于11月16日召开2026年第三次临时股东会",
-          "summary": "据2026年10月31日披露的公告，陕西中天火箭技术股份有限公司董事会已于10月30日审议通过召开2026年第三次临时股东会的议案，现场会议拟于11月16日14:30召开。会议采取现场投票与网络投票相结合的方式，股权登记日为11月11日，目前为会议召集阶段。",
-          "stage": "董事会审议通过召开会议并发出通知，拟于2026年11月16日召开，尚未召开",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-06T08:15:53+08:00",
-          "updatedAt": "2026-11-05T16:07:06-08:00",
-          "compiledAt": "2026-11-05T16:07:06-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "中天火箭",
-          "version": "be9995f7a57c1ac9eb9f5a0fc544ea2e175473d266e6b87725db89cedd69e61d",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "陕西中天火箭技术股份有限公司第四届董事会第三十五次会议决议公告",
-              "publisher": "陕西中天火箭技术股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第2页，议案（三）；公告落款日期为2026年10月30日",
-              "retrievedAt": "2026-11-05T08:05:02+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649053.PDF"
-            },
-            {
-              "title": "陕西中天火箭技术股份有限公司关于召开2026年第三次临时股东会的通知公告",
-              "publisher": "陕西中天火箭技术股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1—2页，召开会议基本情况",
-              "retrievedAt": "2026-11-05T08:05:01+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649054.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
-      "id": "production-event-1e012506a5129b72f592",
-      "objectId": "listed-003009-sz",
-      "type": "独立董事候选人提名及配套声明",
-      "topics": [
-        "第五届董事会",
-        "独立董事换届",
-        "候选人声明",
-        "付斌培训承诺"
-      ],
-      "updates": [
-        {
-          "id": "production-281913575f05d6942cd53692",
-          "date": "2026-10-31",
-          "time": "",
-          "title": "提名张西安、席文圣、付斌为第五届董事会独立董事候选人",
-          "summary": "中天火箭2026年10月31日披露，董事会于10月30日审议通过独立董事换届议案，提名张西安、席文圣、付斌3人为第五届董事会独立董事候选人，任职资格须经深交所备案审核无异议后提交股东会审议。付斌截至股东大会通知发出之日尚未取得深交所认可的独立董事资格证书，已承诺参加最近一次独立董事培训并取得相关证书。",
-          "stage": "2026年10月30日董事会审议通过独立董事换届议案，提名张西安、席文圣、付斌；任职资格须经深交所审核无异议后提交股东会审议，尚非当选就任",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-06T08:15:53+08:00",
-          "updatedAt": "2026-11-05T16:09:23-08:00",
-          "compiledAt": "2026-11-05T16:09:23-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "中天火箭",
-          "version": "281913575f05d6942cd53692913839e2f8b8c4fd4182077e5bcc1a8fc1e15627",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "陕西中天火箭技术股份有限公司关于董事会换届选举的公告",
-              "publisher": "陕西中天火箭技术股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1—2页；文件落款2026年10月30日",
-              "retrievedAt": "2026-11-05T08:05:01+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649055.PDF"
-            },
-            {
-              "title": "陕西中天火箭技术股份有限公司第四届董事会第三十五次会议决议公告",
-              "publisher": "陕西中天火箭技术股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第2页，议案（二）",
-              "retrievedAt": "2026-11-05T08:05:02+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649053.PDF"
-            },
-            {
-              "title": "陕西中天火箭技术股份有限公司独立董事候选人书面承诺（付斌）",
-              "publisher": "陕西中天火箭技术股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1页；承诺人付斌，落款2026年10月30日",
-              "retrievedAt": "2026-11-05T08:04:58+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649063.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-cdfb581f1cc624e438f2",
       "objectId": "listed-600080-sh",
       "type": "募投项目节余募集资金永久补流",
@@ -33168,59 +32971,6 @@ window.PROTOTYPE = {
               "location": "物理第1页会议日期、第2页议案表",
               "retrievedAt": "2026-11-05T08:05:36+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649777.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
-      "id": "production-event-2473ee17dc17e199768a",
-      "objectId": "listed-600080-sh",
-      "type": "第三季度报告审议",
-      "topics": [
-        "2026年第三季度报告董事会审议"
-      ],
-      "updates": [
-        {
-          "id": "production-a2d1f8012a4cbef38047eacd",
-          "date": "2026-10-31",
-          "time": "",
-          "title": "董事会审议通过2026年第三季度报告",
-          "summary": "金花企业（集团）股份有限公司（ST金花）2026年10月31日公告，公司董事会于10月29日审议通过《公司2026年第三季度报告》，表决结果为5票同意、0票反对、0票弃权。",
-          "stage": "2026年10月29日董事会以5票同意、0票反对、0票弃权审议通过第三季度报告",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-06T09:11:01+08:00",
-          "updatedAt": "2026-11-05T17:04:56-08:00",
-          "compiledAt": "2026-11-05T17:04:56-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "ST金花",
-          "version": "a2d1f8012a4cbef38047eacd67c2bf7d54a0c163b29dd8e8cfde4798fc97e780",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "金花企业（集团）股份有限公司第十一届董事会第四次会议决议公告",
-              "publisher": "金花企业（集团）股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1页会议召开情况及第一项议案，第2页公告署期",
-              "retrievedAt": "2026-11-05T08:05:34+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649810.PDF"
-            },
-            {
-              "title": "金花企业（集团）股份有限公司第十一届董事会第四次会议决议及签字页",
-              "publisher": "金花企业（集团）股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1页第一项议案；第2页决议署期为2026年10月29日",
-              "retrievedAt": "2026-11-05T08:05:35+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649790.PDF"
             }
           ],
           "tables": []
@@ -40268,6 +40018,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "4b4ac6f08b266e3eb941",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T21:08:30-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/4b4ac6f08b266e3eb941/index.html",
+      "publishedAt": "2026-11-06T13:49:10+08:00"
+    },
     {
       "id": "aec08affde85e8170d0a",
       "date": "2026-11-06",
