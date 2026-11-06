@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-05-a8add58c8958",
-      "compiledAt": "2026-11-05T20:15:43-08:00",
+      "id": "2026-11-05-9312b2c2dc85",
+      "compiledAt": "2026-11-05T20:32:58-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -34,6 +34,7 @@ window.PROTOTYPE = {
         "production-281913575f05d6942cd53692",
         "production-14972cc78c994e4ee8e53e14",
         "production-09f10a9e6400e371697bd6c6",
+        "production-ff8cf9fff2633f2f19a099b3",
         "production-eeae0bf5db12bcdc4e6d4fa1",
         "production-d90000dabeee8611cbffb192",
         "production-d7b6c60bd2495a5444f965bd",
@@ -46,15 +47,20 @@ window.PROTOTYPE = {
         "production-87d9e36ade84cce83fdcd926",
         "production-7b8cd30d7e2b9f3bf00e08e0",
         "production-7b5ab12fdacc845b3fb0c18a",
+        "production-73e9a31555683f0ecc95ce47",
+        "production-71f001619ed3993257afc836",
         "production-6f586b29192198cbc6a09340",
         "production-5312da14e399347f940d5faa",
         "production-502375d7206ec7e3fa1a6216",
         "production-49963c2a05a103a74d123151",
         "production-42e955320b5d35846be7d060",
+        "production-42125a415db3392e321d2f79",
         "production-2947fcab17be17cee2508db6",
         "production-235e3b7e80d5d00975b724c2",
         "production-21e8ba242101d1e3e94b99c8",
+        "production-1056a523261bb8a121acd38d",
         "production-0c9bcf00be372e208a232c48",
+        "production-0c59e2806ecb94b5fe980374",
         "production-0933b035c0ff10f36e95e045",
         "production-ff57ff9059de128b625b71e2",
         "production-6ac654ef6e973cc87f1a9cd4",
@@ -393,7 +399,13 @@ window.PROTOTYPE = {
       "production-21e8ba242101d1e3e94b99c8": "2026-11-05T19:33:55-08:00",
       "production-7b5ab12fdacc845b3fb0c18a": "2026-11-05T19:59:34-08:00",
       "production-d7b6c60bd2495a5444f965bd": "2026-11-05T20:01:36-08:00",
-      "production-235e3b7e80d5d00975b724c2": "2026-11-05T20:15:43-08:00"
+      "production-235e3b7e80d5d00975b724c2": "2026-11-05T20:15:43-08:00",
+      "production-ff8cf9fff2633f2f19a099b3": "2026-11-05T20:28:49-08:00",
+      "production-1056a523261bb8a121acd38d": "2026-11-05T20:28:49-08:00",
+      "production-0c59e2806ecb94b5fe980374": "2026-11-05T20:32:55-08:00",
+      "production-42125a415db3392e321d2f79": "2026-11-05T20:32:55-08:00",
+      "production-73e9a31555683f0ecc95ce47": "2026-11-05T20:32:55-08:00",
+      "production-71f001619ed3993257afc836": "2026-11-05T20:32:55-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2577,6 +2589,48 @@ window.PROTOTYPE = {
           "action": "股份增持",
           "group": "股东股份变动",
           "level": "deep"
+        },
+        "production-ff8cf9fff2633f2f19a099b3": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "宝钛股份2026年10月30日公告，董事会于10月29日审议通过续聘立信会计师事务所（特殊普通合伙）为2026年度审计及内部控制审计机构，聘期一年，相关费用分别为65万元和25万元，均不含差旅费。本次续聘尚需股东会审议，并自审议通过之日起生效。"
+        },
+        "production-1056a523261bb8a121acd38d": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "美邦股份2026年10月30日披露，10月28日全资子公司陕西农盛和作物科学有限公司与民生银行西安分行签订人民币5,000万元综合授信合同，公司同步签署最高额保证合同，为农盛和提供连带责任保证。本次担保金额为5,000万元，公告未披露实际提款情况。"
+        },
+        "production-0c59e2806ecb94b5fe980374": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "美邦股份2026年10月30日披露，全资子公司陕西诺正农化科技有限公司于10月28日与中国民生银行股份有限公司西安分行签订人民币2,000.00万元综合授信合同，公司同步签署最高额保证合同，为其提供连带责任保证。公告未披露该笔授信的实际提款情况。"
+        },
+        "production-42125a415db3392e321d2f79": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "博通股份2026年10月30日披露的第三季度报告显示，联营企业西安博捷科技发展有限公司于2026年9月被登记机关恢复公司登记，恢复为吊销状态。截至2026年9月30日及报告披露日，西安博捷仍为吊销状态，长期处于停滞状态、未开展经营业务。"
+        },
+        "production-73e9a31555683f0ecc95ce47": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北元化工2026年10月30日披露，董事会于10月29日审议通过报废部分固定资产议案，同意报废467项固定资产，原值225,199,344.21元，扣除累计折旧及已计提减值准备后净额为46,971,809.22元。公告未披露报废处置完成情况。"
+        },
+        "production-71f001619ed3993257afc836": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "中航西飞2026年10月30日披露，董事会于10月29日以11票同意、0票反对、0票弃权，批准修订《董事会向经理层授权管理办法》。本次决议公告未披露具体修订条款。"
         }
       }
     },
@@ -2586,8 +2640,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-05-a8add58c8958",
-      "editionId": "selection-a2cbc85b899abb8be9b6",
+      "sourceEditionId": "2026-11-05-9312b2c2dc85",
+      "editionId": "selection-ef89979492e115e45225",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -5475,6 +5529,30 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-600455-sh",
+      "type": "listed",
+      "name": "博通股份",
+      "code": "600455.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-601568-sh",
+      "type": "listed",
+      "name": "北元集团",
+      "code": "601568.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-000768-sz",
       "type": "listed",
       "name": "中航西飞",
@@ -5484,8 +5562,7 @@ window.PROTOTYPE = {
       "rosterTier": "L1",
       "rosterCategory": "陕西辖区A股",
       "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
       "id": "listed-001299-sz",
@@ -5553,19 +5630,6 @@ window.PROTOTYPE = {
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
     },
     {
-      "id": "listed-600455-sh",
-      "type": "listed",
-      "name": "博通股份",
-      "code": "600455.SH",
-      "market": "SH",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
       "id": "listed-600707-sh",
       "type": "listed",
       "name": "彩虹股份",
@@ -5583,19 +5647,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "航发动力",
       "code": "600893.SH",
-      "market": "SH",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-601568-sh",
-      "type": "listed",
-      "name": "北元集团",
-      "code": "601568.SH",
       "market": "SH",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -34607,6 +34658,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。本公告未披露合伙企业登记完成情况、具体名称、合伙权益安排或既有证券服务机构，不能据此认定平台已设立、已开户或尚无服务机构。 本公告未披露实际增持成交数量、金额及均价。现有资料不足以确认2026年10月30日计划公告之后至11月1日研究截止的执行进展；本文仅报道计划披露节点，不据此断言期间没有成交或后续公告。 历史表述仅限公告明确载明的前12个月增持计划披露及前6个月减持情况，不推断更早交易记录。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T12:22:46+08:00",
           "updatedAt": "2026-11-05T20:15:43-08:00",
           "compiledAt": "2026-11-05T20:15:43-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -34731,9 +34783,345 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-4aadbe5bab930b821e8f",
+      "objectId": "listed-600456-sh",
+      "type": "审计机构续聘",
+      "topics": [
+        "续聘2026年度财务及内部控制审计机构"
+      ],
+      "updates": [
+        {
+          "id": "production-ff8cf9fff2633f2f19a099b3",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "拟续聘立信，尚待股东会审议",
+          "summary": "宝钛股份2026年10月30日公告，董事会于10月29日审议通过续聘立信会计师事务所（特殊普通合伙）为2026年度审计及内部控制审计机构，聘期一年，相关费用分别为65万元和25万元，均不含差旅费。本次续聘尚需股东会审议，并自审议通过之日起生效。",
+          "stage": "董事会已审议通过，尚需股东会审议并自审议通过之日起生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T20:28:49-08:00",
+          "compiledAt": "2026-11-05T20:28:49-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "宝钛股份",
+          "version": "ff8cf9fff2633f2f19a099b36edc15ce629ada2f43f4a84fa33122fc6255b0a7",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "宝鸡钛业股份有限公司关于续聘会计师事务所的公告",
+              "publisher": "宝鸡钛业股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1、3、4页",
+              "retrievedAt": "2026-11-05T08:05:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639108.PDF"
+            },
+            {
+              "title": "宝鸡钛业股份有限公司第八届董事会第十五次会议决议公告",
+              "publisher": "宝鸡钛业股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页，第2项议案",
+              "retrievedAt": "2026-11-05T08:05:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639085.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-1ea17666339e1cba3c49",
+      "objectId": "listed-605033-sh",
+      "type": "授信及配套担保",
+      "topics": [
+        "农盛和5000万元授信",
+        "最高额连带责任保证"
+      ],
+      "updates": [
+        {
+          "id": "production-1056a523261bb8a121acd38d",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "为农盛和5,000万元授信签署保证合同",
+          "summary": "美邦股份2026年10月30日披露，10月28日全资子公司陕西农盛和作物科学有限公司与民生银行西安分行签订人民币5,000万元综合授信合同，公司同步签署最高额保证合同，为农盛和提供连带责任保证。本次担保金额为5,000万元，公告未披露实际提款情况。",
+          "stage": "2026年10月28日授信合同及配套保证合同已签署，未披露实际提款",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T20:28:50-08:00",
+          "compiledAt": "2026-11-05T20:28:50-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "美邦股份",
+          "version": "1056a523261bb8a121acd38d4cfb80cc4ecdfab95b97fa6f91cc52ff94b03dd0",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西美邦药业集团股份有限公司关于为全资子公司提供担保的公告",
+              "publisher": "陕西美邦药业集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1—3页，农盛和授信与担保；第5页落款日期为2026年10月29日",
+              "retrievedAt": "2026-11-05T08:06:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225638722.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-7e0eb4bc5142e13c3599",
+      "objectId": "listed-605033-sh",
+      "type": "授信及配套担保",
+      "topics": [
+        "诺正农化2000万元授信",
+        "最高额连带责任保证"
+      ],
+      "updates": [
+        {
+          "id": "production-0c59e2806ecb94b5fe980374",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "为诺正农化2,000万元银行授信提供连带责任保证",
+          "summary": "美邦股份2026年10月30日披露，全资子公司陕西诺正农化科技有限公司于10月28日与中国民生银行股份有限公司西安分行签订人民币2,000.00万元综合授信合同，公司同步签署最高额保证合同，为其提供连带责任保证。公告未披露该笔授信的实际提款情况。",
+          "stage": "2026年10月28日授信合同及配套保证合同已签署，未披露实际提款",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T20:32:55-08:00",
+          "compiledAt": "2026-11-05T20:32:55-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "美邦股份",
+          "version": "0c59e2806ecb94b5fe9803749508ea816bafa07c63410c0be13521c158ea2596",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西美邦药业集团股份有限公司关于为全资子公司提供担保的公告",
+              "publisher": "陕西美邦药业集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1—2页“一、担保情况概述”；第4页担保协议表",
+              "retrievedAt": "2026-11-05T08:06:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225638722.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-ad7add519d850294f66e",
+      "objectId": "listed-600455-sh",
+      "type": "联营企业登记状态变更",
+      "topics": [
+        "西安博捷恢复公司登记",
+        "仍处吊销状态"
+      ],
+      "updates": [
+        {
+          "id": "production-42125a415db3392e321d2f79",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "联营企业西安博捷恢复公司登记，仍处吊销状态",
+          "summary": "博通股份2026年10月30日披露的第三季度报告显示，联营企业西安博捷科技发展有限公司于2026年9月被登记机关恢复公司登记，恢复为吊销状态。截至2026年9月30日及报告披露日，西安博捷仍为吊销状态，长期处于停滞状态、未开展经营业务。",
+          "stage": "2026年9月恢复公司登记，截至9月30日及报告披露日仍为吊销状态",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T20:32:56-08:00",
+          "compiledAt": "2026-11-05T20:32:56-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "博通股份",
+          "version": "42125a415db3392e321d2f79290d5275b5fc545eef27f0802d08f42abf55ac69",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "博通股份2026年第三季度报告",
+              "publisher": "西安博通资讯股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第5页“三、其他提醒事项”",
+              "retrievedAt": "2026-11-05T08:05:43+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639389.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-525a7ed31c233b160fc1",
+      "objectId": "listed-601568-sh",
+      "type": "固定资产报废",
+      "topics": [
+        "报废467项固定资产"
+      ],
+      "updates": [
+        {
+          "id": "production-73e9a31555683f0ecc95ce47",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会同意报废467项固定资产，净额46,971,809.22元",
+          "summary": "北元化工2026年10月30日披露，董事会于10月29日审议通过报废部分固定资产议案，同意报废467项固定资产，原值225,199,344.21元，扣除累计折旧及已计提减值准备后净额为46,971,809.22元。公告未披露报废处置完成情况。",
+          "stage": "10月29日董事会审议通过报废议案，未披露报废处置完成。",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T20:32:56-08:00",
+          "compiledAt": "2026-11-05T20:32:56-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北元化工",
+          "version": "73e9a31555683f0ecc95ce476f6da8bed350cbc46104bfb442898ad9f3f43a5b",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西北元化工集团股份有限公司第三届董事会第十九次会议决议公告",
+              "publisher": "陕西北元化工集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议召开情况；第3页第6项议案",
+              "retrievedAt": "2026-11-05T08:06:38+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640008.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-2036da1fd6a8ba27abc2",
+      "objectId": "listed-000768-sz",
+      "type": "公司治理制度修订",
+      "topics": [
+        "董事会向经理层授权",
+        "制度修订"
+      ],
+      "updates": [
+        {
+          "id": "production-71f001619ed3993257afc836",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会批准修订向经理层授权管理办法",
+          "summary": "中航西飞2026年10月30日披露，董事会于10月29日以11票同意、0票反对、0票弃权，批准修订《董事会向经理层授权管理办法》。本次决议公告未披露具体修订条款。",
+          "stage": "2026年10月29日董事会批准修订",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T20:32:57-08:00",
+          "compiledAt": "2026-11-05T20:32:57-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "中航西飞",
+          "version": "71f001619ed3993257afc836faeb46bec697c21824238e9519c769bc0e0a551b",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第九届董事会第二十三次会议决议公告",
+              "publisher": "中航西安飞机工业集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议召开情况；第2页第（三）项议案",
+              "retrievedAt": "2026-11-05T08:04:38+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225642414.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-ef89979492e115e45225",
+      "date": "2026-11-06",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-06T12:35:56+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-ef89979492e115e45225/page-01.png",
+          "width": 1080,
+          "height": 1172,
+          "sha256": "b90a7df2e0daab5809dda3bccfef41cfad35e6277278f6ddbb7e0556526c507c"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-05-9312b2c2dc85",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-30",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-a2cbc85b899abb8be9b6",
       "date": "2026-11-06",
@@ -39756,6 +40144,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "405e1487b02310113870",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T20:15:43-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/405e1487b02310113870/index.html",
+      "publishedAt": "2026-11-06T12:22:46+08:00"
+    },
     {
       "id": "e6bbaa1a10f73e982835",
       "date": "2026-11-06",
