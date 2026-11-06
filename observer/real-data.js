@@ -323,6 +323,7 @@ window.PROTOTYPE = {
       "production-ee8503b001e354a802cdcd4a": "2026-11-04T08:12:10-08:00",
       "production-0ad8fdcc0fedf9f53b180781": "2026-11-04T08:14:18-08:00",
       "production-287542e2177819c0c5069865": "2026-11-04T08:41:11-08:00",
+      "production-c5a249fa23ed535f0982c731": "2026-11-04T08:42:02-08:00",
       "production-ed0d607d99bac20af8113c39": "2026-11-04T08:42:49-08:00",
       "production-3528690b4695259b648472dc": "2026-11-04T08:49:40-08:00",
       "production-7bfc50bdf2508841c5353163": "2026-11-04T08:52:46-08:00",
@@ -2173,6 +2174,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西省国际信托股份有限公司（陕国投A）2026年10月23日公告，10月21日召开的董事会会议审议通过提名任海云为第十一届董事会独立董事候选人的议案。其任职资格和独立性尚需经深圳证券交易所审核无异议后，方可提交2026年第二次临时股东会以累积投票制方式选举。"
+        },
+        "production-c5a249fa23ed535f0982c731": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕国投A于2026年10月23日披露，董事会审议通过提名黄卓为第十一届董事会独立董事候选人，黄卓由中证中小投资者服务中心有限责任公司等三名股东联合提名。其任职资格和独立性尚需经深交所审核无异议后提交股东会选举，任职资格另需国家金融监督管理总局陕西监管局核准。"
         },
         "production-ed0d607d99bac20af8113c39": {
           "version": "listed-scope-20261019",
@@ -31307,6 +31315,69 @@ window.PROTOTYPE = {
       ]
     },
     {
+      "id": "production-event-c825f6a5c77e750a6933",
+      "objectId": "listed-000563-sz",
+      "type": "独立董事提名",
+      "topics": [
+        "第十一届董事会",
+        "黄卓",
+        "股东联合提名"
+      ],
+      "updates": [
+        {
+          "id": "production-c5a249fa23ed535f0982c731",
+          "date": "2026-10-23",
+          "time": "",
+          "title": "陕国投A董事会通过黄卓独立董事候选人提名",
+          "summary": "陕国投A于2026年10月23日披露，董事会审议通过提名黄卓为第十一届董事会独立董事候选人，黄卓由中证中小投资者服务中心有限责任公司等三名股东联合提名。其任职资格和独立性尚需经深交所审核无异议后提交股东会选举，任职资格另需国家金融监督管理总局陕西监管局核准。",
+          "stage": "董事会审议通过提名；尚待深交所审核无异议及股东会选举，任职资格另需金融监管部门核准",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T00:48:42+08:00",
+          "updatedAt": "2026-11-04T08:42:02-08:00",
+          "compiledAt": "2026-11-04T08:42:02-08:00",
+          "researchCutoff": "2026-10-27T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕国投Ａ",
+          "version": "c5a249fa23ed535f0982c731beae0f411ae89d2c03581793a0cd181f8ec2d73c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第十届董事会第四十五次会议决议公告",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第2—3页、第5页",
+              "retrievedAt": "2026-11-04T14:23:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616940.PDF"
+            },
+            {
+              "title": "独立董事提名人声明与承诺（黄卓）",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第1页；声明落款日期为2026年10月21日",
+              "retrievedAt": "2026-11-04T14:23:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616945.PDF"
+            },
+            {
+              "title": "2026年第二次临时股东会议案",
+              "publisher": "陕西省国际信托股份有限公司",
+              "date": "2026-10-23",
+              "location": "物理第12页，议案二",
+              "retrievedAt": "2026-11-04T14:23:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616942.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
       "id": "production-event-e0cefa4bda8d480c5440",
       "objectId": "listed-000563-sz",
       "type": "董事提名",
@@ -33403,6 +33474,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T09:59:17+08:00",
           "updatedAt": "2026-11-05T17:54:27-08:00",
           "compiledAt": "2026-11-05T17:54:27-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33449,6 +33521,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T09:59:17+08:00",
           "updatedAt": "2026-11-05T17:54:26-08:00",
           "compiledAt": "2026-11-05T17:54:26-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33495,6 +33568,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T09:59:17+08:00",
           "updatedAt": "2026-11-05T17:54:26-08:00",
           "compiledAt": "2026-11-05T17:54:26-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -38441,6 +38515,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "c5b822eec78eaae8d71f",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T17:54:28-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/c5b822eec78eaae8d71f/index.html",
+      "publishedAt": "2026-11-06T09:59:17+08:00"
+    },
     {
       "id": "8d39fb684c0a6b778d72",
       "date": "2026-11-06",
