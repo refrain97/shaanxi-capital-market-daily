@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-06-d02dc4ded0b8",
-      "compiledAt": "2026-11-06T01:14:02-08:00",
+      "id": "2026-11-06-3a13306eecdb",
+      "compiledAt": "2026-11-06T01:27:35-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -32,10 +32,12 @@ window.PROTOTYPE = {
         "production-ff8cf9fff2633f2f19a099b3",
         "production-fa6efcaac08c570cabd1968a",
         "production-eeae0bf5db12bcdc4e6d4fa1",
+        "production-da8bb3b65369f55f957229d2",
         "production-d90000dabeee8611cbffb192",
         "production-d7b6c60bd2495a5444f965bd",
         "production-d74c85c04a863d6f281c8c4c",
         "production-d57d9abb64f8f59d0993dd4f",
+        "production-cbc10ccfee8a1e710503023a",
         "production-b5f03fad5a03336713b4354e",
         "production-a278957d9932c3a3066c0748",
         "production-9eb4f111d32e8675dd83bb11",
@@ -50,6 +52,7 @@ window.PROTOTYPE = {
         "production-502375d7206ec7e3fa1a6216",
         "production-49963c2a05a103a74d123151",
         "production-42e955320b5d35846be7d060",
+        "production-3ebb6e8f8d3d60466551f370",
         "production-3b8cffa13bec8e4884351466",
         "production-2947fcab17be17cee2508db6",
         "production-235e3b7e80d5d00975b724c2",
@@ -57,6 +60,7 @@ window.PROTOTYPE = {
         "production-1056a523261bb8a121acd38d",
         "production-0c59e2806ecb94b5fe980374",
         "production-0933b035c0ff10f36e95e045",
+        "production-08125acff1f10666e8327f72",
         "production-080ea63f0a7e53730546fc04",
         "production-ff57ff9059de128b625b71e2",
         "production-6ac654ef6e973cc87f1a9cd4",
@@ -247,6 +251,7 @@ window.PROTOTYPE = {
       "production-a101f6d9895d95bd4a2ea675": "2026-10-22T08:52:57+08:00",
       "production-7a578c921545f36387068016": "2026-10-22T09:21:49+08:00",
       "production-cd2adfb919023cb9136af212": "2026-10-22T09:21:49+08:00",
+      "production-0dae1797f023da017d25eced": "2026-10-22T09:21:49+08:00",
       "production-e2671904e6f83a7f24aee3d7": "2026-10-22T09:21:49+08:00",
       "production-4279d42d0a89c03cf0bd327a": "2026-10-22T09:43:34+08:00",
       "production-07ed700c56b916eb0f14988f": "2026-10-22T09:43:34+08:00",
@@ -398,7 +403,11 @@ window.PROTOTYPE = {
       "production-005b0dbd7c3f6495ef3267bb": "2026-11-05T22:30:21-08:00",
       "production-ca81e400c227a0189ebdd864": "2026-11-05T22:54:03-08:00",
       "production-24c4a11c8cdd2fc55778315f": "2026-11-06T00:19:09-08:00",
-      "production-080ea63f0a7e53730546fc04": "2026-11-06T01:14:01-08:00"
+      "production-080ea63f0a7e53730546fc04": "2026-11-06T01:14:01-08:00",
+      "production-da8bb3b65369f55f957229d2": "2026-11-06T01:27:32-08:00",
+      "production-08125acff1f10666e8327f72": "2026-11-06T01:27:32-08:00",
+      "production-3ebb6e8f8d3d60466551f370": "2026-11-06T01:27:32-08:00",
+      "production-cbc10ccfee8a1e710503023a": "2026-11-06T01:27:32-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1622,6 +1631,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "盘龙药业2026年10月22日公告，盛苑因工作变动不再担任公司持续督导保荐代表人，中泰证券委派郭强接替，相关业务已交接完毕。变更后，公司2023年向特定对象发行股票项目由杨圣志、郭强担任持续督导保荐代表人，持续督导至规定的督导义务结束。"
         },
+        "production-0dae1797f023da017d25eced": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "盘龙药业2026年10月22日公告，公司及控股子公司经自查，本年度累计补缴税款及滞纳金16,698,636.73元，截至公告披露日已全部缴纳完毕，本次补缴不涉及行政处罚。上述款项计入2026年当期损益，不涉及前期财务数据追溯调整，对年度归母净利润的具体影响以2026年度经审计财务报表为准。"
+        },
         "production-4279d42d0a89c03cf0bd327a": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -2594,6 +2610,34 @@ window.PROTOTYPE = {
           "action": "对外投资",
           "group": "股权投资与融资",
           "level": "deep"
+        },
+        "production-da8bb3b65369f55f957229d2": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "航发动力2026年10月30日公告，公司及子公司2026年前三季度计提资产减值准备共计13,321.36万元，全额计入当期损益，减少同期利润总额13,321.36万元。该事项已获10月28日召开的董事会审议通过，其中计提应收款项坏账准备14,320.11万元、转回存货跌价准备998.75万元。"
+        },
+        "production-08125acff1f10666e8327f72": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "航发动力2026年10月30日公告，10月28日召开的第十一届董事会第十八次会议审议通过聘任刘晓飞为公司副总经理，聘期自本次董事会审议通过之日起至第十一届董事会届满之日止。"
+        },
+        "production-3ebb6e8f8d3d60466551f370": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "三达膜2026年10月30日公告，董事会于10月29日审议通过续聘容诚会计师事务所（特殊普通合伙）为公司2026年度财务报告及内部控制审计机构，聘期一年。该事项尚需提交2026年第三次临时股东会审议，通过后生效；审计费用拟由双方协商确定，公告未披露确定金额。"
+        },
+        "production-cbc10ccfee8a1e710503023a": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "供销大集2026年10月30日公告，10月28日召开的第十一届董事会第二十六次会议审议通过聘任王曙光为公司副总裁，任期自董事会审议通过之日起至第十一届董事会换届之日止。"
         }
       }
     },
@@ -2603,8 +2647,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-06-d02dc4ded0b8",
-      "editionId": "selection-d93e50bf840d4254cb45",
+      "sourceEditionId": "2026-11-06-3a13306eecdb",
+      "editionId": "selection-b6cd33b3e0549956697c",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -5516,6 +5560,30 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-600893-sh",
+      "type": "listed",
+      "name": "航发动力",
+      "code": "600893.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
+      "id": "listed-688101-sh",
+      "type": "listed",
+      "name": "三达膜",
+      "code": "688101.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-001299-sz",
       "type": "listed",
       "name": "美能能源",
@@ -5598,32 +5666,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "彩虹股份",
       "code": "600707.SH",
-      "market": "SH",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-600893-sh",
-      "type": "listed",
-      "name": "航发动力",
-      "code": "600893.SH",
-      "market": "SH",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-688101-sh",
-      "type": "listed",
-      "name": "三达膜",
-      "code": "688101.SH",
       "market": "SH",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -26580,6 +26622,52 @@ window.PROTOTYPE = {
       ]
     },
     {
+      "id": "production-event-5be4588da03003393cf2",
+      "objectId": "listed-002864-sz",
+      "type": "税务事项",
+      "topics": [
+        "自查补税",
+        "滞纳金缴纳"
+      ],
+      "updates": [
+        {
+          "id": "production-0dae1797f023da017d25eced",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "及控股子公司完成本年度累计16,698,636.73元税款及滞纳金补缴",
+          "summary": "盘龙药业2026年10月22日公告，公司及控股子公司经自查，本年度累计补缴税款及滞纳金16,698,636.73元，截至公告披露日已全部缴纳完毕，本次补缴不涉及行政处罚。上述款项计入2026年当期损益，不涉及前期财务数据追溯调整，对年度归母净利润的具体影响以2026年度经审计财务报表为准。",
+          "stage": "截至公告披露日，本年度累计补缴税款及滞纳金16,698,636.73元，已全部缴纳完毕",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T09:24:04+08:00",
+          "updatedAt": "2026-10-22T09:21:50+08:00",
+          "compiledAt": "2026-10-22T09:21:50+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "盘龙药业",
+          "version": "0dae1797f023da017d25eced3f84314e67268a031528375bf126126a09cd3f8b",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于税务事项的公告",
+              "publisher": "陕西盘龙药业集团股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页，基本情况、对公司的影响和风险提示",
+              "retrievedAt": "2026-10-22T08:24:43+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225614135.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
       "id": "production-event-de32a91320a7faf502b9",
       "objectId": "listed-688285-sh",
       "type": "计提信用及资产减值损失",
@@ -34946,6 +35034,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。本次公告未披露基金总规模、其他出资人及出资额、公司最终份额比例、资金来源性质、缴付时间、基金存续期和具体投资标的；仅据现有备忘录表达拟出资及合作安排，不推算最终权益比例或项目收益。 公告未明确实际盖章日期，也未披露基金已完成设立、备案或公司实际出资，正文保留拟议及董事会审议通过阶段。 历史对照限于已核读的2022年双方框架协议，不将其认定为本次专项基金的原方案，不声称覆盖双方全部合作历史或证明不存在更早基金安排。 本轮仅使用留存原件，未联网。资料截止沿用2026年11月1日；实际取得时间晚于资料日期，不据此推定原件在截止前某一具体时刻已经公开。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T17:19:16+08:00",
           "updatedAt": "2026-11-06T01:14:01-08:00",
           "compiledAt": "2026-11-06T01:14:01-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -35052,9 +35141,280 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-268d988292ba6d7d586e",
+      "objectId": "listed-600893-sh",
+      "type": "资产减值",
+      "topics": [
+        "应收款项坏账准备",
+        "存货跌价准备转回"
+      ],
+      "updates": [
+        {
+          "id": "production-da8bb3b65369f55f957229d2",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "前三季度计提资产减值准备13,321.36万元",
+          "summary": "航发动力2026年10月30日公告，公司及子公司2026年前三季度计提资产减值准备共计13,321.36万元，全额计入当期损益，减少同期利润总额13,321.36万元。该事项已获10月28日召开的董事会审议通过，其中计提应收款项坏账准备14,320.11万元、转回存货跌价准备998.75万元。",
+          "stage": "董事会审议通过并披露当期计提",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-06T01:27:32-08:00",
+          "compiledAt": "2026-11-06T01:27:32-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "航发动力",
+          "version": "da8bb3b65369f55f957229d2d5f8cb679bb98825513899310c5d8bfb00364e1c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "中国航发动力股份有限公司关于2026年前三季度计提资产减值准备的公告",
+              "publisher": "中国航发动力股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1—2页：计提概述、具体情况及损益影响",
+              "retrievedAt": "2026-11-05T08:05:49+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643108.PDF"
+            },
+            {
+              "title": "中国航发动力股份有限公司第十一届董事会第十八次会议决议公告",
+              "publisher": "中国航发动力股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1—2页：会议日期及第二项议案",
+              "retrievedAt": "2026-11-05T08:06:07+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643074.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-caf5a18b2fee11ef3ec8",
+      "objectId": "listed-600893-sh",
+      "type": "高级管理人员聘任",
+      "topics": [
+        "副总经理聘任"
+      ],
+      "updates": [
+        {
+          "id": "production-08125acff1f10666e8327f72",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "聘任刘晓飞为副总经理",
+          "summary": "航发动力2026年10月30日公告，10月28日召开的第十一届董事会第十八次会议审议通过聘任刘晓飞为公司副总经理，聘期自本次董事会审议通过之日起至第十一届董事会届满之日止。",
+          "stage": "董事会审议通过并按议案约定起聘",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-06T01:27:32-08:00",
+          "compiledAt": "2026-11-06T01:27:32-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "航发动力",
+          "version": "08125acff1f10666e8327f723d3fff6bae5aea2c0e5ad2ee485b13d63eef9259",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "中国航发动力股份有限公司第十一届董事会第十八次会议决议公告",
+              "publisher": "中国航发动力股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议日期、第2—3页第五项议案及公告落款",
+              "retrievedAt": "2026-11-05T08:06:07+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643074.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-4734dc1b26508b7f877a",
+      "objectId": "listed-688101-sh",
+      "type": "续聘会计师事务所",
+      "topics": [
+        "2026年度财务报告审计",
+        "内部控制审计",
+        "待股东会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-3ebb6e8f8d3d60466551f370",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "拟续聘容诚，尚待股东会审议",
+          "summary": "三达膜2026年10月30日公告，董事会于10月29日审议通过续聘容诚会计师事务所（特殊普通合伙）为公司2026年度财务报告及内部控制审计机构，聘期一年。该事项尚需提交2026年第三次临时股东会审议，通过后生效；审计费用拟由双方协商确定，公告未披露确定金额。",
+          "stage": "2026年10月29日董事会审议通过，尚需2026年第三次临时股东会审议通过后生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-06T01:27:33-08:00",
+          "compiledAt": "2026-11-06T01:27:33-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "三达膜",
+          "version": "3ebb6e8f8d3d60466551f370a47699037abaeb77e7ffc48e817ab15ce0ff5fb0",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "三达膜环境技术股份有限公司关于续聘会计师事务所的公告",
+              "publisher": "三达膜环境技术股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第3页审计收费、第4页董事会审议情况及生效日期",
+              "retrievedAt": "2026-11-05T08:06:47+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643361.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-1ba3abfe4c55f9f05b76",
+      "objectId": "listed-000564-sz",
+      "type": "高级管理人员聘任",
+      "topics": [
+        "聘任王曙光为副总裁"
+      ],
+      "updates": [
+        {
+          "id": "production-cbc10ccfee8a1e710503023a",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "聘任王曙光为副总裁",
+          "summary": "供销大集2026年10月30日公告，10月28日召开的第十一届董事会第二十六次会议审议通过聘任王曙光为公司副总裁，任期自董事会审议通过之日起至第十一届董事会换届之日止。",
+          "stage": "2026年10月28日董事会审议通过并起任，任期至第十一届董事会换届之日止",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-06T01:27:33-08:00",
+          "compiledAt": "2026-11-06T01:27:33-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "供销大集",
+          "version": "cbc10ccfee8a1e710503023a0cc97b0a7223aa263df08889e31ffd59779ea479",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "供销大集集团股份有限公司关于聘任副总裁的公告",
+              "publisher": "供销大集集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页：聘任决定、任期及公告落款",
+              "retrievedAt": "2026-11-05T08:04:34+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643496.PDF"
+            },
+            {
+              "title": "供销大集集团股份有限公司第十一届董事会第二十六次会议决议公告",
+              "publisher": "供销大集集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页：会议日期及第二项议案",
+              "retrievedAt": "2026-11-05T08:04:35+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643493.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-b6cd33b3e0549956697c",
+      "date": "2026-11-06",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-06T17:31:48+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-b6cd33b3e0549956697c/page-01.png",
+          "width": 1080,
+          "height": 1624,
+          "sha256": "c5e8e673c972f384b4ada3108ad1c5462acb4f6bf5b9e74d146e8e9e19c6c3cd"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-06-3a13306eecdb",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-16",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-d93e50bf840d4254cb45",
       "date": "2026-11-06",
@@ -40529,6 +40889,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "d84dee54a399393192cb",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-06T01:14:02-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/d84dee54a399393192cb/index.html",
+      "publishedAt": "2026-11-06T17:19:16+08:00"
+    },
     {
       "id": "9b90c41564d855f842d4",
       "date": "2026-11-06",
