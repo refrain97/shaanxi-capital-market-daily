@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-05-e12f431543f6",
-      "compiledAt": "2026-11-05T22:30:22-08:00",
+      "id": "2026-11-05-079659c8421b",
+      "compiledAt": "2026-11-05T22:54:03-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -15,6 +15,7 @@ window.PROTOTYPE = {
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
         "production-e74a9c430789a23ef97e0ab9",
+        "production-ca81e400c227a0189ebdd864",
         "production-c7794a553ec11c1af58df314",
         "production-c69e01bfe411b23c7c7ad7e7",
         "production-9898880d0ae363985436ebd6",
@@ -393,7 +394,8 @@ window.PROTOTYPE = {
       "production-a278957d9932c3a3066c0748": "2026-11-05T20:51:09-08:00",
       "production-d57d9abb64f8f59d0993dd4f": "2026-11-05T21:08:29-08:00",
       "production-4d44a58d12deef412180edae": "2026-11-05T22:30:21-08:00",
-      "production-005b0dbd7c3f6495ef3267bb": "2026-11-05T22:30:21-08:00"
+      "production-005b0dbd7c3f6495ef3267bb": "2026-11-05T22:30:21-08:00",
+      "production-ca81e400c227a0189ebdd864": "2026-11-05T22:54:03-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2577,6 +2579,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "炼石航空2026年10月31日披露三季报：第三季度归母净利润2132.98万元，同比增长128.68%；前三季度归母净亏损2947.85万元，同比收窄83.17%。本次季度财务会计报告未经审计。"
+        },
+        "production-ca81e400c227a0189ebdd864": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "金花企业（集团）股份有限公司2026年10月31日披露，向榆林晟源昌建筑工程有限公司购买的西安市碑林区振兴路1号房产仍在施工，进度较原计划滞后、尚未按约交付，公司已对该处土地进行财产保全。该购房协议于2026年2月签订，总价款2000万元，公司已支付购房款1800万元；本次报告未披露后续具体交付时间。"
         }
       }
     },
@@ -2586,8 +2595,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-05-e12f431543f6",
-      "editionId": "selection-48c8ad0efc8bb661bf39",
+      "sourceEditionId": "2026-11-05-079659c8421b",
+      "editionId": "selection-acca5ee04c80c9c148cd",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -34610,6 +34619,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T14:35:39+08:00",
           "updatedAt": "2026-11-05T22:30:21-08:00",
           "compiledAt": "2026-11-05T22:30:21-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -34656,6 +34666,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T14:35:39+08:00",
           "updatedAt": "2026-11-05T22:30:21-08:00",
           "compiledAt": "2026-11-05T22:30:21-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -34681,9 +34692,115 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-621e9e8556844e803486",
+      "objectId": "listed-600080-sh",
+      "type": "购房协议履约及财产保全进展",
+      "topics": [
+        "振兴路1号房产",
+        "交付滞后",
+        "土地财产保全"
+      ],
+      "updates": [
+        {
+          "id": "production-ca81e400c227a0189ebdd864",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "金花企业（集团）购入房产交付滞后，已对相关土地进行财产保全",
+          "summary": "金花企业（集团）股份有限公司2026年10月31日披露，向榆林晟源昌建筑工程有限公司购买的西安市碑林区振兴路1号房产仍在施工，进度较原计划滞后、尚未按约交付，公司已对该处土地进行财产保全。该购房协议于2026年2月签订，总价款2000万元，公司已支付购房款1800万元；本次报告未披露后续具体交付时间。",
+          "stage": "房产仍在施工且较计划滞后，尚未交付，公司已对该处土地进行财产保全",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T22:54:03-08:00",
+          "compiledAt": "2026-11-05T22:54:03-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST金花",
+          "version": "ca81e400c227a0189ebdd864f3520b46bf3bcf69ec290c9720ba6fde8f4b95cc",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "金花企业（集团）股份有限公司2026年第三季度报告",
+              "publisher": "金花企业（集团）股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第4页“三、其他提醒事项”第2项；物理第11页落款",
+              "retrievedAt": "2026-11-05T08:05:35+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649802.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-acca5ee04c80c9c148cd",
+      "date": "2026-11-06",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-06T14:54:06+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-acca5ee04c80c9c148cd/page-01.png",
+          "width": 1080,
+          "height": 1172,
+          "sha256": "b90a7df2e0daab5809dda3bccfef41cfad35e6277278f6ddbb7e0556526c507c"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-05-079659c8421b",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-10-30",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-48c8ad0efc8bb661bf39",
       "date": "2026-11-06",
@@ -39946,6 +40063,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "49ce073ca0bd6834ad6c",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T22:30:22-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/49ce073ca0bd6834ad6c/index.html",
+      "publishedAt": "2026-11-06T14:35:39+08:00"
+    },
     {
       "id": "982844d50338b72b8224",
       "date": "2026-11-06",
