@@ -517,7 +517,7 @@ window.PROTOTYPE = {
           "summary": "2026年9月29日公告披露，科华西安取得β人绒毛膜促性腺激素测定试剂盒注册证，有效期至2031年9月20日，用于妊娠相关检测及风险评估，不用于肿瘤辅助诊断；公司尚无法预测公告所列产品的收入影响。"
         },
         "production-f6ebcd797f2e35a827bdca3e": {
-          "version": "listed-scope-20261009",
+          "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
@@ -33285,6 +33285,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T08:34:24+08:00",
           "updatedAt": "2026-11-05T16:27:15-08:00",
           "compiledAt": "2026-11-05T16:27:15-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -38239,6 +38240,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "d1e9892e628dabfedd52",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T16:27:15-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/d1e9892e628dabfedd52/index.html",
+      "publishedAt": "2026-11-06T08:34:24+08:00"
+    },
     {
       "id": "438ade2fd1803a6459db",
       "date": "2026-11-06",
