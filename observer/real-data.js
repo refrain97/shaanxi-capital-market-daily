@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-05-1234a8db1a5e",
-      "compiledAt": "2026-11-05T18:59:35-08:00",
+      "id": "2026-11-05-4b7ecd2b6ed9",
+      "compiledAt": "2026-11-05T19:17:47-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -45,6 +45,7 @@ window.PROTOTYPE = {
         "production-7b8cd30d7e2b9f3bf00e08e0",
         "production-6f586b29192198cbc6a09340",
         "production-502375d7206ec7e3fa1a6216",
+        "production-49963c2a05a103a74d123151",
         "production-42e955320b5d35846be7d060",
         "production-2947fcab17be17cee2508db6",
         "production-0c9bcf00be372e208a232c48",
@@ -377,7 +378,8 @@ window.PROTOTYPE = {
       "production-0c9bcf00be372e208a232c48": "2026-11-05T18:59:33-08:00",
       "production-b5f03fad5a03336713b4354e": "2026-11-05T18:59:33-08:00",
       "production-2947fcab17be17cee2508db6": "2026-11-05T18:59:33-08:00",
-      "production-42e955320b5d35846be7d060": "2026-11-05T18:59:33-08:00"
+      "production-42e955320b5d35846be7d060": "2026-11-05T18:59:33-08:00",
+      "production-49963c2a05a103a74d123151": "2026-11-05T19:17:46-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2508,6 +2510,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西同力重工股份有限公司2026年10月30日披露，2026年前三季度无人驾驶产品出货量1300多台，占公司同期总出货量的27%。同期海外出货量2104台（含施工外带），占总出货量的43%，同比增长63%。"
+        },
+        "production-49963c2a05a103a74d123151": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安银行2026年10月30日披露，10月29日召开的董事会审议通过《内幕信息及知情人管理制度》修订议案，表决结果为同意10票、反对0票、弃权0票。修订后的制度自董事会审议通过之日起生效实施，原制度同时废止。"
         }
       }
     },
@@ -2517,7 +2526,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-05-1234a8db1a5e",
+      "sourceEditionId": "2026-11-05-4b7ecd2b6ed9",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -33677,6 +33686,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T11:05:59+08:00",
           "updatedAt": "2026-11-05T18:37:40-08:00",
           "compiledAt": "2026-11-05T18:37:40-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33738,6 +33748,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T11:05:59+08:00",
           "updatedAt": "2026-11-05T18:37:40-08:00",
           "compiledAt": "2026-11-05T18:37:40-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33782,6 +33793,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T11:05:59+08:00",
           "updatedAt": "2026-11-05T18:37:41-08:00",
           "compiledAt": "2026-11-05T18:37:41-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33827,6 +33839,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T11:05:59+08:00",
           "updatedAt": "2026-11-05T18:59:33-08:00",
           "compiledAt": "2026-11-05T18:59:33-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33879,6 +33892,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T11:05:59+08:00",
           "updatedAt": "2026-11-05T18:59:34-08:00",
           "compiledAt": "2026-11-05T18:59:34-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33923,6 +33937,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T11:05:59+08:00",
           "updatedAt": "2026-11-05T18:59:33-08:00",
           "compiledAt": "2026-11-05T18:59:33-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33968,6 +33983,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T11:05:59+08:00",
           "updatedAt": "2026-11-05T18:59:34-08:00",
           "compiledAt": "2026-11-05T18:59:34-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33988,6 +34004,58 @@ window.PROTOTYPE = {
               "location": "物理第1页公司名称、第2页公司生产经营情况及公告落款",
               "retrievedAt": "2026-11-05T08:07:12+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225647376.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-6677eaf850207f92ffee",
+      "objectId": "listed-600928-sh",
+      "type": "公司治理制度修订",
+      "topics": [
+        "内幕信息及知情人管理制度"
+      ],
+      "updates": [
+        {
+          "id": "production-49963c2a05a103a74d123151",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "修订内幕信息及知情人管理制度",
+          "summary": "西安银行2026年10月30日披露，10月29日召开的董事会审议通过《内幕信息及知情人管理制度》修订议案，表决结果为同意10票、反对0票、弃权0票。修订后的制度自董事会审议通过之日起生效实施，原制度同时废止。",
+          "stage": "董事会审议通过修订并披露制度，按条款自审议通过之日起生效实施",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T19:17:46-08:00",
+          "compiledAt": "2026-11-05T19:17:46-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安银行",
+          "version": "49963c2a05a103a74d123151d1b5152155d1d4a13f33077722d2eebcf12fc510",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安银行股份有限公司第六届董事会第四十次会议决议公告",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议日期、第2页第四项议案",
+              "retrievedAt": "2026-11-05T08:06:26+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644384.PDF"
+            },
+            {
+              "title": "西安银行股份有限公司内幕信息及知情人管理制度",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第10页，第三十一条",
+              "retrievedAt": "2026-11-05T08:06:26+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644388.PDF"
             }
           ],
           "tables": []
@@ -38914,6 +38982,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "257d96fc78b24ff187ef",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T18:59:35-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/257d96fc78b24ff187ef/index.html",
+      "publishedAt": "2026-11-06T11:05:59+08:00"
+    },
     {
       "id": "a60a9dc23447c510c34b",
       "date": "2026-11-06",
