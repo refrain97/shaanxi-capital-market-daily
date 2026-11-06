@@ -19,15 +19,11 @@ window.PROTOTYPE = {
         "production-c7794a553ec11c1af58df314",
         "production-c69e01bfe411b23c7c7ad7e7",
         "production-be9995f7a57c1ac9eb9f5a0f",
-        "production-b8d7123b8b600ba65839dd83",
-        "production-a8cc48632581f2148af4856c",
         "production-a2d1f8012a4cbef38047eacd",
         "production-9898880d0ae363985436ebd6",
         "production-91db4dab0430af90585695d8",
         "production-858ec060cfe5fb6b54b9c38c",
-        "production-8034bb30bd2ebbbea44032be",
         "production-6e334afa9911d31486480862",
-        "production-6b316b170fa769a9e682043f",
         "production-63351df0acb39ea8c61b551a",
         "production-50fc3c8062a9f0dcfd5a2ad3",
         "production-2e2e3d64525806695548da91",
@@ -63,7 +59,6 @@ window.PROTOTYPE = {
         "production-235e3b7e80d5d00975b724c2",
         "production-21e8ba242101d1e3e94b99c8",
         "production-1056a523261bb8a121acd38d",
-        "production-0c9bcf00be372e208a232c48",
         "production-0c59e2806ecb94b5fe980374",
         "production-0933b035c0ff10f36e95e045",
         "production-025420cc891c037fe5aa1101",
@@ -362,16 +357,12 @@ window.PROTOTYPE = {
       "production-9fdc436613e81042ec568e37": "2026-11-04T10:32:00-08:00",
       "production-63351df0acb39ea8c61b551a": "2026-11-04T16:24:34-08:00",
       "production-14972cc78c994e4ee8e53e14": "2026-11-04T16:24:34-08:00",
-      "production-8034bb30bd2ebbbea44032be": "2026-11-04T16:24:34-08:00",
       "production-ff57ff9059de128b625b71e2": "2026-11-04T16:35:47-08:00",
       "production-c7794a553ec11c1af58df314": "2026-11-04T16:39:23-08:00",
-      "production-b8d7123b8b600ba65839dd83": "2026-11-04T16:52:07-08:00",
       "production-6e334afa9911d31486480862": "2026-11-04T17:30:33-08:00",
       "production-09f10a9e6400e371697bd6c6": "2026-11-04T17:34:19-08:00",
       "production-91db4dab0430af90585695d8": "2026-11-04T17:34:19-08:00",
-      "production-a8cc48632581f2148af4856c": "2026-11-04T17:34:19-08:00",
       "production-e74a9c430789a23ef97e0ab9": "2026-11-04T17:34:19-08:00",
-      "production-6b316b170fa769a9e682043f": "2026-11-04T17:51:59-08:00",
       "production-c69e01bfe411b23c7c7ad7e7": "2026-11-04T17:51:59-08:00",
       "production-50fc3c8062a9f0dcfd5a2ad3": "2026-11-04T17:51:59-08:00",
       "production-f18b4eadc0a38dda9d70321b": "2026-11-04T18:05:09-08:00",
@@ -393,7 +384,6 @@ window.PROTOTYPE = {
       "production-502375d7206ec7e3fa1a6216": "2026-11-05T18:37:40-08:00",
       "production-6f586b29192198cbc6a09340": "2026-11-05T18:37:40-08:00",
       "production-d90000dabeee8611cbffb192": "2026-11-05T18:37:40-08:00",
-      "production-0c9bcf00be372e208a232c48": "2026-11-05T18:59:33-08:00",
       "production-b5f03fad5a03336713b4354e": "2026-11-05T18:59:33-08:00",
       "production-2947fcab17be17cee2508db6": "2026-11-05T18:59:33-08:00",
       "production-42e955320b5d35846be7d060": "2026-11-05T18:59:33-08:00",
@@ -2316,13 +2306,6 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "隆基绿能2026年10月31日公告，董事会已审议通过前三季度计提资产减值准备议案，公司拟计提112,089.09万元，全额计入2026年1—9月经营业绩，预计减少同期合并净利润95,198.22万元。本次计提未经审计，最终金额以会计师事务所年度审计确认为准。"
         },
-        "production-8034bb30bd2ebbbea44032be": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "隆基绿能2026年10月31日公告，公司董事会于10月30日以通讯表决方式审议通过《2026年第三季度报告》，表决结果为9票同意、0票反对、0票弃权。"
-        },
         "production-ff57ff9059de128b625b71e2": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -2336,13 +2319,6 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "达刚控股2026年10月31日披露，张莎因个人原因辞去总裁职务，自10月30日起生效，辞任后继续担任公司董事。公司10月30日董事会同意聘任苏元朋、韦海莉分别为总裁、董事会秘书，任期均自本次董事会审议通过之日起至第六届董事会任期届满之日止；董事会秘书任职生效后，董事长陈可不再代行该职责。"
-        },
-        "production-b8d7123b8b600ba65839dd83": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "陕西建设机械股份有限公司于2026年10月31日披露三季报：前三季度营业收入约人民币16.52亿元，同比下降6.71%；归属于上市公司股东的净亏损约人民币8.18亿元，同比收窄13.00%。报告已于10月30日经审计委员会及董事会审议通过，第三季度财务报表未经审计。"
         },
         "production-6e334afa9911d31486480862": {
           "version": "listed-scope-20261019",
@@ -2365,26 +2341,12 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "陕西旅游2026年10月31日公告，拟于11月10日15:00—16:00在价值在线以网络互动方式召开2026年第三季度业绩说明会。投资者可于11月10日前进行会前提问，公司将在信息披露允许范围内回答投资者普遍关注的问题。"
         },
-        "production-a8cc48632581f2148af4856c": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "华天科技2026年10月31日披露第三季度报告；公司董事会已于10月30日以9票同意、0票反对、0票弃权审议通过该报告。第三季度财务会计报告未经审计。"
-        },
         "production-e74a9c430789a23ef97e0ab9": {
           "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
           "summary": "三人行2026年10月31日公告，计划于11月24日09:00—10:00通过上证路演中心网络互动方式召开2026年第三季度业绩说明会。投资者可于11月17日至11月23日16:00前通过上证路演中心“提问预征集”栏目提问。"
-        },
-        "production-6b316b170fa769a9e682043f": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "炼石航空2026年10月31日披露，因对参股公司朗星无人机系统有限公司的认缴出资未全额实缴，陕西省西安市中级人民法院裁定公司在未实缴出资人民币7500万元范围内，对朗星无人机不能清偿的到期债务承担补充赔偿责任。2026年9月，公司银行账户中的509万元被该法院冻结，披露时尚未被执行划转。"
         },
         "production-c69e01bfe411b23c7c7ad7e7": {
           "version": "listed-scope-20261019",
@@ -2518,13 +2480,6 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "中航成飞2026年10月30日披露，10月28日召开的第八届董事会第十三次会议审议通过修订《董事会权责清单》的议案，表决结果为同意11票、反对0票、弃权0票。"
-        },
-        "production-0c9bcf00be372e208a232c48": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "陕西旅游文化产业股份有限公司2026年10月30日披露，董事会于10月29日以9票同意、0票反对、0票弃权审议通过2026年第三季度报告议案，该议案此前已经董事会审计委员会审议通过。公司同日披露第三季度报告，季度财务报表未经审计。"
         },
         "production-b5f03fad5a03336713b4354e": {
           "version": "listed-scope-20261019",
@@ -2684,7 +2639,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-11-05-1f07241a12a1",
       "editionId": "selection-9cf58b5d596713dff8c9",
       "selectionMode": "current"
@@ -5538,18 +5493,6 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
-      "id": "listed-002185-sz",
-      "type": "listed",
-      "name": "华天科技",
-      "code": "002185.SZ",
-      "market": "SZ",
-      "asOf": "2026-07-22",
-      "rosterTier": "L3",
-      "rosterCategory": "陕西经营或资本关联",
-      "rosterAsOf": "2026-07-27",
-      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
-    },
-    {
       "id": "listed-605168-sh",
       "type": "listed",
       "name": "三人行",
@@ -5903,6 +5846,19 @@ window.PROTOTYPE = {
       "asOf": "2026-07-13",
       "rosterTier": "L2",
       "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
+      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
+      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+    },
+    {
+      "id": "listed-002185-sz",
+      "type": "listed",
+      "name": "华天科技",
+      "code": "002185.SZ",
+      "market": "SZ",
+      "asOf": "2026-07-22",
+      "rosterTier": "L3",
+      "rosterCategory": "陕西经营或资本关联",
       "rosterAsOf": "2026-07-27",
       "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
       "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
@@ -32468,52 +32424,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-145e7cccda78043c1010",
-      "objectId": "listed-601012-sh",
-      "type": "季度报告审议",
-      "topics": [
-        "2026年第三季度报告",
-        "董事会审议"
-      ],
-      "updates": [
-        {
-          "id": "production-8034bb30bd2ebbbea44032be",
-          "date": "2026-10-31",
-          "time": "",
-          "title": "董事会审议通过2026年第三季度报告",
-          "summary": "隆基绿能2026年10月31日公告，公司董事会于10月30日以通讯表决方式审议通过《2026年第三季度报告》，表决结果为9票同意、0票反对、0票弃权。",
-          "stage": "2026年10月30日董事会审议通过第三季度报告，表决结果为9同意、0票反对、0票弃权",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-05T08:28:52+08:00",
-          "updatedAt": "2026-11-04T16:24:34-08:00",
-          "compiledAt": "2026-11-04T16:24:34-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "隆基绿能",
-          "version": "8034bb30bd2ebbbea44032bee5a515fee1330b33469714880806134f51cb1273",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "第六届董事会2026年第五次会议决议公告",
-              "publisher": "隆基绿能科技股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1页会议召开情况及第一项议案",
-              "retrievedAt": "2026-11-05T08:06:30+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647840.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-09d173bbc8bb8a984985",
       "objectId": "listed-002140-sz",
       "type": "治理制度修订",
@@ -32615,69 +32525,6 @@ window.PROTOTYPE = {
               "location": "物理第1—2页，总裁辞任及高级管理人员聘任",
               "retrievedAt": "2026-11-05T08:05:02+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649495.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
-      "id": "production-event-5215ffd6bb7ebeb9073c",
-      "objectId": "listed-600984-sh",
-      "type": "定期报告",
-      "topics": [
-        "三季报",
-        "审计委员会审议",
-        "董事会审议"
-      ],
-      "updates": [
-        {
-          "id": "production-b8d7123b8b600ba65839dd83",
-          "date": "2026-10-31",
-          "time": "",
-          "title": "披露三季报：前三季度营收16.52亿元，归母净亏损8.18亿元",
-          "summary": "陕西建设机械股份有限公司于2026年10月31日披露三季报：前三季度营业收入约人民币16.52亿元，同比下降6.71%；归属于上市公司股东的净亏损约人民币8.18亿元，同比收窄13.00%。报告已于10月30日经审计委员会及董事会审议通过，第三季度财务报表未经审计。",
-          "stage": "2026年10月30日审计委员会及董事会审议通过，10月31日披露；财务核心表格待原页核验",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-05T08:57:01+08:00",
-          "updatedAt": "2026-11-04T16:52:07-08:00",
-          "compiledAt": "2026-11-04T16:52:07-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "建设机械",
-          "version": "b8d7123b8b600ba65839dd838ee768eec570c60fe13d727e08601642c7841b9d",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "建设机械2026年第三季度报告",
-              "publisher": "陕西建设机械股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1页主要财务数据及审计状态，第11页合并利润表",
-              "retrievedAt": "2026-11-05T08:06:28+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648151.PDF"
-            },
-            {
-              "title": "建设机械第八届董事会第三十五次会议决议公告",
-              "publisher": "陕西建设机械股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1页会议日期、议案及表决结果",
-              "retrievedAt": "2026-11-05T08:06:28+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648156.PDF"
-            },
-            {
-              "title": "建设机械2026年第六次审计委员会决议",
-              "publisher": "陕西建设机械股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1页会议日期、议案及表决结果",
-              "retrievedAt": "2026-11-05T08:06:28+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648261.PDF"
             }
           ],
           "tables": []
@@ -32840,60 +32687,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-b57374bb48b9a8f62686",
-      "objectId": "listed-002185-sz",
-      "type": "定期报告审议及披露",
-      "topics": [
-        "2026年第三季度报告",
-        "董事会审议"
-      ],
-      "updates": [
-        {
-          "id": "production-a8cc48632581f2148af4856c",
-          "date": "2026-10-31",
-          "time": "",
-          "title": "披露第三季度报告，财务会计报告未经审计",
-          "summary": "华天科技2026年10月31日披露第三季度报告；公司董事会已于10月30日以9票同意、0票反对、0票弃权审议通过该报告。第三季度财务会计报告未经审计。",
-          "stage": "10月30日董事会审议通过，10月31日披露；第三季度财务会计报告未经审计",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-05T09:39:05+08:00",
-          "updatedAt": "2026-11-04T17:34:20-08:00",
-          "compiledAt": "2026-11-04T17:34:20-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "华天科技",
-          "version": "a8cc48632581f2148af4856c3accac2b0324aae5f0510b88c9b8c1de70498c5c",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "第八届董事会第十九次会议决议公告",
-              "publisher": "天水华天科技股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1页会议日期及第一项议案；第2页落款",
-              "retrievedAt": "2026-11-05T08:08:01+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647313.PDF"
-            },
-            {
-              "title": "2026年三季度报告",
-              "publisher": "天水华天科技股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第11页审计报告说明及落款",
-              "retrievedAt": "2026-11-05T08:08:01+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647311.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-ed74187742770862cdc0",
       "objectId": "listed-605168-sh",
       "type": "投资者关系活动安排",
@@ -32933,53 +32726,6 @@ window.PROTOTYPE = {
               "location": "物理第1—2页会议安排及问题征集；第3页落款",
               "retrievedAt": "2026-11-05T08:06:46+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225647905.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
-      "id": "production-event-f7473de149f84f57f144",
-      "objectId": "listed-000697-sz",
-      "type": "诉讼及资金冻结",
-      "topics": [
-        "朗星无人机",
-        "未实缴出资补充赔偿责任",
-        "银行账户资金冻结"
-      ],
-      "updates": [
-        {
-          "id": "production-6b316b170fa769a9e682043f",
-          "date": "2026-10-31",
-          "time": "",
-          "title": "披露509万元账户资金被冻结，尚未执行划转",
-          "summary": "炼石航空2026年10月31日披露，因对参股公司朗星无人机系统有限公司的认缴出资未全额实缴，陕西省西安市中级人民法院裁定公司在未实缴出资人民币7500万元范围内，对朗星无人机不能清偿的到期债务承担补充赔偿责任。2026年9月，公司银行账户中的509万元被该法院冻结，披露时尚未被执行划转。",
-          "stage": "三季报披露法院裁定补充赔偿责任及2026年9月账户资金冻结；披露时尚未执行划转",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-05T09:54:23+08:00",
-          "updatedAt": "2026-11-04T17:51:59-08:00",
-          "compiledAt": "2026-11-04T17:51:59-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "炼石航空",
-          "version": "6b316b170fa769a9e682043fe710e6be712fed2a09948fbbb0edca528cee689f",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "炼石航空科技股份有限公司2026年第三季度报告",
-              "publisher": "炼石航空科技股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第5页“三、其他重要事项”",
-              "retrievedAt": "2026-11-05T08:04:37+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648114.PDF"
             }
           ],
           "tables": []
@@ -33970,60 +33716,6 @@ window.PROTOTYPE = {
               "location": "物理第1页会议召开情况及第二项议案；公告落款2026年10月29日",
               "retrievedAt": "2026-11-05T08:05:33+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644255.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
-      "id": "production-event-79f775959b84c68ecd63",
-      "objectId": "listed-603402-sh",
-      "type": "定期报告审议",
-      "topics": [
-        "2026年第三季度报告",
-        "董事会审议"
-      ],
-      "updates": [
-        {
-          "id": "production-0c9bcf00be372e208a232c48",
-          "date": "2026-10-30",
-          "time": "",
-          "title": "董事会审议通过2026年第三季度报告",
-          "summary": "陕西旅游文化产业股份有限公司2026年10月30日披露，董事会于10月29日以9票同意、0票反对、0票弃权审议通过2026年第三季度报告议案，该议案此前已经董事会审计委员会审议通过。公司同日披露第三季度报告，季度财务报表未经审计。",
-          "stage": "2026年10月29日董事会审议通过第三季度报告，10月30日披露",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-06T11:05:59+08:00",
-          "updatedAt": "2026-11-05T18:59:33-08:00",
-          "compiledAt": "2026-11-05T18:59:33-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "陕西旅游",
-          "version": "0c9bcf00be372e208a232c48bf3fc3e2beed23caf71185259008fd7e93bd341e",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "陕西旅游文化产业股份有限公司第四届董事会第十四次会议决议公告",
-              "publisher": "陕西旅游文化产业股份有限公司",
-              "date": "2026-10-30",
-              "location": "物理第1页，会议召开情况及第二项议案",
-              "retrievedAt": "2026-11-05T08:06:44+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644925.PDF"
-            },
-            {
-              "title": "陕西旅游文化产业股份有限公司2026年第三季度报告",
-              "publisher": "陕西旅游文化产业股份有限公司",
-              "date": "2026-10-30",
-              "location": "物理第1页，报告标题、公告编号及审计状态；披露日期为2026年10月30日",
-              "retrievedAt": "2026-11-05T08:06:44+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644922.PDF"
             }
           ],
           "tables": []
@@ -35290,6 +34982,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T13:21:15+08:00",
           "updatedAt": "2026-11-05T21:08:29-08:00",
           "compiledAt": "2026-11-05T21:08:29-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -35344,6 +35037,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T13:21:15+08:00",
           "updatedAt": "2026-11-05T21:08:29-08:00",
           "compiledAt": "2026-11-05T21:08:29-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -40574,6 +40268,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "aec08affde85e8170d0a",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T21:08:30-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/aec08affde85e8170d0a/index.html",
+      "publishedAt": "2026-11-06T13:21:15+08:00"
+    },
     {
       "id": "4283fe2cf603aed0e639",
       "date": "2026-11-06",
