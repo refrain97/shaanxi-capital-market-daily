@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-05-ff7bb038a9ec",
-      "compiledAt": "2026-11-05T17:38:38-08:00",
+      "id": "2026-11-05-7dea6e88736b",
+      "compiledAt": "2026-11-05T17:54:28-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -35,7 +35,10 @@ window.PROTOTYPE = {
         "production-14972cc78c994e4ee8e53e14",
         "production-09f10a9e6400e371697bd6c6",
         "production-eeae0bf5db12bcdc4e6d4fa1",
+        "production-c3ad64745687caebb9fe6cd2",
         "production-9eb4f111d32e8675dd83bb11",
+        "production-95ac60a7ca6d36e43c857c8b",
+        "production-9154142253613e54ae99f5ed",
         "production-87d9e36ade84cce83fdcd926",
         "production-7b8cd30d7e2b9f3bf00e08e0",
         "production-ff57ff9059de128b625b71e2",
@@ -320,7 +323,6 @@ window.PROTOTYPE = {
       "production-ee8503b001e354a802cdcd4a": "2026-11-04T08:12:10-08:00",
       "production-0ad8fdcc0fedf9f53b180781": "2026-11-04T08:14:18-08:00",
       "production-287542e2177819c0c5069865": "2026-11-04T08:41:11-08:00",
-      "production-c5a249fa23ed535f0982c731": "2026-11-04T08:42:02-08:00",
       "production-ed0d607d99bac20af8113c39": "2026-11-04T08:42:49-08:00",
       "production-3528690b4695259b648472dc": "2026-11-04T08:49:40-08:00",
       "production-7bfc50bdf2508841c5353163": "2026-11-04T08:52:46-08:00",
@@ -357,7 +359,10 @@ window.PROTOTYPE = {
       "production-7b8cd30d7e2b9f3bf00e08e0": "2026-11-05T17:38:35-08:00",
       "production-9eb4f111d32e8675dd83bb11": "2026-11-05T17:38:35-08:00",
       "production-eeae0bf5db12bcdc4e6d4fa1": "2026-11-05T17:38:35-08:00",
-      "production-87d9e36ade84cce83fdcd926": "2026-11-05T17:38:35-08:00"
+      "production-87d9e36ade84cce83fdcd926": "2026-11-05T17:38:35-08:00",
+      "production-c3ad64745687caebb9fe6cd2": "2026-11-05T17:54:26-08:00",
+      "production-95ac60a7ca6d36e43c857c8b": "2026-11-05T17:54:26-08:00",
+      "production-9154142253613e54ae99f5ed": "2026-11-05T17:54:26-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2169,13 +2174,6 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "陕西省国际信托股份有限公司（陕国投A）2026年10月23日公告，10月21日召开的董事会会议审议通过提名任海云为第十一届董事会独立董事候选人的议案。其任职资格和独立性尚需经深圳证券交易所审核无异议后，方可提交2026年第二次临时股东会以累积投票制方式选举。"
         },
-        "production-c5a249fa23ed535f0982c731": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "陕国投A于2026年10月23日披露，董事会审议通过提名黄卓为第十一届董事会独立董事候选人，黄卓由中证中小投资者服务中心有限责任公司等三名股东联合提名。其任职资格和独立性尚需经深交所审核无异议后提交股东会选举，任职资格另需国家金融监督管理总局陕西监管局核准。"
-        },
         "production-ed0d607d99bac20af8113c39": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -2418,6 +2416,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "特变电工2026年10月30日披露，2026年前三季度公司电站发电量为2,097,385.89万千瓦时，上网电量为1,975,590.80万千瓦时。截至2026年9月末，公司电站装机容量为10,980.39MW。"
+        },
+        "production-c3ad64745687caebb9fe6cd2": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "特变电工股份有限公司2026年10月30日公告，十一届八次董事会于10月29日以电子通信方式召开，以11票同意、0票反对、0票弃权审议通过公司2026年第三季度报告。"
+        },
+        "production-95ac60a7ca6d36e43c857c8b": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "特变电工股份有限公司2026年10月30日公告，公司及下属子公司第三季度合计计提减值准备79,190.67万元，金额未经审计。同期随存货出售或耗用转销存货跌价准备、冲减营业成本30,467.65万元，上述计提及转销事项合计减少公司利润总额48,723.02万元。"
+        },
+        "production-9154142253613e54ae99f5ed": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "特变电工股份有限公司2026年10月30日公告，2026年度第二期科技创新债券“26特变股份MTN002（科创债）”已发行完毕，发行额度5亿元人民币，募集资金已于10月29日全额到账。债券期限5+N年，发行利率2.1%，起息日为2026年10月29日，主承销商为招商银行股份有限公司。"
         }
       }
     },
@@ -2427,7 +2446,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-05-ff7bb038a9ec",
+      "sourceEditionId": "2026-11-05-7dea6e88736b",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -31288,69 +31307,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-c825f6a5c77e750a6933",
-      "objectId": "listed-000563-sz",
-      "type": "独立董事提名",
-      "topics": [
-        "第十一届董事会",
-        "黄卓",
-        "股东联合提名"
-      ],
-      "updates": [
-        {
-          "id": "production-c5a249fa23ed535f0982c731",
-          "date": "2026-10-23",
-          "time": "",
-          "title": "陕国投A董事会通过黄卓独立董事候选人提名",
-          "summary": "陕国投A于2026年10月23日披露，董事会审议通过提名黄卓为第十一届董事会独立董事候选人，黄卓由中证中小投资者服务中心有限责任公司等三名股东联合提名。其任职资格和独立性尚需经深交所审核无异议后提交股东会选举，任职资格另需国家金融监督管理总局陕西监管局核准。",
-          "stage": "董事会审议通过提名；尚待深交所审核无异议及股东会选举，任职资格另需金融监管部门核准",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-05T00:48:42+08:00",
-          "updatedAt": "2026-11-04T08:42:02-08:00",
-          "compiledAt": "2026-11-04T08:42:02-08:00",
-          "researchCutoff": "2026-10-27T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "陕国投Ａ",
-          "version": "c5a249fa23ed535f0982c731beae0f411ae89d2c03581793a0cd181f8ec2d73c",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "第十届董事会第四十五次会议决议公告",
-              "publisher": "陕西省国际信托股份有限公司",
-              "date": "2026-10-23",
-              "location": "物理第2—3页、第5页",
-              "retrievedAt": "2026-11-04T14:23:46+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616940.PDF"
-            },
-            {
-              "title": "独立董事提名人声明与承诺（黄卓）",
-              "publisher": "陕西省国际信托股份有限公司",
-              "date": "2026-10-23",
-              "location": "物理第1页；声明落款日期为2026年10月21日",
-              "retrievedAt": "2026-11-04T14:23:44+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616945.PDF"
-            },
-            {
-              "title": "2026年第二次临时股东会议案",
-              "publisher": "陕西省国际信托股份有限公司",
-              "date": "2026-10-23",
-              "location": "物理第12页，议案二",
-              "retrievedAt": "2026-11-04T14:23:45+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616942.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-e0cefa4bda8d480c5440",
       "objectId": "listed-000563-sz",
       "type": "董事提名",
@@ -33246,6 +33202,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T09:43:26+08:00",
           "updatedAt": "2026-11-05T17:38:35-08:00",
           "compiledAt": "2026-11-05T17:38:35-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33292,6 +33249,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T09:43:26+08:00",
           "updatedAt": "2026-11-05T17:38:36-08:00",
           "compiledAt": "2026-11-05T17:38:36-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33345,6 +33303,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T09:43:26+08:00",
           "updatedAt": "2026-11-05T17:38:36-08:00",
           "compiledAt": "2026-11-05T17:38:36-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33399,6 +33358,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T09:43:26+08:00",
           "updatedAt": "2026-11-05T17:38:37-08:00",
           "compiledAt": "2026-11-05T17:38:37-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -33419,6 +33379,142 @@ window.PROTOTYPE = {
               "location": "物理第1页装机容量及发电量正文、第1—2页跨页表、第2页落款",
               "retrievedAt": "2026-11-05T08:08:02+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643210.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-3608687502dcfd349a01",
+      "objectId": "listed-600089-sh",
+      "type": "定期报告审议",
+      "topics": [
+        "董事会审议季度报告"
+      ],
+      "updates": [
+        {
+          "id": "production-c3ad64745687caebb9fe6cd2",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会审议通过2026年第三季度报告",
+          "summary": "特变电工股份有限公司2026年10月30日公告，十一届八次董事会于10月29日以电子通信方式召开，以11票同意、0票反对、0票弃权审议通过公司2026年第三季度报告。",
+          "stage": "2026年10月29日董事会审议通过2026年第三季度报告",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T17:54:27-08:00",
+          "compiledAt": "2026-11-05T17:54:27-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "特变电工",
+          "version": "c3ad64745687caebb9fe6cd2f655c74e6bebebdcd09950572c6fc6185abea301",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "特变电工股份有限公司十一届八次董事会会议决议公告",
+              "publisher": "特变电工股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页：会议召开情况及第一项议案",
+              "retrievedAt": "2026-11-05T08:08:03+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643188.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-649b81ffff8608cfd7f1",
+      "objectId": "listed-600089-sh",
+      "type": "资产减值",
+      "topics": [
+        "信用减值",
+        "资产减值",
+        "存货跌价准备转销"
+      ],
+      "updates": [
+        {
+          "id": "production-95ac60a7ca6d36e43c857c8b",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "第三季度计提减值准备79,190.67万元",
+          "summary": "特变电工股份有限公司2026年10月30日公告，公司及下属子公司第三季度合计计提减值准备79,190.67万元，金额未经审计。同期随存货出售或耗用转销存货跌价准备、冲减营业成本30,467.65万元，上述计提及转销事项合计减少公司利润总额48,723.02万元。",
+          "stage": "披露2026年第三季度已计提减值准备及利润影响，金额未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T17:54:26-08:00",
+          "compiledAt": "2026-11-05T17:54:26-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "特变电工",
+          "version": "95ac60a7ca6d36e43c857c8b90a1677f32af62b8f4f2459b4d317bbb1d35e437",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "特变电工股份有限公司关于2026年第三季度计提减值准备的公告",
+              "publisher": "特变电工股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页：减值计提概述及金额表；第3页：利润影响及落款",
+              "retrievedAt": "2026-11-05T08:08:03+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643187.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-f877b39fc91ebba01e4b",
+      "objectId": "listed-600089-sh",
+      "type": "债务融资",
+      "topics": [
+        "科技创新债券",
+        "发行完成",
+        "募集资金到账"
+      ],
+      "updates": [
+        {
+          "id": "production-9154142253613e54ae99f5ed",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "完成5亿元科创债发行，募集资金已全额到账",
+          "summary": "特变电工股份有限公司2026年10月30日公告，2026年度第二期科技创新债券“26特变股份MTN002（科创债）”已发行完毕，发行额度5亿元人民币，募集资金已于10月29日全额到账。债券期限5+N年，发行利率2.1%，起息日为2026年10月29日，主承销商为招商银行股份有限公司。",
+          "stage": "2026年度第二期科技创新债券发行完毕，募集资金于10月29日全额到账",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-05T17:54:26-08:00",
+          "compiledAt": "2026-11-05T17:54:26-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "特变电工",
+          "version": "9154142253613e54ae99f5ed5f252111f5e4fdfb7ff2ecc1c6f2c4097dc4adaa",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "特变电工股份有限公司发行2026年度第二期科技创新债券的公告",
+              "publisher": "特变电工股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页：本期债券发行及到账情况",
+              "retrievedAt": "2026-11-05T08:08:04+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643184.PDF"
             }
           ],
           "tables": []
@@ -38345,6 +38441,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "8d39fb684c0a6b778d72",
+      "date": "2026-11-06",
+      "compiledAt": "2026-11-05T17:38:38-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/8d39fb684c0a6b778d72/index.html",
+      "publishedAt": "2026-11-06T09:43:26+08:00"
+    },
     {
       "id": "11dad58fdf53daf1349f",
       "date": "2026-11-06",
