@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-10-ef361e979985",
-      "compiledAt": "2026-11-10T19:06:09-08:00",
+      "id": "2026-11-10-af1b49c59cda",
+      "compiledAt": "2026-11-10T21:37:31-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -18,6 +18,7 @@ window.PROTOTYPE = {
         "production-ca81e400c227a0189ebdd864",
         "production-c7794a553ec11c1af58df314",
         "production-c69e01bfe411b23c7c7ad7e7",
+        "production-c3004a7e63f24718f0e89a77",
         "production-9898880d0ae363985436ebd6",
         "production-91db4dab0430af90585695d8",
         "production-858ec060cfe5fb6b54b9c38c",
@@ -460,7 +461,8 @@ window.PROTOTYPE = {
       "production-de89d2fc8abdc65b3fda967f": "2026-11-10T18:29:28-08:00",
       "production-5de5b66ee0e60c5fb1bee6ac": "2026-11-10T18:45:15-08:00",
       "production-27a263b3ec6404022ef3f654": "2026-11-10T19:05:09-08:00",
-      "production-7e77dd958728e759bc4563a8": "2026-11-10T19:06:08-08:00"
+      "production-7e77dd958728e759bc4563a8": "2026-11-10T19:06:08-08:00",
+      "production-c3004a7e63f24718f0e89a77": "2026-11-10T21:37:30-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2909,6 +2911,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "航天时代电子技术股份有限公司于2026年10月30日披露三季报，前三季度实现营业收入约人民币69.65亿元、归属于上市公司股东的净利润约人民币6926.36万元，按调整后口径同比分别下降23.58%和71.32%。报告因同一控制下企业合并追溯调整前期比较财务报表，本次季度财务报表未经审计。"
+        },
+        "production-c3004a7e63f24718f0e89a77": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "金花企业（集团）股份有限公司2026年10月31日披露的三季报显示，公司报告期内就曙光汽车仲裁事项确认预计负债人民币1,439.73万元，并计入当期损益。公司披露前期已收取足额保证金，后续实际清偿时对应保证金计入资本公积，本报告未披露实际清偿完成。"
         }
       }
     },
@@ -2917,9 +2926,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-11-10-ef361e979985",
-      "editionId": "selection-8f086be104b2248660c4",
+      "status": "committed",
+      "sourceEditionId": "2026-11-10-af1b49c59cda",
+      "editionId": "selection-92976acad87652f3d997",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -38070,9 +38079,233 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-217f0ec13c0112e8ec57",
+      "objectId": "listed-600080-sh",
+      "type": "仲裁事项预计负债确认",
+      "topics": [
+        "曙光汽车仲裁",
+        "预计负债",
+        "保证金后续处理"
+      ],
+      "updates": [
+        {
+          "id": "production-c3004a7e63f24718f0e89a77",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "金花股份就曙光汽车仲裁确认预计负债1,439.73万元",
+          "summary": "金花企业（集团）股份有限公司2026年10月31日披露的三季报显示，公司报告期内就曙光汽车仲裁事项确认预计负债人民币1,439.73万元，并计入当期损益。公司披露前期已收取足额保证金，后续实际清偿时对应保证金计入资本公积，本报告未披露实际清偿完成。",
+          "stage": "报告期内针对仲裁金额确认预计负债并计入当期损益，未披露实际清偿完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T21:37:30-08:00",
+          "compiledAt": "2026-11-10T21:37:30-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST金花",
+          "version": "c3004a7e63f24718f0e89a773ca6f456165a192c79ca491e7f6bf5fa36379c06",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "金花企业（集团）股份有限公司2026年第三季度报告",
+              "publisher": "金花企业（集团）股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第4页“其他提醒事项”第1项；第5页合并资产负债表单位及列头；第7页预计负债行；第11页落款",
+              "retrievedAt": "2026-11-05T08:05:35+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649802.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-92976acad87652f3d997",
+      "date": "2026-11-11",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-11T13:37:34+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-0bdc78513ea25a163acc9f27",
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-5de5b66ee0e60c5fb1bee6ac",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-de89d2fc8abdc65b3fda967f",
+        "production-9041551624dc78082a4d96bd",
+        "production-b62e6dcc3055dc4df6b48521",
+        "production-27a263b3ec6404022ef3f654"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-92976acad87652f3d997/page-01.png",
+          "width": 1080,
+          "height": 2474,
+          "sha256": "01e5d6df5b16aad20026bd40d4e2806d8b2205ea41334e5ae5203fac2147c156"
+        },
+        {
+          "file": "assets/editions/selection-92976acad87652f3d997/page-02.png",
+          "width": 1080,
+          "height": 1996,
+          "sha256": "2b920ab7d1aaac9c6054d2494e252441b7a046040f50611dc8cfd9d3ac828692"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-10-af1b49c59cda",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-06-12",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-32c059172c74da96a014",
+          "updateId": "production-0bdc78513ea25a163acc9f27",
+          "version": "0bdc78513ea25a163acc9f27159c25636acecf3918027d9592d160d01dcb0c56",
+          "objectName": "航天电子",
+          "type": "listed",
+          "category": "股权置换及同一控制下企业合并进展",
+          "date": "2026-10-30",
+          "title": "披露西安太乙股权置换的合并会计处理",
+          "business": "投资银行",
+          "share": {
+            "title": "股权置换按同一控制下合并追溯调整",
+            "facts": "三季报披露，控股子公司时代光电以北京航天兴华科技有限公司100%股权置换西安太乙电子有限公司58%股权，作价分别为64,500.50万元、64,970.61万元，现金补差470.11万元。本期按同一控制下合并追溯调整；视同期初取得控制权属会计口径，具体工商交割日及补差款实际支付状态未核实。"
+          }
+        },
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-9b9658b42bf0db44addc",
+          "updateId": "production-5de5b66ee0e60c5fb1bee6ac",
+          "version": "5de5b66ee0e60c5fb1bee6acc2f476fcebe714a9b81a2b3330d9c28a4ac2e101",
+          "objectName": "天地源",
+          "type": "listed",
+          "category": "资产出售筹划",
+          "date": "2026-06-12",
+          "title": "三季报续披露地产资产出售筹划，具体范围仍待协商",
+          "business": "投资银行",
+          "share": {
+            "title": "地产资产出售仍在筹划，范围待协商",
+            "facts": "天地源2026年10月29日三季报续披露，拟出售部分房地产开发业务相关资产及负债，范围待协商。6月12日公告列意向受让方为西安高科集团或其指定关联方，当时价格未定、未签协议，是否构成重大资产重组尚无法确定。三季报未披露新增价格、协议、审批或交割结果，不能确认已实施。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-540f0beca84dcf3374da",
+          "updateId": "production-de89d2fc8abdc65b3fda967f",
+          "version": "de89d2fc8abdc65b3fda967f4a92692741d79bf54c536fe8ed972789c29baf14",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "股份解禁",
+          "date": "2026-10-30",
+          "title": "三季报确认张发群354.321万股已解除限售，半年末已无限售",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报重列既有解禁，非三季度新增",
+            "facts": "三季报列示，张发群354.321万股已解除限售，9月末持股354.321万股、占0.68%，限售股为零。半年报已显示6月末限售股为零，本次属再次披露，并非三季度新增解禁；两期末持股相同不足以证明期间无交易。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        },
+        {
+          "eventId": "production-event-4b3290072b75e126a6f2",
+          "updateId": "production-b62e6dcc3055dc4df6b48521",
+          "version": "b62e6dcc3055dc4df6b485215743054ba9728ac00e2e30c7164fcf08985efb5e",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "员工持股",
+          "date": "2026-09-16",
+          "title": "员工持股计划完成1,369.66万股过户，股份解锁受考核约束",
+          "business": "股份管理",
+          "share": {
+            "title": "员工持股计划完成1369.66万股过户",
+            "facts": "公告，员工持股计划实际筹资35,200,262元，来自参加对象自筹；9月14日完成1,369.66万股历史回购股份非交易过户。股份按12、24、36个月分批解锁，受公司业绩及个人绩效考核约束，过户完成不代表解锁。"
+          }
+        },
+        {
+          "eventId": "production-event-a1c7a43f5f6daa7ce936",
+          "updateId": "production-27a263b3ec6404022ef3f654",
+          "version": "27a263b3ec6404022ef3f654e4392911c1773b9b8123e174157ecc727664864c",
+          "objectName": "宝钛股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-29",
+          "title": "赎回3,200万元募集资金结构性存款，取得收益12.69万元",
+          "business": "机构理财",
+          "share": {
+            "title": "到期赎回3,200万元结构性存款",
+            "facts": "公告，10月27日到期赎回工商银行结构性存款本金3,200万元，取得收益12.69万元。该产品使用闲置可转债募集资金，属于现金管理授权下的执行进展，公告未披露本次续购安排。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-8f086be104b2248660c4",
       "date": "2026-11-11",
@@ -44957,6 +45190,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "510f4924a8ec80897b20",
+      "date": "2026-11-11",
+      "compiledAt": "2026-11-10T19:06:09-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/510f4924a8ec80897b20/index.html",
+      "publishedAt": "2026-11-11T11:24:00+08:00"
+    },
     {
       "id": "b897d35439f435ca7679",
       "date": "2026-11-11",
