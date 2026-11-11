@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-10-70bf25ccf367",
-      "compiledAt": "2026-11-10T16:45:52-08:00",
+      "id": "2026-11-10-39ebeee938d0",
+      "compiledAt": "2026-11-10T17:01:11-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -41,6 +41,7 @@ window.PROTOTYPE = {
         "production-cbc10ccfee8a1e710503023a",
         "production-b81e76307d879bd223d97739",
         "production-b5f03fad5a03336713b4354e",
+        "production-acfc140fe78f6656dc436309",
         "production-a278957d9932c3a3066c0748",
         "production-9eb4f111d32e8675dd83bb11",
         "production-95ac60a7ca6d36e43c857c8b",
@@ -66,6 +67,7 @@ window.PROTOTYPE = {
         "production-15a7f35654a7269f54524f1b",
         "production-1056a523261bb8a121acd38d",
         "production-0e20ee5a91b414b8d63dbdf9",
+        "production-0e05014bd0ddfc48a5594276",
         "production-0c59e2806ecb94b5fe980374",
         "production-0933b035c0ff10f36e95e045",
         "production-08125acff1f10666e8327f72",
@@ -378,6 +380,7 @@ window.PROTOTYPE = {
       "production-e74a9c430789a23ef97e0ab9": "2026-11-04T17:34:19-08:00",
       "production-c69e01bfe411b23c7c7ad7e7": "2026-11-04T17:51:59-08:00",
       "production-50fc3c8062a9f0dcfd5a2ad3": "2026-11-04T17:51:59-08:00",
+      "production-f18b4eadc0a38dda9d70321b": "2026-11-04T18:05:09-08:00",
       "production-858ec060cfe5fb6b54b9c38c": "2026-11-04T18:05:09-08:00",
       "production-31538a5cdfd937a7a48a4612": "2026-11-04T18:23:28-08:00",
       "production-6ac654ef6e973cc87f1a9cd4": "2026-11-04T18:39:45-08:00",
@@ -428,7 +431,9 @@ window.PROTOTYPE = {
       "production-6a299291a8715aec082acd8e": "2026-11-10T16:34:32-08:00",
       "production-0e20ee5a91b414b8d63dbdf9": "2026-11-10T16:45:50-08:00",
       "production-e1490a637dc7d32ad9ab9885": "2026-11-10T16:45:50-08:00",
-      "production-15a7f35654a7269f54524f1b": "2026-11-10T16:45:50-08:00"
+      "production-15a7f35654a7269f54524f1b": "2026-11-10T16:45:50-08:00",
+      "production-0e05014bd0ddfc48a5594276": "2026-11-10T17:01:09-08:00",
+      "production-acfc140fe78f6656dc436309": "2026-11-10T17:01:09-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2183,6 +2188,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "源杰科技2026年10月23日公告，预计2026年第三季度营业收入65,000.00万至70,000.00万元，同比增长264.56%至292.60%；归属于母公司所有者的净利润40,300.00万至45,300.00万元，同比增长578.85%至659.70%。公司表示，目前生产经营活动及订单交付正常开展，上述业绩数据为预计数。"
         },
+        "production-f18b4eadc0a38dda9d70321b": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "2026年10月31日，陕西源杰半导体科技股份有限公司披露未经审计的第三季度报告：第三季度营业收入约人民币6.84亿元，同比增长283.55%；归属于上市公司股东的净利润约人民币4.17亿元，同比增长598.96%。报告已于10月30日经董事会审议通过。"
+        },
         "production-be21aeb63f21ca04bb1f9c64": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -2742,6 +2754,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安炬光科技股份有限公司2026年10月30日公告，2026年1月1日至9月30日计提各类资产减值准备人民币8,516.83万元，减少合并报表利润总额8,516.83万元，未计算所得税影响。相关资产减值损失和信用减值损失数据未经会计师事务所审计。"
+        },
+        "production-0e05014bd0ddfc48a5594276": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "秦川机床2026年10月30日公告，董事会已审议通过前三季度利润分配预案，拟以现有总股本1,023,145,837股为基数，每10股派发现金股利0.36元（含税），合计36,833,250.13元（含税），不送红股、不以资本公积转增股本。预案拟提交11月16日召开的第三次临时股东会审议，通过后方可实施；实施前总股本如有变动，拟维持现金分红比例不变并相应调整分红总额。"
+        },
+        "production-acfc140fe78f6656dc436309": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "博通股份2026年10月30日披露三季报，前三季度营业收入234,277,086.49元人民币，归属于上市公司股东的净利润50,972,261.51元人民币，按上年同期追溯调整后口径分别增长4.55%和12.58%。第三季度财务报表未经审计。"
         }
       }
     },
@@ -2751,8 +2777,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-10-70bf25ccf367",
-      "editionId": "selection-a9a9dc922200e105e24a",
+      "sourceEditionId": "2026-11-10-39ebeee938d0",
+      "editionId": "selection-d4195c1958016e992940",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -5700,6 +5726,18 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-600455-sh",
+      "type": "listed",
+      "name": "博通股份",
+      "code": "600455.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-001299-sz",
       "type": "listed",
       "name": "美能能源",
@@ -5756,19 +5794,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "中再资环",
       "code": "600217.SH",
-      "market": "SH",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-600455-sh",
-      "type": "listed",
-      "name": "博通股份",
-      "code": "600455.SH",
       "market": "SH",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -31380,6 +31405,49 @@ window.PROTOTYPE = {
             }
           ],
           "tables": []
+        },
+        {
+          "id": "production-f18b4eadc0a38dda9d70321b",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "第三季度归母净利润约4.17亿元，同比增长598.96%",
+          "summary": "2026年10月31日，陕西源杰半导体科技股份有限公司披露未经审计的第三季度报告：第三季度营业收入约人民币6.84亿元，同比增长283.55%；归属于上市公司股东的净利润约人民币4.17亿元，同比增长598.96%。报告已于10月30日经董事会审议通过。",
+          "stage": "2026年10月30日董事会审议通过第三季度报告，本轮披露未经审计季度财务数据；关键财务表格尚待原页核验",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-05T10:10:38+08:00",
+          "updatedAt": "2026-11-04T18:05:09-08:00",
+          "compiledAt": "2026-11-04T18:05:09-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "源杰科技",
+          "version": "f18b4eadc0a38dda9d70321bc05e625509fcf07e2ce1aa3859117a8089b26551",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西源杰半导体科技股份有限公司2026年第三季度报告",
+              "publisher": "陕西源杰半导体科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页主要财务数据及审计状态；第2页报告期定义；报告落款日期为2026年10月30日",
+              "retrievedAt": "2026-11-05T08:07:01+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648199.PDF"
+            },
+            {
+              "title": "陕西源杰半导体科技股份有限公司第二届董事会第三十四次会议决议公告",
+              "publisher": "陕西源杰半导体科技股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页会议召开情况及第一项议案",
+              "retrievedAt": "2026-11-05T08:06:59+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225648269.PDF"
+            }
+          ],
+          "tables": []
         }
       ]
     },
@@ -36118,6 +36186,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T08:54:40+08:00",
           "updatedAt": "2026-11-10T16:45:50-08:00",
           "compiledAt": "2026-11-10T16:45:50-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -36170,6 +36239,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T08:54:40+08:00",
           "updatedAt": "2026-11-10T16:45:50-08:00",
           "compiledAt": "2026-11-10T16:45:50-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -36216,6 +36286,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T08:54:40+08:00",
           "updatedAt": "2026-11-10T16:45:51-08:00",
           "compiledAt": "2026-11-10T16:45:51-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -36241,9 +36312,208 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-651a3e76ef4110157056",
+      "objectId": "listed-000837-sz",
+      "type": "权益分派",
+      "topics": [
+        "现金分红预案",
+        "董事会审议通过",
+        "拟提交临时股东会"
+      ],
+      "updates": [
+        {
+          "id": "production-0e05014bd0ddfc48a5594276",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "前三季度拟每10股派0.36元，尚待股东会审议",
+          "summary": "秦川机床2026年10月30日公告，董事会已审议通过前三季度利润分配预案，拟以现有总股本1,023,145,837股为基数，每10股派发现金股利0.36元（含税），合计36,833,250.13元（含税），不送红股、不以资本公积转增股本。预案拟提交11月16日召开的第三次临时股东会审议，通过后方可实施；实施前总股本如有变动，拟维持现金分红比例不变并相应调整分红总额。",
+          "stage": "董事会已审议通过，拟于2026年11月16日提交第三次临时股东会审议，尚未实施",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T17:01:09-08:00",
+          "compiledAt": "2026-11-10T17:01:09-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "秦川机床",
+          "version": "0e05014bd0ddfc48a559427697d701183b7922b5cdad267dc944c7fd95ac1386",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于2026年前三季度利润分配预案的公告",
+              "publisher": "秦川机床工具集团股份公司",
+              "date": "2026-10-30",
+              "location": "物理第1—2页，审议程序、利润分配预案及风险提示",
+              "retrievedAt": "2026-11-05T08:04:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644445.PDF"
+            },
+            {
+              "title": "第九届董事会第二十七次会议决议公告",
+              "publisher": "秦川机床工具集团股份公司",
+              "date": "2026-10-30",
+              "location": "物理第2页，第3项议案",
+              "retrievedAt": "2026-11-05T08:04:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644446.PDF"
+            },
+            {
+              "title": "关于召开2026年第三次临时股东会的通知",
+              "publisher": "秦川机床工具集团股份公司",
+              "date": "2026-10-30",
+              "location": "物理第1—2页，会议时间及提案表",
+              "retrievedAt": "2026-11-05T08:04:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644447.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-328e4b04a90bf3b23f55",
+      "objectId": "listed-600455-sh",
+      "type": "定期报告",
+      "topics": [
+        "第三季度财务披露",
+        "同比采用追溯调整后数据"
+      ],
+      "updates": [
+        {
+          "id": "production-acfc140fe78f6656dc436309",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "前三季度归母净利润5,097.23万元，按调整后口径同比增长12.58%",
+          "summary": "博通股份2026年10月30日披露三季报，前三季度营业收入234,277,086.49元人民币，归属于上市公司股东的净利润50,972,261.51元人民币，按上年同期追溯调整后口径分别增长4.55%和12.58%。第三季度财务报表未经审计。",
+          "stage": "第三季度报告已披露，财务报表未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T17:01:10-08:00",
+          "compiledAt": "2026-11-10T17:01:10-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "博通股份",
+          "version": "acfc140fe78f6656dc436309172417fd30ffe38721117df8853b314b4fe15949",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "博通股份2026年第三季度报告",
+              "publisher": "西安博通资讯股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1—2页，审计状态、主要会计数据和财务指标及追溯调整说明",
+              "retrievedAt": "2026-11-05T08:05:43+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639389.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-d4195c1958016e992940",
+      "date": "2026-11-11",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-11T09:07:09+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-9041551624dc78082a4d96bd"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-d4195c1958016e992940/page-01.png",
+          "width": 1080,
+          "height": 1996,
+          "sha256": "35cce5c6b8d7c9d4de6dd2706c299c554d18ff0e57e71b8f22ab7b2b64281a89"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-10-39ebeee938d0",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-16",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-a9a9dc922200e105e24a",
       "date": "2026-11-11",
@@ -42070,6 +42340,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "c94bfe932db54f00abd6",
+      "date": "2026-11-11",
+      "compiledAt": "2026-11-10T16:45:52-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/c94bfe932db54f00abd6/index.html",
+      "publishedAt": "2026-11-11T08:54:40+08:00"
+    },
     {
       "id": "a10813614900f114a0b5",
       "date": "2026-11-11",
