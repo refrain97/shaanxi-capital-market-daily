@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-11-65437770403a",
-      "compiledAt": "2026-11-11T11:12:52-08:00",
+      "id": "2026-11-11-e1e68cdcb514",
+      "compiledAt": "2026-11-11T11:27:46-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -198,6 +198,7 @@ window.PROTOTYPE = {
         "production-fd1dcc4eb12a38d98708da95",
         "production-f44fdb9a52143d7d13f7b770",
         "production-f39cbfe5bae0ecb3eb8d0456",
+        "production-f1fe5610650489487921d896",
         "production-eaec55581de72d9343dffb98",
         "production-dfe5f92bb04074c080f3d02b",
         "production-d905662ab5d04e26da207c63",
@@ -206,6 +207,7 @@ window.PROTOTYPE = {
         "production-c31ca45664e1efde405463da",
         "production-c15d2c0723270834d8aac9bc",
         "production-b72a1fd942ce04fe50d71b21",
+        "production-ada99e9697f7e048606d7298",
         "production-a1576c9212c37cae880d7335",
         "production-a1494dcf1023c13e3298461d",
         "production-a0232031d759c9e4d9c1d997",
@@ -240,6 +242,7 @@ window.PROTOTYPE = {
         "production-2be19c48e720fad0969c85c0",
         "production-2b899e0aa09b479a0ad0565e",
         "production-27781090f8dc20790f5d76bd",
+        "production-25ed2fac43c141594be1218c",
         "production-1f095b5fd4b1cceeb44c6195",
         "production-1d6e0f06b04a487eb44e7634",
         "production-17f9b546d130e7e7e7fb4135",
@@ -794,7 +797,10 @@ window.PROTOTYPE = {
       "production-44702086b9d2203dac68a902": "2026-11-11T11:01:34-08:00",
       "production-d905662ab5d04e26da207c63": "2026-11-11T11:03:16-08:00",
       "production-51d5c9166c131ab2b12d2659": "2026-11-11T11:08:48-08:00",
-      "production-5f9f3c53f501face2a59dbec": "2026-11-11T11:12:51-08:00"
+      "production-5f9f3c53f501face2a59dbec": "2026-11-11T11:12:51-08:00",
+      "production-ada99e9697f7e048606d7298": "2026-11-11T11:24:18-08:00",
+      "production-25ed2fac43c141594be1218c": "2026-11-11T11:27:44-08:00",
+      "production-f1fe5610650489487921d896": "2026-11-11T11:27:44-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -4397,6 +4403,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "中航富士达科技股份有限公司2026年10月28日披露，公司于10月27日召开董事会，以9票同意、0票反对、0票弃权审议通过修订《股东会议事规则》的议案。该制度尚需提交公司2026年第二次临时股东会审议。"
+        },
+        "production-ada99e9697f7e048606d7298": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "富士达2026年10月28日公告，董事会于10月27日审议通过终止生产科研楼建设及生产研发能力提升项目的议案，该项目此前规划总投资为2.8亿元。公司表示，因业务布局及发展需求变化，继续按原方案实施的必要性有所降低；终止事项尚需提交拟于2026年11月13日召开的股东会审议。"
+        },
+        "production-25ed2fac43c141594be1218c": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "中航富士达科技股份有限公司2026年10月28日公告，董事会审议通过聘任常国亮为董事会秘书，自2026年10月27日起生效，任期至第八届董事会任期届满之日止。朱克元自同日起不再担任董事会秘书，继续担任公司副总经理、财务负责人。"
+        },
+        "production-f1fe5610650489487921d896": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西煤业2026年10月28日披露，董事会于10月27日审议通过日常关联交易议案，拟将2026年度向陕煤集团或其下属相关关联企业采购原料、材料和设备、接受工程劳务和综合服务的预计金额由4,555,290万元调至4,800,000万元。2027年度上述类别预计金额为5,170,000万元，均属预计发生金额，相关议案尚需提交股东会审议。"
         }
       }
     },
@@ -4406,8 +4433,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-11-65437770403a",
-      "editionId": "selection-9f247858fdecef2b4444",
+      "sourceEditionId": "2026-11-11-e1e68cdcb514",
+      "editionId": "selection-770ea76edfef3fa9528c",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -49599,6 +49626,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-12T03:22:17+08:00",
           "updatedAt": "2026-11-11T11:08:48-08:00",
           "compiledAt": "2026-11-11T11:08:48-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -49651,6 +49679,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-12T03:22:17+08:00",
           "updatedAt": "2026-11-11T11:12:51-08:00",
           "compiledAt": "2026-11-11T11:12:51-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -49684,9 +49713,568 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-a1bd5f455573e9062bf6",
+      "objectId": "listed-920640-bj",
+      "type": "自建项目拟终止",
+      "topics": [
+        "生产科研楼建设及生产研发能力提升项目",
+        "拟终止"
+      ],
+      "updates": [
+        {
+          "id": "production-ada99e9697f7e048606d7298",
+          "date": "2026-10-28",
+          "time": "",
+          "title": "拟终止生产科研楼建设及生产研发能力提升项目",
+          "summary": "富士达2026年10月28日公告，董事会于10月27日审议通过终止生产科研楼建设及生产研发能力提升项目的议案，该项目此前规划总投资为2.8亿元。公司表示，因业务布局及发展需求变化，继续按原方案实施的必要性有所降低；终止事项尚需提交拟于2026年11月13日召开的股东会审议。",
+          "stage": "2026-10-27董事会通过拟终止议案，尚需股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T11:24:18-08:00",
+          "compiledAt": "2026-11-11T11:24:18-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "富士达",
+          "version": "ada99e9697f7e048606d72988ab3bcfbbe40af60f4e36aff9e0596008ecdb30a",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第八届董事会第二十二次会议决议公告",
+              "publisher": "中航富士达科技股份有限公司",
+              "date": "2026-10-28",
+              "location": "物理第4—6页，议案（五）；第8页落款",
+              "retrievedAt": "2026-11-05T08:07:16+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225638613.PDF"
+            },
+            {
+              "title": "关于召开2026年第二次临时股东会通知公告（提供网络投票）",
+              "publisher": "中航富士达科技股份有限公司",
+              "date": "2026-10-28",
+              "location": "物理第2页会议时间、第3页议案2.00",
+              "retrievedAt": "2026-11-05T08:07:18+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225638611.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-fd4da4839ec611b12a4e",
+      "objectId": "listed-920640-bj",
+      "type": "上市公司人事",
+      "topics": [
+        "董事会秘书变更",
+        "常国亮",
+        "朱克元"
+      ],
+      "updates": [
+        {
+          "id": "production-25ed2fac43c141594be1218c",
+          "date": "2026-10-28",
+          "time": "",
+          "title": "聘任常国亮为董事会秘书，朱克元继续担任副总经理及财务负责人",
+          "summary": "中航富士达科技股份有限公司2026年10月28日公告，董事会审议通过聘任常国亮为董事会秘书，自2026年10月27日起生效，任期至第八届董事会任期届满之日止。朱克元自同日起不再担任董事会秘书，继续担任公司副总经理、财务负责人。",
+          "stage": "董事会审议通过，聘任及职务调整自2026-10-27生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T11:27:44-08:00",
+          "compiledAt": "2026-11-11T11:27:44-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "富士达",
+          "version": "25ed2fac43c141594be1218c2369584e3b6de5d084b99ead24bc7d1d82cd7b46",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "中航富士达科技股份有限公司董事会秘书变动及内部审计负责人变动公告",
+              "publisher": "中航富士达科技股份有限公司",
+              "date": "2026-10-28",
+              "location": "物理第1—2页：董事会秘书聘任及离任情况；第3页：公告落款",
+              "retrievedAt": "2026-11-05T08:07:16+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225638617.PDF"
+            },
+            {
+              "title": "中航富士达科技股份有限公司第八届董事会第二十二次会议决议公告",
+              "publisher": "中航富士达科技股份有限公司",
+              "date": "2026-10-28",
+              "location": "物理第6—7页：第七项议案",
+              "retrievedAt": "2026-11-05T08:07:16+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225638613.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-e4d682c90790e874d22e",
+      "objectId": "listed-601225-sh",
+      "type": "日常关联交易额度调整及年度预计",
+      "topics": [
+        "2026年度采购额度调整",
+        "2027年度日常关联交易预计",
+        "财务公司存贷款及票据服务"
+      ],
+      "updates": [
+        {
+          "id": "production-f1fe5610650489487921d896",
+          "date": "2026-10-28",
+          "time": "",
+          "title": "拟上调2026年度关联采购及服务预计金额，并披露2027年度预计",
+          "summary": "陕西煤业2026年10月28日披露，董事会于10月27日审议通过日常关联交易议案，拟将2026年度向陕煤集团或其下属相关关联企业采购原料、材料和设备、接受工程劳务和综合服务的预计金额由4,555,290万元调至4,800,000万元。2027年度上述类别预计金额为5,170,000万元，均属预计发生金额，相关议案尚需提交股东会审议。",
+          "stage": "董事会审议通过，尚需提交股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T11:27:45-08:00",
+          "compiledAt": "2026-11-11T11:27:45-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西煤业",
+          "version": "f1fe5610650489487921d89620574cee22132fe8e5fce00b9951f760898690dc",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西煤业股份有限公司日常关联交易的公告",
+              "publisher": "陕西煤业股份有限公司",
+              "date": "2026-10-28",
+              "location": "物理第1页：审议程序；第3—4页：2026年度调整及2027年度预计表；第9页落款日期为2026年10月27日",
+              "retrievedAt": "2026-11-05T08:06:34+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225627973.PDF"
+            },
+            {
+              "title": "陕西煤业股份有限公司第四届董事会第十次会议决议公告",
+              "publisher": "陕西煤业股份有限公司",
+              "date": "2026-10-28",
+              "location": "物理第2页：第四项议案；第3页落款日期为2026年10月27日",
+              "retrievedAt": "2026-11-05T08:06:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628005.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-770ea76edfef3fa9528c",
+      "date": "2026-11-12",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-12T03:28:39+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-0bdc78513ea25a163acc9f27",
+        "production-8d4c60094072d75fd7aa6a22",
+        "production-6b189fe20974e4ec4ab4294c",
+        "production-e520619f4db9789df1cc4cd4",
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-5de5b66ee0e60c5fb1bee6ac",
+        "production-abd0c5d25e049a4f7bd017ae",
+        "production-6bf299290fa3acf8aa6f24dc",
+        "production-ff7ef06e8f4d369fdad6e9f9",
+        "production-1bf731ec4ef09df022686b43",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-de89d2fc8abdc65b3fda967f",
+        "production-656c08d50eac542d57803c5e",
+        "production-961dc504f8337563fa49ce3f",
+        "production-fde8168819b9d7206431aedd",
+        "production-1d6e0f06b04a487eb44e7634",
+        "production-5bf4e78e2fe2b8ae7a265dd4",
+        "production-9041551624dc78082a4d96bd",
+        "production-b62e6dcc3055dc4df6b48521",
+        "production-27a263b3ec6404022ef3f654",
+        "production-7f43c976040c3b082f2a015d"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-770ea76edfef3fa9528c/page-01.png",
+          "width": 1080,
+          "height": 2394,
+          "sha256": "f3121f14be18d715b5c5380d4a63a19d7966c242cab4adab72b5986f489b79ca"
+        },
+        {
+          "file": "assets/editions/selection-770ea76edfef3fa9528c/page-02.png",
+          "width": 1080,
+          "height": 2740,
+          "sha256": "c1ceba05166036b73066e8ba356e0f5c452c7cb53d72d72c4060e7ccc25c275d"
+        },
+        {
+          "file": "assets/editions/selection-770ea76edfef3fa9528c/page-03.png",
+          "width": 1080,
+          "height": 2606,
+          "sha256": "c0a49f8375b94989f4fe3a272b5b82ae0578fef5c6f2a8365e3d2249db848bbc"
+        },
+        {
+          "file": "assets/editions/selection-770ea76edfef3fa9528c/page-04.png",
+          "width": 1080,
+          "height": 2394,
+          "sha256": "570758e32189cb63245a0cd9cf825ff68021af80525cc37acc5f7f4b2151face"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-11-e1e68cdcb514",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-06-12",
+      "rangeEnd": "2026-10-31",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-32c059172c74da96a014",
+          "updateId": "production-0bdc78513ea25a163acc9f27",
+          "version": "0bdc78513ea25a163acc9f27159c25636acecf3918027d9592d160d01dcb0c56",
+          "objectName": "航天电子",
+          "type": "listed",
+          "category": "股权置换及同一控制下企业合并进展",
+          "date": "2026-10-30",
+          "title": "披露西安太乙股权置换的合并会计处理",
+          "business": "投资银行",
+          "share": {
+            "title": "股权置换按同一控制下合并追溯调整",
+            "facts": "三季报披露，控股子公司时代光电以北京航天兴华科技有限公司100%股权置换西安太乙电子有限公司58%股权，作价分别为64,500.50万元、64,970.61万元，现金补差470.11万元。本期按同一控制下合并追溯调整；视同期初取得控制权属会计口径，具体工商交割日及补差款实际支付状态未核实。"
+          }
+        },
+        {
+          "eventId": "production-event-f79f9b1e59238de24f37",
+          "updateId": "production-8d4c60094072d75fd7aa6a22",
+          "version": "8d4c60094072d75fd7aa6a227d6087fe8afef709d4931ed83c42f897d496e404",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "再融资",
+          "date": "2026-10-30",
+          "title": "拟将2024年度定增决议及授权有效期延至2027年11月27日",
+          "business": "投资银行",
+          "share": {
+            "title": "拟将定增决议及授权有效期延长12个月",
+            "facts": "公告，董事会通过延期议案，拟将2024年度定增决议及授权有效期延至2027年11月27日，尚需股东会审议。该定增拟由实控人贺增林控制的君耀领航全额认购，募资不超过7亿元，扣除发行费用后全部补流；本次延期不代表发行完成或资金到账。"
+          }
+        },
+        {
+          "eventId": "production-event-87b52efa39548c8feae7",
+          "updateId": "production-6b189fe20974e4ec4ab4294c",
+          "version": "6b189fe20974e4ec4ab4294cb984fbfa3f1f1df826ae2a6e818b0d1e4d2efaaa",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "宝鸡供热公司100%股权内部划转已完成工商登记",
+          "business": "投资银行",
+          "share": {
+            "title": "内部无偿划转100%股权完成工商登记",
+            "facts": "7月全资子公司陕西美能新能源有限公司将所持宝鸡市美能清洁供热有限公司100%股权，无偿划转至另一全资子公司宝鸡市美能天然气有限公司；截至三季度报告期末已完成工商登记，本次进一步明确登记完成阶段。"
+          }
+        },
+        {
+          "eventId": "production-event-c4e0e90f4650591e20c5",
+          "updateId": "production-e520619f4db9789df1cc4cd4",
+          "version": "e520619f4db9789df1cc4cd4b05fb36e7fe18031795699b59e29eb307d530926",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "完成韩城供热公司100%股权内部划转登记",
+          "business": "投资银行",
+          "share": {
+            "title": "供热公司100%股权内部划转完成登记",
+            "facts": "7月陕西美能新能源有限公司将韩城市美能清洁供热有限公司100%股权无偿划转至韩城市美能天然气有限责任公司，双方均为其全资子公司。截至9月30日已完成工商登记，本次三季报补充登记完成状态。"
+          }
+        },
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-9b9658b42bf0db44addc",
+          "updateId": "production-5de5b66ee0e60c5fb1bee6ac",
+          "version": "5de5b66ee0e60c5fb1bee6acc2f476fcebe714a9b81a2b3330d9c28a4ac2e101",
+          "objectName": "天地源",
+          "type": "listed",
+          "category": "资产出售筹划",
+          "date": "2026-06-12",
+          "title": "三季报续披露地产资产出售筹划，具体范围仍待协商",
+          "business": "投资银行",
+          "share": {
+            "title": "地产资产出售仍在筹划，范围待协商",
+            "facts": "天地源2026年10月29日三季报续披露，拟出售部分房地产开发业务相关资产及负债，范围待协商。6月12日公告列意向受让方为西安高科集团或其指定关联方，当时价格未定、未签协议，是否构成重大资产重组尚无法确定。三季报未披露新增价格、协议、审批或交割结果，不能确认已实施。"
+          }
+        },
+        {
+          "eventId": "production-event-386a04db9a601c5db435",
+          "updateId": "production-abd0c5d25e049a4f7bd017ae",
+          "version": "abd0c5d25e049a4f7bd017ae348758a8076d6ab484c6082b2b977a60b1520884",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励价格调整",
+          "date": "2026-10-31",
+          "title": "2025年激励计划授予价调至101.23元/股，覆盖首次及预留授予",
+          "business": "股份管理",
+          "share": {
+            "title": "2025年激励授予价降至101.23元/股",
+            "facts": "董事会于10月30日通过调整2025年激励计划首次及预留授予价格，由102.23元/股降至101.23元/股。本次调整对应已实施的半年度权益分派，不代表新增授予或归属登记完成。"
+          }
+        },
+        {
+          "eventId": "production-event-b95b862749ec79c6ac1d",
+          "updateId": "production-6bf299290fa3acf8aa6f24dc",
+          "version": "6bf299290fa3acf8aa6f24dc5cee53461c8aff361e8abd7db5fd2944a343c92a",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励归属进展",
+          "date": "2026-10-31",
+          "title": "2024年激励计划首次授予第二期条件成就，159人拟归属187,597股",
+          "business": "股份管理",
+          "share": {
+            "title": "首次授予第二期条件成就，159人拟归属",
+            "facts": "董事会于10月30日同意为2024年激励计划首次授予部分第二个归属期159人办理187,597股归属，调整后授予价43.78元/股。归属条件已成就，所覆盖公告未披露本期实际缴款、股份登记完成或上市流通结果。"
+          }
+        },
+        {
+          "eventId": "production-event-1ebbe325af806e414aff",
+          "updateId": "production-ff7ef06e8f4d369fdad6e9f9",
+          "version": "ff7ef06e8f4d369fdad6e9f9bfe228638b59593d4fbcb16ad6a626f3507d780a",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励归属进展",
+          "date": "2026-10-31",
+          "title": "2025年激励计划首期179,422股获准办理归属",
+          "business": "股份管理",
+          "share": {
+            "title": "首期179,422股获准办理归属",
+            "facts": "2025年限制性股票激励计划首次授予部分首个归属期条件已成就，董事会同意为318人办理179,422股归属，调整后授予价101.23元/股。截至披露日，该计划授予股票尚未归属，本次批准不等于登记完成或上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-e39415dfdb18b75f9e5f",
+          "updateId": "production-1bf731ec4ef09df022686b43",
+          "version": "1bf731ec4ef09df022686b438398390893dfc7259359edd93219f31115d5565c",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励股份作废",
+          "date": "2026-10-31",
+          "title": "6名激励对象离职，17,672股未归属权益获批作废",
+          "business": "股份管理",
+          "share": {
+            "title": "17,672股获批作废，归属办理获批",
+            "facts": "董事会于10月30日批准作废2025年限制性股票激励计划首次授予部分6名离职对象尚未归属的17,672股，并同意为318名符合条件的激励对象办理179,422股归属；归属办理获批不代表登记或上市流通已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-540f0beca84dcf3374da",
+          "updateId": "production-de89d2fc8abdc65b3fda967f",
+          "version": "de89d2fc8abdc65b3fda967f4a92692741d79bf54c536fe8ed972789c29baf14",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "股份解禁",
+          "date": "2026-10-30",
+          "title": "三季报确认张发群354.321万股已解除限售，半年末已无限售",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报重列既有解禁，非三季度新增",
+            "facts": "三季报列示，张发群354.321万股已解除限售，9月末持股354.321万股、占0.68%，限售股为零。半年报已显示6月末限售股为零，本次属再次披露，并非三季度新增解禁；两期末持股相同不足以证明期间无交易。"
+          }
+        },
+        {
+          "eventId": "production-event-7ee89c1a82937112b694",
+          "updateId": "production-656c08d50eac542d57803c5e",
+          "version": "656c08d50eac542d57803c5e8faf179f3c0c0d968b122502e2ab762c3226ecf7",
+          "objectName": "节能环境",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-10-29",
+          "title": "三季报确认中国环保逾20亿股解除限售，仍有不主动减持承诺",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报确认解禁结果，仍有不主动减持承诺",
+            "facts": "三季报确认，中国环境保护集团有限公司2,075,144,678股已于7月20日解除限售；截至9月30日仍持股66.96%。其承诺2026年7月20日至2027年1月19日不主动减持所持A股，按国资监管要求无偿划转除外。"
+          }
+        },
+        {
+          "eventId": "production-event-e31a70d7a2e0db5882ed",
+          "updateId": "production-961dc504f8337563fa49ce3f",
+          "version": "961dc504f8337563fa49ce3fbb89dfe5c6dc34a26e96d7ebaeecc929ea3c625a",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "限售股份解除",
+          "date": "2026-10-28",
+          "title": "三季报延续杨效东24.75万股解限记录，半年报已披露",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报列示既有24.75万股解限记录",
+            "facts": "三季报列示杨效东（已离任）24.75万股解限记录，期末锁定股74.25万股。数据与半年报一致，并非第三季度或10月新增解禁；具体办理日期未披露，解限不等于实际减持。"
+          }
+        },
+        {
+          "eventId": "production-event-dc73342c7053bdd450f2",
+          "updateId": "production-fde8168819b9d7206431aedd",
+          "version": "fde8168819b9d7206431aeddce91f4d4a4cc74905a0dea76589253354b1dae60",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "第二批预留激励6人可归属48.4250万股，董事会同意办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第二批48.4250万股获准办理归属",
+            "facts": "董事会同意办理2025年限制性股票激励计划预留第二批首个归属期归属，涉及6人、48.4250万股，调整后授予价9.33元/股。现有披露不能证明缴款、登记或上市流通已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-d8ffbfcb5d9da156bf79",
+          "updateId": "production-1d6e0f06b04a487eb44e7634",
+          "version": "1d6e0f06b04a487eb44e76343622399aa17e3eeaf2491d76c541aafce877a01b",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "预留第一批22.9937万股归属条件成就，其中9.75万股暂缓办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第一批归属条件成就，9.75万股暂缓",
+            "facts": "2025年限制性股票激励计划预留第一批首个归属期条件成就，7人可归属22.9937万股，调整后授予价9.33元/股。其中武莹、郑正东因个人资金安排等原因暂缓办理9.75万股；现有材料不能证明出资、登记或上市已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-806cb6cd43c249fcbfc9",
+          "updateId": "production-5bf4e78e2fe2b8ae7a265dd4",
+          "version": "5bf4e78e2fe2b8ae7a265dd474c24d3e5a91caa86b8ad13315a860472bdfd49e",
+          "objectName": "美畅股份",
+          "type": "listed",
+          "category": "限售股份变动披露",
+          "date": "2026-10-28",
+          "title": "三季报续列吴英解除限售1股，一季报已披露相同变动",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报续列解除限售1股，非三季度新增",
+            "facts": "披露三季报，吴英本期解除限售1股的记录与一季报相同，不属于第三季度新增解禁。期末限售股为249,975,550股；表列2027年9月29日为拟解除限售日，并非该1股实际办理日，也不代表剩余股份已解禁或出售。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        },
+        {
+          "eventId": "production-event-4b3290072b75e126a6f2",
+          "updateId": "production-b62e6dcc3055dc4df6b48521",
+          "version": "b62e6dcc3055dc4df6b485215743054ba9728ac00e2e30c7164fcf08985efb5e",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "员工持股",
+          "date": "2026-09-16",
+          "title": "员工持股计划完成1,369.66万股过户，股份解锁受考核约束",
+          "business": "股份管理",
+          "share": {
+            "title": "员工持股计划完成1369.66万股过户",
+            "facts": "公告，员工持股计划实际筹资35,200,262元，来自参加对象自筹；9月14日完成1,369.66万股历史回购股份非交易过户。股份按12、24、36个月分批解锁，受公司业绩及个人绩效考核约束，过户完成不代表解锁。"
+          }
+        },
+        {
+          "eventId": "production-event-a1c7a43f5f6daa7ce936",
+          "updateId": "production-27a263b3ec6404022ef3f654",
+          "version": "27a263b3ec6404022ef3f654e4392911c1773b9b8123e174157ecc727664864c",
+          "objectName": "宝钛股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-29",
+          "title": "赎回3,200万元募集资金结构性存款，取得收益12.69万元",
+          "business": "机构理财",
+          "share": {
+            "title": "到期赎回3,200万元结构性存款",
+            "facts": "公告，10月27日到期赎回工商银行结构性存款本金3,200万元，取得收益12.69万元。该产品使用闲置可转债募集资金，属于现金管理授权下的执行进展，公告未披露本次续购安排。"
+          }
+        },
+        {
+          "eventId": "production-event-68ec2e801d6d69842f1e",
+          "updateId": "production-7f43c976040c3b082f2a015d",
+          "version": "7f43c976040c3b082f2a015d92b26d07c9c038677bef9ae8300f07746342cf10",
+          "objectName": "金钼股份",
+          "type": "listed",
+          "category": "业绩快报",
+          "date": "2026-10-28",
+          "title": "前三季度归母净利润同比增长30.94%",
+          "business": "上市公司业绩",
+          "share": {
+            "title": "前三季度归母净利润增长30.94%",
+            "facts": "披露三季报：前三季度营业收入约124.46亿元，同比增长14.34%；归母净利润约29.94亿元，同比增长30.94%，金额均为人民币。第三季度财务报表未经审计。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-9f247858fdecef2b4444",
       "date": "2026-11-12",
@@ -72475,6 +73063,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "3cc9767e8c9a9b356d28",
+      "date": "2026-11-12",
+      "compiledAt": "2026-11-11T11:12:52-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/3cc9767e8c9a9b356d28/index.html",
+      "publishedAt": "2026-11-12T03:22:17+08:00"
+    },
     {
       "id": "6cc4617dce22b8e64f65",
       "date": "2026-11-12",
