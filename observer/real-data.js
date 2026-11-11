@@ -3173,7 +3173,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-11-11-3bfbbc33ea37",
       "editionId": "selection-d251b0458dffa9ea7db8",
       "selectionMode": "current"
@@ -40377,6 +40377,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T18:18:39+08:00",
           "updatedAt": "2026-11-11T02:11:39-08:00",
           "compiledAt": "2026-11-11T02:11:39-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -51467,6 +51468,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "9900e8048e33e2863f28",
+      "date": "2026-11-11",
+      "compiledAt": "2026-11-11T02:11:39-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/9900e8048e33e2863f28/index.html",
+      "publishedAt": "2026-11-11T18:18:39+08:00"
+    },
     {
       "id": "facc490e7b4372bd8d09",
       "date": "2026-11-11",
