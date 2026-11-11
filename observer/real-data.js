@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-11-abdc11a3ea98",
-      "compiledAt": "2026-11-11T07:22:00-08:00",
+      "id": "2026-11-11-4b14ed39a4b0",
+      "compiledAt": "2026-11-11T07:34:20-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -132,7 +132,9 @@ window.PROTOTYPE = {
         "production-b007ff31d6e65f3aa8d5e818",
         "production-af01c48ce2652a6d874fc226",
         "production-ad38af877f1acdd2f9219289",
+        "production-a2587675e43c33b29ff186a2",
         "production-a2310d9fb78aa21759adb5e1",
+        "production-9beb12ddf224e252df1fcaf1",
         "production-98988a95868ab264786f3bfb",
         "production-93f76e2c78c226f5338fed98",
         "production-8de89e89385cbcf932f691ce",
@@ -146,6 +148,7 @@ window.PROTOTYPE = {
         "production-5ff19c4eb79375fd4fc0f9cf",
         "production-5d69d83916601ab2f3e8f86a",
         "production-5cb562d6c8b3c1f649e2be96",
+        "production-584316fda8de742f95c37cb6",
         "production-564ad23feec9ac0f8afc4f27",
         "production-54f226446f5768854d12bd20",
         "production-541d41df28649e29503e9e8d",
@@ -159,12 +162,14 @@ window.PROTOTYPE = {
         "production-3a9f24bfeb96145dfcefafdd",
         "production-3763c0344e5a96d1f488d6b7",
         "production-33ba2b30a2b5ab1a7faba393",
+        "production-323675c6593545f4b5e02849",
         "production-2cc991011fbd499da5836909",
         "production-2b55b3b52023fbf9b11ade94",
         "production-27a263b3ec6404022ef3f654",
         "production-25cf8d574fed16aebcf981d4",
         "production-2116b9f9cedc14747ea140b5",
         "production-17a07a158de98be939a2cd45",
+        "production-1703cdff02bd07d8feb44d3d",
         "production-1651348fac30f8afa2f95955",
         "production-13c3340ac16524c5c098240c",
         "production-0d6e3e421e106f18e0630d47",
@@ -652,7 +657,12 @@ window.PROTOTYPE = {
       "production-93f76e2c78c226f5338fed98": "2026-11-11T07:18:30-08:00",
       "production-13c3340ac16524c5c098240c": "2026-11-11T07:18:30-08:00",
       "production-b6bf14c55006a1da7104a4c0": "2026-11-11T07:19:46-08:00",
-      "production-5d69d83916601ab2f3e8f86a": "2026-11-11T07:21:59-08:00"
+      "production-5d69d83916601ab2f3e8f86a": "2026-11-11T07:21:59-08:00",
+      "production-1703cdff02bd07d8feb44d3d": "2026-11-11T07:28:52-08:00",
+      "production-584316fda8de742f95c37cb6": "2026-11-11T07:28:52-08:00",
+      "production-323675c6593545f4b5e02849": "2026-11-11T07:32:33-08:00",
+      "production-9beb12ddf224e252df1fcaf1": "2026-11-11T07:32:33-08:00",
+      "production-a2587675e43c33b29ff186a2": "2026-11-11T07:34:19-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -3762,6 +3772,41 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西部证券2026年10月29日披露，董事会于10月28日审议通过第三季度利润分配方案，无需提交股东会审议；拟以扣除回购专户股份后的4,463,433,805股为基数，每10股派发现金红利0.20元（含税），合计89,268,676.10元（含税）。实施前股本发生变动时保持分配比例不变，本次公告未披露具体股权登记日及派息实施日期。"
+        },
+        "production-1703cdff02bd07d8feb44d3d": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "晨曦航空2026年10月29日披露的三季报显示，截至报告期末，公司向控股股东汇聚科技申请借款人民币7900万元（包含期初余额900万元），已归还1900万元；向其一致行动人寰宇星控申请借款人民币5000万元，已归还3500万元。期末借款余额合计人民币7552.50万元，其中汇聚科技6046万元、寰宇星控1506.50万元，均含利息；报告未将汇聚科技借款执行额按各项授权拆分。"
+        },
+        "production-584316fda8de742f95c37cb6": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "航天动力2026年10月29日披露三季报，前三季度营业收入为人民币393,761,093.21元，同比下降22.72%，归属于上市公司股东的净利润为-97,321,703.56元。第三季度营业收入为人民币131,550,701.36元，同比下降27.66%，归属于上市公司股东的净利润为-40,429,678.58元；第三季度财务报表未经审计。"
+        },
+        "production-323675c6593545f4b5e02849": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "晨曦航空2026年10月29日披露的三季报显示，公司报告期内持续投入晨曦航空产业基地项目建设，公司合并口径在建工程期末余额为53,714,440.68元，较期初增长51.68%，主要由该项目持续建设所致。上述余额为公司在建工程科目总额，报告未单独披露该项目本期投入金额。"
+        },
+        "production-9beb12ddf224e252df1fcaf1": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "航天动力2026年10月29日披露的三季报显示，2026年前三季度合并口径“收到其他与筹资活动有关的现金”为人民币3,000万元，公司说明主要为本期收到非金融机构借款。报告未披露该借款的具体出借人、利率及期限。"
+        },
+        "production-a2587675e43c33b29ff186a2": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西部证券2026年10月29日披露，董事会于10月28日以11票同意、0票反对、0票弃权审议通过2026年第三季度报告，报告全文与决议同日披露。公司第三季度财务会计报告未经审计。"
         }
       }
     },
@@ -3771,8 +3816,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-11-abdc11a3ea98",
-      "editionId": "selection-176cc08af46929fd0f72",
+      "sourceEditionId": "2026-11-11-4b14ed39a4b0",
+      "editionId": "selection-6be0f6118f58f1560464",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -44677,6 +44722,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T23:27:17+08:00",
           "updatedAt": "2026-11-11T07:18:30-08:00",
           "compiledAt": "2026-11-11T07:18:30-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -44722,6 +44768,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。本次报告未单独披露宝鸡泵业产业园建设项目工程款支付金额；合并现金流量表中的购建长期资产现金支出不能全部归属于该项目。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T23:27:17+08:00",
           "updatedAt": "2026-11-11T07:18:30-08:00",
           "compiledAt": "2026-11-11T07:18:30-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -44767,6 +44814,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T23:27:17+08:00",
           "updatedAt": "2026-11-11T07:19:46-08:00",
           "compiledAt": "2026-11-11T07:19:46-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -44812,6 +44860,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T23:27:17+08:00",
           "updatedAt": "2026-11-11T07:21:59-08:00",
           "compiledAt": "2026-11-11T07:21:59-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -44845,9 +44894,555 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-993fc0dfb1c169853ff3",
+      "objectId": "listed-300581-sz",
+      "type": "股东借款执行披露",
+      "topics": [
+        "关联方借款",
+        "累计申请及归还",
+        "期末含息余额"
+      ],
+      "updates": [
+        {
+          "id": "production-1703cdff02bd07d8feb44d3d",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "三季度末向控股股东及其一致行动人借款余额7552.50万元（含息）",
+          "summary": "晨曦航空2026年10月29日披露的三季报显示，截至报告期末，公司向控股股东汇聚科技申请借款人民币7900万元（包含期初余额900万元），已归还1900万元；向其一致行动人寰宇星控申请借款人民币5000万元，已归还3500万元。期末借款余额合计人民币7552.50万元，其中汇聚科技6046万元、寰宇星控1506.50万元，均含利息；报告未将汇聚科技借款执行额按各项授权拆分。",
+          "stage": "披露截至报告期末借款申请、归还及含息余额",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T07:28:52-08:00",
+          "compiledAt": "2026-11-11T07:28:52-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "晨曦航空",
+          "version": "1703cdff02bd07d8feb44d3dd9d327ccd2ec99a9c5414daa42cc78e7317f3aa3",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年三季度报告",
+              "publisher": "西安晨曦航空科技股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第7页，三、其他重要事项之“向股东借款”",
+              "retrievedAt": "2026-11-05T08:05:11+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225635716.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-fe5dda140069c90096d3",
+      "objectId": "listed-600343-sh",
+      "type": "定期报告",
+      "topics": [
+        "第三季度业绩",
+        "前三季度累计业绩"
+      ],
+      "updates": [
+        {
+          "id": "production-584316fda8de742f95c37cb6",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "前三季度营收同比下降22.72%，归母净利润亏损",
+          "summary": "航天动力2026年10月29日披露三季报，前三季度营业收入为人民币393,761,093.21元，同比下降22.72%，归属于上市公司股东的净利润为-97,321,703.56元。第三季度营业收入为人民币131,550,701.36元，同比下降27.66%，归属于上市公司股东的净利润为-40,429,678.58元；第三季度财务报表未经审计。",
+          "stage": "第三季度报告已披露，财务报表未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T07:28:53-08:00",
+          "compiledAt": "2026-11-11T07:28:53-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "航天动力",
+          "version": "584316fda8de742f95c37cb6710708ef1eff05d308b56dd783a17f487ae9d260",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "航天动力2026年第三季度报告",
+              "publisher": "陕西航天动力高科技股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页主要会计数据和财务指标、审计提示；第2页期间定义",
+              "retrievedAt": "2026-11-05T08:05:41+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637187.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-7c4db711347904cee8c9",
+      "objectId": "listed-300581-sz",
+      "type": "自建项目进展",
+      "topics": [
+        "产业基地持续投入",
+        "在建工程"
+      ],
+      "updates": [
+        {
+          "id": "production-323675c6593545f4b5e02849",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "持续投入产业基地项目建设",
+          "summary": "晨曦航空2026年10月29日披露的三季报显示，公司报告期内持续投入晨曦航空产业基地项目建设，公司合并口径在建工程期末余额为53,714,440.68元，较期初增长51.68%，主要由该项目持续建设所致。上述余额为公司在建工程科目总额，报告未单独披露该项目本期投入金额。",
+          "stage": "报告期持续投入产业基地项目建设",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。本报告未单独披露产业基地项目本期投入金额；公司在建工程余额及长期资产购建现金支出均不能直接作为该项目本期投资额。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T07:32:33-08:00",
+          "compiledAt": "2026-11-11T07:32:33-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "晨曦航空",
+          "version": "323675c6593545f4b5e028491adf1a4944059057987130516e43d98b6cfa9ef5",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安晨曦航空科技股份有限公司2026年第三季度报告",
+              "publisher": "西安晨曦航空科技股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第3页主要资产负债项目变动原因分析、第8页合并资产负债表",
+              "retrievedAt": "2026-11-05T08:05:11+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225635716.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-06186a1d7744513cd629",
+      "objectId": "listed-600343-sh",
+      "type": "借款动态",
+      "topics": [
+        "非金融机构借款",
+        "筹资现金流"
+      ],
+      "updates": [
+        {
+          "id": "production-9beb12ddf224e252df1fcaf1",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "前三季度收到非金融机构借款",
+          "summary": "航天动力2026年10月29日披露的三季报显示，2026年前三季度合并口径“收到其他与筹资活动有关的现金”为人民币3,000万元，公司说明主要为本期收到非金融机构借款。报告未披露该借款的具体出借人、利率及期限。",
+          "stage": "报告期收到非金融机构借款，列入其他筹资现金流入",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。本报告未披露上述非金融机构借款的具体出借人、利率及期限。 第4页“支付其他与筹资活动有关的现金”的原因也写为“收到非金融机构借款”，与支出方向不一致；第11页该支出为20,000,000.00元，其与本项借款的关系不明，未据此表述还款或计算借款余额。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T07:32:34-08:00",
+          "compiledAt": "2026-11-11T07:32:34-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "航天动力",
+          "version": "9beb12ddf224e252df1fcaf172b7466e2bfd7c8a50f30a1ebe5963ddee0271ab",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西航天动力高科技股份有限公司2026年第三季度报告",
+              "publisher": "陕西航天动力高科技股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第4页财务指标变动原因、第10—11页合并现金流量表",
+              "retrievedAt": "2026-11-05T08:05:41+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637187.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-bdbddc29f15047dff287",
+      "objectId": "listed-002673-sz",
+      "type": "定期报告审议与披露",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议通过"
+      ],
+      "updates": [
+        {
+          "id": "production-a2587675e43c33b29ff186a2",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "董事会通过并披露2026年第三季度报告",
+          "summary": "西部证券2026年10月29日披露，董事会于10月28日以11票同意、0票反对、0票弃权审议通过2026年第三季度报告，报告全文与决议同日披露。公司第三季度财务会计报告未经审计。",
+          "stage": "2026年10月28日董事会审议通过第三季度报告，并公告报告全文同日披露",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T07:34:19-08:00",
+          "compiledAt": "2026-11-11T07:34:19-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西部证券",
+          "version": "a2587675e43c33b29ff186a2c7d3b2b601a926609924e4ca630b201ce6120234",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第七届董事会第七次会议决议公告",
+              "publisher": "西部证券股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页：会议召开情况、第一项议案及披露安排",
+              "retrievedAt": "2026-11-05T08:04:53+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225633956.PDF"
+            },
+            {
+              "title": "2026年第三季度报告",
+              "publisher": "西部证券股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页：重要内容提示第3项；物理第13页：审计报告",
+              "retrievedAt": "2026-11-05T08:04:54+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225633953.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-6be0f6118f58f1560464",
+      "date": "2026-11-11",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-11T23:35:26+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-0bdc78513ea25a163acc9f27",
+        "production-8d4c60094072d75fd7aa6a22",
+        "production-6b189fe20974e4ec4ab4294c",
+        "production-e520619f4db9789df1cc4cd4",
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-5de5b66ee0e60c5fb1bee6ac",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-de89d2fc8abdc65b3fda967f",
+        "production-656c08d50eac542d57803c5e",
+        "production-961dc504f8337563fa49ce3f",
+        "production-fde8168819b9d7206431aedd",
+        "production-1d6e0f06b04a487eb44e7634",
+        "production-5bf4e78e2fe2b8ae7a265dd4",
+        "production-9041551624dc78082a4d96bd",
+        "production-b62e6dcc3055dc4df6b48521",
+        "production-27a263b3ec6404022ef3f654"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-6be0f6118f58f1560464/page-01.png",
+          "width": 1080,
+          "height": 2394,
+          "sha256": "8707950ce8d601bbaf19f82df423261d7d2d9580aae7dd0bc0338364c2fe140b"
+        },
+        {
+          "file": "assets/editions/selection-6be0f6118f58f1560464/page-02.png",
+          "width": 1080,
+          "height": 2740,
+          "sha256": "2ca993207551902449c476164bbd4dd73f31523fa03297f980446f25a31fc87a"
+        },
+        {
+          "file": "assets/editions/selection-6be0f6118f58f1560464/page-03.png",
+          "width": 1080,
+          "height": 2740,
+          "sha256": "2d251e28dfdaef582b3c11dcdf6869b2e188157191a2d1b303603e8818889457"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-11-4b14ed39a4b0",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-06-12",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-32c059172c74da96a014",
+          "updateId": "production-0bdc78513ea25a163acc9f27",
+          "version": "0bdc78513ea25a163acc9f27159c25636acecf3918027d9592d160d01dcb0c56",
+          "objectName": "航天电子",
+          "type": "listed",
+          "category": "股权置换及同一控制下企业合并进展",
+          "date": "2026-10-30",
+          "title": "披露西安太乙股权置换的合并会计处理",
+          "business": "投资银行",
+          "share": {
+            "title": "股权置换按同一控制下合并追溯调整",
+            "facts": "三季报披露，控股子公司时代光电以北京航天兴华科技有限公司100%股权置换西安太乙电子有限公司58%股权，作价分别为64,500.50万元、64,970.61万元，现金补差470.11万元。本期按同一控制下合并追溯调整；视同期初取得控制权属会计口径，具体工商交割日及补差款实际支付状态未核实。"
+          }
+        },
+        {
+          "eventId": "production-event-f79f9b1e59238de24f37",
+          "updateId": "production-8d4c60094072d75fd7aa6a22",
+          "version": "8d4c60094072d75fd7aa6a227d6087fe8afef709d4931ed83c42f897d496e404",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "再融资",
+          "date": "2026-10-30",
+          "title": "拟将2024年度定增决议及授权有效期延至2027年11月27日",
+          "business": "投资银行",
+          "share": {
+            "title": "拟将定增决议及授权有效期延长12个月",
+            "facts": "公告，董事会通过延期议案，拟将2024年度定增决议及授权有效期延至2027年11月27日，尚需股东会审议。该定增拟由实控人贺增林控制的君耀领航全额认购，募资不超过7亿元，扣除发行费用后全部补流；本次延期不代表发行完成或资金到账。"
+          }
+        },
+        {
+          "eventId": "production-event-87b52efa39548c8feae7",
+          "updateId": "production-6b189fe20974e4ec4ab4294c",
+          "version": "6b189fe20974e4ec4ab4294cb984fbfa3f1f1df826ae2a6e818b0d1e4d2efaaa",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "宝鸡供热公司100%股权内部划转已完成工商登记",
+          "business": "投资银行",
+          "share": {
+            "title": "内部无偿划转100%股权完成工商登记",
+            "facts": "7月全资子公司陕西美能新能源有限公司将所持宝鸡市美能清洁供热有限公司100%股权，无偿划转至另一全资子公司宝鸡市美能天然气有限公司；截至三季度报告期末已完成工商登记，本次进一步明确登记完成阶段。"
+          }
+        },
+        {
+          "eventId": "production-event-c4e0e90f4650591e20c5",
+          "updateId": "production-e520619f4db9789df1cc4cd4",
+          "version": "e520619f4db9789df1cc4cd4b05fb36e7fe18031795699b59e29eb307d530926",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "完成韩城供热公司100%股权内部划转登记",
+          "business": "投资银行",
+          "share": {
+            "title": "供热公司100%股权内部划转完成登记",
+            "facts": "7月陕西美能新能源有限公司将韩城市美能清洁供热有限公司100%股权无偿划转至韩城市美能天然气有限责任公司，双方均为其全资子公司。截至9月30日已完成工商登记，本次三季报补充登记完成状态。"
+          }
+        },
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-9b9658b42bf0db44addc",
+          "updateId": "production-5de5b66ee0e60c5fb1bee6ac",
+          "version": "5de5b66ee0e60c5fb1bee6acc2f476fcebe714a9b81a2b3330d9c28a4ac2e101",
+          "objectName": "天地源",
+          "type": "listed",
+          "category": "资产出售筹划",
+          "date": "2026-06-12",
+          "title": "三季报续披露地产资产出售筹划，具体范围仍待协商",
+          "business": "投资银行",
+          "share": {
+            "title": "地产资产出售仍在筹划，范围待协商",
+            "facts": "天地源2026年10月29日三季报续披露，拟出售部分房地产开发业务相关资产及负债，范围待协商。6月12日公告列意向受让方为西安高科集团或其指定关联方，当时价格未定、未签协议，是否构成重大资产重组尚无法确定。三季报未披露新增价格、协议、审批或交割结果，不能确认已实施。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-540f0beca84dcf3374da",
+          "updateId": "production-de89d2fc8abdc65b3fda967f",
+          "version": "de89d2fc8abdc65b3fda967f4a92692741d79bf54c536fe8ed972789c29baf14",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "股份解禁",
+          "date": "2026-10-30",
+          "title": "三季报确认张发群354.321万股已解除限售，半年末已无限售",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报重列既有解禁，非三季度新增",
+            "facts": "三季报列示，张发群354.321万股已解除限售，9月末持股354.321万股、占0.68%，限售股为零。半年报已显示6月末限售股为零，本次属再次披露，并非三季度新增解禁；两期末持股相同不足以证明期间无交易。"
+          }
+        },
+        {
+          "eventId": "production-event-7ee89c1a82937112b694",
+          "updateId": "production-656c08d50eac542d57803c5e",
+          "version": "656c08d50eac542d57803c5e8faf179f3c0c0d968b122502e2ab762c3226ecf7",
+          "objectName": "节能环境",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-10-29",
+          "title": "三季报确认中国环保逾20亿股解除限售，仍有不主动减持承诺",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报确认解禁结果，仍有不主动减持承诺",
+            "facts": "三季报确认，中国环境保护集团有限公司2,075,144,678股已于7月20日解除限售；截至9月30日仍持股66.96%。其承诺2026年7月20日至2027年1月19日不主动减持所持A股，按国资监管要求无偿划转除外。"
+          }
+        },
+        {
+          "eventId": "production-event-e31a70d7a2e0db5882ed",
+          "updateId": "production-961dc504f8337563fa49ce3f",
+          "version": "961dc504f8337563fa49ce3fbb89dfe5c6dc34a26e96d7ebaeecc929ea3c625a",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "限售股份解除",
+          "date": "2026-10-28",
+          "title": "三季报延续杨效东24.75万股解限记录，半年报已披露",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报列示既有24.75万股解限记录",
+            "facts": "三季报列示杨效东（已离任）24.75万股解限记录，期末锁定股74.25万股。数据与半年报一致，并非第三季度或10月新增解禁；具体办理日期未披露，解限不等于实际减持。"
+          }
+        },
+        {
+          "eventId": "production-event-dc73342c7053bdd450f2",
+          "updateId": "production-fde8168819b9d7206431aedd",
+          "version": "fde8168819b9d7206431aeddce91f4d4a4cc74905a0dea76589253354b1dae60",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "第二批预留激励6人可归属48.4250万股，董事会同意办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第二批48.4250万股获准办理归属",
+            "facts": "董事会同意办理2025年限制性股票激励计划预留第二批首个归属期归属，涉及6人、48.4250万股，调整后授予价9.33元/股。现有披露不能证明缴款、登记或上市流通已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-d8ffbfcb5d9da156bf79",
+          "updateId": "production-1d6e0f06b04a487eb44e7634",
+          "version": "1d6e0f06b04a487eb44e76343622399aa17e3eeaf2491d76c541aafce877a01b",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "预留第一批22.9937万股归属条件成就，其中9.75万股暂缓办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第一批归属条件成就，9.75万股暂缓",
+            "facts": "2025年限制性股票激励计划预留第一批首个归属期条件成就，7人可归属22.9937万股，调整后授予价9.33元/股。其中武莹、郑正东因个人资金安排等原因暂缓办理9.75万股；现有材料不能证明出资、登记或上市已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-806cb6cd43c249fcbfc9",
+          "updateId": "production-5bf4e78e2fe2b8ae7a265dd4",
+          "version": "5bf4e78e2fe2b8ae7a265dd474c24d3e5a91caa86b8ad13315a860472bdfd49e",
+          "objectName": "美畅股份",
+          "type": "listed",
+          "category": "限售股份变动披露",
+          "date": "2026-10-28",
+          "title": "三季报续列吴英解除限售1股，一季报已披露相同变动",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报续列解除限售1股，非三季度新增",
+            "facts": "披露三季报，吴英本期解除限售1股的记录与一季报相同，不属于第三季度新增解禁。期末限售股为249,975,550股；表列2027年9月29日为拟解除限售日，并非该1股实际办理日，也不代表剩余股份已解禁或出售。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        },
+        {
+          "eventId": "production-event-4b3290072b75e126a6f2",
+          "updateId": "production-b62e6dcc3055dc4df6b48521",
+          "version": "b62e6dcc3055dc4df6b485215743054ba9728ac00e2e30c7164fcf08985efb5e",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "员工持股",
+          "date": "2026-09-16",
+          "title": "员工持股计划完成1,369.66万股过户，股份解锁受考核约束",
+          "business": "股份管理",
+          "share": {
+            "title": "员工持股计划完成1369.66万股过户",
+            "facts": "公告，员工持股计划实际筹资35,200,262元，来自参加对象自筹；9月14日完成1,369.66万股历史回购股份非交易过户。股份按12、24、36个月分批解锁，受公司业绩及个人绩效考核约束，过户完成不代表解锁。"
+          }
+        },
+        {
+          "eventId": "production-event-a1c7a43f5f6daa7ce936",
+          "updateId": "production-27a263b3ec6404022ef3f654",
+          "version": "27a263b3ec6404022ef3f654e4392911c1773b9b8123e174157ecc727664864c",
+          "objectName": "宝钛股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-29",
+          "title": "赎回3,200万元募集资金结构性存款，取得收益12.69万元",
+          "business": "机构理财",
+          "share": {
+            "title": "到期赎回3,200万元结构性存款",
+            "facts": "公告，10月27日到期赎回工商银行结构性存款本金3,200万元，取得收益12.69万元。该产品使用闲置可转债募集资金，属于现金管理授权下的执行进展，公告未披露本次续购安排。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-176cc08af46929fd0f72",
       "date": "2026-11-11",
@@ -61782,6 +62377,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "bb444cc4e50571949088",
+      "date": "2026-11-11",
+      "compiledAt": "2026-11-11T07:22:00-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/bb444cc4e50571949088/index.html",
+      "publishedAt": "2026-11-11T23:27:17+08:00"
+    },
     {
       "id": "27e0808d29ecf5c87c41",
       "date": "2026-11-11",
