@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-10-e68b25249086",
-      "compiledAt": "2026-11-10T17:44:05-08:00",
+      "id": "2026-11-10-e5284b4d4ade",
+      "compiledAt": "2026-11-10T17:57:04-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -44,6 +44,7 @@ window.PROTOTYPE = {
         "production-acfc140fe78f6656dc436309",
         "production-a278957d9932c3a3066c0748",
         "production-9eb4f111d32e8675dd83bb11",
+        "production-9a7600a24c919b41fd7718ed",
         "production-95ac60a7ca6d36e43c857c8b",
         "production-9154142253613e54ae99f5ed",
         "production-8a211e78250e758f97598b73",
@@ -63,11 +64,13 @@ window.PROTOTYPE = {
         "production-2947fcab17be17cee2508db6",
         "production-235e3b7e80d5d00975b724c2",
         "production-21e8ba242101d1e3e94b99c8",
+        "production-1cbf9a2cffe6308be6da4f24",
         "production-1b45b982a4b1d616a99c6c42",
         "production-15a7f35654a7269f54524f1b",
         "production-1056a523261bb8a121acd38d",
         "production-0e20ee5a91b414b8d63dbdf9",
         "production-0e05014bd0ddfc48a5594276",
+        "production-0cb59405b008af820d37e46a",
         "production-0c59e2806ecb94b5fe980374",
         "production-0bdc78513ea25a163acc9f27",
         "production-0933b035c0ff10f36e95e045",
@@ -441,7 +444,10 @@ window.PROTOTYPE = {
       "production-0e05014bd0ddfc48a5594276": "2026-11-10T17:01:09-08:00",
       "production-acfc140fe78f6656dc436309": "2026-11-10T17:01:09-08:00",
       "production-0bdc78513ea25a163acc9f27": "2026-11-10T17:26:41-08:00",
-      "production-b62e6dcc3055dc4df6b48521": "2026-11-10T17:44:04-08:00"
+      "production-b62e6dcc3055dc4df6b48521": "2026-11-10T17:44:04-08:00",
+      "production-9a7600a24c919b41fd7718ed": "2026-11-10T17:54:29-08:00",
+      "production-0cb59405b008af820d37e46a": "2026-11-10T17:57:02-08:00",
+      "production-1cbf9a2cffe6308be6da4f24": "2026-11-10T17:57:02-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2816,6 +2822,27 @@ window.PROTOTYPE = {
           "action": "员工持股",
           "group": "激励与员工持股",
           "level": "deep"
+        },
+        "production-9a7600a24c919b41fd7718ed": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "宝钛股份2026年10月30日披露第三季度报告，前三季度实现营业收入约人民币46.48亿元，同比增长4.68%；归母净利润约人民币2.03亿元，同比下降29.38%，财务报表未经审计。同期钛产品产量23,426.01吨、销量23,485.14吨，同比分别下降4.36%和7.08%。"
+        },
+        "production-0cb59405b008af820d37e46a": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安炬光科技股份有限公司2026年10月30日披露的三季报显示，其IPO募投项目“智能驾驶汽车应用光子技术产业化项目”已于2026年9月达到预定可使用状态，并于10月完成结项。该项目募集资金已全部使用完毕，相关募集资金专户已于2026年10月完成注销。"
+        },
+        "production-1cbf9a2cffe6308be6da4f24": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安炬光科技股份有限公司2026年10月30日披露的三季报显示，其IPO募投项目“泛半导体制程光子应用解决方案产业基地项目”已于2026年9月达到预定可使用状态，并于10月完成结项。该项目募集资金已全部使用完毕，相关募集资金专户已于2026年10月完成注销。"
         }
       }
     },
@@ -2825,8 +2852,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-10-e68b25249086",
-      "editionId": "selection-dabbec14829814137039",
+      "sourceEditionId": "2026-11-10-e5284b4d4ade",
+      "editionId": "selection-b5c3f966391a0cc7e7bb",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -36883,6 +36910,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。实际参加人数及逐人认购明细未披露，只能确认参加对象类别、人数上限及实际人数未超过上限，不能据此推算个人权益。 历史回购成交金额和价格依据2026年员工持股计划中的回溯披露；资料不支持进一步确定该轮回购的实际结束日。 8月20日计划与8月4日草案的主要条款一致性依据计划封面说明；现有资料不包含两版全文逐条对照。 最新持股状态对应2026年9月30日；现有资料不能确认10月1日至11月1日之间是否发生新的份额或持有人变化。 已披露账户开立及验资安排，但未披露证券经纪服务机构名称。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T09:51:02+08:00",
           "updatedAt": "2026-11-10T17:44:04-08:00",
           "compiledAt": "2026-11-10T17:44:04-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -37081,9 +37109,270 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-e4106b8b8c1330f51c41",
+      "objectId": "listed-600456-sh",
+      "type": "定期报告及经营数据",
+      "topics": [
+        "2026年第三季度财务数据",
+        "前三季度产销量"
+      ],
+      "updates": [
+        {
+          "id": "production-9a7600a24c919b41fd7718ed",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "前三季度营收增长4.68%，归母净利润下降29.38%",
+          "summary": "宝钛股份2026年10月30日披露第三季度报告，前三季度实现营业收入约人民币46.48亿元，同比增长4.68%；归母净利润约人民币2.03亿元，同比下降29.38%，财务报表未经审计。同期钛产品产量23,426.01吨、销量23,485.14吨，同比分别下降4.36%和7.08%。",
+          "stage": "第三季度报告已披露，财务报表未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T17:54:30-08:00",
+          "compiledAt": "2026-11-10T17:54:30-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "宝钛股份",
+          "version": "9a7600a24c919b41fd7718edc94293907e9406799de900de4124d3e2310e75a3",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "宝鸡钛业股份有限公司2026年第三季度报告",
+              "publisher": "宝鸡钛业股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页主要财务数据及审计状态；第4页产销量情况分析表",
+              "retrievedAt": "2026-11-05T08:05:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639121.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-dbdf33871443d9b064f9",
+      "objectId": "listed-688167-sh",
+      "type": "募投建设项目结项",
+      "topics": [
+        "达到预定可使用状态",
+        "结项",
+        "募集资金专户注销"
+      ],
+      "updates": [
+        {
+          "id": "production-0cb59405b008af820d37e46a",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "智能驾驶汽车应用光子技术产业化项目完成结项",
+          "summary": "西安炬光科技股份有限公司2026年10月30日披露的三季报显示，其IPO募投项目“智能驾驶汽车应用光子技术产业化项目”已于2026年9月达到预定可使用状态，并于10月完成结项。该项目募集资金已全部使用完毕，相关募集资金专户已于2026年10月完成注销。",
+          "stage": "2026年9月达到预定可使用状态，10月完成结项及相关募集资金专户注销",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T17:57:02-08:00",
+          "compiledAt": "2026-11-10T17:57:02-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "炬光科技",
+          "version": "0cb59405b008af820d37e46a3b9b5b4096007b881d4154b9f2219250d6bbe7ea",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安炬光科技股份有限公司2026年第三季度报告",
+              "publisher": "西安炬光科技股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第6页“三、其他提醒事项”",
+              "retrievedAt": "2026-11-05T08:06:51+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640919.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-b6cf908affc086369009",
+      "objectId": "listed-688167-sh",
+      "type": "募投建设项目结项",
+      "topics": [
+        "达到预定可使用状态",
+        "结项",
+        "募集资金专户注销"
+      ],
+      "updates": [
+        {
+          "id": "production-1cbf9a2cffe6308be6da4f24",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "泛半导体制程光子应用解决方案产业基地项目完成结项",
+          "summary": "西安炬光科技股份有限公司2026年10月30日披露的三季报显示，其IPO募投项目“泛半导体制程光子应用解决方案产业基地项目”已于2026年9月达到预定可使用状态，并于10月完成结项。该项目募集资金已全部使用完毕，相关募集资金专户已于2026年10月完成注销。",
+          "stage": "2026年9月达到预定可使用状态，10月完成结项及相关募集资金专户注销",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T17:57:03-08:00",
+          "compiledAt": "2026-11-10T17:57:03-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "炬光科技",
+          "version": "1cbf9a2cffe6308be6da4f245abb91a385881b1f1a745105a941f3e71dba14c6",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安炬光科技股份有限公司2026年第三季度报告",
+              "publisher": "西安炬光科技股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第6页“三、其他提醒事项”",
+              "retrievedAt": "2026-11-05T08:06:51+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640919.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-b5c3f966391a0cc7e7bb",
+      "date": "2026-11-11",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-11T10:00:36+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-0bdc78513ea25a163acc9f27",
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-9041551624dc78082a4d96bd",
+        "production-b62e6dcc3055dc4df6b48521"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-b5c3f966391a0cc7e7bb/page-01.png",
+          "width": 1080,
+          "height": 2792,
+          "sha256": "d4fa687a2ae7c18c5475b85a9e07c27de2b15511b385425c1cedb795c5ca98c8"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-10-e5284b4d4ade",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-16",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-32c059172c74da96a014",
+          "updateId": "production-0bdc78513ea25a163acc9f27",
+          "version": "0bdc78513ea25a163acc9f27159c25636acecf3918027d9592d160d01dcb0c56",
+          "objectName": "航天电子",
+          "type": "listed",
+          "category": "股权置换及同一控制下企业合并进展",
+          "date": "2026-10-30",
+          "title": "披露西安太乙股权置换的合并会计处理",
+          "business": "投资银行",
+          "share": {
+            "title": "股权置换按同一控制下合并追溯调整",
+            "facts": "三季报披露，控股子公司时代光电以北京航天兴华科技有限公司100%股权置换西安太乙电子有限公司58%股权，作价分别为64,500.50万元、64,970.61万元，现金补差470.11万元。本期按同一控制下合并追溯调整；视同期初取得控制权属会计口径，具体工商交割日及补差款实际支付状态未核实。"
+          }
+        },
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        },
+        {
+          "eventId": "production-event-4b3290072b75e126a6f2",
+          "updateId": "production-b62e6dcc3055dc4df6b48521",
+          "version": "b62e6dcc3055dc4df6b485215743054ba9728ac00e2e30c7164fcf08985efb5e",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "员工持股",
+          "date": "2026-09-16",
+          "title": "员工持股计划完成1,369.66万股过户，股份解锁受考核约束",
+          "business": "股份管理",
+          "share": {
+            "title": "员工持股计划完成1369.66万股过户",
+            "facts": "公告，员工持股计划实际筹资35,200,262元，来自参加对象自筹；9月14日完成1,369.66万股历史回购股份非交易过户。股份按12、24、36个月分批解锁，受公司业绩及个人绩效考核约束，过户完成不代表解锁。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-dabbec14829814137039",
       "date": "2026-11-11",
@@ -43234,6 +43523,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "abb086b045fde01c4df7",
+      "date": "2026-11-11",
+      "compiledAt": "2026-11-10T17:44:05-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/abb086b045fde01c4df7/index.html",
+      "publishedAt": "2026-11-11T09:51:02+08:00"
+    },
     {
       "id": "ae3f5ceaede10ac40d73",
       "date": "2026-11-11",
