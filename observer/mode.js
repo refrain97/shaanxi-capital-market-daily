@@ -2,11 +2,11 @@
 (() => {
   const fail = () => { document.querySelector('#main').textContent = '内容暂时未能加载，请稍后重试。'; };
   const data = document.createElement('script');
-  data.src = 'real-data.js?v=c4622086d69db85a';
+  data.src = 'real-data.js?v=28b3f22f39db78d3';
   data.onerror = fail;
   data.onload = () => {
     const app = document.createElement('script');
-    app.src = 'app.js?v=c4622086d69db85a';
+    app.src = 'app.js?v=28b3f22f39db78d3';
     app.onerror = fail;
     document.head.append(app);
   };
