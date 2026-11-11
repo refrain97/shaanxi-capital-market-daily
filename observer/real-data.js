@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-10-dd2ece9023e3",
-      "compiledAt": "2026-11-10T16:34:33-08:00",
+      "id": "2026-11-10-70bf25ccf367",
+      "compiledAt": "2026-11-10T16:45:52-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -32,6 +32,7 @@ window.PROTOTYPE = {
         "production-ff8cf9fff2633f2f19a099b3",
         "production-fa6efcaac08c570cabd1968a",
         "production-eeae0bf5db12bcdc4e6d4fa1",
+        "production-e1490a637dc7d32ad9ab9885",
         "production-da8bb3b65369f55f957229d2",
         "production-d90000dabeee8611cbffb192",
         "production-d7b6c60bd2495a5444f965bd",
@@ -62,7 +63,9 @@ window.PROTOTYPE = {
         "production-235e3b7e80d5d00975b724c2",
         "production-21e8ba242101d1e3e94b99c8",
         "production-1b45b982a4b1d616a99c6c42",
+        "production-15a7f35654a7269f54524f1b",
         "production-1056a523261bb8a121acd38d",
+        "production-0e20ee5a91b414b8d63dbdf9",
         "production-0c59e2806ecb94b5fe980374",
         "production-0933b035c0ff10f36e95e045",
         "production-08125acff1f10666e8327f72",
@@ -422,7 +425,10 @@ window.PROTOTYPE = {
       "production-b81e76307d879bd223d97739": "2026-11-10T16:31:14-08:00",
       "production-60e0e0239b6550fe017fa29c": "2026-11-10T16:31:14-08:00",
       "production-8a211e78250e758f97598b73": "2026-11-10T16:31:14-08:00",
-      "production-6a299291a8715aec082acd8e": "2026-11-10T16:34:32-08:00"
+      "production-6a299291a8715aec082acd8e": "2026-11-10T16:34:32-08:00",
+      "production-0e20ee5a91b414b8d63dbdf9": "2026-11-10T16:45:50-08:00",
+      "production-e1490a637dc7d32ad9ab9885": "2026-11-10T16:45:50-08:00",
+      "production-15a7f35654a7269f54524f1b": "2026-11-10T16:45:50-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2715,6 +2721,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "秦川机床2026年10月30日公告，董事会于10月28日审议通过前三季度计提减值准备事项，公告列示2026年1—9月合计计提减值准备28,175,852.94元。本期计提减少公司净利润24,796,177.04元，并相应减少报告期末所有者权益24,796,177.04元。"
+        },
+        "production-0e20ee5a91b414b8d63dbdf9": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "供销大集集团股份有限公司2026年10月30日公告，董事会于10月28日以7票同意、0票反对、0票弃权审议通过《关于修订董事会秘书工作细则的议案》。"
+        },
+        "production-e1490a637dc7d32ad9ab9885": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "秦川机床工具集团股份公司2026年10月30日公告，董事会于10月28日以8票同意、0票反对、0票弃权审议通过《2026年第三季度报告》，其中财务报告部分此前已经董事会审计委员会审议通过。"
+        },
+        "production-15a7f35654a7269f54524f1b": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安炬光科技股份有限公司2026年10月30日公告，2026年1月1日至9月30日计提各类资产减值准备人民币8,516.83万元，减少合并报表利润总额8,516.83万元，未计算所得税影响。相关资产减值损失和信用减值损失数据未经会计师事务所审计。"
         }
       }
     },
@@ -2724,8 +2751,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-10-dd2ece9023e3",
-      "editionId": "selection-f9a05419ca734ec560eb",
+      "sourceEditionId": "2026-11-10-70bf25ccf367",
+      "editionId": "selection-a9a9dc922200e105e24a",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -35855,6 +35882,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T08:39:43+08:00",
           "updatedAt": "2026-11-10T16:31:14-08:00",
           "compiledAt": "2026-11-10T16:31:14-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -35901,6 +35929,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T08:39:43+08:00",
           "updatedAt": "2026-11-10T16:31:15-08:00",
           "compiledAt": "2026-11-10T16:31:15-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -35945,6 +35974,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T08:39:43+08:00",
           "updatedAt": "2026-11-10T16:31:15-08:00",
           "compiledAt": "2026-11-10T16:31:15-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -35989,6 +36019,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T08:39:43+08:00",
           "updatedAt": "2026-11-10T16:31:16-08:00",
           "compiledAt": "2026-11-10T16:31:16-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -36034,6 +36065,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T08:39:43+08:00",
           "updatedAt": "2026-11-10T16:34:32-08:00",
           "compiledAt": "2026-11-10T16:34:32-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -36067,9 +36099,243 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-63052a64badecfb35237",
+      "objectId": "listed-000564-sz",
+      "type": "公司治理制度修订",
+      "topics": [
+        "董事会秘书工作细则修订"
+      ],
+      "updates": [
+        {
+          "id": "production-0e20ee5a91b414b8d63dbdf9",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会通过董事会秘书工作细则修订",
+          "summary": "供销大集集团股份有限公司2026年10月30日公告，董事会于10月28日以7票同意、0票反对、0票弃权审议通过《关于修订董事会秘书工作细则的议案》。",
+          "stage": "2026年10月28日董事会审议通过修订",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T16:45:50-08:00",
+          "compiledAt": "2026-11-10T16:45:50-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "供销大集",
+          "version": "0e20ee5a91b414b8d63dbdf9427c617ac4214b1b3e1518839d63af0f56976fe1",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第十一届董事会第二十六次会议决议公告",
+              "publisher": "供销大集集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议召开情况、第2页第五项议案及落款",
+              "retrievedAt": "2026-11-05T08:04:35+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643493.PDF"
+            },
+            {
+              "title": "董事会秘书工作细则",
+              "publisher": "供销大集集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页标题及修订月份",
+              "retrievedAt": "2026-11-05T08:04:33+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643497.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-d67d7ada0088a3c2b913",
+      "objectId": "listed-000837-sz",
+      "type": "定期报告审议",
+      "topics": [
+        "第三季度报告审议"
+      ],
+      "updates": [
+        {
+          "id": "production-e1490a637dc7d32ad9ab9885",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会审议通过2026年第三季度报告",
+          "summary": "秦川机床工具集团股份公司2026年10月30日公告，董事会于10月28日以8票同意、0票反对、0票弃权审议通过《2026年第三季度报告》，其中财务报告部分此前已经董事会审计委员会审议通过。",
+          "stage": "2026年10月28日董事会审议通过第三季度报告",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T16:45:50-08:00",
+          "compiledAt": "2026-11-10T16:45:50-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "秦川机床",
+          "version": "e1490a637dc7d32ad9ab9885a64b6eea83d78112c70a2a4a4c3af8280eb1d5bb",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第九届董事会第二十七次会议决议公告",
+              "publisher": "秦川机床工具集团股份公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议召开情况及第一项议案；第3页落款",
+              "retrievedAt": "2026-11-05T08:04:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644446.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-52897d62f9332007d57c",
+      "objectId": "listed-688167-sh",
+      "type": "计提资产减值准备",
+      "topics": [
+        "存货减值",
+        "商誉减值",
+        "信用减值"
+      ],
+      "updates": [
+        {
+          "id": "production-15a7f35654a7269f54524f1b",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "披露前三季度计提资产减值准备8,516.83万元",
+          "summary": "西安炬光科技股份有限公司2026年10月30日公告，2026年1月1日至9月30日计提各类资产减值准备人民币8,516.83万元，减少合并报表利润总额8,516.83万元，未计算所得税影响。相关资产减值损失和信用减值损失数据未经会计师事务所审计。",
+          "stage": "披露2026年1月至9月已计提减值情况，数据未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T16:45:51-08:00",
+          "compiledAt": "2026-11-10T16:45:51-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "炬光科技",
+          "version": "15a7f35654a7269f54524f1b49cec98d9d14c492ef39e217d67af099b5e6fcae",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安炬光科技股份有限公司关于计提资产减值准备的公告",
+              "publisher": "西安炬光科技股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页计提情况及人民币万元表格；第2页第三节及落款",
+              "retrievedAt": "2026-11-05T08:06:52+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640871.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-a9a9dc922200e105e24a",
+      "date": "2026-11-11",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-11T08:52:00+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-9041551624dc78082a4d96bd"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-a9a9dc922200e105e24a/page-01.png",
+          "width": 1080,
+          "height": 1996,
+          "sha256": "35cce5c6b8d7c9d4de6dd2706c299c554d18ff0e57e71b8f22ab7b2b64281a89"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-10-70bf25ccf367",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-16",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-f9a05419ca734ec560eb",
       "date": "2026-11-11",
@@ -41804,6 +42070,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "a10813614900f114a0b5",
+      "date": "2026-11-11",
+      "compiledAt": "2026-11-10T16:34:33-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/a10813614900f114a0b5/index.html",
+      "publishedAt": "2026-11-11T08:39:43+08:00"
+    },
     {
       "id": "b22e587c6e5d636cc0ba",
       "date": "2026-11-11",
