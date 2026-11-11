@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-11-b9d9b6714136",
-      "compiledAt": "2026-11-11T08:06:45-08:00",
+      "id": "2026-11-11-8a62a7f4c187",
+      "compiledAt": "2026-11-11T08:16:57-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -137,7 +137,9 @@ window.PROTOTYPE = {
         "production-a2587675e43c33b29ff186a2",
         "production-a2310d9fb78aa21759adb5e1",
         "production-a099e7573ee53ff2d1d37f45",
+        "production-9d8f356beba0209b4222cf47",
         "production-9beb12ddf224e252df1fcaf1",
+        "production-9a22c49857b196575d87e455",
         "production-98988a95868ab264786f3bfb",
         "production-93f76e2c78c226f5338fed98",
         "production-8e3ff946acd451d127f24234",
@@ -169,6 +171,7 @@ window.PROTOTYPE = {
         "production-3a9f24bfeb96145dfcefafdd",
         "production-39cb66b419a63d40e4209b6b",
         "production-3763c0344e5a96d1f488d6b7",
+        "production-3696a60e4a30d129718a2d3b",
         "production-33ba2b30a2b5ab1a7faba393",
         "production-323675c6593545f4b5e02849",
         "production-2cc991011fbd499da5836909",
@@ -682,7 +685,10 @@ window.PROTOTYPE = {
       "production-e798305954f7677f06a5e723": "2026-11-11T07:56:05-08:00",
       "production-6d53cf45c9339ebbd8e7a409": "2026-11-11T08:02:02-08:00",
       "production-a099e7573ee53ff2d1d37f45": "2026-11-11T08:04:47-08:00",
-      "production-8e3ff946acd451d127f24234": "2026-11-11T08:06:44-08:00"
+      "production-8e3ff946acd451d127f24234": "2026-11-11T08:06:44-08:00",
+      "production-3696a60e4a30d129718a2d3b": "2026-11-11T08:13:01-08:00",
+      "production-9d8f356beba0209b4222cf47": "2026-11-11T08:15:07-08:00",
+      "production-9a22c49857b196575d87e455": "2026-11-11T08:16:57-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -3897,6 +3903,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "天力复合2026年10月29日披露，独立董事专门会议和董事会已分别于10月27日、28日通过董事及高级管理人员薪酬管理制度修订议案，拟提交11月13日召开的2026年第二次临时股东会审议。修订制度须经股东会审议通过后生效，其中中长期激励具体方案另行制定。"
+        },
+        "production-3696a60e4a30d129718a2d3b": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "天力复合2026年10月29日披露的第三季度报告显示，某申请人因劳动报酬等争议向西安市劳动人事争议仲裁委员会提起仲裁，报告期内该案已审理终结，申请人全部仲裁请求被驳回。该事项披露未列明争议金额及具体裁决日期。"
+        },
+        "production-9d8f356beba0209b4222cf47": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "科隆新材2026年10月29日披露的第三季度报告列示四笔关联方为公司提供的既有银行授信担保。其中，邹威文、穆倩共同提供的一笔担保余额为650万元，其余三笔余额均为0万元，四笔实际履行担保责任的金额均为0万元。"
+        },
+        "production-9a22c49857b196575d87e455": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "天力复合2026年10月29日披露第三季度报告，2026年1—9月营业收入307,886,800.55元，同比下降23.70%；归属于上市公司股东的净利润5,001,297.97元，同比下降77.74%。同期经营活动产生的现金流量净额为5,409,191.28元，上年同期为-19,866,839.01元；本季度报告未经会计师事务所审计。"
         }
       }
     },
@@ -3906,8 +3933,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-11-b9d9b6714136",
-      "editionId": "selection-9f1ed9db506b6aa360b5",
+      "sourceEditionId": "2026-11-11-8a62a7f4c187",
+      "editionId": "selection-0769e48ef4346cd1932b",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -45602,6 +45629,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-12T00:11:21+08:00",
           "updatedAt": "2026-11-11T08:02:02-08:00",
           "compiledAt": "2026-11-11T08:02:02-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -45656,6 +45684,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-12T00:11:21+08:00",
           "updatedAt": "2026-11-11T08:04:47-08:00",
           "compiledAt": "2026-11-11T08:04:47-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -45701,6 +45730,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-12T00:11:21+08:00",
           "updatedAt": "2026-11-11T08:06:44-08:00",
           "compiledAt": "2026-11-11T08:06:44-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -45734,9 +45764,456 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-bc8774d4ba4927f80855",
+      "objectId": "listed-920576-bj",
+      "type": "劳动仲裁结果",
+      "topics": [
+        "劳动报酬争议",
+        "仲裁请求全部被驳回"
+      ],
+      "updates": [
+        {
+          "id": "production-3696a60e4a30d129718a2d3b",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "披露劳动仲裁结果：申请人全部请求被驳回",
+          "summary": "天力复合2026年10月29日披露的第三季度报告显示，某申请人因劳动报酬等争议向西安市劳动人事争议仲裁委员会提起仲裁，报告期内该案已审理终结，申请人全部仲裁请求被驳回。该事项披露未列明争议金额及具体裁决日期。",
+          "stage": "报告披露案件已于报告期内审理终结，全部仲裁请求被驳回",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T08:13:01-08:00",
+          "compiledAt": "2026-11-11T08:13:01-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "天力复合",
+          "version": "3696a60e4a30d129718a2d3ba510b6cb383458f9d9f38d9db5d6bd58d5492f09",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年第三季度报告",
+              "publisher": "西安天力金属复合材料股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页封面；物理第9页“重大事项详情、进展情况及其他重大事项”第1项",
+              "retrievedAt": "2026-11-05T08:07:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225644505.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-91c73dbfdd9cbbb851ab",
+      "objectId": "listed-920098-bj",
+      "type": "关联方担保存续披露",
+      "topics": [
+        "邹威文及穆倩提供担保",
+        "担保余额"
+      ],
+      "updates": [
+        {
+          "id": "production-9d8f356beba0209b4222cf47",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "三季报披露关联方担保余额650万元",
+          "summary": "科隆新材2026年10月29日披露的第三季度报告列示四笔关联方为公司提供的既有银行授信担保。其中，邹威文、穆倩共同提供的一笔担保余额为650万元，其余三笔余额均为0万元，四笔实际履行担保责任的金额均为0万元。",
+          "stage": "季度报告列示四笔既有银行授信担保的余额及期间",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T08:15:07-08:00",
+          "compiledAt": "2026-11-11T08:15:07-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "科隆新材",
+          "version": "9d8f356beba0209b4222cf47e23dd4dab6ef32fbcdb6f935801b477775baf053",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西科隆新材料科技股份有限公司2026年第三季度报告",
+              "publisher": "陕西科隆新材料科技股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页；第11—12页“关联方为公司提供担保的事项”表格及脚注",
+              "retrievedAt": "2026-11-05T08:07:06+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225642819.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-47489a99222bd0044a10",
+      "objectId": "listed-920576-bj",
+      "type": "定期报告",
+      "topics": [
+        "第三季度业绩",
+        "经营现金流"
+      ],
+      "updates": [
+        {
+          "id": "production-9a22c49857b196575d87e455",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "前三季度归母净利润同比下降77.74%",
+          "summary": "天力复合2026年10月29日披露第三季度报告，2026年1—9月营业收入307,886,800.55元，同比下降23.70%；归属于上市公司股东的净利润5,001,297.97元，同比下降77.74%。同期经营活动产生的现金流量净额为5,409,191.28元，上年同期为-19,866,839.01元；本季度报告未经会计师事务所审计。",
+          "stage": "已披露2026年第三季度报告，报告声明未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T08:16:57-08:00",
+          "compiledAt": "2026-11-11T08:16:57-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "天力复合",
+          "version": "9a22c49857b196575d87e455c8d496663a5fd449a3ab2b5e62252d6729b1be16",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安天力金属复合材料股份有限公司2026年第三季度报告",
+              "publisher": "西安天力金属复合材料股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页封面、第2页重要提示、第3页主要财务数据",
+              "retrievedAt": "2026-11-05T08:07:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225644505.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-0769e48ef4346cd1932b",
+      "date": "2026-11-12",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-12T00:17:00+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-0bdc78513ea25a163acc9f27",
+        "production-8d4c60094072d75fd7aa6a22",
+        "production-6b189fe20974e4ec4ab4294c",
+        "production-e520619f4db9789df1cc4cd4",
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-5de5b66ee0e60c5fb1bee6ac",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-de89d2fc8abdc65b3fda967f",
+        "production-656c08d50eac542d57803c5e",
+        "production-961dc504f8337563fa49ce3f",
+        "production-fde8168819b9d7206431aedd",
+        "production-1d6e0f06b04a487eb44e7634",
+        "production-5bf4e78e2fe2b8ae7a265dd4",
+        "production-9041551624dc78082a4d96bd",
+        "production-b62e6dcc3055dc4df6b48521",
+        "production-27a263b3ec6404022ef3f654"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-0769e48ef4346cd1932b/page-01.png",
+          "width": 1080,
+          "height": 2394,
+          "sha256": "8707950ce8d601bbaf19f82df423261d7d2d9580aae7dd0bc0338364c2fe140b"
+        },
+        {
+          "file": "assets/editions/selection-0769e48ef4346cd1932b/page-02.png",
+          "width": 1080,
+          "height": 2740,
+          "sha256": "2ca993207551902449c476164bbd4dd73f31523fa03297f980446f25a31fc87a"
+        },
+        {
+          "file": "assets/editions/selection-0769e48ef4346cd1932b/page-03.png",
+          "width": 1080,
+          "height": 2740,
+          "sha256": "2d251e28dfdaef582b3c11dcdf6869b2e188157191a2d1b303603e8818889457"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-11-8a62a7f4c187",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-06-12",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-32c059172c74da96a014",
+          "updateId": "production-0bdc78513ea25a163acc9f27",
+          "version": "0bdc78513ea25a163acc9f27159c25636acecf3918027d9592d160d01dcb0c56",
+          "objectName": "航天电子",
+          "type": "listed",
+          "category": "股权置换及同一控制下企业合并进展",
+          "date": "2026-10-30",
+          "title": "披露西安太乙股权置换的合并会计处理",
+          "business": "投资银行",
+          "share": {
+            "title": "股权置换按同一控制下合并追溯调整",
+            "facts": "三季报披露，控股子公司时代光电以北京航天兴华科技有限公司100%股权置换西安太乙电子有限公司58%股权，作价分别为64,500.50万元、64,970.61万元，现金补差470.11万元。本期按同一控制下合并追溯调整；视同期初取得控制权属会计口径，具体工商交割日及补差款实际支付状态未核实。"
+          }
+        },
+        {
+          "eventId": "production-event-f79f9b1e59238de24f37",
+          "updateId": "production-8d4c60094072d75fd7aa6a22",
+          "version": "8d4c60094072d75fd7aa6a227d6087fe8afef709d4931ed83c42f897d496e404",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "再融资",
+          "date": "2026-10-30",
+          "title": "拟将2024年度定增决议及授权有效期延至2027年11月27日",
+          "business": "投资银行",
+          "share": {
+            "title": "拟将定增决议及授权有效期延长12个月",
+            "facts": "公告，董事会通过延期议案，拟将2024年度定增决议及授权有效期延至2027年11月27日，尚需股东会审议。该定增拟由实控人贺增林控制的君耀领航全额认购，募资不超过7亿元，扣除发行费用后全部补流；本次延期不代表发行完成或资金到账。"
+          }
+        },
+        {
+          "eventId": "production-event-87b52efa39548c8feae7",
+          "updateId": "production-6b189fe20974e4ec4ab4294c",
+          "version": "6b189fe20974e4ec4ab4294cb984fbfa3f1f1df826ae2a6e818b0d1e4d2efaaa",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "宝鸡供热公司100%股权内部划转已完成工商登记",
+          "business": "投资银行",
+          "share": {
+            "title": "内部无偿划转100%股权完成工商登记",
+            "facts": "7月全资子公司陕西美能新能源有限公司将所持宝鸡市美能清洁供热有限公司100%股权，无偿划转至另一全资子公司宝鸡市美能天然气有限公司；截至三季度报告期末已完成工商登记，本次进一步明确登记完成阶段。"
+          }
+        },
+        {
+          "eventId": "production-event-c4e0e90f4650591e20c5",
+          "updateId": "production-e520619f4db9789df1cc4cd4",
+          "version": "e520619f4db9789df1cc4cd4b05fb36e7fe18031795699b59e29eb307d530926",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "完成韩城供热公司100%股权内部划转登记",
+          "business": "投资银行",
+          "share": {
+            "title": "供热公司100%股权内部划转完成登记",
+            "facts": "7月陕西美能新能源有限公司将韩城市美能清洁供热有限公司100%股权无偿划转至韩城市美能天然气有限责任公司，双方均为其全资子公司。截至9月30日已完成工商登记，本次三季报补充登记完成状态。"
+          }
+        },
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-9b9658b42bf0db44addc",
+          "updateId": "production-5de5b66ee0e60c5fb1bee6ac",
+          "version": "5de5b66ee0e60c5fb1bee6acc2f476fcebe714a9b81a2b3330d9c28a4ac2e101",
+          "objectName": "天地源",
+          "type": "listed",
+          "category": "资产出售筹划",
+          "date": "2026-06-12",
+          "title": "三季报续披露地产资产出售筹划，具体范围仍待协商",
+          "business": "投资银行",
+          "share": {
+            "title": "地产资产出售仍在筹划，范围待协商",
+            "facts": "天地源2026年10月29日三季报续披露，拟出售部分房地产开发业务相关资产及负债，范围待协商。6月12日公告列意向受让方为西安高科集团或其指定关联方，当时价格未定、未签协议，是否构成重大资产重组尚无法确定。三季报未披露新增价格、协议、审批或交割结果，不能确认已实施。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-540f0beca84dcf3374da",
+          "updateId": "production-de89d2fc8abdc65b3fda967f",
+          "version": "de89d2fc8abdc65b3fda967f4a92692741d79bf54c536fe8ed972789c29baf14",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "股份解禁",
+          "date": "2026-10-30",
+          "title": "三季报确认张发群354.321万股已解除限售，半年末已无限售",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报重列既有解禁，非三季度新增",
+            "facts": "三季报列示，张发群354.321万股已解除限售，9月末持股354.321万股、占0.68%，限售股为零。半年报已显示6月末限售股为零，本次属再次披露，并非三季度新增解禁；两期末持股相同不足以证明期间无交易。"
+          }
+        },
+        {
+          "eventId": "production-event-7ee89c1a82937112b694",
+          "updateId": "production-656c08d50eac542d57803c5e",
+          "version": "656c08d50eac542d57803c5e8faf179f3c0c0d968b122502e2ab762c3226ecf7",
+          "objectName": "节能环境",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-10-29",
+          "title": "三季报确认中国环保逾20亿股解除限售，仍有不主动减持承诺",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报确认解禁结果，仍有不主动减持承诺",
+            "facts": "三季报确认，中国环境保护集团有限公司2,075,144,678股已于7月20日解除限售；截至9月30日仍持股66.96%。其承诺2026年7月20日至2027年1月19日不主动减持所持A股，按国资监管要求无偿划转除外。"
+          }
+        },
+        {
+          "eventId": "production-event-e31a70d7a2e0db5882ed",
+          "updateId": "production-961dc504f8337563fa49ce3f",
+          "version": "961dc504f8337563fa49ce3fbb89dfe5c6dc34a26e96d7ebaeecc929ea3c625a",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "限售股份解除",
+          "date": "2026-10-28",
+          "title": "三季报延续杨效东24.75万股解限记录，半年报已披露",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报列示既有24.75万股解限记录",
+            "facts": "三季报列示杨效东（已离任）24.75万股解限记录，期末锁定股74.25万股。数据与半年报一致，并非第三季度或10月新增解禁；具体办理日期未披露，解限不等于实际减持。"
+          }
+        },
+        {
+          "eventId": "production-event-dc73342c7053bdd450f2",
+          "updateId": "production-fde8168819b9d7206431aedd",
+          "version": "fde8168819b9d7206431aeddce91f4d4a4cc74905a0dea76589253354b1dae60",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "第二批预留激励6人可归属48.4250万股，董事会同意办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第二批48.4250万股获准办理归属",
+            "facts": "董事会同意办理2025年限制性股票激励计划预留第二批首个归属期归属，涉及6人、48.4250万股，调整后授予价9.33元/股。现有披露不能证明缴款、登记或上市流通已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-d8ffbfcb5d9da156bf79",
+          "updateId": "production-1d6e0f06b04a487eb44e7634",
+          "version": "1d6e0f06b04a487eb44e76343622399aa17e3eeaf2491d76c541aafce877a01b",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "预留第一批22.9937万股归属条件成就，其中9.75万股暂缓办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第一批归属条件成就，9.75万股暂缓",
+            "facts": "2025年限制性股票激励计划预留第一批首个归属期条件成就，7人可归属22.9937万股，调整后授予价9.33元/股。其中武莹、郑正东因个人资金安排等原因暂缓办理9.75万股；现有材料不能证明出资、登记或上市已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-806cb6cd43c249fcbfc9",
+          "updateId": "production-5bf4e78e2fe2b8ae7a265dd4",
+          "version": "5bf4e78e2fe2b8ae7a265dd474c24d3e5a91caa86b8ad13315a860472bdfd49e",
+          "objectName": "美畅股份",
+          "type": "listed",
+          "category": "限售股份变动披露",
+          "date": "2026-10-28",
+          "title": "三季报续列吴英解除限售1股，一季报已披露相同变动",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报续列解除限售1股，非三季度新增",
+            "facts": "披露三季报，吴英本期解除限售1股的记录与一季报相同，不属于第三季度新增解禁。期末限售股为249,975,550股；表列2027年9月29日为拟解除限售日，并非该1股实际办理日，也不代表剩余股份已解禁或出售。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        },
+        {
+          "eventId": "production-event-4b3290072b75e126a6f2",
+          "updateId": "production-b62e6dcc3055dc4df6b48521",
+          "version": "b62e6dcc3055dc4df6b485215743054ba9728ac00e2e30c7164fcf08985efb5e",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "员工持股",
+          "date": "2026-09-16",
+          "title": "员工持股计划完成1,369.66万股过户，股份解锁受考核约束",
+          "business": "股份管理",
+          "share": {
+            "title": "员工持股计划完成1369.66万股过户",
+            "facts": "公告，员工持股计划实际筹资35,200,262元，来自参加对象自筹；9月14日完成1,369.66万股历史回购股份非交易过户。股份按12、24、36个月分批解锁，受公司业绩及个人绩效考核约束，过户完成不代表解锁。"
+          }
+        },
+        {
+          "eventId": "production-event-a1c7a43f5f6daa7ce936",
+          "updateId": "production-27a263b3ec6404022ef3f654",
+          "version": "27a263b3ec6404022ef3f654e4392911c1773b9b8123e174157ecc727664864c",
+          "objectName": "宝钛股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-29",
+          "title": "赎回3,200万元募集资金结构性存款，取得收益12.69万元",
+          "business": "机构理财",
+          "share": {
+            "title": "到期赎回3,200万元结构性存款",
+            "facts": "公告，10月27日到期赎回工商银行结构性存款本金3,200万元，取得收益12.69万元。该产品使用闲置可转债募集资金，属于现金管理授权下的执行进展，公告未披露本次续购安排。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-9f1ed9db506b6aa360b5",
       "date": "2026-11-12",
@@ -63919,6 +64396,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "75bc56b928358fca141d",
+      "date": "2026-11-12",
+      "compiledAt": "2026-11-11T08:06:45-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/75bc56b928358fca141d/index.html",
+      "publishedAt": "2026-11-12T00:11:21+08:00"
+    },
     {
       "id": "830c693dee04b038c638",
       "date": "2026-11-12",
