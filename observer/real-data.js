@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-11-eec9fb4152a1",
-      "compiledAt": "2026-11-11T04:46:02-08:00",
+      "id": "2026-11-11-a6e870940432",
+      "compiledAt": "2026-11-11T05:10:10-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -105,6 +105,8 @@ window.PROTOTYPE = {
         "production-08125acff1f10666e8327f72",
         "production-080ea63f0a7e53730546fc04",
         "production-00cd7fb0c184ed1fb42fbd09",
+        "production-ec063e9900331ef998092b0a",
+        "production-e5f78f79c00a9d5799ceb734",
         "production-e520619f4db9789df1cc4cd4",
         "production-d1d3fe310f5f697c0e5bf3e0",
         "production-d10a4463ddc9120512c201fb",
@@ -112,6 +114,7 @@ window.PROTOTYPE = {
         "production-cf7a872fb36f537edafc741f",
         "production-c56191bfce2999bf20d9797e",
         "production-b4167730be785903bf94549b",
+        "production-b007ff31d6e65f3aa8d5e818",
         "production-af01c48ce2652a6d874fc226",
         "production-8de89e89385cbcf932f691ce",
         "production-802bb7ecdc94d315742c7e3b",
@@ -123,7 +126,9 @@ window.PROTOTYPE = {
         "production-4394f88e15dc05828b0c6b0a",
         "production-40109e66e340792f75e0e63f",
         "production-3763c0344e5a96d1f488d6b7",
+        "production-2b55b3b52023fbf9b11ade94",
         "production-27a263b3ec6404022ef3f654",
+        "production-25cf8d574fed16aebcf981d4",
         "production-2116b9f9cedc14747ea140b5",
         "production-17a07a158de98be939a2cd45",
         "production-1651348fac30f8afa2f95955",
@@ -568,7 +573,12 @@ window.PROTOTYPE = {
       "production-4394f88e15dc05828b0c6b0a": "2026-11-11T04:42:11-08:00",
       "production-d10a4463ddc9120512c201fb": "2026-11-11T04:45:59-08:00",
       "production-cf7a872fb36f537edafc741f": "2026-11-11T04:45:59-08:00",
-      "production-d0d0ac0847edb209f0f944d7": "2026-11-11T04:45:59-08:00"
+      "production-d0d0ac0847edb209f0f944d7": "2026-11-11T04:45:59-08:00",
+      "production-2b55b3b52023fbf9b11ade94": "2026-11-11T05:02:12-08:00",
+      "production-e5f78f79c00a9d5799ceb734": "2026-11-11T05:10:07-08:00",
+      "production-b007ff31d6e65f3aa8d5e818": "2026-11-11T05:10:07-08:00",
+      "production-25cf8d574fed16aebcf981d4": "2026-11-11T05:10:07-08:00",
+      "production-ec063e9900331ef998092b0a": "2026-11-11T05:10:07-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1242,6 +1252,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "莱特光电2026年10月22日公告，10月8日至21日公司股票已有10个交易日收盘价低于当期转股价格的85%（即38.10元/股）；若未来20个交易日内再有5个交易日低于该水平，预计将触发“莱特转债”转股价格向下修正条件。是否下修仍待触发条件后由董事会审议决定，截至公告披露日该债券暂未上市交易。"
+        },
+        "production-25cf8d574fed16aebcf981d4": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "莱特光电2026年10月29日公告，截至10月28日“莱特转债”已触发转股价格向下修正条件，董事会于当日决定本次不下修。2026年10月29日至2027年1月28日如再次触发下修条件，亦不提出下修方案；下一触发条件计算期间自2027年1月29日重新起算。"
         },
         "production-3a28c2e4df72a10db01ab24e": {
           "version": "listed-scope-20261009",
@@ -3385,6 +3402,34 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "康拓医疗2026年10月29日公告，计划于2026年11月16日14:00—15:00通过上证路演中心以网络互动形式召开2026年第三季度业绩说明会，就第三季度经营成果、财务指标及投资者关心的问题进行交流。"
+        },
+        "production-2b55b3b52023fbf9b11ade94": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "美能能源2026年10月29日披露，公司董事会于10月28日审议通过2026年第三季度报告，表决结果为9票同意、0票反对、0票弃权、0票回避。第三季度财务会计报告未经审计。"
+        },
+        "production-e5f78f79c00a9d5799ceb734": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "ST派瑞2026年10月29日披露的第三季度报告显示，截至报告期末，募投项目一期各标段全部生产建筑主体结构、屋面工程完工，施工已进入装饰装修、机电设备安装阶段。餐饮宿舍楼正在办理规划变更手续及施工图审查，并同步筹备施工招标。"
+        },
+        "production-b007ff31d6e65f3aa8d5e818": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "天地源2026年10月29日公告，全资子公司西安天地源房地产开发有限公司拟向金融机构申请不超过8亿元委托贷款，用于其项下合规项目开发建设，使用期限不超过24个月、融资成本不超过8.5%/年。资金来源方为实际控制人西安高科集团有限公司的全资子公司西安高科投资有限责任公司，构成关联交易；董事会已于10月28日审议通过，尚须提交股东会审议，公告未披露签约或放款完成。"
+        },
+        "production-ec063e9900331ef998092b0a": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "彩虹股份2026年10月29日公告，计划于2026年11月18日9:00—10:00在上证路演中心以网络文字互动方式举行第三季度业绩说明会。投资者可于11月11日至11月17日16:00前通过上证路演中心“提问预征集”栏目提交问题。"
         }
       }
     },
@@ -3394,8 +3439,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-11-eec9fb4152a1",
-      "editionId": "selection-c48d4823ef9d5db9b2b7",
+      "sourceEditionId": "2026-11-11-a6e870940432",
+      "editionId": "selection-0750f89e033e555445fa",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -6403,6 +6448,18 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-600707-sh",
+      "type": "listed",
+      "name": "彩虹股份",
+      "code": "600707.SH",
+      "market": "SH",
+      "asOf": "2026-03-31",
+      "rosterTier": "L1",
+      "rosterCategory": "陕西辖区A股",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-300861-sz",
       "type": "listed",
       "name": "美畅股份",
@@ -6420,19 +6477,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "中再资环",
       "code": "600217.SH",
-      "market": "SH",
-      "asOf": "2026-03-31",
-      "rosterTier": "L1",
-      "rosterCategory": "陕西辖区A股",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-600707-sh",
-      "type": "listed",
-      "name": "彩虹股份",
-      "code": "600707.SH",
       "market": "SH",
       "asOf": "2026-03-31",
       "rosterTier": "L1",
@@ -20812,6 +20856,40 @@ window.PROTOTYPE = {
               "location": "物理第2页，可转债上市情况；物理第3页，预计触发情况及后续安排；物理第4页，公告落款",
               "retrievedAt": "2026-10-22T08:25:05+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225614121.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
+          "id": "production-25cf8d574fed16aebcf981d4",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "决定本次不下修“莱特转债”转股价格",
+          "summary": "莱特光电2026年10月29日公告，截至10月28日“莱特转债”已触发转股价格向下修正条件，董事会于当日决定本次不下修。2026年10月29日至2027年1月28日如再次触发下修条件，亦不提出下修方案；下一触发条件计算期间自2027年1月29日重新起算。",
+          "stage": "截至2026年10月28日已触发下修条件，董事会决定本次不下修；2026年10月29日至2027年1月28日再次触发亦不提出下修方案，下一触发期间自2027年1月29日重新起算",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T05:10:08-08:00",
+          "compiledAt": "2026-11-11T05:10:08-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "莱特光电",
+          "version": "25cf8d574fed16aebcf981d497c94113517216b22de624b6f11cbb85e6260cd7",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西莱特光电材料股份有限公司关于不向下修正“莱特转债”转股价格的公告",
+              "publisher": "陕西莱特光电材料股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第3页，三、关于不向下修正“莱特转债”转股价格的具体说明及落款",
+              "retrievedAt": "2026-11-05T08:06:50+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225636188.PDF"
             }
           ],
           "tables": []
@@ -42094,6 +42172,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T20:59:09+08:00",
           "updatedAt": "2026-11-11T04:42:11-08:00",
           "compiledAt": "2026-11-11T04:42:11-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -42149,6 +42228,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T20:59:09+08:00",
           "updatedAt": "2026-11-11T04:42:11-08:00",
           "compiledAt": "2026-11-11T04:42:11-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -42210,6 +42290,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T20:59:09+08:00",
           "updatedAt": "2026-11-11T04:45:59-08:00",
           "compiledAt": "2026-11-11T04:45:59-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -42256,6 +42337,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T20:59:09+08:00",
           "updatedAt": "2026-11-11T04:46:00-08:00",
           "compiledAt": "2026-11-11T04:46:00-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -42309,6 +42391,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T20:59:09+08:00",
           "updatedAt": "2026-11-11T04:46:00-08:00",
           "compiledAt": "2026-11-11T04:46:00-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -42334,9 +42417,500 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-0bbff56f1701b2bc4a62",
+      "objectId": "listed-001299-sz",
+      "type": "定期报告审议",
+      "topics": [
+        "2026年第三季度报告"
+      ],
+      "updates": [
+        {
+          "id": "production-2b55b3b52023fbf9b11ade94",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "董事会审议通过2026年第三季度报告",
+          "summary": "美能能源2026年10月29日披露，公司董事会于10月28日审议通过2026年第三季度报告，表决结果为9票同意、0票反对、0票弃权、0票回避。第三季度财务会计报告未经审计。",
+          "stage": "2026年10月28日董事会审议通过",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T05:02:12-08:00",
+          "compiledAt": "2026-11-11T05:02:12-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "美能能源",
+          "version": "2b55b3b52023fbf9b11ade94d49f71c9e71f897f7e903fc05f3a16c959d5c025",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西美能清洁能源集团股份有限公司第四届董事会第五次会议决议公告",
+              "publisher": "陕西美能清洁能源集团股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1—2页，会议召开情况及第一项议案",
+              "retrievedAt": "2026-11-05T08:04:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225634936.PDF"
+            },
+            {
+              "title": "陕西美能清洁能源集团股份有限公司2026年第三季度报告",
+              "publisher": "陕西美能清洁能源集团股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第14页，审计报告",
+              "retrievedAt": "2026-11-05T08:04:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225634934.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-6d0e449413bb8c31fc75",
+      "objectId": "listed-300831-sz",
+      "type": "募投项目建设进展",
+      "topics": [
+        "项目一期建设",
+        "餐饮宿舍楼前期手续"
+      ],
+      "updates": [
+        {
+          "id": "production-e5f78f79c00a9d5799ceb734",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "募投项目一期进入装修和机电设备安装阶段",
+          "summary": "ST派瑞2026年10月29日披露的第三季度报告显示，截至报告期末，募投项目一期各标段全部生产建筑主体结构、屋面工程完工，施工已进入装饰装修、机电设备安装阶段。餐饮宿舍楼正在办理规划变更手续及施工图审查，并同步筹备施工招标。",
+          "stage": "截至报告期末生产建筑主体结构及屋面工程完工，进入装修和设备安装阶段",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T05:10:07-08:00",
+          "compiledAt": "2026-11-11T05:10:07-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST派瑞",
+          "version": "e5f78f79c00a9d5799ceb7348a97225ebf4c7abfd69b04399a6a2064fc1c7ca9",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安派瑞功率半导体变流技术股份有限公司2026年第三季度报告",
+              "publisher": "西安派瑞功率半导体变流技术股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第6—7页，三、其他重要事项第1项；第13页落款",
+              "retrievedAt": "2026-11-05T08:05:15+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225634773.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-5a1a6a22ff3003f90f22",
+      "objectId": "listed-600665-sh",
+      "type": "委托贷款暨关联交易",
+      "topics": [
+        "委托贷款",
+        "关联交易",
+        "董事会审议通过"
+      ],
+      "updates": [
+        {
+          "id": "production-b007ff31d6e65f3aa8d5e818",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "子公司拟申请不超过8亿元委托贷款，尚需股东会审议",
+          "summary": "天地源2026年10月29日公告，全资子公司西安天地源房地产开发有限公司拟向金融机构申请不超过8亿元委托贷款，用于其项下合规项目开发建设，使用期限不超过24个月、融资成本不超过8.5%/年。资金来源方为实际控制人西安高科集团有限公司的全资子公司西安高科投资有限责任公司，构成关联交易；董事会已于10月28日审议通过，尚须提交股东会审议，公告未披露签约或放款完成。",
+          "stage": "2026年10月28日董事会审议通过，尚须提交股东会审议；未披露签约或放款完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T05:10:08-08:00",
+          "compiledAt": "2026-11-11T05:10:08-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "天地源",
+          "version": "b007ff31d6e65f3aa8d5e8188815176b04c241e1b9ec8968000efaffb3e885c5",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "天地源股份有限公司关于向金融机构申请委托贷款暨关联交易的公告",
+              "publisher": "天地源股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页重要内容提示、第3页交易主要内容及审议程序、第4页落款",
+              "retrievedAt": "2026-11-05T08:05:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225635500.PDF"
+            },
+            {
+              "title": "天地源股份有限公司第十一届董事会第二十三次会议决议公告",
+              "publisher": "天地源股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1—2页，第二项议案",
+              "retrievedAt": "2026-11-05T08:05:47+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225635457.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-c8e65fde17c51f7cfc56",
+      "objectId": "listed-600707-sh",
+      "type": "投资者关系活动",
+      "topics": [
+        "业绩说明会安排"
+      ],
+      "updates": [
+        {
+          "id": "production-ec063e9900331ef998092b0a",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "拟于11月18日举行第三季度业绩说明会",
+          "summary": "彩虹股份2026年10月29日公告，计划于2026年11月18日9:00—10:00在上证路演中心以网络文字互动方式举行第三季度业绩说明会。投资者可于11月11日至11月17日16:00前通过上证路演中心“提问预征集”栏目提交问题。",
+          "stage": "公告计划于2026年11月18日9:00—10:00举行网络业绩说明会",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T05:10:09-08:00",
+          "compiledAt": "2026-11-11T05:10:09-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "彩虹股份",
+          "version": "ec063e9900331ef998092b0ac6e17a83f45e86af1a0406cea407ee5377a936c0",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "彩虹股份关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "彩虹显示器件股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页会议时间地点、第2页投资者参加方式及落款",
+              "retrievedAt": "2026-11-05T08:05:48+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225636581.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-0750f89e033e555445fa",
+      "date": "2026-11-11",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-11T21:12:15+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-0bdc78513ea25a163acc9f27",
+        "production-8d4c60094072d75fd7aa6a22",
+        "production-6b189fe20974e4ec4ab4294c",
+        "production-e520619f4db9789df1cc4cd4",
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-5de5b66ee0e60c5fb1bee6ac",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-de89d2fc8abdc65b3fda967f",
+        "production-656c08d50eac542d57803c5e",
+        "production-961dc504f8337563fa49ce3f",
+        "production-fde8168819b9d7206431aedd",
+        "production-1d6e0f06b04a487eb44e7634",
+        "production-9041551624dc78082a4d96bd",
+        "production-b62e6dcc3055dc4df6b48521",
+        "production-27a263b3ec6404022ef3f654"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-0750f89e033e555445fa/page-01.png",
+          "width": 1080,
+          "height": 2394,
+          "sha256": "8707950ce8d601bbaf19f82df423261d7d2d9580aae7dd0bc0338364c2fe140b"
+        },
+        {
+          "file": "assets/editions/selection-0750f89e033e555445fa/page-02.png",
+          "width": 1080,
+          "height": 2740,
+          "sha256": "2ca993207551902449c476164bbd4dd73f31523fa03297f980446f25a31fc87a"
+        },
+        {
+          "file": "assets/editions/selection-0750f89e033e555445fa/page-03.png",
+          "width": 1080,
+          "height": 2368,
+          "sha256": "fce1ce932a64eef1bddd6cd091d1bbffbabbcaf8c24222699ea039d87b671beb"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-11-a6e870940432",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-06-12",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-32c059172c74da96a014",
+          "updateId": "production-0bdc78513ea25a163acc9f27",
+          "version": "0bdc78513ea25a163acc9f27159c25636acecf3918027d9592d160d01dcb0c56",
+          "objectName": "航天电子",
+          "type": "listed",
+          "category": "股权置换及同一控制下企业合并进展",
+          "date": "2026-10-30",
+          "title": "披露西安太乙股权置换的合并会计处理",
+          "business": "投资银行",
+          "share": {
+            "title": "股权置换按同一控制下合并追溯调整",
+            "facts": "三季报披露，控股子公司时代光电以北京航天兴华科技有限公司100%股权置换西安太乙电子有限公司58%股权，作价分别为64,500.50万元、64,970.61万元，现金补差470.11万元。本期按同一控制下合并追溯调整；视同期初取得控制权属会计口径，具体工商交割日及补差款实际支付状态未核实。"
+          }
+        },
+        {
+          "eventId": "production-event-f79f9b1e59238de24f37",
+          "updateId": "production-8d4c60094072d75fd7aa6a22",
+          "version": "8d4c60094072d75fd7aa6a227d6087fe8afef709d4931ed83c42f897d496e404",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "再融资",
+          "date": "2026-10-30",
+          "title": "拟将2024年度定增决议及授权有效期延至2027年11月27日",
+          "business": "投资银行",
+          "share": {
+            "title": "拟将定增决议及授权有效期延长12个月",
+            "facts": "公告，董事会通过延期议案，拟将2024年度定增决议及授权有效期延至2027年11月27日，尚需股东会审议。该定增拟由实控人贺增林控制的君耀领航全额认购，募资不超过7亿元，扣除发行费用后全部补流；本次延期不代表发行完成或资金到账。"
+          }
+        },
+        {
+          "eventId": "production-event-87b52efa39548c8feae7",
+          "updateId": "production-6b189fe20974e4ec4ab4294c",
+          "version": "6b189fe20974e4ec4ab4294cb984fbfa3f1f1df826ae2a6e818b0d1e4d2efaaa",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "宝鸡供热公司100%股权内部划转已完成工商登记",
+          "business": "投资银行",
+          "share": {
+            "title": "内部无偿划转100%股权完成工商登记",
+            "facts": "7月全资子公司陕西美能新能源有限公司将所持宝鸡市美能清洁供热有限公司100%股权，无偿划转至另一全资子公司宝鸡市美能天然气有限公司；截至三季度报告期末已完成工商登记，本次进一步明确登记完成阶段。"
+          }
+        },
+        {
+          "eventId": "production-event-c4e0e90f4650591e20c5",
+          "updateId": "production-e520619f4db9789df1cc4cd4",
+          "version": "e520619f4db9789df1cc4cd4b05fb36e7fe18031795699b59e29eb307d530926",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "完成韩城供热公司100%股权内部划转登记",
+          "business": "投资银行",
+          "share": {
+            "title": "供热公司100%股权内部划转完成登记",
+            "facts": "7月陕西美能新能源有限公司将韩城市美能清洁供热有限公司100%股权无偿划转至韩城市美能天然气有限责任公司，双方均为其全资子公司。截至9月30日已完成工商登记，本次三季报补充登记完成状态。"
+          }
+        },
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-9b9658b42bf0db44addc",
+          "updateId": "production-5de5b66ee0e60c5fb1bee6ac",
+          "version": "5de5b66ee0e60c5fb1bee6acc2f476fcebe714a9b81a2b3330d9c28a4ac2e101",
+          "objectName": "天地源",
+          "type": "listed",
+          "category": "资产出售筹划",
+          "date": "2026-06-12",
+          "title": "三季报续披露地产资产出售筹划，具体范围仍待协商",
+          "business": "投资银行",
+          "share": {
+            "title": "地产资产出售仍在筹划，范围待协商",
+            "facts": "天地源2026年10月29日三季报续披露，拟出售部分房地产开发业务相关资产及负债，范围待协商。6月12日公告列意向受让方为西安高科集团或其指定关联方，当时价格未定、未签协议，是否构成重大资产重组尚无法确定。三季报未披露新增价格、协议、审批或交割结果，不能确认已实施。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-540f0beca84dcf3374da",
+          "updateId": "production-de89d2fc8abdc65b3fda967f",
+          "version": "de89d2fc8abdc65b3fda967f4a92692741d79bf54c536fe8ed972789c29baf14",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "股份解禁",
+          "date": "2026-10-30",
+          "title": "三季报确认张发群354.321万股已解除限售，半年末已无限售",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报重列既有解禁，非三季度新增",
+            "facts": "三季报列示，张发群354.321万股已解除限售，9月末持股354.321万股、占0.68%，限售股为零。半年报已显示6月末限售股为零，本次属再次披露，并非三季度新增解禁；两期末持股相同不足以证明期间无交易。"
+          }
+        },
+        {
+          "eventId": "production-event-7ee89c1a82937112b694",
+          "updateId": "production-656c08d50eac542d57803c5e",
+          "version": "656c08d50eac542d57803c5e8faf179f3c0c0d968b122502e2ab762c3226ecf7",
+          "objectName": "节能环境",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-10-29",
+          "title": "三季报确认中国环保逾20亿股解除限售，仍有不主动减持承诺",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报确认解禁结果，仍有不主动减持承诺",
+            "facts": "三季报确认，中国环境保护集团有限公司2,075,144,678股已于7月20日解除限售；截至9月30日仍持股66.96%。其承诺2026年7月20日至2027年1月19日不主动减持所持A股，按国资监管要求无偿划转除外。"
+          }
+        },
+        {
+          "eventId": "production-event-e31a70d7a2e0db5882ed",
+          "updateId": "production-961dc504f8337563fa49ce3f",
+          "version": "961dc504f8337563fa49ce3fbb89dfe5c6dc34a26e96d7ebaeecc929ea3c625a",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "限售股份解除",
+          "date": "2026-10-28",
+          "title": "三季报延续杨效东24.75万股解限记录，半年报已披露",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报列示既有24.75万股解限记录",
+            "facts": "三季报列示杨效东（已离任）24.75万股解限记录，期末锁定股74.25万股。数据与半年报一致，并非第三季度或10月新增解禁；具体办理日期未披露，解限不等于实际减持。"
+          }
+        },
+        {
+          "eventId": "production-event-dc73342c7053bdd450f2",
+          "updateId": "production-fde8168819b9d7206431aedd",
+          "version": "fde8168819b9d7206431aeddce91f4d4a4cc74905a0dea76589253354b1dae60",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "第二批预留激励6人可归属48.4250万股，董事会同意办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第二批48.4250万股获准办理归属",
+            "facts": "董事会同意办理2025年限制性股票激励计划预留第二批首个归属期归属，涉及6人、48.4250万股，调整后授予价9.33元/股。现有披露不能证明缴款、登记或上市流通已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-d8ffbfcb5d9da156bf79",
+          "updateId": "production-1d6e0f06b04a487eb44e7634",
+          "version": "1d6e0f06b04a487eb44e76343622399aa17e3eeaf2491d76c541aafce877a01b",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "预留第一批22.9937万股归属条件成就，其中9.75万股暂缓办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第一批归属条件成就，9.75万股暂缓",
+            "facts": "2025年限制性股票激励计划预留第一批首个归属期条件成就，7人可归属22.9937万股，调整后授予价9.33元/股。其中武莹、郑正东因个人资金安排等原因暂缓办理9.75万股；现有材料不能证明出资、登记或上市已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        },
+        {
+          "eventId": "production-event-4b3290072b75e126a6f2",
+          "updateId": "production-b62e6dcc3055dc4df6b48521",
+          "version": "b62e6dcc3055dc4df6b485215743054ba9728ac00e2e30c7164fcf08985efb5e",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "员工持股",
+          "date": "2026-09-16",
+          "title": "员工持股计划完成1,369.66万股过户，股份解锁受考核约束",
+          "business": "股份管理",
+          "share": {
+            "title": "员工持股计划完成1369.66万股过户",
+            "facts": "公告，员工持股计划实际筹资35,200,262元，来自参加对象自筹；9月14日完成1,369.66万股历史回购股份非交易过户。股份按12、24、36个月分批解锁，受公司业绩及个人绩效考核约束，过户完成不代表解锁。"
+          }
+        },
+        {
+          "eventId": "production-event-a1c7a43f5f6daa7ce936",
+          "updateId": "production-27a263b3ec6404022ef3f654",
+          "version": "27a263b3ec6404022ef3f654e4392911c1773b9b8123e174157ecc727664864c",
+          "objectName": "宝钛股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-29",
+          "title": "赎回3,200万元募集资金结构性存款，取得收益12.69万元",
+          "business": "机构理财",
+          "share": {
+            "title": "到期赎回3,200万元结构性存款",
+            "facts": "公告，10月27日到期赎回工商银行结构性存款本金3,200万元，取得收益12.69万元。该产品使用闲置可转债募集资金，属于现金管理授权下的执行进展，公告未披露本次续购安排。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-c48d4823ef9d5db9b2b7",
       "date": "2026-11-11",
@@ -55855,6 +56429,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "8bab248c9f0ddddee0c2",
+      "date": "2026-11-11",
+      "compiledAt": "2026-11-11T04:46:02-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/8bab248c9f0ddddee0c2/index.html",
+      "publishedAt": "2026-11-11T20:59:09+08:00"
+    },
     {
       "id": "adcfdfe9fe9bf178bf3a",
       "date": "2026-11-11",
