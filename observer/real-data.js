@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-10-e5284b4d4ade",
-      "compiledAt": "2026-11-10T17:57:04-08:00",
+      "id": "2026-11-10-88de7217126c",
+      "compiledAt": "2026-11-10T18:08:32-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -42,6 +42,7 @@ window.PROTOTYPE = {
         "production-b81e76307d879bd223d97739",
         "production-b5f03fad5a03336713b4354e",
         "production-acfc140fe78f6656dc436309",
+        "production-a505466b659ed6c7e66af361",
         "production-a278957d9932c3a3066c0748",
         "production-9eb4f111d32e8675dd83bb11",
         "production-9a7600a24c919b41fd7718ed",
@@ -398,6 +399,7 @@ window.PROTOTYPE = {
       "production-9eb4f111d32e8675dd83bb11": "2026-11-05T17:38:35-08:00",
       "production-eeae0bf5db12bcdc4e6d4fa1": "2026-11-05T17:38:35-08:00",
       "production-87d9e36ade84cce83fdcd926": "2026-11-05T17:38:35-08:00",
+      "production-c3ad64745687caebb9fe6cd2": "2026-11-05T17:54:26-08:00",
       "production-95ac60a7ca6d36e43c857c8b": "2026-11-05T17:54:26-08:00",
       "production-9154142253613e54ae99f5ed": "2026-11-05T17:54:26-08:00",
       "production-502375d7206ec7e3fa1a6216": "2026-11-05T18:37:40-08:00",
@@ -408,6 +410,7 @@ window.PROTOTYPE = {
       "production-2947fcab17be17cee2508db6": "2026-11-05T18:59:33-08:00",
       "production-42e955320b5d35846be7d060": "2026-11-05T18:59:33-08:00",
       "production-49963c2a05a103a74d123151": "2026-11-05T19:17:46-08:00",
+      "production-5312da14e399347f940d5faa": "2026-11-05T19:33:55-08:00",
       "production-d74c85c04a863d6f281c8c4c": "2026-11-05T19:33:55-08:00",
       "production-0933b035c0ff10f36e95e045": "2026-11-05T19:33:55-08:00",
       "production-21e8ba242101d1e3e94b99c8": "2026-11-05T19:33:55-08:00",
@@ -447,7 +450,8 @@ window.PROTOTYPE = {
       "production-b62e6dcc3055dc4df6b48521": "2026-11-10T17:44:04-08:00",
       "production-9a7600a24c919b41fd7718ed": "2026-11-10T17:54:29-08:00",
       "production-0cb59405b008af820d37e46a": "2026-11-10T17:57:02-08:00",
-      "production-1cbf9a2cffe6308be6da4f24": "2026-11-10T17:57:02-08:00"
+      "production-1cbf9a2cffe6308be6da4f24": "2026-11-10T17:57:02-08:00",
+      "production-a505466b659ed6c7e66af361": "2026-11-10T18:08:31-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2508,6 +2512,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "特变电工2026年10月30日披露，2026年前三季度公司电站发电量为2,097,385.89万千瓦时，上网电量为1,975,590.80万千瓦时。截至2026年9月末，公司电站装机容量为10,980.39MW。"
         },
+        "production-c3ad64745687caebb9fe6cd2": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "特变电工股份有限公司2026年10月30日公告，十一届八次董事会于10月29日以电子通信方式召开，以11票同意、0票反对、0票弃权审议通过公司2026年第三季度报告。"
+        },
         "production-95ac60a7ca6d36e43c857c8b": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -2577,6 +2588,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安银行2026年10月30日披露，10月29日召开的董事会审议通过《内幕信息及知情人管理制度》修订议案，表决结果为同意10票、反对0票、弃权0票。修订后的制度自董事会审议通过之日起生效实施，原制度同时废止。"
+        },
+        "production-5312da14e399347f940d5faa": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安银行2026年10月30日披露第三季度报告，报告已于10月29日经董事会审议通过，财务报表未经审计。2026年前三季度，公司实现营业收入人民币84.36亿元，同比增长9.69%；归属于母公司股东的净利润人民币21.94亿元，同比增长7.93%。"
         },
         "production-d74c85c04a863d6f281c8c4c": {
           "version": "listed-scope-20261019",
@@ -2843,6 +2861,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安炬光科技股份有限公司2026年10月30日披露的三季报显示，其IPO募投项目“泛半导体制程光子应用解决方案产业基地项目”已于2026年9月达到预定可使用状态，并于10月完成结项。该项目募集资金已全部使用完毕，相关募集资金专户已于2026年10月完成注销。"
+        },
+        "production-a505466b659ed6c7e66af361": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西部金属材料股份有限公司2026年10月30日公告，董事会于10月28日审议通过提名董南雁、杨冠军、李永宁为第九届董事会独立董事候选人的议案。相关选举拟提交11月20日召开的2026年第三次临时股东会，候选人的任职资格和独立性尚需经深交所备案审核无异议后方可表决。"
         }
       }
     },
@@ -2852,8 +2877,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-10-e5284b4d4ade",
-      "editionId": "selection-b5c3f966391a0cc7e7bb",
+      "sourceEditionId": "2026-11-10-88de7217126c",
+      "editionId": "selection-66d913c99232a66882dd",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -34026,6 +34051,51 @@ window.PROTOTYPE = {
       ]
     },
     {
+      "id": "production-event-3608687502dcfd349a01",
+      "objectId": "listed-600089-sh",
+      "type": "定期报告审议",
+      "topics": [
+        "董事会审议季度报告"
+      ],
+      "updates": [
+        {
+          "id": "production-c3ad64745687caebb9fe6cd2",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会审议通过2026年第三季度报告",
+          "summary": "特变电工股份有限公司2026年10月30日公告，十一届八次董事会于10月29日以电子通信方式召开，以11票同意、0票反对、0票弃权审议通过公司2026年第三季度报告。",
+          "stage": "2026年10月29日董事会审议通过2026年第三季度报告",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T09:59:17+08:00",
+          "updatedAt": "2026-11-05T17:54:27-08:00",
+          "compiledAt": "2026-11-05T17:54:27-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "特变电工",
+          "version": "c3ad64745687caebb9fe6cd2f655c74e6bebebdcd09950572c6fc6185abea301",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "特变电工股份有限公司十一届八次董事会会议决议公告",
+              "publisher": "特变电工股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页：会议召开情况及第一项议案",
+              "retrievedAt": "2026-11-05T08:08:03+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643188.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
       "id": "production-event-649b81ffff8608cfd7f1",
       "objectId": "listed-600089-sh",
       "type": "资产减值",
@@ -34510,6 +34580,60 @@ window.PROTOTYPE = {
               "location": "物理第10页，第三十一条",
               "retrievedAt": "2026-11-05T08:06:26+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644388.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-f05829f6d39ec26f9ecf",
+      "objectId": "listed-600928-sh",
+      "type": "定期报告",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-5312da14e399347f940d5faa",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "披露三季报：前三季度归母净利润21.94亿元",
+          "summary": "西安银行2026年10月30日披露第三季度报告，报告已于10月29日经董事会审议通过，财务报表未经审计。2026年前三季度，公司实现营业收入人民币84.36亿元，同比增长9.69%；归属于母公司股东的净利润人民币21.94亿元，同比增长7.93%。",
+          "stage": "董事会已审议通过并披露，财务报表未经审计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T11:44:26+08:00",
+          "updatedAt": "2026-11-05T19:33:55-08:00",
+          "compiledAt": "2026-11-05T19:33:55-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安银行",
+          "version": "5312da14e399347f940d5faa62535db7317159e8280554ce5d7d455317d13d2c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安银行股份有限公司第六届董事会第四十次会议决议公告",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页，会议召开情况及第一项议案；公告落款日期为2026年10月29日",
+              "retrievedAt": "2026-11-05T08:06:26+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644384.PDF"
+            },
+            {
+              "title": "西安银行股份有限公司2026年第三季度报告",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页重要内容提示、第2页主要会计数据、第5页季度经营情况；报告落款日期为2026年10月29日",
+              "retrievedAt": "2026-11-05T08:06:26+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644376.PDF"
             }
           ],
           "tables": []
@@ -37129,6 +37253,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T10:03:47+08:00",
           "updatedAt": "2026-11-10T17:54:30-08:00",
           "compiledAt": "2026-11-10T17:54:30-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -37175,6 +37300,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T10:03:47+08:00",
           "updatedAt": "2026-11-10T17:57:02-08:00",
           "compiledAt": "2026-11-10T17:57:02-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -37221,6 +37347,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T10:03:47+08:00",
           "updatedAt": "2026-11-10T17:57:03-08:00",
           "compiledAt": "2026-11-10T17:57:03-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -37246,9 +37373,188 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-e1324137ee71180cf9d5",
+      "objectId": "listed-002149-sz",
+      "type": "董事换届",
+      "topics": [
+        "独立董事候选人提名",
+        "候选人与提名人声明",
+        "任职资格及独立性审核",
+        "股东会选举安排"
+      ],
+      "updates": [
+        {
+          "id": "production-a505466b659ed6c7e66af361",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会通过董南雁等三名独立董事候选人提名",
+          "summary": "西部金属材料股份有限公司2026年10月30日公告，董事会于10月28日审议通过提名董南雁、杨冠军、李永宁为第九届董事会独立董事候选人的议案。相关选举拟提交11月20日召开的2026年第三次临时股东会，候选人的任职资格和独立性尚需经深交所备案审核无异议后方可表决。",
+          "stage": "2026年10月28日董事会通过董南雁、杨冠军、李永宁提名；任职资格及独立性尚需深交所备案审核无异议，之后由拟于11月20日召开的股东会表决",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T18:08:31-08:00",
+          "compiledAt": "2026-11-10T18:08:31-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西部材料",
+          "version": "a505466b659ed6c7e66af36103c8f1e769bde42da954da5367b78aa3635ceaf1",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西部金属材料股份有限公司关于董事会换届选举的公告",
+              "publisher": "西部金属材料股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1—2页，董事会换届选举情况、其他说明及落款",
+              "retrievedAt": "2026-11-05T08:04:50+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644072.PDF"
+            },
+            {
+              "title": "西部金属材料股份有限公司关于召开2026年第三次临时股东会的通知",
+              "publisher": "西部金属材料股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1—2页，会议时间、提案编码表及表决前提",
+              "retrievedAt": "2026-11-05T08:04:51+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644071.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-66d913c99232a66882dd",
+      "date": "2026-11-11",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-11T10:14:55+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-0bdc78513ea25a163acc9f27",
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-9041551624dc78082a4d96bd",
+        "production-b62e6dcc3055dc4df6b48521"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-66d913c99232a66882dd/page-01.png",
+          "width": 1080,
+          "height": 2792,
+          "sha256": "d4fa687a2ae7c18c5475b85a9e07c27de2b15511b385425c1cedb795c5ca98c8"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-10-88de7217126c",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-16",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-32c059172c74da96a014",
+          "updateId": "production-0bdc78513ea25a163acc9f27",
+          "version": "0bdc78513ea25a163acc9f27159c25636acecf3918027d9592d160d01dcb0c56",
+          "objectName": "航天电子",
+          "type": "listed",
+          "category": "股权置换及同一控制下企业合并进展",
+          "date": "2026-10-30",
+          "title": "披露西安太乙股权置换的合并会计处理",
+          "business": "投资银行",
+          "share": {
+            "title": "股权置换按同一控制下合并追溯调整",
+            "facts": "三季报披露，控股子公司时代光电以北京航天兴华科技有限公司100%股权置换西安太乙电子有限公司58%股权，作价分别为64,500.50万元、64,970.61万元，现金补差470.11万元。本期按同一控制下合并追溯调整；视同期初取得控制权属会计口径，具体工商交割日及补差款实际支付状态未核实。"
+          }
+        },
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        },
+        {
+          "eventId": "production-event-4b3290072b75e126a6f2",
+          "updateId": "production-b62e6dcc3055dc4df6b48521",
+          "version": "b62e6dcc3055dc4df6b485215743054ba9728ac00e2e30c7164fcf08985efb5e",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "员工持股",
+          "date": "2026-09-16",
+          "title": "员工持股计划完成1,369.66万股过户，股份解锁受考核约束",
+          "business": "股份管理",
+          "share": {
+            "title": "员工持股计划完成1369.66万股过户",
+            "facts": "公告，员工持股计划实际筹资35,200,262元，来自参加对象自筹；9月14日完成1,369.66万股历史回购股份非交易过户。股份按12、24、36个月分批解锁，受公司业绩及个人绩效考核约束，过户完成不代表解锁。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-b5c3f966391a0cc7e7bb",
       "date": "2026-11-11",
@@ -43523,6 +43829,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "2a9520e63023e6985f39",
+      "date": "2026-11-11",
+      "compiledAt": "2026-11-10T17:57:04-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/2a9520e63023e6985f39/index.html",
+      "publishedAt": "2026-11-11T10:03:47+08:00"
+    },
     {
       "id": "abb086b045fde01c4df7",
       "date": "2026-11-11",
