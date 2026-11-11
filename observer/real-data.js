@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-11-a6e870940432",
-      "compiledAt": "2026-11-11T05:10:10-08:00",
+      "id": "2026-11-11-ee50f53b9c89",
+      "compiledAt": "2026-11-11T05:29:57-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -113,6 +113,7 @@ window.PROTOTYPE = {
         "production-d0d0ac0847edb209f0f944d7",
         "production-cf7a872fb36f537edafc741f",
         "production-c56191bfce2999bf20d9797e",
+        "production-bc1f8d242f7e0aaad3a301ac",
         "production-b4167730be785903bf94549b",
         "production-b007ff31d6e65f3aa8d5e818",
         "production-af01c48ce2652a6d874fc226",
@@ -122,7 +123,11 @@ window.PROTOTYPE = {
         "production-6b189fe20974e4ec4ab4294c",
         "production-656c08d50eac542d57803c5e",
         "production-62a5c7f298a456f0fa8fbc57",
+        "production-5cb562d6c8b3c1f649e2be96",
+        "production-564ad23feec9ac0f8afc4f27",
+        "production-4b973e536835785d6a51d752",
         "production-49c807bfd364b040388fad33",
+        "production-4564a857e5a79c9aa25d3e2f",
         "production-4394f88e15dc05828b0c6b0a",
         "production-40109e66e340792f75e0e63f",
         "production-3763c0344e5a96d1f488d6b7",
@@ -139,6 +144,7 @@ window.PROTOTYPE = {
         "production-b72a1fd942ce04fe50d71b21",
         "production-961dc504f8337563fa49ce3f",
         "production-6ac654ef6e973cc87f1a9cd4",
+        "production-5bf4e78e2fe2b8ae7a265dd4",
         "production-31538a5cdfd937a7a48a4612",
         "production-2be19c48e720fad0969c85c0",
         "production-1d6e0f06b04a487eb44e7634",
@@ -578,7 +584,13 @@ window.PROTOTYPE = {
       "production-e5f78f79c00a9d5799ceb734": "2026-11-11T05:10:07-08:00",
       "production-b007ff31d6e65f3aa8d5e818": "2026-11-11T05:10:07-08:00",
       "production-25cf8d574fed16aebcf981d4": "2026-11-11T05:10:07-08:00",
-      "production-ec063e9900331ef998092b0a": "2026-11-11T05:10:07-08:00"
+      "production-ec063e9900331ef998092b0a": "2026-11-11T05:10:07-08:00",
+      "production-5bf4e78e2fe2b8ae7a265dd4": "2026-11-11T05:23:22-08:00",
+      "production-bc1f8d242f7e0aaad3a301ac": "2026-11-11T05:25:40-08:00",
+      "production-4b973e536835785d6a51d752": "2026-11-11T05:25:40-08:00",
+      "production-4564a857e5a79c9aa25d3e2f": "2026-11-11T05:25:40-08:00",
+      "production-564ad23feec9ac0f8afc4f27": "2026-11-11T05:29:55-08:00",
+      "production-5cb562d6c8b3c1f649e2be96": "2026-11-11T05:29:55-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -3430,6 +3442,47 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "彩虹股份2026年10月29日公告，计划于2026年11月18日9:00—10:00在上证路演中心以网络文字互动方式举行第三季度业绩说明会。投资者可于11月11日至11月17日16:00前通过上证路演中心“提问预征集”栏目提交问题。"
+        },
+        "production-5bf4e78e2fe2b8ae7a265dd4": {
+          "version": "listed-scope-20261019",
+          "action": "解禁",
+          "group": "股东股份变动",
+          "level": "deep"
+        },
+        "production-bc1f8d242f7e0aaad3a301ac": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "ST派瑞2026年10月29日披露的第三季度报告显示，截至报告披露日，公司已按照专项整改方案相关时间节点完成各项阶段性整改工作，并向监管部门及时报送月度整改报告。"
+        },
+        "production-4b973e536835785d6a51d752": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "诺瓦星云2026年10月29日公告，董事会于10月28日审议通过将董事会战略委员会调整为董事会战略与ESG委员会，并修订相关实施细则，在原有职责基础上增加ESG管理职责等内容。委员会成员组成、职位及任期规定未发生变动。"
+        },
+        "production-4564a857e5a79c9aa25d3e2f": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "航天动力2026年10月29日公告，计划于2026年11月6日10:00—11:00通过上证路演中心网络互动召开第三季度业绩说明会，就投资者关心的问题进行交流。当前材料为会议安排公告，未证明会议已实际举行。"
+        },
+        "production-564ad23feec9ac0f8afc4f27": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "据2026年10月29日披露的公告，西安派瑞功率半导体变流技术股份有限公司于10月27日召开董事会，审议通过2026年第三季度报告并同意披露，表决结果为9票同意、0票反对、0票弃权、0票回避。"
+        },
+        "production-5cb562d6c8b3c1f649e2be96": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西航天动力高科技股份有限公司2026年10月29日公告，董事会于10月27日审议通过组织机构调整议案。调整后的内部机构包括7个部室、3个业务支撑部门、2个研发中心和2个事业部，其中研发中心为流体动力研究中心、液力传动工程技术中心，事业部为特种泵事业部、特种变矩器事业部。"
         }
       }
     },
@@ -3439,8 +3492,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-11-a6e870940432",
-      "editionId": "selection-0750f89e033e555445fa",
+      "sourceEditionId": "2026-11-11-ee50f53b9c89",
+      "editionId": "selection-b914083607139cbc908e",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -6469,8 +6522,7 @@ window.PROTOTYPE = {
       "rosterTier": "L1",
       "rosterCategory": "陕西辖区A股",
       "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
       "id": "listed-600217-sh",
@@ -20870,6 +20922,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T21:16:23+08:00",
           "updatedAt": "2026-11-11T05:10:08-08:00",
           "compiledAt": "2026-11-11T05:10:08-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -42436,6 +42489,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T21:16:23+08:00",
           "updatedAt": "2026-11-11T05:02:12-08:00",
           "compiledAt": "2026-11-11T05:02:12-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -42489,6 +42543,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T21:16:23+08:00",
           "updatedAt": "2026-11-11T05:10:07-08:00",
           "compiledAt": "2026-11-11T05:10:07-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -42535,6 +42590,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T21:16:23+08:00",
           "updatedAt": "2026-11-11T05:10:08-08:00",
           "compiledAt": "2026-11-11T05:10:08-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -42587,6 +42643,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T21:16:23+08:00",
           "updatedAt": "2026-11-11T05:10:09-08:00",
           "compiledAt": "2026-11-11T05:10:09-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -42612,9 +42669,703 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-806cb6cd43c249fcbfc9",
+      "objectId": "listed-300861-sz",
+      "type": "限售股份变动披露",
+      "topics": [
+        "吴英",
+        "高管锁定股",
+        "本期解除限售"
+      ],
+      "updates": [
+        {
+          "id": "production-5bf4e78e2fe2b8ae7a265dd4",
+          "date": "2026-10-28",
+          "time": "",
+          "title": "三季报续列吴英解除限售1股，一季报已披露相同变动",
+          "summary": "美畅股份2026年10月28日披露三季报，吴英限售股份变动表列示期初249,975,551股、本期解除1股、增加0股、期末249,975,550股，与2026年一季报相同，不能作为第三季度新增解禁。三季度末吴英持股333,300,734股，占49.61%。表中2027年9月29日为拟解除限售日期，并非这1股的实际办理日，也不代表剩余股份已解除限售或出售。",
+          "stage": "季报披露本期已解除限售1股，剩余限售股份列示未来拟解除日期",
+          "depth": "deep",
+          "coverage": "本事项有限历史研究；不等于观察池全量已更新。已核2026年一季报及三季报未披露1股解除限售的具体办理日期和单独变动原因；本文仅确认其此前已披露及两期表格一致，不推断原因。 历史对照限定于2025年三季报、2026年一季报和2026年三季报。上一轮定位的2026年半年报未随本轮提供可读原件，未作为正文依据；现有一季报原页已能证明该1股变动此前已披露，不声称完成全部历史核查。 资料截止为2026年11月1日23:59:59（北京时间），留存及补件时间晚于该截止。取得时间不替代披露日期，不证明更早的分钟级公开时点。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T05:23:22-08:00",
+          "compiledAt": "2026-11-11T05:23:22-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "美畅股份",
+          "version": "5bf4e78e2fe2b8ae7a265dd474c24d3e5a91caa86b8ad13315a860472bdfd49e",
+          "important": true,
+          "production": true,
+          "prototype": false,
+          "history": [
+            {
+              "date": "2025-10-29",
+              "text": "2025年三季报披露锁定背景：吴英于2024年11月18日离职，其所持238,071,953股按100%锁定；离职满半年后至原定任期届满六个月，按75%锁定。2025年7月8日公司实施完成2024年度权益分派后，其持股增至333,300,734股，高管锁定股相应增至249,975,551股。该报告已将2027年9月29日列为拟解除限售日期。"
+            },
+            {
+              "date": "2026-04-29",
+              "text": "2026年一季报已列示吴英期初限售249,975,551股、解除1股、增加0股、期末249,975,550股；期末总持股333,300,734股，无限售条件股份83,325,184股。"
+            },
+            {
+              "date": "2026-10-28",
+              "text": "2026年三季报的上述限售变动数、期末总持股及无限售条件股份数量均与一季报一致。本次属于此前已披露变动的持续列示。"
+            }
+          ],
+          "business": [
+            "相关股份属于吴英个人持股，锁定背景涉及离职后的股份限制。可讨论的服务事项是股东股份状态及后续办理安排核对，实际需求须向股东确认；现有披露不能证明其减持意愿、成交、变现收入或资金需求，也不能由“高管锁定股”这一分类推断其仍在任职。"
+          ],
+          "details": [
+            {
+              "label": "三季度末持股结构",
+              "value": "吴英持股333,300,734股，占49.61%；其中有限售条件股份249,975,550股，无限售条件股份83,325,184股。"
+            },
+            {
+              "label": "锁定口径",
+              "value": "2026年一季报及三季报均说明，以上年末其所持公司总股数的75%予以锁定。"
+            },
+            {
+              "label": "执行日期与原因",
+              "value": "所核2026年一季报及三季报未说明这1股解除限售的具体办理日期和单独变动原因，不将其推断为取整调整。"
+            },
+            {
+              "label": "后续日期的含义",
+              "value": "2027年9月29日位于拟解除限售日期栏，不能作为本次1股的实际解除日期或剩余股份届时必然全部流通的证明。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "2026年第三季度报告",
+              "publisher": "杨凌美畅新材料股份有限公司",
+              "date": "2026-10-28",
+              "location": "物理第4—5页股东及限售股份变动表，第11页落款；使用已留存版本",
+              "retrievedAt": "2026-11-05T08:05:16+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225629596.PDF"
+            },
+            {
+              "title": "2026年第一季度报告",
+              "publisher": "杨凌美畅新材料股份有限公司",
+              "date": "2026-04-29",
+              "location": "物理第4—5页股东及限售股份变动表，第11页落款；本轮补入的留存版本",
+              "retrievedAt": "2026-11-11T05:18:55.427085-08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225248245.PDF"
+            },
+            {
+              "title": "2025年第三季度报告",
+              "publisher": "杨凌美畅新材料股份有限公司",
+              "date": "2025-10-29",
+              "location": "物理第6—7页限售股份变动表及跨页合计，第13页落款；本轮补入的留存版本",
+              "retrievedAt": "2026-11-11T05:18:58.641860-08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2025-10-29/1224755578.PDF"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "吴英限售股份变动披露对照，单位：股；各行沿用对应报告列示口径，不将2026年两期解除数相加",
+              "columns": [
+                "报告",
+                "期初限售",
+                "本期解除",
+                "本期增加",
+                "期末限售",
+                "拟解除限售日期"
+              ],
+              "rows": [
+                [
+                  "2025年三季报",
+                  "238,071,953",
+                  "59,517,988",
+                  "71,421,586",
+                  "249,975,551",
+                  "2027年9月29日"
+                ],
+                [
+                  "2026年一季报",
+                  "249,975,551",
+                  "1",
+                  "0",
+                  "249,975,550",
+                  "2027年9月29日"
+                ],
+                [
+                  "2026年三季报",
+                  "249,975,551",
+                  "1",
+                  "0",
+                  "249,975,550",
+                  "2027年9月29日"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-event-700935532311792a4f4d",
+      "objectId": "listed-300831-sz",
+      "type": "监管整改进展",
+      "topics": [
+        "行政处罚后整改",
+        "月度整改报告"
+      ],
+      "updates": [
+        {
+          "id": "production-bc1f8d242f7e0aaad3a301ac",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "披露阶段性整改进展及月度报告报送情况",
+          "summary": "ST派瑞2026年10月29日披露的第三季度报告显示，截至报告披露日，公司已按照专项整改方案相关时间节点完成各项阶段性整改工作，并向监管部门及时报送月度整改报告。",
+          "stage": "截至报告披露日已按方案完成阶段性整改并报送月度报告",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T05:25:40-08:00",
+          "compiledAt": "2026-11-11T05:25:40-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST派瑞",
+          "version": "bc1f8d242f7e0aaad3a301acb1f6851492f3b05d96ba2536194f1f468b2e02dc",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年三季度报告",
+              "publisher": "西安派瑞功率半导体变流技术股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第7页，“三、其他重要事项”第2项；第13页落款",
+              "retrievedAt": "2026-11-05T08:05:15+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225634773.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-594af566778c37ccb359",
+      "objectId": "listed-301589-sz",
+      "type": "公司治理制度调整",
+      "topics": [
+        "董事会战略与ESG委员会",
+        "实施细则修订"
+      ],
+      "updates": [
+        {
+          "id": "production-4b973e536835785d6a51d752",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "调整董事会战略委员会名称并增加ESG管理职责",
+          "summary": "诺瓦星云2026年10月29日公告，董事会于10月28日审议通过将董事会战略委员会调整为董事会战略与ESG委员会，并修订相关实施细则，在原有职责基础上增加ESG管理职责等内容。委员会成员组成、职位及任期规定未发生变动。",
+          "stage": "2026年10月28日董事会审议通过委员会名称和职责调整及实施细则修订",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T05:25:40-08:00",
+          "compiledAt": "2026-11-11T05:25:40-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "诺瓦星云",
+          "version": "4b973e536835785d6a51d752217eb423b109efce1ea93abdec6a65a3a88a8d09",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第三届董事会第二十次会议决议公告",
+              "publisher": "西安诺瓦星云科技股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页会议召开情况、第2页第3项议案、第4页落款",
+              "retrievedAt": "2026-11-05T08:05:32+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225636536.PDF"
+            },
+            {
+              "title": "董事会战略与ESG委员会实施细则（2026年10月）",
+              "publisher": "西安诺瓦星云科技股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第2页第三章职责权限、第5页第二十九条",
+              "retrievedAt": "2026-11-05T08:05:30+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225636541.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-5dd21350596f7636c7d1",
+      "objectId": "listed-600343-sh",
+      "type": "业绩说明会安排",
+      "topics": [
+        "投资者沟通",
+        "2026年第三季度业绩说明会",
+        "网络互动"
+      ],
+      "updates": [
+        {
+          "id": "production-4564a857e5a79c9aa25d3e2f",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "公告拟于11月6日召开第三季度业绩说明会",
+          "summary": "航天动力2026年10月29日公告，计划于2026年11月6日10:00—11:00通过上证路演中心网络互动召开第三季度业绩说明会，就投资者关心的问题进行交流。当前材料为会议安排公告，未证明会议已实际举行。",
+          "stage": "公告计划于2026年11月6日上午10:00至11:00召开，当前材料未证明已经举行",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T05:25:41-08:00",
+          "compiledAt": "2026-11-11T05:25:41-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "航天动力",
+          "version": "4564a857e5a79c9aa25d3e2fddbc82e40e4aa3f098a7838c00e17a3751cab9fb",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "航天动力关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "陕西航天动力高科技股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页会议计划及召开方式、第2页其他事项及落款",
+              "retrievedAt": "2026-11-05T08:05:42+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637179.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-390d1f6cb217daf5a742",
+      "objectId": "listed-300831-sz",
+      "type": "定期报告审议",
+      "topics": [
+        "2026年第三季度报告"
+      ],
+      "updates": [
+        {
+          "id": "production-564ad23feec9ac0f8afc4f27",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "董事会审议通过2026年第三季度报告",
+          "summary": "据2026年10月29日披露的公告，西安派瑞功率半导体变流技术股份有限公司于10月27日召开董事会，审议通过2026年第三季度报告并同意披露，表决结果为9票同意、0票反对、0票弃权、0票回避。",
+          "stage": "2026年10月27日董事会审议通过并同意披露",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T05:29:55-08:00",
+          "compiledAt": "2026-11-11T05:29:55-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST派瑞",
+          "version": "564ad23feec9ac0f8afc4f27711e57527b644ee37e577bc166be695cb0aa8abc",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第三届董事会第十九次会议决议公告",
+              "publisher": "西安派瑞功率半导体变流技术股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1—2页，会议召开情况及第一项议案；公告落款日期为2026年10月28日",
+              "retrievedAt": "2026-11-05T08:05:15+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225634775.PDF"
+            },
+            {
+              "title": "2026年三季度报告",
+              "publisher": "西安派瑞功率半导体变流技术股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页，报告标题及主体",
+              "retrievedAt": "2026-11-05T08:05:15+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225634773.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-c753adf5e1ae84f5c325",
+      "objectId": "listed-600343-sh",
+      "type": "组织机构调整",
+      "topics": [
+        "管理架构调整",
+        "内部部门设置",
+        "董事会审议通过"
+      ],
+      "updates": [
+        {
+          "id": "production-5cb562d6c8b3c1f649e2be96",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "董事会通过组织机构调整",
+          "summary": "陕西航天动力高科技股份有限公司2026年10月29日公告，董事会于10月27日审议通过组织机构调整议案。调整后的内部机构包括7个部室、3个业务支撑部门、2个研发中心和2个事业部，其中研发中心为流体动力研究中心、液力传动工程技术中心，事业部为特种泵事业部、特种变矩器事业部。",
+          "stage": "2026年10月27日董事会审议通过组织机构调整",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T05:29:56-08:00",
+          "compiledAt": "2026-11-11T05:29:56-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "航天动力",
+          "version": "5cb562d6c8b3c1f649e2be961e15ce002c3f9a1bd0722085079aa1020b598383",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "航天动力关于调整公司组织机构的公告",
+              "publisher": "陕西航天动力高科技股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页机构设置、第2页组织机构图及落款",
+              "retrievedAt": "2026-11-05T08:05:41+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637184.PDF"
+            },
+            {
+              "title": "航天动力第八届董事会第二十一次会议决议公告",
+              "publisher": "陕西航天动力高科技股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1—2页，第三项议案",
+              "retrievedAt": "2026-11-05T08:05:42+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637173.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-b914083607139cbc908e",
+      "date": "2026-11-11",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-11T21:32:10+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-0bdc78513ea25a163acc9f27",
+        "production-8d4c60094072d75fd7aa6a22",
+        "production-6b189fe20974e4ec4ab4294c",
+        "production-e520619f4db9789df1cc4cd4",
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-5de5b66ee0e60c5fb1bee6ac",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-de89d2fc8abdc65b3fda967f",
+        "production-656c08d50eac542d57803c5e",
+        "production-961dc504f8337563fa49ce3f",
+        "production-fde8168819b9d7206431aedd",
+        "production-1d6e0f06b04a487eb44e7634",
+        "production-5bf4e78e2fe2b8ae7a265dd4",
+        "production-9041551624dc78082a4d96bd",
+        "production-b62e6dcc3055dc4df6b48521",
+        "production-27a263b3ec6404022ef3f654"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-b914083607139cbc908e/page-01.png",
+          "width": 1080,
+          "height": 2394,
+          "sha256": "8707950ce8d601bbaf19f82df423261d7d2d9580aae7dd0bc0338364c2fe140b"
+        },
+        {
+          "file": "assets/editions/selection-b914083607139cbc908e/page-02.png",
+          "width": 1080,
+          "height": 2740,
+          "sha256": "2ca993207551902449c476164bbd4dd73f31523fa03297f980446f25a31fc87a"
+        },
+        {
+          "file": "assets/editions/selection-b914083607139cbc908e/page-03.png",
+          "width": 1080,
+          "height": 2740,
+          "sha256": "2d251e28dfdaef582b3c11dcdf6869b2e188157191a2d1b303603e8818889457"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-11-ee50f53b9c89",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-06-12",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-32c059172c74da96a014",
+          "updateId": "production-0bdc78513ea25a163acc9f27",
+          "version": "0bdc78513ea25a163acc9f27159c25636acecf3918027d9592d160d01dcb0c56",
+          "objectName": "航天电子",
+          "type": "listed",
+          "category": "股权置换及同一控制下企业合并进展",
+          "date": "2026-10-30",
+          "title": "披露西安太乙股权置换的合并会计处理",
+          "business": "投资银行",
+          "share": {
+            "title": "股权置换按同一控制下合并追溯调整",
+            "facts": "三季报披露，控股子公司时代光电以北京航天兴华科技有限公司100%股权置换西安太乙电子有限公司58%股权，作价分别为64,500.50万元、64,970.61万元，现金补差470.11万元。本期按同一控制下合并追溯调整；视同期初取得控制权属会计口径，具体工商交割日及补差款实际支付状态未核实。"
+          }
+        },
+        {
+          "eventId": "production-event-f79f9b1e59238de24f37",
+          "updateId": "production-8d4c60094072d75fd7aa6a22",
+          "version": "8d4c60094072d75fd7aa6a227d6087fe8afef709d4931ed83c42f897d496e404",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "再融资",
+          "date": "2026-10-30",
+          "title": "拟将2024年度定增决议及授权有效期延至2027年11月27日",
+          "business": "投资银行",
+          "share": {
+            "title": "拟将定增决议及授权有效期延长12个月",
+            "facts": "公告，董事会通过延期议案，拟将2024年度定增决议及授权有效期延至2027年11月27日，尚需股东会审议。该定增拟由实控人贺增林控制的君耀领航全额认购，募资不超过7亿元，扣除发行费用后全部补流；本次延期不代表发行完成或资金到账。"
+          }
+        },
+        {
+          "eventId": "production-event-87b52efa39548c8feae7",
+          "updateId": "production-6b189fe20974e4ec4ab4294c",
+          "version": "6b189fe20974e4ec4ab4294cb984fbfa3f1f1df826ae2a6e818b0d1e4d2efaaa",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "宝鸡供热公司100%股权内部划转已完成工商登记",
+          "business": "投资银行",
+          "share": {
+            "title": "内部无偿划转100%股权完成工商登记",
+            "facts": "7月全资子公司陕西美能新能源有限公司将所持宝鸡市美能清洁供热有限公司100%股权，无偿划转至另一全资子公司宝鸡市美能天然气有限公司；截至三季度报告期末已完成工商登记，本次进一步明确登记完成阶段。"
+          }
+        },
+        {
+          "eventId": "production-event-c4e0e90f4650591e20c5",
+          "updateId": "production-e520619f4db9789df1cc4cd4",
+          "version": "e520619f4db9789df1cc4cd4b05fb36e7fe18031795699b59e29eb307d530926",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "完成韩城供热公司100%股权内部划转登记",
+          "business": "投资银行",
+          "share": {
+            "title": "供热公司100%股权内部划转完成登记",
+            "facts": "7月陕西美能新能源有限公司将韩城市美能清洁供热有限公司100%股权无偿划转至韩城市美能天然气有限责任公司，双方均为其全资子公司。截至9月30日已完成工商登记，本次三季报补充登记完成状态。"
+          }
+        },
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-9b9658b42bf0db44addc",
+          "updateId": "production-5de5b66ee0e60c5fb1bee6ac",
+          "version": "5de5b66ee0e60c5fb1bee6acc2f476fcebe714a9b81a2b3330d9c28a4ac2e101",
+          "objectName": "天地源",
+          "type": "listed",
+          "category": "资产出售筹划",
+          "date": "2026-06-12",
+          "title": "三季报续披露地产资产出售筹划，具体范围仍待协商",
+          "business": "投资银行",
+          "share": {
+            "title": "地产资产出售仍在筹划，范围待协商",
+            "facts": "天地源2026年10月29日三季报续披露，拟出售部分房地产开发业务相关资产及负债，范围待协商。6月12日公告列意向受让方为西安高科集团或其指定关联方，当时价格未定、未签协议，是否构成重大资产重组尚无法确定。三季报未披露新增价格、协议、审批或交割结果，不能确认已实施。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-540f0beca84dcf3374da",
+          "updateId": "production-de89d2fc8abdc65b3fda967f",
+          "version": "de89d2fc8abdc65b3fda967f4a92692741d79bf54c536fe8ed972789c29baf14",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "股份解禁",
+          "date": "2026-10-30",
+          "title": "三季报确认张发群354.321万股已解除限售，半年末已无限售",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报重列既有解禁，非三季度新增",
+            "facts": "三季报列示，张发群354.321万股已解除限售，9月末持股354.321万股、占0.68%，限售股为零。半年报已显示6月末限售股为零，本次属再次披露，并非三季度新增解禁；两期末持股相同不足以证明期间无交易。"
+          }
+        },
+        {
+          "eventId": "production-event-7ee89c1a82937112b694",
+          "updateId": "production-656c08d50eac542d57803c5e",
+          "version": "656c08d50eac542d57803c5e8faf179f3c0c0d968b122502e2ab762c3226ecf7",
+          "objectName": "节能环境",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-10-29",
+          "title": "三季报确认中国环保逾20亿股解除限售，仍有不主动减持承诺",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报确认解禁结果，仍有不主动减持承诺",
+            "facts": "三季报确认，中国环境保护集团有限公司2,075,144,678股已于7月20日解除限售；截至9月30日仍持股66.96%。其承诺2026年7月20日至2027年1月19日不主动减持所持A股，按国资监管要求无偿划转除外。"
+          }
+        },
+        {
+          "eventId": "production-event-e31a70d7a2e0db5882ed",
+          "updateId": "production-961dc504f8337563fa49ce3f",
+          "version": "961dc504f8337563fa49ce3fbb89dfe5c6dc34a26e96d7ebaeecc929ea3c625a",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "限售股份解除",
+          "date": "2026-10-28",
+          "title": "三季报延续杨效东24.75万股解限记录，半年报已披露",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报列示既有24.75万股解限记录",
+            "facts": "三季报列示杨效东（已离任）24.75万股解限记录，期末锁定股74.25万股。数据与半年报一致，并非第三季度或10月新增解禁；具体办理日期未披露，解限不等于实际减持。"
+          }
+        },
+        {
+          "eventId": "production-event-dc73342c7053bdd450f2",
+          "updateId": "production-fde8168819b9d7206431aedd",
+          "version": "fde8168819b9d7206431aeddce91f4d4a4cc74905a0dea76589253354b1dae60",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "第二批预留激励6人可归属48.4250万股，董事会同意办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第二批48.4250万股获准办理归属",
+            "facts": "董事会同意办理2025年限制性股票激励计划预留第二批首个归属期归属，涉及6人、48.4250万股，调整后授予价9.33元/股。现有披露不能证明缴款、登记或上市流通已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-d8ffbfcb5d9da156bf79",
+          "updateId": "production-1d6e0f06b04a487eb44e7634",
+          "version": "1d6e0f06b04a487eb44e76343622399aa17e3eeaf2491d76c541aafce877a01b",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "预留第一批22.9937万股归属条件成就，其中9.75万股暂缓办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第一批归属条件成就，9.75万股暂缓",
+            "facts": "2025年限制性股票激励计划预留第一批首个归属期条件成就，7人可归属22.9937万股，调整后授予价9.33元/股。其中武莹、郑正东因个人资金安排等原因暂缓办理9.75万股；现有材料不能证明出资、登记或上市已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-806cb6cd43c249fcbfc9",
+          "updateId": "production-5bf4e78e2fe2b8ae7a265dd4",
+          "version": "5bf4e78e2fe2b8ae7a265dd474c24d3e5a91caa86b8ad13315a860472bdfd49e",
+          "objectName": "美畅股份",
+          "type": "listed",
+          "category": "限售股份变动披露",
+          "date": "2026-10-28",
+          "title": "三季报续列吴英解除限售1股，一季报已披露相同变动",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报续列解除限售1股，非三季度新增",
+            "facts": "披露三季报，吴英本期解除限售1股的记录与一季报相同，不属于第三季度新增解禁。期末限售股为249,975,550股；表列2027年9月29日为拟解除限售日，并非该1股实际办理日，也不代表剩余股份已解禁或出售。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        },
+        {
+          "eventId": "production-event-4b3290072b75e126a6f2",
+          "updateId": "production-b62e6dcc3055dc4df6b48521",
+          "version": "b62e6dcc3055dc4df6b485215743054ba9728ac00e2e30c7164fcf08985efb5e",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "员工持股",
+          "date": "2026-09-16",
+          "title": "员工持股计划完成1,369.66万股过户，股份解锁受考核约束",
+          "business": "股份管理",
+          "share": {
+            "title": "员工持股计划完成1369.66万股过户",
+            "facts": "公告，员工持股计划实际筹资35,200,262元，来自参加对象自筹；9月14日完成1,369.66万股历史回购股份非交易过户。股份按12、24、36个月分批解锁，受公司业绩及个人绩效考核约束，过户完成不代表解锁。"
+          }
+        },
+        {
+          "eventId": "production-event-a1c7a43f5f6daa7ce936",
+          "updateId": "production-27a263b3ec6404022ef3f654",
+          "version": "27a263b3ec6404022ef3f654e4392911c1773b9b8123e174157ecc727664864c",
+          "objectName": "宝钛股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-29",
+          "title": "赎回3,200万元募集资金结构性存款，取得收益12.69万元",
+          "business": "机构理财",
+          "share": {
+            "title": "到期赎回3,200万元结构性存款",
+            "facts": "公告，10月27日到期赎回工商银行结构性存款本金3,200万元，取得收益12.69万元。该产品使用闲置可转债募集资金，属于现金管理授权下的执行进展，公告未披露本次续购安排。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-0750f89e033e555445fa",
       "date": "2026-11-11",
@@ -56429,6 +57180,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "4bb4bc32551584dff7b2",
+      "date": "2026-11-11",
+      "compiledAt": "2026-11-11T05:10:10-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/4bb4bc32551584dff7b2/index.html",
+      "publishedAt": "2026-11-11T21:16:23+08:00"
+    },
     {
       "id": "8bab248c9f0ddddee0c2",
       "date": "2026-11-11",
