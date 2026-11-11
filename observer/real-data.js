@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-10-3dbd47da8c00",
-      "compiledAt": "2026-11-10T16:22:44-08:00",
+      "id": "2026-11-10-dd2ece9023e3",
+      "compiledAt": "2026-11-10T16:34:33-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -38,17 +38,21 @@ window.PROTOTYPE = {
         "production-d74c85c04a863d6f281c8c4c",
         "production-d57d9abb64f8f59d0993dd4f",
         "production-cbc10ccfee8a1e710503023a",
+        "production-b81e76307d879bd223d97739",
         "production-b5f03fad5a03336713b4354e",
         "production-a278957d9932c3a3066c0748",
         "production-9eb4f111d32e8675dd83bb11",
         "production-95ac60a7ca6d36e43c857c8b",
         "production-9154142253613e54ae99f5ed",
+        "production-8a211e78250e758f97598b73",
         "production-87d9e36ade84cce83fdcd926",
         "production-7b8cd30d7e2b9f3bf00e08e0",
         "production-7b5ab12fdacc845b3fb0c18a",
         "production-73e9a31555683f0ecc95ce47",
         "production-71f001619ed3993257afc836",
         "production-6f586b29192198cbc6a09340",
+        "production-6a299291a8715aec082acd8e",
+        "production-60e0e0239b6550fe017fa29c",
         "production-502375d7206ec7e3fa1a6216",
         "production-49963c2a05a103a74d123151",
         "production-42e955320b5d35846be7d060",
@@ -57,6 +61,7 @@ window.PROTOTYPE = {
         "production-2947fcab17be17cee2508db6",
         "production-235e3b7e80d5d00975b724c2",
         "production-21e8ba242101d1e3e94b99c8",
+        "production-1b45b982a4b1d616a99c6c42",
         "production-1056a523261bb8a121acd38d",
         "production-0c59e2806ecb94b5fe980374",
         "production-0933b035c0ff10f36e95e045",
@@ -412,7 +417,12 @@ window.PROTOTYPE = {
       "production-08125acff1f10666e8327f72": "2026-11-06T01:27:32-08:00",
       "production-3ebb6e8f8d3d60466551f370": "2026-11-06T01:27:32-08:00",
       "production-cbc10ccfee8a1e710503023a": "2026-11-06T01:27:32-08:00",
-      "production-9041551624dc78082a4d96bd": "2026-11-10T16:22:44-08:00"
+      "production-9041551624dc78082a4d96bd": "2026-11-10T16:22:44-08:00",
+      "production-1b45b982a4b1d616a99c6c42": "2026-11-10T16:31:14-08:00",
+      "production-b81e76307d879bd223d97739": "2026-11-10T16:31:14-08:00",
+      "production-60e0e0239b6550fe017fa29c": "2026-11-10T16:31:14-08:00",
+      "production-8a211e78250e758f97598b73": "2026-11-10T16:31:14-08:00",
+      "production-6a299291a8715aec082acd8e": "2026-11-10T16:34:32-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2670,6 +2680,41 @@ window.PROTOTYPE = {
           "action": "股权激励",
           "group": "激励与员工持股",
           "level": "deep"
+        },
+        "production-1b45b982a4b1d616a99c6c42": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北元化工2026年10月30日公告，董事会于10月29日审议通过向安康市汉阴县幸和村、芹菜沟村支付帮扶专项资金40万元的议案。本次公告未披露实际支付完成情况。"
+        },
+        "production-b81e76307d879bd223d97739": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西部超导2026年10月30日公告，董事会于10月29日同意续聘信永中和会计师事务所（特殊普通合伙）为2026年度财务审计、内控审计机构，相关审计费用合计不超过90万元，具体金额拟提请股东会授权管理层确定。续聘事项尚需股东会审议，并自审议通过之日起生效。"
+        },
+        "production-60e0e0239b6550fe017fa29c": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "航天电子2026年10月30日公告，拟于2026年11月9日14:00—15:00在上证路演中心以网络互动方式举行2026年第三季度业绩说明会，就前三季度业绩及经营情况与投资者交流。"
+        },
+        "production-8a211e78250e758f97598b73": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "航发动力2026年10月30日公告，计划于2026年11月4日11:00—12:00在上证路演中心以网络互动方式举行2026年第三季度业绩说明会，就第三季度经营成果及财务指标与投资者交流。"
+        },
+        "production-6a299291a8715aec082acd8e": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "秦川机床2026年10月30日公告，董事会于10月28日审议通过前三季度计提减值准备事项，公告列示2026年1—9月合计计提减值准备28,175,852.94元。本期计提减少公司净利润24,796,177.04元，并相应减少报告期末所有者权益24,796,177.04元。"
         }
       }
     },
@@ -2679,8 +2724,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-10-3dbd47da8c00",
-      "editionId": "selection-78f15ca8a06d0a0e4158",
+      "sourceEditionId": "2026-11-10-dd2ece9023e3",
+      "editionId": "selection-f9a05419ca734ec560eb",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -35564,6 +35609,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。资料范围限于本计划草案、首次授予登记公告及三季报中的同事项披露，不代表公司全部激励历史。 8月19日股东会决议、9月2日首次授予公告及验资报告未作为单独原件留存；相应节点和验资结论采用登记公告明确追述，并由三季报作同事项补充核对。 仅确认公告列示上市日为2026年9月17日，未取得独立上市实施确认材料，不另作当日已实施上市或已解除限售的主张。 300万股仅作为原计划预留额度列示；现有材料不用于判断其后续是否授予。 研究截止为2026年11月1日23:59:59（北京时间）。三季报及草案原件实际取得时间晚于该截止，作为后补取得的既有披露资料使用，不据此推定截止前具体分钟的公开可见性；本轮未联网核验当前可访问性。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T08:27:12+08:00",
           "updatedAt": "2026-11-10T16:22:44-08:00",
           "compiledAt": "2026-11-10T16:22:44-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -35790,9 +35836,332 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-b14f8fea6d6ad559e8d6",
+      "objectId": "listed-601568-sh",
+      "type": "帮扶资金",
+      "topics": [
+        "向汉阴县幸和村、芹菜沟村支付帮扶专项资金"
+      ],
+      "updates": [
+        {
+          "id": "production-1b45b982a4b1d616a99c6c42",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会同意向汉阴县两村支付40万元帮扶资金",
+          "summary": "北元化工2026年10月30日公告，董事会于10月29日审议通过向安康市汉阴县幸和村、芹菜沟村支付帮扶专项资金40万元的议案。本次公告未披露实际支付完成情况。",
+          "stage": "10月29日董事会同意支付40万元，未取得实际支付完成证据。",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T16:31:14-08:00",
+          "compiledAt": "2026-11-10T16:31:14-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北元化工",
+          "version": "1b45b982a4b1d616a99c6c4295d0f01bcba14b8fb2ddbec3146c4b0ebadfe705",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西北元化工集团股份有限公司第三届董事会第十九次会议决议公告",
+              "publisher": "陕西北元化工集团股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议召开情况、第4页第8项议案及落款",
+              "retrievedAt": "2026-11-05T08:06:38+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640008.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-9e90602d0b20c1c2d2e8",
+      "objectId": "listed-688122-sh",
+      "type": "续聘审计机构",
+      "topics": [
+        "2026年度财务审计",
+        "内部控制审计",
+        "信永中和"
+      ],
+      "updates": [
+        {
+          "id": "production-b81e76307d879bd223d97739",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "拟续聘信永中和，2026年度审计费用合计不超过90万元",
+          "summary": "西部超导2026年10月30日公告，董事会于10月29日同意续聘信永中和会计师事务所（特殊普通合伙）为2026年度财务审计、内控审计机构，相关审计费用合计不超过90万元，具体金额拟提请股东会授权管理层确定。续聘事项尚需股东会审议，并自审议通过之日起生效。",
+          "stage": "2026年10月29日董事会审议通过；尚需股东会审议，通过之日起生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T16:31:15-08:00",
+          "compiledAt": "2026-11-10T16:31:15-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西部超导",
+          "version": "b81e76307d879bd223d9773957df2ad2b0f1f6587368745698c9fe167410ed2e",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西部超导材料科技股份有限公司关于续聘会计师事务所的公告",
+              "publisher": "西部超导材料科技股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页续聘事项、第4页审计收费、第5页董事会审议及生效日期",
+              "retrievedAt": "2026-11-05T08:06:49+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225642859.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-c92beca8201a40983bae",
+      "objectId": "listed-600879-sh",
+      "type": "投资者关系活动",
+      "topics": [
+        "拟召开2026年第三季度业绩说明会"
+      ],
+      "updates": [
+        {
+          "id": "production-60e0e0239b6550fe017fa29c",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "拟于11月9日召开第三季度业绩说明会",
+          "summary": "航天电子2026年10月30日公告，拟于2026年11月9日14:00—15:00在上证路演中心以网络互动方式举行2026年第三季度业绩说明会，就前三季度业绩及经营情况与投资者交流。",
+          "stage": "已公告召开安排，拟于2026年11月9日举行",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T16:31:15-08:00",
+          "compiledAt": "2026-11-10T16:31:15-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "航天电子",
+          "version": "60e0e0239b6550fe017fa29cc73fc78fb4349e6f33c25e69ac49f91cbf1d77e4",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "航天时代电子技术股份有限公司关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "航天时代电子技术股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页召开计划及说明会类型、第2页召开时间和方式及落款",
+              "retrievedAt": "2026-11-05T08:08:11+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225642861.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-656bade70a78c70061de",
+      "objectId": "listed-600893-sh",
+      "type": "投资者关系活动",
+      "topics": [
+        "业绩说明会预告"
+      ],
+      "updates": [
+        {
+          "id": "production-8a211e78250e758f97598b73",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "公告计划于11月4日召开第三季度业绩说明会",
+          "summary": "航发动力2026年10月30日公告，计划于2026年11月4日11:00—12:00在上证路演中心以网络互动方式举行2026年第三季度业绩说明会，就第三季度经营成果及财务指标与投资者交流。",
+          "stage": "预告拟于2026年11月4日举行",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T16:31:16-08:00",
+          "compiledAt": "2026-11-10T16:31:16-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "航发动力",
+          "version": "8a211e78250e758f97598b737356e3944cd1040af785342260d19943a95c6e25",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "中国航发动力股份有限公司关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "中国航发动力股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页召开计划、说明会类型及时间地点，第2页落款",
+              "retrievedAt": "2026-11-05T08:06:11+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643062.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-074a37a43fbd818f50a8",
+      "objectId": "listed-000837-sz",
+      "type": "资产减值准备",
+      "topics": [
+        "前三季度减值计提",
+        "董事会审议通过"
+      ],
+      "updates": [
+        {
+          "id": "production-6a299291a8715aec082acd8e",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "披露前三季度计提减值准备28,175,852.94元",
+          "summary": "秦川机床2026年10月30日公告，董事会于10月28日审议通过前三季度计提减值准备事项，公告列示2026年1—9月合计计提减值准备28,175,852.94元。本期计提减少公司净利润24,796,177.04元，并相应减少报告期末所有者权益24,796,177.04元。",
+          "stage": "2026年10月28日董事会审议通过前三季度计提减值准备事项",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T16:34:32-08:00",
+          "compiledAt": "2026-11-10T16:34:32-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "秦川机床",
+          "version": "6a299291a8715aec082acd8e84a69efd9cbe7e176a29aa30a39ab5053848b391",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于2026年前三季度计提减值准备的公告",
+              "publisher": "秦川机床工具集团股份公司",
+              "date": "2026-10-30",
+              "location": "物理第1页审议情况；第3页减值明细表；第4页合计金额、财务影响及落款",
+              "retrievedAt": "2026-11-05T08:04:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644448.PDF"
+            },
+            {
+              "title": "第九届董事会第二十七次会议决议公告",
+              "publisher": "秦川机床工具集团股份公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议召开情况及第二项议案",
+              "retrievedAt": "2026-11-05T08:04:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644446.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-f9a05419ca734ec560eb",
+      "date": "2026-11-11",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-11T08:36:59+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-9041551624dc78082a4d96bd"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-f9a05419ca734ec560eb/page-01.png",
+          "width": 1080,
+          "height": 1996,
+          "sha256": "35cce5c6b8d7c9d4de6dd2706c299c554d18ff0e57e71b8f22ab7b2b64281a89"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-10-dd2ece9023e3",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-16",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-78f15ca8a06d0a0e4158",
       "date": "2026-11-11",
@@ -41435,6 +41804,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "b22e587c6e5d636cc0ba",
+      "date": "2026-11-11",
+      "compiledAt": "2026-11-10T16:22:44-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/b22e587c6e5d636cc0ba/index.html",
+      "publishedAt": "2026-11-11T08:27:12+08:00"
+    },
     {
       "id": "382e7a508155b7f09833",
       "date": "2026-11-06",
