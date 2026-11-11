@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-10-88de7217126c",
-      "compiledAt": "2026-11-10T18:08:32-08:00",
+      "id": "2026-11-10-9ced8d7fa8f8",
+      "compiledAt": "2026-11-10T18:29:29-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -33,6 +33,7 @@ window.PROTOTYPE = {
         "production-fa6efcaac08c570cabd1968a",
         "production-eeae0bf5db12bcdc4e6d4fa1",
         "production-e1490a637dc7d32ad9ab9885",
+        "production-de89d2fc8abdc65b3fda967f",
         "production-da8bb3b65369f55f957229d2",
         "production-d90000dabeee8611cbffb192",
         "production-d7b6c60bd2495a5444f965bd",
@@ -451,7 +452,8 @@ window.PROTOTYPE = {
       "production-9a7600a24c919b41fd7718ed": "2026-11-10T17:54:29-08:00",
       "production-0cb59405b008af820d37e46a": "2026-11-10T17:57:02-08:00",
       "production-1cbf9a2cffe6308be6da4f24": "2026-11-10T17:57:02-08:00",
-      "production-a505466b659ed6c7e66af361": "2026-11-10T18:08:31-08:00"
+      "production-a505466b659ed6c7e66af361": "2026-11-10T18:08:31-08:00",
+      "production-de89d2fc8abdc65b3fda967f": "2026-11-10T18:29:28-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2868,6 +2870,12 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西部金属材料股份有限公司2026年10月30日公告，董事会于10月28日审议通过提名董南雁、杨冠军、李永宁为第九届董事会独立董事候选人的议案。相关选举拟提交11月20日召开的2026年第三次临时股东会，候选人的任职资格和独立性尚需经深交所备案审核无异议后方可表决。"
+        },
+        "production-de89d2fc8abdc65b3fda967f": {
+          "version": "listed-scope-20261019",
+          "action": "解禁",
+          "group": "股东股份变动",
+          "level": "deep"
         }
       }
     },
@@ -2877,8 +2885,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-10-88de7217126c",
-      "editionId": "selection-66d913c99232a66882dd",
+      "sourceEditionId": "2026-11-10-9ced8d7fa8f8",
+      "editionId": "selection-8eb020dd1b59f4337a5b",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -37395,6 +37403,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T10:20:05+08:00",
           "updatedAt": "2026-11-10T18:08:31-08:00",
           "compiledAt": "2026-11-10T18:08:31-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -37428,9 +37437,304 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-540f0beca84dcf3374da",
+      "objectId": "listed-300397-sz",
+      "type": "股份解禁",
+      "topics": [
+        "离任锁定股解除限售"
+      ],
+      "updates": [
+        {
+          "id": "production-de89d2fc8abdc65b3fda967f",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "三季报确认张发群354.321万股已解除限售，半年末已无限售",
+          "summary": "天和防务2026年10月30日披露的三季报列示，张发群期初限售股份3,543,210股，本期解除限售3,543,210股，期末限售股份为零；截至9月末，其持股3,543,210股，占总股本0.68%。对照半年报摘要，截至6月末其限售股份已为零，因此三季报属于既有解禁事项的再次披露，不能表述为第三季度新增解禁。两期末持股数量相同，不足以证明期间完全没有交易。",
+          "stage": "季报限售股份变动表确认本期解除限售3543210股，期末限售股数为0",
+          "depth": "deep",
+          "coverage": "本事项有限历史研究；不等于观察池全量已更新。已解决上一轮两项核心原页缺口：半年末限售股数为零、2025年末锁定基线3,543,210股均已视觉核对。 所用表格未列实际解除限售的具体办理日期，不以离任日期加六个月推算实际办理日。 股份最初取得方式及成本尚未核实；本文仅解释已确认的离任锁定及解除状态，不判断初始股份来源或出售利润。 现有证据为限售变动表和期末持股快照，不构成逐笔交易记录，不据此判断减持意愿、成交金额或期间完全没有交易。 历史材料的日级披露日期未在本轮留存元数据中独立确认；历史节点明确采用表内状态时点，不冒称当日已知，也不声称覆盖全部历史。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-10T18:29:28-08:00",
+          "compiledAt": "2026-11-10T18:29:28-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "天和防务",
+          "version": "de89d2fc8abdc65b3fda967f4a92692741d79bf54c536fe8ed972789c29baf14",
+          "important": true,
+          "production": true,
+          "prototype": false,
+          "history": [
+            {
+              "date": "2025-12-31",
+              "text": "2025年年报回溯列示：张发群年初限售股份2,657,407股，全年增加限售885,803股、解除限售零股，年末限售3,543,210股；限售原因为任期届满离任的高管锁定股。这里的增加数量是限售股份增加，不是新增持股或授予数量。"
+            },
+            {
+              "date": "2026-06-30",
+              "text": "2026年半年报摘要回溯披露，张发群持股3,543,210股，占总股本0.68%，持有有限售条件股份为零，确认半年末已呈现解禁后的持股状态。"
+            },
+            {
+              "date": "2026-10-30",
+              "text": "三季报披露张发群本期解除限售3,543,210股，9月末限售股数为零，持股数量及比例与半年末相同；本次披露不构成第三季度新增解禁的依据。"
+            }
+          ],
+          "business": [
+            "该事项涉及股东个人股份的限售状态管理，可讨论持股限制核对及股份管理服务；具体处置意愿和安排仍需向股东确认。现有材料不支持将解禁数量视为拟减持数量、成交资金或公司融资需求。"
+          ],
+          "details": [
+            {
+              "label": "股东及证券",
+              "value": "张发群，境内自然人；天和防务，证券代码300397"
+            },
+            {
+              "label": "股份限制来源",
+              "value": "三季报列为因任期届满离任的董事、高管锁定股；最初取得股份的方式及成本尚未核实"
+            },
+            {
+              "label": "本次披露数量",
+              "value": "解除限售3,543,210股，即354.321万股；期末限售股数为零"
+            },
+            {
+              "label": "锁定安排",
+              "value": "原表说明自离任之日起6个月内锁定，届满后解除限售；未列实际办理解除限售的具体日期"
+            },
+            {
+              "label": "当前阶段与时间边界",
+              "value": "截至2026年6月末限售股数已为零，9月末仍为零；不将本次披露作为第三季度新增解禁"
+            },
+            {
+              "label": "资料范围",
+              "value": "研究截止口径为2026年11月1日；本轮仅复用三份留存原件，实际取得时间晚于资料时点，不据此证明此前某一具体时刻已经公开"
+            }
+          ],
+          "sources": [
+            {
+              "title": "2026年第三季度报告",
+              "publisher": "西安天和防务技术股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页证券身份，第4页股东持股表，第5页限售股份变动表，第13页落款；第4、5页已查看原图",
+              "retrievedAt": "2026-11-05T08:05:09+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643624.PDF"
+            },
+            {
+              "title": "2026年半年度报告摘要",
+              "publisher": "西安天和防务技术股份有限公司",
+              "location": "物理第2页，前10名股东持股情况表，已查看原图；来源清单未提供独立披露日期，公开链接目录日期为2026-08-27",
+              "retrievedAt": "2026-11-10T18:25:32.958387-08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-08-27/1225510779.PDF"
+            },
+            {
+              "title": "2025年年度报告",
+              "publisher": "西安天和防务技术股份有限公司",
+              "date": "2026-04",
+              "location": "物理第1页封面标注2026年4月；第135页（印刷页134）限售股份变动表已查看原图；公开链接目录日期为2026-04-24，未据此补造具体披露时刻",
+              "retrievedAt": "2026-11-10T18:25:37.551247-08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225172658.PDF"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "张发群限售股份变动对照，单位：股；按统一列序重排，三季报数据不能理解为第三季度单季新增",
+              "columns": [
+                "披露文件",
+                "期初限售",
+                "本期增加限售",
+                "本期解除限售",
+                "期末限售"
+              ],
+              "rows": [
+                [
+                  "2025年年度报告",
+                  "2,657,407",
+                  "885,803",
+                  "0",
+                  "3,543,210"
+                ],
+                [
+                  "2026年第三季度报告",
+                  "3,543,210",
+                  "0",
+                  "3,543,210",
+                  "0"
+                ]
+              ]
+            },
+            {
+              "caption": "张发群半年末与三季末持股状态；期末快照不能代替期间交易明细",
+              "columns": [
+                "状态时点",
+                "持股数量（股）",
+                "持股比例",
+                "有限售条件股份（股）"
+              ],
+              "rows": [
+                [
+                  "2026年6月末",
+                  "3,543,210",
+                  "0.68%",
+                  "0"
+                ],
+                [
+                  "2026年9月末",
+                  "3,543,210",
+                  "0.68%",
+                  "0"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-8eb020dd1b59f4337a5b",
+      "date": "2026-11-11",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-11T10:31:15+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-0bdc78513ea25a163acc9f27",
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-de89d2fc8abdc65b3fda967f",
+        "production-9041551624dc78082a4d96bd",
+        "production-b62e6dcc3055dc4df6b48521"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-8eb020dd1b59f4337a5b/page-01.png",
+          "width": 1080,
+          "height": 2792,
+          "sha256": "b2a25a142048f7ad8e5f8a031c1111160460a6f71d7e7bad9a37681616bdff3a"
+        },
+        {
+          "file": "assets/editions/selection-8eb020dd1b59f4337a5b/page-02.png",
+          "width": 1080,
+          "height": 802,
+          "sha256": "557ebd5df05fdcee79bd889d3d890638fd9ce5b8fd72d1186db04352861826f8"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-10-9ced8d7fa8f8",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-09-16",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-32c059172c74da96a014",
+          "updateId": "production-0bdc78513ea25a163acc9f27",
+          "version": "0bdc78513ea25a163acc9f27159c25636acecf3918027d9592d160d01dcb0c56",
+          "objectName": "航天电子",
+          "type": "listed",
+          "category": "股权置换及同一控制下企业合并进展",
+          "date": "2026-10-30",
+          "title": "披露西安太乙股权置换的合并会计处理",
+          "business": "投资银行",
+          "share": {
+            "title": "股权置换按同一控制下合并追溯调整",
+            "facts": "三季报披露，控股子公司时代光电以北京航天兴华科技有限公司100%股权置换西安太乙电子有限公司58%股权，作价分别为64,500.50万元、64,970.61万元，现金补差470.11万元。本期按同一控制下合并追溯调整；视同期初取得控制权属会计口径，具体工商交割日及补差款实际支付状态未核实。"
+          }
+        },
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-540f0beca84dcf3374da",
+          "updateId": "production-de89d2fc8abdc65b3fda967f",
+          "version": "de89d2fc8abdc65b3fda967f4a92692741d79bf54c536fe8ed972789c29baf14",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "股份解禁",
+          "date": "2026-10-30",
+          "title": "三季报确认张发群354.321万股已解除限售，半年末已无限售",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报重列既有解禁，非三季度新增",
+            "facts": "三季报列示，张发群354.321万股已解除限售，9月末持股354.321万股、占0.68%，限售股为零。半年报已显示6月末限售股为零，本次属再次披露，并非三季度新增解禁；两期末持股相同不足以证明期间无交易。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        },
+        {
+          "eventId": "production-event-4b3290072b75e126a6f2",
+          "updateId": "production-b62e6dcc3055dc4df6b48521",
+          "version": "b62e6dcc3055dc4df6b485215743054ba9728ac00e2e30c7164fcf08985efb5e",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "员工持股",
+          "date": "2026-09-16",
+          "title": "员工持股计划完成1,369.66万股过户，股份解锁受考核约束",
+          "business": "股份管理",
+          "share": {
+            "title": "员工持股计划完成1369.66万股过户",
+            "facts": "公告，员工持股计划实际筹资35,200,262元，来自参加对象自筹；9月14日完成1,369.66万股历史回购股份非交易过户。股份按12、24、36个月分批解锁，受公司业绩及个人绩效考核约束，过户完成不代表解锁。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-66d913c99232a66882dd",
       "date": "2026-11-11",
@@ -43829,6 +44133,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "425a668143cfba2c81b7",
+      "date": "2026-11-11",
+      "compiledAt": "2026-11-10T18:08:32-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/425a668143cfba2c81b7/index.html",
+      "publishedAt": "2026-11-11T10:20:05+08:00"
+    },
     {
       "id": "2a9520e63023e6985f39",
       "date": "2026-11-11",
