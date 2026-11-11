@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-11-d2e8bd9df8a6",
-      "compiledAt": "2026-11-11T02:39:42-08:00",
+      "id": "2026-11-11-398ffe2a28ea",
+      "compiledAt": "2026-11-11T02:53:25-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -89,6 +89,7 @@ window.PROTOTYPE = {
         "production-24b6de7a037b59394124d0f4",
         "production-235e3b7e80d5d00975b724c2",
         "production-21e8ba242101d1e3e94b99c8",
+        "production-1efd5cc5de65771f8760d1aa",
         "production-1cbf9a2cffe6308be6da4f24",
         "production-1b45b982a4b1d616a99c6c42",
         "production-15a7f35654a7269f54524f1b",
@@ -105,11 +106,16 @@ window.PROTOTYPE = {
         "production-080ea63f0a7e53730546fc04",
         "production-00cd7fb0c184ed1fb42fbd09",
         "production-e520619f4db9789df1cc4cd4",
+        "production-b4167730be785903bf94549b",
+        "production-8de89e89385cbcf932f691ce",
         "production-6b189fe20974e4ec4ab4294c",
         "production-656c08d50eac542d57803c5e",
+        "production-40109e66e340792f75e0e63f",
         "production-27a263b3ec6404022ef3f654",
+        "production-2116b9f9cedc14747ea140b5",
         "production-1651348fac30f8afa2f95955",
         "production-ff57ff9059de128b625b71e2",
+        "production-961dc504f8337563fa49ce3f",
         "production-6ac654ef6e973cc87f1a9cd4",
         "production-31538a5cdfd937a7a48a4612",
         "production-2be19c48e720fad0969c85c0",
@@ -520,7 +526,13 @@ window.PROTOTYPE = {
       "production-cd59e350ea1ddbfb1cd5d87f": "2026-11-11T01:59:14-08:00",
       "production-fcd7b85f6c23a41e342cc560": "2026-11-11T02:01:04-08:00",
       "production-25ac2c7b13a9eb1fe032dc76": "2026-11-11T02:11:39-08:00",
-      "production-2be19c48e720fad0969c85c0": "2026-11-11T02:39:42-08:00"
+      "production-2be19c48e720fad0969c85c0": "2026-11-11T02:39:42-08:00",
+      "production-961dc504f8337563fa49ce3f": "2026-11-11T02:48:58-08:00",
+      "production-1efd5cc5de65771f8760d1aa": "2026-11-11T02:50:00-08:00",
+      "production-8de89e89385cbcf932f691ce": "2026-11-11T02:53:22-08:00",
+      "production-40109e66e340792f75e0e63f": "2026-11-11T02:53:22-08:00",
+      "production-b4167730be785903bf94549b": "2026-11-11T02:53:22-08:00",
+      "production-2116b9f9cedc14747ea140b5": "2026-11-11T02:53:22-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -729,6 +741,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安三角防务股份有限公司2026年10月8日公告，2026年第三季度共有570张“三角转债”完成转股，票面金额合计57,000.00元，转成公司股票2,510股。截至第三季度末，剩余可转债8,998,758张，票面总额899,875,800.00元。"
+        },
+        "production-2116b9f9cedc14747ea140b5": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "三角防务2026年10月29日公告，10月9日至10月29日已有10个交易日收盘价低于当期转股价格人民币22.69元/股的85%，预计将触发“三角转债”转股价格向下修正条件。触发门槛为任意连续30个交易日中至少15个交易日符合上述条件，本次仅为预警，是否提出下修方案仍待触发后董事会决定，并须提交股东会审议。"
         },
         "production-9ae4eabe05e605c7f9ec82ca": {
           "version": "listed-scope-20261019",
@@ -3173,6 +3192,40 @@ window.PROTOTYPE = {
           "action": "对外投资",
           "group": "股权投资与融资",
           "level": "deep"
+        },
+        "production-961dc504f8337563fa49ce3f": {
+          "version": "listed-scope-20261019",
+          "action": "解禁",
+          "group": "股东股份变动",
+          "level": "deep"
+        },
+        "production-1efd5cc5de65771f8760d1aa": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "秦川机床工具集团股份公司2026年10月30日公告，董事会于10月28日审议通过2025年度及2023—2025年任期高管人员薪酬分配议案。董事刘金勇、华斌回避表决，表决结果为同意6票、反对0票、弃权0票；本公告未披露具体薪酬金额及支付安排。"
+        },
+        "production-8de89e89385cbcf932f691ce": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "珠海中富2026年10月29日披露，董事会于10月28日以6票同意、0票反对、0票弃权审议通过2026年第三季度报告。同期披露的第三季度财务会计报告未经审计。"
+        },
+        "production-40109e66e340792f75e0e63f": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西金叶2026年10月29日披露，九届董事局第五次会议于10月27日以通讯方式召开，以9票同意、0票反对、0票弃权审议通过2026年第三季度报告；该议案此前已经董事局审计委员会审议通过。"
+        },
+        "production-b4167730be785903bf94549b": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "节能环境2026年10月29日公告，拟于10月30日15:00至16:00通过“价值在线-路演资讯平台”以网络远程方式举行2026年三季度业绩说明会，并于当日12:00前公开征集投资者问题。本次披露为会议安排，未据此确认会议已经举行。"
         }
       }
     },
@@ -3182,8 +3235,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-11-d2e8bd9df8a6",
-      "editionId": "selection-28b406ed4bc197eb19b8",
+      "sourceEditionId": "2026-11-11-398ffe2a28ea",
+      "editionId": "selection-c49cee74c4bbe0f9d283",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -15188,6 +15241,40 @@ window.PROTOTYPE = {
               "location": "物理第1页特别提示、第7页转股情况、第8页落款",
               "retrievedAt": "2026-10-09T20:34:16+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225596622.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
+          "id": "production-2116b9f9cedc14747ea140b5",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "提示“三角转债”预计触发转股价下修条件",
+          "summary": "三角防务2026年10月29日公告，10月9日至10月29日已有10个交易日收盘价低于当期转股价格人民币22.69元/股的85%，预计将触发“三角转债”转股价格向下修正条件。触发门槛为任意连续30个交易日中至少15个交易日符合上述条件，本次仅为预警，是否提出下修方案仍待触发后董事会决定，并须提交股东会审议。",
+          "stage": "预计触发下修条件，尚非已触发或已决定下修",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T02:53:23-08:00",
+          "compiledAt": "2026-11-11T02:53:23-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "三角防务",
+          "version": "2116b9f9cedc14747ea140b587b2c1904435b61eaa54a5b402e17a2f0137dd55",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于预计触发三角转债转股价格向下修正条件的提示性公告",
+              "publisher": "西安三角防务股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页特别提示、第8至9页当次情况及后续程序",
+              "retrievedAt": "2026-11-05T08:05:13+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225639369.PDF"
             }
           ],
           "tables": []
@@ -40432,6 +40519,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。现有证据限于2026年5月同事项增资公告和10月三季报，不代表主函数全部融资历史或同力股份全部投资历史。 具体付款日、其他投资方款项全部到账及工商变更完成日未核实；正文仅陈述三季报披露的本期投资和原方案持股安排，不认定全部增资程序完成。 5月公告增资后股权表虽将相关行标为“实缴”，但正文仍为拟增资及附条件付款安排，不能单凭该表认定5月已缴付。其出资额分项按两位小数显示，合计为3,819.09万元，与表列合计3,819.08万元存在0.01万元显示差额；未补平，也未据此推算估值。 原件取得时间晚于研究截止2026年11月1日23:59:59（北京时间）；资料按所载披露日期归档，不以取得时间冒充披露时间，也不证明截止日前某个具体时刻的在线可见状态。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T18:45:08+08:00",
           "updatedAt": "2026-11-11T02:39:42-08:00",
           "compiledAt": "2026-11-11T02:39:42-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -40543,9 +40631,588 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-e31a70d7a2e0db5882ed",
+      "objectId": "listed-300110-sz",
+      "type": "限售股份解除",
+      "topics": [
+        "杨效东",
+        "高管锁定股",
+        "解除限售累计披露"
+      ],
+      "updates": [
+        {
+          "id": "production-961dc504f8337563fa49ce3f",
+          "date": "2026-10-28",
+          "time": "",
+          "title": "三季报延续杨效东24.75万股解限记录，半年报已披露",
+          "summary": "华仁药业2026年10月28日披露的三季报列示，杨效东（已离任）高管锁定股期初为990,000股，本期解除限售247,500股、增加0股，期末为742,500股。这组数据与半年报一致，不能作为第三季度或10月新增解禁。相关表格未列具体办理日期，解除限售也不等于实际减持。",
+          "stage": "三季报限售股份变动表披露本期解除限售247,500股，未披露具体办理日期",
+          "depth": "deep",
+          "coverage": "本事项有限历史研究；不等于观察池全量已更新。研究截止为2026年11月1日23:59:59（北京时间）；资料范围为2026年一季报、半年报和三季报中与本事项相关的披露，不代表此后持股状态或全部历史记录。 相关限售股份表未列具体办理日期。一季报“不适用”与半年报记录不能组合推定解限发生于第二季度，也未据此核定该事项最早披露时间。 本事项相关披露未提供杨效东实际减持数量、成交金额、取得成本或处置意愿，不能从解除限售数量推导出售、回款或利润；报告中的限售股数也不等同于其全部持股数量。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T02:48:58-08:00",
+          "compiledAt": "2026-11-11T02:48:58-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "华仁药业",
+          "version": "961dc504f8337563fa49ce3fbb89dfe5c6dc34a26e96d7ebaeecc929ea3c625a",
+          "important": true,
+          "production": true,
+          "prototype": false,
+          "history": [
+            {
+              "date": "2026-04-24",
+              "text": "一季报披露节点：“限售股份变动情况”勾选“不适用”，未在该栏目列示杨效东的个人变动明细。这不足以确定具体解限日期，也不能据此认定解限发生于第二季度。"
+            },
+            {
+              "date": "2026-08-27",
+              "text": "半年报披露节点：已列示杨效东（已离任）期初限售990,000股、本期解除247,500股、增加0股、期末限售742,500股，限售原因为高管锁定股。该节点记录报告披露，不代表解除限售在披露日办理。"
+            },
+            {
+              "date": "2026-10-28",
+              "text": "三季报披露节点：再次列示相同的期初、解除、增加及期末限售数量，表内未体现相较半年报新增的解除限售数量，两期记录不得累加。"
+            }
+          ],
+          "business": [
+            "该事项涉及杨效东个人持股的限售状态。若讨论股份管理服务，应向本人确认持股情况、适用转让限制及处置意愿；现有披露不支持认定已有减持委托、成交回款或资金配置需求。半年报同时说明任期届满前离职情形下的年度转让限制，“已离任”不能解释为股份已全部解除限制。"
+          ],
+          "details": [
+            {
+              "label": "主体与股份性质",
+              "value": "华仁药业股东杨效东，报告标注“已离任”；相关股份为高管锁定股。"
+            },
+            {
+              "label": "本次披露与此前记录",
+              "value": "半年报与三季报均列解除限售247,500股，即24.75万股，期末限售742,500股。两期表内数据一致，不构成两次解限数量。"
+            },
+            {
+              "label": "表内解除锁定说明",
+              "value": "两份报告的“拟解除限售日期”栏均说明每年初按照上年末持股总数的25%解除锁定，未列具体办理日期。该说明不能单独用于推算新的可出售额度，也不能将期初限售股数视为上年末持股总数。"
+            },
+            {
+              "label": "离任后的转让限制",
+              "value": "半年报在“股份变动的原因”中说明，董事、高管在任期届满前离职的，在就任时确定的任期内，每年转让股份不得超过其所持本公司股份总数的25%。此处保留公司披露的限制说明，不据此认定杨效东已出售股份或核定其当前可出售数量。"
+            },
+            {
+              "label": "阶段与日期",
+              "value": "本次为定期报告中的限售股份变动披露。报告披露日不等于解限办理日；半年报已有相同记录，三季报不能据此写成第三季度或10月新增执行进展。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "华仁药业股份有限公司2026年第三季度报告",
+              "publisher": "华仁药业股份有限公司",
+              "date": "2026-10-28",
+              "location": "物理第1页主体；第4页限售股份变动情况；第10页报告落款。使用留存版本。",
+              "retrievedAt": "2026-11-05T08:08:12+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225628962.PDF"
+            },
+            {
+              "title": "华仁药业股份有限公司2026年第一季度报告",
+              "publisher": "华仁药业股份有限公司",
+              "date": "2026-04-24",
+              "location": "物理第1页主体；第4页限售股份变动情况；第9页报告落款。使用留存版本。",
+              "retrievedAt": "2026-11-11T02:25:00.483861-08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225172512.PDF"
+            },
+            {
+              "title": "华仁药业股份有限公司2026年半年度报告全文",
+              "publisher": "华仁药业股份有限公司",
+              "date": "2026-08-27",
+              "location": "物理第37页，股份变动的原因及2、限售股份变动情况。披露日期沿用来源记录；使用留存版本。",
+              "retrievedAt": "2026-11-11T02:25:06.311645-08:00",
+              "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-27/21569852-fa2c-4028-8d02-61c48b3bedb3.PDF"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "杨效东（已离任）限售股份记录对照，单位：股；两期记录不得累加",
+              "columns": [
+                "报告",
+                "期初限售股数",
+                "本期解除限售股数",
+                "本期增加限售股数",
+                "期末限售股数",
+                "限售原因"
+              ],
+              "rows": [
+                [
+                  "2026年半年度报告",
+                  "990,000",
+                  "247,500",
+                  "0",
+                  "742,500",
+                  "高管锁定股"
+                ],
+                [
+                  "2026年第三季度报告",
+                  "990,000",
+                  "247,500",
+                  "0",
+                  "742,500",
+                  "高管锁定股"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-event-3579989200bdc488d347",
+      "objectId": "listed-000837-sz",
+      "type": "高管薪酬",
+      "topics": [
+        "年度及任期薪酬分配",
+        "关联董事回避表决"
+      ],
+      "updates": [
+        {
+          "id": "production-1efd5cc5de65771f8760d1aa",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "董事会通过2025年度及2023—2025年任期高管薪酬分配议案",
+          "summary": "秦川机床工具集团股份公司2026年10月30日公告，董事会于10月28日审议通过2025年度及2023—2025年任期高管人员薪酬分配议案。董事刘金勇、华斌回避表决，表决结果为同意6票、反对0票、弃权0票；本公告未披露具体薪酬金额及支付安排。",
+          "stage": "董事会审议通过，刘金勇、华斌回避表决",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T02:50:00-08:00",
+          "compiledAt": "2026-11-11T02:50:00-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "秦川机床",
+          "version": "1efd5cc5de65771f8760d1aab4b32de2709d95e34c97d8f99a2c7a773b1e4347",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第九届董事会第二十七次会议决议公告",
+              "publisher": "秦川机床工具集团股份公司",
+              "date": "2026-10-30",
+              "location": "物理第1页会议召开情况、第3页第6项议案及落款",
+              "retrievedAt": "2026-11-05T08:04:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644446.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-b40205ea92a0ea59e7f7",
+      "objectId": "listed-000659-sz",
+      "type": "定期报告审议及披露",
+      "topics": [
+        "2026年第三季度报告",
+        "董事会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-8de89e89385cbcf932f691ce",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "董事会审议通过2026年三季报",
+          "summary": "珠海中富2026年10月29日披露，董事会于10月28日以6票同意、0票反对、0票弃权审议通过2026年第三季度报告。同期披露的第三季度财务会计报告未经审计。",
+          "stage": "董事会审议通过并披露",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T02:53:22-08:00",
+          "compiledAt": "2026-11-11T02:53:22-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "珠海中富",
+          "version": "8de89e89385cbcf932f691ce1a39717325659bdf5e781bf718845a908afd3219",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第十二届董事会2026年第五次会议决议公告",
+              "publisher": "珠海中富实业股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页；公告落款日期为2026年10月28日",
+              "retrievedAt": "2026-11-05T08:08:14+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225635405.PDF"
+            },
+            {
+              "title": "2026年三季度报告",
+              "publisher": "珠海中富实业股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第12页，审计报告",
+              "retrievedAt": "2026-11-05T08:08:15+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225635403.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-9b5f5b06d089008553ac",
+      "objectId": "listed-000812-sz",
+      "type": "定期报告审议",
+      "topics": [
+        "董事局决议",
+        "第三季度报告"
+      ],
+      "updates": [
+        {
+          "id": "production-40109e66e340792f75e0e63f",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "董事局审议通过2026年三季报",
+          "summary": "陕西金叶2026年10月29日披露，九届董事局第五次会议于10月27日以通讯方式召开，以9票同意、0票反对、0票弃权审议通过2026年第三季度报告；该议案此前已经董事局审计委员会审议通过。",
+          "stage": "2026年10月27日董事局会议审议通过2026年第三季度报告，10月29日披露决议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T02:53:23-08:00",
+          "compiledAt": "2026-11-11T02:53:23-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西金叶",
+          "version": "40109e66e340792f75e0e63f08933392950403c4ca0141473fc5900442988cc3",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "九届董事局第五次会议决议公告",
+              "publisher": "陕西金叶科教集团股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页",
+              "retrievedAt": "2026-11-05T08:04:38+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225633256.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-82660d75307b7255460f",
+      "objectId": "listed-300140-sz",
+      "type": "投资者关系活动",
+      "topics": [
+        "2026年第三季度网上业绩说明会安排"
+      ],
+      "updates": [
+        {
+          "id": "production-b4167730be785903bf94549b",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "拟于10月30日举行三季度网上业绩说明会",
+          "summary": "节能环境2026年10月29日公告，拟于10月30日15:00至16:00通过“价值在线-路演资讯平台”以网络远程方式举行2026年三季度业绩说明会，并于当日12:00前公开征集投资者问题。本次披露为会议安排，未据此确认会议已经举行。",
+          "stage": "已公告拟于2026年10月30日15:00至16:00召开网上业绩说明会",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-11T02:53:24-08:00",
+          "compiledAt": "2026-11-11T02:53:24-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "节能环境",
+          "version": "b4167730be785903bf94549bca409e4753aa3407bdb2a3668bddc793c6caadb6",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于举行2026年三季度网上业绩说明会的公告",
+              "publisher": "中节能环境保护股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页",
+              "retrievedAt": "2026-11-05T08:05:05+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637366.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-c49cee74c4bbe0f9d283",
+      "date": "2026-11-11",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-11T18:55:13+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-0bdc78513ea25a163acc9f27",
+        "production-8d4c60094072d75fd7aa6a22",
+        "production-6b189fe20974e4ec4ab4294c",
+        "production-e520619f4db9789df1cc4cd4",
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-5de5b66ee0e60c5fb1bee6ac",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-de89d2fc8abdc65b3fda967f",
+        "production-656c08d50eac542d57803c5e",
+        "production-961dc504f8337563fa49ce3f",
+        "production-9041551624dc78082a4d96bd",
+        "production-b62e6dcc3055dc4df6b48521",
+        "production-27a263b3ec6404022ef3f654"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-c49cee74c4bbe0f9d283/page-01.png",
+          "width": 1080,
+          "height": 2394,
+          "sha256": "8707950ce8d601bbaf19f82df423261d7d2d9580aae7dd0bc0338364c2fe140b"
+        },
+        {
+          "file": "assets/editions/selection-c49cee74c4bbe0f9d283/page-02.png",
+          "width": 1080,
+          "height": 2740,
+          "sha256": "2ca993207551902449c476164bbd4dd73f31523fa03297f980446f25a31fc87a"
+        },
+        {
+          "file": "assets/editions/selection-c49cee74c4bbe0f9d283/page-03.png",
+          "width": 1080,
+          "height": 1624,
+          "sha256": "24af2b3b8ea5ae1ba4eee2b2b112554fa42ba7d73645f09a1a265c28be0b9b84"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-11-398ffe2a28ea",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-06-12",
+      "rangeEnd": "2026-10-30",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-32c059172c74da96a014",
+          "updateId": "production-0bdc78513ea25a163acc9f27",
+          "version": "0bdc78513ea25a163acc9f27159c25636acecf3918027d9592d160d01dcb0c56",
+          "objectName": "航天电子",
+          "type": "listed",
+          "category": "股权置换及同一控制下企业合并进展",
+          "date": "2026-10-30",
+          "title": "披露西安太乙股权置换的合并会计处理",
+          "business": "投资银行",
+          "share": {
+            "title": "股权置换按同一控制下合并追溯调整",
+            "facts": "三季报披露，控股子公司时代光电以北京航天兴华科技有限公司100%股权置换西安太乙电子有限公司58%股权，作价分别为64,500.50万元、64,970.61万元，现金补差470.11万元。本期按同一控制下合并追溯调整；视同期初取得控制权属会计口径，具体工商交割日及补差款实际支付状态未核实。"
+          }
+        },
+        {
+          "eventId": "production-event-f79f9b1e59238de24f37",
+          "updateId": "production-8d4c60094072d75fd7aa6a22",
+          "version": "8d4c60094072d75fd7aa6a227d6087fe8afef709d4931ed83c42f897d496e404",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "再融资",
+          "date": "2026-10-30",
+          "title": "拟将2024年度定增决议及授权有效期延至2027年11月27日",
+          "business": "投资银行",
+          "share": {
+            "title": "拟将定增决议及授权有效期延长12个月",
+            "facts": "公告，董事会通过延期议案，拟将2024年度定增决议及授权有效期延至2027年11月27日，尚需股东会审议。该定增拟由实控人贺增林控制的君耀领航全额认购，募资不超过7亿元，扣除发行费用后全部补流；本次延期不代表发行完成或资金到账。"
+          }
+        },
+        {
+          "eventId": "production-event-87b52efa39548c8feae7",
+          "updateId": "production-6b189fe20974e4ec4ab4294c",
+          "version": "6b189fe20974e4ec4ab4294cb984fbfa3f1f1df826ae2a6e818b0d1e4d2efaaa",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "宝鸡供热公司100%股权内部划转已完成工商登记",
+          "business": "投资银行",
+          "share": {
+            "title": "内部无偿划转100%股权完成工商登记",
+            "facts": "7月全资子公司陕西美能新能源有限公司将所持宝鸡市美能清洁供热有限公司100%股权，无偿划转至另一全资子公司宝鸡市美能天然气有限公司；截至三季度报告期末已完成工商登记，本次进一步明确登记完成阶段。"
+          }
+        },
+        {
+          "eventId": "production-event-c4e0e90f4650591e20c5",
+          "updateId": "production-e520619f4db9789df1cc4cd4",
+          "version": "e520619f4db9789df1cc4cd4b05fb36e7fe18031795699b59e29eb307d530926",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "完成韩城供热公司100%股权内部划转登记",
+          "business": "投资银行",
+          "share": {
+            "title": "供热公司100%股权内部划转完成登记",
+            "facts": "7月陕西美能新能源有限公司将韩城市美能清洁供热有限公司100%股权无偿划转至韩城市美能天然气有限责任公司，双方均为其全资子公司。截至9月30日已完成工商登记，本次三季报补充登记完成状态。"
+          }
+        },
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-9b9658b42bf0db44addc",
+          "updateId": "production-5de5b66ee0e60c5fb1bee6ac",
+          "version": "5de5b66ee0e60c5fb1bee6acc2f476fcebe714a9b81a2b3330d9c28a4ac2e101",
+          "objectName": "天地源",
+          "type": "listed",
+          "category": "资产出售筹划",
+          "date": "2026-06-12",
+          "title": "三季报续披露地产资产出售筹划，具体范围仍待协商",
+          "business": "投资银行",
+          "share": {
+            "title": "地产资产出售仍在筹划，范围待协商",
+            "facts": "天地源2026年10月29日三季报续披露，拟出售部分房地产开发业务相关资产及负债，范围待协商。6月12日公告列意向受让方为西安高科集团或其指定关联方，当时价格未定、未签协议，是否构成重大资产重组尚无法确定。三季报未披露新增价格、协议、审批或交割结果，不能确认已实施。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-540f0beca84dcf3374da",
+          "updateId": "production-de89d2fc8abdc65b3fda967f",
+          "version": "de89d2fc8abdc65b3fda967f4a92692741d79bf54c536fe8ed972789c29baf14",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "股份解禁",
+          "date": "2026-10-30",
+          "title": "三季报确认张发群354.321万股已解除限售，半年末已无限售",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报重列既有解禁，非三季度新增",
+            "facts": "三季报列示，张发群354.321万股已解除限售，9月末持股354.321万股、占0.68%，限售股为零。半年报已显示6月末限售股为零，本次属再次披露，并非三季度新增解禁；两期末持股相同不足以证明期间无交易。"
+          }
+        },
+        {
+          "eventId": "production-event-7ee89c1a82937112b694",
+          "updateId": "production-656c08d50eac542d57803c5e",
+          "version": "656c08d50eac542d57803c5e8faf179f3c0c0d968b122502e2ab762c3226ecf7",
+          "objectName": "节能环境",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-10-29",
+          "title": "三季报确认中国环保逾20亿股解除限售，仍有不主动减持承诺",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报确认解禁结果，仍有不主动减持承诺",
+            "facts": "三季报确认，中国环境保护集团有限公司2,075,144,678股已于7月20日解除限售；截至9月30日仍持股66.96%。其承诺2026年7月20日至2027年1月19日不主动减持所持A股，按国资监管要求无偿划转除外。"
+          }
+        },
+        {
+          "eventId": "production-event-e31a70d7a2e0db5882ed",
+          "updateId": "production-961dc504f8337563fa49ce3f",
+          "version": "961dc504f8337563fa49ce3fbb89dfe5c6dc34a26e96d7ebaeecc929ea3c625a",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "限售股份解除",
+          "date": "2026-10-28",
+          "title": "三季报延续杨效东24.75万股解限记录，半年报已披露",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报列示既有24.75万股解限记录",
+            "facts": "三季报列示杨效东（已离任）24.75万股解限记录，期末锁定股74.25万股。数据与半年报一致，并非第三季度或10月新增解禁；具体办理日期未披露，解限不等于实际减持。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        },
+        {
+          "eventId": "production-event-4b3290072b75e126a6f2",
+          "updateId": "production-b62e6dcc3055dc4df6b48521",
+          "version": "b62e6dcc3055dc4df6b485215743054ba9728ac00e2e30c7164fcf08985efb5e",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "员工持股",
+          "date": "2026-09-16",
+          "title": "员工持股计划完成1,369.66万股过户，股份解锁受考核约束",
+          "business": "股份管理",
+          "share": {
+            "title": "员工持股计划完成1369.66万股过户",
+            "facts": "公告，员工持股计划实际筹资35,200,262元，来自参加对象自筹；9月14日完成1,369.66万股历史回购股份非交易过户。股份按12、24、36个月分批解锁，受公司业绩及个人绩效考核约束，过户完成不代表解锁。"
+          }
+        },
+        {
+          "eventId": "production-event-a1c7a43f5f6daa7ce936",
+          "updateId": "production-27a263b3ec6404022ef3f654",
+          "version": "27a263b3ec6404022ef3f654e4392911c1773b9b8123e174157ecc727664864c",
+          "objectName": "宝钛股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-29",
+          "title": "赎回3,200万元募集资金结构性存款，取得收益12.69万元",
+          "business": "机构理财",
+          "share": {
+            "title": "到期赎回3,200万元结构性存款",
+            "facts": "公告，10月27日到期赎回工商银行结构性存款本金3,200万元，取得收益12.69万元。该产品使用闲置可转债募集资金，属于现金管理授权下的执行进展，公告未披露本次续购安排。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-28b406ed4bc197eb19b8",
       "date": "2026-11-11",
@@ -51856,6 +52523,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "c68919e2634e0fd1365f",
+      "date": "2026-11-11",
+      "compiledAt": "2026-11-11T02:39:42-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/c68919e2634e0fd1365f/index.html",
+      "publishedAt": "2026-11-11T18:45:08+08:00"
+    },
     {
       "id": "d3fd6034609e829befa4",
       "date": "2026-11-11",
