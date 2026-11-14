@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-13-60389c647e1a",
-      "compiledAt": "2026-11-13T16:54:30-08:00",
+      "id": "2026-11-13-e468da606551",
+      "compiledAt": "2026-11-13T18:04:09-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -154,6 +154,7 @@ window.PROTOTYPE = {
         "production-84d98e387d530e992c36c31e",
         "production-8254b3aa7d8fff0677d65d06",
         "production-802bb7ecdc94d315742c7e3b",
+        "production-753adbbb222096dc95c4320f",
         "production-7443e932708c42369d74961c",
         "production-6d53cf45c9339ebbd8e7a409",
         "production-6b61e60b0965dd5245243a7f",
@@ -196,6 +197,7 @@ window.PROTOTYPE = {
         "production-0d6e3e421e106f18e0630d47",
         "production-0aec35a80075d006acc21f63",
         "production-0806b35a99cb6141584453ef",
+        "production-05d91d426467111ffc01fbb7",
         "production-ff57ff9059de128b625b71e2",
         "production-fde8168819b9d7206431aedd",
         "production-fd1dcc4eb12a38d98708da95",
@@ -822,7 +824,9 @@ window.PROTOTYPE = {
       "production-526212b87a68e9510470f760": "2026-11-13T16:40:54-08:00",
       "production-dbbcfe2447bd392d2b41c3f1": "2026-11-13T16:43:01-08:00",
       "production-ab60cf6d6827fb27f79e654b": "2026-11-13T16:45:31-08:00",
-      "production-9e338e5736f129be9c4ff742": "2026-11-13T16:54:29-08:00"
+      "production-9e338e5736f129be9c4ff742": "2026-11-13T16:54:29-08:00",
+      "production-753adbbb222096dc95c4320f": "2026-11-13T17:57:33-08:00",
+      "production-05d91d426467111ffc01fbb7": "2026-11-13T18:04:08-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2110,6 +2114,12 @@ window.PROTOTYPE = {
           "summary": "康惠股份2026年10月22日公告，全资子公司北京康惠智创科技有限公司近日与皖江金融租赁股份有限公司签署直接租赁合同，融资金额人民币16,000万元、期限60个月，用于购买算力服务器，康惠股份已签署保证合同提供连带责任保证。本次担保在2025年年度股东会预计额度内，被担保人资产负债率超过70%；公告未披露融资实际到账或服务器交付完成情况。"
         },
         "production-d9507aa0df51626036f8f49e": {
+          "version": "listed-scope-20261019",
+          "action": "股份回购",
+          "group": "回购",
+          "level": "deep"
+        },
+        "production-05d91d426467111ffc01fbb7": {
           "version": "listed-scope-20261019",
           "action": "股份回购",
           "group": "回购",
@@ -4522,6 +4532,12 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "供销大集2026年10月30日披露，为落实长沙市雨花区红星商圈地下空间开发项目一期建设而设立的星悦茂（长沙）商业有限公司，双方出资已于2026年10月全部实缴到位。项目公司注册资本4000万元，其中供销大集控股子公司北京新合作商业发展有限公司出资2800万元、持股70%，关联方湖南供销商贸发展有限公司出资1200万元、持股30%。"
+        },
+        "production-753adbbb222096dc95c4320f": {
+          "version": "listed-scope-20261019",
+          "action": "股份回购",
+          "group": "回购",
+          "level": "deep"
         }
       }
     },
@@ -4530,9 +4546,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-11-13-60389c647e1a",
-      "editionId": "selection-c34ac9852a56048658cc",
+      "status": "committed",
+      "sourceEditionId": "2026-11-13-e468da606551",
+      "editionId": "selection-715a1d4008b6021ec48b",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -28990,6 +29006,151 @@ window.PROTOTYPE = {
               ]
             }
           ]
+        },
+        {
+          "id": "production-05d91d426467111ffc01fbb7",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "累计回购26.51万股，成交金额534.70万元",
+          "summary": "盘龙药业2026年10月29日披露，截至第三季度报告披露日，公司以自有资金集中竞价累计回购265,075股，占当前总股本的0.1939%，成交金额5,347,010.75元，不含交易费用，成交价格为19.30至20.29元/股。较10月21日首次回购增加148,900股、成交金额增加2,992,055元；累计成交金额相当于1,000万元计划下限的53.47%，方案继续实施。",
+          "stage": "截至报告披露日累计回购265,075股，成交金额5,347,010.75元（不含交易费用）；方案继续实施",
+          "depth": "deep",
+          "coverage": "本事项有限历史研究；不等于观察池全量已更新。资料范围限于本次累计进展、同日回购账户股数印证，以及同一方案回购报告书和首次回购公告，不代表公司全部回购、激励或员工持股历史。 未留存9月价格调整及此前月度进展的独立公告；价格调整明确依据10月22日公告回溯，不宣称逐月披露覆盖完整。 现有材料未提供首次回购之后的逐日成交拆分；新增股数和金额仅由两次披露相减，不推定具体成交日期、笔数或新增部分独立价格区间。 未核实本方案股份后续具体授予对象、授予价格或过户安排，正文仅表述拟定用途。季报中的其他激励注销及历史员工持股事项未并入本次回购。 本次两份10月29日材料实际留存于11月5日，晚于11月1日研究截止；使用本轮授权留存版本，保留原披露日期和实际取得时间，不推进发现窗口，也不声称在截止时已实际取得。 本候选尚待独立核查；既有首次回购稿的核查结论不代替本次累计进展核查。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-13T18:04:08-08:00",
+          "compiledAt": "2026-11-13T18:04:08-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "盘龙药业",
+          "version": "05d91d426467111ffc01fbb7cefbadee97a2eedd5ea84143f7b3098c22ec80f7",
+          "important": true,
+          "production": true,
+          "prototype": false,
+          "history": [
+            {
+              "date": "2026-08-28",
+              "text": "公司披露回购报告书：8月26日董事会通过方案，拟使用自有资金集中竞价回购人民币普通股，用于股权激励或员工持股计划；金额为1,000万元至2,000万元，均含本数，原价格上限为35.92元/股，期限为董事会审议通过方案之日起12个月内。"
+            },
+            {
+              "date": "2026-10-22",
+              "text": "首次回购公告回溯说明：因9月16日完成半年度权益分派，回购价格上限由35.92元/股调整为35.82元/股，自9月16日起生效。该节点采用后续公告回溯，不作为9月16日当时已取得的独立披露记录。"
+            },
+            {
+              "date": "2026-10-22",
+              "text": "公司披露10月21日首次回购116,175股，占当时总股本的0.085%，成交金额2,354,955.75元，不含交易费用，成交价格为20.25至20.29元/股。"
+            },
+            {
+              "date": "2026-10-29",
+              "text": "第三季度报告披露，截至报告披露日累计回购265,075股、成交金额5,347,010.75元，不含交易费用，并表示将在回购期限内继续实施。该累计口径不是9月30日期末余额。"
+            }
+          ],
+          "business": [
+            "本次资金使用主体是上市公司，股份拟用于股权激励或员工持股计划。可围绕后续回购执行、股份用途衔接和计划设计与公司讨论服务，具体安排及需求须向公司确认；累计买入尚不能证明已向员工授予或过户。",
+            "回购报告书已披露公司具有回购专用证券账户，本次无需再次开立。后续应关注股份实际使用：方案约定，回购完成后36个月内未能用于既定用途的部分将按程序注销。"
+          ],
+          "details": [
+            {
+              "label": "计划金额与期限",
+              "value": "人民币1,000万元至2,000万元，均含本数；自2026年8月26日董事会审议通过方案之日起12个月内。原方案设有提前届满或终止安排。"
+            },
+            {
+              "label": "回购价格上限",
+              "value": "原方案为35.92元/股；据10月22日公告回溯，因半年度权益分派调整为35.82元/股，自9月16日起生效。价格上限与实际成交价格分别列示。"
+            },
+            {
+              "label": "累计成交均价",
+              "value": "按累计成交金额除以累计股数计算，约20.1717元/股，不含交易费用。"
+            },
+            {
+              "label": "与计划金额的差距",
+              "value": "累计成交金额相当于计划下限的53.47%、上限的26.74%；按不含交易费用的成交金额口径，与下限相差4,652,989.25元，与上限相差14,652,989.25元。差额仅为算术对照，不代表已下单金额或确定待投入资金。"
+            },
+            {
+              "label": "账户股份交叉核对",
+              "value": "同日利润分配方案公告披露，截至报告披露日回购专用证券账户持有265,075股，与季报累计回购股数一致；公司总股本为136,700,928股。"
+            },
+            {
+              "label": "执行与用途限定",
+              "value": "回购仍在实施，方案预计股数依赖价格假设，以实际回购数量为准，不作为固定数量任务计算完成率。后续激励或员工持股计划未获通过、对象放弃认购等，可能导致已回购股份无法全部转让而被注销。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "2026年第三季度报告",
+              "publisher": "陕西盘龙药业集团股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第5页回购进展、第6页继续实施说明、第12页落款；已核读全文及上述原页",
+              "retrievedAt": "2026-11-05T08:04:57+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637107.PDF"
+            },
+            {
+              "title": "关于2026年前三季度利润分配方案的公告",
+              "publisher": "陕西盘龙药业集团股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第2页回购账户持股数、第3页落款；本事项仅引用账户股数及总股本",
+              "retrievedAt": "2026-11-05T08:04:57+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637109.PDF"
+            },
+            {
+              "title": "关于首次回购公司股份的公告",
+              "publisher": "陕西盘龙药业集团股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1页方案及价格调整、第2页首次执行、第3页落款；全文及全部原页已核读",
+              "retrievedAt": "2026-10-22T08:24:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613918.PDF"
+            },
+            {
+              "title": "关于以集中竞价交易方式回购公司股份的回购报告书",
+              "publisher": "陕西盘龙药业集团股份有限公司",
+              "date": "2026-08-28",
+              "location": "全文文本；物理第1、3、4、5、8、9、10页原图，含方案表、测算限定、期限、账户和用途安排",
+              "retrievedAt": "2026-10-22T09:55:01.885121+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225520381.PDF"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "同一回购方案执行对照；金额均为人民币，成交金额及计算均价均不含交易费用",
+              "columns": [
+                "项目",
+                "10月21日首次回购",
+                "截至10月29日季报披露日累计",
+                "较首次回购增加"
+              ],
+              "rows": [
+                [
+                  "回购数量",
+                  "116,175股",
+                  "265,075股",
+                  "148,900股"
+                ],
+                [
+                  "成交金额",
+                  "2,354,955.75元",
+                  "5,347,010.75元",
+                  "2,992,055.00元"
+                ],
+                [
+                  "披露的占总股本比例",
+                  "0.085%",
+                  "0.1939%",
+                  "—"
+                ],
+                [
+                  "实际成交价格区间",
+                  "20.25至20.29元/股",
+                  "19.30至20.29元/股",
+                  "未披露新增部分独立区间"
+                ],
+                [
+                  "按金额和股数计算的均价",
+                  "约20.2708元/股",
+                  "约20.1717元/股",
+                  "—"
+                ]
+              ]
+            }
+          ]
         }
       ]
     },
@@ -50648,9 +50809,590 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-550a55b64e5e1933084b",
+      "objectId": "listed-688281-sh",
+      "type": "股份回购",
+      "topics": [
+        "折生阳提议回购",
+        "董事会审议通过回购方案",
+        "集中竞价回购",
+        "会议通知时限豁免",
+        "回购股份后续出售或注销安排"
+      ],
+      "updates": [
+        {
+          "id": "production-753adbbb222096dc95c4320f",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "通过4000万至8000万元回购方案，拟用于维护公司价值及股东权益",
+          "summary": "华秦科技2026年10月29日披露，董事会已于10月28日审议通过回购方案，拟以自有资金或自筹资金，通过集中竞价方式回购人民币普通股，资金总额为人民币4000万至8000万元，价格不超过72元/股，期限为董事会审议通过之日起3个月内，无需提交股东会审议。方案安排回购结果暨股份变动公告披露12个月后可集中竞价出售，3年内未出售部分履行相关程序后注销。本轮三份当次公告未披露实际回购成交数量或支付金额。",
+          "stage": "2026年10月28日收到提议并经董事会审议通过回购方案，无需提交股东会审议；本轮材料未披露实际回购成交",
+          "depth": "deep",
+          "coverage": "本事项有限历史研究；不等于观察池全量已更新。历史对照仅核实2025年年度报告第103页的报告期结论，不构成全历史回购核查，也不覆盖2026年年初至本次方案前的全部执行记录；本文不提出首次回购或此前从未回购的主张。 实际执行披露范围限于本轮三份2026年10月29日公告，未披露成交不等于截至2026年11月1日实际成交为零；不使用截止后材料补写本轮进展。 方案未明确自有资金与自筹资金的具体构成，未披露本次回购服务券商及委托状态；相关业务沟通表述仅为待公司确认事项。 本轮使用留存版本及补入原页，实际取得时间保留原记录，不将取得时间当作披露时间，也未验证公开链接当前可访问状态。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-13T17:57:33-08:00",
+          "compiledAt": "2026-11-13T17:57:33-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "华秦科技",
+          "version": "753adbbb222096dc95c4320f5503866ea8630781b95fac68e6addc04c863e11d",
+          "important": true,
+          "production": true,
+          "prototype": false,
+          "history": [
+            {
+              "date": "2026-04-28",
+              "text": "公司2025年年度报告将“股份回购在报告期的具体实施情况”列为“不适用”。该对照仅覆盖2025年度，不据此认定本次为公司首次回购，也不推断2026年此前的实施情况。"
+            },
+            {
+              "date": "2026-10-28",
+              "text": "控股股东、实际控制人、董事长折生阳提议回购；公司同日召开第二届董事会第二十一次会议，审议通过方案并授权管理层办理相关事项。该节点于10月29日披露。"
+            },
+            {
+              "date": "2026-10-29",
+              "text": "公司披露正式回购方案，明确金额、价格、实施期限及后续出售或注销安排；本轮材料支持的阶段为方案已获董事会通过。"
+            }
+          ],
+          "business": [
+            "本事项的资金及执行主体是上市公司。董事会授权管理层办理回购专用证券账户及择机交易等事项，可围绕公司回购执行、账户服务和后续股份处置安排开展沟通；具体服务需求、既有券商安排及委托状态仍需向公司确认，不能将方案金额视为待争取资金。",
+            "本次用途为维护公司价值及股东权益，方案包含后续出售及未出售部分注销安排。业务跟踪应分别记录回购成交、支付金额和后续处置进度，当前不能将方案测算数量写成已回购股份，亦不能将附条件注销安排写成已减少股本。"
+          ],
+          "details": [
+            {
+              "label": "主体与股份",
+              "value": "陕西华秦科技实业股份有限公司（688281，华秦科技）；拟回购公司发行的人民币普通股A股。"
+            },
+            {
+              "label": "资金、方式与价格",
+              "value": "公司自有资金或自筹资金；通过上海证券交易所交易系统集中竞价回购；人民币4000万至8000万元，金额上下限均含本数；价格上限72元/股，含本数。"
+            },
+            {
+              "label": "审议结果",
+              "value": "2026年10月28日，董事会对会议通知时限豁免及回购方案两项议案均以7票同意、0票反对、0票弃权通过；回购方案无需提交股东会审议。通知时限豁免作为本次回购配套事项归并。"
+            },
+            {
+              "label": "实施期限及调整条件",
+              "value": "董事会审议通过之日起3个月内；因筹划重大事项连续停牌10个交易日以上的，复牌后顺延。资金使用达到上限时提前届满；达到下限后，管理层决定终止的可提前届满；董事会决议终止的亦提前届满。"
+            },
+            {
+              "label": "股份后续安排",
+              "value": "披露回购结果暨股份变动公告12个月后可采用集中竞价方式出售；公告后3年内未出售或未完全出售的，剩余部分履行相关程序后注销。相关政策调整时按调整后的政策实行。"
+            },
+            {
+              "label": "实施不确定性",
+              "value": "公司提示，股价持续超过回购价格上限、资金未能到位或经营及外部环境变化等，可能导致部分实施、无法实施、变更或终止。"
+            },
+            {
+              "label": "相关股东计划的披露边界",
+              "value": "按方案披露时点，公司董事、高级管理人员、控股股东、实际控制人在未来3个月、6个月内暂无明确减持计划；持股5%以上的其他股东同期是否减持尚不确定。"
+            },
+            {
+              "label": "实际执行",
+              "value": "本轮三份2026年10月29日公告未披露本次实际回购数量、支付金额或成交均价，不能计算已执行比例或剩余待回购金额。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "关于控股股东、实际控制人、董事长提议公司回购股份的公告",
+              "publisher": "陕西华秦科技实业股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理页1—3；巨潮资讯留存PDF",
+              "retrievedAt": "2026-11-05T08:06:54+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225634746.PDF"
+            },
+            {
+              "title": "第二届董事会第二十一次会议决议公告",
+              "publisher": "陕西华秦科技实业股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理页1—2；会议审议结果及回购方案；巨潮资讯留存PDF",
+              "retrievedAt": "2026-11-05T08:06:54+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225634743.PDF"
+            },
+            {
+              "title": "关于以集中竞价交易方式回购股份的方案",
+              "publisher": "陕西华秦科技实业股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理页1—9；关键参数及测算表位于物理页3—5；巨潮资讯留存PDF",
+              "retrievedAt": "2026-11-05T08:06:55+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225634674.PDF"
+            },
+            {
+              "title": "陕西华秦科技实业股份有限公司2025年年度报告",
+              "publisher": "陕西华秦科技实业股份有限公司",
+              "date": "2026-04-28",
+              "location": "物理页103，第八项“股份回购在报告期的具体实施情况”；本轮补入的巨潮资讯留存PDF及原页",
+              "retrievedAt": "2026-11-13T17:53:00.937092-08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225205240.PDF"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "方案披露的回购测算：按72元/股价格上限计算，仅为预计数量，实际以实施结果为准",
+              "columns": [
+                "测算情景",
+                "回购资金（人民币万元）",
+                "预计回购数量（万股）",
+                "占总股本比例"
+              ],
+              "rows": [
+                [
+                  "资金下限",
+                  "4000",
+                  "55.56",
+                  "0.1456%"
+                ],
+                [
+                  "资金上限",
+                  "8000",
+                  "111.11",
+                  "0.2912%"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-715a1d4008b6021ec48b",
+      "date": "2026-11-14",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-14T10:10:37+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-0bdc78513ea25a163acc9f27",
+        "production-8d4c60094072d75fd7aa6a22",
+        "production-6b189fe20974e4ec4ab4294c",
+        "production-e520619f4db9789df1cc4cd4",
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-5de5b66ee0e60c5fb1bee6ac",
+        "production-abd0c5d25e049a4f7bd017ae",
+        "production-6bf299290fa3acf8aa6f24dc",
+        "production-ff7ef06e8f4d369fdad6e9f9",
+        "production-1bf731ec4ef09df022686b43",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-de89d2fc8abdc65b3fda967f",
+        "production-05d91d426467111ffc01fbb7",
+        "production-656c08d50eac542d57803c5e",
+        "production-753adbbb222096dc95c4320f",
+        "production-961dc504f8337563fa49ce3f",
+        "production-fde8168819b9d7206431aedd",
+        "production-1d6e0f06b04a487eb44e7634",
+        "production-5bf4e78e2fe2b8ae7a265dd4",
+        "production-9041551624dc78082a4d96bd",
+        "production-b62e6dcc3055dc4df6b48521",
+        "production-27a263b3ec6404022ef3f654",
+        "production-7f43c976040c3b082f2a015d"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-715a1d4008b6021ec48b/page-01.png",
+          "width": 1080,
+          "height": 2394,
+          "sha256": "7347e6926bdf08c730837b1ea21d3aee02f34180b37ff98a52f0573c2d30c063"
+        },
+        {
+          "file": "assets/editions/selection-715a1d4008b6021ec48b/page-02.png",
+          "width": 1080,
+          "height": 2740,
+          "sha256": "39fabf330671c636218cd92e102613c48543d34f28600a26a5cf9eed433a2008"
+        },
+        {
+          "file": "assets/editions/selection-715a1d4008b6021ec48b/page-03.png",
+          "width": 1080,
+          "height": 2552,
+          "sha256": "01255e7b33967003f3da210b638816e8f9c6390dcbdcfb4c6e23284fa7ca4241"
+        },
+        {
+          "file": "assets/editions/selection-715a1d4008b6021ec48b/page-04.png",
+          "width": 1080,
+          "height": 2740,
+          "sha256": "9a0dfda2ac0d16790946a7a6270ce890214d2e07b382ba75ae68f80221cc0601"
+        },
+        {
+          "file": "assets/editions/selection-715a1d4008b6021ec48b/page-05.png",
+          "width": 1080,
+          "height": 748,
+          "sha256": "c2a625df418f536b883c197f89c119807d7d40abf131e91b71002603989bc672"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-13-e468da606551",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-06-12",
+      "rangeEnd": "2026-10-31",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-32c059172c74da96a014",
+          "updateId": "production-0bdc78513ea25a163acc9f27",
+          "version": "0bdc78513ea25a163acc9f27159c25636acecf3918027d9592d160d01dcb0c56",
+          "objectName": "航天电子",
+          "type": "listed",
+          "category": "股权置换及同一控制下企业合并进展",
+          "date": "2026-10-30",
+          "title": "披露西安太乙股权置换的合并会计处理",
+          "business": "投资银行",
+          "share": {
+            "title": "股权置换按同一控制下合并追溯调整",
+            "facts": "三季报披露，控股子公司时代光电以北京航天兴华科技有限公司100%股权置换西安太乙电子有限公司58%股权，作价分别为64,500.50万元、64,970.61万元，现金补差470.11万元。本期按同一控制下合并追溯调整；视同期初取得控制权属会计口径，具体工商交割日及补差款实际支付状态未核实。"
+          }
+        },
+        {
+          "eventId": "production-event-f79f9b1e59238de24f37",
+          "updateId": "production-8d4c60094072d75fd7aa6a22",
+          "version": "8d4c60094072d75fd7aa6a227d6087fe8afef709d4931ed83c42f897d496e404",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "再融资",
+          "date": "2026-10-30",
+          "title": "拟将2024年度定增决议及授权有效期延至2027年11月27日",
+          "business": "投资银行",
+          "share": {
+            "title": "拟将定增决议及授权有效期延长12个月",
+            "facts": "公告，董事会通过延期议案，拟将2024年度定增决议及授权有效期延至2027年11月27日，尚需股东会审议。该定增拟由实控人贺增林控制的君耀领航全额认购，募资不超过7亿元，扣除发行费用后全部补流；本次延期不代表发行完成或资金到账。"
+          }
+        },
+        {
+          "eventId": "production-event-87b52efa39548c8feae7",
+          "updateId": "production-6b189fe20974e4ec4ab4294c",
+          "version": "6b189fe20974e4ec4ab4294cb984fbfa3f1f1df826ae2a6e818b0d1e4d2efaaa",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "宝鸡供热公司100%股权内部划转已完成工商登记",
+          "business": "投资银行",
+          "share": {
+            "title": "内部无偿划转100%股权完成工商登记",
+            "facts": "7月全资子公司陕西美能新能源有限公司将所持宝鸡市美能清洁供热有限公司100%股权，无偿划转至另一全资子公司宝鸡市美能天然气有限公司；截至三季度报告期末已完成工商登记，本次进一步明确登记完成阶段。"
+          }
+        },
+        {
+          "eventId": "production-event-c4e0e90f4650591e20c5",
+          "updateId": "production-e520619f4db9789df1cc4cd4",
+          "version": "e520619f4db9789df1cc4cd4b05fb36e7fe18031795699b59e29eb307d530926",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "完成韩城供热公司100%股权内部划转登记",
+          "business": "投资银行",
+          "share": {
+            "title": "供热公司100%股权内部划转完成登记",
+            "facts": "7月陕西美能新能源有限公司将韩城市美能清洁供热有限公司100%股权无偿划转至韩城市美能天然气有限责任公司，双方均为其全资子公司。截至9月30日已完成工商登记，本次三季报补充登记完成状态。"
+          }
+        },
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-9b9658b42bf0db44addc",
+          "updateId": "production-5de5b66ee0e60c5fb1bee6ac",
+          "version": "5de5b66ee0e60c5fb1bee6acc2f476fcebe714a9b81a2b3330d9c28a4ac2e101",
+          "objectName": "天地源",
+          "type": "listed",
+          "category": "资产出售筹划",
+          "date": "2026-06-12",
+          "title": "三季报续披露地产资产出售筹划，具体范围仍待协商",
+          "business": "投资银行",
+          "share": {
+            "title": "地产资产出售仍在筹划，范围待协商",
+            "facts": "天地源2026年10月29日三季报续披露，拟出售部分房地产开发业务相关资产及负债，范围待协商。6月12日公告列意向受让方为西安高科集团或其指定关联方，当时价格未定、未签协议，是否构成重大资产重组尚无法确定。三季报未披露新增价格、协议、审批或交割结果，不能确认已实施。"
+          }
+        },
+        {
+          "eventId": "production-event-386a04db9a601c5db435",
+          "updateId": "production-abd0c5d25e049a4f7bd017ae",
+          "version": "abd0c5d25e049a4f7bd017ae348758a8076d6ab484c6082b2b977a60b1520884",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励价格调整",
+          "date": "2026-10-31",
+          "title": "2025年激励计划授予价调至101.23元/股，覆盖首次及预留授予",
+          "business": "股份管理",
+          "share": {
+            "title": "2025年激励授予价降至101.23元/股",
+            "facts": "董事会于10月30日通过调整2025年激励计划首次及预留授予价格，由102.23元/股降至101.23元/股。本次调整对应已实施的半年度权益分派，不代表新增授予或归属登记完成。"
+          }
+        },
+        {
+          "eventId": "production-event-b95b862749ec79c6ac1d",
+          "updateId": "production-6bf299290fa3acf8aa6f24dc",
+          "version": "6bf299290fa3acf8aa6f24dc5cee53461c8aff361e8abd7db5fd2944a343c92a",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励归属进展",
+          "date": "2026-10-31",
+          "title": "2024年激励计划首次授予第二期条件成就，159人拟归属187,597股",
+          "business": "股份管理",
+          "share": {
+            "title": "首次授予第二期条件成就，159人拟归属",
+            "facts": "董事会于10月30日同意为2024年激励计划首次授予部分第二个归属期159人办理187,597股归属，调整后授予价43.78元/股。归属条件已成就，所覆盖公告未披露本期实际缴款、股份登记完成或上市流通结果。"
+          }
+        },
+        {
+          "eventId": "production-event-1ebbe325af806e414aff",
+          "updateId": "production-ff7ef06e8f4d369fdad6e9f9",
+          "version": "ff7ef06e8f4d369fdad6e9f9bfe228638b59593d4fbcb16ad6a626f3507d780a",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励归属进展",
+          "date": "2026-10-31",
+          "title": "2025年激励计划首期179,422股获准办理归属",
+          "business": "股份管理",
+          "share": {
+            "title": "首期179,422股获准办理归属",
+            "facts": "2025年限制性股票激励计划首次授予部分首个归属期条件已成就，董事会同意为318人办理179,422股归属，调整后授予价101.23元/股。截至披露日，该计划授予股票尚未归属，本次批准不等于登记完成或上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-e39415dfdb18b75f9e5f",
+          "updateId": "production-1bf731ec4ef09df022686b43",
+          "version": "1bf731ec4ef09df022686b438398390893dfc7259359edd93219f31115d5565c",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励股份作废",
+          "date": "2026-10-31",
+          "title": "6名激励对象离职，17,672股未归属权益获批作废",
+          "business": "股份管理",
+          "share": {
+            "title": "17,672股获批作废，归属办理获批",
+            "facts": "董事会于10月30日批准作废2025年限制性股票激励计划首次授予部分6名离职对象尚未归属的17,672股，并同意为318名符合条件的激励对象办理179,422股归属；归属办理获批不代表登记或上市流通已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-540f0beca84dcf3374da",
+          "updateId": "production-de89d2fc8abdc65b3fda967f",
+          "version": "de89d2fc8abdc65b3fda967f4a92692741d79bf54c536fe8ed972789c29baf14",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "股份解禁",
+          "date": "2026-10-30",
+          "title": "三季报确认张发群354.321万股已解除限售，半年末已无限售",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报重列既有解禁，非三季度新增",
+            "facts": "三季报列示，张发群354.321万股已解除限售，9月末持股354.321万股、占0.68%，限售股为零。半年报已显示6月末限售股为零，本次属再次披露，并非三季度新增解禁；两期末持股相同不足以证明期间无交易。"
+          }
+        },
+        {
+          "eventId": "production-event-b9729420827d6a1d7cfa",
+          "updateId": "production-05d91d426467111ffc01fbb7",
+          "version": "05d91d426467111ffc01fbb7cefbadee97a2eedd5ea84143f7b3098c22ec80f7",
+          "objectName": "盘龙药业",
+          "type": "listed",
+          "category": "股份回购",
+          "date": "2026-10-29",
+          "title": "累计回购26.51万股，成交金额534.70万元",
+          "business": "股份管理",
+          "share": {
+            "title": "累计回购26.51万股，方案继续实施",
+            "facts": "截至三季报披露日，公司以自有资金集中竞价累计回购26.5075万股，成交金额534.70万元（不含交易费用），达到1000万元计划下限的53.47%，方案继续实施。"
+          }
+        },
+        {
+          "eventId": "production-event-7ee89c1a82937112b694",
+          "updateId": "production-656c08d50eac542d57803c5e",
+          "version": "656c08d50eac542d57803c5e8faf179f3c0c0d968b122502e2ab762c3226ecf7",
+          "objectName": "节能环境",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-10-29",
+          "title": "三季报确认中国环保逾20亿股解除限售，仍有不主动减持承诺",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报确认解禁结果，仍有不主动减持承诺",
+            "facts": "三季报确认，中国环境保护集团有限公司2,075,144,678股已于7月20日解除限售；截至9月30日仍持股66.96%。其承诺2026年7月20日至2027年1月19日不主动减持所持A股，按国资监管要求无偿划转除外。"
+          }
+        },
+        {
+          "eventId": "production-event-550a55b64e5e1933084b",
+          "updateId": "production-753adbbb222096dc95c4320f",
+          "version": "753adbbb222096dc95c4320f5503866ea8630781b95fac68e6addc04c863e11d",
+          "objectName": "华秦科技",
+          "type": "listed",
+          "category": "股份回购",
+          "date": "2026-10-29",
+          "title": "通过4000万至8000万元回购方案，拟用于维护公司价值及股东权益",
+          "business": "股份管理",
+          "share": {
+            "title": "审议通过4000万至8000万元回购方案",
+            "facts": "董事会已通过4000万至8000万元回购方案，拟以自有或自筹资金集中竞价回购，价格不超过72元/股，期限为10月28日审议通过之日起3个月内，用于维护公司价值及股东权益。当次公告未披露实际回购数量或支付金额。"
+          }
+        },
+        {
+          "eventId": "production-event-e31a70d7a2e0db5882ed",
+          "updateId": "production-961dc504f8337563fa49ce3f",
+          "version": "961dc504f8337563fa49ce3fbb89dfe5c6dc34a26e96d7ebaeecc929ea3c625a",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "限售股份解除",
+          "date": "2026-10-28",
+          "title": "三季报延续杨效东24.75万股解限记录，半年报已披露",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报列示既有24.75万股解限记录",
+            "facts": "三季报列示杨效东（已离任）24.75万股解限记录，期末锁定股74.25万股。数据与半年报一致，并非第三季度或10月新增解禁；具体办理日期未披露，解限不等于实际减持。"
+          }
+        },
+        {
+          "eventId": "production-event-dc73342c7053bdd450f2",
+          "updateId": "production-fde8168819b9d7206431aedd",
+          "version": "fde8168819b9d7206431aeddce91f4d4a4cc74905a0dea76589253354b1dae60",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "第二批预留激励6人可归属48.4250万股，董事会同意办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第二批48.4250万股获准办理归属",
+            "facts": "董事会同意办理2025年限制性股票激励计划预留第二批首个归属期归属，涉及6人、48.4250万股，调整后授予价9.33元/股。现有披露不能证明缴款、登记或上市流通已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-d8ffbfcb5d9da156bf79",
+          "updateId": "production-1d6e0f06b04a487eb44e7634",
+          "version": "1d6e0f06b04a487eb44e76343622399aa17e3eeaf2491d76c541aafce877a01b",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "预留第一批22.9937万股归属条件成就，其中9.75万股暂缓办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第一批归属条件成就，9.75万股暂缓",
+            "facts": "2025年限制性股票激励计划预留第一批首个归属期条件成就，7人可归属22.9937万股，调整后授予价9.33元/股。其中武莹、郑正东因个人资金安排等原因暂缓办理9.75万股；现有材料不能证明出资、登记或上市已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-806cb6cd43c249fcbfc9",
+          "updateId": "production-5bf4e78e2fe2b8ae7a265dd4",
+          "version": "5bf4e78e2fe2b8ae7a265dd474c24d3e5a91caa86b8ad13315a860472bdfd49e",
+          "objectName": "美畅股份",
+          "type": "listed",
+          "category": "限售股份变动披露",
+          "date": "2026-10-28",
+          "title": "三季报续列吴英解除限售1股，一季报已披露相同变动",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报续列解除限售1股，非三季度新增",
+            "facts": "披露三季报，吴英本期解除限售1股的记录与一季报相同，不属于第三季度新增解禁。期末限售股为249,975,550股；表列2027年9月29日为拟解除限售日，并非该1股实际办理日，也不代表剩余股份已解禁或出售。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        },
+        {
+          "eventId": "production-event-4b3290072b75e126a6f2",
+          "updateId": "production-b62e6dcc3055dc4df6b48521",
+          "version": "b62e6dcc3055dc4df6b485215743054ba9728ac00e2e30c7164fcf08985efb5e",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "员工持股",
+          "date": "2026-09-16",
+          "title": "员工持股计划完成1,369.66万股过户，股份解锁受考核约束",
+          "business": "股份管理",
+          "share": {
+            "title": "员工持股计划完成1369.66万股过户",
+            "facts": "公告，员工持股计划实际筹资35,200,262元，来自参加对象自筹；9月14日完成1,369.66万股历史回购股份非交易过户。股份按12、24、36个月分批解锁，受公司业绩及个人绩效考核约束，过户完成不代表解锁。"
+          }
+        },
+        {
+          "eventId": "production-event-a1c7a43f5f6daa7ce936",
+          "updateId": "production-27a263b3ec6404022ef3f654",
+          "version": "27a263b3ec6404022ef3f654e4392911c1773b9b8123e174157ecc727664864c",
+          "objectName": "宝钛股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-29",
+          "title": "赎回3,200万元募集资金结构性存款，取得收益12.69万元",
+          "business": "机构理财",
+          "share": {
+            "title": "到期赎回3,200万元结构性存款",
+            "facts": "公告，10月27日到期赎回工商银行结构性存款本金3,200万元，取得收益12.69万元。该产品使用闲置可转债募集资金，属于现金管理授权下的执行进展，公告未披露本次续购安排。"
+          }
+        },
+        {
+          "eventId": "production-event-68ec2e801d6d69842f1e",
+          "updateId": "production-7f43c976040c3b082f2a015d",
+          "version": "7f43c976040c3b082f2a015d92b26d07c9c038677bef9ae8300f07746342cf10",
+          "objectName": "金钼股份",
+          "type": "listed",
+          "category": "业绩快报",
+          "date": "2026-10-28",
+          "title": "前三季度归母净利润同比增长30.94%",
+          "business": "上市公司业绩",
+          "share": {
+            "title": "前三季度归母净利润增长30.94%",
+            "facts": "披露三季报：前三季度营业收入约124.46亿元，同比增长14.34%；归母净利润约29.94亿元，同比增长30.94%，金额均为人民币。第三季度财务报表未经审计。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-c34ac9852a56048658cc",
       "date": "2026-11-14",
@@ -74892,302 +75634,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "selection-2959dff27d398c9eef19",
-      "date": "2026-11-04",
-      "cutoff": "2026-10-22T08:24:29+08:00",
-      "compiledAt": "2026-11-04T14:19:45+08:00",
-      "researchCutoff": "2026-10-22T08:24:29+08:00",
-      "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
-      "updateIds": [
-        "production-d9507aa0df51626036f8f49e",
-        "production-dcd91e5888149a038cbd6147"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-2959dff27d398c9eef19/page-01.png",
-          "width": 1080,
-          "height": 1198,
-          "sha256": "1bb1654ca078114289a988c847fb8279e6c18b960b21be9839bcd0cfdedb271b"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-11-03-fe1137390c7c",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-10-22",
-      "rangeEnd": "2026-10-22",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-b9729420827d6a1d7cfa",
-          "updateId": "production-d9507aa0df51626036f8f49e",
-          "version": "d9507aa0df51626036f8f49ef8afbb7eabb261ce03611d24ba99af767e01c6e3",
-          "objectName": "盘龙药业",
-          "type": "listed",
-          "category": "股份回购",
-          "date": "2026-10-22",
-          "title": "首次回购116,175股，成交金额235.50万元",
-          "business": "股份管理",
-          "share": {
-            "title": "首次回购成交235.50万元",
-            "facts": "公告，10月21日首次通过集中竞价回购116,175股，占总股本0.085%，成交235.50万元（不含交易费用），相当于1,000万元计划下限的23.55%；公司表示将在回购期限内继续实施。"
-          }
-        },
-        {
-          "eventId": "production-event-446551fedcd803a71aba",
-          "updateId": "production-dcd91e5888149a038cbd6147",
-          "version": "dcd91e5888149a038cbd6147527b624ba8b018ce25cd9ebcafe0ec10d2652d4e",
-          "objectName": "光电股份",
-          "type": "listed",
-          "category": "现金管理赎回进展",
-          "date": "2026-10-22",
-          "title": "西安子公司收回5,000万元定期存款，本息已归还募集资金专户",
-          "business": "机构理财",
-          "share": {
-            "title": "5,000万元定存到期，本息归还募集资金专户",
-            "facts": "公告，全资子公司西安北方光电科技防务有限公司于7月21日购买的5,000万元定期存款，已于10月21日到期赎回，取得收益12.5万元，本金及收益均已归还募集资金专户。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-df3dea0b0e5e125f5944",
-      "date": "2026-11-04",
-      "cutoff": "2026-10-22T08:24:29+08:00",
-      "compiledAt": "2026-11-04T14:13:53+08:00",
-      "researchCutoff": "2026-10-22T08:24:29+08:00",
-      "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
-      "updateIds": [
-        "production-d9507aa0df51626036f8f49e",
-        "production-dcd91e5888149a038cbd6147"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-df3dea0b0e5e125f5944/page-01.png",
-          "width": 1080,
-          "height": 1198,
-          "sha256": "1bb1654ca078114289a988c847fb8279e6c18b960b21be9839bcd0cfdedb271b"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-11-03-ee461a5e0ffd",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-10-22",
-      "rangeEnd": "2026-10-22",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-b9729420827d6a1d7cfa",
-          "updateId": "production-d9507aa0df51626036f8f49e",
-          "version": "d9507aa0df51626036f8f49ef8afbb7eabb261ce03611d24ba99af767e01c6e3",
-          "objectName": "盘龙药业",
-          "type": "listed",
-          "category": "股份回购",
-          "date": "2026-10-22",
-          "title": "首次回购116,175股，成交金额235.50万元",
-          "business": "股份管理",
-          "share": {
-            "title": "首次回购成交235.50万元",
-            "facts": "公告，10月21日首次通过集中竞价回购116,175股，占总股本0.085%，成交235.50万元（不含交易费用），相当于1,000万元计划下限的23.55%；公司表示将在回购期限内继续实施。"
-          }
-        },
-        {
-          "eventId": "production-event-446551fedcd803a71aba",
-          "updateId": "production-dcd91e5888149a038cbd6147",
-          "version": "dcd91e5888149a038cbd6147527b624ba8b018ce25cd9ebcafe0ec10d2652d4e",
-          "objectName": "光电股份",
-          "type": "listed",
-          "category": "现金管理赎回进展",
-          "date": "2026-10-22",
-          "title": "西安子公司收回5,000万元定期存款，本息已归还募集资金专户",
-          "business": "机构理财",
-          "share": {
-            "title": "5,000万元定存到期，本息归还募集资金专户",
-            "facts": "公告，全资子公司西安北方光电科技防务有限公司于7月21日购买的5,000万元定期存款，已于10月21日到期赎回，取得收益12.5万元，本金及收益均已归还募集资金专户。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-a2d3987323a68e62abb4",
-      "date": "2026-11-04",
-      "cutoff": "2026-10-22T08:24:29+08:00",
-      "compiledAt": "2026-11-04T14:04:21+08:00",
-      "researchCutoff": "2026-10-22T08:24:29+08:00",
-      "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
-      "updateIds": [
-        "production-d9507aa0df51626036f8f49e"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-a2d3987323a68e62abb4/page-01.png",
-          "width": 1080,
-          "height": 800,
-          "sha256": "1bfba81814812234615aa00e79f48f5c795e89873bd53b1f00c46b30bbbc5224"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-11-03-0c78ffddbe49",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-10-22",
-      "rangeEnd": "2026-10-22",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-b9729420827d6a1d7cfa",
-          "updateId": "production-d9507aa0df51626036f8f49e",
-          "version": "d9507aa0df51626036f8f49ef8afbb7eabb261ce03611d24ba99af767e01c6e3",
-          "objectName": "盘龙药业",
-          "type": "listed",
-          "category": "股份回购",
-          "date": "2026-10-22",
-          "title": "首次回购116,175股，成交金额235.50万元",
-          "business": "股份管理",
-          "share": {
-            "title": "首次回购成交235.50万元",
-            "facts": "公告，10月21日首次通过集中竞价回购116,175股，占总股本0.085%，成交235.50万元（不含交易费用），相当于1,000万元计划下限的23.55%；公司表示将在回购期限内继续实施。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-ab460ab65a056ae1a1e1",
-      "date": "2026-10-22",
-      "cutoff": "2026-10-22T08:24:29+08:00",
-      "compiledAt": "2026-10-22T10:43:04+08:00",
-      "researchCutoff": "2026-10-22T08:24:29+08:00",
-      "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
-      "updateIds": [
-        "production-d9507aa0df51626036f8f49e"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-ab460ab65a056ae1a1e1/page-01.png",
-          "width": 1080,
-          "height": 800,
-          "sha256": "1bfba81814812234615aa00e79f48f5c795e89873bd53b1f00c46b30bbbc5224"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-22-47fd741677ec",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-10-22",
-      "rangeEnd": "2026-10-22",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-b9729420827d6a1d7cfa",
-          "updateId": "production-d9507aa0df51626036f8f49e",
-          "version": "d9507aa0df51626036f8f49ef8afbb7eabb261ce03611d24ba99af767e01c6e3",
-          "objectName": "盘龙药业",
-          "type": "listed",
-          "category": "股份回购",
-          "date": "2026-10-22",
-          "title": "首次回购116,175股，成交金额235.50万元",
-          "business": "股份管理",
-          "share": {
-            "title": "首次回购成交235.50万元",
-            "facts": "公告，10月21日首次通过集中竞价回购116,175股，占总股本0.085%，成交235.50万元（不含交易费用），相当于1,000万元计划下限的23.55%；公司表示将在回购期限内继续实施。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-04b9685a8adfe664c9c0",
-      "date": "2026-10-22",
-      "cutoff": "2026-10-22T08:24:29+08:00",
-      "compiledAt": "2026-10-22T10:16:52+08:00",
-      "researchCutoff": "2026-10-22T08:24:29+08:00",
-      "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
-      "updateIds": [
-        "production-d9507aa0df51626036f8f49e"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-04b9685a8adfe664c9c0/page-01.png",
-          "width": 1080,
-          "height": 800,
-          "sha256": "1bfba81814812234615aa00e79f48f5c795e89873bd53b1f00c46b30bbbc5224"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-22-b99b30e14395",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-10-22",
-      "rangeEnd": "2026-10-22",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-b9729420827d6a1d7cfa",
-          "updateId": "production-d9507aa0df51626036f8f49e",
-          "version": "d9507aa0df51626036f8f49ef8afbb7eabb261ce03611d24ba99af767e01c6e3",
-          "objectName": "盘龙药业",
-          "type": "listed",
-          "category": "股份回购",
-          "date": "2026-10-22",
-          "title": "首次回购116,175股，成交金额235.50万元",
-          "business": "股份管理",
-          "share": {
-            "title": "首次回购成交235.50万元",
-            "facts": "公告，10月21日首次通过集中竞价回购116,175股，占总股本0.085%，成交235.50万元（不含交易费用），相当于1,000万元计划下限的23.55%；公司表示将在回购期限内继续实施。"
-          }
-        }
-      ]
-    },
-    {
-      "id": "selection-eb96de75f07ee53ec007",
-      "date": "2026-10-22",
-      "cutoff": "2026-10-22T08:24:29+08:00",
-      "compiledAt": "2026-10-22T10:02:45+08:00",
-      "researchCutoff": "2026-10-22T08:24:29+08:00",
-      "sourceDiscoveryCutoff": "2026-10-22T08:24:29+08:00",
-      "updateIds": [
-        "production-d9507aa0df51626036f8f49e"
-      ],
-      "status": "public",
-      "images": [
-        {
-          "file": "assets/editions/selection-eb96de75f07ee53ec007/page-01.png",
-          "width": 1080,
-          "height": 800,
-          "sha256": "1bfba81814812234615aa00e79f48f5c795e89873bd53b1f00c46b30bbbc5224"
-        }
-      ],
-      "presentation": "business-news-20261015",
-      "sourceEditionId": "2026-10-22-0998671b1092",
-      "selectionMode": "current",
-      "previewLabel": "本轮精选",
-      "rangeStart": "2026-10-22",
-      "rangeEnd": "2026-10-22",
-      "designStatus": "accepted",
-      "items": [
-        {
-          "eventId": "production-event-b9729420827d6a1d7cfa",
-          "updateId": "production-d9507aa0df51626036f8f49e",
-          "version": "d9507aa0df51626036f8f49ef8afbb7eabb261ce03611d24ba99af767e01c6e3",
-          "objectName": "盘龙药业",
-          "type": "listed",
-          "category": "股份回购",
-          "date": "2026-10-22",
-          "title": "首次回购116,175股，成交金额235.50万元",
-          "business": "股份管理",
-          "share": {
-            "title": "首次回购成交235.50万元",
-            "facts": "公告，10月21日首次通过集中竞价回购116,175股，占总股本0.085%，成交235.50万元（不含交易费用），相当于1,000万元计划下限的23.55%；公司表示将在回购期限内继续实施。"
-          }
-        }
-      ]
-    },
-    {
       "id": "selection-84134e96f63063bc375f",
       "date": "2026-10-21",
       "cutoff": "2026-10-21T08:02:15+08:00",
@@ -75827,6 +76273,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "847689458682eb431c82",
+      "date": "2026-11-14",
+      "compiledAt": "2026-11-13T16:54:30-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/847689458682eb431c82/index.html",
+      "publishedAt": "2026-11-14T09:48:34+08:00"
+    },
     {
       "id": "a46d352c0d7f44c82018",
       "date": "2026-11-14",
