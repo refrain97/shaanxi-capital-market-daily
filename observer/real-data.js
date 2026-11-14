@@ -4586,7 +4586,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-11-13-69a7160bd4f5",
       "editionId": "selection-1283fde741d0f19bf201",
       "selectionMode": "current"
@@ -51862,6 +51862,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。本次核读范围为2026年3月11日收购公告及10月30日终止公告。未取得1月13日谅解备忘录公告原件，不单独重建该节点条款，也不声称已覆盖本事项全部历史。 两份所读公告未列明买方子公司具体名称、各卖方名称、各自转让权益与对价分配、逐一票据安排或锁定条款。正文仅呈现已核实的主体关系和合计交易安排，不推算个人所得，不据此断言相关明细从未披露。 两份所读公告未列出特定资本和股权重组的具体步骤、前后股权结构及各项完成要求。终止原因仅按公司公告表述，不进一步归因，也不推断其他合作关系是否终止。 已读取留存检索轨迹并核对两份原件的SHA-256；本轮未联网，未将旧稿作者自述的检索结果作为正文事实依据。ready仅表示候选可进入独立核查，不代表独立核查或发布已完成。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-14T12:27:41+08:00",
           "updatedAt": "2026-11-13T20:19:19-08:00",
           "compiledAt": "2026-11-13T20:19:19-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -79258,6 +79259,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "ba09238ee6caa08b3212",
+      "date": "2026-11-14",
+      "compiledAt": "2026-11-13T20:19:20-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/ba09238ee6caa08b3212/index.html",
+      "publishedAt": "2026-11-14T12:27:41+08:00"
+    },
     {
       "id": "3dbbc6cffd026dc36d8b",
       "date": "2026-11-14",
