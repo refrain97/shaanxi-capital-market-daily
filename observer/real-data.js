@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-13-0c8b6b5850ee",
-      "compiledAt": "2026-11-13T19:51:08-08:00",
+      "id": "2026-11-13-69a7160bd4f5",
+      "compiledAt": "2026-11-13T20:19:20-08:00",
       "cutoff": "2026-11-01T23:59:59+08:00",
       "windowStart": "2026-10-26",
       "windowEnd": "2026-11-01",
@@ -82,6 +82,7 @@ window.PROTOTYPE = {
         "production-8d4c60094072d75fd7aa6a22",
         "production-8b7d0fd92455645ff11d5d81",
         "production-8a211e78250e758f97598b73",
+        "production-8826c332aac882dc3cda179c",
         "production-87d9e36ade84cce83fdcd926",
         "production-856feba9394073ed05f3c1fa",
         "production-8422e84acfd7237163c55129",
@@ -834,7 +835,8 @@ window.PROTOTYPE = {
       "production-1281839c3395dabd4437b037": "2026-11-13T19:05:23-08:00",
       "production-1214254b7e22046fbb56c2aa": "2026-11-13T19:11:27-08:00",
       "production-7296e605841c32af51b2c5cc": "2026-11-13T19:39:38-08:00",
-      "production-6f08d4b0b7cc68eebd7249c4": "2026-11-13T19:51:07-08:00"
+      "production-6f08d4b0b7cc68eebd7249c4": "2026-11-13T19:51:07-08:00",
+      "production-8826c332aac882dc3cda179c": "2026-11-13T20:19:19-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -4570,6 +4572,12 @@ window.PROTOTYPE = {
           "action": "现金管理",
           "group": "理财与现金管理",
           "level": "deep"
+        },
+        "production-8826c332aac882dc3cda179c": {
+          "version": "listed-scope-20261019",
+          "action": "并购重组",
+          "group": "并购重组",
+          "level": "deep"
         }
       }
     },
@@ -4579,8 +4587,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-13-0c8b6b5850ee",
-      "editionId": "selection-83bb1cdc63f3f0d9c8d4",
+      "sourceEditionId": "2026-11-13-69a7160bd4f5",
+      "editionId": "selection-1283fde741d0f19bf201",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -7660,6 +7668,18 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-0620-hk",
+      "type": "listed",
+      "name": "大唐西市",
+      "code": "0620.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-0438-hk",
       "type": "listed",
       "name": "彩虹新能源",
@@ -7742,19 +7762,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "申港控股",
       "code": "8631.HK",
-      "market": "HK",
-      "asOf": "2026-07-13",
-      "rosterTier": "L2",
-      "rosterCategory": "陕西总部或主要办公",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-0620-hk",
-      "type": "listed",
-      "name": "大唐西市",
-      "code": "0620.HK",
       "market": "HK",
       "asOf": "2026-07-13",
       "rosterTier": "L2",
@@ -51405,6 +51412,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。10月31日公告未披露实际到账总额及分投资方交割金额，不能据融资协议规模或融资后股权表认定全部实缴。 现有三份公告未披露剩余14.23亿元的最终资金来源、出资完成时点，以及核心团队后续0.5亿元是否追加。 现有公告披露团队平台及平台金额，未列逐人出资明细，不能据此推断个人份额、个人资金来源或个人收益。 现有材料未披露技术授权使用费的实际支付情况，也未提供退出方案已启动的依据。 资料覆盖本次融资的8月原方案、股东会决议及10月31日进展，不覆盖研究截止后的交割变化。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-14T12:09:06+08:00",
           "updatedAt": "2026-11-13T19:39:38-08:00",
           "compiledAt": "2026-11-13T19:39:38-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -51670,6 +51678,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。已完整核读的9月2日授权公告、10月1日及10月31日赎回公告，均未披露10000万元定期存款的受托机构、认购日、起息日、到期日及利率。本文只保留最新公告明确列示的类型和余额，不将两次汇总余额相同解释为已经证明同一笔存款持续存续，也不判断其流动性或续作安排。 研究覆盖仅限上述三份公告，不声称已核查公司全部现金管理历史或全部存款流水；91.50万元按最新公告的最近12个月累计口径表述，不称为全年收益。 历史原件为本轮补入，来源取得时间晚于沿用的研究截止；仅依据原件落款及留存目录记录确认资料日期，不据此证明具体分钟的首次公开时点。 输入中的旧上交所HTML仅为查询页面，未作为文章来源。留存文件附有SHA-256记录，但本轮本地摘要工具受环境限制，未完成哈希重新计算。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-14T12:09:06+08:00",
           "updatedAt": "2026-11-13T19:51:07-08:00",
           "compiledAt": "2026-11-13T19:51:07-08:00",
           "researchCutoff": "2026-11-01T23:59:59+08:00",
@@ -51832,9 +51841,655 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-42b33ffa6c7d28de6686",
+      "objectId": "listed-0620-hk",
+      "type": "股权收购终止",
+      "topics": [
+        "并购重组",
+        "先决条件未满足",
+        "股份购买协议终止"
+      ],
+      "updates": [
+        {
+          "id": "production-8826c332aac882dc3cda179c",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "终止780万元收购拓扑数字科技50.1%股权，未支付对价",
+          "summary": "大唐西市丝路投资控股有限公司（股份代号620）于2026年10月30日公告，因卖方未完成约定的特定资本和股权重组，股份购买协议的先决条件未获满足，协议已于当日终止，收购不会完成。原方案由公司全资子公司以人民币780万元收购陕西灵境拓扑数字科技有限公司50.1%股权，拟以三年期承兑票据支付。董事会确认，集团未曾且将不会根据该协议支付任何对价。",
+          "stage": "股份购买协议于2026年10月30日终止，收购不会完成；集团未曾且将不会根据协议支付任何对价",
+          "depth": "deep",
+          "coverage": "本事项有限历史研究；不等于观察池全量已更新。本次核读范围为2026年3月11日收购公告及10月30日终止公告。未取得1月13日谅解备忘录公告原件，不单独重建该节点条款，也不声称已覆盖本事项全部历史。 两份所读公告未列明买方子公司具体名称、各卖方名称、各自转让权益与对价分配、逐一票据安排或锁定条款。正文仅呈现已核实的主体关系和合计交易安排，不推算个人所得，不据此断言相关明细从未披露。 两份所读公告未列出特定资本和股权重组的具体步骤、前后股权结构及各项完成要求。终止原因仅按公司公告表述，不进一步归因，也不推断其他合作关系是否终止。 已读取留存检索轨迹并核对两份原件的SHA-256；本轮未联网，未将旧稿作者自述的检索结果作为正文事实依据。ready仅表示候选可进入独立核查，不代表独立核查或发布已完成。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-13T20:19:19-08:00",
+          "compiledAt": "2026-11-13T20:19:19-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "大唐西市",
+          "version": "8826c332aac882dc3cda179cc3f6912b16e54be9b973f795901ce2c17056d388",
+          "important": true,
+          "production": true,
+          "prototype": false,
+          "history": [
+            {
+              "date": "2026-03-11",
+              "text": "公司公告，全资子公司与拓扑数字科技的股东签订股份购买协议，拟按比例向卖方购买合计50.1%股权，总对价人民币780万元，以三年期承兑票据支付。完成后标的原拟成为公司非全资子公司并纳入集团合并报表；上述均为当时的协议安排。"
+            },
+            {
+              "date": "2026-10-30",
+              "text": "公司公告，卖方未完成协议要求的特定资本和股权重组，先决条件未满足，协议当日终止，收购不会完成；集团未曾且将不会按该协议支付任何对价。"
+            }
+          ],
+          "business": [
+            "据3月11日公告，标的聚焦扩展现实技术及科技与文化融合，提供沉浸式体验解决方案。公司当时拟通过收购，将相关技术用于集团物业、艺术品及收藏品等业务。这属于原交易的业务设想，不能据此表述为已完成整合。",
+            "本次进展是既有收购协议终止。人民币780万元是原约定对价，三年期承兑票据是原支付安排；结合未支付对价的确认，不能将其列为新增付款、卖方已获资金或待配置资金。若与集团讨论后续并购服务，须另行确认是否存在新方案及实际需求。"
+          ],
+          "details": [
+            {
+              "label": "上市主体",
+              "value": "大唐西市丝路投资控股有限公司，股份代号620"
+            },
+            {
+              "label": "原买方",
+              "value": "上市公司的一家全资子公司，3月11日公告称为DTXS Subsidiary，未列明其具体名称"
+            },
+            {
+              "label": "原卖方",
+              "value": "拓扑数字科技的股东；3月11日公告称各卖方及其最终实益拥有人为独立第三方，未列明逐一名称"
+            },
+            {
+              "label": "标的及原拟收购权益",
+              "value": "陕西灵境拓扑数字科技有限公司合计50.1%股权"
+            },
+            {
+              "label": "原对价与支付方式",
+              "value": "人民币780万元，原拟以期限三年的承兑票据支付"
+            },
+            {
+              "label": "终止原因及阶段",
+              "value": "卖方未完成约定的特定资本和股权重组，导致先决条件未满足；协议于2026年10月30日终止，收购不会完成"
+            },
+            {
+              "label": "实际对价支付",
+              "value": "董事会确认集团未曾且将不会根据该协议支付任何对价"
+            },
+            {
+              "label": "资料时点",
+              "value": "研究截止为2026年11月1日23:59:59（北京时间）。两份公告均为截止前资料，原件于截止后取得；补入历史原件不改变公告日期或推进发现窗口"
+            }
+          ],
+          "sources": [
+            {
+              "title": "業務發展最新情況 終止收購拓撲數字科技50.1%股權",
+              "publisher": "大唐西市丝路投资控股有限公司／香港交易所披露易",
+              "date": "2026-10-30",
+              "location": "物理第1页：主体、标的、终止原因及对价支付；第2页：落款日期",
+              "retrievedAt": "2026-11-05T08:07:54+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1030/2026103002728_c.pdf"
+            },
+            {
+              "title": "BUSINESS UPDATE — ACQUISITION OF 50.1% EQUITY INTEREST IN TUOPU DIGITAL TECHNOLOGY",
+              "publisher": "大唐西市丝路投资控股有限公司／香港交易所披露易",
+              "date": "2026-03-11",
+              "location": "物理第1页：买卖方定义、签约、权益、对价、票据及拟并表安排；第2页：卖方关系、标的业务、交易目的及落款",
+              "retrievedAt": "2026-11-13T20:16:04.909620-08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0311/2026031100163.pdf"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "原收购方案与本次终止结果对照",
+              "columns": [
+                "项目",
+                "2026年3月11日原方案",
+                "2026年10月30日进展"
+              ],
+              "rows": [
+                [
+                  "收购权益",
+                  "全资子公司拟向标的股东按比例购买合计50.1%股权",
+                  "协议终止，收购不会完成"
+                ],
+                [
+                  "对价及支付",
+                  "人民币780万元，拟以三年期承兑票据支付",
+                  "集团未曾且将不会按协议支付任何对价"
+                ],
+                [
+                  "并表安排",
+                  "完成收购后原拟成为非全资子公司并纳入集团合并报表",
+                  "收购不会完成，不能将原拟并表安排写为已实现"
+                ],
+                [
+                  "卖方逐项明细",
+                  "所读公告未列明各卖方名称、各自转让权益及对价分配",
+                  "所读终止公告亦未补充上述明细"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-1283fde741d0f19bf201",
+      "date": "2026-11-14",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "compiledAt": "2026-11-14T12:23:27+08:00",
+      "researchCutoff": "2026-11-01T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-01T23:59:59+08:00",
+      "updateIds": [
+        "production-1214254b7e22046fbb56c2aa",
+        "production-7296e605841c32af51b2c5cc",
+        "production-0bdc78513ea25a163acc9f27",
+        "production-8d4c60094072d75fd7aa6a22",
+        "production-8826c332aac882dc3cda179c",
+        "production-6b189fe20974e4ec4ab4294c",
+        "production-e520619f4db9789df1cc4cd4",
+        "production-1281839c3395dabd4437b037",
+        "production-24c4a11c8cdd2fc55778315f",
+        "production-5de5b66ee0e60c5fb1bee6ac",
+        "production-abd0c5d25e049a4f7bd017ae",
+        "production-6bf299290fa3acf8aa6f24dc",
+        "production-ff7ef06e8f4d369fdad6e9f9",
+        "production-1bf731ec4ef09df022686b43",
+        "production-7b5ab12fdacc845b3fb0c18a",
+        "production-235e3b7e80d5d00975b724c2",
+        "production-de89d2fc8abdc65b3fda967f",
+        "production-05d91d426467111ffc01fbb7",
+        "production-656c08d50eac542d57803c5e",
+        "production-753adbbb222096dc95c4320f",
+        "production-961dc504f8337563fa49ce3f",
+        "production-fde8168819b9d7206431aedd",
+        "production-1d6e0f06b04a487eb44e7634",
+        "production-5bf4e78e2fe2b8ae7a265dd4",
+        "production-9041551624dc78082a4d96bd",
+        "production-b62e6dcc3055dc4df6b48521",
+        "production-6f08d4b0b7cc68eebd7249c4",
+        "production-27a263b3ec6404022ef3f654",
+        "production-7f43c976040c3b082f2a015d"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-1283fde741d0f19bf201/page-01.png",
+          "width": 1080,
+          "height": 2766,
+          "sha256": "1ba35dcc8b7f76cb21e7112bee17dc358736642ff4e49393ddfd56149cc1da42"
+        },
+        {
+          "file": "assets/editions/selection-1283fde741d0f19bf201/page-02.png",
+          "width": 1080,
+          "height": 2740,
+          "sha256": "7be60e5992f60ea2cf9d9bbb0e59cbb5c878d2bec50580be3e26aa1df8a44ad6"
+        },
+        {
+          "file": "assets/editions/selection-1283fde741d0f19bf201/page-03.png",
+          "width": 1080,
+          "height": 2606,
+          "sha256": "28d28053abd576cc2df92a34629495b26dc428273acebd2d21b520ff7f6edf3c"
+        },
+        {
+          "file": "assets/editions/selection-1283fde741d0f19bf201/page-04.png",
+          "width": 1080,
+          "height": 2606,
+          "sha256": "fc117ef578e2aaeb632d325699eb164a7958d58d1ff948546e8188bbcf806af1"
+        },
+        {
+          "file": "assets/editions/selection-1283fde741d0f19bf201/page-05.png",
+          "width": 1080,
+          "height": 2396,
+          "sha256": "7ced3bca2b210279ac58fad91dcfa43af6ca0981f93c0185aed53257aa750a36"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-13-69a7160bd4f5",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-06-12",
+      "rangeEnd": "2026-10-31",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-22dd1c9b7426a481ea69",
+          "updateId": "production-1214254b7e22046fbb56c2aa",
+          "version": "1214254b7e22046fbb56c2aad7449a6351effe75d4c0c74ca9aab9a39add4ed1",
+          "objectName": "珠海中富",
+          "type": "listed",
+          "category": "重大资产出售进展",
+          "date": "2026-10-31",
+          "title": "拟出售杭州中富全部股权，审计评估仍未完成",
+          "business": "投资银行",
+          "share": {
+            "title": "出售全部股权仍在筹划，价格未定",
+            "facts": "拟向苏州可得制冷科技有限公司出售杭州中富容器有限公司100%股权，仍处筹划阶段，审计评估未完成、价格未定。已收700万元诚意金系9月30日已披露事项，须待正式股权转让协议签署生效后才转为部分价款。"
+          }
+        },
+        {
+          "eventId": "production-event-3ef03e234e1a82183a51",
+          "updateId": "production-7296e605841c32af51b2c5cc",
+          "version": "7296e605841c32af51b2c5ccfea78716b7ac02f557fd981f4e817bb085efd4c4",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "子公司股权融资暨关联交易进展",
+          "date": "2026-10-31",
+          "title": "武汉奕材50.77亿元融资签约，资金交割进行中",
+          "business": "投资银行",
+          "share": {
+            "title": "50.77亿元融资已签约，资金交割进行中",
+            "facts": "公告，武汉奕材已签署合计50.77亿元融资协议并开始资金交割。其中西安奕材出资10亿元，市场化战略投资方出资40.77亿元，含核心团队拟跟投0.3亿元；资金交割尚未完成。"
+          }
+        },
+        {
+          "eventId": "production-event-32c059172c74da96a014",
+          "updateId": "production-0bdc78513ea25a163acc9f27",
+          "version": "0bdc78513ea25a163acc9f27159c25636acecf3918027d9592d160d01dcb0c56",
+          "objectName": "航天电子",
+          "type": "listed",
+          "category": "股权置换及同一控制下企业合并进展",
+          "date": "2026-10-30",
+          "title": "披露西安太乙股权置换的合并会计处理",
+          "business": "投资银行",
+          "share": {
+            "title": "股权置换按同一控制下合并追溯调整",
+            "facts": "三季报披露，控股子公司时代光电以北京航天兴华科技有限公司100%股权置换西安太乙电子有限公司58%股权，作价分别为64,500.50万元、64,970.61万元，现金补差470.11万元。本期按同一控制下合并追溯调整；视同期初取得控制权属会计口径，具体工商交割日及补差款实际支付状态未核实。"
+          }
+        },
+        {
+          "eventId": "production-event-f79f9b1e59238de24f37",
+          "updateId": "production-8d4c60094072d75fd7aa6a22",
+          "version": "8d4c60094072d75fd7aa6a227d6087fe8afef709d4931ed83c42f897d496e404",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "再融资",
+          "date": "2026-10-30",
+          "title": "拟将2024年度定增决议及授权有效期延至2027年11月27日",
+          "business": "投资银行",
+          "share": {
+            "title": "拟将定增决议及授权有效期延长12个月",
+            "facts": "公告，董事会通过延期议案，拟将2024年度定增决议及授权有效期延至2027年11月27日，尚需股东会审议。该定增拟由实控人贺增林控制的君耀领航全额认购，募资不超过7亿元，扣除发行费用后全部补流；本次延期不代表发行完成或资金到账。"
+          }
+        },
+        {
+          "eventId": "production-event-42b33ffa6c7d28de6686",
+          "updateId": "production-8826c332aac882dc3cda179c",
+          "version": "8826c332aac882dc3cda179cc3f6912b16e54be9b973f795901ce2c17056d388",
+          "objectName": "大唐西市",
+          "type": "listed",
+          "category": "股权收购终止",
+          "date": "2026-10-30",
+          "title": "终止780万元收购拓扑数字科技50.1%股权，未支付对价",
+          "business": "投资银行",
+          "share": {
+            "title": "终止780万元股权收购，未支付对价",
+            "facts": "2026年10月30日，大唐西市丝路投资控股有限公司公告，因卖方未完成约定资本及股权重组，先决条件未满足，收购协议于当日终止。原拟由全资子公司以人民币780万元收购陕西灵境拓扑数字科技有限公司50.1%股权，集团未曾且将不会根据该协议支付任何对价。"
+          }
+        },
+        {
+          "eventId": "production-event-87b52efa39548c8feae7",
+          "updateId": "production-6b189fe20974e4ec4ab4294c",
+          "version": "6b189fe20974e4ec4ab4294cb984fbfa3f1f1df826ae2a6e818b0d1e4d2efaaa",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "宝鸡供热公司100%股权内部划转已完成工商登记",
+          "business": "投资银行",
+          "share": {
+            "title": "内部无偿划转100%股权完成工商登记",
+            "facts": "7月全资子公司陕西美能新能源有限公司将所持宝鸡市美能清洁供热有限公司100%股权，无偿划转至另一全资子公司宝鸡市美能天然气有限公司；截至三季度报告期末已完成工商登记，本次进一步明确登记完成阶段。"
+          }
+        },
+        {
+          "eventId": "production-event-c4e0e90f4650591e20c5",
+          "updateId": "production-e520619f4db9789df1cc4cd4",
+          "version": "e520619f4db9789df1cc4cd4b05fb36e7fe18031795699b59e29eb307d530926",
+          "objectName": "美能能源",
+          "type": "listed",
+          "category": "内部股权重组",
+          "date": "2026-10-29",
+          "title": "完成韩城供热公司100%股权内部划转登记",
+          "business": "投资银行",
+          "share": {
+            "title": "供热公司100%股权内部划转完成登记",
+            "facts": "7月陕西美能新能源有限公司将韩城市美能清洁供热有限公司100%股权无偿划转至韩城市美能天然气有限责任公司，双方均为其全资子公司。截至9月30日已完成工商登记，本次三季报补充登记完成状态。"
+          }
+        },
+        {
+          "eventId": "production-event-5b2a04dee0949dde64d9",
+          "updateId": "production-1281839c3395dabd4437b037",
+          "version": "1281839c3395dabd4437b037d7d42d5b620558517214f29e49b16db06eb5f66d",
+          "objectName": "荣信文化",
+          "type": "listed",
+          "category": "并购重组",
+          "date": "2026-10-28",
+          "title": "披露优学宝贝收购款支付影响，具体尾款金额未单列",
+          "business": "投资银行",
+          "share": {
+            "title": "收购款支付影响负债，具体金额未单列",
+            "facts": "三季报显示，截至9月30日，其他非流动负债较上年末减少114.24万元，主要受武汉优学宝贝图书有限公司股权收购款支付影响。报告未单列该交易具体支付金额、日期及全部未付对价，科目降幅不能直接认定为实际付款额。"
+          }
+        },
+        {
+          "eventId": "production-event-6cf42803d379d6f0fa63",
+          "updateId": "production-24c4a11c8cdd2fc55778315f",
+          "version": "24c4a11c8cdd2fc55778315f49c198bae3978e8fb8674d2151db257dcc863cc4",
+          "objectName": "陕西金叶",
+          "type": "listed",
+          "category": "子公司控股股权出售进展",
+          "date": "2026-10-16",
+          "title": "出售两家公司各51%股权：已披露收款50%，三季报确认期末不再并表",
+          "business": "投资银行",
+          "share": {
+            "title": "两项股权转让收款50%，期末不再并表",
+            "facts": "全资子公司出售两家公司各51%股权，总价13,107万元，已收6,553.50万元，股东变更登记已完成。10月29日三季报确认两家标的9月末不再并表，并计提转让款坏账准备；未披露余款到账，不能认定交易整体完成。"
+          }
+        },
+        {
+          "eventId": "production-event-9b9658b42bf0db44addc",
+          "updateId": "production-5de5b66ee0e60c5fb1bee6ac",
+          "version": "5de5b66ee0e60c5fb1bee6acc2f476fcebe714a9b81a2b3330d9c28a4ac2e101",
+          "objectName": "天地源",
+          "type": "listed",
+          "category": "资产出售筹划",
+          "date": "2026-06-12",
+          "title": "三季报续披露地产资产出售筹划，具体范围仍待协商",
+          "business": "投资银行",
+          "share": {
+            "title": "地产资产出售仍在筹划，范围待协商",
+            "facts": "天地源2026年10月29日三季报续披露，拟出售部分房地产开发业务相关资产及负债，范围待协商。6月12日公告列意向受让方为西安高科集团或其指定关联方，当时价格未定、未签协议，是否构成重大资产重组尚无法确定。三季报未披露新增价格、协议、审批或交割结果，不能确认已实施。"
+          }
+        },
+        {
+          "eventId": "production-event-386a04db9a601c5db435",
+          "updateId": "production-abd0c5d25e049a4f7bd017ae",
+          "version": "abd0c5d25e049a4f7bd017ae348758a8076d6ab484c6082b2b977a60b1520884",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励价格调整",
+          "date": "2026-10-31",
+          "title": "2025年激励计划授予价调至101.23元/股，覆盖首次及预留授予",
+          "business": "股份管理",
+          "share": {
+            "title": "2025年激励授予价降至101.23元/股",
+            "facts": "董事会于10月30日通过调整2025年激励计划首次及预留授予价格，由102.23元/股降至101.23元/股。本次调整对应已实施的半年度权益分派，不代表新增授予或归属登记完成。"
+          }
+        },
+        {
+          "eventId": "production-event-b95b862749ec79c6ac1d",
+          "updateId": "production-6bf299290fa3acf8aa6f24dc",
+          "version": "6bf299290fa3acf8aa6f24dc5cee53461c8aff361e8abd7db5fd2944a343c92a",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励归属进展",
+          "date": "2026-10-31",
+          "title": "2024年激励计划首次授予第二期条件成就，159人拟归属187,597股",
+          "business": "股份管理",
+          "share": {
+            "title": "首次授予第二期条件成就，159人拟归属",
+            "facts": "董事会于10月30日同意为2024年激励计划首次授予部分第二个归属期159人办理187,597股归属，调整后授予价43.78元/股。归属条件已成就，所覆盖公告未披露本期实际缴款、股份登记完成或上市流通结果。"
+          }
+        },
+        {
+          "eventId": "production-event-1ebbe325af806e414aff",
+          "updateId": "production-ff7ef06e8f4d369fdad6e9f9",
+          "version": "ff7ef06e8f4d369fdad6e9f9bfe228638b59593d4fbcb16ad6a626f3507d780a",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励归属进展",
+          "date": "2026-10-31",
+          "title": "2025年激励计划首期179,422股获准办理归属",
+          "business": "股份管理",
+          "share": {
+            "title": "首期179,422股获准办理归属",
+            "facts": "2025年限制性股票激励计划首次授予部分首个归属期条件已成就，董事会同意为318人办理179,422股归属，调整后授予价101.23元/股。截至披露日，该计划授予股票尚未归属，本次批准不等于登记完成或上市流通。"
+          }
+        },
+        {
+          "eventId": "production-event-e39415dfdb18b75f9e5f",
+          "updateId": "production-1bf731ec4ef09df022686b43",
+          "version": "1bf731ec4ef09df022686b438398390893dfc7259359edd93219f31115d5565c",
+          "objectName": "源杰科技",
+          "type": "listed",
+          "category": "股权激励股份作废",
+          "date": "2026-10-31",
+          "title": "6名激励对象离职，17,672股未归属权益获批作废",
+          "business": "股份管理",
+          "share": {
+            "title": "17,672股获批作废，归属办理获批",
+            "facts": "董事会于10月30日批准作废2025年限制性股票激励计划首次授予部分6名离职对象尚未归属的17,672股，并同意为318名符合条件的激励对象办理179,422股归属；归属办理获批不代表登记或上市流通已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-7b5ab12fdacc845b3fb0c18a",
+          "version": "7b5ab12fdacc845b3fb0c18a2879c30e8ee103c11b909076652dac92149b9654",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-10-30",
+          "title": "控股股东提议回购1亿至2亿元股份，具体方案尚待审议",
+          "business": "股份管理",
+          "share": {
+            "title": "获提议回购1亿至2亿元，方案尚待审议",
+            "facts": "公告，29日收到控股股东北京奕斯伟科技集团有限公司提议，建议以自有或自筹资金集中竞价回购人民币1亿至2亿元股份，用于注销和/或未来员工持股计划、股权激励。具体方案尚待制定及审批，提议金额不代表已批准额度或实际支出。"
+          }
+        },
+        {
+          "eventId": "production-event-f4cbe7d6e4c7c96b6679",
+          "updateId": "production-235e3b7e80d5d00975b724c2",
+          "version": "235e3b7e80d5d00975b724c2f8606a5d991232606acc46747835c38f9ad380ad",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "股份增持计划",
+          "date": "2026-10-30",
+          "title": "董事长等六人拟设合伙企业，增持金额合计不低于1,000万元",
+          "business": "股份管理",
+          "share": {
+            "title": "董事长等六人拟合伙增持至少1,000万元",
+            "facts": "公告，董事长陈志国及五名高管拟以个人自有资金共同设立合伙企业，自公告披露之日起三个月内通过集中竞价增持公司股份，合计不低于人民币1,000万元；公告未披露实际增持成交。"
+          }
+        },
+        {
+          "eventId": "production-event-540f0beca84dcf3374da",
+          "updateId": "production-de89d2fc8abdc65b3fda967f",
+          "version": "de89d2fc8abdc65b3fda967f4a92692741d79bf54c536fe8ed972789c29baf14",
+          "objectName": "天和防务",
+          "type": "listed",
+          "category": "股份解禁",
+          "date": "2026-10-30",
+          "title": "三季报确认张发群354.321万股已解除限售，半年末已无限售",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报重列既有解禁，非三季度新增",
+            "facts": "三季报列示，张发群354.321万股已解除限售，9月末持股354.321万股、占0.68%，限售股为零。半年报已显示6月末限售股为零，本次属再次披露，并非三季度新增解禁；两期末持股相同不足以证明期间无交易。"
+          }
+        },
+        {
+          "eventId": "production-event-b9729420827d6a1d7cfa",
+          "updateId": "production-05d91d426467111ffc01fbb7",
+          "version": "05d91d426467111ffc01fbb7cefbadee97a2eedd5ea84143f7b3098c22ec80f7",
+          "objectName": "盘龙药业",
+          "type": "listed",
+          "category": "股份回购",
+          "date": "2026-10-29",
+          "title": "累计回购26.51万股，成交金额534.70万元",
+          "business": "股份管理",
+          "share": {
+            "title": "累计回购26.51万股，方案继续实施",
+            "facts": "截至三季报披露日，公司以自有资金集中竞价累计回购26.5075万股，成交金额534.70万元（不含交易费用），达到1000万元计划下限的53.47%，方案继续实施。"
+          }
+        },
+        {
+          "eventId": "production-event-7ee89c1a82937112b694",
+          "updateId": "production-656c08d50eac542d57803c5e",
+          "version": "656c08d50eac542d57803c5e8faf179f3c0c0d968b122502e2ab762c3226ecf7",
+          "objectName": "节能环境",
+          "type": "listed",
+          "category": "解禁",
+          "date": "2026-10-29",
+          "title": "三季报确认中国环保逾20亿股解除限售，仍有不主动减持承诺",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报确认解禁结果，仍有不主动减持承诺",
+            "facts": "三季报确认，中国环境保护集团有限公司2,075,144,678股已于7月20日解除限售；截至9月30日仍持股66.96%。其承诺2026年7月20日至2027年1月19日不主动减持所持A股，按国资监管要求无偿划转除外。"
+          }
+        },
+        {
+          "eventId": "production-event-550a55b64e5e1933084b",
+          "updateId": "production-753adbbb222096dc95c4320f",
+          "version": "753adbbb222096dc95c4320f5503866ea8630781b95fac68e6addc04c863e11d",
+          "objectName": "华秦科技",
+          "type": "listed",
+          "category": "股份回购",
+          "date": "2026-10-29",
+          "title": "通过4000万至8000万元回购方案，拟用于维护公司价值及股东权益",
+          "business": "股份管理",
+          "share": {
+            "title": "审议通过4000万至8000万元回购方案",
+            "facts": "董事会已通过4000万至8000万元回购方案，拟以自有或自筹资金集中竞价回购，价格不超过72元/股，期限为10月28日审议通过之日起3个月内，用于维护公司价值及股东权益。当次公告未披露实际回购数量或支付金额。"
+          }
+        },
+        {
+          "eventId": "production-event-e31a70d7a2e0db5882ed",
+          "updateId": "production-961dc504f8337563fa49ce3f",
+          "version": "961dc504f8337563fa49ce3fbb89dfe5c6dc34a26e96d7ebaeecc929ea3c625a",
+          "objectName": "华仁药业",
+          "type": "listed",
+          "category": "限售股份解除",
+          "date": "2026-10-28",
+          "title": "三季报延续杨效东24.75万股解限记录，半年报已披露",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报列示既有24.75万股解限记录",
+            "facts": "三季报列示杨效东（已离任）24.75万股解限记录，期末锁定股74.25万股。数据与半年报一致，并非第三季度或10月新增解禁；具体办理日期未披露，解限不等于实际减持。"
+          }
+        },
+        {
+          "eventId": "production-event-dc73342c7053bdd450f2",
+          "updateId": "production-fde8168819b9d7206431aedd",
+          "version": "fde8168819b9d7206431aeddce91f4d4a4cc74905a0dea76589253354b1dae60",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "第二批预留激励6人可归属48.4250万股，董事会同意办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第二批48.4250万股获准办理归属",
+            "facts": "董事会同意办理2025年限制性股票激励计划预留第二批首个归属期归属，涉及6人、48.4250万股，调整后授予价9.33元/股。现有披露不能证明缴款、登记或上市流通已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-d8ffbfcb5d9da156bf79",
+          "updateId": "production-1d6e0f06b04a487eb44e7634",
+          "version": "1d6e0f06b04a487eb44e76343622399aa17e3eeaf2491d76c541aafce877a01b",
+          "objectName": "易点天下",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-10-28",
+          "title": "预留第一批22.9937万股归属条件成就，其中9.75万股暂缓办理",
+          "business": "股份管理",
+          "share": {
+            "title": "预留第一批归属条件成就，9.75万股暂缓",
+            "facts": "2025年限制性股票激励计划预留第一批首个归属期条件成就，7人可归属22.9937万股，调整后授予价9.33元/股。其中武莹、郑正东因个人资金安排等原因暂缓办理9.75万股；现有材料不能证明出资、登记或上市已完成。"
+          }
+        },
+        {
+          "eventId": "production-event-806cb6cd43c249fcbfc9",
+          "updateId": "production-5bf4e78e2fe2b8ae7a265dd4",
+          "version": "5bf4e78e2fe2b8ae7a265dd474c24d3e5a91caa86b8ad13315a860472bdfd49e",
+          "objectName": "美畅股份",
+          "type": "listed",
+          "category": "限售股份变动披露",
+          "date": "2026-10-28",
+          "title": "三季报续列吴英解除限售1股，一季报已披露相同变动",
+          "business": "股份管理",
+          "share": {
+            "title": "三季报续列解除限售1股，非三季度新增",
+            "facts": "披露三季报，吴英本期解除限售1股的记录与一季报相同，不属于第三季度新增解禁。期末限售股为249,975,550股；表列2027年9月29日为拟解除限售日，并非该1股实际办理日，也不代表剩余股份已解禁或出售。"
+          }
+        },
+        {
+          "eventId": "production-event-39c3ce3da77f939b0305",
+          "updateId": "production-9041551624dc78082a4d96bd",
+          "version": "9041551624dc78082a4d96bd2f18a8f9b003cf0fe37cade4f6c7d7939c01ee78",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "股权激励",
+          "date": "2026-09-16",
+          "title": "完成1,700万股限制性股票首次授予登记，认购款4,369万元到账",
+          "business": "股份管理",
+          "share": {
+            "title": "1,700万股限制性股票首次授予登记完成",
+            "facts": "公告，向6名董事及高管首次授予的1,700万股限制性股票已完成登记。截至9月7日，认购款4,369万元已到账，拟全部补充流动资金。公告列示上市日为9月17日，股份仍受限售及考核条件约束；本次不含300万股预留部分。"
+          }
+        },
+        {
+          "eventId": "production-event-4b3290072b75e126a6f2",
+          "updateId": "production-b62e6dcc3055dc4df6b48521",
+          "version": "b62e6dcc3055dc4df6b485215743054ba9728ac00e2e30c7164fcf08985efb5e",
+          "objectName": "科华生物",
+          "type": "listed",
+          "category": "员工持股",
+          "date": "2026-09-16",
+          "title": "员工持股计划完成1,369.66万股过户，股份解锁受考核约束",
+          "business": "股份管理",
+          "share": {
+            "title": "员工持股计划完成1369.66万股过户",
+            "facts": "公告，员工持股计划实际筹资35,200,262元，来自参加对象自筹；9月14日完成1,369.66万股历史回购股份非交易过户。股份按12、24、36个月分批解锁，受公司业绩及个人绩效考核约束，过户完成不代表解锁。"
+          }
+        },
+        {
+          "eventId": "production-event-5b2f926ed08d1073c1f6",
+          "updateId": "production-6f08d4b0b7cc68eebd7249c4",
+          "version": "6f08d4b0b7cc68eebd7249c463f6f2a1da0274ea96c6d10e10bd50f84660f876",
+          "objectName": "陕西旅游",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-31",
+          "title": "赎回6亿元结构性存款，取得收益51.78万元",
+          "business": "机构理财",
+          "share": {
+            "title": "6亿元结构性存款到期赎回",
+            "facts": "公告，10月9日认购的兴业银行6亿元结构性存款已于10月30日到期赎回，收回全部本金并取得收益51.78万元。公告列示，募集资金现金管理尚未收回本金1亿元，全部为定期存款。"
+          }
+        },
+        {
+          "eventId": "production-event-a1c7a43f5f6daa7ce936",
+          "updateId": "production-27a263b3ec6404022ef3f654",
+          "version": "27a263b3ec6404022ef3f654e4392911c1773b9b8123e174157ecc727664864c",
+          "objectName": "宝钛股份",
+          "type": "listed",
+          "category": "现金管理",
+          "date": "2026-10-29",
+          "title": "赎回3,200万元募集资金结构性存款，取得收益12.69万元",
+          "business": "机构理财",
+          "share": {
+            "title": "到期赎回3,200万元结构性存款",
+            "facts": "公告，10月27日到期赎回工商银行结构性存款本金3,200万元，取得收益12.69万元。该产品使用闲置可转债募集资金，属于现金管理授权下的执行进展，公告未披露本次续购安排。"
+          }
+        },
+        {
+          "eventId": "production-event-68ec2e801d6d69842f1e",
+          "updateId": "production-7f43c976040c3b082f2a015d",
+          "version": "7f43c976040c3b082f2a015d92b26d07c9c038677bef9ae8300f07746342cf10",
+          "objectName": "金钼股份",
+          "type": "listed",
+          "category": "业绩快报",
+          "date": "2026-10-28",
+          "title": "前三季度归母净利润同比增长30.94%",
+          "business": "上市公司业绩",
+          "share": {
+            "title": "前三季度归母净利润增长30.94%",
+            "facts": "披露三季报：前三季度营业收入约124.46亿元，同比增长14.34%；归母净利润约29.94亿元，同比增长30.94%，金额均为人民币。第三季度财务报表未经审计。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-83bb1cdc63f3f0d9c8d4",
       "date": "2026-11-14",
@@ -78603,6 +79258,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "3dbbc6cffd026dc36d8b",
+      "date": "2026-11-14",
+      "compiledAt": "2026-11-13T19:51:08-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/3dbbc6cffd026dc36d8b/index.html",
+      "publishedAt": "2026-11-14T12:09:06+08:00"
+    },
     {
       "id": "c2d65c62c9ccd79ed851",
       "date": "2026-11-14",
