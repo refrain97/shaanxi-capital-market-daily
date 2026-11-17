@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-16-d734f7fb4919",
-      "compiledAt": "2026-11-16T20:21:12-08:00",
+      "id": "2026-11-16-b8aadaa5a157",
+      "compiledAt": "2026-11-16T20:35:22-08:00",
       "cutoff": "2026-11-06T23:59:59+08:00",
       "windowStart": "2026-10-31",
       "windowEnd": "2026-11-06",
@@ -40,7 +40,9 @@ window.PROTOTYPE = {
         "production-36e0dd03642e028eb8feab67",
         "production-0cc43ab50d58b2256a477de6",
         "production-ba2e1df17d9b576cb7bf5dd5",
-        "production-a422e60a5c8d9d961def17e6"
+        "production-a422e60a5c8d9d961def17e6",
+        "production-87e28113161404e949ff2c71",
+        "production-612f2c4654d9b12136cf50fb"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -631,7 +633,9 @@ window.PROTOTYPE = {
       "production-39b7654dcd0e9858adaaade3": "2026-11-16T20:05:43-08:00",
       "production-e6bc2b0c91ff09c1e0522f0c": "2026-11-16T20:18:28-08:00",
       "production-a422e60a5c8d9d961def17e6": "2026-11-16T20:21:09-08:00",
-      "production-ba2e1df17d9b576cb7bf5dd5": "2026-11-16T20:21:09-08:00"
+      "production-ba2e1df17d9b576cb7bf5dd5": "2026-11-16T20:21:09-08:00",
+      "production-87e28113161404e949ff2c71": "2026-11-16T20:35:19-08:00",
+      "production-612f2c4654d9b12136cf50fb": "2026-11-16T20:35:19-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -4573,6 +4577,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "航天时代电子技术股份有限公司2026年11月3日公告，近日使用自有资金人民币3,000万元提前归还部分用于暂时补充流动资金的闲置募集资金，截至10月28日累计归还3,000万元。该次暂时补流尚未归还金额为130,240万元，补流期限为2026年8月24日至2027年8月23日。"
+        },
+        "production-87e28113161404e949ff2c71": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "达刚控股2026年11月2日公告，控股子公司浙江恩科星电气有限公司近期取得一项发明专利和两项实用新型专利证书，其中发明专利由杭州电子科技大学与恩科星共有，两项实用新型专利权人均为恩科星。公司表示，上述专利的取得不会对公司及子公司近期生产经营产生重大影响。"
+        },
+        "production-612f2c4654d9b12136cf50fb": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "诺瓦星云2026年11月2日公告，控股股东、实际控制人袁胜春、宗靖国已办理四笔股份质押，合计4,519,921股，占公司总股本4.89%，质押起始日为2026年10月29日或30日，质权人均为华能贵诚信托有限公司，用途均为个人资金用途。质押到期日均为办理解除质押登记手续之日，公司表示本次质押不会导致控制权变更。"
         }
       }
     },
@@ -4582,8 +4600,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-16-d734f7fb4919",
-      "editionId": "selection-b2a17587abecd7a54f52",
+      "sourceEditionId": "2026-11-16-b8aadaa5a157",
+      "editionId": "selection-13312ebf11a4727c4880",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -18330,6 +18348,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T12:29:14+08:00",
           "updatedAt": "2026-11-16T20:18:28-08:00",
           "compiledAt": "2026-11-16T20:18:28-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -28751,6 +28770,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T12:29:14+08:00",
           "updatedAt": "2026-11-16T20:21:09-08:00",
           "compiledAt": "2026-11-16T20:21:09-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -53627,6 +53647,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T12:29:14+08:00",
           "updatedAt": "2026-11-16T20:21:10-08:00",
           "compiledAt": "2026-11-16T20:21:10-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -53652,9 +53673,144 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-9c9d97a7a9ce36ffb617",
+      "objectId": "listed-300103-sz",
+      "type": "控股子公司专利获证",
+      "topics": [
+        "浙江恩科星",
+        "一项发明专利",
+        "两项实用新型专利"
+      ],
+      "updates": [
+        {
+          "id": "production-87e28113161404e949ff2c71",
+          "date": "2026-11-02",
+          "time": "",
+          "title": "子公司恩科星取得三项专利证书",
+          "summary": "达刚控股2026年11月2日公告，控股子公司浙江恩科星电气有限公司近期取得一项发明专利和两项实用新型专利证书，其中发明专利由杭州电子科技大学与恩科星共有，两项实用新型专利权人均为恩科星。公司表示，上述专利的取得不会对公司及子公司近期生产经营产生重大影响。",
+          "stage": "控股子公司近期取得三项专利证书",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T20:35:19-08:00",
+          "compiledAt": "2026-11-16T20:35:19-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "达刚控股",
+          "version": "87e28113161404e949ff2c71f713cb2fe2ebe391ff88008c9541771bde976666",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于控股子公司取得专利证书的公告",
+              "publisher": "达刚控股集团股份有限公司",
+              "date": "2026-11-02",
+              "location": "物理第1页：正文、专利表及表后说明",
+              "retrievedAt": "2026-11-17T08:03:51+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225652668.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-347f84958d2e4b23d5e1",
+      "objectId": "listed-301589-sz",
+      "type": "股份质押",
+      "topics": [
+        "控股股东及实际控制人股份质押",
+        "华能贵诚信托"
+      ],
+      "updates": [
+        {
+          "id": "production-612f2c4654d9b12136cf50fb",
+          "date": "2026-11-02",
+          "time": "",
+          "title": "控股股东、实际控制人合计质押4,519,921股",
+          "summary": "诺瓦星云2026年11月2日公告，控股股东、实际控制人袁胜春、宗靖国已办理四笔股份质押，合计4,519,921股，占公司总股本4.89%，质押起始日为2026年10月29日或30日，质权人均为华能贵诚信托有限公司，用途均为个人资金用途。质押到期日均为办理解除质押登记手续之日，公司表示本次质押不会导致控制权变更。",
+          "stage": "袁胜春、宗靖国已办理部分股份质押，质押起始日分别为2026年10月29日、10月30日",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T20:35:20-08:00",
+          "compiledAt": "2026-11-16T20:35:20-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "诺瓦星云",
+          "version": "612f2c4654d9b12136cf50fbee33fc7ea6f5e9630425a761b05d0036beb05b09",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于控股股东、实际控制人部分股份质押的公告",
+              "publisher": "西安诺瓦星云科技股份有限公司",
+              "date": "2026-11-02",
+              "location": "物理第1页：股东股份质押基本情况表；第2页：其他说明及落款",
+              "retrievedAt": "2026-11-17T08:03:58+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225653870.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-13312ebf11a4727c4880",
+      "date": "2026-11-17",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "compiledAt": "2026-11-17T12:41:00+08:00",
+      "researchCutoff": "2026-11-06T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-06T23:59:59+08:00",
+      "updateIds": [
+        "production-b71c05392a301503b9863ab8"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-13312ebf11a4727c4880/page-01.png",
+          "width": 1080,
+          "height": 800,
+          "sha256": "ec78b3d13bf0687fd5b7431c872cd41b60ef9e01b814d538da4cb0e1197ca609"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-16-b8aadaa5a157",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-11-06",
+      "rangeEnd": "2026-11-06",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-b71c05392a301503b9863ab8",
+          "version": "b71c05392a301503b9863ab8180eedbedfac7d0d58171307b28e4784e1dd67f5",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-11-06",
+          "title": "筹备回购事项董事会，获银行贷款支持意向",
+          "business": "股份管理",
+          "share": {
+            "title": "筹备回购事项董事会，获银行贷款支持意向",
+            "facts": "公告，已就控股股东回购提议筹备董事会，获银行贷款支持意向，自筹资金初步落实。原提议拟以人民币1亿至2亿元回购，用于注销和/或员工持股计划、股权激励；本次未披露方案审议通过、贷款到账或实际回购成交。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-b2a17587abecd7a54f52",
       "date": "2026-11-17",
@@ -58453,6 +58609,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "c49049c274613be5a8e5",
+      "date": "2026-11-17",
+      "compiledAt": "2026-11-16T20:21:12-08:00",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "snapshotUrl": "publications/c49049c274613be5a8e5/index.html",
+      "publishedAt": "2026-11-17T12:29:14+08:00"
+    },
     {
       "id": "71f6993f6aa93afb8ebe",
       "date": "2026-11-17",
