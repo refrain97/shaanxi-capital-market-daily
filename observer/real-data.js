@@ -4638,7 +4638,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-11-16-75a02e3a5adf",
       "editionId": "selection-e898272660e420b91c99",
       "selectionMode": "current"
@@ -54451,6 +54451,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。现有三份公告未披露逐日成交、成交金额、成交均价及持股成本；本文仅呈现已披露累计数量，不计算回款、清偿额或收益。 11月公告未将累计成交进一步分配至各份执行通知，也未披露司法执行全部完成；本文不认定任何具体批次已经执行完毕。 现有材料未说明股份最初取得方式；无限售条件股份仅代表限售性质。2月、8月的质押/司法冻结状态均限于各自披露时点，不能直接写成11月状态。 本轮只使用三份直接相关公告，不构成对张政全部历史减持或司法事项的穷尽核查。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T14:36:38+08:00",
           "updatedAt": "2026-11-16T22:20:02-08:00",
           "compiledAt": "2026-11-16T22:20:02-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -59680,6 +59681,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "739258d13c3bbab920a9",
+      "date": "2026-11-17",
+      "compiledAt": "2026-11-16T22:20:03-08:00",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "snapshotUrl": "publications/739258d13c3bbab920a9/index.html",
+      "publishedAt": "2026-11-17T14:36:38+08:00"
+    },
     {
       "id": "1c00aa02489f83d4ca4d",
       "date": "2026-11-17",
