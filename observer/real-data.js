@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-16-46d7886043c0",
-      "compiledAt": "2026-11-16T19:11:02-08:00",
+      "id": "2026-11-16-b81937ea275b",
+      "compiledAt": "2026-11-16T19:28:30-08:00",
       "cutoff": "2026-11-06T23:59:59+08:00",
       "windowStart": "2026-10-31",
       "windowEnd": "2026-11-06",
@@ -28,7 +28,10 @@ window.PROTOTYPE = {
         "production-67078c4a610b7e376bc12c78",
         "production-25786f7fb77863c6330c72e2",
         "production-1ff2f8906939bcab61ed9d7f",
-        "production-18925900a3144891cbed381a"
+        "production-18925900a3144891cbed381a",
+        "production-7ccfd27f3e1090d6e740eb26",
+        "production-36e0dd03642e028eb8feab67",
+        "production-0cc43ab50d58b2256a477de6"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -602,7 +605,10 @@ window.PROTOTYPE = {
       "production-458aee73595f9d24c0271747": "2026-11-16T18:51:42-08:00",
       "production-18925900a3144891cbed381a": "2026-11-16T19:10:59-08:00",
       "production-dc3763e35195aaca30fb7d87": "2026-11-16T19:10:59-08:00",
-      "production-dcd208ed000fb324af7a9fb7": "2026-11-16T19:10:59-08:00"
+      "production-dcd208ed000fb324af7a9fb7": "2026-11-16T19:10:59-08:00",
+      "production-7ccfd27f3e1090d6e740eb26": "2026-11-16T19:28:27-08:00",
+      "production-36e0dd03642e028eb8feab67": "2026-11-16T19:28:27-08:00",
+      "production-0cc43ab50d58b2256a477de6": "2026-11-16T19:28:27-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -4428,6 +4434,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西兴化化学股份有限公司（ST兴化）2026年11月5日公告，庞战军、石军朝因工作调动辞去公司及子公司兴化化工副总经理职务，辞职报告自送达董事会起生效。公司11月3日董事会审议通过聘任裴双梨、高浩为公司副总经理，任期与本届董事会任期一致。"
+        },
+        "production-7ccfd27f3e1090d6e740eb26": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安旅游2026年11月4日披露，公司股票于10月30日、11月2日及11月3日连续三个交易日收盘价格涨幅偏离值累计超过20%；公司核查称经营情况正常，内外部经营环境未发生重大变化，不存在应披露而未披露的重大事项。公司同时提示终止上市风险，截至公告披露日尚未收到法院受理重整申请的相关法律文书，能否进入重整程序仍不确定。"
+        },
+        "production-36e0dd03642e028eb8feab67": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "中国西电2026年11月4日公告，下属12家子公司中标国家电网2026年输变电项目第五次变电设备（含电缆）公开招标采购，中标金额合计约11.1464亿元。截至公告披露时，公司尚未与国家电网相关机构签署正式商务合同，合同条款、交货时间及对当期业绩的影响仍存在不确定性。"
+        },
+        "production-0cc43ab50d58b2256a477de6": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "天润科技2026年11月4日公告，公司于11月3日收到国家知识产权局颁发的“结合深度学习及卫星影像的建筑物三维建模方法及系统”和“基于强化学习的高分辨率遥感影像变化检测方法”两项发明专利证书。公司提示，获证不构成经营业绩承诺，专利成果能否带来未来直接经济效益存在不确定性。"
         }
       }
     },
@@ -4437,7 +4464,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-16-46d7886043c0",
+      "sourceEditionId": "2026-11-16-b81937ea275b",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -22217,6 +22244,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T11:15:08+08:00",
           "updatedAt": "2026-11-16T19:10:59-08:00",
           "compiledAt": "2026-11-16T19:10:59-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -26445,6 +26473,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T11:15:08+08:00",
           "updatedAt": "2026-11-16T19:11:00-08:00",
           "compiledAt": "2026-11-16T19:11:00-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -52439,6 +52468,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T11:15:08+08:00",
           "updatedAt": "2026-11-16T19:11:00-08:00",
           "compiledAt": "2026-11-16T19:11:00-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -52467,6 +52497,143 @@ window.PROTOTYPE = {
               "location": "物理第1—2页第一项议案",
               "retrievedAt": "2026-11-17T08:03:45+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225657468.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-93ed06df00b201e9474b",
+      "objectId": "listed-000610-sz",
+      "type": "股票交易异常波动",
+      "topics": [
+        "异常波动核查",
+        "退市及预重整风险提示"
+      ],
+      "updates": [
+        {
+          "id": "production-7ccfd27f3e1090d6e740eb26",
+          "date": "2026-11-04",
+          "time": "",
+          "title": "披露股价异常波动核查，提示退市及重整不确定性",
+          "summary": "西安旅游2026年11月4日披露，公司股票于10月30日、11月2日及11月3日连续三个交易日收盘价格涨幅偏离值累计超过20%；公司核查称经营情况正常，内外部经营环境未发生重大变化，不存在应披露而未披露的重大事项。公司同时提示终止上市风险，截至公告披露日尚未收到法院受理重整申请的相关法律文书，能否进入重整程序仍不确定。",
+          "stage": "就三个交易日股价异常波动完成公司核查并披露风险提示",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T19:28:27-08:00",
+          "compiledAt": "2026-11-16T19:28:27-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "*ST西旅",
+          "version": "7ccfd27f3e1090d6e740eb26214d02e48323e2a681637b4b205dade0966be07a",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "股票交易异常波动公告",
+              "publisher": "西安旅游股份有限公司",
+              "date": "2026-11-04",
+              "location": "物理第1—3页；公告落款2026年11月3日",
+              "retrievedAt": "2026-11-17T08:03:40+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225656284.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-185b9e31abc3c5f66062",
+      "objectId": "listed-601179-sh",
+      "type": "产品中标",
+      "topics": [
+        "国家电网采购中标",
+        "12家子公司",
+        "尚未签署正式商务合同"
+      ],
+      "updates": [
+        {
+          "id": "production-36e0dd03642e028eb8feab67",
+          "date": "2026-11-04",
+          "time": "",
+          "title": "12家子公司中标国家电网采购，金额约11.1464亿元",
+          "summary": "中国西电2026年11月4日公告，下属12家子公司中标国家电网2026年输变电项目第五次变电设备（含电缆）公开招标采购，中标金额合计约11.1464亿元。截至公告披露时，公司尚未与国家电网相关机构签署正式商务合同，合同条款、交货时间及对当期业绩的影响仍存在不确定性。",
+          "stage": "披露子公司中标；截至公告披露时尚未签署正式商务合同",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T19:28:29-08:00",
+          "compiledAt": "2026-11-16T19:28:29-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "中国西电",
+          "version": "36e0dd03642e028eb8feab673b99f3fb2aa4c7deb0f319ffa2cf4fc0bb827000",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "中国西电产品中标公告",
+              "publisher": "中国西电电气股份有限公司",
+              "date": "2026-11-04",
+              "location": "物理第1页中标情况、第2页风险提示及落款",
+              "retrievedAt": "2026-11-17T08:04:12+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225655040.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-7b151db7ab6c047ca0ac",
+      "objectId": "listed-920564-bj",
+      "type": "取得发明专利",
+      "topics": [
+        "建筑物三维建模",
+        "遥感影像变化检测",
+        "两项发明专利获证"
+      ],
+      "updates": [
+        {
+          "id": "production-0cc43ab50d58b2256a477de6",
+          "date": "2026-11-04",
+          "time": "",
+          "title": "取得建筑物三维建模及遥感变化检测两项发明专利",
+          "summary": "天润科技2026年11月4日公告，公司于11月3日收到国家知识产权局颁发的“结合深度学习及卫星影像的建筑物三维建模方法及系统”和“基于强化学习的高分辨率遥感影像变化检测方法”两项发明专利证书。公司提示，获证不构成经营业绩承诺，专利成果能否带来未来直接经济效益存在不确定性。",
+          "stage": "2026年11月3日收到两项发明专利证书，11月4日披露",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T19:28:28-08:00",
+          "compiledAt": "2026-11-16T19:28:28-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "天润科技",
+          "version": "0cc43ab50d58b2256a477de69b8ec082ce0d17df54059ae66bb8f106c3e063bc",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于取得发明专利证书的公告",
+              "publisher": "陕西天润科技股份有限公司",
+              "date": "2026-11-04",
+              "location": "物理第1页基本情况、第2页风险提示及落款",
+              "retrievedAt": "2026-11-17T08:04:34+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225658135.PDF"
             }
           ],
           "tables": []
@@ -57097,6 +57264,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "aa84c9962cda97b07454",
+      "date": "2026-11-17",
+      "compiledAt": "2026-11-16T19:11:02-08:00",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "snapshotUrl": "publications/aa84c9962cda97b07454/index.html",
+      "publishedAt": "2026-11-17T11:15:08+08:00"
+    },
     {
       "id": "aa07fab98771a42595ad",
       "date": "2026-11-17",
