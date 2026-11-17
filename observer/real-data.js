@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-16-427c68c8e0fe",
-      "compiledAt": "2026-11-16T17:31:39-08:00",
+      "id": "2026-11-16-d55d1ca80b98",
+      "compiledAt": "2026-11-16T17:50:46-08:00",
       "cutoff": "2026-11-06T23:59:59+08:00",
       "windowStart": "2026-10-31",
       "windowEnd": "2026-11-06",
@@ -18,6 +18,10 @@ window.PROTOTYPE = {
         "production-e9df758c356eff4c50df58a4",
         "production-b6e063991ada01a1b84773f6",
         "production-b284be35ba1eec716a103b8f",
+        "production-8d9161826043b348c69607e1",
+        "production-7fce3b458732d30a1a11e055",
+        "production-7c3ae942c144321e420139fa",
+        "production-6b0acfadec8b1e831e03f044",
         "production-67078c4a610b7e376bc12c78",
         "production-25786f7fb77863c6330c72e2",
         "production-1ff2f8906939bcab61ed9d7f"
@@ -585,7 +589,11 @@ window.PROTOTYPE = {
       "production-b6e063991ada01a1b84773f6": "2026-11-16T17:31:35-08:00",
       "production-e9df758c356eff4c50df58a4": "2026-11-16T17:31:35-08:00",
       "production-b284be35ba1eec716a103b8f": "2026-11-16T17:31:35-08:00",
-      "production-25786f7fb77863c6330c72e2": "2026-11-16T17:31:35-08:00"
+      "production-25786f7fb77863c6330c72e2": "2026-11-16T17:31:35-08:00",
+      "production-7fce3b458732d30a1a11e055": "2026-11-16T17:50:42-08:00",
+      "production-8d9161826043b348c69607e1": "2026-11-16T17:50:42-08:00",
+      "production-7c3ae942c144321e420139fa": "2026-11-16T17:50:42-08:00",
+      "production-6b0acfadec8b1e831e03f044": "2026-11-16T17:50:42-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -4349,6 +4357,34 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安旅游股份有限公司2026年11月5日披露，公司及控股子公司连续十二个月内累计未披露诉讼、仲裁涉案金额合计1,134.00万元，不含前期已披露的相关诉讼事项。部分案件尚未开庭或结案，部分尚未执行完毕，对本期或期后利润的影响存在不确定性。"
+        },
+        "production-7fce3b458732d30a1a11e055": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安炬光科技股份有限公司2026年11月5日公告，董事会同意于2026年11月23日15:00召开2026年第六次临时股东会，采用现场投票与网络投票相结合的表决方式。"
+        },
+        "production-8d9161826043b348c69607e1": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西康惠制药股份有限公司2026年11月5日公告，全资子公司北京康惠智创科技有限公司与客户D公司签署的算力服务合同已完成全部交付工作，项目进入运营服务阶段。合同含税总金额区间为人民币4.15亿元至6.79亿元，相关收入按履约进度分期确认；五年服务周期中的后两年为续约期，能否续约存在不确定性。"
+        },
+        "production-7c3ae942c144321e420139fa": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西康惠制药股份有限公司2026年11月5日公告，公司已与北京鼎智芯科科技有限公司签署买卖合同，出售一批闲置计算机相关设备，合同总价款为人民币10,560万元（含税）；该事项已于11月4日获董事会审议通过，无需提交股东会审议。合同约定可分批提货、提货时付款，公告未披露交付及收款已经完成。"
+        },
+        "production-6b0acfadec8b1e831e03f044": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西兴化化学股份有限公司2026年11月5日公告，董事会以9票同意、0票反对、0票弃权通过组织机构调整议案。公司拟对组织机构进行部分整合，调整后设置党委工作部、综合办公室、企业管理部、财务资产部、生产经营运行部、安环质监部、科技与投资管理部、内控审计部共8个部门。"
         }
       }
     },
@@ -4358,7 +4394,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-16-427c68c8e0fe",
+      "sourceEditionId": "2026-11-16-d55d1ca80b98",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -51667,6 +51703,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T09:35:42+08:00",
           "updatedAt": "2026-11-16T17:31:35-08:00",
           "compiledAt": "2026-11-16T17:31:35-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -51713,6 +51750,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T09:35:42+08:00",
           "updatedAt": "2026-11-16T17:31:36-08:00",
           "compiledAt": "2026-11-16T17:31:36-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -51774,6 +51812,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T09:35:42+08:00",
           "updatedAt": "2026-11-16T17:31:36-08:00",
           "compiledAt": "2026-11-16T17:31:36-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -51819,6 +51858,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T09:35:42+08:00",
           "updatedAt": "2026-11-16T17:31:37-08:00",
           "compiledAt": "2026-11-16T17:31:37-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -51839,6 +51879,205 @@ window.PROTOTYPE = {
               "location": "物理第1页累计金额及范围、第2页利润影响、第3页案件统计表；公告落款2026年11月4日",
               "retrievedAt": "2026-11-17T08:03:40+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225658225.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-e68f1539f52f73d8fbd9",
+      "objectId": "listed-688167-sh",
+      "type": "股东会召开安排",
+      "topics": [
+        "会议通知",
+        "2026年11月23日",
+        "现场及网络投票"
+      ],
+      "updates": [
+        {
+          "id": "production-7fce3b458732d30a1a11e055",
+          "date": "2026-11-05",
+          "time": "",
+          "title": "拟于11月23日召开第六次临时股东会",
+          "summary": "西安炬光科技股份有限公司2026年11月5日公告，董事会同意于2026年11月23日15:00召开2026年第六次临时股东会，采用现场投票与网络投票相结合的表决方式。",
+          "stage": "董事会决定于2026年11月23日15时召开第六次临时股东会",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T17:50:42-08:00",
+          "compiledAt": "2026-11-16T17:50:42-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "炬光科技",
+          "version": "7fce3b458732d30a1a11e055cd07d37d5ab967f5ef4b7acda60c81575df6f6b1",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安炬光科技股份有限公司关于召开2026年第六次临时股东会的通知",
+              "publisher": "西安炬光科技股份有限公司",
+              "date": "2026-11-05",
+              "location": "物理第1页，召开会议的基本情况；第5页，落款日期",
+              "retrievedAt": "2026-11-17T08:04:23+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225657505.PDF"
+            },
+            {
+              "title": "西安炬光科技股份有限公司第四届董事会第三十一次会议决议公告",
+              "publisher": "西安炬光科技股份有限公司",
+              "date": "2026-11-05",
+              "location": "物理第3页，第六项议案",
+              "retrievedAt": "2026-11-17T08:04:24+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225657499.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-84929f8647dd313d4f4b",
+      "objectId": "listed-603139-sh",
+      "type": "经营合同履行进展",
+      "topics": [
+        "客户D公司算力服务",
+        "整体交付完成",
+        "进入运营服务阶段"
+      ],
+      "updates": [
+        {
+          "id": "production-8d9161826043b348c69607e1",
+          "date": "2026-11-05",
+          "time": "",
+          "title": "子公司对客户D的算力服务项目完成交付",
+          "summary": "陕西康惠制药股份有限公司2026年11月5日公告，全资子公司北京康惠智创科技有限公司与客户D公司签署的算力服务合同已完成全部交付工作，项目进入运营服务阶段。合同含税总金额区间为人民币4.15亿元至6.79亿元，相关收入按履约进度分期确认；五年服务周期中的后两年为续约期，能否续约存在不确定性。",
+          "stage": "截至公告披露日合同约定的算力服务全部交付，项目进入运营服务阶段",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T17:50:43-08:00",
+          "compiledAt": "2026-11-16T17:50:43-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "康惠股份",
+          "version": "8d9161826043b348c69607e15880670119937fe5bb98d668522f14b7f7329cff",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "康惠股份关于全资子公司算力服务合同的进展公告",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-11-05",
+              "location": "物理第1页，合同基本情况、履行进展及影响；第2页，风险提示及落款",
+              "retrievedAt": "2026-11-17T08:04:14+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225656894.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-8cf9ace0c5cd4dbb93c9",
+      "objectId": "listed-603139-sh",
+      "type": "闲置固定资产处置",
+      "topics": [
+        "计算机设备出售",
+        "董事会审议通过",
+        "资产买卖合同签署"
+      ],
+      "updates": [
+        {
+          "id": "production-7c3ae942c144321e420139fa",
+          "date": "2026-11-05",
+          "time": "",
+          "title": "签约出售闲置计算机设备，含税价款10,560万元",
+          "summary": "陕西康惠制药股份有限公司2026年11月5日公告，公司已与北京鼎智芯科科技有限公司签署买卖合同，出售一批闲置计算机相关设备，合同总价款为人民币10,560万元（含税）；该事项已于11月4日获董事会审议通过，无需提交股东会审议。合同约定可分批提货、提货时付款，公告未披露交付及收款已经完成。",
+          "stage": "2026年11月4日董事会审议通过，相关买卖合同已签署，未披露交付及收款完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T17:50:44-08:00",
+          "compiledAt": "2026-11-16T17:50:44-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "康惠股份",
+          "version": "7c3ae942c144321e420139fade67d670b34ee71464636b3d3b7c5e27e114cec7",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "康惠股份关于处置资产的公告",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-11-05",
+              "location": "物理第1页，交易概述；第2页，交易要素及审批程序；第5页，协议主要内容；第6页，落款",
+              "retrievedAt": "2026-11-17T08:04:15+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225656886.PDF"
+            },
+            {
+              "title": "康惠股份第六届董事会第十九次会议决议公告",
+              "publisher": "陕西康惠制药股份有限公司",
+              "date": "2026-11-05",
+              "location": "物理第1页，第一项议案",
+              "retrievedAt": "2026-11-17T08:04:15+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225656887.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-53438170e572906ca975",
+      "objectId": "listed-002109-sz",
+      "type": "组织机构调整",
+      "topics": [
+        "部门整合",
+        "组织机构调整"
+      ],
+      "updates": [
+        {
+          "id": "production-6b0acfadec8b1e831e03f044",
+          "date": "2026-11-05",
+          "time": "",
+          "title": "董事会通过组织机构调整，整合后设8个部门",
+          "summary": "陕西兴化化学股份有限公司2026年11月5日公告，董事会以9票同意、0票反对、0票弃权通过组织机构调整议案。公司拟对组织机构进行部分整合，调整后设置党委工作部、综合办公室、企业管理部、财务资产部、生产经营运行部、安环质监部、科技与投资管理部、内控审计部共8个部门。",
+          "stage": "董事会审议通过组织机构调整议案",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T17:50:45-08:00",
+          "compiledAt": "2026-11-16T17:50:45-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST兴化",
+          "version": "6b0acfadec8b1e831e03f044b35468196e34232765e05ee2cb780957afeed3f9",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第八届董事会第十四次会议决议公告",
+              "publisher": "陕西兴化化学股份有限公司",
+              "date": "2026-11-05",
+              "location": "物理第2页，第二项议案及落款",
+              "retrievedAt": "2026-11-17T08:03:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225657468.PDF"
             }
           ],
           "tables": []
@@ -56469,6 +56708,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "5237517df8e9114aef3c",
+      "date": "2026-11-17",
+      "compiledAt": "2026-11-16T17:31:39-08:00",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "snapshotUrl": "publications/5237517df8e9114aef3c/index.html",
+      "publishedAt": "2026-11-17T09:35:42+08:00"
+    },
     {
       "id": "d616876d503e5ee22faf",
       "date": "2026-11-17",
