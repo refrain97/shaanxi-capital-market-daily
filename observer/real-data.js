@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-16-3459df108c57",
-      "compiledAt": "2026-11-16T19:42:12-08:00",
+      "id": "2026-11-16-49332fb5d2cc",
+      "compiledAt": "2026-11-16T19:56:59-08:00",
       "cutoff": "2026-11-06T23:59:59+08:00",
       "windowStart": "2026-10-31",
       "windowEnd": "2026-11-06",
@@ -16,6 +16,7 @@ window.PROTOTYPE = {
       "updateIds": [
         "production-b71c05392a301503b9863ab8",
         "production-8e22522da8bd9dc6b152106d",
+        "production-62ec8a72fa84ed9efdc227d0",
         "production-5464c67b47cc24d818bba0cc",
         "production-458aee73595f9d24c0271747",
         "production-e9df758c356eff4c50df58a4",
@@ -30,6 +31,9 @@ window.PROTOTYPE = {
         "production-25786f7fb77863c6330c72e2",
         "production-1ff2f8906939bcab61ed9d7f",
         "production-18925900a3144891cbed381a",
+        "production-dcd140ad442a83611026fc33",
+        "production-8b69726f4b8a4b48467574c2",
+        "production-7da702f035ad276a6bac50d8",
         "production-7ccfd27f3e1090d6e740eb26",
         "production-36e0dd03642e028eb8feab67",
         "production-0cc43ab50d58b2256a477de6"
@@ -343,6 +347,7 @@ window.PROTOTYPE = {
       "production-6ac654ef6e973cc87f1a9cd4": "2026-11-04T18:39:45-08:00",
       "production-be9995f7a57c1ac9eb9f5a0f": "2026-11-05T16:07:06-08:00",
       "production-281913575f05d6942cd53692": "2026-11-05T16:09:23-08:00",
+      "production-9898880d0ae363985436ebd6": "2026-11-05T16:27:15-08:00",
       "production-a2d1f8012a4cbef38047eacd": "2026-11-05T17:04:56-08:00",
       "production-7b8cd30d7e2b9f3bf00e08e0": "2026-11-05T17:38:35-08:00",
       "production-9eb4f111d32e8675dd83bb11": "2026-11-05T17:38:35-08:00",
@@ -611,7 +616,11 @@ window.PROTOTYPE = {
       "production-7ccfd27f3e1090d6e740eb26": "2026-11-16T19:28:27-08:00",
       "production-36e0dd03642e028eb8feab67": "2026-11-16T19:28:27-08:00",
       "production-0cc43ab50d58b2256a477de6": "2026-11-16T19:28:27-08:00",
-      "production-b71c05392a301503b9863ab8": "2026-11-16T19:42:11-08:00"
+      "production-b71c05392a301503b9863ab8": "2026-11-16T19:42:11-08:00",
+      "production-62ec8a72fa84ed9efdc227d0": "2026-11-16T19:53:31-08:00",
+      "production-7da702f035ad276a6bac50d8": "2026-11-16T19:56:55-08:00",
+      "production-dcd140ad442a83611026fc33": "2026-11-16T19:56:55-08:00",
+      "production-8b69726f4b8a4b48467574c2": "2026-11-16T19:56:55-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -834,6 +843,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "三角防务2026年10月29日公告，10月9日至10月29日已有10个交易日收盘价低于当期转股价格人民币22.69元/股的85%，预计将触发“三角转债”转股价格向下修正条件。触发门槛为任意连续30个交易日中至少15个交易日符合上述条件，本次仅为预警，是否提出下修方案仍待触发后董事会决定，并须提交股东会审议。"
+        },
+        "production-62ec8a72fa84ed9efdc227d0": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "三角防务2026年11月6日披露，截至11月5日“三角转债”已触发转股价格下修条件，董事会当日审议通过下修提议。议案拟提交11月23日召开的临时股东会审议，须经出席股东所持有效表决权三分之二以上通过，持债关联股东回避表决；本次修正后的转股价格及生效日期尚未确定，且存在因价格下限约束而无需调整的情形。"
         },
         "production-9ae4eabe05e605c7f9ec82ca": {
           "version": "listed-scope-20261019",
@@ -1313,6 +1329,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "莱特光电2026年10月29日公告，截至10月28日“莱特转债”已触发转股价格向下修正条件，董事会于当日决定本次不下修。2026年10月29日至2027年1月28日如再次触发下修条件，亦不提出下修方案；下一触发条件计算期间自2027年1月29日重新起算。"
+        },
+        "production-7da702f035ad276a6bac50d8": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西莱特光电材料股份有限公司2026年11月4日公告提示，不符合科创板股票投资者适当性管理要求的投资者，不能将所持“莱特转债”（118077）转换为公司股票。“莱特转债”自2027年4月12日（非交易日顺延）起可转股。"
         },
         "production-3a28c2e4df72a10db01ab24e": {
           "version": "listed-scope-20261009",
@@ -2705,6 +2728,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "中天火箭2026年10月31日披露，董事会于10月30日审议通过独立董事换届议案，提名张西安、席文圣、付斌3人为第五届董事会独立董事候选人，任职资格须经深交所备案审核无异议后提交股东会审议。付斌截至股东大会通知发出之日尚未取得深交所认可的独立董事资格证书，已承诺参加最近一次独立董事培训并取得相关证书。"
+        },
+        "production-9898880d0ae363985436ebd6": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "金花企业（集团）股份有限公司2026年10月31日公告，董事会于10月29日审议通过将已结项募投项目节余募集资金8,931.11万元永久补充流动资金，并在转款后注销募集资金专户；金额含利息收入、现金管理收益，具体以资金转出当日专户余额为准，尚需提交拟于11月16日召开的股东会审议。项目仍有部分工程施工款、设备款、质保金等未支付，资金转出后剩余待付款项将由自有资金支付。"
         },
         "production-a2d1f8012a4cbef38047eacd": {
           "version": "listed-scope-20261019",
@@ -4470,6 +4500,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "天润科技2026年11月4日公告，公司于11月3日收到国家知识产权局颁发的“结合深度学习及卫星影像的建筑物三维建模方法及系统”和“基于强化学习的高分辨率遥感影像变化检测方法”两项发明专利证书。公司提示，获证不构成经营业绩承诺，专利成果能否带来未来直接经济效益存在不确定性。"
+        },
+        "production-dcd140ad442a83611026fc33": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西麦科奥特医药科技股份有限公司2026年11月4日公告，近期已收到与北京天坛医院联合承担的“重大新药创制”国家科技重大专项课题首笔中央财政专项经费人民币960,000元，将用于支持MT200605临床研发投入。剩余款项将按课题节点验收情况分阶段拨付，若未满足相关要求，后续款项可能无法按预期拨付。"
+        },
+        "production-8b69726f4b8a4b48467574c2": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西麦科奥特医药科技股份有限公司2026年11月4日公告，近期已取得MT200605用于治疗急性缺血性卒中患者的III期临床试验组长单位北京天坛医院伦理委员会批准。公司提示，新药研发存在重大风险及不确定性，不能保证该产品最终成功开发及商业化。"
         }
       }
     },
@@ -4479,8 +4523,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-16-3459df108c57",
-      "editionId": "selection-d2b6cb6219bf3e033822",
+      "sourceEditionId": "2026-11-16-49332fb5d2cc",
+      "editionId": "selection-86e1676f4cc7b4d04be5",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -7609,23 +7653,22 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
-      "id": "listed-0438-hk",
+      "id": "listed-2335-hk",
       "type": "listed",
-      "name": "彩虹新能源",
-      "code": "0438.HK",
+      "name": "麦科医药-B",
+      "code": "2335.HK",
       "market": "HK",
       "asOf": "2026-07-13",
       "rosterTier": "L2",
       "rosterCategory": "陕西总部或主要办公",
       "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
-      "id": "listed-2335-hk",
+      "id": "listed-0438-hk",
       "type": "listed",
-      "name": "麦科医药-B",
-      "code": "2335.HK",
+      "name": "彩虹新能源",
+      "code": "0438.HK",
       "market": "HK",
       "asOf": "2026-07-13",
       "rosterTier": "L2",
@@ -16559,6 +16602,56 @@ window.PROTOTYPE = {
             }
           ],
           "tables": []
+        },
+        {
+          "id": "production-62ec8a72fa84ed9efdc227d0",
+          "date": "2026-11-06",
+          "time": "",
+          "title": "董事会提议下修“三角转债”转股价，待股东会审议",
+          "summary": "三角防务2026年11月6日披露，截至11月5日“三角转债”已触发转股价格下修条件，董事会当日审议通过下修提议。议案拟提交11月23日召开的临时股东会审议，须经出席股东所持有效表决权三分之二以上通过，持债关联股东回避表决；本次修正后的转股价格及生效日期尚未确定，且存在因价格下限约束而无需调整的情形。",
+          "stage": "截至11月5日已触发下修条件，董事会通过下修提议，拟于11月23日提交股东会审议；尚未确定新的转股价格及生效日期",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T19:53:31-08:00",
+          "compiledAt": "2026-11-16T19:53:31-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "三角防务",
+          "version": "62ec8a72fa84ed9efdc227d093824b2d4a56865ffb0436094be78c25036eeb3c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于董事会提议向下修正“三角转债”转股价格的公告",
+              "publisher": "西安三角防务股份有限公司",
+              "date": "2026-11-06",
+              "location": "物理第1、8、9页",
+              "retrievedAt": "2026-11-17T08:03:54+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225659010.PDF"
+            },
+            {
+              "title": "西安三角防务股份有限公司关于召开2026年第三次临时股东会的通知",
+              "publisher": "西安三角防务股份有限公司",
+              "date": "2026-11-06",
+              "location": "物理第1、2页",
+              "retrievedAt": "2026-11-17T08:03:54+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225659009.PDF"
+            },
+            {
+              "title": "第四届董事会第十二次会议决议公告",
+              "publisher": "西安三角防务股份有限公司",
+              "date": "2026-11-06",
+              "location": "物理第2页",
+              "retrievedAt": "2026-11-17T08:03:54+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225659008.PDF"
+            }
+          ],
+          "tables": []
         }
       ]
     },
@@ -22057,6 +22150,40 @@ window.PROTOTYPE = {
               "location": "物理第3页，三、关于不向下修正“莱特转债”转股价格的具体说明及落款",
               "retrievedAt": "2026-11-05T08:06:50+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225636188.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
+          "id": "production-7da702f035ad276a6bac50d8",
+          "date": "2026-11-04",
+          "time": "",
+          "title": "提示：不符合科创板适当性要求的持有人不能转股",
+          "summary": "陕西莱特光电材料股份有限公司2026年11月4日公告提示，不符合科创板股票投资者适当性管理要求的投资者，不能将所持“莱特转债”（118077）转换为公司股票。“莱特转债”自2027年4月12日（非交易日顺延）起可转股。",
+          "stage": "发布投资者适当性风险提示；转股起始日为2027年4月12日，非交易日顺延",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T19:56:55-08:00",
+          "compiledAt": "2026-11-16T19:56:55-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "莱特光电",
+          "version": "7da702f035ad276a6bac50d8b5cd4f80db4006efd75c7602aabd3d0fa4dbbea3",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西莱特光电材料股份有限公司关于可转债投资者适当性要求的风险提示性公告",
+              "publisher": "陕西莱特光电材料股份有限公司",
+              "date": "2026-11-04",
+              "location": "物理第1页重要内容提示；第2页转股期限、适当性风险及落款",
+              "retrievedAt": "2026-11-17T08:04:18+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225655157.PDF"
             }
           ],
           "tables": []
@@ -35880,6 +36007,60 @@ window.PROTOTYPE = {
       ]
     },
     {
+      "id": "production-event-cdfb581f1cc624e438f2",
+      "objectId": "listed-600080-sh",
+      "type": "募投项目节余募集资金永久补流",
+      "topics": [
+        "节余募集资金永久补流",
+        "募集资金专户拟注销"
+      ],
+      "updates": [
+        {
+          "id": "production-9898880d0ae363985436ebd6",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "拟将8,931.11万元节余募集资金永久补流",
+          "summary": "金花企业（集团）股份有限公司2026年10月31日公告，董事会于10月29日审议通过将已结项募投项目节余募集资金8,931.11万元永久补充流动资金，并在转款后注销募集资金专户；金额含利息收入、现金管理收益，具体以资金转出当日专户余额为准，尚需提交拟于11月16日召开的股东会审议。项目仍有部分工程施工款、设备款、质保金等未支付，资金转出后剩余待付款项将由自有资金支付。",
+          "stage": "2026年10月29日董事会审议通过，保荐机构无异议，拟提交11月16日股东会审议；尚无补流转款及专户注销完成依据",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T08:34:24+08:00",
+          "updatedAt": "2026-11-05T16:27:15-08:00",
+          "compiledAt": "2026-11-05T16:27:15-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST金花",
+          "version": "9898880d0ae363985436ebd62076518db03822d0230cee814e41cb97d4c97969",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "金花企业（集团）股份有限公司关于募投项目节余募集资金永久补流及注销募集资金专户的公告",
+              "publisher": "金花企业（集团）股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1—4页；第2页资金使用及节余表与脚注，第3页使用计划及审批程序",
+              "retrievedAt": "2026-11-05T08:05:36+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649776.PDF"
+            },
+            {
+              "title": "金花企业(集团)股份有限公司关于召开2026年第一次临时股东会的通知",
+              "publisher": "金花企业（集团）股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页会议日期、第2页议案表",
+              "retrievedAt": "2026-11-05T08:05:36+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649777.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
       "id": "production-event-2473ee17dc17e199768a",
       "objectId": "listed-600080-sh",
       "type": "第三季度报告审议",
@@ -37007,6 +37188,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。两份公告未披露具体贷款银行、贷款金额、合同条件及实际到账情况；仅能确认公司披露了银行贷款支持意向和自筹资金初步落实。 两份公告未披露本轮实际回购数量、支付金额和成交均价；本稿不据此认定实际成交为零。 本稿历史对照限于10月29日提出、10月30日披露的同一回购提议及11月6日筹备进展，不代表公司全历史回购核查，也不将这些公告所载状态延伸至后续日期。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T11:49:04+08:00",
           "updatedAt": "2026-11-16T19:42:11-08:00",
           "compiledAt": "2026-11-16T19:42:11-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -52893,9 +53075,143 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-4e9ca0101c2b8a10a048",
+      "objectId": "listed-2335-hk",
+      "type": "科研专项经费到账",
+      "topics": [
+        "MT200605",
+        "首笔中央财政专项经费"
+      ],
+      "updates": [
+        {
+          "id": "production-dcd140ad442a83611026fc33",
+          "date": "2026-11-04",
+          "time": "",
+          "title": "麦科奥特收到MT200605课题首笔中央财政专项经费人民币960,000元",
+          "summary": "陕西麦科奥特医药科技股份有限公司2026年11月4日公告，近期已收到与北京天坛医院联合承担的“重大新药创制”国家科技重大专项课题首笔中央财政专项经费人民币960,000元，将用于支持MT200605临床研发投入。剩余款项将按课题节点验收情况分阶段拨付，若未满足相关要求，后续款项可能无法按预期拨付。",
+          "stage": "已收到首笔专项经费人民币960,000元，后续款项按课题节点验收情况分阶段拨付",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T19:56:57-08:00",
+          "compiledAt": "2026-11-16T19:56:57-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "麥科醫藥－Ｂ",
+          "version": "dcd140ad442a83611026fc33f7a0cc11827d7e55ea06788b810850cdafe1e15d",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "自願性公告 - 收到國家科技重大專項下首筆課題經費及取得MT200605 III期臨床試驗組長單位倫理批准",
+              "publisher": "陕西麦科奥特医药科技股份有限公司",
+              "date": "2026-11-04",
+              "location": "物理第1页课题主体；第2页第三节经费安排；第3页第六节风险提示；第4页落款",
+              "retrievedAt": "2026-11-17T08:04:42+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1104/2026110402324_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-525cb40447aa61f8558d",
+      "objectId": "listed-2335-hk",
+      "type": "临床研发进展",
+      "topics": [
+        "MT200605 III期临床试验",
+        "北京天坛医院伦理批准"
+      ],
+      "updates": [
+        {
+          "id": "production-8b69726f4b8a4b48467574c2",
+          "date": "2026-11-04",
+          "time": "",
+          "title": "麦科奥特MT200605 III期临床试验获组长单位伦理批准",
+          "summary": "陕西麦科奥特医药科技股份有限公司2026年11月4日公告，近期已取得MT200605用于治疗急性缺血性卒中患者的III期临床试验组长单位北京天坛医院伦理委员会批准。公司提示，新药研发存在重大风险及不确定性，不能保证该产品最终成功开发及商业化。",
+          "stage": "已取得III期临床试验组长单位伦理委员会批准",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T19:56:56-08:00",
+          "compiledAt": "2026-11-16T19:56:56-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "麥科醫藥－Ｂ",
+          "version": "8b69726f4b8a4b48467574c2a6137cf31b1e8d69ec895085afe1f755d360e655",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "自願性公告 - 收到國家科技重大專項下首筆課題經費及取得MT200605 III期臨床試驗組長單位倫理批准",
+              "publisher": "陕西麦科奥特医药科技股份有限公司",
+              "date": "2026-11-04",
+              "location": "物理第3页第五节伦理批准及第六节风险提示；第4页落款",
+              "retrievedAt": "2026-11-17T08:04:42+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1104/2026110402324_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-86e1676f4cc7b4d04be5",
+      "date": "2026-11-17",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "compiledAt": "2026-11-17T11:57:02+08:00",
+      "researchCutoff": "2026-11-06T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-06T23:59:59+08:00",
+      "updateIds": [
+        "production-b71c05392a301503b9863ab8"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-86e1676f4cc7b4d04be5/page-01.png",
+          "width": 1080,
+          "height": 800,
+          "sha256": "ec78b3d13bf0687fd5b7431c872cd41b60ef9e01b814d538da4cb0e1197ca609"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-16-49332fb5d2cc",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-11-06",
+      "rangeEnd": "2026-11-06",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-b71c05392a301503b9863ab8",
+          "version": "b71c05392a301503b9863ab8180eedbedfac7d0d58171307b28e4784e1dd67f5",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-11-06",
+          "title": "筹备回购事项董事会，获银行贷款支持意向",
+          "business": "股份管理",
+          "share": {
+            "title": "筹备回购事项董事会，获银行贷款支持意向",
+            "facts": "公告，已就控股股东回购提议筹备董事会，获银行贷款支持意向，自筹资金初步落实。原提议拟以人民币1亿至2亿元回购，用于注销和/或员工持股计划、股权激励；本次未披露方案审议通过、贷款到账或实际回购成交。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-d2b6cb6219bf3e033822",
       "date": "2026-11-17",
@@ -57562,6 +57878,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "1328310bf9429eceee8a",
+      "date": "2026-11-17",
+      "compiledAt": "2026-11-16T19:42:12-08:00",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "snapshotUrl": "publications/1328310bf9429eceee8a/index.html",
+      "publishedAt": "2026-11-17T11:49:04+08:00"
+    },
     {
       "id": "09d166f6487676a86e22",
       "date": "2026-11-17",
