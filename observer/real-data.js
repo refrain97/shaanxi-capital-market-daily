@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-16-2cc64dbf2bab",
-      "compiledAt": "2026-11-16T18:51:44-08:00",
+      "id": "2026-11-16-46d7886043c0",
+      "compiledAt": "2026-11-16T19:11:02-08:00",
       "cutoff": "2026-11-06T23:59:59+08:00",
       "windowStart": "2026-10-31",
       "windowEnd": "2026-11-06",
@@ -18,15 +18,17 @@ window.PROTOTYPE = {
         "production-5464c67b47cc24d818bba0cc",
         "production-458aee73595f9d24c0271747",
         "production-e9df758c356eff4c50df58a4",
+        "production-dcd208ed000fb324af7a9fb7",
+        "production-dc3763e35195aaca30fb7d87",
         "production-b6e063991ada01a1b84773f6",
         "production-b284be35ba1eec716a103b8f",
         "production-8d9161826043b348c69607e1",
         "production-7fce3b458732d30a1a11e055",
-        "production-7c3ae942c144321e420139fa",
         "production-6b0acfadec8b1e831e03f044",
         "production-67078c4a610b7e376bc12c78",
         "production-25786f7fb77863c6330c72e2",
-        "production-1ff2f8906939bcab61ed9d7f"
+        "production-1ff2f8906939bcab61ed9d7f",
+        "production-18925900a3144891cbed381a"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -205,6 +207,7 @@ window.PROTOTYPE = {
       "production-37ea0dd24a2f7acd47957b92": "2026-10-21T09:41:19+08:00",
       "production-1f1ed36f0ac6326f47e9ea3a": "2026-10-21T10:14:51+08:00",
       "production-4b657d557c60a615404bbe16": "2026-10-22T08:36:56+08:00",
+      "production-3825af4e393d9aafe8cfb913": "2026-10-22T08:36:56+08:00",
       "production-1ebe8c13d086dcd1b2e2944f": "2026-10-22T08:36:56+08:00",
       "production-69f7e4d0aab958a907dcc859": "2026-10-22T08:52:57+08:00",
       "production-b8b3204770a7e290ee35a80e": "2026-10-22T08:52:57+08:00",
@@ -594,10 +597,12 @@ window.PROTOTYPE = {
       "production-25786f7fb77863c6330c72e2": "2026-11-16T17:31:35-08:00",
       "production-7fce3b458732d30a1a11e055": "2026-11-16T17:50:42-08:00",
       "production-8d9161826043b348c69607e1": "2026-11-16T17:50:42-08:00",
-      "production-7c3ae942c144321e420139fa": "2026-11-16T17:50:42-08:00",
       "production-6b0acfadec8b1e831e03f044": "2026-11-16T17:50:42-08:00",
       "production-5464c67b47cc24d818bba0cc": "2026-11-16T18:51:42-08:00",
-      "production-458aee73595f9d24c0271747": "2026-11-16T18:51:42-08:00"
+      "production-458aee73595f9d24c0271747": "2026-11-16T18:51:42-08:00",
+      "production-18925900a3144891cbed381a": "2026-11-16T19:10:59-08:00",
+      "production-dc3763e35195aaca30fb7d87": "2026-11-16T19:10:59-08:00",
+      "production-dcd208ed000fb324af7a9fb7": "2026-11-16T19:10:59-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1313,6 +1318,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "2026年10月12日，隆基绿能披露9月担保进展，相关新增担保均在既有授权范围内、无反担保，其中全资子公司西安隆基清洁能源有限公司为和美乡村整村分布式光伏业务新缴纳保证金人民币153.84万元。截至9月末，公司及子公司累计已提供担保人民币266.23亿元，占最近一期经审计归母净资产49.05%，无逾期担保；本次担保涉及资产负债率超过70%的单位。"
         },
+        "production-dc3763e35195aaca30fb7d87": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "隆基绿能2026年11月5日公告，公司及隆基乐叶为公司子公司日常经营业务开立银行保函合计27,929.41万元（人民币或折算人民币），均在年度预计授权范围内，无反担保，涉及资产负债率超过70%的单位，具体期限以各笔保函约定为准。截至2026年10月末，公司及子公司累计提供担保263.84亿元，占最近一期经审计归母净资产48.61%，无逾期担保。"
+        },
         "production-c37575447004f4dcb1a004e1": {
           "version": "listed-scope-20261009",
           "action": "其他",
@@ -1659,6 +1671,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "隆基绿能2026年10月20日公告，“隆22转债”持有人可自愿回售部分或全部未转股债券，申报期为2026年10月27日至11月2日，回售价格为人民币101.29元/张（含当期利息），资金计划于11月5日发放，回售期间继续交易但停止转股。公告提示其所述当时收盘价高于回售价格，选择回售可能造成损失；本次回售结果尚待申报期结束后披露。"
         },
+        "production-dcd208ed000fb324af7a9fb7": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "隆基绿能2026年11月5日公告，“隆22转债”本次回售申报期为2026年10月27日至11月2日，回售价格为人民币101.29元/张（含当期利息），有效申报数量为0张、回售金额为0元。公司无需支付回售资金，本次回售已完成，未回售债券继续在上海证券交易所交易。"
+        },
         "production-b103bfece0cf21fe3c58e9f3": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -1820,6 +1839,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安高压电器研究院股份有限公司2026年10月22日公告，根据《企业会计准则解释第20号》及新保险合同准则变更会计政策，按财政部相关文件规定的起始日期执行，无需提交董事会和股东会审议。公司表示，本次变更不会对财务状况、经营成果和现金流量产生重大影响，不涉及以前年度追溯调整。"
+        },
+        "production-3825af4e393d9aafe8cfb913": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西美邦药业集团股份有限公司2026年10月22日披露，董事会于10月20日通过前三季度利润分配预案，拟每10股派发现金红利0.5元（含税），按截至9月30日总股本计算合计拟派人民币676万元（含税），无需再次提交股东会审议。分配以实施权益分派股权登记日总股本为基数，具体日期待实施公告明确；若股本变动，拟维持每股分配比例不变并调整总额。"
         },
         "production-1ebe8c13d086dcd1b2e2944f": {
           "version": "listed-scope-20261019",
@@ -4375,13 +4401,6 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "陕西康惠制药股份有限公司2026年11月5日公告，全资子公司北京康惠智创科技有限公司与客户D公司签署的算力服务合同已完成全部交付工作，项目进入运营服务阶段。合同含税总金额区间为人民币4.15亿元至6.79亿元，相关收入按履约进度分期确认；五年服务周期中的后两年为续约期，能否续约存在不确定性。"
         },
-        "production-7c3ae942c144321e420139fa": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "陕西康惠制药股份有限公司2026年11月5日公告，公司已与北京鼎智芯科科技有限公司签署买卖合同，出售一批闲置计算机相关设备，合同总价款为人民币10,560万元（含税）；该事项已于11月4日获董事会审议通过，无需提交股东会审议。合同约定可分批提货、提货时付款，公告未披露交付及收款已经完成。"
-        },
         "production-6b0acfadec8b1e831e03f044": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -4402,6 +4421,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "普汇中金国际控股有限公司2026年11月6日公告，拟于2026年11月30日召开董事会会议，考虑宣派中期股息（如有）。本次仅披露考虑安排，是否派息及股息金额尚未确定。"
+        },
+        "production-18925900a3144891cbed381a": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西兴化化学股份有限公司（ST兴化）2026年11月5日公告，庞战军、石军朝因工作调动辞去公司及子公司兴化化工副总经理职务，辞职报告自送达董事会起生效。公司11月3日董事会审议通过聘任裴双梨、高浩为公司副总经理，任期与本届董事会任期一致。"
         }
       }
     },
@@ -4411,7 +4437,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-16-2cc64dbf2bab",
+      "sourceEditionId": "2026-11-16-46d7886043c0",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -22180,6 +22206,40 @@ window.PROTOTYPE = {
             }
           ],
           "tables": []
+        },
+        {
+          "id": "production-dc3763e35195aaca30fb7d87",
+          "date": "2026-11-05",
+          "time": "",
+          "title": "披露新增银行保函担保27,929.41万元",
+          "summary": "隆基绿能2026年11月5日公告，公司及隆基乐叶为公司子公司日常经营业务开立银行保函合计27,929.41万元（人民币或折算人民币），均在年度预计授权范围内，无反担保，涉及资产负债率超过70%的单位，具体期限以各笔保函约定为准。截至2026年10月末，公司及子公司累计提供担保263.84亿元，占最近一期经审计归母净资产48.61%，无逾期担保。",
+          "stage": "披露年度授权范围内新增银行保函担保27,929.41万元及截至2026年10月末累计担保情况",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T19:10:59-08:00",
+          "compiledAt": "2026-11-16T19:10:59-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "隆基绿能",
+          "version": "dc3763e35195aaca30fb7d876ce47947f04e43d2fe31f8a1fd9407947f6b1741",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于提供担保的进展公告",
+              "publisher": "隆基绿能科技股份有限公司",
+              "date": "2026-11-05",
+              "location": "物理第1页担保汇总及风险提示、第2页新增担保及授权说明、第3页累计担保情况",
+              "retrievedAt": "2026-11-17T08:04:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225657789.PDF"
+            }
+          ],
+          "tables": []
         }
       ]
     },
@@ -26374,6 +26434,48 @@ window.PROTOTYPE = {
             }
           ],
           "tables": []
+        },
+        {
+          "id": "production-dcd208ed000fb324af7a9fb7",
+          "date": "2026-11-05",
+          "time": "",
+          "title": "“隆22转债”本次回售完成，有效申报0张",
+          "summary": "隆基绿能2026年11月5日公告，“隆22转债”本次回售申报期为2026年10月27日至11月2日，回售价格为人民币101.29元/张（含当期利息），有效申报数量为0张、回售金额为0元。公司无需支付回售资金，本次回售已完成，未回售债券继续在上海证券交易所交易。",
+          "stage": "11月2日披露申报期末次提示；11月5日披露回售有效申报0张、回售金额0元，本次回售已完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T19:11:00-08:00",
+          "compiledAt": "2026-11-16T19:11:00-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "隆基绿能",
+          "version": "dcd208ed000fb324af7a9fb74b10683fe85c7816e7ef7bb39a774999f5be2781",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于“隆22转债”可选择回售的第九次提示性公告",
+              "publisher": "隆基绿能科技股份有限公司",
+              "date": "2026-11-02",
+              "location": "物理第1页重要内容提示",
+              "retrievedAt": "2026-11-17T08:04:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650991.PDF"
+            },
+            {
+              "title": "关于“隆22转债”回售结果的公告",
+              "publisher": "隆基绿能科技股份有限公司",
+              "date": "2026-11-05",
+              "location": "物理第1—2页回售结果及后续事项",
+              "retrievedAt": "2026-11-17T08:04:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225657777.PDF"
+            }
+          ],
+          "tables": []
         }
       ]
     },
@@ -28307,6 +28409,59 @@ window.PROTOTYPE = {
               "location": "物理第1—3页",
               "retrievedAt": "2026-10-22T08:25:13+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613534.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-eba5d37692a5a65d9109",
+      "objectId": "listed-605033-sh",
+      "type": "权益分派",
+      "topics": [
+        "前三季度现金分红预案"
+      ],
+      "updates": [
+        {
+          "id": "production-3825af4e393d9aafe8cfb913",
+          "date": "2026-10-22",
+          "time": "",
+          "title": "前三季度拟每10股派0.5元，合计拟派676万元",
+          "summary": "陕西美邦药业集团股份有限公司2026年10月22日披露，董事会于10月20日通过前三季度利润分配预案，拟每10股派发现金红利0.5元（含税），按截至9月30日总股本计算合计拟派人民币676万元（含税），无需再次提交股东会审议。分配以实施权益分派股权登记日总股本为基数，具体日期待实施公告明确；若股本变动，拟维持每股分配比例不变并调整总额。",
+          "stage": "2026年10月20日董事会审议通过，无需再次提交股东会；尚未披露实施日期",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-22T08:41:59+08:00",
+          "updatedAt": "2026-10-22T08:36:57+08:00",
+          "compiledAt": "2026-10-22T08:36:57+08:00",
+          "researchCutoff": "2026-10-22T08:24:29+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "美邦股份",
+          "version": "3825af4e393d9aafe8cfb9133c3373d1e562d001c88c957e1d4cd40304ed286d",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西美邦药业集团股份有限公司关于公司2026年前三季度利润分配预案的公告",
+              "publisher": "陕西美邦药业集团股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第1—2页；公告落款2026年10月21日",
+              "retrievedAt": "2026-10-22T08:25:01+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613673.PDF"
+            },
+            {
+              "title": "陕西美邦药业集团股份有限公司第三届董事会第十五次会议决议公告",
+              "publisher": "陕西美邦药业集团股份有限公司",
+              "date": "2026-10-22",
+              "location": "物理第2页第三项议案；公告落款2026年10月21日",
+              "retrievedAt": "2026-10-22T08:25:02+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225613671.PDF"
             }
           ],
           "tables": []
@@ -52128,61 +52283,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-8cf9ace0c5cd4dbb93c9",
-      "objectId": "listed-603139-sh",
-      "type": "闲置固定资产处置",
-      "topics": [
-        "计算机设备出售",
-        "董事会审议通过",
-        "资产买卖合同签署"
-      ],
-      "updates": [
-        {
-          "id": "production-7c3ae942c144321e420139fa",
-          "date": "2026-11-05",
-          "time": "",
-          "title": "签约出售闲置计算机设备，含税价款10,560万元",
-          "summary": "陕西康惠制药股份有限公司2026年11月5日公告，公司已与北京鼎智芯科科技有限公司签署买卖合同，出售一批闲置计算机相关设备，合同总价款为人民币10,560万元（含税）；该事项已于11月4日获董事会审议通过，无需提交股东会审议。合同约定可分批提货、提货时付款，公告未披露交付及收款已经完成。",
-          "stage": "2026年11月4日董事会审议通过，相关买卖合同已签署，未披露交付及收款完成",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-17T09:54:43+08:00",
-          "updatedAt": "2026-11-16T17:50:44-08:00",
-          "compiledAt": "2026-11-16T17:50:44-08:00",
-          "researchCutoff": "2026-11-06T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "康惠股份",
-          "version": "7c3ae942c144321e420139fade67d670b34ee71464636b3d3b7c5e27e114cec7",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "康惠股份关于处置资产的公告",
-              "publisher": "陕西康惠制药股份有限公司",
-              "date": "2026-11-05",
-              "location": "物理第1页，交易概述；第2页，交易要素及审批程序；第5页，协议主要内容；第6页，落款",
-              "retrievedAt": "2026-11-17T08:04:15+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225656886.PDF"
-            },
-            {
-              "title": "康惠股份第六届董事会第十九次会议决议公告",
-              "publisher": "陕西康惠制药股份有限公司",
-              "date": "2026-11-05",
-              "location": "物理第1页，第一项议案",
-              "retrievedAt": "2026-11-17T08:04:15+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225656887.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-53438170e572906ca975",
       "objectId": "listed-002109-sz",
       "type": "组织机构调整",
@@ -52247,6 +52347,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T10:55:46+08:00",
           "updatedAt": "2026-11-16T18:51:43-08:00",
           "compiledAt": "2026-11-16T18:51:43-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -52292,6 +52393,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T10:55:46+08:00",
           "updatedAt": "2026-11-16T18:51:42-08:00",
           "compiledAt": "2026-11-16T18:51:42-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -52312,6 +52414,59 @@ window.PROTOTYPE = {
               "location": "物理第1页，正文及落款",
               "retrievedAt": "2026-11-17T08:05:26+08:00",
               "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1106/2026110600405_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-8dd202eb46de0beffdb2",
+      "objectId": "listed-002109-sz",
+      "type": "高级管理人员变动",
+      "topics": [
+        "副总经理辞职",
+        "副总经理聘任"
+      ],
+      "updates": [
+        {
+          "id": "production-18925900a3144891cbed381a",
+          "date": "2026-11-05",
+          "time": "",
+          "title": "两名副总经理辞职，聘任裴双梨、高浩",
+          "summary": "陕西兴化化学股份有限公司（ST兴化）2026年11月5日公告，庞战军、石军朝因工作调动辞去公司及子公司兴化化工副总经理职务，辞职报告自送达董事会起生效。公司11月3日董事会审议通过聘任裴双梨、高浩为公司副总经理，任期与本届董事会任期一致。",
+          "stage": "两名副总经理辞职报告自送达董事会起生效；11月3日董事会审议通过聘任两名副总经理",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T19:11:00-08:00",
+          "compiledAt": "2026-11-16T19:11:00-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST兴化",
+          "version": "18925900a3144891cbed381ad896adb639e6cfadb11c981cef3019e16ff3c65d",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于副总经理辞职及聘任副总经理的公告",
+              "publisher": "陕西兴化化学股份有限公司",
+              "date": "2026-11-05",
+              "location": "物理第1—2页辞职及聘任说明",
+              "retrievedAt": "2026-11-17T08:03:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225657469.PDF"
+            },
+            {
+              "title": "第八届董事会第十四次会议决议公告",
+              "publisher": "陕西兴化化学股份有限公司",
+              "date": "2026-11-05",
+              "location": "物理第1—2页第一项议案",
+              "retrievedAt": "2026-11-17T08:03:45+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225657468.PDF"
             }
           ],
           "tables": []
@@ -56942,6 +57097,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "aa07fab98771a42595ad",
+      "date": "2026-11-17",
+      "compiledAt": "2026-11-16T18:51:44-08:00",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "snapshotUrl": "publications/aa07fab98771a42595ad/index.html",
+      "publishedAt": "2026-11-17T10:55:46+08:00"
+    },
     {
       "id": "d9e01955eccfff8c4ff0",
       "date": "2026-11-17",
