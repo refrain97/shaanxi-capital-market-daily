@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-16-49332fb5d2cc",
-      "compiledAt": "2026-11-16T19:56:59-08:00",
+      "id": "2026-11-16-a087d8b893e9",
+      "compiledAt": "2026-11-16T20:05:44-08:00",
       "cutoff": "2026-11-06T23:59:59+08:00",
       "windowStart": "2026-10-31",
       "windowEnd": "2026-11-06",
@@ -28,6 +28,7 @@ window.PROTOTYPE = {
         "production-7fce3b458732d30a1a11e055",
         "production-6b0acfadec8b1e831e03f044",
         "production-67078c4a610b7e376bc12c78",
+        "production-39b7654dcd0e9858adaaade3",
         "production-25786f7fb77863c6330c72e2",
         "production-1ff2f8906939bcab61ed9d7f",
         "production-18925900a3144891cbed381a",
@@ -413,6 +414,7 @@ window.PROTOTYPE = {
       "production-7e77dd958728e759bc4563a8": "2026-11-10T19:06:08-08:00",
       "production-c3004a7e63f24718f0e89a77": "2026-11-10T21:37:30-08:00",
       "production-1651348fac30f8afa2f95955": "2026-11-10T21:53:20-08:00",
+      "production-3716f2c98c14a39e07708522": "2026-11-10T21:54:37-08:00",
       "production-5e940ed22fc7001229e21544": "2026-11-10T22:06:42-08:00",
       "production-90f759fc09e8b27eabc6ca76": "2026-11-10T22:08:38-08:00",
       "production-7c47834058fd9baa0b60658a": "2026-11-10T22:16:04-08:00",
@@ -510,6 +512,7 @@ window.PROTOTYPE = {
       "production-323675c6593545f4b5e02849": "2026-11-11T07:32:33-08:00",
       "production-9beb12ddf224e252df1fcaf1": "2026-11-11T07:32:33-08:00",
       "production-a2587675e43c33b29ff186a2": "2026-11-11T07:34:19-08:00",
+      "production-1351ab6f1886258e07158301": "2026-11-11T07:40:24-08:00",
       "production-6a98fc988cc44b022fb3773a": "2026-11-11T07:43:48-08:00",
       "production-8254b3aa7d8fff0677d65d06": "2026-11-11T07:43:48-08:00",
       "production-39cb66b419a63d40e4209b6b": "2026-11-11T07:45:47-08:00",
@@ -620,7 +623,8 @@ window.PROTOTYPE = {
       "production-62ec8a72fa84ed9efdc227d0": "2026-11-16T19:53:31-08:00",
       "production-7da702f035ad276a6bac50d8": "2026-11-16T19:56:55-08:00",
       "production-dcd140ad442a83611026fc33": "2026-11-16T19:56:55-08:00",
-      "production-8b69726f4b8a4b48467574c2": "2026-11-16T19:56:55-08:00"
+      "production-8b69726f4b8a4b48467574c2": "2026-11-16T19:56:55-08:00",
+      "production-39b7654dcd0e9858adaaade3": "2026-11-16T20:05:43-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -3179,6 +3183,13 @@ window.PROTOTYPE = {
           "group": "套期保值",
           "level": "deep"
         },
+        "production-3716f2c98c14a39e07708522": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "金花企业（集团）股份有限公司2026年10月31日公告，董事会于10月29日审议通过聘任议案，拟将2026年度财务报告及内部控制审计机构由信永中和变更为希格玛会计师事务所（特殊普通合伙）。财务审计费用90万元、内控审计费用40万元，合计130万元；本次聘任尚需股东会审议，并自审议通过之日起生效。"
+        },
         "production-5e940ed22fc7001229e21544": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -3820,6 +3831,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西部证券2026年10月29日披露，董事会于10月28日以11票同意、0票反对、0票弃权审议通过2026年第三季度报告，报告全文与决议同日披露。公司第三季度财务会计报告未经审计。"
+        },
+        "production-1351ab6f1886258e07158301": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "盘龙药业2026年10月29日公告，董事会于10月27日审议通过2026年前三季度利润分配方案，根据已有股东会授权，无需再提交股东会审议。公司拟以扣除回购股份后的136,435,853股为基数，每10股派发现金红利人民币0.50元（含税），预计派发6,821,792.65元（含税），不送红股、不以资本公积金转增股本；若本方案披露日至实施权益分派股权登记日期间总股本发生变动，拟保持每股分配比例不变，相应调整分配总额。"
+        },
+        "production-39b7654dcd0e9858adaaade3": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "盘龙药业2026年11月5日公告，前三季度权益分派以扣除回购股份后的136,435,853股为基数，每10股派人民币0.50元（含税），预计派发6,821,792.65元（含税），不送红股、不转增股本。股权登记日为11月10日，除权除息日为11月11日，代派现金红利计划于11月11日划入股东资金账户；本公告为实施安排，未确认实际到账。"
         },
         "production-6a98fc988cc44b022fb3773a": {
           "version": "listed-scope-20261019",
@@ -4523,8 +4548,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-16-49332fb5d2cc",
-      "editionId": "selection-86e1676f4cc7b4d04be5",
+      "sourceEditionId": "2026-11-16-a087d8b893e9",
+      "editionId": "selection-f6ec0cfa027ae54425de",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -16613,6 +16638,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T12:01:19+08:00",
           "updatedAt": "2026-11-16T19:53:31-08:00",
           "compiledAt": "2026-11-16T19:53:31-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -22164,6 +22190,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T12:01:19+08:00",
           "updatedAt": "2026-11-16T19:56:55-08:00",
           "compiledAt": "2026-11-16T19:56:55-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -40658,6 +40685,53 @@ window.PROTOTYPE = {
       ]
     },
     {
+      "id": "production-event-327420a2bf9258724508",
+      "objectId": "listed-600080-sh",
+      "type": "拟变更年度审计机构",
+      "topics": [
+        "2026年度财务报告审计",
+        "2026年度内部控制审计",
+        "拟聘任希格玛"
+      ],
+      "updates": [
+        {
+          "id": "production-3716f2c98c14a39e07708522",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "拟改聘希格玛为2026年度审计机构，费用合计130万元",
+          "summary": "金花企业（集团）股份有限公司2026年10月31日公告，董事会于10月29日审议通过聘任议案，拟将2026年度财务报告及内部控制审计机构由信永中和变更为希格玛会计师事务所（特殊普通合伙）。财务审计费用90万元、内控审计费用40万元，合计130万元；本次聘任尚需股东会审议，并自审议通过之日起生效。",
+          "stage": "2026年10月29日董事会同意聘任希格玛，尚待股东会审议，并自股东会审议通过之日起生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T14:00:33+08:00",
+          "updatedAt": "2026-11-10T21:54:38-08:00",
+          "compiledAt": "2026-11-10T21:54:38-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "ST金花",
+          "version": "3716f2c98c14a39e077085224c9c235df5d77fcdf8cb7d450869356672d69389",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "金花企业（集团）股份有限公司关于聘任会计师事务所的公告",
+              "publisher": "金花企业（集团）股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1页重要内容提示及董事会审议情况，第3页审计收费，第4页生效日期及落款",
+              "retrievedAt": "2026-11-05T08:05:37+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649774.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
       "id": "production-event-3b35c901dfc720059d89",
       "objectId": "listed-688813-sh",
       "type": "季度业绩披露",
@@ -46202,6 +46276,94 @@ window.PROTOTYPE = {
               "location": "物理第1页：重要内容提示第3项；物理第13页：审计报告",
               "retrievedAt": "2026-11-05T08:04:54+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225633953.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-4753e684502fc1fca70c",
+      "objectId": "listed-002864-sz",
+      "type": "权益分派",
+      "topics": [
+        "2026年前三季度利润分配方案",
+        "董事会审议通过"
+      ],
+      "updates": [
+        {
+          "id": "production-1351ab6f1886258e07158301",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "前三季度分红方案获董事会通过，拟每10股派0.50元",
+          "summary": "盘龙药业2026年10月29日公告，董事会于10月27日审议通过2026年前三季度利润分配方案，根据已有股东会授权，无需再提交股东会审议。公司拟以扣除回购股份后的136,435,853股为基数，每10股派发现金红利人民币0.50元（含税），预计派发6,821,792.65元（含税），不送红股、不以资本公积金转增股本；若本方案披露日至实施权益分派股权登记日期间总股本发生变动，拟保持每股分配比例不变，相应调整分配总额。",
+          "stage": "2026年10月27日董事会审议通过，无需再次提交股东会；尚非权益分派实施完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T23:50:54+08:00",
+          "updatedAt": "2026-11-11T07:40:24-08:00",
+          "compiledAt": "2026-11-11T07:40:24-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "盘龙药业",
+          "version": "1351ab6f1886258e0715830158b73e936dd7f3162bdef1277c73ca64f7d68d6c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "第五届董事会第十一次会议决议公告",
+              "publisher": "陕西盘龙药业集团股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页第二项议案；第2页授权说明及落款",
+              "retrievedAt": "2026-11-05T08:04:57+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637110.PDF"
+            },
+            {
+              "title": "关于2026年前三季度利润分配方案的公告",
+              "publisher": "陕西盘龙药业集团股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页审议程序；第2页利润分配方案及调整原则；第3页落款",
+              "retrievedAt": "2026-11-05T08:04:57+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637109.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
+          "id": "production-39b7654dcd0e9858adaaade3",
+          "date": "2026-11-05",
+          "time": "",
+          "title": "披露前三季度分红实施安排：每10股派0.50元",
+          "summary": "盘龙药业2026年11月5日公告，前三季度权益分派以扣除回购股份后的136,435,853股为基数，每10股派人民币0.50元（含税），预计派发6,821,792.65元（含税），不送红股、不转增股本。股权登记日为11月10日，除权除息日为11月11日，代派现金红利计划于11月11日划入股东资金账户；本公告为实施安排，未确认实际到账。",
+          "stage": "披露权益分派实施安排：股权登记日11月10日、除权除息日及现金红利计划划付日11月11日；不认定实际到账完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T20:05:43-08:00",
+          "compiledAt": "2026-11-16T20:05:43-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "盘龙药业",
+          "version": "39b7654dcd0e9858adaaade3cff6b5c756c684419afbc5551e41b29637a273fb",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年前三季度权益分派实施公告",
+              "publisher": "陕西盘龙药业集团股份有限公司",
+              "date": "2026-11-05",
+              "location": "第1、3、4、5页",
+              "retrievedAt": "2026-11-17T08:03:47+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225657575.PDF"
             }
           ],
           "tables": []
@@ -53095,6 +53257,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T12:01:19+08:00",
           "updatedAt": "2026-11-16T19:56:57-08:00",
           "compiledAt": "2026-11-16T19:56:57-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -53140,6 +53303,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T12:01:19+08:00",
           "updatedAt": "2026-11-16T19:56:56-08:00",
           "compiledAt": "2026-11-16T19:56:56-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -53168,6 +53332,50 @@ window.PROTOTYPE = {
     }
   ],
   "editions": [
+    {
+      "id": "selection-f6ec0cfa027ae54425de",
+      "date": "2026-11-17",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "compiledAt": "2026-11-17T12:09:53+08:00",
+      "researchCutoff": "2026-11-06T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-06T23:59:59+08:00",
+      "updateIds": [
+        "production-b71c05392a301503b9863ab8"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-f6ec0cfa027ae54425de/page-01.png",
+          "width": 1080,
+          "height": 800,
+          "sha256": "ec78b3d13bf0687fd5b7431c872cd41b60ef9e01b814d538da4cb0e1197ca609"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-16-a087d8b893e9",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-11-06",
+      "rangeEnd": "2026-11-06",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-74619bdc96355e643aae",
+          "updateId": "production-b71c05392a301503b9863ab8",
+          "version": "b71c05392a301503b9863ab8180eedbedfac7d0d58171307b28e4784e1dd67f5",
+          "objectName": "西安奕材",
+          "type": "listed",
+          "category": "控股股东提议股份回购",
+          "date": "2026-11-06",
+          "title": "筹备回购事项董事会，获银行贷款支持意向",
+          "business": "股份管理",
+          "share": {
+            "title": "筹备回购事项董事会，获银行贷款支持意向",
+            "facts": "公告，已就控股股东回购提议筹备董事会，获银行贷款支持意向，自筹资金初步落实。原提议拟以人民币1亿至2亿元回购，用于注销和/或员工持股计划、股权激励；本次未披露方案审议通过、贷款到账或实际回购成交。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-86e1676f4cc7b4d04be5",
       "date": "2026-11-17",
@@ -57878,6 +58086,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "0a0c48c0dba4d12647fb",
+      "date": "2026-11-17",
+      "compiledAt": "2026-11-16T19:56:59-08:00",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "snapshotUrl": "publications/0a0c48c0dba4d12647fb/index.html",
+      "publishedAt": "2026-11-17T12:01:19+08:00"
+    },
     {
       "id": "1328310bf9429eceee8a",
       "date": "2026-11-17",
