@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-16-1febb94e1b17",
-      "compiledAt": "2026-11-16T16:22:35-08:00",
+      "id": "2026-11-16-8678cab864d8",
+      "compiledAt": "2026-11-16T17:14:49-08:00",
       "cutoff": "2026-11-06T23:59:59+08:00",
       "windowStart": "2026-10-31",
       "windowEnd": "2026-11-06",
@@ -14,6 +14,7 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-11-06T23:59:59+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-8e22522da8bd9dc6b152106d",
         "production-67078c4a610b7e376bc12c78",
         "production-1ff2f8906939bcab61ed9d7f"
       ],
@@ -76,6 +77,7 @@ window.PROTOTYPE = {
       "production-f951d2764e7d9b9fb7140f4a": "2026-10-16T12:06:50+08:00",
       "production-3bcf24c86f9ea11854323164": "2026-10-16T12:04:59+08:00",
       "production-0dece4ad493c8ae5090d11be": "2026-10-16T12:16:55+08:00",
+      "production-4963d300c8705d777266b329": "2026-10-16T12:18:37+08:00",
       "production-cefcd22b9edc929156ef26ab": "2026-10-16T12:15:09+08:00",
       "production-5cad9adf9d1007ca22900a3f": "2026-10-16T12:28:38+08:00",
       "production-eaba31db1ae93ae1af3c1763": "2026-10-16T12:30:19+08:00",
@@ -575,7 +577,8 @@ window.PROTOTYPE = {
       "production-6f1d2e724363a0b61e5eb77d": "2026-11-13T21:31:30-08:00",
       "production-1708230283abb1dcf3b6595a": "2026-11-13T21:35:58-08:00",
       "production-1ff2f8906939bcab61ed9d7f": "2026-11-16T16:22:33-08:00",
-      "production-67078c4a610b7e376bc12c78": "2026-11-16T16:22:33-08:00"
+      "production-67078c4a610b7e376bc12c78": "2026-11-16T16:22:33-08:00",
+      "production-8e22522da8bd9dc6b152106d": "2026-11-16T17:14:48-08:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -957,12 +960,26 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "西安银行2026年10月21日披露，选举徐江旻为第六届董事会独立董事的议案已列入拟于11月5日召开的2026年第一次临时股东会议程。该事项尚待股东会选举，独立董事任职资格经监管部门核准后方开始履职。"
         },
+        "production-4963d300c8705d777266b329": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安银行2026年10月14日披露，10月13日召开的第六届董事会第三十九次会议审议通过提名史跃峰为第六届董事会独立董事候选人的议案。该议案尚需提交股东会审议，史跃峰须在任职资格经监管部门核准后开始履职。"
+        },
         "production-d43e30558850004319b47ad9": {
           "version": "listed-scope-20261019",
           "action": "其他",
           "group": "其他动态",
           "level": "brief",
           "summary": "西安银行2026年10月21日披露，选举史跃峰为第六届董事会独立董事的议案已列入拟于11月5日召开的2026年第一次临时股东会议程。该事项尚待股东会选举，任职资格经监管部门核准后方开始履职。"
+        },
+        "production-8e22522da8bd9dc6b152106d": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西安银行2026年11月6日公告，11月5日召开的2026年第一次临时股东会选举史跃峰为第六届董事会独立董事。本次材料未披露其监管任职资格核准或开始履职情况。"
         },
         "production-cefcd22b9edc929156ef26ab": {
           "version": "listed-scope-20261009",
@@ -4312,7 +4329,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-16-1febb94e1b17",
+      "sourceEditionId": "2026-11-16-8678cab864d8",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -18013,6 +18030,57 @@ window.PROTOTYPE = {
       ],
       "updates": [
         {
+          "id": "production-4963d300c8705d777266b329",
+          "date": "2026-10-14",
+          "time": "",
+          "title": "董事会同意提名史跃峰为独立董事候选人",
+          "summary": "西安银行2026年10月14日披露，10月13日召开的第六届董事会第三十九次会议审议通过提名史跃峰为第六届董事会独立董事候选人的议案。该议案尚需提交股东会审议，史跃峰须在任职资格经监管部门核准后开始履职。",
+          "stage": "董事会审议通过提名，尚需股东会审议及监管任职资格核准",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-10-16T12:27:39+08:00",
+          "updatedAt": "2026-10-16T12:18:37+08:00",
+          "compiledAt": "2026-10-16T12:18:37+08:00",
+          "researchCutoff": "2026-10-15T17:07:38+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安银行",
+          "version": "4963d300c8705d777266b329f079b13041e9de2f5c324a7da7d3f40eb097c50c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安银行股份有限公司第六届董事会第三十九次会议决议公告",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-10-14",
+              "location": "物理第1页会议日期；第2页第二项议案及公告落款",
+              "retrievedAt": "2026-10-15T17:08:19+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603837.PDF"
+            },
+            {
+              "title": "西安银行股份有限公司独立董事提名人声明与承诺（史跃峰）",
+              "publisher": "西安银行股份有限公司董事会",
+              "date": "2026-10-14",
+              "location": "物理第1页提名对象；第4页落款日期为2026年10月13日",
+              "retrievedAt": "2026-10-15T17:08:19+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603845.PDF"
+            },
+            {
+              "title": "西安银行股份有限公司独立董事候选人声明与承诺（史跃峰）",
+              "publisher": "西安银行股份有限公司（声明人：史跃峰）",
+              "date": "2026-10-14",
+              "location": "物理第1页候选人声明；第4页落款日期为2026年10月13日",
+              "retrievedAt": "2026-10-15T17:08:19+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603839.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
           "id": "production-d43e30558850004319b47ad9",
           "date": "2026-10-21",
           "time": "",
@@ -18051,6 +18119,48 @@ window.PROTOTYPE = {
               "location": "物理第1页会议日期、第2页议案1.02",
               "retrievedAt": "2026-10-21T08:02:41+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612412.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
+          "id": "production-8e22522da8bd9dc6b152106d",
+          "date": "2026-11-06",
+          "time": "",
+          "title": "股东会选举史跃峰为第六届董事会独立董事",
+          "summary": "西安银行2026年11月6日公告，11月5日召开的2026年第一次临时股东会选举史跃峰为第六届董事会独立董事。本次材料未披露其监管任职资格核准或开始履职情况。",
+          "stage": "11月5日股东会选举史跃峰为第六届董事会独立董事；本次材料未确认监管任职资格核准或开始履职",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-16T17:14:48-08:00",
+          "compiledAt": "2026-11-16T17:14:48-08:00",
+          "researchCutoff": "2026-11-06T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西安银行",
+          "version": "8e22522da8bd9dc6b152106dedf5d930120a51b00bc44fcae099e62a77999018",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安银行股份有限公司2026年第一次临时股东会决议公告",
+              "publisher": "西安银行股份有限公司",
+              "date": "2026-11-06",
+              "location": "物理第1页会议日期、第2页议案1.02表决结果、第3页落款",
+              "retrievedAt": "2026-11-17T08:04:08+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225659709.PDF"
+            },
+            {
+              "title": "西安银行股份有限公司2026年第一次临时股东会法律意见书",
+              "publisher": "北京金杜（成都）律师事务所",
+              "date": "2026-11-06",
+              "location": "物理第5页议案1.02及当选结论；第6页签章日期为2026年11月5日",
+              "retrievedAt": "2026-11-17T08:04:08+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225659702.PDF"
             }
           ],
           "tables": []
@@ -56306,6 +56416,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "59583b7914bc4999858a",
+      "date": "2026-11-17",
+      "compiledAt": "2026-11-16T16:22:35-08:00",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "snapshotUrl": "publications/59583b7914bc4999858a/index.html",
+      "publishedAt": "2026-11-17T09:04:21+08:00"
+    },
     {
       "id": "13f7eb062cb17c2ee9fe",
       "date": "2026-11-17",
