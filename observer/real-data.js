@@ -4615,8 +4615,8 @@ window.PROTOTYPE = {
     },
     "privateFilingHistory": {
       "start": "2026-01-01",
-      "end": "2026-11-01",
-      "checkedAt": "2026-11-05T08:10:38+08:00",
+      "end": "2026-11-06",
+      "checkedAt": "2026-11-17T08:07:21+08:00",
       "scopeCount": 92,
       "completeManagers": 92,
       "partialManagers": 0,
@@ -5258,7 +5258,7 @@ window.PROTOTYPE = {
           "name": "苏州水润山禾私募基金管理有限公司",
           "registrationNo": "P1064295",
           "status": "complete",
-          "visibleProducts": 4
+          "visibleProducts": 5
         },
         {
           "objectId": "private-2111231329102046",
@@ -5269,6 +5269,19 @@ window.PROTOTYPE = {
         }
       ],
       "products": [
+        {
+          "objectId": "private-1705251723108664",
+          "id": "2611021444104886",
+          "managerName": "苏州水润山禾私募基金管理有限公司",
+          "name": "水润山禾嘉陵江3号私募证券投资基金",
+          "filingNo": "SJB452",
+          "filedAt": "2026-11-02",
+          "establishedAt": "2026-10-26",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2611021444104886.html",
+          "retrievedAt": "2026-11-17T08:06:29+08:00"
+        },
         {
           "objectId": "private-1809181551101419",
           "id": "2610291033108109",
@@ -6399,7 +6412,7 @@ window.PROTOTYPE = {
           "coverageComplete": true,
           "coveredManagers": 92,
           "scopeCount": 92,
-          "count": 0
+          "count": 1
         }
       ]
     }
@@ -80186,6 +80199,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "b60d4caa3b01e71152bd",
+      "date": "2026-11-14",
+      "compiledAt": "2026-11-13T21:35:59-08:00",
+      "cutoff": "2026-11-01T23:59:59+08:00",
+      "snapshotUrl": "publications/b60d4caa3b01e71152bd/index.html",
+      "publishedAt": "2026-11-14T13:44:46+08:00"
+    },
     {
       "id": "850587e6604f8e46c7e8",
       "date": "2026-11-14",
