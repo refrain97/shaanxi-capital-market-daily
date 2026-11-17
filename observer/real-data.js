@@ -4662,7 +4662,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-11-17-c2b04f9996c6",
       "editionId": "selection-3e74268c2e391b08f456",
       "selectionMode": "current"
@@ -54974,6 +54974,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。历史对照限于已留存的2025年原预案、本次注册稿及提示公告回溯的审核注册节点，不声称覆盖所有中间版本或全部历史调整。 本轮未留存7月、9月各节点的独立公告全文；相关历史明确归因于11月3日提示公告，不据此补写注册批复有效期等未核条款。 现有材料未提供发行结果、登记上市或验资到账证明；相关阶段表述限定于本版文件，不推断截止日不存在其他后续公告。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-17T16:24:48+08:00",
           "updatedAt": "2026-11-17T00:03:35-08:00",
           "compiledAt": "2026-11-17T00:03:35-08:00",
           "researchCutoff": "2026-11-06T23:59:59+08:00",
@@ -60596,6 +60597,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "cb5b5e2d63ed2f253b94",
+      "date": "2026-11-17",
+      "compiledAt": "2026-11-17T00:03:37-08:00",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "snapshotUrl": "publications/cb5b5e2d63ed2f253b94/index.html",
+      "publishedAt": "2026-11-17T16:24:48+08:00"
+    },
     {
       "id": "01533ee360f9087ca0ed",
       "date": "2026-11-17",
