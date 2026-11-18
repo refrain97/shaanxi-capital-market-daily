@@ -4675,8 +4675,8 @@ window.PROTOTYPE = {
     },
     "privateFilingHistory": {
       "start": "2026-01-01",
-      "end": "2026-11-06",
-      "checkedAt": "2026-11-17T08:07:21+08:00",
+      "end": "2026-11-11",
+      "checkedAt": "2026-11-18T08:04:49+08:00",
       "scopeCount": 92,
       "completeManagers": 92,
       "partialManagers": 0,
@@ -5129,7 +5129,7 @@ window.PROTOTYPE = {
           "name": "陕西九和岛基金管理有限公司",
           "registrationNo": "P1071318",
           "status": "complete",
-          "visibleProducts": 15
+          "visibleProducts": 16
         },
         {
           "objectId": "private-101000050603",
@@ -5329,6 +5329,19 @@ window.PROTOTYPE = {
         }
       ],
       "products": [
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2611110901108326",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛瑶光定制2号私募证券投资基金",
+          "filingNo": "SGS534",
+          "filedAt": "2026-11-11",
+          "establishedAt": "2026-10-14",
+          "custodian": "广发证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2611110901108326.html",
+          "retrievedAt": "2026-11-18T08:03:11+08:00"
+        },
         {
           "objectId": "private-1705251723108664",
           "id": "2611021444104886",
@@ -6472,7 +6485,7 @@ window.PROTOTYPE = {
           "coverageComplete": true,
           "coveredManagers": 92,
           "scopeCount": 92,
-          "count": 1
+          "count": 2
         }
       ]
     }
@@ -60597,6 +60610,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "41a1cdd61441199e3ec4",
+      "date": "2026-11-17",
+      "compiledAt": "2026-11-17T00:03:37-08:00",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "snapshotUrl": "publications/41a1cdd61441199e3ec4/index.html",
+      "publishedAt": "2026-11-17T16:54:18+08:00"
+    },
     {
       "id": "cb5b5e2d63ed2f253b94",
       "date": "2026-11-17",
