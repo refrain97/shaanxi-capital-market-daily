@@ -5,50 +5,19 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-17-c2b04f9996c6",
-      "compiledAt": "2026-11-17T00:03:37-08:00",
-      "cutoff": "2026-11-06T23:59:59+08:00",
-      "windowStart": "2026-10-31",
-      "windowEnd": "2026-11-06",
-      "researchCutoff": "2026-11-06T23:59:59+08:00",
-      "sourceDiscoveryCutoff": "2026-11-06T23:59:59+08:00",
+      "id": "2026-11-18-641bf65bb1e6",
+      "compiledAt": "2026-11-18T09:20:22+09:00",
+      "cutoff": "2026-11-11T23:59:59+08:00",
+      "windowStart": "2026-11-05",
+      "windowEnd": "2026-11-11",
+      "researchCutoff": "2026-11-11T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-11T23:59:59+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
-        "production-e6bc2b0c91ff09c1e0522f0c",
-        "production-b71c05392a301503b9863ab8",
-        "production-a42450f2d50cb814d6875258",
-        "production-8e22522da8bd9dc6b152106d",
-        "production-62ec8a72fa84ed9efdc227d0",
-        "production-5464c67b47cc24d818bba0cc",
-        "production-458aee73595f9d24c0271747",
-        "production-e9df758c356eff4c50df58a4",
-        "production-dcd208ed000fb324af7a9fb7",
-        "production-dc3763e35195aaca30fb7d87",
-        "production-b6e063991ada01a1b84773f6",
-        "production-b284be35ba1eec716a103b8f",
-        "production-b0cbe205b17c4aee2f163fd0",
-        "production-aab3b197ac429506ce3423ab",
-        "production-8d9161826043b348c69607e1",
-        "production-7fce3b458732d30a1a11e055",
-        "production-6b0acfadec8b1e831e03f044",
-        "production-68f9037d44ac16f6fe8321bb",
-        "production-67078c4a610b7e376bc12c78",
-        "production-5e11784e8d064ea8bdb7d84a",
-        "production-39b7654dcd0e9858adaaade3",
-        "production-25786f7fb77863c6330c72e2",
-        "production-1ff2f8906939bcab61ed9d7f",
-        "production-18925900a3144891cbed381a",
-        "production-dcd140ad442a83611026fc33",
-        "production-8b69726f4b8a4b48467574c2",
-        "production-7da702f035ad276a6bac50d8",
-        "production-7ccfd27f3e1090d6e740eb26",
-        "production-36e0dd03642e028eb8feab67",
-        "production-0cc43ab50d58b2256a477de6",
-        "production-ba2e1df17d9b576cb7bf5dd5",
-        "production-a422e60a5c8d9d961def17e6",
-        "production-732f425428cd2e8e921569a2",
-        "production-87e28113161404e949ff2c71",
-        "production-612f2c4654d9b12136cf50fb"
+        "production-ad3c0b69166ef05e5d091239",
+        "production-5bdfb27fbf2ad9594f5cf017",
+        "production-58dcd0e45f20f542701f252e",
+        "production-3a5094a25fc0261f0da88450"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -649,7 +618,11 @@ window.PROTOTYPE = {
       "production-aab3b197ac429506ce3423ab": "2026-11-16T22:20:01-08:00",
       "production-b0cbe205b17c4aee2f163fd0": "2026-11-16T23:05:34-08:00",
       "production-68f9037d44ac16f6fe8321bb": "2026-11-16T23:43:45-08:00",
-      "production-732f425428cd2e8e921569a2": "2026-11-17T00:03:35-08:00"
+      "production-732f425428cd2e8e921569a2": "2026-11-17T00:03:35-08:00",
+      "production-5bdfb27fbf2ad9594f5cf017": "2026-11-18T09:20:18+09:00",
+      "production-3a5094a25fc0261f0da88450": "2026-11-18T09:20:18+09:00",
+      "production-58dcd0e45f20f542701f252e": "2026-11-18T09:20:18+09:00",
+      "production-ad3c0b69166ef05e5d091239": "2026-11-18T09:20:18+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -4654,6 +4627,34 @@ window.PROTOTYPE = {
           "action": "定增",
           "group": "股权投资与融资",
           "level": "deep"
+        },
+        "production-5bdfb27fbf2ad9594f5cf017": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "博通股份2026年11月11日披露公告，计划于12月1日16:00—17:00在上证路演中心以网络互动形式召开2026年第三季度业绩说明会。投资者可于11月24日至11月30日16:00前通过上证路演中心或公司邮箱预先提问。"
+        },
+        "production-3a5094a25fc0261f0da88450": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西黑猫2026年11月11日公告，控股股东陕西黄河矿业（集团）有限责任公司已向许昌云优供应链管理有限公司质押6,300万股，用于黄河矿业经营，质押起始日为2026年11月9日、到期日为2027年2月9日。本次质押后，黄河矿业累计质押31,300万股，占其所持公司股份的33.95%、公司总股本的15.32%。"
+        },
+        "production-58dcd0e45f20f542701f252e": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "国际医学2026年11月11日公告，控股股东陕西世纪新元商业管理有限公司已于11月6日解除向开源证券股份有限公司质押的3,090万股，占其所持公司股份的5.02%、公司总股本的1.38%。"
+        },
+        "production-ad3c0b69166ef05e5d091239": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "国际医学2026年11月11日公告，控股股东陕西世纪新元商业管理有限公司于11月9日向长安国际信托股份有限公司办理1,480万股融资类质押，占其所持公司股份的2.40%、公司总股本的0.66%，披露到期日为2029年2月4日。该笔质押不属于补充质押，融资不用于满足上市公司生产经营相关需求。"
         }
       }
     },
@@ -4662,15 +4663,14 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-11-17-c2b04f9996c6",
-      "editionId": "selection-3e74268c2e391b08f456",
+      "status": "no_eligible_highlights",
+      "sourceEditionId": "2026-11-18-641bf65bb1e6",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
-      "windowStart": "2026-10-31",
-      "windowEnd": "2026-11-06",
-      "cutoff": "2026-11-06T23:59:59+08:00",
+      "windowStart": "2026-11-05",
+      "windowEnd": "2026-11-11",
+      "cutoff": "2026-11-11T23:59:59+08:00",
       "partial": true
     },
     "privateFilingHistory": {
@@ -55115,6 +55115,189 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-2563db58dc9744e206e5",
+      "objectId": "listed-600455-sh",
+      "type": "业绩说明会预告",
+      "topics": [
+        "2026年第三季度业绩说明会",
+        "投资者关系"
+      ],
+      "updates": [
+        {
+          "id": "production-5bdfb27fbf2ad9594f5cf017",
+          "date": "2026-11-11",
+          "time": "",
+          "title": "拟于12月1日召开第三季度业绩说明会",
+          "summary": "博通股份2026年11月11日披露公告，计划于12月1日16:00—17:00在上证路演中心以网络互动形式召开2026年第三季度业绩说明会。投资者可于11月24日至11月30日16:00前通过上证路演中心或公司邮箱预先提问。",
+          "stage": "公告计划于2026年12月1日16:00至17:00召开网络业绩说明会",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-18T09:20:18+09:00",
+          "compiledAt": "2026-11-18T09:20:18+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "博通股份",
+          "version": "5bdfb27fbf2ad9594f5cf0174d2bc71a05b04ae36717e3868a8463f2eae8514c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "博通股份关于召开2026年第三季度业绩说明会的公告",
+              "publisher": "西安博通资讯股份有限公司",
+              "date": "2026-11-11",
+              "location": "物理第1—2页；披露日期为11月11日，公告落款为11月10日",
+              "retrievedAt": "2026-11-18T08:00:38+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225664697.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-cbda393e2f63b829b004",
+      "objectId": "listed-601015-sh",
+      "type": "股东股份质押",
+      "topics": [
+        "黄河矿业",
+        "新增质押",
+        "累计质押"
+      ],
+      "updates": [
+        {
+          "id": "production-3a5094a25fc0261f0da88450",
+          "date": "2026-11-11",
+          "time": "",
+          "title": "控股股东黄河矿业质押6,300万股",
+          "summary": "陕西黑猫2026年11月11日公告，控股股东陕西黄河矿业（集团）有限责任公司已向许昌云优供应链管理有限公司质押6,300万股，用于黄河矿业经营，质押起始日为2026年11月9日、到期日为2027年2月9日。本次质押后，黄河矿业累计质押31,300万股，占其所持公司股份的33.95%、公司总股本的15.32%。",
+          "stage": "黄河矿业已办理6,300万股质押，质押起始日为2026年11月9日",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-18T09:20:18+09:00",
+          "compiledAt": "2026-11-18T09:20:18+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西黑猫",
+          "version": "3a5094a25fc0261f0da88450092ff4add0414475140c581098aafba8d328d070",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西黑猫：关于控股股东股份质押的公告",
+              "publisher": "陕西黑猫焦化股份有限公司",
+              "date": "2026-11-11",
+              "location": "物理第1页重要内容提示及本次质押表，第2页累计质押表",
+              "retrievedAt": "2026-11-18T08:00:46+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225665232.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-5fd1b5ae02ef9fadf24f",
+      "objectId": "listed-000516-sz",
+      "type": "股东股份解除质押",
+      "topics": [
+        "世纪新元",
+        "开源证券",
+        "解除质押"
+      ],
+      "updates": [
+        {
+          "id": "production-58dcd0e45f20f542701f252e",
+          "date": "2026-11-11",
+          "time": "",
+          "title": "控股股东世纪新元解除质押3,090万股",
+          "summary": "国际医学2026年11月11日公告，控股股东陕西世纪新元商业管理有限公司已于11月6日解除向开源证券股份有限公司质押的3,090万股，占其所持公司股份的5.02%、公司总股本的1.38%。",
+          "stage": "世纪新元于2026年11月6日办理30,900,000股解除质押",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-18T09:20:20+09:00",
+          "compiledAt": "2026-11-18T09:20:20+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "国际医学",
+          "version": "58dcd0e45f20f542701f252e7449373d0beacc4aeef334176f236fa54760053a",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于控股股东解除部分质押及进行股份质押的公告",
+              "publisher": "西安国际医学投资股份有限公司",
+              "date": "2026-11-11",
+              "location": "物理第1页主体及交易说明、控股股东本次股份解除质押表",
+              "retrievedAt": "2026-11-18T08:00:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225665554.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-7dc10a77072dde4df019",
+      "objectId": "listed-000516-sz",
+      "type": "股东股份质押",
+      "topics": [
+        "世纪新元",
+        "长安国际信托",
+        "融资类质押"
+      ],
+      "updates": [
+        {
+          "id": "production-ad3c0b69166ef05e5d091239",
+          "date": "2026-11-11",
+          "time": "",
+          "title": "控股股东世纪新元向长安国际信托质押1,480万股",
+          "summary": "国际医学2026年11月11日公告，控股股东陕西世纪新元商业管理有限公司于11月9日向长安国际信托股份有限公司办理1,480万股融资类质押，占其所持公司股份的2.40%、公司总股本的0.66%，披露到期日为2029年2月4日。该笔质押不属于补充质押，融资不用于满足上市公司生产经营相关需求。",
+          "stage": "世纪新元于2026年11月9日办理14,800,000股融资类质押",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-18T09:20:19+09:00",
+          "compiledAt": "2026-11-18T09:20:19+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "国际医学",
+          "version": "ad3c0b69166ef05e5d09123997134880f83a2813445e96566f9d89c45a4c99d4",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于控股股东解除部分质押及进行股份质押的公告",
+              "publisher": "西安国际医学投资股份有限公司",
+              "date": "2026-11-11",
+              "location": "物理第1页主体及交易说明、第1—2页股份质押表、第2页其他说明第1项",
+              "retrievedAt": "2026-11-18T08:00:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225665554.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -60610,6 +60793,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "412e62c13241f85c11f7",
+      "date": "2026-11-18",
+      "compiledAt": "2026-11-17T00:03:37-08:00",
+      "cutoff": "2026-11-06T23:59:59+08:00",
+      "snapshotUrl": "publications/412e62c13241f85c11f7/index.html",
+      "publishedAt": "2026-11-18T08:08:20+08:00"
+    },
     {
       "id": "41a1cdd61441199e3ec4",
       "date": "2026-11-17",
