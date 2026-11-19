@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-19-f1147a282511",
-      "compiledAt": "2026-11-19T10:15:53+09:00",
+      "id": "2026-11-19-14e89693de27",
+      "compiledAt": "2026-11-19T10:30:54+09:00",
       "cutoff": "2026-11-11T23:59:59+08:00",
       "windowStart": "2026-11-05",
       "windowEnd": "2026-11-11",
@@ -29,7 +29,11 @@ window.PROTOTYPE = {
         "production-506b7aaba690ca2d42134450",
         "production-4d572e54d06f8977c8fd4240",
         "production-2eccdc6ba6f2da670d1667ca",
-        "production-ba0b57b8a8c9043b42771ef9"
+        "production-ba0b57b8a8c9043b42771ef9",
+        "production-bdd76a6b55c98925289a1b9c",
+        "production-78dc77a256f2e0a442076f53",
+        "production-7622ecd0a0e1e7d8d3063ab2",
+        "production-654ea5db4eed358e7c980877"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -644,7 +648,11 @@ window.PROTOTYPE = {
       "production-c5f8288211865a3c0dee265a": "2026-11-19T09:53:44+09:00",
       "production-9b0f0c691ae357ab3f33b939": "2026-11-19T10:02:47+09:00",
       "production-ba0b57b8a8c9043b42771ef9": "2026-11-19T10:06:06+09:00",
-      "production-e1c753b0db449b5b7efabd45": "2026-11-19T10:15:52+09:00"
+      "production-e1c753b0db449b5b7efabd45": "2026-11-19T10:15:52+09:00",
+      "production-654ea5db4eed358e7c980877": "2026-11-19T10:30:50+09:00",
+      "production-78dc77a256f2e0a442076f53": "2026-11-19T10:30:50+09:00",
+      "production-bdd76a6b55c98925289a1b9c": "2026-11-19T10:30:50+09:00",
+      "production-7622ecd0a0e1e7d8d3063ab2": "2026-11-19T10:30:50+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1823,6 +1831,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "北化股份2026年10月21日公告，董事会于10月19日同意续聘立信会计师事务所（特殊普通合伙）为2026年度财务报表及内部控制审计机构，聘期一年。审计费用拟为人民币80万元（含税），其中年报审计50万元、内部控制审计30万元；续聘事项尚需股东会审议，并自审议通过之日起生效。"
+        },
+        "production-7622ecd0a0e1e7d8d3063ab2": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北化股份2026年11月7日公告，11月6日召开的2026年第一次临时股东会已审议通过《关于续聘会计师事务所的议案》。同意票为270,379,763股，占出席本次股东会有效表决权股份总数的99.8532%。"
         },
         "production-0a4e00bfe25f4039ed12b426": {
           "version": "listed-scope-20261019",
@@ -4747,6 +4762,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西麦科奥特医药科技股份有限公司2026年11月9日公告，核心产品MT1013关键性Ⅲ期临床试验的所有入组参与者均已完成研究治疗及方案规定的全部随访程序，并已出组。试验尚未揭盲，相关数据仍待完成核查及最终统计分析，安全性和有效性结果以正式临床研究报告为准。"
+        },
+        "production-654ea5db4eed358e7c980877": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西煤业2026年11月7日披露的10月主要运营数据公告显示，当月煤炭产量1,535.00万吨，同比增长2.40%；总发电量43.10亿千瓦时，同比增长29.94%。公告落款为11月6日，上述数据来自公司内部统计，可能与定期报告披露数据存在差异。"
+        },
+        "production-78dc77a256f2e0a442076f53": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "烽火电子2026年11月7日公告，控股子公司陕西长岭电子科技有限责任公司近期获得人民币6,026万元政府补助，首笔补助资金为1,592万元，截至公告披露日尚未到账，后续根据年度建设内容及投资计划拨付。本次为不具有持续性的项目专项补助，剩余资金下达批次、具体拨付时间及实际到位金额尚不能确定，对财务数据的最终影响以年度审计结果为准。"
+        },
+        "production-bdd76a6b55c98925289a1b9c": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "科华生物2026年11月7日公告，近日已与中国银行股份有限公司西安经济技术开发区支行签署保证合同，为全资子公司科华（西安）生物工程有限公司的人民币1,000万元流动资金借款及利息、违约金、赔偿金等费用提供连带责任保证。保证期间为主债权清偿期届满之日起三年；如分期清偿，则自保证合同生效之日起至最后一期债务履行期届满之日后三年。"
         }
       }
     },
@@ -4756,7 +4792,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-19-f1147a282511",
+      "sourceEditionId": "2026-11-19-14e89693de27",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -22488,6 +22524,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-19T09:27:05+08:00",
           "updatedAt": "2026-11-19T10:15:52+09:00",
           "compiledAt": "2026-11-19T10:15:52+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -27708,6 +27745,48 @@ window.PROTOTYPE = {
               "location": "物理第1—2页议案（二）",
               "retrievedAt": "2026-10-21T08:03:33+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612813.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
+          "id": "production-7622ecd0a0e1e7d8d3063ab2",
+          "date": "2026-11-07",
+          "time": "",
+          "title": "股东会通过续聘会计师事务所议案",
+          "summary": "北化股份2026年11月7日公告，11月6日召开的2026年第一次临时股东会已审议通过《关于续聘会计师事务所的议案》。同意票为270,379,763股，占出席本次股东会有效表决权股份总数的99.8532%。",
+          "stage": "2026年11月6日第一次临时股东会审议通过续聘会计师事务所议案，11月7日披露决议及法律意见",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T10:30:52+09:00",
+          "compiledAt": "2026-11-19T10:30:52+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北化股份",
+          "version": "7622ecd0a0e1e7d8d3063ab2567a8d08c29d2e15e4952b84f72fa3687b66cd60",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2026年第一次临时股东会决议公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-11-07",
+              "location": "物理第1页会议时间、第2页议案表决表",
+              "retrievedAt": "2026-11-18T08:01:57+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-07/1225662073.PDF"
+            },
+            {
+              "title": "国浩律师（成都）事务所关于北化股份2026年第一次临时股东会法律意见书",
+              "publisher": "国浩律师（成都）事务所",
+              "date": "2026-11-07",
+              "location": "物理第6页表决结果；第7页落款日期为2026年11月6日",
+              "retrievedAt": "2026-11-18T08:01:56+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-07/1225662074.PDF"
             }
           ],
           "tables": []
@@ -55879,6 +55958,141 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-70436409aa03e415e8eb",
+      "objectId": "listed-601225-sh",
+      "type": "月度运营数据披露",
+      "topics": [
+        "2026年10月煤炭及发电运营数据"
+      ],
+      "updates": [
+        {
+          "id": "production-654ea5db4eed358e7c980877",
+          "date": "2026-11-07",
+          "time": "",
+          "title": "披露10月运营数据：煤炭产量1,535万吨",
+          "summary": "陕西煤业2026年11月7日披露的10月主要运营数据公告显示，当月煤炭产量1,535.00万吨，同比增长2.40%；总发电量43.10亿千瓦时，同比增长29.94%。公告落款为11月6日，上述数据来自公司内部统计，可能与定期报告披露数据存在差异。",
+          "stage": "披露2026年10月及年内累计运营数据，属于内部统计",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T10:30:51+09:00",
+          "compiledAt": "2026-11-19T10:30:51+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕西煤业",
+          "version": "654ea5db4eed358e7c980877a604ece2bfa388050b9db979580151868ac17937",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西煤业股份有限公司2026年10月主要运营数据公告",
+              "publisher": "陕西煤业股份有限公司",
+              "date": "2026-11-07",
+              "location": "物理第1页运营数据表、表后说明及落款；落款日期为2026年11月6日",
+              "retrievedAt": "2026-11-18T08:00:48+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-07/1225660709.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-8c342f1ec9a5b5e52d7e",
+      "objectId": "listed-000561-sz",
+      "type": "政府补助",
+      "topics": [
+        "长岭科技项目专项补助",
+        "补助尚未到账"
+      ],
+      "updates": [
+        {
+          "id": "production-78dc77a256f2e0a442076f53",
+          "date": "2026-11-07",
+          "time": "",
+          "title": "控股子公司获6,026万元政府补助，尚未到账",
+          "summary": "烽火电子2026年11月7日公告，控股子公司陕西长岭电子科技有限责任公司近期获得人民币6,026万元政府补助，首笔补助资金为1,592万元，截至公告披露日尚未到账，后续根据年度建设内容及投资计划拨付。本次为不具有持续性的项目专项补助，剩余资金下达批次、具体拨付时间及实际到位金额尚不能确定，对财务数据的最终影响以年度审计结果为准。",
+          "stage": "披露控股子公司获得6026万元政府补助及首笔1592万元安排；截至公告披露日尚未到账",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T10:30:50+09:00",
+          "compiledAt": "2026-11-19T10:30:50+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "烽火电子",
+          "version": "78dc77a256f2e0a442076f53a5e2130c803c5e2d1ef278de5f42badfeff2592f",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于控股子公司获得政府补助的公告",
+              "publisher": "陕西烽火电子股份有限公司",
+              "date": "2026-11-07",
+              "location": "物理第1、3页",
+              "retrievedAt": "2026-11-18T08:00:12+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-07/1225660767.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-f8b55e61a5b6aef89ba6",
+      "objectId": "listed-002022-sz",
+      "type": "子公司借款担保",
+      "topics": [
+        "西安科华",
+        "中国银行西安经济技术开发区支行",
+        "保证合同签署"
+      ],
+      "updates": [
+        {
+          "id": "production-bdd76a6b55c98925289a1b9c",
+          "date": "2026-11-07",
+          "time": "",
+          "title": "签署保证合同，为西安科华1,000万元借款提供担保",
+          "summary": "科华生物2026年11月7日公告，近日已与中国银行股份有限公司西安经济技术开发区支行签署保证合同，为全资子公司科华（西安）生物工程有限公司的人民币1,000万元流动资金借款及利息、违约金、赔偿金等费用提供连带责任保证。保证期间为主债权清偿期届满之日起三年；如分期清偿，则自保证合同生效之日起至最后一期债务履行期届满之日后三年。",
+          "stage": "已签署保证合同，为全资子公司1000万元流动资金借款及相关费用提供连带责任保证",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T10:30:50+09:00",
+          "compiledAt": "2026-11-19T10:30:50+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "科华生物",
+          "version": "bdd76a6b55c98925289a1b9c49b387acd826c48a297cffa8ee929e2655d5a0f1",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于为子公司提供担保的公告",
+              "publisher": "上海科华生物工程股份有限公司",
+              "date": "2026-11-07",
+              "location": "物理第1、3页",
+              "retrievedAt": "2026-11-18T08:02:00+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-07/1225661927.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -61374,6 +61588,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "518d9b6a5ebaa7247ea3",
+      "date": "2026-11-19",
+      "compiledAt": "2026-11-19T10:15:53+09:00",
+      "cutoff": "2026-11-11T23:59:59+08:00",
+      "snapshotUrl": "publications/518d9b6a5ebaa7247ea3/index.html",
+      "publishedAt": "2026-11-19T09:27:05+08:00"
+    },
     {
       "id": "7ca3dfc9eef3cb0752ec",
       "date": "2026-11-19",
