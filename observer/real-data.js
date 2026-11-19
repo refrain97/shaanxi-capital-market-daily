@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-19-99e126c5a0de",
-      "compiledAt": "2026-11-19T09:53:45+09:00",
+      "id": "2026-11-19-80884737a3b5",
+      "compiledAt": "2026-11-19T10:06:08+09:00",
       "cutoff": "2026-11-11T23:59:59+08:00",
       "windowStart": "2026-11-05",
       "windowEnd": "2026-11-11",
@@ -22,11 +22,13 @@ window.PROTOTYPE = {
         "production-33b0ce0ef10b3965841eadda",
         "production-1cfaa6c32881fe086db68731",
         "production-b28f34e98e6973cb9720ea96",
+        "production-9b0f0c691ae357ab3f33b939",
         "production-94bfedab2cf32af600589e24",
         "production-7384e3cbee98a111e7765397",
         "production-506b7aaba690ca2d42134450",
         "production-4d572e54d06f8977c8fd4240",
-        "production-2eccdc6ba6f2da670d1667ca"
+        "production-2eccdc6ba6f2da670d1667ca",
+        "production-ba0b57b8a8c9043b42771ef9"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -351,6 +353,7 @@ window.PROTOTYPE = {
       "production-0c9bcf00be372e208a232c48": "2026-11-05T18:59:33-08:00",
       "production-b5f03fad5a03336713b4354e": "2026-11-05T18:59:33-08:00",
       "production-2947fcab17be17cee2508db6": "2026-11-05T18:59:33-08:00",
+      "production-42e955320b5d35846be7d060": "2026-11-05T18:59:33-08:00",
       "production-49963c2a05a103a74d123151": "2026-11-05T19:17:46-08:00",
       "production-5312da14e399347f940d5faa": "2026-11-05T19:33:55-08:00",
       "production-d74c85c04a863d6f281c8c4c": "2026-11-05T19:33:55-08:00",
@@ -470,6 +473,7 @@ window.PROTOTYPE = {
       "production-84d98e387d530e992c36c31e": "2026-11-11T05:53:34-08:00",
       "production-2cc991011fbd499da5836909": "2026-11-11T06:11:00-08:00",
       "production-0948019bff3f6e7243e9fde9": "2026-11-11T06:13:13-08:00",
+      "production-541d41df28649e29503e9e8d": "2026-11-11T06:22:15-08:00",
       "production-61c8ce571ebd1ca06b57b6ff": "2026-11-11T06:22:15-08:00",
       "production-d9f06956af7c23524872ee56": "2026-11-11T06:23:36-08:00",
       "production-f87bfec68080ad1ba7f72fa7": "2026-11-11T06:23:36-08:00",
@@ -636,7 +640,9 @@ window.PROTOTYPE = {
       "production-94bfedab2cf32af600589e24": "2026-11-19T09:41:48+09:00",
       "production-506b7aaba690ca2d42134450": "2026-11-19T09:41:48+09:00",
       "production-4d572e54d06f8977c8fd4240": "2026-11-19T09:41:48+09:00",
-      "production-c5f8288211865a3c0dee265a": "2026-11-19T09:53:44+09:00"
+      "production-c5f8288211865a3c0dee265a": "2026-11-19T09:53:44+09:00",
+      "production-9b0f0c691ae357ab3f33b939": "2026-11-19T10:02:47+09:00",
+      "production-ba0b57b8a8c9043b42771ef9": "2026-11-19T10:06:06+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2864,6 +2870,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "西安银行股份有限公司2026年10月30日披露，董事会于10月29日以10票同意、0票反对、0票弃权审议通过重大信息内部报告制度修订议案。该决议公告未披露具体修订条款及生效安排。"
         },
+        "production-42e955320b5d35846be7d060": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西同力重工股份有限公司2026年10月30日披露，2026年前三季度无人驾驶产品出货量1300多台，占公司同期总出货量的27%。同期海外出货量2104台（含施工外带），占总出货量的43%，同比增长63%。"
+        },
         "production-49963c2a05a103a74d123151": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -3658,6 +3671,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "宝鸡钛业股份有限公司2026年10月30日公告，预计2027年日常关联交易合计3,413,200,000元（34.132亿元）。该议案已于2026年10月29日经董事会审议通过，尚需股东会批准。"
+        },
+        "production-541d41df28649e29503e9e8d": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "航天动力2026年10月29日公告，董事会于10月27日审议通过续聘立信会计师事务所（特殊普通合伙）为2026年度财务报告及内部控制审计机构，聘期一年，审计费用合计人民币88万元。该事项拟提交11月13日召开的2026年第三次临时股东会审议，自股东会审议通过之日起生效。"
         },
         "production-61c8ce571ebd1ca06b57b6ff": {
           "version": "listed-scope-20261019",
@@ -4704,6 +4724,20 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西部证券2026年11月11日公告，“25西部04”（债券代码524525）票面利率为1.98%，安排于2026年11月13日支付2025年11月13日至2026年11月12日期间的利息，每手面值人民币1,000元派息人民币19.80元（含税）。债权登记日为2026年11月12日，本公告未确认利息实际划付完成。"
+        },
+        "production-9b0f0c691ae357ab3f33b939": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "建设机械2026年11月10日披露，11月6日召开的第八届董事会第三十六次会议以9票同意、0票反对、0票弃权，通过新制订的《内部控制管理办法》。办法规定，经该次董事会审议通过并执行。"
+        },
+        "production-ba0b57b8a8c9043b42771ef9": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西麦科奥特医药科技股份有限公司2026年11月9日公告，核心产品MT1013关键性Ⅲ期临床试验的所有入组参与者均已完成研究治疗及方案规定的全部随访程序，并已出组。试验尚未揭盲，相关数据仍待完成核查及最终统计分析，安全性和有效性结果以正式临床研究报告为准。"
         }
       }
     },
@@ -4713,7 +4747,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-19-99e126c5a0de",
+      "sourceEditionId": "2026-11-19-80884737a3b5",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -37032,6 +37066,52 @@ window.PROTOTYPE = {
       ]
     },
     {
+      "id": "production-event-0ef07c49cee0c73a8a5a",
+      "objectId": "listed-920599-bj",
+      "type": "生产经营动态",
+      "topics": [
+        "无人驾驶产品出货",
+        "海外业务"
+      ],
+      "updates": [
+        {
+          "id": "production-42e955320b5d35846be7d060",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "前三季度无人驾驶产品出货1300多台，海外出货同比增长63%",
+          "summary": "陕西同力重工股份有限公司2026年10月30日披露，2026年前三季度无人驾驶产品出货量1300多台，占公司同期总出货量的27%。同期海外出货量2104台（含施工外带），占总出货量的43%，同比增长63%。",
+          "stage": "披露2026年前三季度生产经营情况",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-06T11:05:59+08:00",
+          "updatedAt": "2026-11-05T18:59:34-08:00",
+          "compiledAt": "2026-11-05T18:59:34-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "同力股份",
+          "version": "42e955320b5d35846be7d0605f41cec77ccce28956c429580397e009ce747ea5",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西同力重工股份有限公司关于公司近期生产经营情况的公告",
+              "publisher": "陕西同力重工股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页公司名称、第2页公司生产经营情况及公告落款",
+              "retrievedAt": "2026-11-05T08:07:12+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225647376.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
       "id": "production-event-6677eaf850207f92ffee",
       "objectId": "listed-600928-sh",
       "type": "公司治理制度修订",
@@ -45512,6 +45592,70 @@ window.PROTOTYPE = {
               "location": "第1页审议程序；第4—7页2027年预计金额表；第13页落款",
               "retrievedAt": "2026-11-05T08:05:44+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225639103.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-f6cbdae96184a74ce0d9",
+      "objectId": "listed-600343-sh",
+      "type": "续聘会计师事务所",
+      "topics": [
+        "2026年度财务报告及内部控制审计",
+        "续聘立信",
+        "董事会审议通过",
+        "待股东会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-541d41df28649e29503e9e8d",
+          "date": "2026-10-29",
+          "time": "",
+          "title": "拟续聘立信，年度审计费用合计88万元",
+          "summary": "航天动力2026年10月29日公告，董事会于10月27日审议通过续聘立信会计师事务所（特殊普通合伙）为2026年度财务报告及内部控制审计机构，聘期一年，审计费用合计人民币88万元。该事项拟提交11月13日召开的2026年第三次临时股东会审议，自股东会审议通过之日起生效。",
+          "stage": "2026年10月27日董事会审议通过，拟提交2026年11月13日第三次临时股东会审议，尚未生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-11T22:30:42+08:00",
+          "updatedAt": "2026-11-11T06:22:15-08:00",
+          "compiledAt": "2026-11-11T06:22:15-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "航天动力",
+          "version": "541d41df28649e29503e9e8d772e3518717874463671720802ba7cb36ca3edf0",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "航天动力关于续聘会计师事务所的公告",
+              "publisher": "陕西航天动力高科技股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页续聘事项、第3页审计收费、第4页生效日期及落款",
+              "retrievedAt": "2026-11-05T08:05:41+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637195.PDF"
+            },
+            {
+              "title": "航天动力第八届董事会第二十一次会议决议公告",
+              "publisher": "陕西航天动力高科技股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页第二项议案、第2页第四项议案",
+              "retrievedAt": "2026-11-05T08:05:42+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637173.PDF"
+            },
+            {
+              "title": "航天动力关于召开2026年第三次临时股东会的通知",
+              "publisher": "陕西航天动力高科技股份有限公司",
+              "date": "2026-10-29",
+              "location": "物理第1页召开日期、第2页会议审议事项",
+              "retrievedAt": "2026-11-05T08:05:42+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637177.PDF"
             }
           ],
           "tables": []
@@ -55556,6 +55700,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-19T08:57:48+08:00",
           "updatedAt": "2026-11-19T09:53:44+09:00",
           "compiledAt": "2026-11-19T09:53:44+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -55576,6 +55721,106 @@ window.PROTOTYPE = {
               "location": "物理第2页债券基本情况、第3页付息方案及日期、第4页付息方法、第5页落款",
               "retrievedAt": "2026-11-18T08:00:21+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225666421.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-e5c3dd40095ad844fc73",
+      "objectId": "listed-600984-sh",
+      "type": "内部控制制度",
+      "topics": [
+        "内部控制管理办法",
+        "董事会通过",
+        "制度执行"
+      ],
+      "updates": [
+        {
+          "id": "production-9b0f0c691ae357ab3f33b939",
+          "date": "2026-11-10",
+          "time": "",
+          "title": "董事会通过新制订的内部控制管理办法",
+          "summary": "建设机械2026年11月10日披露，11月6日召开的第八届董事会第三十六次会议以9票同意、0票反对、0票弃权，通过新制订的《内部控制管理办法》。办法规定，经该次董事会审议通过并执行。",
+          "stage": "2026年11月6日董事会审议通过，办法规定经该次董事会审议通过并执行",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T10:02:47+09:00",
+          "compiledAt": "2026-11-19T10:02:47+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "建设机械",
+          "version": "9b0f0c691ae357ab3f33b939d51a39fb9ca18afe27d075964b3b07d81d91cf37",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "建设机械第八届董事会第三十六次会议决议公告",
+              "publisher": "陕西建设机械股份有限公司",
+              "date": "2026-11-10",
+              "location": "物理第1页会议召开情况及第三项议案；物理第2页页首表决结果。公告落款日期为2026年11月9日。",
+              "retrievedAt": "2026-11-18T08:00:43+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663868.PDF"
+            },
+            {
+              "title": "建设机械内部控制管理办法",
+              "publisher": "陕西建设机械股份有限公司",
+              "date": "2026-11-10",
+              "location": "物理第8页（印刷页码7），第二十二条",
+              "retrievedAt": "2026-11-18T08:00:43+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663867.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-f32912853a4e5b30cc15",
+      "objectId": "listed-2335-hk",
+      "type": "临床研发进展",
+      "topics": [
+        "MT1013 III期临床试验",
+        "全部入组参与者完成治疗及随访",
+        "尚未揭盲"
+      ],
+      "updates": [
+        {
+          "id": "production-ba0b57b8a8c9043b42771ef9",
+          "date": "2026-11-09",
+          "time": "",
+          "title": "麦科奥特MT1013Ⅲ期试验全部入组参与者完成治疗及随访，尚未揭盲",
+          "summary": "陕西麦科奥特医药科技股份有限公司2026年11月9日公告，核心产品MT1013关键性Ⅲ期临床试验的所有入组参与者均已完成研究治疗及方案规定的全部随访程序，并已出组。试验尚未揭盲，相关数据仍待完成核查及最终统计分析，安全性和有效性结果以正式临床研究报告为准。",
+          "stage": "全部入组参与者完成研究治疗及方案规定随访并出组；尚未揭盲，数据核查及最终统计分析待完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T10:06:06+09:00",
+          "compiledAt": "2026-11-19T10:06:06+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "麥科醫藥－Ｂ",
+          "version": "ba0b57b8a8c9043b42771ef9a539b0e774f95d48dd53373105d2d9fa02b5b411",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "自願性公告 - 所有入組參與者完成MT1013的III期臨床試驗",
+              "publisher": "陝西麥科奧特醫藥科技股份有限公司",
+              "date": "2026-11-09",
+              "location": "物理第1页公告正文首段；物理第2页首段及落款日期",
+              "retrievedAt": "2026-11-18T08:01:22+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1109/2026110900196_c.pdf"
             }
           ],
           "tables": []
@@ -61076,6 +61321,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "d0643d74eddea3d8bcd9",
+      "date": "2026-11-19",
+      "compiledAt": "2026-11-19T09:53:45+09:00",
+      "cutoff": "2026-11-11T23:59:59+08:00",
+      "snapshotUrl": "publications/d0643d74eddea3d8bcd9/index.html",
+      "publishedAt": "2026-11-19T08:57:48+08:00"
+    },
     {
       "id": "b108b6f7c1384d1f7d63",
       "date": "2026-11-19",
