@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-19-2f66476f0fce",
-      "compiledAt": "2026-11-19T09:11:16+09:00",
+      "id": "2026-11-19-6fe3dabc61ae",
+      "compiledAt": "2026-11-19T09:27:46+09:00",
       "cutoff": "2026-11-11T23:59:59+08:00",
       "windowStart": "2026-11-05",
       "windowEnd": "2026-11-11",
@@ -19,7 +19,10 @@ window.PROTOTYPE = {
         "production-58dcd0e45f20f542701f252e",
         "production-3a5094a25fc0261f0da88450",
         "production-33b0ce0ef10b3965841eadda",
-        "production-1cfaa6c32881fe086db68731"
+        "production-1cfaa6c32881fe086db68731",
+        "production-b28f34e98e6973cb9720ea96",
+        "production-7384e3cbee98a111e7765397",
+        "production-2eccdc6ba6f2da670d1667ca"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -274,7 +277,6 @@ window.PROTOTYPE = {
       "production-33a5eebc677fa8640e3f2df5": "2026-11-04T06:17:23-08:00",
       "production-b5070f9062323edb41f98cb2": "2026-11-04T06:33:34-08:00",
       "production-8739c2f403c6973f8108f1d0": "2026-11-04T06:33:34-08:00",
-      "production-30b7874787b38220c6afb78f": "2026-11-04T06:46:26-08:00",
       "production-d68264772c317bc2ebc4d629": "2026-11-04T06:46:26-08:00",
       "production-d34f2d6228095488f0dafc8e": "2026-11-04T06:49:27-08:00",
       "production-7d7f03d8bc6acbcc745e1970": "2026-11-04T06:49:27-08:00",
@@ -465,7 +467,6 @@ window.PROTOTYPE = {
       "production-84d98e387d530e992c36c31e": "2026-11-11T05:53:34-08:00",
       "production-2cc991011fbd499da5836909": "2026-11-11T06:11:00-08:00",
       "production-0948019bff3f6e7243e9fde9": "2026-11-11T06:13:13-08:00",
-      "production-541d41df28649e29503e9e8d": "2026-11-11T06:22:15-08:00",
       "production-61c8ce571ebd1ca06b57b6ff": "2026-11-11T06:22:15-08:00",
       "production-d9f06956af7c23524872ee56": "2026-11-11T06:23:36-08:00",
       "production-f87bfec68080ad1ba7f72fa7": "2026-11-11T06:23:36-08:00",
@@ -625,7 +626,10 @@ window.PROTOTYPE = {
       "production-58dcd0e45f20f542701f252e": "2026-11-18T09:20:18+09:00",
       "production-ad3c0b69166ef05e5d091239": "2026-11-18T09:20:18+09:00",
       "production-1cfaa6c32881fe086db68731": "2026-11-19T09:11:13+09:00",
-      "production-33b0ce0ef10b3965841eadda": "2026-11-19T09:11:13+09:00"
+      "production-33b0ce0ef10b3965841eadda": "2026-11-19T09:11:13+09:00",
+      "production-b28f34e98e6973cb9720ea96": "2026-11-19T09:27:43+09:00",
+      "production-2eccdc6ba6f2da670d1667ca": "2026-11-19T09:27:43+09:00",
+      "production-7384e3cbee98a111e7765397": "2026-11-19T09:27:43+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2373,13 +2377,6 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "陕西中天火箭技术股份有限公司2026年10月24日披露的第三季度报告显示，截至2026年9月30日，应付债券余额为0.00元，期初为491,124,335.78元，公司将该项减少主要归因于本期可转债提前赎回。该报告未经审计，未披露具体赎回日期及现金兑付明细。"
         },
-        "production-30b7874787b38220c6afb78f": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "西安爱科赛博电气股份有限公司于2026年10月24日披露未经审计的第三季度报告，第三季度归母净利润为人民币5,387,981.52元。前三季度营业收入为人民币702,889,979.23元，同比增长15.59%；归母净利润为人民币-11,442,601.45元，累计仍亏损。"
-        },
         "production-d68264772c317bc2ebc4d629": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -3662,13 +3659,6 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "宝鸡钛业股份有限公司2026年10月30日公告，预计2027年日常关联交易合计3,413,200,000元（34.132亿元）。该议案已于2026年10月29日经董事会审议通过，尚需股东会批准。"
         },
-        "production-541d41df28649e29503e9e8d": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "航天动力2026年10月29日公告，董事会于10月27日审议通过续聘立信会计师事务所（特殊普通合伙）为2026年度财务报告及内部控制审计机构，聘期一年，审计费用合计人民币88万元。该事项拟提交11月13日召开的2026年第三次临时股东会审议，自股东会审议通过之日起生效。"
-        },
         "production-61c8ce571ebd1ca06b57b6ff": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -4665,6 +4655,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "国际医学2026年11月11日公告，控股股东世纪新元的一致行动人曹鹤玲于11月9日向开源证券办理股票质押式回购交易，本次质押合计29,464,443股，其中非限售股10,524,443股、限售股18,940,000股。两笔质押用途均为项目建设，披露的质押到期日均为2027年11月22日。"
+        },
+        "production-b28f34e98e6973cb9720ea96": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "曲江文旅2026年11月10日披露，董事会于11月6日全票通过向浙商银行西安分行申请最高余额不超过人民币4,000万元的一年期综合授信，用于日常经营周转，由西安曲江文化产业投资（集团）有限公司提供连带责任保证。单笔业务使用期限不超过一年，提款期限自董事会审议通过之日起一年；本次公告未披露银行批准或实际提款结果。"
+        },
+        "production-2eccdc6ba6f2da670d1667ca": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "建设机械2026年11月10日披露，董事会于11月6日通过拟发行不超过人民币10亿元、期限8+3年的基础设施债权投资计划方案，由公司作为融资主体、国寿投资保险资产管理有限公司作为受托人，实际控制人陕西煤业化工集团有限责任公司提供担保。该事项拟提交11月25日股东会审议，尚需中国银行保险资产管理业协会接受登记，发行成本以市场价格为准、经协商确定，本次尚未披露发行完成或资金到账。"
+        },
+        "production-7384e3cbee98a111e7765397": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "建设机械2026年11月10日披露，董事会于11月6日同意逐步盘活处置现有存量工抵房资产，共计485套（含车位55个），净值合计6.41亿元。该金额为资产净值，本次公告未披露具体成交金额或回款情况。"
         }
       }
     },
@@ -4674,7 +4685,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-19-2f66476f0fce",
+      "sourceEditionId": "2026-11-19-6fe3dabc61ae",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -30351,6 +30362,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-19T08:15:11+08:00",
           "updatedAt": "2026-11-19T09:11:14+09:00",
           "compiledAt": "2026-11-19T09:11:14+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -33183,52 +33195,6 @@ window.PROTOTYPE = {
               "location": "物理第3页：应付债券变动原因；第6—7页：合并资产负债表日期、单位及余额；第11页：审计情况",
               "retrievedAt": "2026-11-04T14:23:58+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620617.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
-      "id": "production-event-4e4098791993857d8d3a",
-      "objectId": "listed-688719-sh",
-      "type": "季度业绩",
-      "topics": [
-        "单季归母净利润扭亏",
-        "前三季度累计亏损"
-      ],
-      "updates": [
-        {
-          "id": "production-30b7874787b38220c6afb78f",
-          "date": "2026-10-24",
-          "time": "",
-          "title": "第三季度归母净利润为正，前三季度仍亏损",
-          "summary": "西安爱科赛博电气股份有限公司于2026年10月24日披露未经审计的第三季度报告，第三季度归母净利润为人民币5,387,981.52元。前三季度营业收入为人民币702,889,979.23元，同比增长15.59%；归母净利润为人民币-11,442,601.45元，累计仍亏损。",
-          "stage": "披露未经审计的2026年第三季度财务报告",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-04T23:03:34+08:00",
-          "updatedAt": "2026-11-04T06:46:26-08:00",
-          "compiledAt": "2026-11-04T06:46:26-08:00",
-          "researchCutoff": "2026-10-27T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "爱科赛博",
-          "version": "30b7874787b38220c6afb78fdf59cb69b733e0cd6c6dd44da8ceea0bd3ca8301",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "西安爱科赛博电气股份有限公司2026年第三季度报告",
-              "publisher": "西安爱科赛博电气股份有限公司",
-              "date": "2026-10-24",
-              "location": "物理第1页主要会计数据和财务指标、审计状态；第2页报告期定义",
-              "retrievedAt": "2026-11-04T14:24:42+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620551.PDF"
             }
           ],
           "tables": []
@@ -45571,70 +45537,6 @@ window.PROTOTYPE = {
       ]
     },
     {
-      "id": "production-event-f6cbdae96184a74ce0d9",
-      "objectId": "listed-600343-sh",
-      "type": "续聘会计师事务所",
-      "topics": [
-        "2026年度财务报告及内部控制审计",
-        "续聘立信",
-        "董事会审议通过",
-        "待股东会审议"
-      ],
-      "updates": [
-        {
-          "id": "production-541d41df28649e29503e9e8d",
-          "date": "2026-10-29",
-          "time": "",
-          "title": "拟续聘立信，年度审计费用合计88万元",
-          "summary": "航天动力2026年10月29日公告，董事会于10月27日审议通过续聘立信会计师事务所（特殊普通合伙）为2026年度财务报告及内部控制审计机构，聘期一年，审计费用合计人民币88万元。该事项拟提交11月13日召开的2026年第三次临时股东会审议，自股东会审议通过之日起生效。",
-          "stage": "2026年10月27日董事会审议通过，拟提交2026年11月13日第三次临时股东会审议，尚未生效",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-11T22:30:42+08:00",
-          "updatedAt": "2026-11-11T06:22:15-08:00",
-          "compiledAt": "2026-11-11T06:22:15-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "航天动力",
-          "version": "541d41df28649e29503e9e8d772e3518717874463671720802ba7cb36ca3edf0",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "航天动力关于续聘会计师事务所的公告",
-              "publisher": "陕西航天动力高科技股份有限公司",
-              "date": "2026-10-29",
-              "location": "物理第1页续聘事项、第3页审计收费、第4页生效日期及落款",
-              "retrievedAt": "2026-11-05T08:05:41+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637195.PDF"
-            },
-            {
-              "title": "航天动力第八届董事会第二十一次会议决议公告",
-              "publisher": "陕西航天动力高科技股份有限公司",
-              "date": "2026-10-29",
-              "location": "物理第1页第二项议案、第2页第四项议案",
-              "retrievedAt": "2026-11-05T08:05:42+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637173.PDF"
-            },
-            {
-              "title": "航天动力关于召开2026年第三次临时股东会的通知",
-              "publisher": "陕西航天动力高科技股份有限公司",
-              "date": "2026-10-29",
-              "location": "物理第1页召开日期、第2页会议审议事项",
-              "retrievedAt": "2026-11-05T08:05:42+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-29/1225637177.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
       "id": "production-event-fe694288a97fabc882bb",
       "objectId": "listed-600706-sh",
       "type": "定期报告",
@@ -55312,6 +55214,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-19T08:15:11+08:00",
           "updatedAt": "2026-11-19T09:11:13+09:00",
           "compiledAt": "2026-11-19T09:11:13+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -55332,6 +55235,161 @@ window.PROTOTYPE = {
               "location": "物理第1页主体与交易说明、质押表表头；第2页曹鹤玲质押明细及累计质押表；第3页落款",
               "retrievedAt": "2026-11-18T08:00:10+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225665554.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-edd05d61950df4018353",
+      "objectId": "listed-600706-sh",
+      "type": "银行综合授信",
+      "topics": [
+        "董事会审议通过",
+        "经营周转授信",
+        "关联方提供担保"
+      ],
+      "updates": [
+        {
+          "id": "production-b28f34e98e6973cb9720ea96",
+          "date": "2026-11-10",
+          "time": "",
+          "title": "董事会同意申请最高4,000万元一年期综合授信",
+          "summary": "曲江文旅2026年11月10日披露，董事会于11月6日全票通过向浙商银行西安分行申请最高余额不超过人民币4,000万元的一年期综合授信，用于日常经营周转，由西安曲江文化产业投资（集团）有限公司提供连带责任保证。单笔业务使用期限不超过一年，提款期限自董事会审议通过之日起一年；本次公告未披露银行批准或实际提款结果。",
+          "stage": "2026年11月6日董事会全票通过申请综合授信议案，未披露银行批准或提款结果",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T09:27:43+09:00",
+          "compiledAt": "2026-11-19T09:27:43+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "曲江文旅",
+          "version": "b28f34e98e6973cb9720ea96fa50de0d14b23558b011f0e2ef133277fe66c225",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "西安曲江文化旅游股份有限公司第十届董事会第五十次（临时）会议决议公告",
+              "publisher": "西安曲江文化旅游股份有限公司",
+              "date": "2026-11-10",
+              "location": "物理第1页，董事会会议召开情况及会议审议情况；公告落款2026年11月9日",
+              "retrievedAt": "2026-11-18T08:00:39+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663312.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-af57a70aff0e270f5181",
+      "objectId": "listed-600984-sh",
+      "type": "债权融资",
+      "topics": [
+        "基础设施债权投资计划",
+        "关联担保",
+        "董事会通过",
+        "待股东会审议"
+      ],
+      "updates": [
+        {
+          "id": "production-2eccdc6ba6f2da670d1667ca",
+          "date": "2026-11-10",
+          "time": "",
+          "title": "拟发行不超过10亿元基础设施债权投资计划",
+          "summary": "建设机械2026年11月10日披露，董事会于11月6日通过拟发行不超过人民币10亿元、期限8+3年的基础设施债权投资计划方案，由公司作为融资主体、国寿投资保险资产管理有限公司作为受托人，实际控制人陕西煤业化工集团有限责任公司提供担保。该事项拟提交11月25日股东会审议，尚需中国银行保险资产管理业协会接受登记，发行成本以市场价格为准、经协商确定，本次尚未披露发行完成或资金到账。",
+          "stage": "2026年11月6日董事会审议通过，拟提交11月25日股东会审议；尚需协会登记，未证明发行或到账",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T09:27:44+09:00",
+          "compiledAt": "2026-11-19T09:27:44+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "建设机械",
+          "version": "2eccdc6ba6f2da670d1667cacbc1fb481adfa3ae2149c78be6f5ed92582a59c6",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "建设机械关于发行基础设施债权投资计划的公告",
+              "publisher": "陕西建设机械股份有限公司",
+              "date": "2026-11-10",
+              "location": "物理第1页发行概述及方案、第2页审批程序；公告落款2026年11月9日",
+              "retrievedAt": "2026-11-18T08:00:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663866.PDF"
+            },
+            {
+              "title": "建设机械第八届董事会第三十六次会议决议公告",
+              "publisher": "陕西建设机械股份有限公司",
+              "date": "2026-11-10",
+              "location": "物理第1页第一项议案、第2页第五项议案；公告落款2026年11月9日",
+              "retrievedAt": "2026-11-18T08:00:43+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663868.PDF"
+            },
+            {
+              "title": "建设机械关于召开2026年第五次临时股东会的通知",
+              "publisher": "陕西建设机械股份有限公司",
+              "date": "2026-11-10",
+              "location": "物理第1页会议日期、第2页议案表及关联股东回避安排",
+              "retrievedAt": "2026-11-18T08:00:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663861.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-6d9617d5b49f56f0ebed",
+      "objectId": "listed-600984-sh",
+      "type": "存量资产盘活处置",
+      "topics": [
+        "工抵房资产",
+        "董事会批准",
+        "逐步盘活处置"
+      ],
+      "updates": [
+        {
+          "id": "production-7384e3cbee98a111e7765397",
+          "date": "2026-11-10",
+          "time": "",
+          "title": "董事会同意逐步盘活处置净值6.41亿元工抵房资产",
+          "summary": "建设机械2026年11月10日披露，董事会于11月6日同意逐步盘活处置现有存量工抵房资产，共计485套（含车位55个），净值合计6.41亿元。该金额为资产净值，本次公告未披露具体成交金额或回款情况。",
+          "stage": "2026年11月6日董事会同意逐步盘活处置，未披露具体交易签约、成交或回款",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T09:27:44+09:00",
+          "compiledAt": "2026-11-19T09:27:44+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "建设机械",
+          "version": "7384e3cbee98a111e7765397e5935be63e3f6b11171431960f0213a749e2fcbb",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "建设机械第八届董事会第三十六次会议决议公告",
+              "publisher": "陕西建设机械股份有限公司",
+              "date": "2026-11-10",
+              "location": "物理第1页会议时间、第2页第四项议案；公告落款2026年11月9日",
+              "retrievedAt": "2026-11-18T08:00:43+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663868.PDF"
             }
           ],
           "tables": []
@@ -60832,6 +60890,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "feaf70733c0f67cffdaf",
+      "date": "2026-11-19",
+      "compiledAt": "2026-11-19T09:11:16+09:00",
+      "cutoff": "2026-11-11T23:59:59+08:00",
+      "snapshotUrl": "publications/feaf70733c0f67cffdaf/index.html",
+      "publishedAt": "2026-11-19T08:15:11+08:00"
+    },
     {
       "id": "6050ae57418fcedfcb89",
       "date": "2026-11-18",
