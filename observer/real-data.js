@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-19-6fe3dabc61ae",
-      "compiledAt": "2026-11-19T09:27:46+09:00",
+      "id": "2026-11-19-a4d1a16ac5c8",
+      "compiledAt": "2026-11-19T09:41:51+09:00",
       "cutoff": "2026-11-11T23:59:59+08:00",
       "windowStart": "2026-11-05",
       "windowEnd": "2026-11-11",
@@ -21,7 +21,10 @@ window.PROTOTYPE = {
         "production-33b0ce0ef10b3965841eadda",
         "production-1cfaa6c32881fe086db68731",
         "production-b28f34e98e6973cb9720ea96",
+        "production-94bfedab2cf32af600589e24",
         "production-7384e3cbee98a111e7765397",
+        "production-506b7aaba690ca2d42134450",
+        "production-4d572e54d06f8977c8fd4240",
         "production-2eccdc6ba6f2da670d1667ca"
       ],
       "status": "public",
@@ -347,7 +350,6 @@ window.PROTOTYPE = {
       "production-0c9bcf00be372e208a232c48": "2026-11-05T18:59:33-08:00",
       "production-b5f03fad5a03336713b4354e": "2026-11-05T18:59:33-08:00",
       "production-2947fcab17be17cee2508db6": "2026-11-05T18:59:33-08:00",
-      "production-42e955320b5d35846be7d060": "2026-11-05T18:59:33-08:00",
       "production-49963c2a05a103a74d123151": "2026-11-05T19:17:46-08:00",
       "production-5312da14e399347f940d5faa": "2026-11-05T19:33:55-08:00",
       "production-d74c85c04a863d6f281c8c4c": "2026-11-05T19:33:55-08:00",
@@ -572,7 +574,6 @@ window.PROTOTYPE = {
       "production-2c2145cbc2c2cccca894f57c": "2026-11-13T16:32:16-08:00",
       "production-7c8cbefb4094393dfc13b818": "2026-11-13T16:34:23-08:00",
       "production-526212b87a68e9510470f760": "2026-11-13T16:40:54-08:00",
-      "production-dbbcfe2447bd392d2b41c3f1": "2026-11-13T16:43:01-08:00",
       "production-ab60cf6d6827fb27f79e654b": "2026-11-13T16:45:31-08:00",
       "production-9e338e5736f129be9c4ff742": "2026-11-13T16:54:29-08:00",
       "production-753adbbb222096dc95c4320f": "2026-11-13T17:57:33-08:00",
@@ -629,7 +630,10 @@ window.PROTOTYPE = {
       "production-33b0ce0ef10b3965841eadda": "2026-11-19T09:11:13+09:00",
       "production-b28f34e98e6973cb9720ea96": "2026-11-19T09:27:43+09:00",
       "production-2eccdc6ba6f2da670d1667ca": "2026-11-19T09:27:43+09:00",
-      "production-7384e3cbee98a111e7765397": "2026-11-19T09:27:43+09:00"
+      "production-7384e3cbee98a111e7765397": "2026-11-19T09:27:43+09:00",
+      "production-94bfedab2cf32af600589e24": "2026-11-19T09:41:48+09:00",
+      "production-506b7aaba690ca2d42134450": "2026-11-19T09:41:48+09:00",
+      "production-4d572e54d06f8977c8fd4240": "2026-11-19T09:41:48+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1663,13 +1667,6 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西建工集团股份有限公司2026年10月17日披露，2026年9月公司及子公司为8家合并报表范围内子公司提供担保合计24.44亿元。担保方式为连带保证、共同还款，期限为11个月至180个月，本次事项在年度授权担保额度范围内，无需再次提交董事会、股东会审议。"
-        },
-        "production-dbbcfe2447bd392d2b41c3f1": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "陕西建工集团股份有限公司2026年10月31日披露，董事会于10月29日审议通过为11家子公司追加46亿元担保预计额度，其中资产负债率在70%以上的8家子公司对应额度合计不超过34亿元，其余3家合计不超过12亿元。该议案尚需提交定于11月17日召开的2026年第三次临时股东会审议；截至公告披露日，相关担保协议尚未签署，具体担保金额、期限和方式以实际签署合同为准。"
         },
         "production-6c965895432b4829b55ac480": {
           "version": "listed-scope-20261019",
@@ -2856,13 +2853,6 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "西安银行股份有限公司2026年10月30日披露，董事会于10月29日以10票同意、0票反对、0票弃权审议通过重大信息内部报告制度修订议案。该决议公告未披露具体修订条款及生效安排。"
-        },
-        "production-42e955320b5d35846be7d060": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "陕西同力重工股份有限公司2026年10月30日披露，2026年前三季度无人驾驶产品出货量1300多台，占公司同期总出货量的27%。同期海外出货量2104台（含施工外带），占总出货量的43%，同比增长63%。"
         },
         "production-49963c2a05a103a74d123151": {
           "version": "listed-scope-20261019",
@@ -4676,6 +4666,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "建设机械2026年11月10日披露，董事会于11月6日同意逐步盘活处置现有存量工抵房资产，共计485套（含车位55个），净值合计6.41亿元。该金额为资产净值，本次公告未披露具体成交金额或回款情况。"
+        },
+        "production-94bfedab2cf32af600589e24": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "建设机械2026年11月10日披露，董事会于11月6日审议通过增加经营范围并修订章程的议案，拟新增非居住房地产租赁、技术服务、工业自动控制系统装置制造及销售等经营范围。该议案拟提交11月25日召开的股东会审议，具体变更内容以工商管理部门实际核准、登记情况为准。"
+        },
+        "production-506b7aaba690ca2d42134450": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北化股份2026年11月10日披露，子公司山西新华防化装备研究院有限公司及其子公司新疆新华环保科技有限责任公司近日收到托克逊县人民法院传票，新疆黑山煤炭化工有限公司起诉两公司的案件已受理，定于11月26日开庭。原告诉请防化装备研究院履行对新疆新华的23,000万元出资义务并支付逾期出资利息约8,862.60万元，另诉请将工程款及资本公积合计15,017.16万元转增注册资本并支付相应利息约1,039.51万元；截至披露日尚未开庭，对公司本期或期后利润的具体影响仍不确定。"
+        },
+        "production-4d572e54d06f8977c8fd4240": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "北化股份2026年11月10日披露，子公司山西新华防化装备研究院有限公司提起的解散其子公司新疆新华环保科技有限责任公司诉讼仍在审理过程中。防化装备研究院于9月15日收到托克逊县人民法院的受理案件通知书，案号为（2026）新0422民初2399号，本次公告未披露判决结果。"
         }
       }
     },
@@ -4685,7 +4696,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-19-6fe3dabc61ae",
+      "sourceEditionId": "2026-11-19-a4d1a16ac5c8",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -25808,57 +25819,6 @@ window.PROTOTYPE = {
             }
           ],
           "tables": []
-        },
-        {
-          "id": "production-dbbcfe2447bd392d2b41c3f1",
-          "date": "2026-10-31",
-          "time": "",
-          "title": "拟为11家子公司追加46亿元担保预计额度",
-          "summary": "陕西建工集团股份有限公司2026年10月31日披露，董事会于10月29日审议通过为11家子公司追加46亿元担保预计额度，其中资产负债率在70%以上的8家子公司对应额度合计不超过34亿元，其余3家合计不超过12亿元。该议案尚需提交定于11月17日召开的2026年第三次临时股东会审议；截至公告披露日，相关担保协议尚未签署，具体担保金额、期限和方式以实际签署合同为准。",
-          "stage": "2026年10月29日董事会审议通过，尚需提交11月17日股东会审议；相关担保协议尚未签署",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-14T08:53:23+08:00",
-          "updatedAt": "2026-11-13T16:43:01-08:00",
-          "compiledAt": "2026-11-13T16:43:01-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "陕建股份",
-          "version": "dbbcfe2447bd392d2b41c3f1849a89f5a130ddb9d0c664eb877155970f1de4e9",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "陕西建工集团股份有限公司关于追加2026年度担保预计额度、被担保对象的公告",
-              "publisher": "陕西建工集团股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第2—4页，追加额度、决策程序、额度表及协议签署情况",
-              "retrievedAt": "2026-11-05T08:05:38+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650321.PDF"
-            },
-            {
-              "title": "陕西建工集团股份有限公司第九届董事会第五次会议决议公告",
-              "publisher": "陕西建工集团股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1—2页，第三项、第五项议案及落款",
-              "retrievedAt": "2026-11-05T08:05:38+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650322.PDF"
-            },
-            {
-              "title": "陕西建工集团股份有限公司关于召开2026年第三次临时股东会的通知",
-              "publisher": "陕西建工集团股份有限公司",
-              "date": "2026-10-31",
-              "location": "物理第1—2页，会议日期及审议事项",
-              "retrievedAt": "2026-11-05T08:05:39+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650309.PDF"
-            }
-          ],
-          "tables": []
         }
       ]
     },
@@ -36997,52 +36957,6 @@ window.PROTOTYPE = {
               "location": "物理第1页会议日期、第2页第五项议案；公告落款2026年10月29日",
               "retrievedAt": "2026-11-05T08:06:26+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225644384.PDF"
-            }
-          ],
-          "tables": []
-        }
-      ]
-    },
-    {
-      "id": "production-event-0ef07c49cee0c73a8a5a",
-      "objectId": "listed-920599-bj",
-      "type": "生产经营动态",
-      "topics": [
-        "无人驾驶产品出货",
-        "海外业务"
-      ],
-      "updates": [
-        {
-          "id": "production-42e955320b5d35846be7d060",
-          "date": "2026-10-30",
-          "time": "",
-          "title": "前三季度无人驾驶产品出货1300多台，海外出货同比增长63%",
-          "summary": "陕西同力重工股份有限公司2026年10月30日披露，2026年前三季度无人驾驶产品出货量1300多台，占公司同期总出货量的27%。同期海外出货量2104台（含施工外带），占总出货量的43%，同比增长63%。",
-          "stage": "披露2026年前三季度生产经营情况",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-06T11:05:59+08:00",
-          "updatedAt": "2026-11-05T18:59:34-08:00",
-          "compiledAt": "2026-11-05T18:59:34-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "同力股份",
-          "version": "42e955320b5d35846be7d0605f41cec77ccce28956c429580397e009ce747ea5",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "陕西同力重工股份有限公司关于公司近期生产经营情况的公告",
-              "publisher": "陕西同力重工股份有限公司",
-              "date": "2026-10-30",
-              "location": "物理第1页公司名称、第2页公司生产经营情况及公告落款",
-              "retrievedAt": "2026-11-05T08:07:12+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225647376.PDF"
             }
           ],
           "tables": []
@@ -55261,6 +55175,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-19T08:31:24+08:00",
           "updatedAt": "2026-11-19T09:27:43+09:00",
           "compiledAt": "2026-11-19T09:27:43+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -55308,6 +55223,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-19T08:31:24+08:00",
           "updatedAt": "2026-11-19T09:27:44+09:00",
           "compiledAt": "2026-11-19T09:27:44+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -55370,6 +55286,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-19T08:31:24+08:00",
           "updatedAt": "2026-11-19T09:27:44+09:00",
           "compiledAt": "2026-11-19T09:27:44+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -55390,6 +55307,159 @@ window.PROTOTYPE = {
               "location": "物理第1页会议时间、第2页第四项议案；公告落款2026年11月9日",
               "retrievedAt": "2026-11-18T08:00:43+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663868.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-609785b6414917c272c6",
+      "objectId": "listed-600984-sh",
+      "type": "经营范围及章程变更",
+      "topics": [
+        "经营范围扩展",
+        "章程修订",
+        "待股东会审议",
+        "待工商登记"
+      ],
+      "updates": [
+        {
+          "id": "production-94bfedab2cf32af600589e24",
+          "date": "2026-11-10",
+          "time": "",
+          "title": "拟增加经营范围并修订章程，尚待股东会审议",
+          "summary": "建设机械2026年11月10日披露，董事会于11月6日审议通过增加经营范围并修订章程的议案，拟新增非居住房地产租赁、技术服务、工业自动控制系统装置制造及销售等经营范围。该议案拟提交11月25日召开的股东会审议，具体变更内容以工商管理部门实际核准、登记情况为准。",
+          "stage": "2026年11月6日董事会审议通过，拟提交11月25日股东会审议；最终经营范围及章程修改以工商登记结果为准",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T09:41:48+09:00",
+          "compiledAt": "2026-11-19T09:41:48+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "建设机械",
+          "version": "94bfedab2cf32af600589e240032ba351c30704a7b3992c3701579bc1bcc1df4",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "建设机械第八届董事会第三十六次会议决议公告",
+              "publisher": "陕西建设机械股份有限公司",
+              "date": "2026-11-10",
+              "location": "物理第1页，第二项议案；公告落款为2026年11月9日",
+              "retrievedAt": "2026-11-18T08:00:43+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663868.PDF"
+            },
+            {
+              "title": "建设机械关于增加公司经营范围并拟修改公司章程的公告",
+              "publisher": "陕西建设机械股份有限公司",
+              "date": "2026-11-10",
+              "location": "物理第1—3页，新增经营范围、章程对照表及审批限定；公告落款为2026年11月9日",
+              "retrievedAt": "2026-11-18T08:00:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663862.PDF"
+            },
+            {
+              "title": "建设机械关于召开2026年第五次临时股东会的通知",
+              "publisher": "陕西建设机械股份有限公司",
+              "date": "2026-11-10",
+              "location": "物理第1页会议日期、第2页议案表及披露日期",
+              "retrievedAt": "2026-11-18T08:00:44+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663861.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-3d62333f1a40411abff0",
+      "objectId": "listed-002246-sz",
+      "type": "诉讼",
+      "topics": [
+        "新疆黑山出资纠纷",
+        "子公司收到传票"
+      ],
+      "updates": [
+        {
+          "id": "production-506b7aaba690ca2d42134450",
+          "date": "2026-11-10",
+          "time": "",
+          "title": "子公司收到出资纠纷传票，案件定于11月26日开庭",
+          "summary": "北化股份2026年11月10日披露，子公司山西新华防化装备研究院有限公司及其子公司新疆新华环保科技有限责任公司近日收到托克逊县人民法院传票，新疆黑山煤炭化工有限公司起诉两公司的案件已受理，定于11月26日开庭。原告诉请防化装备研究院履行对新疆新华的23,000万元出资义务并支付逾期出资利息约8,862.60万元，另诉请将工程款及资本公积合计15,017.16万元转增注册资本并支付相应利息约1,039.51万元；截至披露日尚未开庭，对公司本期或期后利润的具体影响仍不确定。",
+          "stage": "法院已受理，子公司近日收到传票；拟于2026年11月26日开庭，截至披露日尚未开庭",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T09:41:49+09:00",
+          "compiledAt": "2026-11-19T09:41:49+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北化股份",
+          "version": "506b7aaba690ca2d421344507c02ebb34da1f7de4b96f8de8632ad5b9d3ae0ff",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于子公司收到民事诉讼传票的公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-11-10",
+              "location": "物理第1页特别提示及受理情况、第2页诉讼请求及利润影响、第3页公告落款",
+              "retrievedAt": "2026-11-18T08:01:56+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225664459.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-92d87ba6577df7fe4ba8",
+      "objectId": "listed-002246-sz",
+      "type": "诉讼",
+      "topics": [
+        "新疆新华解散诉讼",
+        "在审状态披露"
+      ],
+      "updates": [
+        {
+          "id": "production-4d572e54d06f8977c8fd4240",
+          "date": "2026-11-10",
+          "time": "",
+          "title": "披露新疆新华解散诉讼仍在审理",
+          "summary": "北化股份2026年11月10日披露，子公司山西新华防化装备研究院有限公司提起的解散其子公司新疆新华环保科技有限责任公司诉讼仍在审理过程中。防化装备研究院于9月15日收到托克逊县人民法院的受理案件通知书，案号为（2026）新0422民初2399号，本次公告未披露判决结果。",
+          "stage": "公告披露解散诉讼仍在审理；受理通知于2026年9月15日收到，未披露判决或解散完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T09:41:48+09:00",
+          "compiledAt": "2026-11-19T09:41:48+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "北化股份",
+          "version": "4d572e54d06f8977c8fd4240fec764168179a193385557e23df8aff2b33bc2f5",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于子公司收到民事诉讼传票的公告",
+              "publisher": "北方化学工业股份有限公司",
+              "date": "2026-11-10",
+              "location": "物理第1页主体关系、第2页第三节解散诉讼、第3页公告落款",
+              "retrievedAt": "2026-11-18T08:01:56+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225664459.PDF"
             }
           ],
           "tables": []
@@ -60890,6 +60960,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "7694ad5564f6963c148e",
+      "date": "2026-11-19",
+      "compiledAt": "2026-11-19T09:27:46+09:00",
+      "cutoff": "2026-11-11T23:59:59+08:00",
+      "snapshotUrl": "publications/7694ad5564f6963c148e/index.html",
+      "publishedAt": "2026-11-19T08:31:24+08:00"
+    },
     {
       "id": "feaf70733c0f67cffdaf",
       "date": "2026-11-19",
