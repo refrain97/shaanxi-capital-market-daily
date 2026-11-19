@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-19-80884737a3b5",
-      "compiledAt": "2026-11-19T10:06:08+09:00",
+      "id": "2026-11-19-f1147a282511",
+      "compiledAt": "2026-11-19T10:15:53+09:00",
       "cutoff": "2026-11-11T23:59:59+08:00",
       "windowStart": "2026-11-05",
       "windowEnd": "2026-11-11",
@@ -14,6 +14,7 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-11-11T23:59:59+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-e1c753b0db449b5b7efabd45",
         "production-c5f8288211865a3c0dee265a",
         "production-ad3c0b69166ef05e5d091239",
         "production-5bdfb27fbf2ad9594f5cf017",
@@ -642,7 +643,8 @@ window.PROTOTYPE = {
       "production-4d572e54d06f8977c8fd4240": "2026-11-19T09:41:48+09:00",
       "production-c5f8288211865a3c0dee265a": "2026-11-19T09:53:44+09:00",
       "production-9b0f0c691ae357ab3f33b939": "2026-11-19T10:02:47+09:00",
-      "production-ba0b57b8a8c9043b42771ef9": "2026-11-19T10:06:06+09:00"
+      "production-ba0b57b8a8c9043b42771ef9": "2026-11-19T10:06:06+09:00",
+      "production-e1c753b0db449b5b7efabd45": "2026-11-19T10:15:52+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1365,6 +1367,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西莱特光电材料股份有限公司2026年11月4日公告提示，不符合科创板股票投资者适当性管理要求的投资者，不能将所持“莱特转债”（118077）转换为公司股票。“莱特转债”自2027年4月12日（非交易日顺延）起可转股。"
+        },
+        "production-e1c753b0db449b5b7efabd45": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西莱特光电材料股份有限公司2026年11月11日公告，因实施2026年前三季度权益分派，“莱特转债”转股价格将由44.82元/股调整为44.62元/股，公告安排自2026年11月17日起生效。公告时该债券尚未进入转股期。"
         },
         "production-3a28c2e4df72a10db01ab24e": {
           "version": "listed-scope-20261009",
@@ -4747,7 +4756,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-19-80884737a3b5",
+      "sourceEditionId": "2026-11-19-f1147a282511",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -22465,6 +22474,48 @@ window.PROTOTYPE = {
               "location": "物理第1页重要内容提示；第2页转股期限、适当性风险及落款",
               "retrievedAt": "2026-11-17T08:04:18+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225655157.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
+          "id": "production-e1c753b0db449b5b7efabd45",
+          "date": "2026-11-11",
+          "time": "",
+          "title": "因权益分派将“莱特转债”转股价调至44.62元/股",
+          "summary": "陕西莱特光电材料股份有限公司2026年11月11日公告，因实施2026年前三季度权益分派，“莱特转债”转股价格将由44.82元/股调整为44.62元/股，公告安排自2026年11月17日起生效。公告时该债券尚未进入转股期。",
+          "stage": "已公告因前三季度权益分派将转股价格由44.82元/股调整为44.62元/股，自2026年11月17日起生效；公告时尚未进入转股期",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T10:15:52+09:00",
+          "compiledAt": "2026-11-19T10:15:52+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "莱特光电",
+          "version": "e1c753b0db449b5b7efabd4593079435c175ee422cb536b31d405e0537e1aa6e",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西莱特光电材料股份有限公司关于实施2026年前三季度权益分派调整“莱特转债”转股价格的公告",
+              "publisher": "陕西莱特光电材料股份有限公司",
+              "date": "2026-11-11",
+              "location": "物理第1、3、4页",
+              "retrievedAt": "2026-11-18T08:00:56+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225665859.PDF"
+            },
+            {
+              "title": "中信证券股份有限公司关于陕西莱特光电材料股份有限公司向不特定对象发行可转换公司债券2026年第一次临时受托管理事务报告",
+              "publisher": "中信证券股份有限公司",
+              "date": "2026-11-11",
+              "location": "物理第11、12页",
+              "retrievedAt": "2026-11-18T08:00:56+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225665857.PDF"
             }
           ],
           "tables": []
@@ -55747,6 +55798,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-19T09:10:13+08:00",
           "updatedAt": "2026-11-19T10:02:47+09:00",
           "compiledAt": "2026-11-19T10:02:47+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -55801,6 +55853,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-19T09:10:13+08:00",
           "updatedAt": "2026-11-19T10:06:06+09:00",
           "compiledAt": "2026-11-19T10:06:06+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -61321,6 +61374,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "7ca3dfc9eef3cb0752ec",
+      "date": "2026-11-19",
+      "compiledAt": "2026-11-19T10:06:08+09:00",
+      "cutoff": "2026-11-11T23:59:59+08:00",
+      "snapshotUrl": "publications/7ca3dfc9eef3cb0752ec/index.html",
+      "publishedAt": "2026-11-19T09:10:13+08:00"
+    },
     {
       "id": "d0643d74eddea3d8bcd9",
       "date": "2026-11-19",
