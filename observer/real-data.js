@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-19-a4d1a16ac5c8",
-      "compiledAt": "2026-11-19T09:41:51+09:00",
+      "id": "2026-11-19-99e126c5a0de",
+      "compiledAt": "2026-11-19T09:53:45+09:00",
       "cutoff": "2026-11-11T23:59:59+08:00",
       "windowStart": "2026-11-05",
       "windowEnd": "2026-11-11",
@@ -14,6 +14,7 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-11-11T23:59:59+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-c5f8288211865a3c0dee265a",
         "production-ad3c0b69166ef05e5d091239",
         "production-5bdfb27fbf2ad9594f5cf017",
         "production-58dcd0e45f20f542701f252e",
@@ -574,6 +575,7 @@ window.PROTOTYPE = {
       "production-2c2145cbc2c2cccca894f57c": "2026-11-13T16:32:16-08:00",
       "production-7c8cbefb4094393dfc13b818": "2026-11-13T16:34:23-08:00",
       "production-526212b87a68e9510470f760": "2026-11-13T16:40:54-08:00",
+      "production-dbbcfe2447bd392d2b41c3f1": "2026-11-13T16:43:01-08:00",
       "production-ab60cf6d6827fb27f79e654b": "2026-11-13T16:45:31-08:00",
       "production-9e338e5736f129be9c4ff742": "2026-11-13T16:54:29-08:00",
       "production-753adbbb222096dc95c4320f": "2026-11-13T17:57:33-08:00",
@@ -633,7 +635,8 @@ window.PROTOTYPE = {
       "production-7384e3cbee98a111e7765397": "2026-11-19T09:27:43+09:00",
       "production-94bfedab2cf32af600589e24": "2026-11-19T09:41:48+09:00",
       "production-506b7aaba690ca2d42134450": "2026-11-19T09:41:48+09:00",
-      "production-4d572e54d06f8977c8fd4240": "2026-11-19T09:41:48+09:00"
+      "production-4d572e54d06f8977c8fd4240": "2026-11-19T09:41:48+09:00",
+      "production-c5f8288211865a3c0dee265a": "2026-11-19T09:53:44+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -1667,6 +1670,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "陕西建工集团股份有限公司2026年10月17日披露，2026年9月公司及子公司为8家合并报表范围内子公司提供担保合计24.44亿元。担保方式为连带保证、共同还款，期限为11个月至180个月，本次事项在年度授权担保额度范围内，无需再次提交董事会、股东会审议。"
+        },
+        "production-dbbcfe2447bd392d2b41c3f1": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "陕西建工集团股份有限公司2026年10月31日披露，董事会于10月29日审议通过为11家子公司追加46亿元担保预计额度，其中资产负债率在70%以上的8家子公司对应额度合计不超过34亿元，其余3家合计不超过12亿元。该议案尚需提交定于11月17日召开的2026年第三次临时股东会审议；截至公告披露日，相关担保协议尚未签署，具体担保金额、期限和方式以实际签署合同为准。"
         },
         "production-6c965895432b4829b55ac480": {
           "version": "listed-scope-20261019",
@@ -4687,6 +4697,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "北化股份2026年11月10日披露，子公司山西新华防化装备研究院有限公司提起的解散其子公司新疆新华环保科技有限责任公司诉讼仍在审理过程中。防化装备研究院于9月15日收到托克逊县人民法院的受理案件通知书，案号为（2026）新0422民初2399号，本次公告未披露判决结果。"
+        },
+        "production-c5f8288211865a3c0dee265a": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "西部证券2026年11月11日公告，“25西部04”（债券代码524525）票面利率为1.98%，安排于2026年11月13日支付2025年11月13日至2026年11月12日期间的利息，每手面值人民币1,000元派息人民币19.80元（含税）。债权登记日为2026年11月12日，本公告未确认利息实际划付完成。"
         }
       }
     },
@@ -4696,7 +4713,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-19-a4d1a16ac5c8",
+      "sourceEditionId": "2026-11-19-99e126c5a0de",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -25816,6 +25833,57 @@ window.PROTOTYPE = {
               "location": "物理第2—3页担保情况概述及明细、第6页担保协议主要内容与董事会意见",
               "retrievedAt": "2026-10-19T09:30:58+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225608023.PDF"
+            }
+          ],
+          "tables": []
+        },
+        {
+          "id": "production-dbbcfe2447bd392d2b41c3f1",
+          "date": "2026-10-31",
+          "time": "",
+          "title": "拟为11家子公司追加46亿元担保预计额度",
+          "summary": "陕西建工集团股份有限公司2026年10月31日披露，董事会于10月29日审议通过为11家子公司追加46亿元担保预计额度，其中资产负债率在70%以上的8家子公司对应额度合计不超过34亿元，其余3家合计不超过12亿元。该议案尚需提交定于11月17日召开的2026年第三次临时股东会审议；截至公告披露日，相关担保协议尚未签署，具体担保金额、期限和方式以实际签署合同为准。",
+          "stage": "2026年10月29日董事会审议通过，尚需提交11月17日股东会审议；相关担保协议尚未签署",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-14T08:53:23+08:00",
+          "updatedAt": "2026-11-13T16:43:01-08:00",
+          "compiledAt": "2026-11-13T16:43:01-08:00",
+          "researchCutoff": "2026-11-01T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "陕建股份",
+          "version": "dbbcfe2447bd392d2b41c3f1849a89f5a130ddb9d0c664eb877155970f1de4e9",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西建工集团股份有限公司关于追加2026年度担保预计额度、被担保对象的公告",
+              "publisher": "陕西建工集团股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第2—4页，追加额度、决策程序、额度表及协议签署情况",
+              "retrievedAt": "2026-11-05T08:05:38+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650321.PDF"
+            },
+            {
+              "title": "陕西建工集团股份有限公司第九届董事会第五次会议决议公告",
+              "publisher": "陕西建工集团股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1—2页，第三项、第五项议案及落款",
+              "retrievedAt": "2026-11-05T08:05:38+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650322.PDF"
+            },
+            {
+              "title": "陕西建工集团股份有限公司关于召开2026年第三次临时股东会的通知",
+              "publisher": "陕西建工集团股份有限公司",
+              "date": "2026-10-31",
+              "location": "物理第1—2页，会议日期及审议事项",
+              "retrievedAt": "2026-11-05T08:05:39+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225650309.PDF"
             }
           ],
           "tables": []
@@ -55334,6 +55402,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-19T08:46:13+08:00",
           "updatedAt": "2026-11-19T09:41:48+09:00",
           "compiledAt": "2026-11-19T09:41:48+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -55395,6 +55464,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-19T08:46:13+08:00",
           "updatedAt": "2026-11-19T09:41:49+09:00",
           "compiledAt": "2026-11-19T09:41:49+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -55440,6 +55510,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-19T08:46:13+08:00",
           "updatedAt": "2026-11-19T09:41:48+09:00",
           "compiledAt": "2026-11-19T09:41:48+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -55460,6 +55531,51 @@ window.PROTOTYPE = {
               "location": "物理第1页主体关系、第2页第三节解散诉讼、第3页公告落款",
               "retrievedAt": "2026-11-18T08:01:56+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225664459.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-a6bc2c7fa39ce1314a96",
+      "objectId": "listed-002673-sz",
+      "type": "公司债券付息",
+      "topics": [
+        "25西部04",
+        "2026年付息安排"
+      ],
+      "updates": [
+        {
+          "id": "production-c5f8288211865a3c0dee265a",
+          "date": "2026-11-11",
+          "time": "",
+          "title": "公告“25西部04”年度付息安排，每手派息19.80元含税",
+          "summary": "西部证券2026年11月11日公告，“25西部04”（债券代码524525）票面利率为1.98%，安排于2026年11月13日支付2025年11月13日至2026年11月12日期间的利息，每手面值人民币1,000元派息人民币19.80元（含税）。债权登记日为2026年11月12日，本公告未确认利息实际划付完成。",
+          "stage": "已公告2026年11月12日债权登记、11月13日付息安排；本轮原件不证明利息实际划付完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T09:53:44+09:00",
+          "compiledAt": "2026-11-19T09:53:44+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "西部证券",
+          "version": "c5f8288211865a3c0dee265a078de01f4d1d059d2bfdb857e18029aa012ff115",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "2025年面向专业投资者公开发行公司债券（第四期）2026年付息公告",
+              "publisher": "西部证券股份有限公司",
+              "date": "2026-11-11",
+              "location": "物理第2页债券基本情况、第3页付息方案及日期、第4页付息方法、第5页落款",
+              "retrievedAt": "2026-11-18T08:00:21+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225666421.PDF"
             }
           ],
           "tables": []
@@ -60960,6 +61076,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "b108b6f7c1384d1f7d63",
+      "date": "2026-11-19",
+      "compiledAt": "2026-11-19T09:41:51+09:00",
+      "cutoff": "2026-11-11T23:59:59+08:00",
+      "snapshotUrl": "publications/b108b6f7c1384d1f7d63/index.html",
+      "publishedAt": "2026-11-19T08:46:13+08:00"
+    },
     {
       "id": "7694ad5564f6963c148e",
       "date": "2026-11-19",
