@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-18-641bf65bb1e6",
-      "compiledAt": "2026-11-18T09:20:22+09:00",
+      "id": "2026-11-19-2f66476f0fce",
+      "compiledAt": "2026-11-19T09:11:16+09:00",
       "cutoff": "2026-11-11T23:59:59+08:00",
       "windowStart": "2026-11-05",
       "windowEnd": "2026-11-11",
@@ -17,7 +17,9 @@ window.PROTOTYPE = {
         "production-ad3c0b69166ef05e5d091239",
         "production-5bdfb27fbf2ad9594f5cf017",
         "production-58dcd0e45f20f542701f252e",
-        "production-3a5094a25fc0261f0da88450"
+        "production-3a5094a25fc0261f0da88450",
+        "production-33b0ce0ef10b3965841eadda",
+        "production-1cfaa6c32881fe086db68731"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -407,7 +409,6 @@ window.PROTOTYPE = {
       "production-ee54bfe56f9a9fe6e94c9a42": "2026-11-10T23:54:55-08:00",
       "production-6b189fe20974e4ec4ab4294c": "2026-11-11T00:13:12-08:00",
       "production-e520619f4db9789df1cc4cd4": "2026-11-11T00:28:17-08:00",
-      "production-33c87a29e25a50b02123c029": "2026-11-11T00:40:40-08:00",
       "production-b45b9b31e35ff7e7a4b611da": "2026-11-11T00:41:45-08:00",
       "production-00cd7fb0c184ed1fb42fbd09": "2026-11-11T00:50:38-08:00",
       "production-b16926786d55f4648a336f18": "2026-11-11T00:50:38-08:00",
@@ -622,7 +623,9 @@ window.PROTOTYPE = {
       "production-5bdfb27fbf2ad9594f5cf017": "2026-11-18T09:20:18+09:00",
       "production-3a5094a25fc0261f0da88450": "2026-11-18T09:20:18+09:00",
       "production-58dcd0e45f20f542701f252e": "2026-11-18T09:20:18+09:00",
-      "production-ad3c0b69166ef05e5d091239": "2026-11-18T09:20:18+09:00"
+      "production-ad3c0b69166ef05e5d091239": "2026-11-18T09:20:18+09:00",
+      "production-1cfaa6c32881fe086db68731": "2026-11-19T09:11:13+09:00",
+      "production-33b0ce0ef10b3965841eadda": "2026-11-19T09:11:13+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -2067,6 +2070,13 @@ window.PROTOTYPE = {
           "level": "brief",
           "summary": "莱特光电2026年10月27日公告，董事会于10月26日审议通过前三季度利润分配方案，拟每10股派发现金红利人民币2.00元（含税），按公告披露时扣除回购专户股份后的399,439,136股计算，合计拟派人民币79,887,827.20元（含税）。方案无需提交股东会审议，股权登记日待实施公告明确；若应分配股数变化，公司拟维持每股分配比例不变并相应调整总额。"
         },
+        "production-33b0ce0ef10b3965841eadda": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "莱特光电2026年11月11日公告2026年前三季度权益分派安排，每股派发现金红利人民币0.20元（含税），回购专用证券账户股份不参与分配，按公告披露时股数计算拟派发人民币79,887,827.20元（含税）。公告安排股权登记日为11月16日，除息及现金红利发放日为11月17日；当前材料未证明实际派息完成。"
+        },
         "production-35e86d3c86079f1b05425452": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -3274,13 +3284,6 @@ window.PROTOTYPE = {
           "action": "并购重组",
           "group": "并购重组",
           "level": "deep"
-        },
-        "production-33c87a29e25a50b02123c029": {
-          "version": "listed-scope-20261019",
-          "action": "其他",
-          "group": "其他动态",
-          "level": "brief",
-          "summary": "特变电工2026年10月30日公告，董事会于10月29日审议通过为控股子公司特变电工集团财务有限公司提供最高30亿元担保，保障其履行新特能源及其附属公司2027年1月1日至2029年12月31日期间的存款服务义务。具体担保金额以实际存款（含应付利息）发生情况确定，该事项尚需提交拟于2026年11月16日召开的股东会审议。"
         },
         "production-b45b9b31e35ff7e7a4b611da": {
           "version": "listed-scope-20261019",
@@ -4655,6 +4658,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "国际医学2026年11月11日公告，控股股东陕西世纪新元商业管理有限公司于11月9日向长安国际信托股份有限公司办理1,480万股融资类质押，占其所持公司股份的2.40%、公司总股本的0.66%，披露到期日为2029年2月4日。该笔质押不属于补充质押，融资不用于满足上市公司生产经营相关需求。"
+        },
+        "production-1cfaa6c32881fe086db68731": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "国际医学2026年11月11日公告，控股股东世纪新元的一致行动人曹鹤玲于11月9日向开源证券办理股票质押式回购交易，本次质押合计29,464,443股，其中非限售股10,524,443股、限售股18,940,000股。两笔质押用途均为项目建设，披露的质押到期日均为2027年11月22日。"
         }
       }
     },
@@ -4664,7 +4674,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-18-641bf65bb1e6",
+      "sourceEditionId": "2026-11-19-2f66476f0fce",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -30330,6 +30340,48 @@ window.PROTOTYPE = {
             }
           ],
           "tables": []
+        },
+        {
+          "id": "production-33b0ce0ef10b3965841eadda",
+          "date": "2026-11-11",
+          "time": "",
+          "title": "公布前三季度分红安排：每股派0.20元",
+          "summary": "莱特光电2026年11月11日公告2026年前三季度权益分派安排，每股派发现金红利人民币0.20元（含税），回购专用证券账户股份不参与分配，按公告披露时股数计算拟派发人民币79,887,827.20元（含税）。公告安排股权登记日为11月16日，除息及现金红利发放日为11月17日；当前材料未证明实际派息完成。",
+          "stage": "权益分派实施安排已公告：股权登记日为2026年11月16日，除息及现金红利发放日为11月17日；保荐人已出具核查意见，本轮材料不证明实际派息完成",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T09:11:14+09:00",
+          "compiledAt": "2026-11-19T09:11:14+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "莱特光电",
+          "version": "33b0ce0ef10b3965841eadda666e4e58dd0a021e53c9ccdceab7e8341728c2b6",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "陕西莱特光电材料股份有限公司2026年前三季度权益分派实施公告",
+              "publisher": "陕西莱特光电材料股份有限公司",
+              "date": "2026-11-11",
+              "location": "物理第1页每股红利及日期表；第2页分红基数和金额；第3页实施办法；第5页落款",
+              "retrievedAt": "2026-11-18T08:00:55+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225665861.PDF"
+            },
+            {
+              "title": "中信证券股份有限公司关于陕西莱特光电材料股份有限公司差异化权益分派特殊除权除息事项的核查意见",
+              "publisher": "中信证券股份有限公司",
+              "date": "2026-11-11",
+              "location": "物理第1—2页当次分红方案；第4页配套核查意见；第5页签章页；date为披露日期",
+              "retrievedAt": "2026-11-18T08:00:55+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225665862.PDF"
+            }
+          ],
+          "tables": []
         }
       ]
     },
@@ -41955,69 +42007,6 @@ window.PROTOTYPE = {
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "production-event-f9772c1e0244eaeabab4",
-      "objectId": "listed-600089-sh",
-      "type": "对子公司提供担保",
-      "topics": [
-        "存款服务履约担保",
-        "董事会审议通过",
-        "提交股东会"
-      ],
-      "updates": [
-        {
-          "id": "production-33c87a29e25a50b02123c029",
-          "date": "2026-10-30",
-          "time": "",
-          "title": "拟为财务公司存款服务提供最高30亿元担保",
-          "summary": "特变电工2026年10月30日公告，董事会于10月29日审议通过为控股子公司特变电工集团财务有限公司提供最高30亿元担保，保障其履行新特能源及其附属公司2027年1月1日至2029年12月31日期间的存款服务义务。具体担保金额以实际存款（含应付利息）发生情况确定，该事项尚需提交拟于2026年11月16日召开的股东会审议。",
-          "stage": "2026年10月29日董事会审议通过，尚需提交拟于11月16日召开的股东会审议",
-          "depth": "brief",
-          "coverage": "当次事实核查；不要求全历史研究。",
-          "occurredAt": "详见本次动态与历史节点",
-          "publishedAt": "2026-11-11T16:46:35+08:00",
-          "updatedAt": "2026-11-11T00:40:40-08:00",
-          "compiledAt": "2026-11-11T00:40:40-08:00",
-          "researchCutoff": "2026-11-01T23:59:59+08:00",
-          "disclosureLabel": "资料披露",
-          "objectNameAtDisclosure": "特变电工",
-          "version": "33c87a29e25a50b02123c029ced5c4d11c224bdafcf7439ba0dec22b4c5b4fb2",
-          "important": false,
-          "production": true,
-          "prototype": false,
-          "history": [],
-          "business": [],
-          "details": [],
-          "sources": [
-            {
-              "title": "特变电工股份有限公司关于为控股子公司提供担保的公告",
-              "publisher": "特变电工股份有限公司",
-              "date": "2026-10-30",
-              "location": "物理第1—3页：担保对象、内部决策程序及担保主要内容",
-              "retrievedAt": "2026-11-05T08:08:03+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643197.PDF"
-            },
-            {
-              "title": "特变电工股份有限公司十一届八次董事会会议决议公告",
-              "publisher": "特变电工股份有限公司",
-              "date": "2026-10-30",
-              "location": "物理第1页：第二、三项议案及公告落款",
-              "retrievedAt": "2026-11-05T08:08:03+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643188.PDF"
-            },
-            {
-              "title": "特变电工股份有限公司关于召开2026年第四次临时股东会的通知",
-              "publisher": "特变电工股份有限公司",
-              "date": "2026-10-30",
-              "location": "物理第1页：会议日期；物理第2页：审议事项",
-              "retrievedAt": "2026-11-05T08:08:04+08:00",
-              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643186.PDF"
-            }
-          ],
-          "tables": []
         }
       ]
     },
@@ -55135,6 +55124,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-18T08:24:21+08:00",
           "updatedAt": "2026-11-18T09:20:18+09:00",
           "compiledAt": "2026-11-18T09:20:18+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -55181,6 +55171,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-18T08:24:21+08:00",
           "updatedAt": "2026-11-18T09:20:18+09:00",
           "compiledAt": "2026-11-18T09:20:18+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -55227,6 +55218,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-18T08:24:21+08:00",
           "updatedAt": "2026-11-18T09:20:20+09:00",
           "compiledAt": "2026-11-18T09:20:20+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -55273,6 +55265,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-18T08:24:21+08:00",
           "updatedAt": "2026-11-18T09:20:19+09:00",
           "compiledAt": "2026-11-18T09:20:19+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -55291,6 +55284,52 @@ window.PROTOTYPE = {
               "publisher": "西安国际医学投资股份有限公司",
               "date": "2026-11-11",
               "location": "物理第1页主体及交易说明、第1—2页股份质押表、第2页其他说明第1项",
+              "retrievedAt": "2026-11-18T08:00:10+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225665554.PDF"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-b7b3bcf4c6b7f085e739",
+      "objectId": "listed-000516-sz",
+      "type": "股东股份质押",
+      "topics": [
+        "曹鹤玲",
+        "开源证券",
+        "股票质押式回购交易"
+      ],
+      "updates": [
+        {
+          "id": "production-1cfaa6c32881fe086db68731",
+          "date": "2026-11-11",
+          "time": "",
+          "title": "曹鹤玲向开源证券质押29,464,443股",
+          "summary": "国际医学2026年11月11日公告，控股股东世纪新元的一致行动人曹鹤玲于11月9日向开源证券办理股票质押式回购交易，本次质押合计29,464,443股，其中非限售股10,524,443股、限售股18,940,000股。两笔质押用途均为项目建设，披露的质押到期日均为2027年11月22日。",
+          "stage": "曹鹤玲于2026年11月9日办理股份质押，公告列示质押后数量为29,464,443股",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-19T09:11:13+09:00",
+          "compiledAt": "2026-11-19T09:11:13+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "国际医学",
+          "version": "1cfaa6c32881fe086db6873107b4d84cc9ff38c84d71439dfbf0016af4c6552c",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "关于控股股东解除部分质押及进行股份质押的公告",
+              "publisher": "西安国际医学投资股份有限公司",
+              "date": "2026-11-11",
+              "location": "物理第1页主体与交易说明、质押表表头；第2页曹鹤玲质押明细及累计质押表；第3页落款",
               "retrievedAt": "2026-11-18T08:00:10+08:00",
               "url": "https://static.cninfo.com.cn/finalpage/2026-11-11/1225665554.PDF"
             }
@@ -60793,6 +60832,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "6050ae57418fcedfcb89",
+      "date": "2026-11-18",
+      "compiledAt": "2026-11-18T09:20:22+09:00",
+      "cutoff": "2026-11-11T23:59:59+08:00",
+      "snapshotUrl": "publications/6050ae57418fcedfcb89/index.html",
+      "publishedAt": "2026-11-18T08:24:21+08:00"
+    },
     {
       "id": "412e62c13241f85c11f7",
       "date": "2026-11-18",
