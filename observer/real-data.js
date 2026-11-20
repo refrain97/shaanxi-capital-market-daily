@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-19-f562cbe6b6f8",
-      "compiledAt": "2026-11-19T11:23:27+09:00",
+      "id": "2026-11-20-a70a9641aaa7",
+      "compiledAt": "2026-11-20T09:07:01+09:00",
       "cutoff": "2026-11-11T23:59:59+08:00",
       "windowStart": "2026-11-05",
       "windowEnd": "2026-11-11",
@@ -34,7 +34,8 @@ window.PROTOTYPE = {
         "production-bdd76a6b55c98925289a1b9c",
         "production-78dc77a256f2e0a442076f53",
         "production-7622ecd0a0e1e7d8d3063ab2",
-        "production-654ea5db4eed358e7c980877"
+        "production-654ea5db4eed358e7c980877",
+        "production-efa2b7dad7ea926d021f5e23"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -654,7 +655,8 @@ window.PROTOTYPE = {
       "production-78dc77a256f2e0a442076f53": "2026-11-19T10:30:50+09:00",
       "production-bdd76a6b55c98925289a1b9c": "2026-11-19T10:30:50+09:00",
       "production-7622ecd0a0e1e7d8d3063ab2": "2026-11-19T10:30:50+09:00",
-      "production-689d6fd89c34b5ed80ac9aa2": "2026-11-19T11:23:25+09:00"
+      "production-689d6fd89c34b5ed80ac9aa2": "2026-11-19T11:23:25+09:00",
+      "production-efa2b7dad7ea926d021f5e23": "2026-11-20T09:06:59+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -3321,6 +3323,13 @@ window.PROTOTYPE = {
           "group": "并购重组",
           "level": "deep"
         },
+        "production-efa2b7dad7ea926d021f5e23": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "特变电工2026年10月30日公告，董事会于10月29日审议通过为控股子公司特变电工集团财务有限公司提供最高30亿元担保，保障其履行新特能源及其附属公司2027年1月1日至2029年12月31日期间的存款服务义务。具体担保金额以实际存款（含应付利息）发生情况确定，该事项尚需提交拟于2026年11月16日召开的股东会审议。"
+        },
         "production-b45b9b31e35ff7e7a4b611da": {
           "version": "listed-scope-20261019",
           "action": "其他",
@@ -4799,9 +4808,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-11-19-f562cbe6b6f8",
-      "editionId": "selection-fb1b389b2331929cb48b",
+      "status": "committed",
+      "sourceEditionId": "2026-11-20-a70a9641aaa7",
+      "editionId": "selection-0c3d122c08d83bd12808",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -42179,6 +42188,80 @@ window.PROTOTYPE = {
       ]
     },
     {
+      "id": "production-event-f9772c1e0244eaeabab4",
+      "objectId": "listed-600089-sh",
+      "type": "对子公司提供担保",
+      "topics": [
+        "存款服务履约担保",
+        "董事会审议通过",
+        "提交股东会"
+      ],
+      "updates": [
+        {
+          "id": "production-efa2b7dad7ea926d021f5e23",
+          "date": "2026-10-30",
+          "time": "",
+          "title": "拟为财务公司存款服务提供最高30亿元担保",
+          "summary": "特变电工2026年10月30日公告，董事会于10月29日审议通过为控股子公司特变电工集团财务有限公司提供最高30亿元担保，保障其履行新特能源及其附属公司2027年1月1日至2029年12月31日期间的存款服务义务。具体担保金额以实际存款（含应付利息）发生情况确定，该事项尚需提交拟于2026年11月16日召开的股东会审议。",
+          "stage": "2026年10月29日董事会审议通过，尚需提交拟于11月16日召开的股东会审议",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-20T09:06:59+09:00",
+          "compiledAt": "2026-11-20T09:06:59+09:00",
+          "researchCutoff": "2026-11-11T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "特变电工",
+          "version": "efa2b7dad7ea926d021f5e2304facaef864179a5d1053ca4a773e056f408fa8f",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "特变电工股份有限公司关于为控股子公司提供担保的公告",
+              "publisher": "特变电工股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1—3页：担保对象、内部决策程序及担保主要内容",
+              "retrievedAt": "2026-11-05T08:08:03+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643197.PDF"
+            },
+            {
+              "title": "特变电工股份有限公司十一届八次董事会会议决议公告",
+              "publisher": "特变电工股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页：第二、三项议案及公告落款",
+              "retrievedAt": "2026-11-05T08:08:03+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643188.PDF"
+            },
+            {
+              "title": "特变电工股份有限公司关于召开2026年第四次临时股东会的通知",
+              "publisher": "特变电工股份有限公司",
+              "date": "2026-10-30",
+              "location": "物理第1页：会议日期；物理第2页：审议事项",
+              "retrievedAt": "2026-11-05T08:08:04+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225643186.PDF"
+            },
+            {
+              "title": "特变电工股份有限公司2026年第四次临时股东会会议资料",
+              "publisher": "特变电工股份有限公司",
+              "date": "2026-11-10",
+              "location": "物理第3页：会议议程；物理第4—6页：担保议案。披露日期据来源记录，议程及议案落款为2026年11月16日",
+              "retrievedAt": "2026-11-18T08:01:54+08:00",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225663382.PDF"
+            }
+          ],
+          "tables": [],
+          "revision": {
+            "at": "2026-11-20T09:06:59+09:00",
+            "note": "新增依据影响关键结论，已重新核查；原版保留在历史快照。"
+          }
+        }
+      ]
+    },
+    {
       "id": "production-event-25469ebfb8120c3416b7",
       "objectId": "listed-002149-sz",
       "type": "定期报告",
@@ -56393,6 +56476,50 @@ window.PROTOTYPE = {
   ],
   "editions": [
     {
+      "id": "selection-0c3d122c08d83bd12808",
+      "date": "2026-11-20",
+      "cutoff": "2026-11-11T23:59:59+08:00",
+      "compiledAt": "2026-11-20T08:07:05+08:00",
+      "researchCutoff": "2026-11-11T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-11T23:59:59+08:00",
+      "updateIds": [
+        "production-689d6fd89c34b5ed80ac9aa2"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-0c3d122c08d83bd12808/page-01.png",
+          "width": 1080,
+          "height": 800,
+          "sha256": "5a867213dfd05bbdb3ee2aedab2a267a3f937465156ed0ae3bb6cbd2b9716158"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-20-a70a9641aaa7",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-11-09",
+      "rangeEnd": "2026-11-09",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-cfb31637b218aa086ebd",
+          "updateId": "production-689d6fd89c34b5ed80ac9aa2",
+          "version": "689d6fd89c34b5ed80ac9aa273845fcc7beb7c612cf7c88eac98e678097e3e38",
+          "objectName": "西测测试",
+          "type": "listed",
+          "category": "定增",
+          "date": "2026-11-09",
+          "title": "定增方案获股东会通过，募资上限119,267.30万元",
+          "business": "投资银行",
+          "share": {
+            "title": "定增方案获股东会通过",
+            "facts": "2026年11月9日，西安西测测试技术股份有限公司股东会通过定增方案，拟募资不超过119,267.30万元，拟发行不超过25,320,000股。现有材料未证明已获深交所审核通过、证监会同意注册、发行完成或募集资金到账。"
+          }
+        }
+      ]
+    },
+    {
       "id": "selection-fb1b389b2331929cb48b",
       "date": "2026-11-19",
       "cutoff": "2026-11-11T23:59:59+08:00",
@@ -61928,6 +62055,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "ea74174fd46308c07082",
+      "date": "2026-11-19",
+      "compiledAt": "2026-11-19T11:23:27+09:00",
+      "cutoff": "2026-11-11T23:59:59+08:00",
+      "snapshotUrl": "publications/ea74174fd46308c07082/index.html",
+      "publishedAt": "2026-11-19T10:48:22+08:00"
+    },
     {
       "id": "973bf24cc9594e63bd14",
       "date": "2026-11-19",
