@@ -4821,8 +4821,8 @@ window.PROTOTYPE = {
     },
     "privateFilingHistory": {
       "start": "2026-01-01",
-      "end": "2026-11-11",
-      "checkedAt": "2026-11-18T08:04:49+08:00",
+      "end": "2026-11-16",
+      "checkedAt": "2026-11-21T12:12:02+08:00",
       "scopeCount": 92,
       "completeManagers": 92,
       "partialManagers": 0,
@@ -4946,7 +4946,7 @@ window.PROTOTYPE = {
           "name": "深圳国盛祥隆私募证券基金管理有限公司",
           "registrationNo": "P1013255",
           "status": "complete",
-          "visibleProducts": 3
+          "visibleProducts": 4
         },
         {
           "objectId": "private-101000026975",
@@ -5275,7 +5275,7 @@ window.PROTOTYPE = {
           "name": "陕西九和岛基金管理有限公司",
           "registrationNo": "P1071318",
           "status": "complete",
-          "visibleProducts": 16
+          "visibleProducts": 18
         },
         {
           "objectId": "private-101000050603",
@@ -5476,6 +5476,45 @@ window.PROTOTYPE = {
       ],
       "products": [
         {
+          "objectId": "private-101000019713",
+          "id": "2611161629101484",
+          "managerName": "深圳国盛祥隆私募证券基金管理有限公司",
+          "name": "国盛祥隆定澜一号私募证券投资基金",
+          "filingNo": "SJZ768",
+          "filedAt": "2026-11-16",
+          "establishedAt": "2026-11-11",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2611161629101484.html",
+          "retrievedAt": "2026-11-21T12:09:01+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2611161629100445",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛太乙沪深300指数增强1号私募证券投资基金",
+          "filingNo": "SJB240",
+          "filedAt": "2026-11-16",
+          "establishedAt": "2026-11-11",
+          "custodian": "中信证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2611161629100445.html",
+          "retrievedAt": "2026-11-21T12:10:19+08:00"
+        },
+        {
+          "objectId": "private-2008111918106744",
+          "id": "2611161629100381",
+          "managerName": "陕西九和岛基金管理有限公司",
+          "name": "九和岛太乙集萃量选1号私募证券投资基金",
+          "filingNo": "SJV933",
+          "filedAt": "2026-11-16",
+          "establishedAt": "2026-11-11",
+          "custodian": "华泰证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2611161629100381.html",
+          "retrievedAt": "2026-11-21T12:10:19+08:00"
+        },
+        {
           "objectId": "private-2008111918106744",
           "id": "2611110901108326",
           "managerName": "陕西九和岛基金管理有限公司",
@@ -5486,7 +5525,7 @@ window.PROTOTYPE = {
           "custodian": "广发证券股份有限公司",
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2611110901108326.html",
-          "retrievedAt": "2026-11-18T08:03:11+08:00"
+          "retrievedAt": "2026-11-21T12:10:19+08:00"
         },
         {
           "objectId": "private-1705251723108664",
@@ -6631,7 +6670,7 @@ window.PROTOTYPE = {
           "coverageComplete": true,
           "coveredManagers": 92,
           "scopeCount": 92,
-          "count": 2
+          "count": 5
         }
       ]
     }
@@ -42207,6 +42246,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-20T08:11:07+08:00",
           "updatedAt": "2026-11-20T09:06:59+09:00",
           "compiledAt": "2026-11-20T09:06:59+09:00",
           "researchCutoff": "2026-11-11T23:59:59+08:00",
@@ -62055,6 +62095,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "d55450e98c5c99759c78",
+      "date": "2026-11-20",
+      "compiledAt": "2026-11-20T09:07:01+09:00",
+      "cutoff": "2026-11-11T23:59:59+08:00",
+      "snapshotUrl": "publications/d55450e98c5c99759c78/index.html",
+      "publishedAt": "2026-11-20T08:11:07+08:00"
+    },
     {
       "id": "ea74174fd46308c07082",
       "date": "2026-11-19",
