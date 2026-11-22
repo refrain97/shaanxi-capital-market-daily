@@ -4800,8 +4800,8 @@ window.PROTOTYPE = {
     },
     "privateFilingHistory": {
       "start": "2026-01-01",
-      "end": "2026-11-16",
-      "checkedAt": "2026-11-21T12:12:02+08:00",
+      "end": "2026-11-21",
+      "checkedAt": "2026-11-22T08:09:18+08:00",
       "scopeCount": 92,
       "completeManagers": 92,
       "partialManagers": 0,
@@ -4925,7 +4925,7 @@ window.PROTOTYPE = {
           "name": "深圳国盛祥隆私募证券基金管理有限公司",
           "registrationNo": "P1013255",
           "status": "complete",
-          "visibleProducts": 4
+          "visibleProducts": 5
         },
         {
           "objectId": "private-101000026975",
@@ -5456,6 +5456,19 @@ window.PROTOTYPE = {
       "products": [
         {
           "objectId": "private-101000019713",
+          "id": "2611191722117739",
+          "managerName": "深圳国盛祥隆私募证券基金管理有限公司",
+          "name": "国盛祥隆衡远一号私募证券投资基金",
+          "filingNo": "SGW667",
+          "filedAt": "2026-11-20",
+          "establishedAt": "2026-11-16",
+          "custodian": "国泰海通证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2611191722117739.html",
+          "retrievedAt": "2026-11-22T08:07:07+08:00"
+        },
+        {
+          "objectId": "private-101000019713",
           "id": "2611161629101484",
           "managerName": "深圳国盛祥隆私募证券基金管理有限公司",
           "name": "国盛祥隆定澜一号私募证券投资基金",
@@ -5465,7 +5478,7 @@ window.PROTOTYPE = {
           "custodian": "国泰海通证券股份有限公司",
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2611161629101484.html",
-          "retrievedAt": "2026-11-21T12:09:01+08:00"
+          "retrievedAt": "2026-11-22T08:07:07+08:00"
         },
         {
           "objectId": "private-2008111918106744",
@@ -5478,7 +5491,7 @@ window.PROTOTYPE = {
           "custodian": "中信证券股份有限公司",
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2611161629100445.html",
-          "retrievedAt": "2026-11-21T12:10:19+08:00"
+          "retrievedAt": "2026-11-22T08:07:56+08:00"
         },
         {
           "objectId": "private-2008111918106744",
@@ -5491,7 +5504,7 @@ window.PROTOTYPE = {
           "custodian": "华泰证券股份有限公司",
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2611161629100381.html",
-          "retrievedAt": "2026-11-21T12:10:19+08:00"
+          "retrievedAt": "2026-11-22T08:07:56+08:00"
         },
         {
           "objectId": "private-2008111918106744",
@@ -6649,7 +6662,7 @@ window.PROTOTYPE = {
           "coverageComplete": true,
           "coveredManagers": 92,
           "scopeCount": 92,
-          "count": 5
+          "count": 6
         }
       ]
     }
@@ -56511,6 +56524,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。未完成2026年1月1日至11月16日全部产品分页、身份与备案日期逐项核验；月度表仅记录已核实下限或未完成覆盖，不代表全量发行、注销或清算历史。 未取得各产品托管安排的完整变更记录；本文只比较留存页面所列托管人，不判断首次合作、同一产品迁移或自备案以来从未变化。 定澜一号所提供产品公示未披露募集规模及具体证券交易服务机构，不能据此推断新增业务规模或未开户。 备案日期、字段更新时间与首次公开时间不同；本次补入的11月21日页面不能证明其全部内容在研究截止日前已公开。 本候选尚待独立核查；未进行发布或排程。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-21T13:49:34+08:00",
           "updatedAt": "2026-11-21T14:43:22+09:00",
           "compiledAt": "2026-11-21T14:43:22+09:00",
           "researchCutoff": "2026-11-16T23:59:59+08:00",
@@ -62290,6 +62304,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "29147c844e6f568061d9",
+      "date": "2026-11-21",
+      "compiledAt": "2026-11-21T14:43:23+09:00",
+      "cutoff": "2026-11-16T23:59:59+08:00",
+      "snapshotUrl": "publications/29147c844e6f568061d9/index.html",
+      "publishedAt": "2026-11-21T13:49:34+08:00"
+    },
     {
       "id": "b297b300aac57c26d022",
       "date": "2026-11-21",
