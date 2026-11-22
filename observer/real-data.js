@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-22-6778c2708c64",
-      "compiledAt": "2026-11-22T09:20:27+09:00",
+      "id": "2026-11-22-71fd4804e467",
+      "compiledAt": "2026-11-22T09:33:16+09:00",
       "cutoff": "2026-11-21T23:59:59+08:00",
       "windowStart": "2026-11-15",
       "windowEnd": "2026-11-21",
@@ -14,7 +14,10 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-11-21T23:59:59+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
-        "production-408d1353f6ed46762566e92a"
+        "production-408d1353f6ed46762566e92a",
+        "production-e64b5d68e9a613a31653148d",
+        "production-d62e7684b29b06ef63c8adc7",
+        "production-b4d3fdf87dd36bc906c4a641"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -637,7 +640,10 @@ window.PROTOTYPE = {
       "production-689d6fd89c34b5ed80ac9aa2": "2026-11-19T11:23:25+09:00",
       "production-efa2b7dad7ea926d021f5e23": "2026-11-20T09:06:59+09:00",
       "production-f1df770e8209a2b1fcf7a4b1": "2026-11-21T14:43:22+09:00",
-      "production-408d1353f6ed46762566e92a": "2026-11-22T09:20:25+09:00"
+      "production-408d1353f6ed46762566e92a": "2026-11-22T09:20:25+09:00",
+      "production-d62e7684b29b06ef63c8adc7": "2026-11-22T09:33:12+09:00",
+      "production-b4d3fdf87dd36bc906c4a641": "2026-11-22T09:33:12+09:00",
+      "production-e64b5d68e9a613a31653148d": "2026-11-22T09:33:12+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -4788,6 +4794,27 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "大唐西市丝路投资控股有限公司于2026年11月19日公告，执行董事黄大海已获委任为《香港联合交易所有限公司证券上市规则》第3.05条规定的公司授权代表，自2026年11月19日起生效。"
+        },
+        "production-d62e7684b29b06ef63c8adc7": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "大唐西市丝路投资控股有限公司2026年11月18日公告，黄国敦因希望专注于其他业务事务，自11月16日起辞任执行董事，并不再担任联席行政总裁。同日起，其亦不再担任董事会投资决策委员会成员及上市规则第3.05条规定的公司授权代表。"
+        },
+        "production-b4d3fdf87dd36bc906c4a641": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "大唐西市丝路投资控股有限公司2026年11月18日公告，独立非执行董事蔡宏图获委任为董事会投资决策委员会委员，自当日起生效。"
+        },
+        "production-e64b5d68e9a613a31653148d": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "普汇中金国际控股有限公司2026年11月18日公告，控股股东Wealth Keeper International Limited（借款人）及最终控股股东兼执行董事李伟斌（担保人）当日接获香港高等法院传讯令状，英皇证券有限公司申索未偿还本金及应计利息合计约438,878,000港元，两者正寻求法律意见。控股股东所持635,453,662股公司股份（占已发行股份约54.35%）已作为抵押品存放于英皇证券；倘相关股份被强制执行并出售，可能导致控制权变动，结果视乎最终出售数量及承让人。"
         }
       }
     },
@@ -4797,7 +4824,7 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-22-6778c2708c64",
+      "sourceEditionId": "2026-11-22-71fd4804e467",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -56750,6 +56777,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-22T08:27:12+08:00",
           "updatedAt": "2026-11-22T09:20:26+09:00",
           "compiledAt": "2026-11-22T09:20:26+09:00",
           "researchCutoff": "2026-11-21T23:59:59+08:00",
@@ -56770,6 +56798,154 @@ window.PROTOTYPE = {
               "location": "物理第1页，正文委任段及落款",
               "retrievedAt": "2026-11-22T08:06:42+08:00",
               "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111901344_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-867f4b3da9b833e00ca2",
+      "objectId": "listed-0620-hk",
+      "type": "董事及管理职务变动",
+      "topics": [
+        "黄国敦",
+        "执行董事辞任",
+        "联席行政总裁",
+        "附随职务终止"
+      ],
+      "updates": [
+        {
+          "id": "production-d62e7684b29b06ef63c8adc7",
+          "date": "2026-11-18",
+          "time": "",
+          "title": "黄国敦辞任执行董事，并不再担任联席行政总裁等职务",
+          "summary": "大唐西市丝路投资控股有限公司2026年11月18日公告，黄国敦因希望专注于其他业务事务，自11月16日起辞任执行董事，并不再担任联席行政总裁。同日起，其亦不再担任董事会投资决策委员会成员及上市规则第3.05条规定的公司授权代表。",
+          "stage": "公告披露黄国敦自11月16日起辞任执行董事，并不再担任联席行政总裁、投资决策委员会成员及授权代表",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-22T09:33:12+09:00",
+          "compiledAt": "2026-11-22T09:33:12+09:00",
+          "researchCutoff": "2026-11-21T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "大唐西市",
+          "version": "d62e7684b29b06ef63c8adc76f2e6c3326ddf3366f25ca5a2770707c50975bf3",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "(1)執行董事兼聯席行政總裁辭任(2)投資決策委員會組成變動及(3) 授權代表變動",
+              "publisher": "大唐西市丝路投资控股有限公司",
+              "date": "2026-11-18",
+              "location": "物理第1页辞任段落；第2页委员会及授权代表变动段落、落款",
+              "retrievedAt": "2026-11-22T08:06:43+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111801544_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-7f39f35badada028023c",
+      "objectId": "listed-0620-hk",
+      "type": "董事会委员会成员委任",
+      "topics": [
+        "蔡宏图",
+        "投资决策委员会",
+        "董事名单配套披露"
+      ],
+      "updates": [
+        {
+          "id": "production-b4d3fdf87dd36bc906c4a641",
+          "date": "2026-11-18",
+          "time": "",
+          "title": "委任蔡宏图为投资决策委员会委员",
+          "summary": "大唐西市丝路投资控股有限公司2026年11月18日公告，独立非执行董事蔡宏图获委任为董事会投资决策委员会委员，自当日起生效。",
+          "stage": "蔡宏图获委任为投资决策委员会委员，自11月18日起生效；同日名单列示其委员会成员身份",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-22T09:33:14+09:00",
+          "compiledAt": "2026-11-22T09:33:14+09:00",
+          "researchCutoff": "2026-11-21T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "大唐西市",
+          "version": "b4d3fdf87dd36bc906c4a641b14c536cd759c14f34423a69fc8ef6e9d80a7a5f",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "(1)執行董事兼聯席行政總裁辭任(2)投資決策委員會組成變動及(3) 授權代表變動",
+              "publisher": "大唐西市丝路投资控股有限公司",
+              "date": "2026-11-18",
+              "location": "物理第2页投资决策委员会组成变动段落及落款",
+              "retrievedAt": "2026-11-22T08:06:43+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111801544_c.pdf"
+            },
+            {
+              "title": "董事名單與其角色和職能",
+              "publisher": "大唐西市丝路投资控股有限公司",
+              "date": "2026-11-18",
+              "location": "物理第1页委员会表格：蔡宏图行、投资决策委员会列及M释义",
+              "retrievedAt": "2026-11-22T08:06:43+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111801546_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-655f11e8463be4289b90",
+      "objectId": "listed-0997-hk",
+      "type": "控股股东及董事贷款诉讼",
+      "topics": [
+        "Wealth Keeper International Limited",
+        "李伟斌",
+        "英皇证券",
+        "抵押股份潜在执行风险"
+      ],
+      "updates": [
+        {
+          "id": "production-e64b5d68e9a613a31653148d",
+          "date": "2026-11-18",
+          "time": "",
+          "title": "普汇中金控股股东及李伟斌接获贷款追索令状，涉约438,878,000港元",
+          "summary": "普汇中金国际控股有限公司2026年11月18日公告，控股股东Wealth Keeper International Limited（借款人）及最终控股股东兼执行董事李伟斌（担保人）当日接获香港高等法院传讯令状，英皇证券有限公司申索未偿还本金及应计利息合计约438,878,000港元，两者正寻求法律意见。控股股东所持635,453,662股公司股份（占已发行股份约54.35%）已作为抵押品存放于英皇证券；倘相关股份被强制执行并出售，可能导致控制权变动，结果视乎最终出售数量及承让人。",
+          "stage": "控股股东及李伟斌11月18日接获高等法院传讯令状，涉及约438,878,000港元本金及利息申索；正寻求法律意见",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-22T09:33:13+09:00",
+          "compiledAt": "2026-11-22T09:33:13+09:00",
+          "researchCutoff": "2026-11-21T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "普匯中金國際",
+          "version": "e64b5d68e9a613a31653148da09eb6eb0192018cace237b189f43d13a85d236e",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "有關針對控股股東及執行董事之法律行動之公告",
+              "publisher": "普汇中金国际控股有限公司",
+              "date": "2026-11-18",
+              "location": "物理第1页令状及申索段落；第2页抵押股份、条件性控制权风险、法律意见及落款",
+              "retrievedAt": "2026-11-22T08:06:50+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111801448_c.pdf"
             }
           ],
           "tables": []
@@ -62358,6 +62534,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "70263235839bfdaa0556",
+      "date": "2026-11-22",
+      "compiledAt": "2026-11-22T09:20:27+09:00",
+      "cutoff": "2026-11-21T23:59:59+08:00",
+      "snapshotUrl": "publications/70263235839bfdaa0556/index.html",
+      "publishedAt": "2026-11-22T08:27:12+08:00"
+    },
     {
       "id": "ac7a3ec4d402c67eda05",
       "date": "2026-11-22",
