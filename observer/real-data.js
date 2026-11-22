@@ -5,16 +5,16 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-21-0e884df6a4ea",
-      "compiledAt": "2026-11-21T14:43:23+09:00",
-      "cutoff": "2026-11-16T23:59:59+08:00",
-      "windowStart": "2026-11-10",
-      "windowEnd": "2026-11-16",
-      "researchCutoff": "2026-11-16T23:59:59+08:00",
-      "sourceDiscoveryCutoff": "2026-11-16T23:59:59+08:00",
+      "id": "2026-11-22-6778c2708c64",
+      "compiledAt": "2026-11-22T09:20:27+09:00",
+      "cutoff": "2026-11-21T23:59:59+08:00",
+      "windowStart": "2026-11-15",
+      "windowEnd": "2026-11-21",
+      "researchCutoff": "2026-11-21T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-21T23:59:59+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
-        "production-f1df770e8209a2b1fcf7a4b1"
+        "production-408d1353f6ed46762566e92a"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -636,7 +636,8 @@ window.PROTOTYPE = {
       "production-7622ecd0a0e1e7d8d3063ab2": "2026-11-19T10:30:50+09:00",
       "production-689d6fd89c34b5ed80ac9aa2": "2026-11-19T11:23:25+09:00",
       "production-efa2b7dad7ea926d021f5e23": "2026-11-20T09:06:59+09:00",
-      "production-f1df770e8209a2b1fcf7a4b1": "2026-11-21T14:43:22+09:00"
+      "production-f1df770e8209a2b1fcf7a4b1": "2026-11-21T14:43:22+09:00",
+      "production-408d1353f6ed46762566e92a": "2026-11-22T09:20:25+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -4780,6 +4781,13 @@ window.PROTOTYPE = {
           "action": "定增",
           "group": "股权投资与融资",
           "level": "deep"
+        },
+        "production-408d1353f6ed46762566e92a": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "大唐西市丝路投资控股有限公司于2026年11月19日公告，执行董事黄大海已获委任为《香港联合交易所有限公司证券上市规则》第3.05条规定的公司授权代表，自2026年11月19日起生效。"
         }
       }
     },
@@ -4789,13 +4797,13 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-21-0e884df6a4ea",
+      "sourceEditionId": "2026-11-22-6778c2708c64",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
-      "windowStart": "2026-11-10",
-      "windowEnd": "2026-11-16",
-      "cutoff": "2026-11-16T23:59:59+08:00",
+      "windowStart": "2026-11-15",
+      "windowEnd": "2026-11-21",
+      "cutoff": "2026-11-21T23:59:59+08:00",
       "partial": true
     },
     "privateFilingHistory": {
@@ -56721,6 +56729,52 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-41f5ff91906bb8bf5573",
+      "objectId": "listed-0620-hk",
+      "type": "授权代表委任",
+      "topics": [
+        "黄大海",
+        "授权代表",
+        "上市规则第3.05条"
+      ],
+      "updates": [
+        {
+          "id": "production-408d1353f6ed46762566e92a",
+          "date": "2026-11-19",
+          "time": "",
+          "title": "委任执行董事黄大海为授权代表",
+          "summary": "大唐西市丝路投资控股有限公司于2026年11月19日公告，执行董事黄大海已获委任为《香港联合交易所有限公司证券上市规则》第3.05条规定的公司授权代表，自2026年11月19日起生效。",
+          "stage": "执行董事黄大海获委任为上市规则第3.05条规定的授权代表，自11月19日起生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-22T09:20:26+09:00",
+          "compiledAt": "2026-11-22T09:20:26+09:00",
+          "researchCutoff": "2026-11-21T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "大唐西市",
+          "version": "408d1353f6ed46762566e92a851c1c19fbd340be72cb498e5cf29977d1321d59",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "委任授權代表",
+              "publisher": "大唐西市丝路投资控股有限公司",
+              "date": "2026-11-19",
+              "location": "物理第1页，正文委任段及落款",
+              "retrievedAt": "2026-11-22T08:06:42+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111901344_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -62304,6 +62358,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "ac7a3ec4d402c67eda05",
+      "date": "2026-11-22",
+      "compiledAt": "2026-11-21T14:43:23+09:00",
+      "cutoff": "2026-11-16T23:59:59+08:00",
+      "snapshotUrl": "publications/ac7a3ec4d402c67eda05/index.html",
+      "publishedAt": "2026-11-22T08:13:38+08:00"
+    },
     {
       "id": "29147c844e6f568061d9",
       "date": "2026-11-21",
