@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-22-ce6246bf920e",
-      "compiledAt": "2026-11-22T09:53:34+09:00",
+      "id": "2026-11-22-8903de0ef0e9",
+      "compiledAt": "2026-11-22T10:07:29+09:00",
       "cutoff": "2026-11-21T23:59:59+08:00",
       "windowStart": "2026-11-15",
       "windowEnd": "2026-11-21",
@@ -19,6 +19,9 @@ window.PROTOTYPE = {
         "production-e64b5d68e9a613a31653148d",
         "production-d62e7684b29b06ef63c8adc7",
         "production-b4d3fdf87dd36bc906c4a641",
+        "production-93211580d64ef743c7468847",
+        "production-4b4ae39077497e2af07f1c64",
+        "production-348766fe791cecb393846f9d",
         "production-2d111b4b14479186da3595c1"
       ],
       "status": "public",
@@ -647,7 +650,10 @@ window.PROTOTYPE = {
       "production-b4d3fdf87dd36bc906c4a641": "2026-11-22T09:33:12+09:00",
       "production-e64b5d68e9a613a31653148d": "2026-11-22T09:33:12+09:00",
       "production-2d111b4b14479186da3595c1": "2026-11-22T09:47:37+09:00",
-      "production-5d77a9daae8ffc7982c737ec": "2026-11-22T09:53:32+09:00"
+      "production-5d77a9daae8ffc7982c737ec": "2026-11-22T09:53:32+09:00",
+      "production-4b4ae39077497e2af07f1c64": "2026-11-22T10:03:17+09:00",
+      "production-93211580d64ef743c7468847": "2026-11-22T10:05:36+09:00",
+      "production-348766fe791cecb393846f9d": "2026-11-22T10:07:28+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -4832,6 +4838,27 @@ window.PROTOTYPE = {
           "action": "股份回购",
           "group": "回购",
           "level": "deep"
+        },
+        "production-4b4ae39077497e2af07f1c64": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "德银天下股份有限公司2026年11月16日公告，董事会当日通过委任李锐为第二届董事会执行董事的建议，尚待临时股东会批准，任期自批准之日起至第二届董事会任期届满。王文岐此前提出的辞任将自股东会委任相应新董事之日起生效。"
+        },
+        "production-93211580d64ef743c7468847": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "德银天下2026年11月16日公告，公司与陕汽控股就修订产品及服务供应框架协议项下2027年度上限达成共识：智能车联网产品拟由人民币242,058千元上调至347,058千元，后市场产品拟由人民币20,000千元上调至32,000千元。修订尚待独立股东于临时股东会批准后方可作实。"
+        },
+        "production-348766fe791cecb393846f9d": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "德银天下2026年11月16日公告，全资子公司德银保理当日与陕汽房地产签订债务清偿协议，拟接收泾渭国际城45套住宅及对应土地使用权，抵偿最高人民币33,979,365.29元保理本金，利息等附带申索另行支付。公告时本金仍全数未偿还、物业尚未取得不动产权证书，须完成线上备案及业权登记后方可抵偿，实际清偿额以成功登记物业的评估值与上述本金上限孰低确定。"
         }
       }
     },
@@ -4841,8 +4868,8 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "committed",
-      "sourceEditionId": "2026-11-22-ce6246bf920e",
-      "editionId": "selection-a10245e52b2f78587a9a",
+      "sourceEditionId": "2026-11-22-8903de0ef0e9",
+      "editionId": "selection-9c621198d932923f9042",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -56992,6 +57019,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-22T09:02:28+08:00",
           "updatedAt": "2026-11-22T09:47:37+09:00",
           "compiledAt": "2026-11-22T09:47:37+09:00",
           "researchCutoff": "2026-11-21T23:59:59+08:00",
@@ -57038,6 +57066,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。资料不覆盖2026年10月22日至研究截止的完整回购成交记录，不能据此断言该期间没有回购，也不能计算该期间累计成交数量、支付金额或均价。 三份文件未披露本次授权的具体回购金额预算、固定价格上限或回购执行机构，授权上限不能视为确定的回购资金需求。 11月20日公告投票表中的百分比与所列票数复算结果不一致，现有材料未解释原因；原票数、原表比例及复算差异均予保留。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-22T09:02:28+08:00",
           "updatedAt": "2026-11-22T09:53:32+09:00",
           "compiledAt": "2026-11-22T09:53:32+09:00",
           "researchCutoff": "2026-11-21T23:59:59+08:00",
@@ -57161,9 +57190,193 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-6193ce26edc7d9341ca2",
+      "objectId": "listed-2418-hk",
+      "type": "上市公司人事",
+      "topics": [
+        "执行董事变更",
+        "李锐拟任",
+        "股东会批准待完成"
+      ],
+      "updates": [
+        {
+          "id": "production-4b4ae39077497e2af07f1c64",
+          "date": "2026-11-16",
+          "time": "",
+          "title": "德银天下拟委任李锐为执行董事，尚待股东会批准",
+          "summary": "德银天下股份有限公司2026年11月16日公告，董事会当日通过委任李锐为第二届董事会执行董事的建议，尚待临时股东会批准，任期自批准之日起至第二届董事会任期届满。王文岐此前提出的辞任将自股东会委任相应新董事之日起生效。",
+          "stage": "董事会通过李锐委任建议，尚待股东会批准；王文岐此前提出的辞任尚待相应新董事获委任生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-22T10:03:17+09:00",
+          "compiledAt": "2026-11-22T10:03:17+09:00",
+          "researchCutoff": "2026-11-21T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "德銀天下",
+          "version": "4b4ae39077497e2af07f1c64c142ee0a8fe5e617827476651d9b7591b01a81a6",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "(1)建議變更執行董事及非執行董事；(2)建議修訂持續關連交易之年度上限；及(3)關連交易—債務清償協議",
+              "publisher": "德银天下股份有限公司",
+              "date": "2026-11-16",
+              "location": "物理第1、4、29页",
+              "retrievedAt": "2026-11-22T08:06:20+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1116/2026111601582_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-943d64928496610e36e5",
+      "objectId": "listed-2418-hk",
+      "type": "持续关联交易年度上限修订",
+      "topics": [
+        "陕汽控股",
+        "2027年度交易上限",
+        "智能车联网产品",
+        "后市场产品"
+      ],
+      "updates": [
+        {
+          "id": "production-93211580d64ef743c7468847",
+          "date": "2026-11-16",
+          "time": "",
+          "title": "德银天下拟上调与陕汽控股两类产品的2027年度关联交易上限",
+          "summary": "德银天下2026年11月16日公告，公司与陕汽控股就修订产品及服务供应框架协议项下2027年度上限达成共识：智能车联网产品拟由人民币242,058千元上调至347,058千元，后市场产品拟由人民币20,000千元上调至32,000千元。修订尚待独立股东于临时股东会批准后方可作实。",
+          "stage": "公司与陕汽控股就修订2027年度上限达成共识，尚待独立股东于临时股东会批准",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。第7页表格的2027年现行及修订上限总计均较所列分项加总多人民币1千元，原因未解释；本短记仅采用两类产品各自的明确金额，不引用总计，不影响所述修订事实。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-22T10:05:36+09:00",
+          "compiledAt": "2026-11-22T10:05:36+09:00",
+          "researchCutoff": "2026-11-21T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "德銀天下",
+          "version": "93211580d64ef743c74688470be223d6f546a535d1ebbc680c08ad87bb7ffc23",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "(1)建議變更執行董事及非執行董事；(2)建議修訂持續關連交易之年度上限；及(3)關連交易—債務清償協議",
+              "publisher": "德银天下股份有限公司",
+              "date": "2026-11-16",
+              "location": "物理第7页修订说明及表格、第27页批准条件、第29页落款",
+              "retrievedAt": "2026-11-22T08:06:20+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1116/2026111601582_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-645f73891f6016ebafab",
+      "objectId": "listed-2418-hk",
+      "type": "关联债务清偿",
+      "topics": [
+        "德银保理",
+        "陕汽房地产",
+        "以物抵债",
+        "保理应收本金"
+      ],
+      "updates": [
+        {
+          "id": "production-348766fe791cecb393846f9d",
+          "date": "2026-11-16",
+          "time": "",
+          "title": "德银天下子公司签订以房抵债协议，拟收回保理本金",
+          "summary": "德银天下2026年11月16日公告，全资子公司德银保理当日与陕汽房地产签订债务清偿协议，拟接收泾渭国际城45套住宅及对应土地使用权，抵偿最高人民币33,979,365.29元保理本金，利息等附带申索另行支付。公告时本金仍全数未偿还、物业尚未取得不动产权证书，须完成线上备案及业权登记后方可抵偿，实际清偿额以成功登记物业的评估值与上述本金上限孰低确定。",
+          "stage": "债务清偿协议已签订；公告时本金仍全数未偿还，须完成物业线上备案及业权登记后方可抵偿",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-22T10:07:28+09:00",
+          "compiledAt": "2026-11-22T10:07:28+09:00",
+          "researchCutoff": "2026-11-21T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "德銀天下",
+          "version": "348766fe791cecb393846f9de7265febdac636b31926fc4d2f709b0f8e1b5891",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "(1)建議變更執行董事及非執行董事；(2)建議修訂持續關連交易之年度上限；及(3)關連交易—債務清償協議",
+              "publisher": "德银天下股份有限公司",
+              "date": "2026-11-16",
+              "location": "物理第15—18、23、25、29页",
+              "retrievedAt": "2026-11-22T08:06:20+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1116/2026111601582_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-9c621198d932923f9042",
+      "date": "2026-11-22",
+      "cutoff": "2026-11-21T23:59:59+08:00",
+      "compiledAt": "2026-11-22T09:07:33+08:00",
+      "researchCutoff": "2026-11-21T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-21T23:59:59+08:00",
+      "updateIds": [
+        "production-5d77a9daae8ffc7982c737ec"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-9c621198d932923f9042/page-01.png",
+          "width": 1080,
+          "height": 854,
+          "sha256": "6278d18a4e717a1dd5ecb84566a57f48d7d5a40645092d41e666966790aa799f"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-22-8903de0ef0e9",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-11-20",
+      "rangeEnd": "2026-11-20",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-cf6fb74422c7ae00c5f2",
+          "updateId": "production-5d77a9daae8ffc7982c737ec",
+          "version": "5d77a9daae8ffc7982c737ec97d8b8d9dd6a7731ca3ade46e7208461b4179d57",
+          "objectName": "麥科醫藥－Ｂ",
+          "type": "listed",
+          "category": "股份回购一般授权获股东批准",
+          "date": "2026-11-20",
+          "title": "麦科医药H股回购一般授权获批，上限28,007,110股",
+          "business": "股份管理",
+          "share": {
+            "title": "H股回购一般授权获批",
+            "facts": "2026年11月20日，陕西麦科奥特医药科技股份有限公司获股东会批准H股回购一般授权，上限为当日已发行H股（不含库存股份）的10%，即28,007,110股。拟用自有资金，购回股份可注销或作库存股份；是否实施及具体安排仍由董事会决定，授权获批不代表已实施回购。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-a10245e52b2f78587a9a",
       "date": "2026-11-22",
@@ -62788,6 +63001,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "c6e152efad28077d015a",
+      "date": "2026-11-22",
+      "compiledAt": "2026-11-22T09:53:34+09:00",
+      "cutoff": "2026-11-21T23:59:59+08:00",
+      "snapshotUrl": "publications/c6e152efad28077d015a/index.html",
+      "publishedAt": "2026-11-22T09:02:28+08:00"
+    },
     {
       "id": "b2b36aa8d3356bfb0016",
       "date": "2026-11-22",
