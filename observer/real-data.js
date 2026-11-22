@@ -5,8 +5,8 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-22-71fd4804e467",
-      "compiledAt": "2026-11-22T09:33:16+09:00",
+      "id": "2026-11-22-ce6246bf920e",
+      "compiledAt": "2026-11-22T09:53:34+09:00",
       "cutoff": "2026-11-21T23:59:59+08:00",
       "windowStart": "2026-11-15",
       "windowEnd": "2026-11-21",
@@ -14,10 +14,12 @@ window.PROTOTYPE = {
       "sourceDiscoveryCutoff": "2026-11-21T23:59:59+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
+        "production-5d77a9daae8ffc7982c737ec",
         "production-408d1353f6ed46762566e92a",
         "production-e64b5d68e9a613a31653148d",
         "production-d62e7684b29b06ef63c8adc7",
-        "production-b4d3fdf87dd36bc906c4a641"
+        "production-b4d3fdf87dd36bc906c4a641",
+        "production-2d111b4b14479186da3595c1"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -643,7 +645,9 @@ window.PROTOTYPE = {
       "production-408d1353f6ed46762566e92a": "2026-11-22T09:20:25+09:00",
       "production-d62e7684b29b06ef63c8adc7": "2026-11-22T09:33:12+09:00",
       "production-b4d3fdf87dd36bc906c4a641": "2026-11-22T09:33:12+09:00",
-      "production-e64b5d68e9a613a31653148d": "2026-11-22T09:33:12+09:00"
+      "production-e64b5d68e9a613a31653148d": "2026-11-22T09:33:12+09:00",
+      "production-2d111b4b14479186da3595c1": "2026-11-22T09:47:37+09:00",
+      "production-5d77a9daae8ffc7982c737ec": "2026-11-22T09:53:32+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -4815,6 +4819,19 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "普汇中金国际控股有限公司2026年11月18日公告，控股股东Wealth Keeper International Limited（借款人）及最终控股股东兼执行董事李伟斌（担保人）当日接获香港高等法院传讯令状，英皇证券有限公司申索未偿还本金及应计利息合计约438,878,000港元，两者正寻求法律意见。控股股东所持635,453,662股公司股份（占已发行股份约54.35%）已作为抵押品存放于英皇证券；倘相关股份被强制执行并出售，可能导致控制权变动，结果视乎最终出售数量及承让人。"
+        },
+        "production-2d111b4b14479186da3595c1": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "德银天下股份有限公司2026年11月16日公告，田强因工作调整于当日提出辞任第二届董事会非执行董事，辞任将自股东会委任相应新董事之日起生效。董事会同日通过委任刘翔韬为第二届董事会非执行董事的建议，尚须临时股东会批准，任期自批准之日起至第二届董事会任期届满时止。"
+        },
+        "production-5d77a9daae8ffc7982c737ec": {
+          "version": "listed-scope-20261019",
+          "action": "股份回购",
+          "group": "回购",
+          "level": "deep"
         }
       }
     },
@@ -4823,8 +4840,9 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-22-71fd4804e467",
+      "status": "committed",
+      "sourceEditionId": "2026-11-22-ce6246bf920e",
+      "editionId": "selection-a10245e52b2f78587a9a",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
@@ -8041,23 +8059,22 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
-      "id": "listed-0438-hk",
+      "id": "listed-2418-hk",
       "type": "listed",
-      "name": "彩虹新能源",
-      "code": "0438.HK",
+      "name": "德银天下",
+      "code": "2418.HK",
       "market": "HK",
       "asOf": "2026-07-13",
       "rosterTier": "L2",
       "rosterCategory": "陕西总部或主要办公",
       "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
-      "id": "listed-2418-hk",
+      "id": "listed-0438-hk",
       "type": "listed",
-      "name": "德银天下",
-      "code": "2418.HK",
+      "name": "彩虹新能源",
+      "code": "0438.HK",
       "market": "HK",
       "asOf": "2026-07-13",
       "rosterTier": "L2",
@@ -56825,6 +56842,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-22T08:44:01+08:00",
           "updatedAt": "2026-11-22T09:33:12+09:00",
           "compiledAt": "2026-11-22T09:33:12+09:00",
           "researchCutoff": "2026-11-21T23:59:59+08:00",
@@ -56871,6 +56889,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-22T08:44:01+08:00",
           "updatedAt": "2026-11-22T09:33:14+09:00",
           "compiledAt": "2026-11-22T09:33:14+09:00",
           "researchCutoff": "2026-11-21T23:59:59+08:00",
@@ -56926,6 +56945,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-22T08:44:01+08:00",
           "updatedAt": "2026-11-22T09:33:13+09:00",
           "compiledAt": "2026-11-22T09:33:13+09:00",
           "researchCutoff": "2026-11-21T23:59:59+08:00",
@@ -56951,9 +56971,243 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-6b5f51a57b32e7609051",
+      "objectId": "listed-2418-hk",
+      "type": "上市公司人事",
+      "topics": [
+        "非执行董事变更",
+        "田强提出辞任",
+        "刘翔韬拟任"
+      ],
+      "updates": [
+        {
+          "id": "production-2d111b4b14479186da3595c1",
+          "date": "2026-11-16",
+          "time": "",
+          "title": "德银天下：田强提出辞任非执行董事，拟委任刘翔韬",
+          "summary": "德银天下股份有限公司2026年11月16日公告，田强因工作调整于当日提出辞任第二届董事会非执行董事，辞任将自股东会委任相应新董事之日起生效。董事会同日通过委任刘翔韬为第二届董事会非执行董事的建议，尚须临时股东会批准，任期自批准之日起至第二届董事会任期届满时止。",
+          "stage": "田强提出辞任，董事会通过刘翔韬委任建议；委任尚待股东会批准，辞任待相应新董事获委任生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-22T09:47:37+09:00",
+          "compiledAt": "2026-11-22T09:47:37+09:00",
+          "researchCutoff": "2026-11-21T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "德銀天下",
+          "version": "2d111b4b14479186da3595c1d9dc93cab6a1982aaa7610c198698204c9e5af0d",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "(1)建議變更執行董事及非執行董事；(2)建議修訂持續關連交易之年度上限；及(3)關連交易—債務清償協議",
+              "publisher": "德银天下股份有限公司",
+              "date": "2026-11-16",
+              "location": "物理第1、4页：董事变更；物理第29页：发布主体及公告日期",
+              "retrievedAt": "2026-11-22T08:06:20+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1116/2026111601582_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
+    },
+    {
+      "id": "production-event-cf6fb74422c7ae00c5f2",
+      "objectId": "listed-2335-hk",
+      "type": "股份回购一般授权获股东批准",
+      "topics": [
+        "H股回购一般授权",
+        "延期临时股东会",
+        "特别决议通过"
+      ],
+      "updates": [
+        {
+          "id": "production-5d77a9daae8ffc7982c737ec",
+          "date": "2026-11-20",
+          "time": "",
+          "title": "麦科医药H股回购一般授权获批，上限28,007,110股",
+          "summary": "陕西麦科奥特医药科技股份有限公司（02335）于2026年11月20日举行延期临时股东会，通过H股回购一般授权。授权上限为决议通过时已发行H股数量（不含库存股份）的10%，按当日280,071,100股H股计算为28,007,110股。公司拟使用自有资金，购回股份可注销或作为库存股份持有；是否实施回购及具体价格、数量和时间仍由董事会适时决定。本次属于一般授权获批，不能据此认定已经实施回购。",
+          "stage": "11月20日延期临时股东会通过授予董事会于相关期间购回H股的一般授权，尚非实际回购执行",
+          "depth": "deep",
+          "coverage": "本事项有限历史研究；不等于观察池全量已更新。资料不覆盖2026年10月22日至研究截止的完整回购成交记录，不能据此断言该期间没有回购，也不能计算该期间累计成交数量、支付金额或均价。 三份文件未披露本次授权的具体回购金额预算、固定价格上限或回购执行机构，授权上限不能视为确定的回购资金需求。 11月20日公告投票表中的百分比与所列票数复算结果不一致，现有材料未解释原因；原票数、原表比例及复算差异均予保留。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-22T09:53:32+09:00",
+          "compiledAt": "2026-11-22T09:53:32+09:00",
+          "researchCutoff": "2026-11-21T23:59:59+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "麥科醫藥－Ｂ",
+          "version": "5d77a9daae8ffc7982c737ec97d8b8d9dd6a7731ca3ade46e7208461b4179d57",
+          "important": true,
+          "production": true,
+          "prototype": false,
+          "history": [
+            {
+              "date": "2026-10-15",
+              "text": "董事会审议通过提请授予H股回购一般授权的议案，拟提交股东会以特别决议审议。该发生日期及审议情况由10月22日通函追述。"
+            },
+            {
+              "date": "2026-10-21",
+              "text": "截至通函所定的最新实际可行日期，公司自2026年6月24日至该日未在交易所或其他途径回购H股。这是10月22日通函披露的历史覆盖区间，不代表其后没有回购。"
+            },
+            {
+              "date": "2026-10-22",
+              "text": "公司刊发回购授权通函及股东会通告，披露10%的数量上限、自有资金安排、注销或库存股份用途及授权期限，原定于11月10日提交股东会审议。"
+            },
+            {
+              "date": "2026-11-06",
+              "text": "公司为给予股东充分时间考虑议案及采取行动，将原定11月10日举行的临时股东会延期至11月20日。原议案不变，10月22日通函及通告继续有效。"
+            },
+            {
+              "date": "2026-11-20",
+              "text": "延期临时股东会通过H股回购一般授权特别决议，事项由提请股东审议推进至授权获批。"
+            }
+          ],
+          "business": [
+            "公司是本次回购的实施主体和资金主体。授权涵盖制定具体回购计划、境外证券账户、资金汇出相关手续及库存股份管理；若董事会决定执行，可据具体方案讨论证券执行及配套服务。实际需求、执行机构和分工仍需向公司确认，授权股数不能折算为已确定的交易资金。",
+            "公司已有H股股份过户登记处卓佳证券登记有限公司，并由其担任本次股东会点票监票人。该既有登记服务安排不等于已经确定回购执行券商，也不能将登记服务描述为尚待建立。",
+            "库存股份在适用条件下可出售或用于股份计划授予，但本次通过的是回购一般授权。10月22日通函将拟采纳的H股激励计划列为另行刊发通函的事项，本次表决不能证明激励计划已获批或员工已经获授股份。"
+          ],
+          "details": [
+            {
+              "label": "数量上限与计算基数",
+              "value": "不超过决议通过时已发行H股数量（不含库存股份）的10%。11月20日已发行H股为280,071,100股，且无库存股份及待注销回购股份，对应上限28,007,110股；该数是授权上限，不是承诺回购数量。"
+            },
+            {
+              "label": "资金来源与具体方案",
+              "value": "公司拟使用自有资金及依法可用于回购的内部资源。通函同时列明合法资金及现金结算要求。三份文件未披露具体回购金额预算或固定价格上限；具体价格、数量、时间和回购期间由董事会在适用规则下决定。"
+            },
+            {
+              "label": "授权期间",
+              "value": "自2026年11月20日特别决议通过起，至2027年下一届股东周年大会结束或股东大会以特别决议撤销、修改授权之日，以较早者为准。决议另有例外：董事会在相关期间内已决定的回购计划，可能于该期间结束后继续或实施。"
+            },
+            {
+              "label": "购回股份用途",
+              "value": "可注销及／或作为库存股份持有。库存股份可按适用规定适时出售换取现金（受H股发行一般授权约束），或转让以满足股份计划授予；这些用途尚不能视为已实际执行。"
+            },
+            {
+              "label": "回购目的",
+              "value": "董事会认为，回购可在适当市场条件和资金安排下改善每股净资产及／或每股收益，且仅在认为符合公司和股东利益时实施。这是董事会对潜在效果的判断，不是收益承诺。"
+            },
+            {
+              "label": "执行约束",
+              "value": "行使授权须取得或完成适用的监管批准及／或备案，并遵守公众持股量要求。通函在控股股东集团不参与回购、全额行使前没有进一步发行或回购H股的假设下，指出全额行使授权可能触发强制要约义务；董事表示不拟将回购执行至触发该义务的程度。"
+            },
+            {
+              "label": "历史执行与当前披露边界",
+              "value": "通函确认的未回购区间仅为2026年6月24日至10月21日。11月20日公告确认当日没有库存股份及待注销回购股份，但该时点状态不能证明此前从未回购。三份文件未披露本次授权项下实际成交数量、支付金额或均价。"
+            },
+            {
+              "label": "投票比例差异",
+              "value": "公告原表列赞成99.99%、弃权0.01%；按所列票数复算分别约为99.998028%和0.001972%，与原表百分比不一致。保留原票数及原表比例，不代公司更正披露；公告明确确认特别决议通过。"
+            },
+            {
+              "label": "研究截止",
+              "value": "2026年11月21日23:59:59（北京时间）。资料范围为2026年10月22日通函、11月6日延期公告及11月20日表决结果公告。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "於2026年11月20日舉行的臨時股東會投票表決結果",
+              "publisher": "陕西麦科奥特医药科技股份有限公司",
+              "date": "2026-11-20",
+              "location": "物理页1—2；会议结果、已发行股份及库存状态、登记机构、投票表与特别决议通过结论",
+              "retrievedAt": "2026-11-22T08:06:18+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1120/2026112001188_c.pdf"
+            },
+            {
+              "title": "PROPOSED GENERAL MANDATE TO REPURCHASE H SHARES AND NOTICE OF EXTRAORDINARY GENERAL MEETING",
+              "publisher": "陕西麦科奥特医药科技股份有限公司",
+              "date": "2026-10-22",
+              "location": "完整17页版本；物理页4、6—7、10—16，定义、董事会函件、说明函件及决议全文",
+              "retrievedAt": "2026-11-22T09:35:34.384931+09:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1022/2026102201592.pdf"
+            },
+            {
+              "title": "ANNOUNCEMENT IN RELATION TO THE POSTPONEMENT OF THE EGM AND CHANGE OF BOOK CLOSURE PERIOD",
+              "publisher": "陕西麦科奥特医药科技股份有限公司",
+              "date": "2026-11-06",
+              "location": "物理页1—2；延期安排、原议案及原通函通告继续有效、其他资料不变说明",
+              "retrievedAt": "2026-11-22T09:35:35.596030+09:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1106/2026110601674.pdf"
+            }
+          ],
+          "tables": [
+            {
+              "caption": "2026年11月20日H股回购一般授权投票结果；百分比照录公告，存在票数复算差异",
+              "columns": [
+                "议案",
+                "赞成票及原表比例",
+                "反对票及原表比例",
+                "弃权票及原表比例",
+                "公告确认结果"
+              ],
+              "rows": [
+                [
+                  "授予董事会于相关期间购回H股的一般授权",
+                  "263,627,600票（99.99%）",
+                  "0票（0.00%）",
+                  "5,200票（0.01%）",
+                  "特别决议通过"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "editions": [
+    {
+      "id": "selection-a10245e52b2f78587a9a",
+      "date": "2026-11-22",
+      "cutoff": "2026-11-21T23:59:59+08:00",
+      "compiledAt": "2026-11-22T08:57:38+08:00",
+      "researchCutoff": "2026-11-21T23:59:59+08:00",
+      "sourceDiscoveryCutoff": "2026-11-21T23:59:59+08:00",
+      "updateIds": [
+        "production-5d77a9daae8ffc7982c737ec"
+      ],
+      "status": "public",
+      "images": [
+        {
+          "file": "assets/editions/selection-a10245e52b2f78587a9a/page-01.png",
+          "width": 1080,
+          "height": 854,
+          "sha256": "6278d18a4e717a1dd5ecb84566a57f48d7d5a40645092d41e666966790aa799f"
+        }
+      ],
+      "presentation": "business-news-20261015",
+      "sourceEditionId": "2026-11-22-ce6246bf920e",
+      "selectionMode": "current",
+      "previewLabel": "本轮精选",
+      "rangeStart": "2026-11-20",
+      "rangeEnd": "2026-11-20",
+      "designStatus": "accepted",
+      "items": [
+        {
+          "eventId": "production-event-cf6fb74422c7ae00c5f2",
+          "updateId": "production-5d77a9daae8ffc7982c737ec",
+          "version": "5d77a9daae8ffc7982c737ec97d8b8d9dd6a7731ca3ade46e7208461b4179d57",
+          "objectName": "麥科醫藥－Ｂ",
+          "type": "listed",
+          "category": "股份回购一般授权获股东批准",
+          "date": "2026-11-20",
+          "title": "麦科医药H股回购一般授权获批，上限28,007,110股",
+          "business": "股份管理",
+          "share": {
+            "title": "H股回购一般授权获批",
+            "facts": "2026年11月20日，陕西麦科奥特医药科技股份有限公司获股东会批准H股回购一般授权，上限为当日已发行H股（不含库存股份）的10%，即28,007,110股。拟用自有资金，购回股份可注销或作库存股份；是否实施及具体安排仍由董事会决定，授权获批不代表已实施回购。"
+          }
+        }
+      ]
+    },
     {
       "id": "selection-0c3d122c08d83bd12808",
       "date": "2026-11-20",
@@ -62534,6 +62788,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "b2b36aa8d3356bfb0016",
+      "date": "2026-11-22",
+      "compiledAt": "2026-11-22T09:33:16+09:00",
+      "cutoff": "2026-11-21T23:59:59+08:00",
+      "snapshotUrl": "publications/b2b36aa8d3356bfb0016/index.html",
+      "publishedAt": "2026-11-22T08:44:01+08:00"
+    },
     {
       "id": "70263235839bfdaa0556",
       "date": "2026-11-22",
