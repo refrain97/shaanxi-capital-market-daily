@@ -4867,7 +4867,7 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "committed",
+      "status": "reused",
       "sourceEditionId": "2026-11-22-8903de0ef0e9",
       "editionId": "selection-9c621198d932923f9042",
       "selectionMode": "current"
@@ -57211,6 +57211,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-22T09:11:47+08:00",
           "updatedAt": "2026-11-22T10:03:17+09:00",
           "compiledAt": "2026-11-22T10:03:17+09:00",
           "researchCutoff": "2026-11-21T23:59:59+08:00",
@@ -57258,6 +57259,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。第7页表格的2027年现行及修订上限总计均较所列分项加总多人民币1千元，原因未解释；本短记仅采用两类产品各自的明确金额，不引用总计，不影响所述修订事实。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-22T09:11:47+08:00",
           "updatedAt": "2026-11-22T10:05:36+09:00",
           "compiledAt": "2026-11-22T10:05:36+09:00",
           "researchCutoff": "2026-11-21T23:59:59+08:00",
@@ -57305,6 +57307,7 @@ window.PROTOTYPE = {
           "depth": "brief",
           "coverage": "当次事实核查；不要求全历史研究。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-22T09:11:47+08:00",
           "updatedAt": "2026-11-22T10:07:28+09:00",
           "compiledAt": "2026-11-22T10:07:28+09:00",
           "researchCutoff": "2026-11-21T23:59:59+08:00",
@@ -63001,6 +63004,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "c43dbaf5a20324e7ccf5",
+      "date": "2026-11-22",
+      "compiledAt": "2026-11-22T10:07:29+09:00",
+      "cutoff": "2026-11-21T23:59:59+08:00",
+      "snapshotUrl": "publications/c43dbaf5a20324e7ccf5/index.html",
+      "publishedAt": "2026-11-22T09:11:47+08:00"
+    },
     {
       "id": "c6e152efad28077d015a",
       "date": "2026-11-22",
