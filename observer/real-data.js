@@ -4880,11 +4880,11 @@ window.PROTOTYPE = {
     },
     "privateFilingHistory": {
       "start": "2026-01-01",
-      "end": "2026-11-21",
-      "checkedAt": "2026-11-22T08:09:18+08:00",
+      "end": "2026-11-23",
+      "checkedAt": "2026-11-24T08:02:51+08:00",
       "scopeCount": 92,
-      "completeManagers": 92,
-      "partialManagers": 0,
+      "completeManagers": 90,
+      "partialManagers": 2,
       "failedManagers": 0,
       "notice": "按既有管理人名单及备案日汇总留存公示中已查得的产品，不是完整注销/清算历史。已清算产品有可核记录也计入；未查得不证明从未备案。托管及运作状态为各条取得时公示，日常只补增量，不每天复查全部旧产品；缺口不填零。",
       "managers": [
@@ -5487,14 +5487,14 @@ window.PROTOTYPE = {
           "objectId": "private-1706082037101131",
           "name": "陕西顺义成投资管理有限公司",
           "registrationNo": "P1064558",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 0
         },
         {
           "objectId": "private-2103262010107683",
           "name": "青岛华源锦成私募基金管理有限公司",
           "registrationNo": "P1072146",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 0
         },
         {
@@ -5545,7 +5545,7 @@ window.PROTOTYPE = {
           "custodian": "国泰海通证券股份有限公司",
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2611191722117739.html",
-          "retrievedAt": "2026-11-22T08:07:07+08:00"
+          "retrievedAt": "2026-11-24T08:01:16+08:00"
         },
         {
           "objectId": "private-101000019713",
@@ -6739,8 +6739,8 @@ window.PROTOTYPE = {
         },
         {
           "month": "2026-11",
-          "coverageComplete": true,
-          "coveredManagers": 92,
+          "coverageComplete": false,
+          "coveredManagers": 90,
           "scopeCount": 92,
           "count": 6
         }
@@ -63004,6 +63004,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "187e4c94c3cbfc7afe32",
+      "date": "2026-11-23",
+      "compiledAt": "2026-11-22T10:07:29+09:00",
+      "cutoff": "2026-11-21T23:59:59+08:00",
+      "snapshotUrl": "publications/187e4c94c3cbfc7afe32/index.html",
+      "publishedAt": "2026-11-23T08:34:00+08:00"
+    },
     {
       "id": "c43dbaf5a20324e7ccf5",
       "date": "2026-11-22",
