@@ -4873,18 +4873,18 @@ window.PROTOTYPE = {
       "selectionMode": "current"
     },
     "discoveryCoverage": {
-      "windowStart": "2026-11-15",
-      "windowEnd": "2026-11-21",
-      "cutoff": "2026-11-21T23:59:59+08:00",
+      "windowStart": "2026-11-20",
+      "windowEnd": "2026-11-23",
+      "cutoff": "2026-11-23T08:29:40+08:00",
       "partial": true
     },
     "privateFilingHistory": {
       "start": "2026-01-01",
-      "end": "2026-11-23",
-      "checkedAt": "2026-11-24T08:02:51+08:00",
+      "end": "2026-11-25",
+      "checkedAt": "2026-11-25T08:02:36+08:00",
       "scopeCount": 92,
-      "completeManagers": 90,
-      "partialManagers": 2,
+      "completeManagers": 92,
+      "partialManagers": 0,
       "failedManagers": 0,
       "notice": "按既有管理人名单及备案日汇总留存公示中已查得的产品，不是完整注销/清算历史。已清算产品有可核记录也计入；未查得不证明从未备案。托管及运作状态为各条取得时公示，日常只补增量，不每天复查全部旧产品；缺口不填零。",
       "managers": [
@@ -5487,14 +5487,14 @@ window.PROTOTYPE = {
           "objectId": "private-1706082037101131",
           "name": "陕西顺义成投资管理有限公司",
           "registrationNo": "P1064558",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 0
         },
         {
           "objectId": "private-2103262010107683",
           "name": "青岛华源锦成私募基金管理有限公司",
           "registrationNo": "P1072146",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 0
         },
         {
@@ -6739,8 +6739,8 @@ window.PROTOTYPE = {
         },
         {
           "month": "2026-11",
-          "coverageComplete": false,
-          "coveredManagers": 90,
+          "coverageComplete": true,
+          "coveredManagers": 92,
           "scopeCount": 92,
           "count": 6
         }
@@ -63004,6 +63004,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "684a3dae0e36abd95d2c",
+      "date": "2026-11-24",
+      "compiledAt": "2026-11-22T10:07:29+09:00",
+      "cutoff": "2026-11-21T23:59:59+08:00",
+      "snapshotUrl": "publications/684a3dae0e36abd95d2c/index.html",
+      "publishedAt": "2026-11-24T08:07:05+08:00"
+    },
     {
       "id": "187e4c94c3cbfc7afe32",
       "date": "2026-11-23",
