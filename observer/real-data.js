@@ -4873,18 +4873,18 @@ window.PROTOTYPE = {
       "selectionMode": "current"
     },
     "discoveryCoverage": {
-      "windowStart": "2026-11-20",
-      "windowEnd": "2026-11-23",
-      "cutoff": "2026-11-23T08:29:40+08:00",
+      "windowStart": "2026-11-22",
+      "windowEnd": "2026-11-25",
+      "cutoff": "2026-11-25T08:00:00+08:00",
       "partial": true
     },
     "privateFilingHistory": {
       "start": "2026-01-01",
-      "end": "2026-11-25",
-      "checkedAt": "2026-11-25T08:02:36+08:00",
+      "end": "2026-11-26",
+      "checkedAt": "2026-11-26T08:06:10+08:00",
       "scopeCount": 92,
-      "completeManagers": 92,
-      "partialManagers": 0,
+      "completeManagers": 90,
+      "partialManagers": 2,
       "failedManagers": 0,
       "notice": "按既有管理人名单及备案日汇总留存公示中已查得的产品，不是完整注销/清算历史。已清算产品有可核记录也计入；未查得不证明从未备案。托管及运作状态为各条取得时公示，日常只补增量，不每天复查全部旧产品；缺口不填零。",
       "managers": [
@@ -4921,7 +4921,7 @@ window.PROTOTYPE = {
           "name": "共青城瀛岳私募基金管理有限公司",
           "registrationNo": "P1072644",
           "status": "complete",
-          "visibleProducts": 1
+          "visibleProducts": 2
         },
         {
           "objectId": "private-2303081121100381",
@@ -5459,7 +5459,7 @@ window.PROTOTYPE = {
           "objectId": "private-1609220851102223",
           "name": "陕西趋势投资管理有限公司",
           "registrationNo": "P1060669",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 0
         },
         {
@@ -5480,7 +5480,7 @@ window.PROTOTYPE = {
           "objectId": "private-101000012244",
           "name": "陕西铁马投资管理有限公司",
           "registrationNo": "P1007845",
-          "status": "complete",
+          "status": "partial",
           "visibleProducts": 0
         },
         {
@@ -5534,6 +5534,19 @@ window.PROTOTYPE = {
         }
       ],
       "products": [
+        {
+          "objectId": "private-2107141320103302",
+          "id": "2611251442103712",
+          "managerName": "共青城瀛岳私募基金管理有限公司",
+          "name": "瀛岳众辉FOF私募证券投资基金",
+          "filingNo": "SLC095",
+          "filedAt": "2026-11-25",
+          "establishedAt": "2026-11-19",
+          "custodian": "华泰证券股份有限公司",
+          "state": "正在运作",
+          "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2611251442103712.html",
+          "retrievedAt": "2026-11-26T08:04:10+08:00"
+        },
         {
           "objectId": "private-101000019713",
           "id": "2611191722117739",
@@ -6739,10 +6752,10 @@ window.PROTOTYPE = {
         },
         {
           "month": "2026-11",
-          "coverageComplete": true,
-          "coveredManagers": 92,
+          "coverageComplete": false,
+          "coveredManagers": 90,
           "scopeCount": 92,
-          "count": 6
+          "count": 7
         }
       ]
     }
@@ -63004,6 +63017,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "3faab99fbecbdd48a7b3",
+      "date": "2026-11-25",
+      "compiledAt": "2026-11-22T10:07:29+09:00",
+      "cutoff": "2026-11-21T23:59:59+08:00",
+      "snapshotUrl": "publications/3faab99fbecbdd48a7b3/index.html",
+      "publishedAt": "2026-11-25T08:06:58+08:00"
+    },
     {
       "id": "684a3dae0e36abd95d2c",
       "date": "2026-11-24",
