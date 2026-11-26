@@ -5,24 +5,16 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-22-8903de0ef0e9",
-      "compiledAt": "2026-11-22T10:07:29+09:00",
-      "cutoff": "2026-11-21T23:59:59+08:00",
-      "windowStart": "2026-11-15",
-      "windowEnd": "2026-11-21",
-      "researchCutoff": "2026-11-21T23:59:59+08:00",
-      "sourceDiscoveryCutoff": "2026-11-21T23:59:59+08:00",
+      "id": "2026-11-26-06674c054d1f",
+      "compiledAt": "2026-11-26T09:14:43+09:00",
+      "cutoff": "2026-11-26T08:03:19+08:00",
+      "windowStart": "2026-11-24",
+      "windowEnd": "2026-11-26",
+      "researchCutoff": "2026-11-26T08:03:19+08:00",
+      "sourceDiscoveryCutoff": "2026-11-26T08:03:19+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
-        "production-5d77a9daae8ffc7982c737ec",
-        "production-408d1353f6ed46762566e92a",
-        "production-e64b5d68e9a613a31653148d",
-        "production-d62e7684b29b06ef63c8adc7",
-        "production-b4d3fdf87dd36bc906c4a641",
-        "production-93211580d64ef743c7468847",
-        "production-4b4ae39077497e2af07f1c64",
-        "production-348766fe791cecb393846f9d",
-        "production-2d111b4b14479186da3595c1"
+        "production-d89bdc504a6defe4d7492015"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -653,7 +645,8 @@ window.PROTOTYPE = {
       "production-5d77a9daae8ffc7982c737ec": "2026-11-22T09:53:32+09:00",
       "production-4b4ae39077497e2af07f1c64": "2026-11-22T10:03:17+09:00",
       "production-93211580d64ef743c7468847": "2026-11-22T10:05:36+09:00",
-      "production-348766fe791cecb393846f9d": "2026-11-22T10:07:28+09:00"
+      "production-348766fe791cecb393846f9d": "2026-11-22T10:07:28+09:00",
+      "production-d89bdc504a6defe4d7492015": "2026-11-26T09:14:42+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -4859,6 +4852,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "德银天下2026年11月16日公告，全资子公司德银保理当日与陕汽房地产签订债务清偿协议，拟接收泾渭国际城45套住宅及对应土地使用权，抵偿最高人民币33,979,365.29元保理本金，利息等附带申索另行支付。公告时本金仍全数未偿还、物业尚未取得不动产权证书，须完成线上备案及业权登记后方可抵偿，实际清偿额以成功登记物业的评估值与上述本金上限孰低确定。"
+        },
+        "production-d89bdc504a6defe4d7492015": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "申港控股2026年11月25日公告，独立调查仍在进行，公司及核数师需额外时间评估调查结果并完成余下审核程序，2026年年度业绩刊发及年报寄发将进一步延迟；截至2026年9月30日止六个月的中期业绩将延迟刊发，中期报告亦可能延迟寄发。相关刊发及寄发日期待另行公告，股份继续停牌，以待刊发上述年度及中期业绩，停牌持续至另行通知。"
         }
       }
     },
@@ -4867,15 +4867,14 @@ window.PROTOTYPE = {
       "accepted": true
     },
     "shareStatus": {
-      "status": "reused",
-      "sourceEditionId": "2026-11-22-8903de0ef0e9",
-      "editionId": "selection-9c621198d932923f9042",
+      "status": "no_eligible_highlights",
+      "sourceEditionId": "2026-11-26-06674c054d1f",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
-      "windowStart": "2026-11-22",
-      "windowEnd": "2026-11-25",
-      "cutoff": "2026-11-25T08:00:00+08:00",
+      "windowStart": "2026-11-24",
+      "windowEnd": "2026-11-26",
+      "cutoff": "2026-11-26T08:03:19+08:00",
       "partial": true
     },
     "privateFilingHistory": {
@@ -8111,6 +8110,18 @@ window.PROTOTYPE = {
       "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
+      "id": "listed-8631-hk",
+      "type": "listed",
+      "name": "申港控股",
+      "code": "8631.HK",
+      "market": "HK",
+      "asOf": "2026-07-13",
+      "rosterTier": "L2",
+      "rosterCategory": "陕西总部或主要办公",
+      "rosterAsOf": "2026-07-27",
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
+    },
+    {
       "id": "listed-0438-hk",
       "type": "listed",
       "name": "彩虹新能源",
@@ -8154,19 +8165,6 @@ window.PROTOTYPE = {
       "type": "listed",
       "name": "新丰泰集团",
       "code": "1771.HK",
-      "market": "HK",
-      "asOf": "2026-07-13",
-      "rosterTier": "L2",
-      "rosterCategory": "陕西总部或主要办公",
-      "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
-    },
-    {
-      "id": "listed-8631-hk",
-      "type": "listed",
-      "name": "申港控股",
-      "code": "8631.HK",
       "market": "HK",
       "asOf": "2026-07-13",
       "rosterTier": "L2",
@@ -57346,6 +57344,53 @@ window.PROTOTYPE = {
           "tables": []
         }
       ]
+    },
+    {
+      "id": "production-event-e90f47023c22599c7f18",
+      "objectId": "listed-8631-hk",
+      "type": "业绩披露延迟及持续停牌进展",
+      "topics": [
+        "年度业绩及年报进一步延迟",
+        "独立调查仍在进行",
+        "中期业绩延迟及中期报告可能延迟",
+        "继续暂停买卖"
+      ],
+      "updates": [
+        {
+          "id": "production-d89bdc504a6defe4d7492015",
+          "date": "2026-11-25",
+          "time": "",
+          "title": "年度业绩进一步延迟，中期业绩将延迟刊发并继续停牌",
+          "summary": "申港控股2026年11月25日公告，独立调查仍在进行，公司及核数师需额外时间评估调查结果并完成余下审核程序，2026年年度业绩刊发及年报寄发将进一步延迟；截至2026年9月30日止六个月的中期业绩将延迟刊发，中期报告亦可能延迟寄发。相关刊发及寄发日期待另行公告，股份继续停牌，以待刊发上述年度及中期业绩，停牌持续至另行通知。",
+          "stage": "独立调查仍在进行，年度业绩刊发及年报寄发进一步延迟；中期业绩刊发将延迟，中期报告寄发可能延迟；股份继续暂停买卖，相关刊发及寄发日期待另行公布",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-26T09:14:42+09:00",
+          "compiledAt": "2026-11-26T09:14:42+09:00",
+          "researchCutoff": "2026-11-26T08:03:19+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "申港控股",
+          "version": "d89bdc504a6defe4d7492015618d76ef6d07eda64d5bead63a188dae6af8b180",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "內幕消息(1)進一步延遲刊發二零二六年年度業績及寄發二零二六年年報；(2)延遲刊發截至二零二六年九月三十日止六個月的中期業績及可能延遲寄發二零二六╱二七年中期報告；及(3)繼續暫停買賣",
+              "publisher": "申港控股有限公司（港交所披露易刊载）",
+              "date": "2026-11-25",
+              "location": "物理第1页公司名称及标题；第2页年度及中期披露延迟；第3页继续停牌及落款日期",
+              "retrievedAt": "2026-11-26T08:03:50+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/gem/2026/1125/2026112501328_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -63017,6 +63062,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "c890e732c338111b74f0",
+      "date": "2026-11-26",
+      "compiledAt": "2026-11-22T10:07:29+09:00",
+      "cutoff": "2026-11-21T23:59:59+08:00",
+      "snapshotUrl": "publications/c890e732c338111b74f0/index.html",
+      "publishedAt": "2026-11-26T08:10:29+08:00"
+    },
     {
       "id": "3faab99fbecbdd48a7b3",
       "date": "2026-11-25",
