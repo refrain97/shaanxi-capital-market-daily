@@ -4881,11 +4881,11 @@ window.PROTOTYPE = {
     },
     "privateFilingHistory": {
       "start": "2026-01-01",
-      "end": "2026-11-26",
-      "checkedAt": "2026-11-26T08:06:10+08:00",
+      "end": "2026-11-27",
+      "checkedAt": "2026-11-27T08:06:00+08:00",
       "scopeCount": 92,
-      "completeManagers": 90,
-      "partialManagers": 2,
+      "completeManagers": 92,
+      "partialManagers": 0,
       "failedManagers": 0,
       "notice": "按既有管理人名单及备案日汇总留存公示中已查得的产品，不是完整注销/清算历史。已清算产品有可核记录也计入；未查得不证明从未备案。托管及运作状态为各条取得时公示，日常只补增量，不每天复查全部旧产品；缺口不填零。",
       "managers": [
@@ -5460,7 +5460,7 @@ window.PROTOTYPE = {
           "objectId": "private-1609220851102223",
           "name": "陕西趋势投资管理有限公司",
           "registrationNo": "P1060669",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 0
         },
         {
@@ -5481,7 +5481,7 @@ window.PROTOTYPE = {
           "objectId": "private-101000012244",
           "name": "陕西铁马投资管理有限公司",
           "registrationNo": "P1007845",
-          "status": "partial",
+          "status": "complete",
           "visibleProducts": 0
         },
         {
@@ -5546,7 +5546,7 @@ window.PROTOTYPE = {
           "custodian": "华泰证券股份有限公司",
           "state": "正在运作",
           "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/fund/2611251442103712.html",
-          "retrievedAt": "2026-11-26T08:04:10+08:00"
+          "retrievedAt": "2026-11-27T08:03:40+08:00"
         },
         {
           "objectId": "private-101000019713",
@@ -6753,8 +6753,8 @@ window.PROTOTYPE = {
         },
         {
           "month": "2026-11",
-          "coverageComplete": false,
-          "coveredManagers": 90,
+          "coverageComplete": true,
+          "coveredManagers": 92,
           "scopeCount": 92,
           "count": 7
         }
@@ -57413,6 +57413,7 @@ window.PROTOTYPE = {
           "depth": "deep",
           "coverage": "本事项有限历史研究；不等于观察池全量已更新。未完成2026年1月1日至本轮截止的全部产品分页和逐项备案日期核对，不输出完整月度数量，未覆盖月份不记为0。 瀛岳智升基金详情未取得；本稿只对照已核读的瀛岳智利基金，不称其为最近一只历史产品，不描述全部托管机构分布。 两份产品原件均在研究截止2026年11月26日08:03:19+08:00之后取得，只证明实际留存时页面内容，不能证明截止分钟前已经公开；未推进原发现窗口或冒称截止时点快照。 管理人身份采用2026年11月9日留存版本，不据此主张其人员、股权或经营状态此后未发生变化；本事项不作主体变更判断。 本次来源均为可读HTML及其提取正文，没有PDF关键表格或待查看的原页图片。ready表示候选可送独立核查，不表示已通过独立核查或获准发布。",
           "occurredAt": "详见本次动态与历史节点",
+          "publishedAt": "2026-11-26T08:27:37+08:00",
           "updatedAt": "2026-11-26T09:23:17+09:00",
           "compiledAt": "2026-11-26T09:23:17+09:00",
           "researchCutoff": "2026-11-26T08:03:19+08:00",
@@ -63189,6 +63190,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "b7216d7708ecfe302611",
+      "date": "2026-11-26",
+      "compiledAt": "2026-11-26T09:23:18+09:00",
+      "cutoff": "2026-11-26T08:03:19+08:00",
+      "snapshotUrl": "publications/b7216d7708ecfe302611/index.html",
+      "publishedAt": "2026-11-26T08:27:37+08:00"
+    },
     {
       "id": "3097a60c6a3235b3e3ae",
       "date": "2026-11-26",
