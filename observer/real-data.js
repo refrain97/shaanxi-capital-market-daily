@@ -5,17 +5,16 @@ window.PROTOTYPE = {
     "prototype": false,
     "publicOutput": true,
     "production": {
-      "id": "2026-11-26-dbb95f2e6cb4",
-      "compiledAt": "2026-11-26T09:23:18+09:00",
-      "cutoff": "2026-11-26T08:03:19+08:00",
-      "windowStart": "2026-11-24",
-      "windowEnd": "2026-11-26",
-      "researchCutoff": "2026-11-26T08:03:19+08:00",
-      "sourceDiscoveryCutoff": "2026-11-26T08:03:19+08:00",
+      "id": "2026-11-28-ca61dd46fd2e",
+      "compiledAt": "2026-11-28T09:02:41+09:00",
+      "cutoff": "2026-11-27T08:02:53+08:00",
+      "windowStart": "2026-11-25",
+      "windowEnd": "2026-11-27",
+      "researchCutoff": "2026-11-27T08:02:53+08:00",
+      "sourceDiscoveryCutoff": "2026-11-27T08:02:53+08:00",
       "coverageNote": "本轮仍有事项未完成研究或核查；来源覆盖存在缺口，不代表全量更新。区域来源有限；私募主体变化前后证据仍待核实。",
       "updateIds": [
-        "production-d89bdc504a6defe4d7492015",
-        "production-d54944572538b8a6df986ce8"
+        "production-3f38cd0a855e911279f80873"
       ],
       "status": "public",
       "publicUrl": "https://refrain97.github.io/shaanxi-capital-market-daily/observer/"
@@ -648,7 +647,8 @@ window.PROTOTYPE = {
       "production-93211580d64ef743c7468847": "2026-11-22T10:05:36+09:00",
       "production-348766fe791cecb393846f9d": "2026-11-22T10:07:28+09:00",
       "production-d89bdc504a6defe4d7492015": "2026-11-26T09:14:42+09:00",
-      "production-d54944572538b8a6df986ce8": "2026-11-26T09:23:17+09:00"
+      "production-d54944572538b8a6df986ce8": "2026-11-26T09:23:17+09:00",
+      "production-3f38cd0a855e911279f80873": "2026-11-28T09:02:39+09:00"
     },
     "readingPolicy": {
       "version": "listed-scope-20261019",
@@ -4861,6 +4861,13 @@ window.PROTOTYPE = {
           "group": "其他动态",
           "level": "brief",
           "summary": "申港控股2026年11月25日公告，独立调查仍在进行，公司及核数师需额外时间评估调查结果并完成余下审核程序，2026年年度业绩刊发及年报寄发将进一步延迟；截至2026年9月30日止六个月的中期业绩将延迟刊发，中期报告亦可能延迟寄发。相关刊发及寄发日期待另行公告，股份继续停牌，以待刊发上述年度及中期业绩，停牌持续至另行通知。"
+        },
+        "production-3f38cd0a855e911279f80873": {
+          "version": "listed-scope-20261019",
+          "action": "其他",
+          "group": "其他动态",
+          "level": "brief",
+          "summary": "彩虹集团新能源股份有限公司2026年11月26日公告，拟委任立信会计师事务所（特殊普通合伙）为2026年度核数师，尚待2026年12月16日临时股东会批准。现任核数师大信已提呈辞任，自股东批准委任新核数师之日起生效；本集团2026年度估计审计费用为人民币180万至210万元，并拟提请股东授权董事会厘定薪酬。"
         }
       }
     },
@@ -4870,13 +4877,13 @@ window.PROTOTYPE = {
     },
     "shareStatus": {
       "status": "no_eligible_highlights",
-      "sourceEditionId": "2026-11-26-dbb95f2e6cb4",
+      "sourceEditionId": "2026-11-28-ca61dd46fd2e",
       "selectionMode": "current"
     },
     "discoveryCoverage": {
-      "windowStart": "2026-11-24",
-      "windowEnd": "2026-11-26",
-      "cutoff": "2026-11-26T08:03:19+08:00",
+      "windowStart": "2026-11-25",
+      "windowEnd": "2026-11-27",
+      "cutoff": "2026-11-27T08:02:53+08:00",
       "partial": true
     },
     "privateFilingHistory": {
@@ -8144,8 +8151,7 @@ window.PROTOTYPE = {
       "rosterTier": "L2",
       "rosterCategory": "陕西总部或主要办公",
       "rosterAsOf": "2026-07-27",
-      "source": "公开证券或登记基础身份；保留原名单资料日期，未声称更新至今天。",
-      "publicRelation": "原观察名单内对象；陕西关联原因尚未完成本页公开资料核实。"
+      "publicRelation": "陕西关联原因尚未完成公开资料核实。"
     },
     {
       "id": "listed-8227-hk",
@@ -57519,6 +57525,52 @@ window.PROTOTYPE = {
           ]
         }
       ]
+    },
+    {
+      "id": "production-event-65e6adf98ef5896569e3",
+      "objectId": "listed-0438-hk",
+      "type": "更换核数师",
+      "topics": [
+        "拟委任立信",
+        "大信提呈辞任",
+        "审计薪酬授权"
+      ],
+      "updates": [
+        {
+          "id": "production-3f38cd0a855e911279f80873",
+          "date": "2026-11-26",
+          "time": "",
+          "title": "拟改聘立信为2026年度核数师",
+          "summary": "彩虹集团新能源股份有限公司2026年11月26日公告，拟委任立信会计师事务所（特殊普通合伙）为2026年度核数师，尚待2026年12月16日临时股东会批准。现任核数师大信已提呈辞任，自股东批准委任新核数师之日起生效；本集团2026年度估计审计费用为人民币180万至210万元，并拟提请股东授权董事会厘定薪酬。",
+          "stage": "董事会于2026年11月26日审议通过更换核数师相关决议；拟委任立信为2026年度核数师，尚待2026年12月16日临时股东会批准；大信已提呈辞任，自股东批准委任新核数师之日起生效",
+          "depth": "brief",
+          "coverage": "当次事实核查；不要求全历史研究。",
+          "occurredAt": "详见本次动态与历史节点",
+          "updatedAt": "2026-11-28T09:02:39+09:00",
+          "compiledAt": "2026-11-28T09:02:39+09:00",
+          "researchCutoff": "2026-11-27T08:02:53+08:00",
+          "disclosureLabel": "资料披露",
+          "objectNameAtDisclosure": "彩虹新能源",
+          "version": "3f38cd0a855e911279f80873a50e30d9660d94d11bf9151232d8f02fb67b982f",
+          "important": false,
+          "production": true,
+          "prototype": false,
+          "history": [],
+          "business": [],
+          "details": [],
+          "sources": [
+            {
+              "title": "建議更換核數師",
+              "publisher": "彩虹集团新能源股份有限公司",
+              "date": "2026-11-26",
+              "location": "物理第1、2、9、10页",
+              "retrievedAt": "2026-11-27T08:03:03+08:00",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112600366_c.pdf"
+            }
+          ],
+          "tables": []
+        }
+      ]
     }
   ],
   "editions": [
@@ -63190,6 +63242,14 @@ window.PROTOTYPE = {
     }
   ],
   "publications": [
+    {
+      "id": "96ca4661b0ec12b9dd50",
+      "date": "2026-11-27",
+      "compiledAt": "2026-11-26T09:23:18+09:00",
+      "cutoff": "2026-11-26T08:03:19+08:00",
+      "snapshotUrl": "publications/96ca4661b0ec12b9dd50/index.html",
+      "publishedAt": "2026-11-27T08:10:27+08:00"
+    },
     {
       "id": "b7216d7708ecfe302611",
       "date": "2026-11-26",
